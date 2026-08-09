@@ -1,0 +1,227 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0018",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0018.jsonl",
+  "draft": "work/translation/drafts/batch_0018.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0018.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 60,
+  "unchanged_units": 140,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-CA75949A1B0C574A3424",
+      "source_text": "死した者の骸を、己が\n破壊の尖兵として操る\n恐ろしい術の使い手。\nかつて悲惨な戦いが\n繰り広げられた古戦場\nなどで、黒衣をひるがえす\n少年とも少女ともつかぬ者\nの姿が目撃されているが\n真偽は定かではない",
+      "before": "죽은 자의 시신을 자신의\n파괴를 위한 첨병으로 부리는\n무시무시한 술법의 사용자.\n과거 참혹한 전투가\n벌어진 옛 전장\n등에서 검은 옷을 휘날리는\n소년인지 소녀인지 모를 자의\n모습이 목격되었다지만\n진위는 확실하지 않다",
+      "after": "죽은 자의 시신을 자신의\n파괴를 위한 첨병으로 부리는\n무시무시한 술법을 쓰는 자.\n과거 참혹한 전투가\n벌어진 옛 전장\n등에서 검은 옷을 휘날리는\n소년인지 소녀인지 모를 자의\n모습이 목격되었다지만\n진위는 확실하지 않다",
+      "category": "natural_korean",
+      "reason": "使い手를 부자연스러운 명사 결합인 〈술법의 사용자〉가 아니라 자연스러운 〈술법을 쓰는 자〉로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CCAC48465ECCF5E50ACD",
+      "source_text": "ザムエルは武芸塾の２階にいる",
+      "before": "자무엘은 무예 도장의 2층에 있다",
+      "after": "자무엘은 무예관 2층에 있다",
+      "category": "glossary_place_name",
+      "reason": "武芸塾의 승인 표기인 〈무예관〉을 적용해 자무엘 무예관 관련 지명과 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-CD896BCCA6656D2BAA0D",
+      "source_text": "メイド紀行〜聖都編",
+      "before": "메이드 기행〜성도편",
+      "after": "메이드 기행〜성도 편",
+      "category": "title_spacing",
+      "reason": "연작 퀘스트 제목의 〈편〉 의존 명사를 띄어 기존 〈대도시 편〉 계열과 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-CDE6301B448F52A7EF95",
+      "source_text": "<$7F><$02>ＨＰＳＰ変換",
+      "before": "<$7F><$02>HPSP 변환",
+      "after": "<$7F><$02>HP/SP 변환",
+      "category": "system_term_readability",
+      "reason": "두 자원 HP와 SP의 변환 관계가 즉시 드러나도록 프로젝트의 복합 능력치 표기인 슬래시 형식을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-CE117F8913758579FC01",
+      "source_text": "<$0F>j| レテアの森",
+      "before": "<$0F>j| 레테아의 숲",
+      "after": "<$0F>j| 레테아 숲",
+      "category": "glossary_place_name",
+      "reason": "지명 レテアの森를 승인 표기 〈레테아 숲〉으로 교정하고 구조 접두부는 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-CEAA29CEAFBC1293E4B7",
+      "source_text": "バトルメニューのひとつ。\n戦闘中に行う<$13>14<$1F>000000<$1F>01<$13>00は\n行動選択から展開される\nコマンドと同義となる",
+      "before": "배틀 메뉴 중 하나.\n전투 중 실행하는 <$13>14<$1F>000000<$1F>01<$13>00은\n행동 선택에서 펼쳐지는\n명령과 같은 뜻이다",
+      "after": "배틀 메뉴 중 하나.\n전투 중 실행하는 <$13>14<$1F>000000<$1F>01<$13>00은\n행동 선택에서 열리는\n명령과 같은 의미다",
+      "category": "help_text_naturalness",
+      "reason": "展開されるコマンド의 메뉴 동작을 〈행동 선택에서 열리는 명령〉으로 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-CEB81F2D407C1F3B629C",
+      "source_text": "<$13>14<$1F>00009F<$1F>01<$13>00レベル１の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人の<$13>14<$1F>000003<$1F>01<$13>00を回復する。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nヒーリングティアでは\n追加効果として<$13>14<$1F>000017<$1F>01<$13>00\n以外の<$13>14<$1F>000016<$1F>01<$13>00をランダム\nでひとつ、<$13>14<$1F>000021<$1F>01<$13>00による\n能力値ダウンを回復する",
+      "before": "<$13>14<$1F>00009F<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000003<$1F>01<$13>00를 회복한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n힐링 티어에서는\n추가 효과로 <$13>14<$1F>000017<$1F>01<$13>00\n이외의 <$13>14<$1F>000016<$1F>01<$13>00을 무작위로\n하나, <$13>14<$1F>000021<$1F>01<$13>00로 인한\n능력치 하락을 회복한다",
+      "after": "<$13>14<$1F>00009F<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000003<$1F>01<$13>00를 회복한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n힐링 티어에서는\n추가 효과로 <$13>14<$1F>000017<$1F>01<$13>00\n이외의 <$13>14<$1F>000016<$1F>01<$13>00을 무작위로\n하나 회복하고, <$13>14<$1F>000021<$1F>01<$13>00로 인한\n능력치 하락도 회복한다",
+      "category": "battle_function_meaning",
+      "reason": "무작위 상태 이상 하나와 상태 변화에 따른 능력치 하락을 모두 회복한다는 두 효과의 병렬 관계를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-CEFF861789449BB5CFA9",
+      "source_text": "<$1B>すれちがい",
+      "before": "<$1B>스쳐 지나감",
+      "after": "<$1B>엇갈림",
+      "category": "chat_title_naturalness",
+      "reason": "대화 제목 문맥의 すれちがい를 물리적 동작처럼 보이는 〈스쳐 지나감〉보다 자연스러운 〈엇갈림〉으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-D00DD48AED6527A06D4D",
+      "source_text": "<$13>14<$1F>0000A5<$1F>01<$13>00レベル２の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人の<$13>14<$1F>000003<$1F>01<$13>00を回復し\n<$13>14<$1F>000039<$1F>01<$13>00状態にする。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nホーリーブレスでは\n<$13>14<$1F>000039<$1F>01<$13>00の効果量が大きくなる",
+      "before": "<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000003<$1F>01<$13>00를 회복하고\n<$13>14<$1F>000039<$1F>01<$13>00 상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n홀리 브레스에서는\n<$13>14<$1F>000039<$1F>01<$13>00 효과가 커진다",
+      "after": "<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000003<$1F>01<$13>00를 회복하고\n<$13>14<$1F>000039<$1F>01<$13>00 상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n홀리 브레스에서는\n<$13>14<$1F>000039<$1F>01<$13>00의 효과량이 커진다",
+      "category": "battle_function_precision",
+      "reason": "効果量를 단순 효과가 아니라 〈효과량〉으로 명시해 증폭되는 기계적 수치를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D07C57B329E5E0B68A28",
+      "source_text": "レテアの森から害鳥が\n作物を荒らしに来るんだ。\nレテアの森とトパジオン近辺にいる\n害鳥を駆除してもらえんだろうか？",
+      "before": "레테아의 숲에서 해로운 새들이\n작물을 망치러 온다네.\n레테아의 숲과 토파지온 근처에 있는\n해로운 새들을 퇴치해 주지 않겠나?",
+      "after": "레테아 숲에서 해로운 새들이\n작물을 망치러 온다네.\n레테아 숲과 토파지온 근처에 있는\n해로운 새들을 퇴치해 주지 않겠나?",
+      "category": "glossary_place_name",
+      "reason": "두 차례 등장하는 지명 レテアの森를 모두 승인 표기 〈레테아 숲〉으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D142C8EC00C67C597ED9",
+      "source_text": "<$15>01物理攻撃時、魔獣系へ与える\nダメージが大きく上昇する",
+      "before": "<$15>01물리 공격 시 마수형에게 주는\n피해가 크게 증가한다",
+      "after": "<$15>01물리 공격 시 마수계에게 주는\n피해가 크게 증가한다",
+      "category": "enemy_family_terminology",
+      "reason": "魔獣系를 기존 승인 전투 설명과 동일한 〈마수계〉로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D1EC089B51B4F619A633",
+      "source_text": "水のジェムの破片。工房で修復できる\n修復必要個数：５個",
+      "before": "물의 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개",
+      "after": "물 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개",
+      "category": "item_series_consistency",
+      "reason": "젬 파편 계열의 승인 명명 형식에 맞춰 중복 조사 〈물의 젬의〉를 〈물 젬의〉로 교정했다."
+    },
+    {
+      "tm_id": "ARF-TM-D22D05EE2864927E8175",
+      "source_text": "にぎやかな首都の石畳を颯爽と歩くには\n時の流れにも愛された衣装が必要",
+      "before": "활기찬 수도의 돌길을 늠름하게 걷기 위해서는\n시간의 흐름마저 사랑한 옷이 필요하다",
+      "after": "활기찬 수도의 돌길을 늠름하게 걷기 위해서는\n세월의 흐름에도 사랑받는 의상이 필요하다",
+      "category": "item_flavor_meaning",
+      "reason": "時の流れにも愛された의 피동 관계를 바로잡아 세월에도 사랑받는 의상이라는 뜻을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D2E553F96BDDD27E8381",
+      "source_text": "<$13>14<$1F>00005C<$1F>01<$13>00の使用に\n必要となる値。\n<$13>14<$1F>000000<$1F>01<$13>00や、被ダメージ等で\n上昇する。\n更に戦闘中の時間の\n経過に応じて僅かに値が\n上昇する。\nなお、宿屋に泊まっても\nＳＰは上昇しない",
+      "before": "<$13>14<$1F>00005C<$1F>01<$13>00 사용에\n필요한 수치.\n<$13>14<$1F>000000<$1F>01<$13>00이나 피해를 받으면\n상승한다.\n또한 전투 중 시간이\n흐름에 따라 수치가 소폭\n상승한다.\n여관에 묵어도\nSP는 상승하지 않는다",
+      "after": "<$13>14<$1F>00005C<$1F>01<$13>00 사용에\n필요한 수치.\n<$13>14<$1F>000000<$1F>01<$13>00이나 피해를 받으면\n상승한다.\n또한 전투 중 시간의\n경과에 따라 수치가 소폭\n상승한다.\n여관에 묵어도\nSP는 상승하지 않는다",
+      "category": "help_text_grammar",
+      "reason": "時間の経過를 〈시간이 흐름〉이 아닌 자연스러운 〈시간의 경과〉로 교정했다."
+    },
+    {
+      "tm_id": "ARF-TM-D2E9B7D94B02A6FC95A5",
+      "source_text": "謎の太刀使い",
+      "before": "수수께끼의 태도 사용자",
+      "after": "수수께끼의 태도술사",
+      "category": "title_naturalness",
+      "reason": "太刀使い를 직역투인 〈태도 사용자〉 대신 자연스러운 직업·인물 호칭 〈태도술사〉로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D3153CCA10FBD2810A68",
+      "source_text": "サージュが絡んだイベント？",
+      "before": "사쥬가 관련된 이벤트?",
+      "after": "사쥬가 얽힌 이벤트?",
+      "category": "developer_text_naturalness",
+      "reason": "絡んだ의 의미를 〈관련된〉보다 자연스러운 〈얽힌〉으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-D46DD15D59CF2D0A04BD",
+      "source_text": "物理攻撃時、植物系へ与える\nダメージが大きく上昇する",
+      "before": "물리 공격 시 식물형에게 주는\n피해가 크게 증가한다",
+      "after": "물리 공격 시 식물계에 주는\n피해가 크게 증가한다",
+      "category": "enemy_family_terminology",
+      "reason": "植物系를 기존 승인 전투 설명과 동일한 〈식물계〉로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D4C972692A9A237D6EF9",
+      "source_text": "敵から得られるＥＸＰが上昇",
+      "before": "적에게서 얻는 EXP 상승",
+      "after": "적에게서 얻는 EXP 증가",
+      "category": "system_effect_naturalness",
+      "reason": "획득 효과명 문체를 기존 WP 계열과 같은 〈증가〉 형식으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D54883C41FB7B786C5A2",
+      "source_text": "<$13>14<$1F>000142<$1F>01<$13>00の最奥に\nそびえたつ巨大な神殿。\n教都として名高い\nアントラクスにおいても\nとりわけ高き神性を宿す\nこの地こそ、<$13>14<$1F>000145<$1F>01<$13>00を\n信ずる者の魂の故郷と\n呼ぶにふさわしい",
+      "before": "<$13>14<$1F>000142<$1F>01<$13>00의 가장 깊은 곳에\n우뚝 솟은 거대한 신전.\n종교 수도로 이름 높은\n안트락스에서도\n특히 높은 신성을 품은\n이곳이야말로 <$13>14<$1F>000145<$1F>01<$13>00를\n믿는 이들의 영혼의 고향이라\n부르기에 걸맞다",
+      "after": "<$13>14<$1F>000142<$1F>01<$13>00의 가장 깊은 곳에\n우뚝 솟은 거대한 신전.\n교도로 이름 높은\n안트락스에서도\n특히 높은 신성을 품은\n이곳이야말로 <$13>14<$1F>000145<$1F>01<$13>00를\n믿는 이들의 영혼의 고향이라\n부르기에 걸맞다",
+      "category": "lore_terminology",
+      "reason": "설정상 도읍 유형 教都를 기존 승인 표기 〈교도〉로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D66AB30F766F64803A7D",
+      "source_text": "どの国の剣士が身につけるものとも異なる\n大振りな刃を帯刀する姿には威風が漂う",
+      "before": "어느 나라의 검사들이 입는 것과도 다른\n커다란 칼을 찬 모습에는 위엄이 감돈다",
+      "after": "어느 나라 검사의 차림과도 다른\n커다란 칼을 찬 모습에서 위엄이 풍긴다",
+      "category": "item_flavor_grammar",
+      "reason": "身につけるもの와 帯刀する姿의 수식 관계를 바로잡아 검사의 차림과 커다란 칼을 찬 모습을 자연스럽게 연결했다."
+    },
+    {
+      "tm_id": "ARF-TM-D67143722D5164E4D7B2",
+      "source_text": "烈風のジェムの破片。工房で修復できる\n修復必要個数：５個",
+      "before": "열풍의 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개",
+      "after": "열풍 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개",
+      "category": "item_series_consistency",
+      "reason": "젬 파편 계열의 승인 명명 형식에 맞춰 중복 조사 〈열풍의 젬의〉를 〈열풍 젬의〉로 교정했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_task_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 40,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span."
+  },
+  "hashes": {
+    "reviewed_sha256": "B985887A3A3ED95A4B54EBFDA0D754C47EBFB133BC7F6D3A2E79D00CB95F25F7"
+  },
+  "fixed_field_fit_application": {
+    "status": "applied",
+    "source": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+    "source_sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5",
+    "corrected_units_in_batch": 5,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

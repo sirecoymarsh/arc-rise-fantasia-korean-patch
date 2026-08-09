@@ -1,0 +1,240 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0039",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0039.jsonl",
+  "draft": "work/translation/drafts/batch_0039.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0039.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 25,
+  "unchanged_units": 175,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-D5E2FD532E1B32ACFB17",
+      "source_text": "頼んだ覚えはねーよ",
+      "before": "부탁한 기억 없는데",
+      "after": "부탁한 기억은 없는데",
+      "category": "grammar",
+      "reason": "목적어를 꾸미는 관형 표현에 필요한 조사를 보충했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6953F6F54E02D0D4FD1",
+      "source_text": "アルスなんていつも口ばっかり！\nディノス。行きましょう",
+      "before": "알스는 늘 말뿐이야!\n디노스. 가자",
+      "after": "알스는 늘 말뿐이야!\n디노스. 가요",
+      "category": "speaker_voice",
+      "reason": "디노스에게 건네는 정중한 권유 어조를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D75654D8DE571FE319B4",
+      "source_text": "リフィアには特別な力があるからね。\nだから僕たちと一緒に\n行動してもらっているんだ",
+      "before": "리피아에게는 특별한 힘이 있으니까.\n그래서 우리와 함께\n행동해 달라고 한 거야",
+      "after": "리피아에게는 특별한 힘이 있으니까.\n그래서 우리와 함께\n행동해 주고 있는 거야",
+      "category": "meaning",
+      "reason": "行動してもらっている를 부탁한 과거가 아니라 현재 동행 중이라는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-D871FB889DB6A70DDDCD",
+      "source_text": "大人は子どものお守りをしなければ\nならぬものだからな。\n私としても致し方ない",
+      "before": "어른은 아이를 돌봐야\n하는 법이니까.\n나로서도 어쩔 수 없지",
+      "after": "어른은 아이를 돌봐야\n하는 법이니까.\n나로서도 어쩔 수 없다",
+      "category": "speaker_voice",
+      "reason": "오이겐의 격식 있는 종결 어조로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D88E4929383F2A7DA57E",
+      "source_text": "そう言われれば、そうかも。\nだらしくなく笑っちゃってる\n感じが出てるわ",
+      "before": "그렇게 들으니, 그럴지도.\n칠칠맞게 웃고 있는\n느낌이 나",
+      "after": "그러고 보니 그럴지도.\n헤벌쭉 웃고 있는\n느낌이 나",
+      "category": "meaning",
+      "reason": "だらしなく笑う의 흐트러진 웃는 인상을 자연스럽게 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-D8EFBB5E9AEA1DD87791",
+      "source_text": "パサパサしてて紙くずみたいでさ\nんで口に入れるとどろどろになって\n食感がちょー気持ち悪いの！",
+      "before": "푸석푸석해서 종잇조각 같고\n입에 넣으면 질척질척해져서\n식감이 엄청 기분 나빠!",
+      "after": "푸석푸석해서 종잇조각 같고\n입에 넣으면 질척질척해져서\n식감이 완전 끔찍해!",
+      "category": "naturalness",
+      "reason": "식감에 대한 강한 혐오를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D908FBB1C31D3134B981",
+      "source_text": "リフィア、気にすんなよな。\nおふくろのことは心配いらねーよ。\n俺よりも、ずっとつえー人なんだぜ？",
+      "before": "리피아, 신경 쓰지 마.\n어머니는 걱정 안 해도 돼.\n나보다 훨씬 강한 사람이거든?",
+      "after": "리피아, 신경 쓰지 마.\n우리 엄마는 걱정 안 해도 돼.\n나보다 훨씬 강한 사람이거든?",
+      "category": "speaker_voice",
+      "reason": "라르크가 어머니를 부르는 친근하고 거친 말투를 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-D952F24629FB49E54C6B",
+      "source_text": "いつだって世間は騒がしいです\n僕の身の回りもいつもそう\n怪しい動きを見せています",
+      "before": "세상은 언제나 시끌벅적합니다\n제 주변도 늘 그렇고\n수상한 움직임을 보이고 있습니다",
+      "after": "세상은 언제나 시끄럽습니다\n제 주변도 늘 그렇고\n수상한 움직임을 보이고 있습니다",
+      "category": "meaning",
+      "reason": "騒がしい를 활기찬 뜻의 시끌벅적이 아니라 시끄럽다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DB5617A989F1003C890D",
+      "source_text": "そうね。\nいつか、彼女の元へ帰る日が\n来るように願っておくわ",
+      "before": "그러네.\n언젠가 그녀에게 돌아갈 날이\n오기를 빌어 둘게",
+      "after": "그러네.\n언젠가 그녀에게 돌아갈 날이\n오기를 빌게",
+      "category": "naturalness",
+      "reason": "願っておく의 바람을 부자연스러운 보조 표현 없이 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DB80962E3300C5079271",
+      "source_text": "ザムエルじーさんも\nとっとと隠居すりゃいいんだ",
+      "before": "자무엘 영감도\n얼른 은퇴하면 좋겠어",
+      "after": "자무엘 할아버지도\n얼른 은퇴하면 좋겠어",
+      "category": "proper_noun",
+      "reason": "라르크가 자무엘을 부르는 호칭을 기존 표기인 할아버지로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-DBDFFA75E685B1A9769C",
+      "source_text": "新帝国憲章下のディアマントだ\nしかも上層ともなれば\n進入は困難であったはず",
+      "before": "신제국 헌장 아래의 디아만트다\n그것도 상층이라면\n침입하기 어려웠을 텐데",
+      "after": "신제국 헌장 아래의 디아만트다\n그것도 상층이라면\n침입하기 어려웠을 것이다",
+      "category": "speaker_voice",
+      "reason": "격식 있는 화자의 추론 종결로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-DC990E696DECFF9F196F",
+      "source_text": "いいじゃないっスか。\nオパルスに滞在してる以上は\nやっぱりこの制服っスよ",
+      "before": "괜찮잖슴까.\n오팔루스에 머무는 동안엔\n역시 이 교복임다",
+      "after": "괜찮잖슴까.\n오팔루스에 머무는 동안엔\n역시 이 교복임다",
+      "category": "speaker_voice",
+      "reason": "니콜의 고유 말투를 세 행에 일관되게 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DD1F400C089EB7DF591C",
+      "source_text": "いいじゃないですかアニキ。\n俺はけっこうお気に入りっスよ。\nこういう学園とか行ったことないし",
+      "before": "괜찮잖아요, 형님.\n전 꽤 마음에 듬다.\n이런 학원에는 가 본 적도 없고",
+      "after": "괜찮잖슴까, 형님.\n전 꽤 마음에 든단 말임다.\n이런 학원에는 가 본 적도 없고",
+      "category": "speaker_voice",
+      "reason": "니콜의 고유 말투를 세 행에 일관되게 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DD87FAEC6ABD5045859D",
+      "source_text": "……あ……。そういえばそうだな。\n今のあの人は、俺の……\n敵なんだっけ",
+      "before": "……아……. 그러고 보니 그렇군.\n지금 그 사람은 내……\n적이었던가",
+      "after": "……아……. 그러고 보니 그렇네.\n지금 그 사람은 내……\n적이었지",
+      "category": "speaker_voice",
+      "reason": "라르크의 거친 반말과 뒤늦게 깨닫는 어조를 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-DE0E3D5B21BC5FD22108",
+      "source_text": "これからのことを\n考えてしまうようになった",
+      "before": "앞으로의 일을\n생각하게 됐어",
+      "after": "앞으로의 일을\n생각하게 되었다",
+      "category": "speaker_voice",
+      "reason": "오이겐의 격식 있는 회상 종결로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-DE152938D6CF445B53AF",
+      "source_text": "あァ？\nいや……そうかもな。\n俺は腹を立ててる",
+      "before": "아앙?\n아니…… 그럴지도 모르겠군.\n난 화가 나 있어",
+      "after": "어?\n아니…… 그럴지도 몰라.\n난 화가 나 있어",
+      "category": "speaker_voice",
+      "reason": "라르크의 거친 반말을 고풍스러운 어조에서 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DEBF3153D0825AF60910",
+      "source_text": "珊瑚の生育には時間がかかるはずだが\n空中回廊周辺の発育ぶりには\nすさまじいものがあるな",
+      "before": "산호가 자라려면 시간이 걸릴 텐데\n공중 회랑 주변의 발육은\n엄청나군",
+      "after": "산호가 자라려면 시간이 걸릴 텐데\n공중 회랑 주변의 성장세는\n엄청나군",
+      "category": "naturalness",
+      "reason": "산호의 発育ぶり를 생물의 성장세라는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DFBF60D5BCC7AF993DF6",
+      "source_text": "アニキには感謝してるッス……",
+      "before": "형님께는 감사하고 있슴다……",
+      "after": "형님께는 감사함다……",
+      "category": "speaker_voice",
+      "reason": "니콜의 말투로 간결하고 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E0D1EA0D0CDF12C7853C",
+      "source_text": "濁竜の尻尾をぶった切って\n注意を自分に向けて\nオレを助けてくれたんですよ〜",
+      "before": "탁룡의 꼬리를 잘라 내서\n주의를 자기 쪽으로 돌리고\n절 구해 줬다니까요〜",
+      "after": "탁룡의 꼬리를 잘라 내고\n주의를 자기 쪽으로 돌려\n저를 구해 줬슴다〜",
+      "category": "speaker_voice",
+      "reason": "니콜의 고유 말투와 동작의 연계를 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E0FACD63D6FEDDB104BA",
+      "source_text": "じーさんは\nアデールに対しては甘いんだよ。\n俺たちには厳しいくせに",
+      "before": "영감은\n아델한테는 무르다고.\n우리한테는 엄격하면서",
+      "after": "할아버지는\n아델한테는 무르다고.\n우리한테는 엄격하면서",
+      "category": "proper_noun",
+      "reason": "자무엘을 가리키는 호칭을 기존 인물 말투에 맞게 할아버지로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-E0FE76C398C81B53C5E1",
+      "source_text": "どこかの学園に通っている\n生徒だったら。友達に\nなれていたのかな？",
+      "before": "어딘가의 학원에 다니는\n학생이었다면. 친구가\n될 수 있었을까?",
+      "after": "어딘가의 학교에 다니는\n학생이었다면, 친구가\n될 수 있었을까?",
+      "category": "naturalness",
+      "reason": "学園을 학원이 아니라 학교로 옮기고 가정문을 자연스럽게 연결했다."
+    },
+    {
+      "tm_id": "ARF-TM-E1185154CB5D3ADEF1C0",
+      "source_text": "ねちねちしつこい先輩だったんで\nホント助かったッス!!\nアニキには恩義があるッスよ……",
+      "before": "끈질기게 들러붙는 선배였는데\n정말 살았슴다!!\n형님께는 은혜가 있슴다……",
+      "after": "끈질기게 들러붙는 선배였는데\n정말 살았슴다!!\n형님께는 은혜를 입었슴다……",
+      "category": "meaning",
+      "reason": "恩義がある를 은혜가 존재한다가 아니라 은혜를 입어 빚진 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E13CE3FC8AA86302AE0F",
+      "source_text": "本当に雪が\n音をたててるんじゃないのに\nそんなふうに聞こえるとゆーか",
+      "before": "정말 눈이\n소리를 내는 건 아닌데 그렇게 들린달까",
+      "after": "정말 눈이\n소리를 내는 건 아닌데\n그렇게 들린달까",
+      "category": "line_breaks",
+      "reason": "원문의 세 행 구조를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E14F25AD0D0397A27EF6",
+      "source_text": "アニキ、なんか不満そうですね",
+      "before": "형님, 뭔가 불만스러워 보이네요",
+      "after": "형님, 뭔가 불만스러워 보임다",
+      "category": "speaker_voice",
+      "reason": "니콜 특유의 말투로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-E1E5ED7AB84DC6B53F2B",
+      "source_text": "ニコル、兄上は僕より年上だし\n僕は、僕よりも兄上の方が\n皇帝にふさわしいと思ってる",
+      "before": "니콜, 형님은 나보다 연상이고\n나는 나보다 형님이\n황제에 어울린다고 생각해",
+      "after": "니콜, 형님은 나보다 연상이고\n나보다는 형님이\n황제에 더 어울린다고 생각해",
+      "category": "grammar",
+      "reason": "비교 대상과 주어의 관계를 자연스럽게 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

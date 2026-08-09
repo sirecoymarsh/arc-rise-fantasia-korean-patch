@@ -1,0 +1,152 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0074",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0074.jsonl",
+  "draft": "work/translation/drafts/batch_0074.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0074.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 14,
+  "unchanged_units": 186,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-AA04FDB019F8F06DAD5D",
+      "source_text": "うへぇ……待って下さいよ。\nじゃあ、せめて顔を洗って\nリフレッシュさせて下さい",
+      "before": "으헤…… 기다려 주세요.\n그럼 적어도 세수라도 하고\n기분을 좀 상쾌하게 해 주세요",
+      "after": "으헤…… 기다려 주세요.\n그럼 적어도 세수라도 하고\n기분 전환 좀 하게 해 주세요",
+      "category": "meaning",
+      "reason": "화자 자신이 기분을 전환하겠다는 의미가 드러나도록 사역 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-AA58FB67C00DD5B5F7FF",
+      "source_text": "ニコル。頑張りましょう。\nアデールは１人で心細い思いを\nしているのよ",
+      "before": "니콜. 힘내자.\n아델은 １명이서 불안한 시간을\n보내고 있을 거야",
+      "after": "니콜. 힘내자.\n아델은 １명 혼자라 마음이\n불안할 거야",
+      "category": "grammar",
+      "reason": "전각 숫자 '１'을 보존하면서 '１명이서'의 잘못된 조사를 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-ACA63F687FF0AAED5EC1",
+      "source_text": "何のために、今、こうして\n姉さんと話してるんだろう？",
+      "before": "무엇 때문에 지금 이렇게\n누나와 이야기하고 있는 걸까?",
+      "after": "난 왜 지금 이렇게\n누나와 이야기하고 있는 걸까?",
+      "category": "naturalness",
+      "reason": "스스로 대화의 목적을 되묻는 독백을 자연스러운 한국어 어순으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-AD54FD418CF9234D8A4C",
+      "source_text": "あら、サージュ。\nどこにそんな大きな器を\n持ってるの？",
+      "before": "어머, 사쥬.\n어디에 그렇게 큰 그릇을\n지니고 있는 거야?",
+      "after": "어머, 사쥬.\n그렇게 큰 그릇은 대체\n어디에 숨겨 둔 거야?",
+      "category": "idiom",
+      "reason": "도량을 뜻하는 비유적 '器'가 한국어에서도 자연스럽게 읽히도록 표현을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-AEF57136A3316C1E447C",
+      "source_text": "兄上。玉座を簒奪致します",
+      "before": "형님. 왕좌를 찬탈하겠습니다",
+      "after": "형님. 옥좌를 찬탈하겠습니다",
+      "category": "terminology",
+      "reason": "황제의 자리인 '玉座'를 프로젝트의 기존 표기인 '옥좌'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B5CE2D7C9123EC17055B",
+      "source_text": "ぎゃああ――――っ！",
+      "before": "꺄아아――――!",
+      "after": "으아아――――!",
+      "category": "speaker_voice",
+      "reason": "거친 비명인 'ぎゃああ'의 강도를 성별을 불필요하게 특정하지 않는 감탄사로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-B6C7DDA2F47F871C7BB0",
+      "source_text": "凄いわ！\n『しお』が引いたのね？",
+      "before": "대단해!\n『물』이 빠졌구나?",
+      "after": "대단해!\n『조수』가 빠졌구나?",
+      "category": "word_choice",
+      "reason": "직전에 배운 해수면 변화 개념인 '潮'를 설정 설명과 일치하는 '조수'로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-B7E981F4AB376EAF416D",
+      "source_text": "イベント\nイベント君 消去",
+      "before": "이벤트\n이벤트 군 삭제",
+      "after": "이벤트\n이벤트 캐릭터 삭제",
+      "category": "terminology",
+      "reason": "개발용 객체명 'イベント君'을 같은 계열 문자열과 일치하도록 '이벤트 캐릭터'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-BC98540213FCD9B4C253",
+      "source_text": "ラグーン殿には、今しばらくの間\n宿屋にて待つように。\n宿の手続きはこちらでしておく",
+      "before": "라군 공은 잠시\n여관에서 기다리도록 하십시오.\n숙박 절차는 이쪽에서 처리하겠습니다",
+      "after": "라군 공께서는 당분간\n여관에서 기다려 주십시오.\n숙박 절차는 이쪽에서 처리하겠습니다",
+      "category": "honorifics",
+      "reason": "높임 조사와 명령형을 공식 안내 장면에 맞게 일관되게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-BDD5491DB4C9668E62FF",
+      "source_text": "お母様はシムマフなら\nそのための道筋を\n教えてくれると仰っていた",
+      "before": "어머님은 심마프라면\n그곳으로 가는 길을\n알려 줄 거라고 하셨어",
+      "after": "어머님은 심마프라면\n그것을 위한 길을\n알려 줄 거라고 하셨어",
+      "category": "meaning",
+      "reason": "물리적인 특정 장소가 아니라 목적을 이루는 방도를 뜻하는 원문의 범위를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-BE561484EC31C7308606",
+      "source_text": "イマジナルの定理をイーサ神に\n出さなきゃいけないんでしょ？",
+      "before": "이매지널의 섭리를 이사신에게\n내야 하는 거지?",
+      "after": "이매지널의 섭리를 이사신에게\n제시해야 하는 거지?",
+      "category": "word_choice",
+      "reason": "섭리를 신에게 내보인다는 '出す'를 설정 문맥에 맞는 '제시하다'로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-C172F85CAC2C4ABB6877",
+      "source_text": "あっちとかこっちとか\nもっとまともな説明は\nできんのか!?",
+      "before": "저쪽이니 이쪽이니 하지 말고\n좀 제대로 설명할 수\n없어!?",
+      "after": "저쪽이니 이쪽이니 하지 말고\n좀 더 제대로\n설명할 수는 없어!?",
+      "category": "line_breaks",
+      "reason": "원문의 세 줄 수를 지키면서 한국어 의미 덩어리에 맞게 줄바꿈과 어순을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CA0728D6B6F48ED2FE8D",
+      "source_text": "……弟？\n兄貴の間違いじゃないのか？",
+      "before": "……동생?\n형을 잘못 말한 거 아니야?",
+      "after": "……동생?\n형이라고 해야 하는 거 아니야?",
+      "category": "naturalness",
+      "reason": "동생과 형을 정정하는 반문이 자연스럽게 전달되도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-CB2E6AB415CC2768178A",
+      "source_text": "ほっとくと飛光艇動かして\n１人で行っちゃいそう。\n早く追いかけようよ",
+      "before": "내버려 두면 비광정을 움직여서\n１명이서 가 버릴 것 같아.\n빨리 쫓아가자",
+      "after": "내버려 두면 비광정을 움직여서\n１명 혼자 가 버릴 것 같아.\n빨리 쫓아가자",
+      "category": "grammar",
+      "reason": "전각 숫자 '１'을 보존하면서 '１명이서'의 잘못된 조사를 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

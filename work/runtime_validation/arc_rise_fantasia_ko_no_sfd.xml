@@ -1,0 +1,1624 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wiidisc version="1">
+  <id game="RPJ" developer="99" disc="0" version="0">
+    <region type="J" />
+  </id>
+  <options>
+    <section name="Arc Rise Fantasia">
+      <option id="arf-ko-full-option" name="Korean Full Text Patch" default="1">
+        <choice name="Enabled">
+          <patch id="arf-ko-full" />
+        </choice>
+      </option>
+    </section>
+  </options>
+  <patch id="arf-ko-full" root="/arc_rise_fantasia_ko_full/files">
+    <file disc="/Btl/btl_tutorial.vld" external="Btl/btl_tutorial.vld" resize="false" />
+    <file disc="/Btl/btl_usual.vol" external="Btl/btl_usual.vol" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_00.wtm" external="Event/endroll/EV09_18_0200C_00.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_01.wtm" external="Event/endroll/EV09_18_0200C_01.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_02.wtm" external="Event/endroll/EV09_18_0200C_02.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_03.wtm" external="Event/endroll/EV09_18_0200C_03.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_04.wtm" external="Event/endroll/EV09_18_0200C_04.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_05.wtm" external="Event/endroll/EV09_18_0200C_05.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_06.wtm" external="Event/endroll/EV09_18_0200C_06.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_07.wtm" external="Event/endroll/EV09_18_0200C_07.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_08.wtm" external="Event/endroll/EV09_18_0200C_08.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_09.wtm" external="Event/endroll/EV09_18_0200C_09.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_10.wtm" external="Event/endroll/EV09_18_0200C_10.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_11.wtm" external="Event/endroll/EV09_18_0200C_11.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_12.wtm" external="Event/endroll/EV09_18_0200C_12.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_13.wtm" external="Event/endroll/EV09_18_0200C_13.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_14.wtm" external="Event/endroll/EV09_18_0200C_14.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_15.wtm" external="Event/endroll/EV09_18_0200C_15.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_16.wtm" external="Event/endroll/EV09_18_0200C_16.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_17.wtm" external="Event/endroll/EV09_18_0200C_17.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_18.wtm" external="Event/endroll/EV09_18_0200C_18.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_19.wtm" external="Event/endroll/EV09_18_0200C_19.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_20.wtm" external="Event/endroll/EV09_18_0200C_20.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_21.wtm" external="Event/endroll/EV09_18_0200C_21.wtm" resize="false" />
+    <file disc="/Event/endroll/EV09_18_0200C_22.wtm" external="Event/endroll/EV09_18_0200C_22.wtm" resize="false" />
+    <file disc="/Event/exp/exp_fc_000.vol" external="Event/exp/exp_fc_000.vol" resize="true" />
+    <file disc="/Event/exp/exp_fc_001.vol" external="Event/exp/exp_fc_001.vol" resize="true" />
+    <file disc="/Event/exp/exp_fc_002.vol" external="Event/exp/exp_fc_002.vol" resize="true" />
+    <file disc="/Event/exp/exp_fc_003.vol" external="Event/exp/exp_fc_003.vol" resize="true" />
+    <file disc="/Event/exp/exp_fc_004.vol" external="Event/exp/exp_fc_004.vol" resize="true" />
+    <file disc="/Event/exp/exp_fc_005.vol" external="Event/exp/exp_fc_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_001.vol" external="Event/fc/fc_00_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_002.vol" external="Event/fc/fc_00_002.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_003.vol" external="Event/fc/fc_00_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_004.vol" external="Event/fc/fc_00_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_005.vol" external="Event/fc/fc_00_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_006.vol" external="Event/fc/fc_00_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_007.vol" external="Event/fc/fc_00_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_008.vol" external="Event/fc/fc_00_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_009.vol" external="Event/fc/fc_00_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_010.vol" external="Event/fc/fc_00_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_011.vol" external="Event/fc/fc_00_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_012.vol" external="Event/fc/fc_00_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_013.vol" external="Event/fc/fc_00_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_014.vol" external="Event/fc/fc_00_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_015.vol" external="Event/fc/fc_00_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_016.vol" external="Event/fc/fc_00_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_017.vol" external="Event/fc/fc_00_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_018.vol" external="Event/fc/fc_00_018.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_019.vol" external="Event/fc/fc_00_019.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_020.vol" external="Event/fc/fc_00_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_021.vol" external="Event/fc/fc_00_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_022.vol" external="Event/fc/fc_00_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_023.vol" external="Event/fc/fc_00_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_024.vol" external="Event/fc/fc_00_024.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_025.vol" external="Event/fc/fc_00_025.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_026.vol" external="Event/fc/fc_00_026.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_027.vol" external="Event/fc/fc_00_027.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_028.vol" external="Event/fc/fc_00_028.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_029.vol" external="Event/fc/fc_00_029.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_030.vol" external="Event/fc/fc_00_030.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_031.vol" external="Event/fc/fc_00_031.vol" resize="false" />
+    <file disc="/Event/fc/fc_00_032.vol" external="Event/fc/fc_00_032.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_033.vol" external="Event/fc/fc_00_033.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_034.vol" external="Event/fc/fc_00_034.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_035.vol" external="Event/fc/fc_00_035.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_036.vol" external="Event/fc/fc_00_036.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_037.vol" external="Event/fc/fc_00_037.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_038.vol" external="Event/fc/fc_00_038.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_039.vol" external="Event/fc/fc_00_039.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_040.vol" external="Event/fc/fc_00_040.vol" resize="false" />
+    <file disc="/Event/fc/fc_00_041.vol" external="Event/fc/fc_00_041.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_042.vol" external="Event/fc/fc_00_042.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_043.vol" external="Event/fc/fc_00_043.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_044.vol" external="Event/fc/fc_00_044.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_045.vol" external="Event/fc/fc_00_045.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_046.vol" external="Event/fc/fc_00_046.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_047.vol" external="Event/fc/fc_00_047.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_048.vol" external="Event/fc/fc_00_048.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_049.vol" external="Event/fc/fc_00_049.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_050.vol" external="Event/fc/fc_00_050.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_051.vol" external="Event/fc/fc_00_051.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_052.vol" external="Event/fc/fc_00_052.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_053.vol" external="Event/fc/fc_00_053.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_054.vol" external="Event/fc/fc_00_054.vol" resize="true" />
+    <file disc="/Event/fc/fc_00_055.vol" external="Event/fc/fc_00_055.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_001.vol" external="Event/fc/fc_01_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_002.vol" external="Event/fc/fc_01_002.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_003.vol" external="Event/fc/fc_01_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_004.vol" external="Event/fc/fc_01_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_005.vol" external="Event/fc/fc_01_005.vol" resize="false" />
+    <file disc="/Event/fc/fc_01_006.vol" external="Event/fc/fc_01_006.vol" resize="false" />
+    <file disc="/Event/fc/fc_01_007.vol" external="Event/fc/fc_01_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_008.vol" external="Event/fc/fc_01_008.vol" resize="false" />
+    <file disc="/Event/fc/fc_01_009.vol" external="Event/fc/fc_01_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_010.vol" external="Event/fc/fc_01_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_011.vol" external="Event/fc/fc_01_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_012.vol" external="Event/fc/fc_01_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_013.vol" external="Event/fc/fc_01_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_014.vol" external="Event/fc/fc_01_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_015.vol" external="Event/fc/fc_01_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_016.vol" external="Event/fc/fc_01_016.vol" resize="false" />
+    <file disc="/Event/fc/fc_01_017.vol" external="Event/fc/fc_01_017.vol" resize="false" />
+    <file disc="/Event/fc/fc_01_020.vol" external="Event/fc/fc_01_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_021.vol" external="Event/fc/fc_01_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_01_022.vol" external="Event/fc/fc_01_022.vol" resize="false" />
+    <file disc="/Event/fc/fc_01_023.vol" external="Event/fc/fc_01_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_001.vol" external="Event/fc/fc_02_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_002.vol" external="Event/fc/fc_02_002.vol" resize="false" />
+    <file disc="/Event/fc/fc_02_003.vol" external="Event/fc/fc_02_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_004.vol" external="Event/fc/fc_02_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_005.vol" external="Event/fc/fc_02_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_007.vol" external="Event/fc/fc_02_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_008.vol" external="Event/fc/fc_02_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_009.vol" external="Event/fc/fc_02_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_010.vol" external="Event/fc/fc_02_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_011.vol" external="Event/fc/fc_02_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_012.vol" external="Event/fc/fc_02_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_013.vol" external="Event/fc/fc_02_013.vol" resize="false" />
+    <file disc="/Event/fc/fc_02_014.vol" external="Event/fc/fc_02_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_015.vol" external="Event/fc/fc_02_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_016.vol" external="Event/fc/fc_02_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_017.vol" external="Event/fc/fc_02_017.vol" resize="false" />
+    <file disc="/Event/fc/fc_02_018.vol" external="Event/fc/fc_02_018.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_019.vol" external="Event/fc/fc_02_019.vol" resize="false" />
+    <file disc="/Event/fc/fc_02_020.vol" external="Event/fc/fc_02_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_021.vol" external="Event/fc/fc_02_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_022.vol" external="Event/fc/fc_02_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_023.vol" external="Event/fc/fc_02_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_024.vol" external="Event/fc/fc_02_024.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_025.vol" external="Event/fc/fc_02_025.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_026.vol" external="Event/fc/fc_02_026.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_027.vol" external="Event/fc/fc_02_027.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_028.vol" external="Event/fc/fc_02_028.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_029.vol" external="Event/fc/fc_02_029.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_030.vol" external="Event/fc/fc_02_030.vol" resize="true" />
+    <file disc="/Event/fc/fc_02_031.vol" external="Event/fc/fc_02_031.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_001.vol" external="Event/fc/fc_03_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_002.vol" external="Event/fc/fc_03_002.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_003.vol" external="Event/fc/fc_03_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_004.vol" external="Event/fc/fc_03_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_005.vol" external="Event/fc/fc_03_005.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_006.vol" external="Event/fc/fc_03_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_008.vol" external="Event/fc/fc_03_008.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_009.vol" external="Event/fc/fc_03_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_010.vol" external="Event/fc/fc_03_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_011.vol" external="Event/fc/fc_03_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_012.vol" external="Event/fc/fc_03_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_013.vol" external="Event/fc/fc_03_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_014.vol" external="Event/fc/fc_03_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_015.vol" external="Event/fc/fc_03_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_016.vol" external="Event/fc/fc_03_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_017.vol" external="Event/fc/fc_03_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_018.vol" external="Event/fc/fc_03_018.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_019.vol" external="Event/fc/fc_03_019.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_020.vol" external="Event/fc/fc_03_020.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_021.vol" external="Event/fc/fc_03_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_022.vol" external="Event/fc/fc_03_022.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_023.vol" external="Event/fc/fc_03_023.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_024.vol" external="Event/fc/fc_03_024.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_025.vol" external="Event/fc/fc_03_025.vol" resize="true" />
+    <file disc="/Event/fc/fc_03_026.vol" external="Event/fc/fc_03_026.vol" resize="false" />
+    <file disc="/Event/fc/fc_03_027.vol" external="Event/fc/fc_03_027.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_001.vol" external="Event/fc/fc_04_001.vol" resize="false" />
+    <file disc="/Event/fc/fc_04_002.vol" external="Event/fc/fc_04_002.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_003.vol" external="Event/fc/fc_04_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_004.vol" external="Event/fc/fc_04_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_005.vol" external="Event/fc/fc_04_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_006.vol" external="Event/fc/fc_04_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_007.vol" external="Event/fc/fc_04_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_008.vol" external="Event/fc/fc_04_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_009.vol" external="Event/fc/fc_04_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_010.vol" external="Event/fc/fc_04_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_011.vol" external="Event/fc/fc_04_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_012.vol" external="Event/fc/fc_04_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_013.vol" external="Event/fc/fc_04_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_014.vol" external="Event/fc/fc_04_014.vol" resize="false" />
+    <file disc="/Event/fc/fc_04_015.vol" external="Event/fc/fc_04_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_016.vol" external="Event/fc/fc_04_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_017.vol" external="Event/fc/fc_04_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_018.vol" external="Event/fc/fc_04_018.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_019.vol" external="Event/fc/fc_04_019.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_020.vol" external="Event/fc/fc_04_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_021.vol" external="Event/fc/fc_04_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_022.vol" external="Event/fc/fc_04_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_04_023.vol" external="Event/fc/fc_04_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_001.vol" external="Event/fc/fc_05_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_002.vol" external="Event/fc/fc_05_002.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_003.vol" external="Event/fc/fc_05_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_004.vol" external="Event/fc/fc_05_004.vol" resize="false" />
+    <file disc="/Event/fc/fc_05_005.vol" external="Event/fc/fc_05_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_006.vol" external="Event/fc/fc_05_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_007.vol" external="Event/fc/fc_05_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_008.vol" external="Event/fc/fc_05_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_009.vol" external="Event/fc/fc_05_009.vol" resize="false" />
+    <file disc="/Event/fc/fc_05_010.vol" external="Event/fc/fc_05_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_011.vol" external="Event/fc/fc_05_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_012.vol" external="Event/fc/fc_05_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_013.vol" external="Event/fc/fc_05_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_014.vol" external="Event/fc/fc_05_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_015.vol" external="Event/fc/fc_05_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_016.vol" external="Event/fc/fc_05_016.vol" resize="false" />
+    <file disc="/Event/fc/fc_05_017.vol" external="Event/fc/fc_05_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_018.vol" external="Event/fc/fc_05_018.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_019.vol" external="Event/fc/fc_05_019.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_020.vol" external="Event/fc/fc_05_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_021.vol" external="Event/fc/fc_05_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_022.vol" external="Event/fc/fc_05_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_023.vol" external="Event/fc/fc_05_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_024.vol" external="Event/fc/fc_05_024.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_025.vol" external="Event/fc/fc_05_025.vol" resize="true" />
+    <file disc="/Event/fc/fc_05_026.vol" external="Event/fc/fc_05_026.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_002.vol" external="Event/fc/fc_06_002.vol" resize="false" />
+    <file disc="/Event/fc/fc_06_003.vol" external="Event/fc/fc_06_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_004.vol" external="Event/fc/fc_06_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_005.vol" external="Event/fc/fc_06_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_006.vol" external="Event/fc/fc_06_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_007.vol" external="Event/fc/fc_06_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_008.vol" external="Event/fc/fc_06_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_009.vol" external="Event/fc/fc_06_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_010.vol" external="Event/fc/fc_06_010.vol" resize="false" />
+    <file disc="/Event/fc/fc_06_011.vol" external="Event/fc/fc_06_011.vol" resize="false" />
+    <file disc="/Event/fc/fc_06_012.vol" external="Event/fc/fc_06_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_013.vol" external="Event/fc/fc_06_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_014.vol" external="Event/fc/fc_06_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_015.vol" external="Event/fc/fc_06_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_016.vol" external="Event/fc/fc_06_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_017.vol" external="Event/fc/fc_06_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_018.vol" external="Event/fc/fc_06_018.vol" resize="false" />
+    <file disc="/Event/fc/fc_06_019.vol" external="Event/fc/fc_06_019.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_020.vol" external="Event/fc/fc_06_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_021.vol" external="Event/fc/fc_06_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_022.vol" external="Event/fc/fc_06_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_023.vol" external="Event/fc/fc_06_023.vol" resize="false" />
+    <file disc="/Event/fc/fc_06_024.vol" external="Event/fc/fc_06_024.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_025.vol" external="Event/fc/fc_06_025.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_026.vol" external="Event/fc/fc_06_026.vol" resize="false" />
+    <file disc="/Event/fc/fc_06_027.vol" external="Event/fc/fc_06_027.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_028.vol" external="Event/fc/fc_06_028.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_030.vol" external="Event/fc/fc_06_030.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_031.vol" external="Event/fc/fc_06_031.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_032.vol" external="Event/fc/fc_06_032.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_033.vol" external="Event/fc/fc_06_033.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_035.vol" external="Event/fc/fc_06_035.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_036.vol" external="Event/fc/fc_06_036.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_037.vol" external="Event/fc/fc_06_037.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_038.vol" external="Event/fc/fc_06_038.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_039.vol" external="Event/fc/fc_06_039.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_040.vol" external="Event/fc/fc_06_040.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_041.vol" external="Event/fc/fc_06_041.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_042.vol" external="Event/fc/fc_06_042.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_043.vol" external="Event/fc/fc_06_043.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_044.vol" external="Event/fc/fc_06_044.vol" resize="true" />
+    <file disc="/Event/fc/fc_06_045.vol" external="Event/fc/fc_06_045.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_001.vol" external="Event/fc/fc_07_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_003.vol" external="Event/fc/fc_07_003.vol" resize="false" />
+    <file disc="/Event/fc/fc_07_004.vol" external="Event/fc/fc_07_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_006.vol" external="Event/fc/fc_07_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_007.vol" external="Event/fc/fc_07_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_008.vol" external="Event/fc/fc_07_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_009.vol" external="Event/fc/fc_07_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_010.vol" external="Event/fc/fc_07_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_011.vol" external="Event/fc/fc_07_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_012.vol" external="Event/fc/fc_07_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_013.vol" external="Event/fc/fc_07_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_014.vol" external="Event/fc/fc_07_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_015.vol" external="Event/fc/fc_07_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_016.vol" external="Event/fc/fc_07_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_017.vol" external="Event/fc/fc_07_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_07_018.vol" external="Event/fc/fc_07_018.vol" resize="false" />
+    <file disc="/Event/fc/fc_07_019.vol" external="Event/fc/fc_07_019.vol" resize="false" />
+    <file disc="/Event/fc/fc_08_001.vol" external="Event/fc/fc_08_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_002.vol" external="Event/fc/fc_08_002.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_003.vol" external="Event/fc/fc_08_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_004.vol" external="Event/fc/fc_08_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_005.vol" external="Event/fc/fc_08_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_006.vol" external="Event/fc/fc_08_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_007.vol" external="Event/fc/fc_08_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_008.vol" external="Event/fc/fc_08_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_009.vol" external="Event/fc/fc_08_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_010.vol" external="Event/fc/fc_08_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_012.vol" external="Event/fc/fc_08_012.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_013.vol" external="Event/fc/fc_08_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_014.vol" external="Event/fc/fc_08_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_015.vol" external="Event/fc/fc_08_015.vol" resize="false" />
+    <file disc="/Event/fc/fc_08_016.vol" external="Event/fc/fc_08_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_017.vol" external="Event/fc/fc_08_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_018.vol" external="Event/fc/fc_08_018.vol" resize="false" />
+    <file disc="/Event/fc/fc_08_019.vol" external="Event/fc/fc_08_019.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_020.vol" external="Event/fc/fc_08_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_021.vol" external="Event/fc/fc_08_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_022.vol" external="Event/fc/fc_08_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_023.vol" external="Event/fc/fc_08_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_024.vol" external="Event/fc/fc_08_024.vol" resize="true" />
+    <file disc="/Event/fc/fc_08_025.vol" external="Event/fc/fc_08_025.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_001.vol" external="Event/fc/fc_09_001.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_002.vol" external="Event/fc/fc_09_002.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_003.vol" external="Event/fc/fc_09_003.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_004.vol" external="Event/fc/fc_09_004.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_005.vol" external="Event/fc/fc_09_005.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_006.vol" external="Event/fc/fc_09_006.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_007.vol" external="Event/fc/fc_09_007.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_008.vol" external="Event/fc/fc_09_008.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_009.vol" external="Event/fc/fc_09_009.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_010.vol" external="Event/fc/fc_09_010.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_011.vol" external="Event/fc/fc_09_011.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_012.vol" external="Event/fc/fc_09_012.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_013.vol" external="Event/fc/fc_09_013.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_014.vol" external="Event/fc/fc_09_014.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_015.vol" external="Event/fc/fc_09_015.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_016.vol" external="Event/fc/fc_09_016.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_017.vol" external="Event/fc/fc_09_017.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_018.vol" external="Event/fc/fc_09_018.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_019.vol" external="Event/fc/fc_09_019.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_020.vol" external="Event/fc/fc_09_020.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_021.vol" external="Event/fc/fc_09_021.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_022.vol" external="Event/fc/fc_09_022.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_023.vol" external="Event/fc/fc_09_023.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_024.vol" external="Event/fc/fc_09_024.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_025.vol" external="Event/fc/fc_09_025.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_026.vol" external="Event/fc/fc_09_026.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_027.vol" external="Event/fc/fc_09_027.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_029.vol" external="Event/fc/fc_09_029.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_030.vol" external="Event/fc/fc_09_030.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_031.vol" external="Event/fc/fc_09_031.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_032.vol" external="Event/fc/fc_09_032.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_033.vol" external="Event/fc/fc_09_033.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_034.vol" external="Event/fc/fc_09_034.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_035.vol" external="Event/fc/fc_09_035.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_036.vol" external="Event/fc/fc_09_036.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_037.vol" external="Event/fc/fc_09_037.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_038.vol" external="Event/fc/fc_09_038.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_039.vol" external="Event/fc/fc_09_039.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_040.vol" external="Event/fc/fc_09_040.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_042.vol" external="Event/fc/fc_09_042.vol" resize="false" />
+    <file disc="/Event/fc/fc_09_043.vol" external="Event/fc/fc_09_043.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_044.vol" external="Event/fc/fc_09_044.vol" resize="true" />
+    <file disc="/Event/fc/fc_09_045.vol" external="Event/fc/fc_09_045.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_000.vol" external="Event/wld/wld_fc_000.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_001.vol" external="Event/wld/wld_fc_001.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_002.vol" external="Event/wld/wld_fc_002.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_003.vol" external="Event/wld/wld_fc_003.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_004.vol" external="Event/wld/wld_fc_004.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_005.vol" external="Event/wld/wld_fc_005.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_006.vol" external="Event/wld/wld_fc_006.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_007.vol" external="Event/wld/wld_fc_007.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_008.vol" external="Event/wld/wld_fc_008.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_009.vol" external="Event/wld/wld_fc_009.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_010.vol" external="Event/wld/wld_fc_010.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_011.vol" external="Event/wld/wld_fc_011.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_012.vol" external="Event/wld/wld_fc_012.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_013.vol" external="Event/wld/wld_fc_013.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_014.vol" external="Event/wld/wld_fc_014.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_015.vol" external="Event/wld/wld_fc_015.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_016.vol" external="Event/wld/wld_fc_016.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_017.vol" external="Event/wld/wld_fc_017.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_018.vol" external="Event/wld/wld_fc_018.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_019.vol" external="Event/wld/wld_fc_019.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_020.vol" external="Event/wld/wld_fc_020.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_021.vol" external="Event/wld/wld_fc_021.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_022.vol" external="Event/wld/wld_fc_022.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_023.vol" external="Event/wld/wld_fc_023.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_024.vol" external="Event/wld/wld_fc_024.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_025.vol" external="Event/wld/wld_fc_025.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_026.vol" external="Event/wld/wld_fc_026.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_027.vol" external="Event/wld/wld_fc_027.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_028.vol" external="Event/wld/wld_fc_028.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_029.vol" external="Event/wld/wld_fc_029.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_030.vol" external="Event/wld/wld_fc_030.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_031.vol" external="Event/wld/wld_fc_031.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_032.vol" external="Event/wld/wld_fc_032.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_033.vol" external="Event/wld/wld_fc_033.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_034.vol" external="Event/wld/wld_fc_034.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_035.vol" external="Event/wld/wld_fc_035.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_036.vol" external="Event/wld/wld_fc_036.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_037.vol" external="Event/wld/wld_fc_037.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_038.vol" external="Event/wld/wld_fc_038.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_039.vol" external="Event/wld/wld_fc_039.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_040.vol" external="Event/wld/wld_fc_040.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_041.vol" external="Event/wld/wld_fc_041.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_042.vol" external="Event/wld/wld_fc_042.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_043.vol" external="Event/wld/wld_fc_043.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_044.vol" external="Event/wld/wld_fc_044.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_045.vol" external="Event/wld/wld_fc_045.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_046.vol" external="Event/wld/wld_fc_046.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_047.vol" external="Event/wld/wld_fc_047.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_048.vol" external="Event/wld/wld_fc_048.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_049.vol" external="Event/wld/wld_fc_049.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_050.vol" external="Event/wld/wld_fc_050.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_051.vol" external="Event/wld/wld_fc_051.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_052.vol" external="Event/wld/wld_fc_052.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_053.vol" external="Event/wld/wld_fc_053.vol" resize="true" />
+    <file disc="/Event/wld/wld_fc_054.vol" external="Event/wld/wld_fc_054.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_055.vol" external="Event/wld/wld_fc_055.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_056.vol" external="Event/wld/wld_fc_056.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_057.vol" external="Event/wld/wld_fc_057.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_058.vol" external="Event/wld/wld_fc_058.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_059.vol" external="Event/wld/wld_fc_059.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_060.vol" external="Event/wld/wld_fc_060.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_061.vol" external="Event/wld/wld_fc_061.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_062.vol" external="Event/wld/wld_fc_062.vol" resize="false" />
+    <file disc="/Event/wld/wld_fc_063.vol" external="Event/wld/wld_fc_063.vol" resize="false" />
+    <file disc="/Hbm/home.csv" external="Hbm/home.csv" resize="true" />
+    <file disc="/Hbm/home_nosave.csv" external="Hbm/home_nosave.csv" resize="true" />
+    <file disc="/Hbm/homeBtn.arc" external="Hbm/homeBtn.arc" resize="false" />
+    <file disc="/interface/tex_casino_intro_bj_wtm.cxd" external="interface/tex_casino_intro_bj_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_casino_intro_poker_wtm.cxd" external="interface/tex_casino_intro_poker_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_adk_wtm.cxd" external="interface/tex_loc_title_adk_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_adz_wtm.cxd" external="interface/tex_loc_title_adz_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_aka_wtm.cxd" external="interface/tex_loc_title_aka_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_aot_wtm.cxd" external="interface/tex_loc_title_aot_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_bat_wtm.cxd" external="interface/tex_loc_title_bat_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_bne_wtm.cxd" external="interface/tex_loc_title_bne_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_can_wtm.cxd" external="interface/tex_loc_title_can_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_cob_wtm.cxd" external="interface/tex_loc_title_cob_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_cop_wtm.cxd" external="interface/tex_loc_title_cop_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_des_wtm.cxd" external="interface/tex_loc_title_des_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_dia_wtm.cxd" external="interface/tex_loc_title_dia_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_ebu_wtm.cxd" external="interface/tex_loc_title_ebu_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_evt_wtm.cxd" external="interface/tex_loc_title_evt_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_ext_wtm.cxd" external="interface/tex_loc_title_ext_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_hai_wtm.cxd" external="interface/tex_loc_title_hai_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_hgu_wtm.cxd" external="interface/tex_loc_title_hgu_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_hki_wtm.cxd" external="interface/tex_loc_title_hki_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_hnk_wtm.cxd" external="interface/tex_loc_title_hnk_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_ise_wtm.cxd" external="interface/tex_loc_title_ise_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_jad_wtm.cxd" external="interface/tex_loc_title_jad_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_kai_wtm.cxd" external="interface/tex_loc_title_kai_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_kal_wtm.cxd" external="interface/tex_loc_title_kal_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_kan_wtm.cxd" external="interface/tex_loc_title_kan_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_koo_wtm.cxd" external="interface/tex_loc_title_koo_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_kza_wtm.cxd" external="interface/tex_loc_title_kza_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_mit_wtm.cxd" external="interface/tex_loc_title_mit_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_mse_wtm.cxd" external="interface/tex_loc_title_mse_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_ori_wtm.cxd" external="interface/tex_loc_title_ori_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_ryu_wtm.cxd" external="interface/tex_loc_title_ryu_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_sba_wtm.cxd" external="interface/tex_loc_title_sba_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_sir_wtm.cxd" external="interface/tex_loc_title_sir_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_syo_wtm.cxd" external="interface/tex_loc_title_syo_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_tig_wtm.cxd" external="interface/tex_loc_title_tig_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_tka_wtm.cxd" external="interface/tex_loc_title_tka_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_tou_wtm.cxd" external="interface/tex_loc_title_tou_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_tpa_wtm.cxd" external="interface/tex_loc_title_tpa_wtm.cxd" resize="true" />
+    <file disc="/interface/tex_loc_title_yuk_wtm.cxd" external="interface/tex_loc_title_yuk_wtm.cxd" resize="true" />
+    <file disc="/Map/_map_aiuchi.cxd" external="Map/_map_aiuchi.cxd" resize="true" />
+    <file disc="/Map/_map_hisano.cxd" external="Map/_map_hisano.cxd" resize="true" />
+    <file disc="/Map/_map_ito.cxd" external="Map/_map_ito.cxd" resize="true" />
+    <file disc="/Map/_map_kawamoto.cxd" external="Map/_map_kawamoto.cxd" resize="true" />
+    <file disc="/Map/_map_sasaki.cxd" external="Map/_map_sasaki.cxd" resize="true" />
+    <file disc="/Map/_map_test00.cxd" external="Map/_map_test00.cxd" resize="true" />
+    <file disc="/Map/_map_test01.cxd" external="Map/_map_test01.cxd" resize="true" />
+    <file disc="/Map/_map_test02.cxd" external="Map/_map_test02.cxd" resize="true" />
+    <file disc="/Map/_map_test03.cxd" external="Map/_map_test03.cxd" resize="true" />
+    <file disc="/Map/_map_test04.cxd" external="Map/_map_test04.cxd" resize="true" />
+    <file disc="/Map/_map_test05.cxd" external="Map/_map_test05.cxd" resize="true" />
+    <file disc="/Map/_map_test06.cxd" external="Map/_map_test06.cxd" resize="true" />
+    <file disc="/Map/_map_test07.cxd" external="Map/_map_test07.cxd" resize="true" />
+    <file disc="/Map/_map_test08.cxd" external="Map/_map_test08.cxd" resize="true" />
+    <file disc="/Map/_map_test09.cxd" external="Map/_map_test09.cxd" resize="true" />
+    <file disc="/Map/_map_test10.cxd" external="Map/_map_test10.cxd" resize="true" />
+    <file disc="/Map/_map_worldmap.cxd" external="Map/_map_worldmap.cxd" resize="true" />
+    <file disc="/Map/map_d_adk_00.cxd" external="Map/map_d_adk_00.cxd" resize="true" />
+    <file disc="/Map/map_d_adk_01.cxd" external="Map/map_d_adk_01.cxd" resize="true" />
+    <file disc="/Map/map_d_adk_02.cxd" external="Map/map_d_adk_02.cxd" resize="true" />
+    <file disc="/Map/map_d_adk_03.cxd" external="Map/map_d_adk_03.cxd" resize="true" />
+    <file disc="/Map/map_d_adk_04.cxd" external="Map/map_d_adk_04.cxd" resize="true" />
+    <file disc="/Map/map_d_adk_05.cxd" external="Map/map_d_adk_05.cxd" resize="true" />
+    <file disc="/Map/map_d_adz_00.cxd" external="Map/map_d_adz_00.cxd" resize="true" />
+    <file disc="/Map/map_d_adz_01.cxd" external="Map/map_d_adz_01.cxd" resize="true" />
+    <file disc="/Map/map_d_adz_02.cxd" external="Map/map_d_adz_02.cxd" resize="true" />
+    <file disc="/Map/map_d_adz_03.cxd" external="Map/map_d_adz_03.cxd" resize="true" />
+    <file disc="/Map/map_d_adz_04.cxd" external="Map/map_d_adz_04.cxd" resize="true" />
+    <file disc="/Map/map_d_adz_05.cxd" external="Map/map_d_adz_05.cxd" resize="true" />
+    <file disc="/Map/map_d_aka_00.cxd" external="Map/map_d_aka_00.cxd" resize="true" />
+    <file disc="/Map/map_d_aka_01.cxd" external="Map/map_d_aka_01.cxd" resize="true" />
+    <file disc="/Map/map_d_aka_02.cxd" external="Map/map_d_aka_02.cxd" resize="true" />
+    <file disc="/Map/map_d_aka_03.cxd" external="Map/map_d_aka_03.cxd" resize="true" />
+    <file disc="/Map/map_d_aka_04.cxd" external="Map/map_d_aka_04.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_00.cxd" external="Map/map_d_aot_00.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_01.cxd" external="Map/map_d_aot_01.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_02.cxd" external="Map/map_d_aot_02.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_03.cxd" external="Map/map_d_aot_03.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_04.cxd" external="Map/map_d_aot_04.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_05.cxd" external="Map/map_d_aot_05.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_06.cxd" external="Map/map_d_aot_06.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_07.cxd" external="Map/map_d_aot_07.cxd" resize="true" />
+    <file disc="/Map/map_d_aot_08.cxd" external="Map/map_d_aot_08.cxd" resize="true" />
+    <file disc="/Map/map_d_can_00.cxd" external="Map/map_d_can_00.cxd" resize="true" />
+    <file disc="/Map/map_d_can_01.cxd" external="Map/map_d_can_01.cxd" resize="true" />
+    <file disc="/Map/map_d_can_02.cxd" external="Map/map_d_can_02.cxd" resize="true" />
+    <file disc="/Map/map_d_can_03.cxd" external="Map/map_d_can_03.cxd" resize="true" />
+    <file disc="/Map/map_d_des_00.cxd" external="Map/map_d_des_00.cxd" resize="true" />
+    <file disc="/Map/map_d_des_01.cxd" external="Map/map_d_des_01.cxd" resize="true" />
+    <file disc="/Map/map_d_des_02.cxd" external="Map/map_d_des_02.cxd" resize="true" />
+    <file disc="/Map/map_d_des_03.cxd" external="Map/map_d_des_03.cxd" resize="true" />
+    <file disc="/Map/map_d_des_04.cxd" external="Map/map_d_des_04.cxd" resize="true" />
+    <file disc="/Map/map_d_des_05.cxd" external="Map/map_d_des_05.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_00.cxd" external="Map/map_d_ext_00.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_01.cxd" external="Map/map_d_ext_01.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_02.cxd" external="Map/map_d_ext_02.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_03.cxd" external="Map/map_d_ext_03.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_04.cxd" external="Map/map_d_ext_04.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_05.cxd" external="Map/map_d_ext_05.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_06.cxd" external="Map/map_d_ext_06.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_07.cxd" external="Map/map_d_ext_07.cxd" resize="true" />
+    <file disc="/Map/map_d_ext_08.cxd" external="Map/map_d_ext_08.cxd" resize="true" />
+    <file disc="/Map/map_d_hai_00.cxd" external="Map/map_d_hai_00.cxd" resize="true" />
+    <file disc="/Map/map_d_hai_01.cxd" external="Map/map_d_hai_01.cxd" resize="true" />
+    <file disc="/Map/map_d_hai_02.cxd" external="Map/map_d_hai_02.cxd" resize="true" />
+    <file disc="/Map/map_d_hai_03.cxd" external="Map/map_d_hai_03.cxd" resize="true" />
+    <file disc="/Map/map_d_hai_04.cxd" external="Map/map_d_hai_04.cxd" resize="true" />
+    <file disc="/Map/map_d_hai_05.cxd" external="Map/map_d_hai_05.cxd" resize="true" />
+    <file disc="/Map/map_d_hgu_00.cxd" external="Map/map_d_hgu_00.cxd" resize="true" />
+    <file disc="/Map/map_d_hgu_01.cxd" external="Map/map_d_hgu_01.cxd" resize="true" />
+    <file disc="/Map/map_d_hgu_02.cxd" external="Map/map_d_hgu_02.cxd" resize="true" />
+    <file disc="/Map/map_d_hgu_03.cxd" external="Map/map_d_hgu_03.cxd" resize="true" />
+    <file disc="/Map/map_d_hgu_04.cxd" external="Map/map_d_hgu_04.cxd" resize="true" />
+    <file disc="/Map/map_d_hgu_05.cxd" external="Map/map_d_hgu_05.cxd" resize="true" />
+    <file disc="/Map/map_d_hnb_00.cxd" external="Map/map_d_hnb_00.cxd" resize="true" />
+    <file disc="/Map/map_d_hnk_00.cxd" external="Map/map_d_hnk_00.cxd" resize="true" />
+    <file disc="/Map/map_d_hnk_01.cxd" external="Map/map_d_hnk_01.cxd" resize="true" />
+    <file disc="/Map/map_d_hnk_02.cxd" external="Map/map_d_hnk_02.cxd" resize="true" />
+    <file disc="/Map/map_d_ise_00.cxd" external="Map/map_d_ise_00.cxd" resize="true" />
+    <file disc="/Map/map_d_ise_01.cxd" external="Map/map_d_ise_01.cxd" resize="true" />
+    <file disc="/Map/map_d_ise_02.cxd" external="Map/map_d_ise_02.cxd" resize="true" />
+    <file disc="/Map/map_d_ise_03.cxd" external="Map/map_d_ise_03.cxd" resize="true" />
+    <file disc="/Map/map_d_ise_04.cxd" external="Map/map_d_ise_04.cxd" resize="true" />
+    <file disc="/Map/map_d_ise_05.cxd" external="Map/map_d_ise_05.cxd" resize="true" />
+    <file disc="/Map/map_d_kai_00.cxd" external="Map/map_d_kai_00.cxd" resize="true" />
+    <file disc="/Map/map_d_kai_01.cxd" external="Map/map_d_kai_01.cxd" resize="true" />
+    <file disc="/Map/map_d_kai_02.cxd" external="Map/map_d_kai_02.cxd" resize="true" />
+    <file disc="/Map/map_d_kai_03.cxd" external="Map/map_d_kai_03.cxd" resize="true" />
+    <file disc="/Map/map_d_kal_00.cxd" external="Map/map_d_kal_00.cxd" resize="true" />
+    <file disc="/Map/map_d_kal_01.cxd" external="Map/map_d_kal_01.cxd" resize="true" />
+    <file disc="/Map/map_d_kal_02.cxd" external="Map/map_d_kal_02.cxd" resize="true" />
+    <file disc="/Map/map_d_kal_03.cxd" external="Map/map_d_kal_03.cxd" resize="true" />
+    <file disc="/Map/map_d_kal_04.cxd" external="Map/map_d_kal_04.cxd" resize="true" />
+    <file disc="/Map/map_d_kal_05.cxd" external="Map/map_d_kal_05.cxd" resize="true" />
+    <file disc="/Map/map_d_koo_00.cxd" external="Map/map_d_koo_00.cxd" resize="true" />
+    <file disc="/Map/map_d_koo_01.cxd" external="Map/map_d_koo_01.cxd" resize="true" />
+    <file disc="/Map/map_d_koo_02.cxd" external="Map/map_d_koo_02.cxd" resize="true" />
+    <file disc="/Map/map_d_koo_03.cxd" external="Map/map_d_koo_03.cxd" resize="true" />
+    <file disc="/Map/map_d_koo_04.cxd" external="Map/map_d_koo_04.cxd" resize="true" />
+    <file disc="/Map/map_d_koo_05.cxd" external="Map/map_d_koo_05.cxd" resize="true" />
+    <file disc="/Map/map_d_kza_00.cxd" external="Map/map_d_kza_00.cxd" resize="true" />
+    <file disc="/Map/map_d_kza_01.cxd" external="Map/map_d_kza_01.cxd" resize="true" />
+    <file disc="/Map/map_d_kza_02.cxd" external="Map/map_d_kza_02.cxd" resize="true" />
+    <file disc="/Map/map_d_kza_03.cxd" external="Map/map_d_kza_03.cxd" resize="true" />
+    <file disc="/Map/map_d_kza_04.cxd" external="Map/map_d_kza_04.cxd" resize="true" />
+    <file disc="/Map/map_d_kza_05.cxd" external="Map/map_d_kza_05.cxd" resize="true" />
+    <file disc="/Map/map_d_mit_00.cxd" external="Map/map_d_mit_00.cxd" resize="true" />
+    <file disc="/Map/map_d_mit_01.cxd" external="Map/map_d_mit_01.cxd" resize="true" />
+    <file disc="/Map/map_d_mit_02.cxd" external="Map/map_d_mit_02.cxd" resize="true" />
+    <file disc="/Map/map_d_mit_03.cxd" external="Map/map_d_mit_03.cxd" resize="true" />
+    <file disc="/Map/map_d_mse_00.cxd" external="Map/map_d_mse_00.cxd" resize="true" />
+    <file disc="/Map/map_d_mse_01.cxd" external="Map/map_d_mse_01.cxd" resize="true" />
+    <file disc="/Map/map_d_mse_02.cxd" external="Map/map_d_mse_02.cxd" resize="true" />
+    <file disc="/Map/map_d_mse_03.cxd" external="Map/map_d_mse_03.cxd" resize="true" />
+    <file disc="/Map/map_d_mse_04.cxd" external="Map/map_d_mse_04.cxd" resize="true" />
+    <file disc="/Map/map_d_ryu_00.cxd" external="Map/map_d_ryu_00.cxd" resize="true" />
+    <file disc="/Map/map_d_ryu_01.cxd" external="Map/map_d_ryu_01.cxd" resize="true" />
+    <file disc="/Map/map_d_ryu_02.cxd" external="Map/map_d_ryu_02.cxd" resize="true" />
+    <file disc="/Map/map_d_ryu_03.cxd" external="Map/map_d_ryu_03.cxd" resize="true" />
+    <file disc="/Map/map_d_ryu_04.cxd" external="Map/map_d_ryu_04.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_00.cxd" external="Map/map_d_sir_00.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_01.cxd" external="Map/map_d_sir_01.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_02.cxd" external="Map/map_d_sir_02.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_03.cxd" external="Map/map_d_sir_03.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_04.cxd" external="Map/map_d_sir_04.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_05.cxd" external="Map/map_d_sir_05.cxd" resize="true" />
+    <file disc="/Map/map_d_sir_06.cxd" external="Map/map_d_sir_06.cxd" resize="true" />
+    <file disc="/Map/map_d_syo_00.cxd" external="Map/map_d_syo_00.cxd" resize="false" />
+    <file disc="/Map/map_d_syo_01.cxd" external="Map/map_d_syo_01.cxd" resize="true" />
+    <file disc="/Map/map_d_syo_02.cxd" external="Map/map_d_syo_02.cxd" resize="true" />
+    <file disc="/Map/map_d_syo_03.cxd" external="Map/map_d_syo_03.cxd" resize="true" />
+    <file disc="/Map/map_d_syo_04.cxd" external="Map/map_d_syo_04.cxd" resize="true" />
+    <file disc="/Map/map_d_syo_05.cxd" external="Map/map_d_syo_05.cxd" resize="true" />
+    <file disc="/Map/map_d_tig_00.cxd" external="Map/map_d_tig_00.cxd" resize="true" />
+    <file disc="/Map/map_d_tig_01.cxd" external="Map/map_d_tig_01.cxd" resize="true" />
+    <file disc="/Map/map_d_tig_02.cxd" external="Map/map_d_tig_02.cxd" resize="true" />
+    <file disc="/Map/map_d_tig_03.cxd" external="Map/map_d_tig_03.cxd" resize="true" />
+    <file disc="/Map/map_d_tka_00.cxd" external="Map/map_d_tka_00.cxd" resize="true" />
+    <file disc="/Map/map_d_tka_01.cxd" external="Map/map_d_tka_01.cxd" resize="true" />
+    <file disc="/Map/map_d_tka_02.cxd" external="Map/map_d_tka_02.cxd" resize="true" />
+    <file disc="/Map/map_d_tka_03.cxd" external="Map/map_d_tka_03.cxd" resize="true" />
+    <file disc="/Map/map_d_tka_04.cxd" external="Map/map_d_tka_04.cxd" resize="true" />
+    <file disc="/Map/map_d_tka_05.cxd" external="Map/map_d_tka_05.cxd" resize="true" />
+    <file disc="/Map/map_d_tou_00.cxd" external="Map/map_d_tou_00.cxd" resize="true" />
+    <file disc="/Map/map_d_tou_01.cxd" external="Map/map_d_tou_01.cxd" resize="true" />
+    <file disc="/Map/map_d_tou_02.cxd" external="Map/map_d_tou_02.cxd" resize="true" />
+    <file disc="/Map/map_d_tou_03.cxd" external="Map/map_d_tou_03.cxd" resize="true" />
+    <file disc="/Map/map_i_dem_00.cxd" external="Map/map_i_dem_00.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_00.cxd" external="Map/map_i_evt_00.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_01.cxd" external="Map/map_i_evt_01.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_02.cxd" external="Map/map_i_evt_02.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_03.cxd" external="Map/map_i_evt_03.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_04.cxd" external="Map/map_i_evt_04.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_05.cxd" external="Map/map_i_evt_05.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_06.cxd" external="Map/map_i_evt_06.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_07.cxd" external="Map/map_i_evt_07.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_08.cxd" external="Map/map_i_evt_08.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_09.cxd" external="Map/map_i_evt_09.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_10.cxd" external="Map/map_i_evt_10.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_11.cxd" external="Map/map_i_evt_11.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_12.cxd" external="Map/map_i_evt_12.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_13.cxd" external="Map/map_i_evt_13.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_14.cxd" external="Map/map_i_evt_14.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_15.cxd" external="Map/map_i_evt_15.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_16.cxd" external="Map/map_i_evt_16.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_17.cxd" external="Map/map_i_evt_17.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_18.cxd" external="Map/map_i_evt_18.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_19.cxd" external="Map/map_i_evt_19.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_20.cxd" external="Map/map_i_evt_20.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_21.cxd" external="Map/map_i_evt_21.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_22.cxd" external="Map/map_i_evt_22.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_23.cxd" external="Map/map_i_evt_23.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_24.cxd" external="Map/map_i_evt_24.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_25.cxd" external="Map/map_i_evt_25.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_26.cxd" external="Map/map_i_evt_26.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_27.cxd" external="Map/map_i_evt_27.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_28.cxd" external="Map/map_i_evt_28.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_29.cxd" external="Map/map_i_evt_29.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_31.cxd" external="Map/map_i_evt_31.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_32.cxd" external="Map/map_i_evt_32.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_33.cxd" external="Map/map_i_evt_33.cxd" resize="true" />
+    <file disc="/Map/map_i_evt_34.cxd" external="Map/map_i_evt_34.cxd" resize="true" />
+    <file disc="/Map/map_t_bat_00.cxd" external="Map/map_t_bat_00.cxd" resize="true" />
+    <file disc="/Map/map_t_bat_01.cxd" external="Map/map_t_bat_01.cxd" resize="true" />
+    <file disc="/Map/map_t_bat_02.cxd" external="Map/map_t_bat_02.cxd" resize="true" />
+    <file disc="/Map/map_t_bne_00.cxd" external="Map/map_t_bne_00.cxd" resize="true" />
+    <file disc="/Map/map_t_bne_01.cxd" external="Map/map_t_bne_01.cxd" resize="true" />
+    <file disc="/Map/map_t_bne_02.cxd" external="Map/map_t_bne_02.cxd" resize="true" />
+    <file disc="/Map/map_t_cb1_00.cxd" external="Map/map_t_cb1_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cb2_00.cxd" external="Map/map_t_cb2_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cb3_00.cxd" external="Map/map_t_cb3_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cb4_00.cxd" external="Map/map_t_cb4_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cb5_00.cxd" external="Map/map_t_cb5_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cb6_00.cxd" external="Map/map_t_cb6_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cb7_00.cxd" external="Map/map_t_cb7_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cob_00.cxd" external="Map/map_t_cob_00.cxd" resize="true" />
+    <file disc="/Map/map_t_cop_00.cxd" external="Map/map_t_cop_00.cxd" resize="true" />
+    <file disc="/Map/map_t_dia_00.cxd" external="Map/map_t_dia_00.cxd" resize="true" />
+    <file disc="/Map/map_t_dia_01.cxd" external="Map/map_t_dia_01.cxd" resize="true" />
+    <file disc="/Map/map_t_dia_02.cxd" external="Map/map_t_dia_02.cxd" resize="true" />
+    <file disc="/Map/map_t_dia_03.cxd" external="Map/map_t_dia_03.cxd" resize="true" />
+    <file disc="/Map/map_t_dia_04.cxd" external="Map/map_t_dia_04.cxd" resize="true" />
+    <file disc="/Map/map_t_dia_05.cxd" external="Map/map_t_dia_05.cxd" resize="true" />
+    <file disc="/Map/map_t_ebu_00.cxd" external="Map/map_t_ebu_00.cxd" resize="true" />
+    <file disc="/Map/map_t_ebu_01.cxd" external="Map/map_t_ebu_01.cxd" resize="true" />
+    <file disc="/Map/map_t_hki_00.cxd" external="Map/map_t_hki_00.cxd" resize="true" />
+    <file disc="/Map/map_t_hki_01.cxd" external="Map/map_t_hki_01.cxd" resize="true" />
+    <file disc="/Map/map_t_jad_00.cxd" external="Map/map_t_jad_00.cxd" resize="true" />
+    <file disc="/Map/map_t_jad_01.cxd" external="Map/map_t_jad_01.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_00.cxd" external="Map/map_t_kan_00.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_01.cxd" external="Map/map_t_kan_01.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_02.cxd" external="Map/map_t_kan_02.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_03.cxd" external="Map/map_t_kan_03.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_04.cxd" external="Map/map_t_kan_04.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_05.cxd" external="Map/map_t_kan_05.cxd" resize="true" />
+    <file disc="/Map/map_t_kan_06.cxd" external="Map/map_t_kan_06.cxd" resize="true" />
+    <file disc="/Map/map_t_orb_00.cxd" external="Map/map_t_orb_00.cxd" resize="true" />
+    <file disc="/Map/map_t_orb_01.cxd" external="Map/map_t_orb_01.cxd" resize="true" />
+    <file disc="/Map/map_t_orb_02.cxd" external="Map/map_t_orb_02.cxd" resize="true" />
+    <file disc="/Map/map_t_orb_03.cxd" external="Map/map_t_orb_03.cxd" resize="true" />
+    <file disc="/Map/map_t_ori_00.cxd" external="Map/map_t_ori_00.cxd" resize="true" />
+    <file disc="/Map/map_t_ori_01.cxd" external="Map/map_t_ori_01.cxd" resize="true" />
+    <file disc="/Map/map_t_ori_02.cxd" external="Map/map_t_ori_02.cxd" resize="true" />
+    <file disc="/Map/map_t_ori_03.cxd" external="Map/map_t_ori_03.cxd" resize="true" />
+    <file disc="/Map/map_t_ori_04.cxd" external="Map/map_t_ori_04.cxd" resize="true" />
+    <file disc="/Map/map_t_sba_00.cxd" external="Map/map_t_sba_00.cxd" resize="true" />
+    <file disc="/Map/map_t_tpa_00.cxd" external="Map/map_t_tpa_00.cxd" resize="true" />
+    <file disc="/Map/map_t_yuk_00.cxd" external="Map/map_t_yuk_00.cxd" resize="true" />
+    <file disc="/Map/map_t_yuk_01.cxd" external="Map/map_t_yuk_01.cxd" resize="true" />
+    <file disc="/minigame/mg_copin.vol" external="minigame/mg_copin.vol" resize="false" />
+    <file disc="/opening.bnr" external="opening.bnr" resize="true" />
+    <file disc="/Sys/help.bin" external="Sys/help.bin" resize="false" />
+    <file disc="/Sys/monster_book.bin" external="Sys/monster_book.bin" resize="false" />
+    <file disc="/Sys/strapA_jp.wtm" external="Sys/strapA_jp.wtm" resize="false" />
+    <file disc="/Sys/strapB_jp.wtm" external="Sys/strapB_jp.wtm" resize="false" />
+    <file disc="/Sys/system.vol" external="Sys/system.vol" resize="true" />
+    <file disc="/Sys/title.vol" external="Sys/title.vol" resize="false" />
+    <file disc="/Title/title.vol" external="Title/title.vol" resize="false" />
+    <memory offset="0x803CA41C" value="41524320524953452046414E544153494120B5C2BCF7C5E6B7BE0AB2E5BEBF20C2F8BCA6BFEE2E000000000000000000000000" />
+    <memory offset="0x803CA450" value="B5C2BCF7C5E6B7BE20C1B2C0F220BCC820BED9BDA5B3E3B3F22E0A57696920BAC1C4D320BBAABFF1BBF0B8D9BBDAB7BE20C8B0C1A8C7E820C2F8BCA6BFEE2E000000000000000000000000" />
+    <memory offset="0x803CC8F0" value="BBDBC8AE" />
+    <memory offset="0x803CC8F5" value="B8B4B4C3" />
+    <memory offset="0x803CC8FA" value="C8AAB6A4" />
+    <memory offset="0x803CC8FF" value="C4F5B8F4" />
+    <memory offset="0x803CC904" value="BCB5B9C60000" />
+    <memory offset="0x803CC90B" value="B7DCBAEB" />
+    <memory offset="0x803CC910" value="C3D0BAB6" />
+    <memory offset="0x803CC915" value="BCC8B8D3" />
+    <memory offset="0x803CC92E" value="B6DEB9FD0000" />
+    <memory offset="0x803CC935" value="C1ECB4A6BDBA" />
+    <memory offset="0x803CC93C" value="C4D7B4A620485000" />
+    <memory offset="0x803CC945" value="C8AEB2C9BCA5" />
+    <memory offset="0x803CC94C" value="BCC8B2C9BCA5" />
+    <memory offset="0x803CC953" value="C7B9B2C9BCA5" />
+    <memory offset="0x803CC95A" value="C6D0B2C9BCA5" />
+    <memory offset="0x803CC961" value="BDB4BCB5" />
+    <memory offset="0x803CC966" value="C1DEBBC3" />
+    <memory offset="0x803CC96B" value="C4DABABC" />
+    <memory offset="0x803CC970" value="B9A3B7C4B8F3C8C0" />
+    <memory offset="0x803CC979" value="B1AEBCB4B8F3C8C0" />
+    <memory offset="0x803CC982" value="C1EEBAD4B8F3C8C0" />
+    <memory offset="0x803CC98B" value="C7CAC7E820B9C9BBAA000000" />
+    <memory offset="0x803CC998" value="BAD4C0D9" />
+    <memory offset="0x803CC9A0" value="257320BED6C8A7000000" />
+    <memory offset="0x803CC9AB" value="B7A3B1BCB6DEBCF7B0BDB9D1" />
+    <memory offset="0x803CCB4A" value="3A20B1A7B0E2" />
+    <memory offset="0x803CCB51" value="3A20BEE4BCA920BEB6C6D70000000000" />
+    <memory offset="0x803CCB62" value="3A20B1AEBCB4BCDB" />
+    <memory offset="0x803CCB6B" value="C1A320BDFBB0ABC6CE00" />
+    <memory offset="0x803CCB76" value="3A20B9D1BEBF" />
+    <memory offset="0x803CCB7D" value="3A20C8CAC4F50000" />
+    <memory offset="0x803CCB86" value="20C1EEC6D520BAE5B3E1" />
+    <memory offset="0x803CCB91" value="3A20B0E2C6E8" />
+    <memory offset="0x803CCB98" value="20B7A3B1BCB6DEBCF720B0BDB9D1" />
+    <memory offset="0x803CCBA7" value="3A20C4F0B8D9C5F8000000000000" />
+    <memory offset="0x803CCBB6" value="20C8CAC4F520BDB6C6F4" />
+    <memory offset="0x803CCBC1" value="3A20BDFBB0ABC6CE20BED9C0F30000000000000000000000" />
+    <memory offset="0x803CCBDA" value="3A20C6E8B1AF" />
+    <memory offset="0x803CCBE1" value="3A20C8CAD3CBC0E7B2AA20BCB4B0AF20BAE5B0B00000" />
+    <memory offset="0x803CCC48" value="D2A3B1C520C5A7CFA6C6D70000000000" />
+    <memory offset="0x803CCC59" value="BEE4BCA920BEB6C6D720BDA5B5A600000000" />
+    <memory offset="0x803CCC6C" value="B0B9C6A1" />
+    <memory offset="0x803CCC71" value="BDB4C2FE20C8CAC4F500" />
+    <memory offset="0x803CCC7C" value="C1EEB6E9B1A7B0E2" />
+    <memory offset="0x803CCC85" value="C1EEB6E9B9D1BEBF" />
+    <memory offset="0x803CCC8E" value="C6E8B1AFC1ADB0E20000" />
+    <memory offset="0x803CCC99" value="C1EEB6E920C4DDC1EE000000" />
+    <memory offset="0x803CCCA6" value="C1EEB6E920BAADC8B500" />
+    <memory offset="0x803CCCB1" value="C8FBB1E620C0FDC0A5000000" />
+    <memory offset="0x803CCCBE" value="C4F0C0D9C1A320B0E2B6E600" />
+    <memory offset="0x803CCCCB" value="BDBAC7D9BFF0BBF0" />
+    <memory offset="0x803CCCD4" value="C1EEB6E920BED6C8A70000000000" />
+    <memory offset="0x803CCCE3" value="B9DEC6E3B1CE" />
+    <memory offset="0x803CCCEA" value="BBC3B8D9B1CEC1EC0000" />
+    <memory offset="0x803CCCF5" value="C8E7BCC8B1A7B0E2" />
+    <memory offset="0x803CCCFE" value="BBBDC6B5BAADC8AEC8E7BCC8" />
+    <memory offset="0x803CCD0B" value="535020C8E7BCC800" />
+    <memory offset="0x803CCD14" value="BBBDC6B5BAADC8AE20C8E7BCC82B" />
+    <memory offset="0x803CCD23" value="B8DAB4E1BEE0B0C920B0B9C6A100" />
+    <memory offset="0x803CCD32" value="B8DAB4E1BEE0B0C920C8E7BCC800" />
+    <memory offset="0x803CCD41" value="C1EEB6E92044454620BAEBC4DA0000000000" />
+    <memory offset="0x803CCD54" value="C4CDBAA6" />
+    <memory offset="0x803CCD59" value="C1EEB6E92052455320BAEBC4DA0000000000" />
+    <memory offset="0x803CCD6C" value="BEF7BCB5B1A7B0E2" />
+    <memory offset="0x803CCD75" value="C8A1B6E9B1A7B0E2" />
+    <memory offset="0x803CCD7E" value="257320BED6C8A7000000" />
+    <memory offset="0x803CCE1F" value="B0B0BCB4BCDB" />
+    <memory offset="0x803CCE26" value="BEE4BCA920BEB6C6D70000000000" />
+    <memory offset="0x803CCE35" value="C7C7B6B3BDA920B4FDB6A2B0ABBAE8000000" />
+    <memory offset="0x803CCE48" value="C6D7B7C4B3E3C6E320BEB6C6D7000000" />
+    <memory offset="0x803CCE59" value="BEE4BCA920C6D7B7C4B3E3C6E30000000000" />
+    <memory offset="0x803CCF5E" value="57696920B7C4B8DAD3DF20BEF7B0EAB0AB20C9ADB0F3BDA5B3E3B3F22E0000" />
+    <memory offset="0x803CCF7E" value="57696920B7C4B8DAD3DFBEE020B3C4C3F7C5E620B5E4B3DF0AC5EEB6B3BDAF20D3DFC6D7D0C9B0A8B7BE20BEF7B0EAC7E820C2F8BCA6BFEE2E0000000000000000000000" />
+    <memory offset="0x803CD1E8" value="B4C2C2F8" />
+    <memory offset="0x803CD1ED" value="B4C2C2F820BDB6C6F400" />
+    <memory offset="0x803CD1F8" value="A1D6C1EEC6D520D4ADC6D0B7C4BEC5A1D7C0F220BAB7BDA9B0D4BDA5B3E3B1DC3F00" />
+    <memory offset="0x803CD2B8" value="C7ECB4D0C7D6BDA9B0D4BDA5B3E3B1DC3F000000" />
+    <memory offset="0x803CD2CD" value="BFB80000" />
+    <memory offset="0x803CD2D2" value="BDFBB3E3BFEE" />
+    <memory offset="0x803CD7A2" value="BCA6B0ABBAE820C7AAC1A8C6D700" />
+    <memory offset="0x803CD905" value="B4A9B3DF20B8EB20B4FDB2AAA1C4A1C40000" />
+    <memory offset="0x803CDD01" value="BBAABFF1C7DF20D3DFC6D7D0C9B0A8B7BE0ABBF0B0ACC7E2B3E3B3F22E0AD3DFC6D7D0C9B0A8C1A320B9DEC6DBC0F220B3C3B7B7B8D30AC8B0B0ACCBBFB3E3B3F22E000000000000000000000000000000000000000000" />
+    <memory offset="0x803CDD59" value="B3C4C3F7C5E600000000" />
+    <memory offset="0x803CDD64" value="C5EEB6B3BDAF20D3DFC6D7D0C9B0A800000000000000" />
+    <memory offset="0x803CDD7B" value="B0C9C1B8C5E4BAE820D3DFC6D7D0C9B0A8000000000000000000" />
+    <memory offset="0x803CDD96" value="25730AC2CFC1C120D3DFC6D7D0C9B0A8B7A320BBF0B0ACC7EBBDA5B3E3B3F22E0000000000" />
+    <memory offset="0x803CDE5F" value="57696920BAC1C4D320C1E7C1DA20B8D1B8DAB7C4C1A320BEEDC0D920B1A7B0B2B0AB20BAD4C2D2C7E2B3E3B3F22E0A57696920B8D1B3CFC1A320B4BCB0ABC6BE20B1ACB7C420C8AEB8D3BEE0BBDA20B4BCB0ABC6BEB7BE20534420C4FBB4FDB7A30AD2D6B1CEB0A2B2AA20BBADC2C8C7D6BEED202573BAEAB7A5C1A30ABEEDC0D920B1A7B0B2C0F220C8B0BAB7C7E820C2F8BCA6BFEE2E00000000000000000000000000000000" />
+    <memory offset="0x803CDF5E" value="57696920BAC1C4D320C1E7C1DA20B8D1B8DAB7C4C1A320BEEDC0D920C6E8C1AD20BCC8B0B00ABAD4C2D2C7E2B3E3B3F22E0A57696920B8D1B3CFC1A320B4BCB0ABC6BE20B1ACB7C420C8AEB8D3BEE0BBDA20B4BCB0ABC6BEB7BE0A534420C4FBB4FDB7A320D2D6B1CEB0A2B2AA20BBADC2C8C7E820C2F8BCA6BFEE2E000000000000000000000000000000" />
+    <memory offset="0x803CE063" value="B0ABB4A6B7A320BDA9C1C1C7D6B8D320C1E7C1DAC7DF20BCC820BED9BDA5B3E3B3F200000000" />
+    <memory offset="0x803CE08A" value="C1E7C1DAC7D6B0AF20BEA8B0A320BDA9C1C1" />
+    <memory offset="0x803CE09D" value="57696920B4BCB0ABC6BE20B1ACB7C420C8AEB8D3C0E7B7A30000000000" />
+    <memory offset="0x803CE0BB" value="B0C9C1B820BDA9C1C10A0000000000" />
+    <memory offset="0x803CE0CB" value="57696920B8D1B3CFB7A30A000000" />
+    <memory offset="0x803CE0DA" value="57696920BAC1C4D320C1E7C1DA20B8D1B8DAB7C4B7BE20C8B0C1A8C7D6B0A320C1BBBDA5B3E3B3F22E2E2E" />
+    <memory offset="0x803CE458" value="B1A7B0E200000000" />
+    <memory offset="0x803CE461" value="B9A3B7C420B1A7B0E2000000" />
+    <memory offset="0x803CE46E" value="B1AEBCB4BCDB" />
+    <memory offset="0x803CE475" value="4D50B7BE20BCB4BAEBC7D6B3DF20C7ECB4D0" />
+    <memory offset="0x803CE488" value="BEE4BCA920BEB6C6D70000000000" />
+    <memory offset="0x803CE497" value="5350B7BE20BCB4BAEBC7D6B3DF20C7ECB4D0" />
+    <memory offset="0x803CE4AA" value="BEAA20C7AABCF700000000000000" />
+    <memory offset="0x803CE4B9" value="4150B7BE20BCB4BAEBC7D6B3DF20C7ECB4D0" />
+    <memory offset="0x803CE4CC" value="BDFBB0ABC6CE0000" />
+    <memory offset="0x803CE4D5" value="BDFBB0ABC6CE20BBAABFF1000000" />
+    <memory offset="0x803CE4E4" value="B7A3B1BCB6DEBCF7" />
+    <memory offset="0x803CE4ED" value="B7A3B1BCB6DEBCF720B3E1B6E920BBAABFF10000" />
+    <memory offset="0x803CE502" value="B9D1BEBF00000000" />
+    <memory offset="0x803CE50B" value="C7CAC7E820B0B4BCB40000000000" />
+    <memory offset="0x803CE51A" value="B4A6B1CE2FB0ABB4D000" />
+    <memory offset="0x803CE525" value="B4A6B1CE20D1A220B0ABB4D0" />
+    <memory offset="0x803CF1F3" value="257320B0AFB4C200" />
+    <memory offset="0x803CF60C" value="BDA9BCF7C6CE0000" />
+    <memory offset="0x803CF615" value="C5A7B8B2B4FD0000" />
+    <memory offset="0x803CF61E" value="B8E2BCF7C6BE00000000" />
+    <memory offset="0x803CF629" value="B1AEBCB4BCDB" />
+    <memory offset="0x803CF630" value="BDFBB0ABC6CE0000" />
+    <memory offset="0x803CF639" value="BFF1BEBF" />
+    <memory offset="0x803CF63E" value="BFF1BAB620B0AFC4F520A1D82573A1D9BEE020C7E6B8E020C4D8B0B0" />
+    <memory offset="0x803CF65B" value="2573C1A320C4D7B4A6204850B0B020256420BBBDBDA7" />
+    <memory offset="0x803CF68A" value="BEAA20C7AABCF720A1D82573A1D920C1D7B1C820C7E8C2C80000000000000000" />
+    <memory offset="0x803CF6AB" value="BEAA20C7AABCF720C7C2B6DEC1B820C8B0C1DA00000000000000" />
+    <memory offset="0x803CF6CB" value="A1D62573A1D720BDA5B5A600" />
+    <memory offset="0x803D30C8" value="B6A2B7B7C5E6" />
+    <memory offset="0x803D30CF" value="B7C4C7CABDFB0000" />
+    <memory offset="0x803D30D8" value="BBAAC3A800000000" />
+    <memory offset="0x803D30E1" value="BFBEB0ABB0D00000" />
+    <memory offset="0x803D30EA" value="BCA6BDB60000" />
+    <memory offset="0x803D30F1" value="B6DEBDA3B7C40000" />
+    <memory offset="0x803D30FA" value="BEA9BCF70000" />
+    <memory offset="0x803D3101" value="BDFBB4BE00000000" />
+    <memory offset="0x803D310A" value="B3E3C5C30000" />
+    <memory offset="0x803D3111" value="C5EEB6A2B0ABB4FD" />
+    <memory offset="0x803D311A" value="B5C2B3A2BCF70000" />
+    <memory offset="0x803D314E" value="3F3F3F000000" />
+    <memory offset="0x803D3155" value="B9C0B0ABBCF70000" />
+    <memory offset="0x803D315E" value="B0ABB1BCB2AAC4E60000" />
+    <memory offset="0x803D3169" value="C8A7C2C8BDFB" />
+    <memory offset="0x803D3170" value="D4C2D0BE00000000" />
+    <memory offset="0x803D3179" value="B7ACCEFA00000000" />
+    <memory offset="0x803D3182" value="B7B0C3AD00000000" />
+    <memory offset="0x803D318B" value="BCB4BDFBB6A2" />
+    <memory offset="0x803D3192" value="C7C2B6DEB0ABBDFB" />
+    <memory offset="0x803D319B" value="BEE7B6DEB2AA" />
+    <memory offset="0x803D31A2" value="C1BEB8F3BEE70000" />
+    <memory offset="0x803D31AB" value="B7DCB7C4BDFB" />
+    <memory offset="0x803D31B2" value="C9DEC2F800000000" />
+    <memory offset="0x803D31BB" value="BCB2B7C400000000" />
+    <memory offset="0x803D31C4" value="BEE7B7C4BEDB00000000" />
+    <memory offset="0x803D31CF" value="C7D6B4BE00000000" />
+    <memory offset="0x803D31D8" value="BDA9BEE70000" />
+    <memory offset="0x803D31DF" value="B1BCB6A4C4E60000" />
+    <memory offset="0x803D31E8" value="BCB4B3E3BDFB" />
+    <memory offset="0x803D31EF" value="C5BFC7CE0000" />
+    <memory offset="0x803D31F6" value="C5BFC7CE20C1DAB7A300" />
+    <memory offset="0x803D3201" value="BDFBBAE8B7C4BCF70000" />
+    <memory offset="0x803D320C" value="C4FBC1BEC7C2" />
+    <memory offset="0x803D3213" value="B7DCC5E60000" />
+    <memory offset="0x803D321A" value="B9A6C5F300000000" />
+    <memory offset="0x803D3223" value="B7A800000000" />
+    <memory offset="0x803D322A" value="D3CDC1DA" />
+    <memory offset="0x803D322F" value="C2C8B1B5C1DEBBBD" />
+    <memory offset="0x803D3238" value="C7E0C1DA" />
+    <memory offset="0x803D323D" value="B4C2C1ECB4E1B8E0" />
+    <memory offset="0x803D3246" value="C1A3BBAA" />
+    <memory offset="0x803D324B" value="C2C8B1B5BAB6" />
+    <memory offset="0x803D3252" value="B1B0B3F6BAB6" />
+    <memory offset="0x803D3259" value="B1A7C8AEB1B5BAB6" />
+    <memory offset="0x803D3262" value="BDFBB0ABBFC4B4A620BAB6BBAA00" />
+    <memory offset="0x803D3271" value="BCD3B6FCC1BE" />
+    <memory offset="0x803D3278" value="C0A5B7A3C0A5C1A3C0A5" />
+    <memory offset="0x803D3283" value="B0BFB3FB" />
+    <memory offset="0x803D3288" value="BFBEB7B7C5F3B2AAB1B0B4C2" />
+    <memory offset="0x803D3295" value="BBBDC1A8" />
+    <memory offset="0x803D329A" value="BDFBB0B0D2B9" />
+    <memory offset="0x803D32A1" value="C4D1B3A10000" />
+    <memory offset="0x803D32A8" value="B3A2C1A8" />
+    <memory offset="0x803D32AD" value="C2FEB3A1B2FA" />
+    <memory offset="0x803D32B4" value="C7D7BBC3" />
+    <memory offset="0x803D32B9" value="BEEDB1AC20C2F8C1A800" />
+    <memory offset="0x803D32C4" value="BCB4B3A10000" />
+    <memory offset="0x803D32CB" value="C2C8BEBF20BDA9BCF7C6CE00" />
+    <memory offset="0x803D32D8" value="BDB4C2ED" />
+    <memory offset="0x803D32DD" value="B7ACBBCC00000000" />
+    <memory offset="0x803D32E6" value="B9C0B2E9BBAA00000000" />
+    <memory offset="0x803D32F1" value="BBAAC5F3" />
+    <memory offset="0x803D32F6" value="BCB4B2FA0000" />
+    <memory offset="0x803D32FD" value="BDFBC1E7D2B9" />
+    <memory offset="0x803D3304" value="B3A2C6E8" />
+    <memory offset="0x803D3309" value="BBAAC2C8" />
+    <memory offset="0x803D330E" value="B0F4BAEB" />
+    <memory offset="0x803D3313" value="C1EEB6FBBAB6" />
+    <memory offset="0x803D331A" value="C0A6C6BE000000000000" />
+    <memory offset="0x803D3325" value="BEE7C1BE0000" />
+    <memory offset="0x803D332C" value="B6A2B0ABBEC10000" />
+    <memory offset="0x803D3335" value="B7ACB0ABBCF7" />
+    <memory offset="0x803D333C" value="BED6B7DC" />
+    <memory offset="0x803D3341" value="CBE90000" />
+    <memory offset="0x803D3346" value="B0B0C6D5B6A200000000" />
+    <memory offset="0x803D3351" value="C0A5B7A3C0A5BBAAC1F9" />
+    <memory offset="0x803D335C" value="C9F6BCC8C0A5" />
+    <memory offset="0x803D3363" value="B4A6C1DA" />
+    <memory offset="0x803D3368" value="B0F4BAEBBAB6" />
+    <memory offset="0x803D336F" value="B3A2BCF720B3A2BFDBB6DEB1B0B4C2000000" />
+    <memory offset="0x803D33C1" value="BDBAB7DCC7C20000" />
+    <memory offset="0x803D33CA" value="B1D0B3F2BAE80000" />
+    <memory offset="0x803D33D3" value="C6E8C7CAB7B7BBAAB1BC" />
+    <memory offset="0x803D33DE" value="BDFBB7BEB7AC" />
+    <memory offset="0x803D33E5" value="BDFBBAD4BDBA0000" />
+    <memory offset="0x803D33EE" value="B1BCB6A2" />
+    <memory offset="0x803D33F3" value="BCF7C5CEC1AD0000" />
+    <memory offset="0x803D33FC" value="C5CEB4C2BEA5B3D20000" />
+    <memory offset="0x803D3407" value="BFF3B7B7B1BCB6A2" />
+    <memory offset="0x803D3410" value="B9C0B2E9C6D50000" />
+    <memory offset="0x803D3419" value="B7ACC8CDB0B00000" />
+    <memory offset="0x803D3422" value="B7DCBCF4B0B0B7B70000" />
+    <memory offset="0x803D342D" value="BBAAB6FBBBAA" />
+    <memory offset="0x803D3434" value="BEEDB1AC20C5BFC7CE00" />
+    <memory offset="0x803D343F" value="C4FBB0AFB3A220C9F6BCC8C0A500" />
+    <memory offset="0x803D344E" value="C1C1C1EE3100" />
+    <memory offset="0x803D3455" value="C1C1C1EE3200" />
+    <memory offset="0x803D345C" value="C1C1C1EE3300" />
+    <memory offset="0x803D35B8" value="B8B4B4C3" />
+    <memory offset="0x803D35BD" value="BBDBC8AE" />
+    <memory offset="0x803D35C2" value="C4F5B8F4" />
+    <memory offset="0x803D35C7" value="C3D0BAB6" />
+    <memory offset="0x803D35CD" value="B3C3B1B1BEE0B0C920D2B6B3E3B1DC3F" />
+    <memory offset="0x803D35DE" value="C1EEC4D3BEE020D2B6B3E3B3F200" />
+    <memory offset="0x803D35ED" value="25730A202020202020B0BDB7BE20B9DEB7D5B3E3B3F22E0AB0F6BCB5C7DFB1DCBFEE3F00000000000000" />
+    <memory offset="0x803D3618" value="BBF0B0ACC0F220C4D5B1CEC8AEC7D6BDA9B0D4BDA5B3E3B1DC3F00000000000000000000" />
+    <memory offset="0x803D363D" value="25732031B0BDB7BE20B1B1B8A7C7E2B3E3B3F22E0AB1B1B8A7C7DFB1DCBFEE3F00000000" />
+    <memory offset="0x803D369B" value="25732031B0BDB7BE20C6EAB8A7C7E2B3E3B3F22E0AC6EAB8A7C7DFB1DCBFEE3F00000000" />
+    <memory offset="0x803D36C0" value="2573C1A320C5BBB0ABB0AFBEE00A257320C1C1BED8C0F220C7E2B3E3B3F22E0AB0F6BCB5C7DFB1DCBFEE3F00" />
+    <memory offset="0x803D36ED" value="2573C1A320C5BBB0ABB0AF20B0B0B1A7C0F20AB8DAB4E120C4D5B1CEC8AEC7E2B3E3B3F22E0AB0F6BCB5C7DFB1DCBFEE3F00000000000000" />
+    <memory offset="0x803D3726" value="25732035B0BDB7BE20BBAABFF1C7E80A25732031B0BDB7BE20BBC3BCA5C7E2B3E3B3F22E0AB0F6BCB5C7DFB1DCBFEE3F00000000" />
+    <memory offset="0x803D375B" value="257320B1B1B8A7B7BE20C3C9C7ECC7E2B3E3B3F22E0AB0F6BCB5C7DFB1DCBFEE3F" />
+    <memory offset="0x803D377D" value="B0AB20B0C9C1B820B4BCB0ABC6BEB7BE20BAE5B0A8BFD5B3E3B3F22E0AB0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F000000" />
+    <memory offset="0x803D37AF" value="BAE5B0A8BFBEB8D320C7FDC1DE20B0C9C1B820B4BCB0ABC6BEB3DF0ABBAAB6A2C3D8B3E3B3F22E20B0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F000000000000" />
+    <memory offset="0x803D37EF" value="B0C9C1B820B4BCB0ABC6BEB7BE20C1E7C1DAC7D6BDA9B0D4BDA5B3E3B1DC3F00000000000000000000000000" />
+    <memory offset="0x803D381C" value="B0ABB9A620B0C9C1B820B4BCB0ABC6BEB0B020C1E7C1DAB4D2BEBF20C1BBBDA5B3E3B3F22E0AB4BBBEBFBDECBDA9B0D4BDA5B3E3B1DC3F000000000000000000000000" />
+    <memory offset="0x803D3860" value="B0AB20C5D5BCF7C6D7B7BE20BCC8B6A3C7E2B3E3B3F22E0AB0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F" />
+    <memory offset="0x803D388A" value="B0AB20C5D5BCF7C6D7B3DF20B4C2C2FEBEE020C7AAB1CEC7DF20BCC820BED9BDA5B3E3B3F22E0AB0F6BCB5C7DFB1DCBFEE3F000000" />
+    <memory offset="0x803D38C0" value="BFDDB7A820C2CFB0BFC0F220C4DDC2D2C7D920C5D5BCF7C6D7B3DF0AC7AAB1CEC7DF20BCC820BED9BDA5B3E3B3F22E0ABFDDB7A8C7D6BDA9B0D4BDA5B3E3B1DC3F0000000000000000000000" />
+    <memory offset="0x803D390D" value="B0AB20C5D5BCF7C6D7B7BE20BFDDB7A8C7E2B3E3B3F22E0AB0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F0000" />
+    <memory offset="0x803D3939" value="B0AB20C5D5BCF7C6D7B7BE20C7AAB1CEC7E2B3E3B3F22E0AB0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F0000" />
+    <memory offset="0x803D3965" value="BBEFC6BDC7D920C1EEC6D5B7BE20BDA9C1C1C7E2B3E3B3F22E0AB0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F" />
+    <memory offset="0x803D39D3" value="C5BFC1A8202564B0BDB7A30A257320B1B0C8B50AB0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F0000000000000000000000" />
+    <memory offset="0x803D3A15" value="25782573BEE0BBDA0AB0AB20B8F3B1CEB7A320D2D6CCFAB3E3B3F22E20B0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F00" />
+    <memory offset="0x803D3A45" value="B4A9BAEA20BED8C7D6BDA9B0D4BDA5B3E3B1DC3F0000" />
+    <memory offset="0x803D3A5C" value="2573C7EC20B0ABB4D00AB0F6BCB5C7DFB1DCBFEE3F000000000000000000000000" />
+    <memory offset="0x803D3A7E" value="BCA5B1A720BAB7BBBD20BDFBB0ABC6CEB0ABB2AA20C9B6C0F20AC7D9B4C2B1DCB0AF20BAB7C0D920C2FEC1B9B3E3B3F22E20B0AFB1C820BFDDB7A8C7D6B8D30ABAB7BBBDC0F220C1B5BDA5B3E3B3F22E20B0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F0000000000000000000000000000000000000000" />
+    <memory offset="0x803D3AF5" value="BCA5B1A720BAB7BBBD20BDFBB0ABC6CEB0ABB2AA20C9B6C0F20AC7D9B4C2B1DCB0AF20BAB7C0D920C2FEC1B9B3E3B3F22E20B0AFB1C820BDA7B7C4C7D6B8D30ABAB7BBBDC0F220C1B5BDA5B3E3B3F22E20B0F6BCB5C7D6BDA9B0D4BDA5B3E3B1DC3F0000000000000000000000000000000000000000" />
+    <memory offset="0x803D3B6C" value="BFB80000" />
+    <memory offset="0x803D3B71" value="BDFBB3E3BFEE" />
+    <memory offset="0x803D3B78" value="C1DABAEB" />
+    <memory offset="0x803D3B7D" value="C7E8C2C8" />
+    <memory offset="0x803D3B82" value="BEAA20C7AABCF700000000000000" />
+    <memory offset="0x803D3B91" value="C8A7C4DC00000000" />
+    <memory offset="0x803D3B9A" value="C1BEB4D0C7E6C7E8" />
+    <memory offset="0x803D3BA3" value="BAE5B0A8BFD120C6E8C1ADC0F220BBEFC6BDC7E820C2F8BCA6BFEE00000000000000" />
+    <memory offset="0x803D3BC6" value="C1E7C1DAC7DF20C6E8C1ADC0F220BBEFC6BDC7E820C2F8BCA6BFEE00000000000000" />
+    <memory offset="0x803D3BE9" value="A1D8B0EAB0ACA1D9C0E7B7A320B0B120BEE4BCA920BEB6C6D7B7BE0AC8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F20000000000" />
+    <memory offset="0x803D3C1D" value="A1D8B0EAB0ACA1D9C0E7B7A3202573C1A320C1A3BBBDC0F20ABBEFC6BDC7DF20BCC820C1BBBDA5B3E3B3F20000" />
+    <memory offset="0x803D3C4B" value="BEE4BCA920BEB6C6D7B7BE20BDA5B5A6C7D6B0AF20BEA8BEACBDA5B3E3B3F200" />
+    <memory offset="0x803D3C6C" value="C1A3BBBDB0AB20BED9BDA5B3E3B3F20000000000" />
+    <memory offset="0x803D3C81" value="BDFBB0ABC6CEC0F220C8B0C1A8C7D6B0A2B2AA20BBAABFF1C7DF20BCC820C1BBBDA5B3E3B3F2" />
+    <memory offset="0x803D3CA8" value="B1AEBCB4BCDBC0F220BBAABFF1C7D6B0A2B2AA0AC5BBB0ABB0AFC1A320C2CAC0F220B1B0C4D3C7DF20BCC820C1BBBDA5B3E3B3F200000000000000" />
+    <memory offset="0x803D3CE4" value="B8F3B1CEB7BE20B9C0B1F4B0A2B2AA0ABEAA20C7AABCF7B7BE20BBF0B0ACC7DF20BCC820C1BBBDA5B3E3B3F200000000000000" />
+    <memory offset="0x803D3D18" value="B9D1BEBFB1B120C1DABAEB00000000000000" />
+    <memory offset="0x803D3D2B" value="C1EEC6D520BBF0B0ACC0F220BAADB0F4C7DF20BCC820C1BBBDA5B3E3B3F20000" />
+    <memory offset="0x803D3D4C" value="B0AFB4C2B7BE20BAC420BCC820C1BBBDA5B3E3B3F2000000" />
+    <memory offset="0x803D3D65" value="BEEDB0A820B0ACBAB7B7BE20C8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D3D88" value="BBF0B0AC20BAADB0F42C20C1E7C1DA2FBAE5B0A8BFBEB1CE20B0B0B3E100000000000000" />
+    <memory offset="0x803D3DAD" value="A1D8B4A6BEFA20BAADB0F4A1D9C0E7B7A320C1EEC6D520D0EAB9DEB7BE20B1B0C4D3C7D6B0A30AA1D8B0EAB0ACA1D9C0E7B7A320BBBDC6B5B7BE20C8B0C1A8C7E2B3E3B3F2" />
+    <memory offset="0x803D3DF3" value="B0C9BCF7C6D720D0EAB9DEB3DF20B4A6BEFAC0F20AB9C0C9A520BCC820BED9BDA5B3E3B3F2000000000000000000000000" />
+    <memory offset="0x803D3E25" value="257320B4A6BDB420B2E5C0F220D0EAB9DEB7BE0ABBEFC6BDC7E820C2F8BCA6BFEE00000000000000000000" />
+    <memory offset="0x803D3E51" value="B1AEBCB4BCDB20BBAABFF100000000000000" />
+    <memory offset="0x803D3E64" value="C5BBB0ABB0AFB7BE20BBF0B0ACC7E2B3E3B3F2000000" />
+    <memory offset="0x803D3E7B" value="B8F3B1CEC1A320BEAA20C7AABCF720C7C2B6DEC1B8BEE00AC7CABCF7B7BE20BBF0B0ACC7DF20BCC820C1BBBDA5B3E3B3F20000000000000000000000000000" />
+    <memory offset="0x803D3EBB" value="C1DABAEBC7DF20B8F3B1CEB7BE20BBEFC6BDC7E2B3E3B3F2" />
+    <memory offset="0x803D3ED4" value="C1C1C1EEC0F220BBF0B0ACC7E2B3E3B3F2000000" />
+    <memory offset="0x803D3EE9" value="C6E8C6E3B7BE20C7A2BCA5C7E2B3E3B3F20000000000" />
+    <memory offset="0x803D3F00" value="B7A3B1BCB6DEBCF720C8B0C1A820D1A220B4D0C2CFB0B020B0B0B3E1C7E2B3E3B3F20000000000000000" />
+    <memory offset="0x803D3F2B" value="C2F8BAAD20B0AFB4C2B7BE20C8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F20000" />
+    <memory offset="0x803D3F4C" value="BCA6B0F620B0AFB4C2B7BE20C8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F20000" />
+    <memory offset="0x803D3F6D" value="B1D0B4FD20BCC8C4CEC0F220C8B0C1A8C7E2B3E3B3F2" />
+    <memory offset="0x803D3F84" value="C1EEC6D5C7D920B8E2BCF7C6BE20B0ACBAB7B7BE0AC8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D3FB0" value="B0C9C1B820BFF1BEBFB7BE20C8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D3FD5" value="B4BCB0ABC6BEB7BE20C1E7C1DAC7DF20BCC820C1BBBDA5B3E3B3F20000000000" />
+    <memory offset="0x803D3FF6" value="B4BCB0ABC6BEB7BE20BAE5B0A8BFD120BCC820C1BBBDA5B3E3B3F20000000000" />
+    <memory offset="0x803D4017" value="B0C9C1B820BBF0B0ACC0F220BAADB0F4C7E2B3E3B3F200000000" />
+    <memory offset="0x803D4032" value="BDFBB0ABC6CEC0F220BBAABFF1C7D6B0A2B2AA20B9DEB7CD20BCC820C1BBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D405B" value="B1BAC2FEC7B7C0F220C8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F200" />
+    <memory offset="0x803D4078" value="C2CAC0F220C8B0C1A8C7D6B0A2B2AA20B9DEB7CD20BCC820C1BBBDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D40A1" value="B8F3B1CEB7BE20C8B0C1A8C7E2B3E3B3F200" />
+    <memory offset="0x803D40B4" value="B8E820B9D1BEBFB1B1B7BE20C8B0C1A8C7D6B0A2B2AA0AB9DEB7CD20BCC820C1BBBDA5B3E3B3F200000000000000000000" />
+    <memory offset="0x803D40E6" value="B3F2B7C420B9D1BEBFB1B1B7BE20C8B0C1A8C7D6B0A2B2AA0AB9DEB7CD20BCC820C1BBBDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D4118" value="C1DABDB4B1B1B7BE20C8B0C1A8C7D6B0A2B2AA0AB9DEB7CD20BCC820C1BBBDA5B3E3B3F2000000000000000000" />
+    <memory offset="0x803D4146" value="C1DABAEB20C2FEC1A820BDFBB0ABC6CEC0F120B9DEB7CD20BCC820BED9BDA5B3E3B3F20000000000" />
+    <memory offset="0x803D416F" value="B0AB20BDFBB0ABC6CEC0F120B9DEB7CD20BCC820BED9BDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D4194" value="B0AB20BDFBB0ABC6CEC0F120BBAABFF1C7DF20BCC820BED9BDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D41BB" value="BDFBB0ABC6CEB0AB20BED9BDA5B3E3B3F200000000000000" />
+    <memory offset="0x803D41D4" value="C1DAC3FC20B0B0B3E1C7D920C2CAB0AB20BED9BDA5B3E3B3F20000000000" />
+    <memory offset="0x803D41F3" value="BAD8B7C4C7DF20C2CAB0AB20BED9BDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D4210" value="BBEFC6BDC7D920C2CAC0F220BAD8B7C4C7E2B3E3B3F2000000000000" />
+    <memory offset="0x803D422D" value="B0BBC0F120C2CAC1B9B3E3B3F200" />
+    <memory offset="0x803D423C" value="BDA3D0CBB0AB20BED9BEBF20C2CFC1C1C7DF20BCC820BED9BDA5B3E3B3F20000" />
+    <memory offset="0x803D425D" value="BAEC20BDA3D0CBC1B9B3E3B3F2000000" />
+    <memory offset="0x803D426E" value="BABCC7E220BCB5BCA520A1D82573A1D90AB9CFBBC32100000000000000" />
+    <memory offset="0x803D428C" value="BABCC7E220BCB5BCA520A1D82573A1D9A1A6A1D82573A1D90AB9CFBBC32100000000000000" />
+    <memory offset="0x803D42B2" value="BBAABFF1C7DF20B1AEBCB4BCDB20B6DEB9FDC0F220BBEFC6BDC7E820C2F8BCA6BFEE000000000000" />
+    <memory offset="0x803D42DB" value="BBAABFF120B0B0B3E120B1AEBCB4BCDBB0AB20BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D42F9" value="4433B0B020BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D4308" value="C1DABAEBC7D6B0AF20BEA8BEACBDA5B3E3B3F200" />
+    <memory offset="0x803D431D" value="C1DABAEB20C7E8C2C80000000000" />
+    <memory offset="0x803D432C" value="C1DABAEB20B0B0B3E1C7D920BDFBB0ABC6CEB0AB20BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D434B" value="BAADB0F4C7DF20D0EAB9DEB7BE20BBEFC6BDC7E820C2F8BCA6BFEE000000000000000000" />
+    <memory offset="0x803D4370" value="B1B0C4D3C7DF20D0EAB9DEB7BE20BBEFC6BDC7E820C2F8BCA6BFEE0000000000000000000000" />
+    <memory offset="0x803D4397" value="C1EEC6D520BAE5B3E120D0EAB9DEB7E1C0E7B7A3B3DF0AC6E8C6E3B7BE20C7A2BCA5C7DF20BCC820BED9BDA5B3E3B3F20000000000000000000000" />
+    <memory offset="0x803D43D3" value="BAADB0F4C7DF20C1C1C1EEC0F220BBEFC6BDC7E820C2F8BCA6BFEE0000000000" />
+    <memory offset="0x803D43F4" value="B4D0C2CF20C2FEC1A820B7A3B1BCB6DEBCF7B0B020BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D4413" value="B7A3B1BCB6DEBCF720B4D0C2CFB7BE20C7E8C2C8C7E2B3E3B3F20000" />
+    <memory offset="0x803D4430" value="B4D0C2CF20B0B0B3E120B7A3B1BCB6DEBCF720BED9C0F30000000000" />
+    <memory offset="0x803D444D" value="C4D8C4DCC7DF20C7CABCF7B7BE20BBEFC6BDC7E820C2F8BCA6BFEE0000000000" />
+    <memory offset="0x803D446E" value="C7CABCF7B7BE20C1DAC3FCC7DF20C0B4C4F0B7BE0ABBEFC6BDC7E820C2F8BCA6BFEE00000000000000" />
+    <memory offset="0x803D4498" value="BBF0B8D9C0F220BAC420C7CABCF7B7BE20BBEFC6BDC7E820C2F8BCA6BFEE000000000000" />
+    <memory offset="0x803D44BD" value="BBEFC6BDC7D920C0B4C4F0BEE0B3DF0AC7CABCF7B7BE20C1DAC3FCC7DF20BCC820BED9BDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D44EF" value="B8F3B1CE20B0A3C0D920BEBFBAEDB7C4C6E3B7A320B0ABB9A60AC1DAC3FCB4D2BEBF20C1BBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D4521" value="BBEFC6BDC7D920C7CABCF7B0B020C1D7B0DF20C1BBBEBF0ABAD8B7C4C7DF20BCC820BED9BDA5B3E3B3F2000000000000000000000000000000" />
+    <memory offset="0x803D455B" value="BBEFC6BDC7D920C7CABCF7B3DF20B8F3B1CE20B0A3C0D920C7CABCF7B6A20ABAD8B7C4C7DF20BCC820BED9BDA5B3E3B3F200000000000000000000" />
+    <memory offset="0x803D4597" value="BBEFC6BDC7D920C7CABCF7B0B020B7DFCAC720C1BBBEBF0ABAD8B7C4C7DF20BCC820BED9BDA5B3E3B3F2000000000000000000000000000000" />
+    <memory offset="0x803D45D1" value="BBEFC6BDC7D920B8F3B1CEB7BE20C1DABAEBC7E2B3E3B3F2" />
+    <memory offset="0x803D45EA" value="BBEFC6BDC7D920B8F3B1CEC1A320BEAA20C7AABCF7B7BE20C7A2C3D8C7E2B3E3B3F2000000000000" />
+    <memory offset="0x803D4613" value="C1DABAEB20B0B0B3E120B8F3B1CEB0B020BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D462E" value="C1DAC3FC20B0B0B3E1C7D920BEAA20C7AABCF7B0B020BED9BDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D4655" value="B0ABB9A620C1DAC3FCB4DA20BEAA20C7AABCF7C1B9B3E3B3F200000000000000000000000000" />
+    <memory offset="0x803D467C" value="BDA9C5E6B7D620C7CABCF720C7E8B9D13A20A1D82573A1D90ABFDDB7A8B4D2BEDFBDA5B3E3B3F20A0AC8C0B1A80A25730000" />
+    <memory offset="0x803D46AF" value="B8F3B1CEC1A320BDA9C5E6B7D620C7CABCF7B0B00AC7E8B9D1B4D2B0AF20BEA8BEACBDA5B3E3B3F20000000000" />
+    <memory offset="0x803D46DD" value="C8B0C1A8C7DF20B8E2BCF7C6BEB0B020BED9BDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D46FC" value="B0C9BCF7C6D7B3DF20B0AB20C2CFC1C1C0F220C7DF20BCC820BED9BDA5B3E3B3F2000000" />
+    <memory offset="0x803D4721" value="A1DABCB4BAEB20BDFBB0ABC6CEA1DB0ABBAABFF1C7D6B8D320B3F2BEBEC7D920C8C0B1A8B7BE20BEC2B3DFB3F2000000000000" />
+    <memory offset="0x803D4755" value="A1DAB1BAC2FEC7B7A1DB0AC8EDBCB4C7D920BDFBB0ABC6CE000000000000000000" />
+    <memory offset="0x803D4777" value="A1DAC2CAA1DB0AB1AEBCB4BCDB20BBAABFF1BEE020C7D0BFEEC7D920BAB7BBDB0000000000000000000000" />
+    <memory offset="0x803D47A3" value="A1DAB8F3B1CEA1DB0AB3F2BEBEC7D920BEAA20C7AABCF7B0B020B1D5B5B8BEBF20C1BBB3F20000000000000000" />
+    <memory offset="0x803D47D1" value="A1DAB8E820C1DABAEBA1DB0AB9D1BEBFB6E9B1A820B7DCB9F220B9D1BEBFB6E9B0AB20C5E6B0C920BBBDBDA700" />
+    <memory offset="0x803D47FF" value="A1DAB3F2B7C420C1DABAEBA1DB0AB9AEC4CEBCA5B0AB20C5E6B0C920BBBDBDA700" />
+    <memory offset="0x803D4821" value="A1DAC1DABDB4B1B1A1DB0AC1DABAEBC7D6B8D320B3F2BEBEC7D920C8C0B1A8B7BE20BEC2B3DFB3F200000000000000" />
+    <memory offset="0x803D4851" value="C9B6B0AB20BAD4C2D2C7E2B3E3B3F200" />
+    <memory offset="0x803D4862" value="C7B7C1F9C1B9B3E3B3F20000" />
+    <memory offset="0x803D486F" value="B0AB20BDFBB0ABC6CEC0F120B4A920B0ABBBBD0ABCB4B0AFC7DF20BCC820BED9BDA5B3E3B3F20000000000" />
+    <memory offset="0x803D48A7" value="393620BAD4C2D200000000000000" />
+    <memory offset="0x803D48B6" value="B0AB20C7E6B8E0C0F120B4A920B0ABBBBD0AB0B0B1A7C7DF20BCC820BED9BDA5B3E3B3F2000000000000000000" />
+    <memory offset="0x803D48E4" value="B0B0B1A7C7D6B0AF20BEA8BDFB0AC4D5B1CEC8AEC7DF20BCC820BED9BDA5B3E3B3F2000000000000000000" />
+    <memory offset="0x803D4910" value="C2CA20C2CFB0B1B0AB20BAD4C2D2C7E2B3E3B3F20000000000000000" />
+    <memory offset="0x803D492D" value="C2CA20C2CFB0B1B0AB20BED9BDA5B3E3B3F200000000000000000000" />
+    <memory offset="0x803D494A" value="C2CAC0F220B4A920BCB4B0AFC7DF20BCC820BED9BDA5B3E3B3F200000000000000000000" />
+    <memory offset="0x803D496F" value="B9A6B0F6BEBB20C5D5BCF7C6D720B8E0B7A50000" />
+    <memory offset="0x803D4984" value="C3C9C7EC20C2FE20C5D5BCF7C6D720B8E0B7A500" />
+    <memory offset="0x803D4999" value="BFDDB7A8C7D920C5D5BCF7C6D720B8E0B7A5000000000000" />
+    <memory offset="0x803D49B2" value="BBDAB9C0B0ABB9EA20C5D5BCF7C6D720B8E0B7A50000" />
+    <memory offset="0x803D49C9" value="B3F6C4D320C5D5BCF7C6D720B8E0B7A500000000" />
+    <memory offset="0x803D49DE" value="C6BEC7C220C5D5BCF7C6D720B8E0B7A5" />
+    <memory offset="0x803D49EF" value="A1D8BBBDBCA6B0ACBAB7A1D9B7A320BBBDBCA620C7B4BDA9000000000000" />
+    <memory offset="0x803D4A0E" value="A1D8BBBDBCA620B0ACBAB7A1D9B7A320C2EDB8E020B0ACBAB7B7BE0AC8B0C1A8C7DF20BCC820C1BBBDA5B3E3B3F2000000" />
+    <memory offset="0x803D4A40" value="A1D8BCC8B6A3A1D9C0E7B7A320B0AB20C5D5BCF7C6D7B7BE0ABCC8B6A3C7DF20BCC820C1BBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D4A70" value="A1D8B3FBBCA5A1D9C0E7B7A320B0AB20C5D5BCF7C6D7B7BE0AB3FBBCA5C7DF20BCC820C1BBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D4AA0" value="B0AB20C5D5BCF7C6D7B3DF20BDFBC3BF20BFDDB7A820C2CFB0BFC0F20AC4DDC2D2C7D6B0AF20B8EBC7EBBDA5B3E3B3F200" />
+    <memory offset="0x803D4AD2" value="BFDDB7A8C7D920C5D5BCF7C6D7C1B9B3E3B3F20000000000" />
+    <memory offset="0x803D4AEB" value="C3C9C7EC20C2FE20C5D5BCF7C6D7000000000000" />
+    <memory offset="0x803D4B00" value="A1D8C4AAB0B0A1D9B7A320B0AB20C2EDB8E0BEE020B4C2C1EEC7DF20BCC80AC1BBBDA5B3E3B3F20000000000000000000000000000" />
+    <memory offset="0x803D4B36" value="C5D5BCF7C6D7B7BE20B4A920B0ABBBBD0AB4D0BDA9BEE020BCC8B6A3C7DF20BCC820BED9BDA5B3E3B3F2000000" />
+    <memory offset="0x803D4B7C" value="393620BAD4C2D2C7E2B3E3B3F20000000000" />
+    <memory offset="0x803D4B8F" value="C5D5BCF7C6D720BFDDB7A820C2CFB0BFC0F220C4DDC2D2C7D6B0AF20B8EBC7E80AB3FBBCA5C7DF20BCC820BED9BDA5B3E3B3F200000000" />
+    <memory offset="0x803D4BC7" value="BCC8B6A3C7DF20C5D5BCF7C6D7B0B020BED9BDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D4BE6" value="C3C9C7EC20C2FEC1A820C5D5BCF7C6D7B0B020BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D4C03" value="BFDDB7A8C7D920C5D5BCF7C6D7B0B020BED9BDA5B3E3B3F20000000000000000" />
+    <memory offset="0x803D4C24" value="C4AAB0B020B0B0B3E1C7D920C2EDB8E0B0AB20BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D4C41" value="B0AB20C5D5BCF7C6D7B3DF20C2FEB4C220C7AAB1CE20BAE5B0B00000000000000000" />
+    <memory offset="0x803D4C71" value="B9A6B3FBBCA5" />
+    <memory offset="0x803D4C7B" value="B4A6C8AE" />
+    <memory offset="0x803D4C80" value="BCC6D4CC0000" />
+    <memory offset="0x803D4C87" value="C1B9C1DA" />
+    <memory offset="0x803D4C8C" value="C6D4C1DA" />
+    <memory offset="0x803D4C91" value="B5C0B9C9" />
+    <memory offset="0x803D4C96" value="C7D6B0B90000" />
+    <memory offset="0x803D4C9D" value="C2C2C7C200000000" />
+    <memory offset="0x803D4CA6" value="C2CFBBAA0000" />
+    <memory offset="0x803D4CAD" value="B8FB0000" />
+    <memory offset="0x803D4CB2" value="BEFAB1CE0000" />
+    <memory offset="0x803D4CB9" value="C2CFC1C1" />
+    <memory offset="0x803D4CBE" value="C5F8B1CE" />
+    <memory offset="0x803D4CC3" value="BDA3D0CB20C8B0C1DA000000" />
+    <memory offset="0x803D4D5C" value="C5BBB0ABB0AF20B0B0B1A720C4D5B1CEC8AE0000" />
+    <memory offset="0x803D4D71" value="BDA3D0CBC0F220C8B0C1DAC7D6B8D30AC5BBB0ABB0AFBEE020C1DAC3FCC7DF20C2CAB0AB2031B0BD20B3E0BEBFB2C0B3E3B3F2000000000000000000000000000000000000" />
+    <memory offset="0x803D4DB7" value="B6DEB9FD2031204D50B0B0203120BBBDBDA7C7E2B3E3B3F200000000" />
+    <memory offset="0x803D4DD4" value="B6DEB9FD2032204D50B0B0203120BBBDBDA7C7E2B3E3B3F200000000" />
+    <memory offset="0x803D4DF1" value="B6DEB9FD2033204D50B0B0203120BBBDBDA7C7E2B3E3B3F200000000" />
+    <memory offset="0x803D4E0E" value="B6DEB9FD2034204D50B0B0203120BBBDBDA7C7E2B3E3B3F200000000" />
+    <memory offset="0x803D4E2B" value="BAE520BCB5BCA520B1AEBCB4BCDB20BCA5B3E12031B3F6B0F620B0B9C8AE000000000000" />
+    <memory offset="0x803D4E50" value="B9A320BCB5BCA520B1AEBCB4BCDB20BCA5B3E12031B3F6B0F620B0B9C8AE000000000000" />
+    <memory offset="0x803D4E75" value="B9C0B6AC20BCB5BCA520B1AEBCB4BCDB20BCA5B3E12031B3F6B0F620B0B9C8AE00000000" />
+    <memory offset="0x803D4E9A" value="B5CB20BCB5BCA520B1AEBCB4BCDB20BCA5B3E12031B3F6B0F620B0B9C8AE000000000000" />
+    <memory offset="0x803D4EBF" value="BDB6C7ECC7D920C5BBB0ABB0AF20B0B0B1A7C0F220C4D5B1CEC8AEC7E2B3E3B3F20AC1DAC3FCC7D920C2CAC0F120B8DAB4E120BAD8B7C4CBBFB3E3B3F200000000000000000000" />
+    <memory offset="0x803D4F07" value="C7E6B8E0BBEFC6BD" />
+    <memory offset="0x803D4F10" value="B0EAB0AC" />
+    <memory offset="0x803D4F15" value="B4F4B7A3" />
+    <memory offset="0x803D4F1A" value="BBBDC6B5000000000000" />
+    <memory offset="0x803D4F25" value="CFD9B1CE0000" />
+    <memory offset="0x803D4F2C" value="B9DEB7C4B1CE" />
+    <memory offset="0x803D4F33" value="B0ACBBB7" />
+    <memory offset="0x803D4F38" value="BBBDBCA6B0ACBAB7" />
+    <memory offset="0x803D4F41" value="D2FA00000000" />
+    <memory offset="0x803D4F48" value="C7C2B6DEC1B820C2CFC1C100" />
+    <memory offset="0x803D4F55" value="B8DAB4BE0000" />
+    <memory offset="0x803D4F5C" value="C8B9C1EE" />
+    <memory offset="0x803D4F61" value="C1EEC8B5" />
+    <memory offset="0x803D4F66" value="D2F7BFF3C8B9C1EE" />
+    <memory offset="0x803D4F6F" value="BBBDC7D6C8B9C1EE" />
+    <memory offset="0x803D4F78" value="B8E0B7A50000" />
+    <memory offset="0x803D4F7F" value="BCC8B6A30000" />
+    <memory offset="0x803D4F86" value="B3FBBCA5" />
+    <memory offset="0x803D4F8B" value="C7AAB1CE" />
+    <memory offset="0x803D4F90" value="C4AAB0B0" />
+    <memory offset="0x803D4F95" value="C1BEB7D6BCC8" />
+    <memory offset="0x803D4F9C" value="C4FBB4FD20BBEFC6BD00" />
+    <memory offset="0x803D4FA7" value="BBC1BBEFC6BD" />
+    <memory offset="0x803D4FAE" value="B2A4B2C9B1CE" />
+    <memory offset="0x803D4FB5" value="B7CD20B0ACB0AF000000" />
+    <memory offset="0x803D4FC0" value="B3F2C0F3" />
+    <memory offset="0x803D4FC5" value="C4FBB4FD20B1B0C8B500" />
+    <memory offset="0x803D4FD0" value="B3F6BEBFB0C1BBC1" />
+    <memory offset="0x803D4FD9" value="B1CEB7A5" />
+    <memory offset="0x803D4FDE" value="B0ABB4D0" />
+    <memory offset="0x803D4FE3" value="B0ACBAB7" />
+    <memory offset="0x803D4FE8" value="C7C2B6DEC1B80000" />
+    <memory offset="0x803D4FF1" value="B4A6BEFABAADB0F4" />
+    <memory offset="0x803D4FFA" value="BBF0B0ACBFDDB7A8" />
+    <memory offset="0x803D5003" value="C4D5B1CEBBF0B0AC" />
+    <memory offset="0x803D500C" value="BBAABFF1C7DF20D3DFC6D7D0C9B0A8B7BE0ABBF0B0ACC7E2B3E3B3F22E0AD3DFC6D7D0C9B0A8C1A320B9DEC6DBC0F220B3C3B7B7B8D30AC8B0B0ACCBBFB3E3B3F22E000000000000000000000000000000000000000000" />
+    <memory offset="0x803D5064" value="25730AC2CFC1C120D3DFC6D7D0C9B0A8B7A320BBF0B0ACC7EBBDA5B3E3B3F22E0000000000" />
+    <memory offset="0x803D508A" value="D3DFC6D7D0C9B0A800000000" />
+    <memory offset="0x803D5097" value="C3C9B4D0" />
+    <memory offset="0x803D509C" value="C1BEB7DF" />
+    <memory offset="0x803D50A1" value="C5A7BBDA20B1CEBEC0000000" />
+    <memory offset="0x803D50AE" value="C4FBB8D1B6A2C8B9C1EE" />
+    <memory offset="0x803D50B9" value="B1C5C1BEBCB5B4C2" />
+    <memory offset="0x803D50C2" value="42474D20C0F3B6D60000" />
+    <memory offset="0x803D50CD" value="534520C0F3B6D600" />
+    <memory offset="0x803D50D6" value="C0F3BCA5C0F3B6D6" />
+    <memory offset="0x803D50DF" value="C7C7B7C4C5A720B6DEB9FD0000000000" />
+    <memory offset="0x803D50F0" value="D4F20000" />
+    <memory offset="0x803D50F5" value="CEC000000000" />
+    <memory offset="0x803D50FC" value="B3D2B7D3" />
+    <memory offset="0x803D5101" value="BAB7C6D3" />
+    <memory offset="0x803D5106" value="BAF9B7C2" />
+    <memory offset="0x803D510B" value="C9F8BDA9" />
+    <memory offset="0x803D5110" value="B8F3C0F3" />
+    <memory offset="0x803D5115" value="C4D7B4A6" />
+    <memory offset="0x803D511A" value="C4D7BCB4" />
+    <memory offset="0x803D511F" value="C1ADB9C9" />
+    <memory offset="0x803D5124" value="B9C9C1EE" />
+    <memory offset="0x803D5129" value="BBAABFF1C7DF20D3DFC6D7D0C9B0A8B7BE20BBF0B0ACC7E2B3E3B3F200000000" />
+    <memory offset="0x803D514A" value="D3DFC6D7D0C9B0A820C3C9B4D0C0F220BBF0B0ACC7E2B3E3B3F200000000" />
+    <memory offset="0x803D5169" value="B4BCB8DA20C1DAB8D3C1A320C1BEB7DF20C7B4BDA920BEEDBAD4B7BE0ABBF0B0ACC7E2B3E3B3F200000000" />
+    <memory offset="0x803D5195" value="C1EEC6D520B8D1B3CFC1A320C5A7BBDA20C0B4C4F00AC1E7C1DA20BEEDBAD4B7BE20BBF0B0ACC7E2B3E3B3F2000000000000000000000000000000" />
+    <memory offset="0x803D51D1" value="C0A6B4FDBEE0BBDA20C4FBB8D1B6A220C8B9C1EE20B9D1C7F0C0F20ABBF0B0ACC7E2B3E3B3F2000000" />
+    <memory offset="0x803D51FB" value="B8D1BDA9B0AF20C7B4BDA920BCB5B4C2B7BE20BBF0B0ACC7E2B3E3B3F2000000" />
+    <memory offset="0x803D521C" value="42474D20C0F3B6D6C0F220C2CFC1F9C7E2B3E3B3F2000000" />
+    <memory offset="0x803D5235" value="534520C0F3B6D6C0F220C2CFC1F9C7E2B3E3B3F20000" />
+    <memory offset="0x803D524C" value="C0F3BCA520C0F3B6D6C0F220C2CFC1F9C7E2B3E3B3F2" />
+    <memory offset="0x803D5263" value="C7C7B7C4C5A720C7D0C6BE20B6DEB9FDC0F220BBF0B0ACC7E2B3E3B3F2000000000000000000" />
+    <memory offset="0x803D528A" value="BAE5B0A8BFBEB3DF20C2FE0000000000" />
+    <memory offset="0x803D529B" value="BAE5B0A8BFBEB1CE20BFDDB7A800000000000000" />
+    <memory offset="0x803D52B0" value="C1E7C1DA20C2FEC1B9B3E3B3F22E0AC1EEC0A520B9DEC6DB28B5E4B3DF20B7C4D1EC20B9DEC6DB29C0F20AB3C3B7B7B0AF20B7DCBCA6BFEE2E00000000000000000000000000" />
+    <memory offset="0x803D52F7" value="C1E7C1DA20BFDDB7A80000000000000000000000" />
+    <memory offset="0x803D533A" value="57696920BAC1C4D320C1E7C1DA20B8D1B8DAB7C4C1A320BEEDC0D920B1A7B0B2B0AB0ABAD4C2D2C7E2B3E3B3F22E0A57696920B8D1B3CFC1A320B4BCB0ABC6BE20B1ACB7C420C8AEB8D3BEE0BBDA0AB4BCB0ABC6BEB7BE20534420C4FBB4FDB7A320D2D6B1CEB0A2B2AA0ABBADC2C8C7D6BEED2034BAEAB7A5C1A320BEEDC0D920B1A7B0B2C0F20AC8B0BAB7C7E820C2F8BCA6BFEE2E00000000000000000000000000000000000000" />
+    <memory offset="0x803D53E4" value="57696920BAC1C4D320C1E7C1DA20B8D1B8DAB7C4B7BE0AC1B2B0A2B2AA20BDF220BCC820BED9BDA5B3E3B3F22E0A57696920BAC1C4D320BBAABFF1BBF0B8D9BBDAB7BE20C8B0C1A8C7E820C2F8BCA6BFEE2E0000000000000000000000000000000000000000000000" />
+    <memory offset="0x803D546B" value="B4BCB0ABC6BEB0B020BED9BDA5B3E3B3F200" />
+    <memory offset="0x803D547E" value="C0A6B4FD20D0E200000000000000" />
+    <memory offset="0x803D54C1" value="BDA3D0CB00000000" />
+    <memory offset="0x803D54CA" value="C7AAC5A700000000" />
+    <memory offset="0x803D54D3" value="BAEAB6BED2ED00000000000000000000" />
+    <memory offset="0x803D54E4" value="C5BFC7CE20B6DEB0ABBCF700" />
+    <memory offset="0x803D54F1" value="C4FBB0AFB3A2BEE020BEBFBBDA20BFBEBCA6BFEE210AB8F3BEDBC0F220C7DFB1DCBFEE3F00" />
+    <memory offset="0x803D5517" value="257320B0A9D2B5B0ABB1B6BFEE2E0AC3B7B0A2BFF720BDA9B0B220BAB7B2C9BCA6BFEE210000000000" />
+    <memory offset="0x803D5541" value="BEBFB3D220B0C9C1B820BBF0B8D9C0F220B5B8C0F2B1DCBFEE3F00000000" />
+    <memory offset="0x803D5560" value="C5BFC1A8C0F220B1B1B8A7C7E2B3E3B3F22E0AD0EE20B0BD20B1B1B8A7C7DFB1DCBFEE3F00000000000000" />
+    <memory offset="0x803D558C" value="C9B6B0AB20BAD4C2D2C7E2B3E3B3F22E0000" />
+    <memory offset="0x803D559F" value="C5BFC1A820BCC8B6D6C0F220B0AFB0ACC7E820C2F8BCA6BFEE2E00000000" />
+    <memory offset="0x803D55BE" value="C5BFC1A820C7D9B4C220C4D5B1A8C1B9B3E3B3F22E000000" />
+    <memory offset="0x803D55D7" value="B1B0C8B5C7DF20B0F4C7B7C0F220BBEFC6BDC7E820C2F8BCA6BFEE2E00000000" />
+    <memory offset="0x803D55F8" value="C5BFC1A8B0AB20BAD4C2D2C7E2B3E3B3F22E0000000000000000" />
+    <memory offset="0x803D5613" value="C7B7C1F9C1B9B3E3B3F22E000000" />
+    <memory offset="0x803D5622" value="B0AB20BDFBB0ABC6CEC0F10AB4A920B0ABBBBD20BCB4B0AFC7DF20BCC820BED9BDA5B3E3B3F22E000000000000" />
+    <memory offset="0x803D5650" value="BEBFB3D220B0C9C1B8C0F220C7DFB1DCBFEE3F0000000000" />
+    <memory offset="0x803D5669" value="B0C9C1B8C5E4BAE820D3DFC6D7D0C9B0A8000000000000000000" />
+    <memory offset="0x803D5684" value="B3C4C3F7C5E600000000" />
+    <memory offset="0x803D568F" value="C5EEB6B3BDAF20D3DFC6D7D0C9B0A800000000000000" />
+    <memory offset="0x803D56A6" value="B3A220C6F6BEBF00" />
+    <memory offset="0x803D56AF" value="C2CFC5A7000000000000" />
+    <memory offset="0x803D56BA" value="C6D520C6F6BEBF00" />
+    <memory offset="0x803D56C3" value="C6D7B7C4C7C7000000000000" />
+    <memory offset="0x803D56D0" value="BCF7C6D7B6DEB0ABC6D7" />
+    <memory offset="0x803D56DB" value="C7C7B0A8BDA900000000" />
+    <memory offset="0x803D56E6" value="C7B620C7D6BFF3BCF700" />
+    <memory offset="0x803D56F1" value="C7AA20C4FBB4FD0000000000" />
+    <memory offset="0x803D56FE" value="BCF7C6D7B6DEB0ABC6D720C7C7B0A8BDA9000000" />
+    <memory offset="0x803D5713" value="C6E8B0ABBAE820C4FBB4FD000000" />
+    <memory offset="0x803D5722" value="B7A3BEFA20BCF7C6D7B6DEB0ABC6D720C7C7B0A8BDA9000000000000" />
+    <memory offset="0x803D573F" value="B0C020C5BFC1A820BCC8B7BE20B0ACC7E820C2F8BCA6BFEE00000000000000000000" />
+    <memory offset="0x803D5778" value="3237B7A320BBEFC6BDC7E820C2F8BCA6BFEE" />
+    <memory offset="0x803D578B" value="C4DAC7D6C7E2B3E3B3F2210A257320BFDDBCA521000000000000000000000000000000000000000000" />
+    <memory offset="0x803D57B5" value="BDFBBCE2B2E9BFEE2120B3A220C6F6BEBF00" />
+    <memory offset="0x803D57C8" value="B4A9BAEA20BED820B9D1BDAFC0F220BBEFC6BDC7E820C2F8BCA6BFEE0AC7D6B0AF20BEA8C0E7B6E6B8D320C6F6B0ABBDFBBFFBC0F220BBEFC6BDC7D6BCA6BFEE000000000000000000000000000000000000000000" />
+    <memory offset="0x803D581E" value="B9D9B4A120C5BFC1A8C1A320C1F9B9C9C0F220BAB7C0D920C5BFC1A8BEE020B4A9C7D6B0A30AB2AAB8BEB0AFB3DF20B4A9BAEA20BED8BEE020CCADB3E3B3F20000000000000000" />
+    <memory offset="0x803D5866" value="B9D9B4A120C5BFC1A820C1EEBAD4B7BE20B4A9BAEA20BED8BEE00ACCADB3E3B3F20000000000000000000000000000" />
+    <memory offset="0x803D5896" value="B4A9BAEA20BED8C0F220B2A4B2C9B0A30AB9D9B4A120C5BFC1A8C0F220BAB7C0D920C5BFC1A8BEE020B4A9C7E2B3E3B3F200000000000000000000" />
+    <memory offset="0x803D58D2" value="B4F4C3D8C8F620C4FBB4FD20B8F3B3E2C1A320BBC1C0F220BBEFC6BDC7E820C2F8BCA6BFEE00000000000000" />
+    <memory offset="0x803D58FF" value="B0ACB3FE2120B4A9BAEA20BED8BEE020BCA5B1A7C7EBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D5922" value="BDB6C6F42120B4A9BAEA20BED8BEE020BDB6C6F4C7EBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D5945" value="BAB7C0D920C5BFC1A8B0AB20BAD4C2D2C7E2B3E3B3F2" />
+    <memory offset="0x803D595C" value="C5BFC1A8202564B0BDB7BE20BEC2BEDFBDA5B3E3B3F20000" />
+    <memory offset="0x803D5975" value="C7D6C7C220B4A9BAEA20BED8000000000000" />
+    <memory offset="0x803D5988" value="B4A9BAEA20BED80000000000" />
+    <memory offset="0x803D5995" value="C6F6B0ABBDFBBFFB0000" />
+    <memory offset="0x803D59BF" value="3237B7A320C6D5C1B920C5BFC1A820BCC8B7BE20B0AFB0ACC7E820C2F8BCA6BFEE00" />
+    <memory offset="0x803D59E2" value="BEFAB6AC20B1CEB7A5B0AB20BED9BDA5B3E3B3F2" />
+    <memory offset="0x803D59F7" value="A1D8C2C2C7C2A1D9C7DF20BCC820C1BBB3DF20B3F6BEBFB0B020BED9BDA5B3E3B3F2" />
+    <memory offset="0x803D5A1A" value="A1D8C2C2C7C2A1D9B7A320B0ABBEBFBBDA0AB3F6BEBFB7BE20C2CFBBAAC7DF20BCC820C1BBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D5A4C" value="A1D8B3F6BEBF20B0C1BBC1A1D9C0E7B7A320BBF0B8D9BEE020B2AABFBEB3DF0AB3F6BEBFB7BE20C2CFBBAAC7DF20BCC820C1BBBDA5B3E3B3F20000" />
+    <memory offset="0x803D5A97" value="4439A1D82573A1D9B7A320B0ABB4D0000000000000000000" />
+    <memory offset="0x803D5AB1" value="3238A1D82573A1D9B7A320BABCB1BA0000000000" />
+    <memory offset="0x803D5AC7" value="4439A1D82573A1D9B7A320B0ABB4D00000000000" />
+    <memory offset="0x803D5ADC" value="D0E220B8E0B7A5C0F220C7B4BDA9C7E2B3E3B3F20000" />
+    <memory offset="0x803D5AF3" value="B7DCC0F220B8E0B7A5C0F220C7B4BDA9C7E2B3E3B3F2" />
+    <memory offset="0x803D5B0A" value="B4B8C1EE20B8E0B7A5C0F220C7B4BDA9C7E2B3E3B3F200000000" />
+    <memory offset="0x803D5B25" value="B3FBB1BCB7D3C1BE20BEEDB1AC20B8E0B7A520C7B4BDA900" />
+    <memory offset="0x803D5B3F" value="4630C7FDC1DEC0B4C4F0" />
+    <memory offset="0x803D5B58" value="4631BAEBB1AEB0AC" />
+    <memory offset="0x803D5B61" value="D0E220B8E0B7A5B0AB20BED9BDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D5B7A" value="A1D8B4F4B7A3A1D9B7A320B8E0B7A5C0E7B7A320B4CCBDFBB0B6B3E3B3F20000" />
+    <memory offset="0x803D5B9B" value="B0BFB2DCB5EDB1CE" />
+    <memory offset="0x803D5BA4" value="C1DEB0BD000000000000" />
+    <memory offset="0x803D5D4C" value="B6DEC6CABDFB20BCDD00" />
+    <memory offset="0x803D5D57" value="C6D0C6E8B0AFBFC40000" />
+    <memory offset="0x803D5D62" value="C1BEB3F20000" />
+    <memory offset="0x803D5D69" value="C2C8B4C220B5C2BDFBB7E1C6D7000000" />
+    <memory offset="0x803D5D7A" value="B0B3B7ACBDFBB4A6BEFAB0FC" />
+    <memory offset="0x803D5D87" value="B7E1B4BEB7A320C7E8BEA50000000000" />
+    <memory offset="0x803D5D98" value="C5BFC7CE20B7DCC0F200" />
+    <memory offset="0x803D5DA3" value="B2AABAEAB6A2B9B8B7D3" />
+    <memory offset="0x803D5DAE" value="B1B0B4C220BEA5C6D7B6A3BCF7000000" />
+    <memory offset="0x803D5DBF" value="BCC8B4C220C4FBB7B7BAD8C5EEB7ACBCF700" />
+    <memory offset="0x803D5DD2" value="BCA5B4C220B9F7B2E9C6D7B2AABCF4000000" />
+    <memory offset="0x803D5DE5" value="B0B0BFF3BCF7B0AFC7D6B4C2" />
+    <memory offset="0x803D5DF2" value="B9C0C6D7B6A2C5F3C6CABCF7" />
+    <memory offset="0x803D5DFF" value="BEE0BAEA0000" />
+    <memory offset="0x803D5E06" value="BEE0BAEA20C0D9C1EC00" />
+    <memory offset="0x803D5E11" value="B1BCB6A220C1BEC8A5B1B0C8B920C6BE" />
+    <memory offset="0x803D5E22" value="C6FBB7C4BCF70000" />
+    <memory offset="0x803D5E2B" value="BFBEC6EDB7ACBCF7" />
+    <memory offset="0x803D5E34" value="C4CAC4DDC6AA20C1BEB0ABC6F6B7B7C6D700" />
+    <memory offset="0x803D5E47" value="C7A9B4C220C8FAB9F7B7B7C6D700" />
+    <memory offset="0x803D5E56" value="BEE7B0A3B4FD20C8AEBBB7000000" />
+    <memory offset="0x803D5E65" value="BCC3B7C4C6D120C2EDC0D9B4D000" />
+    <memory offset="0x803D5E74" value="B6DEC2DDB9F9C6D720B4A6BAF0BAA6000000" />
+    <memory offset="0x803D5E87" value="B1A7C2FEC8B9B6B0B9F7B7B7C5CEC6D7" />
+    <memory offset="0x803D5E98" value="C4D5BDA7B3FBB1AC" />
+    <memory offset="0x803D5EA1" value="BBADC0A6B1AC0000" />
+    <memory offset="0x803D5EAA" value="B0A3C0A6B1AC0000" />
+    <memory offset="0x803D5EB3" value="B7E1C0A6B1AC0000" />
+    <memory offset="0x803D5EBC" value="B9C9C0A6B1AC0000" />
+    <memory offset="0x803D5EC5" value="C8A7C0A6B1AC0000" />
+    <memory offset="0x803D5ECE" value="BBF8C0A6B1AC0000" />
+    <memory offset="0x803D5ED7" value="B0A3B4A620BAEBB1AEB0AC00" />
+    <memory offset="0x803D5EE4" value="BAE8B6DEB0ABBAE820BCA6BDB6C8A700" />
+    <memory offset="0x803D5F10" value="3031C0F20ABCE0B0C920C7E820C3A4B0AAB0D4BEBF00000000" />
+    <memory offset="0x803D5F2B" value="30300AC1BEB3F2B3DF20B1BCC3F1B0AB20BDFBB3E3B0AA00000000" />
+    <memory offset="0x803D5F47" value="BEBF3F0ABDFB2C20B1BCB6B3A1C4A1C420B1BCD0BDB0AF3F0000000000" />
+    <memory offset="0x803D5F65" value="B0ABBACF0AB0ACBDB420C2E320C3F7B6E600000000000000000000" />
+    <memory offset="0x803D5F9B" value="B9A6BEA5C7E8210000000000" />
+    <memory offset="0x803D5FC6" value="3031C0F220C1BEB3F2B7A320B4BCB6E6B0B2B3F22E0AC2C8B4C2B3DF20B1BCB3F2C0F3B0ABB3F20000" />
+    <memory offset="0x803D5FF0" value="B4E520B3F220B0A3B7DCBFFD000000000000" />
+    <memory offset="0x803D6003" value="C7B4B0AF" />
+    <memory offset="0x803D6008" value="A2AAB7E1C0A6C1A320BEEDB1AC0AA2ABB1B0B4C220BEA5C6D7B6A3BCF7" />
+    <memory offset="0x803D6026" value="B4C2C1ECBBEF3A20BBEFBDB6" />
+    <memory offset="0x803D6033" value="B2AEC6E8BBEF28B7CBB3F22900000000" />
+    <memory offset="0x803D6044" value="B1A7C2FE20C8B9B6B020B6A2BCF7C4FBB3F2" />
+    <memory offset="0x803D6057" value="BCA5B0AF20B3A2BFDBB6DE00" />
+    <memory offset="0x803D6064" value="3F3F3F000000" />
+    <memory offset="0x803D606B" value="B0EAB0ACC8AEB4A6B7B4" />
+    <memory offset="0x803D6536" value="C5BFC7CE20B6DEB0ABBCF720C7D6B1CE0000" />
+    <memory offset="0x803D6549" value="C4FBB0AFB3A220BABCB1BA00" />
+    <memory offset="0x803D6566" value="B4A6BDA900000000" />
+    <memory offset="0x803D65B4" value="B0C020C5BFC7CEC0F220BBEFC6BDC7E820C2F8BCA6BFEE00000000000000" />
+    <memory offset="0x803D65D3" value="B0C020C5BFC1A820BCC8B7BE20BBF0B0ACC7E820C2F8BCA6BFEE0000000000000000" />
+    <memory offset="0x803D65F6" value="BAB7C0D920C5BFC1A8B0AB20BAD4C2D2C7E2B3E3B3F2" />
+    <memory offset="0x803D660D" value="C5BFC7CE20B8DAB4E120B0C9B0ABC6D7C1A80000" />
+    <memory offset="0x803D6622" value="C5BFC7CE20C1ADC2C820C4DCB9CF0000000000000000" />
+    <memory offset="0x803D6639" value="2564C5BFBCF7C1A3202573B0B020B0FEC1A8000000000000" />
+    <memory offset="0x803D6652" value="BEEDB1CEBBDA202564C5BFBCF7C1A3202573B0B020BBEFB4E1BEE020D1E7B3F2" />
+    <memory offset="0x803D6673" value="2564C5BFBCF7202573C1A320B8B4B6EFC7D920B4A6BDA900" />
+    <memory offset="0x803D668C" value="BBEFB4E1B3DF202564C5BFBCF7C1A3202573" />
+    <memory offset="0x803D669F" value="C5BFC1A8202564B0BDB7BE20BEC2BEDFBDA5B3E3B3F20000" />
+    <memory offset="0x803D66B8" value="D1C1B2AACBB1BDA5B3E3B3F2" />
+    <memory offset="0x803D66C5" value="B0F6BCB5C7DFB1DCBFEE3F00" />
+    <memory offset="0x803D66D2" value="B0F6BCB50000" />
+    <memory offset="0x803D66D9" value="C5F8B0ABC6E020BABCB1BA000000" />
+    <memory offset="0x803D6BA0" value="A1D8B8E2BCF7C6BE20B4C2B0B4A1D9C0F220BEC2BEDFB3F2000000000000" />
+    <memory offset="0x803D7B2D" value="3030A1D70AB3FBBCA5C7EBBDA5B3E3B3F20000" />
+    <memory offset="0x803D8927" value="C1C1C1EE" />
+    <memory offset="0x803D8938" value="C7ECB4D0B0BDBDA9" />
+    <memory offset="0x803D8FB9" value="C1EEC1DA20BEA5B2C9C1A8000000" />
+    <memory offset="0x803D8FFB" value="C6D5B1CEC1DA" />
+    <memory offset="0x803D9008" value="B0C020C5BFC1A820BCC8B7BE20BBF0B0ACC7E820C2F8BCA6BFEE0000000000000000" />
+    <memory offset="0x803D902B" value="B0F6BCB5C7DFB1DCBFEE3F00" />
+    <memory offset="0x803D9038" value="C4FBB4FDB7BE20B2AACFCCB3E3B3F200" />
+    <memory offset="0x803D9049" value="B0AB20C6F4B7A320BDA7BAD4C7E2B3E3B3F20000" />
+    <memory offset="0x803D905E" value="C4FBB4FDB7BE20B9CCBDA5B3E3B3F2000000" />
+    <memory offset="0x803D9071" value="C4FBB4FDB7BE20B9CCB0A320B9F7C6E7C0F22032B9D9B7A320BFD1B6E620BDA7BAD4C7E2B3E3B3F20000000000000000" />
+    <memory offset="0x803D90A2" value="B8F3BDA7BAD4C1B9B3E3B3F2" />
+    <memory offset="0x803D90AF" value="BDA7B7C4C7EBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D90C0" value="C6F4B9D9C7EBBDA5B3E3B3F200000000" />
+    <memory offset="0x803D90D1" value="B9D9B4A120C5BFC1A8C1A320C1F9B9C9C0F220BAB7C0D920C5BFC1A8BEE020B4A9C7D6B0A30AB2AAB8BEB0AFB3DF20B4A9BAEA20BED8BEE020CCADB3E3B3F20000000000000000" />
+    <memory offset="0x803D9119" value="B9D9B4A120C5BFC1A820C1EEBAD4B7BE20B4A9BAEA20BED8BEE00ACCADB3E3B3F20000000000000000000000000000" />
+    <memory offset="0x803D9149" value="B4A9BAEA20BED8C0F220B2A4B2C9B0A30AB9D9B4A120C5BFC1A8C0F220BAB7C0D920C5BFC1A8BEE020B4A9C7E2B3E3B3F200000000000000000000" />
+    <memory offset="0x803D9185" value="B4F4C3D8C8F620C4FBB4FD20B8F3B3E2C1A320BBC1C0F220BBEFC6BDC7E820C2F8BCA6BFEE00000000000000" />
+    <memory offset="0x803D91B2" value="B0ACB3FE2120B4A9BAEA20BED8BEE020BCA5B1A7C7EBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D91D5" value="BDB6C6F42120B4A9BAEA20BED8BEE020BDB6C6F4C7EBBDA5B3E3B3F2000000000000" />
+    <memory offset="0x803D91F8" value="BAB7C0D920C5BFC1A8B0AB20BAD4C2D2C7E2B3E3B3F2" />
+    <memory offset="0x803D920F" value="C5BFC1A8202564B0BDB7BE20BEC2BEDFBDA5B3E3B3F20000" />
+    <memory offset="0x803D9228" value="C7D6C7C220B4A9BAEA20BED8000000000000" />
+    <memory offset="0x803D923B" value="B4A9BAEA20BED80000000000" />
+    <memory offset="0x803D9248" value="C6F6B0ABBDFBBFFB0000" />
+    <memory offset="0x803D9305" value="BABCC0A5" />
+    <memory offset="0x803D932B" value="C4DABABC" />
+    <memory offset="0x803D9330" value="C6D5B1CEC1DA20C6F6B2E0C6E3000000" />
+    <memory offset="0x803EBDE0" value="C6D0C6E8B0AFBFC40000" />
+    <memory offset="0x803EBE2C" value="C1BEB3F20000" />
+    <memory offset="0x803EBE78" value="C2C8B4C220B5C2BDFBB7E1C6D7000000" />
+    <memory offset="0x803EBEC4" value="B1B0B4C220BEA5C6D7B6A3BCF7000000" />
+    <memory offset="0x803EBF10" value="B1B0B4C220BEA5C6D7B6A3BCF7000000" />
+    <memory offset="0x803EBF5C" value="C5BFC7CE20BCDCC0F120B7DCC0F2" />
+    <memory offset="0x803EBFA8" value="C5BFC7CE20B7DCC0F200" />
+    <memory offset="0x803EBFF4" value="BCC8B4C220C4FBB7B7BAD8C5EEB7ACBCF700" />
+    <memory offset="0x803EC040" value="BCA5B4C220B9F7B2E9C6D7B2AABCF4000000" />
+    <memory offset="0x803EC08C" value="B9C0C6D7B6A2C5F3C6CABCF7" />
+    <memory offset="0x803EC0D8" value="BEE0BAEA0000" />
+    <memory offset="0x803EC124" value="BFBEC6EDB7ACBCF7" />
+    <memory offset="0x803EC170" value="C6FBB7C4BCF70000" />
+    <memory offset="0x803EC1BC" value="B6DEC6CABDFB20BCDD00" />
+    <memory offset="0x803EC208" value="B6DEC6CABDFB20BCDD00" />
+    <memory offset="0x803EC254" value="B7E1B4BEB7A320C7E8BEA50000000000" />
+    <memory offset="0x803EC2A0" value="B2AABAEAB6A2B9B8B7D3" />
+    <memory offset="0x803EC2EC" value="B0B0BFF3BCF7B0AFC7D6B4C2" />
+    <memory offset="0x803EC338" value="BEE0BAEA20C0D9C1EC00" />
+    <memory offset="0x803EC384" value="B1BCB6A220C1BEC8A5B1B0C8B920C6BE" />
+    <memory offset="0x803EC3D0" value="B0B3B7ACBDFBB4A6BEFAB0FC" />
+    <memory offset="0x803EC41C" value="C4CAC4DDC6AA20C1BEB0ABC6F6B7B7C6D700" />
+    <memory offset="0x803EC468" value="C7A9B4C220C8FAB9F7B7B7C6D700" />
+    <memory offset="0x803EC4B4" value="BEE7B0A3B4FD20C8AEBBB7000000" />
+    <memory offset="0x803EC500" value="BCC3B7C4C6D120C2EDC0D9B4D000" />
+    <memory offset="0x803EC54C" value="B6DEC2DDB9F9C6D720B4A6BAF0BAA6000000" />
+    <memory offset="0x803EC598" value="B1A7C2FE20C8B9B6B020B6A2BCF7C4FBB3F2" />
+    <memory offset="0x803EC5E4" value="B1A7C2FEC8B9B6B0B9F7B7B7C5CEC6D7" />
+    <memory offset="0x803EC630" value="BCA5B0AF20B3A2BFDBB6DE00" />
+    <memory offset="0x803EC67C" value="B1CEC7D620C8B9B6B020BEA9BAEBBCF70000" />
+    <memory offset="0x803EC6C8" value="C4D5BDA7B3FBB1AC" />
+    <memory offset="0x803EC714" value="BBADC0A6B1AC0000" />
+    <memory offset="0x803EC760" value="B0A3C0A6B1AC0000" />
+    <memory offset="0x803EC7AC" value="B7E1C0A6B1AC0000" />
+    <memory offset="0x803EC7F8" value="B9C9C0A6B1AC0000" />
+    <memory offset="0x803EC844" value="C8A7C0A6B1AC0000" />
+    <memory offset="0x803EC890" value="BBF8C0A6B1AC0000" />
+    <memory offset="0x803EC8DC" value="B1B0C8B9" />
+    <memory offset="0x803EC928" value="BFF1B9C6C6AA" />
+    <memory offset="0x803EC974" value="BFBEB7B7C5F3B2AAB1B0B4A6BDB4C1EE" />
+    <memory offset="0x803EC9C0" value="BFBEB7B7C5F3B2AAB1B0B4A6BDB4C1EEB0AFC7D6" />
+    <memory offset="0x803ECA0C" value="C7E8B8D9C1A320B1D000" />
+    <memory offset="0x803ECA58" value="B1CEC7E020C6E8B7B7BCA6B9CF000000" />
+    <memory offset="0x803ECAA4" value="B5C2BDFBB7E1C6D7BCA500000000" />
+    <memory offset="0x803ECAF0" value="C0A5B7A3C0A5" />
+    <memory offset="0x803ECB3C" value="C5E6B6DEB0ABB4BE0000" />
+    <memory offset="0x803ECB88" value="C7D6B8DAB3E300000000" />
+    <memory offset="0x803ECBD4" value="C6D0C6E8B0AFBFC420BEEDB1AC20B7A3BAEB0000" />
+    <memory offset="0x803ECC20" value="C1BEB3F220C2C8B1B5B1B620C4D5BCB400000000" />
+    <memory offset="0x803ECC6C" value="C1BEB8F3BEE720B8F3BFB8B1AC3A203146000000" />
+    <memory offset="0x803ECCB8" value="C1BEB8F3BEE720B8F3BFB8B1AC3A203246000000" />
+    <memory offset="0x803ECD04" value="C1BEB8F3BEE720B8F3BFB8B1AC3A20BAB1B1AC00" />
+    <memory offset="0x803ECD50" value="B9F7B2E9C6D7B2AABCF420CAE3000000" />
+    <memory offset="0x803ECE34" value="C0A5B7A3C0A5C8B9C1A3C1DA" />
+    <memory offset="0x803ECE80" value="C0A5B7A3C0A5BEF7B1B1BDB6" />
+    <memory offset="0x803ECECC" value="C4BFC8A3C1DA" />
+    <memory offset="0x803ECF18" value="B7C4C7CABDFB28B7CBB3F229C1A320C3D8000000" />
+    <memory offset="0x803ECF64" value="BDB4C1EE" />
+    <memory offset="0x803ECFB0" value="B9C0C6D7B6A2C5F3C6CABCF73A20C8B9C1A3BDB6" />
+    <memory offset="0x803ED048" value="BFBEC6EDB7ACBCF73A20BBAAB6FBB1ACBDB60000" />
+    <memory offset="0x803ED0E0" value="B4C2C1ECBBEF3A20BBEFBDB6" />
+    <memory offset="0x803ED12C" value="B9DAC0A63A20C8B9C1A3BDB6" />
+    <memory offset="0x803ED178" value="B9DAC0A63A20C6D3BDB4BDB6" />
+    <memory offset="0x803ED210" value="B3A2BFDBB6DE20BFBEB4E1B7DF20BEA50000" />
+    <memory offset="0x803ED3D8" value="C2CFC2EDBBDB00000000" />
+    <memory offset="0x803F462A" value="C5BFC7CE20C5E820B2AAB8F3" />
+    <memory offset="0x803F4642" value="C5BFC7CE20B4CCB8F3B4A6000000" />
+    <memory offset="0x803F465A" value="B4A6B1B0" />
+    <memory offset="0x803F4672" value="BAD8BCC8B1AEC1DA" />
+    <memory offset="0x803F468A" value="B1A7C1DAB0AFB1B1" />
+    <memory offset="0x803F46A2" value="C7E6B7E1B0AFB1B1" />
+    <memory offset="0x803F46BA" value="BBBDC4EEB0AFB1B1" />
+    <memory offset="0x803F46D2" value="B5C2BDFBB7E1C6D7BCA500000000" />
+    <memory offset="0x803F46EA" value="BCDDBCB50000" />
+    <memory offset="0x803F4701" value="0DC9A3C1BAB1D000000000" />
+    <memory offset="0x803F471A" value="C3DEB0C1BEEDBFF90000000000000000" />
+    <memory offset="0x803F474A" value="C1F9BAA620C0B420C9CBC3F1" />
+    <memory offset="0x803F4762" value="B4A6B0F6B3F6" />
+    <memory offset="0x803F477A" value="B4A6BEFAB0FCB9C0B3F3" />
+    <memory offset="0x803F4792" value="C1F9BAA620C0B420B2B4C3F1" />
+    <memory offset="0x803F47AA" value="C7D9C1ECC7D920B0A2B7C400" />
+    <memory offset="0x803F47C2" value="C8B5BBBDB0ACC0A5" />
+    <memory offset="0x803F47DA" value="BFB8BCDBB7A3" />
+    <memory offset="0x803F47F2" value="C7E6B7E1B1B1" />
+    <memory offset="0x803F480A" value="BFBEB6A3B7A3" />
+    <memory offset="0x803F4822" value="B0B0B1BEC1DAB1D00000" />
+    <memory offset="0x803F483A" value="B1A7C1DAB1B1" />
+    <memory offset="0x803F4852" value="B1A7C8AEB1B5C0A5B7A3C0A5" />
+    <memory offset="0x803F486A" value="BEFABBAA20B7DCC0F200" />
+    <memory offset="0x803F4882" value="C1F9BAA6B9BCB1D00000" />
+    <memory offset="0x803F4899" value="20C7B2C7AAB9A3C9A3B0AB" />
+    <memory offset="0x803F48B1" value="21B8F3B9F2C1BEBCB4B1B700000000" />
+    <memory offset="0x803F48C9" value="22BAEBB9B8C7E6B1B1" />
+    <memory offset="0x803F48E1" value="23C8B8B1C8C8B9B6B0" />
+    <memory offset="0x803F48F9" value="24C8B8B1C8C8B9B6B020BFF3C1A400" />
+    <memory offset="0x803F4911" value="25C8B8B1C8C8B9B6B020D2F7C1A400" />
+    <memory offset="0x803F4929" value="26C8B8B1C8C8B9B6B020BFF3C1A4BEA500" />
+    <memory offset="0x803F4941" value="27C8B8B1C8C8B9B6B020D2F7C1A4BEA500" />
+    <memory offset="0x803F4959" value="28B0F6BEBBC1A3B9D1" />
+    <memory offset="0x803F4971" value="29BAC8C1A8B8FBBEB3" />
+    <memory offset="0x803F4989" value="2AC6AA31C4EE00" />
+    <memory offset="0x803F49A1" value="2BC6AAB0AFC7D631C4EE00" />
+    <memory offset="0x803F49B9" value="2CBCB5B9C6C1A3B9D1" />
+    <memory offset="0x803F49D1" value="2DC6AAC4D7BBBDC4EE" />
+    <memory offset="0x803F49E9" value="2EB0B3B7D3B1D00000" />
+    <memory offset="0x803F4A01" value="2FB9B8C8AED1E4B1D00000" />
+    <memory offset="0x803F4A19" value="30B1BEC4B5BBC120B9A6B1B800" />
+    <memory offset="0x803F4A31" value="31BAD4C4E1C1A3B9D1" />
+    <memory offset="0x803F4A49" value="32B0B2B7E1C1A3B1D0" />
+    <memory offset="0x803F4A61" value="33B0B2B7E1C1A3B1D0" />
+    <memory offset="0x803F4A79" value="34C8D9B7A9C2C8B3F60000" />
+    <memory offset="0x803F4A91" value="35BFEDCCC6B0F6B3F6" />
+    <memory offset="0x803F4AA9" value="36C8D0C8AEBBDAC0A5" />
+    <memory offset="0x803F4AC1" value="37B0F6BEBBC1A3B9D1" />
+    <memory offset="0x803F4AD9" value="38B0AFC7D631C4EE20C6D3B7A30000" />
+    <memory offset="0x803F4AF1" value="39B0AFC7D632C4EE20C6D3B7A30000" />
+    <memory offset="0x803F4B09" value="3AB0AFC7D632C4EE20C4ADB0A30000" />
+    <memory offset="0x803F4B21" value="3BB0AFC7D633C4EE20C6D3B7A30000" />
+    <memory offset="0x803F4B39" value="3CB0AFC7D633C4EE20B1CEB0F6BDB60000" />
+    <memory offset="0x803F4B51" value="3DB0AFC7D634C4EE20C2C8BEBFBDB60000" />
+    <memory offset="0x803F4B69" value="3EB9A3B9D1BFF9BEAAB7A30000" />
+    <memory offset="0x803F4B81" value="3FB8F3B2DCC3C9B1D000000000" />
+    <memory offset="0x803F4B99" value="40C7E8C1E7D1E30000" />
+    <memory offset="0x803F4BB1" value="41B8D1BDFBB7C420BEAAB7A300" />
+    <memory offset="0x803F4BC9" value="42C4F5B8F420B3B7B0ABC6BE00" />
+    <memory offset="0x803F4BE1" value="43B5B8B1B5C8AEBFB8B9D9B4A1" />
+    <memory offset="0x803F4BF9" value="44B0AFC7D620C1E7C1DAB0A300" />
+    <memory offset="0x803F4C11" value="45B0AFC7D6BDA9BBF033C4EE00" />
+    <memory offset="0x803F4C29" value="46B0AFC7D6BDA9BBF032C4EE00" />
+    <memory offset="0x803F4C41" value="47B0AFC7D6BDA9BBF031C4EE00" />
+    <memory offset="0x803F4C59" value="48C7E8BEA3C1A3B1D0" />
+    <memory offset="0x803F4C71" value="49CBD6B9C6B1D0" />
+    <memory offset="0x803F4C89" value="4AB0ABCAE5B1B7" />
+    <memory offset="0x803F4CA1" value="4BBEFAB7CBB1D0" />
+    <memory offset="0x803F4CB9" value="4EC1B9B1B1C8AB000000000000000000000000" />
+    <memory offset="0x803F4CD1" value="4FBEE7B7C4B9F7B0ABC6BE20C8AB000000" />
+    <memory offset="0x803F4CE9" value="50CAB2BCC320C7C7B7A3BEBF0000000000" />
+    <memory offset="0x803F4D01" value="51B6A2BFF7B4FD20C7C7B7A3BEBF2030310000" />
+    <memory offset="0x803F4D1A" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030320000" />
+    <memory offset="0x803F4D32" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030330000" />
+    <memory offset="0x803F4D4A" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030340000" />
+    <memory offset="0x803F4D62" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030350000" />
+    <memory offset="0x803F4D7A" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030360000" />
+    <memory offset="0x803F4D92" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030370000" />
+    <memory offset="0x803F4DAA" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030380000" />
+    <memory offset="0x803F4DC2" value="B6A2BFF7B4FD20C7C7B7A3BEBF2030390000" />
+    <memory offset="0x803F4DDA" value="B6A2BFF7B4FD20C7C7B7A3BEBF2031300000" />
+    <memory offset="0x803F4DF1" value="52C7FCD1BEC3AD20B6B3B4A9000000" />
+    <memory offset="0x803F4E09" value="53C2C8BEBFBDB6000000000000000000000000" />
+    <memory offset="0x803F4E21" value="54C7FCD1BEC3AD20B6B3B4A9000000" />
+    <memory offset="0x803F4E39" value="55C2C8BEBFBDB6000000000000000000000000" />
+    <memory offset="0x803F4E51" value="56C1DFBAF5BBB7B1D0" />
+    <memory offset="0x803F4E69" value="57BFF1BEAAB0B0C1DAC1BEB7C4" />
+    <memory offset="0x803F4E81" value="58D4DCB8A9C6D3B7A3" />
+    <memory offset="0x803F4E99" value="59C1ECBEFAB0FC0000" />
+    <memory offset="0x803F4EB1" value="5AC1C1BEFAB1B00000" />
+    <memory offset="0x803F4EC9" value="5BB0F6BEBBC1A3B9D1" />
+    <memory offset="0x803F4EE1" value="62B1CEBEAABCDD0000" />
+    <memory offset="0x803F4EF9" value="63B9C0C0B4B0A3B0B0" />
+    <memory offset="0x803F4F11" value="64C8A3BBDBB1D00000" />
+    <memory offset="0x803F4F29" value="65BBBCB0A2B7C4" />
+    <memory offset="0x803F4F41" value="66C4D1C7B2C7AA" />
+    <memory offset="0x803F4F59" value="67B0F6BEBBC1A3B9D1" />
+    <memory offset="0x803F4F71" value="68B1A7B4D0C1B9B1B1" />
+    <memory offset="0x803F4F89" value="69C2FEBEB1B7A3" />
+    <memory offset="0x803F4FA1" value="6AB1BAC1A8B7A3" />
+    <memory offset="0x803F4FB9" value="6BB4A6B1A7B4D0" />
+    <memory offset="0x803F4FD1" value="6CBBAABEAAB1D00000" />
+    <memory offset="0x803F4FE9" value="6DB0F6BEBBC1A3B9D1" />
+    <memory offset="0x803F5001" value="6EB0B6C6EA" />
+    <memory offset="0x803F5019" value="6FB0B6C6EA" />
+    <memory offset="0x803F5031" value="70BBEFBCC8C6D3B7A30000" />
+    <memory offset="0x803F5049" value="71BBEFB9A6C6D3B7A30000" />
+    <memory offset="0x803F5061" value="72C7E0B1B0" />
+    <memory offset="0x803F5079" value="76B0A2BFF9B9D1" />
+    <memory offset="0x803F5091" value="77C3D8B0ACBDB620C6D3B7A3000000" />
+    <memory offset="0x803F50A9" value="78BAB6BBAAB4A6B1CEBDB6" />
+    <memory offset="0x803F50C1" value="79B0AFC7D6BFC1" />
+    <memory offset="0x803F50D9" value="7ABEA9C7FDBDB620C4EEB0F6C4AA000000" />
+    <memory offset="0x803F50F1" value="7BBEA9C7FDBDB60000" />
+    <memory offset="0x803F510A" value="C3D8B0ACBDB620BBAAB8F3BDB6000000" />
+    <memory offset="0x803F5121" value="7CC1A3C8B9BEB3" />
+    <memory offset="0x803F5139" value="7DC1A3C8B9C1B9B1B1" />
+    <memory offset="0x803F5151" value="7EC1ADB9C9B9D1" />
+    <memory offset="0x803F516A" value="C3DEB9EAB9D1" />
+    <memory offset="0x803F5182" value="C6D8BAB1B9D1" />
+    <memory offset="0x803F519A" value="C4BFC8A3C1DABEB3" />
+    <memory offset="0x803F51B2" value="BEE0BEBFC7AAC6D70000" />
+    <memory offset="0x803F51CA" value="BEF7B0EAC6D3B7A3" />
+    <memory offset="0x803F51E2" value="B0F4B0F6B1B1BEF1" />
+    <memory offset="0x803F51FA" value="C2FEBEB1C2C8BEBFBDB6" />
+    <memory offset="0x803F5212" value="C6D3BDB4BDB6BEB3" />
+    <memory offset="0x803F522A" value="D3E7C5BFBCF700000000" />
+    <memory offset="0x803F5242" value="BBFBB7C4C1A3B9D1" />
+    <memory offset="0x803F525A" value="C8AEB7A5C4D1B1D00000" />
+    <memory offset="0x803F5272" value="BBB7C8A7C8B9B6B00000" />
+    <memory offset="0x803F528A" value="BBFBB7C4C1A3B9D1" />
+    <memory offset="0x803F52A1" value="C3D0BBDAC8B9B6B0000000" />
+    <memory offset="0x803F52BA" value="C8AAC9B6C8B9B6B00000" />
+    <memory offset="0x803F52D2" value="C6E8C5FCB1A7B0B20000" />
+    <memory offset="0x803F52EA" value="B0FDC8A8C8B9B6B00000" />
+    <memory offset="0x803F5302" value="BFF3BEB4B1A7B0B20000" />
+    <memory offset="0x803F531A" value="C1A3BDBAC8B9B6B00000" />
+    <memory offset="0x803F5332" value="BDB4C1A3B1A7B0B20000" />
+    <memory offset="0x803F534A" value="B9A6C7D0C8B9B6B00000" />
+    <memory offset="0x803F5362" value="B0F6BAB7B1A7B0B20000" />
+    <memory offset="0x803F537A" value="C8B9B1BABFDBBFB1C0A5C1A3BBBCB0A2B7C4" />
+    <memory offset="0x803F5392" value="BBEFC6BDC1A3B9D1" />
+    <memory offset="0x803F53AA" value="C7FDBCA6C2FEC4D80000" />
+    <memory offset="0x803F53C2" value="BBDBC2F8C4AAB4C20000" />
+    <memory offset="0x803F53DA" value="BAF0B0F4C1A3B9D1" />
+    <memory offset="0x803F53F2" value="C0D9C1ECC2FED3FA" />
+    <memory offset="0x803F540A" value="BFB1B1B1B0EABAF0" />
+    <memory offset="0x803F5422" value="C0F1BAF0C1A3B9D1" />
+    <memory offset="0x803F543A" value="BBF0C8EDC2C8B3F60000" />
+    <memory offset="0x803F5452" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F546A" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F5482" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F549A" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F54B2" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F54CA" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F54E2" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F54FA" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F5512" value="C0D9BBBDB8F3BBBDC1A3B9A6B7A30000" />
+    <memory offset="0x803F552A" value="BBBDBED8B1B1BEF1" />
+    <memory offset="0x803F5542" value="B0A2C2C2B1B1BEF1" />
+    <memory offset="0x803F555A" value="BCA5B4A1BEB3B1AEC1DA" />
+    <memory offset="0x803F5572" value="BBBDBED8B1B1BEF1" />
+    <memory offset="0x803F558A" value="BBEFC3FCC1DA" />
+    <memory offset="0x803F55A2" value="C2F8C6BDB0B0" />
+    <memory offset="0x803F55BA" value="B1B6BAD4BDA9BBF0" />
+    <memory offset="0x803F55D2" value="BCA5B4A1BEB3B1AEC1DA" />
+    <memory offset="0x803F55EA" value="BBBDBED8B1B1BEF1" />
+    <memory offset="0x803F5602" value="BBEFC3FCC1DA" />
+    <memory offset="0x803F561A" value="C2F8C6BDB0B0" />
+    <memory offset="0x803F5632" value="BDA5B0E2B4A1C7D9B7DCC0F2" />
+    <memory offset="0x803F564A" value="B8F1C0A5" />
+    <memory offset="0x803F5662" value="B4A6BCA5B4A120BEB3B1D000" />
+    <memory offset="0x803F567A" value="B0ACC0A5B1D00000" />
+    <memory offset="0x803F5692" value="C2F8C6BDB0B0" />
+    <memory offset="0x803F56AA" value="B1B6BBAAB1CEB0AFC6BE" />
+    <memory offset="0x803F56C2" value="BFF3B9A3B0B0" />
+    <memory offset="0x803F56DA" value="B1A7C1DA" />
+    <memory offset="0x803F56F2" value="B4CCB1D0B1A820B3C4BBAAB6AC20B1D00000" />
+    <memory offset="0x803F570A" value="B9D9BFFAC6BE" />
+    <memory offset="0x803F5722" value="B1E2BEBFB2AE20C1BEB5B8C1A320B9D1" />
+    <memory offset="0x803F573A" value="C1D7B5ABC1BEB5B8C1A3B9D1" />
+    <memory offset="0x803F5752" value="C7D6B8DAB3E300000000" />
+    <memory offset="0x803F576A" value="C6D0C6E8B0AFBFC420BEEDB1AC20B7A3BAEB0000" />
+    <memory offset="0x803F5782" value="C1BEB3F220C2C8B1B5B1B620C4D5BCB400000000" />
+    <memory offset="0x803F579A" value="C1BEB8F3BEE720B8F3BFB8B1AC3A203146000000" />
+    <memory offset="0x803F57B2" value="C1BEB8F3BEE720B8F3BFB8B1AC3A203246000000" />
+    <memory offset="0x803F57CA" value="C1BEB8F3BEE720B8F3BFB8B1AC3A20BAB1B1AC00" />
+    <memory offset="0x803F57E2" value="B9F7B2E9C6D7B2AABCF420CAE3000000" />
+    <memory offset="0x803F57FA" value="BFF1B9C6C6AA20B0ABB9F9C6D720BAEBB1A7B0AC" />
+    <memory offset="0x803F5812" value="B7ACC8CDB0B0BFF120B0ABB9F9C6D7000000" />
+    <memory offset="0x803F582A" value="C0A5B7A3C0A5C8B9C1A3C1DA" />
+    <memory offset="0x803F5842" value="C0A5B7A3C0A5BEF7B1B1BDB6" />
+    <memory offset="0x803F585A" value="C4BFC8A3C1DA" />
+    <memory offset="0x803F5872" value="B7C4C7CABDFB28B7CBB3F229C1A320C3D8000000" />
+    <memory offset="0x803F588A" value="BDB4C1EE" />
+    <memory offset="0x803F58A2" value="B9C0C6D7B6A2C5F3C6CABCF73A20C8B9C1A3BDB6" />
+    <memory offset="0x803F58BA" value="C0D9C1EC42B0ABB9F9C6D7BFF1000000" />
+    <memory offset="0x803F58D2" value="BFBEC6EDB7ACBCF73A20BBAAB6FBB1ACBDB60000" />
+    <memory offset="0x803F58EA" value="5043BFF120BAEBB1A7B0AC20C7E0B1B000000000" />
+    <memory offset="0x803F5902" value="B4C2C1ECBBEF3A20BBEFBDB6" />
+    <memory offset="0x803F591A" value="B9DAC0A63A20C8B9C1A3BDB6" />
+    <memory offset="0x803F5932" value="B9DAC0A63A20C6D3BDB4BDB6" />
+    <memory offset="0x803F594A" value="B9DAC0A63A20BDBAB7DCC7C220C8B9BBBDBFF100" />
+    <memory offset="0x803F5962" value="B3A2BFDBB6DE20BFBEB4E1B7DF20BEA50000" />
+    <memory offset="0x803F597A" value="C1BEB3F220C1EEC1DA0000000000000000000000" />
+    <memory offset="0x803F5992" value="BDB4B7A920C1EEC1DA0000000000000000000000" />
+    <memory offset="0x803F59AA" value="B9DAC0A620B0A2C2F8B1B1303020BCA6C7CABDFB00" />
+    <memory offset="0x803F59C2" value="B9C0C6D7B6A220B1AEC1DA204220B0ABB9F9C6D7" />
+    <memory offset="0x803F59DA" value="BFBEB7C4C9DEBCF720B0ABB9F9C6D70000000000" />
+    <memory offset="0x803F59F2" value="C2CFC2EDBBDB00000000" />
+    <memory offset="0x803F5A0A" value="B0ABB9F9C6D720BFB1BBBDBFF12032394200000000" />
+    <memory offset="0x803F5A22" value="B0ABB9F9C6D720BFB1BBBDBFF12033304200000000" />
+    <memory offset="0x803F5C1A" value="BEFAB7CB20B5CB000000" />
+    <memory offset="0x803F5C32" value="C1BCC8F620B5CB0000000000" />
+    <memory offset="0x803F5C4A" value="B3FBBDFBBFBEB7BD20B5CB00" />
+    <memory offset="0x803F5C62" value="B0B4BDD7C1A820B5CB00" />
+    <memory offset="0x803F5C7A" value="BEFAB7CB20B5CB000000" />
+    <memory offset="0x803F5C92" value="B9C0B6ACBAD4B3DFB5CB" />
+    <memory offset="0x803F5CAA" value="CFD9C8F620B5CB0000000000" />
+    <memory offset="0x803F5CC1" value="093F3F3F000000" />
+    <memory offset="0x803F5CD9" value="0AB1CEC7D620C8B9B6B020BEA9BAEBBCF70000" />
+  </patch>
+</wiidisc>

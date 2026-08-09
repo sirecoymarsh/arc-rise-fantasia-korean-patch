@@ -1,0 +1,256 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0058",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0058.jsonl",
+  "draft": "work/translation/drafts/batch_0058.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0058.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 27,
+  "unchanged_units": 173,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-981FC09EEC546E853362",
+      "source_text": "イマジナル神を守るのか。\n奴はアデールとニコルの\n死の原因だぞ！",
+      "before": "이매지널신을 지키겠다고?\n그 녀석은 아델과 니콜이\n죽은 원인이야!",
+      "after": "이매지널신을 지키겠다고?\n그 녀석은 아델과 니콜을\n죽게 만든 장본인이야!",
+      "category": "meaning",
+      "reason": "두 인물의 죽음에 직접 책임이 있다는 死の原因의 뜻을 자연스럽고 분명하게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-98E60ED2686126C3B031",
+      "source_text": "モモモモンスターの群れが\n街に……！",
+      "before": "모모몬스터 무리가\n도시에……!",
+      "after": "모, 모, 몬스터 무리가\n도시에……!",
+      "category": "speaker_voice",
+      "reason": "モモモモンスター의 당황한 말더듬을 한국어 발화로 자연스럽게 재현했다."
+    },
+    {
+      "tm_id": "ARF-TM-995966C1B9788110E79B",
+      "source_text": "そう……そうだったの。\nでも共和国ではレイが足りていない\nなんて聞いていないわ",
+      "before": "그래…… 그랬구나.\n하지만 공화국에 레이가 부족하다는\n얘기는 듣지 못했어",
+      "after": "그래…… 그랬구나.\n하지만 공화국에 레이가 부족하다는\n말은 듣지 못했어",
+      "category": "naturalness",
+      "reason": "聞いていない를 한국어에서 자연스러운 '말은 듣지 못했다'로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-99F8D8E8B37C534E5157",
+      "source_text": "あいつら、機械の力で地脈の流れを\n分断して、世界中のレイを\n独占してやがるんだ",
+      "before": "놈들은 기계의 힘으로 지맥의 흐름을\n끊어 전 세계의 레이를\n독점하고 있어",
+      "after": "놈들은 기계의 힘으로 지맥의 흐름을\n끊어 놓고, 전 세계의 레이를\n독점하고 있어",
+      "category": "meaning",
+      "reason": "분단 행위와 레이 독점의 인과·연결 관계가 또렷하게 드러나도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9A8BF35789A8928E7264",
+      "source_text": "聞いた話ではすでに帝国軍が\n共和国へ侵攻し、エブル周辺を\n陥落させたと聞く",
+      "before": "들은 바로는 이미 제국군이\n공화국을 침공해 에블 주변을\n함락시켰다고 한다",
+      "after": "듣기로는 이미 제국군이\n공화국을 침공해 에블 주변을\n함락시켰다고 한다",
+      "category": "naturalness",
+      "reason": "聞いた話では와 문장 끝의 중복된 전언 표현을 자연스러운 한국어 전언문으로 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-9B5EE7EE6043CA34F6FC",
+      "source_text": "雌雄は決した。\nラルク、そなたに\n我が『怒濤』のロゴスを与えよう",
+      "before": "승부는 결정됐다.\n라르크, 네게\n나의 『노도』의 로고스를 주마",
+      "after": "승부는 갈렸다.\n라르크, 네게\n나의 『노도』의 로고스를 주마",
+      "category": "naturalness",
+      "reason": "雌雄は決した를 승패가 정해졌다는 관용적 의미에 맞게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9C755CDA30AAA3F5A384",
+      "source_text": "い、いやいやいやいやいや。\n今のはほんのジョークですよ〜",
+      "before": "아, 아니아니아니아니.\n방금 건 그냥 농담이었어요〜",
+      "after": "아, 아니 아니 아니 아니.\n방금 건 그냥 농담이었어요〜",
+      "category": "speaker_voice",
+      "reason": "반복되는 부정을 살리면서 ジョーク의 변명조 말투를 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-9F0DA0E9BC47FABB4C62",
+      "source_text": "そのうち『孤高のマシュガル』及び\n『機知のクドアンヌ』両名は\nコード変換に失敗して暴走している",
+      "before": "그중 『고고의 마슈가르』와\n『기지의 쿠도안느』 두 사람은\n코드 변환에 실패해 폭주하고 있다",
+      "after": "그중 『고고의 마슈가르』와\n『기지의 쿠도안느』 둘은\n코드 변환에 실패해 폭주하고 있다",
+      "category": "meaning",
+      "reason": "로그레스 둘을 사람으로 오인할 수 있는 '두 사람' 대신 중립적인 '둘'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9F0E0062F9DE486D313E",
+      "source_text": "あ、ああ……あんたは？",
+      "before": "아, 그래…… 당신은?",
+      "after": "아, 아아…… 당신은?",
+      "category": "speaker_voice",
+      "reason": "あ、ああ의 머뭇거림을 '아, 그래'라는 수긍으로 오역하지 않고 발화 그대로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-A0EB20ACD56CBF1C0B36",
+      "source_text": "リアルの定理が奏上されれば\n世界は結晶化と呼ばれる現象で\n滅亡して……",
+      "before": "리얼의 섭리가 상주되면\n세계는 결정화라는 현상으로\n멸망하고……",
+      "after": "리얼의 섭리가 아뢰어지면\n세계는 결정화라 불리는 현상으로\n멸망하고……",
+      "category": "terminology",
+      "reason": "奏上를 잘못된 '상주'가 아니라 이사신에게 섭리를 아뢰는 설정 용어로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A1A818EC69E8BFA24B8E",
+      "source_text": "もう１人のイーサの子アルスが\nリアルの定理を選び\n聖地を目指しているからな",
+      "before": "또 １명의 이사의 아이 알스가\n리얼의 섭리를 선택하고\n성지를 향하고 있으니까",
+      "after": "또 １명의 이사의 아이인 알스가\n리얼의 섭리를 선택해\n성지를 향하고 있으니까",
+      "category": "grammar",
+      "reason": "인명 앞의 동격 관계를 분명히 하고 연결 어미를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A43802E9A492FE30FE14",
+      "source_text": "何当たり前のこと言ってんだ。\nお前はれっきとした帝国兵だろうが",
+      "before": "뻔한 소릴 하고 있군.\n넌 엄연한 제국군이잖아",
+      "after": "당연한 소릴 왜 해.\n넌 엄연한 제국 병사잖아",
+      "category": "meaning",
+      "reason": "帝国兵을 조직명 '제국군'이 아니라 개인을 가리키는 '제국 병사'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A5BB985D0012CE2A70A2",
+      "source_text": "そしたら\nリアル神が生み出した光召術で\n僕の手駒の骸にしてやったのにさ",
+      "before": "그랬다면\n리얼신이 만들어 낸 광소술로\n내 수족인 망자로 만들어 줬을 텐데",
+      "after": "그랬다면\n리얼신이 만들어 낸 광소술로\n내 수족이 될 망자로 만들었을 텐데",
+      "category": "naturalness",
+      "reason": "手駒の骸를 한국어에서 자연스러운 '수족이 될 망자'로 풀어냈다."
+    },
+    {
+      "tm_id": "ARF-TM-A6AB4FA742D9A2B8E286",
+      "source_text": "お前本当にレックスの息子か？\n芸術への理解無さ過ぎだろ",
+      "before": "너 정말 렉스의 아들이냐?\n예술을 너무 몰라",
+      "after": "너 정말 렉스의 아들이냐?\n예술을 너무 몰라도 정도가 있지",
+      "category": "speaker_voice",
+      "reason": "理解無さ過ぎ의 핀잔을 구어체에서 더 자연스럽고 강하게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A8F61FAF484F233E3A72",
+      "source_text": "ラルク……何があったんだ。\n今の揺れは……",
+      "before": "라르크…… 무슨 일이 있었지?\n방금 그 진동은……",
+      "after": "라르크…… 무슨 일이 있었던 거야?\n방금 그 진동은……",
+      "category": "meaning",
+      "reason": "사건 직후 상황을 묻는 과거 시제와 의문형을 정확히 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-AFC35A021E99968AA672",
+      "source_text": "ありがと、サージュ！\n気が利くじゃん",
+      "before": "고마워, 사쥬!\n눈치 빠른데",
+      "after": "고마워, 사쥬!\n센스 있는데",
+      "category": "naturalness",
+      "reason": "気が利く를 단순히 눈치가 빠르다는 뜻이 아니라 배려와 센스가 있다는 칭찬으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-B213FC9287950B17B967",
+      "source_text": "……ああ。悪かったな。心配かけて",
+      "before": "……그래. 미안하다. 걱정 끼쳤군",
+      "after": "……그래. 미안했어. 걱정 끼쳐서",
+      "category": "speaker_voice",
+      "reason": "상대에게 이미 걱정을 끼친 일을 사과하는 자연스러운 과거 구어체로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-B3D4D11A463F59BA7FCB",
+      "source_text": "第二砲撃以降は止められそうだ。\nしかし１発目だけは止められぬ！",
+      "before": "두 번째 포격부터는 막을 수 있을 듯하다.\n하지만 １발째만은 막을 수 없다!",
+      "after": "두 번째 포격부터는 막을 수 있을 듯하다.\n하지만 １발만은 막을 수 없다!",
+      "category": "meaning",
+      "reason": "１発目가 첫 포격 한 발만을 가리킨다는 점이 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-BB76001D2CC133FAE2CA",
+      "source_text": "……聖皇の話は本当なのか？\n俺はあんな馬鹿げた話を\n信じていいのか？",
+      "before": "……성황의 이야기는 사실인가?\n난 그런 터무니없는 이야기를\n믿어도 되는 건가?",
+      "after": "……성황의 말은 사실인가?\n난 그런 터무니없는 이야기를\n믿어도 되는 건가?",
+      "category": "naturalness",
+      "reason": "聖皇の話를 문맥상 성황이 한 말이라는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-BB99D32AD354D282CFF2",
+      "source_text": "他人のそら似にしちゃ\n気味が悪いぐらい似てるぜ",
+      "before": "남의 닮은꼴이라기엔\n섬뜩할 만큼 닮았어",
+      "after": "생판 남이라기엔\n섬뜩할 만큼 닮았어",
+      "category": "naturalness",
+      "reason": "他人のそら似를 어색한 '남의 닮은꼴' 대신 혈연 없는 남이라는 뜻으로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-BC275878BA831664D552",
+      "source_text": "私がこんなだって、パパには\nわかってたのかも知れない。",
+      "before": "내가 이럴 거라는 걸, 아빠는\n알고 있었을지도 몰라.",
+      "after": "내가 이럴 거라는 걸 아빠는\n알고 있었을지도 몰라.",
+      "category": "naturalness",
+      "reason": "불필요한 쉼표를 없애고 한국어 어순을 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-C26A4D8B3197828B1CB5",
+      "source_text": "あ……ありが、とう",
+      "before": "고…… 고마, 워",
+      "after": "아…… 고마, 워",
+      "category": "speaker_voice",
+      "reason": "원문의 첫 감탄 あ를 보존하고 뒤이어 끊기는 감사 인사를 그대로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-C51AE8142BD171C2E2C3",
+      "source_text": "このまま我らが先行できれば\nログレスの契約を奪われることも\nなかろう",
+      "before": "이대로 우리가 앞서 나간다면\n로그레스와의 계약을 빼앗길 일도\n없겠지",
+      "after": "이대로 우리가 앞서 나가면\n로그레스와의 계약을 빼앗길 일도\n없겠지",
+      "category": "naturalness",
+      "reason": "先行できれば를 어색한 가능형 대신 실제 경쟁에서 앞선다는 뜻으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C8362B1C134E2D026BA0",
+      "source_text": "いろんなことがあったんだから\n考えることくらいあるよ",
+      "before": "여러 일이 있었으니\n생각할 것 정도는 있어",
+      "after": "여러 일이 있었으니까\n생각할 거리 정도는 있어",
+      "category": "naturalness",
+      "reason": "考えることくらいある를 '생각할 것 정도'라는 직역 대신 자연스러운 구어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CA9C5F2C58855D299B0F",
+      "source_text": "アデール、今回は僕らの負けだ。\n次の作戦に移ろう。\n分かるよね",
+      "before": "아델, 이번에는 우리 패배야.\n다음 작전으로 넘어가자.\n알겠지",
+      "after": "아델, 이번엔 우리가 졌어.\n다음 작전으로 넘어가자.\n알겠지",
+      "category": "speaker_voice",
+      "reason": "僕らの負け를 자연스러운 패배 인정의 구어체로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CBBA345AE747033416E8",
+      "source_text": "ギルダブはウルグラが\n我を失っていると言ってるわ。\n力で契約をもぎ取れって",
+      "before": "길다브 말로는 우르그라가\n제정신을 잃었다고 해.\n힘으로 계약을 빼앗으래",
+      "after": "길다브는 우르그라가\n제정신을 잃었다고 했어.\n힘으로 계약을 빼앗으래",
+      "category": "naturalness",
+      "reason": "인용 구조를 자연스럽게 정리하고 발화자의 구어체를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-CD341C5A1F15C2C52F68",
+      "source_text": "フフ♪　ごめんなさい。\nさ、早くラルクの１番に\n会いに行きなさい。",
+      "before": "후후♪ 미안해.\n자, 어서 라르크의 １순위를\n만나러 가렴.",
+      "after": "후후♪ 미안해.\n자, 어서 라르크의 １순위인 사람을\n만나러 가렴.",
+      "category": "meaning",
+      "reason": "ラルクの１番이 순위 그 자체가 아니라 라르크가 가장 아끼는 사람을 가리키도록 명확히 했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

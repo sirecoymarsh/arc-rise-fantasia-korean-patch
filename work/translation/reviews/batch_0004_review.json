@@ -1,0 +1,410 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0004",
+  "reviewer": "/root/review_batch_0004",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0004.jsonl",
+  "draft": "work/translation/drafts/batch_0004.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0004.jsonl",
+  "reviewed_validation": "work/translation/validation/batch_0004_reviewed.json",
+  "reviewed_units": 200,
+  "modified_units": 63,
+  "unchanged_units": 137,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "system_function_accuracy",
+    "natural_korean",
+    "dummy_and_developer_strings",
+    "control_tokens",
+    "raw_structure_markers",
+    "line_breaks",
+    "codepage_corruption"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-1A0B9368EE355C340E91",
+      "source_text": "風を通さぬ上質な布地で仕上げられた逸品\n革の手袋と明るい緑の襟巻きがアクセント",
+      "before": "바람을 막아 주는 고급 천으로 마감한 일품\n가죽 장갑과 밝은 초록색 목도리가 포인트",
+      "after": "바람을 막아 주는 고급 천으로 마감한 일품\n가죽 장갑과 밝은 초록 목도리가 포인트다",
+      "category": "completeness_naturalness",
+      "reason": "명사로 끝나던 둘째 행에 서술어를 보완해 의상 설명을 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-1A9A92B2FC93E9C50176",
+      "source_text": "<$13>14<$1F>0000E8<$1F>01<$13>00にその名を\n轟かせる伝説の傭兵団。\n団長のレオンを中心に\n多くの伝説を残している。\n曰く、子どもの依頼を\n１<$13>14<$1F>000128<$1F>01<$13>00で引き受けたとか\nたった４人で一個師団を\n撃退したとか……逸話を\nあげれば枚挙に暇がない",
+      "before": "<$13>14<$1F>0000E8<$1F>01<$13>00에 이름을\n떨친 전설의 용병단.\n단장 레온을 중심으로\n수많은 전설을 남겼다.\n전해지는 말로는, 아이의 의뢰를\n1<$13>14<$1F>000128<$1F>01<$13>00에 맡아 줬다거나\n단 4명으로 한 개 사단을\n격퇴했다거나…… 일화를\n꼽자면 끝이 없다",
+      "after": "<$13>14<$1F>0000E8<$1F>01<$13>00에 이름을\n떨친 전설의 용병단.\n단장 레온을 중심으로\n수많은 전설을 남겼다.\n일설에는 아이의 의뢰를\n단 1<$13>14<$1F>000128<$1F>01<$13>00에 맡아 줬다거나\n단 4명으로 한 개 사단을\n격퇴했다거나…… 일화를\n꼽자면 끝이 없다",
+      "category": "meaning_currency",
+      "reason": "「1리코에 의뢰를 맡았다」는 금액·대가의 의미가 드러나도록 ‘단’을 보완하고 전설 서술을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1B9C5AD8D5A1CF3E78F5",
+      "source_text": "ベネトナーシュ近辺でだが\n誰もいない草原で視線を感じることがある。\n原因を調べ、解消してもらえないか？",
+      "before": "베네트나슈 근처에서 말인데,\n아무도 없는 초원에서 시선을 느낄 때가 있다.\n원인을 조사해서 해결해 주겠나?",
+      "after": "베네트나슈 근처 일인데,\n아무도 없는 초원에서 시선을 느낄 때가 있다.\n원인을 조사해서 해결해 주겠나?",
+      "category": "naturalness",
+      "reason": "「近辺でだが」를 어색한 장소 부사구가 아니라 의뢰의 소재를 꺼내는 ‘근처 일인데’로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1B9D7FD70BD2E500F036",
+      "source_text": "自分のＡＴＫ・ＤＥＦアップ\n追加効果：特殊防御効果",
+      "before": "자신의 ATK·DEF 상승\n추가 효과: 특수 방어 효과",
+      "after": "자신의 ATK/DEF 상승\n추가 효과: 특수 방어 효과",
+      "category": "encoding_compatibility",
+      "reason": "사용자 정의 EUC28 인코더와 EUC-JP가 U+00B7 가운데점을 인코딩하지 못하므로 의미가 같은 ASCII 슬래시로 바꿨다."
+    },
+    {
+      "tm_id": "ARF-TM-1BD53C9040A0713BB65C",
+      "source_text": "<$13>14<$1F>00009D<$1F>01<$13>00のひとつ。\n味方の防御能力を高める\n防御系の<$13>14<$1F>000061<$1F>01<$13>00が多い\n属性である。\nこの属性は、<$13>14<$1F>0000A0<$1F>01<$13>00と\n<$13>14<$1F>0000AD<$1F>01<$13>00する",
+      "before": "<$13>14<$1F>00009D<$1F>01<$13>00 중 하나.\n아군의 방어 능력을 높이는\n방어 계열 <$13>14<$1F>000061<$1F>01<$13>00이 많은\n속성이다.\n이 속성은 <$13>14<$1F>0000A0<$1F>01<$13>00과\n<$13>14<$1F>0000AD<$1F>01<$13>00 관계다",
+      "after": "<$13>14<$1F>00009D<$1F>01<$13>00 중 하나.\n아군의 방어 능력을 높이는\n방어 계열 <$13>14<$1F>000061<$1F>01<$13>00이 많은\n속성이다.\n이 속성은 <$13>14<$1F>0000A0<$1F>01<$13>00과\n<$13>14<$1F>0000AD<$1F>01<$13>00한다",
+      "category": "system_linked_term_grammar",
+      "reason": "링크 ID 0000AD의 실제 표제어가 「反発」이므로 런타임 치환 뒤 ‘반발한다’가 되도록 조사·서술 구조를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1C93DFC1431549D0F23C",
+      "source_text": "『<$13>14<$1F>000066<$1F>01<$13>00』を２回連続で\n実行すると発生する\n<$13>14<$1F>000059<$1F>01<$13>00。\n<$13>14<$1F>000066<$1F>01<$13>00の効果を倍増させる\nことができる。\n存分に溜めた後の<$13>14<$1F>000000<$1F>01<$13>00の\n生み出す効果は計りしれ\nない",
+      "before": "『<$13>14<$1F>000066<$1F>01<$13>00』을 2회 연속으로\n실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000066<$1F>01<$13>00의 효과를 두 배로\n증폭할 수 있다.\n충분히 힘을 모은 뒤의 <$13>14<$1F>000000<$1F>01<$13>00이\n만들어 내는 효과는 헤아릴 수\n없다",
+      "after": "『<$13>14<$1F>000066<$1F>01<$13>00』을 2회 연속으로\n실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000066<$1F>01<$13>00의 효과를 두 배로\n증폭할 수 있다.\n힘을 충분히 모은 뒤의\n<$13>14<$1F>000000<$1F>01<$13>00이 만들어 내는\n효과는 헤아릴 수 없다",
+      "category": "line_breaks_naturalness",
+      "reason": "마지막 행에 ‘없다’만 고립되던 줄바꿈을 재배치하고 의미 덩어리를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-1D97470B616ACECCDDB8",
+      "source_text": "幾何回廊――端緒",
+      "before": "기하 회랑――단서",
+      "after": "기하 회랑――단초",
+      "category": "lexical_accuracy",
+      "reason": "「端緒」는 단순한 단서가 아니라 일의 시작·실마리를 뜻하므로 장 제목을 ‘단초’로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-1EB39BE8D7C2FC095BA8",
+      "source_text": "<$03>いつもの２人",
+      "before": "<$03>언제나의 두 사람",
+      "after": "<$03>늘 보던 두 사람",
+      "category": "naturalness",
+      "reason": "일본어 직역투인 ‘언제나의 두 사람’을 자연스러운 장면 제목으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1F0FC2BD52E2211F2DAA",
+      "source_text": "単体に無属性ダメージ\n追加効果：ＤＥＦ・ＲＥＳダウン",
+      "before": "단일 대상에게 무속성 피해\n추가 효과: DEF·RES 하락",
+      "after": "단일 대상에게 무속성 피해\n추가 효과: DEF/RES 하락",
+      "category": "encoding_compatibility",
+      "reason": "사용자 정의 EUC28 인코더와 EUC-JP가 U+00B7 가운데점을 인코딩하지 못하므로 능력치 병렬 표기를 ASCII 슬래시로 바꿨다."
+    },
+    {
+      "tm_id": "ARF-TM-20F554BE16A7D6FA9CE7",
+      "source_text": "十字の形をした美しい造作の短剣。\n骸などと対峙する際に所持しておきたい品",
+      "before": "십자 모양으로 아름답게 세공된 단검.\n망자 등을 상대할 때 지니고 싶은 물건",
+      "after": "십자 모양으로 아름답게 세공된 단검.\n망자 등을 상대할 때 지녀 두면 좋은 물건",
+      "category": "meaning_naturalness",
+      "reason": "「所持しておきたい品」의 권장·유용성 의미를 ‘지녀 두면 좋은 물건’으로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-214BA42F6E58E311AFDB",
+      "source_text": "人を探しているんだ\n帝国軍の制服を着ている赤髪の青年なんだが\nどんな目撃情報でもいい\n情報を手に入れたら連絡をしてほしい\n帝国の広場に来てくれ",
+      "before": "사람을 찾고 있다\n제국군 제복을 입은 붉은 머리 청년이다\n어떤 목격 정보든 좋다\n정보를 얻으면 연락해 줘\n제국 광장으로 와 줘",
+      "after": "사람을 찾고 있어\n제국군 제복을 입은 붉은 머리 청년인데\n어떤 목격 정보라도 좋아\n정보를 얻으면 연락해 줘\n제국 광장으로 와 줘",
+      "category": "speaker_tone_consistency",
+      "reason": "의뢰문의 평체와 반말이 혼재하던 부분을 원문의 구어적 청유 어조에 맞춰 일관되게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-21C3C35752E278848448",
+      "source_text": "節約上手の職人がせっせと作った１丁。\n道具を節約したい貧乏パーティーの必需品",
+      "before": "절약에 능한 장인이 부지런히 만든 총 한 자루.\n도구를 아끼고 싶은 가난한 파티의 필수품",
+      "after": "절약에 능한 장인이 열심히 만든 총 한 정.\n도구를 아끼고 싶은 가난한 파티의 필수품",
+      "category": "layout_capacity",
+      "reason": "item.bin의 81바이트 C 문자열 슬롯에 NUL까지 들어가도록 표현을 축약하되 장인의 절약 정신, 총 한 정, 가난한 파티의 필수품이라는 의미를 모두 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-21C94CEEF04CEB4EF64E",
+      "source_text": "急手当",
+      "before": "응급처치",
+      "after": "응급 처치",
+      "category": "spelling_source_verification",
+      "reason": "표준 띄어쓰기 ‘응급 처치’를 적용했다. 원시 ability.bin에는 누락된 선두 글자까지 포함한 「応急手当」로 확인된다."
+    },
+    {
+      "tm_id": "ARF-TM-21CB4ECBAA5BEFA194DD",
+      "source_text": "ＲＰ増加量が上昇する",
+      "before": "RP 증가량이 상승한다",
+      "after": "RP 증가량이 늘어난다",
+      "category": "naturalness",
+      "reason": "‘증가량이 상승한다’는 중복 표현을 기능을 유지한 채 ‘증가량이 늘어난다’로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-221F13752537EC48550E",
+      "source_text": "士官学校に通う生徒たちが身につける制服\n折り目正しい着こなしは委員長然としたもの",
+      "before": "사관학교 학생들이 입는 제복\n반듯한 차림새는 영락없는 반장 같다",
+      "after": "사관학교 학생들이 입는 제복\n반듯한 차림새는 영락없는 위원장 같다",
+      "category": "meaning_consistency",
+      "reason": "아이템명과 원문의 「委員長然」을 보존해 ‘반장’이 아닌 ‘위원장’으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-238A56405F18C4CEECC6",
+      "source_text": "『英雄』の名を与えられた異形の剣。\nその刀身は、すべてを等しく刻む",
+      "before": "『영웅』의 이름을 받은 이형의 검.\n그 칼날은 모든 것을 똑같이 베어 새긴다",
+      "after": "『영웅』이라는 이름이 붙은 이형의 검.\n그 칼날은 모든 것을 가리지 않고 베어 낸다",
+      "category": "meaning_naturalness",
+      "reason": "「等しく刻む」를 기계적인 ‘똑같이 베어 새긴다’가 아니라 대상을 가리지 않는 칼날의 의미로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-23A31BAADB14D45705DD",
+      "source_text": "光召術を行使するのに必要となる宝珠\n属性：<$15>E1　<$15>D1：４",
+      "before": "광소술을 쓰는 데 필요한 보주\n속성：<$15>E1　<$15>D1：４",
+      "after": "광소술을 쓰는 데 필요한 보주\n속성:<$15>E1　<$15>D1：４",
+      "category": "punctuation_normalization",
+      "reason": "한국어 레이블 뒤 콜론을 반각으로 정규화하되 제어 토큰과 수치 표시는 그대로 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-23C381C692EBA6BAB81D",
+      "source_text": "『一角獣』の名を与えられた鉄製の手甲。\n主の力を高めて一時的にその行動を助ける",
+      "before": "『일각수』의 이름을 받은 철제 건틀릿.\n주인의 힘을 높여 일시적으로 행동을 돕는다",
+      "after": "『일각수』라는 이름이 붙은 철제 건틀릿\n주인의 힘을 높여 일시적으로 행동을 돕는다",
+      "category": "naturalness",
+      "reason": "「名を与えられた」의 일본어식 명사 연결을 자연스러운 한국어 명명 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-23E2A32406148899C508",
+      "source_text": "<$13>02クマの爪<$13>00、<$13>02オオカミの牙<$13>00を１０個ずつ\n<$13>02ベヒーモスの角<$13>00を５個持ってこい。\n褒美にイイモノをくれてやろう。\nクマ、オオカミ、巨象を倒すと取れるはずだ",
+      "before": "<$13>02곰의 발톱<$13>00과 <$13>02늑대의 송곳니<$13>00을 각각 10개씩\n<$13>02베히모스의 뿔<$13>00을 5개 가져와라.\n보답으로 좋은 걸 주지.\n곰, 늑대, 거상을 쓰러뜨리면 얻을 수 있을 거다",
+      "after": "<$13>02곰의 발톱<$13>00과 <$13>02늑대의 송곳니<$13>00을 10개씩\n<$13>02베히모스의 뿔<$13>00을 5개 가져와라.\n보답으로 좋은 걸 주지.\n곰, 늑대, 거대 코끼리를 쓰러뜨리면 얻을 수 있을 거다",
+      "category": "meaning_monster",
+      "reason": "「10個ずつ」의 중복 표현을 정리하고 「巨象」을 다른 뜻으로 오해할 수 있는 ‘거상’ 대신 ‘거대 코끼리’로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-23F0DB2A20EB23652FD8",
+      "source_text": "<$13>14<$1F>0000F3<$1F>01<$13>00に汚染された地上で\n<$13>14<$1F>000108<$1F>01<$13>00と呼ばれる人間たちが\n生き延びるには、<$13>14<$1F>00010E<$1F>01<$13>00が\n必要である。<$13>14<$1F>00010E<$1F>01<$13>00を常に\n肌に触れさせていることで\n<$13>14<$1F>000108<$1F>01<$13>00は<$13>14<$1F>000109<$1F>01<$13>00であれば\n先天的に備えている\n<$13>14<$1F>0000F3<$1F>01<$13>00の猛毒への耐性を\n有することができる",
+      "before": "<$13>14<$1F>0000F3<$1F>01<$13>00에 오염된 지상에서\n<$13>14<$1F>000108<$1F>01<$13>00라 불리는 인간들이\n살아남으려면 <$13>14<$1F>00010E<$1F>01<$13>00이\n필요하다. <$13>14<$1F>00010E<$1F>01<$13>00을 항상\n피부에 닿게 해 두면\n<$13>14<$1F>000108<$1F>01<$13>00은 <$13>14<$1F>000109<$1F>01<$13>00이라면\n선천적으로 지닌\n<$13>14<$1F>0000F3<$1F>01<$13>00의 맹독에 대한 내성을\n가질 수 있다",
+      "after": "<$13>14<$1F>0000F3<$1F>01<$13>00에 오염된 지상에서\n<$13>14<$1F>000108<$1F>01<$13>00라 불리는 인간들이\n살아남으려면 <$13>14<$1F>00010E<$1F>01<$13>00이\n필요하다. <$13>14<$1F>00010E<$1F>01<$13>00을 늘\n피부에 닿게 해 두면\n<$13>14<$1F>000108<$1F>01<$13>00도 <$13>14<$1F>000109<$1F>01<$13>00이\n선천적으로 지닌\n<$13>14<$1F>0000F3<$1F>01<$13>00의 맹독에 대한 내성을\n얻을 수 있다",
+      "category": "meaning_grammar_worldbuilding",
+      "reason": "현종이 용옥석을 통해 신종의 선천적 호존 내성을 얻는다는 비교 관계를 명확히 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-2402E945873481D22244",
+      "source_text": "<$13>14<$1F>0000A1<$1F>01<$13>00レベル１の<$13>14<$1F>000061<$1F>01<$13>00。\n敵単体に<$13>14<$1F>0000A1<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nランドスピアーでは\n与えるダメージが\n大きくなる",
+      "before": "<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n적 단일 대상에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n랜드 스피어에서는\n주는 피해가\n크게 증가한다",
+      "after": "<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n랜드 스피어에서는\n주는 피해가\n크게 증가한다",
+      "category": "system_style",
+      "reason": "전투 설명 템플릿에 맞춰 중복된 ‘적 단일 대상’을 ‘단일 대상’으로 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-24255BF1C8238EFFB614",
+      "source_text": "今は潮が引き、大神殿への道を通れるはず",
+      "before": "지금은 썰물이라 대신전으로 가는 길을 지나갈 수 있을 것이다",
+      "after": "지금은 썰물이라 대신전으로 가는 길이 열렸을 것이다",
+      "category": "naturalness",
+      "reason": "썰물로 통행 가능한 길이라는 뜻을 한국어 목표 문구에 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-24FF51CF85FC5F381A4C",
+      "source_text": "鮮明な紅の頭巾で髪を隠すそれは\nどこかで出会ったことのある少女の姿……",
+      "before": "선명한 붉은 두건으로 머리카락을 가린 모습은\n어디선가 만난 적 있는 소녀……",
+      "after": "선명한 붉은 두건으로 머리카락을 가린 이는\n어디선가 만난 적 있는 소녀……",
+      "category": "syntax_poetic_tone",
+      "reason": "중복된 ‘모습은 … 소녀’ 구조를 고쳐 원문의 여운을 유지하면서 문법을 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-253BAECE17E4460E7F80",
+      "source_text": "銀狼のきぐるみ",
+      "before": "은빛 늑대 인형옷",
+      "after": "은빛 늑대 인형탈",
+      "category": "item_name",
+      "reason": "「きぐるみ」를 어색한 ‘인형옷’ 대신 전신 캐릭터 복장을 뜻하는 ‘인형 탈’로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-25F73A07C6C388FE69ED",
+      "source_text": "▼ ヴィルの仕立屋",
+      "before": "▼ 빌의 양복점",
+      "after": "▼ 빌의 양장점",
+      "category": "terminology_consistency",
+      "reason": "앞선 검수 배치의 「仕立屋→양장점」 표기와 상점명을 통일했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_id": "ARF-TM-1FB29D07A627E598EF8B",
+      "severity": "source_structure_marker",
+      "issue": "「<>座<>ロックピース」의 座는 자연어가 아닌 구조 표식 가능성이 높아 번역하지 않고 그대로 보존했다. 삽입 전 help.bin 원시 바이트와 필드 경계를 확인해야 한다."
+    },
+    {
+      "tm_id": "ARF-TM-24E2535EDA3A1E681282",
+      "severity": "source_structure_marker",
+      "issue": "「-鋺 濁竜避けの光召術」의 鋺는 자연어가 아닌 구조 표식 가능성이 높아 번역하지 않고 그대로 보존했다. 삽입 전 help.bin 원시 바이트와 필드 경계를 확인해야 한다."
+    },
+    {
+      "tm_id": "ARF-TM-25F802885EFEC6DEE0EE",
+      "severity": "source_structure_marker",
+      "issue": "「<>座<>瀕死」의 座는 자연어가 아닌 구조 표식 가능성이 높아 번역하지 않고 그대로 보존했다. 삽입 전 help.bin 원시 바이트와 필드 경계를 확인해야 한다."
+    },
+    {
+      "tm_id": "ARF-TM-21C94CEEF04CEB4EF64E",
+      "severity": "source_catalog_prefix_omission",
+      "issue": "배치 원문은 「急手当」로 시작하지만 ability.bin의 record 204 name(0x7458)과 table audit에는 「応急手当」가 확인된다. 번역은 의도된 전체 명칭인 ‘응급 처치’를 사용했으며 삽입기는 누락된 선두 2바이트 경계를 확인해야 한다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_counts_preserved": true,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "validator_warnings": [],
+    "suspected_codepage_question_mark_corruption": false,
+    "status": "passed",
+    "fixed_size_scope_fit": true,
+    "encoding_scope_encodable": true
+  },
+  "hashes": {
+    "source_sha256": "BFD41650CE7E7D6B7F515B9D82E4E07207CBD5B0A2F1E21EF5E653D6C2738F9C",
+    "draft_sha256": "00AE0010B4BB1F81CA1078D9262A13C133A3D4739B8F0CADC3C4CA6FB37E9520",
+    "reviewed_sha256": "2B0ACF14211E87DC7348AFF253FB5A719692373764DB82E3AA2411F90BC8CC1B",
+    "validation_sha256": "14A15A494EB374F9F9BE9B64A59CB2E9A93E245AD7472A98E3DDFCE5379E20FB"
+  },
+  "layout_adjustments": [
+    {
+      "tm_id": "ARF-TM-23C381C692EBA6BAB81D",
+      "logical_locator": "Sys/system.vol::0030:item.bin",
+      "table_unit": "item:276:description_primary",
+      "offset_hex": "0x112FD",
+      "capacity_bytes_including_nul": 81,
+      "before": "『일각수』라는 이름이 붙은 철제 건틀릿.\n주인의 힘을 높여 일시적으로 행동을 돕는다",
+      "before_payload_bytes": 81,
+      "before_bytes_with_nul": 82,
+      "after": "『일각수』라는 이름이 붙은 철제 건틀릿\n주인의 힘을 높여 일시적으로 행동을 돕는다",
+      "final_payload_bytes": 80,
+      "final_bytes_with_nul": 81,
+      "headroom_after_nul_bytes": 0,
+      "nul_present_in_payload": false,
+      "fits": true,
+      "sizing_method": "encode_custom_euc28.encode_text with in-memory two-byte Hangul map; C-string terminator counted separately"
+    },
+    {
+      "tm_id": "ARF-TM-21C3C35752E278848448",
+      "logical_locator": "Sys/system.vol::0030:item.bin",
+      "table_unit": "item:295:description_primary",
+      "offset_hex": "0x125EA",
+      "capacity_bytes_including_nul": 81,
+      "before": "절약에 능한 장인이 부지런히 만든 총 한 자루.\n도구를 아끼고 싶은 가난한 파티의 필수품",
+      "before_payload_bytes": 84,
+      "before_bytes_with_nul": 85,
+      "after": "절약에 능한 장인이 열심히 만든 총 한 정.\n도구를 아끼고 싶은 가난한 파티의 필수품",
+      "final_payload_bytes": 80,
+      "final_bytes_with_nul": 81,
+      "headroom_after_nul_bytes": 0,
+      "nul_present_in_payload": false,
+      "fits": true,
+      "sizing_method": "encode_custom_euc28.encode_text with in-memory two-byte Hangul map; C-string terminator counted separately"
+    },
+    {
+      "tm_id": "ARF-TM-253BAECE17E4460E7F80",
+      "logical_locator": "Sys/system.vol::0030:item.bin",
+      "table_unit": "item:656:name",
+      "offset_hex": "0x28D70",
+      "capacity_bytes_including_nul": 17,
+      "before": "은빛 늑대 인형 탈",
+      "before_payload_bytes": 17,
+      "before_bytes_with_nul": 18,
+      "after": "은빛 늑대 인형탈",
+      "final_payload_bytes": 16,
+      "final_bytes_with_nul": 17,
+      "headroom_after_nul_bytes": 0,
+      "nul_present_in_payload": false,
+      "fits": true,
+      "sizing_method": "encode_custom_euc28.encode_text with in-memory two-byte Hangul map; C-string terminator counted separately"
+    },
+    {
+      "tm_id": "ARF-TM-1A0B9368EE355C340E91",
+      "logical_locator": "Sys/system.vol::0030:item.bin",
+      "table_unit": "item:694:description_primary",
+      "offset_hex": "0x2B35B",
+      "capacity_bytes_including_nul": 81,
+      "before": "바람을 막아 주는 고급 천으로 마감한 일품\n가죽 장갑과 밝은 초록색 목도리가 포인트다",
+      "before_payload_bytes": 82,
+      "before_bytes_with_nul": 83,
+      "after": "바람을 막아 주는 고급 천으로 마감한 일품\n가죽 장갑과 밝은 초록 목도리가 포인트다",
+      "final_payload_bytes": 80,
+      "final_bytes_with_nul": 81,
+      "headroom_after_nul_bytes": 0,
+      "nul_present_in_payload": false,
+      "fits": true,
+      "sizing_method": "encode_custom_euc28.encode_text with in-memory two-byte Hangul map; C-string terminator counted separately"
+    }
+  ],
+  "encoding_adjustments": [
+    {
+      "tm_id": "ARF-TM-1B9D7FD70BD2E500F036",
+      "logical_locator": "Sys/system.vol::0035:special.bin",
+      "table_unit": "special:65:description",
+      "offset_hex": "0x24A6",
+      "capacity_bytes_including_nul": 84,
+      "unsupported_codepoint": "U+00B7",
+      "before": "자신의 ATK·DEF 상승\n추가 효과: 특수 방어 효과",
+      "encoder_failure": "character is neither codebook-mapped nor EUC-JP encodable: '·'",
+      "replacement": "/",
+      "after": "자신의 ATK/DEF 상승\n추가 효과: 특수 방어 효과",
+      "final_payload_bytes": 45,
+      "final_bytes_with_nul": 46,
+      "headroom_after_nul_bytes": 38,
+      "nul_present_in_payload": false,
+      "encodable": true
+    },
+    {
+      "tm_id": "ARF-TM-1F0FC2BD52E2211F2DAA",
+      "logical_locator": "Sys/system.vol::0035:special.bin",
+      "table_unit": "special:51:description",
+      "offset_hex": "0x1CC6",
+      "capacity_bytes_including_nul": 84,
+      "unsupported_codepoint": "U+00B7",
+      "before": "단일 대상에게 무속성 피해\n추가 효과: DEF·RES 하락",
+      "encoder_failure": "character is neither codebook-mapped nor EUC-JP encodable: '·'",
+      "replacement": "/",
+      "after": "단일 대상에게 무속성 피해\n추가 효과: DEF/RES 하락",
+      "final_payload_bytes": 49,
+      "final_bytes_with_nul": 50,
+      "headroom_after_nul_bytes": 34,
+      "nul_present_in_payload": false,
+      "encodable": true
+    }
+  ],
+  "followup_static_fit_review": {
+    "scope_tm_ids": [
+      "ARF-TM-23C381C692EBA6BAB81D",
+      "ARF-TM-21C3C35752E278848448",
+      "ARF-TM-253BAECE17E4460E7F80",
+      "ARF-TM-1A0B9368EE355C340E91",
+      "ARF-TM-1B9D7FD70BD2E500F036",
+      "ARF-TM-1F0FC2BD52E2211F2DAA"
+    ],
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "fixed_size_fields_fit": true,
+    "unsupported_middle_dots_remaining_in_scope": false,
+    "embedded_nul_in_scope": false,
+    "status": "passed"
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batches_0003_0004.json",
+    "source_sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+    "audited_units_in_batch": 40,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0004_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type":  "dolphin-game-mod-descriptor",
+    "version":  1,
+    "base-file":  "F:\\DOWN\\Arc Rise Fantasia (Japan)\\Arc Rise Fantasia (Japan).rvz",
+    "display-name":  "Arc Rise Fantasia Korean Runtime Validation (original SFD diagnostic)",
+    "maker":  "Codex",
+    "riivolution":  {
+                        "patches":  [
+                                        {
+                                            "options":  [
+                                                            {
+                                                                "choice":  1,
+                                                                "option-name":  "Korean Full Text Patch",
+                                                                "section-name":  "Arc Rise Fantasia"
+                                                            }
+                                                        ],
+                                            "root":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_runtime_staging\\riivolution_sd",
+                                            "xml":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\arc_rise_fantasia_ko_no_sfd.xml"
+                                        }
+                                    ]
+                    }
+}

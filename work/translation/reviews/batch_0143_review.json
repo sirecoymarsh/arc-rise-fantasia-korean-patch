@@ -1,0 +1,200 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0143",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_final",
+  "draft_author": "/root/translate_final",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work\\translation/tm_v2/batches/source/batch_0143.jsonl",
+  "draft": "work\\translation/drafts/batch_0143.jsonl",
+  "reviewed_output": "work\\translation/reviewed/batch_0143.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 20,
+  "unchanged_units": 180,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-75E7923DF21F4A2D0C00",
+      "source_text": "もう壁ねぇよ\n",
+      "before": "이제 벽 없어\n",
+      "after": "이제 벽은 없어\n",
+      "category": "natural_korean",
+      "reason": "구어체 어순이 자연스럽도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-78E3465BBA46C0D35198",
+      "source_text": "やっぱ皇子たちも\nログレスと契約しに来たんスかね",
+      "before": "역시 황자님 일행도\n로그레스와 계약하러 온 걸까요?",
+      "after": "역시 황자 일행도\n로그레스와 계약하러 온 걸까요?",
+      "category": "title",
+      "reason": "황자라는 직함 뒤에 불필요하게 붙은 존칭을 덜어 기존 직함 표기에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-BCA66A9BF35CD6282944",
+      "source_text": "■■競合へ■■\n",
+      "before": "■■경쟁으로■■\n",
+      "after": "■■경합으로■■\n",
+      "category": "terminology",
+      "reason": "競合의 고정 표기인 경합을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-17567CA07A908EAD6F48",
+      "source_text": "フレイア将軍！",
+      "before": "프레이아 장군님!",
+      "after": "프레이아 장군!",
+      "category": "title",
+      "reason": "고정 군 직함 표기에 맞춰 장군 뒤의 중복 존칭을 덜었다."
+    },
+    {
+      "tm_id": "ARF-TM-27811C2E77AE53036F26",
+      "source_text": "アニキ！　魔界でイーサ神とは\nこのことですよ。\n早く逃げましょう！",
+      "before": "형님! 마계의 이사신이란\n바로 이런 걸 말하는 거예요.\n빨리 도망쳐요!",
+      "after": "형님! 마계에서 이사신을 만난 격이\n바로 이런 거예요.\n빨리 도망쳐요!",
+      "category": "meaning",
+      "reason": "관용적인 비유가 마계의 신이라는 정의문으로 오해되지 않도록 의미를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-4F6790A3E6591AC99EB9",
+      "source_text": "……ったく、無茶しやがって",
+      "before": "……정말이지, 무모한 짓을 해서는",
+      "after": "……정말, 무모한 짓이나 하고",
+      "category": "natural_korean",
+      "reason": "문장이 미완성된 듯 끝나는 표현을 자연스러운 핀잔으로 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-7B5AFEB71D534238200A",
+      "source_text": "お前は黙ってろ",
+      "before": "넌 닥치고 있어",
+      "after": "넌 입 다물고 있어",
+      "category": "natural_korean",
+      "reason": "명령문이 자연스럽게 들리도록 관용적인 표현으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-8F5AF99331574BF62CBA",
+      "source_text": "助かる",
+      "before": "고맙군",
+      "after": "살았군",
+      "category": "meaning",
+      "reason": "장비를 되찾아 준 상황의 助かる를 감사가 아니라 안도 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-AF36F033C15E7EAC2151",
+      "source_text": "そんな未来を人間に押しつける\n神や教徒共に、何故我が国が\n従わねばならぬのだ",
+      "before": "그런 미래를 인간에게 강요하는\n신과 신도들에게, 어째서 우리 나라가\n따라야 한단 말이냐",
+      "after": "그런 미래를 인간에게 강요하는\n신과 신도들에게, 어째서 우리나라가\n따라야 한단 말이냐",
+      "category": "grammar",
+      "reason": "우리나라의 띄어쓰기를 바로잡고 문장 호응을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C47F481C83AA9BBBCE58",
+      "source_text": "どっちかって言うと\n今は宣戦布告の文書を運んできた\n俺が悪者だけどな……",
+      "before": "굳이 말하자면\n지금은 선전포고 문서를 가져온\n내가 악당이지만……",
+      "after": "굳이 말하자면\n지금은 선전포고 문서를 가져온\n내가 나쁜 놈이지만……",
+      "category": "natural_korean",
+      "reason": "자신이 악역에 가까운 처지라는 구어체 의미가 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0E0E90DEB3DFBFFBAD54",
+      "source_text": "バカかお前ら",
+      "before": "바보냐, 너희",
+      "after": "바보냐, 너희들",
+      "category": "natural_korean",
+      "reason": "호격 명사구가 어색하게 끊기지 않도록 복수형을 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-0EB0F4277C58A9257132",
+      "source_text": "定理を選ぶ者は俺の敵だ。\n俺は敵を飼う趣味はないからな",
+      "before": "섭리를 택하는 자는 내 적이다.\n난 적을 기르는 취미는 없으니까",
+      "after": "섭리를 택하는 자는 내 적이다.\n난 적을 곁에 두는 취미는 없으니까",
+      "category": "meaning",
+      "reason": "敵を飼う의 비유를 적을 곁에 두지 않는다는 의미로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-207A6DD1B1640B08C733",
+      "source_text": "き……きめぇ……",
+      "before": "기…… 기분 나빠……",
+      "after": "여…… 역겨워……",
+      "category": "meaning_voice",
+      "reason": "きめぇ의 강한 혐오감을 살리면서 더듬는 말투를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-2EF3484CB48F719A2381",
+      "source_text": "おっと、動くなよ",
+      "before": "이봐, 움직이지 마",
+      "after": "이런, 움직이지 마",
+      "category": "natural_korean",
+      "reason": "おっと의 제지 뉘앙스가 자연스럽게 들리도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-5FA22F742C12518DA31A",
+      "source_text": "上だ！",
+      "before": "위다!",
+      "after": "위쪽이다!",
+      "category": "natural_korean",
+      "reason": "방향을 가리키는 짧은 외침이 자연스럽도록 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-62826C4C138E7AF9FE7F",
+      "source_text": "オーリエンスの人",
+      "before": "오리엔스 사람",
+      "after": "오리엔스인",
+      "category": "natural_korean",
+      "reason": "출신지를 나타내는 인물 라벨을 자연스러운 한국어 명사로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-6EE8697DCE32A5893412",
+      "source_text": "Bイベント君G",
+      "before": "B 이벤트 캐릭터 G",
+      "after": "B 이벤트군 G",
+      "category": "terminology",
+      "reason": "イベント君의 고정 디버그 표기인 이벤트군을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-72C1AD73940F45B49995",
+      "source_text": "どういうことだ！",
+      "before": "무슨 뜻이야!",
+      "after": "무슨 뜻이냐!",
+      "category": "voice",
+      "reason": "공식 석상에서 화내는 화자의 격식 있는 종결을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-9E1FBFE695D9D05D9136",
+      "source_text": "ええ。\nあなたがコアとなって、世界中の\nホゾンを無効化するのです",
+      "before": "네.\n당신이 핵이 되어, 전 세계의\n호존을 무효화하는 겁니다",
+      "after": "네.\n당신이 코어가 되어, 전 세계의\n호존을 무효화하는 겁니다",
+      "category": "terminology",
+      "reason": "작중 시스템 용어 コア를 기존 표기인 코어로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-CAAFD0B9F4278FEBC72C",
+      "source_text": "くそ！　地下施設を封鎖しろ！",
+      "before": "젠장! 지하시설을 봉쇄해라!",
+      "after": "젠장! 지하 시설을 봉쇄해라!",
+      "category": "spacing",
+      "reason": "복합 명사의 띄어쓰기를 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

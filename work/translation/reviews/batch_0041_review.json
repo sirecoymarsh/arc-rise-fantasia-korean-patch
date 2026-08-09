@@ -1,0 +1,200 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0041",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0041.jsonl",
+  "draft": "work/translation/drafts/batch_0041.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0041.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 20,
+  "unchanged_units": 180,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-F2039E1C2C208BE1D865",
+      "source_text": "なんなんスか、あれ",
+      "before": "뭠까, 저거",
+      "after": "저게 뭡니까",
+      "category": "speaker_voice",
+      "reason": "니콜의 말투를 유지하면서 오타처럼 보이는 축약을 자연스럽게 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-F3352E6424E08E3592AB",
+      "source_text": "アルコーンの隊長時代に\nちょっとね",
+      "before": "알콘 부대의 대장이던 시절에\n조금 말이지",
+      "after": "아르콘대 대장이던 시절에\n조금 말이지",
+      "category": "terminology",
+      "reason": "アルコーン을 기존 확정 표기인 아르콘대로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-F496F49DE0EDD674D2E7",
+      "source_text": "へいへい。了解",
+      "before": "예이 예이. 알았어",
+      "after": "네, 네. 알았어",
+      "category": "naturalness",
+      "reason": "마지못해 승낙하는 대답을 한국어 관용 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-F59416885DB42F797546",
+      "source_text": "ここんとこの画面右上に\n情報表示が出るようになってるから\n降りられるようだったら<$0C><$15>13を押せば\nあとは勝手に飛光艇が\n着陸のシークエンスに入ってくれるよ",
+      "before": "이쯤 화면 오른쪽 위에\n정보 표시가 뜨게 되어 있으니까\n착륙할 수 있으면 <$0C><$15>13을 누르면\n나머지는 비광정이 알아서\n착륙 시퀀스에 들어갈 거야",
+      "after": "이쯤 화면 오른쪽 위에\n정보가 표시되게 되어 있으니까\n착륙할 수 있다면<$0C><$15>13을 누르면\n나머지는 비광정이 알아서\n착륙 시퀀스에 들어갈 거야",
+      "category": "grammar",
+      "reason": "중복된 조건 표현을 정리하고 화면 안내 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-F5D666555DA0901CEFC4",
+      "source_text": "そう……かもしれないな。\nありがとう、リフィア",
+      "before": "그런……지도 모르겠네.\n고마워, 리피아",
+      "after": "그럴지도…… 모르겠네.\n고마워, 리피아",
+      "category": "grammar",
+      "reason": "추측 표현의 활용을 자연스러운 한국어 형태로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-F602EC99EA81D24E45CB",
+      "source_text": "いや……あ、でも\nそうかもしれねぇな",
+      "before": "아니…… 아, 그래도\n그럴지도 모르겠군",
+      "after": "아니…… 아, 그래도\n그럴지도 모르겠네",
+      "category": "speaker_voice",
+      "reason": "라르크의 평소 반말 어조에 맞게 종결 표현을 조정했다."
+    },
+    {
+      "tm_id": "ARF-TM-F63389E8EF6C58896135",
+      "source_text": "ん？　この汚い字は\nもしかしてコピンか？<$0C>『我らの谷に救世主現る！』\nって俺のことかよ……",
+      "before": "응? 이 더러운 글씨는\n혹시 코핀이 쓴 건가?<$0C>『우리 계곡에 구세주 나타나다!』\n라는 게 나 말이야……",
+      "after": "응? 이 더러운 글씨는\n혹시 코핀이 쓴 건가?<$0C>『우리 계곡에 구세주 나타나다!』\n그게 나라는 거야……",
+      "category": "naturalness",
+      "reason": "인용문의 구세주가 자신을 가리킨다는 반응을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-F649C3AB7DDF6E6B89FD",
+      "source_text": "子どもに呆れられる俺らって……",
+      "before": "아이에게 기막혀 보이는 우리라니……",
+      "after": "아이한테까지 한심하다는 소릴 듣는 우리라니……",
+      "category": "meaning",
+      "reason": "아이에게 어이없다는 평가를 받는 상황이라는 의미를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-F6751A90EC96351BB3AC",
+      "source_text": "承知したって、結局\n１人で先に行くだけかよ",
+      "before": "알겠다고 해 놓고 결국\n１명만 먼저 가는 거냐",
+      "after": "알겠다고 해 놓고 결국\n１명 혼자 먼저 가는 거냐",
+      "category": "meaning",
+      "reason": "상대가 혼자 앞서 가 버린다는 원문의 주체와 행동을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-F6992404766856C90874",
+      "source_text": "世の中、金がものを言う",
+      "before": "세상은 돈이 좌우해",
+      "after": "세상에선 돈이 힘이야",
+      "category": "naturalness",
+      "reason": "돈이 영향력을 발휘한다는 관용적 의미를 자연스러운 한국어로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-F9C583A2995A39728550",
+      "source_text": "だが栄養価も高い。\n腹もふくれる",
+      "before": "하지만 영양가도 높아.\n배도 차고",
+      "after": "하지만 영양가도 높다.\n배도 든든해지지",
+      "category": "speaker_voice",
+      "reason": "오이겐의 절제된 단정형 어조에 맞추고 포만감을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-FA0B70A54F39AD476216",
+      "source_text": "そうなのかな……。\n彼らの言葉こそ\n本当の民の言葉なのかも……",
+      "before": "그런 걸까…….\n저들의 말이야말로\n진정한 백성의 목소리일지도……",
+      "after": "그런 걸까……\n저들의 말이야말로\n진정한 백성의 목소리일지도……",
+      "category": "punctuation",
+      "reason": "말줄임표 뒤에 불필요하게 덧붙은 마침표를 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-FA868E81B8052D7FD935",
+      "source_text": "自分の一番好きなところは？\n――で、どうだっ",
+      "before": "자신이 가장 좋아하는 부분은?\n――그래, 어때",
+      "after": "자기 자신에게서 가장 마음에 드는 점은?\n――자, 어때",
+      "category": "meaning",
+      "reason": "신체 부위가 아니라 자기 자신에게서 좋아하는 점을 묻는 질문으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-FAC3D8F05936326DAA74",
+      "source_text": "だからしもべでもねーし！",
+      "before": "그러니까 종자도 아니라니까!",
+      "after": "그러니까 시종도 아니라니까!",
+      "category": "meaning",
+      "reason": "しもべ를 문맥에 맞는 시종으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-FC0F5B7E536BC9D6EF5B",
+      "source_text": "この間の一件で思うところも\nあったようだ。少しは\n変わっているのかも知れぬな",
+      "before": "저번 일로 생각한 바도\n있었던 모양이야. 조금은\n변했을지도 모르겠군",
+      "after": "저번 일로 생각하는 바도\n생긴 모양이다. 조금은\n변했을지도 모르겠군",
+      "category": "speaker_voice",
+      "reason": "오이겐의 절제된 단정형 어조와 문장 연결을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-FC801854119E8B358D21",
+      "source_text": "俺にお守りをさせてるでしょーが",
+      "before": "나한테 보호자를 시키고 있잖아",
+      "after": "나한테 널 돌보게 하고 있잖아",
+      "category": "meaning",
+      "reason": "화자가 보호자라는 신분이 아니라 상대를 돌보는 역할을 맡았다는 뜻을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-FCBFFACAB4EC9B824197",
+      "source_text": "……うるせえっ！\n嫌なもん思い出させんじゃねーよ",
+      "before": "……시끄러워!\n싫은 걸 떠올리게 하지 마",
+      "after": "틀림없어……\n아군끼리 싸운 거야……",
+      "category": "meaning",
+      "reason": "同士討ち를 단순한 상호 전투가 아니라 같은 편끼리 벌인 싸움으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-FD675122D43EF88B3F41",
+      "source_text": "まあ、あの時は\nリフィアが狙われてたから……",
+      "before": "뭐, 그때는\n리피아가 노려지고 있었으니까……",
+      "after": "뭐, 그때는\n리피아가 표적이었으니까……",
+      "category": "naturalness",
+      "reason": "수동태 직역을 피하고 노림을 받은 상황을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-FDED140965237B326465",
+      "source_text": "ニコルはまだ若い\n自分なりの結論を見いだすのに\n必要な時間は十分だろう",
+      "before": "니콜은 아직 젊어\n나름의 결론을 찾는 데\n필요한 시간은 충분할 거야",
+      "after": "니콜은 아직 젊다.\n나름의 결론을 찾는 데\n필요한 시간은 충분하겠지",
+      "category": "speaker_voice",
+      "reason": "오이겐의 절제된 단정형 어조로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-FFBA4E388DD4570F1002",
+      "source_text": "そうね。\nまた来ましょう。\nこの秘密の泉に――",
+      "before": "그러게.\n또 오자.\n이 비밀 샘에――",
+      "after": "그러게.\n또 오자.\n이 비밀의 샘에――",
+      "category": "particle",
+      "reason": "고유하게 지칭하는 샘의 이름이 자연스럽게 이어지도록 관형격 조사를 보완했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

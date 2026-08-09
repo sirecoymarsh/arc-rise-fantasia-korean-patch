@@ -1,0 +1,1231 @@
+{
+  "schema": "arf-image-ui-structural-validation-v1",
+  "asset_checks": 48,
+  "passed": 48,
+  "failed": 0,
+  "title_archive_check": {
+    "original_title_and_sys_title_identical": true,
+    "original_sha256": "0a4765ae4f329b97864f6bf516ec58379df1fa42938881628a9e256b1a9dafbf",
+    "patched_sha256": "80152e9a00a507dd7bbe54deda9530b7f1a189d8a079f43fddc4b29d5a3ad793",
+    "physical_size_equal": true,
+    "entry_count_equal": true,
+    "changed_entries": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "unchanged_entries": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "expected_changed_entries": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pass": true
+  },
+  "contact_sheet_100pct": {
+    "pages": [
+      "reports/contact_reencoded_100pct/contact_001.png",
+      "reports/contact_reencoded_100pct/contact_002.png"
+    ],
+    "visual_verdict": "PASS",
+    "review_scope": "48 re-encoded renders; Korean legibility, clipping, alpha, retained state frames and Japanese residue on edited regions"
+  },
+  "runtime_tested": false,
+  "failures": [],
+  "checks": [
+    {
+      "original": "work/disc_extracted/DATA/files/Sys/strapA_jp.wtm",
+      "patched": "work/image_ui_final/payloads/Sys/strapA_jp.wtm",
+      "original_sha256": "52fb7f7f85416bbdc3a2ca61bbfbeb118a03767050e3e790ed14922e6ad98fb1",
+      "patched_sha256": "37b1a8b270bcd3cd063f86a8309cb03e49ba61c22cedfdb936474b9641867f8c",
+      "original_bytes": 287776,
+      "patched_bytes": 287776,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        640,
+        448
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/Sys/strapB_jp.wtm",
+      "patched": "work/image_ui_final/payloads/Sys/strapB_jp.wtm",
+      "original_sha256": "efb7e5d89605f40cc3ecf62c164f3b553091784fdae5d9af192c0e0154ee8cc5",
+      "patched_sha256": "73e7ca87451a52e95b049517b2933304f7cdd610cd47c3fb3844cc44a88ce45f",
+      "original_bytes": 287776,
+      "patched_bytes": 287776,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        640,
+        448
+      ],
+      "render_alpha_range": [
+        0,
+        254
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/pristine/Sys/system.vol/nowloading.wtm",
+      "patched": "work/image_ui_final/payloads/Sys/0053__nowloading.wtm",
+      "original_sha256": "0bdf48e6cb8761935f3f60d340bcb76968e2acbc823c70b76c20dfe9758be123",
+      "patched_sha256": "3ff604ecc7bd6f2741c8a2b7ec5480c126252c751ed6d33f1b613e92352c7e81",
+      "original_bytes": 9248,
+      "patched_bytes": 9248,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        128,
+        64
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/image_ui_final/extracted/title_vol/payloads/0000__title_pressanybutton.wtm",
+      "patched": "work/image_ui_final/payloads/Title/title_vol_payloads/0000__title_pressanybutton.wtm",
+      "original_sha256": "822e554b02d9a139fe7975b02561c338be92a352a728363727a3d0655e9981ae",
+      "patched_sha256": "d653c5fb200bdfbf73f33fdead132c9201343ccf826e1f43b9391743b527b1b6",
+      "original_bytes": 19488,
+      "patched_bytes": 19488,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        240,
+        32
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/image_ui_final/extracted/title_vol/payloads/0001__title_logo.wtm",
+      "patched": "work/image_ui_final/payloads/Title/title_vol_payloads/0001__title_logo.wtm",
+      "original_sha256": "3c0c8843a8aaa04593e0506accaa783d0ef7103fd0af8ee034113800379ed440",
+      "patched_sha256": "4f44a80120e2b5581715969c009afdc83f2d12d56f2ab451ebcbe9f38e4a063c",
+      "original_bytes": 1146912,
+      "patched_bytes": 1146912,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        640,
+        448
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/image_ui_final/extracted/title_vol/payloads/0002__title_newgame01.wtm",
+      "patched": "work/image_ui_final/payloads/Title/title_vol_payloads/0002__title_newgame01.wtm",
+      "original_sha256": "3eef98609b1b0e27fcf075d9fe3dde6603259e599be6ac006e4b5f3e4c4f430b",
+      "patched_sha256": "8ce2c4ea7934b6968c4692a7eea26832201898f404c70d0f4b230d1f6d732dbc",
+      "original_bytes": 7456,
+      "patched_bytes": 7456,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        112,
+        24
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/image_ui_final/extracted/title_vol/payloads/0003__title_newgame02.wtm",
+      "patched": "work/image_ui_final/payloads/Title/title_vol_payloads/0003__title_newgame02.wtm",
+      "original_sha256": "c31ab1acc47139d8af42598aee6a4623a1ed4ebf4abc215537d692327c691d00",
+      "patched_sha256": "2044543f881c27c0684befe21a0e7a3f1fb2898d66fdf444c108f3487cf032ee",
+      "original_bytes": 7456,
+      "patched_bytes": 7456,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        112,
+        24
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/image_ui_final/extracted/title_vol/payloads/0004__title_continue01.wtm",
+      "patched": "work/image_ui_final/payloads/Title/title_vol_payloads/0004__title_continue01.wtm",
+      "original_sha256": "a39b022f93c0bd6330e532538e02d736a26c59f5949fd19ba690162169d4e3e6",
+      "patched_sha256": "68e4371bf2cdc02672b826c211a9214a47e95715a06f3d27e842552e5e8b77cb",
+      "original_bytes": 7456,
+      "patched_bytes": 7456,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        112,
+        24
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/image_ui_final/extracted/title_vol/payloads/0005__title_continue02.wtm",
+      "patched": "work/image_ui_final/payloads/Title/title_vol_payloads/0005__title_continue02.wtm",
+      "original_sha256": "fda5a99556e45335c71cd0e6e8efa88918e7604ce8f615f1bb94a81d6f6c7206",
+      "patched_sha256": "e60ade78cf46a38653be865a41198a1e0b2f1d25fdc2ba023cb5b85204405138",
+      "original_bytes": 7456,
+      "patched_bytes": 7456,
+      "size_equal": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        112,
+        24
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_adk_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_adk_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_adk_wtm.wtm",
+      "original_sha256": "890f9de2600d0b4dd7c08d526c3bc53bddebb16e8436aabe3204973d52be0f97",
+      "patched_sha256": "e354a3945fbad70023ab5181c1172f26a933bf2e601c450e720f87f049650dca",
+      "original_compressed_bytes": 82472,
+      "patched_compressed_bytes": 58436,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_adz_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_adz_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_adz_wtm.wtm",
+      "original_sha256": "700e62d957560b1f13c6886543b50792443d2e0f230ab58bd17b1144544798fe",
+      "patched_sha256": "0dce473f4d8e9c02c2333f55975ccf2d7bb85a0c98d308957e751a269ba94fd0",
+      "original_compressed_bytes": 71460,
+      "patched_compressed_bytes": 50220,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_aka_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_aka_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_aka_wtm.wtm",
+      "original_sha256": "2c1e48cb62059d46771adcf67e96e5dd4b2463cbd6b7f4ab0431238850cf981a",
+      "patched_sha256": "07c274f35653567108747636261e50dee40be1d37587e6f6c14eef0c6b5ab601",
+      "original_compressed_bytes": 66776,
+      "patched_compressed_bytes": 50448,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_aot_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_aot_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_aot_wtm.wtm",
+      "original_sha256": "063108cdf8b449ee7e74f7797f8b9d69168693eb1d50340c814dfd85f812a836",
+      "patched_sha256": "5778927abbcdf2d3215acb7f95f9d9d6655aff1d40e842473e2582ca0cbde799",
+      "original_compressed_bytes": 61124,
+      "patched_compressed_bytes": 45000,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_bat_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_bat_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_bat_wtm.wtm",
+      "original_sha256": "28b597424e2139c340cc2fbabaa8d224104bee6f225ba63de40f59fc3a29b7c2",
+      "patched_sha256": "9eed822e6ebddcb6230f9db86e246a911ca2ae366ea7511432009a1f05c23a2e",
+      "original_compressed_bytes": 58400,
+      "patched_compressed_bytes": 42696,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_bne_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_bne_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_bne_wtm.wtm",
+      "original_sha256": "9e5653a5e7c1e51c734cb5e9a0b631ff3f9eba8e3ea06eba5a96cfb02e6e39b7",
+      "patched_sha256": "b283794c04f4171767469b090070473e21a5d73144bb830489c0a3af252ff78e",
+      "original_compressed_bytes": 73960,
+      "patched_compressed_bytes": 51800,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_can_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_can_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_can_wtm.wtm",
+      "original_sha256": "cc1e6186ddbb458acc90e03c90af91704269f71911b64bb4796e8faf40f2fed1",
+      "patched_sha256": "5efb8a52e5a5a4781eb9f3e16df6b24adbc70e79e9e2c2f6085fa79ac2e4e26f",
+      "original_compressed_bytes": 61776,
+      "patched_compressed_bytes": 45636,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_cob_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_cob_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_cob_wtm.wtm",
+      "original_sha256": "f1d514b61334898a8be8c95974ee29f5cded95bcae5db86627c06751939c841d",
+      "patched_sha256": "cf8d7f8e3af8e6c764d0be04f3a438b34eba2bd7ebb4383399e134ed93ab95fa",
+      "original_compressed_bytes": 57504,
+      "patched_compressed_bytes": 43436,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_cop_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_cop_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_cop_wtm.wtm",
+      "original_sha256": "081f93779b6a389f0b10552d9031307770560486cadff44eb9278084988cb803",
+      "patched_sha256": "b18e21adcb9791f4e762ec696a35b552e7422464e120dc960d3885f35b83e062",
+      "original_compressed_bytes": 66588,
+      "patched_compressed_bytes": 52648,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_des_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_des_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_des_wtm.wtm",
+      "original_sha256": "a048f8aa540eef3734a80df2f54756df59146d96a644c5eddb8b9f04b0bf5765",
+      "patched_sha256": "ccf98724e2e2228a2e63a077d861c43e144835ea9f8d1b7f26bc81a819c67c7f",
+      "original_compressed_bytes": 64372,
+      "patched_compressed_bytes": 43612,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_dia_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_dia_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_dia_wtm.wtm",
+      "original_sha256": "90ced89c8c5b7e6d3ef2e05cc87ec32ebfae2ab4a8fc09afc63b69bdfda884ba",
+      "patched_sha256": "c596aaddf7854d31961ba03ed38ea59c6b274342fe1ebd06e7967629fbfe5bb0",
+      "original_compressed_bytes": 71772,
+      "patched_compressed_bytes": 49892,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_ebu_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_ebu_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_ebu_wtm.wtm",
+      "original_sha256": "7348b5a56837425f582cf179cbfb3c5f3816290776c8f7d5e25593cdc93183e5",
+      "patched_sha256": "d15e5a5ba6ca1a18a39934612074927ead5b3f6e96cb6dc0c74f0e7e9a330864",
+      "original_compressed_bytes": 46584,
+      "patched_compressed_bytes": 34032,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_evt_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_evt_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_evt_wtm.wtm",
+      "original_sha256": "a5cdeddb9ce8c17c82d1a63b2f6e6c34f8b1d489355ba95c366bc651f86bf90c",
+      "patched_sha256": "d0c03d94d6b24e4f209a6b7127b38dd84b0b9db8ed71a873c1499c220d888445",
+      "original_compressed_bytes": 64380,
+      "patched_compressed_bytes": 44080,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_ext_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_ext_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_ext_wtm.wtm",
+      "original_sha256": "a4439203d0477e5fd756d8eab0947c0bf643a61527801d9915b736c11ed94be4",
+      "patched_sha256": "744a3a6b814fcc29ee60c929471c2c9b2192762d590ee00bafb9a67d182e5baf",
+      "original_compressed_bytes": 75900,
+      "patched_compressed_bytes": 54516,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_hai_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_hai_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_hai_wtm.wtm",
+      "original_sha256": "29e9865868b40509d4926b7b733919828e3815fbf46d05140649c218d4431e1d",
+      "patched_sha256": "9dce84a170079b5288e6c5eb3399e16ac8723b8f00cce4eeaba45c02533aa9e1",
+      "original_compressed_bytes": 72992,
+      "patched_compressed_bytes": 52464,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_hgu_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_hgu_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_hgu_wtm.wtm",
+      "original_sha256": "01c08a2ee8c50da9ab115cb5a24a2aebc25358f01c48bf1c45260b208ae65b14",
+      "patched_sha256": "325cf8ad0460e6fbecf790109815e2d662a420134929558d9c11084995bbb4a1",
+      "original_compressed_bytes": 73844,
+      "patched_compressed_bytes": 53740,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_hki_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_hki_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_hki_wtm.wtm",
+      "original_sha256": "e87f89c97170ec5de82eca4b078ae8b13ad6c0dcd0f60f1bf5005a9fb2553997",
+      "patched_sha256": "7a62c141581808f222e31d6cc615ae2b8d77c8c24a53437da198dd4f5e009a07",
+      "original_compressed_bytes": 54064,
+      "patched_compressed_bytes": 38264,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_hnk_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_hnk_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_hnk_wtm.wtm",
+      "original_sha256": "f138cd18843a28d38d6714dc0cc21eaf78b5989d51544240af9faf1a2206d5b8",
+      "patched_sha256": "6ef154a1ad713114e60d3625c6e0ce5c7c2e1c157f2705817832ec0f82837175",
+      "original_compressed_bytes": 58276,
+      "patched_compressed_bytes": 41340,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_ise_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_ise_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_ise_wtm.wtm",
+      "original_sha256": "9ff4cf8d16de947f96dba52ddcdf18833ec82aa0dbcf3096421c4bd82584f689",
+      "patched_sha256": "8d512b992e8b50add0b4afd7f4a49ed1979023adc4e6180e609dbdb8509d7397",
+      "original_compressed_bytes": 57676,
+      "patched_compressed_bytes": 41296,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_jad_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_jad_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_jad_wtm.wtm",
+      "original_sha256": "ffc90a92f28428a8234f1f4d50a9148ba08315cedbd5d291b8cc99872cf1e4c6",
+      "patched_sha256": "5456589b53b6d274ff80e4f574e739238b59249eea1edbf428afd78b10e078d5",
+      "original_compressed_bytes": 46948,
+      "patched_compressed_bytes": 33920,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_kai_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_kai_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_kai_wtm.wtm",
+      "original_sha256": "fa8df85164a27b2652a18dbec00f4900d9bbaf579953f8e0909c5745e393ad28",
+      "patched_sha256": "25fd885e37e5b4f9d0d72c8d0d22e38f0573d1e5aceadbf436cda741762658e7",
+      "original_compressed_bytes": 61344,
+      "patched_compressed_bytes": 46652,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_kal_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_kal_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_kal_wtm.wtm",
+      "original_sha256": "8bf41a7d815f0cef6b39e91904910d7c569cc5ef037302a51cc20f0bc9a45747",
+      "patched_sha256": "da53fc375ba3b63fd8652413d56975e515cc5cddf06c9016c78cb1248f9c1931",
+      "original_compressed_bytes": 47552,
+      "patched_compressed_bytes": 36276,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_kan_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_kan_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_kan_wtm.wtm",
+      "original_sha256": "3f674493db25d1b05a19641cec5ac9a41a87eab28c31432385e2beb36e29d867",
+      "patched_sha256": "059d2905e902453dd4cbc474f77d890e8a2bad17d750655c2576fe12ed2f26f6",
+      "original_compressed_bytes": 73640,
+      "patched_compressed_bytes": 52392,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_koo_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_koo_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_koo_wtm.wtm",
+      "original_sha256": "0f90443bc7be0d7f8062bb807047e8645fe8d7cb74fafe62104deec0ff75f274",
+      "patched_sha256": "7175438ff6fa5c5d01ccb837b977ac020f7eddbf83dbc19c8287ba3e83759755",
+      "original_compressed_bytes": 71656,
+      "patched_compressed_bytes": 48668,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_kza_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_kza_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_kza_wtm.wtm",
+      "original_sha256": "1c99a3b150ba84c017070516b6fd18800afea2ff905a64cd5cd46b97ceb8f31e",
+      "patched_sha256": "88b8e6e1ab22679f13c06a67837334cf2796acd8fdf377ded7c8354be7598b33",
+      "original_compressed_bytes": 64064,
+      "patched_compressed_bytes": 44884,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_mit_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_mit_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_mit_wtm.wtm",
+      "original_sha256": "4c20fb77d8bbb4e6066183790022a5071fda4ba64e1d40f8a008767182645ca5",
+      "patched_sha256": "af1fdb5e842ae0c01729ef0227f125d50a54df32477bb9ee4a52993902415b9b",
+      "original_compressed_bytes": 59084,
+      "patched_compressed_bytes": 44256,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_mse_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_mse_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_mse_wtm.wtm",
+      "original_sha256": "62c4adf7dfc1c75ad0f4f6f80103186875ec0e252f5cf1f776196e45b54a9726",
+      "patched_sha256": "32b19de54d91f751c9ff42fca4f719e538a50fa6e61036e4890a0ac8e6454df0",
+      "original_compressed_bytes": 69204,
+      "patched_compressed_bytes": 48108,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_ori_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_ori_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_ori_wtm.wtm",
+      "original_sha256": "fbd627ab2df0ecad600fab5f1706605b106fd0582b06f3b6842b829a34c1f835",
+      "patched_sha256": "ec08e6978a5ab9a60185ab366d93a2881c488ada402b406bd11012900b186d6f",
+      "original_compressed_bytes": 67688,
+      "patched_compressed_bytes": 45432,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_ryu_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_ryu_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_ryu_wtm.wtm",
+      "original_sha256": "5fdab30719b3be51f9d34c745b045ae8207dd3b103268ac29b753a4793b751b0",
+      "patched_sha256": "952098d5b3926ecea6b53825db64082d8c8743cc2a7a9290d33e90642c73c843",
+      "original_compressed_bytes": 56900,
+      "patched_compressed_bytes": 46444,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_sba_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_sba_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_sba_wtm.wtm",
+      "original_sha256": "9d285b1f9305d0a38f32c205ed988a7969e3436e99d9220efb0ea9e34a2c6ca3",
+      "patched_sha256": "0f62be75194714b90c6e1711e1e76c7228beb9ff24aa7ea38fcde88f5a2ed91a",
+      "original_compressed_bytes": 47852,
+      "patched_compressed_bytes": 35648,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_sir_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_sir_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_sir_wtm.wtm",
+      "original_sha256": "6577c7f8c1dbcd7defc98e201525e16fe87fb20f4a023f6c22273d8b13783eea",
+      "patched_sha256": "9d4647c58bf7134aa85dd00332dd356c084f4b3b0d26507579bec5ff2640983d",
+      "original_compressed_bytes": 70472,
+      "patched_compressed_bytes": 51748,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_syo_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_syo_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_syo_wtm.wtm",
+      "original_sha256": "8f9bfab39d496be781a24d3c69e8a5ba1fc7821575fe4c4d0b6aaae7d733f7c8",
+      "patched_sha256": "07f3f3ccba81e843756ec9ab033b688a2eaec00799475268ac31f6599a9158b9",
+      "original_compressed_bytes": 64612,
+      "patched_compressed_bytes": 48824,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_tig_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_tig_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_tig_wtm.wtm",
+      "original_sha256": "5954a53d49a195d83e1f8bbc067538eb54641b6b2093bf05a54f888e22787150",
+      "patched_sha256": "ac5b796989298f433d712a1470f97a6cd8f0624f0b8868ce19251656c589978d",
+      "original_compressed_bytes": 60668,
+      "patched_compressed_bytes": 44360,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_tka_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_tka_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_tka_wtm.wtm",
+      "original_sha256": "cf6a3e01fbf4a35688790eb71ceffaa470c55a13f85d2bedf1665f7553c04fe3",
+      "patched_sha256": "8d6a293e72fcfb9ae67eaf9aa8d58f3b35af20fb48dd47f5262aecde02aeb1c2",
+      "original_compressed_bytes": 66932,
+      "patched_compressed_bytes": 49144,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_tou_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_tou_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_tou_wtm.wtm",
+      "original_sha256": "b668e197921cdc8fd7044312650afb14ec23c1009ff1ec433019b922625b49e8",
+      "patched_sha256": "7efc1869edb3283f7d6eaaa03d24594654c00553a1e471f68267cd4fc8c1b78c",
+      "original_compressed_bytes": 67416,
+      "patched_compressed_bytes": 44600,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_tpa_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_tpa_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_tpa_wtm.wtm",
+      "original_sha256": "0727c10686efe57ee90dc0cedf6ec17154cb71429fe2f636d910dbaa5ef63535",
+      "patched_sha256": "e32edb424664eac686cd36a6f7253314a04422c1afc28277bfdb65ad8767dae1",
+      "original_compressed_bytes": 54300,
+      "patched_compressed_bytes": 39300,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_loc_title_yuk_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_loc_title_yuk_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_loc_title_yuk_wtm.wtm",
+      "original_sha256": "f0364f830c25bd2bb6714a7a9b63f95efd74102f71ea4574a9522bd18ee65e80",
+      "patched_sha256": "1bdea85ff428de3269907690ff1ba7e3ee517460d8dad03536edc8b3f36034e5",
+      "original_compressed_bytes": 51708,
+      "patched_compressed_bytes": 38776,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        408,
+        128
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_casino_intro_bj_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_casino_intro_bj_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_casino_intro_bj_wtm.wtm",
+      "original_sha256": "a307f07f8251fb7579ce679bfae1ede1fae303c5d7520fd72016283f923d5b21",
+      "patched_sha256": "9f8379c1e52f527cb1ae619ca0edca802b146234066d48fcdfd8c108d22577b0",
+      "original_compressed_bytes": 149908,
+      "patched_compressed_bytes": 114788,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        256,
+        192
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    },
+    {
+      "original": "work/disc_extracted/DATA/files/interface/tex_casino_intro_poker_wtm.cxd",
+      "patched": "work/image_ui_final/payloads/interface/tex_casino_intro_poker_wtm.cxd",
+      "leaf": "work/image_ui_final/payloads/wtmd_leaves/tex_casino_intro_poker_wtm.wtm",
+      "original_sha256": "10140a014cdd715664e49c744e0d0be1830d1ddf588528f435733608defdd52a",
+      "patched_sha256": "57b0d57a37533810cd6e21e1fd4a5f07bc536787f468af28d2cd8e186721b90f",
+      "original_compressed_bytes": 157208,
+      "patched_compressed_bytes": 97012,
+      "decompressed_bytes_equal": true,
+      "leaf_matches_decompressed_payload": true,
+      "header_and_palette_equal": true,
+      "dimensions_equal": true,
+      "gx_format_equal": true,
+      "palette_format_equal": true,
+      "render_dimensions": [
+        256,
+        192
+      ],
+      "render_alpha_range": [
+        0,
+        255
+      ],
+      "changed": true,
+      "pass": true
+    }
+  ]
+}

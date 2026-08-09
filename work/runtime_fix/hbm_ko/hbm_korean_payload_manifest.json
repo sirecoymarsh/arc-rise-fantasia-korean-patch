@@ -1,0 +1,1087 @@
+{
+  "schema": "arf-hbm-korean-payload-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_services_used": [],
+  "source_baseline_modified": false,
+  "physical_payload_count": 3,
+  "payload_root": "work/runtime_fix/hbm_ko/payloads/Hbm",
+  "csv_files": [
+    {
+      "physical_path": "Hbm/home.csv",
+      "source_path": "work/disc_extracted/DATA/files/Hbm/home.csv",
+      "output_path": "work/runtime_fix/hbm_ko/payloads/Hbm/home.csv",
+      "source_size": 3610,
+      "output_size": 3640,
+      "source_sha256": "8A0BC17E6DD252A623B9BA5D89AB32E56C795D6F49FEA29E2DA65F2FD6B0AF9C",
+      "output_sha256": "BCBE430B52BD0D44036737FD1775CB96C9731BC026D0C7210EC9ECEDA520E12A",
+      "bom_preserved": true,
+      "encoding": "UTF-16BE",
+      "row_count": 4,
+      "columns_per_row": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "other_language_columns_unchanged": true,
+      "first_column": [
+        {
+          "source_ja": "接続する順番に\r\n①ボタンと②ボタンを\r\n同時に押してください。",
+          "translation_ko": "연결할 순서대로\r\n① 버튼과 ② 버튼을\r\n동시에 눌러 주세요.",
+          "provenance": "Codex internal model"
+        },
+        {
+          "source_ja": "切断中・・・",
+          "translation_ko": "연결을 끊는 중...",
+          "provenance": "Codex internal model"
+        },
+        {
+          "source_ja": "Wiiメニューにもどりますか？\r\n（保存していない内容は失われます）",
+          "translation_ko": "Wii 메뉴로 돌아가시겠습니까?\r\n(저장하지 않은 내용은 사라집니다.)",
+          "provenance": "Codex internal model"
+        },
+        {
+          "source_ja": "リセットしますか？\r\n（保存していない内容は失われます）",
+          "translation_ko": "리셋하시겠습니까?\r\n(저장하지 않은 내용은 사라집니다.)",
+          "provenance": "Codex internal model"
+        }
+      ]
+    },
+    {
+      "physical_path": "Hbm/home_nosave.csv",
+      "source_path": "work/disc_extracted/DATA/files/Hbm/home_nosave.csv",
+      "output_path": "work/runtime_fix/hbm_ko/payloads/Hbm/home_nosave.csv",
+      "source_size": 2540,
+      "output_size": 2558,
+      "source_sha256": "560EE7A36E8EDFD75CC9397C75397C74D34FF02FEE8197D3D2697AC0E74D585B",
+      "output_sha256": "BF527E3B5F79FC936F723256932F06790979825FFDBF0F4EEACB930CD0D910EF",
+      "bom_preserved": true,
+      "encoding": "UTF-16BE",
+      "row_count": 4,
+      "columns_per_row": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "other_language_columns_unchanged": true,
+      "first_column": [
+        {
+          "source_ja": "接続する順番に\r\n①ボタンと②ボタンを\r\n同時に押してください。",
+          "translation_ko": "연결할 순서대로\r\n① 버튼과 ② 버튼을\r\n동시에 눌러 주세요.",
+          "provenance": "Codex internal model"
+        },
+        {
+          "source_ja": "切断中・・・",
+          "translation_ko": "연결을 끊는 중...",
+          "provenance": "Codex internal model"
+        },
+        {
+          "source_ja": "Wiiメニューにもどりますか？",
+          "translation_ko": "Wii 메뉴로 돌아가시겠습니까?",
+          "provenance": "Codex internal model"
+        },
+        {
+          "source_ja": "リセットしますか？",
+          "translation_ko": "리셋하시겠습니까?",
+          "provenance": "Codex internal model"
+        }
+      ]
+    }
+  ],
+  "home_button_archive": {
+    "physical_path": "Hbm/homeBtn.arc",
+    "source_path": "work/disc_extracted/DATA/files/Hbm/homeBtn.arc",
+    "output_path": "work/runtime_fix/hbm_ko/payloads/Hbm/homeBtn.arc",
+    "source_size": 432160,
+    "output_size": 432160,
+    "source_sha256": "B0AF517B04C369A278B42C0147878E6C2ACB7EA6ACA4986D6243F93D760980BE",
+    "output_sha256": "A583578077CB3EC808532719BFD9835462B2AFE66327343F266EA4A895277CC8",
+    "format": "Nintendo U8",
+    "root_offset_hex": "0x20",
+    "node_count": 111,
+    "node_table_and_member_offsets_preserved": true,
+    "targeted_texture_count": 12,
+    "language_neutral_texture_count": 6,
+    "textures": [
+      {
+        "member_path": "arc/timg/tx_btn_00.tpl",
+        "member_index": 93,
+        "archive_offset": 354112,
+        "archive_offset_hex": "0x56740",
+        "size_bytes": 2784,
+        "width": 136,
+        "height": 40,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "とじる",
+        "translation_ko": "닫기",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "4F3DEED386E02D1DE6CCAB74E9050627555B731A5F7952A66E3A53968F954850",
+        "output_sha256": "0BDF019C3D409E2AF213713B11AAC2B2C8E174D0AB284628955C0CDF9A35349C",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_btn_L_00.tpl",
+        "member_index": 94,
+        "archive_offset": 356896,
+        "archive_offset_hex": "0x57220",
+        "size_bytes": 7744,
+        "width": 240,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "Wiiメニューへ",
+        "translation_ko": "Wii 메뉴로",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "9AD2DD0F112F634AF84B2FA5D0D91DA3DDC06357951AB5CBA2215CC31950C1A0",
+        "output_sha256": "4BAB6052427B6A221836AB3529CB84111E0E72555EA4E57CB938AC1A9DAB6343",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_btn_L_11.tpl",
+        "member_index": 95,
+        "archive_offset": 364640,
+        "archive_offset_hex": "0x59060",
+        "size_bytes": 7744,
+        "width": 240,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "リセット",
+        "translation_ko": "리셋",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "21515137553DD9F5A2A945298B9160AD9CA5A3C1D1F2F74D970D366126705991",
+        "output_sha256": "D5B331A5470A9605D056C93BD99C9C7C41C8A9BEDFF680CB4F7BF899191CF5FB",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_cntrl_00.tpl",
+        "member_index": 96,
+        "archive_offset": 372384,
+        "archive_offset_hex": "0x5AEA0",
+        "size_bytes": 6848,
+        "width": 424,
+        "height": 32,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "Wiiリモコンの設定",
+        "translation_ko": "Wii 리모컨 설정",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "13BAD8732900FD637B3285966CBCB9A66224EE55167988409C46F2039AE08D96",
+        "output_sha256": "E5785E18DC71143781267BB68329CC7973285C9E71E61F443FF128DAE542D34D",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_cntrl_01.tpl",
+        "member_index": 97,
+        "archive_offset": 379232,
+        "archive_offset_hex": "0x5C960",
+        "size_bytes": 6848,
+        "width": 424,
+        "height": 32,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "Wiiリモコンの設定をとじる",
+        "translation_ko": "Wii 리모컨 설정 닫기",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "AB2525DB402FDBDA0173F76FD8B97F7920853AE3A46AE78AF14F2B9351406A2F",
+        "output_sha256": "F4E337856AAD167FB6A8206D20E07500EC11ADEB603091A68831F518E578CDEC",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_msgBtn_00.tpl",
+        "member_index": 98,
+        "archive_offset": 386080,
+        "archive_offset_hex": "0x5E420",
+        "size_bytes": 3264,
+        "width": 200,
+        "height": 32,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "はい",
+        "translation_ko": "예",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "957BD3E4185BD0E0790BACAA88D7B71B5E28928B084E18942C970E015725EB9F",
+        "output_sha256": "66A02B8428611413908A8E7024532BFF718D864D2DAB510ECAD39F2200DF21ED",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_msgBtn_01.tpl",
+        "member_index": 99,
+        "archive_offset": 389344,
+        "archive_offset_hex": "0x5F0E0",
+        "size_bytes": 3264,
+        "width": 200,
+        "height": 32,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "いいえ",
+        "translation_ko": "아니요",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "52D4E043DE9AF4BFB83EC6C1BE97235F9DC0FA0A946A9E9E9BDFDADE13F47003",
+        "output_sha256": "1FDFA1C0D6CB3297AEC2FEB4505456D9138E82ABC5BD8674F94D5C4F87DA5AA6",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_optnBtn_10.tpl",
+        "member_index": 100,
+        "archive_offset": 392608,
+        "archive_offset_hex": "0x5FDA0",
+        "size_bytes": 4160,
+        "width": 128,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "ON",
+        "translation_ko": "ON",
+        "translation_provenance": "language-neutral retained",
+        "changed": false,
+        "source_sha256": "964B8B6CEFFEE5A1F09EA8B2FD778ACDEEBDA2F91068E89A653189ED60E35328",
+        "output_sha256": "964B8B6CEFFEE5A1F09EA8B2FD778ACDEEBDA2F91068E89A653189ED60E35328",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_optnBtn_11.tpl",
+        "member_index": 101,
+        "archive_offset": 396768,
+        "archive_offset_hex": "0x60DE0",
+        "size_bytes": 4160,
+        "width": 128,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "OFF",
+        "translation_ko": "OFF",
+        "translation_provenance": "language-neutral retained",
+        "changed": false,
+        "source_sha256": "48916D99B29DFCA76B69D85C46DE0ED5CF151B60DCEBB81CA54939E63647715C",
+        "output_sha256": "48916D99B29DFCA76B69D85C46DE0ED5CF151B60DCEBB81CA54939E63647715C",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_optnBtn_20.tpl",
+        "member_index": 102,
+        "archive_offset": 400928,
+        "archive_offset_hex": "0x61E20",
+        "size_bytes": 10304,
+        "width": 320,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "つなぎなおす",
+        "translation_ko": "다시 연결",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "AB2195C2B841728EAC910363AA6A7AA5A1D4F3A5AC22F6BE11C7CA7DFEC9D5B1",
+        "output_sha256": "DB1876A648A65D01A8AEC727249B6342CE9B660A1CD978EFF96267CB31032C89",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_optn_00.tpl",
+        "member_index": 103,
+        "archive_offset": 411232,
+        "archive_offset_hex": "0x64660",
+        "size_bytes": 3648,
+        "width": 112,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "音量",
+        "translation_ko": "음량",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "5EBEE19824CDEF521DB53437787C9480AB3AD8AE865E9D6F44A6064853D6A62D",
+        "output_sha256": "75D164790CC1D98E8C24D42D2AE453EA497252637E8772FEB65964E73F169963",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_optn_10.tpl",
+        "member_index": 104,
+        "archive_offset": 414880,
+        "archive_offset_hex": "0x654A0",
+        "size_bytes": 3648,
+        "width": 112,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "振動",
+        "translation_ko": "진동",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "C3B1357DD95B978F66DD0B78393DAC471681B4A7B455510EA4B9BB3CAA637B1F",
+        "output_sha256": "68E4E99E1A066FAA88E458FA29A809C6A4D779542C4E93AA757BA217EF1C992E",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_optn_20.tpl",
+        "member_index": 105,
+        "archive_offset": 418528,
+        "archive_offset_hex": "0x662E0",
+        "size_bytes": 3648,
+        "width": 112,
+        "height": 64,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "接続",
+        "translation_ko": "연결",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "B25604B9D1D124C2038E28058B6C4D6D6D4CE0BE770AB583B74FBF474606375C",
+        "output_sha256": "B245E0B8D2F6EA7603D96FDF52C489004AA658085F2E094C6FF1B3113C26FF4A",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_plyr_00.tpl",
+        "member_index": 106,
+        "archive_offset": 422176,
+        "archive_offset_hex": "0x67120",
+        "size_bytes": 640,
+        "width": 48,
+        "height": 24,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "1P",
+        "translation_ko": "1P",
+        "translation_provenance": "language-neutral retained",
+        "changed": false,
+        "source_sha256": "5A8BDD9CDABBB8338956290E1B42E55955224B55C28D8109D5A57864495757E4",
+        "output_sha256": "5A8BDD9CDABBB8338956290E1B42E55955224B55C28D8109D5A57864495757E4",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_plyr_01.tpl",
+        "member_index": 107,
+        "archive_offset": 422816,
+        "archive_offset_hex": "0x673A0",
+        "size_bytes": 640,
+        "width": 48,
+        "height": 24,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "2P",
+        "translation_ko": "2P",
+        "translation_provenance": "language-neutral retained",
+        "changed": false,
+        "source_sha256": "7320B7D2119962ECC9D0EB6EE2959C9592C51972CEDDC37C2531347F618F7ABE",
+        "output_sha256": "7320B7D2119962ECC9D0EB6EE2959C9592C51972CEDDC37C2531347F618F7ABE",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_plyr_02.tpl",
+        "member_index": 108,
+        "archive_offset": 423456,
+        "archive_offset_hex": "0x67620",
+        "size_bytes": 640,
+        "width": 48,
+        "height": 24,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "3P",
+        "translation_ko": "3P",
+        "translation_provenance": "language-neutral retained",
+        "changed": false,
+        "source_sha256": "9A90D7E8420FB96FE798B176D0EB9822E2241A1833EBBEBAF7F7D6CA435DFBE3",
+        "output_sha256": "9A90D7E8420FB96FE798B176D0EB9822E2241A1833EBBEBAF7F7D6CA435DFBE3",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_plyr_03.tpl",
+        "member_index": 109,
+        "archive_offset": 424096,
+        "archive_offset_hex": "0x678A0",
+        "size_bytes": 640,
+        "width": 48,
+        "height": 24,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "4P",
+        "translation_ko": "4P",
+        "translation_provenance": "language-neutral retained",
+        "changed": false,
+        "source_sha256": "01C5C977B8192360B9BD665CD75517465457421D75A2B547026653CCE771E3BD",
+        "output_sha256": "01C5C977B8192360B9BD665CD75517465457421D75A2B547026653CCE771E3BD",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      },
+      {
+        "member_path": "arc/timg/tx_ttl_wrd_a.tpl",
+        "member_index": 110,
+        "archive_offset": 424736,
+        "archive_offset_hex": "0x67B20",
+        "size_bytes": 7424,
+        "width": 368,
+        "height": 40,
+        "gx_format": "I4",
+        "image_offset_hex": "0x40",
+        "source_text": "HOMEボタンメニュー",
+        "translation_ko": "HOME 버튼 메뉴",
+        "translation_provenance": "Codex internal model",
+        "changed": true,
+        "source_sha256": "E6DC9A3338E953A4C7D87AAD05088398676ADEDB01D2EDC344ACF29ABFDCA4DD",
+        "output_sha256": "7BF6E67852A3E563A645C99230DBED067B66F3E5262F53C27D9CDA71AA01DACA",
+        "member_size_preserved": true,
+        "tpl_header_preserved": true
+      }
+    ],
+    "font_member": {
+      "member_path": "arc/font/RevoIpl_UtrilloProGrecoStd_M_32_I4.brfnt",
+      "archive_offset": 114720,
+      "archive_offset_hex": "0x1C020",
+      "size_bytes": 58236,
+      "source_sha256": "FE2E0D0E83B588F01A682DEA0FA880934642712EC78823C98F49D07037ECE6CB",
+      "output_sha256": "06543039F307E6B528F57D9C5368B3CBEB3A56C8733B02A015D4933F71851746",
+      "header_unchanged": true,
+      "tglp": {
+        "offset_hex": "0x30",
+        "cell_width": 29,
+        "cell_height": 31,
+        "baseline": 25,
+        "max_width": 30,
+        "sheet_size": 4096,
+        "sheet_count": 14,
+        "sheet_format": 0,
+        "sheet_rows": 1,
+        "sheet_lines": 8,
+        "sheet_width": 32,
+        "sheet_height": 256,
+        "sheet_image_offset_hex": "0x60"
+      },
+      "cwdh_offset_hex": "0xE060",
+      "cmap_scan_offset_hex": "0xE270",
+      "cmap_capacity": 61,
+      "cmap_entry_count": 55,
+      "preserved_non_hangul_entries": [
+        "U+0020",
+        "U+0022",
+        "U+00BF",
+        "U+00E1",
+        "U+00E9",
+        "U+00F3",
+        "U+00FA",
+        "U+00FC",
+        "U+2460",
+        "U+2461"
+      ],
+      "hangul_count": 45,
+      "assignments": [
+        {
+          "character": "가",
+          "codepoint": "U+AC00",
+          "glyph_index": 57,
+          "sheet_index": 7,
+          "cell_index": 1,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "겠",
+          "codepoint": "U+ACA0",
+          "glyph_index": 58,
+          "sheet_index": 7,
+          "cell_index": 2,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "결",
+          "codepoint": "U+ACB0",
+          "glyph_index": 59,
+          "sheet_index": 7,
+          "cell_index": 3,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "과",
+          "codepoint": "U+ACFC",
+          "glyph_index": 60,
+          "sheet_index": 7,
+          "cell_index": 4,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "까",
+          "codepoint": "U+AE4C",
+          "glyph_index": 61,
+          "sheet_index": 7,
+          "cell_index": 5,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "끊",
+          "codepoint": "U+B04A",
+          "glyph_index": 62,
+          "sheet_index": 7,
+          "cell_index": 6,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "내",
+          "codepoint": "U+B0B4",
+          "glyph_index": 63,
+          "sheet_index": 7,
+          "cell_index": 7,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "눌",
+          "codepoint": "U+B20C",
+          "glyph_index": 64,
+          "sheet_index": 8,
+          "cell_index": 0,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "뉴",
+          "codepoint": "U+B274",
+          "glyph_index": 65,
+          "sheet_index": 8,
+          "cell_index": 1,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "는",
+          "codepoint": "U+B294",
+          "glyph_index": 66,
+          "sheet_index": 8,
+          "cell_index": 2,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "니",
+          "codepoint": "U+B2C8",
+          "glyph_index": 67,
+          "sheet_index": 8,
+          "cell_index": 3,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "다",
+          "codepoint": "U+B2E4",
+          "glyph_index": 68,
+          "sheet_index": 8,
+          "cell_index": 4,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "대",
+          "codepoint": "U+B300",
+          "glyph_index": 69,
+          "sheet_index": 8,
+          "cell_index": 5,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "돌",
+          "codepoint": "U+B3CC",
+          "glyph_index": 70,
+          "sheet_index": 8,
+          "cell_index": 6,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "동",
+          "codepoint": "U+B3D9",
+          "glyph_index": 71,
+          "sheet_index": 8,
+          "cell_index": 7,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "라",
+          "codepoint": "U+B77C",
+          "glyph_index": 72,
+          "sheet_index": 9,
+          "cell_index": 0,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "러",
+          "codepoint": "U+B7EC",
+          "glyph_index": 73,
+          "sheet_index": 9,
+          "cell_index": 1,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "로",
+          "codepoint": "U+B85C",
+          "glyph_index": 74,
+          "sheet_index": 9,
+          "cell_index": 2,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "리",
+          "codepoint": "U+B9AC",
+          "glyph_index": 75,
+          "sheet_index": 9,
+          "cell_index": 3,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "메",
+          "codepoint": "U+BA54",
+          "glyph_index": 76,
+          "sheet_index": 9,
+          "cell_index": 4,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "버",
+          "codepoint": "U+BC84",
+          "glyph_index": 77,
+          "sheet_index": 9,
+          "cell_index": 5,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "사",
+          "codepoint": "U+C0AC",
+          "glyph_index": 78,
+          "sheet_index": 9,
+          "cell_index": 6,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "서",
+          "codepoint": "U+C11C",
+          "glyph_index": 79,
+          "sheet_index": 9,
+          "cell_index": 7,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "세",
+          "codepoint": "U+C138",
+          "glyph_index": 80,
+          "sheet_index": 10,
+          "cell_index": 0,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "셋",
+          "codepoint": "U+C14B",
+          "glyph_index": 81,
+          "sheet_index": 10,
+          "cell_index": 1,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "순",
+          "codepoint": "U+C21C",
+          "glyph_index": 82,
+          "sheet_index": 10,
+          "cell_index": 2,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "습",
+          "codepoint": "U+C2B5",
+          "glyph_index": 83,
+          "sheet_index": 10,
+          "cell_index": 3,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "시",
+          "codepoint": "U+C2DC",
+          "glyph_index": 84,
+          "sheet_index": 10,
+          "cell_index": 4,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "아",
+          "codepoint": "U+C544",
+          "glyph_index": 85,
+          "sheet_index": 10,
+          "cell_index": 5,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "않",
+          "codepoint": "U+C54A",
+          "glyph_index": 86,
+          "sheet_index": 10,
+          "cell_index": 6,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "에",
+          "codepoint": "U+C5D0",
+          "glyph_index": 87,
+          "sheet_index": 10,
+          "cell_index": 7,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "연",
+          "codepoint": "U+C5F0",
+          "glyph_index": 88,
+          "sheet_index": 11,
+          "cell_index": 0,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "요",
+          "codepoint": "U+C694",
+          "glyph_index": 89,
+          "sheet_index": 11,
+          "cell_index": 1,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "용",
+          "codepoint": "U+C6A9",
+          "glyph_index": 90,
+          "sheet_index": 11,
+          "cell_index": 2,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "은",
+          "codepoint": "U+C740",
+          "glyph_index": 91,
+          "sheet_index": 11,
+          "cell_index": 3,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "을",
+          "codepoint": "U+C744",
+          "glyph_index": 92,
+          "sheet_index": 11,
+          "cell_index": 4,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "장",
+          "codepoint": "U+C7A5",
+          "glyph_index": 93,
+          "sheet_index": 11,
+          "cell_index": 5,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "저",
+          "codepoint": "U+C800",
+          "glyph_index": 94,
+          "sheet_index": 11,
+          "cell_index": 6,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "주",
+          "codepoint": "U+C8FC",
+          "glyph_index": 95,
+          "sheet_index": 11,
+          "cell_index": 7,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "중",
+          "codepoint": "U+C911",
+          "glyph_index": 96,
+          "sheet_index": 12,
+          "cell_index": 0,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "지",
+          "codepoint": "U+C9C0",
+          "glyph_index": 97,
+          "sheet_index": 12,
+          "cell_index": 1,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "집",
+          "codepoint": "U+C9D1",
+          "glyph_index": 98,
+          "sheet_index": 12,
+          "cell_index": 2,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "튼",
+          "codepoint": "U+D2BC",
+          "glyph_index": 99,
+          "sheet_index": 12,
+          "cell_index": 3,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "하",
+          "codepoint": "U+D558",
+          "glyph_index": 100,
+          "sheet_index": 12,
+          "cell_index": 4,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        },
+        {
+          "character": "할",
+          "codepoint": "U+D560",
+          "glyph_index": 101,
+          "sheet_index": 12,
+          "cell_index": 5,
+          "cwdh": {
+            "left": 1,
+            "glyph_width": 28,
+            "char_width": 30
+          }
+        }
+      ],
+      "missing_required_codepoints": []
+    },
+    "member_validation": {
+      "file_member_count": 105,
+      "targeted_member_count": 13,
+      "unexpected_changed_members": [],
+      "all_member_sizes_preserved": true,
+      "all_and_only_targeted_members_changed": true
+    }
+  },
+  "required_dynamic_font_corpus": {
+    "unique_messages": [
+      "연결할 순서대로\r\n① 버튼과 ② 버튼을\r\n동시에 눌러 주세요.",
+      "연결을 끊는 중...",
+      "Wii 메뉴로 돌아가시겠습니까?\r\n(저장하지 않은 내용은 사라집니다.)",
+      "리셋하시겠습니까?\r\n(저장하지 않은 내용은 사라집니다.)",
+      "Wii 메뉴로 돌아가시겠습니까?",
+      "리셋하시겠습니까?"
+    ],
+    "unique_hangul_count": 45,
+    "unique_hangul": "가겠결과까끊내눌뉴는니다대돌동라러로리메버사서세셋순습시아않에연요용은을장저주중지집튼하할",
+    "all_required_codepoints_mapped": true,
+    "missing_codepoints": []
+  },
+  "visual_evidence": {
+    "tpl_original_vs_korean": {
+      "path": "work/runtime_fix/hbm_ko/audit/homebtn_original_vs_korean.png",
+      "sha256": "661DE135B29789E521E5CFF0D3444EBF213231D9A8C0D3CF991DB59C4FF9067A"
+    },
+    "brfnt_korean_glyphs": {
+      "path": "work/runtime_fix/hbm_ko/audit/brfnt_korean_glyphs.png",
+      "sha256": "B293F35E69429B3E4F623A2B31957603C504C7F4BAF3D03438A6E52CBDD7D4CC"
+    },
+    "brfnt_dynamic_text_preview": {
+      "path": "work/runtime_fix/hbm_ko/audit/brfnt_dynamic_text_preview.png",
+      "sha256": "7A2D028BB87D45A82D33CD1BCB7D7577EC171C6AF97C26AA2DFF88971A44511F"
+    }
+  },
+  "static_validation": {
+    "valid": true,
+    "csv_bom_preserved": true,
+    "csv_other_language_columns_unchanged": true,
+    "u8_size_preserved": true,
+    "u8_node_table_preserved": true,
+    "all_target_tpl_sizes_and_headers_preserved": true,
+    "brfnt_size_and_header_preserved": true,
+    "all_required_dynamic_codepoints_mapped": true,
+    "unexpected_changed_u8_members": []
+  },
+  "runtime_validation_required": [
+    "Press HOME in a save-enabled scene and inspect every heading, button, controller-setting page and confirmation prompt.",
+    "Press HOME in a no-save scene to exercise home_nosave.csv.",
+    "Exercise reconnect/disconnect and verify ①/② glyphs, Hangul glyphs, line wrapping and clipping."
+  ]
+}

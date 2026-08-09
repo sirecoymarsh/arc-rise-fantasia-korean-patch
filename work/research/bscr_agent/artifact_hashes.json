@@ -1,0 +1,75 @@
+{
+  "schema": "arf-bscr-agent-artifacts-v1",
+  "files": [
+    {
+      "path": "bscr_tool.py",
+      "size": 20594,
+      "sha256": "86303e3032fd6b79a1ac822b44e87065b899d200ea54ab51184376c1b6e16948"
+    },
+    {
+      "path": "run_full_audit.py",
+      "size": 12238,
+      "sha256": "94caa75c88ef33c98704ebfdbcee2f3461147ffc28f0a0388690f08dcf7c7db6"
+    },
+    {
+      "path": "run_smoke_tests.py",
+      "size": 2079,
+      "sha256": "2aababdb66e407b3e1f298544e4a4982f33935bd98ca7b66cfb2a64e74534b4c"
+    },
+    {
+      "path": "README.md",
+      "size": 1469,
+      "sha256": "b3d6d589159cbcadef8e859575a375eaa2e137361f81761031922456e95706f5"
+    },
+    {
+      "path": "RESEARCH_REPORT.md",
+      "size": 8517,
+      "sha256": "b7b2f67baad8befd8c728981f67e1cf44f69727eff2cc1f7f8448b2deaa2711b"
+    },
+    {
+      "path": "full_audit.json",
+      "size": 429556,
+      "sha256": "d46a490230d171645ed0fc7716c4ad8597885c4eb6efb2ce8392d9acc0198dff"
+    },
+    {
+      "path": "fixtures/event_fc_00_001.length_changed.bscr",
+      "size": 4032,
+      "sha256": "2fb5d3ed3044e2c258e38c652d1a7145caafb78d808e793fdab8f7df52e3d54e"
+    },
+    {
+      "path": "fixtures/event_fc_00_001.noop.bscr",
+      "size": 4028,
+      "sha256": "84f9b5e301a916c2927c35c341eb55ee5526aa2f6eec745ee97237dc062fa6c2"
+    },
+    {
+      "path": "fixtures/event_fc_00_001.original.bscr",
+      "size": 4028,
+      "sha256": "84f9b5e301a916c2927c35c341eb55ee5526aa2f6eec745ee97237dc062fa6c2"
+    },
+    {
+      "path": "fixtures/event_fc_00_001.restored.bscr",
+      "size": 4028,
+      "sha256": "84f9b5e301a916c2927c35c341eb55ee5526aa2f6eec745ee97237dc062fa6c2"
+    },
+    {
+      "path": "fixtures/map_t_jad_00.length_changed.bscr",
+      "size": 482112,
+      "sha256": "9881d2a4388b2da8fb751a2ed3420be125cfb389d548220414b2b84d8e86b0e5"
+    },
+    {
+      "path": "fixtures/map_t_jad_00.noop.bscr",
+      "size": 482112,
+      "sha256": "211c51ef804bcce28f9f9de459a93542353bfe553ac297d9cc4465586fd606a0"
+    },
+    {
+      "path": "fixtures/map_t_jad_00.original.bscr",
+      "size": 482112,
+      "sha256": "211c51ef804bcce28f9f9de459a93542353bfe553ac297d9cc4465586fd606a0"
+    },
+    {
+      "path": "fixtures/map_t_jad_00.restored.bscr",
+      "size": 482112,
+      "sha256": "211c51ef804bcce28f9f9de459a93542353bfe553ac297d9cc4465586fd606a0"
+    }
+  ]
+}\n

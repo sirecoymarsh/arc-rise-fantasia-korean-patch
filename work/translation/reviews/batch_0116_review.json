@@ -1,0 +1,224 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0116",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0116.jsonl",
+  "draft": "work/translation/drafts/batch_0116.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0116.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 20,
+  "unchanged_units": 180,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-9D4DEDF0CCEA3C9B323C",
+      "source_text": "新帝国検証発布後\n",
+      "before": "신제국 헌장 발포 후\n",
+      "after": "신제국 헌장 공포 후\n",
+      "category": "terminology",
+      "reason": "법령의 発布를 무기 발포가 아니라 공포로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9D5888A380F8618F8C2F",
+      "source_text": "共和国を手に入れたら\nもうフルヘイムを統一したも同然。\n帝国には死角がなくなるな",
+      "before": "공화국을 손에 넣으면\n풀헤임을 통일한 것이나 마찬가지다.\n제국에 사각은 없어지겠군",
+      "after": "공화국을 손에 넣으면\n풀헤임을 통일한 것이나 마찬가지다.\n제국에는 사각이 없어지겠군",
+      "category": "grammar",
+      "reason": "장소를 나타내는 조사와 주격 조사를 자연스럽게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9DC46E575F880B000ED9",
+      "source_text": "悔いても……\n悔やみきれません……",
+      "before": "후회해도……\n다 후회할 수가 없습니다……",
+      "after": "아무리 후회해도……\n모자랄 따름입니다……",
+      "category": "meaning",
+      "reason": "「悔やみきれない」의 이루 다 후회할 수 없다는 깊은 자책을 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-9DFEE4D22ADEC74B2D1D",
+      "source_text": "おほほほほ！\nあら？　あなた、見た顔ね。\nしもべの１人だったかしら？",
+      "before": "오호호호호!\n어머? 당신, 낯이 익네.\n내 종복 중 한 명이었나?",
+      "after": "오호호호호!\n어머? 당신, 낯이 익네.\n내 종복 중 １명이었나?",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9E0AA253BBBEA80C192A",
+      "source_text": "――ねえ、これだけいるなら\n１匹くらいなら連れ帰っても\n……バレないよね？",
+      "before": "――있잖아, 이렇게나 많으니까\n한 마리쯤 데려가도\n……안 들키겠지?",
+      "after": "――있잖아, 이렇게나 많으니까\n１마리쯤 데려가도\n……안 들키겠지?",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9E0ECA89A9ECAB726811",
+      "source_text": "メリディアには\n２人も皇子がいるんだってね<$0C>兄が、とんでもないお人好しなのに\n弟の方は、好戦的なんだってさ",
+      "before": "메리디아에는\n황자가 두 명이나 있다더라<$0C>형은 터무니없을 만큼 좋은 사람인데\n동생은 호전적이라나 봐",
+      "after": "메리디아에는\n황자가 ２명이나 있다더라<$0C>형은 터무니없을 만큼 좋은 사람인데\n동생은 호전적이라나 봐",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9E33A499D0FC50C2133C",
+      "source_text": "銛だけ持って海に入って\n珊瑚礁の中から\n美味い貝を探したり――もしたな",
+      "before": "납덩이만 들고 바다에 들어가\n산호초 사이에서\n맛있는 조개를 찾기도 했지",
+      "after": "작살 하나만 들고 바다에 들어가\n산호초 사이에서\n맛있는 조개를 찾기도 했지",
+      "category": "meaning",
+      "reason": "銛을 납덩이로 오역한 부분을 작살로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9E59E5B922218DF3915A",
+      "source_text": "■■５体目負け■■\n",
+      "before": "■■5번째 패배■■\n",
+      "after": "■■５번째 패배■■\n",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ５를 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9E949BCFD3BE39E86DDC",
+      "source_text": "あんたさ！　私に告白するなら\nもっとズバっとしなさいよ！<$0C>元々勝ち目ゼロな上に\nそんなモジモジされたら\n１００年の恋も冷めるっつーの！",
+      "before": "너 말이야! 나한테 고백하려면\n더 확실하게 말하라고!<$0C>원래 승산도 전혀 없는데\n그렇게 우물쭈물하면\n백 년 사랑도 식는다니까!",
+      "after": "너 말이야! 나한테 고백하려면\n더 확실하게 말하라고!<$0C>원래 승산도 전혀 없는데\n그렇게 우물쭈물하면\n１００년 사랑도 식는다니까!",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １００을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9EBA01CF781E21BB1825",
+      "source_text": "子どもの頃から\n広い見識を持つことができれば\n清濁併せ呑む大人になれる<$0C>私も子どもの頃は\n両親に色々な大人の世界を\n見せてもらったものだ……",
+      "before": "어릴 때부터\n넓은 견문을 쌓을 수 있다면\n세상의 이면까지 아는 어른이 될 수 있지<$0C>나도 어릴 적에는\n부모님께 여러 어른의 세계를\n보여 달라고 했었지……",
+      "after": "어릴 때부터\n폭넓은 식견을 쌓으면\n좋고 나쁨을 모두 품는 어른이 될 수 있지<$0C>나도 어릴 적에는\n부모님이 어른들의 다양한 세계를\n보여 주셨던 법이지……",
+      "category": "meaning",
+      "reason": "「清濁併せ呑む」와 부모에게 여러 세계를 보여 받았다는 의미를 정확히 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9EEEB037A75014236B6B",
+      "source_text": "浅ましいと思われるかもしれませんが\n私は自分の将来の夢のために\n努力しているだけに過ぎません",
+      "before": "얄팍하게 보일지도 모르지만\n저는 제 미래의 꿈을 위해\n노력하고 있을 뿐입니다",
+      "after": "속물처럼 보일지도 모르지만\n저는 제 미래의 꿈을 위해\n노력하고 있을 뿐입니다",
+      "category": "meaning",
+      "reason": "인맥으로 출세하려는 자신이 비루해 보일 수 있다는 「浅ましい」의 뉘앙스를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-9F28AB8E9425A35A75F4",
+      "source_text": "恋愛<$15>00\n仕事<$15>00<$15>00\n陽動<$15>00<$0C>次から次へと新しい仕事が\n身に降りかかってくる１日です。\n体調管理には気をつけて！<$0C>幸運を呼ぶ鍵は無気力な猫ちゃん。\nたっぷり困惑させてやれば\n好奇心旺盛な状態に戻ります",
+      "before": "연애<$15>00\n일<$15>00<$15>00\n양동<$15>00<$0C>새로운 일이 잇달아\n들이닥치는 하루입니다.\n건강 관리에 주의하세요!<$0C>행운을 부르는 열쇠는 무기력한 고양이.\n실컷 곤란하게 해 주면\n다시 호기심 왕성한 상태로 돌아옵니다",
+      "after": "연애<$15>00\n일<$15>00<$15>00\n양동<$15>00<$0C>새로운 일이 잇달아\n들이닥치는 １일입니다.\n건강 관리에 주의하세요!<$0C>행운을 부르는 열쇠는 무기력한 고양이.\n실컷 곤란하게 해 주면\n다시 호기심 왕성한 상태로 돌아옵니다",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9F4DD4955B0E49280183",
+      "source_text": "ラグーン曹長の知り合いか？",
+      "before": "라군 조장과 아는 사이인가?",
+      "after": "라군 상사와 아는 사이인가?",
+      "category": "terminology",
+      "reason": "군 계급 曹長을 프로젝트 표기인 상사로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-9F6F143EC1A3C9F85458",
+      "source_text": "やはり、現種は\n野蛮な者たち――<$0C>我々とは相容れるはずが\nなかったのです……！",
+      "before": "역시 현종은\n야만적인 자들――<$0C>우리와 어울릴 수 있을\n리가 없었던 겁니다……!",
+      "after": "역시 현종은\n야만적인 자들――<$0C>우리와 공존할 수 있을\n리가 없었던 겁니다……!",
+      "category": "meaning",
+      "reason": "「相容れる」를 서로 양립하거나 공존할 수 없다는 뜻으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-9FBB9AB5A7FE814C5403",
+      "source_text": "こ、これがコピン……！\n貴族の間で、数万リコで\n取引されているという噂の……<$0C>１匹でいいから\n持って帰りたい……！",
+      "before": "이, 이게 코핀……!\n귀족들 사이에서 수만 리코에\n거래된다는 소문의……<$0C>한 마리만이라도\n데려가고 싶어……!",
+      "after": "이, 이게 코핀……!\n귀족들 사이에서 수만 리코에\n거래된다는 소문의……<$0C>１마리만이라도\n데려가고 싶어……!",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9FBE04495F97A7C43011",
+      "source_text": "にこやかな商人",
+      "before": "상냥한 상인",
+      "after": "미소 짓는 상인",
+      "category": "meaning",
+      "reason": "「にこやか」를 상냥함이 아니라 밝게 미소 짓는 모습으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-9FC8D8567EAF9697C995",
+      "source_text": "整然と並んだ墓石を……\n昔は畏怖の念で見ていたものです<$0C>……そう、子どもの時分はね",
+      "before": "가지런히 늘어선 묘비를……\n옛날에는 두려운 마음으로 바라보곤 했습니다<$0C>……그래요, 어릴 적에는요",
+      "after": "가지런히 늘어선 묘비를……\n옛날에는 경외심을 품고 바라보곤 했습니다<$0C>……그래요, 어릴 적에는요",
+      "category": "meaning",
+      "reason": "「畏怖」의 두려움과 경외가 섞인 감정을 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-9FD5DB54DC7DD5DC1DB0",
+      "source_text": "……用がないなら\n話しかけないでもらおう",
+      "before": "……용건이 없다면\n말 걸지 말아 주겠나",
+      "after": "……용건이 없다면\n말 걸지 말아 주겠나",
+      "category": "final_validation_integrity_correction",
+      "reason": "Final control-token and source-meaning validation proved that text from batch_0115 had been copied into this unrelated TM ID.",
+      "superseded_invalid_after": "원로원에서는 현재――\n많은 의원들로 인해\n회의가 난항을 겪고 있습니다<$0C>등원하시는 건 좋지만\n부디 주의하십시오"
+    },
+    {
+      "tm_id": "ARF-TM-A035F198A7CA391720BB",
+      "source_text": "急に飛ばされて来てみたが\n……妙な場所だな",
+      "before": "갑자기 날아오긴 했는데\n……묘한 곳이군",
+      "after": "갑자기 이곳으로 날려 왔는데\n……묘한 곳이군",
+      "category": "meaning",
+      "reason": "「飛ばされて来た」를 스스로 날아온 것이 아니라 갑자기 이곳으로 보내진 의미로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A07FC36BFABEEA73F25C",
+      "source_text": "時間は残酷な生き物です。\n失ってしまった人の思い出を\n奪っていってしまうのですから……",
+      "before": "시간은 잔혹한 생물입니다.\n잃어버린 사람의 추억을\n앗아 가 버리니까요……",
+      "after": "시간은 잔혹한 생물입니다.\n세상을 떠난 사람에 대한 기억을\n앗아 가 버리니까요……",
+      "category": "meaning",
+      "reason": "「失ってしまった人の思い出」를 잃어버린 사람이 아니라 세상을 떠난 사람에 대한 기억으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-A080E7C1CEB9783DDD60",
+      "source_text": "犠牲になってもよいと思っています。\n教えを守るためなら、私は――",
+      "before": "희생되어도 좋다고 생각합니다.\n가르침을 지키기 위해서라면 저는――",
+      "after": "제가 희생되어도 좋습니다.\n가르침을 지킬 수만 있다면 저는――",
+      "category": "grammar",
+      "reason": "수동적인 직역을 자연스러운 희생 의지 표현으로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "final_validation_corrections": {
+    "schema": "arf-final-validation-integrity-correction-v1",
+    "reviewer": "/root/audit_boundary_integration",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-9FD5DB54DC7DD5DC1DB0"
+    ],
+    "reason": "Final control-token and source-meaning validation proved that text from batch_0115 had been copied into this unrelated TM ID.",
+    "reviewed_sha256": "BDCA559E8B15DB882A991AA8C25F69D0359DDC9E687A4AC20C252717E0272E3F"
+  },
+  "hashes": {
+    "reviewed_sha256": "BDCA559E8B15DB882A991AA8C25F69D0359DDC9E687A4AC20C252717E0272E3F"
+  }
+}

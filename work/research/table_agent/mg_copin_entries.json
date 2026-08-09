@@ -1,0 +1,309 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\minigame\\mg_copin.vol",
+  "header": {
+    "end_of_header": 800,
+    "count": 19,
+    "declared_size": 1954336,
+    "actual_size": 1954336
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "copin.dat",
+      "size": 4684,
+      "relative_offset": 0,
+      "absolute_offset": 800,
+      "head_hex": "0000001EA5ACA1BCA5CC00000000000000000000C2ADA4CFC3D9A4A4A4B1A4C9",
+      "head_ascii": "................................",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\copin.dat",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 1,
+      "name": "btl_shadow.wtm",
+      "size": 4128,
+      "relative_offset": 4704,
+      "absolute_offset": 5504,
+      "head_hex": "57544D4400000020004000400100000000000020000100000000000000000000",
+      "head_ascii": "WTMD... .@.@....... ............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\btl_shadow.wtm",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 2,
+      "name": "mg_copin_tex.vol",
+      "size": 436160,
+      "relative_offset": 8832,
+      "absolute_offset": 9632,
+      "head_hex": "5254445000000840000000340006A7C055280022000000000000000000000000",
+      "head_ascii": "RTDP...@...4....U(.\"............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\mg_copin_tex.vol",
+      "sjis_run_count": 977,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 231,
+          "text": "瀘g_copin_minimap_board75.wtm"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "mg_copin_sdo.vol",
+      "size": 2784,
+      "relative_offset": 444992,
+      "absolute_offset": 445792,
+      "head_hex": "52544450000001E00000000B00000AE055280022000000000000000000000000",
+      "head_ascii": "RTDP............U(.\"............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\mg_copin_sdo.vol",
+      "sjis_run_count": 34,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 617,
+          "text": "UVU巻UU"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "opt_mg_map_00.brres",
+      "size": 534528,
+      "relative_offset": 447776,
+      "absolute_offset": 448576,
+      "head_hex": "62726573FEFF00000008280000100011726F6F74000001700000003800000002",
+      "head_ascii": "bres......(.....root...p...8....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\opt_mg_map_00.brres",
+      "sjis_run_count": 2524,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 382,
+          "text": "冑MDL0"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "mg_map_00.brcha",
+      "size": 1280,
+      "relative_offset": 982304,
+      "absolute_offset": 983104,
+      "head_hex": "62726573FEFF00000000050000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\mg_map_00.brcha",
+      "sjis_run_count": 4,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 420,
+          "text": "YlAR|NB炮5"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "copin000.vol",
+      "size": 142688,
+      "relative_offset": 983584,
+      "absolute_offset": 984384,
+      "head_hex": "52544450000002E00000001100022D6055280021000000000000000000000000",
+      "head_ascii": "RTDP..........-`U(.!............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\copin000.vol",
+      "sjis_run_count": 1147,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 736,
+          "text": "UEUP'::!UUU藏UUmUUUW"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "copin001.vol",
+      "size": 145248,
+      "relative_offset": 1126272,
+      "absolute_offset": 1127072,
+      "head_hex": "52544450000002E0000000110002376055280021000000000000000000000000",
+      "head_ascii": "RTDP..........7`U(.!............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\copin001.vol",
+      "sjis_run_count": 1315,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 550,
+          "text": "操opt_chr_e_cpn_00l_b001_2.brcha"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "copin002.vol",
+      "size": 145632,
+      "relative_offset": 1271520,
+      "absolute_offset": 1272320,
+      "head_hex": "52544450000002E000000011000238E055280021000000000000000000000000",
+      "head_ascii": "RTDP..........8.U(.!............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\copin002.vol",
+      "sjis_run_count": 1261,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 14,
+          "text": "8澡("
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "copin003.vol",
+      "size": 144864,
+      "relative_offset": 1417152,
+      "absolute_offset": 1417952,
+      "head_hex": "52544450000002E000000011000235E055280021000000000000000000000000",
+      "head_ascii": "RTDP..........5.U(.!............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\copin003.vol",
+      "sjis_run_count": 1446,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 14,
+          "text": "5澡("
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "title.brsca",
+      "size": 640,
+      "relative_offset": 1562016,
+      "absolute_offset": 1562816,
+      "head_hex": "62726573FEFF00000000028000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\title.brsca",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 11,
+      "name": "padoc.brsca",
+      "size": 640,
+      "relative_offset": 1562656,
+      "absolute_offset": 1563456,
+      "head_hex": "62726573FEFF00000000028000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\padoc.brsca",
+      "sjis_run_count": 1,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 299,
+          "text": "t?聆"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "padoc2.brsca",
+      "size": 512,
+      "relative_offset": 1563296,
+      "absolute_offset": 1564096,
+      "head_hex": "62726573FEFF00000000020000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\padoc2.brsca",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 13,
+      "name": "gate.brsca",
+      "size": 1024,
+      "relative_offset": 1563808,
+      "absolute_offset": 1564608,
+      "head_hex": "62726573FEFF00000000040000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\gate.brsca",
+      "sjis_run_count": 11,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 396,
+          "text": "C爺|C"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "hyousyou.brsca",
+      "size": 768,
+      "relative_offset": 1564832,
+      "absolute_offset": 1565632,
+      "head_hex": "62726573FEFF00000000030000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\hyousyou.brsca",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 15,
+      "name": "race_side.brsca",
+      "size": 512,
+      "relative_offset": 1565600,
+      "absolute_offset": 1566400,
+      "head_hex": "62726573FEFF00000000020000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\race_side.brsca",
+      "sjis_run_count": 2,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 299,
+          "text": "'?聆"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "race_front.brsca",
+      "size": 640,
+      "relative_offset": 1566112,
+      "absolute_offset": 1566912,
+      "head_hex": "62726573FEFF00000000028000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres............root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\race_front.brsca",
+      "sjis_run_count": 2,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 331,
+          "text": "tA唆x"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "chr_e_cpn_02l.efp",
+      "size": 310464,
+      "relative_offset": 1566752,
+      "absolute_offset": 1567552,
+      "head_hex": "52544450000000A0000000030004BCC055280022000000000000000000000000",
+      "head_ascii": "RTDP............U(.\"............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\chr_e_cpn_02l.efp",
+      "sjis_run_count": 581,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 220,
+          "text": "U混GXTUTUUUUUUUUUUUURUUUUtUUUU]QU"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "hata.vol",
+      "size": 76320,
+      "relative_offset": 1877216,
+      "absolute_offset": 1878016,
+      "head_hex": "52544450000001200000000600012A2055280021000000000000000000000000",
+      "head_ascii": "RTDP... ......* U(.!............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\mg_copin_entries\\hata.vol",
+      "sjis_run_count": 471,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 190,
+          "text": "楳opt_hata_05.brres"
+        }
+      ]
+    }
+  ]
+}

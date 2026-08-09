@@ -1,0 +1,243 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0069",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0069.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0069.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0069.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 23,
+  "unchanged_row_count": 177,
+  "modifications": [
+    {
+      "row_index": 5,
+      "tm_id": "ARF-TM-E96E2CDD7B589B87D16A",
+      "source_text": "俺もミニマムレディの意見には\n賛成だが、『べき』かどうかは\nわからないな",
+      "before": "나도 미니멈 레이디의 의견에는\n찬성이지만, 『해야 한다』인지는\n모르겠어",
+      "after": "나도 미니멈 레이디의 의견에는\n찬성이지만, 그렇게 『해야 하는지』는\n모르겠어",
+      "category": "semantic_accuracy",
+      "reason": "べき의 당위 의미를 자연스러운 문장으로 복원했다."
+    },
+    {
+      "row_index": 6,
+      "tm_id": "ARF-TM-E9981F978ED3D435F93D",
+      "source_text": "話せば、ニコルがおまえたちの\n元を去った意味がない",
+      "before": "말해 버리면 니콜이 너희\n곁을 떠난 의미가 없어",
+      "after": "그걸 말하면 니콜이 너희\n곁을 떠난 의미가 없어",
+      "category": "semantic_accuracy",
+      "reason": "생략된 목적어를 보충해 문맥을 명확히 했다."
+    },
+    {
+      "row_index": 14,
+      "tm_id": "ARF-TM-EAAC4CDF5436C3F29911",
+      "source_text": "ニコルは大丈夫よね",
+      "before": "니콜은 괜찮지",
+      "after": "니콜은 괜찮겠지?",
+      "category": "punctuation",
+      "reason": "확인을 구하는 의문문의 종결을 반영했다."
+    },
+    {
+      "row_index": 30,
+      "tm_id": "ARF-TM-EC88EDBA0EC52B1EABF1",
+      "source_text": "私……やっぱりただの何も\n知らない子どもだったんだわ。\n情けない……",
+      "before": "나…… 역시 아무것도\n모르는 어린애였어.\n한심해……",
+      "after": "나…… 역시 아무것도 모르는\n어린애였을 뿐이야.\n한심해……",
+      "category": "semantic_accuracy",
+      "reason": "ただの의 자조적 한정 의미를 반영했다."
+    },
+    {
+      "row_index": 38,
+      "tm_id": "ARF-TM-ED744BB3E7652A1F3245",
+      "source_text": "ギルダブ……殺って！",
+      "before": "길다브…… 해치워!",
+      "after": "길다브…… 죽여!",
+      "category": "register",
+      "reason": "殺って의 거친 명령 어조를 직접적으로 살렸다."
+    },
+    {
+      "row_index": 46,
+      "tm_id": "ARF-TM-EE845ACA63C999A7AB0A",
+      "source_text": "なんか……遺跡……なんスか？",
+      "before": "뭔가…… 유적……임까?",
+      "after": "뭔가…… 유적……인 검까?",
+      "category": "naturalness",
+      "reason": "화자의 말버릇을 유지하면서 서술형 결합을 바로잡았다."
+    },
+    {
+      "row_index": 57,
+      "tm_id": "ARF-TM-EF955A2790725EF7D636",
+      "source_text": "早いトコ、お前さん自身を\n信頼させてくれや",
+      "before": "얼른 당신 자신을\n믿게 해 달라고",
+      "after": "얼른 당신 자신을\n믿을 수 있게 해 달라고",
+      "category": "naturalness",
+      "reason": "신뢰의 대상을 자연스러운 한국어로 정리했다."
+    },
+    {
+      "row_index": 62,
+      "tm_id": "ARF-TM-EFDB9AA0D6E842438E2C",
+      "source_text": "それに例のコード・ディスクの精査が\n終われば、元老院と聖皇の関係にも\n終止符を打つことになるだろう",
+      "before": "게다가 그 코드 디스크 조사가\n끝나면 원로원과 성황의 관계에도\n종지부를 찍을 수 있겠지",
+      "after": "게다가 그 코드 디스크의 정밀 조사가\n끝나면 원로원과 성황의 관계에도\n종지부를 찍게 되겠지",
+      "category": "semantic_accuracy",
+      "reason": "精査와 귀결 관계를 정확히 반영했다."
+    },
+    {
+      "row_index": 75,
+      "tm_id": "ARF-TM-F21207A123DDEC42B49F",
+      "source_text": "まずは街の中を\n聞き込みしてみようよ",
+      "before": "우선 도시 안에서\n물어보고 다니자",
+      "after": "우선 도시 안에서\n탐문해 보자",
+      "category": "terminology",
+      "reason": "聞き込み를 조사 문맥의 '탐문'으로 옮겼다."
+    },
+    {
+      "row_index": 78,
+      "tm_id": "ARF-TM-F25333DFC637942D8D88",
+      "source_text": "だがイーサ神にリアルの定理を\n奏上しない限り、世界は結晶化\nしない筈じゃなかったのか",
+      "before": "하지만 이사신에게 리얼의 섭리를\n아뢰지 않는 한 세계는 결정화되지\n않는 것 아니었어?",
+      "after": "하지만 이사신에게 리얼의 섭리를\n아뢰지 않는 한 세계는 결정화되지\n않는 게 아니었나?",
+      "category": "naturalness",
+      "reason": "부정 의문문의 문법을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 82,
+      "tm_id": "ARF-TM-F28B9564C497A1E8AB01",
+      "source_text": "やれヴァイスの命令だ\n聖皇の頼みだと右往左往して\n目の前の目的だけに集中しちまう",
+      "before": "바이스의 명령이니\n성황의 부탁이니 하며 우왕좌왕하다가\n눈앞의 목적에만 집중해 버려",
+      "after": "바이스의 명령이다\n성황의 부탁이다 하며 이리저리 휘둘려\n눈앞의 목적에만 집중해 버려",
+      "category": "semantic_accuracy",
+      "reason": "右往左往의 피동적 혼란을 문맥에 맞게 표현했다."
+    },
+    {
+      "row_index": 84,
+      "tm_id": "ARF-TM-F2925B003E9FFB50C8F8",
+      "source_text": "なにとぞ\nお通し下さいますよう――",
+      "before": "부디\n통과시켜 주십시오――",
+      "after": "부디\n들여보내 주시기를――",
+      "category": "semantic_accuracy",
+      "reason": "통행 허가를 청하는 お通し의 의미를 바로잡았다."
+    },
+    {
+      "row_index": 91,
+      "tm_id": "ARF-TM-F3C13AB5248F5659665C",
+      "source_text": "あの人は、俺を殺すつもりで\nカルブンクルスへの使者に\n命じたんだ",
+      "before": "그 사람은 날 죽일 생각으로\n카르분클루스로 가는 사자로\n명령한 거야",
+      "after": "그 사람은 날 죽일 생각으로\n카르분클루스로 가는 사자로\n임명한 거야",
+      "category": "semantic_accuracy",
+      "reason": "사자로 명한 행위를 자연스럽고 정확하게 옮겼다."
+    },
+    {
+      "row_index": 100,
+      "tm_id": "ARF-TM-F4D0C1A5D50065CCD572",
+      "source_text": "謝ることないわ。私はあの人を\n……ダグラス卿を目の前で\n死なせてしまった",
+      "before": "사과할 것 없어. 난 그 사람을\n……더글러스 경을 눈앞에서\n죽게 내버려 뒀어",
+      "after": "사과할 것 없어. 난 그 사람을\n……더글러스 경을 눈앞에서\n죽게 하고 말았어",
+      "category": "semantic_accuracy",
+      "reason": "의도적 방치로 오해되지 않도록 원문의 결과 표현을 살렸다."
+    },
+    {
+      "row_index": 102,
+      "tm_id": "ARF-TM-F55F9183E3E3295061FA",
+      "source_text": "……なら、お前の目を\n覚まさせてやるよ",
+      "before": "……그럼 네 정신을\n차리게 해 주지",
+      "after": "……그럼 네 눈을\n뜨게 해 주지",
+      "category": "semantic_accuracy",
+      "reason": "目を覚まさせる의 비유를 원문의 표현에 가깝게 복원했다."
+    },
+    {
+      "row_index": 129,
+      "tm_id": "ARF-TM-F8476425F091CC5F94E8",
+      "source_text": "それは聖地ノワーレで聞くこと",
+      "before": "그건 성지 노와레에서 들을 것",
+      "after": "그건 성지 노와레에서 들어라",
+      "category": "naturalness",
+      "reason": "지시형으로 생략된 문장을 자연스럽게 완성했다."
+    },
+    {
+      "row_index": 149,
+      "tm_id": "ARF-TM-FA800150A33BD0D9C4FF",
+      "source_text": "さあ、良くはないでしょうね。\n本人は納得しているわ",
+      "before": "글쎄, 좋지는 않겠지.\n본인은 납득했어",
+      "after": "글쎄, 좋지는 않겠지.\n본인은 납득하고 있어",
+      "category": "semantic_accuracy",
+      "reason": "현재 상태를 나타내는 시제로 바로잡았다."
+    },
+    {
+      "row_index": 154,
+      "tm_id": "ARF-TM-FAE8D1B48167946011E5",
+      "source_text": "そこらの飛光艇より断然早い。\nカルブンクルスへ行ってやろうぜ",
+      "before": "웬만한 비광정보다 훨씬 빨라.\n카르분클루스로 가 주지",
+      "after": "웬만한 비광정보다 훨씬 빨라.\n카르분클루스로 가자고",
+      "category": "register",
+      "reason": "동행을 권하는 거친 구어체로 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 169,
+      "tm_id": "ARF-TM-FC7235063BD31C56E833",
+      "source_text": "女子どもを含めて４人か……\nハンデとしては物足りないがまあいいだろう",
+      "before": "여자와 아이를 포함해 ４명인가……\n핸디캡으로는 부족하지만 뭐, 됐어",
+      "after": "여자와 아이를 포함해 ４명인가……\n상대하기엔 좀 모자라지만, 뭐 좋다",
+      "category": "semantic_accuracy",
+      "reason": "ハンデ를 전투 상대의 수적 열세라는 문맥으로 자연스럽게 풀었다."
+    },
+    {
+      "row_index": 178,
+      "tm_id": "ARF-TM-FD79F388E580FB7BED40",
+      "source_text": "こうして警備を手薄にして出迎えてやったのだ。\nありがたく思えよ",
+      "before": "이렇게 경비를 허술하게 해서 맞아 준 것이다.\n고맙게 여겨라",
+      "after": "이렇게 경비를 느슨하게 하고\n맞이해 준 것이다.\n고맙게 여겨라",
+      "category": "naturalness",
+      "reason": "부자연스러운 사동 표현을 고치고 호흡을 정리했다."
+    },
+    {
+      "row_index": 182,
+      "tm_id": "ARF-TM-FDF35F9A5AC4E15166C2",
+      "source_text": "新たにお前を雇うから\n傭兵としてレジスタンスを\n助けてやれ",
+      "before": "새로 너를 고용할 테니\n용병으로서 레지스탕스를\n도와줘라",
+      "after": "새로 너를 고용할 테니\n용병으로서 저항군을\n도와줘라",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기 '저항군'을 적용했다."
+    },
+    {
+      "row_index": 186,
+      "tm_id": "ARF-TM-FE33294E0D61353BD60F",
+      "source_text": "はい。知的眼鏡かどうかは\nわかりませんけど〜\n眼鏡美人のソニア・カーライルです〜",
+      "before": "네. 지적인 안경인지는\n모르겠지만〜\n안경 미인 소니아 칼라일입니다〜",
+      "after": "네. 지적인 안경 미인인지는\n모르겠지만〜\n안경 미인 소니아 칼라일입니다〜",
+      "category": "naturalness",
+      "reason": "수식 관계가 어색한 표현을 바로잡았다."
+    },
+    {
+      "row_index": 192,
+      "tm_id": "ARF-TM-FEDA949EB05BBAB57C29",
+      "source_text": "私には聞こえます。\n聖地ノワーレで眠るイーサ神の\n目覚めを待ちわびる鼓動が",
+      "before": "제게는 들립니다.\n성지 노와레에서 잠든 이사신이\n깨어나길 기다리는 고동이",
+      "after": "제게는 들립니다.\n성지 노와레에 잠든 이사신의\n각성을 기다리는 고동이",
+      "category": "semantic_accuracy",
+      "reason": "기다림의 대상이 이사신의 각성임을 명확히 했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

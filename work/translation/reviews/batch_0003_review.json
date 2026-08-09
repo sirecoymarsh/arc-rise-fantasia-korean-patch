@@ -1,0 +1,506 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0003",
+  "reviewer": "/root/review_batch_0003",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0003.jsonl",
+  "draft": "work/translation/drafts/batch_0003.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0003.jsonl",
+  "validation_report": "work/translation/validation/batch_0003_reviewed.json",
+  "reviewed_units": 200,
+  "modified_units": 69,
+  "unchanged_units": 131,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "system_function_accuracy",
+    "linked_term_particles_and_spacing",
+    "natural_korean",
+    "dummy_and_developer_strings",
+    "control_tokens",
+    "line_breaks",
+    "codepage_corruption",
+    "fixed_field_capacity",
+    "canonical_codebook_encoding"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-0C895DF2C3F6950183C2",
+      "source_text": "<$03>大きな鳥さん",
+      "before": "<$03>커다란 새",
+      "after": "<$03>커다란 새님",
+      "category": "tone_nuance",
+      "reason": "「鳥さん」의 친근한 의인화·호칭 뉘앙스를 ‘새님’으로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-0CD363EF61B4CFDB9C79",
+      "source_text": "どの国のコーダーたちが身につける衣とも\n異なる、紅蓮のいでたちは猛る炎を思わせる",
+      "before": "어느 나라의 코더들이 입는 옷과도\n다른 홍련의 차림은 타오르는 불꽃을 연상시킨다",
+      "after": "그 어느 나라 코더의 옷과도 다른 홍련의 차림은\n활활 타오르는 불꽃을 연상시킨다",
+      "category": "meaning_naturalness",
+      "reason": "「どの国の～とも異なる」와 「猛る炎」의 대비를 자연스럽고 강도 있게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0D5369FD76B9FA1204EA",
+      "source_text": "謎の隠密服",
+      "before": "수수께끼의 잠행복",
+      "after": "의문의 잠행복",
+      "category": "fixed_field_capacity",
+      "reason": "「謎の」를 뜻이 같은 ‘의문의’로 축약해 아이템명 필드에 여유 있게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-0DAA40555199410B7E6A",
+      "source_text": "合流した仲間たちにレスリーも加え",
+      "before": "합류한 동료들에 레슬리까지 더해",
+      "after": "합류한 동료들에 레슬리까지 가세해",
+      "category": "naturalness",
+      "reason": "동료 무리에 레슬리가 추가된다는 뜻이 자연스럽도록 ‘가세해’로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-0DD1414A1D12041AF525",
+      "source_text": "<$13>14<$1F>0000E8<$1F>01<$13>00の南西に広がる\n索漠たる砂漠、その唯一の\n集落がフェリスである。\nかつての砂漠には、複数の\n文明が栄えていたとの\n記録も残されているが\n今や人の暮らす場所は\nフェリスのみとなった",
+      "before": "<$13>14<$1F>0000E8<$1F>01<$13>00의 남서쪽에 펼쳐진\n적막한 사막. 그곳의 유일한\n취락이 펠리스다.\n과거 이 사막에는 여러\n문명이 번영했다는\n기록도 남아 있지만\n이제 사람이 사는 곳은\n펠리스뿐이다",
+      "after": "<$13>14<$1F>0000E8<$1F>01<$13>00의 남서쪽에 펼쳐진\n삭막한 사막. 그곳의 유일한\n취락이 펠리스다.\n과거 이 사막에는 여러\n문명이 번영했다는\n기록도 남아 있지만\n이제 사람이 사는 곳은\n펠리스뿐이다",
+      "category": "meaning",
+      "reason": "「索漠たる砂漠」의 황량함을 ‘삭막한 사막’으로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-0E204E4540ACDF9D86E7",
+      "source_text": "白きゆりかご・改",
+      "before": "하얀 요람·개",
+      "after": "하얀 요람-개",
+      "category": "encoding_compatibility",
+      "reason": "U+00B7 대신 ASCII 하이픈을 사용해 원제의 기본명/개량형 구분을 유지하고 canonical codebook 인코딩을 통과시켰다."
+    },
+    {
+      "tm_id": "ARF-TM-0EC95134B24777391DDE",
+      "source_text": "陽光を浴びて煌めく水面とも、紺碧の空とも\n思える蒼が、少女の姿態をなめらかに包む",
+      "before": "햇살을 받아 반짝이는 수면도, 감청빛 하늘도\n떠올리게 하는 푸른빛이 소녀의 몸을 매끄럽게 감싼다",
+      "after": "햇살에 빛나는 수면, 감청빛 하늘을\n떠올리게 하는 푸른빛이 소녀를 부드럽게 감싼다",
+      "category": "fixed_field_capacity",
+      "reason": "햇빛에 반짝이는 수면·감청빛 하늘·소녀를 감싸는 푸른빛의 세 이미지를 모두 유지하면서 NUL 포함 81바이트로 압축했다."
+    },
+    {
+      "tm_id": "ARF-TM-0ED3B645AB24C5020531",
+      "source_text": "『機知』の<$13>14<$1F>0000F0<$1F>01<$13>00を\nその身に宿す<$13>14<$1F>0000EF<$1F>01<$13>00。\nノワーレ１２勇士の中で\n最も卓越した頭脳を持つ\nクドアンヌは、自らを\nコード変換させた後\n歴史の舞台から忽然と\n姿を消してしまった。\nその理由は謎である",
+      "before": "『기지』의<$13>14<$1F>0000F0<$1F>01<$13>00를\n몸에 품은<$13>14<$1F>0000EF<$1F>01<$13>00.\n노와레 12용사 중\n가장 뛰어난 두뇌를 지닌\n쿠도안느는 스스로를\n코드로 변환한 뒤\n역사의 무대에서 홀연히\n자취를 감추었다.\n그 이유는 수수께끼다",
+      "after": "『기지』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n노와레 12용사 중\n가장 뛰어난 두뇌를 지닌\n쿠도안느는 스스로를\n코드로 변환한 뒤\n역사의 무대에서 홀연히\n자취를 감추었다.\n그 이유는 수수께끼다",
+      "category": "linked_term_spacing",
+      "reason": "한국어 출력에서 하이퍼링크 용어 앞이 붙어 보이지 않도록 ‘로고스/로그레스’ 토큰 경계에 공백을 넣었다."
+    },
+    {
+      "tm_id": "ARF-TM-0EE548963AE51A24866B",
+      "source_text": "<$13>14<$1F>000021<$1F>01<$13>00のひとつ。\nキャラクターの<$13>14<$1F>000046<$1F>01<$13>00で\n受けるダメージが減少する。\n<$13>14<$1F>00002B<$1F>01<$13>00状態の際に\nＲＥＳアップ効果を重ねる\nと、<$13>14<$1F>00002B<$1F>01<$13>00の効果を\n弱めたり、上書きすること\nができる。この<$13>14<$1F>000021<$1F>01<$13>00は\n<$13>14<$1F>000022<$1F>01<$13>00である",
+      "before": "<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터가 <$13>14<$1F>000046<$1F>01<$13>00으로\n받는 피해가 감소한다.\n<$13>14<$1F>00002B<$1F>01<$13>00 상태일 때\nRES 상승 효과를 더하면\n<$13>14<$1F>00002B<$1F>01<$13>00 효과를\n약화하거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다",
+      "after": "<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터가 <$13>14<$1F>000046<$1F>01<$13>00로\n받는 피해가 감소한다.\n<$13>14<$1F>00002B<$1F>01<$13>00 상태일 때\nRES 상승 효과를 더하면\n<$13>14<$1F>00002B<$1F>01<$13>00 효과를\n약화시키거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다",
+      "category": "system_term_particle",
+      "reason": "000046은 광소술 링크이므로 받침 ㄹ 뒤의 도구격을 ‘로’로 고치고, 타동 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0F5A81326D72CDA96DDC",
+      "source_text": "矩形をなす黄金色の大剣。\nその刃は、勝利者にさらなる経験を与える",
+      "before": "직사각형을 이루는 황금빛 대검.\n그 칼날은 승리자에게 더 많은 경험을 준다",
+      "after": "직사각형 모양의 황금빛 대검.\n그 칼날은 승리자에게 더 많은 경험치를 준다",
+      "category": "meaning_naturalness",
+      "reason": "「矩形をなす」를 자연스러운 형상 설명으로 고치고 보상 의미의 「経験」을 ‘경험치’로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-0F798E55910DDD61CE68",
+      "source_text": "にぎやかな学園を見守る緑には\n常に愛を注ぐ緑の指先の持ち主が介在する",
+      "before": "활기찬 학원을 지켜보는 녹음은\n늘 사랑을 쏟는 초록 손의 주인이 가꾼다",
+      "after": "활기찬 학원을 지켜보는 녹음에는\n늘 애정을 쏟는 정원사의 손길이 닿아 있다",
+      "category": "idiom",
+      "reason": "「緑の指先の持ち主」가 뜻하는 원예가의 정성 어린 손길을 한국어 관용에 맞게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-0F88B0297FEA19A613B4",
+      "source_text": "<$18>ガリ＆ぺーぺー？",
+      "before": "<$18>가리＆풋내기?",
+      "after": "<$18>범생이＆풋내기?",
+      "category": "contextual_wordplay",
+      "reason": "연속 대사의 「ガリ勉」과 「ペーペー」를 확인해 무의미한 음역 ‘가리’를 ‘범생이’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-0F8A92D852B411BCADCA",
+      "source_text": "堕歌",
+      "before": "타가",
+      "after": "타락의 노래",
+      "category": "skill_name",
+      "reason": "의미가 불투명한 한자음 ‘타가’ 대신 「堕歌」의 뜻이 드러나는 ‘타락의 노래’를 채택했다."
+    },
+    {
+      "tm_id": "ARF-TM-0FC6E6BCE2CB2F780C28",
+      "source_text": "<$13>14<$1F>000021<$1F>01<$13>00のひとつ。\nキャラクターの土<$13>14<$1F>000014<$1F>01<$13>00を\n上昇させる。\n<$13>14<$1F>000038<$1F>01<$13>00状態の際に\n土耐性アップ効果を重ねる\nと、<$13>14<$1F>000038<$1F>01<$13>00の効果を\n弱めたり、上書きすること\nができる。この<$13>14<$1F>000021<$1F>01<$13>00は\n<$13>14<$1F>000022<$1F>01<$13>00である",
+      "before": "<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터의 땅<$13>14<$1F>000014<$1F>01<$13>00을\n상승시킨다.\n<$13>14<$1F>000038<$1F>01<$13>00 상태일 때\n땅 내성 상승 효과를 더하면\n<$13>14<$1F>000038<$1F>01<$13>00 효과를\n약화하거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다",
+      "after": "<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터의 땅 <$13>14<$1F>000014<$1F>01<$13>00을\n상승시킨다.\n<$13>14<$1F>000038<$1F>01<$13>00 상태일 때\n땅 내성 상승 효과를 더하면\n<$13>14<$1F>000038<$1F>01<$13>00 효과를\n약화시키거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다",
+      "category": "linked_term_spacing",
+      "reason": "‘땅 내성’ 링크 용어의 한국어 띄어쓰기를 복원하고 타동 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0FF48823E259A08133C4",
+      "source_text": "<$13>14<$1F>0000F3<$1F>01<$13>00の蔓延する地上世界\nにおいて、<$13>14<$1F>000108<$1F>01<$13>00たちが\n<$13>14<$1F>00010E<$1F>01<$13>00を身につけていない\nと死に至るのと同様に\n<$13>14<$1F>0000F3<$1F>01<$13>00が完全に除去された\n<$13>14<$1F>000107<$1F>01<$13>00に\nあって、<$13>14<$1F>000109<$1F>01<$13>00は<$13>14<$1F>00010E<$1F>01<$13>00を\n身につけていなければ\n死に至ってしまう",
+      "before": "<$13>14<$1F>0000F3<$1F>01<$13>00가 만연한 지상 세계\n에서 <$13>14<$1F>000108<$1F>01<$13>00들이\n<$13>14<$1F>00010E<$1F>01<$13>00을 착용하지\n않으면 죽는 것과 마찬가지로\n<$13>14<$1F>0000F3<$1F>01<$13>00가 완전히 제거된\n<$13>14<$1F>000107<$1F>01<$13>00에서는\n<$13>14<$1F>000109<$1F>01<$13>00이 <$13>14<$1F>00010E<$1F>01<$13>00을\n착용하지 않으면\n죽고 만다",
+      "after": "<$13>14<$1F>0000F3<$1F>01<$13>00이 만연한 지상\n세계에서 <$13>14<$1F>000108<$1F>01<$13>00들이\n<$13>14<$1F>00010E<$1F>01<$13>00을 착용하지\n않으면 죽는 것과 마찬가지로\n<$13>14<$1F>0000F3<$1F>01<$13>00이 완전히 제거된\n<$13>14<$1F>000107<$1F>01<$13>00에서는\n<$13>14<$1F>000109<$1F>01<$13>00은 <$13>14<$1F>00010E<$1F>01<$13>00을\n착용하지 않으면\n죽고 만다",
+      "category": "linked_term_particles_layout",
+      "reason": "호존·현종·신종 링크의 실제 한국어 표기를 기준으로 조사(이/은)를 고치고 줄 첫머리의 고립된 조사를 없앴다."
+    },
+    {
+      "tm_id": "ARF-TM-1027EFB61FF951A7EA66",
+      "source_text": "<$13>14<$1F>0000A1<$1F>01<$13>00レベル３の<$13>14<$1F>000061<$1F>01<$13>00。\n対象を中心とした範囲内の\n敵に<$13>14<$1F>0000A1<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nデストラクションでは\n追加効果として対象を\n<$13>14<$1F>00002D<$1F>01<$13>00状態に\nすることがある",
+      "before": "<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n디스트럭션은\n추가 효과로 대상을\n<$13>14<$1F>00002D<$1F>01<$13>00 상태로\n만들 때가 있다",
+      "after": "<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n디스트럭션에서는\n추가 효과로 대상을\n<$13>14<$1F>00002D<$1F>01<$13>00 상태로\n만들기도 한다",
+      "category": "meaning_naturalness",
+      "reason": "디스트럭션일 때의 조건성을 ‘에서는’으로 복원하고 상태 부여 문장을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-10C351E1321FC7475313",
+      "source_text": "白い白衣が身体の線が露わな衣服を秘し\n紅い縁の眼鏡が幼さと機知を同居させる",
+      "before": "새하얀 가운은 몸의 선이 드러나는 옷을 감추고\n붉은 테 안경은 앳됨과 기지를 함께 품게 한다",
+      "after": "흰 가운은 몸의 선이 드러난 옷을 감추고\n붉은 테 안경에는 앳됨과 기지가 깃든다",
+      "category": "naturalness",
+      "reason": "안경에 앳됨과 기지가 공존한다는 「同居させる」의 묘사를 자연스럽게 다듬었다. 이후 고정 필드 용량에 맞는 최종 축약문으로 조정했다."
+    },
+    {
+      "tm_id": "ARF-TM-116DC3BBAFCF3D55D11A",
+      "source_text": "割合で受けるダメージ量を抑える",
+      "before": "받는 피해량을 일정 비율로 줄인다",
+      "after": "비율 피해로 받는 피해량을 줄인다",
+      "category": "system_function_accuracy",
+      "reason": "일반 피해를 일정 비율 감소시키는 뜻으로 오인되지 않도록 ‘비율 피해’ 내성 효과임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-11D591A8999B1FECAE9B",
+      "source_text": "その名のとおり、敵全体を\n一度に攻撃できる\n<$13>14<$1F>00004B<$1F>01<$13>00である。\n<$13>14<$1F>000004<$1F>01<$13>00コストが悪い一方\nそれ以外のコストが必要\nなく、短い待機時間で\nまとめて攻撃できるという\nメリットがある。乱獲には\n最適だろう",
+      "before": "이름 그대로 적 전체를\n한 번에 공격할 수 있는\n<$13>14<$1F>00004B<$1F>01<$13>00이다.\n<$13>14<$1F>000004<$1F>01<$13>00 효율은 나쁘지만\n그 외의 비용은 들지\n않고 짧은 대기 시간에\n한꺼번에 공격할 수 있다는\n장점이 있다. 몬스터를\n쓸어 담을 때 제격이다",
+      "after": "이름 그대로 적 전체를\n한 번에 공격할 수 있는\n<$13>14<$1F>00004B<$1F>01<$13>00이다.\n<$13>14<$1F>000004<$1F>01<$13>00 효율은 나쁘지만\n그 외의 비용은 들지\n않고 짧은 대기 시간에\n한꺼번에 공격할 수 있다는\n장점이 있다. 대량 사냥에\n제격일 것이다",
+      "category": "meaning_tone",
+      "reason": "「乱獲」를 ‘대량 사냥’으로 옮겨 도움말 문체와 기능 의미를 정확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-11F14D44D62ECBF3B8BC",
+      "source_text": "布地に染め抜かれた赤い花は、白い腿を隠し\n髪に飾られた花は、女の美貌を明るくする",
+      "before": "천에 물들인 붉은 꽃은 하얀 허벅지를 가리고\n머리에 꽂은 꽃은 여인의 미모를 환히 빛낸다",
+      "after": "천에 물든 붉은 꽃은 흰 허벅지를 가리고\n머리에 단 꽃은 여인의 미모를 환히 빛낸다",
+      "category": "fixed_field_capacity",
+      "reason": "붉은 천의 꽃·흰 허벅지·머리 장식 꽃·미모라는 의미 요소를 모두 보존하고 NUL 포함 80바이트로 줄였다."
+    },
+    {
+      "tm_id": "ARF-TM-122E0077C161CB45E25D",
+      "source_text": "長い柄と穴の空いた刀身が特徴の大剣。\nその刃は、一時的に主の動きを早める",
+      "before": "긴 자루와 구멍 뚫린 칼날이 특징인 대검.\n그 칼날은 잠시 주인의 움직임을 빠르게 한다",
+      "after": "긴 자루와 구멍 난 칼날이 특징인 대검.\n그 칼날은 잠시 주인의 움직임을 빠르게 한다",
+      "category": "fixed_field_capacity",
+      "reason": "‘구멍 뚫린’을 같은 뜻의 ‘구멍 난’으로 줄여 설명 의미와 두 줄 구성을 유지하면서 NUL 포함 81바이트에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-12704BBD74D9447FA66C",
+      "source_text": "和平会談を骸の軍隊が襲う。",
+      "before": "화평 회담을 망자의 군대가 습격한다.",
+      "after": "망자의 군대가 평화 회담을 습격한다.",
+      "category": "naturalness",
+      "reason": "「和平会談」을 자연스러운 ‘평화 회담’으로 통일하고 한국어 어순을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-12FD330D3B6A0D1DCEC4",
+      "source_text": "彼女の身に何が起きたのか……",
+      "before": "그녀의 몸에 무슨 일이 일어난 걸까……",
+      "after": "그녀에게 무슨 일이 일어난 걸까……",
+      "category": "naturalness",
+      "reason": "「彼女の身に」를 직역한 ‘몸에’ 대신 사건을 묻는 자연스러운 ‘그녀에게’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-144BBFB56EF5C3C9A138",
+      "source_text": "L脊 レゾルベント大氷壁",
+      "before": "L척 레졸벤트 대빙벽",
+      "after": "L脊 레졸벤트 대빙벽",
+      "category": "protected_raw_prefix",
+      "reason": "원시 바이트 4C C0 D4의 미확정 UI 접두부 ‘L脊’를 번역하지 않고 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-149B237CA7F2B0E69B8A",
+      "source_text": "<$13>14<$1F>000150<$1F>01<$13>00の教主\nにして、教団の最高権力者\nが聖皇である。\nその影響力は、遠く首都\nにまで及んでおり\n<$13>14<$1F>000152<$1F>01<$13>00議会に対しても\n強い発言力を有している",
+      "before": "<$13>14<$1F>000150<$1F>01<$13>00의 교주이자\n교단의 최고 권력자가\n성황이다.\n그 영향력은 먼 수도\n에까지 미치며\n<$13>14<$1F>000152<$1F>01<$13>00 의회에도\n강한 발언권을 갖고 있다",
+      "after": "<$13>14<$1F>000150<$1F>01<$13>00의 교주이자\n교단의 최고 권력자가\n성황이다.\n그 영향력은 멀리\n수도에까지 미치며\n<$13>14<$1F>000152<$1F>01<$13>00 의회에도\n강한 발언권을 갖고 있다",
+      "category": "line_layout",
+      "reason": "‘수도/에까지’로 갈라진 조사를 같은 줄에 붙여 의미 단위와 가독성을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-14FCCD8F9E2DE824233F",
+      "source_text": "<$13>14<$1F>000093<$1F>01<$13>00のキャラクター\nに対する、憎悪を示す値。\n自身に大きく被害を与える\n対象に対し、値が上昇しや\nすい。基本的に値が高い\n対象を狙うが、中には\nこれを無視したり、値の\n低い対象を狙う<$13>14<$1F>000093<$1F>01<$13>00\nも存在する",
+      "before": "<$13>14<$1F>000093<$1F>01<$13>00 캐릭터에\n대한 증오를 나타내는 수치.\n자신에게 큰 피해를 주는\n대상일수록 수치가 쉽게\n오른다. 기본적으로 수치가 높은\n대상을 노리지만, 이를\n무시하거나 수치가\n낮은 대상을 노리는 <$13>14<$1F>000093<$1F>01<$13>00\n도 존재한다",
+      "after": "<$13>14<$1F>000093<$1F>01<$13>00 캐릭터에 대한\n증오를 나타내는 수치.\n자신에게 큰 피해를 주는\n대상일수록 수치가 쉽게\n오른다. 기본적으로 수치가\n높은 대상을 노리지만,\n이를 무시하거나 수치가\n낮은 대상을 노리는 <$13>14<$1F>000093<$1F>01<$13>00도\n존재한다",
+      "category": "line_layout",
+      "reason": "고립된 조사 ‘도’를 링크 용어 뒤에 붙이고 긴 줄을 9개 의미 단위로 재배치했다."
+    },
+    {
+      "tm_id": "ARF-TM-15DD746E2471D40B089B",
+      "source_text": "雷のコードが刻まれた装身具。\n明滅は刺激し、体を麻痺から救おうとする",
+      "before": "번개 코드가 새겨진 액세서리.\n그 섬광은 몸을 자극해 마비에서 벗어나게 한다",
+      "after": "번개 코드가 새겨진 액세서리.\n그 깜빡임이 몸을 자극해 마비에서 벗어나게 한다",
+      "category": "meaning",
+      "reason": "「明滅」를 단발성 ‘섬광’이 아니라 반복되는 ‘깜빡임’으로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-15EE48955EC1EA789AA3",
+      "source_text": "{茣 聖地ノワーレ",
+      "before": "{오 성지 노와레",
+      "after": "{茣 성지 노와레",
+      "category": "protected_raw_prefix",
+      "reason": "원시 바이트 7B E8 B4의 미확정 UI 접두부 ‘{茣’를 한자음 번역하지 않고 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-15F2F3FD072A15855D54",
+      "source_text": "<$13>14<$1F>00013D<$1F>01<$13>00で編成された空艇団\nのこと。<$13>14<$1F>00013A<$1F>01<$13>00の\n第二皇子が指揮する。\nその任務は、飛来する<$13>14<$1F>0000EA<$1F>01<$13>00\nからの帝都防衛である。\n海や山野の上空に展開し、\nそこで敵を待ち構える作戦\nを得意としている",
+      "before": "<$13>14<$1F>00013D<$1F>01<$13>00으로 편성된\n비광정단을 말한다. <$13>14<$1F>00013A<$1F>01<$13>00의\n제2황자가 지휘한다.\n임무는 날아오는 <$13>14<$1F>0000EA<$1F>01<$13>00로부터\n제도를 방위하는 것이다.\n바다와 산야 상공에 전개해\n그곳에서 적을 기다리는 작전을\n특기로 한다",
+      "after": "<$13>14<$1F>00013D<$1F>01<$13>00으로 편성된\n공정단을 말한다. <$13>14<$1F>00013A<$1F>01<$13>00의\n제2황자가 지휘한다.\n임무는 날아오는 <$13>14<$1F>0000EA<$1F>01<$13>00으로부터\n제도를 방위하는 것이다.\n바다와 산야 상공에 전개해\n그곳에서 적을 기다리는 작전을\n특기로 한다",
+      "category": "system_term_distinction",
+      "reason": "비광정으로 편성된 일반 「空艇団」을 ‘공정단’으로 구분하고, 탁룡 링크 뒤 조사를 ‘으로부터’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-16482B267D4CB8999631",
+      "source_text": "<$0F>j| リアル・ディーバ",
+      "before": "<$0F>j| 리얼·디바",
+      "after": "<$0F>j| 리얼 디바",
+      "category": "encoding_compatibility",
+      "reason": "U+00B7을 한국어 고유명사 경계의 자연스러운 공백으로 바꿔 ‘리얼 디바’의 구분 의미를 유지하고 인코딩 오류를 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-167CE0565288080EF016",
+      "source_text": "サイン用の色紙\nメイドさんからサインを貰おう",
+      "before": "사인용 색지\n메이드에게 사인을 받자",
+      "after": "사인용 보드\n메이드에게 사인을 받자",
+      "category": "cultural_object",
+      "reason": "일본어 「色紙」가 색종이가 아니라 사인용 판이라는 점을 반영해 ‘사인용 보드’로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-16C947861DA13F803725",
+      "source_text": "対象を観察することで\n対象選択時に能力値を\n確認できるようになる\n<$13>14<$1F>00004B<$1F>01<$13>00。\n相手の能力を把握できるか\n否かでは、戦闘での安心感\nが格段に違う",
+      "before": "대상을 관찰해\n대상 선택 시 능력치를\n확인할 수 있게 되는\n<$13>14<$1F>00004B<$1F>01<$13>00.\n상대의 능력을 파악하느냐\n마느냐에 따라 전투의 안정감이\n확연히 달라진다",
+      "after": "대상을 관찰하면\n대상 선택 시 능력치를\n확인할 수 있게 되는\n<$13>14<$1F>00004B<$1F>01<$13>00.\n상대의 능력을 파악할 수\n있는지에 따라 전투의\n안정감이 크게 달라진다",
+      "category": "naturalness_line_layout",
+      "reason": "관찰 효과 설명을 자연스럽게 다듬고 한국어 의미 단위에 맞춰 7개 줄을 재배치했다."
+    },
+    {
+      "tm_id": "ARF-TM-16CC7EB01DCFC460A132",
+      "source_text": "<$13>14<$1F>0000E8<$1F>01<$13>00の大洋を\n反時計回りに流れる海流。\n帝都<$13>14<$1F>000132<$1F>01<$13>00\n教都<$13>14<$1F>000142<$1F>01<$13>00\n首都<$13>14<$1F>000148<$1F>01<$13>00\nの三都を結ぶことから\nデルタの名が与えられた。\n多くの人や様々な物質を\n目的地へと運んでいる",
+      "before": "<$13>14<$1F>0000E8<$1F>01<$13>00의 대양을\n반시계 방향으로 흐르는 해류.\n제도 <$13>14<$1F>000132<$1F>01<$13>00\n교도 <$13>14<$1F>000142<$1F>01<$13>00\n수도 <$13>14<$1F>000148<$1F>01<$13>00\n세 도시를 잇기에\n델타라는 이름이 붙었다.\n많은 사람과 여러 물자를\n목적지까지 운반한다",
+      "after": "<$13>14<$1F>0000E8<$1F>01<$13>00의 대양을\n반시계 방향으로 흐르는 해류.\n제도 <$13>14<$1F>000132<$1F>01<$13>00\n교도 <$13>14<$1F>000142<$1F>01<$13>00\n수도 <$13>14<$1F>000148<$1F>01<$13>00\n세 도시를 잇기에\n델타라는 이름이 붙었다.\n많은 사람과 여러 물질을\n목적지까지 운반한다",
+      "category": "meaning",
+      "reason": "해류가 운반하는 「様々な物質」을 물자에 한정하지 않고 ‘여러 물질’로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-171FBD6612212F4301DF",
+      "source_text": "一部の<$13>14<$1F>000093<$1F>01<$13>00の持つ\n特殊な防御力を示す。\n特殊な装甲により一時的に\n防御力を高めているもの\nであり、適切な攻撃手段を\n重ねることにより\n破壊することができる",
+      "before": "일부 <$13>14<$1F>000093<$1F>01<$13>00이 지닌\n특수한 방어력을 나타낸다.\n특수 장갑으로 일시적으로\n방어력을 높인 상태이며\n적절한 공격 수단을\n거듭 사용하면\n파괴할 수 있다",
+      "after": "일부 <$13>14<$1F>000093<$1F>01<$13>00가 지닌\n특수한 방어력을 나타낸다.\n특수 장갑으로 일시적으로\n방어력을 높인 상태이며\n적절한 공격 수단을\n거듭 사용하면\n파괴할 수 있다",
+      "category": "linked_term_particle",
+      "reason": "000093 몬스터 링크는 모음으로 끝나므로 주격 조사를 ‘가’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-18A2E3FF79726B61DB0A",
+      "source_text": "１００年間、地脈でレイを浴び続けた杖。\n持つ者のＳＰを仲間に分け与える",
+      "before": "100년 동안 지맥에서 레이를 계속 쬔 지팡이.\n소지자의 SP를 동료에게 나눠 준다",
+      "after": "100년 동안 지맥에서 레이를 쐬어 온 지팡이.\n소지자의 SP를 동료들에게 나눠 준다",
+      "category": "naturalness",
+      "reason": "「浴び続けた」와 복수 동료에게 SP를 나누는 효과를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-190280345F77C055BD71",
+      "source_text": "<$0F>柵 巫",
+      "before": "<$0F>책 무녀",
+      "after": "<$0F>柵 무녀",
+      "category": "protected_raw_prefix",
+      "reason": "0F BA F4로 시작하는 미확정 UI 접두부에서 ‘柵’을 번역하지 않고 보존하고 실제 표제 「巫」만 ‘무녀’로 번역했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_id": "ARF-TM-144BBFB56EF5C3C9A138",
+      "severity": "protected_raw_prefix_warning",
+      "issue": "Sys/help.bin 0x19AB1의 원시 접두 바이트 4C C0 D4 20이 카탈로그에서 ‘L脊 ’로 디코드된다. 자연어가 아닌 UI/아이콘 표식일 가능성이 있어 원문 바이트 대응 문자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-15EE48955EC1EA789AA3",
+      "severity": "protected_raw_prefix_warning",
+      "issue": "Sys/help.bin 0x1631E의 원시 접두 바이트 7B E8 B4 20이 ‘{茣 ’로 디코드된다. 런타임 확인 전까지 해당 접두부를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-190280345F77C055BD71",
+      "severity": "protected_raw_prefix_warning",
+      "issue": "Sys/help.bin 0x174BD의 원시 접두 바이트 0F BA F4 20 중 0F는 <$0F>, BA F4는 ‘柵’으로 정규화된다. 실제 표제 ‘巫’만 번역하고 미확정 접두부는 보존했다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_counts_preserved": true,
+    "suspected_codepage_question_mark_corruption": false,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "warnings_explained_by_residual_issues": true,
+    "status": "passed",
+    "no_suspected_codepage_question_mark_corruption": true,
+    "suspected_codepage_question_mark_corruption_error_count": 0,
+    "validator_warnings": []
+  },
+  "hashes": {
+    "reviewed_sha256": "3121E26E086B697C9F97BCC75ED3683B994CB86A4ABAEFA6F97AAFD9A2581302",
+    "validation_sha256": "E2C870935C2CA75A05774272C57F0C62FA9DA8159840216B377C4E224B592489"
+  },
+  "layout_adjustments": [
+    {
+      "tm_id": "ARF-TM-122E0077C161CB45E25D",
+      "table_unit_id": "item:173:description_primary",
+      "capacity": 81,
+      "before": "긴 자루와 구멍 뚫린 칼날이 특징인 대검.\n그 칼날은 잠시 주인의 움직임을 빠르게 한다",
+      "after": "긴 자루와 구멍 난 칼날이 특징인 대검.\n그 칼날은 잠시 주인의 움직임을 빠르게 한다",
+      "category": "fixed_field_capacity",
+      "reason": "‘구멍 뚫린’을 같은 뜻의 ‘구멍 난’으로 줄여 설명 의미와 두 줄 구성을 유지하면서 NUL 포함 81바이트에 맞췄다.",
+      "before_encoded_bytes": 82,
+      "before_encoding_error": null,
+      "after_encoded_bytes": 80,
+      "full_tm_after_encoded_bytes": 80,
+      "required_with_nul": 81,
+      "headroom_after_nul": 0,
+      "fits_in_place": true,
+      "encoding_error": null
+    },
+    {
+      "tm_id": "ARF-TM-0EC95134B24777391DDE",
+      "table_unit_id": "item:682:description_primary",
+      "capacity": 81,
+      "before": "햇살을 받아 반짝이는 수면도, 감청빛 하늘도\n떠올리게 하는 푸른빛이 소녀의 몸을 매끄럽게 감싼다",
+      "after": "햇살에 빛나는 수면, 감청빛 하늘을\n떠올리게 하는 푸른빛이 소녀를 부드럽게 감싼다",
+      "category": "fixed_field_capacity",
+      "reason": "햇빛에 반짝이는 수면·감청빛 하늘·소녀를 감싸는 푸른빛의 세 이미지를 모두 유지하면서 NUL 포함 81바이트로 압축했다.",
+      "before_encoded_bytes": 93,
+      "before_encoding_error": null,
+      "after_encoded_bytes": 79,
+      "full_tm_after_encoded_bytes": 79,
+      "required_with_nul": 80,
+      "headroom_after_nul": 1,
+      "fits_in_place": true,
+      "encoding_error": null
+    },
+    {
+      "tm_id": "ARF-TM-0D5369FD76B9FA1204EA",
+      "table_unit_id": "item:722:name",
+      "capacity": 17,
+      "before": "수수께끼의 잠행복",
+      "after": "의문의 잠행복",
+      "category": "fixed_field_capacity",
+      "reason": "「謎の」를 뜻이 같은 ‘의문의’로 축약해 아이템명 필드에 여유 있게 맞췄다.",
+      "before_encoded_bytes": 17,
+      "before_encoding_error": null,
+      "after_encoded_bytes": 13,
+      "full_tm_after_encoded_bytes": 13,
+      "required_with_nul": 14,
+      "headroom_after_nul": 3,
+      "fits_in_place": true,
+      "encoding_error": null
+    },
+    {
+      "tm_id": "ARF-TM-11F14D44D62ECBF3B8BC",
+      "table_unit_id": "item:732:description_primary",
+      "capacity": 81,
+      "before": "천에 물들인 붉은 꽃은 하얀 허벅지를 가리고\n머리에 꽂은 꽃은 여인의 미모를 환히 빛낸다",
+      "after": "천에 물든 붉은 꽃은 흰 허벅지를 가리고\n머리에 단 꽃은 여인의 미모를 환히 빛낸다",
+      "category": "fixed_field_capacity",
+      "reason": "붉은 천의 꽃·흰 허벅지·머리 장식 꽃·미모라는 의미 요소를 모두 보존하고 NUL 포함 80바이트로 줄였다.",
+      "before_encoded_bytes": 85,
+      "before_encoding_error": null,
+      "after_encoded_bytes": 79,
+      "full_tm_after_encoded_bytes": 79,
+      "required_with_nul": 80,
+      "headroom_after_nul": 1,
+      "fits_in_place": true,
+      "encoding_error": null
+    },
+    {
+      "tm_id": "ARF-TM-10C351E1321FC7475313",
+      "table_unit_id": "item:734:description_primary",
+      "capacity": 81,
+      "before": "새하얀 가운은 몸의 선이 드러나는 옷을 감추고\n붉은 테 안경에는 앳됨과 기지가 함께 깃든다",
+      "after": "흰 가운은 몸의 선이 드러난 옷을 감추고\n붉은 테 안경에는 앳됨과 기지가 깃든다",
+      "category": "fixed_field_capacity",
+      "reason": "흰 가운의 은폐 효과와 붉은 테 안경에 공존하는 앳됨·기지를 유지하며 NUL 포함 77바이트로 줄였다.",
+      "before_encoded_bytes": 87,
+      "before_encoding_error": null,
+      "after_encoded_bytes": 76,
+      "full_tm_after_encoded_bytes": 76,
+      "required_with_nul": 77,
+      "headroom_after_nul": 4,
+      "fits_in_place": true,
+      "encoding_error": null
+    },
+    {
+      "tm_id": "ARF-TM-0E204E4540ACDF9D86E7",
+      "table_unit_id": "item:285:name",
+      "capacity": 17,
+      "before": "하얀 요람·개",
+      "after": "하얀 요람-개",
+      "category": "encoding_compatibility",
+      "reason": "U+00B7 대신 ASCII 하이픈을 사용해 원제의 기본명/개량형 구분을 유지하고 canonical codebook 인코딩을 통과시켰다.",
+      "before_encoded_bytes": null,
+      "before_encoding_error": "character is neither codebook-mapped nor EUC-JP encodable: '·'",
+      "after_encoded_bytes": 12,
+      "full_tm_after_encoded_bytes": 12,
+      "required_with_nul": 13,
+      "headroom_after_nul": 4,
+      "fits_in_place": true,
+      "encoding_error": null
+    },
+    {
+      "tm_id": "ARF-TM-16482B267D4CB8999631",
+      "table_unit_id": "help:326:title",
+      "capacity": 21,
+      "before": "<$0F>j| 리얼·디바",
+      "after": "<$0F>j| 리얼 디바",
+      "category": "encoding_compatibility",
+      "reason": "U+00B7을 한국어 고유명사 경계의 자연스러운 공백으로 바꿔 ‘리얼 디바’의 구분 의미를 유지하고 인코딩 오류를 제거했다.",
+      "before_encoded_bytes": null,
+      "before_encoding_error": "character is neither codebook-mapped nor EUC-JP encodable: '·'",
+      "after_encoded_bytes": 9,
+      "full_tm_after_encoded_bytes": 13,
+      "required_with_nul": 10,
+      "headroom_after_nul": 11,
+      "fits_in_place": true,
+      "encoding_error": null
+    }
+  ],
+  "layout_validation": {
+    "adjusted_units": 7,
+    "fixed_field_units_checked": 7,
+    "fixed_overflow_count": 0,
+    "adjusted_encoding_error_count": 0,
+    "batch_units_encoded": 200,
+    "batch_global_encoding_error_count": 0,
+    "forbidden_u00b7_remaining_count": 0,
+    "encoder": "work/research/encode_custom_euc28.py",
+    "codebook": "work/font/canonical_v1/codebook.json",
+    "codebook_sha256": "4BA8DFB2952355C54CC9D6B40F4732A85CFA090CA6B4998DC28BF1F02DDD0AB3",
+    "status": "passed"
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batches_0003_0004.json",
+    "source_sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+    "audited_units_in_batch": 40,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0003_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  }
+}

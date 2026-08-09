@@ -1,0 +1,152 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0107",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0107.jsonl",
+  "draft": "work/translation/drafts/batch_0107.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0107.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 14,
+  "unchanged_units": 186,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-7ADB47A357B6B25A7923",
+      "source_text": "アルスを賞賛する連中は\n帝国への反逆者と見なす<$0C>腹いせに死ぬより辛い目に\nあわせてやろうじゃないか……！",
+      "before": "알스를 칭찬하는 놈들은\n제국의 반역자로 간주한다<$0C>분풀이로 죽는 것보다 괴로운 꼴을\n당하게 해 주자……!",
+      "after": "알스를 칭찬하는 놈들은\n제국의 반역자로 간주한다<$0C>화풀이로 죽기보다 더한 고통을\n맛보게 해 주자……!",
+      "category": "meaning",
+      "reason": "「死ぬより辛い目」를 ‘죽는 것보다 더한 고통’이라는 의미로 명확히 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7B530BB6C73F34D72388",
+      "source_text": "呆れられるかもしれませんが\n人の弱い心につけこむことは\n商売の基本中の基本ですから",
+      "before": "질렸다고 할지도 모르지만\n사람의 약한 마음을 파고드는 건\n장사의 기본 중 기본이니까요",
+      "after": "기막혀하실지도 모르지만\n사람의 약한 마음을 파고드는 건\n장사의 기본 중 기본이니까요",
+      "category": "meaning",
+      "reason": "「呆れられる」를 ‘질리다’가 아닌 상대가 기막혀하는 반응으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-7B7ECF6A4CE4376AA7A7",
+      "source_text": "お前もリアル神が\n世界を救うと信じて\nアルスと旅をしているのか",
+      "before": "너도 리알신이\n세계를 구할 거라 믿고\n알스와 여행하는 건가",
+      "after": "너도 리얼신이\n세계를 구할 거라 믿고\n알스와 여행하는 건가",
+      "category": "proper_noun",
+      "reason": "「リアル神」의 승인 표기를 ‘리얼신’으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7B9A6530F3088D402EF1",
+      "source_text": "それが、イマジナルとリアルの定理",
+      "before": "그것이 이매지널과 리알의 섭리",
+      "after": "그것이 이매지널과 리얼의 섭리",
+      "category": "proper_noun",
+      "reason": "세계관 고유명 「リアル」의 승인 표기를 ‘리얼’로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7C0E73AFED929320346F",
+      "source_text": "こうやって綺麗に磨かれた\n床を踏みしめるだけで\n満たされた気分になるよ",
+      "before": "이렇게 깨끗하게 닦인\n바닥을 밟기만 해도\n충족된 기분이 들어",
+      "after": "이렇게 깨끗하게 닦인\n바닥을 밟기만 해도\n마음이 충만해져",
+      "category": "natural_korean",
+      "reason": "「満たされた気分」을 직역투가 아닌 자연스러운 심정 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7C1552187AF4A0F1231A",
+      "source_text": "このじいさん……\n何となく求心力があるんだよな。\n自らの内に目を向ける……か",
+      "before": "이 노인……\n왠지 구심력이 있어.\n자기 안을 바라본다……인가",
+      "after": "이 노인……\n왠지 사람을 끌어당기는 힘이 있어.\n자기 안을 바라본다……인가",
+      "category": "meaning",
+      "reason": "「求心力」를 문맥상 사람을 끌어당기는 힘이라는 뜻으로 풀어 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-7CAB63C11843A5E75283",
+      "source_text": "軍を投げ出した奴の気持ちもわかる。\n人々に恐れられ、避けられる……<$0C>本当は人々を救うために\n軍隊に入ったっていうのに……",
+      "before": "군을 내던진 녀석의 마음도 알아.\n사람들이 두려워하고 피하지……<$0C>사실은 사람들을 구하려고\n군대에 들어왔는데……",
+      "after": "군을 떠난 녀석의 마음도 알아.\n사람들에게 두려움과 외면을 받고……<$0C>사실은 사람들을 구하려고\n군대에 들어왔는데……",
+      "category": "meaning",
+      "reason": "「軍を投げ出した」와 수동형 「恐れられ、避けられる」의 관계를 정확하게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-7CE50D12BEBC7CB7302E",
+      "source_text": "私は海に入りません。\n塩水との相性は良くないのです<$0C>残念ながら……",
+      "before": "나는 바다에 들어가지 않습니다.\n소금물과 궁합이 좋지 않아요<$0C>유감스럽지만……",
+      "after": "저는 바다에 들어가지 않습니다.\n소금물과 궁합이 좋지 않습니다<$0C>유감스럽지만……",
+      "category": "voice",
+      "reason": "한 대사 안에서 혼재하던 주어와 종결 어미를 정중체로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7D0FF3B371ED099D469C",
+      "source_text": "ラフィル様は……僕にとって\nもっとも敬愛すべきお方でした……<$0C>あのお声に、もう触れられない\nのかと思うと、僕は……",
+      "before": "라필 님은…… 내게\n가장 경애할 분이었어……<$0C>그 목소리를 이제 접할 수\n없다고 생각하면 나는……",
+      "after": "라필 님은…… 내게\n가장 존경하고 사랑한 분이었어……<$0C>그 목소리를 이제 접할 수\n없다고 생각하면 나는……",
+      "category": "natural_korean",
+      "reason": "「敬愛すべきお方」의 존경과 애정이 함께 담긴 의미를 자연스럽게 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-7D4F46967957039321C8",
+      "source_text": "（はぁ……こいつらといると\n　ほんと退屈だけはしねーよ）",
+      "before": "(하아…… 이 녀석들과 있으면\n　정말 지루할 틈은 없어)",
+      "after": "（하아…… 이 녀석들과 있으면\n　정말 지루할 틈은 없어）",
+      "category": "formatting",
+      "reason": "원문의 전각 괄호와 행 머리 전각 공백을 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-7DB83D414EBDE1C704BA",
+      "source_text": "厳格な顔つきの兵士",
+      "before": "엄격한 얼굴의 병사",
+      "after": "근엄한 표정의 병사",
+      "category": "natural_korean",
+      "reason": "「厳格な顔つき」를 인물 라벨에 자연스러운 ‘근엄한 표정’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7DEFFBBE252984859A3A",
+      "source_text": "……平和なのはいいんだけど\n平和過ぎると、ちょっと退屈よね。\nどこかで竜災害でも起きないかしら？",
+      "before": "……평화로운 건 좋지만\n너무 평화로우면 조금 지루하지.\n어디서 용 재해라도 안 일어나나?",
+      "after": "……평화로운 건 좋지만\n너무 평화로우면 조금 지루하지.\n어디서 용재해라도 안 일어나나?",
+      "category": "terminology",
+      "reason": "「竜災害」의 승인 용어를 ‘용재해’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7E327DA40EC8DB18DD9C",
+      "source_text": "国教であるノースノワーレ教会と\n共和国の首都であるカルブンクルス<$0C>……このふたつが争ったら\n共和国はどうなっちまうんだ？",
+      "before": "국교인 노스 노와레 교회와\n공화국 수도 카르분클루스<$0C>……이 둘이 싸우면\n공화국은 어떻게 되는 거지?",
+      "after": "국교인 노스 노와레교회와\n공화국 수도 카르분클루스<$0C>……이 둘이 싸우면\n공화국은 어떻게 되는 거지?",
+      "category": "proper_noun",
+      "reason": "교회 고유명의 프로젝트 표기 규칙에 맞춰 ‘노스 노와레교회’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7E3FB1CDAD870FE0C521",
+      "source_text": "今日も外はいい天気……\nのんびりした１日は\nこの村の大切な財産ね",
+      "before": "오늘도 밖은 좋은 날씨……\n느긋한 하루는\n이 마을의 소중한 재산이야",
+      "after": "오늘도 밖은 좋은 날씨……\n느긋한 １일은\n이 마을의 소중한 재산이야",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 「１」을 번역문에 복원했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

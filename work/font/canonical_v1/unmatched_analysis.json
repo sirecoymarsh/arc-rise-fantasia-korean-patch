@@ -1,0 +1,8 @@
+{
+  "schema": "arf-unmatched-table-boundary-analysis-v1",
+  "input_unmatched_count": 0,
+  "with_single_substring_candidate": 0,
+  "with_multiple_substring_candidates": 0,
+  "with_no_substring_candidate": 0,
+  "units": []
+}

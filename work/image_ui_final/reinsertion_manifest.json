@@ -1,0 +1,387 @@
+{
+  "schema": "arf-image-ui-reinsertion-manifest-v1",
+  "baseline": "work/disc_extracted/DATA/files (immutable extracted RVZ derivative)",
+  "original_rvz_modified": false,
+  "modified_asset_count": 48,
+  "replacement_target_count": 44,
+  "targets": [
+    {
+      "target": "Sys/strapA_jp.wtm",
+      "payload": "work/image_ui_final/payloads/Sys/strapA_jp.wtm",
+      "method": "replace physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "Sys/strapB_jp.wtm",
+      "payload": "work/image_ui_final/payloads/Sys/strapB_jp.wtm",
+      "method": "replace physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "Sys/system.vol::entry 53 nowloading.wtm",
+      "payload": "work/image_ui_final/payloads/Sys/0053__nowloading.wtm",
+      "method": "replace same-size RTDP member in cumulative system.vol build",
+      "asset_count": 1
+    },
+    {
+      "target": "Title/title.vol",
+      "payload": "work/image_ui_final/payloads/Title/title.vol",
+      "method": "replace physical RTDP archive during disc rebuild",
+      "asset_count": 6,
+      "changed_entries": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "target": "Sys/title.vol",
+      "payload": "work/image_ui_final/payloads/Sys/title.vol",
+      "method": "replace physical RTDP archive during disc rebuild",
+      "asset_count": 6,
+      "changed_entries": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "target": "interface/tex_loc_title_adk_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_adk_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_adz_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_adz_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_aka_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_aka_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_aot_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_aot_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_bat_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_bat_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_bne_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_bne_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_can_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_can_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_cob_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_cob_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_cop_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_cop_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_des_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_des_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_dia_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_dia_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_ebu_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_ebu_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_evt_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_evt_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_ext_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_ext_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_hai_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_hai_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_hgu_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_hgu_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_hki_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_hki_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_hnk_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_hnk_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_ise_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_ise_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_jad_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_jad_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_kai_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_kai_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_kal_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_kal_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_kan_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_kan_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_koo_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_koo_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_kza_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_kza_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_mit_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_mit_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_mse_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_mse_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_ori_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_ori_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_ryu_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_ryu_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_sba_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_sba_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_sir_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_sir_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_syo_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_syo_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_tig_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_tig_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_tka_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_tka_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_tou_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_tou_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_tpa_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_tpa_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_loc_title_yuk_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_loc_title_yuk_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_casino_intro_bj_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_casino_intro_bj_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    },
+    {
+      "target": "interface/tex_casino_intro_poker_wtm.cxd",
+      "payload": "work/image_ui_final/payloads/interface/tex_casino_intro_poker_wtm.cxd",
+      "method": "replace LZ10 CXD physical file during disc rebuild",
+      "asset_count": 1
+    }
+  ],
+  "payload_tree_sha256": {
+    "payloads/interface/tex_casino_intro_bj_wtm.cxd": "9f8379c1e52f527cb1ae619ca0edca802b146234066d48fcdfd8c108d22577b0",
+    "payloads/interface/tex_casino_intro_poker_wtm.cxd": "57b0d57a37533810cd6e21e1fd4a5f07bc536787f468af28d2cd8e186721b90f",
+    "payloads/interface/tex_loc_title_adk_wtm.cxd": "e354a3945fbad70023ab5181c1172f26a933bf2e601c450e720f87f049650dca",
+    "payloads/interface/tex_loc_title_adz_wtm.cxd": "0dce473f4d8e9c02c2333f55975ccf2d7bb85a0c98d308957e751a269ba94fd0",
+    "payloads/interface/tex_loc_title_aka_wtm.cxd": "07c274f35653567108747636261e50dee40be1d37587e6f6c14eef0c6b5ab601",
+    "payloads/interface/tex_loc_title_aot_wtm.cxd": "5778927abbcdf2d3215acb7f95f9d9d6655aff1d40e842473e2582ca0cbde799",
+    "payloads/interface/tex_loc_title_bat_wtm.cxd": "9eed822e6ebddcb6230f9db86e246a911ca2ae366ea7511432009a1f05c23a2e",
+    "payloads/interface/tex_loc_title_bne_wtm.cxd": "b283794c04f4171767469b090070473e21a5d73144bb830489c0a3af252ff78e",
+    "payloads/interface/tex_loc_title_can_wtm.cxd": "5efb8a52e5a5a4781eb9f3e16df6b24adbc70e79e9e2c2f6085fa79ac2e4e26f",
+    "payloads/interface/tex_loc_title_cob_wtm.cxd": "cf8d7f8e3af8e6c764d0be04f3a438b34eba2bd7ebb4383399e134ed93ab95fa",
+    "payloads/interface/tex_loc_title_cop_wtm.cxd": "b18e21adcb9791f4e762ec696a35b552e7422464e120dc960d3885f35b83e062",
+    "payloads/interface/tex_loc_title_des_wtm.cxd": "ccf98724e2e2228a2e63a077d861c43e144835ea9f8d1b7f26bc81a819c67c7f",
+    "payloads/interface/tex_loc_title_dia_wtm.cxd": "c596aaddf7854d31961ba03ed38ea59c6b274342fe1ebd06e7967629fbfe5bb0",
+    "payloads/interface/tex_loc_title_ebu_wtm.cxd": "d15e5a5ba6ca1a18a39934612074927ead5b3f6e96cb6dc0c74f0e7e9a330864",
+    "payloads/interface/tex_loc_title_evt_wtm.cxd": "d0c03d94d6b24e4f209a6b7127b38dd84b0b9db8ed71a873c1499c220d888445",
+    "payloads/interface/tex_loc_title_ext_wtm.cxd": "744a3a6b814fcc29ee60c929471c2c9b2192762d590ee00bafb9a67d182e5baf",
+    "payloads/interface/tex_loc_title_hai_wtm.cxd": "9dce84a170079b5288e6c5eb3399e16ac8723b8f00cce4eeaba45c02533aa9e1",
+    "payloads/interface/tex_loc_title_hgu_wtm.cxd": "325cf8ad0460e6fbecf790109815e2d662a420134929558d9c11084995bbb4a1",
+    "payloads/interface/tex_loc_title_hki_wtm.cxd": "7a62c141581808f222e31d6cc615ae2b8d77c8c24a53437da198dd4f5e009a07",
+    "payloads/interface/tex_loc_title_hnk_wtm.cxd": "6ef154a1ad713114e60d3625c6e0ce5c7c2e1c157f2705817832ec0f82837175",
+    "payloads/interface/tex_loc_title_ise_wtm.cxd": "8d512b992e8b50add0b4afd7f4a49ed1979023adc4e6180e609dbdb8509d7397",
+    "payloads/interface/tex_loc_title_jad_wtm.cxd": "5456589b53b6d274ff80e4f574e739238b59249eea1edbf428afd78b10e078d5",
+    "payloads/interface/tex_loc_title_kai_wtm.cxd": "25fd885e37e5b4f9d0d72c8d0d22e38f0573d1e5aceadbf436cda741762658e7",
+    "payloads/interface/tex_loc_title_kal_wtm.cxd": "da53fc375ba3b63fd8652413d56975e515cc5cddf06c9016c78cb1248f9c1931",
+    "payloads/interface/tex_loc_title_kan_wtm.cxd": "059d2905e902453dd4cbc474f77d890e8a2bad17d750655c2576fe12ed2f26f6",
+    "payloads/interface/tex_loc_title_koo_wtm.cxd": "7175438ff6fa5c5d01ccb837b977ac020f7eddbf83dbc19c8287ba3e83759755",
+    "payloads/interface/tex_loc_title_kza_wtm.cxd": "88b8e6e1ab22679f13c06a67837334cf2796acd8fdf377ded7c8354be7598b33",
+    "payloads/interface/tex_loc_title_mit_wtm.cxd": "af1fdb5e842ae0c01729ef0227f125d50a54df32477bb9ee4a52993902415b9b",
+    "payloads/interface/tex_loc_title_mse_wtm.cxd": "32b19de54d91f751c9ff42fca4f719e538a50fa6e61036e4890a0ac8e6454df0",
+    "payloads/interface/tex_loc_title_ori_wtm.cxd": "ec08e6978a5ab9a60185ab366d93a2881c488ada402b406bd11012900b186d6f",
+    "payloads/interface/tex_loc_title_ryu_wtm.cxd": "952098d5b3926ecea6b53825db64082d8c8743cc2a7a9290d33e90642c73c843",
+    "payloads/interface/tex_loc_title_sba_wtm.cxd": "0f62be75194714b90c6e1711e1e76c7228beb9ff24aa7ea38fcde88f5a2ed91a",
+    "payloads/interface/tex_loc_title_sir_wtm.cxd": "9d4647c58bf7134aa85dd00332dd356c084f4b3b0d26507579bec5ff2640983d",
+    "payloads/interface/tex_loc_title_syo_wtm.cxd": "07f3f3ccba81e843756ec9ab033b688a2eaec00799475268ac31f6599a9158b9",
+    "payloads/interface/tex_loc_title_tig_wtm.cxd": "ac5b796989298f433d712a1470f97a6cd8f0624f0b8868ce19251656c589978d",
+    "payloads/interface/tex_loc_title_tka_wtm.cxd": "8d6a293e72fcfb9ae67eaf9aa8d58f3b35af20fb48dd47f5262aecde02aeb1c2",
+    "payloads/interface/tex_loc_title_tou_wtm.cxd": "7efc1869edb3283f7d6eaaa03d24594654c00553a1e471f68267cd4fc8c1b78c",
+    "payloads/interface/tex_loc_title_tpa_wtm.cxd": "e32edb424664eac686cd36a6f7253314a04422c1afc28277bfdb65ad8767dae1",
+    "payloads/interface/tex_loc_title_yuk_wtm.cxd": "1bdea85ff428de3269907690ff1ba7e3ee517460d8dad03536edc8b3f36034e5",
+    "payloads/Sys/0053__nowloading.wtm": "3ff604ecc7bd6f2741c8a2b7ec5480c126252c751ed6d33f1b613e92352c7e81",
+    "payloads/Sys/strapA_jp.wtm": "37b1a8b270bcd3cd063f86a8309cb03e49ba61c22cedfdb936474b9641867f8c",
+    "payloads/Sys/strapB_jp.wtm": "73e7ca87451a52e95b049517b2933304f7cdd610cd47c3fb3844cc44a88ce45f",
+    "payloads/Sys/title.vol": "80152e9a00a507dd7bbe54deda9530b7f1a189d8a079f43fddc4b29d5a3ad793",
+    "payloads/Title/title.vol": "80152e9a00a507dd7bbe54deda9530b7f1a189d8a079f43fddc4b29d5a3ad793",
+    "payloads/Title/title_vol_payloads/0000__title_pressanybutton.wtm": "d653c5fb200bdfbf73f33fdead132c9201343ccf826e1f43b9391743b527b1b6",
+    "payloads/Title/title_vol_payloads/0001__title_logo.wtm": "4f44a80120e2b5581715969c009afdc83f2d12d56f2ab451ebcbe9f38e4a063c",
+    "payloads/Title/title_vol_payloads/0002__title_newgame01.wtm": "8ce2c4ea7934b6968c4692a7eea26832201898f404c70d0f4b230d1f6d732dbc",
+    "payloads/Title/title_vol_payloads/0003__title_newgame02.wtm": "2044543f881c27c0684befe21a0e7a3f1fb2898d66fdf444c108f3487cf032ee",
+    "payloads/Title/title_vol_payloads/0004__title_continue01.wtm": "68e4371bf2cdc02672b826c211a9214a47e95715a06f3d27e842552e5e8b77cb",
+    "payloads/Title/title_vol_payloads/0005__title_continue02.wtm": "e60ade78cf46a38653be865a41198a1e0b2f1d25fdc2ba023cb5b85204405138",
+    "payloads/wtmd_leaves/tex_casino_intro_bj_wtm.wtm": "c7a56bb22643b068d0fa5ac6b03e1e09bb59d53ba14b69c895f8aee93333e258",
+    "payloads/wtmd_leaves/tex_casino_intro_poker_wtm.wtm": "5b2932221395c02803522f86bd1e75496763eed4e26b769f297e22bc2feab860",
+    "payloads/wtmd_leaves/tex_loc_title_adk_wtm.wtm": "09c0d92139fb641e673a8d2e71c8257bcd83efdde5b0750b522835603e167c68",
+    "payloads/wtmd_leaves/tex_loc_title_adz_wtm.wtm": "24c8d7163159672e6fc82d7a22c36c20c4a4ea73974c4824a74265a0fe6c561a",
+    "payloads/wtmd_leaves/tex_loc_title_aka_wtm.wtm": "9e5cf6937fb5ced8f087be0e139f5a20d33b3b4c32bf7e8f37b5599847031a8d",
+    "payloads/wtmd_leaves/tex_loc_title_aot_wtm.wtm": "2e269b890402e37858b1f869d707978b109dff9191ab706e42bdcc837bbaff4b",
+    "payloads/wtmd_leaves/tex_loc_title_bat_wtm.wtm": "901a098ea48e0521ff818cd0cdd21961ed80809deb628cfd7661423aaa658297",
+    "payloads/wtmd_leaves/tex_loc_title_bne_wtm.wtm": "9f66f25d8099d04fe3b75968a22938663e1000687933d900b0f9415730da0bcf",
+    "payloads/wtmd_leaves/tex_loc_title_can_wtm.wtm": "39c0fce0b0c1c14b36158f32750720504018be3746a242817d660703f983681b",
+    "payloads/wtmd_leaves/tex_loc_title_cob_wtm.wtm": "a2b67ba4853c9f94e9ba7e8989d069b78fede4849c806b61367beac6ad8dcaab",
+    "payloads/wtmd_leaves/tex_loc_title_cop_wtm.wtm": "4ae2e905895cb0145a33401482c4410e0a19475212a6e1fcd758873cc5e4a8a3",
+    "payloads/wtmd_leaves/tex_loc_title_des_wtm.wtm": "ada6d242a76ba75b956985d01d34e2946829e45aeae64a0fb8919ea79cb917f0",
+    "payloads/wtmd_leaves/tex_loc_title_dia_wtm.wtm": "797dac2b4d554d8579616b3080880da48f87c6b0ed7885a05fdadfe7fd637d3b",
+    "payloads/wtmd_leaves/tex_loc_title_ebu_wtm.wtm": "966aa01262a5567baee4bc451a06a80f0bd63c2f97920aa8cfdc910b9ed9f834",
+    "payloads/wtmd_leaves/tex_loc_title_evt_wtm.wtm": "d437336c0c27d44658ec2e70e159a9419080681139af8e134d6f318e07762822",
+    "payloads/wtmd_leaves/tex_loc_title_ext_wtm.wtm": "faaed6d9c86066000448364a1e23832d7b3e935a41ebc2d63f77fb0f6cc5eea4",
+    "payloads/wtmd_leaves/tex_loc_title_hai_wtm.wtm": "352a5aa3781a42154f0120676b2cb3b17916ec221a3f7ece391180e5c9d6f347",
+    "payloads/wtmd_leaves/tex_loc_title_hgu_wtm.wtm": "4c08162de2df548f1d5ab06cb45bd72dd062853b901948bee18b84ef2be7645b",
+    "payloads/wtmd_leaves/tex_loc_title_hki_wtm.wtm": "1066089040c9572ddebcb1ef2ab51161398d34095007e7596d255edcc4996256",
+    "payloads/wtmd_leaves/tex_loc_title_hnk_wtm.wtm": "2a3bdde7ef5498123c3ff370d338772a91a9443df4e99c24d507c544b475a07d",
+    "payloads/wtmd_leaves/tex_loc_title_ise_wtm.wtm": "91d3698fa731eb42941ebc879f41700f799eb1f8187e738354a825583c3f250b",
+    "payloads/wtmd_leaves/tex_loc_title_jad_wtm.wtm": "12e3a594940001f6f98a24c8633ce234812214a13e2895783fb20d30830ef2f0",
+    "payloads/wtmd_leaves/tex_loc_title_kai_wtm.wtm": "5f4f75c1c0dbc274bcaf58ca5a902861f982487da277896306de521c7880e051",
+    "payloads/wtmd_leaves/tex_loc_title_kal_wtm.wtm": "e6152199161c772078174cfc937f63afdc922c2e30b3c74c3ab0e13783cef545",
+    "payloads/wtmd_leaves/tex_loc_title_kan_wtm.wtm": "d159dd9a08f57b5bdc2ad9d0f0fa7313b920768777ff6c8cdcd8e00ba24706e6",
+    "payloads/wtmd_leaves/tex_loc_title_koo_wtm.wtm": "3c658c2a61402aaa81ca10834d0ee0f08cee9d5b6a72cf5dbd22e29ba6632f22",
+    "payloads/wtmd_leaves/tex_loc_title_kza_wtm.wtm": "24d811de0b4426e2445a696906f1335fea8bc79679d08992d6fdf41bca49a3d6",
+    "payloads/wtmd_leaves/tex_loc_title_mit_wtm.wtm": "66357af53dbb707d1a845344bc4ce30e40e44f07554c814ac8966688da3ab6cf",
+    "payloads/wtmd_leaves/tex_loc_title_mse_wtm.wtm": "ede2db2e34e011581a0a311728c914dcf7f849266db5cb776067daaa70e3f7e4",
+    "payloads/wtmd_leaves/tex_loc_title_ori_wtm.wtm": "a8008d16b79b09f02230eaac49b29dc28074add15c088cb1eee6fbd5505ad10c",
+    "payloads/wtmd_leaves/tex_loc_title_ryu_wtm.wtm": "037c40c26e02565d62edf119002bf9503613b1f499f834e2a4a36e420dba18c8",
+    "payloads/wtmd_leaves/tex_loc_title_sba_wtm.wtm": "39f2d5dff3a5862aaa4756cb2f7efefc305dc757f5e94da4838b261611aa2624",
+    "payloads/wtmd_leaves/tex_loc_title_sir_wtm.wtm": "016637d0300ea2398e738191508847f8717d10dd10f94388628abefee2a275fe",
+    "payloads/wtmd_leaves/tex_loc_title_syo_wtm.wtm": "c0f9e9c40c3aabf69ece6ccfe74c6a8d25b5254e948c8f5310347339e560700b",
+    "payloads/wtmd_leaves/tex_loc_title_tig_wtm.wtm": "00b0d1bbdd234a60e6a2e696a2f9bea493918fca224bd9d602beee49f3090cbb",
+    "payloads/wtmd_leaves/tex_loc_title_tka_wtm.wtm": "3a03777e7849f40d8101880073c7ac6dbbac6b84ab2f20826364e1e7a354a501",
+    "payloads/wtmd_leaves/tex_loc_title_tou_wtm.wtm": "fb75638134065923cd79133b6c85f10b33d80565b35ee38b32350296694fad21",
+    "payloads/wtmd_leaves/tex_loc_title_tpa_wtm.wtm": "a6744775df20dd442f4ad0eaa5b5ba382cb922166d5e55527bc4648aa3cb117e",
+    "payloads/wtmd_leaves/tex_loc_title_yuk_wtm.wtm": "5896c888addb60d387e656eaf18b9b1dc3b4fc309f8bd465dcae987988a4049b"
+  },
+  "translation_map": "work/image_ui_final/korean_string_map.json",
+  "validation": "work/image_ui_final/reports/structural_validation.json",
+  "integration_notes": [
+    "Apply Sys/system.vol::nowloading.wtm as a leaf into the cumulative system.vol build; do not overwrite another lane's cumulative system.vol.",
+    "Title/title.vol and Sys/title.vol share the same Japanese baseline and use the same patched archive bytes.",
+    "CXD sizes may change because deterministic LZ10 recompression is used; rebuild the disc filesystem rather than in-place sector overwrite."
+  ]
+}

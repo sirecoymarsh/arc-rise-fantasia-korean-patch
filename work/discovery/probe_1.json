@@ -1,0 +1,513 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Title\\title.vol",
+  "header": {
+    "end_of_header": 480,
+    "count": 11,
+    "declared_size": 3322240,
+    "actual_size": 3322240
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "title_pressanybutton.wtm",
+      "size": 19488,
+      "relative_offset": 0,
+      "absolute_offset": 480,
+      "head_hex": "57544D440000002000F000200A03010100001020000200000000000000000000",
+      "head_ascii": "WTMD... ... ....... ............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 1,
+      "name": "title_logo.wtm",
+      "size": 1146912,
+      "relative_offset": 19488,
+      "absolute_offset": 19968,
+      "head_hex": "57544D4400000020028001C00600010000000020000200000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "sjis_run_count": 543,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 27024,
+          "text": "Z兢啻彖拆拌歸"
+        },
+        {
+          "byte_offset_approx": 37246,
+          "text": "_彡歸"
+        },
+        {
+          "byte_offset_approx": 37246,
+          "text": "b枦歿"
+        },
+        {
+          "byte_offset_approx": 37376,
+          "text": "A弄彌"
+        },
+        {
+          "byte_offset_approx": 37376,
+          "text": ";擢坊抛"
+        },
+        {
+          "byte_offset_approx": 37376,
+          "text": "7宗漸倭气"
+        },
+        {
+          "byte_offset_approx": 47360,
+          "text": "P百邑儻楼由郵兔抒娜俵卜"
+        },
+        {
+          "byte_offset_approx": 47360,
+          "text": "P娉俵朴"
+        },
+        {
+          "byte_offset_approx": 47952,
+          "text": "v殯曜芸"
+        },
+        {
+          "byte_offset_approx": 57600,
+          "text": "O娉坊洋"
+        },
+        {
+          "byte_offset_approx": 57600,
+          "text": "N唹百釦"
+        },
+        {
+          "byte_offset_approx": 57600,
+          "text": "L弄徹培"
+        },
+        {
+          "byte_offset_approx": 57600,
+          "text": "L婁鱈捜"
+        },
+        {
+          "byte_offset_approx": 57984,
+          "text": "c拇挧"
+        },
+        {
+          "byte_offset_approx": 57984,
+          "text": "b徃柞"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "title_newgame01.wtm",
+      "size": 7456,
+      "relative_offset": 1166400,
+      "absolute_offset": 1166880,
+      "head_hex": "57544D4400000020007000180A02010000000820000200000000000000000000",
+      "head_ascii": "WTMD... .p......... ............",
+      "sjis_run_count": 7,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 517,
+          "text": "川bw$"
+        },
+        {
+          "byte_offset_approx": 529,
+          "text": "寝E#"
+        },
+        {
+          "byte_offset_approx": 529,
+          "text": "3餌F"
+        },
+        {
+          "byte_offset_approx": 549,
+          "text": "魲gQF"
+        },
+        {
+          "byte_offset_approx": 668,
+          "text": "徠42T"
+        },
+        {
+          "byte_offset_approx": 1099,
+          "text": "儂QV$"
+        },
+        {
+          "byte_offset_approx": 1399,
+          "text": "QF搶"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "title_newgame02.wtm",
+      "size": 7456,
+      "relative_offset": 1173856,
+      "absolute_offset": 1174336,
+      "head_hex": "57544D4400000020007000180A02010000000820000200000000000000000000",
+      "head_ascii": "WTMD... .p......... ............",
+      "sjis_run_count": 11,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 142,
+          "text": "恤.@"
+        },
+        {
+          "byte_offset_approx": 348,
+          "text": "符茅宗"
+        },
+        {
+          "byte_offset_approx": 440,
+          "text": "筆搶`"
+        },
+        {
+          "byte_offset_approx": 458,
+          "text": "悪誤`"
+        },
+        {
+          "byte_offset_approx": 478,
+          "text": "剌貧@"
+        },
+        {
+          "byte_offset_approx": 532,
+          "text": "2剌p"
+        },
+        {
+          "byte_offset_approx": 560,
+          "text": "t賓`"
+        },
+        {
+          "byte_offset_approx": 598,
+          "text": "t賓P"
+        },
+        {
+          "byte_offset_approx": 658,
+          "text": "T咄双武`"
+        },
+        {
+          "byte_offset_approx": 734,
+          "text": "草弘`"
+        },
+        {
+          "byte_offset_approx": 740,
+          "text": "溢咆`"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "title_continue01.wtm",
+      "size": 7456,
+      "relative_offset": 1181312,
+      "absolute_offset": 1181792,
+      "head_hex": "57544D4400000020007000180A02010000000820000200000000000000000000",
+      "head_ascii": "WTMD... .p......... ............",
+      "sjis_run_count": 5,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 111,
+          "text": "ip%bg悪"
+        },
+        {
+          "byte_offset_approx": 177,
+          "text": "川Rx"
+        },
+        {
+          "byte_offset_approx": 1499,
+          "text": "S剔,"
+        },
+        {
+          "byte_offset_approx": 1499,
+          "text": "和V4"
+        },
+        {
+          "byte_offset_approx": 1600,
+          "text": "碗VD"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "title_continue02.wtm",
+      "size": 7456,
+      "relative_offset": 1188768,
+      "absolute_offset": 1189248,
+      "head_hex": "57544D4400000020007000180A02010000000820000200000000000000000000",
+      "head_ascii": "WTMD... .p......... ............",
+      "sjis_run_count": 9,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 190,
+          "text": "悵4`"
+        },
+        {
+          "byte_offset_approx": 352,
+          "text": "護攝0"
+        },
+        {
+          "byte_offset_approx": 478,
+          "text": "擶悪@"
+        },
+        {
+          "byte_offset_approx": 510,
+          "text": "宵S依`"
+        },
+        {
+          "byte_offset_approx": 528,
+          "text": "勹逼@"
+        },
+        {
+          "byte_offset_approx": 540,
+          "text": "t賓@"
+        },
+        {
+          "byte_offset_approx": 590,
+          "text": "暃護鮮"
+        },
+        {
+          "byte_offset_approx": 608,
+          "text": "依撫P"
+        },
+        {
+          "byte_offset_approx": 730,
+          "text": "溢咐P"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "title_flear.tpl",
+      "size": 66656,
+      "relative_offset": 1196224,
+      "absolute_offset": 1196704,
+      "head_hex": "0020AF30000000010000000C0000042000000014020000000000000100000020",
+      "head_ascii": ". .0........... ............... ",
+      "sjis_run_count": 1,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 50,
+          "text": "JIR鎧"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "title.brres",
+      "size": 1468160,
+      "relative_offset": 1262880,
+      "absolute_offset": 1263360,
+      "head_hex": "62726573FEFF00000016670000100017726F6F74000002480000006800000005",
+      "head_ascii": "bres......g.....root...H...h....",
+      "sjis_run_count": 8114,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 5047,
+          "text": "鈊R滌"
+        },
+        {
+          "byte_offset_approx": 5063,
+          "text": "R滌Bq"
+        },
+        {
+          "byte_offset_approx": 5140,
+          "text": "踐+?"
+        },
+        {
+          "byte_offset_approx": 5188,
+          "text": "A踐+"
+        },
+        {
+          "byte_offset_approx": 6027,
+          "text": "瓮V.X"
+        },
+        {
+          "byte_offset_approx": 7596,
+          "text": "?6&_C+N]@邦-C"
+        },
+        {
+          "byte_offset_approx": 7687,
+          "text": "WB跣R"
+        },
+        {
+          "byte_offset_approx": 7707,
+          "text": "盟|<"
+        },
+        {
+          "byte_offset_approx": 7899,
+          "text": "錬蜴$"
+        },
+        {
+          "byte_offset_approx": 8042,
+          "text": "6IS惴"
+        },
+        {
+          "byte_offset_approx": 8107,
+          "text": "錬蜴$"
+        },
+        {
+          "byte_offset_approx": 8668,
+          "text": "該}D"
+        },
+        {
+          "byte_offset_approx": 8680,
+          "text": "C該}"
+        },
+        {
+          "byte_offset_approx": 9164,
+          "text": "C裸>?"
+        },
+        {
+          "byte_offset_approx": 9272,
+          "text": ",b楪E"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 480,
+      "head_hex": "",
+      "head_ascii": "",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 9,
+      "name": "light.brres",
+      "size": 39168,
+      "relative_offset": 2731040,
+      "absolute_offset": 2731520,
+      "head_hex": "62726573FEFF00000000990000100007726F6F74000000F80000004800000003",
+      "head_ascii": "bres............root.......H....",
+      "sjis_run_count": 46,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1444,
+          "text": "fb鮱"
+        },
+        {
+          "byte_offset_approx": 1463,
+          "text": "!因C"
+        },
+        {
+          "byte_offset_approx": 1475,
+          "text": "GC!因"
+        },
+        {
+          "byte_offset_approx": 8967,
+          "text": "!因C"
+        },
+        {
+          "byte_offset_approx": 8979,
+          "text": "GC!因"
+        },
+        {
+          "byte_offset_approx": 8992,
+          "text": "7hC骰GB"
+        },
+        {
+          "byte_offset_approx": 9184,
+          "text": "C?嵌B"
+        },
+        {
+          "byte_offset_approx": 9450,
+          "text": "JKC零"
+        },
+        {
+          "byte_offset_approx": 9459,
+          "text": "OC5NSC模"
+        },
+        {
+          "byte_offset_approx": 9679,
+          "text": "澆P3"
+        },
+        {
+          "byte_offset_approx": 9724,
+          "text": "方@榮"
+        },
+        {
+          "byte_offset_approx": 9724,
+          "text": "埜0C厨5"
+        },
+        {
+          "byte_offset_approx": 9951,
+          "text": "CB祀C"
+        },
+        {
+          "byte_offset_approx": 9974,
+          "text": ";咾j0jD"
+        },
+        {
+          "byte_offset_approx": 9982,
+          "text": "C^ｐC"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "rain.brres",
+      "size": 551552,
+      "relative_offset": 2770208,
+      "absolute_offset": 2770688,
+      "head_hex": "62726573FEFF000000086A8000100005726F6F74000000D80000004800000003",
+      "head_ascii": "bres......j.....root.......H....",
+      "sjis_run_count": 3166,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 371,
+          "text": "D妙bD"
+        },
+        {
+          "byte_offset_approx": 1430,
+          "text": "涸C,!"
+        },
+        {
+          "byte_offset_approx": 1664,
+          "text": "Cv偽"
+        },
+        {
+          "byte_offset_approx": 1846,
+          "text": "涸C,!"
+        },
+        {
+          "byte_offset_approx": 225748,
+          "text": "粥hC"
+        },
+        {
+          "byte_offset_approx": 225904,
+          "text": "Jv韻慙"
+        },
+        {
+          "byte_offset_approx": 225918,
+          "text": ".吮C椢"
+        },
+        {
+          "byte_offset_approx": 225999,
+          "text": "TＷC剴yD"
+        },
+        {
+          "byte_offset_approx": 226068,
+          "text": "C桿>"
+        },
+        {
+          "byte_offset_approx": 226304,
+          "text": "AC成-D"
+        },
+        {
+          "byte_offset_approx": 226350,
+          "text": "_酖濬"
+        },
+        {
+          "byte_offset_approx": 226367,
+          "text": ".C頬"
+        },
+        {
+          "byte_offset_approx": 226398,
+          "text": "8C捺iD"
+        },
+        {
+          "byte_offset_approx": 226542,
+          "text": "榻XC"
+        },
+        {
+          "byte_offset_approx": 226566,
+          "text": "p嘉泊"
+        }
+      ]
+    }
+  ]
+}

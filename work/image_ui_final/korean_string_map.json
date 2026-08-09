@@ -1,0 +1,261 @@
+{
+  "schema": "arf-image-ui-korean-strings-v1",
+  "provenance": "Codex internal model plus approved project translation memory where available",
+  "entries": [
+    {
+      "id": "strap_common_upper_a",
+      "source_ja_or_en": "まわりに人がいないか、物がないか\nよく確かめましょう",
+      "translation_ko": "주변에 사람이나 물건이 없는지\n잘 확인해 주세요."
+    },
+    {
+      "id": "strap_common_upper_b",
+      "source_ja_or_en": "拡張コントローラを使うときは\nストラップのひもを\nプラグのフックにかけましょう",
+      "translation_ko": "확장 컨트롤러를 사용할 때는\n스트랩 끈을 플러그 고리에\n걸어 주세요."
+    },
+    {
+      "id": "strap_common_bottom",
+      "source_ja_or_en": "ストラップを着け、ストッパーを締めて固定してください\nしっかり握り、手から離したり、投げたりしないでください\nWiiリモコンジャケットの装着をおすすめします",
+      "translation_ko": "스트랩을 착용하고 스토퍼를 조여 고정해 주세요.\n단단히 쥐고 손에서 놓거나 던지지 마세요.\nWii 리모컨 재킷 착용을 권장합니다."
+    },
+    {
+      "id": "title_press",
+      "source_ja_or_en": "PRESS ANY BUTTON",
+      "translation_ko": "아무 버튼이나 누르세요"
+    },
+    {
+      "id": "title_new_game",
+      "source_ja_or_en": "New Game",
+      "translation_ko": "새 게임"
+    },
+    {
+      "id": "title_continue",
+      "source_ja_or_en": "Continue",
+      "translation_ko": "이어하기"
+    },
+    {
+      "id": "title_logo_sub",
+      "source_ja_or_en": "アークライズファンタジア",
+      "translation_ko": "아크 라이즈 판타지아"
+    },
+    {
+      "id": "now_loading",
+      "source_ja_or_en": "Now Loading ...",
+      "translation_ko": "불러오는 중…"
+    },
+    {
+      "id": "casino_bj_bottom",
+      "source_ja_or_en": "この手札で勝負します。",
+      "translation_ko": "이 패로 승부합니다."
+    },
+    {
+      "id": "casino_poker_bottom",
+      "source_ja_or_en": "交換したいカードを上下キーで選んでください",
+      "translation_ko": "바꿀 카드를 위아래 키로 선택해 주세요."
+    },
+    {
+      "id": "casino_bj_controls",
+      "source_ja_or_en": "A決定 B終わる",
+      "translation_ko": "A 결정  B 종료"
+    },
+    {
+      "id": "casino_bj_status",
+      "source_ja_or_en": "プレイヤー／残りカード",
+      "translation_ko": "플레이어 15   남은 카드 20장"
+    },
+    {
+      "id": "casino_poker_controls",
+      "source_ja_or_en": "カード選択 Aカード交換",
+      "translation_ko": "↔ 카드 선택  A 교환"
+    },
+    {
+      "id": "casino_poker_status",
+      "source_ja_or_en": "選択／交換／残りカード",
+      "translation_ko": "선택 0장   교환 20장   남은 카드 22장"
+    },
+    {
+      "id": "location_adk",
+      "source_ja_or_en": "オルキナ教大神殿地下",
+      "translation_ko": "오르키나교 대신전 지하"
+    },
+    {
+      "id": "location_adz",
+      "source_ja_or_en": "オルキナ教大神殿",
+      "translation_ko": "오르키나교 대신전"
+    },
+    {
+      "id": "location_aka",
+      "source_ja_or_en": "空中回廊ベルクト",
+      "translation_ko": "공중 회랑 베르쿠트"
+    },
+    {
+      "id": "location_aot",
+      "source_ja_or_en": "聖地ノワーレ",
+      "translation_ko": "성지 노와레"
+    },
+    {
+      "id": "location_bat",
+      "source_ja_or_en": "バトラキテス",
+      "translation_ko": "바트라키테스"
+    },
+    {
+      "id": "location_bne",
+      "source_ja_or_en": "聖都ベネトナーシュ",
+      "translation_ko": "성도 베네트나슈"
+    },
+    {
+      "id": "location_can",
+      "source_ja_or_en": "ガロア大裂溝",
+      "translation_ko": "갈루아 대열곡"
+    },
+    {
+      "id": "location_cob",
+      "source_ja_or_en": "コピンの里",
+      "translation_ko": "코핀 마을"
+    },
+    {
+      "id": "location_cop",
+      "source_ja_or_en": "コピンの隠れ里",
+      "translation_ko": "코핀의 숨겨진 마을"
+    },
+    {
+      "id": "location_des",
+      "source_ja_or_en": "ディアマント城",
+      "translation_ko": "디아만트성"
+    },
+    {
+      "id": "location_dia",
+      "source_ja_or_en": "帝都ディアマント",
+      "translation_ko": "제도 디아만트"
+    },
+    {
+      "id": "location_ebu",
+      "source_ja_or_en": "エブル",
+      "translation_ko": "에블"
+    },
+    {
+      "id": "location_evt",
+      "source_ja_or_en": "ハーモニーホール",
+      "translation_ko": "하모니 홀"
+    },
+    {
+      "id": "location_ext",
+      "source_ja_or_en": "幾何回廊アルヴィス",
+      "translation_ko": "기하 회랑 알비스"
+    },
+    {
+      "id": "location_hai",
+      "source_ja_or_en": "グラ慈恵教会跡地",
+      "translation_ko": "그라 자혜교회 터"
+    },
+    {
+      "id": "location_hgu",
+      "source_ja_or_en": "天衝塔ザイフェルト",
+      "translation_ko": "천충탑 자이페르트"
+    },
+    {
+      "id": "location_hki",
+      "source_ja_or_en": "クレイデル",
+      "translation_ko": "크레이델"
+    },
+    {
+      "id": "location_hnk",
+      "source_ja_or_en": "レテアの森",
+      "translation_ko": "레테아 숲"
+    },
+    {
+      "id": "location_ise",
+      "source_ja_or_en": "エブル遺跡",
+      "translation_ko": "에블 유적"
+    },
+    {
+      "id": "location_jad",
+      "source_ja_or_en": "ジャダ",
+      "translation_ko": "자다"
+    },
+    {
+      "id": "location_kai",
+      "source_ja_or_en": "海鳴りの道",
+      "translation_ko": "해명의 길"
+    },
+    {
+      "id": "location_kal",
+      "source_ja_or_en": "元老院",
+      "translation_ko": "원로원"
+    },
+    {
+      "id": "location_kan",
+      "source_ja_or_en": "首都カルブンクルス",
+      "translation_ko": "수도 카르분쿨루스"
+    },
+    {
+      "id": "location_koo",
+      "source_ja_or_en": "レゾルベント大氷壁",
+      "translation_ko": "레졸벤트 대빙벽"
+    },
+    {
+      "id": "location_kza",
+      "source_ja_or_en": "エルゴード火山",
+      "translation_ko": "엘고드 화산"
+    },
+    {
+      "id": "location_mit",
+      "source_ja_or_en": "ナブラ密林",
+      "translation_ko": "나브라 밀림"
+    },
+    {
+      "id": "location_mse",
+      "source_ja_or_en": "旗艦パーセヴァル",
+      "translation_ko": "기함 파르세발"
+    },
+    {
+      "id": "location_ori",
+      "source_ja_or_en": "教都アントラクス",
+      "translation_ko": "교도 안트락스"
+    },
+    {
+      "id": "location_ryu",
+      "source_ja_or_en": "竜縛塔",
+      "translation_ko": "용박탑"
+    },
+    {
+      "id": "location_sba",
+      "source_ja_or_en": "フェリス",
+      "translation_ko": "펠리스"
+    },
+    {
+      "id": "location_sir",
+      "source_ja_or_en": "空中回廊ラスカーダ",
+      "translation_ko": "공중 회랑 라스카다"
+    },
+    {
+      "id": "location_syo",
+      "source_ja_or_en": "ソリトン鍾乳洞",
+      "translation_ko": "솔리톤 종유동"
+    },
+    {
+      "id": "location_tig",
+      "source_ja_or_en": "ガウス地下道",
+      "translation_ko": "가우스 지하도"
+    },
+    {
+      "id": "location_tka",
+      "source_ja_or_en": "廃都ヒルベルト",
+      "translation_ko": "폐도 힐베르트"
+    },
+    {
+      "id": "location_tou",
+      "source_ja_or_en": "マンデルロー海岸",
+      "translation_ko": "만델로 해안"
+    },
+    {
+      "id": "location_tpa",
+      "source_ja_or_en": "トパジオン",
+      "translation_ko": "토파지온"
+    },
+    {
+      "id": "location_yuk",
+      "source_ja_or_en": "オパルス",
+      "translation_ko": "오팔루스"
+    }
+  ]
+}

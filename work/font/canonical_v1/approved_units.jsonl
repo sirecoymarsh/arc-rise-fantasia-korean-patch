@@ -1,0 +1,1400 @@
+{"tm_id":"ARF-TM-054643D1672D79657755","translation_ko":"더미 아이템입니다"}
+{"tm_id":"ARF-TM-484BD8DE5990F23EE34E","translation_ko":"퀘스트용 더미 아이템"}
+{"tm_id":"ARF-TM-B48A3D5831650079B56B","translation_ko":"기타 더미 아이템"}
+{"tm_id":"ARF-TM-7791D4508422141BCC50","translation_ko":"메인 시나리오용 더미 아이템"}
+{"tm_id":"ARF-TM-0D3FD0531386B30FE6A1","translation_ko":"성지 노와레"}
+{"tm_id":"ARF-TM-3FD340AD49F56CFC9542","translation_ko":"무기"}
+{"tm_id":"ARF-TM-7C50BE886780C7DF7434","translation_ko":"<$15>01더미"}
+{"tm_id":"ARF-TM-ED02537D60D735F74193","translation_ko":"공중 회랑 베르쿠트"}
+{"tm_id":"ARF-TM-3A3CE4AFCEE212FC0B54","translation_ko":"솔리톤 종유동"}
+{"tm_id":"ARF-TM-B829402087218E87DDFF","translation_ko":"폐도 힐베르트"}
+{"tm_id":"ARF-TM-236BCEB9CF1A0A3D0839","translation_ko":"오르키나교 대신전 지하"}
+{"tm_id":"ARF-TM-5C3A62BCEE43A8CCB3DA","translation_ko":"만델로 해안"}
+{"tm_id":"ARF-TM-7AE13111F785C7D2C614","translation_ko":"레졸벤트 대빙벽"}
+{"tm_id":"ARF-TM-E3E0485834EA39954C6E","translation_ko":"용박탑"}
+{"tm_id":"ARF-TM-E75FE715D3088E7BF472","translation_ko":"오타 선생님의 작품을 읽을 수 있는 건 IE뿐!"}
+{"tm_id":"ARF-TM-6B6C5F04A739BF486FC2","translation_ko":"더미 아이템입니다."}
+{"tm_id":"ARF-TM-AB6CE78D0DF6F4AE327B","translation_ko":"해명의 길"}
+{"tm_id":"ARF-TM-E3C391FC8A18AD5FE390","translation_ko":"엘고드 화산"}
+{"tm_id":"ARF-TM-18D51C9D9C983DE174AE","translation_ko":"갈루아 대열곡"}
+{"tm_id":"ARF-TM-19DA4291DC2AAB262B44","translation_ko":"마리아를 찾는다"}
+{"tm_id":"ARF-TM-241EDF7F37B6FF8A3350","translation_ko":"순례자의 옷"}
+{"tm_id":"ARF-TM-4776C0F82EBBEB46577A","translation_ko":"공중 회랑 라스카다"}
+{"tm_id":"ARF-TM-8DDA7E5BE633433F1EE2","translation_ko":"의뢰를 완수한다"}
+{"tm_id":"ARF-TM-982262EC44FA8BB76A1C","translation_ko":"에블 유적"}
+{"tm_id":"ARF-TM-A99238FFDC8599B298F0","translation_ko":"단일 대상에게 무속성 피해"}
+{"tm_id":"ARF-TM-FD8808AA6F6B8DEC1713","translation_ko":"오르키나교를 믿는 이들이 입는\n검은 순례복. 가르침의 길은 대신전으로 이어진다"}
+{"tm_id":"ARF-TM-BD9D6FD44C2DD95E295F","translation_ko":"가우스 지하도"}
+{"tm_id":"ARF-TM-E0736047FE2FFC8625A3","translation_ko":"천충탑 자이페르트"}
+{"tm_id":"ARF-TM-0694FA14B5ECBE5E0977","translation_ko":"레테아 숲"}
+{"tm_id":"ARF-TM-28AB54BD5094BB2391A7","translation_ko":"익명의 의뢰인"}
+{"tm_id":"ARF-TM-4A0F40F8C2FB29636045","translation_ko":"범위 내 대상에게 무속성 피해"}
+{"tm_id":"ARF-TM-67D72778FFF08259F873","translation_ko":"아직 미정이네요"}
+{"tm_id":"ARF-TM-748F541E8FD236D73503","translation_ko":"검은 고양이를 좋아하는 남자"}
+{"tm_id":"ARF-TM-0727616757DBC9D4ED5B","translation_ko":"일단 비광정으로 돌아가기로 한다"}
+{"tm_id":"ARF-TM-0FFCAAAE62790F39629D","translation_ko":"지시에 따라 짐을 운반한다"}
+{"tm_id":"ARF-TM-10629629A5526813AAC0","translation_ko":"사막 지대"}
+{"tm_id":"ARF-TM-13E442A73F659A24BBB4","translation_ko":"토파지온의 농부"}
+{"tm_id":"ARF-TM-7914CB804AC57E854634","translation_ko":"토파지온 부근"}
+{"tm_id":"ARF-TM-7DB0756B9CBA666E032E","translation_ko":"<$15>01<$15>97＋１０"}
+{"tm_id":"ARF-TM-9025D3A20A3D7C1D3A43","translation_ko":"오르키나 지방"}
+{"tm_id":"ARF-TM-A0BC1833C00BA6538C0D","translation_ko":"임시로 넣어 뒀습니다"}
+{"tm_id":"ARF-TM-AC4F336EB4FDB67ACD62","translation_ko":"단일 대상에게 불 속성 피해"}
+{"tm_id":"ARF-TM-FCDABCA258E4BCB07A0C","translation_ko":"그라 자혜교회 터"}
+{"tm_id":"ARF-TM-07310D4094E0240EFD64","translation_ko":"▼ 실크햇당"}
+{"tm_id":"ARF-TM-0D3C06BEDC322F441FBF","translation_ko":"<$15>01재생 상태로 전투 시작"}
+{"tm_id":"ARF-TM-0DAB45C910DE888DAADE","translation_ko":"바트라키테스"}
+{"tm_id":"ARF-TM-130BFF528EC16A2C5583","translation_ko":"▼ 해방의 창"}
+{"tm_id":"ARF-TM-13DD613BBCB5F739C486","translation_ko":"엘고드 화산에 발을 들인다"}
+{"tm_id":"ARF-TM-15D533F09035FFEBF5FC","translation_ko":"흰색과 하늘색 바탕이며 황실과 인연이 깊은 장화.\n화려한 몸놀림이 가능해진다"}
+{"tm_id":"ARF-TM-1AA4A0778082EEE39FDC","translation_ko":"비밀 메모"}
+{"tm_id":"ARF-TM-1C86C3C58B8D9B6077C2","translation_ko":"바트라키테스 부근"}
+{"tm_id":"ARF-TM-237229F6286B3C286D53","translation_ko":"하모니 홀 관장"}
+{"tm_id":"ARF-TM-2A3AB74C6A6011815525","translation_ko":"디아만트 부근"}
+{"tm_id":"ARF-TM-2ADA92CC16ED46C944C1","translation_ko":"폐도 힐베르트에 발을 들인다"}
+{"tm_id":"ARF-TM-3357FDF2B141C9CBE83B","translation_ko":"범위 내 대상에게 바람 속성 피해"}
+{"tm_id":"ARF-TM-40C021A3622A24C336F7","translation_ko":"자다 부근"}
+{"tm_id":"ARF-TM-4489EFE25B6F854CF638","translation_ko":"<$15>01<$15>D2＋５００"}
+{"tm_id":"ARF-TM-4C6AF74155FD06163BC6","translation_ko":"호제아가 맡긴 지도를 따라"}
+{"tm_id":"ARF-TM-576E80DB4A3910C2AB00","translation_ko":"<$15>01광소술 사용 시\n일정 확률로 증폭 광소술이 발동한다"}
+{"tm_id":"ARF-TM-5BD95937FE7BA9E242EE","translation_ko":"위대한 의지를 상징하는 강철 갑옷.\n닿는 것은 부서지고, 그 티끌은 갑옷의 녹이 된다"}
+{"tm_id":"ARF-TM-62033B530975C244C0F8","translation_ko":"범위 내 대상에게 빛 속성 피해"}
+{"tm_id":"ARF-TM-769CF49224E8AB7D2ED7","translation_ko":"브리건딘"}
+{"tm_id":"ARF-TM-7983B232461623CDF50F","translation_ko":"▼ 페넬로페의 양장점"}
+{"tm_id":"ARF-TM-7F032033DC72BFF881F9","translation_ko":"카르분클루스 부근"}
+{"tm_id":"ARF-TM-803284CEC6B64575B093","translation_ko":"로열 크라코"}
+{"tm_id":"ARF-TM-809219FE308D0C76A192","translation_ko":"오타 선생님, 한창 집필 중!"}
+{"tm_id":"ARF-TM-83C71951D13C3795F22C","translation_ko":"설원 지대"}
+{"tm_id":"ARF-TM-859A2DA28A9B4A184FC5","translation_ko":"라르크를 리더로 한 파티로"}
+{"tm_id":"ARF-TM-92927B92240C175E7B1D","translation_ko":"로그레스를 찾아 세계 곳곳을 누비는 라르크 일행"}
+{"tm_id":"ARF-TM-9DA778B24B6B8D1A418F","translation_ko":"오르키나 지방 서부"}
+{"tm_id":"ARF-TM-A20DFED6AFE52F9959D1","translation_ko":"라르크 일행은 로그레스 바네투를 찾아"}
+{"tm_id":"ARF-TM-B7BA80E2A25750EAACD3","translation_ko":"디버그"}
+{"tm_id":"ARF-TM-E13995A3D7B91F78B805","translation_ko":"천충탑 자이페르트에 발을 들인다"}
+{"tm_id":"ARF-TM-E7BB824C93050A4DFC60","translation_ko":"▼ 귀부인당"}
+{"tm_id":"ARF-TM-F80B1B5CD8217643E078","translation_ko":"안경 쓴 남성"}
+{"tm_id":"ARF-TM-F98DD401916A3AFB927A","translation_ko":"솔리톤 종유동에 발을 들인다"}
+{"tm_id":"ARF-TM-FECFC4E7C08E93E9B43A","translation_ko":"자다"}
+{"tm_id":"ARF-TM-FF873AA3205A946788CC","translation_ko":"<$15>01광소술 사용 시\n대기 시간이 대폭 감소한다"}
+{"tm_id":"ARF-TM-00E1AFBAE1F93EF5B6C6","translation_ko":"제국 병사에게 지급되는 군용 권총.\n작고 가벼워 장비자는 민첩하게 움직일 수 있다"}
+{"tm_id":"ARF-TM-06356D825583F641440A","translation_ko":"신속 상태로 전투 시작"}
+{"tm_id":"ARF-TM-071D68BEB6FB178F3D55","translation_ko":"<$15>01신속 상태로 전투 시작"}
+{"tm_id":"ARF-TM-0A505382228C0BC1ED33","translation_ko":"<$15>01광소술 사용 시\n일정 확률로 MP를 소비하지 않는다"}
+{"tm_id":"ARF-TM-0B4C61A65ADA48602B72","translation_ko":"저항군 리더를 찾아"}
+{"tm_id":"ARF-TM-1307F851DD1CAB4B7A87","translation_ko":"<$15>01일정 확률로 발동하는 암 포스의\n발동 확률이 상승한다"}
+{"tm_id":"ARF-TM-155A8E82174C0DA17318","translation_ko":"<$15>01광소술로 공격 시\n일정 확률로 치명타가 발생한다"}
+{"tm_id":"ARF-TM-163031F5739BD1393682","translation_ko":"심마프가 사라졌음을 알리기 위해"}
+{"tm_id":"ARF-TM-17FAE8F174652490C912","translation_ko":"전체에게 빛 속성 피해"}
+{"tm_id":"ARF-TM-18E12A502E21AC8CABC6","translation_ko":"<$15>01<$15>92＋１５　<$15>93−１５"}
+{"tm_id":"ARF-TM-1AD8C358CA3EE9295E79","translation_ko":"▼ 사암의 무리"}
+{"tm_id":"ARF-TM-1EFC424D47C2B072ADBA","translation_ko":"<$15>01<$15>90＋５"}
+{"tm_id":"ARF-TM-209F5BE181862FAC65CD","translation_ko":"전체에게 바람 속성 피해"}
+{"tm_id":"ARF-TM-252E40CEB5327E05001A","translation_ko":"<$15>01<$15>94＋３"}
+{"tm_id":"ARF-TM-25E8ED9E8D24FE198845","translation_ko":"오독오독 씹히는 연골. 술안주로 빼놓을 수 없다"}
+{"tm_id":"ARF-TM-278D24C0C0E82EDDE746","translation_ko":"마이스터 로드"}
+{"tm_id":"ARF-TM-2B055C1F024B3584164F","translation_ko":"예비 칸"}
+{"tm_id":"ARF-TM-2C6DDB8027D623FDC186","translation_ko":"▼ 목면당"}
+{"tm_id":"ARF-TM-2DBE78EF59B2EA05317D","translation_ko":"오르키나 지방 동부"}
+{"tm_id":"ARF-TM-2DFF668A2F79C49956AF","translation_ko":"<$15>01적이 발동한 암 포스를\n일정 확률로 무효화한다"}
+{"tm_id":"ARF-TM-342A1C8CDEB40107FCF5","translation_ko":"▼ 현모당"}
+{"tm_id":"ARF-TM-346ED2B17409158D8EB7","translation_ko":"모래에 묻힌 고대 폐허를 나아가는 라르크 일행"}
+{"tm_id":"ARF-TM-347011F197B5853D8644","translation_ko":"▼ 배신당"}
+{"tm_id":"ARF-TM-357383ED6289AA3581C9","translation_ko":"동물을 좋아하는 여성"}
+{"tm_id":"ARF-TM-3617B542B47066AFBCBF","translation_ko":"<$15>01<$15>D4＋１　(기초)"}
+{"tm_id":"ARF-TM-39048A956F122D22E46D","translation_ko":"아무런 단서도 없이"}
+{"tm_id":"ARF-TM-3B91946305816FABF52F","translation_ko":"수수께끼의 마녀"}
+{"tm_id":"ARF-TM-40361E6D558AE70B7429","translation_ko":"라르크 일행은 로그레스 우르그라를 찾아"}
+{"tm_id":"ARF-TM-4204B461B60641884512","translation_ko":"<$15>01‘방어’ 성능이 상승한다"}
+{"tm_id":"ARF-TM-44C995A4F5169962BF07","translation_ko":"단일 대상의 상태 이상 회복\n자신 이외의 대상에게 발동"}
+{"tm_id":"ARF-TM-4503BD57343B07C87B02","translation_ko":"속성 내성 방어구용 1"}
+{"tm_id":"ARF-TM-4549F6850DC1D1AA2603","translation_ko":"<$15>01<$15>90＋１０"}
+{"tm_id":"ARF-TM-47E805C1E5F4ACD9223F","translation_ko":"라르크 일행은 로그레스 스쿠일을 찾아"}
+{"tm_id":"ARF-TM-48BD65C80E4526847E18","translation_ko":"에블 부근"}
+{"tm_id":"ARF-TM-48E74562A6EC1B6C7963","translation_ko":"단일 대상에게 물 속성 피해"}
+{"tm_id":"ARF-TM-4C114A7BD6DDB53BF4DF","translation_ko":"<$15>01치명타 발생 시\n주는 피해가 증가한다"}
+{"tm_id":"ARF-TM-4C918900FC4E359C0103","translation_ko":"갈루아 대열곡 부근"}
+{"tm_id":"ARF-TM-4D239B54BB719268DE31","translation_ko":"▼ 진흙의 군선"}
+{"tm_id":"ARF-TM-4DA46DD4BD593C865324","translation_ko":"적의 표적이 될 확률이 낮아진다"}
+{"tm_id":"ARF-TM-5169622D6FF4660D2D53","translation_ko":"▼ 풍명의 화살"}
+{"tm_id":"ARF-TM-56E5EF655E055F99C51E","translation_ko":"<$15>01DEF 상승 상태로 전투 시작"}
+{"tm_id":"ARF-TM-57348A111DCA77D94B66","translation_ko":"류즈"}
+{"tm_id":"ARF-TM-5921D445B87B31BC10BB","translation_ko":"에너지 블래스트"}
+{"tm_id":"ARF-TM-5D845EF1D20EEBA1C240","translation_ko":"<$15>01턴에서 첫 번째로 하는 행동의\n대기 시간이 대폭 감소한다"}
+{"tm_id":"ARF-TM-5EB5BB5129997B097705","translation_ko":"메리디아 지방"}
+{"tm_id":"ARF-TM-66CB4A8FED9FBA8AC13F","translation_ko":"재생 상태로 전투 시작"}
+{"tm_id":"ARF-TM-677D0FCECD8379D10013","translation_ko":"단일 대상에게 빛 속성 피해"}
+{"tm_id":"ARF-TM-6F1596B7EF4D81A7F909","translation_ko":"<$15>01속성 공격 성분을 강화한다"}
+{"tm_id":"ARF-TM-78F03D0FF753B3CC7EE1","translation_ko":"짐"}
+{"tm_id":"ARF-TM-79EA8F36D64C6AEF37A5","translation_ko":"사인용 보드"}
+{"tm_id":"ARF-TM-79F54425391093DD879B","translation_ko":"<$15>01단일 대상이 소지한 아이템을 훔친다"}
+{"tm_id":"ARF-TM-7D84C560C77C27F270C8","translation_ko":"오르키나교 대신전"}
+{"tm_id":"ARF-TM-8220DF2FF840FF07B191","translation_ko":"단일 대상에게 무속성 피해\n행동을 가장 빠르게 실행"}
+{"tm_id":"ARF-TM-86900066B6E3806B491A","translation_ko":"범위 내 대상에게 얼음 속성 피해"}
+{"tm_id":"ARF-TM-8813277D7057AE05FD42","translation_ko":"<$15>01단일 대상에게 SP를 넘겨준다\n자신 이외의 대상에게 발동"}
+{"tm_id":"ARF-TM-8892906EED793AF13820","translation_ko":"알스의 계획을 저지하기 위해"}
+{"tm_id":"ARF-TM-891B1155C81CFB446934","translation_ko":"전체에게 어둠 속성 피해"}
+{"tm_id":"ARF-TM-8C4D7DA5077FF27F12C7","translation_ko":"▼ 12용사"}
+{"tm_id":"ARF-TM-8FF35FD9B57461A48797","translation_ko":"<$15>01<$15>D2＋２００"}
+{"tm_id":"ARF-TM-90CF59316CF85F50C7E7","translation_ko":"단일 대상에게 땅 속성 피해"}
+{"tm_id":"ARF-TM-9531C7333234B743C76B","translation_ko":"불 내성＋４, 바람 내성＋４"}
+{"tm_id":"ARF-TM-968000DA84DBC8E36CD7","translation_ko":"야심에 찬 과학자"}
+{"tm_id":"ARF-TM-9949731CCA67F2CC15A8","translation_ko":"탑 안을 조사하는 라르크 일행"}
+{"tm_id":"ARF-TM-9C6BC53B095656FD60F7","translation_ko":"<$15>01다음 행동을 가장 빠르게 실행한다"}
+{"tm_id":"ARF-TM-9F170018AA73BD2AB1BA","translation_ko":"알스를 리더로 한 파티로"}
+{"tm_id":"ARF-TM-A2E49C70BA60254A8004","translation_ko":"<$15>01공격형 엑셀 액트로\n주는 피해가 증가한다"}
+{"tm_id":"ARF-TM-A7AF06B6C97EE2BC8557","translation_ko":"<$15>01상태 변화를 유지한다\n변동형 상태 변화에만 유효"}
+{"tm_id":"ARF-TM-A82B69D81870F21AB259","translation_ko":"베네트나슈 부근"}
+{"tm_id":"ARF-TM-A863101FF2B46F5529E9","translation_ko":"▼ 흑묘당"}
+{"tm_id":"ARF-TM-B3A37542B6282DB88C5F","translation_ko":"범위 내 대상에게 땅 속성 피해"}
+{"tm_id":"ARF-TM-B54E23A4285864760A40","translation_ko":"<$15>91＋４　<$15>93＋４　<$15>94＋１６　"}
+{"tm_id":"ARF-TM-B7DAA81C6CE6B9EF922B","translation_ko":"<$15>01LV 상승 상태로 전투 시작"}
+{"tm_id":"ARF-TM-BB000298713F27AE1C52","translation_ko":"기묘한 독지가 등이 얽힌 이야기를 넣을 예정.\n부수적으로 쿠도안느가 어디에 있는지도\n알 수 있다"}
+{"tm_id":"ARF-TM-BDA88DF955F4AB92A9B7","translation_ko":"속성 내성 방어구용 2"}
+{"tm_id":"ARF-TM-BE90F8394660D94D9FF7","translation_ko":"단일 대상에게 번개 속성 피해"}
+{"tm_id":"ARF-TM-C26885BAEA3CCA645871","translation_ko":"<$15>01중간 확률로 물리 공격 행동\n1회 전체가 치명타가 된다"}
+{"tm_id":"ARF-TM-C303E6AD4B0BFD88CC2B","translation_ko":"하트리스 캐논"}
+{"tm_id":"ARF-TM-C78B74B10F4E583CCF9E","translation_ko":"▼ 붉은 초승달"}
+{"tm_id":"ARF-TM-C7BDC415AC8F83633180","translation_ko":"자무엘 무예관의 모든 기예를 전수받은 증표.\n광소술을 강화하고 때로 적을 교란한다"}
+{"tm_id":"ARF-TM-C7ED0A9EA65E0DCE4A59","translation_ko":"아방크"}
+{"tm_id":"ARF-TM-CB547424746AEF858EAB","translation_ko":"축복 상태로 전투 시작"}
+{"tm_id":"ARF-TM-CF136EA3FBBB47371AF1","translation_ko":"<$15>01모든 행동에서\nSP 증가량이 크게 상승한다"}
+{"tm_id":"ARF-TM-CFE51EB7A9036C61CCF0","translation_ko":"귀족의 딸"}
+{"tm_id":"ARF-TM-DCE2B98D804CD7F2488A","translation_ko":"<$15>01낮은 확률로 물리 공격 행동\n1회 전체가 치명타가 된다"}
+{"tm_id":"ARF-TM-DEDB1ACBF4D382441BAA","translation_ko":"속성 내성 방어구용 3"}
+{"tm_id":"ARF-TM-E7721F45B9692C33F81E","translation_ko":"솔저 건"}
+{"tm_id":"ARF-TM-EB79A6EBDE1E07A16C4A","translation_ko":"디아만트 남쪽의 만델로 해안을 향한다"}
+{"tm_id":"ARF-TM-EBDBFEC96B6AAC121801","translation_ko":"<$15>01전투 중 회복 효과를 받을 때\n회복량이 증가한다"}
+{"tm_id":"ARF-TM-EC6629DA957FD770A081","translation_ko":"범위 내 모든 능력치 상승\n자신 주변에 발동"}
+{"tm_id":"ARF-TM-ECA129801E8A4BE2569E","translation_ko":"▼ 단절당"}
+{"tm_id":"ARF-TM-EDAADC630FA0DCBC5F43","translation_ko":"오이겐을 리더로 한 파티로"}
+{"tm_id":"ARF-TM-EDB10BA6C181E64631BA","translation_ko":"종유동 안쪽으로 나아가는 라르크 일행"}
+{"tm_id":"ARF-TM-EEDD76C1B6782DE665DC","translation_ko":"일단 토파지온 여관에서 쉬기로 한다"}
+{"tm_id":"ARF-TM-EFDBFC2FCE0D5DEEE789","translation_ko":"<$15>94＋２５５　"}
+{"tm_id":"ARF-TM-F185A41D2A3F6052B0D1","translation_ko":"엘고드 화산 분화구를 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-F52055B34E0CED78255D","translation_ko":"라르크 일행은 로그레스 파피르사그를 찾아"}
+{"tm_id":"ARF-TM-F6B56CA722681CE2A5D6","translation_ko":"<$15>01물리 피해를 받을 때\n일정 확률로 피해를 무효화한다"}
+{"tm_id":"ARF-TM-F9876B22838451F01AEE","translation_ko":"<$15>01빈사 상태일 때 소모 AP가 감소한다.\n이 효과는 ‘신속’과 중첩된다"}
+{"tm_id":"ARF-TM-FB65969E7D3508A66E95","translation_ko":"칼라일 박사를 찾아서"}
+{"tm_id":"ARF-TM-FD3560DE7EC34D63AD15","translation_ko":"속성 내성 방어구용 4"}
+{"tm_id":"ARF-TM-000493C50A2D7118D5B6","translation_ko":"잿빛 옷의 남자는 눈을 내리깔지만\n문득 마주친 눈동자가 도전적으로 번뜩인다――"}
+{"tm_id":"ARF-TM-0009788B492CDF45216B","translation_ko":"자무엘을 오이겐에게 맡긴 라르크 일행은"}
+{"tm_id":"ARF-TM-0017BC25A464A91C416E","translation_ko":"힘내는 아델"}
+{"tm_id":"ARF-TM-0017EAA9C717CB2263AE","translation_ko":"<$15>93＋７　"}
+{"tm_id":"ARF-TM-001FE5D81ED34BA2AA9B","translation_ko":"<$13>14<$1F>000046<$1F>01<$13>00로 받는 피해에\n큰 영향을 주는 수치.\n<$13>14<$1F>0000E5<$1F>01<$13>00를 장비하면\n수치가 크게 상승한다.\n또한 회복계 <$13>14<$1F>000061<$1F>01<$13>00의\n<$13>14<$1F>000003<$1F>01<$13>00 회복량에도\n영향을 준다"}
+{"tm_id":"ARF-TM-00291AD02842FE6D809F","translation_ko":"크레이델"}
+{"tm_id":"ARF-TM-002CDD208F9F28CD18A1","translation_ko":"<$13>14<$1F>000004<$1F>01<$13>00의 요소 중 하나.\n턴 시작 시 회복되는\n<$13>14<$1F>000004<$1F>01<$13>00의 수치를 나타낸다.\n일부 예외를 제외하면\n의도적으로 <$13>14<$1F>000004<$1F>01<$13>00를 남기지 않는 한\n한 턴에 사용할 수 있는\n<$13>14<$1F>000004<$1F>01<$13>00는 회복 AP 수치와 같다"}
+{"tm_id":"ARF-TM-00453D6690AF78440B3A","translation_ko":"MP 퀵 4"}
+{"tm_id":"ARF-TM-005439D62CF2DD684D6D","translation_ko":"<$13>14<$1F>00009E<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n파이어 볼텍스에서는\n추가 효과로 대상을\n<$13>14<$1F>000018<$1F>01<$13>00 상태로 만들 때가 있다"}
+{"tm_id":"ARF-TM-005D61EBE83705D80BDF","translation_ko":"<$13>14<$1F>00009F<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009F<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n웨이브 스피어에서는\n추가 효과로 대상을\n<$13>14<$1F>000032<$1F>01<$13>00 상태로\n만들 때가 있다"}
+{"tm_id":"ARF-TM-006281F719CC4D154ECE","translation_ko":"리빙 버틀러"}
+{"tm_id":"ARF-TM-0080A0A8652720608BDE","translation_ko":"속성 방어구 12"}
+{"tm_id":"ARF-TM-00835D1227DFD04AD9F7","translation_ko":"시엘의 드레스"}
+{"tm_id":"ARF-TM-008642D7B5A2BF0A81F1","translation_ko":"무예관으로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-008BE7E61AA713A96DA1","translation_ko":"언리미티드"}
+{"tm_id":"ARF-TM-00ADBC218EC98F60C0DC","translation_ko":"액턴"}
+{"tm_id":"ARF-TM-00B9C7C59B369D5EE2EB","translation_ko":"황금빛 미로"}
+{"tm_id":"ARF-TM-00BB6E0FF77508748B37","translation_ko":"<$13>14<$1F>000131<$1F>01<$13>00로\n날아오는 <$13>14<$1F>0000EA<$1F>01<$13>00 무리를 토벌하기\n위한 전투를 <$13>14<$1F>00013C<$1F>01<$13>00에서는\n용 토벌이라 부른다.\n기함을 중심으로 편성된\n공정단은 운해를 넘어\n<$13>14<$1F>0000EA<$1F>01<$13>00와 맞서, 그 무리가\n제국 수도에 닿기 전에 섬멸할\n사명을 띠고 있다"}
+{"tm_id":"ARF-TM-00E3C871C4F5D2A75094","translation_ko":"풀헤임"}
+{"tm_id":"ARF-TM-00E4D60DF79BEB307048","translation_ko":"하얀 요람"}
+{"tm_id":"ARF-TM-01147EDED5FCEBA1D2FA","translation_ko":"호제아를 둘러싼 여러 의혹의 진상을 밝히기 위해"}
+{"tm_id":"ARF-TM-0126F0D47FA0A1E36C39","translation_ko":"월반"}
+{"tm_id":"ARF-TM-013A3B386FE7A4CA3F3B","translation_ko":"포레스트 비크"}
+{"tm_id":"ARF-TM-0147E48874FF65A516DF","translation_ko":"닭 연골"}
+{"tm_id":"ARF-TM-014824EF63A32701E98C","translation_ko":"<$15>91＋２　<$15>94＋５　"}
+{"tm_id":"ARF-TM-014A49900BFF9771677D","translation_ko":"<$15>90＋５"}
+{"tm_id":"ARF-TM-0154B7F54E8B5178F563","translation_ko":"털 달린 외투"}
+{"tm_id":"ARF-TM-015D722521D3B8AD7C6B","translation_ko":"생체 코드"}
+{"tm_id":"ARF-TM-0160A08C30E855DE9622","translation_ko":"도트무늬 수영복"}
+{"tm_id":"ARF-TM-0161BC32B47D931CA4D2","translation_ko":"레이즈 윈드"}
+{"tm_id":"ARF-TM-01769333B210BE615788","translation_ko":"MGC 상승 부여"}
+{"tm_id":"ARF-TM-018C53A037D736FD2009","translation_ko":"아이언 그리브"}
+{"tm_id":"ARF-TM-0190A15C27109B09AEC7","translation_ko":"크로스 16"}
+{"tm_id":"ARF-TM-019ABE60D53A27F0D5E8","translation_ko":"코핀에게 전해진 진실"}
+{"tm_id":"ARF-TM-01A658FF23B24487B1A9","translation_ko":"슬래시 게일"}
+{"tm_id":"ARF-TM-01C5FCC6E42F89326024","translation_ko":"전투 승리 시 획득 WP가\n증가한다"}
+{"tm_id":"ARF-TM-01D1DE213E0797C72331","translation_ko":"장신구용 2"}
+{"tm_id":"ARF-TM-01E8009E3F974439EAAD","translation_ko":"이 몸의 사랑"}
+{"tm_id":"ARF-TM-01E846829CC679E2CA4E","translation_ko":"이걸로 로그레스 찾기도 한결 수월해질 것이다"}
+{"tm_id":"ARF-TM-01F54F882D6BF5DA406C","translation_ko":"<$15>91＋２０　<$15>93＋１７　"}
+{"tm_id":"ARF-TM-020256D0F80CADF853BF","translation_ko":"갑옷의 견고함과 로브의 기동성을 갖춘 한 벌.\n방어력이 대폭 오르고 저항력도 높인다"}
+{"tm_id":"ARF-TM-0204B25F29DE826A9B77","translation_ko":"궁니르"}
+{"tm_id":"ARF-TM-02125ED6AF6ECA280142","translation_ko":"<$13>14<$1F>000013<$1F>01<$13>00의 요소 중 하나.\n내성을 지니면\n속성 공격으로 받는\n피해가 감소한다"}
+{"tm_id":"ARF-TM-0214E790DF9F58E0D06D","translation_ko":"그랜드 레이지"}
+{"tm_id":"ARF-TM-021FED07608246217506","translation_ko":"아이기스의 방패"}
+{"tm_id":"ARF-TM-022CC81AC5CFAE8B6A27","translation_ko":"활력의 코드를 품은 위인의 반지.\n체력이 더욱 상승한다"}
+{"tm_id":"ARF-TM-0243F9FC22C22A41019D","translation_ko":"거석 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개"}
+{"tm_id":"ARF-TM-02447F4D844BAED1B84E","translation_ko":"레이 배니시"}
+{"tm_id":"ARF-TM-024A341CDEFABC47AC8C","translation_ko":"결정화"}
+{"tm_id":"ARF-TM-02581112A36BF5B1F4C5","translation_ko":"이매지널 세이버"}
+{"tm_id":"ARF-TM-025BFDA013E833862BA0","translation_ko":"속박 부여"}
+{"tm_id":"ARF-TM-026108A5BF2DA31A0065","translation_ko":"소녀는 추리한다"}
+{"tm_id":"ARF-TM-026C58AED0D6C7E2E849","translation_ko":"당황하는 두 사람"}
+{"tm_id":"ARF-TM-027D17DE097F7F5131E0","translation_ko":"땅 내성＋２, 바람 내성−２"}
+{"tm_id":"ARF-TM-02898A2D5E5A72AA0DCB","translation_ko":"갈루아 대열곡을 건너는 것은\n비광정이나 배 없이\n걸어서 대륙을 종단하려는 자에게\n유일한 수단이다.\n하지만 그 험난한 여정을\n견딜 수 있는 사람은 드물며\n밀항자로 보이는 이들을\n포함해 지금도 많은 유해가\n발견된다고 한다……"}
+{"tm_id":"ARF-TM-029F884DC13E9FD1E052","translation_ko":"즐겨 입는 스타일"}
+{"tm_id":"ARF-TM-02BB3DAB93B8B6BCABD0","translation_ko":"로그레스"}
+{"tm_id":"ARF-TM-02D52E59F575739CFD74","translation_ko":"원로원 출입구의 경비는 삼엄하다."}
+{"tm_id":"ARF-TM-02DBE1D0E21C289AABAA","translation_ko":"<$13>14<$1F>000107<$1F>01<$13>00에 있는\n<$13>14<$1F>000108<$1F>01<$13>00들의 거주 구역.\n잠에서 깨어난 <$13>14<$1F>000108<$1F>01<$13>00들이\n관리자가 되어 성역인\n‘<$13>14<$1F>000163<$1F>01<$13>00’을 지키고\n있다. 모든 것이 자동화된\n이 도시는 살아가기 위한 곳이라기보다\n시간을 소비하기만 하는\n장소다"}
+{"tm_id":"ARF-TM-02E0FB0403207C369CFA","translation_ko":"순도 높은 은으로 만든 고귀한 갑옷.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-02F02B0539D6C0DBFD48","translation_ko":"오팔루스 사령관 엘리엇과 면담하러"}
+{"tm_id":"ARF-TM-02F9DD06C634B8B0CD89","translation_ko":"어설트 배시"}
+{"tm_id":"ARF-TM-02FB11857AF2130053DA","translation_ko":"불세출의 소녀 탐정이 손에 든 것은\n무엇이든 사랑스러워 보이게 하는 하트형 돋보기"}
+{"tm_id":"ARF-TM-030D485B98F800A859A2","translation_ko":"<$15>90＋４　<$15>91＋５１　<$15>92＋４\n<$15>93＋３６　<$15>94＋４　"}
+{"tm_id":"ARF-TM-031A571C2F2F5771C82F","translation_ko":"코드 연구자"}
+{"tm_id":"ARF-TM-032607BF3AD3FBB2FB46","translation_ko":"콜링"}
+{"tm_id":"ARF-TM-034045E859AE77E4E44C","translation_ko":"세룰리언 슬램"}
+{"tm_id":"ARF-TM-0365F4CAA12B1C744D63","translation_ko":"선명한 초록색과 노란색이 인상적인 대검.\n소유자는 스스로를 치유하는 기술을 얻는다"}
+{"tm_id":"ARF-TM-036C1BB97EE44A094AC6","translation_ko":"제국 기함 파르세발을 뒤쫓아 바다를 달린다"}
+{"tm_id":"ARF-TM-03733B7A57AC0D19F44D","translation_ko":"흉측하게 생긴 그놈들이\n도시 밖에 우글우글하단 말일세.\n이래선 마음 놓고 낚시도 못 가.\n제대로 퇴치하고 오게!"}
+{"tm_id":"ARF-TM-038770F1133677C1AE00","translation_ko":"기지의 뿔"}
+{"tm_id":"ARF-TM-039863037DFE5492DDC7","translation_ko":"신속의 검사"}
+{"tm_id":"ARF-TM-03B10652F6D32EC10D17","translation_ko":"저항군 지도자"}
+{"tm_id":"ARF-TM-03B1C8D8FBB6BCF9DF93","translation_ko":"결판"}
+{"tm_id":"ARF-TM-03C68FDF3CDCD4D1429A","translation_ko":"트라이던트"}
+{"tm_id":"ARF-TM-03D080BBF64D2A59089C","translation_ko":"보어 스피어 소드"}
+{"tm_id":"ARF-TM-03E8459ED0A067B4B692","translation_ko":"<$15>E0＋４　<$15>E1＋４　<$15>E2＋４　<$15>E3＋４\n상태 이상과 능력치 감소를 확실히 막는다"}
+{"tm_id":"ARF-TM-03F787CE10EC4EFC85DA","translation_ko":"잘생긴 남자"}
+{"tm_id":"ARF-TM-03F8894025ACB0532120","translation_ko":"아득한 옛날의 지층에서 발굴된 흉갑.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-041146999D11BDFA0256","translation_ko":"총의 소양"}
+{"tm_id":"ARF-TM-04122C5427795533E689","translation_ko":"석화 무효"}
+{"tm_id":"ARF-TM-0428886045AB14F61B4C","translation_ko":"로브 15"}
+{"tm_id":"ARF-TM-045549E6627476464C0A","translation_ko":"자란 곳"}
+{"tm_id":"ARF-TM-045B1D56F5F1CF38546D","translation_ko":"스노우 벌처"}
+{"tm_id":"ARF-TM-0461A96D293CD77A2617","translation_ko":"세계를 아는 멋쟁이들이 즐겨 주문한다는\n카르분클루스 양장점의 특별 주문품"}
+{"tm_id":"ARF-TM-046BB7A02865D3CD795F","translation_ko":"실크 잠옷"}
+{"tm_id":"ARF-TM-046DF6F50EFB06E7A6BA","translation_ko":"아부심의 정보를 얻기 위해 제국에 점령된"}
+{"tm_id":"ARF-TM-0478B80176C6703C5058","translation_ko":"호되게 욕하기"}
+{"tm_id":"ARF-TM-048A83E76234A6B97235","translation_ko":"오토 가드"}
+{"tm_id":"ARF-TM-04B5508BF645AE5CCD91","translation_ko":"사관학교 학생들이 입는 제복.\n느슨하게 맨 타이가 경쾌한 반항미를 더한다"}
+{"tm_id":"ARF-TM-04C19004E7A8D1FF1806","translation_ko":"코핀 납치범의 일당으로 붙잡히는 사쥬."}
+{"tm_id":"ARF-TM-04CAFB2CB59FF5C15414","translation_ko":"그라"}
+{"tm_id":"ARF-TM-04D909F1464CC08685B7","translation_ko":"광소술 대기 단축"}
+{"tm_id":"ARF-TM-04FBDFF429CF151181AC","translation_ko":"속성 내성 효과를 높인다"}
+{"tm_id":"ARF-TM-0501C966EBB146C7EDD7","translation_ko":"페인 리플렉트"}
+{"tm_id":"ARF-TM-05075CCA6C6095D99DFA","translation_ko":"포트 암즈"}
+{"tm_id":"ARF-TM-050EE2280A96AE0A6336","translation_ko":"액세서리 더미 07"}
+{"tm_id":"ARF-TM-0530068BE9175F270D1F","translation_ko":"HP 상승"}
+{"tm_id":"ARF-TM-0530F2C82D4261E73E8F","translation_ko":"MP"}
+{"tm_id":"ARF-TM-0532BC8BEFADC983094F","translation_ko":"범위에 어둠 속성 피해\n추가 효과: 수면"}
+{"tm_id":"ARF-TM-055F81651594AF364017","translation_ko":"모스 시더"}
+{"tm_id":"ARF-TM-05626A8C0DECD1C666B7","translation_ko":"변덕스러운 대부호"}
+{"tm_id":"ARF-TM-05AF9AD1E14C39F5C63D","translation_ko":"두꺼운 가죽을 무두질해 만든 갑옷.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-05DDFD696E4F6830FAAF","translation_ko":"<$13>14<$1F>000064<$1F>01<$13>00의 한 종류.\n장비하면\n능력치가 상승하거나\n특수 효과를 얻을 수\n있다.\n액세서리는 장비할 수 있는\n캐릭터에 제한이 없어\n누구나 장비할 수 있다"}
+{"tm_id":"ARF-TM-05E2CCA460048F603400","translation_ko":"샤인 불릿"}
+{"tm_id":"ARF-TM-05EF7987C46AA28AD3CC","translation_ko":"엑셀 업"}
+{"tm_id":"ARF-TM-05F30C0458FD2D538D3A","translation_ko":"1000년 전 <$13>14<$1F>00010C<$1F>01<$13>00 때\n<$13>14<$1F>0000F3<$1F>01<$13>00에 오염된\n지상 세계에 남아\n<$13>14<$1F>000107<$1F>01<$13>00로\n피난하지 않았던 사람들.\n<$13>14<$1F>0000F3<$1F>01<$13>00에 적응해 지상에\n새로운 국가를 세운\n이들 현종은 독마저 극복한\n인류의 새로운 모습이다"}
+{"tm_id":"ARF-TM-0602B2BB2CD182F45808","translation_ko":"적에게서 얻는 WP 증가"}
+{"tm_id":"ARF-TM-060F83B9E2E8A8202CE0","translation_ko":"DEF 상승"}
+{"tm_id":"ARF-TM-0614A18AA9FB08C30A4D","translation_ko":"화물 운반을 부탁하고 싶다.\n디아만트 분수 앞에 있는\n배달원에게 지시를 받아라.\n\n※도중에 포기할 수 없는 퀘스트입니다"}
+{"tm_id":"ARF-TM-061B92ED1BBDC11E09F7","translation_ko":"아이들과 어른들"}
+{"tm_id":"ARF-TM-0628A81EC3E34EE2910B","translation_ko":"젊은 교주"}
+{"tm_id":"ARF-TM-063C6FCDB86C7558D174","translation_ko":"빛의 코드가 새겨진 액세서리.\n그 광채는 질병이라는 재앙을 몰아내려 한다"}
+{"tm_id":"ARF-TM-0640126D1625816BF07C","translation_ko":"달과 별 무늬로 꾸민 겨울 옷차림\n방울 장식과 각 부분의 테두리는 같은 소재"}
+{"tm_id":"ARF-TM-0641C52A81446E15C6D0","translation_ko":"바엘"}
+{"tm_id":"ARF-TM-064D3C545B135018046C","translation_ko":"제국 기병"}
+{"tm_id":"ARF-TM-064ECA9B4EC1873C2B96","translation_ko":"화물 운반 5"}
+{"tm_id":"ARF-TM-0664CAC7A2E5EF2A92AA","translation_ko":"암거"}
+{"tm_id":"ARF-TM-0684A868643B15B26ED8","translation_ko":"기이한 자연"}
+{"tm_id":"ARF-TM-068C717F3FA82E3DD9F7","translation_ko":"어스 트랩"}
+{"tm_id":"ARF-TM-068F8195CE18537E89DD","translation_ko":"토터스"}
+{"tm_id":"ARF-TM-06AAB5ABE363D0A0860F","translation_ko":"<$13>14<$1F>000043<$1F>01<$13>00의 성질이 변한\n형태. <$13>14<$1F>00004B<$1F>01<$13>00\n‘복합 공격의 소양’이\n세팅되어 있으면 복합\n공격이 된다.\n공격에는 <$13>14<$1F>00000C<$1F>01<$13>00, 방어에는\n<$13>14<$1F>00000D<$1F>01<$13>00가 영향을 미치게\n된다. 어떤 적에게도 안정적으로\n맞설 수 있는 공격 수단이다"}
+{"tm_id":"ARF-TM-06AB4BB77C2E02AD5B0A","translation_ko":"폭풍의 파편"}
+{"tm_id":"ARF-TM-06AB6988BB973484622A","translation_ko":"버그 킬러"}
+{"tm_id":"ARF-TM-06CF43FF267D236F8790","translation_ko":"<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A0<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n월윈드에서는\n추가 효과로 대상을\n<$13>14<$1F>00001A<$1F>01<$13>00 상태로 만들 수도 있다"}
+{"tm_id":"ARF-TM-06DC5490580A64F83A1A","translation_ko":"SPD 상승 상태로 전투 시작"}
+{"tm_id":"ARF-TM-06E918DD45B5A868575E","translation_ko":"DEF 상승 4"}
+{"tm_id":"ARF-TM-06EC269503EE145CC8D8","translation_ko":"‘고고’의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n1000년 전 <$13>14<$1F>00010C<$1F>01<$13>00 때\n<$13>14<$1F>0000EF<$1F>01<$13>00가 되기 위해\n코드 변환을 받았으나 실패해\n폭주하고 말았다. 이성을\n잃고도 하늘을 갈망하는\n그 모습은 그야말로 ‘고고’의\n용사라 할 수 있다"}
+{"tm_id":"ARF-TM-071363155430305CC92D","translation_ko":"※이식　성전환 2"}
+{"tm_id":"ARF-TM-0715D7BC5F2E11D98315","translation_ko":"플레이트 18"}
+{"tm_id":"ARF-TM-071F73F7AB68C4414C2D","translation_ko":"공격의 종류는 크게\n<$13>14<$1F>000042<$1F>01<$13>00과\n<$13>14<$1F>000061<$1F>01<$13>00로 주는 피해,\n두 가지로 나뉜다.\n일부 <$13>14<$1F>00004B<$1F>01<$13>00에는\n각 공격 종류에 대응하는\n효과가 있다"}
+{"tm_id":"ARF-TM-072202B4FC68542BCB76","translation_ko":"화려한 거리에서"}
+{"tm_id":"ARF-TM-072441AAB988127849F6","translation_ko":"니콜의 안내로 통신실로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-072A823B0C0843652608","translation_ko":"▼ 캐럴의 양장점"}
+{"tm_id":"ARF-TM-073CE0B386D36F0FEA57","translation_ko":"탑 입구는 자다 시내 안쪽에 있다"}
+{"tm_id":"ARF-TM-073E027CC068C38E2112","translation_ko":"투레밀리아"}
+{"tm_id":"ARF-TM-0749915353908A3D8105","translation_ko":"DEF 상승"}
+{"tm_id":"ARF-TM-076C43A594FFDE2C9BBE","translation_ko":"<$15>91＋１２　"}
+{"tm_id":"ARF-TM-076C6F0A3196588774B3","translation_ko":"명령을 받고 일단 디아만트로 돌아가기로"}
+{"tm_id":"ARF-TM-0778CA42B32F67D2B600","translation_ko":"칼라일 박사의 정보를 얻기 위해"}
+{"tm_id":"ARF-TM-07944E3991AF0B577B09","translation_ko":"HP 상승 3"}
+{"tm_id":"ARF-TM-07AE118A99B45FA90D92","translation_ko":"<$13>14<$1F>0000A4<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n적 단일 대상에게 물과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n스파크 볼트에서는\n추가 효과로\n대상을 <$13>14<$1F>000020<$1F>01<$13>00 상태로\n만들 수도 있다"}
+{"tm_id":"ARF-TM-07C3C26A423AF2143B1D","translation_ko":"교단 신병"}
+{"tm_id":"ARF-TM-07CD71163F67C8F75DA9","translation_ko":"아이템을 아주 쉽게 얻을 수 있게 된다"}
+{"tm_id":"ARF-TM-07D79B7F2945E36DD871","translation_ko":"HP가 상승한다"}
+{"tm_id":"ARF-TM-07E97964C5809D5AE2B8","translation_ko":"<$13>03칼리스토<$13>00 1마리 토벌"}
+{"tm_id":"ARF-TM-07F0B5699B46A49C44E3","translation_ko":"디노스의 충의"}
+{"tm_id":"ARF-TM-07F9DB4CB9FE60995596","translation_ko":"전투 승리 시\n아이템 획득 확률이 상승한다"}
+{"tm_id":"ARF-TM-07FDBD3B61A2B266CD66","translation_ko":"리퀴드 하울"}
+{"tm_id":"ARF-TM-0806D315261E4E8A2DFD","translation_ko":"제국군이 제식으로 채택한 상의.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-080CDF4DCD736FB09923","translation_ko":"딥 프로스트"}
+{"tm_id":"ARF-TM-081348F96D33E05F424C","translation_ko":"속성 공격 성분을 강화한다"}
+{"tm_id":"ARF-TM-081660AA7E615F827E24","translation_ko":"해충 퇴치"}
+{"tm_id":"ARF-TM-082153E3E2A60FE7AA13","translation_ko":"빈사 상태일 때 소모 AP가 감소한다.\n이 효과는 ‘신속’과 중첩된다"}
+{"tm_id":"ARF-TM-0821AAD5EAE8446294C7","translation_ko":"하늘 위에 있다고 전해지는\n<$13>14<$1F>0000FF<$1F>01<$13>00의 신전.\n1000년 전 <$13>14<$1F>00010C<$1F>01<$13>00로 인해\n지상에서 추방된\n<$13>14<$1F>000108<$1F>01<$13>00들이 ‘<$13>14<$1F>000160<$1F>01<$13>00’라\n불리는 코드에 의해\n깊은 잠에 빠져 있다"}
+{"tm_id":"ARF-TM-08516242A92AE53171D6","translation_ko":"<$15>E0＋２　<$15>E3＋２\n수면 상태를 일정 확률로 막는다"}
+{"tm_id":"ARF-TM-0860C56B586D3DB6ED0B","translation_ko":"<$13>14<$1F>00009D<$1F>01<$13>00에 대한 저항력을\n나타내는 수치. <$13>14<$1F>000014<$1F>01<$13>00와 <$13>14<$1F>000015<$1F>01<$13>00로\n나뉘며 각각\n8단계가 존재한다.\n또한 여러 속성을 가진\n<$13>14<$1F>000000<$1F>01<$13>00에 대해서는 서로의\n효과가 뒤섞이기 때문에\n속성의 영향량이 작아진다"}
+{"tm_id":"ARF-TM-086998ADB63035476C85","translation_ko":"단일 대상의 DEF 상승"}
+{"tm_id":"ARF-TM-087719A7EA22EBD7693F","translation_ko":"자가 수복"}
+{"tm_id":"ARF-TM-087C24B4AB1731105F77","translation_ko":"제3의 섭리"}
+{"tm_id":"ARF-TM-08A8DA0955E58677E410","translation_ko":"디아만트로 돌아온 라르크 일행은"}
+{"tm_id":"ARF-TM-08DC2D7AD166AF9F19F0","translation_ko":"오르키나교"}
+{"tm_id":"ARF-TM-08E3DA48D8473954575F","translation_ko":"레벨 4 MP 완전 회복"}
+{"tm_id":"ARF-TM-08FA0164B67BFD9AFAD9","translation_ko":"맨이터"}
+{"tm_id":"ARF-TM-0915AA3E7F56DBB1A852","translation_ko":"격이 다르다"}
+{"tm_id":"ARF-TM-093B5087770E44A475DB","translation_ko":"돌아가면 어떻게 할 거야?"}
+{"tm_id":"ARF-TM-093BB71F9DBBEC79D6DB","translation_ko":"윈드 슬라이서"}
+{"tm_id":"ARF-TM-095887C951A541052E0D","translation_ko":"<$15>E3＋８"}
+{"tm_id":"ARF-TM-096C85E9D55EE3394326","translation_ko":"설희 계획"}
+{"tm_id":"ARF-TM-0976F69E03304516EC70","translation_ko":"지혜의 코드를 품은 현자의 반지.\n저항력을 희생해 광소술을 더욱 강화한다"}
+{"tm_id":"ARF-TM-09A6453609F8B1DA7B74","translation_ko":"지맥의 레이에 감응하는 자색 번개의 장검.\n그 일격은 간혹 적의 광소술을 약화시킨다"}
+{"tm_id":"ARF-TM-09AA1045EBB53B0687A1","translation_ko":"불굴의 대검"}
+{"tm_id":"ARF-TM-09C00A590D9F20300D75","translation_ko":"액세서리 더미 10"}
+{"tm_id":"ARF-TM-09E4B81EF0612D458B59","translation_ko":"풀 케어"}
+{"tm_id":"ARF-TM-09E5298770C8FDE37976","translation_ko":"대신 맞기"}
+{"tm_id":"ARF-TM-09E676C07E91941295EB","translation_ko":"그리브 16"}
+{"tm_id":"ARF-TM-09E94839DA3062AC2383","translation_ko":"메인 더미 20"}
+{"tm_id":"ARF-TM-0A004A68EBF1BA1338F5","translation_ko":"알스의 당혹감"}
+{"tm_id":"ARF-TM-0A0111FA11B063DD10A6","translation_ko":"행운의 새싹"}
+{"tm_id":"ARF-TM-0A0466BE0D6B71149ACE","translation_ko":"석화 상태를 일정 확률로 막는다"}
+{"tm_id":"ARF-TM-0A0F1A3FD6325FF1CAFB","translation_ko":"힐 스트림"}
+{"tm_id":"ARF-TM-0A263323F7FDD0AC8741","translation_ko":"안티 포스"}
+{"tm_id":"ARF-TM-0A3013989357A248C3D6","translation_ko":"모든 능력치가 감소하는 대신\n회복 AP가 상승한다"}
+{"tm_id":"ARF-TM-0A4AA5987C669BB5763D","translation_ko":"이류 셰프"}
+{"tm_id":"ARF-TM-0A741C8156DBC747B752","translation_ko":"아이시클"}
+{"tm_id":"ARF-TM-0A8645056E1969B2EABD","translation_ko":"불꽃 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개"}
+{"tm_id":"ARF-TM-0A9296DE3CB3CB401E89","translation_ko":"다음 목적지로"}
+{"tm_id":"ARF-TM-0ABD83ED0269C422A323","translation_ko":"옵시디언"}
+{"tm_id":"ARF-TM-0AC73106A49CA75C52D5","translation_ko":"소모품 더미 27"}
+{"tm_id":"ARF-TM-0ACB7DF6B3C0D5BE43C2","translation_ko":"<$15>01ATK 상승 상태로 전투 시작"}
+{"tm_id":"ARF-TM-0ACDAA7F245DF58EA2A0","translation_ko":"리피아를 찾아 디아만트를 헤맨다"}
+{"tm_id":"ARF-TM-0AD79E1E57466A5B634E","translation_ko":"HP를 중간 회복"}
+{"tm_id":"ARF-TM-0AEABC419A302A037A4E","translation_ko":"메일 브레이커"}
+{"tm_id":"ARF-TM-0AF5F76772EEC57D011F","translation_ko":"호존의 무효화"}
+{"tm_id":"ARF-TM-0B03A290D7BA86C5EBCB","translation_ko":"공화국의 정치를 좀먹는\n암살 집단――<$13>14<$1F>000115<$1F>01<$13>00.\n그 정체는 교단 호위대\n<$13>14<$1F>000156<$1F>01<$13>00였다.\n귀류법에 따라 때로는 암살\n조차 허용되는 <$13>14<$1F>000115<$1F>01<$13>00의\n존재야말로 공화국의 왜곡\n그 자체다"}
+{"tm_id":"ARF-TM-0B0C648F4CA992F68758","translation_ko":"은빛으로 마감한 화려한 건틀릿.\n어떻게든 필살기를 쓰고 싶은 이에게 추천"}
+{"tm_id":"ARF-TM-0B2636FF274629B2C91D","translation_ko":"호제아에게 돕겠다고 나서는 라르크."}
+{"tm_id":"ARF-TM-0B28CDE64634A1AAC8BF","translation_ko":"단일 대상에게 물리 무효 효과"}
+{"tm_id":"ARF-TM-0B4E8E44A79267455A73","translation_ko":"<$15>91＋１０　<$15>93＋１０　\n능력치 감소 효과를 확실히 막는다"}
+{"tm_id":"ARF-TM-0B5B2CFB03FEC54A2190","translation_ko":"입만 열면――"}
+{"tm_id":"ARF-TM-0B682951FE3F357B1F69","translation_ko":"마비 상태를 일정 확률로 막는다"}
+{"tm_id":"ARF-TM-0B746C270C793B175263","translation_ko":"케이프"}
+{"tm_id":"ARF-TM-0B7D3ABEF94832525BEC","translation_ko":"<$15>91＋１９　<$15>93＋１３　"}
+{"tm_id":"ARF-TM-0B823E8CA10E6BD6AAA7","translation_ko":"사쥬는 지금"}
+{"tm_id":"ARF-TM-0B92DBDF990A7158A618","translation_ko":"몬스터의 생태를 대신\n조사해 줬으면 한다.\n30종 정도면 된다.\n도감을 소지한 상태로 전투하면\n기록될 것이다.\n\n※도중에 포기할 수 없는 퀘스트입니다"}
+{"tm_id":"ARF-TM-0B94118A4E201BA53665","translation_ko":"레벨 3 MP 소량 회복"}
+{"tm_id":"ARF-TM-0B999F8EB931F636A66C","translation_ko":"능력치 감소 효과를 무효화한다"}
+{"tm_id":"ARF-TM-0B99E65608FD53EFCD22","translation_ko":"온통 붉은 버섯.\n강렬한 냄새를 풍긴다"}
+{"tm_id":"ARF-TM-0BAB47656A8F6201B930","translation_ko":"칭찬하는 니콜"}
+{"tm_id":"ARF-TM-0BB91AB1E99DD87B46AC","translation_ko":"희귀 코핀"}
+{"tm_id":"ARF-TM-0BC0A2E923D29C7DD59A","translation_ko":"용재해"}
+{"tm_id":"ARF-TM-0BC56C1A989E6659E829","translation_ko":"물리 공격 시 땅 속성 성분을 부여한다"}
+{"tm_id":"ARF-TM-0BCD05E25B9D96C40BD0","translation_ko":"여행의 끝"}
+{"tm_id":"ARF-TM-0BE054C4A9057FD745D1","translation_ko":"도주 확률 상승"}
+{"tm_id":"ARF-TM-0BE37C43E45B592BEC1A","translation_ko":"호제아를 만나러 가는 라르크 일행"}
+{"tm_id":"ARF-TM-0C02A9E72BB131690440","translation_ko":"매도"}
+{"tm_id":"ARF-TM-0C141D58417F045E2776","translation_ko":"프리징 레이"}
+{"tm_id":"ARF-TM-0C221AB68678076F303B","translation_ko":"물리 공격 시 곤충계에게 주는\n피해가 크게 증가한다"}
+{"tm_id":"ARF-TM-0C22F5B650F54D4EDAEC","translation_ko":"알스의 치세"}
+{"tm_id":"ARF-TM-0C25C43FD6F7C7A144A1","translation_ko":"※컷, 세실과 리피아"}
+{"tm_id":"ARF-TM-0C539F292B6620F21263","translation_ko":"플래시 라이드"}
+{"tm_id":"ARF-TM-0C5ECACEA7A7896ED197","translation_ko":"전투 승리 시 획득 WP가\n증가하지만 EXP는 획득할 수 없다"}
+{"tm_id":"ARF-TM-0C6031F92E1FD68B16CB","translation_ko":"복합 속성"}
+{"tm_id":"ARF-TM-0C8244A078DEDD4FFC7D","translation_ko":"RES 상승 4"}
+{"tm_id":"ARF-TM-0C895DF2C3F6950183C2","translation_ko":"커다란 새님"}
+{"tm_id":"ARF-TM-0C97C9D00ED3AE125A6E","translation_ko":"어느 부호가 절세를 위해 만든 검.\n소지자의 운을 한껏 끌어올린다"}
+{"tm_id":"ARF-TM-0C97CEB190FA800B2E3B","translation_ko":"<$15>01광소술을 받을 때\n일정 확률로 광소술을 무효화한다"}
+{"tm_id":"ARF-TM-0CA5EAA38BA595088402","translation_ko":"<$15>E3＋２"}
+{"tm_id":"ARF-TM-0CB0791FD754FD40D6BC","translation_ko":"물총"}
+{"tm_id":"ARF-TM-0CB24F7E05F75417267A","translation_ko":"영원성에 대한 동경"}
+{"tm_id":"ARF-TM-0CB66D776F7C56A0ADEB","translation_ko":"소모품 더미 28"}
+{"tm_id":"ARF-TM-0CD363EF61B4CFDB9C79","translation_ko":"그 어느 나라 코더의 옷과도 다른 홍련의 차림은\n활활 타오르는 불꽃을 연상시킨다"}
+{"tm_id":"ARF-TM-0CF04825631AD91A847E","translation_ko":"일단 코핀 마을을 향하기로 한다"}
+{"tm_id":"ARF-TM-0D16DCB8BD99A0D07CE1","translation_ko":"포스 업＋"}
+{"tm_id":"ARF-TM-0D1BC450F8F2CA64C8FD","translation_ko":"<$13>02모스의 인분<$13>00 3개 납품"}
+{"tm_id":"ARF-TM-0D29DD1D480E9BC2A589","translation_ko":"<$13>03오크아이<$13>00 10마리 토벌"}
+{"tm_id":"ARF-TM-0D4E9E7B16A518D4A3C9","translation_ko":"하데스"}
+{"tm_id":"ARF-TM-0D5369FD76B9FA1204EA","translation_ko":"의문의 잠행복"}
+{"tm_id":"ARF-TM-0D5E0C6DF7D0E0F934CA","translation_ko":"화물 운반을 부탁하고 싶다.\n토파지온에 있는\n배달원에게 지시를 받아라.\n\n※도중에 포기할 수 없는 퀘스트입니다"}
+{"tm_id":"ARF-TM-0D754BF719AF603EC6B6","translation_ko":"지배의 침묵"}
+{"tm_id":"ARF-TM-0D84779B1E25040C9686","translation_ko":"※이식　정장 1"}
+{"tm_id":"ARF-TM-0D99622D73517948199D","translation_ko":"프랭탕"}
+{"tm_id":"ARF-TM-0DA7B99762309E524DD6","translation_ko":"단일 대상의 불 내성 상승"}
+{"tm_id":"ARF-TM-0DAA40555199410B7E6A","translation_ko":"합류한 동료들에 레슬리까지 가세해"}
+{"tm_id":"ARF-TM-0DCB0A9626EA15A71329","translation_ko":"용박탑"}
+{"tm_id":"ARF-TM-0DCBC231D69E7F04304C","translation_ko":"메리디아 황가"}
+{"tm_id":"ARF-TM-0DD1414A1D12041AF525","translation_ko":"<$13>14<$1F>0000E8<$1F>01<$13>00의 남서쪽에 펼쳐진\n삭막한 사막. 그곳의 유일한\n취락이 펠리스다.\n과거 이 사막에는 여러\n문명이 번영했다는\n기록도 남아 있지만\n이제 사람이 사는 곳은\n펠리스뿐이다"}
+{"tm_id":"ARF-TM-0DD8C329303EEDABC328","translation_ko":"범위 내 대상의 HP를 중간 회복\n자신의 주위에 발동"}
+{"tm_id":"ARF-TM-0E0488635FC47A01D0CA","translation_ko":"레벨 3 MP 완전 회복"}
+{"tm_id":"ARF-TM-0E0F7CEDB1EA1B1C5091","translation_ko":"원로원 의원"}
+{"tm_id":"ARF-TM-0E14F744D83A2B5BAB60","translation_ko":"반역자 니콜"}
+{"tm_id":"ARF-TM-0E19217A4960E99A4388","translation_ko":"가진"}
+{"tm_id":"ARF-TM-0E204E4540ACDF9D86E7","translation_ko":"하얀 요람-개"}
+{"tm_id":"ARF-TM-0E22290860302E2E84B5","translation_ko":"LUK 상승"}
+{"tm_id":"ARF-TM-0E2A1A78D2BF016FE468","translation_ko":"남성용으로 재단한 정장이\n가녀린 몸을 감싸면 뜻밖의 효과가 생긴다"}
+{"tm_id":"ARF-TM-0E2D3EFA717AD326A162","translation_ko":"기타 더미 20"}
+{"tm_id":"ARF-TM-0E33D7BB654CB47B20AC","translation_ko":"불의 부적"}
+{"tm_id":"ARF-TM-0E48375158217C9FE256","translation_ko":"호존 2"}
+{"tm_id":"ARF-TM-0E54918DFFB6B58556AB","translation_ko":"수호의 긍지"}
+{"tm_id":"ARF-TM-0E597C451DD7BC818202","translation_ko":"행운의 선택"}
+{"tm_id":"ARF-TM-0E65600938687ADE5279","translation_ko":"<$15>E1＋２"}
+{"tm_id":"ARF-TM-0E793DEE2F1709FFCAF8","translation_ko":"마법 생물 특공"}
+{"tm_id":"ARF-TM-0E91269FECB6A5D67551","translation_ko":"옛 전장"}
+{"tm_id":"ARF-TM-0E9F771113FD0634EF9F","translation_ko":"러너 링"}
+{"tm_id":"ARF-TM-0EBE8DA76A25B329C6F8","translation_ko":"전투 참가자를 선택하는\n필드 메뉴\n『전투 설정』의 항목이다.\n메인 메뉴에서의 편성과\n달리 캐릭터의\n세부 능력치를 확인\n하면서 파티를 편성할\n수 있다"}
+{"tm_id":"ARF-TM-0EC95134B24777391DDE","translation_ko":"햇살에 빛나는 수면, 감청빛 하늘을\n떠올리게 하는 푸른빛이 소녀를 부드럽게 감싼다"}
+{"tm_id":"ARF-TM-0ECE36C518603A3F1795","translation_ko":"메인 더미 26"}
+{"tm_id":"ARF-TM-0ED3B645AB24C5020531","translation_ko":"『기지』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n노와레 12용사 중\n가장 뛰어난 두뇌를 지닌\n쿠도안느는 스스로를\n코드로 변환한 뒤\n역사의 무대에서 홀연히\n자취를 감추었다.\n그 이유는 수수께끼다"}
+{"tm_id":"ARF-TM-0EE548963AE51A24866B","translation_ko":"<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터가 <$13>14<$1F>000046<$1F>01<$13>00로\n받는 피해가 감소한다.\n<$13>14<$1F>00002B<$1F>01<$13>00 상태일 때\nRES 상승 효과를 더하면\n<$13>14<$1F>00002B<$1F>01<$13>00 효과를\n약화시키거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다"}
+{"tm_id":"ARF-TM-0EF0CB45BE5EE29104A7","translation_ko":"상태 이상을 확실히 방지한다"}
+{"tm_id":"ARF-TM-0EF304B6FEAE6E8BB6AF","translation_ko":"경금속을 여러 겹 포개 만든 갑옷.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-0F05A56E75D2F42FE7D3","translation_ko":"라이트닝"}
+{"tm_id":"ARF-TM-0F07AC21C2539E669C45","translation_ko":"회복 AP"}
+{"tm_id":"ARF-TM-0F148DEA787A4627E5DD","translation_ko":"카른웨난"}
+{"tm_id":"ARF-TM-0F399F7A0079683EDF7F","translation_ko":"힐"}
+{"tm_id":"ARF-TM-0F525BBB6E9125807BA4","translation_ko":"불 속성 부여＋"}
+{"tm_id":"ARF-TM-0F5A81326D72CDA96DDC","translation_ko":"직사각형 모양의 황금빛 대검.\n그 칼날은 승리자에게 더 많은 경험치를 준다"}
+{"tm_id":"ARF-TM-0F7389994E86CDD71714","translation_ko":"상태 이상 내성"}
+{"tm_id":"ARF-TM-0F798E55910DDD61CE68","translation_ko":"활기찬 학원을 지켜보는 녹음에는\n늘 애정을 쏟는 정원사의 손길이 닿아 있다"}
+{"tm_id":"ARF-TM-0F88B0297FEA19A613B4","translation_ko":"범생이＆풋내기?"}
+{"tm_id":"ARF-TM-0F8A92D852B411BCADCA","translation_ko":"타락의 노래"}
+{"tm_id":"ARF-TM-0FBE3C091D88B9890718","translation_ko":"로그레스 루훙가가 토파지온 동쪽 해안에"}
+{"tm_id":"ARF-TM-0FC6E6BCE2CB2F780C28","translation_ko":"<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터의 땅 <$13>14<$1F>000014<$1F>01<$13>00을\n상승시킨다.\n<$13>14<$1F>000038<$1F>01<$13>00 상태일 때\n땅 내성 상승 효과를 더하면\n<$13>14<$1F>000038<$1F>01<$13>00 효과를\n약화시키거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다"}
+{"tm_id":"ARF-TM-0FE86AE1BCD5F21DE06E","translation_ko":"이스칸다르"}
+{"tm_id":"ARF-TM-0FF48823E259A08133C4","translation_ko":"<$13>14<$1F>0000F3<$1F>01<$13>00이 만연한 지상\n세계에서 <$13>14<$1F>000108<$1F>01<$13>00들이\n<$13>14<$1F>00010E<$1F>01<$13>00을 착용하지\n않으면 죽는 것과 마찬가지로\n<$13>14<$1F>0000F3<$1F>01<$13>00이 완전히 제거된\n<$13>14<$1F>000107<$1F>01<$13>00에서는\n<$13>14<$1F>000109<$1F>01<$13>00은 <$13>14<$1F>00010E<$1F>01<$13>00을\n착용하지 않으면\n죽고 만다"}
+{"tm_id":"ARF-TM-1027EFB61FF951A7EA66","translation_ko":"<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n디스트럭션에서는\n추가 효과로 대상을\n<$13>14<$1F>00002D<$1F>01<$13>00 상태로\n만들기도 한다"}
+{"tm_id":"ARF-TM-1032B4204FFB3C642EF9","translation_ko":"<$13>14<$1F>000013<$1F>01<$13>00의 요소 중 하나.\n약점이 생기면\n속성 공격으로 받는\n피해가 커진다"}
+{"tm_id":"ARF-TM-1059A0ABC87BF86E2124","translation_ko":"슬립 매그넘"}
+{"tm_id":"ARF-TM-105E4D187D7BD778D67C","translation_ko":"<$15>E0＋２　<$15>E2＋２\n질병 상태를 일정 확률로 방지한다"}
+{"tm_id":"ARF-TM-108EE2A09F04BE8A8794","translation_ko":"카츠발게르"}
+{"tm_id":"ARF-TM-10958DD05013EF556F03","translation_ko":"물 속성 내성"}
+{"tm_id":"ARF-TM-10C351E1321FC7475313","translation_ko":"흰 가운은 몸의 선이 드러난 옷을 감추고\n붉은 테 안경에는 앳됨과 기지가 깃든다"}
+{"tm_id":"ARF-TM-10EAEE63B67BE01B0A41","translation_ko":"소모품 더미 15"}
+{"tm_id":"ARF-TM-10EBCEEA642E67490BA2","translation_ko":"레스트 바인드"}
+{"tm_id":"ARF-TM-10F58E17E8EC70496088","translation_ko":"퀘스트 아이템"}
+{"tm_id":"ARF-TM-10F90D6532F6C6FC903A","translation_ko":"코드 디스크"}
+{"tm_id":"ARF-TM-1122BA683ED6AEEEFAE6","translation_ko":"로그레스를 계속 찾기 위해 라르크 일행은"}
+{"tm_id":"ARF-TM-11430E9EC0B225ECB18B","translation_ko":"소년을 위해 마련된 정장이지만\n소녀가 입으면 예상 밖의 효과가 생긴다"}
+{"tm_id":"ARF-TM-114356502E679B8E90CE","translation_ko":"용박탑 안으로 피신한 라르크 일행은"}
+{"tm_id":"ARF-TM-11590130437DA9DFB359","translation_ko":"훔치기"}
+{"tm_id":"ARF-TM-115905686D49D5428B39","translation_ko":"레스트 시크"}
+{"tm_id":"ARF-TM-115BD95B39857E74F414","translation_ko":"라르크 공략"}
+{"tm_id":"ARF-TM-116C78535CD7D7C5AE56","translation_ko":"소모품 더미 14"}
+{"tm_id":"ARF-TM-116DC3BBAFCF3D55D11A","translation_ko":"비율 피해로 받는 피해량을 줄인다"}
+{"tm_id":"ARF-TM-1171C66B94E2D574EFEB","translation_ko":"감싸기"}
+{"tm_id":"ARF-TM-1182B3250AA8D69A1B01","translation_ko":"황태자의 외투"}
+{"tm_id":"ARF-TM-118EB9506367E2C3A6E2","translation_ko":"적대심"}
+{"tm_id":"ARF-TM-11A363BA32069D772367","translation_ko":"버서커"}
+{"tm_id":"ARF-TM-11D1C09173977ACE4658","translation_ko":"레테아 숲은 비경이라\n불리는 만큼 수수께끼도 많다.\n옛날 아이가 숲에서 길을 잃고\n<$13>14<$1F>000093<$1F>01<$13>00에게 습격당할 뻔했을\n때 기묘한 생물에게\n구원받았다는 전설이\n있어, <$13>14<$1F>000134<$1F>01<$13>00의 사람들도 숲을 아끼며\n함부로 나무를\n베어 내지 않는다"}
+{"tm_id":"ARF-TM-11D591A8999B1FECAE9B","translation_ko":"이름 그대로 적 전체를\n한 번에 공격할 수 있는\n<$13>14<$1F>00004B<$1F>01<$13>00이다.\n<$13>14<$1F>000004<$1F>01<$13>00 효율은 나쁘지만\n그 외의 비용은 들지\n않고 짧은 대기 시간에\n한꺼번에 공격할 수 있다는\n장점이 있다. 대량 사냥에\n제격일 것이다"}
+{"tm_id":"ARF-TM-11DFE579A435654B6FAB","translation_ko":"황혼 코핀　웃는 이유"}
+{"tm_id":"ARF-TM-11F14D44D62ECBF3B8BC","translation_ko":"천에 물든 붉은 꽃은 흰 허벅지를 가리고\n머리에 단 꽃은 여인의 미모를 환히 빛낸다"}
+{"tm_id":"ARF-TM-11FEDC025C1FEAE22F49","translation_ko":"퀘스트 26"}
+{"tm_id":"ARF-TM-121B7281A7EA4CE3FE5C","translation_ko":"크레이델로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-12233E2E65DCA7A05DDB","translation_ko":"엄청나게 큰 뿔을 갖고 싶어!\n집에 장식하고 자랑할 거야!\n종유동에 거대한 몬스터가 나타났대!"}
+{"tm_id":"ARF-TM-122E0077C161CB45E25D","translation_ko":"긴 자루와 구멍 난 칼날이 특징인 대검.\n그 칼날은 잠시 주인의 움직임을 빠르게 한다"}
+{"tm_id":"ARF-TM-122F9EA4B746BDB029AF","translation_ko":"『고고』의 로고스를 품은 로그레스"}
+{"tm_id":"ARF-TM-124622C529AA889A24FB","translation_ko":"<$15>01물리 공격 시\n일정 확률로 DEF 하락 상태로 만든다"}
+{"tm_id":"ARF-TM-124BA50FA776DE8E95C5","translation_ko":"<$13>14<$1F>000152<$1F>01<$13>00 의회에 소속된\n유망한 의원들이\n잇달아 비명횡사한 사건.\n시신에 남은\n가느다란 장검이 낸 듯한\n잔혹한 상처에는\n일종의 경고가 담겼다고\n추정되지만 확실하지는\n않다"}
+{"tm_id":"ARF-TM-1256FBB5671C390F4F93","translation_ko":"강한 척하는 세실"}
+{"tm_id":"ARF-TM-126146A05EBA06AA664C","translation_ko":"밴시"}
+{"tm_id":"ARF-TM-12698AA937C6F943FB7D","translation_ko":"서둘러 달려가는 라르크 일행"}
+{"tm_id":"ARF-TM-126FF7BEBDC9BAED22E8","translation_ko":"기타 더미 17"}
+{"tm_id":"ARF-TM-12704BBD74D9447FA66C","translation_ko":"망자의 군대가 평화 회담을 습격한다."}
+{"tm_id":"ARF-TM-127B04AFDD9DB4CD78A4","translation_ko":"빛 속성"}
+{"tm_id":"ARF-TM-127D4799B4E98AAE5EEA","translation_ko":"갖고 있다는 걸 잊을 만큼 초경량인 총.\n사용자의 민첩성을 크게 높인다"}
+{"tm_id":"ARF-TM-128E3BE1D3DA431757C5","translation_ko":"디스펠"}
+{"tm_id":"ARF-TM-128F026C2C49CBFBC851","translation_ko":"첫인상은 쿨하지만 속은 응석받이.\n위기 때 아이템을 사용해 준다"}
+{"tm_id":"ARF-TM-12AC86F8C90B887D9C0C","translation_ko":"크랙"}
+{"tm_id":"ARF-TM-12C1D042F2C611F18D8F","translation_ko":"척 봐도 학자가 쓸 법한 안경.\n몬스터의 생태를 간파할 수 있을 것 같다"}
+{"tm_id":"ARF-TM-12EA059BE74D2E392D1C","translation_ko":"체인 15"}
+{"tm_id":"ARF-TM-12FD330D3B6A0D1DCEC4","translation_ko":"그녀에게 무슨 일이 일어난 걸까……"}
+{"tm_id":"ARF-TM-1300EDBF79DDB3ED3701","translation_ko":"미니드라"}
+{"tm_id":"ARF-TM-130EEFEAB9A99AC93331","translation_ko":"가이아 프리즌"}
+{"tm_id":"ARF-TM-13107C24E99D2E857C3C","translation_ko":"『참수』를 뜻하는 예리한 칼날.\n소지자의 기척을 숨기고 적을 노리게 한다"}
+{"tm_id":"ARF-TM-131333215ED76225A024","translation_ko":"리피아가 자신을 소개할 때 쓰는 말.\n완전히 억지로 시킨 티를\n지울 수 없지만 의외로 본인은\n마음에 드는 모양이다.\n질린다고 여길 수도\n있겠지만 정의의 편은\n탈옥 같은 짓은 하지 않는다"}
+{"tm_id":"ARF-TM-1327A4CAEBFBAE151358","translation_ko":"그랑 블루"}
+{"tm_id":"ARF-TM-132D0F6CF5A29D211AA9","translation_ko":"히메"}
+{"tm_id":"ARF-TM-13910BE2944C06458DC8","translation_ko":"탁룡 강하"}
+{"tm_id":"ARF-TM-13B61BFD74677F8D77F1","translation_ko":"<$13>03레모라<$13>00 1마리 토벌"}
+{"tm_id":"ARF-TM-13B789D7DC0116D443A0","translation_ko":"『용맹』의 로고스를 품은 로그레스"}
+{"tm_id":"ARF-TM-13E43D881574533035DD","translation_ko":"를 만나기 위해 원로원 회의실로 향한다"}
+{"tm_id":"ARF-TM-13EFBA8AAD2703A5CE90","translation_ko":"범위 내 대상에게 어둠 속성 피해\n추가 효과: 상태 변화 해제"}
+{"tm_id":"ARF-TM-1414E07CDEB99289CCF5","translation_ko":"그라 자혜교회 터로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-1427DF1241956AFA3805","translation_ko":"원로원에 보고하러 돌아가는 라르크 일행"}
+{"tm_id":"ARF-TM-1429982D8A448F237D91","translation_ko":"토파즈"}
+{"tm_id":"ARF-TM-142B11BDFC19D0A404FF","translation_ko":"로리타복"}
+{"tm_id":"ARF-TM-14360843F3C7B0EA2BAF","translation_ko":"SPD"}
+{"tm_id":"ARF-TM-1436D453440D360E9AF7","translation_ko":"소일 스태프"}
+{"tm_id":"ARF-TM-14370428320A21F526C3","translation_ko":"RES 상승 2"}
+{"tm_id":"ARF-TM-1437EE12EC953AA72B69","translation_ko":"MP 퀵 2"}
+{"tm_id":"ARF-TM-143971C1BBCD9B2C14E5","translation_ko":"광화"}
+{"tm_id":"ARF-TM-143E07AE7F4DD13EEFE6","translation_ko":"모든 구조물이 코드로\n구성되고 그것들이\n고도의 섭리에 지배되는\n세계가 언제부터 지금의 이름으로\n불리게 되었는지 정확히\n기록한 문헌은 안타깝게도\n남아 있지 않다.\n번영과 쇠망을 거듭하는\n인류의 요람――"}
+{"tm_id":"ARF-TM-144BBFB56EF5C3C9A138","translation_ko":"레졸벤트 대빙벽"}
+{"tm_id":"ARF-TM-14886B3BB2C31498E85C","translation_ko":"나이트메어"}
+{"tm_id":"ARF-TM-148C046A9774B2A65826","translation_ko":"아이템 부스트"}
+{"tm_id":"ARF-TM-149B237CA7F2B0E69B8A","translation_ko":"<$13>14<$1F>000150<$1F>01<$13>00의 교주이자\n교단의 최고 권력자가\n성황이다.\n그 영향력은 멀리\n수도에까지 미치며\n<$13>14<$1F>000152<$1F>01<$13>00 의회에도\n강한 발언권을 갖고 있다"}
+{"tm_id":"ARF-TM-14B8BF107A1FE9EC2B0D","translation_ko":"만델로 해안"}
+{"tm_id":"ARF-TM-14C4EE5D485A3B2AA30B","translation_ko":"원로원이 마련한 숙소에서 쉬기로 한다"}
+{"tm_id":"ARF-TM-14C753B6AB5AE21A6BE1","translation_ko":"어느 소녀"}
+{"tm_id":"ARF-TM-14D6F7B432D4568B0C67","translation_ko":"『자비』라는 이름을 받은 찌르기용 검.\n자신의 생명을 다른 이에게 나눠 줄 수 있다"}
+{"tm_id":"ARF-TM-14FCCD8F9E2DE824233F","translation_ko":"<$13>14<$1F>000093<$1F>01<$13>00 캐릭터에 대한\n증오를 나타내는 수치.\n자신에게 큰 피해를 주는\n대상일수록 수치가 쉽게\n오른다. 기본적으로 수치가\n높은 대상을 노리지만,\n이를 무시하거나 수치가\n낮은 대상을 노리는 <$13>14<$1F>000093<$1F>01<$13>00도\n존재한다"}
+{"tm_id":"ARF-TM-1506EBCAA580DAA58E23","translation_ko":"관찰"}
+{"tm_id":"ARF-TM-152D435FAE7CCCC50912","translation_ko":"액세서리 더미 08"}
+{"tm_id":"ARF-TM-1533F583A51DD9FCB1C2","translation_ko":"바이스의 비밀"}
+{"tm_id":"ARF-TM-153DDDD302A99360C926","translation_ko":"영구결빙"}
+{"tm_id":"ARF-TM-155EC2B281571DBBCFD0","translation_ko":"매커럴"}
+{"tm_id":"ARF-TM-156040C036D2D6147EEA","translation_ko":"리피아가 쉬는 동안 알스의 부탁으로"}
+{"tm_id":"ARF-TM-156AE065AB974E19E0D3","translation_ko":"홍련 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개"}
+{"tm_id":"ARF-TM-157659E9233781048FCF","translation_ko":"거석의 파편"}
+{"tm_id":"ARF-TM-157791CF1304CE2789A4","translation_ko":"퀘스트 18"}
+{"tm_id":"ARF-TM-15A81E604DCD3E5E70E3","translation_ko":"레벨 1 MP 소량 회복"}
+{"tm_id":"ARF-TM-15B8A4E19E43B349ECA6","translation_ko":"생물학자"}
+{"tm_id":"ARF-TM-15DD746E2471D40B089B","translation_ko":"번개 코드가 새겨진 액세서리.\n그 깜빡임이 몸을 자극해 마비에서 벗어나게 한다"}
+{"tm_id":"ARF-TM-15DE84B78704018FC9C6","translation_ko":"라르크 일행은 원로원으로 향한다"}
+{"tm_id":"ARF-TM-15EE48955EC1EA789AA3","translation_ko":"성지 노와레"}
+{"tm_id":"ARF-TM-15F2F3FD072A15855D54","translation_ko":"<$13>14<$1F>00013D<$1F>01<$13>00으로 편성된\n공정단을 말한다. <$13>14<$1F>00013A<$1F>01<$13>00의\n제2황자가 지휘한다.\n임무는 날아오는 <$13>14<$1F>0000EA<$1F>01<$13>00으로부터\n제도를 방위하는 것이다.\n바다와 산야 상공에 전개해\n그곳에서 적을 기다리는 작전을\n특기로 한다"}
+{"tm_id":"ARF-TM-15F7EBEA4B62E5B7F4CE","translation_ko":"아부심을 찾으러 바트라키테스로 가기 위해"}
+{"tm_id":"ARF-TM-162D80E7A6B32A2B149B","translation_ko":"황폐한 교회를 수색하는 라르크 일행."}
+{"tm_id":"ARF-TM-16304255B457360C8823","translation_ko":"<$13>02애벌레의 뿔<$13>00 5개 납품"}
+{"tm_id":"ARF-TM-1632870902C7628929A2","translation_ko":"데저트 프로그"}
+{"tm_id":"ARF-TM-16460AC748D52B5FCD3E","translation_ko":"정보를 모아 지정된 장소로 간다"}
+{"tm_id":"ARF-TM-16482B267D4CB8999631","translation_ko":"리얼 디바"}
+{"tm_id":"ARF-TM-165CCCD8B7E001CA753A","translation_ko":"<$15>01물리 공격 시\n일정 확률로 ATK 하락 상태로 만든다"}
+{"tm_id":"ARF-TM-166C8308971322EFBFEF","translation_ko":"기억을 잃은 그녀를 데리고 일단 펠리스로"}
+{"tm_id":"ARF-TM-167CE0565288080EF016","translation_ko":"사인용 보드\n메이드에게 사인을 받자"}
+{"tm_id":"ARF-TM-1686176CD9BF05B65444","translation_ko":"글라디우스"}
+{"tm_id":"ARF-TM-16A9695027BCA1B90F17","translation_ko":"어서 그란츠에게 비광정 수리를 맡기자"}
+{"tm_id":"ARF-TM-16AF836394B94A9F4CBD","translation_ko":"MP 차지 3"}
+{"tm_id":"ARF-TM-16C82676A427A69298F0","translation_ko":"<$15>93＋２"}
+{"tm_id":"ARF-TM-16C947861DA13F803725","translation_ko":"대상을 관찰하면\n대상 선택 시 능력치를\n확인할 수 있게 되는\n<$13>14<$1F>00004B<$1F>01<$13>00.\n상대의 능력을 파악할 수\n있는지에 따라 전투의\n안정감이 크게 달라진다"}
+{"tm_id":"ARF-TM-16CC7EB01DCFC460A132","translation_ko":"<$13>14<$1F>0000E8<$1F>01<$13>00의 대양을\n반시계 방향으로 흐르는 해류.\n제도 <$13>14<$1F>000132<$1F>01<$13>00\n교도 <$13>14<$1F>000142<$1F>01<$13>00\n수도 <$13>14<$1F>000148<$1F>01<$13>00\n세 도시를 잇기에\n델타라는 이름이 붙었다.\n많은 사람과 여러 물질을\n목적지까지 운반한다"}
+{"tm_id":"ARF-TM-171FBD6612212F4301DF","translation_ko":"일부 <$13>14<$1F>000093<$1F>01<$13>00가 지닌\n특수한 방어력을 나타낸다.\n특수 장갑으로 일시적으로\n방어력을 높인 상태이며\n적절한 공격 수단을\n거듭 사용하면\n파괴할 수 있다"}
+{"tm_id":"ARF-TM-172894AB6F1B88087B27","translation_ko":"베히모스의 뿔"}
+{"tm_id":"ARF-TM-17301D8181D85273E40B","translation_ko":"미믹"}
+{"tm_id":"ARF-TM-176007865F2A6F7234C1","translation_ko":"▼ 곡저당"}
+{"tm_id":"ARF-TM-1762C5DC1988D6979CEA","translation_ko":"<$15>91＋３４　<$15>93＋２１　\n<$15>E3＋２"}
+{"tm_id":"ARF-TM-176EB3D0BE778CBF91A6","translation_ko":"서드 아이"}
+{"tm_id":"ARF-TM-17778E29C5D1AEB5E89C","translation_ko":"루훙가"}
+{"tm_id":"ARF-TM-179BA899BEB168BE7EAA","translation_ko":"빈사 아이템 회복"}
+{"tm_id":"ARF-TM-17A5A33B2E18E39048F8","translation_ko":"황혼 코핀　상처 회복"}
+{"tm_id":"ARF-TM-17CB15E3C2980400D28F","translation_ko":"특수 방어 파괴"}
+{"tm_id":"ARF-TM-17E9BA85F2996B1BEBE8","translation_ko":"만드라고라에 피는 향기로운 꽃잎."}
+{"tm_id":"ARF-TM-17EFCDCF12CA72AC9D71","translation_ko":"단일 대상의 땅 내성 상승"}
+{"tm_id":"ARF-TM-181B99503D2F85A9348F","translation_ko":"명칭 미설정"}
+{"tm_id":"ARF-TM-184D84D8715CCC265531","translation_ko":"상대의 『방어』 상태를\n무시하고 피해를 준다"}
+{"tm_id":"ARF-TM-1856A44D7060D4B49B43","translation_ko":"마법 생물 특공＋"}
+{"tm_id":"ARF-TM-185808D01389F4976691","translation_ko":"의뢰인34567890123456789"}
+{"tm_id":"ARF-TM-186CFF6AAA028BA4987C","translation_ko":"술사를 사냥하는 데 특화된 곡도.\n때때로 상대의 목소리를 빼앗는다"}
+{"tm_id":"ARF-TM-18796A1845E9F71C59C7","translation_ko":"누군가가 소중히 간직하던 부적.\n행운은 어느새 그 손바닥 안에……"}
+{"tm_id":"ARF-TM-1887F67F94B11C52EECA","translation_ko":"질병 내성"}
+{"tm_id":"ARF-TM-188C9552572673A1696A","translation_ko":"<$15>01상태 이상을 일정 확률로 방지한다"}
+{"tm_id":"ARF-TM-1890C5B632C1A53AFCF5","translation_ko":"소프트 레더"}
+{"tm_id":"ARF-TM-189A4C836F5CC508872F","translation_ko":"버섯이 필요해.\n어떤 것이든 먹어 보고 싶거든.\n버섯을 쓰러뜨리고 소재를 가져와 줘!"}
+{"tm_id":"ARF-TM-189E2DC2434A2A6FBD39","translation_ko":"D-02"}
+{"tm_id":"ARF-TM-18A2E3FF79726B61DB0A","translation_ko":"100년 동안 지맥에서 레이를 쐬어 온 지팡이.\n소지자의 SP를 동료들에게 나눠 준다"}
+{"tm_id":"ARF-TM-18BB2143AEFA98EE4876","translation_ko":"어른스러운 세 사람"}
+{"tm_id":"ARF-TM-18C1D311D50A99E05EDA","translation_ko":"『신비』라는 이름을 받은 쇼텔.\n소지자의 정신을 잠시 다스리는 힘이 있다"}
+{"tm_id":"ARF-TM-18E4F3DB4FE062BE45DA","translation_ko":"힐 스트림"}
+{"tm_id":"ARF-TM-19015832288E3D58593B","translation_ko":"액셀"}
+{"tm_id":"ARF-TM-190280345F77C055BD71","translation_ko":"무녀"}
+{"tm_id":"ARF-TM-194C41FAB35C3FC5E620","translation_ko":"매드 플랜트"}
+{"tm_id":"ARF-TM-19822AFDA8E67CF53BF8","translation_ko":"물의 젬"}
+{"tm_id":"ARF-TM-198D45F2341C42B9F113","translation_ko":"돌아갈 곳"}
+{"tm_id":"ARF-TM-19B6FC92CE75EBD8EA67","translation_ko":"<$13>14<$1F>000021<$1F>01<$13>00의 요소 중 하나.\n비변동형 <$13>14<$1F>000021<$1F>01<$13>00은\n효과가 끝날 때까지 같은 효과를\n계속 유지한다"}
+{"tm_id":"ARF-TM-19B7BAA845AFA834AA58","translation_ko":"칼라일 박사는 솔리톤 종유동에 있다"}
+{"tm_id":"ARF-TM-19D4E6A9DF068C2BFB5A","translation_ko":"<$13>02검붉은 뿌리<$13>00를 3개 납품"}
+{"tm_id":"ARF-TM-19DAF1EFE8295814DD7D","translation_ko":"크로스 21"}
+{"tm_id":"ARF-TM-19DCA49D5FD2D16E263A","translation_ko":"치명타 시\n주는 피해가 증가한다"}
+{"tm_id":"ARF-TM-19DDCCC9FEEEA3DE6810","translation_ko":"우선 자무엘 무예관에서 쉬기로 한다"}
+{"tm_id":"ARF-TM-1A025948C6A07AC67690","translation_ko":"샤인"}
+{"tm_id":"ARF-TM-1A0B9368EE355C340E91","translation_ko":"바람을 막아 주는 고급 천으로 마감한 일품\n가죽 장갑과 밝은 초록 목도리가 포인트다"}
+{"tm_id":"ARF-TM-1A24870F37AD4EEEEFFD","translation_ko":"체인 20"}
+{"tm_id":"ARF-TM-1A2F1963407152E184BF","translation_ko":"<$15>92＋２"}
+{"tm_id":"ARF-TM-1A45548A232C22D6F2E1","translation_ko":"사이즈"}
+{"tm_id":"ARF-TM-1A61D169E66A2BBCA367","translation_ko":"코드가 새겨진 돌\n<$13>14<$1F>000138<$1F>01<$13>00을 참고해\n제작된 기록 매체.\n<$13>14<$1F>000123<$1F>01<$13>00을 뛰어넘는\n내구성을 지닌 것으로 보이며\n복잡한 프로그램을\n확실히 봉인하는 데에도\n성공했다"}
+{"tm_id":"ARF-TM-1A74A9A024DDF1A97EFF","translation_ko":"아스트랄 결정벽"}
+{"tm_id":"ARF-TM-1A7CAC52B7DA856495D3","translation_ko":"마쿠아후이틀"}
+{"tm_id":"ARF-TM-1A83AD0CA58C9DC1E4FE","translation_ko":"야외로 나가 스케치할 때도\n챙 넓은 모자와 커다란 숄이 도움이 된다"}
+{"tm_id":"ARF-TM-1A9A92B2FC93E9C50176","translation_ko":"<$13>14<$1F>0000E8<$1F>01<$13>00에 이름을\n떨친 전설의 용병단.\n단장 레온을 중심으로\n수많은 전설을 남겼다.\n일설에는 아이의 의뢰를\n단 1<$13>14<$1F>000128<$1F>01<$13>00에 맡아 줬다거나\n단 4명으로 한 개 사단을\n격퇴했다거나…… 일화를\n꼽자면 끝이 없다"}
+{"tm_id":"ARF-TM-1AAEA6E488CF9E7BE101","translation_ko":"광란을 연상시키는 빛깔의 검.\n그 일격은 승리의 고양감과 치유를 선사한다"}
+{"tm_id":"ARF-TM-1AB82454231FF9ECA435","translation_ko":"<$15>01적을 격파했을 때\n일정 확률로 AP가 회복된다"}
+{"tm_id":"ARF-TM-1AFBA8C122D8B3435145","translation_ko":"<$13>14<$1F>00009F<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>000033<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n버블 커튼에서는\n<$13>14<$1F>000033<$1F>01<$13>00의 효과량이\n크게 증가한다"}
+{"tm_id":"ARF-TM-1B12BBC066A0123CC861","translation_ko":"아다만기아"}
+{"tm_id":"ARF-TM-1B13B374B0DDA2826346","translation_ko":"볼트 혼"}
+{"tm_id":"ARF-TM-1B1F830AEBFD252F6F34","translation_ko":"SPD 상승+++"}
+{"tm_id":"ARF-TM-1B3ECCFF256BD0DBFA2B","translation_ko":"레슬리에게 사정을 들은 라르크 일행은"}
+{"tm_id":"ARF-TM-1B43C086F70D88D0D801","translation_ko":"은신"}
+{"tm_id":"ARF-TM-1B5D1AA364408EBF97F4","translation_ko":"예술성과 실용성을 겸비한 보기 드문 장검.\n소지자의 체력을 크게 높인다"}
+{"tm_id":"ARF-TM-1B60142222A111F56072","translation_ko":"비의 파편"}
+{"tm_id":"ARF-TM-1B634CF6D39A086A2DA7","translation_ko":"소모품 더미 09"}
+{"tm_id":"ARF-TM-1B8780D37A1FD9496DF7","translation_ko":"전체 공격"}
+{"tm_id":"ARF-TM-1B9C5AD8D5A1CF3E78F5","translation_ko":"베네트나슈 근처 일인데,\n아무도 없는 초원에서 시선을 느낄 때가 있다.\n원인을 조사해서 해결해 주겠나?"}
+{"tm_id":"ARF-TM-1B9D7FD70BD2E500F036","translation_ko":"자신의 ATK/DEF 상승\n추가 효과: 특수 방어 효과"}
+{"tm_id":"ARF-TM-1BC80F43858549AA6D44","translation_ko":"망토"}
+{"tm_id":"ARF-TM-1BD53C9040A0713BB65C","translation_ko":"<$13>14<$1F>00009D<$1F>01<$13>00 중 하나.\n아군의 방어 능력을 높이는\n방어 계열 <$13>14<$1F>000061<$1F>01<$13>00이 많은\n속성이다.\n이 속성은 <$13>14<$1F>0000A0<$1F>01<$13>00과\n<$13>14<$1F>0000AD<$1F>01<$13>00한다"}
+{"tm_id":"ARF-TM-1BDE29DF748A2BE83D4B","translation_ko":"불 내성 +2, 물 내성 -2"}
+{"tm_id":"ARF-TM-1BE3A4E5FFBE37415394","translation_ko":"열풍의 젬"}
+{"tm_id":"ARF-TM-1BEE59655D283C47A0BA","translation_ko":"여성 교단병"}
+{"tm_id":"ARF-TM-1C0AE4572F8C1E98C91B","translation_ko":"행동 선택"}
+{"tm_id":"ARF-TM-1C11F0066083E5EEA4F3","translation_ko":"대기/이동"}
+{"tm_id":"ARF-TM-1C379497F22013F37919","translation_ko":"땅 내성+"}
+{"tm_id":"ARF-TM-1C47B2E016AB5C08B69C","translation_ko":"니콜의 죽음을 슬퍼할 겨를도 없이"}
+{"tm_id":"ARF-TM-1C61AB825F4A13AAEF5C","translation_ko":"<$15>93＋３　<$15>94＋１２　"}
+{"tm_id":"ARF-TM-1C6645413DE2EC8E1193","translation_ko":"<$13>14<$1F>000064<$1F>01<$13>00 종류 중 하나.\n장비하면\n무기에 세팅된\n<$13>14<$1F>00004B<$1F>01<$13>00의 효과를\n사용할 수 있다.\n무기는 캐릭터마다\n장비 가능한 종류가\n정해져 있어, 다른 종류의\n무기는 장비할 수 없다"}
+{"tm_id":"ARF-TM-1C6D188D4A7613E29A3F","translation_ko":"빈사 피해+"}
+{"tm_id":"ARF-TM-1C726D6FEF9B2F9CD553","translation_ko":"HP 대량 회복"}
+{"tm_id":"ARF-TM-1C93DFC1431549D0F23C","translation_ko":"『<$13>14<$1F>000066<$1F>01<$13>00』을 2회 연속으로\n실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000066<$1F>01<$13>00의 효과를 두 배로\n증폭할 수 있다.\n힘을 충분히 모은 뒤의\n<$13>14<$1F>000000<$1F>01<$13>00이 만들어 내는\n효과는 헤아릴 수 없다"}
+{"tm_id":"ARF-TM-1CB34FF58A060ADA564F","translation_ko":"불 내성 3"}
+{"tm_id":"ARF-TM-1CBCC2ABDA71A23E88B3","translation_ko":"리피아에 관해"}
+{"tm_id":"ARF-TM-1CCAC573B486A1AB437A","translation_ko":"이사의 저주"}
+{"tm_id":"ARF-TM-1CE4A2CBF7805FCDCC13","translation_ko":"충실한 종"}
+{"tm_id":"ARF-TM-1CE505FFFD39D89A1890","translation_ko":"늑대의 송곳니"}
+{"tm_id":"ARF-TM-1CFFF0064C1C0F80AFBB","translation_ko":"파피르사그"}
+{"tm_id":"ARF-TM-1D20209F8EFDDB2803E0","translation_ko":"플레임 커튼"}
+{"tm_id":"ARF-TM-1D319880BFE318B93AF8","translation_ko":"헤르메스 슈즈"}
+{"tm_id":"ARF-TM-1D330C601BBDDD0B0875","translation_ko":"슬립 웨이브"}
+{"tm_id":"ARF-TM-1D51C74D62624113BCFA","translation_ko":"타르타로스"}
+{"tm_id":"ARF-TM-1D5BA54F151E87739339","translation_ko":"카르분클루스에 있는\n모든 메이드에게 사인을 받는다"}
+{"tm_id":"ARF-TM-1D63FA28F42DACA181A5","translation_ko":"가벼운 가죽으로 만든 술사용 장화.\n민첩한 움직임을 가능하게 한다"}
+{"tm_id":"ARF-TM-1D698EF2219298A7997C","translation_ko":"카오스 바인드"}
+{"tm_id":"ARF-TM-1D875E1311694FA35093","translation_ko":"<$13>14<$1F>000147<$1F>01<$13>00의 암부\n『<$13>14<$1F>000117<$1F>01<$13>00』로\n알려졌던 <$13>14<$1F>000115<$1F>01<$13>00의\n정체는 <$13>14<$1F>000156<$1F>01<$13>00의\n일부 장병으로 구성된\n암살 부대였다.\n의원 암살 사건에 관여한 것이\n확실한 이상, <$13>14<$1F>000115<$1F>01<$13>00에\n단죄가 내려지는 것은 필연이다"}
+{"tm_id":"ARF-TM-1D8E391614797BB7BD75","translation_ko":"클라이드의 말"}
+{"tm_id":"ARF-TM-1D97470B616ACECCDDB8","translation_ko":"기하 회랑――단초"}
+{"tm_id":"ARF-TM-1DCF755695EF88DD0789","translation_ko":"알스를 물리치고 루훙가를 얻은 라르크 일행."}
+{"tm_id":"ARF-TM-1DD66AF6451CDCA45091","translation_ko":"정의의 가희"}
+{"tm_id":"ARF-TM-1DDB0963A6394798E4F4","translation_ko":"공화국의 그림자에 숨어\n힘과 모략으로\n정치에 개입하는\n암살 집단의 약칭.\n이그나츠라는 이름의\n인물이 지휘하며\n수많은 사건에 관여했다는\n의혹을 받고 있으나, 진실은\n여전히 안갯속이다"}
+{"tm_id":"ARF-TM-1E13175794E6758FB6B1","translation_ko":"슬픈 아델"}
+{"tm_id":"ARF-TM-1E253A011BFB1A4FD0B1","translation_ko":"<$13>14<$1F>0000EA<$1F>01<$13>00의 목숨이 다하는 동시에\n일어나는 폭발.\n용재해의 폭발로\n대지는 모조리 불타고\n풀 한 포기 자라지 못할 만큼\n황폐해진다고 한다.\n<$13>14<$1F>00010B<$1F>01<$13>00을 위해 <$13>14<$1F>00013D<$1F>01<$13>00가\n사용되는 것은 용재해를\n피하기 위해서다"}
+{"tm_id":"ARF-TM-1E2594B313AA37F21E03","translation_ko":"<$15>94＋３"}
+{"tm_id":"ARF-TM-1E33CDB975EC299DD3B1","translation_ko":"이것에 찔리면 아픈 정도로 끝나지 않는 철권.\n치명타를 한층 더 짜릿하게 만든다"}
+{"tm_id":"ARF-TM-1E6AD82463413F7A0E23","translation_ko":"파괴된 마을"}
+{"tm_id":"ARF-TM-1E7D7AE82775252A29AF","translation_ko":"DEF 상승 효과"}
+{"tm_id":"ARF-TM-1E99EC44C2C277BFF204","translation_ko":"희귀 광석"}
+{"tm_id":"ARF-TM-1EB39BE8D7C2FC095BA8","translation_ko":"늘 보던 두 사람"}
+{"tm_id":"ARF-TM-1EE50940CED968D08084","translation_ko":"지켜야 할 것"}
+{"tm_id":"ARF-TM-1EE6EFCED36C7AA560DC","translation_ko":"적의 진의도 모른 채 뒤를 쫓는 라르크 일행"}
+{"tm_id":"ARF-TM-1EF5B0A46B1A50522BB5","translation_ko":"단일 대상에게 불 속성 피해\n추가 효과: 물 내성 하락"}
+{"tm_id":"ARF-TM-1F029DCFCF473D967854","translation_ko":"<$15>E2−４　<$15>E3＋４\n석화 상태를 일정 확률로 방지한다"}
+{"tm_id":"ARF-TM-1F0368E362BF92C1A8C7","translation_ko":"<$15>01전투 중 『아이템』 사용 시\n효과량이 증가한다"}
+{"tm_id":"ARF-TM-1F0FC2BD52E2211F2DAA","translation_ko":"단일 대상에게 무속성 피해\n추가 효과: DEF/RES 하락"}
+{"tm_id":"ARF-TM-1F12EE7AA8067ECCB272","translation_ko":"A-03"}
+{"tm_id":"ARF-TM-1F31460EB022700BA1F4","translation_ko":"라르크 일행은 로그레스 우르그라를 찾아"}
+{"tm_id":"ARF-TM-1F42872BB9337F4DDF5C","translation_ko":"오팔루스 사령관과 사쥬가 아는 사이라는 걸 알고"}
+{"tm_id":"ARF-TM-1F64C1487874504A5523","translation_ko":"메리크리우스"}
+{"tm_id":"ARF-TM-1F6852169AA1782A0DA4","translation_ko":"밑창 이외의 부분에 캔버스를 사용한 가벼운 신발.\n민첩성과 저항력을 높인다"}
+{"tm_id":"ARF-TM-1F74B8ECCCCEE481218B","translation_ko":"플레어 스케일"}
+{"tm_id":"ARF-TM-1F86DC78AB24968382BA","translation_ko":"여성 제국 망자병"}
+{"tm_id":"ARF-TM-1F923CF9D10BD36AF206","translation_ko":"테스트 데이터 67890"}
+{"tm_id":"ARF-TM-1F9609780F27865F1F0D","translation_ko":"복잡하게 얽힌 해안을 조심스럽게 나아가는 라르크 일행."}
+{"tm_id":"ARF-TM-1FAA0FCD5516A91009D3","translation_ko":"정찰병 니콜"}
+{"tm_id":"ARF-TM-1FB260E61D875D7F794F","translation_ko":"필살의 일격"}
+{"tm_id":"ARF-TM-1FB29D07A627E598EF8B","translation_ko":"록 피스"}
+{"tm_id":"ARF-TM-1FC1F32D0948E7C1D26D","translation_ko":"자가 수복"}
+{"tm_id":"ARF-TM-1FD2DC46BE2F52154FDD","translation_ko":"거리의 남자"}
+{"tm_id":"ARF-TM-1FD64A29F45DF3658654","translation_ko":"어둠빛 외투"}
+{"tm_id":"ARF-TM-1FF399021F700558887F","translation_ko":"알스의 디아만트"}
+{"tm_id":"ARF-TM-1FF8CE1E1BCE522D4396","translation_ko":"<$13>14<$1F>0000A2<$1F>01<$13>00 중 하나.\n<$13>14<$1F>00009E<$1F>01<$13>00과 <$13>14<$1F>0000A0<$1F>01<$13>00이 <$13>14<$1F>0000AE<$1F>01<$13>00\n하여 탄생하는\n속성."}
+{"tm_id":"ARF-TM-200355B72D6073E2819E","translation_ko":"아이템"}
+{"tm_id":"ARF-TM-2006434649E40F97BA5B","translation_ko":"신랑과 신부"}
+{"tm_id":"ARF-TM-200D233BDA09B40C537B","translation_ko":"<$13>14<$1F>000000<$1F>01<$13>00을 조합하여\n탄생하는 연계의 총칭.\n<$13>14<$1F>000059<$1F>01<$13>00과\n<$13>14<$1F>00005A<$1F>01<$13>00 두 종류가\n존재한다.\n또한 연계를 사용하면\n가장 빠른 <$13>14<$1F>000000<$1F>01<$13>00 순서로 실행된다.\n따라서 여러 사람이 빠르게\n여러 차례 <$13>14<$1F>000000<$1F>01<$13>00을 할 수 있다"}
+{"tm_id":"ARF-TM-200FF90563A8CC5D8AE3","translation_ko":"같은 대상을 향해 같은\n<$13>14<$1F>000061<$1F>01<$13>00이나 <$13>14<$1F>00005C<$1F>01<$13>00을\n사용하면 발생하는 연계를\n뜻한다. <$13>14<$1F>000061<$1F>01<$13>00의 경우\n1명 이상이면 실행할 수 있지만\n<$13>14<$1F>00005C<$1F>01<$13>00의 경우에는\n3명이 참여해야 한다."}
+{"tm_id":"ARF-TM-2013A3F9A1D432B6174F","translation_ko":"어둠의 여왕"}
+{"tm_id":"ARF-TM-2019B6E617653F6D5624","translation_ko":"컴포지트"}
+{"tm_id":"ARF-TM-201CBD706E0B2E741BAA","translation_ko":"오후의 즐거움"}
+{"tm_id":"ARF-TM-202894FAF27723D4B479","translation_ko":"전투 중 회복 효과를 받을 때\n회복량이 증가한다"}
+{"tm_id":"ARF-TM-202ECE6A68B4B1DF4799","translation_ko":"<$15>01SPD 상승 상태로 전투 시작"}
+{"tm_id":"ARF-TM-2032DB56416C473EA74F","translation_ko":"디바인 호즈"}
+{"tm_id":"ARF-TM-20547E49CA9D57CD0A5A","translation_ko":"SP 소량 회복"}
+{"tm_id":"ARF-TM-205D2EA5D81A74B9EC48","translation_ko":"물리 피해를 받을 때 일정 확률로\n피해를 무효화한다"}
+{"tm_id":"ARF-TM-2063A4787EE25E4749AC","translation_ko":"호존 대륙 깊은 곳에서 리얼신의 기척을 느끼고"}
+{"tm_id":"ARF-TM-206DF5BBAB268B85F157","translation_ko":"지하도를 빠져나와 바트라키테스로 향한다."}
+{"tm_id":"ARF-TM-207ADA6E10D174B444E8","translation_ko":"아쿠아 스콜"}
+{"tm_id":"ARF-TM-20865A2795AAB1781AE1","translation_ko":"과거와의 재회"}
+{"tm_id":"ARF-TM-2098EF7901B776904547","translation_ko":"단일 대상에게 1회 모든 효과 무효"}
+{"tm_id":"ARF-TM-20BD5A876431756E9F00","translation_ko":"움직이기 시작한 백색의 창을 막기 위해"}
+{"tm_id":"ARF-TM-20BEB6AC530E2FC82701","translation_ko":"위 아이템을 납품"}
+{"tm_id":"ARF-TM-20BF8F2151813EF34A81","translation_ko":"<$15>91＋３"}
+{"tm_id":"ARF-TM-20EEBF567FFC77020B60","translation_ko":"다른 동료들은 어디에?"}
+{"tm_id":"ARF-TM-20F554BE16A7D6FA9CE7","translation_ko":"십자 모양으로 아름답게 세공된 단검.\n망자 등을 상대할 때 지녀 두면 좋은 물건"}
+{"tm_id":"ARF-TM-2113D557B40B8F93E352","translation_ko":"전투 불능 상태가 될 때\n일정 확률로 버틸 수 있다"}
+{"tm_id":"ARF-TM-214BA42F6E58E311AFDB","translation_ko":"사람을 찾고 있어\n제국군 제복을 입은 붉은 머리 청년인데\n어떤 목격 정보라도 좋아\n정보를 얻으면 연락해 줘\n제국 광장으로 와 줘"}
+{"tm_id":"ARF-TM-2152DBCB39E8017102CF","translation_ko":"그라 자혜교회"}
+{"tm_id":"ARF-TM-21575AE266912C0C1C2F","translation_ko":"사이클론"}
+{"tm_id":"ARF-TM-2160A00CDA9153AC00C4","translation_ko":"버스트 섬창"}
+{"tm_id":"ARF-TM-2169BE45A23EB88957E8","translation_ko":"<$15>91＋５　<$15>94＋１７　"}
+{"tm_id":"ARF-TM-216FC1C25A72FA7851FB","translation_ko":"대지의 코드가 새겨진 장신구.\n육체가 석화되지 않도록 지켜 준다"}
+{"tm_id":"ARF-TM-217BC69EF1B8B254B8D5","translation_ko":"사랑스러운 암살자"}
+{"tm_id":"ARF-TM-217D43812E622BB517A1","translation_ko":"자신들만의 비광정을 손에 넣은 라르크 일행."}
+{"tm_id":"ARF-TM-218DC97EBB31DE1869E8","translation_ko":"땅 내성 상승"}
+{"tm_id":"ARF-TM-219AD6D048AF8B95737C","translation_ko":"열풍의 파편"}
+{"tm_id":"ARF-TM-21C1CA413C8B454675A6","translation_ko":"워터 셸"}
+{"tm_id":"ARF-TM-21C3C35752E278848448","translation_ko":"절약에 능한 장인이 열심히 만든 총 한 정.\n도구를 아끼고 싶은 가난한 파티의 필수품"}
+{"tm_id":"ARF-TM-21C94CEEF04CEB4EF64E","translation_ko":"응급 처치"}
+{"tm_id":"ARF-TM-21CB4ECBAA5BEFA194DD","translation_ko":"RP 증가량이 늘어난다"}
+{"tm_id":"ARF-TM-21E0CEE1B7714EF88246","translation_ko":"『<$13>14<$1F>000066<$1F>01<$13>00』『<$13>14<$1F>000066<$1F>01<$13>00』\n『<$13>14<$1F>000060<$1F>01<$13>00』을\n연속으로 실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n피해가 증가할 뿐 아니라\n대상의 <$13>14<$1F>000049<$1F>01<$13>00을\n파괴할 수 있다.\n한계까지 모은 힘으로\n꿰뚫지 못할 갑옷은 없다"}
+{"tm_id":"ARF-TM-21E6C639ED76D05382E6","translation_ko":"식물에 돋아난 눈알. 약품에 사용된다"}
+{"tm_id":"ARF-TM-22065F4CFD855104D666","translation_ko":"비스크 돌"}
+{"tm_id":"ARF-TM-220B05F55AD27D33AE0F","translation_ko":"라르크는 혼자 리피아를 만나러 간다"}
+{"tm_id":"ARF-TM-2217D86157FF7B48C88D","translation_ko":"리넨 큐라스"}
+{"tm_id":"ARF-TM-221F13752537EC48550E","translation_ko":"사관학교 학생들이 입는 제복\n반듯한 차림새는 영락없는 위원장 같다"}
+{"tm_id":"ARF-TM-2228414C476BFD9F6627","translation_ko":"불사 특공+"}
+{"tm_id":"ARF-TM-223298D442EC74437D3F","translation_ko":"<$13>14<$1F>0000EC<$1F>01<$13>00를 동력원으로 하는\n하늘을 나는 배가 비광정이다.\n오래전부터 전해진\n기술을 계승하여\n계속 생산되고 있지만\n용도는 거의 군사용으로\n한정되어 있어 일반인이\n소유하는 일은 드물다"}
+{"tm_id":"ARF-TM-2235BC8EB6BFD121E315","translation_ko":"단일 대상의 전투 불능 상태 회복"}
+{"tm_id":"ARF-TM-224C2C4588BF45EE7A07","translation_ko":"모두에게서 흡수"}
+{"tm_id":"ARF-TM-2252566D6E170CA1D5EE","translation_ko":"위험한 실험"}
+{"tm_id":"ARF-TM-2271554559F5195B33F9","translation_ko":"급한 용무"}
+{"tm_id":"ARF-TM-22A12BFB9AD2BF1EE68F","translation_ko":"범위 내 대상에게 얼음 속성 피해\n추가 효과: MGC 하락"}
+{"tm_id":"ARF-TM-22AB279DED7B7927BDFF","translation_ko":"<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n적 전체에게 <$13>14<$1F>0000A0<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n템페스트에서는\n추가 효과로 대상을\n<$13>14<$1F>000038<$1F>01<$13>00 상태로\n만들 때가 있다"}
+{"tm_id":"ARF-TM-22AD6B571763085C5DD6","translation_ko":"지구력의 비약"}
+{"tm_id":"ARF-TM-22BEB4616EC78566CE32","translation_ko":"작은 동물"}
+{"tm_id":"ARF-TM-22CF04572EB28D59CE72","translation_ko":"기타 더미 18"}
+{"tm_id":"ARF-TM-22D7B9EE84CF72AB39C8","translation_ko":"광소술"}
+{"tm_id":"ARF-TM-22FE97550E7A6B664951","translation_ko":"오토 가드+"}
+{"tm_id":"ARF-TM-2302FDC584FF5C037482","translation_ko":"소닉 블레이드"}
+{"tm_id":"ARF-TM-230EDFF43659B5DFCA59","translation_ko":"적 격파를 우선하는 행동을 합니다.\n공격 이외의 행동은 하지 않습니다"}
+{"tm_id":"ARF-TM-2316837C1364E747106C","translation_ko":"자칭 열성 신자"}
+{"tm_id":"ARF-TM-236A5312FF6156F68F83","translation_ko":"솔직한 말"}
+{"tm_id":"ARF-TM-23754A719EA84CF2F99D","translation_ko":"<$13>14<$1F>0000E8<$1F>01<$13>00에 존재하는\n인류를 위협하는 존재의\n총칭."}
+{"tm_id":"ARF-TM-237ACBBA70F246BC35C6","translation_ko":"<$15>91＋１０　<$15>93＋１０　"}
+{"tm_id":"ARF-TM-2385222CF45316204F7C","translation_ko":"퀘스트 38"}
+{"tm_id":"ARF-TM-238A56405F18C4CEECC6","translation_ko":"『영웅』이라는 이름이 붙은 이형의 검.\n그 칼날은 모든 것을 가리지 않고 베어 낸다"}
+{"tm_id":"ARF-TM-23A31BAADB14D45705DD","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E1　<$15>D1：４"}
+{"tm_id":"ARF-TM-23B0774C3C355C2C9819","translation_ko":"제국군에서 보낸 사자가 왔다는 말을 듣고"}
+{"tm_id":"ARF-TM-23C216E58DBAB568AB81","translation_ko":"펠리스"}
+{"tm_id":"ARF-TM-23C381C692EBA6BAB81D","translation_ko":"『일각수』라는 이름이 붙은 철제 건틀릿\n주인의 힘을 높여 일시적으로 행동을 돕는다"}
+{"tm_id":"ARF-TM-23C4A31E69309ADC4BF7","translation_ko":"절대 수호의 코드가 새겨진 지팡이.\n그 일격은 견고한 방어를 무너뜨린다"}
+{"tm_id":"ARF-TM-23E2A32406148899C508","translation_ko":"<$13>02곰의 발톱<$13>00과 <$13>02늑대의 송곳니<$13>00을 10개씩\n<$13>02베히모스의 뿔<$13>00을 5개 가져와라.\n보답으로 좋은 걸 주지.\n곰, 늑대, 거대 코끼리를 쓰러뜨리면 얻을 수 있을 거다"}
+{"tm_id":"ARF-TM-23E685DA43ED722694FB","translation_ko":"단일 대상의 물 내성 상승"}
+{"tm_id":"ARF-TM-23F0DB2A20EB23652FD8","translation_ko":"<$13>14<$1F>0000F3<$1F>01<$13>00에 오염된 지상에서\n<$13>14<$1F>000108<$1F>01<$13>00라 불리는 인간들이\n살아남으려면 <$13>14<$1F>00010E<$1F>01<$13>00이\n필요하다. <$13>14<$1F>00010E<$1F>01<$13>00을 늘\n피부에 닿게 해 두면\n<$13>14<$1F>000108<$1F>01<$13>00도 <$13>14<$1F>000109<$1F>01<$13>00이\n선천적으로 지닌\n<$13>14<$1F>0000F3<$1F>01<$13>00의 맹독에 대한 내성을\n얻을 수 있다"}
+{"tm_id":"ARF-TM-2400E30685EA2D721F7A","translation_ko":"동조 효과"}
+{"tm_id":"ARF-TM-2402E945873481D22244","translation_ko":"<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n랜드 스피어에서는\n주는 피해가\n크게 증가한다"}
+{"tm_id":"ARF-TM-24198A23844F27908A74","translation_ko":"노래하는 돌"}
+{"tm_id":"ARF-TM-24255BF1C8238EFFB614","translation_ko":"지금은 썰물이라 대신전으로 가는 길이 열렸을 것이다"}
+{"tm_id":"ARF-TM-2425CBCE2A4ACF23AF8B","translation_ko":"영웅의 수의가 상의로 승화한 것.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-243533F265A504877B3E","translation_ko":"두꺼운 천으로 만든 튼튼한 망토.\n장비자의 방어력이 상승한다"}
+{"tm_id":"ARF-TM-24428B454746038B9248","translation_ko":"레슬리의 인사"}
+{"tm_id":"ARF-TM-24599CA04CF0B3C0D549","translation_ko":"물리 공격 시 마수계에게 주는\n피해가 크게 증가한다"}
+{"tm_id":"ARF-TM-245AAEDF54D0DFCE7F9D","translation_ko":"LV 상승 부여"}
+{"tm_id":"ARF-TM-248E02EC2885262277F0","translation_ko":"땅 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개"}
+{"tm_id":"ARF-TM-249C0F43E6DD67BE1D3C","translation_ko":"※이식　잠옷 04"}
+{"tm_id":"ARF-TM-249E1D9D812C1B7A9262","translation_ko":"모든 <$13>14<$1F>000000<$1F>01<$13>00을 하는 데 필요한\n수치.\n<$13>14<$1F>000005<$1F>01<$13>00와 <$13>14<$1F>000006<$1F>01<$13>00라는\n두 요소로 나뉘며\n이들은 전투 참가자 모두가\n공유한다"}
+{"tm_id":"ARF-TM-249E62D283E9C2C133F8","translation_ko":"DEF 하락"}
+{"tm_id":"ARF-TM-24A6E164E96D0E17F9E7","translation_ko":"메인 더미 10"}
+{"tm_id":"ARF-TM-24C4C464205664264BA3","translation_ko":"세계의 미래를 건 최후의 전투가 시작된다"}
+{"tm_id":"ARF-TM-24E2535EDA3A1E681282","translation_ko":"탁룡 방지 광소술"}
+{"tm_id":"ARF-TM-24EEAF9EE27A771E85C9","translation_ko":"아군이 받는 피해의 절반을 대신 받는다\n실행한 턴에만 유효"}
+{"tm_id":"ARF-TM-24EF66ED7A7E077BF003","translation_ko":"불사 특공"}
+{"tm_id":"ARF-TM-24FF51CF85FC5F381A4C","translation_ko":"선명한 붉은 두건으로 머리카락을 가린 이는\n어디선가 만난 적 있는 소녀……"}
+{"tm_id":"ARF-TM-2512B4D7A0C2E477DD94","translation_ko":"어렵사리 대신전에 도착한 라르크 일행."}
+{"tm_id":"ARF-TM-253BAECE17E4460E7F80","translation_ko":"은빛 늑대 인형탈"}
+{"tm_id":"ARF-TM-254AE295243EA998036F","translation_ko":"심판의 시공"}
+{"tm_id":"ARF-TM-254FD05286231CC57BD0","translation_ko":"전체에게 광소 무효 효과"}
+{"tm_id":"ARF-TM-255452A57F85FD69AE91","translation_ko":"혼란 상태를 일정 확률로 방지한다"}
+{"tm_id":"ARF-TM-25709D6C93BCDB5B3EC0","translation_ko":"소모품 더미 10"}
+{"tm_id":"ARF-TM-25939BA3CB47553B09AD","translation_ko":"철판 장갑으로 보강한 군용 장화.\n호쾌한 움직임을 가능하게 한다"}
+{"tm_id":"ARF-TM-25BB06E7E3DA8E1F2CD6","translation_ko":"공화국 정규군의 통칭.\n<$13>14<$1F>000148<$1F>01<$13>00의 경호를\n맡는 한편, <$13>14<$1F>00014A<$1F>01<$13>00나\n<$13>14<$1F>00014B<$1F>01<$13>00 등에도 주둔\n부대를 파견하고 있다.\n요직은 사관학교 출신\n인물들이 차지하고 있으나\n젊은 인재의 등용에 적극적인\n것으로도 알려져 있다"}
+{"tm_id":"ARF-TM-25D5B77D922FB72034EA","translation_ko":"얼빠진 생물.\n말한다.\n<$13>14<$1F>000093<$1F>01<$13>00인 줄 알았다.\n전갈을 맡아 준다.\n희소가치가 있다.\n부드럽다.\n겸손하다.\n성가시다.\n의외로 성실하다"}
+{"tm_id":"ARF-TM-25F73A07C6C388FE69ED","translation_ko":"▼ 빌의 양장점"}
+{"tm_id":"ARF-TM-25F802885EFEC6DEE0EE","translation_ko":"빈사"}
+{"tm_id":"ARF-TM-26079339F8D24EE026C1","translation_ko":"광소술로 공격 시\n반드시 치명타가 발생한다"}
+{"tm_id":"ARF-TM-260D52D657DE673E7713","translation_ko":"신속의 비약"}
+{"tm_id":"ARF-TM-260E7E1EE6DCF791E121","translation_ko":"『신성』이라는 이름을 받은 빛나는 호즈.\n민첩성과 방어력을 높인다"}
+{"tm_id":"ARF-TM-26154CC088EA9858A295","translation_ko":"속성 방어구 9"}
+{"tm_id":"ARF-TM-2624558DDE93A212EF97","translation_ko":"저항의 비약"}
+{"tm_id":"ARF-TM-262A29A6E5B609F031D5","translation_ko":"알스의 추억"}
+{"tm_id":"ARF-TM-2642D885805C0951C842","translation_ko":"물 속성 부여+"}
+{"tm_id":"ARF-TM-268FE3A89633F86067BF","translation_ko":"ATK 상승"}
+{"tm_id":"ARF-TM-269A65252CBAA2B24D03","translation_ko":"물리 공격 시 마법 생물 계열에게\n주는 피해가 크게 증가한다"}
+{"tm_id":"ARF-TM-26A5712C4E44A12386E0","translation_ko":"슈즈 21"}
+{"tm_id":"ARF-TM-26B5237EB9FF05B25CF7","translation_ko":"<$13>14<$1F>0000A3<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>00003C<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n포트리스에서는\n효과 지속 턴 수가 늘어난다"}
+{"tm_id":"ARF-TM-26BA3880F86A57E5DACE","translation_ko":"폭염의 젬"}
+{"tm_id":"ARF-TM-26BBDE05E178E5FA239D","translation_ko":"카론"}
+{"tm_id":"ARF-TM-26C1F087D2DACAE21EFE","translation_ko":"『왼손』을 뜻하는 이형의 단검.\n소지자를 지키는 동시에 위험에 빠뜨린다"}
+{"tm_id":"ARF-TM-26E301335006AC169EEC","translation_ko":"마비 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-26EF3F47C15CB1F8F34E","translation_ko":"기타 더미 23"}
+{"tm_id":"ARF-TM-26F2FA3AEED4197CA25C","translation_ko":"메디컬 완드"}
+{"tm_id":"ARF-TM-26FDFA4353D6674A241F","translation_ko":"제너럴 호즈"}
+{"tm_id":"ARF-TM-27128F4825E6D3F8D7F0","translation_ko":"<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터가 <$13>14<$1F>000046<$1F>01<$13>00로\n받는 피해가 증가한다.\n<$13>14<$1F>00002A<$1F>01<$13>00 상태일 때\nRES 하락 효과를 중첩하면\n<$13>14<$1F>00002A<$1F>01<$13>00의 효과를\n약화시키거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00은\n<$13>14<$1F>000022<$1F>01<$13>00이다"}
+{"tm_id":"ARF-TM-271F5F3AA006A4CF03B9","translation_ko":"카르분클루스 예술 거리의 엔주 집으로"}
+{"tm_id":"ARF-TM-2741B20C921CBBB22121","translation_ko":"라바 토터스"}
+{"tm_id":"ARF-TM-2746E557F04910A15ACD","translation_ko":"단일 대상에게 번개 속성 피해\n추가 효과: 마비"}
+{"tm_id":"ARF-TM-277B950DF85077058794","translation_ko":"병든 제도"}
+{"tm_id":"ARF-TM-278C74C44BE4AB0A3751","translation_ko":"<$15>01상태 이상을 확실히 방지한다"}
+{"tm_id":"ARF-TM-27A63FA28B012C31F0FA","translation_ko":"엘리자베트"}
+{"tm_id":"ARF-TM-27A915E560074E87F03C","translation_ko":"『회피』라는 이름을 받은 칼날.\n가볍게 다루면 공수 양면에서 활약한다"}
+{"tm_id":"ARF-TM-27AB39171AD27F2B0CDC","translation_ko":"애널라이저"}
+{"tm_id":"ARF-TM-27AD47C57FE8105F2B3F","translation_ko":"물 속성"}
+{"tm_id":"ARF-TM-27B17F320ED68D97A978","translation_ko":"도시 입구 쪽에서 프레이아의 비명이!"}
+{"tm_id":"ARF-TM-27B825579DD8E1F55D92","translation_ko":"<$15>90＋６　<$15>91＋４５　<$15>93＋２５　"}
+{"tm_id":"ARF-TM-27BB39ED51C9220B0151","translation_ko":"<$13>14<$1F>0000F3<$1F>01<$13>00의 진실――\n그것은 <$13>14<$1F>000109<$1F>01<$13>00라 불리는\n지상에 사는 사람들에게\n<$13>14<$1F>0000F3<$1F>01<$13>00은 독소인 동시에\n살아가는 데 필수적인\n존재라는 것이다.\n즉, <$13>14<$1F>0000F7<$1F>01<$13>00란\n곧 <$13>14<$1F>000109<$1F>01<$13>00의 사멸을\n뜻하는 행위인 것이다"}
+{"tm_id":"ARF-TM-27C6325118D60197DB6D","translation_ko":"소악마의 습격"}
+{"tm_id":"ARF-TM-27C73AFB681946D38BA6","translation_ko":"신종이 사는 도시 크레이델로 향한다"}
+{"tm_id":"ARF-TM-27CFA1039F83ACF9A217","translation_ko":"세레나 붉은 보석"}
+{"tm_id":"ARF-TM-27F35FE3D9FE16D34E23","translation_ko":"변동형"}
+{"tm_id":"ARF-TM-28119833DB99CD15CC9F","translation_ko":"무녀란\n<$13>14<$1F>000112<$1F>01<$13>00의 별칭이다.\n<$13>14<$1F>000141<$1F>01<$13>00의 무녀처럼\n정치에도 깊이 관여하거나\n<$13>14<$1F>000147<$1F>01<$13>00의 무녀처럼\n국가의 상징으로서\n국가 조직의 보호를 받는\n경우도 있다.\n때로는 가희라고도 불린다"}
+{"tm_id":"ARF-TM-28126A98D4ACC17FDD80","translation_ko":"아로켈"}
+{"tm_id":"ARF-TM-28150B15113DBE66EAD4","translation_ko":"획득 EXP 상승"}
+{"tm_id":"ARF-TM-28200DC0CCF95788A9FA","translation_ko":"기억을 되찾은 셰리는 펠리스로 돌아가고"}
+{"tm_id":"ARF-TM-2847816502A6BEA7F183","translation_ko":"디바인 케이프"}
+{"tm_id":"ARF-TM-2864BD55239C7263831C","translation_ko":"희귀한 휘석에 레이 결정을 융합한 것.\n소지자는 석화에 걸리지 않게 된다"}
+{"tm_id":"ARF-TM-286694E52DED9FA7354D","translation_ko":"혼란 무효"}
+{"tm_id":"ARF-TM-286DA9C72A7153861693","translation_ko":"장밋빛 드레스"}
+{"tm_id":"ARF-TM-288BF511D7122746FBCB","translation_ko":"잠옷"}
+{"tm_id":"ARF-TM-288C4261177DF50D2E38","translation_ko":"어둠의 부적"}
+{"tm_id":"ARF-TM-28938A3B7F0E3907FB00","translation_ko":"상대의 치명타를 무효화한다"}
+{"tm_id":"ARF-TM-2895218F096F03500C9F","translation_ko":"체인 18"}
+{"tm_id":"ARF-TM-28A3E075DB4529C62C56","translation_ko":"도시 북문에 인접한 오르키나 대신전으로 향한다"}
+{"tm_id":"ARF-TM-28A4701783F3913D7E9E","translation_ko":"셀프 부스터"}
+{"tm_id":"ARF-TM-28B276C7BA61227DC078","translation_ko":"세실이 자신을 소개할 때 하는 말.\n용사의 길을 설파하는 것치고는\n<$13>14<$1F>00013D<$1F>01<$13>00에 숨어들거나\n탈옥을 돕는 등\n거리낌 없는 짓을 거듭하고\n있지만, 이 한마디만 있으면\n왠지 용서받는다는 점이\n미소를 자아내기도 하고\n두렵기도 하다"}
+{"tm_id":"ARF-TM-28B9C8CA7FAFC6315029","translation_ko":"미색 드레스"}
+{"tm_id":"ARF-TM-28CB420E418C794C9C08","translation_ko":"RES"}
+{"tm_id":"ARF-TM-28CFADF5DE8C4AE12869","translation_ko":"라스카다"}
+{"tm_id":"ARF-TM-28D5F4F9A536933E3263","translation_ko":"우리 집으로 돌아가기"}
+{"tm_id":"ARF-TM-28ED52F16F1EDC0DCBEB","translation_ko":"포스 업"}
+{"tm_id":"ARF-TM-28F8A2B63F5784F31AA7","translation_ko":"<$15>90＋１２　<$15>91−１２　"}
+{"tm_id":"ARF-TM-291141CBCA595EF72AB6","translation_ko":"헤비 크래시"}
+{"tm_id":"ARF-TM-291308A2F8F195AEF31A","translation_ko":"단일 대상에게 SP를 넘겨준다\n자신 이외의 대상에게 발동"}
+{"tm_id":"ARF-TM-2916F01200F2A570D3B6","translation_ko":"바람 내성+"}
+{"tm_id":"ARF-TM-2916F710F36C9026A91C","translation_ko":"나블라 밀림에 벌레가 대량으로 발생했다.\n무언가가 이끄는 듯하다.\n원인을 밝혀 해결해 줘"}
+{"tm_id":"ARF-TM-291BAD40FDE5472A7512","translation_ko":"<$15>01<$15>E2＋４"}
+{"tm_id":"ARF-TM-291C3EF42863C92028D6","translation_ko":"지식의 잎"}
+{"tm_id":"ARF-TM-291F6E17A327465629C2","translation_ko":"수수한 색조이지만 실은\n야회의 주인공이 될 만한 절제된 아름다움을 지녔다"}
+{"tm_id":"ARF-TM-29354FBBC5D51105352C","translation_ko":"단일 대상의 최대 HP 상승"}
+{"tm_id":"ARF-TM-293E48FAFF8F8281CC6A","translation_ko":"테스트 병아리"}
+{"tm_id":"ARF-TM-294FB95877E7E3469D56","translation_ko":"키메라"}
+{"tm_id":"ARF-TM-2968C6A93044EF8EEBD0","translation_ko":"포트리스"}
+{"tm_id":"ARF-TM-29740BFA90BC340B89A8","translation_ko":"『공격』이 관통 공격으로 바뀐다\n『복합 공격의 소양』 효과가 우선된다"}
+{"tm_id":"ARF-TM-2986D8B401D04351C299","translation_ko":"니콜 유괴"}
+{"tm_id":"ARF-TM-2986DA4D0354C9279A01","translation_ko":"코드 디스크"}
+{"tm_id":"ARF-TM-2992DA047D9CDCDC085D","translation_ko":"웨이브 스피어"}
+{"tm_id":"ARF-TM-29A8E91A7540B6368CEF","translation_ko":"본 나이트"}
+{"tm_id":"ARF-TM-29BD02B31F35F24BC4AD","translation_ko":"예술가"}
+{"tm_id":"ARF-TM-2A04CD098CDE01039853","translation_ko":"제국 망자병"}
+{"tm_id":"ARF-TM-2A297D8C36ED52B83A44","translation_ko":"동조"}
+{"tm_id":"ARF-TM-2A34E594166580D8C75F","translation_ko":"미지의 금속으로 주조한 견고한 갑옷.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-2A3C4940C525EC9DAF66","translation_ko":"용옥석"}
+{"tm_id":"ARF-TM-2A3FC351253095AC3EC0","translation_ko":"어둠의 코드가 새겨진 장신구.\n깊은 잠의 나락에서 착용자를 끌어낸다"}
+{"tm_id":"ARF-TM-2A48D007F9BE1F84F16D","translation_ko":"퀘스트 15"}
+{"tm_id":"ARF-TM-2A5244AEDB5A256B5C31","translation_ko":"기타 더미 3"}
+{"tm_id":"ARF-TM-2A7ED51BB1DBF30E489F","translation_ko":"모든 능력치가 감소하는 대신\nLUK이 대폭 상승한다"}
+{"tm_id":"ARF-TM-2A81C432B4E7DC30B052","translation_ko":"슈즈 20"}
+{"tm_id":"ARF-TM-2A95D3C03D402F7FE501","translation_ko":"고양이 손"}
+{"tm_id":"ARF-TM-2A9EB0422EF34356C751","translation_ko":"철판 한 장을 접어 만든 갑옷.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-2AB48CE9B64AC428A29D","translation_ko":"석화 부여"}
+{"tm_id":"ARF-TM-2AB724E4E0F1E9606773","translation_ko":"길다브"}
+{"tm_id":"ARF-TM-2AC46766F2ADFDC6B944","translation_ko":"음의 시대 기술이 집약된 미지의 검.\n소지자의 상태 이상을 동료에게 전가한다"}
+{"tm_id":"ARF-TM-2AD8BF9F8DD7A44636CC","translation_ko":"근육질 형님이 그려진 책"}
+{"tm_id":"ARF-TM-2ADFBD02D2394613BD72","translation_ko":"『<$13>14<$1F>000066<$1F>01<$13>00』과 『<$13>14<$1F>000062<$1F>01<$13>00』을\n연속으로 실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000000<$1F>01<$13>00를 조합하면\n<$13>14<$1F>000062<$1F>01<$13>00의 효과가\n상승해 받는 피해량을\n줄일 수\n있다"}
+{"tm_id":"ARF-TM-2AE9FA483D71EF06E1FA","translation_ko":"부드러운 천으로 지은 잠옷은\n햇살의 온기를 머금은 듯한 촉감이다"}
+{"tm_id":"ARF-TM-2AED0BEB541960C221FB","translation_ko":"<$13>14<$1F>000046<$1F>01<$13>00로 주는 피해에\n큰 영향을 미치는 수치."}
+{"tm_id":"ARF-TM-2AF829BAB887556DC436","translation_ko":"여성 제국 근위병"}
+{"tm_id":"ARF-TM-2B17FF268C8EA75555CB","translation_ko":"지정한 아군을 응원해\n<$13>14<$1F>00002E<$1F>01<$13>00 상태로\n만드는 <$13>14<$1F>00004B<$1F>01<$13>00.\n한 번 응원한 정도로는 효과가\n미미하지만, 거듭\n응원하면\n그 힘은 막강해질\n것이다"}
+{"tm_id":"ARF-TM-2B367C8CFD701F4FD569","translation_ko":"<$13>14<$1F>0000F3<$1F>01<$13>00에는 양면성이 있다.\n독소로서의 일면과\n연료로서의 일면이다.\n그러나 <$13>14<$1F>0000F3<$1F>01<$13>00에는 모든\n물질과 섞여 그 물질을\n변질시키는 성질이 있어\n에너지원으로 활용하는 것은\n<$13>14<$1F>000108<$1F>01<$13>00의 기술로도\n극도로 어려웠다고 전해진다"}
+{"tm_id":"ARF-TM-2B4B2FBFF1DCDBA743B3","translation_ko":"온 스테이지"}
+{"tm_id":"ARF-TM-2B4DB392741518069150","translation_ko":"라르크 일행을 위기에서 구하는 오이겐."}
+{"tm_id":"ARF-TM-2B6665B264859A328CBA","translation_ko":"파르세발로"}
+{"tm_id":"ARF-TM-2B6D24E7E892B6EA7E3B","translation_ko":"이름 없는 화가"}
+{"tm_id":"ARF-TM-2B8970018B532C7037D0","translation_ko":"범위 내 대상의 속성 내성 상승\n자신 주변에 발동"}
+{"tm_id":"ARF-TM-2B8D85127AE6C3EAA87D","translation_ko":"위스"}
+{"tm_id":"ARF-TM-2B93B9B7B3B281E3E6AE","translation_ko":"『뜨거운 모래에 둘러싸인 마을의 벽면을 조사하라』고\n적혀 있다"}
+{"tm_id":"ARF-TM-2B989385931925687400","translation_ko":"모델은 코핀"}
+{"tm_id":"ARF-TM-2B98F8A3A4C3A37D7E8D","translation_ko":"<$13>14<$1F>0000A3<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 물과 땅의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n프리징 케이지에서는\n추가 효과로 대상을\n<$13>14<$1F>000029<$1F>01<$13>00 상태로\n만들기도 한다"}
+{"tm_id":"ARF-TM-2B9C228CADC7D1B35307","translation_ko":"소모품 더미 04"}
+{"tm_id":"ARF-TM-2BA13BAE15318C87633C","translation_ko":"오르키나 교국"}
+{"tm_id":"ARF-TM-2BA8CD9F02365E9F1ADA","translation_ko":"LV 상승"}
+{"tm_id":"ARF-TM-2BAC4D44D29483531DDE","translation_ko":"홍련의 코드가 새겨진 장신구.\n그 등불은 마음속 미혹의 그림자를 걷어 낸다"}
+{"tm_id":"ARF-TM-2BB6DEB13D3D48A5D4AD","translation_ko":"퀘스트 35"}
+{"tm_id":"ARF-TM-2BBD70FBAD08C381B505","translation_ko":"아켈로오스"}
+{"tm_id":"ARF-TM-2BBD7DD9BD3D06D3759B","translation_ko":"<$13>02오징어 연골<$13>00 2개 납품"}
+{"tm_id":"ARF-TM-2BEF040E6684DF9DAF3D","translation_ko":"알스의 제안으로 라르크 일행은"}
+{"tm_id":"ARF-TM-2BF785432832D2B85249","translation_ko":"약점"}
+{"tm_id":"ARF-TM-2C020AF7AB44C97F42E5","translation_ko":"버블 커튼"}
+{"tm_id":"ARF-TM-2C3D48E4C9B071E648FC","translation_ko":"※컷　점령된 마을"}
+{"tm_id":"ARF-TM-2C55C880F27D146E7E99","translation_ko":"붉은 광대"}
+{"tm_id":"ARF-TM-2C728786C53E26BEF349","translation_ko":"대죄를 짊어진 자를 붙잡아 두는 구속복.\n온갖 재앙에 맞서는 힘을 지녔다"}
+{"tm_id":"ARF-TM-2C90C826B47885667900","translation_ko":"자신의 HP 소량 회복"}
+{"tm_id":"ARF-TM-2CA673A3AC438AEDC3C8","translation_ko":"쌓아 온 우정"}
+{"tm_id":"ARF-TM-2CA821F9720DB21975DE","translation_ko":"MP 차지 2"}
+{"tm_id":"ARF-TM-2CB54650CFDDB09A9592","translation_ko":"땅 내성 4"}
+{"tm_id":"ARF-TM-2CC2EEC12505724EA012","translation_ko":"바람의 젬"}
+{"tm_id":"ARF-TM-2CD336C5FEDF2A9078F4","translation_ko":"과거 <$13>14<$1F>0000E8<$1F>01<$13>00에서\n가장 깊은 신앙을 모은 것은\n<$13>14<$1F>00011D<$1F>01<$13>00이었다.\n교단은 세계 각지에서\n순례하러 오는 이들을\n위해 길을 정비하고 그곳에\n때로는 비바람을 피하고\n때로는 다른 순례자들과\n쉴 수 있는 숙소를 마련했다"}
+{"tm_id":"ARF-TM-2CF733F1D0A233BE199B","translation_ko":"전체가 검은 버섯.\n한입이라도 먹으면 사흘 동안 깨어나지 못한다"}
+{"tm_id":"ARF-TM-2D0CD561509C653A6F28","translation_ko":"플레임 스로"}
+{"tm_id":"ARF-TM-2D1B4C5D734AD302DAB7","translation_ko":"꿀이 떨어졌습니다"}
+{"tm_id":"ARF-TM-2D3AA692FCD42C15BD57","translation_ko":"우선 안전한 곳으로"}
+{"tm_id":"ARF-TM-2D58FB2F2F74257CD00E","translation_ko":"기사와 간호병"}
+{"tm_id":"ARF-TM-2D5AC3B0DCEE3B664CF1","translation_ko":"<$13>14<$1F>0000A4<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 물과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n블래스트 임팩트에서는\n추가 효과로\n대상을 <$13>14<$1F>000020<$1F>01<$13>00 상태로\n만들기도 한다"}
+{"tm_id":"ARF-TM-2D6984BFAD9D7008E9EB","translation_ko":"전투 중 <$13>14<$1F>000009<$1F>01<$13>00를 소비해\n<$13>14<$1F>000054<$1F>01<$13>00의\n개방 효과를 사용할\n수 있다. 사용 후 <$13>14<$1F>000009<$1F>01<$13>00가\n0이 된다.\n공격 계열 개방 효과는\n대상의 <$13>14<$1F>000002<$1F>01<$13>00가 높을수록\n주는 피해가 커지는\n특수 공격이다"}
+{"tm_id":"ARF-TM-2D6C9CB3CB11D25B5FC4","translation_ko":"라르크 일행은 리더를 찾아 더 깊이 나아간다"}
+{"tm_id":"ARF-TM-2D824BB50FC22D72F2E1","translation_ko":"호버크"}
+{"tm_id":"ARF-TM-2D833458BE0F59CF1193","translation_ko":"낮은 확률로 한 번의 물리 공격 행동이\n모두 치명타가 된다"}
+{"tm_id":"ARF-TM-2D8D612EAFD05D289E91","translation_ko":"파도의 코드가 새겨진 장신구.\n그 맑은 물은 다가오는 독을 물리친다"}
+{"tm_id":"ARF-TM-2DB7AA80CE62662AD645","translation_ko":"탱크톱"}
+{"tm_id":"ARF-TM-2DCC9AC97D7D2A778E97","translation_ko":"혹한의 행군도 견디도록 설계된\n군용 외투가 일반에 유통된 것"}
+{"tm_id":"ARF-TM-2DD743A27BC2CF9AB918","translation_ko":"윈드 아넬라스"}
+{"tm_id":"ARF-TM-2DF075C193D0AF9413AE","translation_ko":"아부심은 이미 알스와 계약한 상태였다."}
+{"tm_id":"ARF-TM-2E1A9634D60A48117846","translation_ko":"엿듣기"}
+{"tm_id":"ARF-TM-2E28E10B8D10945E8435","translation_ko":"고대의 비광정은 어디에 있는가?"}
+{"tm_id":"ARF-TM-2E296584A59379382E99","translation_ko":"『무한』의 이름을 받은 이형의 건틀릿.\n때로 주인의 한계를 뛰어넘는 힘을 끌어낸다"}
+{"tm_id":"ARF-TM-2E3370D252B28929B43F","translation_ko":"방어 능력치가 상승하고\n공격 능력치가 감소한다"}
+{"tm_id":"ARF-TM-2E3FDF72B83C3A93AD68","translation_ko":"<$15>97＋５０"}
+{"tm_id":"ARF-TM-2E4AB820CE0B94D1500F","translation_ko":"아바돈"}
+{"tm_id":"ARF-TM-2E710F5F6C7FDF627E6F","translation_ko":"<$15>91＋２４　<$15>93＋１４　<$15>94−３　"}
+{"tm_id":"ARF-TM-2E71C5BB464A56DC63C9","translation_ko":"슈즈 19"}
+{"tm_id":"ARF-TM-2E7EBEBAE57F74C24E42","translation_ko":"바람 속성"}
+{"tm_id":"ARF-TM-2E9F63D40D76098D9C5E","translation_ko":"라르크 일행은 서둘러 이곳을 떠나기로 한다"}
+{"tm_id":"ARF-TM-2EA40605E5DF023D3AEE","translation_ko":"특정 속성의 <$13>14<$1F>000061<$1F>01<$13>00를\n강화하는 조정.\n이 조정을 하면\n지정한 <$13>14<$1F>00009D<$1F>01<$13>00의\n<$13>14<$1F>000061<$1F>01<$13>00 성능을 강화할\n수 있다.\n필요한 <$13>14<$1F>0000A8<$1F>01<$13>00가 많으므로\n하나를 정해 집중적으로\n강화하는 것이 중요하다"}
+{"tm_id":"ARF-TM-2EE07B36DDE6A0009AB6","translation_ko":"방해자라는 이름을 받은 대검.\n그 칼날은 적의 행동을 끊어 버린다"}
+{"tm_id":"ARF-TM-2EE13E3C65F50236427C","translation_ko":"혼란"}
+{"tm_id":"ARF-TM-2F05C3EAF58513DE9A27","translation_ko":"내용 미정"}
+{"tm_id":"ARF-TM-2F0C966C36015804940E","translation_ko":"속박 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-2F23A13EC7209AFF31AC","translation_ko":"<$15>E0＋４　<$15>E2＋４\n질병 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-2F30E6A7A1F458154F3A","translation_ko":"과거 세계를 통일한\n노와레 12용사의 수장.\n모든 <$13>14<$1F>0000F0<$1F>01<$13>00를 내려다보며\n세상을 염려하는 쓸쓸한 표정은\n그야말로 『심려』라 부르기에\n손색이 없다.\n아를루가 바라보는 곳에는\n과거와 미래, 그 사이 굽이치는\n수천 갈래 길이 놓여 있다"}
+{"tm_id":"ARF-TM-2F4604CAA89E0FBA20AE","translation_ko":"<$13>14<$1F>000043<$1F>01<$13>00로 주는 피해에\n큰 영향을 미치는 수치."}
+{"tm_id":"ARF-TM-2F4940F51C1E016D349B","translation_ko":"세실의 용사도〜긍지"}
+{"tm_id":"ARF-TM-2F5576BA32E05C80E35F","translation_ko":"연격++"}
+{"tm_id":"ARF-TM-2F6CEE19B24F7BE86C4B","translation_ko":"교차한 칼날이 번개를 연상시키는 삼지검.\n날카로운 참격에 더욱 강한 힘을 불러온다"}
+{"tm_id":"ARF-TM-2F79EF75688ED0E9D741","translation_ko":"엔주의 누명을 벗기기 위해"}
+{"tm_id":"ARF-TM-2F7CDCCF912130C2A629","translation_ko":"<$15>D4＋２　（기본）"}
+{"tm_id":"ARF-TM-2FA19F8556E9AA5C3619","translation_ko":"추격"}
+{"tm_id":"ARF-TM-2FAB551F07766A9152EC","translation_ko":"레이를 띤 부품"}
+{"tm_id":"ARF-TM-2FB84C9D10F67A9BD8E3","translation_ko":"캐릭터 안에 잠든\n고유한 힘.\n전투 중 <$13>14<$1F>000007<$1F>01<$13>00를 소비해\n사용할 수 있다.\n공격, 회복, 보조 등\n다양한 종류가 있다.\n전투 중 번뜩임으로 습득할\n수 있다"}
+{"tm_id":"ARF-TM-2FBC9A30BCB3DC1A1644","translation_ko":"메이거스 슈즈"}
+{"tm_id":"ARF-TM-2FD60C05F1AF6D2533CD","translation_ko":"신속"}
+{"tm_id":"ARF-TM-2FE8C5789FF29753B1B5","translation_ko":"리미트 브레이크"}
+{"tm_id":"ARF-TM-300552029AC6E2D03FB9","translation_ko":"은신"}
+{"tm_id":"ARF-TM-3005913430BA128CC7E8","translation_ko":"스파크 볼트"}
+{"tm_id":"ARF-TM-30130B7D232E03FE0D7B","translation_ko":"이그니션"}
+{"tm_id":"ARF-TM-301ADBDBA232250DA92B","translation_ko":"차쿠"}
+{"tm_id":"ARF-TM-301F2CA758C542295E78","translation_ko":"※이식　정장 3"}
+{"tm_id":"ARF-TM-3023F15EFFDAC5989442","translation_ko":"심마프"}
+{"tm_id":"ARF-TM-30256511147EF8AD1F51","translation_ko":"축복 효과"}
+{"tm_id":"ARF-TM-30291AF4620F85AD2520","translation_ko":"<$13>14<$1F>00014C<$1F>01<$13>00의 동쪽, 고요한 숲에\n있던 <$13>14<$1F>000150<$1F>01<$13>00\n교회.\n의지할 곳 없는 아이들이\n공동생활을 하던\n곳이었으나 유행병으로\n많은 이가 쓰러진 결과\n시설은 폐쇄되고 생존자들은\n<$13>14<$1F>00014C<$1F>01<$13>00에 거두어졌다"}
+{"tm_id":"ARF-TM-3069A861273A738F850B","translation_ko":"오버 드라이브"}
+{"tm_id":"ARF-TM-3084E6892E8C01209F16","translation_ko":"※이식　잠옷 01"}
+{"tm_id":"ARF-TM-308A3E4CB80452AFFE2F","translation_ko":"모두가 하나 된 기적"}
+{"tm_id":"ARF-TM-30E8FD0612D1883F42EA","translation_ko":"물 내성＋２, 땅 내성＋２"}
+{"tm_id":"ARF-TM-30ED81B138B3ED7B0B20","translation_ko":"줄무늬 평상복"}
+{"tm_id":"ARF-TM-30F550BB3930FA880791","translation_ko":"대성당 앞에서 리피아와 재회한다."}
+{"tm_id":"ARF-TM-310B902FAED0ACC6A29C","translation_ko":"위해, 에블 서쪽에 있는 갈루아 대열곡으로 향한다"}
+{"tm_id":"ARF-TM-311B5DCFBB4A1A57BBBF","translation_ko":"엘리먼트 솔레"}
+{"tm_id":"ARF-TM-3126A9FFF4ABDD2906EC","translation_ko":"지적인 안경 미인"}
+{"tm_id":"ARF-TM-312E68C0778E492B0128","translation_ko":"몸통 장비"}
+{"tm_id":"ARF-TM-31330044C28BC69AA7FD","translation_ko":"날개 달린 생물 특공+"}
+{"tm_id":"ARF-TM-3134B54510F53904DB81","translation_ko":"블래스트 임팩트"}
+{"tm_id":"ARF-TM-313F60AFE9EED5B7A0F1","translation_ko":"에메랄드"}
+{"tm_id":"ARF-TM-314637BF9C5DA0F07928","translation_ko":"번개 속성"}
+{"tm_id":"ARF-TM-3147B8515EAD9B3E6C3B","translation_ko":"버닝 신경"}
+{"tm_id":"ARF-TM-3154C8F29D5584D8FAFE","translation_ko":"대상을 매도해\n<$13>14<$1F>00002F<$1F>01<$13>00 상태로 만드는\n<$13>14<$1F>00004B<$1F>01<$13>00.\n한 번 매도한 정도로는\n꿈쩍하지 않지만, 거듭\n매도하면\n당신에 대한 공포가 진짜가\n될 것이다"}
+{"tm_id":"ARF-TM-3154D9843BF6E4BE827E","translation_ko":"<$15>01물리 공격 시 인간 계열에게 주는\n피해가 크게 증가한다"}
+{"tm_id":"ARF-TM-315E174EEF595C66029A","translation_ko":"자신에게 특수 방어 효과\n물리 공격에 유효"}
+{"tm_id":"ARF-TM-3163C988C91C2AA58CEE","translation_ko":"하늘에서 대지로 왔다고 전해지는 지팡이.\n소지자에게 내성을 줘 광소술을 막아 준다"}
+{"tm_id":"ARF-TM-317F3B754E3E7B7DCF19","translation_ko":"그 존재를 신화적으로\n이해하는 이도 있지만\n실재와 그 의의를\n정확히 이해하는 이는\n결코 많지 않은 존재가\n바로 로그레스다.\n대지를 수호하고\n수많은 <$13>14<$1F>0000EC<$1F>01<$13>00를 만들어 내는\n존재라는 이해만으로는 아직 얕다"}
+{"tm_id":"ARF-TM-318377A208954D4E7B5E","translation_ko":"플라이 피시"}
+{"tm_id":"ARF-TM-3190BAD8A88A1D645A1D","translation_ko":"전체에게 불 속성 피해"}
+{"tm_id":"ARF-TM-31993ED2BD0ADFC27EC9","translation_ko":"예정은 미정"}
+{"tm_id":"ARF-TM-31B170AEA84AF145B1B4","translation_ko":"쿼드 포스"}
+{"tm_id":"ARF-TM-31B192D6806B1609D004","translation_ko":"물 내성 4"}
+{"tm_id":"ARF-TM-31B3D94227FDE67655F0","translation_ko":"콘서트를 열고 싶다 3"}
+{"tm_id":"ARF-TM-31B5BACC35A3B1E0B022","translation_ko":"상대에게 피해를 주는\n수단 중 하나.\n공격에는 <$13>14<$1F>000002<$1F>01<$13>00와 <$13>14<$1F>00000A<$1F>01<$13>00가\n영향을 주고, 방어에는 <$13>14<$1F>000002<$1F>01<$13>00와\n<$13>14<$1F>00000B<$1F>01<$13>00가 영향을 준다.\n또한 물리 공격 중에는 일반적인\n물리 공격과 다른 성질을\n지닌 것도 있다."}
+{"tm_id":"ARF-TM-31BD3B1C4C478901171A","translation_ko":"혼자 성지 노와레를 나아간다"}
+{"tm_id":"ARF-TM-31D3A390F07DF54A42D9","translation_ko":"HP 상승+"}
+{"tm_id":"ARF-TM-31E05D61B6378EBA63F2","translation_ko":"소피아 3호"}
+{"tm_id":"ARF-TM-31F82ACF1D51F931B1D3","translation_ko":"<$13>14<$1F>000101<$1F>01<$13>00이\n<$13>14<$1F>0000F9<$1F>01<$13>00에 상주됨으로써\n<$13>14<$1F>0000F3<$1F>01<$13>00은 정화된다.\n<$13>14<$1F>0000F3<$1F>01<$13>00이 정화되면\n그것을 양식 삼아 살아가는\n<$13>14<$1F>000109<$1F>01<$13>00은 멸종하고\n<$13>14<$1F>000108<$1F>01<$13>00이 새로운 인류로서\n지상에 내려선다고 한다"}
+{"tm_id":"ARF-TM-32394CE12C11AE95A7E9","translation_ko":"추운 지방에서 즐겨 먹는 식재료"}
+{"tm_id":"ARF-TM-324160869D87EC60853C","translation_ko":"<$15>91＋１３　<$15>93＋７　<$15>94−１　"}
+{"tm_id":"ARF-TM-325FAEE50CA3F412DE0A","translation_ko":"<$13>14<$1F>000098<$1F>01<$13>00 방식 중 하나.\n자신의 시야에 들어오는 범위의\n적에게 반응한다.\n시야 밖, 즉\n뒤를 노리면 반응하지 않는다"}
+{"tm_id":"ARF-TM-326CA7EDD00A8633A836","translation_ko":"MGC 상승"}
+{"tm_id":"ARF-TM-32B3F572EA757DC7920D","translation_ko":"디아만트에 있는\n모든 메이드에게 사인을 받는다"}
+{"tm_id":"ARF-TM-32B4ABA5065E736DF5EA","translation_ko":"레이 배니시"}
+{"tm_id":"ARF-TM-32C3617FAC055DF12972","translation_ko":"아델과의 약속"}
+{"tm_id":"ARF-TM-32D1CA3C8220D71A23BF","translation_ko":"RES 하락"}
+{"tm_id":"ARF-TM-32DE70BACB3714C26837","translation_ko":"소모품 더미 25"}
+{"tm_id":"ARF-TM-32E76F1ABB1B04611F65","translation_ko":"<$13>03대상 몬스터<$13>00를 1마리 퇴치하면 클리어 9"}
+{"tm_id":"ARF-TM-32EAD72DC160AAE021E7","translation_ko":"다음 로그레스 그라를 찾아 에블로 향한다"}
+{"tm_id":"ARF-TM-32EC99EB04632517C38F","translation_ko":"어떻게든 먹고 싶단 말이야.\n이걸 안주 삼아 한잔……\n통통하게 살찐 새에게서 얻을 수 있을 거다"}
+{"tm_id":"ARF-TM-3307CAC2CBC00116E8B1","translation_ko":"장신구 더미 01"}
+{"tm_id":"ARF-TM-331A0140755C5695EF61","translation_ko":"전투 시작 시\n기본 LUK가 25가 된다"}
+{"tm_id":"ARF-TM-332A40AA028F8CAFC5F8","translation_ko":"파티마의 손"}
+{"tm_id":"ARF-TM-332DCCF4448F6952EC60","translation_ko":"단독 광소 증폭"}
+{"tm_id":"ARF-TM-334214F2C356E9118021","translation_ko":"<$13>14<$1F>0000A4<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내의\n적에게 물과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n토르 해머에서는\n추가 효과로 대상을\n<$13>14<$1F>00001D<$1F>01<$13>00 상태로 만들기도 한다"}
+{"tm_id":"ARF-TM-3343DCA46796947A85D0","translation_ko":"땅의 코드가 새겨진 장신구.\n육체의 석화를 막도록 작용한다"}
+{"tm_id":"ARF-TM-334A08BE04872F601B38","translation_ko":"검은 비"}
+{"tm_id":"ARF-TM-335A2DED3F6E47B2FD0C","translation_ko":"<$15>93＋３"}
+{"tm_id":"ARF-TM-335BAE9D6445C41B8223","translation_ko":"체인 21"}
+{"tm_id":"ARF-TM-336049BFB5C6BDA0A8E9","translation_ko":"방어 HP 회복"}
+{"tm_id":"ARF-TM-338B534FDD8EE37B8F89","translation_ko":"세상의 모든 개에게 먹이를 주고 와 줘.\n주인이 있는 개도 있겠지만\n어떻게든 부탁해서 허락받아 줘!\n　\n※도중에 포기할 수 없는 퀘스트입니다"}
+{"tm_id":"ARF-TM-33A74C2E25B95348E3D1","translation_ko":"장신구용 1"}
+{"tm_id":"ARF-TM-33A83791915059E3109F","translation_ko":"기하 회랑――종언"}
+{"tm_id":"ARF-TM-33AEC889872C21C3CB41","translation_ko":"자장가"}
+{"tm_id":"ARF-TM-33C934D489D7E8878439","translation_ko":"질병"}
+{"tm_id":"ARF-TM-33D86078B3EF83EC4EB4","translation_ko":"<$15>01<$15>91＋１５　<$15>90−１５"}
+{"tm_id":"ARF-TM-33EC00A625555B091AC4","translation_ko":"고순도 강철로 보강한 견고한 갑옷.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-33EC83ED821F44DCF0E4","translation_ko":"테라 큐라스"}
+{"tm_id":"ARF-TM-341EC388BD22E290781F","translation_ko":"키키모라"}
+{"tm_id":"ARF-TM-342661B243BCC7EB8445","translation_ko":"과연 무사히 지상으로 돌아갈 수 있을까?"}
+{"tm_id":"ARF-TM-3427621839EA5D5103A2","translation_ko":"비광정을 향해 달리는 라르크 일행"}
+{"tm_id":"ARF-TM-342A59C24202DF954C70","translation_ko":"치명타 방지"}
+{"tm_id":"ARF-TM-342E1E8890F69213E197","translation_ko":"레이 스톤"}
+{"tm_id":"ARF-TM-343BB40E7D29E9171140","translation_ko":"마리아를 찾으러 계속 나아가는 라르크 일행"}
+{"tm_id":"ARF-TM-343ECDA7A2F47DBE1E53","translation_ko":"데스 사이즈"}
+{"tm_id":"ARF-TM-343F35AF2F462431F53C","translation_ko":"능력치 감소 효과를 억제한다"}
+{"tm_id":"ARF-TM-34518E656C2B9FC05389","translation_ko":"단일 대상 HP 소량 회복\n자신 외 대상에게 발동 가능"}
+{"tm_id":"ARF-TM-345B5EC239691C153C04","translation_ko":"일기당천의 코더 사냥꾼이 애용한 지팡이.\n소지자를 지키며 때로 광소술을 무효화한다"}
+{"tm_id":"ARF-TM-34634D233F01A6AD535A","translation_ko":"광소술 사용 시\n대기 시간이 절반으로 줄어든다"}
+{"tm_id":"ARF-TM-3465A16055C6C90B797E","translation_ko":"오이겐의 조언에 따라 지하 감옥의 비밀 통로를 찾는다"}
+{"tm_id":"ARF-TM-34696C37F2822CE2EB90","translation_ko":"<$15>D2＋２００"}
+{"tm_id":"ARF-TM-34B22DDAF70C38FD78BD","translation_ko":"<$15>01물리 공격 시 날개 달린 생물에게 주는\n피해가 크게 증가한다"}
+{"tm_id":"ARF-TM-34B2EA41AB4DB21B3E42","translation_ko":"<$13>14<$1F>000064<$1F>01<$13>00의 종류 중 하나.\n항상 사용할 수 있는 회복계\n<$13>14<$1F>000064<$1F>01<$13>00, 전투 중에만\n사용할 수 있는 전투계\n<$13>14<$1F>000064<$1F>01<$13>00, 사용할 수 없는\n소재계 <$13>14<$1F>000064<$1F>01<$13>00이 존재한다"}
+{"tm_id":"ARF-TM-34BC09CEF57C2F088D83","translation_ko":"특수 방어"}
+{"tm_id":"ARF-TM-34D661368D31AEE3E87C","translation_ko":"MGC 상승"}
+{"tm_id":"ARF-TM-34DABAE8769DE4949597","translation_ko":"숙녀의 소양 「결단」"}
+{"tm_id":"ARF-TM-34E6FB5C7EE1FB9DCEDB","translation_ko":"불 속성"}
+{"tm_id":"ARF-TM-34E89E96D13165A550AD","translation_ko":"디바 로드"}
+{"tm_id":"ARF-TM-34F6BF9FCE2AE67F7EDC","translation_ko":"메리디아 황제가 된\n알스가 공포한\n새로운 헌법 조항.\n<$13>14<$1F>000138<$1F>01<$13>00에 의해\n건국 때부터 이어져 온\n구법에 비해\n훨씬 가혹한 이 법은\n사람이 사람을 잉여 존재로\n여겨 배척하는 법이었다"}
+{"tm_id":"ARF-TM-3504EDCBFB44C7AB8E37","translation_ko":"유수의 젬"}
+{"tm_id":"ARF-TM-35125E12EE87758BAAD6","translation_ko":"마비 부여"}
+{"tm_id":"ARF-TM-3521F2F9CB31DC6114DD","translation_ko":"보기 드문 꽃이 선명하게 핀 휘장.\n발밑에서 행운을 찾을 듯한 기분이 든다……"}
+{"tm_id":"ARF-TM-35246C2496EE9CD0DC2C","translation_ko":"정말…… 크네요……"}
+{"tm_id":"ARF-TM-35419BFCF33C96C54AB3","translation_ko":"신비한 광석"}
+{"tm_id":"ARF-TM-354B9EC7DCD2B83F7588","translation_ko":"서투른 라르크"}
+{"tm_id":"ARF-TM-3557BE7EC503B0D99758","translation_ko":"<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n아군을 <$13>14<$1F>00002C<$1F>01<$13>00 상태로\n만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n스피드 부스트에서는\n<$13>14<$1F>00002C<$1F>01<$13>00의 효과량이\n커진다"}
+{"tm_id":"ARF-TM-3578FC10218F954623D4","translation_ko":"질병 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-35869F1054A533C34E9D","translation_ko":"엑설런트리"}
+{"tm_id":"ARF-TM-359D9E1AFF53779480C4","translation_ko":"민폐인 리피아"}
+{"tm_id":"ARF-TM-35A49863BB8B6036DAFE","translation_ko":"아이언 플레이트"}
+{"tm_id":"ARF-TM-35AA5D6BF984853AFF64","translation_ko":"폭풍의 젬"}
+{"tm_id":"ARF-TM-35C9892BAF4A44E03EA9","translation_ko":"인형계의 다기"}
+{"tm_id":"ARF-TM-35E4BD2983B91584486E","translation_ko":"<$15>D2＋２０００"}
+{"tm_id":"ARF-TM-36056193643B40172755","translation_ko":"상태 변화를 유지한다\n변동형 상태 변화에만 유효"}
+{"tm_id":"ARF-TM-3609CFA1F67ABC18BFDF","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E3　<$15>D1：２"}
+{"tm_id":"ARF-TM-3613023EED0D53CB17BF","translation_ko":"폭풍 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개"}
+{"tm_id":"ARF-TM-364AE0F702E20DEA38C0","translation_ko":"의문의 간호복"}
+{"tm_id":"ARF-TM-364FDC37BCDF81E4FDE6","translation_ko":"레벨 2 MP 완전 회복"}
+{"tm_id":"ARF-TM-36515E815AF1D58524FA","translation_ko":"소모품 더미 38"}
+{"tm_id":"ARF-TM-3668888A129956E985EA","translation_ko":"엔주를 구한 라르크 일행은"}
+{"tm_id":"ARF-TM-367AE38F886ED8C2B697","translation_ko":"라이프 포스"}
+{"tm_id":"ARF-TM-368440908980C7BBA71D","translation_ko":"자무엘과 엘레나에게 사정을 알리기 위해"}
+{"tm_id":"ARF-TM-36A4A17F8E472722D6A9","translation_ko":"카르분클루스 북동쪽의 달그림자 여관으로 향한다"}
+{"tm_id":"ARF-TM-36B9210204ED4A1DC5A2","translation_ko":"신속의 코드를 품은 위타천의 반지.\n민첩성이 크게 상승한다"}
+{"tm_id":"ARF-TM-36CA55E08593DBEC4669","translation_ko":"<$15>90＋３　<$15>91−３　"}
+{"tm_id":"ARF-TM-370068E8C20420D57D44","translation_ko":"클라이드를 쓰러뜨린 라르크 일행."}
+{"tm_id":"ARF-TM-3701737FA6A5748FB1E2","translation_ko":"베리 슬라임"}
+{"tm_id":"ARF-TM-37074A6872E148C0A005","translation_ko":"엔주를 구하기 위해 지하 처형장으로 향한다"}
+{"tm_id":"ARF-TM-373C31B9539E2B8F6F57","translation_ko":"<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n적 단일 대상에게 불과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n샤인 불릿에서는\n추가 효과로\n대상을 <$13>14<$1F>000020<$1F>01<$13>00 상태로\n만들기도 한다"}
+{"tm_id":"ARF-TM-375CFA3B661F431A2B6B","translation_ko":"<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A1<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n가이아 브리드에서는\n추가 효과로 대상을\n<$13>14<$1F>000036<$1F>01<$13>00 상태로\n만들기도 한다"}
+{"tm_id":"ARF-TM-3761DF3D8E4EF8A1E5D8","translation_ko":"용 토벌"}
+{"tm_id":"ARF-TM-3763C62816EC1EED56DA","translation_ko":"장신구용 8"}
+{"tm_id":"ARF-TM-37683C830A58C135DED5","translation_ko":"알스의 계획을 저지한 라르크 일행은"}
+{"tm_id":"ARF-TM-377B4FA8FA56080B41C0","translation_ko":"<$13>14<$1F>000061<$1F>01<$13>00 이외의 수단으로\n피해를 준 경우는\n모두 물리 피해로\n간주된다.\n대부분의 공격이 해당하므로\n물리 피해에\n대비하는 것은 매우\n중요하다"}
+{"tm_id":"ARF-TM-3792E8D163203352B927","translation_ko":"피나카"}
+{"tm_id":"ARF-TM-3794D7DFE9EC5D7AF78E","translation_ko":"파괴의 일격"}
+{"tm_id":"ARF-TM-37AC0F33FC7B355E460A","translation_ko":"에블의 여성"}
+{"tm_id":"ARF-TM-37AE9AF07E6B6B277F33","translation_ko":"맨 스매시"}
+{"tm_id":"ARF-TM-37B38A75475C6C70FE06","translation_ko":"알스를 만나러 디아만트로 향한다"}
+{"tm_id":"ARF-TM-37B50C39C7276F6786C8","translation_ko":"제국 황제에게 보내는 공화국 원로원의 친서"}
+{"tm_id":"ARF-TM-37C74C96BAF7CF5158C1","translation_ko":"자신에게 걸린\n<$13>14<$1F>000016<$1F>01<$13>00, <$13>14<$1F>000021<$1F>01<$13>00의\n효과가 변동하지 않게\n하는 <$13>14<$1F>00004B<$1F>01<$13>00. 유리하든\n불리하든 효과를 유지한다는\n점만 주의한다면\n대단히 효과가 뛰어난\n<$13>14<$1F>00004B<$1F>01<$13>00이라\n할 수 있다"}
+{"tm_id":"ARF-TM-37D055D8C1A1783ED1C4","translation_ko":"크레이델에서 제련한 무구.\n평범한 찌르기를 비범하게 만든다"}
+{"tm_id":"ARF-TM-37E2DA258C93BF2E9719","translation_ko":"※컷 디아의 인상 02"}
+{"tm_id":"ARF-TM-381ECF0D8B82F4F9D3C6","translation_ko":"거기서 거기"}
+{"tm_id":"ARF-TM-382B1220143304D3EC82","translation_ko":"선더볼트"}
+{"tm_id":"ARF-TM-382F8A0C1D4C0E20D35D","translation_ko":"<$15>91＋１５　<$15>93＋１１　"}
+{"tm_id":"ARF-TM-383301BAAB4E682CFC42","translation_ko":"오팔루스 사관학교에도 납품된다는\n엄격한 학자를 위한 의복 한 벌"}
+{"tm_id":"ARF-TM-38400B6E756CC7E0BC9B","translation_ko":"질풍의 코드로 강화한 불사조의 조끼.\n방어력과 저항력에 더해 바람 내성을 높인다"}
+{"tm_id":"ARF-TM-3849AF45E9FAA6DB7C57","translation_ko":"물 내성＋４, 물 내성−４"}
+{"tm_id":"ARF-TM-384ED74CCA6B79A25618","translation_ko":"그 이름대로 <$13>14<$1F>0000AB<$1F>01<$13>00의\n파편을 뜻한다.\n필요한 수를 모아 공방에\n가져가면\n<$13>14<$1F>0000AB<$1F>01<$13>00으로 복원할\n수 있다"}
+{"tm_id":"ARF-TM-386768A1EA571E36700C","translation_ko":"물리 공격 시 수생 생물에게 주는\n피해가 증가한다"}
+{"tm_id":"ARF-TM-386BB7193FF058B24CC1","translation_ko":"<$13>14<$1F>00014B<$1F>01<$13>00 서쪽\n푸른 언덕이 이어진 사이에\n자리 잡은 작은 마을.\n한때는 독자적인 색채가 짙은\n문화로 알려졌으나\n지금은 <$13>14<$1F>000148<$1F>01<$13>00와\n다른 도시의 영향을\n피하지 못하고 있다"}
+{"tm_id":"ARF-TM-387C9CA1E24CFAC56C7A","translation_ko":"폐도 힐베르트로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-38831AEB055F6D40FEA7","translation_ko":"라르크는 디아만트로 가기로 결심한다"}
+{"tm_id":"ARF-TM-3888A0BE087B93A18226","translation_ko":"도발"}
+{"tm_id":"ARF-TM-3889642517F14710DAE2","translation_ko":"알스에 관해"}
+{"tm_id":"ARF-TM-3892078F759EF659F804","translation_ko":"알스와 합류한 라르크 일행은"}
+{"tm_id":"ARF-TM-389FFE56A18E6522988D","translation_ko":"높은 확률로 한 차례 물리 공격의\n모든 타격이 치명타가 된다"}
+{"tm_id":"ARF-TM-38A4CB8CE34CD855B35E","translation_ko":"광소술로 공격 시\n일정 확률로 치명타가 발생한다"}
+{"tm_id":"ARF-TM-38ABB9278D826736F4C6","translation_ko":"해방의 광휘"}
+{"tm_id":"ARF-TM-38AEC7F4C8C69E7970A9","translation_ko":"A−００"}
+{"tm_id":"ARF-TM-38BCBFA84F0F2E4098F1","translation_ko":"획득 리코 상승"}
+{"tm_id":"ARF-TM-38CEE3A4022B9F164D7B","translation_ko":"작은 몸을 감싸는 검은 드레스\n하얀 앞치마와 빨간 리본, 고양이 귀가 포인트"}
+{"tm_id":"ARF-TM-38D791CA8A9296B0F925","translation_ko":"물리 공격 시\n일정 확률로 수면 상태로 만든다"}
+{"tm_id":"ARF-TM-38D9FB90A301129AA66D","translation_ko":"물 내성＋４, 바람 내성＋４"}
+{"tm_id":"ARF-TM-38F97FF4EC487FCC035F","translation_ko":"그 포신에서 날아드는 입맞춤은 죽음의 향기.\n때로 동료의 공격에 사랑을 더한다"}
+{"tm_id":"ARF-TM-38FE275AF3D72CDBB802","translation_ko":"바네투"}
+{"tm_id":"ARF-TM-3903C64837C93CD29802","translation_ko":"제도에 전해지는 용사상을 본뜬 의상\n초대 메리디아 왕의 모습이라는 설도 있지만……"}
+{"tm_id":"ARF-TM-39083F87796AE2A4A365","translation_ko":"빛 속성"}
+{"tm_id":"ARF-TM-3910AC5EAF5899F317CD","translation_ko":"불만"}
+{"tm_id":"ARF-TM-391A739C3A358546845C","translation_ko":"레테아 숲에 새가 이상할 만큼 불어났네.\n원인을 밝혀 해결해 주지 않겠나?\n낯선 새도 있었던 듯하네만……"}
+{"tm_id":"ARF-TM-3959663E4364779A64D8","translation_ko":"생명의 변환"}
+{"tm_id":"ARF-TM-3985F14A2A0C4DB018C9","translation_ko":"<$13>14<$1F>000043<$1F>01<$13>00으로 받는 피해에\n큰 영향을 미치는 수치.\n<$13>14<$1F>0000E5<$1F>01<$13>00을 장비하면\n수치가 크게 상승한다"}
+{"tm_id":"ARF-TM-3992422E9177DFA692F9","translation_ko":"베네트나슈 대성당으로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-39940E80C9DE07F8CCC9","translation_ko":"슬래시 게일"}
+{"tm_id":"ARF-TM-39C1821CBF56DC7A890E","translation_ko":"밤을 닮은 칠흑의 드레스 가슴께를\n얼어붙은 별 같은 펜던트가 장식한다"}
+{"tm_id":"ARF-TM-39CA96B42AD0B003BB53","translation_ko":"에블 유적"}
+{"tm_id":"ARF-TM-39CD1F7479D4E72D798C","translation_ko":"오트클레르"}
+{"tm_id":"ARF-TM-39D3BD3E5FFAB4A130FA","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E0　<$15>D1：４"}
+{"tm_id":"ARF-TM-39ED9860F334898E6499","translation_ko":"고명한 술사가 무덤까지 가져간 한 자루.\n암 포스의 발동 확률을 높인다"}
+{"tm_id":"ARF-TM-39F14D21CC600651BF5F","translation_ko":"아말테아"}
+{"tm_id":"ARF-TM-3A114220B1F13A70DDC5","translation_ko":"『악당』과 『익살』의 뜻을 지닌 단도.\n정의로운 도둑이 될 것인가, 아니면?"}
+{"tm_id":"ARF-TM-3A13C08F93F275ACBE90","translation_ko":"수생 생물 특공"}
+{"tm_id":"ARF-TM-3A150DC3799C616082D6","translation_ko":"이해하지 못하는 리피아"}
+{"tm_id":"ARF-TM-3A22DA198383C4939910","translation_ko":"머시 미믹"}
+{"tm_id":"ARF-TM-3A442384069261EFDEE7","translation_ko":"번개 속성"}
+{"tm_id":"ARF-TM-3A5462699579D43FA464","translation_ko":"도망친 이그나츠를 쫓는 라르크 일행."}
+{"tm_id":"ARF-TM-3A64C8DB660B0DD00B18","translation_ko":"지하 감옥 열쇠 1"}
+{"tm_id":"ARF-TM-3A70AEEFEFDA424416EB","translation_ko":"<$15>91＋３７　<$15>93＋３１　"}
+{"tm_id":"ARF-TM-3A87202ECCC3C547D6E6","translation_ko":"아이온대 2"}
+{"tm_id":"ARF-TM-3A89D3227193FD1833C6","translation_ko":"에포나 링"}
+{"tm_id":"ARF-TM-3A9B8ABEE42BA8AEBF76","translation_ko":"증폭 광소술"}
+{"tm_id":"ARF-TM-3AB37591D47319B8FD9E","translation_ko":"얼어붙은 험로를 걷기 위한 끈 장화.\n민첩성과 저항력을 높인다"}
+{"tm_id":"ARF-TM-3ADC7B1B83AE1E00F990","translation_ko":"거석의 젬"}
+{"tm_id":"ARF-TM-3ADEABFF8214532D7A01","translation_ko":"광소술 무효"}
+{"tm_id":"ARF-TM-3AE4AB04E6A7614D0635","translation_ko":"RES 상승 효과"}
+{"tm_id":"ARF-TM-3AE967790A2565BB4220","translation_ko":"M−００"}
+{"tm_id":"ARF-TM-3B0D9511FA174E382449","translation_ko":"무명 잠옷"}
+{"tm_id":"ARF-TM-3B12425552CACEE3F361","translation_ko":"자신에게 ATK 상승"}
+{"tm_id":"ARF-TM-3B1ABD4E22DE0D038865","translation_ko":"기타 더미 8"}
+{"tm_id":"ARF-TM-3B2AC3F87D60F0DF4FAB","translation_ko":"빠르게 내지르는 철의 손끝.\n승리 후 행운이 따르기 쉬워진다"}
+{"tm_id":"ARF-TM-3B2BC778DC7B5423DCB4","translation_ko":"혼자서 <$13>14<$1F>000000<$1F>01<$13>00을 조합해\n발생하는 연계를\n나타낸다.\n<$13>14<$1F>000060<$1F>01<$13>00, <$13>14<$1F>00004B<$1F>01<$13>00을\n조합하면\n발생하기도 한다"}
+{"tm_id":"ARF-TM-3B355F864488A6485706","translation_ko":"피스"}
+{"tm_id":"ARF-TM-3B3830DC2BFD9A6358C6","translation_ko":"<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터의 <$13>14<$1F>000046<$1F>01<$13>00으로\n주는 피해가 증가한다.\n<$13>14<$1F>000029<$1F>01<$13>00 상태일 때\nMGC 상승 효과를 중첩하면\n<$13>14<$1F>000029<$1F>01<$13>00의 효과를\n약화시키거나 덮어쓸\n수 있다. 이 <$13>14<$1F>000021<$1F>01<$13>00은\n<$13>14<$1F>000022<$1F>01<$13>00이다"}
+{"tm_id":"ARF-TM-3B4480D0E4345138B6F5","translation_ko":"수면 부여"}
+{"tm_id":"ARF-TM-3B565E56CD733571AB6B","translation_ko":"리피아의 의뢰"}
+{"tm_id":"ARF-TM-3B5E39DEA26972F4D8FB","translation_ko":"고급 고치"}
+{"tm_id":"ARF-TM-3B63FE92B68321986425","translation_ko":"전투 승리 시\n획득하는 리코가 증가한다"}
+{"tm_id":"ARF-TM-3B6D8A091A00EA603974","translation_ko":"퀘스트 12"}
+{"tm_id":"ARF-TM-3B7451CFEFEB72B85FF2","translation_ko":"<$15>91＋２　<$15>94＋６　"}
+{"tm_id":"ARF-TM-3B781DCD94B4043EA09D","translation_ko":"괴조의 날개"}
+{"tm_id":"ARF-TM-3B81487760415653862D","translation_ko":"지켜진 비밀"}
+{"tm_id":"ARF-TM-3B96A3E216E1C0ACB56A","translation_ko":"쿠토네시리카"}
+{"tm_id":"ARF-TM-3BBA2992166CB13AE48C","translation_ko":"크레센트 엣지"}
+{"tm_id":"ARF-TM-3BC180952EFE77A1E4DE","translation_ko":"『지배』의 로고스를 품은 로그레스"}
+{"tm_id":"ARF-TM-3BD2784BCAB7A1D150D1","translation_ko":"RES가 상승한다"}
+{"tm_id":"ARF-TM-3C0162123EAAA98E499C","translation_ko":"모든 행동에서\nSP 증가량이 두 배가 된다"}
+{"tm_id":"ARF-TM-3C0DBE3765380F4368E5","translation_ko":"어느 나라와도 다른 학사 차림\n햇빛 받은 유리 너머의 눈동자는 수수께끼를 안다"}
+{"tm_id":"ARF-TM-3C1CFE57F12E382BC107","translation_ko":"상사?"}
+{"tm_id":"ARF-TM-3C4DF987DE5AE1A8165B","translation_ko":"<$15>01자신의 HP를 소량 회복"}
+{"tm_id":"ARF-TM-3C5465DDB27444EF86E8","translation_ko":"<$15>93＋５　<$15>94＋１８　"}
+{"tm_id":"ARF-TM-3C7FCEBDFACD05DBA94D","translation_ko":"리피아의 의식 속으로 들어간 라르크 일행."}
+{"tm_id":"ARF-TM-3CD2B8EE90FA5A874CC0","translation_ko":"<$13>14<$1F>000016<$1F>01<$13>00 중 하나.\n<$13>14<$1F>000003<$1F>01<$13>00 회복을 전혀 받을 수\n없는 상태.\n<$13>14<$1F>000064<$1F>01<$13>00이나 <$13>14<$1F>000061<$1F>01<$13>00뿐\n아니라 <$13>14<$1F>000039<$1F>01<$13>00의 영향도\n받지 못한다.\n이 <$13>14<$1F>000016<$1F>01<$13>00은 전투가\n끝나도 회복되지 않는다"}
+{"tm_id":"ARF-TM-3CFB213E3A0103861239","translation_ko":"한순간"}
+{"tm_id":"ARF-TM-3CFCE1249C5BDD088126","translation_ko":"퀘스트 19"}
+{"tm_id":"ARF-TM-3D15EBDE0CDB47D792C6","translation_ko":"디스펠"}
+{"tm_id":"ARF-TM-3D1A3094A67BDB79FE95","translation_ko":"혼란 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-3D2C466FAD9E7AC84B2B","translation_ko":"경건한 소녀는 신의 가르침을 설파할까?\n아니면 그 미소 속에 계략을 숨기고 있을까?"}
+{"tm_id":"ARF-TM-3D44EE1060736E60ADC5","translation_ko":"파도 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개"}
+{"tm_id":"ARF-TM-3D46BC1732ABAA22F2B2","translation_ko":"B−００"}
+{"tm_id":"ARF-TM-3D4709E170D373C5CCC4","translation_ko":"단련된 몸을 감싸기에는 사랑스럽지만\n그 부조화가 묘한 멋을 자아내기도 한다"}
+{"tm_id":"ARF-TM-3D5D563C549BB8B1DE7A","translation_ko":"광소술전에 특화된 충격 완화 장비.\n방어력과 저항력을 높인다"}
+{"tm_id":"ARF-TM-3D69577BA80C3D0C12A7","translation_ko":"단일 대상에게 무속성 피해\n추가 효과: DEF 하락"}
+{"tm_id":"ARF-TM-3D81A59F91D3AF856AD3","translation_ko":"지하 감옥 열쇠 2"}
+{"tm_id":"ARF-TM-3D9AE44A6674B1DA866F","translation_ko":"불 내성＋１, 바람 내성＋１"}
+{"tm_id":"ARF-TM-3D9C936703250D7DBAE7","translation_ko":"<$15>97＋７５"}
+{"tm_id":"ARF-TM-3DB45AFB2222ED9BB23D","translation_ko":"HP 상승 상태로 전투를 시작한다"}
+{"tm_id":"ARF-TM-3E0528C8DC2E379EC567","translation_ko":"낯익은 옷"}
+{"tm_id":"ARF-TM-3E29CFE95FD277A612E0","translation_ko":"메이드 기행〜대도시 편 2"}
+{"tm_id":"ARF-TM-3E32AB1B4A27D10C7D0A","translation_ko":"강대한 군사력을 바탕으로\n넓은 영토를 지배하는 제국.\n역대 황제가 통치해 온\n메리디아 제국의 기원은\n오래되어, 음의 시대라 불린\n1000년 전부터 그 계보가\n시작되어 현재 황실까지\n이어지고 있다"}
+{"tm_id":"ARF-TM-3E3CEB48CC3D7E287709","translation_ko":"오르키나교 신도에게 아델이 납치됐다!"}
+{"tm_id":"ARF-TM-3E3DD991BE4FF31BB5E2","translation_ko":"오팔루스"}
+{"tm_id":"ARF-TM-3E48523B629CAA3C81AE","translation_ko":"성지 노와레의 출현을 알게 된 라르크 일행은"}
+{"tm_id":"ARF-TM-3E637D6C4E25E1AE5236","translation_ko":"리저렉트 레이"}
+{"tm_id":"ARF-TM-3E7BD0FC8B7D1EA68482","translation_ko":"맨플"}
+{"tm_id":"ARF-TM-3E7F2F225BF2EAB42D0E","translation_ko":"소모품 더미 17"}
+{"tm_id":"ARF-TM-3E7F97A28E497AFCEE55","translation_ko":"『훔치기』 실행 시\n성공 확률이 상승한다"}
+{"tm_id":"ARF-TM-3E995063593504059CF2","translation_ko":"<$13>14<$1F>0000EC<$1F>01<$13>00의 힘을 이용해\n다양한 현상을 일으키는\n광소 기술.\n광소술을 사용할 때는\n<$13>14<$1F>000008<$1F>01<$13>00를 1포인트 소모한다"}
+{"tm_id":"ARF-TM-3E9B3BB83568C354F30B","translation_ko":"<$13>14<$1F>0000EC<$1F>01<$13>00에 의해 생성된\n빛의 막으로 호위 대상을\n위험에서 지키기 위한\n방어 수단 중 하나.\n<$13>14<$1F>000061<$1F>01<$13>00이나 이른바 <$13>14<$1F>000162<$1F>01<$13>00을\n<$13>14<$1F>000111<$1F>01<$13>00의 힘뿐 아니라\n전용 장비를 가동하여\n더 넓은 범위로 전개한\n것을 뜻한다"}
+{"tm_id":"ARF-TM-3EA37727C9F91A5AA549","translation_ko":"바람의 코드가 새겨진 장신구.\n그 바람의 울림은 억압의 침묵을 깨뜨린다"}
+{"tm_id":"ARF-TM-3EB3FDBC7EEB83E5E67C","translation_ko":"레지스트 코드"}
+{"tm_id":"ARF-TM-3ECB6F3BFA0597D0306C","translation_ko":"<$15>E1＋４　<$15>E3＋４\n속박 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-3ED156E6258C7AD79C61","translation_ko":"성도 <$13>14<$1F>000149<$1F>01<$13>00에\n설립된 <$13>14<$1F>000112<$1F>01<$13>00\n육성 기관.\n가소술로 고도의 코드를\n조작하려면 타고난\n재능이 필요하다고 하며,\n선발된 소녀는\n외부와 격리된 환경에서\n교육받게 된다"}
+{"tm_id":"ARF-TM-3EDC9B180E4739946C88","translation_ko":"닉스"}
+{"tm_id":"ARF-TM-3EEE65A2040D7B050387","translation_ko":"나블라 트렌트"}
+{"tm_id":"ARF-TM-3F0AD2AAD1DF42E6C9AB","translation_ko":"왕가의 영애가 입어도 손색없는\n소박한 아름다움의 드레스"}
+{"tm_id":"ARF-TM-3F1BDA673891E89CDCB8","translation_ko":"셰리의 초대를 받아 회의실로 향한다"}
+{"tm_id":"ARF-TM-3F1D50EBF00B393140DD","translation_ko":"플라미스"}
+{"tm_id":"ARF-TM-3F43007A800793743780","translation_ko":"흰 비단 드레스"}
+{"tm_id":"ARF-TM-3F4C5928704D7BCEBB61","translation_ko":"오르키나교도에게 들키고 말았다!"}
+{"tm_id":"ARF-TM-3F5CF01DF2981D97DA7A","translation_ko":"광소술 사범"}
+{"tm_id":"ARF-TM-3F664B961AB4ADD0D131","translation_ko":"『순결』의 로고스를 품은 로그레스"}
+{"tm_id":"ARF-TM-3F7BD2833C26390E0EF7","translation_ko":"와이번"}
+{"tm_id":"ARF-TM-3F87E04E7711168E32B4","translation_ko":"길가의 고난"}
+{"tm_id":"ARF-TM-3FB03D2EB0EAD97E9FD3","translation_ko":"장신구 더미 06"}
+{"tm_id":"ARF-TM-3FBB9A70FD3CA8B7C608","translation_ko":"사용하면\n<$13>14<$1F>000046<$1F>01<$13>00에 대해\n<$13>14<$1F>000049<$1F>01<$13>00 효과를 얻을 수\n있게 된다.\n<$13>14<$1F>00002A<$1F>01<$13>00과 달리\n공격을 받기 전까지는\n효과가 절대 감쇠하지 않는\n안심할 수 있는 <$13>14<$1F>00004B<$1F>01<$13>00\n이다"}
+{"tm_id":"ARF-TM-3FCAF94240D18D12624F","translation_ko":"메인 더미 16"}
+{"tm_id":"ARF-TM-4014DA7ABD8AE5A76495","translation_ko":"만다우"}
+{"tm_id":"ARF-TM-403B84CFA83BDAB9640B","translation_ko":"기타 더미 25"}
+{"tm_id":"ARF-TM-40800C02F410765CD150","translation_ko":"매지컬 리피아"}
+{"tm_id":"ARF-TM-40826EB5D8EF05E1B649","translation_ko":"이 항목에서는 전투에서\n로그레스가 맡는 역할을\n다룬다.\n<$13>14<$1F>000055<$1F>01<$13>00를 수행하면\n<$13>14<$1F>000056<$1F>01<$13>00, <$13>14<$1F>000057<$1F>01<$13>00를\n사용할 수 있게\n된다"}
+{"tm_id":"ARF-TM-40ABF2594104D168F90D","translation_ko":"소모품 더미 40"}
+{"tm_id":"ARF-TM-40B9C6353543A9F04BFA","translation_ko":"디아만트성 집무실로 향한다"}
+{"tm_id":"ARF-TM-40C8F050C8E95FF30F4E","translation_ko":"행동에 흡수 효과를 부여한다\n실행 턴에만 유효"}
+{"tm_id":"ARF-TM-40D10B4EDC62F9AD90AD","translation_ko":"사쥬가 발견한 수상한 책.\n어린이는 읽으면 안 됩니다"}
+{"tm_id":"ARF-TM-40D188B18597E60215D3","translation_ko":"그 턴에 실행하는 <$13>14<$1F>000000<$1F>01<$13>00에\n흡수 효과를 부여하는\n<$13>14<$1F>00004B<$1F>01<$13>00.\n피해를 줄 뿐만 아니라\n<$13>14<$1F>000003<$1F>01<$13>00도 회복할 수\n있으니 일석이조란 바로\n이런 것을 말한다"}
+{"tm_id":"ARF-TM-40E3237F3ACD1D4E33FD","translation_ko":"지혜의 코드를 품은 술사의 반지.\n저항력을 희생해 광소술을 강화한다"}
+{"tm_id":"ARF-TM-40E582AAB8197EE500A6","translation_ko":"땅 내성+4, 바람 내성-4"}
+{"tm_id":"ARF-TM-40F9999992A66196B0BB","translation_ko":"범위 내 대상에게 땅 속성 피해\n추가 효과: SPD 하락"}
+{"tm_id":"ARF-TM-40FE8D1517FEE0D9DA1F","translation_ko":"방어 태세를 취해 몸을\n지키려는 상태를 뜻한다.\n방어 태세일 때는 받는\n피해와 <$13>14<$1F>000016<$1F>01<$13>00에\n걸릴 확률이 감소한다.\n1턴의 <$13>14<$1F>000000<$1F>01<$13>00이 방어\n뿐이라면 효과가\n1턴 동안 지속되어 더\n유리하다"}
+{"tm_id":"ARF-TM-41095388FC08A3BACA42","translation_ko":"미스틸테인"}
+{"tm_id":"ARF-TM-410D82BF51825D2DCD20","translation_ko":"고대의 탑"}
+{"tm_id":"ARF-TM-4136069D4049F804C8BF","translation_ko":"복합"}
+{"tm_id":"ARF-TM-413DB6C46F1533AEDD50","translation_ko":"<$15>93＋２　<$15>94＋１０　"}
+{"tm_id":"ARF-TM-4141CB0BD3C9C1FE3C9F","translation_ko":"상태 변화 내성"}
+{"tm_id":"ARF-TM-414A33C92A2FC84FF6B5","translation_ko":"승리의 거리"}
+{"tm_id":"ARF-TM-415896B5A52AF4D1EA87","translation_ko":"이루운"}
+{"tm_id":"ARF-TM-4169F0FA2B97DB7D82B9","translation_ko":"분노의 표적"}
+{"tm_id":"ARF-TM-416B7D77AC7DED508751","translation_ko":"맹독 상태를 일정 확률로 방지한다"}
+{"tm_id":"ARF-TM-418B5F9A5DE5CEA0CCC5","translation_ko":"1000년 전의 <$13>14<$1F>00010C<$1F>01<$13>00 때문에\n<$13>14<$1F>000107<$1F>01<$13>00으로\n몸을 숨긴 인류.\n<$13>14<$1F>00010E<$1F>01<$13>00을 지닌\n일부를 제외하면 신종은\n<$13>14<$1F>0000F3<$1F>01<$13>00으로 오염된 대지\n위를 걸을 수 없다고\n전해진다"}
+{"tm_id":"ARF-TM-418DCB8080ABC903CE61","translation_ko":"<$15>01전투 시작 시 SP가 50이 된다"}
+{"tm_id":"ARF-TM-41A2DD275ABF3326D6E2","translation_ko":"메리디아 제국"}
+{"tm_id":"ARF-TM-41A93BF7291415E30144","translation_ko":"<$13>14<$1F>0000A3<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 물과 땅의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n아이시클 레인에서는\n주는 피해가\n크게 증가한다"}
+{"tm_id":"ARF-TM-41AEC1E4BD003596C75A","translation_ko":"니콜은 어디로?"}
+{"tm_id":"ARF-TM-41B1FD4E36F8FEF1B772","translation_ko":"MP 퀵 1"}
+{"tm_id":"ARF-TM-41D939E7ADB4A58E47E1","translation_ko":"붉고 검은 선이 선명한 대검.\n그 참격은 용들을 더욱 깊이 베어낸다"}
+{"tm_id":"ARF-TM-42287497A7A5AEF406E1","translation_ko":"M-03"}
+{"tm_id":"ARF-TM-422E6D2B4497B51D9B8E","translation_ko":"생명의 기적"}
+{"tm_id":"ARF-TM-42568A308FCCF36EB955","translation_ko":"레기온 망토"}
+{"tm_id":"ARF-TM-42680A5F17025A615B1E","translation_ko":"특수 방어 상태가 된다\n물리 공격에 유효"}
+{"tm_id":"ARF-TM-426B95CB221B1A48C5D4","translation_ko":"세팔"}
+{"tm_id":"ARF-TM-427A8504156E30B162A1","translation_ko":"비크"}
+{"tm_id":"ARF-TM-427DC1CEA7D4A749B709","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E0　<$15>D1：２"}
+{"tm_id":"ARF-TM-4292FF72037D819C5E06","translation_ko":"자신의 <$13>14<$1F>000007<$1F>01<$13>00를 지정한\n아군에게 양도하는 <$13>14<$1F>00004B<$1F>01<$13>00.\n다른 캐릭터가 쓰고 싶은\n<$13>14<$1F>00004B<$1F>01<$13>00가 있는데\n<$13>14<$1F>000007<$1F>01<$13>00가 부족하다.\n하지만 자신은 남아돈다.\n그럴 때를 위한\n<$13>14<$1F>00004B<$1F>01<$13>00이다"}
+{"tm_id":"ARF-TM-429A59A513CBBA8DE039","translation_ko":"<$15>91＋５８　<$15>93＋４５　"}
+{"tm_id":"ARF-TM-42AFA6BB5C04CAF0D529","translation_ko":"선명한 파랑과 흘러내릴 듯한 빨강이 돋보이는\n사람들에게 웃음을 선사하기 위한 의상"}
+{"tm_id":"ARF-TM-42B1F05B7A28F4AFDCB5","translation_ko":"마수의 피에 10년간 담갔다고 하는 검.\n그 일격은 마수에게 막대한 위력을 발휘한다"}
+{"tm_id":"ARF-TM-42C41743C2B7AFEC6D34","translation_ko":"『심려』의 로고스를 품은 로그레스"}
+{"tm_id":"ARF-TM-42D5F542D1C35A12A8CB","translation_ko":"고양이 마니아"}
+{"tm_id":"ARF-TM-42E4C817A258C9D1DFD2","translation_ko":"평범한 수영복\n강한 햇빛에서 눈을 보호하는 검은 유리 안경이 딸려 있다"}
+{"tm_id":"ARF-TM-42F00B8586A0B103D0DC","translation_ko":"<$15>93＋１５　<$15>92−１５"}
+{"tm_id":"ARF-TM-42FD0D27E243BC938F84","translation_ko":"수면 상태를 일정 확률로 방지한다"}
+{"tm_id":"ARF-TM-432D9B41C85466A1F4C0","translation_ko":"스톰"}
+{"tm_id":"ARF-TM-434A4764392309BBC3E1","translation_ko":"라르크 일행은 로그레스 스쿠일을 찾아"}
+{"tm_id":"ARF-TM-4359C2636CE7C7DA2BD9","translation_ko":"오르키나행 순례선을 찾아 항구로 향한다"}
+{"tm_id":"ARF-TM-4368F3E80EDF1EA225B5","translation_ko":"SPD 상승 부여"}
+{"tm_id":"ARF-TM-439363776BFC03FED814","translation_ko":"티 세트가 날개 돋친 듯 팔리는데\n너무 잘 팔려 품절될 것 같아.\n어떻게 좀 구해 줄 수 있겠나?\n가우스 지하도에 나타나는\n인형에게서 얻을 수 있다네"}
+{"tm_id":"ARF-TM-43A4A20427405F4C87F9","translation_ko":"코더 스태프"}
+{"tm_id":"ARF-TM-43AD66D726BC0357F9B0","translation_ko":"물리 공격 시 물 속성 성분을 부여한다"}
+{"tm_id":"ARF-TM-43C0E572CBE533ED2110","translation_ko":"여성 제국병"}
+{"tm_id":"ARF-TM-43CFE051D9587217D32D","translation_ko":"<$15>E1＋８\n맹독 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-4417C6531291F60B02E8","translation_ko":"모든 효과 무효"}
+{"tm_id":"ARF-TM-443CD678EE28B7871EC6","translation_ko":"원로원 의장 셰리 그린힐"}
+{"tm_id":"ARF-TM-443EBC42CCB20A2DF8AA","translation_ko":"<$15>92＋８　<$15>93＋８　\n광소술을 받을 때 일정 확률로 광소술을 무효화한다"}
+{"tm_id":"ARF-TM-4442459254E626410E09","translation_ko":"새고기"}
+{"tm_id":"ARF-TM-4454146CFAFE45B52B7E","translation_ko":"루샤"}
+{"tm_id":"ARF-TM-446563500D683064570C","translation_ko":"단일 대상에게 광소 무효 효과"}
+{"tm_id":"ARF-TM-447301F29185CE4D37E2","translation_ko":"범위 내 대상에게 번개 속성 피해"}
+{"tm_id":"ARF-TM-4477ADD855729E3EB39A","translation_ko":"부드러운 꽃빛으로 물든 천이\n착용자를 편안한 잠으로 이끈다"}
+{"tm_id":"ARF-TM-447C3ECFD1058742BC18","translation_ko":"디스트럭션"}
+{"tm_id":"ARF-TM-4480692EFD9122B98796","translation_ko":"희귀한 휘석에 레이 결정을 융합한 것.\n소지자의 육체는 질병에 걸리지 않게 된다"}
+{"tm_id":"ARF-TM-449829AB0C86B28D1BED","translation_ko":"소모품 더미 24"}
+{"tm_id":"ARF-TM-44A182045B5268C6AF7A","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E1　<$15>D1：３"}
+{"tm_id":"ARF-TM-44A94DE5237FA446C483","translation_ko":"라스카다 시스템"}
+{"tm_id":"ARF-TM-44C4A9ED88E9117B2A5D","translation_ko":"아르카나 쇼텔"}
+{"tm_id":"ARF-TM-44D10CADA7F92423E0B0","translation_ko":"ATK"}
+{"tm_id":"ARF-TM-44D2C8C67AD659357838","translation_ko":"소모품 더미 18"}
+{"tm_id":"ARF-TM-44DEC58083FAFCCB9114","translation_ko":"퀘스트 20"}
+{"tm_id":"ARF-TM-44FAF52FB4ECB168C71A","translation_ko":"윈드 셸"}
+{"tm_id":"ARF-TM-45072E73770DBB6C86AB","translation_ko":"제초 부탁"}
+{"tm_id":"ARF-TM-451DDEB3476FF2908BCD","translation_ko":"세실의 용사도〜만족"}
+{"tm_id":"ARF-TM-453BCB348457D350F2FB","translation_ko":"역할과 사명"}
+{"tm_id":"ARF-TM-455D7740382B53A9B3D1","translation_ko":"크로스 17"}
+{"tm_id":"ARF-TM-456036CE7A27E24598C5","translation_ko":"MP 차지 4"}
+{"tm_id":"ARF-TM-457B5257825DC377D69C","translation_ko":"슈즈 17"}
+{"tm_id":"ARF-TM-4597BDBC774CA919A11C","translation_ko":"MP 퀵 3"}
+{"tm_id":"ARF-TM-45AFC9C8FD84F359E35A","translation_ko":"에블 북서쪽의 에블 유적을 향한다"}
+{"tm_id":"ARF-TM-45CA3B28EE8B10A14E18","translation_ko":"축복의 스카프"}
+{"tm_id":"ARF-TM-45D22134F7991654208F","translation_ko":"<$15>01수면 상태를 확실히 방지한다"}
+{"tm_id":"ARF-TM-45D3F2993F465F80430E","translation_ko":"D-03"}
+{"tm_id":"ARF-TM-45D7B2A7161D532B0F45","translation_ko":"파피르사그"}
+{"tm_id":"ARF-TM-45E1FC7F11C8B2B0DD5C","translation_ko":"짐을 배달하고 있습니다만\n저로서는 어려울 것 같아\n대신 배달해 주셨으면 합니다.\n바트라키테스 광장에서 기다리겠습니다.\n　\n※도중에 포기할 수 없는 퀘스트입니다"}
+{"tm_id":"ARF-TM-45FD51BF4FAC736D6F03","translation_ko":"※컷, 여성 요소가"}
+{"tm_id":"ARF-TM-46105CD2453198DE0969","translation_ko":"<$13>14<$1F>0000F9<$1F>01<$13>00와 같은 이름이\n붙은 코드.\n이사의 코드를 지닌 자는\n<$13>14<$1F>0000FB<$1F>01<$13>00라 불린다.\n이 코드가 대체\n어떤 힘을 지녔는지는\n알 수 없지만\n<$13>14<$1F>0000EF<$1F>01<$13>00와의 계약에는\n없어서는 안 될 것으로 보인다"}
+{"tm_id":"ARF-TM-462C6A462435A7107C9B","translation_ko":"장신구 더미 11"}
+{"tm_id":"ARF-TM-46307962C0CC6078669C","translation_ko":"퀘스트 40"}
+{"tm_id":"ARF-TM-4635FAAA63CF67D16885","translation_ko":"<$15>92＋３　<$15>93−３　"}
+{"tm_id":"ARF-TM-465415D9A3218B2853B6","translation_ko":"두꺼운 가죽을 부드럽게 무두질해 만든 신발.\n민첩성과 저항력을 높인다"}
+{"tm_id":"ARF-TM-4668A1AB5FBD6DFEEABE","translation_ko":"기타 더미 26"}
+{"tm_id":"ARF-TM-46692292536234FAD576","translation_ko":"베아르"}
+{"tm_id":"ARF-TM-4673BA3CCD145FF3733C","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E0　<$15>D1：１"}
+{"tm_id":"ARF-TM-4688732C691A89CC0C79","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E3　<$15>D1：３"}
+{"tm_id":"ARF-TM-468B4F41CA2FC098ED41","translation_ko":"<$15>01피해를 받을 때\n반드시 『방어』 상태가 된다"}
+{"tm_id":"ARF-TM-46A942B8869C5C06CEFE","translation_ko":"신세 지고 있는 자무엘 무예관으로 돌아가기로 한다."}
+{"tm_id":"ARF-TM-46AB698BC0563578B82B","translation_ko":"SPD가 상승한다"}
+{"tm_id":"ARF-TM-46B9B3C51EBD70DB7723","translation_ko":"젬 더미 05"}
+{"tm_id":"ARF-TM-46D4964054D54F354C0F","translation_ko":"크루세이드 텔렉"}
+{"tm_id":"ARF-TM-46D6D9A0883D5938B732","translation_ko":"수수께끼의 총사"}
+{"tm_id":"ARF-TM-46D87F093A20F6686B80","translation_ko":"푸른 옷"}
+{"tm_id":"ARF-TM-4700B8198747F227740B","translation_ko":"광소술을 쓰는 데 필요한 보주\n속성:<$15>E1　<$15>D1：２"}
+{"tm_id":"ARF-TM-4720AE58E4455576908B","translation_ko":"레이즈 윈드"}
+{"tm_id":"ARF-TM-473A4A1E8F39DEEC88A5","translation_ko":"비율로 받는 피해량을\n크게 줄인다"}
+{"tm_id":"ARF-TM-4747AE3876C977C8F26A","translation_ko":"레이즈 스피릿"}
+{"tm_id":"ARF-TM-476C5F8DFEB68F14604E","translation_ko":"칼끝이 날카롭게 젖혀진 외날 단도.\n칼날에 독을 발라 적을 괴롭힐 수 있다"}
+{"tm_id":"ARF-TM-479492567115208B4B31","translation_ko":"LV 상승 효과"}
+{"tm_id":"ARF-TM-479FB04B29220BD37E9F","translation_ko":"곁에 도사린"}
+{"tm_id":"ARF-TM-47B37BED79B9D6412AA8","translation_ko":"은철 박판을 펴서 만든 아름다운 신발.\n민첩성 외에도 모든 내성을 높인다"}
+{"tm_id":"ARF-TM-47D59BB5C139E3F89622","translation_ko":"보기"}
+{"tm_id":"ARF-TM-4803CED8FA6E2ED0EE22","translation_ko":"획득 WP 상승"}
+{"tm_id":"ARF-TM-480A811C4E1054DE6915","translation_ko":"『<$13>14<$1F>000076<$1F>01<$13>00』과 『<$13>14<$1F>000060<$1F>01<$13>00』을\n연속으로 실행하면 발동하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n평소보다 HP 흡수량이\n증가한다.\n물 흐르듯 이어지는 움직임은\n상대의 생명마저 빼앗아\n간다"}
+{"tm_id":"ARF-TM-48257F999FF39DBB0601","translation_ko":"P-01"}
+{"tm_id":"ARF-TM-48298F3E7AC74C97547C","translation_ko":"제국 위병대 군복"}
+{"tm_id":"ARF-TM-483B4FAEF7494ED5A3A7","translation_ko":"DEF 스톡"}
+{"tm_id":"ARF-TM-485D13CD8339FD312340","translation_ko":"코핀의 깊은 반성"}
+{"tm_id":"ARF-TM-485F8B6D7B69F55C36CE","translation_ko":"범위 내 대상에게 무속성 피해\n추가 효과: 바람 속성 피해"}
+{"tm_id":"ARF-TM-4867B7F0490EC62BADA3","translation_ko":"얼음 속성"}
+{"tm_id":"ARF-TM-48692034E947FA538FB3","translation_ko":"픽포켓"}
+{"tm_id":"ARF-TM-486A4035F3F31B08518F","translation_ko":"플레이트 15"}
+{"tm_id":"ARF-TM-4877E561D3BF4DC1675D","translation_ko":"몰랐던 말"}
+{"tm_id":"ARF-TM-4879A823A39240372B63","translation_ko":"어떻게든 자유의 몸이 된 라르크 일행."}
+{"tm_id":"ARF-TM-489F2E3FB07CA666CAD3","translation_ko":"수다쟁이 마리아"}
+{"tm_id":"ARF-TM-48CC2030B19613549397","translation_ko":"가름"}
+{"tm_id":"ARF-TM-48D373CD58AA83464FFC","translation_ko":"샤인"}
+{"tm_id":"ARF-TM-48F8EC7F11AE5E76A46B","translation_ko":"관찰"}
+{"tm_id":"ARF-TM-49146FF48F0A26B2BEA0","translation_ko":"『<$13>14<$1F>000065<$1F>01<$13>00』을 두 번 연속으로\n실행하면 발동하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000064<$1F>01<$13>00 획득을 위한 <$13>14<$1F>000065<$1F>01<$13>00의\n성공 확률을 높일 수 있다.\n희귀품을 노릴 때\n신중함은 아무리 중시해도\n지나치지 않다"}
+{"tm_id":"ARF-TM-491E2DB0789F0FB93A4A","translation_ko":"공격"}
+{"tm_id":"ARF-TM-491E818430962CD1A8A0","translation_ko":"<$13>14<$1F>000021<$1F>01<$13>00의 하나.\n<$13>14<$1F>000042<$1F>01<$13>00을 받으면\n받은 피해의 절반을\n상대에게 돌려준다.\n단, 피해 반사로\n상대가 <$13>14<$1F>000017<$1F>01<$13>00 상태가\n되지는 않는다.\n<$13>14<$1F>000021<$1F>01<$13>00의 분류는 <$13>14<$1F>000023<$1F>01<$13>00\n이다"}
+{"tm_id":"ARF-TM-4926304B408D3ACE0396","translation_ko":"스파이크드 호즈"}
+{"tm_id":"ARF-TM-4942465441719D0ABB89","translation_ko":"코튼 슈즈"}
+{"tm_id":"ARF-TM-4949AD28B53B06AB619E","translation_ko":"전통적인 디자인으로 완성한 원피스\n긴 타이를 여미는 홍옥 브로치가 돋보인다"}
+{"tm_id":"ARF-TM-49532F0E92D054FFB9BB","translation_ko":"심마프를 찾아 탑 안쪽으로 들어간다"}
+{"tm_id":"ARF-TM-496351AA723207DD9E5E","translation_ko":"디아만트로 향하는 라르크 일행"}
+{"tm_id":"ARF-TM-4964D520A1A1B1CEA943","translation_ko":"플레이트 19"}
+{"tm_id":"ARF-TM-496B0B50CB626DB3E84A","translation_ko":"백색의 창"}
+{"tm_id":"ARF-TM-496CFEF4DCD1C5E1FBE4","translation_ko":"심술 난 동물들"}
+{"tm_id":"ARF-TM-496D3EA3DCF2F6707C37","translation_ko":"무화과"}
+{"tm_id":"ARF-TM-496FC041025A5312D522","translation_ko":"<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>00003B<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n퀵 워드에서는\n효과 지속 턴이 늘어난다"}
+{"tm_id":"ARF-TM-497201A32D2B6A47DF78","translation_ko":"물리 공격 시 식물계에 주는\n피해가 증가한다"}
+{"tm_id":"ARF-TM-497390D5F2799A13E790","translation_ko":"소모품 더미 35"}
+{"tm_id":"ARF-TM-49813B9C33C46E062B9C","translation_ko":"물리 공격 시\n일정 확률로 DEF 하락 상태로 만든다"}
+{"tm_id":"ARF-TM-49955BA3C1A17A1D7E6D","translation_ko":"<$13>14<$1F>00009E<$1F>01<$13>00 레벨 1의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>000031<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n플레임 커튼에서는\n<$13>14<$1F>000031<$1F>01<$13>00의 효과량이\n크게 증가한다"}
+{"tm_id":"ARF-TM-4998A75E3BCF7234C85F","translation_ko":"맹수의 거대한 뿔"}
+{"tm_id":"ARF-TM-49AD5A47BC94C711A46F","translation_ko":"풀헤임에서는 볼 수 없는\n기묘한 디자인의 간호복"}
+{"tm_id":"ARF-TM-49D52B763BE512EE6350","translation_ko":"윈드 가더"}
+{"tm_id":"ARF-TM-4A002634298ADEEC34E7","translation_ko":"메인 더미 15"}
+{"tm_id":"ARF-TM-4A00E4BB895B68FEA65B","translation_ko":"물리 공격 시 불 속성 성분을 부여한다"}
+{"tm_id":"ARF-TM-4A0F1FC34241C79650D3","translation_ko":"바트라키테스"}
+{"tm_id":"ARF-TM-4A1C4CB5732B920D7AB7","translation_ko":"SPD 상승"}
+{"tm_id":"ARF-TM-4A2B64E903A37382E678","translation_ko":"아델 일행이 위험한 상황임을 알고"}
+{"tm_id":"ARF-TM-4A4964F2A6AF8A6CE99A","translation_ko":"창포빛 네글리제"}
+{"tm_id":"ARF-TM-4A5778EFF3697939C77C","translation_ko":"안티 매직"}
+{"tm_id":"ARF-TM-4A888B1D6F2339FE09E7","translation_ko":"리피아와 합류한 라르크."}
+{"tm_id":"ARF-TM-4A993E824269046D9E34","translation_ko":"<$13>14<$1F>000133<$1F>01<$13>00 서쪽에 우뚝 선\n검은 돌로 지은 탑.\n<$13>14<$1F>000131<$1F>01<$13>00은 이곳에\n주둔군을 두어 탑을\n방어하고 있다.\n탑 주변은 깊은 해자처럼\n되어 있어 과거 이곳에\n거대한 무언가가 떨어졌다고\n추측하는 학자도 있다"}
+{"tm_id":"ARF-TM-4AA9405D5EAF47DFFD10","translation_ko":"부스터"}
+{"tm_id":"ARF-TM-4AC4152D8985D25ED0C5","translation_ko":"스틸 플레이트"}
+{"tm_id":"ARF-TM-4AC68AE1E43586914CEC","translation_ko":"미모의 지도자"}
+{"tm_id":"ARF-TM-4ACC71ADEAC4561DF4A2","translation_ko":"<$13>14<$1F>0000A6<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 불과 땅의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 주고 추가 효과로\n대상의 <$13>14<$1F>000021<$1F>01<$13>00를\n해제한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의 캔슬\n블로에서는 주는 피해가\n크게 증가한다"}
+{"tm_id":"ARF-TM-4ACD3450C3C3A8E75EA2","translation_ko":"아쿠아 스파이럴"}
+{"tm_id":"ARF-TM-4AD436B36BAD7345B714","translation_ko":"보타이 전투복"}
+{"tm_id":"ARF-TM-4ADD20620022A570B58F","translation_ko":"거친 사내"}
+{"tm_id":"ARF-TM-4AE7114D45B201DEA066","translation_ko":"탈옥범 체포"}
+{"tm_id":"ARF-TM-4AEDCE58A2FFF79BDB3D","translation_ko":"중류 귀족 청년"}
+{"tm_id":"ARF-TM-4B01F6211DAF9367F9AB","translation_ko":"얼음 속성"}
+{"tm_id":"ARF-TM-4B02C2F4D7760BB20844","translation_ko":"적의 상태를 확인할 수 있다"}
+{"tm_id":"ARF-TM-4B2BC080F2F61C80DDD6","translation_ko":"<$13>14<$1F>0000E4<$1F>01<$13>00의 <$13>14<$1F>00004B<$1F>01<$13>00에\n대한 적응력을 구현한 것.\n프레임 안에 들어가는\n만큼 <$13>14<$1F>00004C<$1F>01<$13>00를 장착할\n수 있다.\n프레임의 칸은 <$13>14<$1F>000050<$1F>01<$13>00의\n상승에 따라 점차\n확장된다"}
+{"tm_id":"ARF-TM-4B30454C01BB86309AA9","translation_ko":"진홍빛 전투복"}
+{"tm_id":"ARF-TM-4B32FF224FBEDABF9372","translation_ko":"힐 리퀴드"}
+{"tm_id":"ARF-TM-4B800E153A9A3A8E116C","translation_ko":"소모품 더미 01"}
+{"tm_id":"ARF-TM-4B8EE132ADCED8217A6D","translation_ko":"질풍의 파편"}
+{"tm_id":"ARF-TM-4BA79E613A8E01F05ADC","translation_ko":"특수한 전자파를 방출하는 광석.\n민간에서는 다룰 수 없는 물건"}
+{"tm_id":"ARF-TM-4BBF0583328E510998D6","translation_ko":"일단 숙소에서 쉬기로 한다"}
+{"tm_id":"ARF-TM-4BC5F10B70B8F690E72A","translation_ko":"이매지널신으로 이어지는 문을 봉인하기 위해"}
+{"tm_id":"ARF-TM-4BCD5531DE3FC9B2730F","translation_ko":"HP 완전 회복"}
+{"tm_id":"ARF-TM-4BEC939EE3BA04885241","translation_ko":"전투 필드에 존재하는\n속성을 지닌 돌. 속성이 있는\n<$13>14<$1F>000000<$1F>01<$13>00의 효과에 영향을 주거나\n단독 <$13>14<$1F>000061<$1F>01<$13>00이\n<$13>14<$1F>0000B0<$1F>01<$13>00으로 변화하는 등의 효과가\n있다. 파괴하면\n<$13>14<$1F>000012<$1F>01<$13>00을 얻으며 아주 드물게\n<$13>14<$1F>0000AF<$1F>01<$13>00을 얻을 수\n있다"}
+{"tm_id":"ARF-TM-4BF5D284E8DD1CAA0D65","translation_ko":"<$13>03사이즈<$13>00 10마리 토벌"}

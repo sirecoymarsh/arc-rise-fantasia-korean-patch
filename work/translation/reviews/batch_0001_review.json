@@ -1,0 +1,338 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0001",
+  "reviewer": "/root/review_batch_0001",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0001.jsonl",
+  "draft": "work/translation/drafts/batch_0001.jsonl",
+  "reviewed_output": "work\\translation\\reviewed\\batch_0001.jsonl",
+  "input_validation": "work/translation/validation/batch_0001_v2.json",
+  "reviewed_units": 200,
+  "modified_units": 28,
+  "unchanged_units": 172,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "system_function_accuracy",
+    "natural_korean",
+    "dummy_and_developer_strings",
+    "control_tokens",
+    "line_breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-67D72778FFF08259F873",
+      "source_text": "まだ未定ですね",
+      "before": "아직 미정입니다",
+      "after": "아직 미정이네요",
+      "category": "tone",
+      "reason": "개발용 문구의 「ですね」가 지닌 완곡한 대화 어조를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-15D533F09035FFEBF5FC",
+      "source_text": "白と空色を基調とする皇家ゆかりの長靴。\n華麗な立ち回りを可能としてくれる",
+      "before": "흰색과 하늘색을 바탕으로 한 황실 유래의 장화.\n화려한 움직임을 가능하게 한다",
+      "after": "흰색과 하늘색 바탕이며 황실과 인연이 깊은 장화.\n화려한 몸놀림이 가능해진다",
+      "category": "meaning_naturalness",
+      "reason": "「皇家ゆかり」를 어색한 “황실 유래”가 아니라 황실과의 연고로 옮기고, 「立ち回り」를 몸놀림으로 구체화했다."
+    },
+    {
+      "tm_id": "ARF-TM-25E8ED9E8D24FE198845",
+      "source_text": "コリコリした軟骨。酒のお供に欠かせない",
+      "before": "오독오독 씹히는 연골. 술안주로 빠질 수 없다",
+      "after": "오독오독 씹히는 연골. 술안주로 빼놓을 수 없다",
+      "category": "naturalness",
+      "reason": "「欠かせない」의 필수성 의미를 자연스러운 한국어 관용구로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-4DA46DD4BD593C865324",
+      "source_text": "敵に狙われにくくなる",
+      "before": "적에게 노려질 확률이 낮아진다",
+      "after": "적의 표적이 될 확률이 낮아진다",
+      "category": "system_clarity",
+      "reason": "「狙われにくくなる」를 일본어 직역투 없이 전투 기능이 분명하게 드러나도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-5D845EF1D20EEBA1C240",
+      "source_text": "<$15>01ターンの１番最初の行動の\n待機時間が激減する",
+      "before": "<$15>01턴의 첫 행동은\n대기 시간이 대폭 감소한다",
+      "after": "<$15>01턴에서 첫 번째로 하는 행동의\n대기 시간이 대폭 감소한다",
+      "category": "system_accuracy",
+      "reason": "감소 대상이 턴 전체가 아니라 턴의 첫 행동 대기 시간임을 문법적으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-79EA8F36D64C6AEF37A5",
+      "source_text": "サイン色紙",
+      "before": "사인용 색지",
+      "after": "사인용 보드",
+      "category": "item_accuracy",
+      "reason": "일본어 「色紙」는 색종이가 아니라 사인을 받는 시키시 보드이므로 오해 없는 명칭으로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-79F54425391093DD879B",
+      "source_text": "<$15>01単体の所持アイテムを盗む",
+      "before": "<$15>01단일 대상의 소지 아이템을 훔친다",
+      "after": "<$15>01단일 대상이 소지한 아이템을 훔친다",
+      "category": "system_clarity",
+      "reason": "소유 관계를 자연스럽고 명확한 한국어 문장으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8813277D7057AE05FD42",
+      "source_text": "<$15>01単体にＳＰを譲渡する\n自分以外に発動",
+      "before": "<$15>01단일 대상에게 SP를 양도한다\n자신 이외의 대상에게 발동",
+      "after": "<$15>01단일 대상에게 SP를 넘겨준다\n자신 이외의 대상에게 발동",
+      "category": "naturalness",
+      "reason": "「譲渡する」를 메뉴 문구에 맞는 자연스러운 동사로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8C4D7DA5077FF27F12C7",
+      "source_text": "▼ 十二勇士",
+      "before": "▼ 십이용사",
+      "after": "▼ 12용사",
+      "category": "glossary_consistency",
+      "reason": "용어집의 「ノワーレ１２勇士→노와레 12용사」 표기와 집단명 숫자 표기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-BB000298713F27AE1C52",
+      "source_text": "奇妙な篤志家などが絡むお話しを予定\n副次的にクドアンヌの居場所を\n知ることができる",
+      "before": "기묘한 독지가 등이 얽힌 이야기를 예정 중.\n부수적으로 쿠도안느가 있는 곳을\n알 수 있다",
+      "after": "기묘한 독지가 등이 얽힌 이야기를 넣을 예정.\n부수적으로 쿠도안느가 어디에 있는지도\n알 수 있다",
+      "category": "developer_string_accuracy",
+      "reason": "개발 메모라는 성격을 유지하면서 「お話しを予定」와 「居場所」를 빠짐없이 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C26885BAEA3CCA645871",
+      "source_text": "<$15>01中確率で、物理攻撃行動の\n１行動全てがクリティカルになる",
+      "before": "<$15>01중간 확률로 물리 공격 1회의\n모든 타격이 치명타가 된다",
+      "after": "<$15>01중간 확률로 물리 공격 행동\n1회 전체가 치명타가 된다",
+      "category": "system_accuracy",
+      "reason": "원문은 물리 공격 행동 1회 전체가 치명타가 된다는 뜻이며, 원문에 없는 “모든 타격” 개념을 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-C7BDC415AC8F83633180",
+      "source_text": "ザムエル武芸塾、免許皆伝の証。\n光召術を強化し、時に敵をかく乱させる",
+      "before": "자무엘 무예관의 면허개전 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "after": "자무엘 무예관의 모든 기예를 전수받은 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "category": "meaning_naturalness",
+      "reason": "일본 무도 자격 「免許皆伝」의 의미를 한국어 사용자에게 이해되는 표현으로 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-DCE2B98D804CD7F2488A",
+      "source_text": "<$15>01低確率で、物理攻撃行動の\n１行動全てがクリティカルになる",
+      "before": "<$15>01낮은 확률로 물리 공격 1회의\n모든 타격이 치명타가 된다",
+      "after": "<$15>01낮은 확률로 물리 공격 행동\n1회 전체가 치명타가 된다",
+      "category": "system_accuracy",
+      "reason": "원문은 물리 공격 행동 1회 전체가 치명타가 된다는 뜻이며, 원문에 없는 “모든 타격” 개념을 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-000493C50A2D7118D5B6",
+      "source_text": "灰の衣に身を包んだ男は視線を伏しているが\nその瞳は不意に見つめて不敵に煌めく――",
+      "before": "잿빛 옷을 두른 남자는 시선을 내리깔고 있지만\n그 눈은 문득 시선을 마주치며 대담하게 빛난다――",
+      "after": "잿빛 옷의 남자는 눈을 내리깔지만\n문득 마주친 눈동자가 도전적으로 번뜩인다――",
+      "category": "meaning_tone",
+      "reason": "「不敵」의 도전적이고 겁 없는 인상과 「煌めく」의 순간적인 번뜩임을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-005439D62CF2DD684D6D",
+      "source_text": "<$13>14<$1F>00009E<$1F>01<$13>00レベル２の<$13>14<$1F>000061<$1F>01<$13>00。\n敵単体に<$13>14<$1F>00009E<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nファイアボルテックスでは\n追加効果として対象を\n<$13>14<$1F>000018<$1F>01<$13>00状態にすることがある",
+      "before": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n파이어 볼텍스에서는\n추가 효과로 대상이\n<$13>14<$1F>000018<$1F>01<$13>00 상태가 될 수 있다",
+      "after": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n파이어 볼텍스에서는\n추가 효과로 대상을\n<$13>14<$1F>000018<$1F>01<$13>00 상태로 만들 때가 있다",
+      "category": "system_accuracy",
+      "reason": "「対象を～状態にする」의 목적어 관계를 바로잡아 상태 부여 효과를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-005D61EBE83705D80BDF",
+      "source_text": "<$13>14<$1F>00009F<$1F>01<$13>00レベル４の<$13>14<$1F>000061<$1F>01<$13>00。\n敵単体に<$13>14<$1F>00009F<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nウェイブスフィアでは\n追加効果として対象を\n<$13>14<$1F>000032<$1F>01<$13>00状態に\nすることがある",
+      "before": "<$13>14<$1F>00009F<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009F<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n웨이브 스피어에서는\n추가 효과로 대상이\n<$13>14<$1F>000032<$1F>01<$13>00 상태가\n될 수 있다",
+      "after": "<$13>14<$1F>00009F<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009F<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n웨이브 스피어에서는\n추가 효과로 대상을\n<$13>14<$1F>000032<$1F>01<$13>00 상태로\n만들 때가 있다",
+      "category": "system_accuracy",
+      "reason": "「対象を～状態にする」의 목적어 관계를 바로잡아 상태 부여 효과를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-00BB6E0FF77508748B37",
+      "source_text": "<$13>14<$1F>000131<$1F>01<$13>00へと\n飛来する<$13>14<$1F>0000EA<$1F>01<$13>00の群を討つ\nための戦いを<$13>14<$1F>00013C<$1F>01<$13>00は\n竜討伐と呼んでいる。\n旗艦を中心に編成された\n空挺団は、雲海を越えて\n<$13>14<$1F>0000EA<$1F>01<$13>00と対峙し、それらが\n帝都へと達する前に撃滅\nする使命を帯びている",
+      "before": "<$13>14<$1F>000131<$1F>01<$13>00로 날아오는\n<$13>14<$1F>0000EA<$1F>01<$13>00 무리를 토벌하는 전투를\n<$13>14<$1F>00013C<$1F>01<$13>00에서는 용 토벌이라 부른다.\n기함을 중심으로 편성된\n공정단은 운해를 넘어\n<$13>14<$1F>0000EA<$1F>01<$13>00와 맞서며, 이들이\n제도에 도달하기 전에 섬멸할\n사명을 맡고 있다",
+      "after": "<$13>14<$1F>000131<$1F>01<$13>00로\n날아오는 <$13>14<$1F>0000EA<$1F>01<$13>00 무리를 토벌하기\n위한 전투를 <$13>14<$1F>00013C<$1F>01<$13>00에서는\n용 토벌이라 부른다.\n기함을 중심으로 편성된\n공정단은 운해를 넘어\n<$13>14<$1F>0000EA<$1F>01<$13>00와 맞서, 그 무리가\n제국 수도에 닿기 전에 섬멸할\n사명을 띠고 있다",
+      "category": "meaning_line_breaks",
+      "reason": "원문의 9개 표시 행을 복원하고, 모호한 “제도”를 “제국 수도”로 명확히 하며 토벌 임무의 논리 관계를 보존했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_id": "ARF-TM-0017BC25A464A91C416E",
+      "severity": "source_catalog_anomaly",
+      "issue": "TM 원문은 「んばるアデール」로 시작하지만 chat.bin 원시 바이트에는 미지의 선두 바이트 0xC0 뒤에 「がんばるアデール」가 있다. 의미상 “힘내는 아델”을 유지했으며, 삽입기는 0xC0과 누락된 첫 글자 경계를 별도로 확인해야 한다."
+    },
+    {
+      "tm_id": "ARF-TM-F52055B34E0CED78255D",
+      "severity": "source_delimiter_anomaly",
+      "issue": "원문 선두의 CRLF와 닫히지 않은 “<”는 자연어가 아닌 구조 표식일 가능성이 있어 번역문에서 그대로 보존했다. 런타임 삽입 전에 레코드 경계를 확인해야 한다."
+    },
+    {
+      "tm_id": "ARF-TM-C7ED0A9EA65E0DCE4A59",
+      "severity": "terminology_pending",
+      "issue": "「アーヴァンク→아방크」는 현재 용어집에 없는 음역이다. 음성 또는 표시 화면 근거가 확보될 때 최종 표기를 재확인한다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_warning_resolved": "ARF-TM-00BB6E0FF77508748B37",
+    "status": "passed",
+    "batch_error_count": 0,
+    "batch_warning_count": 0,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "validator_warnings": []
+  },
+  "layout_adjustments": [
+    {
+      "tm_id": "ARF-TM-C7BDC415AC8F83633180",
+      "batch_membership": "batch_0001",
+      "source_text": "ザムエル武芸塾、免許皆伝の証。\n光召術を強化し、時に敵をかく乱させる",
+      "before": "자무엘 무예관의 모든 기예를 전수받았다는 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "proposed_after": "자무엘 무예관의 면허개전 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "accepted_after": "자무엘 무예관의 모든 기예를 전수받은 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "capacity_including_nul": 81,
+      "encoded_bytes": 79,
+      "required_with_nul": 80,
+      "headroom_after_nul": 1,
+      "fits_in_place": true,
+      "decision": "applied",
+      "reason": "제안문의 ‘면허개전’은 일본 무도 자격을 모르면 뜻이 불투명하다. ‘모든 기예를 전수받은 증표’로 줄여 원뜻과 자연스러움을 함께 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-15D533F09035FFEBF5FC",
+      "batch_membership": "batch_0001",
+      "source_text": "白と空色を基調とする皇家ゆかりの長靴。\n華麗な立ち回りを可能としてくれる",
+      "before": "황실과 인연이 있는, 흰색과 하늘색 바탕의 장화.\n화려한 몸놀림을 펼칠 수 있게 해 준다",
+      "proposed_after": "흰색과 하늘색 바탕의, 황실과 인연 깊은 장화.\n화려한 몸놀림이 가능해진다",
+      "accepted_after": "흰색과 하늘색 바탕이며 황실과 인연이 깊은 장화.\n화려한 몸놀림이 가능해진다",
+      "capacity_including_nul": 81,
+      "encoded_bytes": 74,
+      "required_with_nul": 75,
+      "headroom_after_nul": 6,
+      "fits_in_place": true,
+      "decision": "applied",
+      "reason": "제안문의 관형격 뒤 쉼표를 제거하고 ‘바탕이며 … 인연이 깊은’으로 연결해 색채와 황실 연고를 모두 자연스럽게 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-000493C50A2D7118D5B6",
+      "batch_membership": "batch_0001",
+      "source_text": "灰の衣に身を包んだ男は視線を伏しているが\nその瞳は不意に見つめて不敵に煌めく――",
+      "before": "잿빛 옷을 두른 남자는 시선을 내리깔고 있지만\n그 눈동자는 문득 시선을 맞추며 도전적으로 번뜩인다――",
+      "proposed_after": "잿빛 옷의 남자는 눈을 내리깔지만\n문득 마주친 눈동자가 도전적으로 번뜩인다――",
+      "accepted_after": "잿빛 옷의 남자는 눈을 내리깔지만\n문득 마주친 눈동자가 도전적으로 번뜩인다――",
+      "capacity_including_nul": 81,
+      "encoded_bytes": 77,
+      "required_with_nul": 78,
+      "headroom_after_nul": 3,
+      "fits_in_place": true,
+      "decision": "applied",
+      "reason": "제안 축약은 잿빛 옷, 내려깐 시선, 불현듯 마주치는 눈동자와 불손한 기세를 용량 안에서 보존하므로 그대로 승인했다."
+    },
+    {
+      "tm_id": "ARF-TM-029F884DC13E9FD1E052",
+      "batch_membership": "batch_0002",
+      "source_text": "お気にのスタイル",
+      "before": "마음에 드는 스타일",
+      "proposed_after": "즐겨 입는 스타일",
+      "accepted_after": "즐겨 입는 스타일",
+      "capacity_including_nul": 17,
+      "encoded_bytes": 16,
+      "required_with_nul": 17,
+      "headroom_after_nul": 0,
+      "fits_in_place": true,
+      "decision": "accepted_deferred_wrong_batch",
+      "reason": "축약안은 의미와 자연스러움을 허용 범위 안에서 보존하지만 이 ID는 batch_0002 소속이다. 다른 배치 수정 금지 지시에 따라 이 파일에는 적용하지 않았다."
+    },
+    {
+      "tm_id": "ARF-TM-0160A08C30E855DE9622",
+      "batch_membership": "batch_0002",
+      "source_text": "水玉の水着",
+      "before": "물방울무늬 수영복",
+      "proposed_after": "물방울 수영복",
+      "accepted_after": "물방울 수영복",
+      "capacity_including_nul": 17,
+      "encoded_bytes": 13,
+      "required_with_nul": 14,
+      "headroom_after_nul": 3,
+      "fits_in_place": true,
+      "decision": "accepted_deferred_wrong_batch",
+      "reason": "축약안은 의미와 자연스러움을 허용 범위 안에서 보존하지만 이 ID는 batch_0002 소속이다. 다른 배치 수정 금지 지시에 따라 이 파일에는 적용하지 않았다."
+    }
+  ],
+  "final_change_summary": {
+    "initial_review_modified_units": 17,
+    "layout_proposals_reviewed": 5,
+    "layout_adjustment_units_applied": 3,
+    "layout_adjustment_units_deferred_wrong_batch": 2,
+    "final_modified_units_against_original_draft": 28,
+    "final_unchanged_units_against_original_draft": 172
+  },
+  "layout_validation": {
+    "status": "passed",
+    "scope": "batch_0001_applied_layout_targets",
+    "batch_validator": {
+      "report": "work/translation/validation/batch_0001_reviewed.json",
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true
+    },
+    "fit_preflight": {
+      "tool": "work/research/check_translation_fit.py",
+      "codebook": "work/font/canonical_v1/codebook.json",
+      "catalog_dir": "work/research/table_agent/catalogs",
+      "approved_tm_units": 3,
+      "matched_unique_tm_units": 3,
+      "matched_table_fields": 6,
+      "fixed_overflow_count": 0,
+      "resizable_table_in_place_overflow_count": 0,
+      "unmatched_system_tm_count": 0,
+      "encoding_error_count": 0,
+      "known_fixed_fields_fit": true,
+      "safe_for_fixed_table_insertion": true
+    },
+    "fixed_fit_targets": [
+      "ARF-TM-C7BDC415AC8F83633180",
+      "ARF-TM-15D533F09035FFEBF5FC",
+      "ARF-TM-000493C50A2D7118D5B6"
+    ]
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batches_0001_0002.json",
+    "source_sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+    "audited_units_in_batch": 11,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0001_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  },
+  "hashes": {
+    "reviewed_sha256": "D6A7537449E03EB6B0BD36CDA14F3A1BCF25D372057B50B77167D647B6C26FE7",
+    "validation_sha256": "A403B37DAAB92ACF61243E67427D06565285989A7784A3CC5098639BE781F947"
+  },
+  "fixed_field_geometry_correction": {
+    "status": "applied",
+    "tm_id": "ARF-TM-7983B232461623CDF50F",
+    "before": "▼ 페넬로페의 양장점",
+    "after": "▼ 페넬로페 양장점",
+    "capacity": 20,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

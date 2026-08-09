@@ -1,0 +1,207 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0076",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0076.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0076.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0076.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 19,
+  "unchanged_row_count": 181,
+  "modifications": [
+    {
+      "row_index": 0,
+      "tm_id": "ARF-TM-FC209837157881D38F03",
+      "source_text": "私が立ち聞きに気付いていないと\nでも思いましたか？",
+      "before": "내가 엿듣는 걸 눈치채지\n못했다고 생각했나요?",
+      "after": "제가 당신의 엿듣기를 눈치채지\n못했다고 생각했나요?",
+      "category": "semantic_accuracy",
+      "reason": "엿듣기를 한 주체와 이를 눈치챈 화자를 명확히 구분했다."
+    },
+    {
+      "row_index": 1,
+      "tm_id": "ARF-TM-FC2D649C39186DB9AB88",
+      "source_text": "『しお』が引く……？\nここにお塩の道ができるの？",
+      "before": "『소금물』이 빠진다고……?\n여기에 소금길이 생기는 거야?",
+      "after": "『소금』이 빠진다고……?\n여기에 소금길이 생기는 거야?",
+      "category": "wordplay",
+      "reason": "潮를 소금으로 오해하는 원문의 말장난을 복원했다."
+    },
+    {
+      "row_index": 4,
+      "tm_id": "ARF-TM-FC6BBEB3B8458DDE16A6",
+      "source_text": "ならば、お前はもう\nイマジナルの定理を導く\nイーサの子ではないのだな",
+      "before": "그렇다면 넌 이제\n이매지널의 섭리를 이끌\n이사의 아이가 아니군",
+      "after": "그렇다면 넌 이제\n이매지널의 섭리를 도출할\n이사의 아이가 아니군",
+      "category": "terminology",
+      "reason": "導く를 설정 문맥의 '도출하다'로 통일했다."
+    },
+    {
+      "row_index": 11,
+      "tm_id": "ARF-TM-FE4FCABD725619A562BF",
+      "source_text": "そうっスね。\n歌学省を襲ったのはオルキナ教だし\n完全に濡れ衣っスよ！",
+      "before": "그렇슴다.\n가학성을 습격한 건 오르키나교고\n완전히 누명이에요!",
+      "after": "그렇슴다.\n가학성을 습격한 건 오르키나교고\n완전히 누명임다!",
+      "category": "register",
+      "reason": "니콜의 말버릇을 대사 전체에 일관되게 적용했다."
+    },
+    {
+      "row_index": 23,
+      "tm_id": "ARF-TM-00012D657897284D7756",
+      "source_text": "マハト陛下崩御の噂は\nかなり信憑性が高そうだ。\nじゃなきゃ、ここまで伝播しない",
+      "before": "마하트 폐하가 붕어했다는 소문은\n상당히 신빙성이 높은 것 같아.\n아니면 이렇게까지 퍼지지 않아",
+      "after": "마하트 폐하께서 서거하셨다는 소문은\n상당히 신빙성이 높은 것 같아.\n아니면 이렇게까지 퍼지지 않아",
+      "category": "register",
+      "reason": "왕의 죽음을 나타내는 존칭 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 31,
+      "tm_id": "ARF-TM-0014E5665753A9B75D75",
+      "source_text": "特別な才能を持っていなくとも\nかろうじてその人を\n高めてくる才があります――<$0C>それは、続ける才能です。\n幸い私はこの才に恵まれていました。\n勤勉な祖先からのおくりものです",
+      "before": "특별한 재능이 없어도\n간신히 그 사람을\n성장시키는 재능이 있습니다――<$0C>그건 계속하는 재능입니다.\n다행히 저는 이 재능을 타고났습니다.\n근면한 조상에게 받은 선물입니다",
+      "after": "특별한 재능이 없어도\n조금씩 그 사람을\n성장시키는 재능이 있습니다――<$0C>그건 계속하는 재능입니다.\n다행히 저는 이 재능을 타고났습니다.\n근면한 조상에게 받은 선물입니다",
+      "category": "semantic_accuracy",
+      "reason": "かろうじて를 부자연스러운 '간신히'가 아닌 꾸준한 성장의 의미로 옮겼다."
+    },
+    {
+      "row_index": 52,
+      "tm_id": "ARF-TM-0066D5DE73B4657A3819",
+      "source_text": "新リーダー・ラルク\n私たちレジスタンスの全員が\n今後はあなたに従います<$0C>私たちに何なりとご用命ください",
+      "before": "새 리더 라르크.\n우리 레지스탕스 전원은\n앞으로 당신을 따르겠습니다<$0C>무슨 일이든 명령해 주십시오",
+      "after": "새 지도자 라르크.\n우리 저항군 전원은\n앞으로 당신을 따르겠습니다<$0C>무슨 일이든 명령해 주십시오",
+      "category": "terminology",
+      "reason": "レジスタンス와 직책을 확정 용어로 통일했다."
+    },
+    {
+      "row_index": 56,
+      "tm_id": "ARF-TM-0095B68CA254BA284FE9",
+      "source_text": "竜縛塔ロケタイ\n塔内部に侵入　　\nシムマフ登場　　\nシムマフと契約　\nＶＳディノス戦２\n街に帰ろう　　　\nもどる　　　　　",
+      "before": "용박탑 로케타이\n탑 내부에 침입\n심마프 등장\n심마프와 계약\nＶＳ디노스전２\n도시로 돌아가자\n돌아가기",
+      "after": "용박탑 로케타이\n탑 내부에 침입　　\n심마프 등장　　　\n심마프와 계약　　\nＶＳ 디노스전２\n도시로 돌아가자　\n돌아간다　　　　",
+      "category": "formatting",
+      "reason": "메뉴 항목의 간격과 돌아가기 표기를 정리했다."
+    },
+    {
+      "row_index": 76,
+      "tm_id": "ARF-TM-011E0AFBDDFFDABA4196",
+      "source_text": "ちょっと、今、話かけないで。\n確実に気分悪いから……\nあんまり優しくしないで……",
+      "before": "잠깐, 지금 말 걸지 마.\n분명 기분 나쁘니까……\n너무 다정하게 굴지 마……",
+      "after": "잠깐, 지금 말 걸지 마.\n지금 확실히 속이 안 좋으니까……\n너무 다정하게 굴지 마……",
+      "category": "semantic_accuracy",
+      "reason": "気分悪い가 불쾌감이 아닌 몸 상태를 가리키도록 바로잡았다."
+    },
+    {
+      "row_index": 82,
+      "tm_id": "ARF-TM-012E7F80C6611D09B502",
+      "source_text": "幾何回廊アルヴィス・終焉の記憶  第２層",
+      "before": "기하 회랑 알비스·종언의 기억  제２층",
+      "after": "기하 회랑 알비스・종언의 기억  제２층",
+      "category": "formatting",
+      "reason": "프로젝트의 고유명사 구분점 표기를 통일했다."
+    },
+    {
+      "row_index": 86,
+      "tm_id": "ARF-TM-013695E9CA08C44BD5BF",
+      "source_text": "天衝塔ザイフェルト・ラウンドフロア０８",
+      "before": "천충탑 자이페르트·라운드 플로어０８",
+      "after": "천충탑 자이펠트・라운드 플로어０８",
+      "category": "terminology",
+      "reason": "ザイフェルト의 확정 표기와 구분점을 적용했다."
+    },
+    {
+      "row_index": 98,
+      "tm_id": "ARF-TM-0177125B3E95E8C57FA0",
+      "source_text": "軽装な警備兵たちが\nホント、羨ましいよ……",
+      "before": "가벼운 장비를 입은 경비병들이\n정말 부러워……",
+      "after": "경장 차림의 경비병들이\n정말 부러워……",
+      "category": "naturalness",
+      "reason": "軽装를 부자연스러운 '장비를 입다' 대신 경장 차림으로 옮겼다."
+    },
+    {
+      "row_index": 108,
+      "tm_id": "ARF-TM-01AF879B7326A469F349",
+      "source_text": "神に祈りを捧げるようには\nとても見えない者も\n何人か混じっているようだが――<$0C>信心は尊いものだ……\n私やお前のような人間にとってもな",
+      "before": "신에게 기도를 올리는 것으로는\n도저히 보이지 않는 자도\n몇 명 섞인 모양이지만――<$0C>신앙은 고귀한 것이지……\n나나 너 같은 인간에게도",
+      "after": "신에게 기도하러 온 것처럼\n도저히 보이지 않는 자도\n몇 명 섞인 모양이지만――<$0C>신앙은 고귀한 것이지……\n나나 너 같은 인간에게도",
+      "category": "semantic_accuracy",
+      "reason": "기도하러 온 사람의 외양을 논하는 원문 의미를 명확히 했다."
+    },
+    {
+      "row_index": 112,
+      "tm_id": "ARF-TM-01C3B6ACA8F2555C0B42",
+      "source_text": "どっちも大事だろ。\n１人じゃムリっていうなら\n友達や仲間を集めればいい",
+      "before": "둘 다 중요하지.\n１명으로 무리라면\n친구나 동료를 모으면 돼",
+      "after": "둘 다 중요하지.\n１명이서 무리라면\n친구나 동료를 모으면 돼",
+      "category": "naturalness",
+      "reason": "인원수 １을 유지하면서 조사를 자연스럽게 고쳤다."
+    },
+    {
+      "row_index": 116,
+      "tm_id": "ARF-TM-01C940B47D07FE1DDBAE",
+      "source_text": "恋……したことありますか？\n自分はあります……<$0C>でも――\nこんなにも胸が苦しいなら\n恋なんてしない方がいいのです",
+      "before": "사랑…… 해 본 적 있나요?\n전 있습니다……<$0C>하지만――\n이렇게 가슴이 괴롭다면\n사랑 따윈 하지 않는 편이 낫습니다",
+      "after": "사랑을…… 해 본 적 있나요?\n전 있습니다……<$0C>하지만――\n이렇게 가슴이 괴롭다면\n사랑 따윈 하지 않는 편이 낫습니다",
+      "category": "naturalness",
+      "reason": "목적격 조사와 말줄임표 결합을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 143,
+      "tm_id": "ARF-TM-0248A4962C7EFCBAD7E1",
+      "source_text": "ボクの名前はオブジェ君。\n氷壁を切り替える才能がある男さ。",
+      "before": "내 이름은 오브제 군.\n빙벽을 전환하는 재능이 있는 남자야.",
+      "after": "내 이름은 오브제 군.\n빙벽을 전환하는 재능이 있는 남자야",
+      "category": "punctuation",
+      "reason": "원문에 없는 종결 마침표를 제거했다."
+    },
+    {
+      "row_index": 148,
+      "tm_id": "ARF-TM-0261969ABCD84B4DE245",
+      "source_text": "帝国の宣戦布告のせいで\n頭の上を飛光艇が通る度に\n肝を冷やす毎日だよ<$0C>ま、それが帝国の連中の\n狙いなんだろうけど\nこっちはいい迷惑だ",
+      "before": "제국의 선전포고 때문에\n머리 위로 비광정이 지나갈 때마다\n가슴을 졸이는 나날이야<$0C>뭐, 그게 제국 녀석들의\n노림수겠지만\n우린 민폐라고",
+      "after": "제국의 선전포고 때문에\n머리 위로 비광정이 지나갈 때마다\n가슴을 졸이는 나날이야<$0C>뭐, 그게 제국 녀석들의\n노림수겠지만\n우리는 괜한 피해를 보는 셈이지",
+      "category": "semantic_accuracy",
+      "reason": "いい迷惑를 상대 때문에 괜한 피해를 본다는 의미로 옮겼다."
+    },
+    {
+      "row_index": 165,
+      "tm_id": "ARF-TM-02C87E6BD5C62C80147F",
+      "source_text": "自分、今――\nかなりダウナーな気分です。\n快晴でも、心に降るのは涙雨ッス<$0C>マハト陛下は癒し系で\n自分の心のオアシスだったッス……",
+      "before": "지금 저――\n상당히 다운된 기분임다.\n맑은 날에도 마음엔 눈물비가 내려요<$0C>마하트 폐하는 힐링계라\n제 마음의 오아시스였슴다……",
+      "after": "지금 저――\n상당히 다운된 기분임다.\n맑은 날에도 마음엔 눈물비가 내림다<$0C>마하트 폐하는 힐링계라\n제 마음의 오아시스였슴다……",
+      "category": "register",
+      "reason": "니콜의 말버릇을 대사 전체에 통일했다."
+    },
+    {
+      "row_index": 177,
+      "tm_id": "ARF-TM-02FCEEA6906ABD90866C",
+      "source_text": "ギルドってのは\n俺みたいな傭兵が\n仕事を請ける場所のことだ<$0C>ギルドでの仕事は\n『クエスト』と呼ばれる<$0C>そいつの依頼内容を達成すれば\n報酬をもらえるって仕組みなわけだ<$0C>ともかく\n一度ギルドに顔を出しておくか",
+      "before": "길드란\n나 같은 용병이\n일을 받는 곳이야<$0C>길드의 일은\n『퀘스트』라고 불러<$0C>그 의뢰 내용을 달성하면\n보수를 받는 구조지<$0C>아무튼\n한번 길드에 들러 두자",
+      "after": "길드란\n나 같은 용병이\n일을 받는 곳이야<$0C>길드의 일은\n『퀘스트』라고 불러<$0C>그 의뢰 내용을 달성하면\n보수를 받는 구조지<$0C>아무튼\n한번 길드에 들러 보자",
+      "category": "naturalness",
+      "reason": "마지막 행동 제안을 자연스러운 구어체로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

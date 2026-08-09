@@ -1,0 +1,1343 @@
+[
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-0.wtm",
+    "size": 262208,
+    "sha256": "5bb20dc30114d3f4e6d11ede2bf01cfac15f7471cee5113d92c4af0775061827",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        73
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        156,
+        156,
+        156,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        66,
+        66,
+        66,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        33,
+        33,
+        33,
+        255
+      ],
+      [
+        132,
+        132,
+        132,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 168258,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 1595,
+        "empty": 453
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 469,
+        "empty": 43
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-1.wtm",
+    "size": 262208,
+    "sha256": "b3944afa85a41f16fb971b92bda88c8f65da02d5def10130d4cb988277caae8d",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        73
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        33,
+        33,
+        33,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        140,
+        140,
+        140,
+        255
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ],
+      [
+        198,
+        198,
+        198,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 354811,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 2002,
+        "empty": 46
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 512,
+        "empty": 0
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-2.wtm",
+    "size": 262208,
+    "sha256": "e225c695178daa2356062fad7aa54d3ca183f6f240137f1f7efe9f6b8536117f",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        73
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        41,
+        41,
+        41,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        156,
+        156,
+        156,
+        255
+      ],
+      [
+        132,
+        132,
+        132,
+        255
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 352881,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 1998,
+        "empty": 50
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 512,
+        "empty": 0
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-3.wtm",
+    "size": 262208,
+    "sha256": "b1721b889bd1cfdcbc038f8c111a0d8a6275e029d71c87e233899558db2b77b2",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        16,
+        16,
+        16,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        41,
+        41,
+        41,
+        255
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        156,
+        156,
+        156,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        132,
+        132,
+        132,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 349793,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 1998,
+        "empty": 50
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 512,
+        "empty": 0
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-4.wtm",
+    "size": 262208,
+    "sha256": "7480a304a08360d279970fd73331505542a8066c009b5f4f2196a5b51d4f03b5",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        73
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        16,
+        16,
+        16,
+        255
+      ],
+      [
+        49,
+        49,
+        49,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        206,
+        206,
+        206,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        231,
+        231,
+        231,
+        255
+      ],
+      [
+        140,
+        140,
+        140,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 331668,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 1935,
+        "empty": 113
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 498,
+        "empty": 14
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-5.wtm",
+    "size": 262208,
+    "sha256": "634ccc1b4b5e58f6592059d1a68f35ccaf6145817bed9043f04bce8d3f391421",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        16,
+        16,
+        16,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        41,
+        41,
+        41,
+        255
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ],
+      [
+        156,
+        156,
+        156,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        132,
+        132,
+        132,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 352364,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 1997,
+        "empty": 51
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 512,
+        "empty": 0
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-6.wtm",
+    "size": 262208,
+    "sha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        73
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        16,
+        16,
+        16,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        49,
+        49,
+        49,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        140,
+        140,
+        140,
+        255
+      ],
+      [
+        198,
+        198,
+        198,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 363828,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 2001,
+        "empty": 47
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 512,
+        "empty": 0
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-7.wtm",
+    "size": 262208,
+    "sha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        16,
+        16,
+        16,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        41,
+        41,
+        41,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        181,
+        181,
+        181,
+        255
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ],
+      [
+        198,
+        198,
+        198,
+        255
+      ],
+      [
+        140,
+        140,
+        140,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 361997,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 2000,
+        "empty": 48
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 512,
+        "empty": 0
+      }
+    }
+  },
+  {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\EUC28-8.wtm",
+    "size": 262208,
+    "sha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+    "none": 0,
+    "palette_offset": 32,
+    "width": 512,
+    "height": 1024,
+    "gx_format": 8,
+    "gx_format_name": "C4",
+    "palette_format": 2,
+    "palette_format_name": "RGB5A3",
+    "unknown1": 1,
+    "unknown2": 0,
+    "unknown3": 0,
+    "image_offset": 64,
+    "unknown4": 2,
+    "image_size": 262144,
+    "palette_entries": 16,
+    "palette_rgba": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        109
+      ],
+      [
+        0,
+        0,
+        0,
+        146
+      ],
+      [
+        0,
+        0,
+        0,
+        73
+      ],
+      [
+        16,
+        16,
+        16,
+        255
+      ],
+      [
+        74,
+        74,
+        74,
+        255
+      ],
+      [
+        0,
+        0,
+        0,
+        255
+      ],
+      [
+        0,
+        0,
+        0,
+        219
+      ],
+      [
+        41,
+        41,
+        41,
+        255
+      ],
+      [
+        115,
+        115,
+        115,
+        255
+      ],
+      [
+        222,
+        222,
+        222,
+        255
+      ],
+      [
+        173,
+        173,
+        173,
+        255
+      ],
+      [
+        90,
+        90,
+        90,
+        255
+      ],
+      [
+        140,
+        140,
+        140,
+        255
+      ],
+      [
+        198,
+        198,
+        198,
+        255
+      ]
+    ],
+    "used_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nonzero_pixels": 329081,
+    "tile_activity": {
+      "16": {
+        "tiles": 2048,
+        "nonempty": 1949,
+        "empty": 99
+      },
+      "32": {
+        "tiles": 512,
+        "nonempty": 506,
+        "empty": 6
+      }
+    }
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "batch": "batch_0028",
+  "draft_author": "/root/audit_boundary_integration",
+  "reviewer": "/root/translate_batch_0008",
+  "translation_method": "Codex 내부 모델 전용",
+  "external_services_used": false,
+  "reviewed_record_count": 200,
+  "modified_count": 13,
+  "modifications": [
+    {
+      "index": 17,
+      "tm_id": "ARF-TM-337B6A68E3A2DC89FB4E",
+      "before": "월드 스크립트 55",
+      "after": "월드 스크립트５５",
+      "reason": "원문의 전각 수치 표기를 보존"
+    },
+    {
+      "index": 21,
+      "tm_id": "ARF-TM-33B68DB4120797B1F0CF",
+      "before": "<$15>28와<$15>29로 비행 중에도\n배 주변을 살펴볼 수 있어.\n움직인 화면을 원래대로 돌리는 건 <$15>1B야",
+      "after": "<$15>28와<$15>29로 비행 중에도\n배 주변을 살펴볼 수 있어.\n움직인 화면을 원래대로 돌리는 건<$15>1B야",
+      "reason": "제어 토큰의 원문 인접 관계를 복원"
+    },
+    {
+      "index": 41,
+      "tm_id": "ARF-TM-35092C0618D49D4C6FF1",
+      "before": "월드 스크립트 61",
+      "after": "월드 스크립트６１",
+      "reason": "원문의 전각 수치 표기를 보존"
+    },
+    {
+      "index": 57,
+      "tm_id": "ARF-TM-35C883D1D9139CEBDBBE",
+      "before": "성지 노와레의 노래하는 돌……인가.\n다른 녀석들에게 들었다면\n내 귀를 의심하고 싶지만",
+      "after": "성지 노와레의 노래하는 돌……인가.\n다른 녀석들에게 들었다면\n내 귀를 의심했겠지만",
+      "reason": "가정 표현과 역접 관계를 자연스럽게 교정"
+    },
+    {
+      "index": 70,
+      "tm_id": "ARF-TM-3774BF830896A124637E",
+      "before": "투기장 설명 24",
+      "after": "투기장 설명２４",
+      "reason": "원문의 전각 수치 표기를 보존"
+    },
+    {
+      "index": 75,
+      "tm_id": "ARF-TM-37D3EC0BB90F58068876",
+      "before": "투기장 설명 23",
+      "after": "투기장 설명２３",
+      "reason": "원문의 전각 수치 표기를 보존"
+    },
+    {
+      "index": 96,
+      "tm_id": "ARF-TM-3883309797EAB563AEB6",
+      "before": "왜 사과해?\n그저 그리움을 느낄 수 있을지\n몰랐을 뿐이야",
+      "after": "왜 사과해?\n그저 그립다고 느끼는 건지\n몰랐을 뿐이야",
+      "reason": "회상 감정의 의미와 원문 줄바꿈을 교정"
+    },
+    {
+      "index": 97,
+      "tm_id": "ARF-TM-3893399680E38593F976",
+      "before": "나한테\n정말 소중한 거구나 싶었어……",
+      "after": "나한테\n정말 소중한 거구나 하고\n느꼈어……",
+      "reason": "원문의 3행 구조를 복원하고 문장을 자연스럽게 교정"
+    },
+    {
+      "index": 113,
+      "tm_id": "ARF-TM-39BA913DAA1BDF8BA37E",
+      "before": "레온…… 사쥬가 스스로\n로드나이트 단장의 허상을\n무너뜨리고 말았군",
+      "after": "레온…… 사쥬가 스스로\n로드 나이트 단장의 허상을\n무너뜨리고 말았군",
+      "reason": "조직명 표기를 용어집에 맞춤"
+    },
+    {
+      "index": 124,
+      "tm_id": "ARF-TM-3AB06F8251D0491C1E41",
+      "before": "그녀…… 적대 조직에서\n목숨을 노리고 있었던 모양이야",
+      "after": "그녀…… 적대 조직에게\n목숨을 노려졌던 모양이야",
+      "reason": "피동 관계와 조사를 교정"
+    },
+    {
+      "index": 140,
+      "tm_id": "ARF-TM-3BAEBB97760975541A14",
+      "before": "투기장 설명 15",
+      "after": "투기장 설명１５",
+      "reason": "원문의 전각 수치 표기를 보존"
+    },
+    {
+      "index": 183,
+      "tm_id": "ARF-TM-3F80CDE81662ECB93FF8",
+      "before": "무례한 녀석이네~.\n청렴결백 그 자체잖아",
+      "after": "무례한 녀석이네〜\n청렴결백 그 자체잖아",
+      "reason": "말끝과 문장부호를 화자 어조에 맞게 교정"
+    },
+    {
+      "index": 195,
+      "tm_id": "ARF-TM-40764B013942FCB0B445",
+      "before": "헤에?",
+      "after": "엥?",
+      "reason": "놀람을 나타내는 감탄사의 의미를 교정"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0057",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0057.jsonl",
+  "draft": "work/translation/drafts/batch_0057.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0057.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 16,
+  "unchanged_units": 184,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-6120A10D84D96279FFA2",
+      "source_text": "だって、あなたは……イーサの子は\n本当にいたんですもの",
+      "before": "하지만 당신은…… 이사의 아이는\n정말로 있었으니까",
+      "after": "그도 그럴 게…… 이사의 아이인 당신이\n정말로 존재했으니까",
+      "category": "grammar",
+      "reason": "당신이 실제 이사의 아이라는 주술 관계가 자연스럽게 드러나도록 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-66A81F47392D3B876EC0",
+      "source_text": "９体のログレスを従えた時\nイーサ神のおわす\n聖地ノワーレへとたどり着く",
+      "before": "９마리 로그레스를 거느렸을 때\n이사신이 계신\n성지 노와레에 이르게 된다",
+      "after": "９마리의 로그레스를 거느렸을 때\n이사신이 계신\n성지 노와레에 이르게 된다",
+      "category": "grammar",
+      "reason": "수량 표현과 목적어의 관계를 자연스럽게 다듬고 전각 숫자 '９'를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-683FE6974AB8E9878FED",
+      "source_text": "だから、１番とか\nそんなんじゃねぇからな！",
+      "before": "그러니까 １번째니\n뭐니 하는 게 아니라니까!",
+      "after": "그러니까 １순위니\n뭐니 하는 게 아니라니까!",
+      "category": "naturalness",
+      "reason": "가장 좋아하는 사람의 순위를 부정하는 문맥에 맞게 다듬고 전각 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-68DE844D9E04BAFFBFA2",
+      "source_text": "この先は神聖な場所故\nディーバが必要だと思う方のみ\nお連れ下さい",
+      "before": "이 앞은 신성한 곳이므로\n디바에게 필요하다고 생각하는 분만\n데려가 주십시오",
+      "after": "이 앞은 신성한 곳이므로\n디바께서 필요하다고 생각하는 분만\n데려가 주십시오",
+      "category": "meaning",
+      "reason": "동행자의 필요 여부를 판단하는 주체가 디바임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-6B52993B22B4D998523B",
+      "source_text": "なんだと!?\nてめぇっ、もう１回言ってみろ!!",
+      "before": "뭐라고!?\n이 자식, 한 번만 더 말해 봐!!",
+      "after": "뭐라고!?\n이 자식, １번만 더 말해 봐!!",
+      "category": "numeric_fidelity",
+      "reason": "한 번 더 말하라는 원문의 전각 숫자 '１'을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-6D6DC5B36DBF9AF202A0",
+      "source_text": "自慢の剣の腕だけでは\nどうにもならないことが\nあるかも知れないからね",
+      "before": "자랑하는 검 솜씨만으로는\n어쩌지 못할 일이\n있을지도 모르니까",
+      "after": "자신 있는 검 솜씨만으로는\n어쩌지 못할 일이\n있을지도 모르니까",
+      "category": "naturalness",
+      "reason": "자랑으로 삼는 검술 실력을 뜻하는 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-6EABD049739DD0B36FBB",
+      "source_text": "それで気力充填したら\n神を名乗る石とやらを\nおがみに行きましょ<$15>00",
+      "before": "그걸로 기운을 채웠으면\n신을 자칭하는 돌이라는 걸\n보러 가자<$15>00",
+      "after": "그걸로 기운을 채웠으면\n신을 자칭하는 돌인가 뭔가를\n숭배하러 가자<$15>00",
+      "category": "meaning",
+      "reason": "신을 자칭하는 돌을 보러 가는 것이 아니라 숭배하러 간다는 비꼬는 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-78366FAF6B072A3CC377",
+      "source_text": "今度の戦いが終わって\n色々なことにけじめをつけたら……\n私の中の１番も変わるかしら。",
+      "before": "이번 싸움이 끝나고\n여러 가지에 매듭을 지으면……\n내 안의 １번째도 바뀌려나.",
+      "after": "이번 싸움이 끝나고\n여러 가지에 매듭을 지으면……\n내 마음속 １순위도 바뀌려나.",
+      "category": "naturalness",
+      "reason": "마음속에서 가장 중요한 사람의 순위를 뜻하도록 다듬고 전각 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-78A7B9FD0B49C9FAC0B7",
+      "source_text": "今、ラルクが契約している\nログレスは４体。\nこのままの調子で行きたいものだな",
+      "before": "지금 라르크가 계약한\n로그레스는 ４마리.\n이대로 계속하고 싶군",
+      "after": "지금 라르크가 계약한\n로그레스는 ４마리.\n이 기세로 계속 가고 싶군",
+      "category": "naturalness",
+      "reason": "현재의 좋은 흐름을 유지하고 싶다는 뜻을 자연스럽게 다듬고 전각 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-78BDF5091B245B9C6831",
+      "source_text": "シエル、リフィアのことは頼むぞ。\n俺たちのたった１人の娘\nなんだからな……",
+      "before": "시엘, 리피아를 부탁한다.\n우리의 단 １명뿐인 딸이니까……",
+      "after": "시엘, 리피아를 부탁한다.\n우리의 단 １명인 딸이니까……",
+      "category": "grammar",
+      "reason": "외동딸을 나타내는 수량 표현의 중복을 줄이면서 전각 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-7A03130E049D7B6E2280",
+      "source_text": "そのペンダントを\n渡してもらおうか",
+      "before": "그 펜던트를\n넘겨주시겠습니까",
+      "after": "그 펜던트를\n넘겨주시겠나",
+      "category": "speaker_voice",
+      "reason": "상대를 압박하며 물건을 요구하는 공손하면서도 위협적인 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-7DBB1078E6C95C4C04A4",
+      "source_text": "もうっ、そんなんじゃ\nアルスに先越されちゃうよ？",
+      "before": "정말, 그러다간\n알스한테 추월당한다고?",
+      "after": "정말, 그러다간\n알스에게 선수를 빼앗길걸?",
+      "category": "meaning",
+      "reason": "단순 추월이 아니라 알스가 먼저 목적을 달성할 수 있다는 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-8033DE03582933B68F69",
+      "source_text": "あなたの言う『確証』には\nならないかも知れないけれど\nひとつだけ確かなことがあるわ",
+      "before": "당신이 말한 『확증』은\n되지 않을지도 모르지만\n한 가지 확실한 게 있어",
+      "after": "당신이 말한 『확증』이\n되지는 않을지도 모르지만\n한 가지 확실한 게 있어",
+      "category": "grammar",
+      "reason": "확증이 되지 않을 수도 있다는 서술 관계가 자연스럽게 이어지도록 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-84CCC63B07F100EDBC32",
+      "source_text": "な……なんだ……今のは……",
+      "before": "뭐…… 뭐였지…… 방금 건……",
+      "after": "뭐…… 뭐야…… 방금 건……",
+      "category": "meaning",
+      "reason": "방금 본 현상에 놀라 묻는 대사를 회상 표현으로 오해하지 않도록 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-85717719B9B5E5AA797A",
+      "source_text": "今日は、アレですか？　アルス殿下のお供で\n司令に戦勝報告か何かッスか？",
+      "before": "오늘은 그겁니까? 알스 전하를 모시고\n사령관께 전승 보고라도 하러 왔슴까?",
+      "after": "오늘은 그겁니까? 알스 전하를 모시고\n사령관께 승전 보고라도 하러 왔슴까?",
+      "category": "word_choice",
+      "reason": "전투 승리를 보고한다는 뜻의 '戦勝報告'를 '승전 보고'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-898A2948A3CF5FB04456",
+      "source_text": "いや、僕も軍に身を置く身。\n民間人を見殺しにはできない",
+      "before": "아니, 나도 군에 몸담은 사람.\n민간인을 죽게 내버려 둘 수는 없어",
+      "after": "아니, 나도 군에 몸담은 사람이야.\n민간인을 죽게 내버려 둘 수는 없어",
+      "category": "grammar",
+      "reason": "화자가 군인이라는 첫 문장을 완결된 자연스러운 한국어로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

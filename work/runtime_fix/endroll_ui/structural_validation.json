@@ -1,0 +1,666 @@
+{
+  "schema": "arf-endroll-wtm-structural-validation-v1",
+  "valid": true,
+  "checked_count": 23,
+  "passed_count": 23,
+  "failed_count": 0,
+  "errors": [],
+  "deterministic_rebuild_passed": true,
+  "payload_aggregate_sha256": "3AD4024E673672EDAA5E9DD2101CFBA9043B11A408B5410757F5B441A5FD9FCE",
+  "invariants": [
+    "source/output byte size equality",
+    "312x48 or 320x48 dimensions preserved",
+    "GX C4 preserved",
+    "source palette format and image-data offset preserved",
+    "header and palette bytes preserved byte-for-byte",
+    "independent second encode from the same source and rendered RGBA is byte-exact",
+    "decoded output re-encodes byte-exactly",
+    "nontransparent text bounding box remains inside canvas margins"
+  ],
+  "files": [
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_00.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "53A0AA80D8A551A7FAEF55B8193ECB21826BB1BFD0F10EB305522FE0AB64826E",
+      "output_sha256": "B10751151D9A5B16784FAFFB1605843AC26C1E19F3D18532573F55AC43D17D2A",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        50,
+        2,
+        262,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "68496DBFEFF3FFDD049BCC5CA2275D64A995309D8BC84200AB67CC4D9D5F6B48",
+      "after_png_sha256": "BB20B77E1E685E4FC1A94873CA8F3286902ECF70A0E1D639CCFC09F0D53031BD"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_01.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "9C305503A3DCF7F376F084F0AA0611964C484EC6245A6D558C9885E10A271A6E",
+      "output_sha256": "E3FA1355811752B3FED1F865F413A740B0C57A067F18DFCD2A6DCA54E2FD98B2",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        35,
+        11,
+        277,
+        37
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "F321EFB6FC861C4716CC8875C39A843AE0468958479CCC19C5FC9D2158421E33",
+      "after_png_sha256": "9AA01CD4A6BE166E13AEDCA47C264907F88E1FD89D8F59A6BCCB7F29164C820A"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_02.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "C371F44089AFF73D5CDCD3AE1C6463D6231C6848A1029D01CB68EBFB3C453E1A",
+      "output_sha256": "EC75EA0B4F83CA98AA7749F2722F6B9DDC23518DFB968E98A306073E3A06674F",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        125,
+        11,
+        188,
+        37
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "FF10DB7FB2205261A758004AAA1F7DAA2184D829373C9A7958C115039EA8A956",
+      "after_png_sha256": "E54142A856B45F9D6C64CB3A7D92284E6C097DAC29FD9F7119A9A898B7852419"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_03.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "F21635164052C671DC9241E6860ECC52779BF2B97A1A84CF63E6516A9FC6CC1C",
+      "output_sha256": "AE3816EC63D324E9CFDD4D8BCBED4835E1ADFF10B5FCE88E6D31E0ABFF0C7D46",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        52,
+        2,
+        260,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "B99BB7E2FBF595B95016884FC4B5404A57E9D835279C841076834882D9916300",
+      "after_png_sha256": "0536DFB9E39CB03DDC9DC6004CFC94EAD5C6E444E06E406632727945D315277A"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_04.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "B63A91F9645A84E57CB88BD40AA9F26A0F80D4DE67287DD833F05C63891BD2AC",
+      "output_sha256": "5308A07347A2693F09663DAC40A86D65753296D69A2EEAD113F1A29F3E2CC773",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        51,
+        2,
+        262,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "DACCDC4369F5A293EF4F0EBCF32F39C952588824BD83DCA0B1A95C44F459493E",
+      "after_png_sha256": "A4B606BB37819ECEDA6FDAD71E1EDCA9946B409B252C28938E5A58D9868FE87A"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_05.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "BD85D42A904CC00253ADEB4CE7CFAAC54FD3CB0BACEA701D84C1EA0928196DC7",
+      "output_sha256": "7BE358BAB623471EA8F96E6283F2C2D850ED6FE7228F8930C8BF47DAE9F4016A",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        32,
+        2,
+        281,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "B9BD50826A8F297AB30EBB5B2440568ED448D8BC6F10D98930687C23A4D9FE3E",
+      "after_png_sha256": "4D95C922CA6EDB135E8CAF845467A7484E912C36441DD8DE6FF4CABB6CBDC9AF"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_06.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "380FD44D8BB674FFF19584DCE966E2872813B76BA4B1E33F4655313791EBB0B8",
+      "output_sha256": "EB32567C58098F9576ED5269E5F1C911272944FE320D81A178CF5EC4F2F596DF",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        43,
+        2,
+        267,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "90740D615D250D4C1084CBE27852570CDCFDB6CF789792408B7292897F944F5A",
+      "after_png_sha256": "0AF5BBDF53818A2C57555F7B01EBD85B005A4E69A9C6815C309C05DB07863122"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_07.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "E547446BA8D186149D26AB85FB9FA0BC531931EB3142070C7D1DB58ADB90C8A9",
+      "output_sha256": "605AFD866C5EFD557B50E6EBF269B25E4D6F32157D50078BBDA6E6556BB9AD98",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        9,
+        12,
+        303,
+        36
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "1AFE6936250A80D1376ED3897352830561F234C2B784595AEB69B338CE206770",
+      "after_png_sha256": "BDF83D044C3C8938D00D575FAC13F3E08CD6F913E64507782710FF4B6A2610C3"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_08.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "9AF3104489B27F56C72C51FBEE82BFC6C25AB88C8D9EDB6B1F72A7F6E64FB3CF",
+      "output_sha256": "0CC44885C3FD6F777306BE990023FE4DC712F3C7399168B9DD319EFF786B8983",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        7,
+        12,
+        306,
+        36
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "3B56B057E2D13D3078B9CADA106677CC688F74D833D9830483E87E597A36129C",
+      "after_png_sha256": "1699F3BC57EE389A42C8D02627BF77C157E39BA51BA4827F36AB1A7042A0B833"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_09.wtm",
+      "valid": true,
+      "source_size": 7744,
+      "output_size": 7744,
+      "size_equal": true,
+      "source_sha256": "38C99B044CB45F4A7527AB94C0E065B5F5DE257B16BB9EC836C5A1CF4AFA94DD",
+      "output_sha256": "905C283F44393DDED990BB3D7F3A4D6D9A9ECFA5E6E65478A4A5A39BB1F9912F",
+      "dimensions": [
+        320,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        87,
+        2,
+        233,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "C0CAE0B2A70584B4BC785898B64F2E8F037635AFEFFEC25C8E1D5BCAC4D2CA30",
+      "after_png_sha256": "EDCC8AA5CAA2877811BB4B1F1A9EBA04E1C687F22D3BAF6AF973DEB7F1B8FBB0"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_10.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "EEF335E27713E711FD3D696BAA2F73B0CD4EC130DC89CD931934689E63E1C20A",
+      "output_sha256": "A196EA343E1D36F10086454D648060578BAB8912956F8E39B37E0D749F7E85FB",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        26,
+        2,
+        284,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "027A6DFE4B15EE6954A3199D9FD0C37CD787D9B04BCFC9740E60BDE774712F89",
+      "after_png_sha256": "4BC7DC77196ABEEED9DB020A7A99E4B1CF6B46C5D569DDFC2D5B9E34E082A9DE"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_11.wtm",
+      "valid": true,
+      "source_size": 7584,
+      "output_size": 7584,
+      "size_equal": true,
+      "source_sha256": "C3DC64BE922010803CB4C49BD482050603F63F795971382191A53C0E108751D1",
+      "output_sha256": "756C6CD973E9DBBEA7684D1AF7F271B3BEF8C7667C248DB56F84F55AFB53776F",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "IA8",
+      "image_data_offset": 96,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        25,
+        2,
+        287,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "E62CC7538495244F1EEAB61D0C007EACC2FF4E10CCECF252BDE3B0A419C8642E",
+      "after_png_sha256": "4D8AE7C08C95A21591CEFA307B78D066C27E680380D4359925AD54664BC33A35"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_12.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "EED589E0AEE439620C5F0A1C262E1667E6AA3D16834F3F8E34D08EAE1F7FC868",
+      "output_sha256": "6115715A3AD264195C0A39F18F1254C81E006234367BF58A855755129ADAB82C",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        114,
+        11,
+        198,
+        37
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "8B7642A30849556C0668A23B453CB3C46FFF04AD9A253B02BFA801F54E67038B",
+      "after_png_sha256": "2AFE43D2A19D9D3C813AB0182AF6F2C0ECE983DAE0E0AC07E24BA69404911A93"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_13.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "1A272A2717FB736B15150B4C48B643542D1E4705CCBAFB86968D6757E69613FF",
+      "output_sha256": "0C97C4D3D6AC49C66452349A099F7BE4775CB405E52C699A84C381AEF90DDEE5",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        59,
+        11,
+        252,
+        37
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "12FC920785839BACB4DD637C90CAB48CC585A93DC6FF832649C585CB67F6406D",
+      "after_png_sha256": "535024BDD3FE1AC0F4545D725ACF6852473A023FD4B0B3FA8A237422D48112D2"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_14.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "C4A207CB2130FFC5286E4AD5554174D00E79585BED23756D347793CC6E1AD711",
+      "output_sha256": "C18C4EE5134BE53DFAA01E14A6A5BC9249851B0091C78F73A9DAF5EB0D60C13E",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        53,
+        2,
+        261,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "A49BB7332F23972A92E44B3CDFEB9E44145ECC38EA13C38A209320040F9FC965",
+      "after_png_sha256": "96E29B4EAB9E0C8FF9DAAFCA20DB95E621174CBD1F174044899E619D98AAA73A"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_15.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "FE3FB69A87C46E7EEE9F539ECDCBCB3175578894A9AD15804236CA4BEB8154AD",
+      "output_sha256": "8176A74BF931EE4C5FEDB65DF1924A8C56610BD174F1F811E6736A49877B6832",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        35,
+        2,
+        277,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "612189E13AFE2FA6E86AC2B5B63008AD947CC92416395182620847DC5223A9C3",
+      "after_png_sha256": "EC12ACEF46E5517347184B96F9B33EE01D4614AA6E714EDD27E9A6B1275E575B"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_16.wtm",
+      "valid": true,
+      "source_size": 7584,
+      "output_size": 7584,
+      "size_equal": true,
+      "source_sha256": "F67FFAFA739CDF418F665D21CD94F60EAFE7A66A1E62F52776AD7385E922DF50",
+      "output_sha256": "8B99C8D8C55818506719F3A3FBF585DCE02560475201123F5FDBE2F491592839",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "IA8",
+      "image_data_offset": 96,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        55,
+        2,
+        258,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "CDD48408E7A9320FC2143FDB975115D3C09A5205EEA37DC338D1E91A61E556B8",
+      "after_png_sha256": "599CDD8755AB125984D5E2F622F377C8F8DE1ED4E2DCB3549F237BF446D050AE"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_17.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "917F157FD6EA14F6741DC914A517C31037B88C3487825E39C6C507284620A51D",
+      "output_sha256": "E5D72E3B8266304BA37772FB3F05CEC9F485C13B79225B3DCEC305547F37768A",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        62,
+        11,
+        249,
+        37
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "D432AA060F4B70DEF4B8476276A4A3AD1109D6A80CD34804287E257DBB212ABC",
+      "after_png_sha256": "FF0FBC122D1629611177D4714B055B54CE7FDCB6C2DF429562144AA437ED792D"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_18.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "FC3A56BF46E998B54511421A9B1A264C12317C34B47D1CA42C2C920F08D90C1D",
+      "output_sha256": "B613DD0C894274A9BBDB73A9423A353CCDA9B4839A68FBDAA66CF192245AB47B",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        73,
+        2,
+        240,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "D6BB4596561E1D8918611646561A10A5273AC1FF968D9E0C16288CF3D77AE569",
+      "after_png_sha256": "54A47B333EB7570E239CAFAD45C4ED2751D6786A1DD53F50B9DD0A81EC651D47"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_19.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "5F2518C4472779017F34768ECD9D642426FC5D6D60A6A966098A37BC67D78CDE",
+      "output_sha256": "10C9955B2456F1DBA033AFD0A2A9EE7C0EC082351F3BD63AE28FF4F2DD1FDE42",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        19,
+        11,
+        293,
+        37
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "89528A2FBB4B573F2BF8A217AB9DF0FE9338F473F233393399216BDDBB7E9918",
+      "after_png_sha256": "7540B06D884110EFFDD525E13D56924906D099E2467AB229B42EA318B87E2B16"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_20.wtm",
+      "valid": true,
+      "source_size": 7584,
+      "output_size": 7584,
+      "size_equal": true,
+      "source_sha256": "4BDD7102774AE1521F9532C167C34CABC010AE1B2B8DF6CD2FAA5F8249121801",
+      "output_sha256": "8CA5F9A11877C7B16658926B6B89ECD0B3B21D567046C9FC5D9AE7DE7B05A0D2",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "IA8",
+      "image_data_offset": 96,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        97,
+        2,
+        216,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "31C36EE60967703A9CD480935B1AA657A4295E52058FAD668409344D65477F1B",
+      "after_png_sha256": "21134F19A363BD02E376C1BCCC4E5A4A92235571AB5CBE5C48E1B80F8C9701CC"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_21.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "E77848C2BFE3AFBEBD5D9AC2812001063FAA120EAADD09F8738A6751D1BF96C8",
+      "output_sha256": "01BC828197B52F526008DE2EBEBE33026CC84517F34E025174F30EC85FD83583",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        19,
+        2,
+        294,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "70AA8F096E86268F0B8233B4D23D757C6CC97E3369DEDA9FE7BB4E46F66F5185",
+      "after_png_sha256": "EA47488C0B1B9DDBE5DCEC78246AF07B5E0039BFA23AA4C14B87377A39FAE858"
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_22.wtm",
+      "valid": true,
+      "source_size": 7552,
+      "output_size": 7552,
+      "size_equal": true,
+      "source_sha256": "C833C0271A8D74D3E5A0D19AE7003A5F3193FD24899B9820CB00ACC3ABCAF211",
+      "output_sha256": "2CBC0C4A65D0766668CF0C9B4CFFF1573BC316849EC36FFAE8653A895A5CEDED",
+      "dimensions": [
+        312,
+        48
+      ],
+      "gx_format": "C4",
+      "palette_format": "RGB5A3",
+      "image_data_offset": 64,
+      "header_palette_preserved": true,
+      "deterministic_second_build_equal": true,
+      "byte_exact_decode_reencode": true,
+      "nontransparent_bbox": [
+        47,
+        2,
+        266,
+        46
+      ],
+      "clipping_clear": true,
+      "before_png_sha256": "308138B2E24ABCCF1D14E27185687879F51319BA5EC14E8EB0A9657E6DF4C3BF",
+      "after_png_sha256": "784B5740A83C121597298256C72B33E313F3479F7F5DE7810A2AFE5A8D1A47CE"
+    }
+  ]
+}

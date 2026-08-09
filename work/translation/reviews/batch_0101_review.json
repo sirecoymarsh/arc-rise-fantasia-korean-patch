@@ -1,0 +1,71 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0101",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0101.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0101.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0101.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 5,
+  "unchanged_row_count": 195,
+  "modifications": [
+    {
+      "row_index": 9,
+      "tm_id": "ARF-TM-636E45C636A37604FB52",
+      "source_text": "ディアマント城に行かれるのであれば\nこちらの駆動機関をお使いください",
+      "before": "디아만트 성으로 가실 거라면\n이쪽 구동 기관을 이용하십시오",
+      "after": "디아만트성으로 가실 거라면\n이쪽 구동 기관을 이용하십시오",
+      "category": "terminology",
+      "reason": "고정 지명 디아만트성의 표기를 통일함."
+    },
+    {
+      "row_index": 26,
+      "tm_id": "ARF-TM-63D12965593608143351",
+      "source_text": "竜縛塔は、帝国の人々の暮らしを\n支える重要施設ですので\n警備に力が入るであります",
+      "before": "용박탑은 제국 사람들의 생활을\n떠받치는 중요 시설이라\n경비에 힘을 쏟는 것이옵니다",
+      "after": "용박탑은 제국 사람들의 생활을\n떠받치는 중요 시설이라\n경비에 힘을 쏟고 있지 말입니다",
+      "category": "speaker_voice",
+      "reason": "であります의 서투른 군인 말투를 자연스러운 한국어 군대식 말투로 살림."
+    },
+    {
+      "row_index": 56,
+      "tm_id": "ARF-TM-647C88C8AA024719FDFF",
+      "source_text": "私たちオルキナの民は\n帝国の罪を許し\nアルス皇帝を受け入れましょう<$0C>そして、私たちの大願を\n赤きディーバ、アデール様に\n捧げるのです……",
+      "before": "우리 오르키나 백성은\n제국의 죄를 용서하고\n알스 황제를 받아들입시다<$0C>그리고 우리의 대원을\n붉은 디바 아델 님께\n바치는 겁니다……",
+      "after": "우리 오르키나 백성은\n제국의 죄를 용서하고\n알스 황제를 받아들입시다<$0C>그리고 우리의 큰 소원을\n붉은 디바 아델 님께\n바치는 겁니다……",
+      "category": "naturalness",
+      "reason": "大願을 문맥상 오해 없는 자연스러운 표현으로 교정함."
+    },
+    {
+      "row_index": 71,
+      "tm_id": "ARF-TM-64D07CD9AB70948061C2",
+      "source_text": "そこにいる友人に\n怪しげなモノを売りつけられて\n途方に暮れているところです<$0C>自分には使い方が\nわからないので、あなたに\n差し上げることにします……",
+      "before": "저기 있는 친구에게\n수상한 물건을 떠맡아서\n어쩔 줄 모르고 있습니다<$0C>저는 사용법을\n모르니 당신에게\n드리겠습니다……",
+      "after": "저기 있는 친구에게\n수상한 물건을 강매당해\n어쩔 줄 모르고 있습니다<$0C>저는 사용법을\n모르니 당신에게\n드리겠습니다……",
+      "category": "meaning",
+      "reason": "売りつけられて의 강매당했다는 의미를 복원함."
+    },
+    {
+      "row_index": 172,
+      "tm_id": "ARF-TM-66D2B0A07E3BBCD0A7E9",
+      "source_text": "ディアマント城D02（右側）へ\n",
+      "before": "디아만트 성 D02(오른쪽)로\n",
+      "after": "디아만트성 D02(오른쪽)로\n",
+      "category": "terminology",
+      "reason": "고정 지명 디아만트성의 표기를 통일함."
+    }
+  ],
+  "technical_validation": "not run; deferred to final project stage per user instruction"
+}

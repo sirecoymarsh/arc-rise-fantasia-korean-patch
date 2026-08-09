@@ -1,0 +1,585 @@
+{
+  "schema": "arf-ko-opening-bnr-payload-v1",
+  "valid": true,
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_services_used": [],
+  "source_baseline_modified": false,
+  "physical_path": "opening.bnr",
+  "source_path": "work/disc_extracted/DATA/files/opening.bnr",
+  "output_path": "work/runtime_fix/opening_bnr_ko/payloads/opening.bnr",
+  "source_size": 505696,
+  "output_size": 506240,
+  "source_sha256": "24EFADD02D6E3C489189F6F1DD6DFDB29D8C961E60A0B12ED03FF16CD101CD64",
+  "output_sha256": "63C06073023FE8AEA760AC8AB763A281E531355E1B12B883CF6F64D15D1BB778",
+  "riivolution_resize_required": true,
+  "format_stack": [
+    "IMET",
+    "Nintendo U8",
+    "IMD5",
+    "LZ77 type 0x10",
+    "Nintendo U8",
+    "TPL"
+  ],
+  "translations": [
+    {
+      "container": "meta/banner.bin",
+      "member": "arc/timg/title_base.tpl",
+      "source_text": "アークライズファンタジア",
+      "translation_ko": "아크 라이즈 판타지아",
+      "translation_provenance": "Codex internal model",
+      "cleanup_box": [
+        10,
+        114,
+        160,
+        126
+      ],
+      "cleaned_source_pixels": 705,
+      "changed_decoded_pixels": 1341,
+      "changed_pixel_bbox": [
+        12,
+        114,
+        157,
+        126
+      ],
+      "all_changes_within_subtitle_rectangle": true,
+      "text_position": [
+        12,
+        114
+      ],
+      "font": "malgunbd.ttf",
+      "font_size": 10,
+      "horizontal_render_width": 120
+    },
+    {
+      "container": "meta/icon.bin",
+      "member": "arc/timg/title.tpl",
+      "source_text": "アークライズファンタジア",
+      "translation_ko": null,
+      "treatment": "removed because the 120x70 icon subtitle is too small for legible Hangul",
+      "translation_provenance": "Codex internal model",
+      "source_subtitle_box": [
+        1,
+        42,
+        57,
+        46
+      ],
+      "removed_source_pixels": 141,
+      "touched_cmpr_blocks": 27,
+      "direct_index_only_blocks": 25,
+      "reencoded_opaque_blocks": 2,
+      "changed_decoded_pixels": 148,
+      "changed_pixel_bbox": [
+        3,
+        40,
+        55,
+        46
+      ],
+      "expanded_changed_block_bbox": [
+        0,
+        40,
+        56,
+        48
+      ],
+      "all_changes_within_expected_cmpr_blocks": true,
+      "remaining_target_pixels": 0
+    }
+  ],
+  "container_validation": {
+    "imet": {
+      "magic_offset": "0x40",
+      "stored_md5": "8DE2A9D23E461468B79358C17ACDCDFC",
+      "computed_md5": "8DE2A9D23E461468B79358C17ACDCDFC",
+      "valid": true,
+      "names": [
+        "ARC RISE FANTASIA",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "nested": {
+      "meta/banner.bin": {
+        "target_member": "arc/timg/title_base.tpl",
+        "source_imd5": {
+          "declared_payload_size": 233824,
+          "actual_payload_size": 233824,
+          "stored_md5": "AF388419CA725B54FE4853FDBBECFB29",
+          "computed_md5": "AF388419CA725B54FE4853FDBBECFB29",
+          "valid": true
+        },
+        "output_imd5": {
+          "declared_payload_size": 234416,
+          "actual_payload_size": 234416,
+          "stored_md5": "E19AFFAB96AF79EBD0F7B2E75783C033",
+          "computed_md5": "E19AFFAB96AF79EBD0F7B2E75783C033",
+          "valid": true
+        },
+        "source_wrapped_size": 233856,
+        "output_wrapped_size": 234448,
+        "source_wrapped_sha256": "69630BBCA35F1943BAD9F586ED23BDAA5742153D079965510F1FF01ED161CC85",
+        "output_wrapped_sha256": "A1AAFB3BCC0C8F8D3B596E4F21C3532BA11E4FDF49B20E94CFEE3AA8CBD629D0",
+        "source_compressed_size": 233824,
+        "output_compressed_size": 234416,
+        "source_decompressed_size": 483584,
+        "output_decompressed_size": 483584,
+        "source_decompressed_sha256": "DFF4D0FA8784E87DD8BA9F3DCB39949ABA679943D438D51BA6ED55714A9D0894",
+        "output_decompressed_sha256": "DCF3DD34B0EBCF782BE270E64EA215345EF0CF62DFDFAF24EE0A385AD2DA9A31",
+        "lz77_roundtrip_valid": true,
+        "inner_u8_validation": {
+          "source_size": 483584,
+          "output_size": 483584,
+          "root_offset_preserved": true,
+          "header_size_preserved": true,
+          "data_offset_preserved": true,
+          "node_count": 17,
+          "node_and_path_structure_preserved": true,
+          "node_offsets_and_sizes_preserved": true,
+          "file_set_and_order_preserved": true,
+          "expected_changed_members": [
+            "arc/timg/title_base.tpl"
+          ],
+          "unexpected_member_deltas": [],
+          "all_and_only_expected_members_changed": true,
+          "members": [
+            {
+              "path": "arc/anim/banner_loop.brlan",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 4604,
+              "output_size": 4604,
+              "source_sha256": "698C81C2FD95DED56B6A0E8FCCE95F39441A9DCC113398C6F5C32B26DFC6A96E",
+              "output_sha256": "698C81C2FD95DED56B6A0E8FCCE95F39441A9DCC113398C6F5C32B26DFC6A96E"
+            },
+            {
+              "path": "arc/anim/banner_start.brlan",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 5124,
+              "output_size": 5124,
+              "source_sha256": "E224FD8A57C022DCAF2F18415A8E4FEB151CA5ADC7347240EA04C6A90088813F",
+              "output_sha256": "E224FD8A57C022DCAF2F18415A8E4FEB151CA5ADC7347240EA04C6A90088813F"
+            },
+            {
+              "path": "arc/blyt/banner.brlyt",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 7328,
+              "output_size": 7328,
+              "source_sha256": "D37667233545BEBA66C130B8FCC43726C92C3119F8463AA6965DCAC81A1376FD",
+              "output_sha256": "D37667233545BEBA66C130B8FCC43726C92C3119F8463AA6965DCAC81A1376FD"
+            },
+            {
+              "path": "arc/timg/cloud_001.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 57664,
+              "output_size": 57664,
+              "source_sha256": "E2EF4FFF094960641B6EFCDFACB9A260A7C356D821442F41F32B3A1B272D5B47",
+              "output_sha256": "E2EF4FFF094960641B6EFCDFACB9A260A7C356D821442F41F32B3A1B272D5B47"
+            },
+            {
+              "path": "arc/timg/cloud_010.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 41024,
+              "output_size": 41024,
+              "source_sha256": "ED8B716E08D69EE98903D37CA38D5F40D98184CA8EE329D4C6B4E09FE6A4F43D",
+              "output_sha256": "ED8B716E08D69EE98903D37CA38D5F40D98184CA8EE329D4C6B4E09FE6A4F43D"
+            },
+            {
+              "path": "arc/timg/cloud_999.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 16448,
+              "output_size": 16448,
+              "source_sha256": "7E263E2BB732022264937C146E7586C424C26B5B6215B7DF0C1656822A31DC56",
+              "output_sha256": "7E263E2BB732022264937C146E7586C424C26B5B6215B7DF0C1656822A31DC56"
+            },
+            {
+              "path": "arc/timg/mmvrogo.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 11968,
+              "output_size": 11968,
+              "source_sha256": "A8E6B1B0622263A0C075087B59D90F0A3E33CBD36EB7E83BE42FADF75C5322C2",
+              "output_sha256": "A8E6B1B0622263A0C075087B59D90F0A3E33CBD36EB7E83BE42FADF75C5322C2"
+            },
+            {
+              "path": "arc/timg/sora.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 32832,
+              "output_size": 32832,
+              "source_sha256": "2614673438B755EB87F86676141EDD4E5D581DDACE2F9E5B765DC09A25CC13DB",
+              "output_sha256": "2614673438B755EB87F86676141EDD4E5D581DDACE2F9E5B765DC09A25CC13DB"
+            },
+            {
+              "path": "arc/timg/title_base.tpl",
+              "expected_changed": true,
+              "changed": true,
+              "source_size": 136064,
+              "output_size": 136064,
+              "source_sha256": "1C28D0C269087A253AF8B250DE50FA7AEC0CEE6DAB9C1CEFD1F16FF88445493C",
+              "output_sha256": "88B51D8187AC6F756FFCEB3AB4D92B282EAF9A266CF33D6A2846FB4CA5FCC8B4"
+            },
+            {
+              "path": "arc/timg/title_effect.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 102464,
+              "output_size": 102464,
+              "source_sha256": "547E915D9F6FB473A97F2964967DD722D77EBB338A6E8DBD0DA8A0D7F7415287",
+              "output_sha256": "547E915D9F6FB473A97F2964967DD722D77EBB338A6E8DBD0DA8A0D7F7415287"
+            },
+            {
+              "path": "arc/timg/title_effect02.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 65600,
+              "output_size": 65600,
+              "source_sha256": "93D0AFC17681814C61BD7E1D774BE4CED67839D8D889B3ACFE43E9CAD96EFBCD",
+              "output_sha256": "93D0AFC17681814C61BD7E1D774BE4CED67839D8D889B3ACFE43E9CAD96EFBCD"
+            },
+            {
+              "path": "arc/timg/white.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 1984,
+              "output_size": 1984,
+              "source_sha256": "F42D5A6DC3612712BF31EC47FA269C5A3705857313B99ED7BA705475A4EDFAD6",
+              "output_sha256": "F42D5A6DC3612712BF31EC47FA269C5A3705857313B99ED7BA705475A4EDFAD6"
+            }
+          ]
+        },
+        "texture_treatment": {
+          "source_text": "アークライズファンタジア",
+          "translation_ko": "아크 라이즈 판타지아",
+          "translation_provenance": "Codex internal model",
+          "cleanup_box": [
+            10,
+            114,
+            160,
+            126
+          ],
+          "cleaned_source_pixels": 705,
+          "changed_decoded_pixels": 1341,
+          "changed_pixel_bbox": [
+            12,
+            114,
+            157,
+            126
+          ],
+          "all_changes_within_subtitle_rectangle": true,
+          "text_position": [
+            12,
+            114
+          ],
+          "font": "malgunbd.ttf",
+          "font_size": 10,
+          "horizontal_render_width": 120
+        },
+        "target_tpl": {
+          "source_size": 136064,
+          "output_size": 136064,
+          "source_sha256": "1C28D0C269087A253AF8B250DE50FA7AEC0CEE6DAB9C1CEFD1F16FF88445493C",
+          "output_sha256": "88B51D8187AC6F756FFCEB3AB4D92B282EAF9A266CF33D6A2846FB4CA5FCC8B4",
+          "source_header": {
+            "count": 1,
+            "table_offset": 12,
+            "texture_header_offset": 20,
+            "palette_header_offset": 0,
+            "width": 340,
+            "height": 200,
+            "format": 5,
+            "image_offset": 64
+          },
+          "output_header": {
+            "count": 1,
+            "table_offset": 12,
+            "texture_header_offset": 20,
+            "palette_header_offset": 0,
+            "width": 340,
+            "height": 200,
+            "format": 5,
+            "image_offset": 64
+          },
+          "same_size": true,
+          "same_gx_format_and_geometry": true
+        }
+      },
+      "meta/icon.bin": {
+        "target_member": "arc/timg/title.tpl",
+        "source_imd5": {
+          "declared_payload_size": 11880,
+          "actual_payload_size": 11880,
+          "stored_md5": "47B11B2F61CE640F67A53728BA35EC10",
+          "computed_md5": "47B11B2F61CE640F67A53728BA35EC10",
+          "valid": true
+        },
+        "output_imd5": {
+          "declared_payload_size": 11829,
+          "actual_payload_size": 11829,
+          "stored_md5": "A37C91D57A5A6FBC29C268DFD1DBAC03",
+          "computed_md5": "A37C91D57A5A6FBC29C268DFD1DBAC03",
+          "valid": true
+        },
+        "source_wrapped_size": 11912,
+        "output_wrapped_size": 11861,
+        "source_wrapped_sha256": "2C0A745B59F8804720196BAB74BECD941E232049CA2A281D18DA3956CFC06F4B",
+        "output_wrapped_sha256": "C67A4E2382562B0D3FCFEABBE72F489C06FAEA2384537CA001A4D3FD36A7D2CB",
+        "source_compressed_size": 11880,
+        "output_compressed_size": 11829,
+        "source_decompressed_size": 18880,
+        "output_decompressed_size": 18880,
+        "source_decompressed_sha256": "4B3474F7F4BF14D682FD62322B2E75A6B493ABE899E3BEC4584414EFCC56684D",
+        "output_decompressed_sha256": "13885BF0D8432B702A3953CAD2D822B0AC41E270B1874CE2C83B047AB29CCE0C",
+        "lz77_roundtrip_valid": true,
+        "inner_u8_validation": {
+          "source_size": 18880,
+          "output_size": 18880,
+          "root_offset_preserved": true,
+          "header_size_preserved": true,
+          "data_offset_preserved": true,
+          "node_count": 10,
+          "node_and_path_structure_preserved": true,
+          "node_offsets_and_sizes_preserved": true,
+          "file_set_and_order_preserved": true,
+          "expected_changed_members": [
+            "arc/timg/title.tpl"
+          ],
+          "unexpected_member_deltas": [],
+          "all_and_only_expected_members_changed": true,
+          "members": [
+            {
+              "path": "arc/anim/icon.brlan",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 324,
+              "output_size": 324,
+              "source_sha256": "6E0627A8B2D13AEC03FF51DC0605183C05C776E730208C281EB8F0E2C559DEE6",
+              "output_sha256": "6E0627A8B2D13AEC03FF51DC0605183C05C776E730208C281EB8F0E2C559DEE6"
+            },
+            {
+              "path": "arc/blyt/icon.brlyt",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 2504,
+              "output_size": 2504,
+              "source_sha256": "35A83D69E5B59184D2A96C26E620104AB2ED28BD96102EC32D3DCCD66F9D1ADC",
+              "output_sha256": "35A83D69E5B59184D2A96C26E620104AB2ED28BD96102EC32D3DCCD66F9D1ADC"
+            },
+            {
+              "path": "arc/timg/bg.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 8512,
+              "output_size": 8512,
+              "source_sha256": "9365A7079B95ABD8974A2AF6C99A602DDFD61926FE76A860F23A3564E62DC0C4",
+              "output_sha256": "9365A7079B95ABD8974A2AF6C99A602DDFD61926FE76A860F23A3564E62DC0C4"
+            },
+            {
+              "path": "arc/timg/cloud.tpl",
+              "expected_changed": false,
+              "changed": false,
+              "source_size": 2880,
+              "output_size": 2880,
+              "source_sha256": "E1E6CB67561B9DB3C037734EC49FF2DEFB991ADE87F50102CAAA71B55D51FFB9",
+              "output_sha256": "E1E6CB67561B9DB3C037734EC49FF2DEFB991ADE87F50102CAAA71B55D51FFB9"
+            },
+            {
+              "path": "arc/timg/title.tpl",
+              "expected_changed": true,
+              "changed": true,
+              "source_size": 4384,
+              "output_size": 4384,
+              "source_sha256": "55A1C2389E661D77811D1FA07AFCB57E1CDEDC05F759C286FF0206D53711E530",
+              "output_sha256": "EC3DBE147FE901E7964F263CB2D1204A3457949A8B90DB9DCCB3B34C98C1DDB5"
+            }
+          ]
+        },
+        "texture_treatment": {
+          "source_text": "アークライズファンタジア",
+          "translation_ko": null,
+          "treatment": "removed because the 120x70 icon subtitle is too small for legible Hangul",
+          "translation_provenance": "Codex internal model",
+          "source_subtitle_box": [
+            1,
+            42,
+            57,
+            46
+          ],
+          "removed_source_pixels": 141,
+          "touched_cmpr_blocks": 27,
+          "direct_index_only_blocks": 25,
+          "reencoded_opaque_blocks": 2,
+          "changed_decoded_pixels": 148,
+          "changed_pixel_bbox": [
+            3,
+            40,
+            55,
+            46
+          ],
+          "expanded_changed_block_bbox": [
+            0,
+            40,
+            56,
+            48
+          ],
+          "all_changes_within_expected_cmpr_blocks": true,
+          "remaining_target_pixels": 0
+        },
+        "target_tpl": {
+          "source_size": 4384,
+          "output_size": 4384,
+          "source_sha256": "55A1C2389E661D77811D1FA07AFCB57E1CDEDC05F759C286FF0206D53711E530",
+          "output_sha256": "EC3DBE147FE901E7964F263CB2D1204A3457949A8B90DB9DCCB3B34C98C1DDB5",
+          "source_header": {
+            "count": 1,
+            "table_offset": 12,
+            "texture_header_offset": 20,
+            "palette_header_offset": 0,
+            "width": 120,
+            "height": 70,
+            "format": 14,
+            "image_offset": 64
+          },
+          "output_header": {
+            "count": 1,
+            "table_offset": 12,
+            "texture_header_offset": 20,
+            "palette_header_offset": 0,
+            "width": 120,
+            "height": 70,
+            "format": 14,
+            "image_offset": 64
+          },
+          "same_size": true,
+          "same_gx_format_and_geometry": true
+        }
+      }
+    },
+    "outer_u8_validation": {
+      "source_size": 504160,
+      "output_size": 504704,
+      "root_offset_preserved": true,
+      "header_size_preserved": true,
+      "data_offset_preserved": true,
+      "node_count": 5,
+      "node_and_path_structure_preserved": true,
+      "node_offsets_and_sizes_preserved": false,
+      "file_set_and_order_preserved": true,
+      "expected_changed_members": [
+        "meta/banner.bin",
+        "meta/icon.bin"
+      ],
+      "unexpected_member_deltas": [],
+      "all_and_only_expected_members_changed": true,
+      "members": [
+        {
+          "path": "meta/banner.bin",
+          "expected_changed": true,
+          "changed": true,
+          "source_size": 233856,
+          "output_size": 234448,
+          "source_sha256": "69630BBCA35F1943BAD9F586ED23BDAA5742153D079965510F1FF01ED161CC85",
+          "output_sha256": "A1AAFB3BCC0C8F8D3B596E4F21C3532BA11E4FDF49B20E94CFEE3AA8CBD629D0"
+        },
+        {
+          "path": "meta/icon.bin",
+          "expected_changed": true,
+          "changed": true,
+          "source_size": 11912,
+          "output_size": 11861,
+          "source_sha256": "2C0A745B59F8804720196BAB74BECD941E232049CA2A281D18DA3956CFC06F4B",
+          "output_sha256": "C67A4E2382562B0D3FCFEABBE72F489C06FAEA2384537CA001A4D3FD36A7D2CB"
+        },
+        {
+          "path": "meta/sound.bin",
+          "expected_changed": false,
+          "changed": false,
+          "source_size": 258240,
+          "output_size": 258240,
+          "source_sha256": "778866463BB1B9CAB04B915DEBAC98097C8E2759869307C55DF0B40A2177368B",
+          "output_sha256": "778866463BB1B9CAB04B915DEBAC98097C8E2759869307C55DF0B40A2177368B"
+        }
+      ]
+    },
+    "sound": {
+      "source_sha256": "778866463BB1B9CAB04B915DEBAC98097C8E2759869307C55DF0B40A2177368B",
+      "output_sha256": "778866463BB1B9CAB04B915DEBAC98097C8E2759869307C55DF0B40A2177368B",
+      "size": 258240,
+      "byte_identical": true,
+      "imd5": {
+        "declared_payload_size": 258208,
+        "actual_payload_size": 258208,
+        "stored_md5": "1A0B4CD651D2421D9B237BD25F1FB26F",
+        "computed_md5": "1A0B4CD651D2421D9B237BD25F1FB26F",
+        "valid": true
+      }
+    }
+  },
+  "visual_evidence": {
+    "contact_sheet": {
+      "path": "work/runtime_fix/opening_bnr_ko/audit/opening_bnr_original_vs_korean.png",
+      "sha256": "8C62AA612342573CEFD6F309079FED5BEDE3D258A0C154BEEBE10F2C1FB3F259"
+    },
+    "individual_renders": {
+      "banner_before": {
+        "path": "work/runtime_fix/opening_bnr_ko/audit/banner_before.png",
+        "sha256": "9D0B4BD0F21037C4F6E567B31FC173929B57663F4A9754618FFAD048A13AA1CD"
+      },
+      "banner_after": {
+        "path": "work/runtime_fix/opening_bnr_ko/audit/banner_after.png",
+        "sha256": "2E4D7C2EC8E0C6E28AB0EB5CF3A6A9EA1A5E391DD43B7CB5787AB90E2AE67A9A"
+      },
+      "icon_before": {
+        "path": "work/runtime_fix/opening_bnr_ko/audit/icon_before.png",
+        "sha256": "9901379E2B5D4FC5803890F33615C4B99C2E5FC8D8C6E0D54035D49BFEAB44A0"
+      },
+      "icon_after": {
+        "path": "work/runtime_fix/opening_bnr_ko/audit/icon_after.png",
+        "sha256": "C4F9149833AD7A4131E9AF68D733C3783BFA7FAD3525F50CAB73C32590CE81F1"
+      }
+    }
+  },
+  "static_validation": {
+    "valid": true,
+    "checks": {
+      "source_sha256_anchor_valid": true,
+      "source_baseline_unmodified": true,
+      "deterministic_rebuild_byte_identical": true,
+      "imet_header_byte_identical": true,
+      "imet_md5_valid": true,
+      "outer_u8_file_set_order_and_structure_preserved": true,
+      "outer_u8_only_banner_and_icon_changed": true,
+      "banner_inner_u8_only_title_base_changed": true,
+      "icon_inner_u8_only_title_changed": true,
+      "banner_inner_u8_offsets_and_sizes_preserved": true,
+      "icon_inner_u8_offsets_and_sizes_preserved": true,
+      "same_target_tpl_sizes_formats_and_geometry": true,
+      "all_imd5_hashes_valid": true,
+      "all_lz77_roundtrips_valid": true,
+      "animation_layout_and_unrelated_textures_preserved": true,
+      "sound_byte_identical": true,
+      "sound_imd5_valid": true,
+      "banner_pixel_diff_scoped_to_subtitle": true,
+      "icon_pixel_diff_scoped_to_expected_blocks": true
+    }
+  },
+  "integration": {
+    "riivolution_rule": "<file disc=\"/opening.bnr\" external=\"opening.bnr\" resize=\"true\" />"
+  },
+  "runtime_validation_required": [
+    "Open the Disc Channel banner and verify the Korean subtitle is legible without clipping.",
+    "Inspect the animated channel banner and confirm logo, clouds and Marvelous mark animate normally.",
+    "Inspect the channel icon and confirm the tiny Japanese subtitle is absent.",
+    "Confirm the original banner sound plays unchanged."
+  ]
+}

@@ -1,0 +1,96 @@
+# Original game media and extracted/generated binary assets
+*.rvz
+*.iso
+*.wbfs
+*.sfd
+*.cxd
+*.vol
+*.dol
+*.wtm
+*.bnr
+*.bin
+*.brres
+*.brlyt
+*.brlan
+*.tpl
+*.swd
+*.SWD
+*.dat
+*.cache
+*.uidcache
+*.raw
+*.swp
+*.tmp
+*.dmp
+
+# Tool/runtime binaries and large visual evidence
+*.exe
+*.dll
+*.pdb
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.wav
+*.mp3
+*.zip
+*.7z
+
+# Python/Node/editor caches
+__pycache__/
+*.py[cod]
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
+# Large reproducible work trees and emulator state
+/work/disc_extracted/
+/work/tools/
+/work/release_fixture/
+/work/final_runtime_staging/
+/work/partial_runtime_staging/
+/work/pilot/
+/work/pilot_v2/
+/work/pristine/
+/work/scratch/
+/work/catalog/
+/work/runtime_validation/dolphin_user*/
+/work/runtime_validation/systemvol_variants/
+/work/runtime_validation/__runtime_debug__/
+/work/runtime_fix/sfd_ko/
+/work/runtime_fix/visual_sweep/
+/work/runtime_fix/audit_renders/
+/work/runtime_fix/main.dol.*patched*
+/work/image_ui_final/extracted/
+/work/image_ui_final/payloads/
+/work/image_ui_final/reports/**/payloads/
+
+# Translation intermediate snapshots; final TM/reports remain tracked
+/work/translation/validation/
+/work/translation/current/
+/work/translation/tm_v1/
+/work/translation/tm_v2/
+/work/translation/reviewed/
+/work/translation/drafts/
+
+# Large research inventories reproducible from the original disc
+/work/research/bscr_agent/bscr_manifest.json
+/work/research/rtdp_agent/audit/entries.json
+/work/research/rtdp_agent/audit/entries.csv
+/work/research/rtdp_agent/fixtures/
+/work/arf_format_research/brs_docs/
+/work/arf_format_research/**/bin/
+/work/arf_format_research/**/obj/
+*.suo
+*.user
+
+# Release payload stays as a local deliverable; track its checksum/metadata
+/outputs/*
+!/outputs/*.sha256
+!/outputs/*.validation.json
+
+# Corrected compact system-table payloads are intentional source artifacts
+!/work/final_system_table_application/payloads/*.bin

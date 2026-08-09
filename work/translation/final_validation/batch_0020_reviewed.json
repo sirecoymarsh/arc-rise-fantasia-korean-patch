@@ -1,0 +1,18 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0020.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0020.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 493,
+  "hangul_characters": "가각간갈감갑강같개거걱건검것게겐겨격견결겹계고곡곳공과관광괴교구국군굴귀그극근글급긋기긴길깃까꺼께꼬꽃꾸꿰끝끼낌나날남내낸널넣네년노높누눈느는늘능니닌다단달닮담답닿대더덕던덤덩덮데덴델도독돋돌동되된두둔둘둠뒤드득든들듯등디딸땅때떠떤떻뚫뛰뜨뜻라락람랑래랜랬량러럽레려력련령로록론뢰루룩류률르른를름리릭린림릿마막만많말맑맛망맞매맺머먹먼멋멍메며면멸명모목몬몰몸못무묵물므미믹민밀바박밖반받발밤방배뱅버번범법베벨벼벽변병보복본볼봉봐봤부분불붐브블비빅빈빚빛뿐쁜사산살삶상새색생서석선설섬성세셀셉소속손쇄수순술슈스슬승시식신실싫심싶싸쓰쓸아악안앉않암앞애액야약얀양어언얻얼업없엇었엉에엑엘여역엮연열였영예오옥올옷와완왔외요용우운울움원월웰위유으은을음의이인일잃임입있자작잠장재잿쟁저적전절점정제젬져조족존종좋주죽준중즈즉증지직진질징짜찌차착찰참찾채처천철첩청체쳐총최추축출충춰층치친칠침칭카칼캐캣컫컬컴컷켜코콜퀘큐크큰클키킨타탁탈탐탑탕태터턴털테템토톡통퇴투튀트특틀티틱틸팅파판팔팡퍼페편펼평폐포폭표품풍프플피핀필하학한할함합항해했행향헤헥혀현형호혼홍화확환황회획횡효후훔휘휩흉흑흔흡희히힐힘",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 720
+}

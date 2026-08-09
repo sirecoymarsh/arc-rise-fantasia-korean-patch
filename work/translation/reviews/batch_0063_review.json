@@ -1,0 +1,136 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0063",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0063.jsonl",
+  "draft": "work/translation/drafts/batch_0063.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0063.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 12,
+  "unchanged_units": 188,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-519652F94D11A7119E58",
+      "source_text": "……私……あなたを……\n好きになれば良かった……",
+      "before": "……나…… 당신을……\n좋아했으면 좋았을 텐데……",
+      "after": "……나…… 당신을……\n좋아했더라면 좋았을 텐데……",
+      "category": "naturalness",
+      "reason": "상대를 사랑하지 못한 일을 후회하는 임종 대사를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-54215C18B3506A6400BE",
+      "source_text": "その為には９体のログレスと\n契約する必要がある……",
+      "before": "그러려면 ９기의 로그레스와\n계약해야 해……",
+      "after": "그러려면 ９마리의 로그레스와\n계약해야 해……",
+      "category": "terminology",
+      "reason": "로그레스의 수량 표현을 기존 용례인 '마리'로 통일하고 전각 숫자 '９'를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-558221B64BD2F2730307",
+      "source_text": "その言葉はタイマン勝負で勝ってから\n改めていただくさ",
+      "before": "그 말은 일대일 승부에서 이긴 뒤에\n다시 듣도록 하지",
+      "after": "그 말은 일대일 승부에서 이긴 뒤에\n다시 해 주시지",
+      "category": "meaning",
+      "reason": "승리한 뒤 같은 말을 다시 하라는 요구의 방향을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-56F8FE0E69370DA3FB9D",
+      "source_text": "イマジナル神が愚かな定理を\n捨てる気があるなら\n対話の可能性もあると言うだけよ",
+      "before": "이매지널신이 어리석은 섭리를\n버릴 생각이 있다면\n대화할 가능성도 있다는 말뿐이야",
+      "after": "이매지널신이 어리석은 섭리를\n버릴 생각이 있다면\n대화의 가능성도 있다는 말일 뿐이야",
+      "category": "grammar",
+      "reason": "대화 자체의 가능성을 말하는 문장이 자연스럽게 이어지도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-57198E071FC875511111",
+      "source_text": "知的眼鏡美人のカーライルさーん♪",
+      "before": "지적인 안경 미인 칼라일 씨―♪",
+      "after": "지적인 안경 미인 칼라일 씨〜♪",
+      "category": "speaker_voice",
+      "reason": "사쥬의 길게 늘이는 장난스러운 호칭을 자연스러운 물결표로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-584BA60C81F57B5FC80C",
+      "source_text": "でしょうねぇ。\n悪辣非道な帝国へ復讐を……\nなんて話も聞くわよ",
+      "before": "그렇겠지.\n악랄하고 비도한 제국에 복수를……\n한다는 얘기도 들려",
+      "after": "그렇겠지.\n극악무도한 제국에 복수를……\n한다는 얘기도 들려",
+      "category": "word_choice",
+      "reason": "'悪辣非道'를 자연스러운 한국어 합성 표현인 '극악무도한'으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-5BBD035771AB14486898",
+      "source_text": "何も知らずに、イマジナルを\n選ばされてしまった……",
+      "before": "아무것도 모른 채 이매지널을\n선택하게 됐어……",
+      "after": "아무것도 모른 채 이매지널을\n선택하도록 강요받았어……",
+      "category": "meaning",
+      "reason": "자발적 선택이 아니라 선택을 강요받았다는 '選ばされて'의 사역·피동 의미를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-5BEBC70D83FD40E9527B",
+      "source_text": "よし、エブルを目指そう",
+      "before": "좋아, 에브루로 가자",
+      "after": "좋아, 에블로 가자",
+      "category": "proper_noun",
+      "reason": "용어집에 따라 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-60036E65AA721774AA94",
+      "source_text": "……火山の方は\n止めてくれたようだな。\n感謝する",
+      "before": "……화산 쪽은\n막아 준 모양이군.\n고맙다",
+      "after": "……화산 활동은\n멈춰 준 모양이군.\n고맙다",
+      "category": "meaning",
+      "reason": "화산 자체가 아니라 화산 활동을 멈췄다는 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-6098309671E708D1BE0F",
+      "source_text": "共和国の前身である都市国家連合に\nディーバとＱＥＤを与え",
+      "before": "공화국의 전신인 도시국가 연합에\n디바와 ＱＥＤ를 주고",
+      "after": "공화국의 전신인 도시국가 연합에\n디바와 QED를 주고",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 표기인 ASCII 'QED'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-665651C8E52A9CBB1C2F",
+      "source_text": "だがＱＥＤとやらのことは\n私は知らぬ",
+      "before": "하지만 ＱＥＤ라는 것에 대해선\n난 모른다",
+      "after": "하지만 QED라는 것에 대해선\n난 모른다",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 표기인 ASCII 'QED'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-67389BCEF1F83C92D7DE",
+      "source_text": "帝国領土から共和国へ行けるのは\n帝都で許可証を得た者のみと\nなっている",
+      "before": "제국령에서 공화국으로 갈 수 있는 건\n제도에서 허가증을 받은 자뿐이다",
+      "after": "제국령에서 공화국으로 갈 수 있는 건\n제도에서 허가증을 받은 자뿐으로\n정해져 있다",
+      "category": "line_breaks",
+      "reason": "원문의 세 줄 구조를 복원하면서 통행 조건을 완결된 문장으로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

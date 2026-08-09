@@ -1,0 +1,187 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0147",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_final",
+  "draft_author": "/root/translate_final",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0147.jsonl",
+  "draft": "work/translation/drafts/batch_0147.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0147.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 8,
+  "unchanged_units": 192,
+  "correction_count": 8,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 15,
+      "tm_id": "ARF-TM-E01EDA861AC7CD084B5E",
+      "source_text": "あ……アニキ……",
+      "before": "혀…… 형님……",
+      "after": "아…… 형님……",
+      "category": "typo_voice",
+      "reason": "あ의 머뭇거림이 「혀」로 잘못 옮겨진 오타를 화자의 실제 발화에 맞게 바로잡았다."
+    },
+    {
+      "index": 27,
+      "tm_id": "ARF-TM-E92B4E66EDC52F0019B8",
+      "source_text": "やけに静かッスね",
+      "before": "유난히 조용하네요",
+      "after": "유난히 조용함다",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 프로젝트의 「~슴다/~임다」 계열로 살렸다."
+    },
+    {
+      "index": 37,
+      "tm_id": "ARF-TM-F14A9C477914A30E69DC",
+      "source_text": "ホールの女主人",
+      "before": "홀 여주인",
+      "after": "홀의 여주인",
+      "category": "natural_korean",
+      "reason": "ホールの女主人의 소유 관계가 자연스럽게 드러나도록 조사를 보완했다."
+    },
+    {
+      "index": 49,
+      "tm_id": "ARF-TM-FB27B35015DC2A4AE3C2",
+      "source_text": "『ペネロペ』の仕立屋",
+      "before": "『페넬로페』의 재단사",
+      "after": "『페넬로페』의 양장점",
+      "category": "meaning_terminology",
+      "reason": "仕立屋는 재단사 개인이 아니라 상점인 양장점을 가리키므로 기존 상점 표기에 맞췄다."
+    },
+    {
+      "index": 64,
+      "tm_id": "ARF-TM-07840070BAC450A07B7F",
+      "source_text": "……オイゲン。\nホゼア様はどうなさったのだ。\n何故突然白き槍が起動した？",
+      "before": "……오이겐.\n호제아 님께선 어떻게 되신 건가.\n어째서 갑자기 하얀 창이 가동했지?",
+      "after": "……오이겐.\n호제아 님께선 어떻게 되신 건가.\n어째서 갑자기 하얀 창이 가동된 거지?",
+      "category": "grammar",
+      "reason": "기계가 작동했다는 起動した의 뜻이 자연스럽도록 피동 표현 「가동되다」를 사용했다."
+    },
+    {
+      "index": 79,
+      "tm_id": "ARF-TM-10A6B9B2BFC2BA3BC39B",
+      "source_text": "悪いな、持ちきれねーみたいだ",
+      "before": "미안, 다 들 수 없는 모양이야",
+      "after": "미안, 더는 들 수 없는 모양이야",
+      "category": "natural_korean",
+      "reason": "소지 한도 때문에 더 들 수 없다는 持ちきれない의 뜻을 자연스럽게 다듬었다."
+    },
+    {
+      "index": 114,
+      "tm_id": "ARF-TM-23D45DAD23DB20C73247",
+      "source_text": "弾幕薄いぞ！",
+      "before": "탄막이 얇다!",
+      "after": "탄막이 얇아!",
+      "category": "natural_korean_voice",
+      "reason": "짧은 경고 대사가 자연스러운 구어체로 들리도록 종결을 다듬었다."
+    },
+    {
+      "index": 119,
+      "tm_id": "ARF-TM-27623F2D41E865B5B608",
+      "source_text": "……１人にして悪いな。\nゆっくり休めよ",
+      "before": "……혼자 둬서 미안해.\n푹 쉬어",
+      "after": "……１명만 남겨 둬서 미안해.\n푹 쉬어",
+      "category": "numeric_fidelity",
+      "reason": "혼자 남겨 둔 인원수 １과 전각 숫자 형태를 보존했다."
+    }
+  ],
+  "corrections": [
+    {
+      "index": 15,
+      "tm_id": "ARF-TM-E01EDA861AC7CD084B5E",
+      "source_text": "あ……アニキ……",
+      "before": "혀…… 형님……",
+      "after": "아…… 형님……",
+      "category": "typo_voice",
+      "reason": "あ의 머뭇거림이 「혀」로 잘못 옮겨진 오타를 화자의 실제 발화에 맞게 바로잡았다."
+    },
+    {
+      "index": 27,
+      "tm_id": "ARF-TM-E92B4E66EDC52F0019B8",
+      "source_text": "やけに静かッスね",
+      "before": "유난히 조용하네요",
+      "after": "유난히 조용함다",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 프로젝트의 「~슴다/~임다」 계열로 살렸다."
+    },
+    {
+      "index": 37,
+      "tm_id": "ARF-TM-F14A9C477914A30E69DC",
+      "source_text": "ホールの女主人",
+      "before": "홀 여주인",
+      "after": "홀의 여주인",
+      "category": "natural_korean",
+      "reason": "ホールの女主人의 소유 관계가 자연스럽게 드러나도록 조사를 보완했다."
+    },
+    {
+      "index": 49,
+      "tm_id": "ARF-TM-FB27B35015DC2A4AE3C2",
+      "source_text": "『ペネロペ』の仕立屋",
+      "before": "『페넬로페』의 재단사",
+      "after": "『페넬로페』의 양장점",
+      "category": "meaning_terminology",
+      "reason": "仕立屋는 재단사 개인이 아니라 상점인 양장점을 가리키므로 기존 상점 표기에 맞췄다."
+    },
+    {
+      "index": 64,
+      "tm_id": "ARF-TM-07840070BAC450A07B7F",
+      "source_text": "……オイゲン。\nホゼア様はどうなさったのだ。\n何故突然白き槍が起動した？",
+      "before": "……오이겐.\n호제아 님께선 어떻게 되신 건가.\n어째서 갑자기 하얀 창이 가동했지?",
+      "after": "……오이겐.\n호제아 님께선 어떻게 되신 건가.\n어째서 갑자기 하얀 창이 가동된 거지?",
+      "category": "grammar",
+      "reason": "기계가 작동했다는 起動した의 뜻이 자연스럽도록 피동 표현 「가동되다」를 사용했다."
+    },
+    {
+      "index": 79,
+      "tm_id": "ARF-TM-10A6B9B2BFC2BA3BC39B",
+      "source_text": "悪いな、持ちきれねーみたいだ",
+      "before": "미안, 다 들 수 없는 모양이야",
+      "after": "미안, 더는 들 수 없는 모양이야",
+      "category": "natural_korean",
+      "reason": "소지 한도 때문에 더 들 수 없다는 持ちきれない의 뜻을 자연스럽게 다듬었다."
+    },
+    {
+      "index": 114,
+      "tm_id": "ARF-TM-23D45DAD23DB20C73247",
+      "source_text": "弾幕薄いぞ！",
+      "before": "탄막이 얇다!",
+      "after": "탄막이 얇아!",
+      "category": "natural_korean_voice",
+      "reason": "짧은 경고 대사가 자연스러운 구어체로 들리도록 종결을 다듬었다."
+    },
+    {
+      "index": 119,
+      "tm_id": "ARF-TM-27623F2D41E865B5B608",
+      "source_text": "……１人にして悪いな。\nゆっくり休めよ",
+      "before": "……혼자 둬서 미안해.\n푹 쉬어",
+      "after": "……１명만 남겨 둬서 미안해.\n푹 쉬어",
+      "category": "numeric_fidelity",
+      "reason": "혼자 남겨 둔 인원수 １과 전각 숫자 형태를 보존했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

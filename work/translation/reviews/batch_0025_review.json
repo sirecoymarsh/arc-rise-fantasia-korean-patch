@@ -1,0 +1,273 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0025",
+  "draft_author": "/root/translate_batch_0009",
+  "reviewer": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex 내부 모델 전용",
+  "external_services_used": [],
+  "external_service_status": "없음",
+  "source": "work/translation/tm_v2/batches/source/batch_0025.jsonl",
+  "draft": "work/translation/drafts/batch_0025.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0025.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 26,
+  "unchanged_units": 174,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 6,
+      "tm_id": "ARF-TM-0ADBF9B4C261B953DDB8",
+      "source_text": "それに、私みたいに\n綺麗で知性的なバニーさんがいたら\n目立ってしまって仕方ないでしょ？",
+      "before": "게다가 나처럼\n아름답고 지적인 바니가 있으면\n눈에 띄어서 어째 수 없잖아?",
+      "after": "게다가 나처럼\n아름답고 지적인 바니걸이 있으면\n눈에 띄어서 어쩔 수 없잖아?",
+      "category": "typo_and_naturalness",
+      "reason": "오탈자 〈어째〉를 바로잡고 バニーさん을 자연스러운 의상명으로 다듬었다."
+    },
+    {
+      "index": 16,
+      "tm_id": "ARF-TM-0B583E3971EF7752FDC1",
+      "source_text": "あ、ああ……。\nその、もう治せないのか？",
+      "before": "아, 아아…….\n그럼, 이제 고칠 수 없는 거야?",
+      "after": "아, 아아…….\n그, 이제 고칠 수 없는 거야?",
+      "category": "dialogue_meaning",
+      "reason": "머뭇거림을 나타내는 その를 조건 접속인 〈그럼〉으로 오해하지 않도록 교정했다."
+    },
+    {
+      "index": 25,
+      "tm_id": "ARF-TM-0BF2A44A53422B6A3DD4",
+      "source_text": "まぁまぁ、ザムエルじーさんに\n聞いてみりゃいいじゃん。\n話はそれからだろ？",
+      "before": "뭐, 뭐. 자무엘 할아버지한테\n물어보면 되잖아.\n이야기는 그다음이지?",
+      "after": "자, 자. 자무엘 할아버지한테\n물어보면 되잖아.\n이야기는 그다음이지?",
+      "category": "dialogue_naturalness",
+      "reason": "まぁまぁ의 달래는 말투를 자연스럽게 살렸다."
+    },
+    {
+      "index": 26,
+      "tm_id": "ARF-TM-0BF4887ED27A20DAE6E4",
+      "source_text": "甘えちゃおうかしら",
+      "before": "좀 기대 볼까",
+      "after": "응석 좀 부려 볼까",
+      "category": "dialogue_meaning",
+      "reason": "甘える를 단순히 기대는 행위가 아니라 응석을 받아 달라는 의미로 옮겼다."
+    },
+    {
+      "index": 30,
+      "tm_id": "ARF-TM-0C30B5B3DE769107A182",
+      "source_text": "幼なじみとして\n心配してやってるんだよ！",
+      "before": "소꿽친구로서\n걱정해 주는 거라고!",
+      "after": "소꿉친구로서\n걱정해 주는 거라고!",
+      "category": "typo",
+      "reason": "〈소꿽친구〉 오탈자를 바로잡았다."
+    },
+    {
+      "index": 40,
+      "tm_id": "ARF-TM-0CC5460F12AED014B2AF",
+      "source_text": "べ、別に……\n心配してる訳じゃねぇ。\n単なる好奇心だ",
+      "before": "별, 별로……\n걱정하는 건 아니야.\n그냥 호기심일 뿐이다",
+      "after": "벼, 별로……\n걱정하는 건 아니야.\n그냥 호기심이야",
+      "category": "character_voice",
+      "reason": "라르크의 반말을 세 줄에서 일관되게 유지하고 머뭇거림을 자연스럽게 다듬었다."
+    },
+    {
+      "index": 47,
+      "tm_id": "ARF-TM-0D4DFB212B2319029AAE",
+      "source_text": "リフィアちゃんに\n見つめられるのは嬉しいんスけど\n……困惑の一言っス",
+      "before": "리피아 양이\n바라봐 주는 건 좋지만\n……당황스럽다는 말밖엔 안 나옴다",
+      "after": "리피아가\n바라봐 주는 건 좋지만\n……당황스럽단 말밖엔 안 나옴다",
+      "category": "character_voice_and_honorific",
+      "reason": "리피아 호칭과 니콜의 말투를 프로젝트 문체에 맞추고 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "index": 48,
+      "tm_id": "ARF-TM-0D53BCEFE1CD49D887B6",
+      "source_text": "あんたの涙でどうだ？",
+      "before": "네 눈물로 하면 어때?",
+      "after": "네 눈물을 보수로 받는 건 어때?",
+      "category": "dialogue_meaning",
+      "reason": "계약 보수로 상대의 눈물을 받겠다는 유혹의 의미를 명확히 했다."
+    },
+    {
+      "index": 66,
+      "tm_id": "ARF-TM-0EC3CEF69616FA7D5A3C",
+      "source_text": "さすがにするどいね\nリフィアちゃん",
+      "before": "역시 눈치가 빠르네,\n리피아 양",
+      "after": "역시 눈치가 빠르네,\n리피아",
+      "category": "honorific_consistency",
+      "reason": "リフィアちゃん을 승인된 호칭 운용에 맞춰 과도한 〈양〉 없이 옮겼다."
+    },
+    {
+      "index": 68,
+      "tm_id": "ARF-TM-0ECF8B5C34290A4344D2",
+      "source_text": "な……\nあいつ……調子に乗りやがって。\n連れ戻してくる！",
+      "before": "뭐……\n저 자식…… 우쭔해져서는.\n당장 데려오겠어!",
+      "after": "뭐……\n저 자식…… 우쭐해져서는.\n당장 데려오겠어!",
+      "category": "typo_and_naturalness",
+      "reason": "깨진 오탈자를 바로잡고 調子に乗る의 의미를 복원했다."
+    },
+    {
+      "index": 83,
+      "tm_id": "ARF-TM-10632EC2BB6457A5A661",
+      "source_text": "私やアルスみたいな人は\n箱入りなんだって\nラルクが言っていたの",
+      "before": "나나 알스처럼 자란 사람을\n온실 속 화초라고\n라르크가 말했어",
+      "after": "나나 알스 같은 사람은\n상자 속에서 곱게 자랐다고\n라르크가 말했어",
+      "category": "wordplay_context",
+      "reason": "箱入り의 문자적 오해로 이어지는 후속 농담을 살리면서 곱게 자랐다는 뜻도 전달했다."
+    },
+    {
+      "index": 84,
+      "tm_id": "ARF-TM-1070BF83C081A03812E1",
+      "source_text": "ふふっなんだか楽しい",
+      "before": "후훗, 왜지 즐거워",
+      "after": "후훗, 왠지 즐거워",
+      "category": "typo",
+      "reason": "〈왜지〉를 〈왠지〉로 바로잡았다."
+    },
+    {
+      "index": 87,
+      "tm_id": "ARF-TM-10A289C546AD3BE2AA6A",
+      "source_text": "私は見ての通りの校医。\n設定は特になし。\nあえて言うならば、蠱惑的",
+      "before": "나는 보다시피 보건 교사.\n설정은 딱히 없어.\n굳이 말하자면, 요염함",
+      "after": "나는 보다시피 학교 의사.\n설정은 딱히 없어.\n굳이 말하자면, 요염함",
+      "category": "term_meaning",
+      "reason": "校医를 보건 교사가 아닌 학교 의사로 정확히 옮겼다."
+    },
+    {
+      "index": 91,
+      "tm_id": "ARF-TM-10ED123CFF7617EB1A23",
+      "source_text": "考えられん話ではない。\n現に、アントラクス南方には\n密林が広がっている",
+      "before": "생각할 수 없는 얘기는 아니다.\n실제로 안트락스 남쪽에는\n밀림이 펼쳐져 있다",
+      "after": "있을 법한 이야기다.\n실제로 안트락스 남쪽에는\n밀림이 펼쳐져 있다",
+      "category": "dialogue_naturalness",
+      "reason": "이중 부정 직역을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "index": 100,
+      "tm_id": "ARF-TM-11AC2903BF380D9AE905",
+      "source_text": "仕方ないよ。\nだってあの２人ってば――\n天然だもん",
+      "before": "어쩔 수 없지.\n그 두 사람은 말이야――\n둘 다 천연이잖아",
+      "after": "어쩔 수 없지.\n그 두 사람은 말이야――\n둘 다 눈치가 없잖아",
+      "category": "dialogue_meaning",
+      "reason": "天然을 한국어에서 의미가 불분명한 〈천연〉으로 두지 않고 두 사람의 둔감함으로 풀었다."
+    },
+    {
+      "index": 118,
+      "tm_id": "ARF-TM-12838A6D26932C5A30D0",
+      "source_text": "よく覚えておけよ。\n濁竜が死に際に引き起こす爆発\n――それが、竜災害だ",
+      "before": "잘 기억해 둠.\n탁룡이 죽기 직전에 일으키는 폭발\n――그게 용재해야",
+      "after": "잘 기억해 둬.\n탁룡이 죽기 직전에 일으키는 폭발\n――그게 용재해야",
+      "category": "typo_and_character_voice",
+      "reason": "인터넷식 오탈자 〈둠〉을 제거하고 라르크의 반말을 복원했다."
+    },
+    {
+      "index": 131,
+      "tm_id": "ARF-TM-12F5545C4F4A3FF71FB7",
+      "source_text": "若さ故、侮られぬよう\n必死なのかも知れぬな",
+      "before": "젊은 나이에 얹보이지 않으려고\n필사적인 걸지도 모르겠군",
+      "after": "젊은 나이에 얕보이지 않으려고\n필사적인 걸지도 모르겠군",
+      "category": "typo",
+      "reason": "〈얹보이지〉 오탈자를 〈얕보이지〉로 바로잡았다."
+    },
+    {
+      "index": 132,
+      "tm_id": "ARF-TM-12FB2146620229BF502E",
+      "source_text": "うん。\nこの勇者様に\n任せなさい――",
+      "before": "응.\n이 용사님에게\n맡겨――",
+      "after": "응.\n이 용사님에게\n맡기시라――",
+      "category": "character_voice",
+      "reason": "세실의 자칭 용사다운 자신만만한 명령형을 살렸다."
+    },
+    {
+      "index": 135,
+      "tm_id": "ARF-TM-135733E67B680C6FB727",
+      "source_text": "いや〜、あちぃ〜",
+      "before": "이야~, 덩다~",
+      "after": "이야~, 더워~",
+      "category": "typo",
+      "reason": "깨진 오탈자를 원문의 더위 감탄으로 복원했다."
+    },
+    {
+      "index": 153,
+      "tm_id": "ARF-TM-1493128166881C3D1016",
+      "source_text": "うはー。これまたあっさりと",
+      "before": "우와. 이번에도 참 쉽게",
+      "after": "우와. 이번에도 참 단호하네",
+      "category": "dialogue_meaning",
+      "reason": "あっさり를 상황이 쉽다는 뜻이 아니라 즉답이 단호하다는 의미로 옮겼다."
+    },
+    {
+      "index": 157,
+      "tm_id": "ARF-TM-14A5111C4F2C68D44C0A",
+      "source_text": "それはそれはとても。\nあれは僕の親友が泥付きのまま\n空から降ってきた日のことでした",
+      "before": "그럼, 아주 많이요.\n제 절친이 진흙투성이로\n하늘에서 떨어진 날이었죠",
+      "after": "그야, 정말 많이요.\n제 절친이 진흙투성이로\n하늘에서 떨어진 날이었죠",
+      "category": "dialogue_connection",
+      "reason": "앞 문장의 통증 질문에 답하는 それはそれは의 연결을 자연스럽게 복원했다."
+    },
+    {
+      "index": 171,
+      "tm_id": "ARF-TM-164EBAE48006120C645A",
+      "source_text": "お前はホント\n言い出したら聞かないよな",
+      "before": "넌 정말\n한번 말하면 안 듣는구나",
+      "after": "넌 정말\n한번 고집부리면 말을 안 듣는구나",
+      "category": "idiom_meaning",
+      "reason": "言い出したら聞かない를 고집이 세다는 관용 의미로 명확히 했다."
+    },
+    {
+      "index": 179,
+      "tm_id": "ARF-TM-170DA0CEE7CEC2E587DF",
+      "source_text": "手慣れてるな、お前。\n言い訳がましい台詞言うの",
+      "before": "너, 익숙하구나.\n변명조로 말하는 거",
+      "after": "너, 익숙하구나.\n변명 같은 말 늘어놓는 데는",
+      "category": "dialogue_naturalness",
+      "reason": "言い訳がましい台詞의 비꼬는 의미를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "index": 184,
+      "tm_id": "ARF-TM-17995D9BFDFCF94B186D",
+      "source_text": "ブレイブセシル号が\n墜ちるわけないじゃん。\n本来の力を取り戻したんだよ？",
+      "before": "브레이브 세실호가\n추락할 리 없잖아.\n본래의 힘을 되찾았다고?",
+      "after": "브레이브 세실호가\n추락할 리 없잖아.\n본래의 힘을 되찾았잖아?",
+      "category": "dialogue_function",
+      "reason": "확인·강조형 だよ？를 사실 여부 질문이 아닌 반문으로 교정했다."
+    },
+    {
+      "index": 186,
+      "tm_id": "ARF-TM-17AF65D7E103DDB4F2C1",
+      "source_text": "そういうとこだけは\n昔と変わんねぇのな",
+      "before": "그런 점만은\n예전과 그대로네",
+      "after": "그런 점만은\n예전 그대로네",
+      "category": "grammar",
+      "reason": "부자연스러운 〈예전과 그대로〉를 바로잡았다."
+    },
+    {
+      "index": 200,
+      "tm_id": "ARF-TM-18A76F046CF1113260A1",
+      "source_text": "そうかしら。\n私も何も知らないわ。\n箱入りらしいの",
+      "before": "그럴까.\n나도 아무것도 몰라.\n온실 속 화초라나 봐",
+      "after": "그럴까.\n나도 아무것도 몰라.\n상자 속에서 곱게 자랐나 봐",
+      "category": "wordplay_context",
+      "reason": "후속 箱入り 농담이 이어지도록 문자적 상자 이미지와 보호받고 자란 의미를 함께 살렸다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_task_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "지시에 따라 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

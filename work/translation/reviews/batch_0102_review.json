@@ -1,0 +1,89 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0102",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0102.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0102.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0102.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 7,
+  "unchanged_row_count": 193,
+  "modifications": [
+    {
+      "row_index": 15,
+      "tm_id": "ARF-TM-67E76209DD0FF39437AD",
+      "source_text": "だ、誰か、助けを呼んで！\nこの人、大ケガしているわ!!",
+      "before": "누, 누가 사람 좀 불러 줘!\n이 사람 크게 다쳤어!!",
+      "after": "누, 누가 도움을 불러 줘!\n이 사람 크게 다쳤어!!",
+      "category": "meaning",
+      "reason": "구조 요청이라는 원문의 의미를 명확하게 복원함."
+    },
+    {
+      "row_index": 46,
+      "tm_id": "ARF-TM-68B1A6F8682B7C05188D",
+      "source_text": "これは受け取れない<$0C>俺はまだレジスタンスに\n入ったわけじゃないからな",
+      "before": "이건 받을 수 없어<$0C>나는 아직 레지스탕스에\n가입한 게 아니니까",
+      "after": "이건 받을 수 없어<$0C>나는 아직 저항군에\n가입한 게 아니니까",
+      "category": "terminology",
+      "reason": "レジスタンス를 용어집 고정 표기인 저항군으로 교정함."
+    },
+    {
+      "row_index": 55,
+      "tm_id": "ARF-TM-68E42B3EA4EF8DA91EB6",
+      "source_text": "amp030:フライフィッシュ\namp031:デザートフィッシュ\namp032:キャットフィッシュ\namp033:レモラ\nやめる",
+      "before": "amp030:플라이 피시\namp031:데저트 피시\namp032:캣피시\namp033:레모라\n그만두기",
+      "after": "amp030:플라이 피시\namp031:데저트 피시\namp032:캣피시\namp033:레모라\n그만둔다",
+      "category": "ui",
+      "reason": "동일 계열 메뉴의 종결 표현을 그만둔다로 통일함."
+    },
+    {
+      "row_index": 130,
+      "tm_id": "ARF-TM-6A40B3BF25A0B9F6CED5",
+      "source_text": "ぎ、ぎぎっぎぎ\n議長!?",
+      "before": "으, 으으으으\n의장님!?",
+      "after": "기, 기기기기\n의장님!?",
+      "category": "speaker_voice",
+      "reason": "원문의 당황한 말더듬을 임의 감탄으로 바꾸지 않고 복원함."
+    },
+    {
+      "row_index": 131,
+      "tm_id": "ARF-TM-6A41269E5BD39B57CA05",
+      "source_text": "これ……お兄ちゃんにあげる。\n僕には、もう必要ないから……",
+      "before": "이거…… 오빠한테 줄게.\n내게는 이제 필요 없으니까……",
+      "after": "이거…… 형한테 줄게.\n내게는 이제 필요 없으니까……",
+      "category": "speaker_voice",
+      "reason": "남자아이 화자의 お兄ちゃん을 성별에 맞는 형으로 교정함."
+    },
+    {
+      "row_index": 164,
+      "tm_id": "ARF-TM-6B0718082979BBC395EE",
+      "source_text": "地下の廃墟D04（レジスタンスの拠点）へ\n",
+      "before": "지하 폐허 D04(레지스탕스 거점)로\n",
+      "after": "지하 폐허 D04(저항군 거점)로\n",
+      "category": "terminology",
+      "reason": "レジスタンス를 용어집 고정 표기인 저항군으로 교정함."
+    },
+    {
+      "row_index": 178,
+      "tm_id": "ARF-TM-6B5C934FF5EFD6ABF8BD",
+      "source_text": "エレナ様のことは私に任せて。\nでも、あの人の１番の薬は\nラルク、あなたなんだからね",
+      "before": "엘레나 님은 내게 맡겨.\n하지만 저 사람에게 １번 좋은 약은\n라르크, 바로 너야",
+      "after": "엘레나 님은 내게 맡겨.\n하지만 저 사람에게 최고의 약은\n라르크, 바로 너야",
+      "category": "naturalness",
+      "reason": "１番の薬을 부자연스러운 수량 표현 대신 최고의 약으로 교정함."
+    }
+  ],
+  "technical_validation": "not run; deferred to final project stage per user instruction"
+}

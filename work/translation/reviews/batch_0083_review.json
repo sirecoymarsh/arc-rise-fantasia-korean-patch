@@ -1,0 +1,176 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0083",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0083.jsonl",
+  "draft": "work/translation/drafts/batch_0083.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0083.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 14,
+  "unchanged_units": 186,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-1B7A1AC463F6B80B560E",
+      "source_text": "ログレス捜し開始　　　　\n天衝塔ザイフェルトクリア\nエルゴード火山クリア　　\nソリトン鍾乳洞クリア　　\n廃都ヒルベルトクリア　　\nもどる　　　　　　　　　",
+      "before": "로그레스 탐색 시작　　　\n천충탑 자이펠트 클리어\n엘고드 화산 클리어　　　\n솔리톤 종유동 클리어　　\n폐도 힐베르트 클리어　　\n돌아간다　　　　　　　",
+      "after": "로그레스 탐색 시작　　　\n천충탑 자이페르트 클리어\n엘고드 화산 클리어　　　\n솔리톤 종유동 클리어　　\n폐도 힐베르트 클리어　　\n돌아간다　　　　　　　",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 '天衝塔ザイフェルト'를 '천충탑 자이페르트'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1B7C7746747939494405",
+      "source_text": "教団兵を倒すなんて\nあんたら帝国の人間か？\nこの街を襲撃しに来たのか！",
+      "before": "교단 병사를 쓰러뜨리다니\n너희 제국 사람인가?\n이 도시를 습격하러 왔나!",
+      "after": "교단 병사를 쓰러뜨리다니\n너희는 제국 사람이냐?\n이 도시를 습격하러 왔나!",
+      "category": "grammar",
+      "reason": "복수 상대를 지칭하는 문장의 주어와 서술어 호응을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-1BD7366C33C07D504F39",
+      "source_text": "エブル遺跡D03 オイゲンからブライトへ\n",
+      "before": "에브루 유적 D03 오이겐에서 브라이트로\n",
+      "after": "에블 유적 D03 오이겐에서 브라이트로\n",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1C99AA3F9F21A5970200",
+      "source_text": "この街にいた多くの\nノースノワーレ教徒は\nベネトナーシュへ帰りました<$0C>やはり、元老院は\nノースノワーレ教を\n排斥するおつもりなのですね",
+      "before": "이 도시에 있던 많은\n노스 노와레교 신자는\n베네트나슈로 돌아갔습니다<$0C>역시 원로원은\n노스 노와레교를\n배척할 생각이군요",
+      "after": "이 도시에 있던 많은\n노스 노와레교도는\n베네트나슈로 돌아갔습니다<$0C>역시 원로원은\n노스 노와레교를\n배척할 생각이군요",
+      "category": "terminology",
+      "reason": "종교 소속을 나타내는 'ノースノワーレ教徒'를 '노스 노와레교도'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1CC5177A70706D229CCD",
+      "source_text": "アルス皇帝でも誰でもいいから\n早いとこ、エブルを\n帝国から解放してくれよ……",
+      "before": "알스 황제든 누구든 좋으니까\n빨리 에브루를\n제국에서 해방해 줘……",
+      "after": "알스 황제든 누구든 좋으니까\n빨리 에블을\n제국에서 해방해 줘……",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1CE9B692D6BE79C1A973",
+      "source_text": "帝国の襲撃があってからは\n今まで以上に毎日が充実しているの<$0C>いつ死んでも後悔しないように\n１日１日を精一杯、生きようって\n思うようになったから――<$0C>あの襲撃は失うばかりでは\nなかったんだって\n今はそう思うのよ……",
+      "before": "제국의 습격 이후로는\n전보다 매일이 더 충실해졌어<$0C>언제 죽어도 후회하지 않도록\n하루하루 최선을 다해 살자고\n생각하게 됐거든――<$0C>그 습격이 잃게 한 것만\n있는 건 아니었다고\n지금은 그렇게 생각해……",
+      "after": "제국의 습격 이후로는\n전보다 매일이 더 충실해졌어<$0C>언제 죽어도 후회하지 않도록\n１일 １일을 온 힘을 다해 살자고\n생각하게 됐거든――<$0C>그 습격이 잃게 한 것만\n있는 건 아니었다고\n지금은 그렇게 생각해……",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 '１' 두 개를 복원하면서 자연스러운 문장으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1D7DA877C370EAEFF590",
+      "source_text": "アルス陛下が\nオルキナ教徒だからって\n調子に乗るんじゃねぇぞ！",
+      "before": "알스 폐하가\n오르키나교 신자라고\n우쭐대지 마라!",
+      "after": "알스 폐하가\n오르키나교도라고\n우쭐대지 마라!",
+      "category": "terminology",
+      "reason": "종교 소속을 나타내는 'オルキナ教徒'를 '오르키나교도'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1E0700D2E20ADB3BFCB6",
+      "source_text": "戦争中だよ？　戦争！",
+      "before": "전쟁 중이라고? 전쟁!",
+      "after": "전쟁 중이야! 전쟁!",
+      "category": "speaker_voice",
+      "reason": "전쟁 중임을 강하게 상기시키는 원문의 강조 어조를 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-1E7B08D343561EE4C321",
+      "source_text": "幾何回廊アルヴィス・希望する記憶  第１層",
+      "before": "기하 회랑 알비스・희망하는 기억  제１층",
+      "after": "기하 회랑 알비스・희망을 품은 기억  제１층",
+      "category": "naturalness",
+      "reason": "기억이 희망을 품는다는 제목의 의미가 자연스럽게 전달되도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1E9A93552C32759F440D",
+      "source_text": "ええ。\nグラ慈恵教会のサージュよ",
+      "before": "그래.\n그라 자혜교회의 사쥬야",
+      "after": "그래.\n그라 자혜교회의 사쥬야",
+      "category": "final_validation_integrity_correction",
+      "reason": "Final control-token and source-meaning validation proved that text from batch_0082 had been copied into this unrelated TM ID.",
+      "superseded_invalid_after": "어머, 도련님……\n누나한테 무슨 볼일이야?<$0C>나도 심심했으니까\n잠깐이라면\n놀아 줄 수도 있어♪"
+    },
+    {
+      "tm_id": "ARF-TM-1EC1D9D8D43338816565",
+      "source_text": "この村の北西には\nエブル遺跡があるんだ<$0C>村人でさえ近づかない\nとても危険な遺跡なんだ。\nあんたも近づくんじゃないぞ",
+      "before": "이 마을 북서쪽에는\n에브루 유적이 있어<$0C>마을 사람조차 가까이 가지 않는\n아주 위험한 유적이야.\n당신도 가까이 가지 마",
+      "after": "이 마을 북서쪽에는\n에블 유적이 있어<$0C>마을 사람조차 가까이 가지 않는\n아주 위험한 유적이야.\n당신도 가까이 가지 마",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1EE2C25B8E3092CB5D3D",
+      "source_text": "私たちに出来ることは\nアルス皇子のお言葉を信じて\n希望を失わずに生き続けることだけ<$0C>あの聡明なお方なら\n必ずや狂った兄皇を打ち倒し\nフルヘイムに平和をもたらすでしょう",
+      "before": "우리가 할 수 있는 건\n알스 황자의 말씀을 믿고\n희망을 잃지 않은 채 살아가는 것뿐<$0C>그 총명한 분이라면\n반드시 미친 형 황제를 쓰러뜨리고\n풀헤임에 평화를 가져올 겁니다",
+      "after": "우리가 할 수 있는 건\n알스 황자의 말씀을 믿고\n희망을 잃지 않은 채 살아가는 것뿐<$0C>그 총명한 분이라면\n반드시 미친 황제인 형을 쓰러뜨리고\n풀헤임에 평화를 가져올 겁니다",
+      "category": "grammar",
+      "reason": "'兄皇'의 가족 관계와 황제 지위를 자연스러운 한국어 어순으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1EF63907BB4FB3FADE2A",
+      "source_text": "エブルに住んでいる\n友人が帝国兵たちによって\n投獄されたと聞きました<$0C>なんでも、新帝国憲章とかに\n違反したらしくって……\n一体、何をしたんでしょうか",
+      "before": "에브루에 사는\n친구가 제국 병사들에게\n투옥됐다고 들었습니다<$0C>신제국 헌장인가를\n위반했다는데……\n대체 뭘 한 걸까요",
+      "after": "에블에 사는\n친구가 제국 병사들에게\n투옥됐다고 들었습니다<$0C>신제국 헌장인가를\n위반했다는데……\n대체 뭘 한 걸까요",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1F0A1BF55F2DD95FFB34",
+      "source_text": "テストマップ・ＮＰＣ配置初期化\n",
+      "before": "테스트 맵・ＮＰＣ 배치 초기화\n",
+      "after": "테스트 맵・NPC 배치 초기화\n",
+      "category": "orthography",
+      "reason": "문체 가이드에 따라 전각 영문 약어 'ＮＰＣ'를 반각 ASCII 'NPC'로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-1F74BF4AC12E6D3E8DA1",
+      "source_text": "これが『滅び』というならば\n私は、信仰するこの魂ごと\n海に身を投げてしまいたい……",
+      "before": "이게 『멸망』이라는 거라면\n난 이 신앙하는 영혼과 함께\n바다에 몸을 던지고 싶어……",
+      "after": "이게 『멸망』이라는 거라면\n나는 신앙을 품은 이 영혼째\n바다에 몸을 던지고 싶어……",
+      "category": "naturalness",
+      "reason": "신앙을 간직한 영혼까지 함께 던지겠다는 비장한 대사를 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "final_validation_corrections": {
+    "schema": "arf-final-validation-integrity-correction-v1",
+    "reviewer": "/root/audit_boundary_integration",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-1E9A93552C32759F440D"
+    ],
+    "reason": "Final control-token and source-meaning validation proved that text from batch_0082 had been copied into this unrelated TM ID.",
+    "reviewed_sha256": "A498AAB292B2D5E8CD870B020464BB5560A357CCF128533203648EB90C62D66B"
+  },
+  "hashes": {
+    "reviewed_sha256": "A498AAB292B2D5E8CD870B020464BB5560A357CCF128533203648EB90C62D66B"
+  }
+}

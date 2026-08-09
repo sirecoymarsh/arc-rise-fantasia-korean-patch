@@ -1,0 +1,256 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0043",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0043.jsonl",
+  "draft": "work/translation/drafts/batch_0043.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0043.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 27,
+  "unchanged_units": 173,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-5175714D38245472AE10",
+      "source_text": "世のしがらみってやつからね",
+      "before": "세상의 굴레라는 것에서 말이야",
+      "after": "세상의 굴레에서 말이야",
+      "category": "naturalness",
+      "reason": "앞 문장의 해방 대상을 자연스러운 한국어 조사로 이었다."
+    },
+    {
+      "tm_id": "ARF-TM-CBF5BBEA724AE8F15CA5",
+      "source_text": "……え？",
+      "before": "……뭐?",
+      "after": "……어?",
+      "category": "function",
+      "reason": "놀라 되묻는 짧은 반응을 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E2557EE986B4372FECE5",
+      "source_text": "ふんふん",
+      "before": "흠흠",
+      "after": "음, 음",
+      "category": "function",
+      "reason": "상대의 설명을 들으며 맞장구치는 반응으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-0B11EBE4A4E5DAF28255",
+      "source_text": "けど、女性が一緒なんだから\n少しペースを考えてあげないと",
+      "before": "하지만 여자도 함께니까\n속도를 좀 배려해 줘야지",
+      "after": "하지만 여자도 함께니까\n속도를 좀 맞춰 줘야지",
+      "category": "naturalness",
+      "reason": "동행자의 보행 속도를 배려한다는 뜻을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-1E8A391D8ABC4EC02F64",
+      "source_text": "ああ。\n報酬を貰い忘れる傭兵なんて\n聞いたことないからな",
+      "before": "그래.\n보수를 깜빡하는 용병은\n들어 본 적이 없거든",
+      "after": "그래.\n보수 받는 걸 잊는 용병은\n들어 본 적이 없거든",
+      "category": "meaning",
+      "reason": "보수 자체가 아니라 보수를 받는 일을 잊었다는 의미를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-67E0052C78340538F508",
+      "source_text": "そだね",
+      "before": "그러네",
+      "after": "그래",
+      "category": "function",
+      "reason": "앞선 제안에 동의하는 짧은 맞장구로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7AC1F224621D6F4D8B30",
+      "source_text": "その後、あの森で俺と会ったのか",
+      "before": "그 뒤에 그 숲에서 나를 만난 건가",
+      "after": "그 뒤에 그 숲에서 나를 만난 거구나",
+      "category": "meaning",
+      "reason": "이야기의 경위를 확인하며 납득하는 추론 어조로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C646304E6F75167D6832",
+      "source_text": "ああ、そうだな……",
+      "before": "그래, 그렇군……",
+      "after": "아아, 그렇군……",
+      "category": "naturalness",
+      "reason": "같은 의미가 중복된 표현을 정리하고 절제된 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-DD723EB3801752D92333",
+      "source_text": "……まあ、確かにこいつ\n倒れたばっかりだしな",
+      "before": "……뭐, 확실히 얘도\n막 쓰러졌다가 일어났으니까",
+      "after": "……뭐, 확실히 이 녀석도\n막 쓰러졌었으니까",
+      "category": "meaning",
+      "reason": "원문에 없는 회복 동작을 덜어 내고 막 쓰러졌던 상태만 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-011C60997E1CD3E188F0",
+      "source_text": "いや……まさかな\nシエルのはずはない……私は\n１０００年の時を彷徨っていたはずだ",
+      "before": "아니…… 설마\n시엘일 리 없어…… 나는\n１０００년의 시간을 헤맸을 텐데",
+      "after": "아니…… 설마\n시엘일 리 없어…… 나는\n１０００년의 세월을 헤맸을 텐데",
+      "category": "naturalness",
+      "reason": "시간을 헤맨다는 직역을 세월을 헤맸다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-06910570C4E1CC9F3132",
+      "source_text": "俺はラルクだ。\nマシュガル、お前と契約を結びたい",
+      "before": "난 라르크다.\n마슈가르, 너와 계약하고 싶어",
+      "after": "난 라르크다.\n마슈가르, 너와 계약을 맺고 싶다",
+      "category": "speaker_voice",
+      "reason": "로그레스에게 자신을 밝히고 계약을 청하는 단정적인 어조로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-098CC2683C0A9AD90CE2",
+      "source_text": "我らの気づかぬうちに\nよほど気を張っているのだろうな。\n重い使命を課せられた娘だけに……",
+      "before": "우리가 모르는 사이에\n무척 긴장하고 있었던 모양이군.\n무거운 사명을 부여받은 아이니……",
+      "after": "우리가 모르는 사이에\n몹시 긴장하고 있었던 모양이군.\n무거운 사명을 짊어진 아이인 만큼……",
+      "category": "naturalness",
+      "reason": "막중한 사명을 진 인물의 긴장을 자연스러운 한국어로 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-0AE4BCA2A004E51753EE",
+      "source_text": "ん？\nじゃ、好きな食い物の話でいいわ",
+      "before": "응?\n그럼 좋아하는 음식 이야기면 됐어",
+      "after": "응?\n그럼 좋아하는 음식 얘기나 하자",
+      "category": "naturalness",
+      "reason": "화제를 즉석에서 정하는 구어체 문장으로 자연스럽게 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-0B790C6912167EAFDF3E",
+      "source_text": "結局、シェリィの押しには\n逆らえねぇんだな……",
+      "before": "결국 셰리의 기세에는\n거스를 수 없는 거군……",
+      "after": "결국 셰리의 기세에는\n못 당하겠구나……",
+      "category": "naturalness",
+      "reason": "상대의 강한 밀어붙임을 이기지 못한다는 뜻을 관용적으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0C1C8578D77D3BD48441",
+      "source_text": "こいつは……\nすげえいびきだな",
+      "before": "이 녀석……\n코 고는 소리가 엄청나군",
+      "after": "이 녀석……\n코 고는 소리가 엄청나네",
+      "category": "speaker_voice",
+      "reason": "라르크의 거친 반말 어조와 감탄을 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-0D0FD4A8C1420B84AE95",
+      "source_text": "まさか？\nいや、まさかかもしれんが……",
+      "before": "설마?\n아니, 정말 설마일지도 모르지만……",
+      "after": "설마?\n아니, 그 설마일지도 모르지만……",
+      "category": "naturalness",
+      "reason": "같은 말을 되받아 가능성을 인정하는 자기 정정 어조로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0D6E235593DFD214F6F7",
+      "source_text": "そうそう、それ！",
+      "before": "그래, 그거야!",
+      "after": "맞아, 바로 그거!",
+      "category": "function",
+      "reason": "상대가 제시한 표현을 반갑게 받아들이는 맞장구로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-17475FBC2B214C2560F0",
+      "source_text": "うう……\nこっちに来ちゃだめっス\nじゃないと酷い目に……",
+      "before": "으으……\n이쪽으로 오지 마십쇼\n안 그러면 끔찍한 일을……",
+      "after": "으으……\n이쪽으로 오면 안 됨다\n안 그러면 험한 꼴을……",
+      "category": "speaker_voice",
+      "reason": "니콜의 고유 말투와 뒤따를 위험을 경고하는 의미를 함께 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-2B8748E6918D703E4755",
+      "source_text": "次は私か。\n塩漬けの燻製肉だな",
+      "before": "다음은 난가.\n소금에 절인 훈제 고기다",
+      "after": "다음은 나인가.\n소금에 절인 훈제 고기다",
+      "category": "speaker_voice",
+      "reason": "오이겐의 절제되고 격식 있는 서술 어조로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-3823BE36832F1A828373",
+      "source_text": "黙っていろ",
+      "before": "닥치고 있어",
+      "after": "입 다물고 있어",
+      "category": "register",
+      "reason": "원문보다 과도하게 거친 욕설이 되지 않도록 명령의 강도를 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-3C340F62B84911D4DD5F",
+      "source_text": "ささ、乾杯しましょう",
+      "before": "자자, 건배하자",
+      "after": "자자, 건배하죠",
+      "category": "speaker_voice",
+      "reason": "일행에게 건배를 권하는 정중한 청유형으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-3FFF932FC2374BD00044",
+      "source_text": "そうだな……\nまあ、アデールは\n妹みてぇなもんだしな",
+      "before": "그러게……\n뭐, 아델은\n여동생 같은 애니까",
+      "after": "글쎄……\n뭐, 아델은\n여동생 같은 애니까",
+      "category": "function",
+      "reason": "질문에 답을 고르는 망설임을 동의 표현으로 잘못 옮긴 부분을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-48641E804FD8D911D61F",
+      "source_text": "お褒めいただいてどーも。\n俺はそろそろ寝るぜ？",
+      "before": "칭찬 고맙군.\n난 이제 슬슬 잘 건데?",
+      "after": "칭찬 참 고맙다.\n난 이제 슬슬 잘 건데?",
+      "category": "speaker_voice",
+      "reason": "라르크의 빈정대는 감사와 거친 반말 어조를 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-4A7EE292454A15CBC136",
+      "source_text": "何々？　真面目な顔しちゃって",
+      "before": "뭐야? 다들 진지한 표정이나 짓고",
+      "after": "뭐야? 왜 그렇게 진지한 표정이야",
+      "category": "naturalness",
+      "reason": "진지한 얼굴을 보고 가볍게 말을 거는 문장으로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-4F0E467C1C5EAC68EBEC",
+      "source_text": "俺はシチューだな",
+      "before": "난 스튜로 할게",
+      "after": "난 스튜가 좋아",
+      "category": "meaning",
+      "reason": "주문을 고르는 말이 아니라 좋아하는 음식을 밝히는 답변으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-4F88B41DAD71C838EDE9",
+      "source_text": "たしか、昨日は新しい命が\n１２の輪に見いだされて\n不吉な１３が……",
+      "before": "분명 어제는 새로운 생명이\n１２개의 고리에 선택받고\n불길한 １３이……",
+      "after": "분명 어제는 새로운 생명이\n１２개의 고리에 의해 발견되고\n불길한 １３이……",
+      "category": "meaning",
+      "reason": "見いだされて를 근거 없이 선택받았다고 확장하지 않고 발견된다는 뜻으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-51B3C6F7B7D42854A990",
+      "source_text": "らしいな",
+      "before": "그런 모양이네",
+      "after": "그런 모양이군",
+      "category": "speaker_voice",
+      "reason": "격식 있고 절제된 화자의 짧은 동의 어조로 맞췄다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

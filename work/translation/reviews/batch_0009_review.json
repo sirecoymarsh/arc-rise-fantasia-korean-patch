@@ -1,0 +1,244 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "reviewer": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0009.jsonl",
+  "draft": "work/translation/drafts/batch_0009.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0009.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 42,
+  "unchanged_units": 158,
+  "metadata_restored_fields": 2,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "system_function_accuracy",
+    "proper_nouns_and_glossary",
+    "natural_korean",
+    "particles_spacing_and_typography",
+    "control_tokens",
+    "numbers_and_identifiers",
+    "line_breaks",
+    "source_structure_prefixes",
+    "dummy_and_developer_strings",
+    "source_metadata_integrity"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-57AD929C91B4E0864738",
+      "source_text": "火耐性＋８、土耐性＋８",
+      "before": "불 내성＋８, 땅 내성＋８",
+      "after": "불 내성+8, 땅 내성+8",
+      "category": "system_typography",
+      "reason": "한국어 시스템 표기의 반각 ASCII 규칙에 맞춰 내성 수치의 더하기 기호와 숫자를 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-57D4BDC4C10707A837CF",
+      "source_text": "帝都<$13>14<$1F>000132<$1F>01<$13>00の\n上層地区に居を構える\n著名な元傭兵の名を冠する\n私塾で、傭兵の育成機関\nとして知られている。\n街で暮らす人が、武芸に\n触れることのできる身近な\n場としても愛されている",
+      "before": "제도 <$13>14<$1F>000132<$1F>01<$13>00의\n상층 구역에 자리 잡은\n유명한 전직 용병의 이름을 딴\n사설 학원으로, 용병 양성 기관\n으로 알려져 있다.\n도시 주민들이 무예를\n접할 수 있는 친근한\n장소로도 사랑받고 있다",
+      "after": "제도 <$13>14<$1F>000132<$1F>01<$13>00의\n상층 구역에 자리 잡은\n유명한 전직 용병의 이름을 딴\n사설 학원으로, 용병을\n양성하는 기관으로 알려져 있다.\n도시 주민들이 무예를\n접할 수 있는 친근한\n장소로도 사랑받고 있다",
+      "category": "help_text_line_breaks",
+      "reason": "조사 ‘으로’가 다음 줄에 홀로 남은 줄바꿈을 고치고, 원문의 8줄 구조 안에서 용병 양성 기관이라는 뜻을 자연스럽게 재배치했다."
+    },
+    {
+      "tm_id": "ARF-TM-584DE916C9C45DA0E9BD",
+      "source_text": "エンジュがらみ？\n酒でも集める？",
+      "before": "엔주 관련?\n술이라도 모으게 할까?",
+      "after": "엔주 관련?\n술이라도 모을까?",
+      "category": "developer_string_accuracy",
+      "reason": "원문 「集める？」에는 사역 의미가 없으므로 ‘모으게 할까?’를 화자가 직접 모을지를 묻는 ‘모을까?’로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-5C6095E016F86C7067ED",
+      "source_text": "軽い皮と厚い皮の合皮が使用された胴衣。\n防御力と抵抗力を高める",
+      "before": "가벼운 가죽과 두꺼운 가죽을 겹친 상의.\n방어력과 저항력을 높인다",
+      "after": "가벼운 가죽과 두꺼운 가죽을 합쳐 만든 상의.\n방어력과 저항력을 높인다",
+      "category": "item_flavor_meaning",
+      "reason": "「合皮が使用された」가 두 종류의 가죽을 합쳐 만든 소재를 썼다는 뜻임을 자연스럽게 드러냈다."
+    },
+    {
+      "tm_id": "ARF-TM-5CD4AEDFC965D6F05206",
+      "source_text": "コードを刻みつけること\nにより、その保存を可能\nとし、持ち運びや複製を\n実現させた技術。\nコード･ディスクには\n暗号化を施すことも可能\nであり、内部のコードを\n取りだすためには鍵となる\n言葉が必要である",
+      "before": "코드를 새김으로써\n저장할 수 있게 하고,\n휴대와 복제를\n실현한 기술.\n코드 디스크에는\n암호화를 적용할 수도\n있으며, 내부의 코드를\n꺼내려면 열쇠가 되는\n말이 필요하다",
+      "after": "코드를 새겨 넣어\n저장할 수 있게 하고,\n휴대와 복제를\n가능하게 한 기술.\n코드 디스크에는\n암호화할 수도\n있으며, 내부의 코드를\n꺼내려면 열쇠가 되는\n말이 필요하다",
+      "category": "lore_naturalness",
+      "reason": "코드를 새겨 저장·휴대·복제하고 암호화한다는 기술 설명을 자연스러운 한국어로 정리하면서 9줄 구조를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-5D8DC26C3F356777DCAC",
+      "source_text": "他のディアマント少女が身につけるものとは\n一線を画した意匠からは、異国の才が漂う",
+      "before": "다른 디아만트 소녀들의 옷과는\n확연히 다른 디자인에서 이국의 솜씨가 느껴진다",
+      "after": "다른 디아만트 소녀들이 입는 옷과는\n확연히 다른 디자인에서 이국적인 감각이 묻어난다",
+      "category": "item_flavor_naturalness",
+      "reason": "소녀들과 옷을 직접 비교하던 명사 관계를 바로잡고 「異国の才が漂う」를 자연스러운 ‘이국적인 감각이 묻어난다’로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-5DCB7060509537201800",
+      "source_text": "<$7F><$02>全力で溜める",
+      "before": "<$7F><$02>온 힘을 다해 모으기",
+      "after": "<$7F><$02>전력으로 힘 모으기",
+      "category": "system_term_consistency",
+      "reason": "「溜める」의 승인 용어 ‘힘 모으기’를 적용하고 「全力で」의 강도를 ‘전력으로’로 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-5DF7968EB5FB0F71FE0F",
+      "source_text": "悪党の名を与えられた黒の半長靴。\n素早さ等の他、逃走の可能性を高める",
+      "before": "악당의 이름을 받은 검은 반장화.\n민첩성 외에도 도주 가능성을 높인다",
+      "after": "악당의 이름을 받은 검은 반장화.\n민첩성 외에도 도주 성공률을 높인다",
+      "category": "system_function_accuracy",
+      "reason": "「逃走の可能性」가 도주 행동의 성공 가능성을 높이는 효과임을 ‘도주 성공률’로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-6059E2987392713C35BD",
+      "source_text": "<$13>02肉球グローブ<$13>00を１０個納品",
+      "before": "<$13>02발바닥 젤리 장갑<$13>00 10개 납품",
+      "after": "<$13>02발바닥 젤리 글러브<$13>00 10개 납품",
+      "category": "item_name_consistency",
+      "reason": "동일 퀘스트에서 승인된 아이템명 ‘발바닥 젤리 글러브’와 일치시켰다."
+    },
+    {
+      "tm_id": "ARF-TM-60970429DB016042548D",
+      "source_text": "<$13>14<$1F>00009E<$1F>01<$13>00レベル４の<$13>14<$1F>000061<$1F>01<$13>00。\n敵単体に<$13>14<$1F>00009E<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nヴォルカニックビートでは\n追加効果として対象を\n<$13>14<$1F>000034<$1F>01<$13>00状態にする\nことがある",
+      "before": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n볼캐닉 비트에서는\n추가 효과로 대상을\n<$13>14<$1F>000034<$1F>01<$13>00 상태로 만들\n수도 있다",
+      "after": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n볼캐닉 비트에서는\n추가 효과로 대상을\n<$13>14<$1F>000034<$1F>01<$13>00 상태로\n만들 때가 있다",
+      "category": "help_text_probability",
+      "reason": "「ことがある」의 확률성은 유지하되 ‘만들 수도 있다’보다 자연스러운 ‘만들 때가 있다’로 정리하고 8줄 구조를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-612561CDCB6A904153E7",
+      "source_text": "見た目の割りには軽いきぐるみ\n眠たい眼の白フクロウは羽ばたけない",
+      "before": "생김새와 달리 가벼운 인형탈\n졸린 눈의 흰올빼미는 날갯짓하지 못한다",
+      "after": "생김새와 달리 가벼운 인형탈\n졸린 눈을 한 흰올빼미는 날갯짓하지 못한다",
+      "category": "item_flavor_grammar",
+      "reason": "‘졸린 눈의 흰올빼미’라는 일본어식 관형 구성을 자연스러운 ‘졸린 눈을 한 흰올빼미’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-6141261816C130D1B1DC",
+      "source_text": "<$13>14<$1F>000107<$1F>01<$13>00に\n搭載されている兵器。\n膨大な熱量を持った\n荷粒子を光速で掃射する。\n元々は、地上に蔓延る\n<$13>14<$1F>0000EA<$1F>01<$13>00を屠るために建造され\nたものだったが、帰るべき\n大地さえも傷つけるために\n長らく封印されていた",
+      "before": "<$13>14<$1F>000107<$1F>01<$13>00에\n탑재된 병기.\n막대한 열량을 지닌\n하전 입자를 광속으로 쏜다.\n원래 지상에 창궐한\n<$13>14<$1F>0000EA<$1F>01<$13>00를 없애기 위해 건조됐으나\n돌아가야 할 대지마저\n훼손하기에\n오랫동안 봉인되어 있었다",
+      "after": "<$13>14<$1F>000107<$1F>01<$13>00에\n탑재된 병기.\n막대한 열량을 지닌\n하전 입자를 광속으로 쏜다.\n원래 지상에 창궐한\n<$13>14<$1F>0000EA<$1F>01<$13>00를 섬멸하려 건조됐으나\n돌아가야 할 대지마저\n상처 입히기 때문에\n오랫동안 봉인되어 있었다",
+      "category": "lore_meaning",
+      "reason": "「屠る」의 강도를 ‘섬멸하다’로 살리고, 귀환해야 할 대지까지 상처 입힌다는 봉인 사유를 자연스럽게 정리하면서 9줄 구조를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-6199C78549C66F5D78DB",
+      "source_text": "単体の代わりに対象となる\n実行ターンのみ有効",
+      "before": "단일 대상을 대신해 공격 대상이 된다\n실행한 턴에만 유효",
+      "after": "단일 대상 대신 공격 대상이 된다\n실행한 턴에만 유효",
+      "category": "system_target_accuracy",
+      "reason": "「単体の代わりに対象となる」를 불필요한 ‘대상을 대신해’를 덜어, 단일 대상 공격을 대신 받는 효과로 명료하게 표현했다."
+    }
+  ],
+  "metadata_restorations": [
+    {
+      "tm_id": "ARF-TM-5B19433C9D2136B7A93F",
+      "field": "notes",
+      "before": "「稀人」은 용어집 미등재 용어이므로 고유 용어 여부를 교차 검수할 필요가 있음.",
+      "after": "",
+      "reason": "원본 메타데이터 불변 계약에 따라 초벌의 용어 검토 메모를 제거하고 residual issue로 이관했다."
+    },
+    {
+      "tm_id": "ARF-TM-5F37310207C0E9DA664E",
+      "field": "notes",
+      "before": "선두가 누락된 스캔 문자열로 보이며, 원문 전체는 경계 감사에서 확인할 필요가 있음.",
+      "after": "",
+      "reason": "원본 메타데이터 불변 계약에 따라 초벌의 경계 추정 메모를 제거하고 residual issue로 이관했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_ids": [
+        "ARF-TM-56333F0B443B303AB581",
+        "ARF-TM-56DF1562A8FF41D4594B",
+        "ARF-TM-574656D3748AA7677431",
+        "ARF-TM-5760B836C7E6E452EC1C",
+        "ARF-TM-5792BB8FE5C7ACF5C06B",
+        "ARF-TM-5AF8261179B5C101DE8F",
+        "ARF-TM-5B6252723374751773EB",
+        "ARF-TM-5BABD3DB43D97BA4077A",
+        "ARF-TM-5BCA6159F372122E2563",
+        "ARF-TM-5BF40385F8A9C0528312",
+        "ARF-TM-5C38AB8B5A0EACC939A4",
+        "ARF-TM-5DBC96387C48232EC947",
+        "ARF-TM-5E7E02EAED21EBF5F4EF",
+        "ARF-TM-5EEF90D32E49E1423191",
+        "ARF-TM-614B4059C2CA76DF3481",
+        "ARF-TM-62011B49B5AC264706CF"
+      ],
+      "severity": "leading_structure_marker_unverified",
+      "issue": "따옴표, 물음표, 숫자, C, #, !, 역슬래시, j|, \\\\*$, \\\\独 같은 선두 표지는 구조 바이트 혼입 가능성이 있다. 사용자 지시에 따라 원문과 번역의 표지를 삭제하지 않고 그대로 보존했으며, 별도 경계 감사 전 표시 문자열 여부를 확정하지 않는다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-5F37310207C0E9DA664E"
+      ],
+      "severity": "source_prefix_missing",
+      "issue": "원문 「りの頃」는 선두 의미부가 누락된 스캔 문자열로 보인다. 초벌의 \"그 무렵\"을 잠정 유지했으며 원시 구조 확인 전 자동 삽입 대상으로 확정하지 않는다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-5B19433C9D2136B7A93F"
+      ],
+      "severity": "glossary_term_unresolved",
+      "issue": "「稀人」은 배치와 용어집에서 유일한 미등재 설정 용어다. 초벌의 \"희인\"을 잠정 유지했으며 추가 설정 문맥 확보 전 확정 고유 용어로 승격하지 않는다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-58EF65A832B53F3581DC",
+        "ARF-TM-5921115713E25A2B8BEB",
+        "ARF-TM-597B0967F0E5ACDEF221",
+        "ARF-TM-5D51F5A87F3CFCC96189",
+        "ARF-TM-5EFF99F2E9681121ACF5",
+        "ARF-TM-5F2A37089B685D5E920A",
+        "ARF-TM-61862D407A4D795A50DC"
+      ],
+      "severity": "visibility_unconfirmed",
+      "issue": "명시적 더미와 번호형 퀘스트 문자열은 의미와 번호를 보존해 번역했으나 플레이어 노출 여부가 확정되지 않았다. 런타임 노출 확인 전 일반 공개 텍스트와 분리한다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit 도구를 실행하지 않았다."
+  },
+  "construction_counts": {
+    "source_units": 200,
+    "draft_units": 200,
+    "reviewed_units": 200,
+    "modified_units": 13,
+    "unchanged_units": 187,
+    "metadata_restored_fields": 2
+  },
+  "hashes": {
+    "source_sha256": "90DE8DE14DFA1FAD8F0ACBE0F6762B21110AE7C47D9D2F85DF0BDECCEF036EEE",
+    "draft_sha256": "E850F31C136FA6C4A5F84AEE47A8093A5D8F26CBC7A17C556FCF5EC1703E0601",
+    "reviewed_sha256": "E698FF26F18606DB98AB5C4A467C2089D490C1454F900E1E3098021CF36BDADE"
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 29,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span."
+  },
+  "fixed_field_fit_application": {
+    "status": "applied",
+    "source": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+    "source_sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5",
+    "corrected_units_in_batch": 2,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

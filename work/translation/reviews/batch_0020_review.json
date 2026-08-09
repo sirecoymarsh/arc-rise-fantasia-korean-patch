@@ -1,0 +1,171 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0020",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0020.jsonl",
+  "draft": "work/translation/drafts/batch_0020.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0020.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 55,
+  "unchanged_units": 145,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-E318A1F822CDD92BC686",
+      "source_text": "物理攻撃時、不死系へ与える\nダメージが大きく上昇する",
+      "before": "물리 공격 시 불사형에게 주는\n피해가 크게 증가한다",
+      "after": "물리 공격 시 불사 계열에게 주는\n피해가 크게 상승한다",
+      "category": "enemy_family_terminology",
+      "reason": "不死系를 기존 승인 전투 설명과 동일한 〈불사 계열〉로 통일하고 효과 문구도 같은 계열의 표기와 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E44477CD9F0C819C9EF5",
+      "source_text": "どの国のお姫様とは断言できないが\nどこからどう見ても……な不思議なドレス",
+      "before": "어느 나라 공주의 옷인지는 알 수 없지만\n누가 봐도 공주님을 연상시키는 신비로운 드레스",
+      "after": "어느 나라 공주의 것인지는 단언할 수 없지만\n어디서 어떻게 봐도……인 신비한 드레스",
+      "category": "item_flavor_meaning",
+      "reason": "원문이 의도적으로 생략한 〈……な〉의 여운을 복원하고 원문에 없는 공주 연상 설명을 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-E5E53B557AE06E714430",
+      "source_text": "対象者となる人物の意識に\n他者の意識を潜りこませ\nいわゆる精神世界の\n探査を可能とする方法。\n悪意あるコード操作など\n外的な要因によって\n傷つけられた人の精神や\nその他、研究目的で\n使用されていたと思われる",
+      "before": "대상이 되는 인물의 의식에\n타인의 의식을 잠입시켜\n이른바 정신세계의\n탐사를 가능하게 하는 방법.\n악의적인 코드 조작 등\n외부 요인으로\n상처 입은 사람의 정신이나\n그 밖의 연구 목적으로\n사용되었던 것으로 보인다",
+      "after": "대상 인물의 의식에\n타인의 의식을 잠입시켜\n이른바 정신세계를\n탐사할 수 있게 하는 방법.\n악의적인 코드 조작 등\n외부 요인으로 상처 입은\n사람의 정신을 살피거나\n그 밖의 연구 목적으로\n사용되었던 것으로 보인다",
+      "category": "help_text_meaning_naturalness",
+      "reason": "상처 입은 사람의 정신을 탐사하는 용도와 그 밖의 연구 용도를 병렬로 명확히 하고 부자연스러운 조사를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E60D8CE802724BB0A21F",
+      "source_text": "ぷにぷにぷにぷに……。非常にやわらかい",
+      "before": "말랑말랑 말랑말랑……. 매우 부드럽다",
+      "after": "말랑말랑 말랑말랑…… 매우 부드럽다",
+      "category": "punctuation_consistency",
+      "reason": "프로젝트 말줄임표 표기인 〈……〉를 유지하고 뒤에 덧붙은 ASCII 마침표를 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-E6453764C1A84919D45C",
+      "source_text": "範囲に神速効果\n自分の周囲に発動・消費ＡＰ減少",
+      "before": "범위에 신속 효과\n자신 주위에 발동/소모 AP 감소",
+      "after": "범위 내 대상에게 신속 효과\n자신 주변에 발동/소모 AP 감소",
+      "category": "battle_function_terminology",
+      "reason": "범위 효과의 적용 대상을 기존 전투 설명 템플릿에 맞춰 명시하고 주변 발동 문구를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-E772961A806F0671EB23",
+      "source_text": "中確率で、物理攻撃行動の\n１行動全てがクリティカルになる",
+      "before": "중간 확률로 물리 공격 행동\n1회 전체가 치명타가 된다",
+      "after": "중간 확률로 한 번의 물리 공격 행동이\n모두 치명타가 된다",
+      "category": "battle_function_grammar",
+      "reason": "한 번의 물리 공격 행동 전체가 치명타가 된다는 기능을 자연스럽고 기존 확률 단계 문구와 일관되게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-E7FA85B2E7135D70D863",
+      "source_text": "死霊を呼び寄せる骸の法衣。\n生を否定し、死を振り撒く",
+      "before": "사령을 불러들이는 해골의 법의.\n삶을 부정하고 죽음을 퍼뜨린다",
+      "after": "사령을 불러들이는 망자의 법의.\n삶을 부정하고 죽음을 퍼뜨린다",
+      "category": "lore_terminology",
+      "reason": "骸를 단순한 해골이 아니라 프로젝트에서 승인된 망자 계열의 세계관 표현으로 교정했다."
+    },
+    {
+      "tm_id": "ARF-TM-E81948652C6EE42E911C",
+      "source_text": "『<$13>14<$1F>000076<$1F>01<$13>00』と『<$13>14<$1F>00006A<$1F>01<$13>00』を\n連続で実行すると発生する\n<$13>14<$1F>000059<$1F>01<$13>00。\n<$13>14<$1F>00006A<$1F>01<$13>00による<$13>14<$1F>00002F<$1F>01<$13>00効果\nに加え、対象の<$13>14<$1F>000021<$1F>01<$13>00も\n合わせて<$13>14<$1F>000076<$1F>01<$13>00する。\n但し悪い効果をも<$13>14<$1F>000076<$1F>01<$13>00\nするため、組み合わせるか\n否かの判断が重要となる",
+      "before": "『<$13>14<$1F>000076<$1F>01<$13>00』와 『<$13>14<$1F>00006A<$1F>01<$13>00』를\n연속으로 실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>00006A<$1F>01<$13>00로 인한 <$13>14<$1F>00002F<$1F>01<$13>00 효과에\n더해 대상의 <$13>14<$1F>000021<$1F>01<$13>00도\n함께 <$13>14<$1F>000076<$1F>01<$13>00한다.\n다만 나쁜 효과까지 <$13>14<$1F>000076<$1F>01<$13>00\n하므로 조합할지\n판단하는 것이 중요하다",
+      "after": "『<$13>14<$1F>000076<$1F>01<$13>00』와 『<$13>14<$1F>00006A<$1F>01<$13>00』를\n연속으로 실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>00006A<$1F>01<$13>00로 인한 <$13>14<$1F>00002F<$1F>01<$13>00 효과에\n더해 대상의 <$13>14<$1F>000021<$1F>01<$13>00도\n함께 <$13>14<$1F>000076<$1F>01<$13>00한다.\n다만 나쁜 효과까지 <$13>14<$1F>000076<$1F>01<$13>00\n하므로 조합 여부를\n판단하는 것이 중요하다",
+      "category": "help_text_meaning_naturalness",
+      "reason": "組み合わせるか否か를 〈조합 여부〉로 명확히 옮겨 좋은 효과와 나쁜 효과를 함께 고려해야 한다는 판단 조건을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-E8B4C8EE351A4A5B744D",
+      "source_text": "異性のスーツ",
+      "before": "이성의 슈트",
+      "after": "이성용 슈트",
+      "category": "item_name_clarity",
+      "reason": "소년용 정장을 소녀가 입는 인접 설명에 맞춰 異性の를 소유격 직역이 아닌 용도 표현 〈이성용〉으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-EA05ACA9DC600E819676",
+      "source_text": "『支配』の<$13>14<$1F>0000F0<$1F>01<$13>00を\nその身に宿す<$13>14<$1F>0000EF<$1F>01<$13>00。\n<$13>14<$1F>000146<$1F>01<$13>00に仕え\n長きの間、<$13>14<$1F>000141<$1F>01<$13>00を\n守護し続けてきた。\n突然、周囲が闇に包まれた\nなら空を見上げるといい。\nそこには翼を広げた漆黒の\n『支配』の姿があるはずだ",
+      "before": "『지배』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n<$13>14<$1F>000146<$1F>01<$13>00를 섬기며\n오랜 세월 <$13>14<$1F>000141<$1F>01<$13>00를\n계속 수호해 왔다.\n갑자기 주위가 어둠에 휩싸이면\n하늘을 올려다보면 좋다.\n그곳에는 날개를 펼친 칠흑의\n『지배』가 있을 것이다",
+      "after": "『지배』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n<$13>14<$1F>000146<$1F>01<$13>00를 섬기며\n오랜 세월 <$13>14<$1F>000141<$1F>01<$13>00를\n계속 수호해 왔다.\n갑자기 주위가 어둠에 휩싸이면\n하늘을 올려다보는 것이 좋다.\n그곳에는 날개를 펼친 칠흑의\n『지배』가 보일 것이다",
+      "category": "lore_text_naturalness",
+      "reason": "〈올려다보면 좋다〉의 중복 조건문을 다듬고 『지배』의 모습이 보인다는 원문의 시각적 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-EBF64228D0F24B503CDB",
+      "source_text": "球状端末",
+      "before": "구형 단말",
+      "after": "구체형 단말",
+      "category": "item_name_meaning",
+      "reason": "球状이 구체 모양을 뜻함을 분명히 해 구형 장비라는 의미로 오해될 수 있는 번역을 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_task_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 37,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span."
+  },
+  "hashes": {
+    "reviewed_sha256": "E075082C7A57A8DA8BEA974940026447F4C2E2EACB8C09393ED384801034E681"
+  },
+  "fixed_field_fit_application": {
+    "status": "applied",
+    "source": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+    "source_sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5",
+    "corrected_units_in_batch": 8,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  },
+  "final_qa_correction_provenance": {
+    "status": "applied",
+    "reviewer": "/root/audit_boundary_integration",
+    "scope": "exhaustive classification of final heuristic warnings",
+    "source_inventory": "work/scratch/heuristic_warning_inventory.json",
+    "source_inventory_sha256": "EDD8ECA5898D33060FCA102052D12B26A67C0DBC2E0BAC68FC68466DDA8DA343",
+    "corrected_units_in_batch": 1,
+    "corrections": [
+      {
+        "tm_id": "ARF-TM-E534E71AD7499543F0CE",
+        "warning_code": "line_break_count_changed",
+        "classification": "actual_layout_problem",
+        "before": "<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 불과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n슈팅 레이에서는\n추가 효과로 대상을\n<$13>14<$1F>00001E<$1F>01<$13>00 상태로\n만들기도 한다",
+        "after": "<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 불과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n슈팅 레이에서는\n추가 효과로 대상을\n<$13>14<$1F>00001E<$1F>01<$13>00 상태로 만들기도 한다",
+        "reason": "The Korean target introduced a ninth help-text row where the source uses eight. Combining the final predicate restores the original row count without changing meaning or controls.",
+        "source_line_breaks": 7,
+        "before_line_breaks": 8,
+        "after_line_breaks": 7,
+        "control_tokens_verified": true
+      }
+    ],
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

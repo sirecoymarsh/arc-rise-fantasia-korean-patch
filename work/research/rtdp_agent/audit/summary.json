@@ -1,0 +1,715 @@
+{
+  "generatedAt": "2026-08-03T02:39:58.381Z",
+  "root": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files",
+  "evidenceParser": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\tools\\DolphinTextureExtraction-tool\\lib\\AuroraLip\\Archives\\Formats\\RTDP.cs",
+  "physicalVolCount": 758,
+  "parsedArchiveCountIncludingNested": 1064,
+  "nestedArchiveCount": 306,
+  "entryCountIncludingNested": 34006,
+  "nonEmptyEntryCount": 8425,
+  "zeroSizeEntryCount": 25581,
+  "parseErrorCount": 0,
+  "sizeMismatchCount": 0,
+  "eohUnalignedCount": 0,
+  "offsetsNotNondecreasingCount": 0,
+  "archivesWithOverlaps": 0,
+  "textCandidateCount": 430,
+  "highConfidenceTextCandidateCount": 357,
+  "eucJpCandidateCount": 428,
+  "shiftJisCandidateCount": 2,
+  "scriptPayloadCount": 380,
+  "scriptPayloadsWithDetectedJapanese": 377,
+  "vettedLocalizationPayloadCount": 406,
+  "vettedNonScriptLocalizationPayloadCount": 26,
+  "nonAsciiEntryNameCount": 0,
+  "unterminatedEntryNameCount": 2732,
+  "archivesWithDuplicateNames": 443,
+  "archivesWithNonzeroPadding": 0,
+  "standardAlign20PackedArchiveCount": 1063,
+  "xorEvidence": {
+    "key": "0x55",
+    "knownDecodedMagicCount": 8109,
+    "knownStoredMagicCount": 0,
+    "note": "All payload prefixes/hashes are reported both as stored and after bytewise XOR 0x55. Nested .vol payloads become RTDP only after XOR."
+  },
+  "entryExtensions": [
+    {
+      "key": "(none)",
+      "count": 25827
+    },
+    {
+      "key": ".brcha",
+      "count": 2156
+    },
+    {
+      "key": ".brch",
+      "count": 1544
+    },
+    {
+      "key": ".brres",
+      "count": 1155
+    },
+    {
+      "key": ".wtm",
+      "count": 646
+    },
+    {
+      "key": ".brtex",
+      "count": 518
+    },
+    {
+      "key": ".bscr",
+      "count": 380
+    },
+    {
+      "key": ".br",
+      "count": 320
+    },
+    {
+      "key": ".brsc",
+      "count": 299
+    },
+    {
+      "key": ".vol",
+      "count": 237
+    },
+    {
+      "key": ".cxd",
+      "count": 179
+    },
+    {
+      "key": ".brsca",
+      "count": 173
+    },
+    {
+      "key": ".bin",
+      "count": 135
+    },
+    {
+      "key": ".b",
+      "count": 121
+    },
+    {
+      "key": ".dat",
+      "count": 90
+    },
+    {
+      "key": ".efp",
+      "count": 69
+    },
+    {
+      "key": ".",
+      "count": 35
+    },
+    {
+      "key": ".brc",
+      "count": 35
+    },
+    {
+      "key": ".brre",
+      "count": 19
+    },
+    {
+      "key": ".brts",
+      "count": 12
+    },
+    {
+      "key": ".brr",
+      "count": 9
+    },
+    {
+      "key": ".wt",
+      "count": 9
+    },
+    {
+      "key": ".sed",
+      "count": 7
+    },
+    {
+      "key": ".swd",
+      "count": 7
+    },
+    {
+      "key": ".vlh",
+      "count": 7
+    },
+    {
+      "key": ".fxd",
+      "count": 5
+    },
+    {
+      "key": ".w",
+      "count": 5
+    },
+    {
+      "key": ".brs",
+      "count": 3
+    },
+    {
+      "key": ".brtsa",
+      "count": 2
+    },
+    {
+      "key": ".tpl",
+      "count": 2
+    }
+  ],
+  "decodedMagics": [
+    {
+      "key": "empty",
+      "count": 25581
+    },
+    {
+      "key": "BRRES",
+      "count": 6638
+    },
+    {
+      "key": "WTMD",
+      "count": 669
+    },
+    {
+      "key": "BSCR",
+      "count": 380
+    },
+    {
+      "key": "RTDP",
+      "count": 306
+    },
+    {
+      "key": "HEX:10202403",
+      "count": 178
+    },
+    {
+      "key": "BTEF",
+      "count": 69
+    },
+    {
+      "key": "HEX:00000001",
+      "count": 55
+    },
+    {
+      "key": "BTEM",
+      "count": 14
+    },
+    {
+      "key": "HEX:00000004",
+      "count": 7
+    },
+    {
+      "key": "HEX:00000006",
+      "count": 7
+    },
+    {
+      "key": "RVLX",
+      "count": 7
+    },
+    {
+      "key": "SEDB",
+      "count": 7
+    },
+    {
+      "key": "SWDB",
+      "count": 7
+    },
+    {
+      "key": "SFXB",
+      "count": 5
+    },
+    {
+      "key": "HEX:00000000",
+      "count": 4
+    },
+    {
+      "key": "HEX:00000002",
+      "count": 4
+    },
+    {
+      "key": "HEX:00000003",
+      "count": 4
+    },
+    {
+      "key": "HEX:00000007",
+      "count": 4
+    },
+    {
+      "key": "HEX:00030001",
+      "count": 4
+    },
+    {
+      "key": "HEX:a5c0a5df",
+      "count": 4
+    },
+    {
+      "key": "HEX:00000005",
+      "count": 3
+    },
+    {
+      "key": "HEX:00030003",
+      "count": 3
+    },
+    {
+      "key": "HEX:00010001",
+      "count": 2
+    },
+    {
+      "key": "HEX:00030002",
+      "count": 2
+    },
+    {
+      "key": "HEX:00040003",
+      "count": 2
+    },
+    {
+      "key": "HEX:00090002",
+      "count": 2
+    },
+    {
+      "key": "SSCR",
+      "count": 2
+    },
+    {
+      "key": "TPL",
+      "count": 2
+    },
+    {
+      "key": "HEX:00000009",
+      "count": 1
+    },
+    {
+      "key": "HEX:0000000b",
+      "count": 1
+    },
+    {
+      "key": "HEX:0000000f",
+      "count": 1
+    },
+    {
+      "key": "HEX:0000001e",
+      "count": 1
+    },
+    {
+      "key": "HEX:00000073",
+      "count": 1
+    },
+    {
+      "key": "HEX:00020000",
+      "count": 1
+    },
+    {
+      "key": "HEX:00040000",
+      "count": 1
+    },
+    {
+      "key": "HEX:00040002",
+      "count": 1
+    },
+    {
+      "key": "HEX:00050003",
+      "count": 1
+    },
+    {
+      "key": "HEX:00080001",
+      "count": 1
+    },
+    {
+      "key": "HEX:00090003",
+      "count": 1
+    },
+    {
+      "key": "HEX:00090008",
+      "count": 1
+    },
+    {
+      "key": "HEX:000a0004",
+      "count": 1
+    },
+    {
+      "key": "HEX:000a0008",
+      "count": 1
+    },
+    {
+      "key": "HEX:000c0005",
+      "count": 1
+    },
+    {
+      "key": "HEX:000d0007",
+      "count": 1
+    },
+    {
+      "key": "HEX:00130006",
+      "count": 1
+    },
+    {
+      "key": "HEX:00140100",
+      "count": 1
+    },
+    {
+      "key": "HEX:0015000e",
+      "count": 1
+    },
+    {
+      "key": "HEX:00190004",
+      "count": 1
+    },
+    {
+      "key": "HEX:00190008",
+      "count": 1
+    },
+    {
+      "key": "HEX:00200003",
+      "count": 1
+    },
+    {
+      "key": "HEX:00210006",
+      "count": 1
+    },
+    {
+      "key": "HEX:002a0005",
+      "count": 1
+    },
+    {
+      "key": "HEX:0039000f",
+      "count": 1
+    },
+    {
+      "key": "HEX:010000ea",
+      "count": 1
+    },
+    {
+      "key": "HEX:07040210",
+      "count": 1
+    },
+    {
+      "key": "HEX:10208001",
+      "count": 1
+    },
+    {
+      "key": "HEX:a2a720bb",
+      "count": 1
+    },
+    {
+      "key": "HEX:a4aaa4de",
+      "count": 1
+    },
+    {
+      "key": "HEX:b2bfa4e2",
+      "count": 1
+    },
+    {
+      "key": "SCMP",
+      "count": 1
+    },
+    {
+      "key": "TREA",
+      "count": 1
+    },
+    {
+      "key": "WIBN",
+      "count": 1
+    }
+  ],
+  "storedMagics": [
+    {
+      "key": "empty",
+      "count": 25581
+    },
+    {
+      "key": "ASCII:7'0&",
+      "count": 6638
+    },
+    {
+      "key": "HEX:02011811",
+      "count": 669
+    },
+    {
+      "key": "ASCII:7&6'",
+      "count": 380
+    },
+    {
+      "key": "HEX:07011105",
+      "count": 306
+    },
+    {
+      "key": "ASCII:EuqV",
+      "count": 178
+    },
+    {
+      "key": "HEX:17011013",
+      "count": 69
+    },
+    {
+      "key": "ASCII:UUUT",
+      "count": 55
+    },
+    {
+      "key": "HEX:17011018",
+      "count": 14
+    },
+    {
+      "key": "ASCII:&\"17",
+      "count": 7
+    },
+    {
+      "key": "ASCII:&017",
+      "count": 7
+    },
+    {
+      "key": "ASCII:UUUQ",
+      "count": 7
+    },
+    {
+      "key": "ASCII:UUUS",
+      "count": 7
+    },
+    {
+      "key": "HEX:0703190d",
+      "count": 7
+    },
+    {
+      "key": "ASCII:&3-7",
+      "count": 5
+    },
+    {
+      "key": "ASCII:UUUR",
+      "count": 4
+    },
+    {
+      "key": "ASCII:UUUU",
+      "count": 4
+    },
+    {
+      "key": "ASCII:UUUV",
+      "count": 4
+    },
+    {
+      "key": "ASCII:UUUW",
+      "count": 4
+    },
+    {
+      "key": "ASCII:UVUT",
+      "count": 4
+    },
+    {
+      "key": "HEX:f095f08a",
+      "count": 4
+    },
+    {
+      "key": "ASCII:UUUP",
+      "count": 3
+    },
+    {
+      "key": "ASCII:UVUV",
+      "count": 3
+    },
+    {
+      "key": "ASCII:U\\UW",
+      "count": 2
+    },
+    {
+      "key": "ASCII:UQUV",
+      "count": 2
+    },
+    {
+      "key": "ASCII:UTUT",
+      "count": 2
+    },
+    {
+      "key": "ASCII:UVUW",
+      "count": 2
+    },
+    {
+      "key": "HEX:06061607",
+      "count": 2
+    },
+    {
+      "key": "HEX:5575fa65",
+      "count": 2
+    },
+    {
+      "key": "ASCII:!'04",
+      "count": 1
+    },
+    {
+      "key": "ASCII:RQWE",
+      "count": 1
+    },
+    {
+      "key": "ASCII:U_U]",
+      "count": 1
+    },
+    {
+      "key": "ASCII:U_UQ",
+      "count": 1
+    },
+    {
+      "key": "ASCII:U]UT",
+      "count": 1
+    },
+    {
+      "key": "ASCII:U@U[",
+      "count": 1
+    },
+    {
+      "key": "ASCII:U\\U]",
+      "count": 1
+    },
+    {
+      "key": "ASCII:U\\UV",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UATU",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UFUS",
+      "count": 1
+    },
+    {
+      "key": "ASCII:ULU]",
+      "count": 1
+    },
+    {
+      "key": "ASCII:ULUQ",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UlUZ",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UPUV",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UQUU",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UQUW",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UtUS",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UUU\\",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UUU&",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UUU^",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UUUK",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UuUV",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UUUZ",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UWUU",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UXUR",
+      "count": 1
+    },
+    {
+      "key": "ASCII:UYUP",
+      "count": 1
+    },
+    {
+      "key": "HEX:021c171b",
+      "count": 1
+    },
+    {
+      "key": "HEX:06161805",
+      "count": 1
+    },
+    {
+      "key": "HEX:4575d554",
+      "count": 1
+    },
+    {
+      "key": "HEX:545555bf",
+      "count": 1
+    },
+    {
+      "key": "HEX:557f5550",
+      "count": 1
+    },
+    {
+      "key": "HEX:e7eaf1b7",
+      "count": 1
+    },
+    {
+      "key": "HEX:f1fff18b",
+      "count": 1
+    },
+    {
+      "key": "HEX:f7f275ee",
+      "count": 1
+    }
+  ],
+  "headerUnknownValues": [
+    {
+      "key": "55280022000000000000000000000000",
+      "count": 892
+    },
+    {
+      "key": "55280021000000000000000000000000",
+      "count": 144
+    },
+    {
+      "key": "55280020000000000000000000000000",
+      "count": 13
+    },
+    {
+      "key": "55280017000000000000000000000000",
+      "count": 8
+    },
+    {
+      "key": "5528001b000000000000000000000000",
+      "count": 3
+    },
+    {
+      "key": "5528001e000000000000000000000000",
+      "count": 3
+    },
+    {
+      "key": "55280018000000000000000000000000",
+      "count": 1
+    }
+  ],
+  "eohMinusAlignedTableEnd": [
+    {
+      "key": "0",
+      "count": 1063
+    },
+    {
+      "key": "1536",
+      "count": 1
+    }
+  ],
+  "entryOffsetAlignment": [
+    {
+      "key": "zero-size",
+      "count": 25581
+    },
+    {
+      "key": "0x20",
+      "count": 8425
+    }
+  ]
+}

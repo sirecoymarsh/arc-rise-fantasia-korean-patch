@@ -1,0 +1,306 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0067",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0067.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0067.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0067.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 30,
+  "unchanged_row_count": 170,
+  "modifications": [
+    {
+      "row_index": 3,
+      "tm_id": "ARF-TM-B4734CC8B22C2C108EB5",
+      "source_text": "アデールはラグーン曹長――お前\nばかりを見ていると思っていた。\n私もアルス様もな",
+      "before": "아델은 라군 하사――너만\n보고 있다고 생각했다.\n나도 알스 님도 말이다",
+      "after": "아델은 라군 상사――네놈만\n바라본다고 생각했다.\n나도 알스 님도 말이다",
+      "category": "terminology",
+      "reason": "曹長의 확정 계급 표기인 '상사'를 적용했다."
+    },
+    {
+      "row_index": 9,
+      "tm_id": "ARF-TM-B4E7CEB727BAC65920D7",
+      "source_text": "取りあえずぶっ叩いてみるか。\nお前たちもありったけの光召術を\nぶつけてみてくれ",
+      "before": "일단 두들겨 패 볼까.\n너희도 가진 광소술을 전부\n퍼부어 줘",
+      "after": "일단 두들겨 봐야겠군.\n너희도 쓸 수 있는 광소술을 모조리\n퍼부어 봐",
+      "category": "semantic_accuracy",
+      "reason": "사용 가능한 광소술을 전부 쏟으라는 의미를 명확히 했다."
+    },
+    {
+      "row_index": 16,
+      "tm_id": "ARF-TM-B5A0598C8369A4930052",
+      "source_text": "リューズ……\nお前は何者なんだ。\nそれにあんたもだ、ソアラ",
+      "before": "류즈……\n넌 대체 누구지.\n그리고 당신도, 소아라도",
+      "after": "류즈……\n넌 대체 누구지.\n그리고 당신도 마찬가지야, 소아라",
+      "category": "naturalness",
+      "reason": "병렬 호명의 의미와 한국어 어순을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 20,
+      "tm_id": "ARF-TM-B5F8CF8B167F05FD3EA0",
+      "source_text": "イマジナルは人を救う。\n……その筈よ",
+      "before": "이매지널은 인간을 구원해.\n……그럴 거야",
+      "after": "이매지널은 인간을 구해.\n……그래야 할 텐데",
+      "category": "semantic_accuracy",
+      "reason": "화자의 불확실한 기대를 나타내는 원문의 뉘앙스를 복원했다."
+    },
+    {
+      "row_index": 25,
+      "tm_id": "ARF-TM-B684CEC23549F1DDE4F3",
+      "source_text": "それでエンジュさんのところに\n戻らないのか！",
+      "before": "그래서 엔주 씨가 있는 곳으로\n돌아가지 않는 건가!",
+      "after": "그래서 엔주 씨에게\n돌아가지 않는 건가!",
+      "category": "naturalness",
+      "reason": "반문형 대사를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 30,
+      "tm_id": "ARF-TM-B6D2F73A960D47EDC2BB",
+      "source_text": "リフィアってホント\nどっかピントがずれてるよね",
+      "before": "리피아는 정말\n어딘가 핀트가 어긋나 있네",
+      "after": "리피아는 정말\n어딘가 엇나가 있네",
+      "category": "semantic_accuracy",
+      "reason": "ピントがずれている의 비유적 의미를 반영했다."
+    },
+    {
+      "row_index": 35,
+      "tm_id": "ARF-TM-B81B43BB753D47CCE02A",
+      "source_text": "あなたたちと知り合いだった\nとしてもわからないわ",
+      "before": "당신들과 아는 사이였다\n해도 알 수 없어",
+      "after": "당신들과 아는 사이였다고\n해도 기억나지 않아",
+      "category": "semantic_accuracy",
+      "reason": "기억 상실을 전제로 한 원문의 조건 관계를 바로잡았다."
+    },
+    {
+      "row_index": 43,
+      "tm_id": "ARF-TM-B9348D67D1033774D686",
+      "source_text": "その為にログレスが必要なら捜す。\nでもそれは俺がイーサの子だとか\nそんなんじゃない",
+      "before": "그러기 위해 로그레스가 필요하면 찾겠어.\n하지만 그건 내가 이사의 아이라서라거나\n그런 게 아니야",
+      "after": "그러기 위해 로그레스가 필요하다면 찾겠어.\n하지만 그건 내가 이사의 아이라서\n그러는 게 아니야",
+      "category": "naturalness",
+      "reason": "문장 연결과 강조 대상을 자연스럽게 정리했다."
+    },
+    {
+      "row_index": 46,
+      "tm_id": "ARF-TM-B98EF4E9DCB9250D8668",
+      "source_text": "ば、馬鹿！\n下手に騒ぎを起こしたら\nアブシムのことが聞けなくなるぞ！",
+      "before": "바, 바보야!\n괜히 소란을 일으키면\n아브심에 대해 물어볼 수 없잖아!",
+      "after": "바, 바보야!\n괜히 소란을 일으키면\n아부심에 관해 물어볼 수 없잖아!",
+      "category": "terminology",
+      "reason": "アブシム의 확정 표기 '아부심'을 적용했다."
+    },
+    {
+      "row_index": 52,
+      "tm_id": "ARF-TM-BA8F5753A43DE1496F79",
+      "source_text": "場所は言えません。\nニコルは今レジスタンスとして\n活動しています。元気でしたよ",
+      "before": "장소는 말할 수 없습니다.\n니콜은 지금 레지스탕스로\n활동하고 있습니다. 건강했어요",
+      "after": "장소는 말할 수 없습니다.\n니콜은 지금 저항군으로\n활동 중입니다. 건강했어요",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기 '저항군'을 적용했다."
+    },
+    {
+      "row_index": 58,
+      "tm_id": "ARF-TM-BB0257792AB8EB05A8DE",
+      "source_text": "もはや濁竜化は止められん。\nその前に……",
+      "before": "이제 탁룡화는 막을 수 없어.\n그 전에……",
+      "after": "이제 탁룡화는 막을 수 없다.\n그 전에……",
+      "category": "semantic_accuracy",
+      "reason": "임박한 상태를 나타내는 시제를 바로잡았다."
+    },
+    {
+      "row_index": 63,
+      "tm_id": "ARF-TM-BBA234BDCD6FE5165C46",
+      "source_text": "下々の人間の苦しみなんて\nわからないんだろうよ",
+      "before": "평범한 사람들의 고통 따윈\n모르겠지",
+      "after": "서민들의 고통 따윈\n모르겠지",
+      "category": "semantic_accuracy",
+      "reason": "下々の人間을 문맥에 맞게 '서민들'로 옮겼다."
+    },
+    {
+      "row_index": 77,
+      "tm_id": "ARF-TM-BD4A29544937A5989723",
+      "source_text": "あんたはこんなところで\n何してるんスか。確か皇子の\n見張りをしてるんじゃ……",
+      "before": "당신은 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있었잖……",
+      "after": "당신은 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있던 거 아니었……",
+      "category": "naturalness",
+      "reason": "중단된 반문을 자연스럽게 복원했다."
+    },
+    {
+      "row_index": 78,
+      "tm_id": "ARF-TM-BD8AF20209EFF4A17F2A",
+      "source_text": "こっちはドジな男を１人\n亡くしたところで\n痛くも痒くもないんだぜ",
+      "before": "이쪽은 어리바리한 남자 １명\n죽는다고 해도\n눈 하나 깜짝 안 해",
+      "after": "이쪽은 어리바리한 남자 １명을\n잃어도\n눈 하나 깜짝 안 해",
+      "category": "semantic_accuracy",
+      "reason": "이미 사람을 잃는 상황을 가정하는 원문의 의미를 반영했다."
+    },
+    {
+      "row_index": 89,
+      "tm_id": "ARF-TM-BF0FD60AC55CFC6B533C",
+      "source_text": "辞令は俺から直接手渡す。\n後で執務室まで来い",
+      "before": "사령장은 내가 직접 전해 주겠다.\n나중에 집무실로 와라",
+      "after": "인사 발령장은 내가 직접 전해 주겠다.\n나중에 집무실로 와라",
+      "category": "terminology",
+      "reason": "辞令를 군 인사 문맥의 '인사 발령장'으로 바로잡았다."
+    },
+    {
+      "row_index": 92,
+      "tm_id": "ARF-TM-BF541A40020EBEF3857E",
+      "source_text": "ニコル、１人で逃げたこと\n相当気にしてるのかな",
+      "before": "니콜, 혼자 도망친 걸\n상당히 신경 쓰는 걸까",
+      "after": "니콜, １명이서 도망친 걸\n상당히 신경 쓰는 걸까",
+      "category": "formatting",
+      "reason": "원문의 인원수 １을 보존했다."
+    },
+    {
+      "row_index": 106,
+      "tm_id": "ARF-TM-C09C860A582953F90B2F",
+      "source_text": "レジスタンスのリーダーを\n返してもらおうか",
+      "before": "레지스탕스의 리더를\n돌려받겠다",
+      "after": "저항군의 지도자를\n돌려받겠다",
+      "category": "terminology",
+      "reason": "조직명과 직책을 확정 용어로 통일했다."
+    },
+    {
+      "row_index": 116,
+      "tm_id": "ARF-TM-C2235EE5A8F7A63FEBDF",
+      "source_text": "許可証なしの外出は\n新帝国憲章第三条に対する違反だ！\n即刻捕らえて処刑する！",
+      "before": "허가증 없는 외출은\n신제국 헌장 제3조 위반이다!\n즉시 체포해 처형한다!",
+      "after": "허가증 없는 외출은\n신제국 헌장 제３조 위반이다!\n즉시 체포해 처형한다!",
+      "category": "formatting",
+      "reason": "조항 번호의 전각 숫자 표기를 보존했다."
+    },
+    {
+      "row_index": 128,
+      "tm_id": "ARF-TM-C3464C09137924727F64",
+      "source_text": "へ？　何なんっスか、それ",
+      "before": "네? 그게 뭔 검까",
+      "after": "네? 그게 뭡니까",
+      "category": "naturalness",
+      "reason": "부자연스러운 축약형을 화자의 정중한 질문으로 다듬었다."
+    },
+    {
+      "row_index": 132,
+      "tm_id": "ARF-TM-C3C46CDE5B75AA513840",
+      "source_text": "そんなの勝手に決められても\nレジスタンスの奴らだって……",
+      "before": "그런 걸 멋대로 정해도\n레지스탕스 녀석들도……",
+      "after": "그런 걸 멋대로 정해도\n저항군 녀석들도……",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기를 적용했다."
+    },
+    {
+      "row_index": 142,
+      "tm_id": "ARF-TM-C4816F782DAC9009EDD8",
+      "source_text": "だって昔はみんなに慕われて\n愛されて、とても優しい人\nだったのに……",
+      "before": "예전엔 모두가 따르고\n사랑했으며 아주 다정한 사람\n이었는데……",
+      "after": "예전엔 모두가 따르고\n사랑했을 만큼 아주 다정한\n사람이었는데……",
+      "category": "naturalness",
+      "reason": "줄바꿈으로 끊긴 서술을 자연스럽게 정리했다."
+    },
+    {
+      "row_index": 149,
+      "tm_id": "ARF-TM-C54772DD53537C0B7C6E",
+      "source_text": "な、なんスか、今の……",
+      "before": "뭐, 뭐였슴까, 방금……",
+      "after": "바, 방금 건 뭐였슴까……",
+      "category": "naturalness",
+      "reason": "화자의 말버릇을 유지하면서 어순을 자연스럽게 바꿨다."
+    },
+    {
+      "row_index": 158,
+      "tm_id": "ARF-TM-C655AD2C627C34FDF885",
+      "source_text": "え？　あ、ああ……何だ？",
+      "before": "뭐? 아, 그래…… 뭐야?",
+      "after": "어? 아, 아아…… 왜?",
+      "category": "semantic_accuracy",
+      "reason": "머뭇거리는 감탄과 반문을 원문대로 복원했다."
+    },
+    {
+      "row_index": 166,
+      "tm_id": "ARF-TM-C6F9B7137A6550F9D0DF",
+      "source_text": "ディーバでも何でもなく\nただの『リフィア』でも\nラルクやみんなの役に立てる？",
+      "before": "디바도 뭣도 아닌\n그저 『리피아』여도\n라르크와 모두에게 도움이 될 수 있어?",
+      "after": "디바도 뭣도 아닌\n그저 『리피아』여도\n라르크와 일행에게 도움이 될 수 있어?",
+      "category": "naturalness",
+      "reason": "みんな를 해당 일행 전체로 자연스럽게 표현했다."
+    },
+    {
+      "row_index": 168,
+      "tm_id": "ARF-TM-C77A45C3048AE8B1B0EC",
+      "source_text": "もしまた会うことがあったら\nフレイアが謝りたいと\n言っていたと伝えて欲しい",
+      "before": "다시 만나게 된다면\n프레이아가 사과하고 싶어\n했다고 전해 줘",
+      "after": "다시 만나게 된다면\n프레이아가 사과하고 싶다고\n전해 줘",
+      "category": "semantic_accuracy",
+      "reason": "현재의 전달 의뢰를 불필요한 과거 시제 없이 옮겼다."
+    },
+    {
+      "row_index": 179,
+      "tm_id": "ARF-TM-C9634C5436A2A006B3D9",
+      "source_text": "その誇り高き血が流れる\n自身を大切になさい",
+      "before": "그 긍지 높은 피가 흐르는\n자신을 소중히 하세요",
+      "after": "그 긍지 높은 피가 흐르는\n자신을 소중히 여기세요",
+      "category": "naturalness",
+      "reason": "한국어 목적어 구조를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 185,
+      "tm_id": "ARF-TM-CA3F461851B2FF1518AE",
+      "source_text": "そりゃあそうでしょうよ。\nお前が俺の拷問役だったんだし",
+      "before": "그야 당연하지.\n네가 날 고문하던 담당이었으니까",
+      "after": "그야 당연하지.\n네가 나를 고문했으니까",
+      "category": "semantic_accuracy",
+      "reason": "고문 행위의 주체와 대상을 명확히 했다."
+    },
+    {
+      "row_index": 189,
+      "tm_id": "ARF-TM-CAB5B9B707764183F454",
+      "source_text": "まあ、そうやって自分たちの行為を\n正当化するのは勝手だが、俺たちに\nつきまとわれるのは迷惑なんだよ",
+      "before": "뭐, 그렇게 자기들 행동을\n정당화하는 건 자유지만 우리를\n따라다니는 건 민폐라고",
+      "after": "뭐, 그렇게 자기들 행동을\n정당화하는 건 자유지만 우리를\n따라다니는 건 민폐야",
+      "category": "naturalness",
+      "reason": "구어 대사의 호흡과 목적어를 자연스럽게 정리했다."
+    },
+    {
+      "row_index": 194,
+      "tm_id": "ARF-TM-CB418C2AF63F732932A2",
+      "source_text": "ええ。少なくとも私は、イマジナル\nの定理が全て正しいといえる根拠を\n自分の中に持っていなかった",
+      "before": "그래. 적어도 난 이매지널의\n섭리가 모두 옳다고 할 근거를\n내 안에 갖고 있지 않았어",
+      "after": "그래. 적어도 난 이매지널의\n섭리가 전부 옳다고 말할 근거를\n내 안에 갖고 있지 않았어",
+      "category": "semantic_accuracy",
+      "reason": "正しいと言える根拠의 의미를 정확히 반영했다."
+    },
+    {
+      "row_index": 199,
+      "tm_id": "ARF-TM-CBFE66BF28B47A0E7816",
+      "source_text": "ヴァイスも何考えてるのかって\n感じだったけど\nアルスもどうしちゃったんだろ",
+      "before": "바이스도 무슨 생각인가\n싶었지만\n알스는 또 왜 저러는 걸까",
+      "after": "바이스도 무슨 생각인지\n모르겠다 싶었는데\n알스는 또 왜 저러는 걸까",
+      "category": "naturalness",
+      "reason": "두 인물에 대한 화자의 의문을 자연스럽게 연결했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

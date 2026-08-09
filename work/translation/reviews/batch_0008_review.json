@@ -1,0 +1,442 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "reviewer": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0008.jsonl",
+  "draft": "work/translation/drafts/batch_0008.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0008.jsonl",
+  "validation_report": "work/translation/validation/batch_0008_reviewed.json",
+  "reviewed_units": 200,
+  "modified_units": 60,
+  "unchanged_units": 140,
+  "metadata_restored_fields": 3,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "system_function_accuracy",
+    "proper_nouns_and_glossary",
+    "natural_korean",
+    "particles_spacing_and_typography",
+    "control_tokens",
+    "numbers_and_identifiers",
+    "line_breaks",
+    "source_structure_prefixes",
+    "dummy_and_developer_strings",
+    "source_metadata_integrity"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-4C99BA7DEC524F500383",
+      "source_text": "戦闘開始時にＳＰが２５になる",
+      "before": "전투 시작 시 SP가 25가 된다",
+      "after": "전투 시작 시 SP가 25로 설정된다",
+      "category": "system_naturalness",
+      "reason": "‘SP가 25가 된다’의 이중 주격을 없애고 전투 시작 시 수치가 25로 설정된다는 기능을 명료하게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-4D17B1CEA3494A2CD297",
+      "source_text": "昆虫特攻＋",
+      "before": "곤충 특공＋",
+      "after": "곤충 특공+",
+      "category": "system_typography",
+      "reason": "한국어 시스템 표기의 반각 ASCII 규칙에 맞춰 능력명 접미 기호를 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-4E856F75C38A6D4CEE3D",
+      "source_text": "コーダーのわがままを聞いてくれる法衣。\n防御力と抵抗力を高める",
+      "before": "코더의 까다로운 요구를 받아 주는 법의.\n방어력과 저항력을 높인다",
+      "after": "코더의 온갖 변덕을 받아 주는 법의.\n방어력과 저항력을 높인다",
+      "category": "item_flavor_meaning",
+      "reason": "「わがまま」를 단순히 ‘까다로운 요구’로 좁히지 않고 코더의 변덕을 받아 주는 장비라는 익살스러운 원뜻을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-4EC268C85B0CACD53951",
+      "source_text": "負の時代の害虫駆除のマストアイテム。\n昆虫相手に、その真価を発揮する",
+      "before": "음의 시대 해충 구제에 빠질 수 없는 아이템.\n곤충을 상대로 진가를 발휘한다",
+      "after": "음의 시대 해충 퇴치의 필수품.\n곤충을 상대로 진가를 발휘한다",
+      "category": "item_flavor_naturalness",
+      "reason": "「マストアイテム」를 번역문 안의 불필요한 외래어 대신 자연스러운 ‘필수품’으로 정리하고 기존 퀘스트 용어 ‘해충 퇴치’와 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-4ED9FEDBB4A5A9A3DEA2",
+      "source_text": "Ｄ−００",
+      "before": "D−00",
+      "after": "D-00",
+      "category": "identifier_typography",
+      "reason": "기존 검수본의 D-02·D-03 표기와 맞춰 전각 영문·숫자 및 유니코드 마이너스를 반각 식별자 표기로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-4F229609A4A9CB5EF03D",
+      "source_text": "『たたかう』実行時\n確率で攻撃回数＋３",
+      "before": "『공격』 실행 시\n일정 확률로 공격 횟수＋3",
+      "after": "『공격』 실행 시\n일정 확률로 공격 횟수+3",
+      "category": "system_typography",
+      "reason": "전투 수치 접미 기호를 반각 ASCII로 통일하면서 공격 횟수 3 증가라는 기능과 줄 수를 그대로 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-4FDC3A2103105337B17F",
+      "source_text": "<$15>01光召術での攻撃時\n必ずクリティカルが発生する",
+      "before": "<$15>01광소술 공격 시\n반드시 치명타가 발생한다",
+      "after": "<$15>01광소술로 공격 시\n반드시 치명타가 발생한다",
+      "category": "system_term_consistency",
+      "reason": "동일 효과의 기존 승인문과 맞춰 ‘광소술 공격 시’를 자연스러운 조사형 ‘광소술로 공격 시’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-50437B5851DF489D357E",
+      "source_text": "満潮で絶たれた大神殿への道のかわりに",
+      "before": "만조로 끊긴 대신전 길 대신",
+      "after": "만조로 막힌 대신전으로 가는 길 대신",
+      "category": "todo_fragment_grammar",
+      "reason": "‘대신전 길 대신’의 중첩된 명사열을 풀어, 만조로 막힌 길 대신 지하 통로를 택한다는 다음 문장과 자연스럽게 이어지게 했다."
+    },
+    {
+      "tm_id": "ARF-TM-50F35E5A2822D6B73CA3",
+      "source_text": "士官学校に通う生徒たちが身につける制服\n……とは異なる、赤と白が印象的な衣装",
+      "before": "사관학교 학생들이 입는 제복\n……과는 다른, 빨강과 흰색이 인상적인 의상",
+      "after": "사관학교 학생들이 입는 제복\n……과는 달리, 붉은색과 흰색이 인상적인 의상",
+      "category": "item_flavor_grammar",
+      "reason": "「とは異なる」의 대조 관계를 ‘다른’보다 자연스러운 ‘달리’로 정리하고 색상 표현을 한국어 문장에 맞게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-51F66D079BC7C052BA1B",
+      "source_text": "倒れたリフィアを医者に診せるため",
+      "before": "쓰러진 리피아를 의사에게 보이기 위해",
+      "after": "쓰러진 리피아를 의사에게 진찰받게 하려고",
+      "category": "todo_fragment_naturalness",
+      "reason": "일본어식 ‘의사에게 보이다’를 한국어의 진료 상황에 자연스러운 ‘진찰받게 하다’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-5332EFF1AE1848B3E95C",
+      "source_text": "『<$13>14<$1F>000071<$1F>01<$13>00』と『<$13>14<$1F>000062<$1F>01<$13>00』\nを順番に実行すると発生\nする<$13>14<$1F>000059<$1F>01<$13>00。\n<$13>14<$1F>000071<$1F>01<$13>00の際に受ける\nダメージを軽減することが\nできる。被害を軽減する\nということは、それだけ\n大切な相手を守る機会が\n増えることに他ならない",
+      "before": "『<$13>14<$1F>000071<$1F>01<$13>00』과 『<$13>14<$1F>000062<$1F>01<$13>00』를\n차례로 실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000071<$1F>01<$13>00을 쓸 때 받는\n피해를 줄일 수\n있다. 피해를 줄인다는\n것은 그만큼\n소중한 상대를 지킬 기회가\n늘어난다는 뜻이다",
+      "after": "『<$13>14<$1F>000071<$1F>01<$13>00』과 『<$13>14<$1F>000062<$1F>01<$13>00』를\n차례로 실행하면 발생하는\n<$13>14<$1F>000059<$1F>01<$13>00.\n<$13>14<$1F>000071<$1F>01<$13>00을 쓸 때\n받는 피해를 줄일 수 있다.\n피해를 줄인다는 것은\n그만큼 소중한 상대를\n지킬 기회가\n늘어난다는 뜻이다",
+      "category": "help_text_grammar",
+      "reason": "문장 중간을 끊던 ‘줄일 수/있다’를 바로잡고 원문의 9줄 구조 안에서 피해 경감과 보호 기회 증가의 인과를 자연스럽게 재배치했다."
+    },
+    {
+      "tm_id": "ARF-TM-5398F633E0E0B83A885F",
+      "source_text": "急所突き＋＋",
+      "before": "급소 찌르기＋＋",
+      "after": "급소 찌르기++",
+      "category": "system_typography",
+      "reason": "능력명 강화 단계의 더하기 기호를 반각 ASCII로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-53F826B71A1595D59CFB",
+      "source_text": "<$15>D4＋２　（回復）",
+      "before": "<$15>D4＋２　（회복）",
+      "after": "<$15>D4＋２　(회복)",
+      "category": "system_typography",
+      "reason": "제어 코드와 수치는 보존하고 기존 승인문의 능력치 부가 설명 표기에 맞춰 괄호만 반각으로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-54469121B3DB5EF8E8C7",
+      "source_text": "ナブラ密林は見通しが悪く迷いやすい。",
+      "before": "나블라 밀림은 시야가 나빠 길을 잃기 쉽다.",
+      "after": "나블라 밀림은 시야가 좋지 않아 길을 잃기 쉽다.",
+      "category": "todo_naturalness",
+      "reason": "‘시야가 나쁘다’라는 번역투를 자연스러운 한국어 ‘시야가 좋지 않다’로 교정했다."
+    },
+    {
+      "tm_id": "ARF-TM-54E8F0C69A416B5B2D91",
+      "source_text": "竜特攻＋",
+      "before": "용 특공＋",
+      "after": "용 특공+",
+      "category": "system_typography",
+      "reason": "능력명 접미 기호를 반각 ASCII로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-5518B70F1EFD544A0341",
+      "source_text": "単体の戦闘不能状態回復\n自分以外に発動",
+      "before": "단일 대상의 전투 불능 상태 회복\n자신 이외에게 발동",
+      "after": "단일 대상의 전투 불능 상태 회복\n자신 이외의 대상에게 발동",
+      "category": "system_target_grammar",
+      "reason": "‘자신 이외에게’의 생략된 피수식어를 보완해 발동 대상이 자신을 제외한 대상임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-55847BE93C3AACCD2A14",
+      "source_text": "汚れをその巨躯にまとい\n大地を汚染する悪しき竜。\n知能は低く、性格は獰猛で\n生あるものならば見境なく\n襲いかかってくる。\n人的被害と環境被害を\n引き起こす濁竜は人々に\n忌み嫌われており、帝国の\n討伐対象となっている",
+      "before": "오물을 거대한 몸에 두르고\n대지를 오염시키는 사악한 용.\n지능이 낮고 성격이 흉포해\n살아 있는 것이라면 가리지 않고\n덤벼든다.\n인명 피해와 환경 피해를\n일으키는 탁룡은 사람들에게\n혐오받으며 제국의\n토벌 대상이 되어 있다",
+      "after": "오염을 거대한 몸에 두르고\n대지를 오염시키는 사악한 용.\n지능이 낮고 성격이 흉포해\n살아 있는 것이라면 가리지 않고\n덤벼든다.\n인명 피해와 환경 피해를\n일으키는 탁룡은 사람들에게\n혐오받으며 제국의\n토벌 대상이 되어 있다",
+      "category": "worldbuilding_meaning",
+      "reason": "탁룡이 두르는 「汚れ」를 배설물을 연상시키는 ‘오물’이 아니라 대지 오염과 이어지는 설정상의 ‘오염’으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-4C0B7720A145ED72E5AB",
+      "source_text": "黒と白のみで仕立てられた衣服には\n時代への反逆と自己への奇妙な愛がある",
+      "before": "검은색과 흰색으로만 지은 옷에는\n시대에 대한 반역과 자신을 향한 기묘한 사랑이 담겨 있다",
+      "after": "검정과 흰색으로만 지은 옷은\n시대에 맞선 반역과 기묘한 자기애를 담았다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 81바이트 설명 필드에 맞춰 압축하되 흑백 의상, 시대에 대한 반역, 기묘한 자기애라는 원문의 세 의미를 모두 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-4DBD5C3ADB3D2D533E16",
+      "source_text": "連撃・三哭",
+      "before": "연격·삼곡",
+      "after": "연격-삼곡",
+      "category": "post_review_fit_or_encoding",
+      "reason": "U+00B7 가운데점이 사용자 코드북과 EUC-JP 어느 쪽으로도 인코딩되지 않아, 기술명 두 부분의 구분을 유지하는 ASCII 하이픈으로 교체했다."
+    },
+    {
+      "tm_id": "ARF-TM-4E96D5C20450DD2EA824",
+      "source_text": "波打つ刃と渦巻く文様が美しい太刀。\nその所持者は、火炎に抗う加護を得る",
+      "before": "물결치는 칼날과 소용돌이 문양이 아름다운 태도.\n소지자는 불길에 맞서는 가호를 얻는다",
+      "after": "물결치는 칼날과 소용돌이무늬가 아름다운 태도.\n화염에 맞설 가호를 준다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 81바이트 설명 필드에 맞도록 문장을 압축하면서 물결치는 칼날·소용돌이 문양·화염 저항 가호라는 외형과 효과를 모두 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-4F52F9049A32D0505FCD",
+      "source_text": "フレイアの通行証",
+      "before": "프레이아의 통행증",
+      "after": "프레이아 통행증",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 17바이트 이름 필드에서 조사만 생략해 고유명사 프레이아와 통행증이라는 품목 의미를 유지하면서 NUL 포함 용량에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-5003A464E819A157E6ED",
+      "source_text": "銃把に強化のコードが紡がれた特殊銃。\n使用者の身体能力を一時的に向上させる",
+      "before": "총 손잡이에 강화 코드를 엮어 넣은 특수 총.\n사용자의 신체 능력을 일시적으로 향상시킨다",
+      "after": "총 손잡이에 강화 코드를 엮은 특수 총.\n사용자의 신체 능력을 일시적으로 높인다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 81바이트 설명 필드에 맞도록 중복 동사를 줄였으며, 강화 코드와 일시적 신체 능력 상승 효과를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-5077063CB915247A044C",
+      "source_text": "軽さ・強度・美しさが調和する胴衣。\n防御力と抵抗力を高める",
+      "before": "가벼움·강도·아름다움이 조화를 이룬 웃옷.\n방어력과 저항력을 높인다",
+      "after": "가벼움, 강도, 아름다움이 조화를 이룬 웃옷.\n방어력과 저항력을 높인다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "인코딩 불가 U+00B7 두 개를 자연스러운 한국어 열거 쉼표로 바꿔 세 특성과 방어력·저항력 상승 효과를 그대로 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-514B5473FD357A87FCEF",
+      "source_text": "硬度の高い金属で鋳造された奇跡の１本。\n持つ者の能力値の低下を半減させる",
+      "before": "경도가 높은 금속으로 주조한 기적의 한 자루.\n소지자의 능력치 하락 효과를 절반으로 줄인다",
+      "after": "단단한 금속으로 주조한 기적의 한 자루.\n소지자의 능력치 저하를 절반으로 줄인다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 81바이트 필드에 맞게 표현을 줄였고, 고경도 금속제 무기와 능력치 저하 50% 완화 효과를 그대로 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-52C9F304C44200505CAF",
+      "source_text": "風にはためく衣の裾が迫る影を思わせる\n追跡者は自らの体躯を影の獄とする",
+      "before": "바람에 나부끼는 옷자락은 다가오는 그림자를 연상시킨다\n추적자는 자신의 몸을 그림자의 감옥으로 삼는다",
+      "after": "바람에 나부끼는 옷자락은 닥치는 그림자 같다\n추적자는 몸을 그림자 감옥으로 삼는다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 81바이트 설명의 의미를 보존해 축약했고, 독립 교차검수 지적에 따라 「風にはためく」「迫る影」의 진행·임박한 시간상을 ‘나부끼는’과 ‘닥치는’으로 복원했다. 인코딩 80바이트+NUL 1바이트로 capacity 81에 정확히 맞는다."
+    },
+    {
+      "tm_id": "ARF-TM-537DA8B77B7A7F56E07E",
+      "source_text": "全体のＨＰ完全回復\n追加効果：ＤＥＦ・ＲＥＳアップ",
+      "before": "전체 HP 완전 회복\n추가 효과: DEF·RES 상승",
+      "after": "전체 HP 완전 회복\n추가 효과: DEF/RES 상승",
+      "category": "post_review_fit_or_encoding",
+      "reason": "인코딩 불가 U+00B7을 ASCII 슬래시로 바꿔 DEF와 RES가 함께 상승한다는 기계적 효과를 명료하게 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-53888CFB256FF2565548",
+      "source_text": "袖の形状がなんとも特徴的な黒の装束\n開いた胸元にさがるタイは、時に風に踊る",
+      "before": "소매 모양이 몹시 독특한 검은 의상\n드러난 가슴께에 늘어진 타이는 때로 바람에 춤춘다",
+      "after": "소매가 몹시 독특한 검은 의상\n드러난 가슴께에 늘어진 타이는 때로 바람에 춤춘다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "고정 81바이트 필드 초과를 해소하기 위해 ‘소매 모양’을 자연스럽게 ‘소매’로 줄였으며 독특한 소매와 바람에 흔들리는 타이 묘사는 유지했다."
+    }
+  ],
+  "metadata_restorations": [
+    {
+      "tm_id": "ARF-TM-4CEE86567F1584CCB58E",
+      "field": "notes",
+      "before": "[boundary-candidate] 선두 'ット　'는 이전 필드 구조/경계 혼입 가능성이 있어 의미부만 번역함.",
+      "after": "",
+      "reason": "원본 메타데이터 불변 계약에 따라 초벌에서 추가한 경계 추정 메모를 제거하고 독립 검수 보고서 residual issue로 이관했다."
+    },
+    {
+      "tm_id": "ARF-TM-4F755F9D2088CA02F818",
+      "field": "notes",
+      "before": "[boundary-candidate] 원문 선두가 잘린 것으로 보이며 문맥상 '優しいサージュ'로 추정해 번역함.",
+      "after": "",
+      "reason": "원본 메타데이터 불변 계약에 따라 초벌에서 추가한 경계 추정 메모를 제거하고 독립 검수 보고서 residual issue로 이관했다."
+    },
+    {
+      "tm_id": "ARF-TM-52E38F3E0B5BCDA356D8",
+      "field": "notes",
+      "before": "[boundary-candidate] 원문이 '装身具用５'에서 선두 글자가 누락된 것으로 추정됨.",
+      "after": "",
+      "reason": "원본 메타데이터 불변 계약에 따라 초벌에서 추가한 경계 추정 메모를 제거하고 독립 검수 보고서 residual issue로 이관했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_ids": [
+        "ARF-TM-4CEE86567F1584CCB58E",
+        "ARF-TM-4F755F9D2088CA02F818",
+        "ARF-TM-52E38F3E0B5BCDA356D8"
+      ],
+      "severity": "raw_offset_boundary_audit_required",
+      "issue": "3개 원문은 각각 선두 구조 혼입(「ット　」) 또는 의미 글자 누락 추정(「しいサージュ」, 「身具用５」)이 있다. source_text를 포함한 원본 필드는 그대로 보존했으며, 초벌의 의미 추정은 승인문에 유지하되 원시 offset·구조화 테이블 대조 전 자동 삽입 대상으로 확정하지 않는다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-4C7F20AD642A3E761FC2",
+        "ARF-TM-4CF742B143200032C66C",
+        "ARF-TM-4DC2FC994ECA28138161",
+        "ARF-TM-4E15E7A3125A0DAF7956",
+        "ARF-TM-4E8FD619B34696B9D643",
+        "ARF-TM-4FBB5B90E9A7E5F39694",
+        "ARF-TM-51C4335A8A326E8F8749",
+        "ARF-TM-51CB9F55FD2EFD4CDF3D",
+        "ARF-TM-51F67706F04ED109A290",
+        "ARF-TM-521AA4F3BA4DAE406CEF",
+        "ARF-TM-52A63D33847C107068AC",
+        "ARF-TM-52B2D8D4C4C252004884",
+        "ARF-TM-53017BCD4F3A7D930A47",
+        "ARF-TM-533DB9A3193F6E0A069A",
+        "ARF-TM-5441FE126608B56C439F"
+      ],
+      "severity": "leading_structure_marker_unverified",
+      "issue": "도움말·채팅·마법명 선두의 $, 공백, @, C, 숫자, 역슬래시, |, j| 등은 구조 바이트 혼입 가능성이 있다. ASCII 표지는 초벌과 승인문에서 보수적으로 유지했고 source_text도 변경하지 않았다. canonical boundary audit에는 본 배치 ID가 없으므로 원시 offset 감사 전 표시 문자열 또는 삭제 대상이라 단정하지 않는다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-4C72B8447C2242425C80",
+        "ARF-TM-4CECBAA44917FD16C543",
+        "ARF-TM-4D0F92FA7BB68496D1FB",
+        "ARF-TM-4F3BDA4E75FD2CA2B0E7",
+        "ARF-TM-4F5B8DFE74C4DE9D00E7",
+        "ARF-TM-50059487AA4D300EFC63",
+        "ARF-TM-53DDDA21DF8D0018A9A7",
+        "ARF-TM-544B2EBC86A748932A48"
+      ],
+      "severity": "visibility_unconfirmed",
+      "issue": "명시적 더미 아이템과 숫자 반복 테스트 문자열은 의미·숫자·구조를 검수했으나 플레이어 노출 여부가 확정되지 않았다. 런타임 노출 감사 전 일반 공개 텍스트와 분리한다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_counts_preserved": true,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "validator_warnings": [],
+    "valid": true,
+    "suspected_codepage_question_mark_corruption": false,
+    "status": "passed"
+  },
+  "canonical_boundary_audit": {
+    "path": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+    "schema": "arf-system-table-boundary-audit-canonical-v1",
+    "sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "units_available": 235,
+    "audited_units_in_batch": 0,
+    "validator_option_used": "--boundary-audit work/translation/boundary_audit/canonical_system_boundary_audit.json",
+    "note": "canonical 옵션을 사용해 검증했으며 batch_0008과 교차하는 기존 감사 ID는 0개다. 따라서 본 배치의 경계 후보는 residual issue로 남겼고 감사 예외에 의존하지 않았다."
+  },
+  "hashes": {
+    "source_sha256": "4FBC8659C7BC8B3E6F50A6DB5226168E43D352453DDCDA0A202716F80A4C4CA6",
+    "draft_sha256": "EF24414BE2D937CB28EB646C13E485E2200899B2E474B58BA3F5A57BA8112F12",
+    "reviewed_sha256": "2F08B7E75D187497A8ECA17FCA9F50DEF7C6266030896427B7E2AE6A63C7EFA0",
+    "validation_sha256": "32F3D9F35803D1969F0F1770B08ED5E222D9D959A1564D88D8F8D32FCC22CE9A",
+    "canonical_boundary_audit_sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920"
+  },
+  "post_review_fit_or_encoding": {
+    "category": "post_review_fit_or_encoding",
+    "translation_changes": 10,
+    "fixed_overflow_corrections": 7,
+    "encoding_corrections": 3,
+    "corrected_fixed_overflow_tm_ids": [
+      "ARF-TM-4E96D5C20450DD2EA824",
+      "ARF-TM-514B5473FD357A87FCEF",
+      "ARF-TM-5003A464E819A157E6ED",
+      "ARF-TM-4F52F9049A32D0505FCD",
+      "ARF-TM-4C0B7720A145ED72E5AB",
+      "ARF-TM-53888CFB256FF2565548",
+      "ARF-TM-52C9F304C44200505CAF"
+    ],
+    "corrected_encoding_tm_ids": [
+      "ARF-TM-4DBD5C3ADB3D2D533E16",
+      "ARF-TM-5077063CB915247A044C",
+      "ARF-TM-537DA8B77B7A7F56E07E"
+    ],
+    "fit_report": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0008_fit_only.json",
+    "fit_report_sha256": "90C0329B20E4AB68AFEAB695662106F3FF962A76E549E22DF35F6853677E529A",
+    "temporary_codebook": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0008_codebook_temp.json",
+    "temporary_codebook_sha256": "095D664326A3DFC14A167679CE1D2839C073DC2A7D0F5AD58104D8BBC44D9853",
+    "final_fit_summary": {
+      "fixed_overflow_count": 0,
+      "resizable_table_in_place_overflow_count": 3,
+      "encoding_error_count": 0,
+      "global_encoding_error_count": 0,
+      "known_fixed_fields_fit": true
+    },
+    "resizable_overflows_deferred_without_translation_change": [
+      {
+        "tm_id": "ARF-TM-4F3BDA4E75FD2CA2B0E7",
+        "table_unit_id": "quest:0:description",
+        "required_with_nul": 247,
+        "in_place_capacity": 246,
+        "reason": "quest table is marked resizable_at_table_level; preserve reviewed meaning and defer to table-level resize proof"
+      },
+      {
+        "tm_id": "ARF-TM-509E26A8F76E6017D92D",
+        "table_unit_id": "quest:41:description",
+        "required_with_nul": 37,
+        "in_place_capacity": 33,
+        "reason": "quest table is marked resizable_at_table_level; preserve reviewed meaning and defer to table-level resize proof"
+      },
+      {
+        "tm_id": "ARF-TM-4E10D63D5B9E58FCAE9E",
+        "table_unit_id": "quest:55:title",
+        "required_with_nul": 14,
+        "in_place_capacity": 13,
+        "reason": "quest table is marked resizable_at_table_level; preserve reviewed meaning and defer to table-level resize proof"
+      }
+    ],
+    "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\batch_0008.json",
+    "boundary_audit_sha256": "19CEF06A3A04E3E74F6023D3C0D1528D7A6F916B7FB36C0C3BD6F7E1B4C7B511",
+    "boundary_clean_translation_conflicts": [],
+    "boundary_audit_modified": false,
+    "boundary_audit_input_snapshot_status": "historical_pre_post_fit_review_snapshot",
+    "boundary_audit_recorded_reviewed_sha256": "C5BF559D7296910165AAF0945E26610E8F35B019C4CFD1700B0DE3429D17A398",
+    "current_reviewed_sha256": "CA45F7DF8A5A97B924D9B8F72C901ECA807F888ED608AA7DACCB9537CE905F84",
+    "boundary_audit_history_note": "The boundary audit JSON was intentionally left byte-identical. Its protected reviewed hash records the pre-post-fit snapshot; none of the 10 post-fit correction IDs intersects the 34 audited boundary units or their clean translations.",
+    "crossreview_followup": {
+      "crossreview_report": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviews\\batch_0008_postfit_crossreview.json",
+      "crossreview_report_sha256": "09D736BD62141481C273849B3A8AEEB753193ED332E9FA60F0D7FE1BB6B33C8F",
+      "crossreview_report_modified": false,
+      "historical_verdict": "FAIL_ONE_REVISION_RECOMMENDED",
+      "tm_id": "ARF-TM-52C9F304C44200505CAF",
+      "previous_postfit_translation": "바람에 나부낀 옷자락은 다가올 그림자 같다\n추적자는 몸을 그림자 감옥으로 삼는다",
+      "recommended_translation": "바람에 나부끼는 옷자락은 닥치는 그림자 같다\n추적자는 몸을 그림자 감옥으로 삼는다",
+      "recommendation_applied": true,
+      "encoded_bytes": 80,
+      "required_with_nul": 81,
+      "capacity": 81,
+      "note": "The crossreview remains the immutable historical FAIL-to-recommendation evidence; its input hashes describe the pre-followup snapshot."
+    }
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batch_0008.json",
+    "source_sha256": "19CEF06A3A04E3E74F6023D3C0D1528D7A6F916B7FB36C0C3BD6F7E1B4C7B511",
+    "audited_units_in_batch": 34,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0008_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  }
+}

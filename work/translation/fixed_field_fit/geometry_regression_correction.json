@@ -1,0 +1,33 @@
+{
+  "schema": "arf-fixed-field-geometry-correction-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "audits": [
+    {
+      "path": "work/runtime_validation/fixed_schema_boundary_audit.json",
+      "sha256": "E5502F71E0C22881DBBB64E623F3CF4F048FC1A86E2F7A517F5E76F0CD42788D"
+    },
+    {
+      "path": "work/runtime_validation/fixed_table_geometry_audit.json",
+      "sha256": "BEFB8F5FF788CE975EC3C492F67D457218EA1A998D64AE18CFE4D0BD4406AD06"
+    }
+  ],
+  "correction": {
+    "tm_id": "ARF-TM-7983B232461623CDF50F",
+    "source_text": "▼ ペネロペの仕立屋",
+    "before": "▼ 페넬로페의 양장점",
+    "after": "▼ 페넬로페 양장점",
+    "before_bytes": 20,
+    "after_bytes": 18,
+    "capacity_including_nul": 20,
+    "fits_after": true
+  },
+  "artifacts": {
+    "reviewed_batch_sha256": "D6A7537449E03EB6B0BD36CDA14F3A1BCF25D372057B50B77167D647B6C26FE7",
+    "review_report_sha256": "AF593D0B6B5EF4857D87161EDEBDBD26F2C1E926B3016CB82AE4964FC711A1D5",
+    "final_tm_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+    "final_tm_csv_sha256": "A1ED7DE7071CE16CBA7E0A41B757B2E7D4181149D56FEDA27BC71844AFD95CA0"
+  },
+  "valid": true
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "arf-canonical-korean-font-injection-verification-v1",
+  "translation_engine_policy": "Codex internal models only",
+  "codebook_sha256": "c068ce21dcd05d3081a26504757206543e7928921a30630f9154d3aa96790ec4",
+  "injection_manifest_sha256": "a411bd166d734e4874aaaba3bd649b9dbb9fd1050ccbb2ed560d4f44c4aa80be",
+  "assigned_characters": 1368,
+  "reserved_source_pairs": 2227,
+  "reserved_pair_collisions": 0,
+  "approved_units_encoded": 29777,
+  "approved_unit_encoding_errors": 0,
+  "assigned_cells_without_pixel_change": 0,
+  "total_changed_pixels": 581605,
+  "pages": [
+    {
+      "page": 0,
+      "assigned_cells": 43,
+      "changed_pixels": 18332,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 1,
+      "assigned_cells": 252,
+      "changed_pixels": 108353,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 2,
+      "assigned_cells": 206,
+      "changed_pixels": 86716,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 3,
+      "assigned_cells": 263,
+      "changed_pixels": 110716,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 4,
+      "assigned_cells": 497,
+      "changed_pixels": 212580,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 5,
+      "assigned_cells": 107,
+      "changed_pixels": 44908,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 6,
+      "assigned_cells": 0,
+      "changed_pixels": 0,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 7,
+      "assigned_cells": 0,
+      "changed_pixels": 0,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    },
+    {
+      "page": 8,
+      "assigned_cells": 0,
+      "changed_pixels": 0,
+      "changes_outside_assigned_cells": 0,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_reencode_exact": true,
+      "manifest_hashes_match": true
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

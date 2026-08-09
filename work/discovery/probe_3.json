@@ -1,0 +1,83 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Event\\fc\\fc_00_001.vol",
+  "header": {
+    "end_of_header": 96,
+    "count": 1,
+    "declared_size": 4128,
+    "actual_size": 4128
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "fc_00_001.bscr",
+      "size": 4028,
+      "relative_offset": 0,
+      "absolute_offset": 96,
+      "head_hex": "6273637200AC66635F30305F3030312E62736372000000000000000000000000",
+      "head_ascii": "bscr..fc_00_001.bscr............",
+      "sjis_run_count": 15,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 67,
+          "text": "澁C_END"
+        },
+        {
+          "byte_offset_approx": 119,
+          "text": "澳ET_SE_FC"
+        },
+        {
+          "byte_offset_approx": 171,
+          "text": "潺ELETE_SE_FC"
+        },
+        {
+          "byte_offset_approx": 215,
+          "text": "鵲C_EPISODE_00_001"
+        },
+        {
+          "byte_offset_approx": 1412,
+          "text": "ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 1667,
+          "text": "NZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 1923,
+          "text": "校ZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 2179,
+          "text": "ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 2435,
+          "text": "!ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 2691,
+          "text": "gZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 2947,
+          "text": "ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 3203,
+          "text": "ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 3460,
+          "text": "ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 3715,
+          "text": "\\ZZZZZZZZぉ"
+        },
+        {
+          "byte_offset_approx": 4003,
+          "text": "ZZZZZZZZセZZZZZZZZZZZZZZ"
+        }
+      ]
+    }
+  ]
+}

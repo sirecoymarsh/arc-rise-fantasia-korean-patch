@@ -1,0 +1,405 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0002",
+  "reviewer": "/root/review_batch_0002",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0002.jsonl",
+  "draft": "work/translation/drafts/batch_0002.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0002.jsonl",
+  "reviewed_validation": "work/translation/validation/batch_0002_reviewed.json",
+  "reviewed_units": 200,
+  "modified_units": 70,
+  "unchanged_units": 130,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "system_function_accuracy",
+    "natural_korean",
+    "dummy_and_developer_strings",
+    "control_tokens",
+    "raw_structure_markers",
+    "line_breaks",
+    "fixed_field_fit"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-0160A08C30E855DE9622",
+      "source_text": "水玉の水着",
+      "before": "물방울무늬 수영복",
+      "after": "도트무늬 수영복",
+      "category": "layout_fit_naturalness",
+      "reason": "제안문 ‘물방울 수영복’은 물방울 모양인지 무늬인지 모호하다. ‘도트무늬 수영복’으로 「水玉」의 물방울무늬 의미를 명확히 보존하면서 용량 안에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-019ABE60D53A27F0D5E8",
+      "source_text": "` コピンに伝わる真実",
+      "before": "` 코핀에게 전해지는 진실",
+      "after": "` 코핀에게 전해 내려오는 진실",
+      "category": "meaning_naturalness",
+      "reason": "「伝わる」가 코핀 사회에 전승되는 지식이라는 문맥을 살려 ‘전해 내려오는’으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-020256D0F80CADF853BF",
+      "source_text": "鎧の堅牢さと法衣の俊敏さを兼ねた一着。\n防御力が大きく上昇し、抵抗力も高める",
+      "before": "갑옷의 견고함과 법의의 민첩함을 겸비한 옷.\n방어력이 크게 상승하고 저항력도 높인다",
+      "after": "갑옷의 견고함과 로브의 기동성을 갖춘 한 벌.\n방어력이 대폭 오르고 저항력도 높인다",
+      "category": "meaning_naturalness_layout",
+      "reason": "「法衣の俊敏さ」를 직역한 ‘법의의 민첩함’ 대신 로브 계열의 기동성으로 풀고, 「一着」을 한 벌로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-029F884DC13E9FD1E052",
+      "source_text": "お気にのスタイル",
+      "before": "마음에 드는 스타일",
+      "after": "즐겨 입는 스타일",
+      "category": "layout_fit_naturalness",
+      "reason": "의상 아이템 문맥에서 「お気に」의 애호 의미를 ‘즐겨 입는’이 자연스럽게 전달하며, NUL 포함 17바이트 용량에 정확히 맞으므로 제안을 승인했다."
+    },
+    {
+      "tm_id": "ARF-TM-02FB11857AF2130053DA",
+      "source_text": "不世出の少女探偵が手にするのは\nすべてを愛らしく見せるハート型の虫眼鏡",
+      "before": "불세출의 소녀 탐정이 손에 든 것은\n모든 것을 사랑스럽게 보이게 하는 하트 모양 돋보기",
+      "after": "불세출의 소녀 탐정이 손에 든 것은\n무엇이든 사랑스러워 보이게 하는 하트형 돋보기",
+      "category": "naturalness_layout",
+      "reason": "긴 직역 문장을 압축해 의미와 2행 구성을 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-036C1BB97EE44A094AC6",
+      "source_text": "帝国旗艦パーセヴァルを追って海上を急ぐ",
+      "before": "제국 기함 파르세발을 뒤쫓아 바다를 가로지른다",
+      "after": "제국 기함 파르세발을 뒤쫓아 바다를 달린다",
+      "category": "meaning_tempo",
+      "reason": "「海上を急ぐ」의 긴박한 이동 의미가 빠진 ‘바다를 가로지른다’를 ‘바다를 달린다’로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-03733B7A57AC0D19F44D",
+      "source_text": "おぞましい容姿のアイツが\n街の外にウヨウヨいるんじゃ。\nおちおち釣りにも行けやしない。\nキチッと退治をするんじゃぞ！",
+      "before": "흉측하게 생긴 그놈이\n도시 밖에 우글우글하잖나.\n이래선 마음 놓고 낚시도 못 가.\n제대로 퇴치해 주게!",
+      "after": "흉측하게 생긴 그놈들이\n도시 밖에 우글우글하단 말일세.\n이래선 마음 놓고 낚시도 못 가.\n제대로 퇴치하고 오게!",
+      "category": "speaker_tone_number",
+      "reason": "노인 화자의 말투를 일관되게 하고, 「ウヨウヨ」가 나타내는 다수 개체를 한국어 복수 표현으로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-03B1C8D8FBB6BCF9DF93",
+      "source_text": "<$03>決着",
+      "before": "<$03>결착",
+      "after": "<$03>결판",
+      "category": "naturalness",
+      "reason": "대화 제목에서 어색한 한자어 ‘결착’을 자연스러운 ‘결판’으로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-03E8459ED0A067B4B692",
+      "source_text": "<$15>E0＋４　<$15>E1＋４　<$15>E2＋４　<$15>E3＋４\n状態異常と能力値減少効果を確実に防止する",
+      "before": "<$15>E0＋４　<$15>E1＋４　<$15>E2＋４　<$15>E3＋４\n상태 이상과 능력치 감소 효과를 확실히 막는다",
+      "after": "<$15>E0＋４　<$15>E1＋４　<$15>E2＋４　<$15>E3＋４\n상태 이상과 능력치 감소를 확실히 막는다",
+      "category": "system_clarity_layout",
+      "reason": "상태 이상과 능력치 감소를 막는 기능은 유지하면서 중복되는 ‘효과’를 덜어 장비 설명 행 길이를 줄였다."
+    },
+    {
+      "tm_id": "ARF-TM-03F8894025ACB0532120",
+      "source_text": "遥か古代の地層から発掘された胸当て。\n防御力と抵抗力を高める",
+      "before": "먼 고대 지층에서 발굴된 흉갑.\n방어력과 저항력을 높인다",
+      "after": "아득한 옛날의 지층에서 발굴된 흉갑.\n방어력과 저항력을 높인다",
+      "category": "meaning_naturalness",
+      "reason": "「遥か古代の地層」를 어색한 ‘먼 고대 지층’이 아니라 ‘아득한 옛날의 지층’으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-04B5508BF645AE5CCD91",
+      "source_text": "士官学校に通う生徒たちが身につける制服\nゆるめられたタイが、軽やかな反逆を演出",
+      "before": "사관학교 학생들이 입는 제복\n느슨하게 맨 타이가 가벼운 반항심을 연출한다",
+      "after": "사관학교 학생들이 입는 제복.\n느슨하게 맨 타이가 경쾌한 반항미를 더한다",
+      "category": "naturalness_layout",
+      "reason": "제복 설명을 자연스러운 완결문으로 만들고 「軽やかな反逆」의 패션 뉘앙스를 ‘경쾌한 반항미’로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-04D909F1464CC08685B7",
+      "source_text": "光召待機短縮",
+      "before": "광소 대기 단축",
+      "after": "광소술 대기 단축",
+      "category": "glossary_consistency",
+      "reason": "핵심 시스템명 「光召術→광소술」과 맞춰 축약형 「光召」도 이 능력명에서는 ‘광소술’로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-05DDFD696E4F6830FAAF",
+      "source_text": "<$13>14<$1F>000064<$1F>01<$13>00の種類のひとつ。\n装備することにより\n能力値が上昇したり、\n特殊な効果を得ることが\nできる。\n装身具は装備できる\nキャラクターに制限はなく\n誰もが装備できる",
+      "before": "<$13>14<$1F>000064<$1F>01<$13>00 종류 중 하나.\n장비하면\n능력치가 상승하거나\n특수 효과를 얻을 수\n있다.\n액세서리는 장비할 수 있는\n캐릭터에 제한이 없어\n누구나 장비할 수 있다",
+      "after": "<$13>14<$1F>000064<$1F>01<$13>00의 한 종류.\n장비하면\n능력치가 상승하거나\n특수 효과를 얻을 수\n있다.\n액세서리는 장비할 수 있는\n캐릭터에 제한이 없어\n누구나 장비할 수 있다",
+      "category": "grammar_system_clarity",
+      "reason": "「～の種類のひとつ」를 조사 누락 없이 ‘～의 한 종류’로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-05F30C0458FD2D538D3A",
+      "source_text": "１０００年前の<$13>14<$1F>00010C<$1F>01<$13>00の\n際に、<$13>14<$1F>0000F3<$1F>01<$13>00に汚染された\n地上世界に残り\n<$13>14<$1F>000107<$1F>01<$13>00へは\n避難しなかった人々。\n<$13>14<$1F>0000F3<$1F>01<$13>00に適応し、地上に\n新たな国家を築き上げた\n彼ら現種は、毒をも制した\n人類の新たな姿である",
+      "before": "1000년 전의 <$13>14<$1F>00010C<$1F>01<$13>00 당시\n<$13>14<$1F>0000F3<$1F>01<$13>00에 오염된\n지상 세계에 남아\n<$13>14<$1F>000107<$1F>01<$13>00로\n피난하지 않은 사람들.\n<$13>14<$1F>0000F3<$1F>01<$13>00에 적응해 지상에\n새로운 국가를 세운\n그들 현종은 독마저 제압한\n인류의 새로운 모습이다",
+      "after": "1000년 전 <$13>14<$1F>00010C<$1F>01<$13>00 때\n<$13>14<$1F>0000F3<$1F>01<$13>00에 오염된\n지상 세계에 남아\n<$13>14<$1F>000107<$1F>01<$13>00로\n피난하지 않았던 사람들.\n<$13>14<$1F>0000F3<$1F>01<$13>00에 적응해 지상에\n새로운 국가를 세운\n이들 현종은 독마저 극복한\n인류의 새로운 모습이다",
+      "category": "meaning_naturalness",
+      "reason": "「1000年前の～の際」의 중복 직역을 정리하고, 「彼ら現種」와 「毒をも制した」를 ‘이들 현종’, ‘독마저 극복한’으로 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-071F73F7AB68C4414C2D",
+      "source_text": "攻撃の種類は、大きく\n<$13>14<$1F>000042<$1F>01<$13>00と\n<$13>14<$1F>000061<$1F>01<$13>00によるダメージの\n２つに分かれる。\nいくつかの<$13>14<$1F>00004B<$1F>01<$13>00\nにおいて攻撃の種類に\n対応するものが存在する",
+      "before": "공격의 종류는 크게\n<$13>14<$1F>000042<$1F>01<$13>00와\n<$13>14<$1F>000061<$1F>01<$13>00로 주는 피해의\n두 가지로 나뉜다.\n일부 <$13>14<$1F>00004B<$1F>01<$13>00에는\n공격 종류에\n대응하는 것이 존재한다",
+      "after": "공격의 종류는 크게\n<$13>14<$1F>000042<$1F>01<$13>00과\n<$13>14<$1F>000061<$1F>01<$13>00로 주는 피해,\n두 가지로 나뉜다.\n일부 <$13>14<$1F>00004B<$1F>01<$13>00에는\n각 공격 종류에 대응하는\n효과가 있다",
+      "category": "system_accuracy_grammar",
+      "reason": "두 공격 종류와 일부 암 포스의 대응 관계가 한눈에 드러나도록 문장 구조와 조사를 재구성했다."
+    },
+    {
+      "tm_id": "ARF-TM-07E97964C5809D5AE2B8",
+      "source_text": "<$13>03カリスト<$13>00を１匹討伐",
+      "before": "<$13>03카리스트<$13>00 1마리 토벌",
+      "after": "<$13>03칼리스토<$13>00 1마리 토벌",
+      "category": "proper_noun",
+      "reason": "곰과 연관된 신화 이름 「カリスト」를 통용 한국어 표기 ‘칼리스토’로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-0806D315261E4E8A2DFD",
+      "source_text": "帝国軍に採用されている標準的な胴衣。\n防御力と抵抗力を高める",
+      "before": "제국군이 채택한 표준적인 상의.\n방어력과 저항력을 높인다",
+      "after": "제국군이 제식으로 채택한 상의.\n방어력과 저항력을 높인다",
+      "category": "meaning_naturalness",
+      "reason": "「帝国軍に採用されている標準的な胴衣」를 자연스러운 장비 문구로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-081660AA7E615F827E24",
+      "source_text": "害虫駆除",
+      "before": "해충 구제",
+      "after": "해충 퇴치",
+      "category": "naturalness",
+      "reason": "퀘스트 제목 「害虫駆除」를 행정 용어처럼 들리는 ‘해충 구제’ 대신 ‘해충 퇴치’로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-087719A7EA22EBD7693F",
+      "source_text": "<$7F><$02>自己修復",
+      "before": "<$7F><$02>자체 수리",
+      "after": "<$7F><$02>자가 수복",
+      "category": "skill_name",
+      "reason": "암 포스 명칭 「自己修復」를 기계 수리처럼 들리는 ‘자체 수리’ 대신 게임 능력명에 맞는 ‘자가 수복’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0915AA3E7F56DBB1A852",
+      "source_text": "<$01>\r別格",
+      "before": "<$01>격이 다르다",
+      "after": "<$01>\r격이 다르다",
+      "category": "raw_structure_preservation",
+      "reason": "원문 제어 토큰 뒤의 CR을 구조 표식 가능성이 있는 바이트로 보고 번역문에도 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-09A6453609F8B1DA7B74",
+      "source_text": "地脈を流れるレイと感応する紫電の長剣。\nその一閃は、時に敵の光召術を低下させる",
+      "before": "지맥을 흐르는 레이와 감응하는 자전의 장검.\n그 일격은 때때로 적의 광소술을 약화시킨다",
+      "after": "지맥의 레이에 감응하는 자색 번개의 장검.\n그 일격은 간혹 적의 광소술을 약화시킨다",
+      "category": "meaning_naturalness_layout",
+      "reason": "모호한 한자어 ‘자전’을 ‘자색 번개’로 풀어 「紫電」의 의미를 분명히 하고 행 길이를 조정했다."
+    },
+    {
+      "tm_id": "ARF-TM-0A9296DE3CB3CB401E89",
+      "source_text": "<$01><$01>次なる地へ",
+      "before": "<$01><$01>다음 땅으로",
+      "after": "<$01><$01>다음 목적지로",
+      "category": "naturalness",
+      "reason": "대화 제목 「次なる地へ」를 직역투 ‘다음 땅으로’ 대신 자연스러운 ‘다음 목적지로’로 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-0B0C648F4CA992F68758",
+      "source_text": "白銀で仕上げられた華美な籠手。\n是が非にも必殺技を使いたい人におすすめ",
+      "before": "백은으로 마감한 화려한 건틀릿.\n무슨 일이 있어도 필살기를 쓰고 싶은 사람에게 추천",
+      "after": "은빛으로 마감한 화려한 건틀릿.\n어떻게든 필살기를 쓰고 싶은 이에게 추천",
+      "category": "naturalness_layout",
+      "reason": "「白銀」과 「是が非にも」를 자연스러운 장비 설명으로 다듬고 2행 길이를 줄였다."
+    },
+    {
+      "tm_id": "ARF-TM-0B2636FF274629B2C91D",
+      "source_text": "ホゼアに協力を申し出るラルク。",
+      "before": "호제아에게 협력을 제안하는 라르크.",
+      "after": "호제아에게 돕겠다고 나서는 라르크.",
+      "category": "meaning_accuracy",
+      "reason": "「協力を申し出る」가 호제아에게 협력을 요구한다는 뜻으로 오해되지 않도록 라르크가 돕겠다고 나서는 의미를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-0B99E65608FD53EFCD22",
+      "source_text": "全体が赤いきのこ。\n強烈な臭いを放っている",
+      "before": "전체가 붉은 버섯.\n강렬한 냄새를 풍긴다",
+      "after": "온통 붉은 버섯.\n강렬한 냄새를 풍긴다",
+      "category": "naturalness",
+      "reason": "「全体が赤いきのこ」의 직역투를 ‘온통 붉은 버섯’으로 자연스럽게 수정했다."
+    },
+    {
+      "tm_id": "ARF-TM-0BAB47656A8F6201B930",
+      "source_text": "<$01>賞賛するニコル",
+      "before": "<$01>니콜의 칭찬",
+      "after": "<$01>칭찬하는 니콜",
+      "category": "title_action",
+      "reason": "「賞賛するニコル」의 행위자 구조를 살려 명사형 ‘니콜의 칭찬’을 ‘칭찬하는 니콜’로 수정했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_id": "ARF-TM-0530F2C82D4261E73E8F",
+      "severity": "source_catalog_anomaly",
+      "issue": "「<$0F>睫<$01>ＭＰ」의 「睫」은 자연어 제목 일부가 아니라 원시 구조·색상 표식이 문자로 노출된 가능성이 있다. 검수본에서는 삭제하거나 번역하지 않고 「<$0F>睫<$01>MP」로 보존했다. 삽입 전에 help.bin 원시 바이트, 문자열 경계, 런타임 표시 여부를 확인해야 한다.",
+      "validation_effect": "의도적으로 보존한 「睫」 때문에 japanese_remaining 경고 1건이 발생한다."
+    },
+    {
+      "tm_id": "ARF-TM-0915AA3E7F56DBB1A852",
+      "severity": "source_delimiter_anomaly",
+      "issue": "「<$01>」 뒤의 단독 CR은 chat.bin 구조 또는 표시 제어일 수 있어 번역문에도 그대로 보존했다. 삽입 전 원시 레코드 경계와 실제 화면 줄바꿈 동작을 확인한다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-015D722521D3B8AD7C6B",
+        "ARF-TM-019ABE60D53A27F0D5E8",
+        "ARF-TM-024A341CDEFABC47AC8C",
+        "ARF-TM-0664CAC7A2E5EF2A92AA",
+        "ARF-TM-0AF5F76772EEC57D011F"
+      ],
+      "severity": "source_prefix_anomalies",
+      "issue": "H, 백틱, j|, B, z9t 같은 선두 표식은 자연어가 아닌 카탈로그·구조 프리픽스일 가능성이 있어 원문 위치 그대로 보존했다. 런타임 삽입 전 각 원시 필드의 시작 오프셋을 재확인한다."
+    },
+    {
+      "tm_id": "ARF-TM-07C3C26A423AF2143B1D",
+      "severity": "terminology_pending",
+      "issue": "「教団神兵」은 현재 ‘교단 신병’으로 옮겼으나 한국어의 新兵(신입 병사)과 동음이라 화면 문맥에서 오해 가능성을 확인해야 한다. 적 명칭 체계 검토 뒤 필요하면 ‘교단 신성병’ 등과 비교 확정한다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_counts_preserved": true,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "validator_warnings": [],
+    "status": "passed",
+    "suspected_codepage_corruption_count": 0
+  },
+  "hashes": {
+    "source_sha256": "E4C9D8386ABBE4F471693CD4FEF6F607A9B9EEF0304AE90589E43DF91D6A08E4",
+    "draft_sha256": "C9BE31EABDA8A8BAB4085AB154EC478E13B8A819BCEF52121553F3C746857DB2",
+    "reviewed_sha256": "422DC33FAAE578EADAF5102CBE34C170423E71E0A45C278F587F77620433BE63",
+    "validation_sha256": "701B368E0B3E78C030E0B89EB4D27CEBA31D6A6A736728775AD3AAA3258F2739",
+    "layout_proposals_sha256": "7B48BF1BF7C460CCD84DD58B4C8685777BB9514723F46E2687F8D0C472732716"
+  },
+  "layout_adjustments": [
+    {
+      "tm_id": "ARF-TM-09A6453609F8B1DA7B74",
+      "batch_membership": "batch_0002",
+      "source_text": "地脈を流れるレイと感応する紫電の長剣。\nその一閃は、時に敵の光召術を低下させる",
+      "before": "지맥의 레이에 감응하는 자색 번개의 장검.\n그 일격은 때때로 적의 광소술을 약화시킨다",
+      "proposed_after": "지맥의 레이에 감응하는 자색 번개 장검.\n그 일격은 때때로 적의 광소술을 약화시킨다",
+      "accepted_after": "지맥의 레이에 감응하는 자색 번개의 장검.\n그 일격은 간혹 적의 광소술을 약화시킨다",
+      "capacity_including_nul": 81,
+      "encoded_bytes": 80,
+      "required_with_nul": 81,
+      "headroom_after_nul": 0,
+      "fits_in_place": true,
+      "decision": "applied_alternative",
+      "reason": "제안문 ‘자색 번개 장검’은 복합 명사가 다소 거칠다. 첫 행의 자연스러운 ‘자색 번개의 장검’을 유지하고, 「時に」를 ‘간혹’으로 축약해 의미를 보존하면서 용량에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-020256D0F80CADF853BF",
+      "batch_membership": "batch_0002",
+      "source_text": "鎧の堅牢さと法衣の俊敏さを兼ねた一着。\n防御力が大きく上昇し、抵抗力も高める",
+      "before": "갑옷의 견고함과 로브의 기동성을 갖춘 한 벌.\n방어력이 크게 상승하고 저항력도 높인다",
+      "proposed_after": "갑옷의 견고함과 로브의 기동성을 갖춘 옷.\n방어력이 크게 상승하고 저항력도 높인다",
+      "accepted_after": "갑옷의 견고함과 로브의 기동성을 갖춘 한 벌.\n방어력이 대폭 오르고 저항력도 높인다",
+      "capacity_including_nul": 81,
+      "encoded_bytes": 80,
+      "required_with_nul": 81,
+      "headroom_after_nul": 0,
+      "fits_in_place": true,
+      "decision": "applied_alternative",
+      "reason": "제안문의 ‘옷’보다 「一着」의 장비 단위를 살린 ‘한 벌’이 정확하다. 이를 유지하고 ‘크게 상승하고’를 ‘대폭 오르고’로 줄여 상승 폭과 저항력 효과를 모두 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-029F884DC13E9FD1E052",
+      "batch_membership": "batch_0002",
+      "source_text": "お気にのスタイル",
+      "before": "마음에 드는 스타일",
+      "proposed_after": "즐겨 입는 스타일",
+      "accepted_after": "즐겨 입는 스타일",
+      "capacity_including_nul": 17,
+      "encoded_bytes": 16,
+      "required_with_nul": 17,
+      "headroom_after_nul": 0,
+      "fits_in_place": true,
+      "decision": "accepted_as_proposed",
+      "reason": "의상 아이템 문맥에서 「お気に」의 애호 의미를 ‘즐겨 입는’이 자연스럽게 전달하며, NUL 포함 17바이트 용량에 정확히 맞으므로 제안을 승인했다."
+    },
+    {
+      "tm_id": "ARF-TM-0160A08C30E855DE9622",
+      "batch_membership": "batch_0002",
+      "source_text": "水玉の水着",
+      "before": "물방울무늬 수영복",
+      "proposed_after": "물방울 수영복",
+      "accepted_after": "도트무늬 수영복",
+      "capacity_including_nul": 17,
+      "encoded_bytes": 15,
+      "required_with_nul": 16,
+      "headroom_after_nul": 1,
+      "fits_in_place": true,
+      "decision": "applied_alternative",
+      "reason": "제안문 ‘물방울 수영복’은 물방울 모양인지 무늬인지 모호하다. ‘도트무늬 수영복’으로 「水玉」의 물방울무늬 의미를 명확히 보존하면서 용량 안에 맞췄다."
+    }
+  ],
+  "final_change_summary": {
+    "initial_review_modified_units": 24,
+    "layout_proposals_reviewed": 4,
+    "layout_adjustment_units_applied": 4,
+    "layout_alternatives_authored": 3,
+    "layout_proposals_accepted_as_written": 1,
+    "final_modified_units_against_original_draft": 70,
+    "final_unchanged_units_against_original_draft": 130
+  },
+  "layout_validation": {
+    "status": "passed",
+    "scope": "batch_0002_applied_layout_targets",
+    "batch_validator": {
+      "report": "work/translation/validation/batch_0002_reviewed.json",
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "allowed_warning_tm_id": "ARF-TM-0530F2C82D4261E73E8F",
+      "valid": true
+    },
+    "fit_preflight": {
+      "tool": "work/research/check_translation_fit.py",
+      "codebook": "work/font/canonical_v1/codebook.json",
+      "catalog_dir": "work/research/table_agent/catalogs",
+      "approved_tm_units": 4,
+      "matched_unique_tm_units": 4,
+      "matched_table_fields": 4,
+      "fixed_overflow_count": 0,
+      "resizable_table_in_place_overflow_count": 0,
+      "unmatched_system_tm_count": 0,
+      "encoding_error_count": 0,
+      "known_fixed_fields_fit": true,
+      "safe_for_fixed_table_insertion": true
+    },
+    "fixed_fit_targets": [
+      "ARF-TM-09A6453609F8B1DA7B74",
+      "ARF-TM-020256D0F80CADF853BF",
+      "ARF-TM-029F884DC13E9FD1E052",
+      "ARF-TM-0160A08C30E855DE9622"
+    ]
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batches_0001_0002.json",
+    "source_sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+    "audited_units_in_batch": 50,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0002_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "candidate_count": 97,
+  "selected": 65,
+  "excluded": [
+    {
+      "offset_hex": "0x3E8E9C",
+      "source_text": "竜縛塔イベント飛空挺",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E8EE8",
+      "source_text": "ルフンガ用イベント",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E90FC",
+      "source_text": "遺跡Ｂイベント用",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9194",
+      "source_text": "ＰＣ用飛空艇ブリッジ",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E92C4",
+      "source_text": "白月：シムマフ回想用",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E935C",
+      "source_text": "ジャダバトルフィール",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E93A8",
+      "source_text": "神竜バトルフィールド",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E93F4",
+      "source_text": "白月の居住区00 セピア",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9440",
+      "source_text": "バトラ広場Ｂイベント",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E948C",
+      "source_text": "オーリエンスイベント",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9524",
+      "source_text": "イベントムービー用29B",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9570",
+      "source_text": "イベントムービー用30B",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E95BC",
+      "source_text": "予備枠",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9608",
+      "source_text": "予備枠",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9654",
+      "source_text": "予備枠",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E96A0",
+      "source_text": "予備枠",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E96EC",
+      "source_text": "久野テストマップ",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9738",
+      "source_text": "相内テストマップ",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9784",
+      "source_text": "河本テストマップ",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E97D0",
+      "source_text": "伊藤テストマップ",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E981C",
+      "source_text": "佐々木テストマップ",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9868",
+      "source_text": "テストマップ00",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E98B4",
+      "source_text": "テストマップ01",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9900",
+      "source_text": "テストマップ02",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E994C",
+      "source_text": "テストマップ03",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9998",
+      "source_text": "テストマップ04",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E99E4",
+      "source_text": "テストマップ05",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9A30",
+      "source_text": "テストマップ06",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9A7C",
+      "source_text": "テストマップ07",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9AC8",
+      "source_text": "テストマップ08",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9B14",
+      "source_text": "テストマップ09",
+      "reason": "explicit_event_test_or_internal_map_label"
+    },
+    {
+      "offset_hex": "0x3E9B60",
+      "source_text": "テストマップ10",
+      "reason": "explicit_event_test_or_internal_map_label"
+    }
+  ],
+  "errors": []
+}

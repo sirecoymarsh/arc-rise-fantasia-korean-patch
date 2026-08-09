@@ -1,0 +1,259 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0149",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_final",
+  "draft_author": "/root/translate_final",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0149.jsonl",
+  "draft": "work/translation/drafts/batch_0149.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0149.jsonl",
+  "reviewed_units": 177,
+  "modified_units": 12,
+  "unchanged_units": 165,
+  "correction_count": 12,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 43,
+      "tm_id": "ARF-TM-C1EE3CE81691E844E282",
+      "source_text": "いよいよっスね",
+      "before": "드디어군요",
+      "after": "드디어임다",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 프로젝트의 「~슴다/~임다」 계열로 살렸다."
+    },
+    {
+      "index": 60,
+      "tm_id": "ARF-TM-CA20B57D49BFB7B2B700",
+      "source_text": "我らも先を急ぐぞ\nマリアに何かあってからでは\n――遅いのだ",
+      "before": "우리도 서둘러야 한다\n마리아에게 무슨 일이 생긴 뒤에는\n――늦는다",
+      "after": "우리도 서둘러야 한다\n마리아에게 무슨 일이 생긴 뒤에는\n――이미 늦는다",
+      "category": "natural_korean",
+      "reason": "무슨 일이 생긴 뒤에는 이미 늦는다는 경고가 자연스럽게 이어지도록 다듬었다."
+    },
+    {
+      "index": 80,
+      "tm_id": "ARF-TM-D3B402E751AC26103C46",
+      "source_text": "よ、よく食う犬だな…",
+      "before": "저, 정말 잘 먹는 개네…",
+      "after": "자, 잘 먹는 개구나…",
+      "category": "voice",
+      "reason": "よ、よく의 말더듬을 한국어 발화의 「자, 잘」로 자연스럽게 재현했다."
+    },
+    {
+      "index": 90,
+      "tm_id": "ARF-TM-D70D5DDB3AC8BC8CE3E4",
+      "source_text": "もてなすコピン",
+      "before": "맞이하는 코핀",
+      "after": "손님을 대접하는 코핀",
+      "category": "meaning",
+      "reason": "もてなす의 손님을 환대하고 대접한다는 뜻을 인물 라벨에 반영했다."
+    },
+    {
+      "index": 96,
+      "tm_id": "ARF-TM-DA0AFDEA183884BAD523",
+      "source_text": "――下に戻っても仕方ない\n地上へ戻る方法を探すぞ",
+      "before": "――아래로 돌아가도 소용없다\n지상으로 돌아갈 방법을 찾는다",
+      "after": "――아래로 돌아가도 소용없다\n지상으로 돌아갈 방법을 찾자",
+      "category": "voice",
+      "reason": "방법을 찾겠다는 探すぞ를 서술문이 아니라 일행을 이끄는 의지형 대사로 옮겼다."
+    },
+    {
+      "index": 98,
+      "tm_id": "ARF-TM-DA98079691BDA83D0F92",
+      "source_text": "ギルドへの報告\n忘れないでくださいね〜",
+      "before": "길드에 보고하는 것\n잊지 마세요~",
+      "after": "길드에 보고하는 걸\n잊지 마세요~",
+      "category": "natural_korean",
+      "reason": "보고를 잊지 말라는 안내 문장의 목적격 조사를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 117,
+      "tm_id": "ARF-TM-E46DA2AE79DB6D2A3956",
+      "source_text": "リンダ（仮）",
+      "before": "린다(임시)",
+      "after": "린다(가칭)",
+      "category": "meaning",
+      "reason": "이름 뒤의 （仮）를 임시 상태가 아니라 임시로 붙인 명칭이라는 뜻의 「가칭」으로 옮겼다."
+    },
+    {
+      "index": 131,
+      "tm_id": "ARF-TM-E8D7F6273E3B792FFDD6",
+      "source_text": "ここはカルブンクルスが誇る\nフルヘイム一の娯楽街だよ!!<$0C>このまま真っ直ぐにいけば『カジノ』\n突き当たりを曲がれば『闘技場』\nどちらでもお好みの方をどうぞ！",
+      "before": "여기는 카르분클루스가 자랑하는\n풀헤임 최고의 유흥가야!!<$0C>쭉 직진하면 『카지노』\n막다른 곳에서 꺾으면 『투기장』\n어느 쪽이든 마음에 드는 곳으로!",
+      "after": "여기는 카르분클루스가 자랑하는\n풀헤임 최고의 유흥가야!!<$0C>쭉 직진하면 『카지노』\n막다른 곳에서 꺾으면 『투기장』\n어느 쪽이든 마음에 드는 곳으로 가세요!",
+      "category": "natural_korean",
+      "reason": "두 시설 중 마음에 드는 곳을 고르라는 안내가 완결된 한국어 문장으로 들리도록 다듬었다."
+    },
+    {
+      "index": 148,
+      "tm_id": "ARF-TM-F055214DF70B9B90680C",
+      "source_text": "宿の看板娘",
+      "before": "여관 간판 아가씨",
+      "after": "여관의 간판 아가씨",
+      "category": "natural_korean",
+      "reason": "宿の看板娘의 소속 관계가 자연스럽게 드러나도록 조사를 보완했다."
+    },
+    {
+      "index": 158,
+      "tm_id": "ARF-TM-F5F42217B26AD7A044D1",
+      "source_text": "グリーンヒル議長が\nいつお戻りになってもいいよう\nご邸宅の警備をしています<$0C>まことに申し訳ないが\nこれより先は何人たりとも\n通すわけにはまいりません",
+      "before": "그린힐 의장께서\n언제 돌아오셔도 되도록\n저택을 경비하고 있습니다<$0C>대단히 죄송하지만\n이 앞은 누구도\n통과시킬 수 없습니다",
+      "after": "그린힐 의장께서\n언제라도 돌아오실 수 있도록\n저택을 경비하고 있습니다<$0C>대단히 죄송하지만\n이 앞은 누구도\n통과시킬 수 없습니다",
+      "category": "natural_korean",
+      "reason": "의장이 언제라도 돌아올 수 있게 저택을 지킨다는 문장 구조를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 160,
+      "tm_id": "ARF-TM-F6F514DD82E07CBA927E",
+      "source_text": "行かせない！",
+      "before": "보내지 않겠어!",
+      "after": "가게 두지 않겠어!",
+      "category": "meaning",
+      "reason": "行かせない를 보내지 않겠다는 뜻이 아니라 상대가 떠나도록 두지 않겠다는 뜻으로 바로잡았다."
+    },
+    {
+      "index": 177,
+      "tm_id": "ARF-TM-FF8EB199AF66511117F5",
+      "source_text": "もう元気なのに\n今日も遊びに\n行っちゃ駄目なんだ……<$0C>この間、熱を出した\nばっかりだから……\nせっかく新しい遊びがあるのにさ",
+      "before": "이젠 건강한데\n오늘도 놀러\n나가면 안 된대……<$0C>얼마 전에 열이 난\n참이라서……\n모처럼 새로운 놀이도 생겼는데",
+      "after": "이젠 멀쩡한데\n오늘도 놀러\n나가면 안 된대……<$0C>얼마 전에 열이 난 지\n얼마 안 됐다고……\n모처럼 새로운 놀이도 생겼는데",
+      "category": "natural_korean",
+      "reason": "얼마 전에 열이 났기 때문에 외출하지 못한다는 아이의 설명을 자연스럽게 다듬었다."
+    }
+  ],
+  "corrections": [
+    {
+      "index": 43,
+      "tm_id": "ARF-TM-C1EE3CE81691E844E282",
+      "source_text": "いよいよっスね",
+      "before": "드디어군요",
+      "after": "드디어임다",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 프로젝트의 「~슴다/~임다」 계열로 살렸다."
+    },
+    {
+      "index": 60,
+      "tm_id": "ARF-TM-CA20B57D49BFB7B2B700",
+      "source_text": "我らも先を急ぐぞ\nマリアに何かあってからでは\n――遅いのだ",
+      "before": "우리도 서둘러야 한다\n마리아에게 무슨 일이 생긴 뒤에는\n――늦는다",
+      "after": "우리도 서둘러야 한다\n마리아에게 무슨 일이 생긴 뒤에는\n――이미 늦는다",
+      "category": "natural_korean",
+      "reason": "무슨 일이 생긴 뒤에는 이미 늦는다는 경고가 자연스럽게 이어지도록 다듬었다."
+    },
+    {
+      "index": 80,
+      "tm_id": "ARF-TM-D3B402E751AC26103C46",
+      "source_text": "よ、よく食う犬だな…",
+      "before": "저, 정말 잘 먹는 개네…",
+      "after": "자, 잘 먹는 개구나…",
+      "category": "voice",
+      "reason": "よ、よく의 말더듬을 한국어 발화의 「자, 잘」로 자연스럽게 재현했다."
+    },
+    {
+      "index": 90,
+      "tm_id": "ARF-TM-D70D5DDB3AC8BC8CE3E4",
+      "source_text": "もてなすコピン",
+      "before": "맞이하는 코핀",
+      "after": "손님을 대접하는 코핀",
+      "category": "meaning",
+      "reason": "もてなす의 손님을 환대하고 대접한다는 뜻을 인물 라벨에 반영했다."
+    },
+    {
+      "index": 96,
+      "tm_id": "ARF-TM-DA0AFDEA183884BAD523",
+      "source_text": "――下に戻っても仕方ない\n地上へ戻る方法を探すぞ",
+      "before": "――아래로 돌아가도 소용없다\n지상으로 돌아갈 방법을 찾는다",
+      "after": "――아래로 돌아가도 소용없다\n지상으로 돌아갈 방법을 찾자",
+      "category": "voice",
+      "reason": "방법을 찾겠다는 探すぞ를 서술문이 아니라 일행을 이끄는 의지형 대사로 옮겼다."
+    },
+    {
+      "index": 98,
+      "tm_id": "ARF-TM-DA98079691BDA83D0F92",
+      "source_text": "ギルドへの報告\n忘れないでくださいね〜",
+      "before": "길드에 보고하는 것\n잊지 마세요~",
+      "after": "길드에 보고하는 걸\n잊지 마세요~",
+      "category": "natural_korean",
+      "reason": "보고를 잊지 말라는 안내 문장의 목적격 조사를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 117,
+      "tm_id": "ARF-TM-E46DA2AE79DB6D2A3956",
+      "source_text": "リンダ（仮）",
+      "before": "린다(임시)",
+      "after": "린다(가칭)",
+      "category": "meaning",
+      "reason": "이름 뒤의 （仮）를 임시 상태가 아니라 임시로 붙인 명칭이라는 뜻의 「가칭」으로 옮겼다."
+    },
+    {
+      "index": 131,
+      "tm_id": "ARF-TM-E8D7F6273E3B792FFDD6",
+      "source_text": "ここはカルブンクルスが誇る\nフルヘイム一の娯楽街だよ!!<$0C>このまま真っ直ぐにいけば『カジノ』\n突き当たりを曲がれば『闘技場』\nどちらでもお好みの方をどうぞ！",
+      "before": "여기는 카르분클루스가 자랑하는\n풀헤임 최고의 유흥가야!!<$0C>쭉 직진하면 『카지노』\n막다른 곳에서 꺾으면 『투기장』\n어느 쪽이든 마음에 드는 곳으로!",
+      "after": "여기는 카르분클루스가 자랑하는\n풀헤임 최고의 유흥가야!!<$0C>쭉 직진하면 『카지노』\n막다른 곳에서 꺾으면 『투기장』\n어느 쪽이든 마음에 드는 곳으로 가세요!",
+      "category": "natural_korean",
+      "reason": "두 시설 중 마음에 드는 곳을 고르라는 안내가 완결된 한국어 문장으로 들리도록 다듬었다."
+    },
+    {
+      "index": 148,
+      "tm_id": "ARF-TM-F055214DF70B9B90680C",
+      "source_text": "宿の看板娘",
+      "before": "여관 간판 아가씨",
+      "after": "여관의 간판 아가씨",
+      "category": "natural_korean",
+      "reason": "宿の看板娘의 소속 관계가 자연스럽게 드러나도록 조사를 보완했다."
+    },
+    {
+      "index": 158,
+      "tm_id": "ARF-TM-F5F42217B26AD7A044D1",
+      "source_text": "グリーンヒル議長が\nいつお戻りになってもいいよう\nご邸宅の警備をしています<$0C>まことに申し訳ないが\nこれより先は何人たりとも\n通すわけにはまいりません",
+      "before": "그린힐 의장께서\n언제 돌아오셔도 되도록\n저택을 경비하고 있습니다<$0C>대단히 죄송하지만\n이 앞은 누구도\n통과시킬 수 없습니다",
+      "after": "그린힐 의장께서\n언제라도 돌아오실 수 있도록\n저택을 경비하고 있습니다<$0C>대단히 죄송하지만\n이 앞은 누구도\n통과시킬 수 없습니다",
+      "category": "natural_korean",
+      "reason": "의장이 언제라도 돌아올 수 있게 저택을 지킨다는 문장 구조를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 160,
+      "tm_id": "ARF-TM-F6F514DD82E07CBA927E",
+      "source_text": "行かせない！",
+      "before": "보내지 않겠어!",
+      "after": "가게 두지 않겠어!",
+      "category": "meaning",
+      "reason": "行かせない를 보내지 않겠다는 뜻이 아니라 상대가 떠나도록 두지 않겠다는 뜻으로 바로잡았다."
+    },
+    {
+      "index": 177,
+      "tm_id": "ARF-TM-FF8EB199AF66511117F5",
+      "source_text": "もう元気なのに\n今日も遊びに\n行っちゃ駄目なんだ……<$0C>この間、熱を出した\nばっかりだから……\nせっかく新しい遊びがあるのにさ",
+      "before": "이젠 건강한데\n오늘도 놀러\n나가면 안 된대……<$0C>얼마 전에 열이 난\n참이라서……\n모처럼 새로운 놀이도 생겼는데",
+      "after": "이젠 멀쩡한데\n오늘도 놀러\n나가면 안 된대……<$0C>얼마 전에 열이 난 지\n얼마 안 됐다고……\n모처럼 새로운 놀이도 생겼는데",
+      "category": "natural_korean",
+      "reason": "얼마 전에 열이 났기 때문에 외출하지 못한다는 아이의 설명을 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

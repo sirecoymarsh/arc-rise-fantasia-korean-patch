@@ -1,0 +1,287 @@
+{
+  "source_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC",
+  "output_sha256": "FC4AC8DE805C2D86AE29317C57D4C1A688805522EF8BF0D28BF5A51FCBDB8E57",
+  "patch_count": 35,
+  "patches": [
+    {
+      "offset": 4002042,
+      "source": "設定終了",
+      "translation_ko": "완료",
+      "capacity": 8,
+      "encoded_length": 4,
+      "replacement_hex": "BFDDB7A8"
+    },
+    {
+      "offset": 4002051,
+      "source": "初期設定",
+      "translation_ko": "초기화",
+      "capacity": 8,
+      "encoded_length": 6,
+      "replacement_hex": "C4D5B1CEC8AE"
+    },
+    {
+      "offset": 4002060,
+      "source": "ゲームで使用する\nコントローラを設定します。\nコントローラのボタンを押せば\n確定されます。",
+      "translation_ko": "게임에 사용할\n컨트롤러를 설정합니다.\n컨트롤러 버튼을 누르면\n확정됩니다.",
+      "capacity": 87,
+      "encoded_length": 71,
+      "replacement_hex": "B0C9C1B8BEE020BBAABFF1C7DF0AD3DFC6D7D0C9B0A8B7BE20BBF0B0ACC7E2B3E3B3F22E0AD3DFC6D7D0C9B0A820B9DEC6DBC0F220B3C3B7B7B8D30AC8B0B0ACCBBFB3E3B3F22E"
+    },
+    {
+      "offset": 4002148,
+      "source": "%sを\n操作コントローラに設定しました。",
+      "translation_ko": "%s를\n조작 컨트롤러로 설정했습니다.",
+      "capacity": 37,
+      "encoded_length": 34,
+      "replacement_hex": "2573B7BE0AC2CFC1C120D3DFC6D7D0C9B0A8B7A320BBF0B0ACC7EBBDA5B3E3B3F22E"
+    },
+    {
+      "offset": 4002186,
+      "source": "コントローラ",
+      "translation_ko": "컨트롤러",
+      "capacity": 12,
+      "encoded_length": 8,
+      "replacement_hex": "D3DFC6D7D0C9B0A8"
+    },
+    {
+      "offset": 4002199,
+      "source": "振動",
+      "translation_ko": "진동",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "C3C9B4D0"
+    },
+    {
+      "offset": 4002204,
+      "source": "字幕",
+      "translation_ko": "자막",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "C1BEB7DF"
+    },
+    {
+      "offset": 4002209,
+      "source": "カーソル記憶",
+      "translation_ko": "커서 기억",
+      "capacity": 12,
+      "encoded_length": 9,
+      "replacement_hex": "C5A7BBDA20B1CEBEC0"
+    },
+    {
+      "offset": 4002222,
+      "source": "カメラ回転",
+      "translation_ko": "시점 회전",
+      "capacity": 10,
+      "encoded_length": 9,
+      "replacement_hex": "BDA9C2C220C8B9C1EE"
+    },
+    {
+      "offset": 4002233,
+      "source": "文字速度",
+      "translation_ko": "글 속도",
+      "capacity": 8,
+      "encoded_length": 7,
+      "replacement_hex": "B1C520BCB5B4C2"
+    },
+    {
+      "offset": 4002242,
+      "source": "ＢＧＭ音量",
+      "translation_ko": "BGM 음량",
+      "capacity": 10,
+      "encoded_length": 8,
+      "replacement_hex": "42474D20C0F3B6D6"
+    },
+    {
+      "offset": 4002253,
+      "source": "ＳＥ音量",
+      "translation_ko": "SE 음량",
+      "capacity": 8,
+      "encoded_length": 7,
+      "replacement_hex": "534520C0F3B6D6"
+    },
+    {
+      "offset": 4002262,
+      "source": "音声音量",
+      "translation_ko": "음성량",
+      "capacity": 8,
+      "encoded_length": 6,
+      "replacement_hex": "C0F3BCA5B6D6"
+    },
+    {
+      "offset": 4002271,
+      "source": "フリッカーレベル",
+      "translation_ko": "화면 떨림",
+      "capacity": 16,
+      "encoded_length": 9,
+      "replacement_hex": "C8AEB8D320B5D0B7D3"
+    },
+    {
+      "offset": 4002288,
+      "source": "ＯＮ",
+      "translation_ko": "ON",
+      "capacity": 4,
+      "encoded_length": 2,
+      "replacement_hex": "4F4E"
+    },
+    {
+      "offset": 4002293,
+      "source": "ＯＦＦ",
+      "translation_ko": "OFF",
+      "capacity": 6,
+      "encoded_length": 3,
+      "replacement_hex": "4F4646"
+    },
+    {
+      "offset": 4002300,
+      "source": "遅い",
+      "translation_ko": "느림",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "B3D2B7D3"
+    },
+    {
+      "offset": 4002305,
+      "source": "普通",
+      "translation_ko": "보통",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "BAB7C6D3"
+    },
+    {
+      "offset": 4002310,
+      "source": "早い",
+      "translation_ko": "빠름",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "BAF9B7C2"
+    },
+    {
+      "offset": 4002315,
+      "source": "瞬間",
+      "translation_ko": "즉시",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "C9F8BDA9"
+    },
+    {
+      "offset": 4002320,
+      "source": "無音",
+      "translation_ko": "무음",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "B8F3C0F3"
+    },
+    {
+      "offset": 4002325,
+      "source": "最大",
+      "translation_ko": "최대",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "C4D7B4A6"
+    },
+    {
+      "offset": 4002330,
+      "source": "最小",
+      "translation_ko": "최소",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "C4D7BCB4"
+    },
+    {
+      "offset": 4002335,
+      "source": "通常",
+      "translation_ko": "일반",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "C1ADB9C9"
+    },
+    {
+      "offset": 4002340,
+      "source": "反転",
+      "translation_ko": "반전",
+      "capacity": 4,
+      "encoded_length": 4,
+      "replacement_hex": "B9C9C1EE"
+    },
+    {
+      "offset": 4002345,
+      "source": "使用するコントローラを設定します",
+      "translation_ko": "사용할 컨트롤러를 설정합니다",
+      "capacity": 32,
+      "encoded_length": 28,
+      "replacement_hex": "BBAABFF1C7DF20D3DFC6D7D0C9B0A8B7BE20BBF0B0ACC7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002378,
+      "source": "コントローラの振動を設定します",
+      "translation_ko": "컨트롤러 진동을 설정합니다",
+      "capacity": 30,
+      "encoded_length": 26,
+      "replacement_hex": "D3DFC6D7D0C9B0A820C3C9B4D0C0F220BBF0B0ACC7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002409,
+      "source": "デモシーンの字幕の表示／非表示を\n設定します",
+      "translation_ko": "데모 자막 표시를\n설정합니다",
+      "capacity": 43,
+      "encoded_length": 27,
+      "replacement_hex": "B4BCB8DA20C1BEB7DF20C7B4BDA9B7BE0ABBF0B0ACC7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002453,
+      "source": "戦闘中のメニューのカーソル位置の\n保存／リセットを設定します",
+      "translation_ko": "전투 메뉴 커서 위치의\n저장 여부를 설정합니다",
+      "capacity": 59,
+      "encoded_length": 44,
+      "replacement_hex": "C1EEC6D520B8D1B3CF20C5A7BBDA20C0B4C4F0C1A30AC1E7C1DA20BEEDBAD4B7BE20BBF0B0ACC7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002513,
+      "source": "ワールドでのカメラの回転方向を\n設定します",
+      "translation_ko": "월드 카메라 회전 방향을\n설정합니다",
+      "capacity": 41,
+      "encoded_length": 34,
+      "replacement_hex": "C0A6B4FD20C4FBB8D1B6A220C8B9C1EE20B9D1C7F0C0F20ABBF0B0ACC7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002555,
+      "source": "メッセージの表示速度を設定します",
+      "translation_ko": "메시지 표시 속도를 설정합니다",
+      "capacity": 32,
+      "encoded_length": 29,
+      "replacement_hex": "B8D1BDA9B0AF20C7B4BDA920BCB5B4C2B7BE20BBF0B0ACC7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002588,
+      "source": "ＢＧＭの音量調整をします",
+      "translation_ko": "BGM 음량을 조절합니다",
+      "capacity": 24,
+      "encoded_length": 21,
+      "replacement_hex": "42474D20C0F3B6D6C0F220C2CFC1F9C7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002613,
+      "source": "ＳＥの音量調整をします",
+      "translation_ko": "SE 음량을 조절합니다",
+      "capacity": 22,
+      "encoded_length": 20,
+      "replacement_hex": "534520C0F3B6D6C0F220C2CFC1F9C7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002636,
+      "source": "音声の音量調整をします",
+      "translation_ko": "음성량을 조절합니다",
+      "capacity": 22,
+      "encoded_length": 19,
+      "replacement_hex": "C0F3BCA5B6D6C0F220C2CFC1F9C7E2B3E3B3F2"
+    },
+    {
+      "offset": 4002659,
+      "source": "フリッカーフィルタのレベルを設定します",
+      "translation_ko": "화면 떨림 수준을 설정합니다",
+      "capacity": 38,
+      "encoded_length": 27,
+      "replacement_hex": "C8AEB8D320B5D0B7D320BCC8C2FCC0F220BBF0B0ACC7E2B3E3B3F2"
+    }
+  ]
+}

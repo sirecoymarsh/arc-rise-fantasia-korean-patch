@@ -1,0 +1,456 @@
+{
+  "schema": "arf-final-release-refresh-dependency-audit-v1",
+  "read_only_except_output_report": true,
+  "root": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "current_artifacts": {
+    "tm": {
+      "path": "work/translation/final/translation_memory_draft.json",
+      "exists": true,
+      "size_bytes": 43637320,
+      "sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1"
+    },
+    "tm_csv": {
+      "path": "work/translation/final/translation_memory_draft.csv",
+      "exists": true,
+      "size_bytes": 8398954,
+      "sha256": "A1ED7DE7071CE16CBA7E0A41B757B2E7D4181149D56FEDA27BC71844AFD95CA0"
+    },
+    "review_chain": {
+      "path": "work/translation/final_validation/review_chain.json",
+      "exists": true,
+      "size_bytes": 135698,
+      "sha256": "1CD0B00CBBC0C6F04F7B63AABDEB5B6533C27FF68A36F42AE0D847B7936634F2"
+    },
+    "approved_v1": {
+      "path": "work/font/final_v1/approved_units.jsonl",
+      "exists": true,
+      "size_bytes": 4043036,
+      "sha256": "4EAD9FAB01678481003F814C8ADA8CCDB7D44CE139AAD75873EBF748ACFD1907"
+    },
+    "corpus_v1": {
+      "path": "work/font/final_v1/approved_korean_corpus.txt",
+      "exists": true,
+      "size_bytes": 2286193,
+      "sha256": "7106C07BC9B5D0D6D2E0A26E002AD610C2764AB76D4E40FEB0AE6BDA0DCCE8F8"
+    },
+    "corpus_manifest": {
+      "path": "work/font/final_v1/corpus_manifest.json",
+      "exists": true,
+      "size_bytes": 4811,
+      "sha256": "66ABB35ED9D7A8EFEDA6E3FE8E54345F5354F8E2ED4B48E449C250724F0A80BA"
+    },
+    "approved_v2": {
+      "path": "work/font/final_v2/approved_units.jsonl",
+      "exists": true,
+      "size_bytes": 4562911,
+      "sha256": "B048C99D6FD43D8C1F2DC2B1A80FFD2D067703B523EBDBF1D7A524E4A1700B5B"
+    },
+    "main_dol": {
+      "path": "work/runtime_fix/main_dol_translations.jsonl",
+      "exists": true,
+      "size_bytes": 549652,
+      "sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3"
+    },
+    "codebook": {
+      "path": "work/font/final_v2/codebook.json",
+      "exists": true,
+      "size_bytes": 302438,
+      "sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF"
+    },
+    "codebook_verification": {
+      "path": "work/font/final_v2/codebook_append_only_verification.json",
+      "exists": true,
+      "size_bytes": 951,
+      "sha256": "11F210E8FD4B91D466057BCEE7584A4ADDCBC48EDDA41380513EF43545CBC18D"
+    },
+    "injection_verification": {
+      "path": "work/font/final_v2/injection_verification.json",
+      "exists": true,
+      "size_bytes": 3695,
+      "sha256": "BABCDC180C01FEC93C67007C90DB7BED98051197CEFA8A5472B353F372BE2764"
+    },
+    "fit": {
+      "path": "work/font/final_v2/fit_preflight.json",
+      "exists": true,
+      "size_bytes": 80449,
+      "sha256": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138"
+    },
+    "post_geometry_fit": {
+      "path": "work/translation/fixed_field_fit/preflight_after_geometry_corrections.json",
+      "exists": true,
+      "size_bytes": 80449,
+      "sha256": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138"
+    },
+    "geometry_correction": {
+      "path": "work/translation/fixed_field_fit/geometry_regression_correction.json",
+      "exists": true,
+      "size_bytes": 1313,
+      "sha256": "E2827130EF636951E415831A267EC02260A5B81CE1E6E1B70CAB1217925DC23B"
+    },
+    "geometry_repair": {
+      "path": "work/runtime_validation/fixed_table_geometry_repair_validation.json",
+      "exists": true,
+      "size_bytes": 25659,
+      "sha256": "4A00B580D2288A684977BDDD81F9D504BA436355A96176A394EEFDD4C537ACDB"
+    },
+    "proof": {
+      "path": "work/final_system_table_application/application_proof.json",
+      "exists": true,
+      "size_bytes": 14182,
+      "sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1"
+    },
+    "staging_manifest": {
+      "path": "work/final_runtime_staging/staging_manifest.json",
+      "exists": true,
+      "size_bytes": 831366,
+      "sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1"
+    },
+    "integration": {
+      "path": "work/final_text_font_integration_report.json",
+      "exists": true,
+      "size_bytes": 34563,
+      "sha256": "FDED16B9A57D829DA00F5EFCAA3498E6E522A9A7D041FA7D5C5921E37B6B26A8"
+    },
+    "zip": {
+      "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.zip",
+      "exists": true,
+      "size_bytes": 512595064,
+      "sha256": "086664F46BD84ADD891CD95FE6A81C5D3E58135CD76B419C0C13938F4E102120"
+    },
+    "checksum": {
+      "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.zip.sha256",
+      "exists": true,
+      "size_bytes": 107,
+      "sha256": "C88D9ACCB3632731DE0E4B3C8CA194C24319E973BF9250357FEC7A4B0FC760F1"
+    },
+    "release_validation": {
+      "path": "work/validation/final_release_validation.json",
+      "exists": true,
+      "size_bytes": 809,
+      "sha256": "91B97BCF47C685DC7F429BCBD24B3FCEE3CB8F5306A3FD5D57FE0E10AFC8EC14"
+    },
+    "installer_fixture": {
+      "path": "work/validation/installer_fixture.json",
+      "exists": true,
+      "size_bytes": 1244,
+      "sha256": "F87177A14793F7C3AF4182605BB2526E0EC917A72A2017F5FAA63BF24D17EE0B"
+    }
+  },
+  "translation_memory": {
+    "approved_units": 29777,
+    "json_csv": {
+      "expected_count": 29777,
+      "actual_count": 29777,
+      "missing_count": 0,
+      "extra_count": 0,
+      "translation_mismatch_count": 0,
+      "missing_sample": [],
+      "extra_sample": [],
+      "translation_mismatch_sample": [],
+      "exact": true
+    },
+    "reviewed_batches_semantic_comparison": {
+      "expected_count": 29777,
+      "actual_count": 29777,
+      "missing_count": 0,
+      "extra_count": 0,
+      "translation_mismatch_count": 0,
+      "missing_sample": [],
+      "extra_sample": [],
+      "translation_mismatch_sample": [],
+      "exact": true
+    },
+    "geometry_tm_id": "ARF-TM-7983B232461623CDF50F",
+    "geometry_translation_ko": "▼ 페넬로페 양장점"
+  },
+  "review_chain": {
+    "declared_valid": true,
+    "hash_mismatch_count": 0,
+    "hash_mismatches": [],
+    "current": true
+  },
+  "approved_font_inputs": {
+    "approved_v1": {
+      "artifact": {
+        "path": "work/font/final_v1/approved_units.jsonl",
+        "exists": true,
+        "size_bytes": 4043036,
+        "sha256": "4EAD9FAB01678481003F814C8ADA8CCDB7D44CE139AAD75873EBF748ACFD1907"
+      },
+      "line_count": 29777,
+      "tm_row_count": 29777,
+      "non_tm_row_count": 0,
+      "tm_comparison": {
+        "expected_count": 29777,
+        "actual_count": 29777,
+        "missing_count": 0,
+        "extra_count": 0,
+        "translation_mismatch_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "translation_mismatch_sample": [],
+        "exact": true
+      },
+      "expected_sha256": "4EAD9FAB01678481003F814C8ADA8CCDB7D44CE139AAD75873EBF748ACFD1907",
+      "exact_expected_bytes": true
+    },
+    "approved_v2": {
+      "artifact": {
+        "path": "work/font/final_v2/approved_units.jsonl",
+        "exists": true,
+        "size_bytes": 4562911,
+        "sha256": "B048C99D6FD43D8C1F2DC2B1A80FFD2D067703B523EBDBF1D7A524E4A1700B5B"
+      },
+      "line_count": 30702,
+      "tm_row_count": 29777,
+      "non_tm_row_count": 925,
+      "tm_comparison": {
+        "expected_count": 29777,
+        "actual_count": 29777,
+        "missing_count": 0,
+        "extra_count": 0,
+        "translation_mismatch_count": 0,
+        "missing_sample": [],
+        "extra_sample": [],
+        "translation_mismatch_sample": [],
+        "exact": true
+      },
+      "main_dol_expected_count": 925,
+      "main_dol_actual_count": 925,
+      "main_dol_rows_exact": true
+    },
+    "corpus_v1": {
+      "artifact": {
+        "path": "work/font/final_v1/approved_korean_corpus.txt",
+        "exists": true,
+        "size_bytes": 2286193,
+        "sha256": "7106C07BC9B5D0D6D2E0A26E002AD610C2764AB76D4E40FEB0AE6BDA0DCCE8F8"
+      },
+      "expected_sha256": "7106C07BC9B5D0D6D2E0A26E002AD610C2764AB76D4E40FEB0AE6BDA0DCCE8F8",
+      "exact_expected_bytes": true
+    }
+  },
+  "corpus_manifest_bindings": [
+    {
+      "field": "approved_units_jsonl_sha256",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\font\\final_v1\\approved_units.jsonl",
+      "declared_sha256": "4EAD9FAB01678481003F814C8ADA8CCDB7D44CE139AAD75873EBF748ACFD1907",
+      "actual_sha256": "4EAD9FAB01678481003F814C8ADA8CCDB7D44CE139AAD75873EBF748ACFD1907",
+      "present": true,
+      "matches": true
+    },
+    {
+      "field": "corpus_sha256",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\font\\final_v1\\approved_korean_corpus.txt",
+      "declared_sha256": "7106C07BC9B5D0D6D2E0A26E002AD610C2764AB76D4E40FEB0AE6BDA0DCCE8F8",
+      "actual_sha256": "7106C07BC9B5D0D6D2E0A26E002AD610C2764AB76D4E40FEB0AE6BDA0DCCE8F8",
+      "present": true,
+      "matches": true
+    },
+    {
+      "field": "translation_memory_sha256",
+      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\final\\translation_memory_draft.json",
+      "declared_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+      "actual_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+      "present": true,
+      "matches": true
+    }
+  ],
+  "font_codebook_closure": {
+    "assigned_characters": 1369,
+    "required_custom_characters": 1369,
+    "missing_required_count": 0,
+    "missing_required": [],
+    "unused_assigned_count": 0,
+    "current_text_encodable_without_font_rebuild": true
+  },
+  "fit_preflight": {
+    "artifact": {
+      "path": "work/font/final_v2/fit_preflight.json",
+      "exists": true,
+      "size_bytes": 80449,
+      "sha256": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138"
+    },
+    "post_geometry_artifact": {
+      "path": "work/translation/fixed_field_fit/preflight_after_geometry_corrections.json",
+      "exists": true,
+      "size_bytes": 80449,
+      "sha256": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138"
+    },
+    "byte_identical": true,
+    "declared_safe": true,
+    "matched_table_fields": 5236,
+    "hash_bindings": [
+      {
+        "field": "translation_memory_sha256",
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\final\\translation_memory_draft.json",
+        "declared_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+        "actual_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+        "present": true,
+        "matches": true
+      },
+      {
+        "field": "codebook_sha256",
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\font\\final_v2\\codebook.json",
+        "declared_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+        "actual_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+        "present": true,
+        "matches": true
+      }
+    ],
+    "current": true
+  },
+  "geometry_regression": {
+    "correction_artifact": {
+      "path": "work/translation/fixed_field_fit/geometry_regression_correction.json",
+      "exists": true,
+      "size_bytes": 1313,
+      "sha256": "E2827130EF636951E415831A267EC02260A5B81CE1E6E1B70CAB1217925DC23B"
+    },
+    "repair_validation_artifact": {
+      "path": "work/runtime_validation/fixed_table_geometry_repair_validation.json",
+      "exists": true,
+      "size_bytes": 25659,
+      "sha256": "4A00B580D2288A684977BDDD81F9D504BA436355A96176A394EEFDD4C537ACDB"
+    },
+    "audit_bindings": [
+      {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\fixed_schema_boundary_audit.json",
+        "declared_sha256": "E5502F71E0C22881DBBB64E623F3CF4F048FC1A86E2F7A517F5E76F0CD42788D",
+        "actual_sha256": "E5502F71E0C22881DBBB64E623F3CF4F048FC1A86E2F7A517F5E76F0CD42788D",
+        "matches": true
+      },
+      {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\fixed_table_geometry_audit.json",
+        "declared_sha256": "BEFB8F5FF788CE975EC3C492F67D457218EA1A998D64AE18CFE4D0BD4406AD06",
+        "actual_sha256": "BEFB8F5FF788CE975EC3C492F67D457218EA1A998D64AE18CFE4D0BD4406AD06",
+        "matches": true
+      }
+    ],
+    "current": true
+  },
+  "system_application": {
+    "artifact": {
+      "path": "work/final_system_table_application/application_proof.json",
+      "exists": true,
+      "size_bytes": 14182,
+      "sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1"
+    },
+    "payload_hash_mismatch_count": 0,
+    "payload_hash_mismatches": [],
+    "current": true
+  },
+  "staging": {
+    "manifest": {
+      "path": "work/final_runtime_staging/staging_manifest.json",
+      "exists": true,
+      "size_bytes": 831366,
+      "sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1"
+    },
+    "input_bindings": [
+      {
+        "input": "translation_memory",
+        "declared_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+        "actual_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+        "matches": true
+      },
+      {
+        "input": "codebook",
+        "declared_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+        "actual_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+        "matches": true
+      },
+      {
+        "input": "system_application_proof",
+        "declared_sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1",
+        "actual_sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1",
+        "matches": true
+      }
+    ],
+    "current": true
+  },
+  "text_font_integration_report": {
+    "artifact": {
+      "path": "work/final_text_font_integration_report.json",
+      "exists": true,
+      "size_bytes": 34563,
+      "sha256": "FDED16B9A57D829DA00F5EFCAA3498E6E522A9A7D041FA7D5C5921E37B6B26A8"
+    },
+    "artifact_mismatch_count": 0,
+    "artifact_mismatches": [],
+    "current": true
+  },
+  "existing_release": {
+    "release_artifacts_exist": true,
+    "staging_tree_comparison": {
+      "left": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_runtime_staging\\riivolution_sd",
+      "right": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0\\payload\\riivolution_sd",
+      "left_file_count": 684,
+      "right_file_count": 684,
+      "missing_from_right": [],
+      "extra_in_right": [],
+      "changed_count": 3,
+      "changed": [
+        {
+          "path": "arc_rise_fantasia_ko_full/files/Sys/help.bin",
+          "right_sha256": "43EE00CBCD9157EBCA5117CEBFB4C7D5F442DCDCDABD005555EF55C09CCDE056",
+          "left_sha256": "BD2223EF7063947787313BB1604F46F77ADF866ABB820EEC2F7914A1827F7BCB"
+        },
+        {
+          "path": "arc_rise_fantasia_ko_full/files/Sys/monster_book.bin",
+          "right_sha256": "6E3AC2B274776A337BFCFAB989BCA3E9D07415ADB86FA0D51C01F5D8792298FC",
+          "left_sha256": "D5E74976D8503FFE89E72EEEC8B61600083F827FE60CFA83951199860A59E33D"
+        },
+        {
+          "path": "arc_rise_fantasia_ko_full/files/Sys/system.vol",
+          "right_sha256": "F34B641144D938CC2E42DEF96DC6952285EBEA29D34CDA47B3EBA454C2ACE544",
+          "left_sha256": "66F962EFCF9DF925309B4ACEC56C280A31E196333DA64AE1CD0B355E58B07F57"
+        }
+      ],
+      "equal": false
+    },
+    "release_validation_binding": {
+      "exists": true,
+      "valid_flag": true,
+      "manifest_declared_sha256": "4F05AD29C11FF304FB94F2ED3C713665B1B34E4F5CA289477133288B9C427253",
+      "manifest_actual_sha256": "4F05AD29C11FF304FB94F2ED3C713665B1B34E4F5CA289477133288B9C427253",
+      "manifest_matches": true,
+      "zip_declared_sha256": "086664F46BD84ADD891CD95FE6A81C5D3E58135CD76B419C0C13938F4E102120",
+      "zip_actual_sha256": "086664F46BD84ADD891CD95FE6A81C5D3E58135CD76B419C0C13938F4E102120",
+      "zip_matches": true
+    },
+    "installer_fixture_binding": {
+      "exists": true,
+      "valid_flag": true,
+      "package_root": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0",
+      "package_manifest_sha256": null,
+      "package_manifest_hash_present": false,
+      "package_manifest_hash_matches": false,
+      "passed_count": 5,
+      "failed_count": 0
+    }
+  },
+  "readiness": {
+    "ready_for_text_font_integration_report": true,
+    "ready_for_public_release_build": true,
+    "existing_public_release_matches_current_staging": false,
+    "required_refresh_count": 3,
+    "required_refreshes": [
+      {
+        "id": "public_release",
+        "action": "Rebuild package, ZIP and checksum from current staging."
+      },
+      {
+        "id": "release_validation",
+        "action": "Run validate_final_release.py against the rebuilt package/ZIP/checksum."
+      },
+      {
+        "id": "installer_fixture",
+        "action": "Run the installer fixture against the rebuilt package and record package_manifest_sha256."
+      }
+    ]
+  },
+  "valid": true
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0023",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0023.jsonl",
+  "draft": "work/translation/drafts/batch_0023.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0023.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 13,
+  "unchanged_units": 187,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-58D5992D89B11699B98C",
+      "source_text": "勇者道に、退却の文字はないんだよ！",
+      "before": "용사의 길에 후퇴란 없어!",
+      "after": "용사도에 후퇴란 없어!",
+      "category": "terminology",
+      "reason": "작중에서 하나의 수행 체계로 쓰이는 ‘勇者道’를 ‘용사도’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7331DA7DF8FE479A1058",
+      "source_text": "お前達の力と絆が確かなら\n新たな攻撃が生まれるだろう",
+      "before": "너희의 힘과 유대가 확실하다면\n새로운 공격이 탄생할 것이다",
+      "after": "너희의 힘과 유대가 굳건하다면\n새로운 공격이 탄생할 것이다",
+      "category": "naturalness",
+      "reason": "유대의 확고함을 나타내도록 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-82EEE7EDFC57BCAF3137",
+      "source_text": "モンスターが仲間同士で\n光召術を組み合わせてきたのよ",
+      "before": "몬스터가 동료끼리\n광소술을 조합해 왔어",
+      "after": "몬스터들이 서로\n광소술을 조합해 쓴 거야",
+      "category": "meaning",
+      "reason": "몬스터들이 동료끼리 광소술을 조합하여 사용했다는 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-84D4209D067710878470",
+      "source_text": "おいおい、最近のモンスターは\n芸が細かいな",
+      "before": "이런, 요즘 몬스터는\n재주도 참 섬세하네",
+      "after": "이런, 요즘 몬스터는\n하는 짓도 참 치밀하네",
+      "category": "naturalness",
+      "reason": "‘芸が細かい’의 문맥상 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-85182D838A95053A2314",
+      "source_text": "なんだと",
+      "before": "뭐라고",
+      "after": "뭐라고",
+      "category": "final_validation_integrity_correction",
+      "reason": "Final control-token validation proved that an unrelated next-unit battle tutorial translation had been assigned to this TM ID.",
+      "superseded_invalid_after": "대체 <$15>D4를 얼마나\n갖고 있슴까"
+    },
+    {
+      "tm_id": "ARF-TM-8F5DD0069D4673A25838",
+      "source_text": "まだ本来の力を眠らせているのだと\n言っている",
+      "before": "아직 본래의 힘을 잠재우고 있다고\n말하는 거다",
+      "after": "아직 본래의 힘이 잠들어 있다고\n말하는 거다",
+      "category": "meaning",
+      "reason": "본래의 힘을 의도적으로 재운다는 뜻이 아니라 아직 잠재되어 있다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9DD6598610D71B6D0300",
+      "source_text": "自身が複数の行動を組み合わせると\nより強力な行動を\n生み出すことができる",
+      "before": "자신의 여러 행동을 조합하면\n더 강력한 행동을\n만들어 낼 수 있어",
+      "after": "혼자서 여러 행동을 조합하면\n더 강력한 행동을\n만들어 낼 수 있어",
+      "category": "meaning",
+      "reason": "한 사람이 자신의 복수 행동을 조합하는 기능임을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-C536A6E6963E7897ADA3",
+      "source_text": "エクセルアクトは強大だ。\nそれ故に\nいつでも使えるわけではない",
+      "before": "엑셀 액트는 강대하다.\n그렇기에\n언제나 쓸 수 있는 것은 아니다",
+      "after": "엑셀 액트는 강력하다.\n그렇기에\n언제나 쓸 수 있는 것은 아니다",
+      "category": "naturalness",
+      "reason": "‘강대하다’를 기술의 위력을 나타내는 자연스러운 ‘강력하다’로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-CC5E82871F4F5DC93589",
+      "source_text": "だから、自分の<$15>D4を\n考えてるだけではやっていけないぞ",
+      "before": "그러니까 자기 <$15>D4만\n생각해서는 해낼 수 없어",
+      "after": "그러니까 자기 <$15>D4만\n생각해서는 싸워 나갈 수 없어",
+      "category": "meaning",
+      "reason": "협력 전투를 운용할 수 없다는 ‘やっていけない’의 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-2E5E8C574B32C7CFC6AD",
+      "source_text": "ボクって酸に弱かったんですね",
+      "before": "제가 산에 약했군요",
+      "after": "제가 산성에 약했군요",
+      "category": "meaning",
+      "reason": "‘酸’을 산(山)으로 오해할 수 없도록 산성으로 명확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-58C08369EAF82D0D9C35",
+      "source_text": "はじめに言っておきますが\nボクはおいしくないですよ？",
+      "before": "미리 말씀드리지만\n저는 맛없어요?",
+      "after": "미리 말씀드리지만\n저는 맛없거든요?",
+      "category": "function",
+      "reason": "질문이 아니라 자신은 맛없다는 경고성 어조가 드러나도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-A54392BDA00D729EA32D",
+      "source_text": "ウマナミと呼ばれたことがあります",
+      "before": "우마나미라고 불린 적이 있습니다",
+      "after": "말과 맞먹는다는 소리를 들은 적이 있습니다",
+      "category": "meaning",
+      "reason": "‘ウマナミ(馬並み)’의 말과 견줄 만하다는 말장난을 의미가 전달되게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-64CAEF1E46F67D23478D",
+      "source_text": "オパルスのことが先だろ？",
+      "before": "오팔스 일이 먼저잖아?",
+      "after": "오팔루스 일이 먼저잖아?",
+      "category": "proper_noun",
+      "reason": "승인 지명 ‘오팔루스’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-202605BD2E9F35864D82",
+      "source_text": "ぱっと見は全然ちがうんスけど\n操作盤の模様とか。でも慣れてくると\n帝国軍の船にそっくりっス",
+      "before": "얼핏 보면 전혀 다릅니다만\n조작반 무늬 같은 게요. 그래도 익숙해지면\n제국군 배와 똑같슴다",
+      "after": "얼핏 보면 조작반 무늬 같은 게\n전혀 다르긴 한데요. 그래도 익숙해지면\n제국군 비광정과 똑같슴다",
+      "category": "naturalness",
+      "reason": "조작반의 외형은 다르지만 익숙해지면 제국군 비광정과 같다는 대조 관계를 자연스럽게 정리했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "final_validation_corrections": {
+    "schema": "arf-final-validation-integrity-correction-v1",
+    "reviewer": "/root/audit_boundary_integration",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-85182D838A95053A2314"
+    ],
+    "reason": "Final control-token validation proved that an unrelated next-unit battle tutorial translation had been assigned to this TM ID.",
+    "reviewed_sha256": "83B55BCD902F7FC919325FE3BDD55E5DCD384355BCAF244083636646216C5621"
+  },
+  "hashes": {
+    "reviewed_sha256": "83B55BCD902F7FC919325FE3BDD55E5DCD384355BCAF244083636646216C5621"
+  }
+}

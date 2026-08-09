@@ -1,0 +1,291 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0007",
+  "draft_author": "/root/translate_batch_0007",
+  "reviewer": "/root/review_batch_0007",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0007.jsonl",
+  "draft": "work/translation/drafts/batch_0007.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0007.jsonl",
+  "validation_report": "work/translation/validation/batch_0007_reviewed.json",
+  "fit_report": "work/translation/validation/batch_0007_fit_only.json",
+  "unmatched_analysis": "work/translation/validation/batch_0007_unmatched_analysis.json",
+  "reviewed_units": 200,
+  "modified_units": 42,
+  "unchanged_units": 158,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "system_function_accuracy",
+    "linked_term_particles_and_spacing",
+    "natural_korean",
+    "dummy_and_developer_strings",
+    "control_tokens",
+    "line_breaks",
+    "source_structure_prefixes",
+    "codepage_corruption",
+    "fixed_field_capacity",
+    "canonical_codebook_encoding"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-3E995063593504059CF2",
+      "source_text": "<$13>14<$1F>0000EC<$1F>01<$13>00の力を利用して\n様々な現象を生み出す\n光召技術。\n光召術を使用する際は\n<$13>14<$1F>000008<$1F>01<$13>00を１ポイント消費する",
+      "before": "<$13>14<$1F>0000EC<$1F>01<$13>00의 힘을 이용해\n다양한 현상을 일으키는\n광소 기술.\n광소술을 사용할 때는\n<$13>14<$1F>000008<$1F>01<$13>00 1포인트를 소모한다",
+      "after": "<$13>14<$1F>0000EC<$1F>01<$13>00의 힘을 이용해\n다양한 현상을 일으키는\n광소 기술.\n광소술을 사용할 때는\n<$13>14<$1F>000008<$1F>01<$13>00를 1포인트 소모한다",
+      "category": "linked_term_particle",
+      "reason": "제어 토큰으로 치환될 자원명 뒤 목적격 조사를 보완해 ‘자원을 1포인트 소모한다’는 문장 구조를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-3EA37727C9F91A5AA549",
+      "source_text": "風のコードが刻まれた装身具。\nその風鳴りは抑圧の静寂を打ち破る",
+      "before": "바람의 코드가 새겨진 장신구.\n그 바람 소리는 억압의 침묵을 깨뜨린다",
+      "after": "바람의 코드가 새겨진 장신구.\n그 바람의 울림은 억압의 침묵을 깨뜨린다",
+      "category": "item_flavor_naturalness",
+      "reason": "「風鳴り」를 어색한 ‘바람 소리’보다 장신구의 시적인 설명에 맞는 ‘바람의 울림’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-3F5CF01DF2981D97DA7A",
+      "source_text": "召術師範",
+      "before": "소술 사범",
+      "after": "광소술 사범",
+      "category": "source_catalog_boundary_recovery",
+      "reason": "NUL 스캐너 원문은 선두 「光」을 잃어 ‘召術師範’으로 잘렸지만 구조화된 chat:50:title은 ‘光召術師範’으로 확인되어 화면 의미를 ‘광소술 사범’으로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-4292FF72037D819C5E06",
+      "source_text": "自身の<$13>14<$1F>000007<$1F>01<$13>00を指定した味方\nに譲渡する<$13>14<$1F>00004B<$1F>01<$13>00。\n他のキャラクターで使用\nしたい<$13>14<$1F>00004B<$1F>01<$13>00が\nあるのに<$13>14<$1F>000007<$1F>01<$13>00が足りない。\nでも、自分は余っている。\nそのような時の為の\n<$13>14<$1F>00004B<$1F>01<$13>00である",
+      "before": "자신의 <$13>14<$1F>000007<$1F>01<$13>00를 지정한 아군\n에게 양도하는 <$13>14<$1F>00004B<$1F>01<$13>00.\n다른 캐릭터로 사용\n하고 싶은 <$13>14<$1F>00004B<$1F>01<$13>00은\n있는데 <$13>14<$1F>000007<$1F>01<$13>00가 부족하다.\n하지만 자신은 남아돈다.\n그런 때를 위한\n<$13>14<$1F>00004B<$1F>01<$13>00이다",
+      "after": "자신의 <$13>14<$1F>000007<$1F>01<$13>00를 지정한\n아군에게 양도하는 <$13>14<$1F>00004B<$1F>01<$13>00.\n다른 캐릭터가 쓰고 싶은\n<$13>14<$1F>00004B<$1F>01<$13>00가 있는데\n<$13>14<$1F>000007<$1F>01<$13>00가 부족하다.\n하지만 자신은 남아돈다.\n그럴 때를 위한\n<$13>14<$1F>00004B<$1F>01<$13>00이다",
+      "category": "help_text_grammar",
+      "reason": "‘다른 캐릭터로 사용하고 싶은’의 어색한 주체 관계를 바로잡고, 지정한 아군에게 자원을 양도한다는 기능을 자연스럽게 재구성했다."
+    },
+    {
+      "tm_id": "ARF-TM-42AFA6BB5C04CAF0D529",
+      "source_text": "鮮やかな青と滴るかのような赤が印象的な\n人々に笑いを与えるための衣装",
+      "before": "선명한 파랑과 흘러내리는 듯한 빨강이 인상적인\n사람들에게 웃음을 주기 위한 의상",
+      "after": "선명한 파랑과 흘러내릴 듯한 빨강이 돋보이는\n사람들에게 웃음을 선사하기 위한 의상",
+      "category": "item_flavor_naturalness",
+      "reason": "일본어 수식 관계를 분명히 하고 ‘웃음을 주다’를 의상 설명에 자연스러운 ‘웃음을 선사하다’로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-42B1F05B7A28F4AFDCB5",
+      "source_text": "魔獣の血に１０年浸かったとされる剣。\nその一閃は、魔獣に絶大なる効果を与える",
+      "before": "마수의 피에 10년간 담갔다고 하는 검.\n그 일격은 마수에게 엄청난 효과를 발휘한다",
+      "after": "마수의 피에 10년간 담갔다고 하는 검.\n그 일격은 마수에게 막대한 위력을 발휘한다",
+      "category": "item_flavor_naturalness",
+      "reason": "「絶大なる効果」를 공격용 검의 문맥에 맞게 ‘막대한 위력’으로 옮겨 자연스러움과 효과의 강도를 함께 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-42E4C817A258C9D1DFD2",
+      "source_text": "何の変哲もない水着\n強い陽射しから目を守る黒硝子の眼鏡が付属",
+      "before": "평범한 수영복\n강한 햇빛을 막아 주는 검은 유리 안경이 딸려 있다",
+      "after": "평범한 수영복\n강한 햇빛에서 눈을 보호하는 검은 유리 안경이 딸려 있다",
+      "category": "meaning_omission",
+      "reason": "초벌에서 빠진 보호 대상 「目」를 복원해 안경이 강한 햇빛으로부터 눈을 보호한다는 뜻을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-45E1FC7F11C8B2B0DD5C",
+      "source_text": "荷物の配達を行っているのですが\n私では難しそうなので\n代わりに配達して欲しいのです。\nバトラキテスの広場でお待ちしています。\n　\n※途中で放棄できないクエストです",
+      "before": "화물 배달을 맡고 있지만\n저로서는 어려울 것 같아\n대신 배달해 주셨으면 합니다.\n바트라키테스 광장에서 기다리겠습니다.\n　\n※도중에 포기할 수 없는 퀘스트입니다",
+      "after": "짐을 배달하고 있습니다만\n저로서는 어려울 것 같아\n대신 배달해 주셨으면 합니다.\n바트라키테스 광장에서 기다리겠습니다.\n　\n※도중에 포기할 수 없는 퀘스트입니다",
+      "category": "quest_register_naturalness",
+      "reason": "「荷物」를 과도하게 상업적인 ‘화물’ 대신 일반적인 ‘짐’으로 옮기고 의뢰인의 정중한 말투를 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-46105CD2453198DE0969",
+      "source_text": "<$13>14<$1F>0000F9<$1F>01<$13>00と同じ名を\n与えられたコード。\nイーサのコードを持つ者は\n<$13>14<$1F>0000FB<$1F>01<$13>00と呼ばれる。\nこのコードが、一体\nどのような力を持つのか\nについては不明であるが\n<$13>14<$1F>0000EF<$1F>01<$13>00との契約には\n不可欠であると思われる",
+      "before": "<$13>14<$1F>0000F9<$1F>01<$13>00와 같은 이름이\n붙은 코드.\n이사의 코드를 지닌 자는\n<$13>14<$1F>0000FB<$1F>01<$13>00라 불린다.\n이 코드가 대체\n어떤 힘을 지녔는지는\n알 수 없지만\n<$13>14<$1F>0000EF<$1F>01<$13>00 사이의 계약에는\n없어서는 안 될 것으로 보인다",
+      "after": "<$13>14<$1F>0000F9<$1F>01<$13>00와 같은 이름이\n붙은 코드.\n이사의 코드를 지닌 자는\n<$13>14<$1F>0000FB<$1F>01<$13>00라 불린다.\n이 코드가 대체\n어떤 힘을 지녔는지는\n알 수 없지만\n<$13>14<$1F>0000EF<$1F>01<$13>00와의 계약에는\n없어서는 안 될 것으로 보인다",
+      "category": "linked_term_particle_meaning",
+      "reason": "「〜との契約」를 ‘사이의 계약’이 아니라 제어 토큰 대상과 맺는 ‘〜와의 계약’으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-468B4F41CA2FC098ED41",
+      "source_text": "<$15>01被ダメージ時\n必ず『ぼうぎょ』状態になる",
+      "before": "<$15>01피해를 받을 때\n반드시 ‘방어’ 상태가 된다",
+      "after": "<$15>01피해를 받을 때\n반드시 『방어』 상태가 된다",
+      "category": "system_term_typography",
+      "reason": "앞선 검수본의 전투 명령 표기와 맞춰 원문의 『』를 유지하고 비표준 곡선 따옴표를 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-473A4A1E8F39DEEC88A5",
+      "source_text": "割合で受けるダメージ量を\n大きく抑える",
+      "before": "비율 피해로 받는 피해를\n크게 줄인다",
+      "after": "비율로 받는 피해량을\n크게 줄인다",
+      "category": "system_meaning_naturalness",
+      "reason": "‘비율 피해로 받는 피해’라는 중복·비문을 고쳐 비율 기반 피해량을 크게 줄이는 기능을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-496FC041025A5312D522",
+      "source_text": "<$13>14<$1F>0000A0<$1F>01<$13>00レベル４の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人を<$13>14<$1F>00003B<$1F>01<$13>00状態に\nする。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nクイックワードでは\n効果ターンが長くなる",
+      "before": "<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>00003B<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n퀵 워드에서는\n효과 턴이 길어진다",
+      "after": "<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>00003B<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n퀵 워드에서는\n효과 지속 턴이 늘어난다",
+      "category": "system_naturalness",
+      "reason": "‘효과 턴’이라는 불명확한 표현을 효과의 지속 턴 수가 늘어난다는 의미로 명료화했다."
+    },
+    {
+      "tm_id": "ARF-TM-4AD436B36BAD7345B714",
+      "source_text": "蝶タイの戦闘服",
+      "before": "나비넥타이 전투복",
+      "after": "보타이 전투복",
+      "category": "fixed_field_capacity",
+      "reason": "나비넥타이라는 의미를 유지하는 의류 용어 ‘보타이’를 사용해 아이템명 고정 필드의 NUL 포함 17바이트 한도에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-4BC5F10B70B8F690E72A",
+      "source_text": "イマジナル神へと続く扉を封じるため",
+      "before": "이매지널 신으로 이어지는 문을 봉인하기 위해",
+      "after": "이매지널신으로 이어지는 문을 봉인하기 위해",
+      "category": "glossary_consistency",
+      "reason": "고정 용어집의 합성 신명 표기 ‘이매지널신’을 적용했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_ids": [
+        "ARF-TM-3F5CF01DF2981D97DA7A",
+        "ARF-TM-3F87E04E7711168E32B4",
+        "ARF-TM-410D82BF51825D2DCD20",
+        "ARF-TM-4136069D4049F804C8BF",
+        "ARF-TM-414A33C92A2FC84FF6B5",
+        "ARF-TM-4169F0FA2B97DB7D82B9",
+        "ARF-TM-41A2DD275ABF3326D6E2",
+        "ARF-TM-422E6D2B4497B51D9B8E",
+        "ARF-TM-432D9B41C85466A1F4C0",
+        "ARF-TM-44D10CADA7F92423E0B0",
+        "ARF-TM-44FAF52FB4ECB168C71A",
+        "ARF-TM-451DDEB3476FF2908BCD",
+        "ARF-TM-453BCB348457D350F2FB",
+        "ARF-TM-45D7B2A7161D532B0F45",
+        "ARF-TM-45FD51BF4FAC736D6F03",
+        "ARF-TM-4720AE58E4455576908B",
+        "ARF-TM-479FB04B29220BD37E9F",
+        "ARF-TM-483B4FAEF7494ED5A3A7",
+        "ARF-TM-485D13CD8339FD312340",
+        "ARF-TM-4867B7F0490EC62BADA3",
+        "ARF-TM-4877E561D3BF4DC1675D",
+        "ARF-TM-48D373CD58AA83464FFC",
+        "ARF-TM-48F8EC7F11AE5E76A46B",
+        "ARF-TM-491E2DB0789F0FB93A4A",
+        "ARF-TM-496B0B50CB626DB3E84A",
+        "ARF-TM-496CFEF4DCD1C5E1FBE4",
+        "ARF-TM-4A0F1FC34241C79650D3",
+        "ARF-TM-4AA9405D5EAF47DFFD10",
+        "ARF-TM-4AC68AE1E43586914CEC"
+      ],
+      "severity": "structured_table_boundary_audit_required",
+      "issue": "29개는 NUL 스캐너가 도움말·채팅·메뉴 필드의 선두 구조 바이트를 포함하거나 첫 글자를 잃어 구조화 테이블과 정확히 일치하지 않는다. 로컬 카탈로그 대조에서 27개는 단일 부분문자열 후보, 2개는 복수 후보를 찾았고 무후보는 0개다. ARF-TM-3F5CF01DF2981D97DA7A는 clean field ‘光召術師範’을 근거로 번역 의미를 ‘광소술 사범’으로 복원했지만, 전체 29개 모두 별칭/경계 매핑 승인 전에는 자동 삽입하지 않는다. 나머지 구조 접두부는 보수적으로 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-42D5F542D1C35A12A8CB",
+      "severity": "resizable_quest_pool",
+      "issue": "퀘스트 의뢰인 ‘고양이 마니아’는 기존 11바이트 슬롯에 NUL 포함 14바이트가 필요하지만 quest.bin 가변 문자열 풀 재구축 대상이다. 고정 필드 오버플로로 집계되지 않으며 재빌드 단계에서 처리한다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-3E7F2F225BF2EAB42D0E",
+        "ARF-TM-3FB03D2EB0EAD97E9FD3",
+        "ARF-TM-3FCAF94240D18D12624F",
+        "ARF-TM-403B84CFA83BDAB9640B",
+        "ARF-TM-40ABF2594104D168F90D",
+        "ARF-TM-449829AB0C86B28D1BED",
+        "ARF-TM-44D2C8C67AD659357838",
+        "ARF-TM-44DEC58083FAFCCB9114",
+        "ARF-TM-45FD51BF4FAC736D6F03",
+        "ARF-TM-462C6A462435A7107C9B",
+        "ARF-TM-46307962C0CC6078669C",
+        "ARF-TM-4668A1AB5FBD6DFEEABE",
+        "ARF-TM-46B9B3C51EBD70DB7723",
+        "ARF-TM-497390D5F2799A13E790",
+        "ARF-TM-4A002634298ADEEC34E7",
+        "ARF-TM-4B800E153A9A3A8E116C"
+      ],
+      "severity": "visibility_unconfirmed",
+      "issue": "명시적 더미·퀘스트 더미·※컷 개발 문자열은 의미와 구조를 검수했지만 플레이어 노출 여부는 확정되지 않았다. 런타임 노출 감사 전까지 일반 공개 텍스트와 분리한다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_counts_preserved": true,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "validator_warnings": [],
+    "suspected_codepage_question_mark_corruption": false,
+    "status": "passed"
+  },
+  "fit_validation": {
+    "approved_units": 200,
+    "matched_unique_tm_units": 171,
+    "matched_table_fields": 174,
+    "matched_fields_by_schema": {
+      "ability": 16,
+      "chat": 2,
+      "dragon": 2,
+      "help": 21,
+      "item": 84,
+      "magic": 5,
+      "monster_book": 15,
+      "quest": 7,
+      "special": 5,
+      "todo": 17
+    },
+    "fixed_overflow_count": 0,
+    "resizable_table_in_place_overflow_count": 1,
+    "resizable_overflows": [
+      {
+        "tm_id": "ARF-TM-42D5F542D1C35A12A8CB",
+        "schema": "quest",
+        "catalog": "quest.json",
+        "table_unit_id": "quest:23:requester",
+        "source_text": "ねこマニア",
+        "translation_ko": "고양이 마니아",
+        "encoded_bytes": 13,
+        "required_with_nul": 14,
+        "capacity": 11,
+        "headroom_after_nul": -3,
+        "fits_in_place": false,
+        "table_resizable": true,
+        "matched_via_boundary_audit": false
+      }
+    ],
+    "unmatched_system_tm_count": 29,
+    "encoding_error_count": 0,
+    "global_encoding_error_count": 0,
+    "known_fixed_fields_fit": true,
+    "codebook_note": "canonical_v1을 --existing으로 사용한 append-only 임시 코드북으로 본 배치만 감사했다. 루트 병합 단계에서 최종 승인 코퍼스로 정식 코드북을 다시 확장해야 한다."
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batch_0007.json",
+    "source_sha256": "8A04559A15EFAC784BACDA52E2B68B3AE94B0C157BB956AD731D3D3DF502DD42",
+    "audited_units_in_batch": 29,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0007_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  },
+  "hashes": {
+    "source_sha256": "19A5F86A589FC61E9FDC9AB5BBE3E20C897BA0078A5AB2AD90C5E1D09E62AD4C",
+    "draft_sha256": "5F47D71F7A17F533DD964E5CCAB7547666079780683BE43C57C6D1F0B06938A7",
+    "reviewed_sha256": "124D623196DA556DC03B350F8743E26D2FE389870772F996EE04EC3A7924FB16",
+    "validation_sha256": "FEBC740324EC0BCFEDFBB9241511C2F75643FC7867FFB0351296BF8FBBC4C53E",
+    "fit_report_sha256": "8386010428A4FA187EB2E59A40740D3F0B643BE728DDB3CFB8119B1DC548B936",
+    "unmatched_analysis_sha256": "2B7BBA7FEB1812C529279B879356399E9460049ACFF61D6E7C314F797B22FF6A",
+    "temporary_codebook_sha256": "C2B3EFD964B88FB58B166AEE72EC655DCBBE0E6245A7B69AFFA22F96EF55851A"
+  }
+}

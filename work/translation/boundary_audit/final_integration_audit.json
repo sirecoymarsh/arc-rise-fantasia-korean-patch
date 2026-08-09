@@ -1,0 +1,203 @@
+{
+  "schema": "arf-final-integration-audit-v1",
+  "game_id": "RPJJ99",
+  "audited_at": "2026-08-03T14:57:38+09:00",
+  "audit_mode": "read-only verification; only this JSON report and its Markdown companion were created",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "status": "PASS_STATIC_RUNTIME_PENDING",
+  "checks": {
+    "total": 134,
+    "passed": 134,
+    "failed": 0,
+    "groups": {
+      "policy": { "total": 2, "passed": 2, "failed": 0 },
+      "boundary": { "total": 24, "passed": 24, "failed": 0 },
+      "translation": { "total": 18, "passed": 18, "failed": 0 },
+      "validators": { "total": 32, "passed": 32, "failed": 0 },
+      "fit": { "total": 14, "passed": 14, "failed": 0 },
+      "font": { "total": 12, "passed": 12, "failed": 0 },
+      "application": { "total": 15, "passed": 15, "failed": 0 },
+      "staging": { "total": 10, "passed": 10, "failed": 0 },
+      "final_static": { "total": 7, "passed": 7, "failed": 0 }
+    }
+  },
+  "canonical_boundary_audit": {
+    "path": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+    "expected_sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "actual_sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "hash_match": true,
+    "audited_tm_units": 235,
+    "resolved_tm_units": 235,
+    "ambiguous_tm_units": 0,
+    "unmatched_tm_units": 0,
+    "linked_table_units": 242,
+    "component_count": 5,
+    "component_unit_union_unique": 235,
+    "component_table_link_union_unique": 242,
+    "canonical_units_equal_component_union": true,
+    "all_mapping_evidence_exact_and_raw_verified": true
+  },
+  "canonical_component_hashes": [
+    {
+      "path": "work/translation/boundary_audit/batches_0001_0002.json",
+      "declared_sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+      "actual_sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+      "match": true,
+      "audited_tm_units": 61,
+      "linked_table_units": 68
+    },
+    {
+      "path": "work/translation/boundary_audit/batches_0003_0004.json",
+      "declared_sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+      "actual_sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+      "match": true,
+      "audited_tm_units": 80,
+      "linked_table_units": 80
+    },
+    {
+      "path": "work/translation/boundary_audit/batch_0005.json",
+      "declared_sha256": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+      "actual_sha256": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+      "match": true,
+      "audited_tm_units": 28,
+      "linked_table_units": 28
+    },
+    {
+      "path": "work/translation/boundary_audit/batch_0006.json",
+      "declared_sha256": "DE12AA2273139430E54DF9A7FE2024E4CF3C33ACA0FFE6D08CDC0684584B5E7F",
+      "actual_sha256": "DE12AA2273139430E54DF9A7FE2024E4CF3C33ACA0FFE6D08CDC0684584B5E7F",
+      "match": true,
+      "audited_tm_units": 37,
+      "linked_table_units": 37
+    },
+    {
+      "path": "work/translation/boundary_audit/batch_0007.json",
+      "declared_sha256": "8A04559A15EFAC784BACDA52E2B68B3AE94B0C157BB956AD731D3D3DF502DD42",
+      "actual_sha256": "8A04559A15EFAC784BACDA52E2B68B3AE94B0C157BB956AD731D3D3DF502DD42",
+      "match": true,
+      "audited_tm_units": 29,
+      "linked_table_units": 29
+    }
+  ],
+  "historical_capacity_remediation": {
+    "status": "verified_resolved_downstream",
+    "tm_id": "ARF-TM-019ABE60D53A27F0D5E8",
+    "canonical_audit_translation": "코핀에게 전해 내려오는 진실",
+    "canonical_audit_finding": "overflow_requires_rewrite_or_resizable_path",
+    "final_approved_translation": "코핀에게 전해진 진실",
+    "final_replacement_table_unit": "help:295:title",
+    "final_encoded_payload_bytes": 20,
+    "maximum_payload_bytes": 20,
+    "replacement_catalog_tm_id_match": true,
+    "verification_catalog_raw_hex_match": true,
+    "final_fit_fixed_overflow_count": 0
+  },
+  "translation": {
+    "total_tm_units": 29777,
+    "approved_units": 1400,
+    "reviewed_units": 1400,
+    "nonempty_targets": 1400,
+    "translated_occurrences": 1921,
+    "total_occurrences": 84761,
+    "reviewed_batch_count": 7,
+    "reviewed_union_unique_tm_ids": 1400,
+    "reviewed_union_matches_merged_tm": true,
+    "boundary_tm_ids_present_and_approved": 235,
+    "boundary_links_applied_and_hex_verified": 242
+  },
+  "validators": [
+    { "batch": "batch_0001", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "A403B37DAAB92ACF61243E67427D06565285989A7784A3CC5098639BE781F947" },
+    { "batch": "batch_0002", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "701B368E0B3E78C030E0B89EB4D27CEBA31D6A6A736728775AD3AAA3258F2739" },
+    { "batch": "batch_0003", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "E2C870935C2CA75A05774272C57F0C62FA9DA8159840216B377C4E224B592489" },
+    { "batch": "batch_0004", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "14A15A494EB374F9F9BE9B64A59CB2E9A93E245AD7472A98E3DDFCE5379E20FB" },
+    { "batch": "batch_0005", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "0E65249B4DC7BAEB2C908E819D9400CF84B3A8F95B6161EFB17F1CB914DADDDD" },
+    { "batch": "batch_0006", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "6AF377C5EB67BD61652B0373C506C6BACC9E1603E5A3EA98178FE0FF8F007722" },
+    { "batch": "batch_0007", "completed_units": 200, "error_count": 0, "warning_count": 0, "valid": true, "sha256": "FEBC740324EC0BCFEDFBB9241511C2F75643FC7867FFB0351296BF8FBBC4C53E" }
+  ],
+  "fit": {
+    "approved_tm_units": 1400,
+    "matched_unique_tm_units": 1400,
+    "matched_table_fields": 1935,
+    "matched_schemas": 13,
+    "fixed_overflow_count": 0,
+    "resizable_table_in_place_overflow_count": 66,
+    "unmatched_system_tm_count": 0,
+    "encoding_error_count": 0,
+    "global_encoding_error_count": 0,
+    "known_fixed_fields_fit": true,
+    "safe_for_fixed_table_insertion": true
+  },
+  "font": {
+    "assigned_characters": 784,
+    "reserved_source_pairs": 2227,
+    "reserved_pair_collisions": 0,
+    "approved_units_encoded": 1400,
+    "approved_unit_encoding_errors": 0,
+    "verification_error_count": 0,
+    "pages": 9,
+    "manifest_source_and_output_hashes_checked": 18,
+    "manifest_hash_mismatches": 0,
+    "codebook_sha256": "C2B3EFD964B88FB58B166AEE72EC655DCBBE0E6245A7B69AFFA22F96EF55851A",
+    "injection_manifest_sha256": "DA9A8C0E4CE6B67BC741E42356C155F4DC89054DF33F1CE32FFAAE1C42AD33A0",
+    "valid": true
+  },
+  "table_application": {
+    "approved_system_tm_units": 1400,
+    "applied_unique_tm_units": 1400,
+    "replacement_table_fields": 1935,
+    "payloads_rebuilt": 13,
+    "boundary_mapped_fields": 242,
+    "fixed_payload_changes_outside_declared_slots": 0,
+    "verification_error_count": 0,
+    "payload_component_hashes_checked": 52,
+    "payload_component_hash_mismatches": 0,
+    "translation_memory_sha256_matches_actual": true,
+    "codebook_sha256_matches_actual": true,
+    "boundary_audit_sha256_matches_actual": true,
+    "valid": true
+  },
+  "partial_runtime_staging": {
+    "edited_system_vol_entries": 20,
+    "direct_files": 2,
+    "staged_file_hashes_checked": 5,
+    "staged_file_hash_mismatches": 0,
+    "static_error_count": 0,
+    "riivolution_xml_manifest_valid": true,
+    "riivolution_xml_actual_parse_valid": true,
+    "riivolution_xml_root": "wiidisc",
+    "static_valid": true,
+    "runtime_ready_release": false,
+    "dolphin_screen_test": "pending"
+  },
+  "final_static_verification": {
+    "error_count": 0,
+    "valid": true,
+    "canonical_hash_matches_actual": true,
+    "validator_hashes_match_actual": true,
+    "snapshots_match_component_reports": true
+  },
+  "input_hashes": {
+    "work/translation/current/coverage.json": "5C4CA079FF4A5A10F6B775197EF9076A6F3E036F4D4BBDAECE0C0F217AABAD66",
+    "work/translation/current/translation_memory_draft.json": "EA80A6C38B6FDEE64997F6BE9D9E2314F1198032AFE44D299BDDC0D1EDC3CC3F",
+    "work/translation/boundary_audit/canonical_system_boundary_audit.json": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "work/translation/validation/batch_0001_reviewed.json": "A403B37DAAB92ACF61243E67427D06565285989A7784A3CC5098639BE781F947",
+    "work/translation/validation/batch_0002_reviewed.json": "701B368E0B3E78C030E0B89EB4D27CEBA31D6A6A736728775AD3AAA3258F2739",
+    "work/translation/validation/batch_0003_reviewed.json": "E2C870935C2CA75A05774272C57F0C62FA9DA8159840216B377C4E224B592489",
+    "work/translation/validation/batch_0004_reviewed.json": "14A15A494EB374F9F9BE9B64A59CB2E9A93E245AD7472A98E3DDFCE5379E20FB",
+    "work/translation/validation/batch_0005_reviewed.json": "0E65249B4DC7BAEB2C908E819D9400CF84B3A8F95B6161EFB17F1CB914DADDDD",
+    "work/translation/validation/batch_0006_reviewed.json": "6AF377C5EB67BD61652B0373C506C6BACC9E1603E5A3EA98178FE0FF8F007722",
+    "work/translation/validation/batch_0007_reviewed.json": "FEBC740324EC0BCFEDFBB9241511C2F75643FC7867FFB0351296BF8FBBC4C53E",
+    "work/font/canonical_v1/fit_preflight.json": "608D7E9B6F54DC69C4D3AF0D621C3D914BD7E3803B1D15870CF2090A7AAE808F",
+    "work/font/canonical_v1/injection_verification.json": "D88598C0166F1BE244D6F8C80208453F316CD92BAE44F21D6A670FEDB191345C",
+    "work/system_table_application/application_proof.json": "52F8538407321B81AE69E590C3CAF76BFBE7EF9448540AD9141A5CB3711C3ABE",
+    "work/partial_runtime_staging/staging_manifest.json": "252BDB9F243A7C631BD5A06BBEC611E4FBF74EABCEC39E3ECFDB9DDB6B5B23C4",
+    "work/validation/final_static_verification.json": "FA5B6D81C7900B1313DB33529E9E278D351FB8E480F8997FEA0E292F5E1D9AF3"
+  },
+  "limitations": {
+    "static_integration_verified": true,
+    "dolphin_runtime_screen_test_completed": false,
+    "release_readiness_claimed": false,
+    "production_files_modified_by_this_audit": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "arf-final-validation-integrity-corrections-v1",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "reviewer": "/root/audit_boundary_integration",
+  "correction_count": 3,
+  "corrections": [
+    {
+      "batch": "batch_0023",
+      "tm_id": "ARF-TM-85182D838A95053A2314",
+      "source_text": "なんだと",
+      "invalid_reviewed_translation": "대체 <$15>D4를 얼마나\n갖고 있슴까",
+      "restored_translation": "뭐라고",
+      "reason": "Final control-token validation proved that an unrelated next-unit battle tutorial translation had been assigned to this TM ID.",
+      "reviewed_sha256_before": "126BC5932094E2A4CD992FAA68645F63B80B105945210E59BC32523CCDDEED7F",
+      "reviewed_sha256_after": "83B55BCD902F7FC919325FE3BDD55E5DCD384355BCAF244083636646216C5621",
+      "review_report_sha256_after": "76D5CFECDF9966589376248F72B020268D90BCA82912ED9A328971DD84580167"
+    },
+    {
+      "batch": "batch_0083",
+      "tm_id": "ARF-TM-1E9A93552C32759F440D",
+      "source_text": "ええ。\nグラ慈恵教会のサージュよ",
+      "invalid_reviewed_translation": "어머, 도련님……\n누나한테 무슨 볼일이야?<$0C>나도 심심했으니까\n잠깐이라면\n놀아 줄 수도 있어♪",
+      "restored_translation": "그래.\n그라 자혜교회의 사쥬야",
+      "reason": "Final control-token and source-meaning validation proved that text from batch_0082 had been copied into this unrelated TM ID.",
+      "reviewed_sha256_before": "3F507A7D44ADBFC141D8D9F659BA72B570C2421E4EBCA379F6D7A7C9D496FA2E",
+      "reviewed_sha256_after": "A498AAB292B2D5E8CD870B020464BB5560A357CCF128533203648EB90C62D66B",
+      "review_report_sha256_after": "6024BD89119CC5493ADF96E37904F38649D597798A58AE6C9FBCAEA729A70E31"
+    },
+    {
+      "batch": "batch_0116",
+      "tm_id": "ARF-TM-9FD5DB54DC7DD5DC1DB0",
+      "source_text": "……用がないなら\n話しかけないでもらおう",
+      "invalid_reviewed_translation": "원로원에서는 현재――\n많은 의원들로 인해\n회의가 난항을 겪고 있습니다<$0C>등원하시는 건 좋지만\n부디 주의하십시오",
+      "restored_translation": "……용건이 없다면\n말 걸지 말아 주겠나",
+      "reason": "Final control-token and source-meaning validation proved that text from batch_0115 had been copied into this unrelated TM ID.",
+      "reviewed_sha256_before": "4095B13A256E71DA18040FB9F86A3F01B0FA3DA49B8764A601CE479DFE43F38C",
+      "reviewed_sha256_after": "BDCA559E8B15DB882A991AA8C25F69D0359DDC9E687A4AC20C252717E0272E3F",
+      "review_report_sha256_after": "515BA28F7939B62B5CB64D61F92B1FD67759037DC20D087CECBA6DBB64B9BA63"
+    }
+  ]
+}

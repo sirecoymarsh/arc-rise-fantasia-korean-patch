@@ -1,0 +1,243 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0086",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0086.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0086.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0086.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 23,
+  "unchanged_row_count": 177,
+  "modifications": [
+    {
+      "row_index": 9,
+      "tm_id": "ARF-TM-27AF8D6E30BDDEE48E2E",
+      "source_text": "……ふん。認可傭兵如きが\n皇太子殿下のご威光を笠に着おって",
+      "before": "……흥. 인가 용병 따위가\n황태자 전하의 위광을 등에 업고",
+      "after": "……흥. 공인 용병 따위가\n황태자 전하의 위광을 등에 업고",
+      "category": "terminology",
+      "reason": "認可傭兵의 확정 표기 '공인 용병'을 적용했다."
+    },
+    {
+      "row_index": 38,
+      "tm_id": "ARF-TM-283604C2B6E03505A2E0",
+      "source_text": "オルキナの月の\n話でビビッてるヤツが\n何人かいるようだが――<$0C>こんな遠く離れた地で\nビビってるようじゃ世話ないな",
+      "before": "오르키나의 달\n이야기에 겁먹은 녀석이\n몇 명 있는 모양인데――<$0C>이렇게 멀리 떨어진 곳에서\n겁먹어서야 못 봐 주겠군",
+      "after": "오르키나의 달\n이야기에 겁먹은 녀석이\n몇 명 있는 모양인데――<$0C>이렇게 멀리 떨어진 곳에서\n겁먹고 있다니 한심하군",
+      "category": "semantic_accuracy",
+      "reason": "世話ない를 돌봐 줄 수 없다는 뜻이 아니라 한심하다는 비꼼으로 옮겼다."
+    },
+    {
+      "row_index": 48,
+      "tm_id": "ARF-TM-2862D3570FA15D7EDF7A",
+      "source_text": "辺境の森D01から\n",
+      "before": "변경의 숲D01에서\n",
+      "after": "변경의 숲 D01에서\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 50,
+      "tm_id": "ARF-TM-28643B9D74866566A51E",
+      "source_text": "ディアマントT05へ\n",
+      "before": "디아만트T05로\n",
+      "after": "디아만트 T05로\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 52,
+      "tm_id": "ARF-TM-2872DF3958A3342591B6",
+      "source_text": "カルブンクルスT01左へ\n",
+      "before": "카르분클루스T01 왼쪽으로\n",
+      "after": "카르분클루스 T01 왼쪽으로\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 54,
+      "tm_id": "ARF-TM-287F8682B547E4842E8A",
+      "source_text": "健やかなる旅のお伴に\n『股旅兄弟舎』が丹精こめて\n作り上げた地図はいかがです？<$0C>来るべき商いに向けて\n旅人の方には無償で提供中です。\nささ、あなたも遠慮なさらずに……",
+      "before": "건강한 여행의 동반자로\n『마타타비 형제사』가 정성껏\n만든 지도는 어떠십니까?<$0C>다가올 장사를 위해\n여행자에게 무료 제공 중입니다.\n자, 당신도 사양하지 마시고……",
+      "after": "순조로운 여행길의 동반자로\n『마타타비 형제사』가 정성껏\n만든 지도는 어떠십니까?<$0C>다가올 장사를 위해\n여행자에게 무료 제공 중입니다.\n자, 당신도 사양하지 마시고……",
+      "category": "naturalness",
+      "reason": "健やかなる旅를 사람의 건강이 아니라 순조로운 여행을 기원하는 홍보 문구로 다듬었다."
+    },
+    {
+      "row_index": 85,
+      "tm_id": "ARF-TM-28F9090B67AFB4551E0F",
+      "source_text": "ノワーレの小屋７へ\n",
+      "before": "노와레 오두막７로\n",
+      "after": "노와레 오두막 ７로\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별 숫자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 86,
+      "tm_id": "ARF-TM-28FFD431C8C3808815FE",
+      "source_text": "グリーンヒル議長！\nお戻りになられましたか――<$0C>是非とも、この先の議場まで\nご登院くださいませ",
+      "before": "그린힐 의장님!\n돌아오셨습니까――<$0C>부디 이 앞의 의장까지\n등원해 주십시오",
+      "after": "그린힐 의장님!\n돌아오셨습니까――<$0C>부디 이 앞의 의사당까지\n등원해 주십시오",
+      "category": "semantic_accuracy",
+      "reason": "議場를 직책인 '의장'이 아니라 회의 장소인 '의사당'으로 바로잡았다."
+    },
+    {
+      "row_index": 88,
+      "tm_id": "ARF-TM-2908E4CEA5692C217E0A",
+      "source_text": "自分の始末は\n自分でつけることにしよう",
+      "before": "내 처리는\n내 손으로 하도록 하지",
+      "after": "내 일은\n내 손으로 끝내도록 하지",
+      "category": "naturalness",
+      "reason": "自分の始末をつける를 부자연스러운 '내 처리' 대신 스스로 결말을 낸다는 뜻으로 옮겼다."
+    },
+    {
+      "row_index": 91,
+      "tm_id": "ARF-TM-29157ECD857B38E1FC03",
+      "source_text": "今度、娯楽街に行ったら\nお父さんにいいつけますよ？\n子どもがいくところじゃないの！",
+      "before": "다음에 유흥가에 가면\n아빠한테 이를 거야?\n아이가 갈 곳이 아니야!",
+      "after": "다음에 또 유흥가에 가면\n아빠한테 이를 거예요!\n아이가 갈 곳이 아니라고요!",
+      "category": "semantic_accuracy",
+      "reason": "상대를 타이르는 경고를 질문처럼 옮긴 부분을 바로잡았다."
+    },
+    {
+      "row_index": 110,
+      "tm_id": "ARF-TM-297A462F92B59046F080",
+      "source_text": "ディアマントT05　その他から\n",
+      "before": "디아만트T05　기타에서\n",
+      "after": "디아만트 T05　기타에서\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 113,
+      "tm_id": "ARF-TM-298499B83F9F571CE8E5",
+      "source_text": "休んだお陰で体は絶好調！\n次のアントラクス市街への\n警備任務までにはバッチリ！",
+      "before": "쉰 덕분에 몸은 절호조!\n다음 안트락스 시가지\n경비 임무까지는 완벽해!",
+      "after": "쉰 덕분에 몸은 절호조!\n다음 안트락스 시가지\n경비 임무도 문제없어!",
+      "category": "naturalness",
+      "reason": "次の任務までにはバッチリ를 다음 임무를 수행할 준비가 됐다는 뜻으로 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 120,
+      "tm_id": "ARF-TM-299A3B34A0E70F2FAE07",
+      "source_text": "祖国に反逆の刃を向け\n実の兄をその手にかけ\nついに玉座を手に入れた男……<$0C>アルス様の半生って演劇みたい。\nそれにあの憂いに満ちた\nご尊顔は正直、反則だと思うわ",
+      "before": "조국에 반역의 칼날을 겨누고\n친형을 자기 손으로 죽이고\n마침내 왕좌를 손에 넣은 남자……<$0C>알스 님의 반생은 연극 같아.\n게다가 그 근심 가득한\n존안은 솔직히 반칙이라고 생각해",
+      "after": "조국에 반역의 칼날을 겨누고\n친형을 자기 손으로 죽이고\n마침내 왕좌를 손에 넣은 남자……<$0C>알스 님의 삶은 연극 같아.\n게다가 그 근심 가득한\n존안은 솔직히 반칙이라고 생각해",
+      "category": "naturalness",
+      "reason": "半生을 한국어 대사에서 낯선 한자어 대신 한 사람의 삶이라는 뜻으로 풀었다."
+    },
+    {
+      "row_index": 131,
+      "tm_id": "ARF-TM-29F140EC6B8713A51CCE",
+      "source_text": "十分だ。\n新たな未来を選んだ人の子よ\n私と契約して欲しい",
+      "before": "충분하다.\n새로운 미래를 선택한 인간의 아이여\n나와 계약해 줬으면 한다",
+      "after": "충분하다.\n새로운 미래를 선택한 인간의 아이여\n나와 계약하기를 바란다",
+      "category": "character_voice",
+      "reason": "신적 존재의 계약 요청을 장중한 어조로 다듬었다."
+    },
+    {
+      "row_index": 132,
+      "tm_id": "ARF-TM-29F859A85B3A9B36F611",
+      "source_text": "一度、メリディアの兵たちに\n酷い目に遭わされてしまってから\n父はすっかり弱気なの<$0C>だから。わたしがこうして、ね",
+      "before": "한번 메리디아 병사들에게\n몹쓸 일을 당하고 나서\n아버지는 완전히 소심해졌어<$0C>그러니까. 내가 이렇게, 있잖아",
+      "after": "한번 메리디아 병사들에게\n몹쓸 일을 당하고 나서\n아버지는 완전히 소심해졌어<$0C>그래서 내가 이렇게 나선 거야",
+      "category": "naturalness",
+      "reason": "だから。わたしがこうして의 생략된 행동 관계를 문맥에 맞는 완성 문장으로 옮겼다."
+    },
+    {
+      "row_index": 135,
+      "tm_id": "ARF-TM-2A0561AEF58FF01F5FC5",
+      "source_text": "あんまり意固地になってると\n掴めるチャンスも掴めないぜ？",
+      "before": "너무 고집만 부리면\n잡을 수 있는 기회도 놓쳐 버린다?",
+      "after": "너무 고집만 부리면\n잡을 수 있는 기회도 놓치게 돼",
+      "category": "naturalness",
+      "reason": "충고문을 어색한 의문형으로 끝낸 부분을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 142,
+      "tm_id": "ARF-TM-2A31F4B13DA3B754A04F",
+      "source_text": "ディアマント城D02（左側）へ\n",
+      "before": "디아만트성D02（왼쪽）으로\n",
+      "after": "디아만트성 D02(왼쪽)으로\n",
+      "category": "formatting",
+      "reason": "확정 지명과 맵 식별자를 구분하고 방향 괄호를 한국어 표기로 정리했다."
+    },
+    {
+      "row_index": 149,
+      "tm_id": "ARF-TM-2A5F0194E2915790DB54",
+      "source_text": "この大聖堂は襲撃から免れた……\n皆、そうおっしゃいますが\n私には、そうは思えないんです<$0C>ホゼア聖下の高き神格が\n降りかかる邪気を退けた……\nそう思えてなりません",
+      "before": "이 대성당은 습격을 피했다……\n다들 그렇게 말하지만\n저는 그렇게 생각하지 않습니다<$0C>호제아 성하의 높은 신격이\n닥쳐오는 사기를 물리쳤다……\n그렇게밖에 생각되지 않습니다",
+      "after": "이 대성당은 습격을 피했다……\n다들 그렇게 말하지만\n저는 그렇게 생각하지 않습니다<$0C>호제아 성하의 높은 신격이\n닥쳐오는 사기를 물리쳤다……\n그렇게 생각하지 않을 수 없습니다",
+      "category": "semantic_accuracy",
+      "reason": "そう思えてなりません를 다른 가능성을 배제한다는 뜻이 아니라 그렇게 생각하지 않을 수 없다는 의미로 옮겼다."
+    },
+    {
+      "row_index": 152,
+      "tm_id": "ARF-TM-2A7A3BAB9596CA63570B",
+      "source_text": "んなわけあるか！<$0C>荷物が一杯で持てないから\nエブルまで持っていけと\n頼まれたんだよ！",
+      "before": "그럴 리가 있겠냐!<$0C>짐이 가득해서 못 들고 가니\n에브루까지 가져가 달라는\n부탁을 받은 거야!",
+      "after": "그럴 리가 있겠냐!<$0C>짐이 가득해서 못 들고 가니\n에블까지 가져가 달라는\n부탁을 받은 거야!",
+      "category": "terminology",
+      "reason": "エブル의 확정 지명 표기 '에블'을 적용했다."
+    },
+    {
+      "row_index": 170,
+      "tm_id": "ARF-TM-2AD4FEBD1FEA758BFC48",
+      "source_text": "ごめんなさい。\nあまり話してはいけないの",
+      "before": "미안해요.\n별로 이야기하면 안 돼요",
+      "after": "미안해요.\n말을 많이 해서는 안 돼요",
+      "category": "naturalness",
+      "reason": "あまり話してはいけない를 '별로 이야기하다'라는 직역투 없이 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 173,
+      "tm_id": "ARF-TM-2AD8D7E6663DF3752DF1",
+      "source_text": "高い塔D01へ\n",
+      "before": "높은 탑D01로\n",
+      "after": "높은 탑 D01로\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 181,
+      "tm_id": "ARF-TM-2AF579C35ED88A7966CE",
+      "source_text": "私の親戚の者たちの中には\n私の厳しい教育方針を\n誤っているという者もいます<$0C>それでも、私は１人の親として\n子どもに正しく育ってほしいと\n思っているわ",
+      "before": "내 친척 중에는\n나의 엄격한 교육 방침이\n잘못됐다는 사람도 있습니다<$0C>그래도 나는 한 명의 부모로서\n아이가 올바르게 자라길\n바라요",
+      "after": "내 친척 중에는\n나의 엄격한 교육 방침이\n잘못됐다는 사람도 있습니다<$0C>그래도 나는 １인의 부모로서\n아이가 올바르게 자라길\n바라요",
+      "category": "naturalness",
+      "reason": "１人の親를 중복된 '한 명의 부모' 대신 자연스러운 자격 표현으로 다듬으면서 숫자를 보존했다."
+    },
+    {
+      "row_index": 184,
+      "tm_id": "ARF-TM-2B01E665BAB221FCE1DE",
+      "source_text": "もはやアルス陛下は\n皇帝の器にあらず――<$0C>私たち良識のある帝国臣民たちが\nいたずらに民を苦しめる皇帝を\n玉座からひきずりおろす時だ",
+      "before": "알스 폐하는 이제\n황제의 그릇이 아니다――<$0C>우리 양식 있는 제국 신민들이\n괜히 백성을 괴롭히는 황제를\n왕좌에서 끌어내릴 때다",
+      "after": "알스 폐하는 이제\n황제의 그릇이 아니다――<$0C>우리 양식 있는 제국 신민들이\n무익하게 백성을 괴롭히는 황제를\n왕좌에서 끌어내릴 때다",
+      "category": "word_choice",
+      "reason": "いたずらに를 구어적인 '괜히'보다 공식 대사에 맞는 '무익하게'로 옮겼다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

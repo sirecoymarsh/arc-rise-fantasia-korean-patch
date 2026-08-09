@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0049",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0049.jsonl",
+  "draft": "work/translation/drafts/batch_0049.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0049.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-9809194DAE1BF76AB41D",
+      "source_text": "つか、そもそもここは\n共和国じゃねぇんだ。\n誰もお前を敬う必要はねぇ",
+      "before": "애초에 여긴\n공화국도 아니야.\n아무도 널 떠받들 필요 없어",
+      "after": "애초에 여긴\n공화국이 아니야.\n아무도 널 떠받들 필요 없어",
+      "category": "meaning",
+      "reason": "공화국도 아니라는 추가 의미가 생기지 않도록 원문의 단정 표현을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9B336F186817089137CE",
+      "source_text": "オイゲンはそんな奴じゃないよぉ",
+      "before": "오이겐은 그런 녀석 아니야아",
+      "after": "오이겐은 그런 녀석이 아니라고오",
+      "category": "speaker_voice",
+      "reason": "부정문의 필수 조사와 늘여 말하는 어조를 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-A8E0584739D8B7A46E7B",
+      "source_text": "や、だけど、ほら\n俺、後方支援向きってゆーか……",
+      "before": "아니, 근데, 있잖아\n나는 후방 지원 체질이라고 할까……",
+      "after": "아니, 근데, 있잖아\n나는 후방 지원에 맞는 편이랄까……",
+      "category": "naturalness",
+      "reason": "후방 지원에 적합하다는 뜻을 한국어 구어체로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-AC0D1C59DFE43EA93687",
+      "source_text": "あんたら異教徒は\n怖〜い皇太子様に\n串刺しにされるかもな",
+      "before": "너희 이교도들은\n무서〜운 황태자 전하께\n꼬챙이가 될지도 몰라",
+      "after": "너희 이교도들은\n무서〜운 황태자 전하께\n꼬챙이에 꿰일지도 몰라",
+      "category": "grammar",
+      "reason": "꼬챙이에 꿰인다는 원문의 위협이 자연스럽게 성립하도록 서술어를 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-B35DCF297F69CECFE977",
+      "source_text": "とにかくアニキ\nすぐ助けに行って下さい！",
+      "before": "아무튼 형님\n당장 도와주러 가 주세요!",
+      "after": "아무튼 형님\n당장 구하러 가 주세요!",
+      "category": "meaning",
+      "reason": "습격당한 이들을 구조하러 가라는 뜻이 드러나도록 동사를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-B54B8041541228D5A245",
+      "source_text": "ラルクたちは\nすでにこの先へと向かっている\nお前たちも……",
+      "before": "라르크 일행은\n이미 이 앞을 향하고 있다\n너희도……",
+      "after": "라르크 일행은\n이미 이 앞쪽으로 가고 있다\n너희도……",
+      "category": "naturalness",
+      "reason": "앞으로 향하고 있다는 진행 의미를 자연스러운 한국어로 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-B96F4ED5179E260AACB6",
+      "source_text": "よし、ちょっと覗いてくるか",
+      "before": "좋아, 잠깐 들여다볼까",
+      "after": "좋아, 잠깐 보고 올까",
+      "category": "meaning",
+      "reason": "직접 가서 상황을 살펴본다는 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-C406A43DA59BB4F49A1D",
+      "source_text": "――理解しているつもりだ、ディノス",
+      "before": "――이해하고 있다고 생각해, 디노스",
+      "after": "――이해하고 있어, 디노스",
+      "category": "naturalness",
+      "reason": "직역투인 자기 인식 표현을 간결하고 자연스러운 대사로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C55B9FD7030038E0E6D7",
+      "source_text": "さてと。\nおふくろに声かけてくるか",
+      "before": "그럼.\n엄마한테 말 걸고 올까",
+      "after": "그럼.\n엄마한테 얘기하고 올까",
+      "category": "naturalness",
+      "reason": "어머니에게 말을 건네러 간다는 뜻을 문맥에 맞는 구어체로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-C66EA11074B986E6543A",
+      "source_text": "な……な……！\nお、お、落ち着いて\n休めないだろーが！",
+      "before": "나…… 나……!\n차, 차분하게\n쉴 수가 없잖아!",
+      "after": "뭐…… 뭐……!\n차, 차분하게\n쉴 수가 없잖아!",
+      "category": "speaker_voice",
+      "reason": "당황해 말을 더듬는 감탄이 일인칭 대명사로 오해되지 않도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-CBA1A2001BA825E37A56",
+      "source_text": "すまない。僕の力が至らなくて\nラルクを酷い目に遭わせてしまって……",
+      "before": "미안해. 내 힘이 부족해서\n라르크가 끔찍한 일을 당하게 했어……",
+      "after": "미안해. 내 힘이 부족해서\n라르크를 끔찍한 일에 휘말리게 했어……",
+      "category": "grammar",
+      "reason": "라르크가 피해를 입게 했다는 사역 관계가 올바르게 드러나도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-CD428A4CE4F7CB920E27",
+      "source_text": "鷹ァ!?　そんなまた\nあてになるんだか\nならないんだか……",
+      "before": "매라고!? 또 그런\n믿을 만한 건지\n아닌지도 모를 걸로……",
+      "after": "매라고!? 또\n믿을 만한지 아닌지도\n모를 방법을 쓰자고……",
+      "category": "naturalness",
+      "reason": "매를 이용한 연락 수단의 신뢰성을 의심하는 대사를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D2AFFDF3DAC5FC935010",
+      "source_text": "ほえ……今のが契約……！",
+      "before": "호에…… 지금 게 계약……!",
+      "after": "호에…… 방금 게 계약……!",
+      "category": "grammar",
+      "reason": "'지금 게'라는 어색한 결합을 문맥에 맞는 '방금 게'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-D307FE470F2A3D7A37B7",
+      "source_text": "オルキナ教は現世での祈りと殉教で\n来世の繁栄を約束する教えですから\n忌み嫌われてしまうのでしょうね",
+      "before": "오르키나교는 현세에서의 기도와 순교로\n내세의 번영을 약속하는 가르침이라\n꺼림칙하게 여겨지는 거겠지요",
+      "after": "오르키나교는 현세의 기도와 순교로\n내세의 번영을 약속하는 가르침이기에\n배척당하는 거겠지요",
+      "category": "meaning",
+      "reason": "교리가 사람들에게 기피되고 배척된다는 원문의 의미와 문장 흐름을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-D68499C8CEF3AD3A66CA",
+      "source_text": "ま、別に\nイーサの子だとかってのに\n興味はねぇし、いいけどな",
+      "before": "뭐, 딱히\n이사의 아들이니 뭐니 하는 데\n관심은 없으니 상관없지만",
+      "after": "뭐, 딱히\n이사의 아이니 뭐니 하는 데\n관심은 없으니 상관없지만",
+      "category": "terminology",
+      "reason": "설정 용어 '이사의 아이'를 성별이 한정되는 '아들'과 구분했다."
+    },
+    {
+      "tm_id": "ARF-TM-DC9AF4A7C34678196037",
+      "source_text": "もう１組を率いるのは……\nオイゲン、あなたが適任だと思う",
+      "before": "다른 １개 조를 이끌 사람은……\n오이겐, 당신이 적임자라고 생각해",
+      "after": "나머지 １개 조를 이끌 사람은……\n오이겐, 당신이 적임자라고 생각해",
+      "category": "naturalness",
+      "reason": "두 번째 조를 가리키는 표현을 자연스럽게 다듬고 전각 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-E3CF3D1838CF350DC114",
+      "source_text": "どちらを連れて行きますか？",
+      "before": "누구를 데려가시겠습니까?",
+      "after": "둘 중 누구를 데려가시겠습니까?",
+      "category": "meaning",
+      "reason": "제시된 두 사람 가운데 한 명을 고르는 선택문임을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-E55C01295195934A7EDE",
+      "source_text": "ピンチに陥った少女を救うのは\n颯爽と現れる勇者様の役目だよねっ！",
+      "before": "위기에 빠진 소녀를 구하는 건\n멋지게 나타난 용사님의 역할이지!",
+      "after": "위기에 빠진 소녀를 구하는 건\n멋지게 등장한 용사님 몫이지!",
+      "category": "grammar",
+      "reason": "수식 관계가 어색했던 문장을 자연스러운 한국어 대사로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-EB3813A91E2BCE7DF1B8",
+      "source_text": "人助けは勇者道の基本！\nあたし人助けもしたいし\nレオンにも会いたいの",
+      "before": "남을 돕는 건 용사의 길의 기본!\n나도 사람을 돕고 싶고\n레온도 만나고 싶어",
+      "after": "남을 돕는 건 용사의 길에서 기본!\n나도 사람을 돕고 싶고\n레온도 만나고 싶어",
+      "category": "grammar",
+      "reason": "'용사의 길의 기본'이라는 중복 조사를 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "btl_enemy_first_lz10.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_enemy_first_lz10.bin",
+    "size": 820384,
+    "head_hex": "42 54 45 4d 00 00 00 10 00 00 01 80 00 00 00 00 00 00 00 00 00 00 00 05 00 00 04 60 00 00 08 c0 00 00 00 00 00 00 09 40 00 00 09 48 00 00 09 50 00 00 09 58 00 00 09 60 00 00 09 68 00 00 09 70",
+    "string_count": 92,
+    "common_start_deltas": [
+      [
+        16,
+        3
+      ],
+      [
+        32,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        1040,
+        2
+      ],
+      [
+        40,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        1849,
+        1
+      ],
+      [
+        128,
+        1
+      ],
+      [
+        754,
+        1
+      ],
+      [
+        73958,
+        1
+      ],
+      [
+        811,
+        1
+      ],
+      [
+        79,
+        1
+      ],
+      [
+        793,
+        1
+      ],
+      [
+        535,
+        1
+      ],
+      [
+        841,
+        1
+      ],
+      [
+        512,
+        1
+      ],
+      [
+        280,
+        1
+      ],
+      [
+        4056,
+        1
+      ],
+      [
+        3805,
+        1
+      ],
+      [
+        8171,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 373,
+        "end": 376,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 377,
+        "end": 380,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 384,
+        "end": 390,
+        "byte_length": 6,
+        "text": "帝国兵"
+      },
+      {
+        "start": 2233,
+        "end": 2236,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 2237,
+        "end": 2240,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 2365,
+        "end": 2368,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 3119,
+        "end": 3133,
+        "byte_length": 14,
+        "text": "<\u0015E2カマイタチ"
+      },
+      {
+        "start": 77077,
+        "end": 77084,
+        "byte_length": 7,
+        "text": "*UU暇fF"
+      },
+      {
+        "start": 77888,
+        "end": 77892,
+        "byte_length": 4,
+        "text": "皮g{"
+      },
+      {
+        "start": 77967,
+        "end": 77971,
+        "byte_length": 4,
+        "text": "U乂\u001e"
+      },
+      {
+        "start": 78760,
+        "end": 78766,
+        "byte_length": 6,
+        "text": "\u0001@g{姜"
+      },
+      {
+        "start": 79295,
+        "end": 79301,
+        "byte_length": 6,
+        "text": "W1Co暎"
+      },
+      {
+        "start": 80136,
+        "end": 80141,
+        "byte_length": 5,
+        "text": "溌o\u001bU"
+      },
+      {
+        "start": 80648,
+        "end": 80655,
+        "byte_length": 7,
+        "text": "\u0016Ao\u0005_蝣"
+      },
+      {
+        "start": 80928,
+        "end": 80933,
+        "byte_length": 5,
+        "text": "g[|巧"
+      },
+      {
+        "start": 84984,
+        "end": 84989,
+        "byte_length": 5,
+        "text": "gxt渾"
+      },
+      {
+        "start": 88789,
+        "end": 88796,
+        "byte_length": 7,
+        "text": "\u0002\t\u0003冀ox"
+      },
+      {
+        "start": 96960,
+        "end": 96966,
+        "byte_length": 6,
+        "text": "L>L|嫂"
+      },
+      {
+        "start": 97679,
+        "end": 97684,
+        "byte_length": 5,
+        "text": "\t捉]6"
+      },
+      {
+        "start": 98886,
+        "end": 98892,
+        "byte_length": 6,
+        "text": "紀療?\u001e"
+      },
+      {
+        "start": 99272,
+        "end": 99278,
+        "byte_length": 6,
+        "text": "7<\u001c齦\n"
+      },
+      {
+        "start": 101367,
+        "end": 101375,
+        "byte_length": 8,
+        "text": "\n7\u001c\u001c黎\u0003\n"
+      },
+      {
+        "start": 101749,
+        "end": 101756,
+        "byte_length": 7,
+        "text": "zU\u000b鬨\u0016!"
+      },
+      {
+        "start": 103413,
+        "end": 103421,
+        "byte_length": 8,
+        "text": "^UU巍d悉"
+      },
+      {
+        "start": 104926,
+        "end": 104933,
+        "byte_length": 7,
+        "text": "貴7>\u000f\\W"
+      },
+      {
+        "start": 109149,
+        "end": 109159,
+        "byte_length": 10,
+        "text": "紀\u0002彁'掵⊃"
+      },
+      {
+        "start": 109176,
+        "end": 109182,
+        "byte_length": 6,
+        "text": "里?>Wx"
+      },
+      {
+        "start": 109262,
+        "end": 109270,
+        "byte_length": 8,
+        "text": "\u0002徘\u0001\u0017抬x"
+      },
+      {
+        "start": 110488,
+        "end": 110495,
+        "byte_length": 7,
+        "text": " \n\u0016A徽\n"
+      },
+      {
+        "start": 113135,
+        "end": 113142,
+        "byte_length": 7,
+        "text": ").X\u0007\\紀"
+      },
+      {
+        "start": 115174,
+        "end": 115181,
+        "byte_length": 7,
+        "text": "\u000bU里\u000f\\("
+      },
+      {
+        "start": 115408,
+        "end": 115413,
+        "byte_length": 5,
+        "text": "\tb|昏"
+      },
+      {
+        "start": 115894,
+        "end": 115901,
+        "byte_length": 7,
+        "text": "_W\u001e\u0007t扞"
+      },
+      {
+        "start": 115976,
+        "end": 115981,
+        "byte_length": 5,
+        "text": "汎o舉"
+      },
+      {
+        "start": 117272,
+        "end": 117276,
+        "byte_length": 4,
+        "text": "溘\u000f\\"
+      },
+      {
+        "start": 117350,
+        "end": 117356,
+        "byte_length": 6,
+        "text": "\u0002孺\u001a7"
+      },
+      {
+        "start": 117544,
+        "end": 117551,
+        "byte_length": 7,
+        "text": "豫o筧U_"
+      },
+      {
+        "start": 117808,
+        "end": 117812,
+        "byte_length": 4,
+        "text": "燵Lr"
+      },
+      {
+        "start": 119879,
+        "end": 119884,
+        "byte_length": 5,
+        "text": "5渟gX"
+      },
+      {
+        "start": 120333,
+        "end": 120340,
+        "byte_length": 7,
+        "text": "\u000b雀L\u001fL]"
+      },
+      {
+        "start": 124486,
+        "end": 124492,
+        "byte_length": 6,
+        "text": "\u000b\r扠t?"
+      },
+      {
+        "start": 127944,
+        "end": 127950,
+        "byte_length": 6,
+        "text": "\u000e\u0007d巧U"
+      },
+      {
+        "start": 128104,
+        "end": 128110,
+        "byte_length": 6,
+        "text": "!@d巧U"
+      },
+      {
+        "start": 128120,
+        "end": 128127,
+        "byte_length": 7,
+        "text": "ox|康蒐"
+      },
+      {
+        "start": 128144,
+        "end": 128151,
+        "byte_length": 7,
+        "text": "o\u001bd黒屎"
+      },
+      {
+        "start": 128160,
+        "end": 128166,
+        "byte_length": 6,
+        "text": ")`d巧U"
+      },
+      {
+        "start": 128170,
+        "end": 128174,
+        "byte_length": 4,
+        "text": "|巧U"
+      },
+      {
+        "start": 128264,
+        "end": 128270,
+        "byte_length": 6,
+        "text": "o;d巧U"
+      },
+      {
+        "start": 132904,
+        "end": 132911,
+        "byte_length": 7,
+        "text": "\t(\u001e`磚"
+      },
+      {
+        "start": 135350,
+        "end": 135356,
+        "byte_length": 6,
+        "text": "腎萵gx"
+      },
+      {
+        "start": 144720,
+        "end": 144724,
+        "byte_length": 4,
+        "text": "册!\u0007"
+      },
+      {
+        "start": 151736,
+        "end": 151740,
+        "byte_length": 4,
+        "text": "珮\u0017~"
+      },
+      {
+        "start": 155688,
+        "end": 155694,
+        "byte_length": 6,
+        "text": "\u001e\u0003|現\u0002"
+      },
+      {
+        "start": 155720,
+        "end": 155726,
+        "byte_length": 6,
+        "text": "鯤gdU*"
+      },
+      {
+        "start": 157934,
+        "end": 157940,
+        "byte_length": 6,
+        "text": "\u0002U庠>^"
+      },
+      {
+        "start": 161976,
+        "end": 161980,
+        "byte_length": 4,
+        "text": "揀\u001f>"
+      },
+      {
+        "start": 163016,
+        "end": 163020,
+        "byte_length": 4,
+        "text": "兮o"
+      },
+      {
+        "start": 163864,
+        "end": 163868,
+        "byte_length": 4,
+        "text": "凵\u0017"
+      },
+      {
+        "start": 166928,
+        "end": 166932,
+        "byte_length": 4,
+        "text": "昏$"
+      },
+      {
+        "start": 166960,
+        "end": 166965,
+        "byte_length": 5,
+        "text": "ge凄U"
+      },
+      {
+        "start": 173952,
+        "end": 173964,
+        "byte_length": 12,
+        "text": ")&9G*師U凵!\u0007"
+      },
+      {
+        "start": 177200,
+        "end": 177207,
+        "byte_length": 7,
+        "text": "g\u001b[娟\n"
+      },
+      {
+        "start": 182432,
+        "end": 182437,
+        "byte_length": 5,
+        "text": "o$|肩"
+      },
+      {
+        "start": 201408,
+        "end": 201414,
+        "byte_length": 6,
+        "text": "(i6甬*"
+      },
+      {
+        "start": 203887,
+        "end": 203893,
+        "byte_length": 6,
+        "text": "W!ad巧"
+      },
+      {
+        "start": 260000,
+        "end": 260011,
+        "byte_length": 11,
+        "text": "\u001a4u\u001b\u0001舶\u001a\u0003鱚"
+      },
+      {
+        "start": 417720,
+        "end": 417724,
+        "byte_length": 4,
+        "text": "?緊n"
+      },
+      {
+        "start": 417872,
+        "end": 417876,
+        "byte_length": 4,
+        "text": "?+汗"
+      },
+      {
+        "start": 418072,
+        "end": 418084,
+        "byte_length": 12,
+        "text": "進2嫗V＄?+汗"
+      },
+      {
+        "start": 419112,
+        "end": 419116,
+        "byte_length": 4,
+        "text": "=擦["
+      },
+      {
+        "start": 419152,
+        "end": 419156,
+        "byte_length": 4,
+        "text": "薪}7"
+      },
+      {
+        "start": 426496,
+        "end": 426500,
+        "byte_length": 4,
+        "text": "舛f"
+      },
+      {
+        "start": 426508,
+        "end": 426512,
+        "byte_length": 4,
+        "text": "舛h"
+      },
+      {
+        "start": 436113,
+        "end": 436116,
+        "byte_length": 3,
+        "text": "逗Y"
+      },
+      {
+        "start": 437843,
+        "end": 437846,
+        "byte_length": 3,
+        "text": "@組"
+      },
+      {
+        "start": 440863,
+        "end": 440866,
+        "byte_length": 3,
+        "text": "\u0004組"
+      },
+      {
+        "start": 485592,
+        "end": 485600,
+        "byte_length": 8,
+        "text": "尊\u0012=C\u001c\re"
+      },
+      {
+        "start": 488208,
+        "end": 488212,
+        "byte_length": 4,
+        "text": ">\u001b銑"
+      },
+      {
+        "start": 488248,
+        "end": 488252,
+        "byte_length": 4,
+        "text": "渉焼"
+      },
+      {
+        "start": 488312,
+        "end": 488316,
+        "byte_length": 4,
+        "text": "榛x"
+      },
+      {
+        "start": 546504,
+        "end": 546512,
+        "byte_length": 8,
+        "text": "DSＶBr\u001b~"
+      },
+      {
+        "start": 546828,
+        "end": 546832,
+        "byte_length": 4,
+        "text": "?\u0001み"
+      },
+      {
+        "start": 546860,
+        "end": 546865,
+        "byte_length": 5,
+        "text": "?\u0001み?"
+      },
+      {
+        "start": 546868,
+        "end": 546873,
+        "byte_length": 5,
+        "text": "?\u0001み?"
+      },
+      {
+        "start": 570604,
+        "end": 570608,
+        "byte_length": 4,
+        "text": "?~炯"
+      },
+      {
+        "start": 570652,
+        "end": 570656,
+        "byte_length": 4,
+        "text": "=雅x"
+      },
+      {
+        "start": 570860,
+        "end": 570864,
+        "byte_length": 4,
+        "text": "?(懐"
+      },
+      {
+        "start": 571036,
+        "end": 571044,
+        "byte_length": 8,
+        "text": "?~炯TEX0"
+      },
+      {
+        "start": 575305,
+        "end": 575308,
+        "byte_length": 3,
+        "text": "逗Y"
+      },
+      {
+        "start": 582268,
+        "end": 582272,
+        "byte_length": 4,
+        "text": ">旄$"
+      },
+      {
+        "start": 582284,
+        "end": 582288,
+        "byte_length": 4,
+        "text": ">釛3"
+      },
+      {
+        "start": 586793,
+        "end": 586796,
+        "byte_length": 3,
+        "text": "逗Y"
+      }
+    ]
+  }
+}

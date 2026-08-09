@@ -1,0 +1,288 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0070",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0070.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0070.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0070.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 28,
+  "unchanged_row_count": 172,
+  "modifications": [
+    {
+      "row_index": 2,
+      "tm_id": "ARF-TM-FFC283D7F02B2BEE57A7",
+      "source_text": "オパルス防衛作戦は全てアルス様と\nお仲間の皆様が指示して\n実行されたそうよ",
+      "before": "오팔루스 방어 작전은 전부 알스님과\n동료분들이 지시해서\n실행했다고 해",
+      "after": "오팔루스 방어 작전은 전부 알스 님과\n동료분들이 지시해서\n실행했다고 해",
+      "category": "terminology",
+      "reason": "인명 존칭의 띄어쓰기를 프로젝트 표기에 맞췄다."
+    },
+    {
+      "row_index": 8,
+      "tm_id": "ARF-TM-00904C3147D3D7DC4835",
+      "source_text": "それにしてもでかい相手だったな。\nまあ、俺さまの器の大きさに\n比べれば小者だったけどよ",
+      "before": "그나저나 큰 상대였어.\n뭐, 이 몸의 그릇에\n비하면 소인배였지만",
+      "after": "그나저나 엄청 큰 상대였어.\n뭐, 이 몸의 그릇 크기에\n비하면 소인배였지만",
+      "category": "naturalness",
+      "reason": "크기와 인물의 그릇을 잇는 원문의 말장난을 자연스럽게 살렸다."
+    },
+    {
+      "row_index": 17,
+      "tm_id": "ARF-TM-019142BDFF33779F0816",
+      "source_text": "……こいつ\n単に箱入りなんじゃなくて\n無知なんじゃねぇの？",
+      "before": "……이 녀석\n그저 세상 물정 모르는 아가씨가 아니라\n무식한 거 아냐?",
+      "after": "……이 녀석\n그저 곱게 자란 아가씨가 아니라\n아예 무지한 거 아냐?",
+      "category": "semantic_accuracy",
+      "reason": "箱入り와 無知의 대비를 정확히 반영했다."
+    },
+    {
+      "row_index": 22,
+      "tm_id": "ARF-TM-02872F735C0234B31C03",
+      "source_text": "世界中の街道沿いに\nポツポツ立ってるじゃん",
+      "before": "세계 곳곳의 가도 변에\n띄엄띄엄 서 있잖아",
+      "after": "세계 곳곳의 가도변에\n띄엄띄엄 서 있잖아",
+      "category": "naturalness",
+      "reason": "부자연스럽게 띄어진 합성어를 정리했다."
+    },
+    {
+      "row_index": 36,
+      "tm_id": "ARF-TM-05A424EA0E35D73121B9",
+      "source_text": "何を考えるってゆーの？\nこんな所で、１人でさっ！",
+      "before": "뭘 생각한다는 거야?\n이런 데서 １명으로 말이야!",
+      "after": "뭘 생각한다는 거야?\n이런 데서 １명이서 말이야!",
+      "category": "naturalness",
+      "reason": "인원수 １을 보존하면서 조사를 자연스럽게 고쳤다."
+    },
+    {
+      "row_index": 37,
+      "tm_id": "ARF-TM-05CBA9A309FD352FF516",
+      "source_text": "現種！\n貴様らがホゼア様を害したか！\n我ら神種を滅ぼそうというのか！",
+      "before": "현종!\n네놈들이 호제아님을 해쳤나!\n우리 신종을 멸망시키려는 것이냐!",
+      "after": "현종!\n네놈들이 호제아 님을 해쳤나!\n우리 신종을 멸망시키려는 것이냐!",
+      "category": "terminology",
+      "reason": "인명 존칭의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 38,
+      "tm_id": "ARF-TM-05EA4908E61C668DA023",
+      "source_text": "元老院議長に宛てられた親書を\nお預かりしています。\n取り次ぎをお願いしたい",
+      "before": "원로원 의장에게 보내는 친서를\n맡아 왔습니다.\n연결해 주시길 바랍니다",
+      "after": "원로원 의장에게 보내는 친서를\n맡아 왔습니다.\n전해 주시길 바랍니다",
+      "category": "semantic_accuracy",
+      "reason": "取り次ぎ를 문서 전달 요청의 의미로 바로잡았다."
+    },
+    {
+      "row_index": 41,
+      "tm_id": "ARF-TM-06812F41087AC40EC4B5",
+      "source_text": "皇帝陛下へお取り次ぎ願えますか",
+      "before": "황제 폐하께 연결해 주시겠습니까",
+      "after": "황제 폐하께\n알현을 주선해 주시겠습니까",
+      "category": "semantic_accuracy",
+      "reason": "取り次ぎ를 황제 알현 주선이라는 문맥에 맞게 옮겼다."
+    },
+    {
+      "row_index": 49,
+      "tm_id": "ARF-TM-0878971F7049CF728492",
+      "source_text": "アデールをどうするつもりだ",
+      "before": "아델을 어쩔 생각이야",
+      "after": "아델을 어쩔 생각이지",
+      "category": "register",
+      "reason": "추궁하는 남성 화자의 단정적 어조를 살렸다."
+    },
+    {
+      "row_index": 51,
+      "tm_id": "ARF-TM-087BC59220045A043C23",
+      "source_text": "ではイーサの子よ、汝に問う。\n我が力、『純潔』のロゴスを\n必要としますか",
+      "before": "그럼 이사의 아이여, 네게 묻겠다.\n나의 힘, 『순결』의 로고스가\n필요한가",
+      "after": "그럼 이사의 아이여, 그대에게 묻겠다.\n나의 힘, 『순결』의 로고스가\n필요한가",
+      "category": "register",
+      "reason": "汝에 맞는 고전적 호칭과 장중한 어조를 적용했다."
+    },
+    {
+      "row_index": 53,
+      "tm_id": "ARF-TM-0891DF2813C12099EE31",
+      "source_text": "あのな！　１人で行かないと\n偵察にならないだろ",
+      "before": "있잖아! １명으로 가지 않으면\n정찰이 안 되잖아",
+      "after": "있잖아! １명이서 가지 않으면\n정찰이 안 되잖아",
+      "category": "naturalness",
+      "reason": "수치 보존 상태에서 조사를 자연스럽게 고쳤다."
+    },
+    {
+      "row_index": 64,
+      "tm_id": "ARF-TM-0AB90437B7CEDF681E61",
+      "source_text": "あの扉の鍵はコードでしょう？\n私が施錠のコードを書き換えるわ",
+      "before": "저 문의 열쇠는 코드지?\n내가 잠금 코드를 다시 쓸게",
+      "after": "저 문의 열쇠는 코드지?\n내가 잠금 코드를 다시 작성할게",
+      "category": "semantic_accuracy",
+      "reason": "コードを書き換える를 코드 재작성의 의미로 명확히 했다."
+    },
+    {
+      "row_index": 66,
+      "tm_id": "ARF-TM-0AD3E662529BE8F9614E",
+      "source_text": "おい、お前ら、やめとけよ。\nそいつはガトゥーラとか言う\n化け猫女らしくてな",
+      "before": "야, 너희, 그만둬.\n그 녀석은 가투라라는\n괴물 고양이 여자라더군",
+      "after": "야, 너희, 그만둬.\n그 녀석은 가투라라는\n고양이 요괴 여자라더군",
+      "category": "naturalness",
+      "reason": "化け猫女의 수식 관계를 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 70,
+      "tm_id": "ARF-TM-0BD168C32FB4CA603E29",
+      "source_text": "わからないっス。\n帝国兵がどこかへ連行して行って\nそれっきり……",
+      "before": "모르겠슴다.\n제국 병사들이 어디론가 끌고 간 뒤\n그걸로 끝이라……",
+      "after": "모르겠슴다.\n제국 병사들이 어디론가 끌고 간 뒤\n그걸로 소식이 끊겼슴다……",
+      "category": "semantic_accuracy",
+      "reason": "それっきり를 이후 소식이 없다는 의미로 풀었다."
+    },
+    {
+      "row_index": 72,
+      "tm_id": "ARF-TM-0C5D2D2A3D56FDBD8C42",
+      "source_text": "襲ってくる。\nお前はさがってろ",
+      "before": "습격해 온다.\n넌 물러나 있어",
+      "after": "놈들이 덤벼든다.\n넌 물러나 있어",
+      "category": "semantic_accuracy",
+      "reason": "襲ってくる의 공격 상황을 명확히 했다."
+    },
+    {
+      "row_index": 87,
+      "tm_id": "ARF-TM-116C5691C5CAC2A7729A",
+      "source_text": "似ているとは思っていたけど、他の軍人さん\nとは違う着方をしていたから……",
+      "before": "닮았다고는 생각했지만 다른 군인들과\n옷 입는 방식이 달라서……",
+      "after": "비슷하다고는 생각했지만, 다른 군인들과\n옷 입는 방식이 달라서……",
+      "category": "semantic_accuracy",
+      "reason": "似ている를 외형 유사성으로 바로잡았다."
+    },
+    {
+      "row_index": 111,
+      "tm_id": "ARF-TM-160C7169C4B317DB0768",
+      "source_text": "あたしはね、もう一度あなたと\n別れなきゃいけないんだ。\nもう１回、失わなきゃいけないの",
+      "before": "나는 말이야, 다시 한번 너와\n헤어져야 해.\n또 １번 잃어야 한다고",
+      "after": "나는 말이야, 다시 한번 너와\n헤어져야 해.\n다시 １번 더 잃어야 한다고",
+      "category": "naturalness",
+      "reason": "수치 １을 유지하면서 반복 상실의 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 117,
+      "tm_id": "ARF-TM-1724BE2CA7BEBC583763",
+      "source_text": "だったら気味は悪いが\n別に大騒ぎすることとも\n思えねぇけどな",
+      "before": "그렇다면 기분은 나쁘지만\n딱히 호들갑 떨 일은\n아닌 것 같은데",
+      "after": "그렇다면 섬뜩하긴 하지만\n딱히 호들갑 떨 일은\n아닌 것 같은데",
+      "category": "semantic_accuracy",
+      "reason": "気味が悪い를 상황의 섬뜩함으로 정확히 옮겼다."
+    },
+    {
+      "row_index": 122,
+      "tm_id": "ARF-TM-184F88E81F0E9FAB5C14",
+      "source_text": "自我を持っていること、ですぅ",
+      "before": "자의식을 지닌 것, 이에요〜",
+      "after": "자의식을 지닌 것이에요〜",
+      "category": "naturalness",
+      "reason": "분리된 서술격 조사를 바로잡았다."
+    },
+    {
+      "row_index": 128,
+      "tm_id": "ARF-TM-197865D212A82D577DCA",
+      "source_text": "俺は不安でドキドキしてるっス",
+      "before": "저는 불안해서 두근거림다",
+      "after": "전 불안해서 가슴이 두근거림다",
+      "category": "naturalness",
+      "reason": "불안으로 인한 심박을 자연스러운 구어로 표현했다."
+    },
+    {
+      "row_index": 137,
+      "tm_id": "ARF-TM-1C2590CB7FCB675B9B75",
+      "source_text": "あの２人……\nやっぱり繋がっていたのね",
+      "before": "그 ２명……\n역시 이어져 있었구나",
+      "after": "그 ２명……\n역시 한패였구나",
+      "category": "semantic_accuracy",
+      "reason": "繋がっていた를 공모 관계라는 문맥에 맞게 옮겼다."
+    },
+    {
+      "row_index": 146,
+      "tm_id": "ARF-TM-1CFC67B9AB2B24E5DC32",
+      "source_text": "……確かに俺はレオンだ",
+      "before": "……분명 나는 레온이다",
+      "after": "……그래, 내가 레온이다",
+      "category": "naturalness",
+      "reason": "자기 확인에 맞지 않는 직역투를 제거했다."
+    },
+    {
+      "row_index": 151,
+      "tm_id": "ARF-TM-1E11E54FB1C5A5CA2B5B",
+      "source_text": "リフィアの意向によっては\n彼女をどこかに\n送り届ける必要があるだろう？",
+      "before": "리피아의 뜻에 따라서는\n그녀를 어딘가로\n데려다줘야 할 수도 있잖아?",
+      "after": "리피아의 의사에 따라서는\n그녀를 어딘가로\n데려다줘야 할 수도 있잖아?",
+      "category": "terminology",
+      "reason": "意向를 문맥에 맞는 '의사'로 옮겼다."
+    },
+    {
+      "row_index": 164,
+      "tm_id": "ARF-TM-2041BAE51B8FD43B2BA3",
+      "source_text": "それと、アルス様はアニキたちを\n賞金首として手配してるっス",
+      "before": "그리고 알스님은 형님 일행을\n현상 수배했슴다",
+      "after": "그리고 알스 님은 형님 일행을\n현상 수배했슴다",
+      "category": "terminology",
+      "reason": "인명 존칭 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 166,
+      "tm_id": "ARF-TM-20A00054EA2C8E925A32",
+      "source_text": "偶然とは思えないわ",
+      "before": "우연이라고는 생각할 수 없어",
+      "after": "우연일 리 없어",
+      "category": "naturalness",
+      "reason": "강한 부정 판단을 간결한 구어체로 다듬었다."
+    },
+    {
+      "row_index": 167,
+      "tm_id": "ARF-TM-20BA9266679E01D14877",
+      "source_text": "お、気まずそうな顔だな\nラルクくん",
+      "before": "오, 곤란한 얼굴이네\n라르크 군",
+      "after": "오, 난처한 표정이네\n라르크 군",
+      "category": "semantic_accuracy",
+      "reason": "気まずそう를 난처하고 어색한 표정으로 바로잡았다."
+    },
+    {
+      "row_index": 189,
+      "tm_id": "ARF-TM-26F0D2D778A8494E8995",
+      "source_text": "この先に青い月の神様の\n宿があります。\nアントラクスはその先です",
+      "before": "이 앞에 푸른 달의 신이 머무는\n여관이 있습니다.\n안트락스는 그 너머입니다",
+      "after": "이 앞에 푸른 달의 신이 머무는\n거처가 있습니다.\n안트락스는 그 너머입니다",
+      "category": "semantic_accuracy",
+      "reason": "宿를 신의 거처라는 문맥으로 바로잡았다."
+    },
+    {
+      "row_index": 192,
+      "tm_id": "ARF-TM-282A335C9124A54EF5E3",
+      "source_text": "イーサ神との契約で守られた\nこの体も、そろそろ\n朽ちようとしている",
+      "before": "이사신과의 계약으로 보호받은\n이 몸도 이제\n썩어 가고 있다",
+      "after": "이사신과의 계약으로 보호받은\n이 몸도 이제\n쇠해 가고 있다",
+      "category": "semantic_accuracy",
+      "reason": "朽ちる를 육체가 쇠하는 의미로 자연스럽게 옮겼다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

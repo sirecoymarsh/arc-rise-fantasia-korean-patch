@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0133",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0133.jsonl",
+  "draft": "work/translation/drafts/batch_0133.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0133.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-DF76AB14B832843AB781",
+      "source_text": "シェリィの奴さ、ぜったいに\n１番楽しんでる口だぜ",
+      "before": "셰리 녀석, 틀림없이\n１번 즐기고 있는 쪽이야",
+      "after": "셰리 녀석이 틀림없이\n즐기는 순위 １등일걸",
+      "category": "numeric_fidelity_natural_korean",
+      "reason": "원문의 전각 숫자 １을 보존하면서 가장 즐기고 있다는 뜻을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E0382DC8061E175AA2CD",
+      "source_text": "人類は、きちんと襟を正すべきです。\n皇帝は分別のある人間を好みます",
+      "before": "인류는 단정히 몸가짐을 바로잡아야 합니다.\n황제는 분별 있는 인간을 좋아합니다",
+      "after": "인류는 옷깃을 여미고 몸가짐을 바로잡아야 합니다.\n황제는 분별 있는 인간을 좋아합니다",
+      "category": "idiom_natural_korean",
+      "reason": "襟を正す의 관용 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E0587721F24F30AA09BF",
+      "source_text": "また明日来い――か。\nここにいたってしょうがねぇ。\n武芸塾に帰ろうぜ",
+      "before": "내일 다시 오라――라.\n여기 있어 봤자 소용없어.\n무예관으로 돌아가자",
+      "after": "내일 다시 오라―― 이건가.\n여기 있어 봤자 소용없어.\n무예관으로 돌아가자",
+      "category": "natural_korean",
+      "reason": "명령을 되새기는 문장을 자연스러운 대화체로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E07831373A244ADD65F1",
+      "source_text": "帝国はアントラクスだけでは\n飢えを癒せないらしく\n次は共和国と戦争をしてるとか……<$0C>浅ましいことこの上ないわ",
+      "before": "제국은 안트락스만으로는\n굶주림을 채울 수 없는지\n다음은 공화국과 전쟁한다더군……<$0C>더없이 탐욕스러워",
+      "after": "제국은 안트락스만으로는\n굶주림을 달래지 못했는지\n이젠 공화국과 전쟁 중이라더군……<$0C>더없이 탐욕스러워",
+      "category": "meaning_natural_korean",
+      "reason": "굶주림을 채운다는 직역투와 전쟁 시제를 자연스럽게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E07C3D256B9DBF01E1EB",
+      "source_text": "……ヴァイス皇太子って……\n……すごい冷たい目してる……<$0C>……私、苦手なの……",
+      "before": "……바이스 황태자는……\n……눈빛이 너무 차가워……<$0C>……나, 어려워……",
+      "after": "……바이스 황태자는……\n……눈빛이 너무 차가워……<$0C>……난 그 사람이 어려워……",
+      "category": "meaning_natural_korean",
+      "reason": "苦手의 상대가 부담스럽고 어렵다는 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-E0BE7C665E17B739FD8F",
+      "source_text": "アントラクスに\n悲しみは似合わない――<$0C>だから俺は、女の子に声かけたりして\n楽しくやるってわけ。\n人生、１回きりだぜ？",
+      "before": "안트락스에\n슬픔은 어울리지 않아――<$0C>그래서 난 여자애들에게 말을 걸며\n즐겁게 지내는 거야.\n인생은 １번뿐이라고?",
+      "after": "안트락스에\n슬픔은 어울리지 않아――<$0C>그래서 난 여자애들에게 말을 걸며\n즐겁게 지내는 거야.\n인생은 １번뿐이잖아?",
+      "category": "numeric_fidelity_voice",
+      "reason": "전각 숫자 １을 보존하고 반문 어조를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E0F2E62F501EA15099B6",
+      "source_text": "クーデターのお陰で\n帝国は大人しくなって万々歳！\nアルスには感謝しないとね",
+      "before": "쿠데타 덕분에\n제국이 조용해져서 만만세!\n알스에게 감사해야겠네",
+      "after": "쿠데타 덕분에\n제국이 얌전해져서 만세지!\n알스에게 감사해야겠네",
+      "category": "meaning_natural_korean",
+      "reason": "大人しくなって万々歳의 의미와 자연스러운 감탄을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E105ABBAD27591D3B32B",
+      "source_text": "私は大聖堂の案内人。\nそれ以上でも\nそれ以下でもありません",
+      "before": "나는 대성당의 안내인.\n그 이상도\n그 이하도 아닙니다",
+      "after": "저는 대성당의 안내인입니다.\n그 이상도\n그 이하도 아닙니다",
+      "category": "voice_natural_korean",
+      "reason": "누락된 서술어를 보완하고 존대 문체를 일관되게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E10B4B56D31C1D695DC0",
+      "source_text": "近頃、当初の目的を\n失いつつあります……",
+      "before": "요즘 처음 목적을\n잃어 가고 있습니다……",
+      "after": "요즘 본래 목적을\n잃어 가고 있습니다……",
+      "category": "natural_korean",
+      "reason": "当初の目的을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E12EAB075AE23E03319D",
+      "source_text": "説明好きな少女",
+      "before": "설명하기 좋아하는 소녀",
+      "after": "설명하기를 좋아하는 소녀",
+      "category": "natural_korean",
+      "reason": "인물 라벨의 조사를 자연스럽게 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-E13B013A1179EA9DD4C7",
+      "source_text": "この店、ずいぶんと\nいい商品を扱っているのね。\nこれから、ひいきにしようかしら",
+      "before": "이 가게, 꽤\n좋은 상품을 취급하네.\n앞으로 단골이 될까",
+      "after": "이 가게, 꽤\n좋은 상품을 취급하네.\n앞으로 자주 와야겠어",
+      "category": "meaning_natural_korean",
+      "reason": "ひいきにしよう의 계속 이용하겠다는 의도를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E16598BD220CF0022A60",
+      "source_text": "アルス坊があんたを\n賞金首にしたらしいけど……<$0C>執着のない人間を\n賞金首にしたりしないわ。\nだから、希望をもっていいわ",
+      "before": "알스 도련님이 당신을\n수배자로 삼았다던데……<$0C>미련이 없는 사람을\n수배자로 삼지는 않아.\n그러니 희망을 가져도 돼",
+      "after": "알스 도련님이 당신을\n수배자로 삼았다던데……<$0C>알스가 아무 미련도 없는 사람을\n수배자로 삼지는 않아.\n그러니 희망을 가져도 돼",
+      "category": "meaning_natural_korean",
+      "reason": "執着의 주체가 알스임을 명확히 해 관계 의미를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E1DC67B072A9EFCE2A6F",
+      "source_text": "うちのご主人様は\n何が食べたいかお聞きしても\nいつも『何でもいい』って言うの<$0C>料理を作る方からしたら\n何でもいいっていうのが\n１番、困るの……",
+      "before": "우리 주인님은\n뭘 드시고 싶은지 물어도\n항상 『아무거나』라고 하셔<$0C>요리하는 입장에서는\n아무거나라는 말이\n１번 곤란해……",
+      "after": "우리 주인님은\n뭘 드시고 싶은지 물어도\n항상 『아무거나』라고 하셔<$0C>요리하는 입장에서는\n『아무거나』란 대답이\n곤란함으로는 １등이야……",
+      "category": "numeric_fidelity_natural_korean",
+      "reason": "원문의 전각 숫자 １을 보존하면서 요리하는 입장의 불만을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E2A56D313B26BA8A361B",
+      "source_text": "僕が人を間引き、管理する代わりに\nリアル神は僕の希望をイーサ神へ奏上する",
+      "before": "내가 사람을 솎아 내고 관리하는 대신\n리얼 신은 내 소망을 이사 신께 아뢴다",
+      "after": "내가 사람을 솎아 내고 관리하는 대신\n리얼신은 내 소망을 이사신께 아뢴다",
+      "category": "setting_terminology",
+      "reason": "신명 고정 표기인 리얼신과 이사신을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-E33022353F854E2D741E",
+      "source_text": "妹が死にました……<$0C>私に会いにこの街まで\n船で来ようとしたところ\n帝国の爆撃にあって――<$0C>私が彼女を呼んだりしなければ\nこんなことには……！",
+      "before": "여동생이 죽었습니다……<$0C>저를 만나러 이 도시까지\n배를 타고 오다가\n제국의 폭격을 맞아서――<$0C>제가 그 아이를 부르지만 않았다면\n이런 일은……!",
+      "after": "여동생이 죽었습니다……<$0C>저를 만나러 이 도시까지\n배를 타고 오다가\n제국의 폭격을 맞아서――<$0C>제가 그 아이를 부르지 않았더라면\n이런 일은……!",
+      "category": "grammar_natural_korean",
+      "reason": "과거 반사실 조건문의 활용을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E33C4BB44EEDBE64F700",
+      "source_text": "ああ、やだやだ。\n右を見ればグチ。\n左を見れば神頼み――<$0C>アントラクスはいつから\nこんな軟弱者の街になったの？",
+      "before": "아아, 싫다 싫어.\n오른쪽을 보면 푸념.\n왼쪽을 보면 신에게 매달리고――<$0C>안트락스는 언제부터\n이렇게 나약한 자들의 도시가 됐어?",
+      "after": "아아, 싫다 싫어.\n오른쪽을 보면 푸념.\n왼쪽을 보면 신에게 매달리기――<$0C>안트락스는 언제부터\n이렇게 나약한 자들의 도시가 됐어?",
+      "category": "parallelism_natural_korean",
+      "reason": "좌우를 열거하는 문장의 병렬 구조를 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E35257C4909AA1186226",
+      "source_text": "亜麻のような娘",
+      "before": "아마포 같은 소녀",
+      "after": "아마 같은 소녀",
+      "category": "meaning",
+      "reason": "亜麻를 아마포가 아닌 식물 섬유인 아마로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E365051DD87D0A6C0818",
+      "source_text": "アルス皇帝が\nわざわざ新法まで作って\n自国の民を苦しめるのはなぜ？<$0C>きっと、リアル神が\nアルス皇帝を利用して\n帝国の民に復讐しているんだわ",
+      "before": "알스 황제가\n굳이 새 법까지 만들어\n자국민을 괴롭히는 이유가 뭘까?<$0C>분명 리얼 신이\n알스 황제를 이용해서\n제국 백성에게 복수하는 거야",
+      "after": "알스 황제가\n굳이 새 법까지 만들어\n자국민을 괴롭히는 이유가 뭘까?<$0C>분명 리얼신이\n알스 황제를 이용해서\n제국 백성에게 복수하는 거야",
+      "category": "setting_terminology",
+      "reason": "신명 고정 표기인 리얼신을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-E36F768A57CA0DEDEA52",
+      "source_text": "弱気な兵士",
+      "before": "약한 모습을 보이는 병사",
+      "after": "기가 약한 병사",
+      "category": "natural_korean",
+      "reason": "弱気의 인물 성향을 간결하고 자연스럽게 옮겼다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

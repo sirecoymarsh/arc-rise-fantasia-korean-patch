@@ -1,0 +1,111 @@
+const fs = require('fs');
+const path = require('path');
+
+const root = path.resolve(__dirname, '..', '..');
+const batchId = 'batch_0112';
+const sourceRel = `work/translation/tm_v2/batches/source/${batchId}.jsonl`;
+const draftRel = `work/translation/drafts/${batchId}.jsonl`;
+const reviewedRel = `work/translation/reviewed/${batchId}.jsonl`;
+const reportRel = `work/translation/reviews/${batchId}_review.json`;
+const readJsonl = (rel) => fs.readFileSync(path.join(root, rel), 'utf8')
+  .trimEnd().split(/\r?\n/).map(JSON.parse);
+
+const source = readJsonl(sourceRel);
+const draft = readJsonl(draftRel);
+
+const corrections = new Map([
+  [13, { after: "내일 데이트야.\n상대? 촌스럽게 묻지 마.\n발랄한 아가씨가 당연하지", category: 'natural_korean', reason: '「キャッピキャピ」를 젊고 활기찬 인상을 살리는 자연스러운 표현으로 고쳤다.' }],
+  [16, { after: "요즘 불안하고 또 불안해서……\n이 노인의 충고를 들으면\n마음이 편안해지는 것 같아", category: 'meaning', reason: '반복된 「不安で不安で」의 강조를 복원했다.' }],
+  [30, { after: "――조, 좋아하는!\n……말은 뭔가요!?", category: 'meaning', reason: '고백하려다 「好きな言葉」로 말을 돌리는 말장난이 한국어에서도 이어지도록 고쳤다.' }],
+  [33, { after: "위험할 뻔했다……<$0C>우리는 하마터면\n더글러스 경의 부인을\n누명을 씌워 처형할 뻔했다", category: 'meaning', reason: '시간 지연을 덧붙인 초안을 바로잡고, 다음 문맥과 맞게 무고한 이를 처형할 뻔했다는 뜻을 살렸다.' }],
+  [37, { after: "윗사람들은 왜\n전쟁을 하고 싶어 하는 거야!<$0C>전쟁의 피해를 입는 건\n우리 신민이라고! 말도 안 돼!", category: 'idiom', reason: '「冗談じゃない」를 직역한 ‘농담하지 마’ 대신 분노를 나타내는 관용 표현으로 고쳤다.' }],
+  [47, { after: "권태기에는\n밖에서 오는 새로운 자극이\n효과적이라고 아빠가 말했어!", category: 'natural_korean', reason: '가족 관계의 「マンネリ」를 문맥에 맞는 ‘권태기’로 다듬었다.' }],
+  [50, { after: "……그런 것이다.\n즉시 사령장관에게 명령하지", category: 'terminology', reason: '「司令長官」의 직위를 일반 사령관과 구분해 바로잡았다.' }],
+  [51, { after: "다음에 발견하면\n봐주지 않을 겁니다, 알겠죠?<$0C>다시는 없을 출세의\n기회니까요……", category: 'natural_korean', reason: '경고형 「容赦はしませんよ？」와 「またとない」의 뜻이 자연스럽게 드러나도록 고쳤다.' }],
+  [52, { after: "매일 노력한 걸 인정받아\n주임까지 출세했습니다.\n이것도 아내 덕분입니다<$0C>앞으로 더욱 노력해서\n가족을 편히 살게 해 줄\n생각입니다", category: 'grammar', reason: '「家族に楽させてやる」를 자연스러운 한국어 서술로 다듬었다.' }],
+  [54, { after: "허가증이 없는 사람을\n공화국 쪽으로 통과시킬 수 없습니다", category: 'meaning', reason: '「通す」를 ‘보내다’가 아니라 검문소를 통과시키는 의미로 바로잡았다.' }],
+  [60, { after: "알스 폐하는 그렇다 쳐도\n측근으로 클라이드 장군이\n있는데 말이야……", category: 'grammar', reason: '측근 관계가 자연스럽게 드러나도록 조사를 고쳤다.' }],
+  [66, { after: "무슨 별일은 없었어?", category: 'meaning', reason: '「変わったこと」가 변화 여부가 아니라 특이 사항을 묻는 표현임을 반영했다.' }],
+  [69, { after: "우리 메이드는\n정말 일을 잘해 주고 있어.\n……내게 아까울 정도야", category: 'meaning', reason: '「よくやってくれている」가 업무를 훌륭히 수행한다는 뜻임을 분명히 했다.' }],
+  [70, { after: "마하트 폐하가 아들인\n바이스 황태자에게\n독살당했다는 소문, 들었어요?<$0C>사실이라면 무서운 이야기예요.\n피가 이어진 친아버지를\n직접 해치다니……", category: 'meaning', reason: '「毒を盛られた」를 의미 없는 ‘독을 받았다’가 아니라 독살당했다는 뜻으로 바로잡고 가족 관계도 단수로 맞췄다.' }],
+  [72, { after: "내 옷, 빨리 완성 안 되려나……\n기다리는 건 답답하지만\n이 시간도 묘미 중 하나야……<$0C>……그런 분위기가 아니네.\n무슨 일 있어?", category: 'natural_korean', reason: '완성을 기다리는 기대 섞인 독백이 자연스럽게 들리도록 고쳤다.' }],
+  [73, { after: "들으셨습니까?\n남쪽 오르키나 바다 위에\n이형의 대륙이 생겼답니다<$0C>――싸우고 미워하기를 거듭하는 인류에게\n신께서 분노하신 걸까요……", category: 'meaning', reason: '「争い憎み続ける」를 ‘분쟁을 증오한다’로 뒤집은 의미 오류를 바로잡았다.' }],
+  [74, { after: "……하지만 난 싸우지 않는 아이가\n가장 강한 아이라고 생각해", category: 'natural_korean', reason: '문장 끝에 화제어가 남은 일본어식 어순을 자연스러운 한국어로 다듬었다.' }],
+  [76, { after: "항구에 가면 안트락스행\n순례선이 온다고 했지.<$0C>좋아, 가자", category: 'control_token', reason: '초안에서 누락된 제어 토큰 `<$0C>`를 원문 위치에 복원했다.' }],
+  [82, { after: "거슬린다! 비켜!<$0C>너희가\n우리 앞을 지나도록\n허가한 기억은 없다!", category: 'meaning', reason: '「邪魔だ」를 명사형 ‘방해야’가 아니라 상대를 몰아세우는 발화로 고쳤다.' }],
+  [94, { after: "조금이라도 시민과의\n신뢰를 회복하고 싶지만\n이것만은 시간이 필요해", category: 'grammar', reason: '「市民との間に信頼」의 관계를 나타내도록 ‘시민과의 신뢰’로 고쳤다.' }],
+  [96, { after: "충성을 신조로 삼는 병사", category: 'terminology', reason: '「忠実を旨とする」의 인물 성향을 자연스러운 ‘충성을 신조로 삼다’로 다듬었다.' }],
+  [115, { after: "아이의 순수함을 접하면\n돈이나 명예 같은 겉치레가\n속된 일처럼 느껴져<$0C>왜 우리는 어른이 되면\n본질을 꿰뚫지 못할까.\n――신기한 일이야", category: 'meaning', reason: '「飾りごと」를 물리적 장식이 아니라 돈과 명예라는 겉치레의 의미로 바로잡았다.' }],
+  [117, { after: "이곳은 백전불패의 전쟁신……\n바이스 황태자가 다스리는 제도――\n디아만트다!", category: 'meaning', reason: '「常勝無敗」의 승리뿐 아니라 무패의 의미까지 살렸다.' }],
+  [118, { after: "뭐, 뭔가 끼어들 틈이 없는\n대화잖아, 어이", category: 'natural_korean', reason: '놀라며 끼어드는 구어체가 자연스럽게 들리도록 다듬었다.' }],
+  [119, { after: "리프트가 움직일 때\n금속이 삐걱거리는 소리가 납니다.\n――그 소리가 정말 싫어서요……<$0C>한 층 아래나 항구로\n배속을 바꿔 주셨으면 합니다", category: 'voice', reason: '한 대사 안에서 반말과 존댓말이 섞인 초안을 정중체로 통일했다.' }],
+  [121, { after: "살림을 지키려고\n남편을 특가품의 희생양으로\n삼기로 했어<$0C>……그래도 역시\n１주일 내내 새우 요리였을 때는\n조금 괴로워 보였어", category: 'meaning', reason: '남편이 자청한 것처럼 바뀐 행위 주체를, 화자가 남편을 희생양으로 삼았다는 원문대로 고쳤다.' }],
+  [138, { after: "알스 폐하보다\n클라이드 장군이 문제다<$0C>이 신제국 헌장에\n클라이드 장군이 가담했다면\n우리 병사들의 사기는 떨어질 것이다", category: 'grammar', reason: '복수 집단을 나타내는 소유 관계를 자연스럽게 고쳤다.' }],
+  [139, { after: "라르크, 요즘은 어때?\n제도의 사정을 들려줘", category: 'natural_korean', reason: '「都の様子」를 어색한 ‘도읍의 모습’ 대신 제도의 근황을 묻는 표현으로 다듬었다.' }],
+  [143, { after: "내가 발견했을 때는\n이미 바다에 나가 있었어?", category: 'punctuation', reason: '원문의 의문 어조를 번역문에 복원했다.' }],
+  [155, { after: "사정을 아는 부인", category: 'natural_korean', reason: 'NPC 성격표 「わかっている」를 자연스러운 인물 설명으로 다듬었다.' }],
+  [160, { after: "죽음의 협곡 D03으로（리프트）\n", category: 'formatting', reason: '원문의 전각 괄호 형식을 복원했다.' }],
+  [161, { after: "어이, 어이!\n그 모양으론\n１인분도 못 한다!", category: 'numeric_fidelity', reason: '「オラオラ」의 반복된 기세를 살리고 원문의 전각 숫자 「１」을 복원했다.' }],
+  [162, { after: "라르크 님, 오랜만입니다.\n원로원에 등원하십니까?<$0C>당신은 이 도시의 은인.\n볼일이 있으시면\n먼저 들어가십시오", category: 'natural_korean', reason: '통행을 허용하는 상황에서 「先にお進みください」를 자연스러운 안내 표현으로 고쳤다.' }],
+  [165, { after: "파피르사그는 라르크의 것\n", category: 'proper_noun', reason: '로그레스 「パピルサグ」의 승인 표기 ‘파피르사그’를 적용했다.' }],
+  [167, { after: "밤을 지새우는 귀족", category: 'meaning', reason: '「夜もすがら」에 원문에 없는 ‘놀다’를 덧붙이지 않고 밤새운다는 뜻으로 고쳤다.' }],
+  [172, { after: "바이스 전하께서 서거하셨다……\n모두는 전하를 잔악무도하다 하지만\n나는 그분의 강인함을 존경했어", category: 'natural_korean', reason: '인물의 힘을 존경한다는 표현을 자연스러운 명사형으로 다듬었다.' }],
+  [178, { after: "눈썹이 가는 경비병", category: 'natural_korean', reason: '사람의 눈썹을 묘사하는 자연스러운 관용 표현으로 고쳤다.' }],
+  [179, { after: "쇼핑은 주부에게\n유일한 외출 시간이니\n산책도 할 겸 먼 길로 다니고 있어", category: 'meaning', reason: '「遠回り」를 귀가한다는 뜻으로 읽힐 수 있는 ‘돌아가다’ 대신 일부러 먼 길로 다닌다는 뜻으로 고쳤다.' }],
+  [181, { after: "어이……\n그건 네 일이잖아……", category: 'meaning', reason: '「それはあんたの仕事じゃ」에 부정을 덧붙여 뜻이 반대로 된 초안을 바로잡았다.' }],
+  [182, { after: "자무엘 씨도\n당신과 아델에게 비밀을\n숨기는 게 괴로웠을 거야<$0C>헤아려 줘……", category: 'natural_korean', reason: '비밀을 상대에게 감춰야 했다는 뜻이 자연스럽게 드러나도록 고쳤다.' }],
+  [183, { after: "좀 더 마음을 다잡아야 해.\n군인은 어떤 때라도\n등을 곧게 펴는 법이다", category: 'natural_korean', reason: '「気を引き締める」를 문맥에 맞는 관용 표현으로 다듬었다.' }],
+  [187, { after: "안트락스의 공예품입니까……\n제국에 습격당하기 전의 귀중한 물건이군요.\n――이걸 대체 어디서?", category: 'grammar', reason: '명사로 끊긴 문장을 화자의 정중한 말투에 맞는 완성 문장으로 고쳤다.' }],
+  [188, { after: "얼마 전 카드로 놀려는데\n１장만 이상한 게 섞여 있었어.\n이거――필요 없으니 줄게", category: 'numeric_fidelity', reason: '원문의 전각 숫자 「１」을 번역문에 복원했다.' }],
+  [189, { after: "어이, 여기는 길드다.\n너처럼 실력 있는 녀석은 대환영이야", category: 'omission', reason: '원문의 첫 인사 「よう」가 누락되어 복원했다.' }],
+  [199, { after: "알스 황제를 지지하지 않아.\n메리디아 가문 사람들은\n모두 똑같이 멸망하면 돼!<$0C>내 남편을 죽인 건 바이스\n내 희망을 죽인 건 알스――\n그 일족은 세상의 해악이야!", category: 'proper_noun', reason: '「メリディア家」를 오탈자가 섞인 ‘메리디아가 인간’이 아니라 메리디아 가문 사람들로 바로잡았다.' }]
+]);
+
+const reviewed = draft.map((row, i) => {
+  const correction = corrections.get(i + 1);
+  return correction ? { ...row, translation_ko: correction.after } : { ...row };
+});
+
+const modifications = [...corrections.entries()].map(([index, correction]) => ({
+  tm_id: source[index - 1].tm_id,
+  source_text: source[index - 1].source_text,
+  before: draft[index - 1].translation_ko,
+  after: correction.after,
+  category: correction.category,
+  reason: correction.reason
+}));
+
+const report = {
+  schema: 'arf-translation-independent-review-v1',
+  batch_id: batchId,
+  reviewer: '/root/audit_boundary_integration',
+  draft_translator: '/root/review_batch_0058_0060',
+  draft_author: '/root/review_batch_0058_0060',
+  independent_review: true,
+  translation_engine_policy: 'Codex internal models only',
+  external_translation_services_used: [],
+  external_translation_models_or_apis_used: [],
+  source: sourceRel,
+  draft: draftRel,
+  reviewed_output: reviewedRel,
+  reviewed_units: reviewed.length,
+  modified_units: modifications.length,
+  unchanged_units: reviewed.length - modifications.length,
+  review_dimensions: [
+    'meaning', 'function', 'numeric fidelity', 'proper nouns',
+    'natural Korean', 'particles', 'control tokens', 'line breaks'
+  ],
+  modifications,
+  verification_execution: {
+    status: 'deferred_by_user_instruction',
+    executed_tools: [],
+    not_executed: ['validator', 'fit', 'encoding', 'boundary_audit'],
+    note: '사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다.'
+  }
+};
+
+fs.mkdirSync(path.dirname(path.join(root, reviewedRel)), { recursive: true });
+fs.mkdirSync(path.dirname(path.join(root, reportRel)), { recursive: true });
+fs.writeFileSync(path.join(root, reviewedRel), reviewed.map((row) => JSON.stringify(row)).join('\n') + '\n', 'utf8');
+fs.writeFileSync(path.join(root, reportRel), JSON.stringify(report, null, 2) + '\n', 'utf8');
+console.log(JSON.stringify({ batch: batchId, reviewed: reviewed.length, modified: modifications.length, reviewed_output: reviewedRel, report: reportRel }));

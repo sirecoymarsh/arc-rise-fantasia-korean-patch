@@ -1,0 +1,184 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0108",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0108.jsonl",
+  "draft": "work/translation/drafts/batch_0108.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0108.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 18,
+  "unchanged_units": 182,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-7E80429DB89D2C9D1F20",
+      "source_text": "庭の手入れをするのにも\n兵士に怯えなきゃいけないなんて\n全く、ふざけた世の中だよ",
+      "before": "정원을 손질할 때도\n병사에게 떨어야 하다니\n정말 웃기지도 않는 세상이야",
+      "after": "정원을 손질할 때도\n병사들을 무서워해야 하다니\n정말 웃기지도 않는 세상이야",
+      "category": "grammar",
+      "reason": "「兵士に怯える」의 대상 관계가 드러나도록 조사를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7EC2F1F34E99B647D7D8",
+      "source_text": "寒冷地育ちには\nこの気候は辛すぎるよ……",
+      "before": "추운 지방에서 자랐어도\n이 기후는 너무 괴로워……",
+      "after": "추운 지방에서 자랐는데도\n이 기후는 너무 힘들어……",
+      "category": "meaning",
+      "reason": "「寒冷地育ち」를 화자의 성장 배경으로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-7EEAA65DAD09AEE9085F",
+      "source_text": "共和国は今すぐにでも\n悪政に苦しむエブルとバトラキテスの\n民を帝国から奪還すべきです",
+      "before": "공화국은 지금 당장\n악정에 시달리는 에블과 바트라키테스의\n백성을 제국에서 되찾아야 합니다",
+      "after": "공화국은 지금 당장\n폭정에 시달리는 에블과 바트라키테스의\n백성을 제국에서 되찾아야 합니다",
+      "category": "natural_korean",
+      "reason": "「悪政」의 어색한 한자 직역을 문맥에 맞는 ‘폭정’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7EFB1802A36A58A5BA99",
+      "source_text": "ここはコピンの里。\nようこそ、コピンの英雄。\nゆっくりしていってほしい<$0C>……そういえって\nそこにいるコピンが言うのよ。\n郷に入れば……ってヤツね",
+      "before": "여기는 코핀 마을.\n어서 와, 코핀의 영웅.\n느긋하게 쉬다 갔으면 해<$0C>……그렇게 말하라고\n저기 있는 코핀이 말했어.\n마을에 들어가면……이라는 거지",
+      "after": "여기는 코핀 마을.\n어서 와, 코핀의 영웅.\n느긋하게 쉬다 갔으면 해<$0C>……그렇게 말하라고\n저기 있는 코핀이 말했어.\n고을에 들면……이라는 거지",
+      "category": "idiom",
+      "reason": "「郷に入れば」가 가리키는 속담을 알아보기 쉬운 한국어 관용 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7F18443352C475492A18",
+      "source_text": "ここから先はイーサの領域。\n我が『支配』のロゴスと――",
+      "before": "이 앞은 이사의 영역.\n나의 『지배』의 로고스와――",
+      "after": "이 앞은 이사의 영역.\n나의 『지배』 로고스와――",
+      "category": "grammar",
+      "reason": "명사 수식에서 겹친 조사를 제거해 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-7F43A10422FCB86DD698",
+      "source_text": "ふう……息があがってしまいました。\nあと１０も若ければ……\nもっと色々と遊んでやれたのですが",
+      "before": "후우…… 숨이 차 버렸습니다.\n열 살만 젊었다면……\n좀 더 여러 가지로 놀아 줬을 텐데",
+      "after": "후우…… 숨이 차 버렸습니다.\n１０살만 젊었다면……\n좀 더 여러 가지로 놀아 줬을 텐데",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 「１０」을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-80268478EC2363A37CDB",
+      "source_text": "しばらくはこの街に\n腰を落ち着けて\n商売に勤しもうと思います<$0C>仕入れと販売が\n同時にできる街というのは\n商人にとってはありがたい限りです",
+      "before": "당분간 이 도시에\n자리를 잡고\n장사에 힘쓸 생각입니다<$0C>매입과 판매를\n동시에 할 수 있는 도시는\n상인에게 정말 고맙습니다",
+      "after": "당분간 이 도시에\n자리를 잡고\n장사에 힘쓸 생각입니다<$0C>매입과 판매를\n동시에 할 수 있는 도시는\n상인에게는 더없이 고마운 일입니다",
+      "category": "grammar",
+      "reason": "도시 자체가 상인에게 고맙다는 직역을 ‘고마운 일’이라는 자연스러운 서술로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-8035309714842924B28E",
+      "source_text": "ふん。俺はマシュガルの情報が\n欲しかっただけだ。\n俺はエブルに戻るぞ！",
+      "before": "흥. 난 마슈갈의 정보가\n필요했을 뿐이다.\n난 에블로 돌아가겠다!",
+      "after": "흥. 난 마슈가르의 정보가\n필요했을 뿐이다.\n난 에블로 돌아가겠다!",
+      "category": "proper_noun",
+      "reason": "「マシュガル」의 승인 표기를 ‘마슈가르’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-805FBB81CA8BD0120EC6",
+      "source_text": "変なことに使っちゃだめよ？\nさもないと……",
+      "before": "이상한 데 쓰면 안 돼?\n그러지 않으면……",
+      "after": "이상한 데 쓰면 안 돼, 알겠지?\n안 그러면……",
+      "category": "meaning",
+      "reason": "경고형 의문과 「さもないと」의 조건 의미가 자연스럽게 이어지도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-807D66D54DE9183D95D9",
+      "source_text": "道具屋 『山高帽堂』",
+      "before": "도구점 『산고모당』",
+      "after": "도구점 『실크햇당』",
+      "category": "proper_noun",
+      "reason": "시스템 상점명에서 확립된 「山高帽堂」의 승인 표기 ‘실크햇당’을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-80C4818300DE7330448B",
+      "source_text": "帝国ではアルス陛下の\n圧政への不満が高まっており\nいつ反乱が起きてもおかしくない<$0C>クライド将軍がいるお陰で\n何とか現状を維持できているが\nそれもいつまで持つか……",
+      "before": "제국에서는 알스 폐하의\n폭정에 대한 불만이 높아져\n언제 반란이 일어나도 이상하지 않아<$0C>클라이드 장군 덕분에\n어떻게든 현상을 유지하지만\n그것도 언제까지 갈지……",
+      "after": "제국에서는 알스 폐하의\n폭정에 대한 불만이 높아져\n언제 반란이 일어나도 이상하지 않아<$0C>클라이드 장군 덕분에\n어떻게든 현 상황을 유지하지만\n그것도 언제까지 갈지……",
+      "category": "meaning",
+      "reason": "「現状」를 현상(現象)이 아니라 현재 상황이라는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-80E8D08B170E96740B36",
+      "source_text": "帝国軍がバトラキテスまで……\n残るはカルブンクルスと\nこの街――ベネトナーシュね",
+      "before": "제국군이 바트라키테스까지……\n남은 건 카르분클루스와\n이 도시――베네트나슈군",
+      "after": "제국군이 바트라키테스까지……\n남은 건 카르분클루스와\n이 도시――베네트나슈지",
+      "category": "grammar",
+      "reason": "도시명 뒤에 잘못 붙은 ‘군’을 제거하고 원문의 확인 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-81145FD2BAC2DE7F8663",
+      "source_text": "な、何かあったんですか？<$0C>街のみなさんから\nダウナーな雰囲気を\nひしひしと感じてるんですが……",
+      "before": "무, 무슨 일 있었나요?<$0C>거리 사람들에게서\n가라앉은 분위기가\n절실히 느껴지는데요……",
+      "after": "무, 무슨 일 있었나요?<$0C>도시 사람들에게서\n침울한 분위기가\n물씬 느껴지는데요……",
+      "category": "natural_korean",
+      "reason": "「ダウナーな雰囲気」와 「ひしひし」를 자연스러운 한국어 분위기 묘사로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-81209F29DEE3C5D5FA41",
+      "source_text": "雪国育ちだっていうのに\nどうも寒いのは苦手なんだ<$0C>こう毎日、街頭警備の\n仕事を振ってくる上司に\n殺意に近い感情を覚えるよ",
+      "before": "눈의 나라에서 자랐는데도\n추위에는 약해<$0C>이렇게 매일 거리 경비\n일을 떠넘기는 상관에게\n살의에 가까운 감정이 들어",
+      "after": "설국에서 자랐는데도\n추위에는 약해<$0C>이렇게 매일 거리 경비\n일을 떠넘기는 상관에게\n살의에 가까운 감정이 들어",
+      "category": "natural_korean",
+      "reason": "「雪国育ち」를 자연스러운 한국어 ‘설국에서 자라다’로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-814CE31A567336B3C25E",
+      "source_text": "オレの後にポーカーをやった奴が\n目の前でストレートフラッシュを\n出しやがったんだ……<$0C>あと、もう１回、もう１回だけ\nねばっていればオレも……",
+      "before": "내 뒤에 포커를 한 녀석이\n눈앞에서 스트레이트 플러시를\n내 버렸어……<$0C>딱 한 번, 한 번만 더\n버텼다면 나도……",
+      "after": "내 뒤에 포커를 한 녀석이\n눈앞에서 스트레이트 플러시를\n내 버렸어……<$0C>１번만, 딱 １번만 더\n버텼다면 나도……",
+      "category": "numeric_fidelity",
+      "reason": "원문에 두 번 나오는 전각 숫자 「１」을 모두 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-8162C00083FAC12C8636",
+      "source_text": "ジャダに賊をいれたせいで\n守備隊の兵士たちは漏れなく\nクライド将軍の一喝が待っています<$0C>次は僕の番です……\nせめて早くしてほしい……",
+      "before": "자다에 도적을 들인 탓에\n수비대 병사들은 빠짐없이\n클라이드 장군의 호통을 기다립니다<$0C>다음은 제 차례입니다……\n차라리 빨리 끝났으면……",
+      "after": "자다에 도적을 들인 탓에\n수비대 병사들은 빠짐없이\n클라이드 장군의 호통을 들어야 합니다<$0C>다음은 제 차례입니다……\n차라리 빨리 끝났으면……",
+      "category": "natural_korean",
+      "reason": "호통을 ‘기다린다’는 직역을 피하고 병사들이 질책받게 된 상황을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-8169E43EBA25141BC6D0",
+      "source_text": "（違いがわからねえよ……）",
+      "before": "(차이를 모르겠어……)",
+      "after": "（차이를 모르겠어……）",
+      "category": "formatting",
+      "reason": "원문의 전각 괄호를 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-8184339487362647EACE",
+      "source_text": "毎日、住民たちの数を数え\n外出許可証の公布許可をし\n巡回兵たちからの報告を受ける――<$0C>毎日同じ、ルーチンワーク。\nこれじゃ、どれだけやっても\nお国に貢献してるとは思えないわ",
+      "before": "매일 주민 수를 세고\n외출 허가증 공포를 허가하며\n순찰병의 보고를 받는다――<$0C>매일 똑같은 반복 업무.\n아무리 해도\n나라에 공헌한다는 생각이 안 들어",
+      "after": "매일 주민 수를 세고\n외출 허가증 발급을 승인하며\n순찰병의 보고를 받는다――<$0C>매일 똑같은 반복 업무.\n아무리 해도\n나라에 공헌한다는 생각이 안 들어",
+      "category": "meaning",
+      "reason": "「外出許可証の公布許可」를 허가증 발급 승인 업무라는 뜻으로 자연스럽게 고쳤다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

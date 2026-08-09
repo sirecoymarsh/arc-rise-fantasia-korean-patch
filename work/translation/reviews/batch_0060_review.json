@@ -1,0 +1,344 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0060",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0060.jsonl",
+  "draft": "work/translation/drafts/batch_0060.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0060.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 38,
+  "unchanged_units": 162,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-025545B896576F8296C1",
+      "source_text": "だが、ここには\nレジスタンスのリーダーと\n反逆者ラルクがいるのだぞ！",
+      "before": "하지만 여기에는\n레지스탕스의 리더와\n반역자 라르크가 있단 말이다!",
+      "after": "하지만 여기에는\n저항군의 지도자와\n반역자 라르크가 있단 말이다!",
+      "category": "terminology",
+      "reason": "レジスタンス를 고정 용어 '저항군'으로 통일하고 リーダー를 자연스러운 직책명으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-02596A3F2B2D2B0B6A40",
+      "source_text": "いけませんディーバ。\nあなたはこの国を象徴するお方",
+      "before": "안 됩니다, 디바.\n당신은 이 나라를 상징하는 분입니다",
+      "after": "안 됩니다, 디바.\n당신은 이 나라의 상징이신 분입니다",
+      "category": "grammar",
+      "reason": "존대 대상에 맞춰 관형형과 서술을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-029E5E248682623D482A",
+      "source_text": "だから悪？　仮にそうだとして\nどうして悪に対抗するものが\n善だと思う訳？",
+      "before": "그래서 악이라고? 설령 그렇다 쳐도\n왜 악에 맞서는 존재가\n선이라고 생각하지?",
+      "after": "그래서 악이라는 거야? 설령 그렇다 쳐도\n왜 악에 맞서는 존재가\n선이라고 생각하지?",
+      "category": "function",
+      "reason": "첫 문장을 상대의 단정에 대한 반문으로 완결하고 논리적 대조를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-02CB7C323CA0342227AF",
+      "source_text": "いいえ。\nでも、この雰囲気には覚えがあるの",
+      "before": "아니.\n하지만 이 분위기는 기억나",
+      "after": "아니.\n하지만 이 느낌은 낯익어",
+      "category": "naturalness",
+      "reason": "雰囲気には覚えがある를 기억 자체보다 낯익은 느낌이라는 자연스러운 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-02F2A017B7490CE2ECEC",
+      "source_text": "え、ええ。\nなんでもないの",
+      "before": "아, 네.\n아무것도 아니에요",
+      "after": "으, 응.\n아무것도 아니야",
+      "category": "speaker_voice",
+      "reason": "앞뒤의 친근한 반말 문맥에 맞춰 갑작스러운 존댓말을 바로잡고 머뭇거림을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-03E6170B4A43B32D0A3D",
+      "source_text": "あんたもディノスと同じで\n追いつめられてるだけなんじゃないの",
+      "before": "너도 디노스와 마찬가지로\n궁지에 몰려 있을 뿐 아니야?",
+      "after": "너도 디노스와 똑같이\n궁지에 몰려 있을 뿐인 거 아니야?",
+      "category": "naturalness",
+      "reason": "同じで와 だけなんじゃないの의 비교·반문 구조를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-050BA552C58F62E174CF",
+      "source_text": "ラグーン曹長……\nいや、ラルク。\nあとは……頼む",
+      "before": "라군 상사……\n아니, 라르크.\n나머지는…… 부탁한다",
+      "after": "라군 상사……\n아니, 라르크.\n뒤를…… 부탁한다",
+      "category": "meaning",
+      "reason": "あとは頼む를 남은 일을 맡긴다는 뜻의 '뒤를 부탁한다'로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-0516D2F5BCED527134E3",
+      "source_text": "じゃあじゃあ\nこの奥で我々を待ち受けているのは！",
+      "before": "자, 자,\n이 안에서 우릴 기다리는 건!",
+      "after": "그렇다면, 그렇다면\n이 안에서 우리를 기다리는 건!",
+      "category": "speaker_voice",
+      "reason": "じゃあじゃあ를 단순 말더듬이 아니라 들뜬 추론의 반복으로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-058F454BF5DCE34D8CEE",
+      "source_text": "それはありがたいです。\nでも俺は\nログレスを盗んだ訳じゃない",
+      "before": "그건 고마운 말씀이지만,\n저는\n로그레스를 훔친 게 아닙니다",
+      "after": "그 말씀은 감사하지만,\n저는\n로그레스를 훔친 게 아닙니다",
+      "category": "naturalness",
+      "reason": "상대의 제안을 정중히 받으면서 반박하는 대화 흐름을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-05F8C7DE4B21D427251A",
+      "source_text": "ソニアさんもレジスタンスさん\nなんですか？",
+      "before": "소니아 씨도 레지스탕스\n분인가요?",
+      "after": "소니아 씨도 저항군\n소속인가요?",
+      "category": "terminology",
+      "reason": "レジスタンス를 고정 용어 '저항군'으로 통일하고 소속을 묻는 문장으로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-074FE0D5AAF722913BD0",
+      "source_text": "なるほど……\nレジスタンスに\n身を投じていたか……",
+      "before": "그렇군……\n레지스탕스에\n몸을 담고 있었나……",
+      "after": "그렇군……\n저항군에\n몸담고 있었나……",
+      "category": "terminology",
+      "reason": "レジスタンス를 고정 용어 '저항군'으로 통일하고 身を投じる의 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-075C3612B6915348B2FC",
+      "source_text": "僕はどれだけ汚れようとも\n計画を遂行する。\nそれが現種が生き残る道だから",
+      "before": "나는 아무리 더럽혀지더라도\n계획을 수행할 거야.\n그것이 현종이 살아남을 길이니까",
+      "after": "나는 아무리 손을 더럽혀도\n계획을 수행할 거야.\n그것이 현종이 살아남을 길이니까",
+      "category": "meaning",
+      "reason": "どれだけ汚れようとも를 육체가 더럽혀지는 뜻이 아니라 수단을 위해 손을 더럽힌다는 비유로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-07E1D8942D56E3D24D29",
+      "source_text": "イーサの子は定理を選び\n世界の理を解く。\nそのために力を与えるのがログレスよ",
+      "before": "이사의 아이는 섭리를 선택해\n세상의 이치를 푼다.\n그러기 위한 힘을 주는 것이 로그레스야",
+      "after": "이사의 아이는 섭리를 선택해\n세계의 이치를 밝힌다.\n그러기 위한 힘을 주는 것이 로그레스야",
+      "category": "meaning",
+      "reason": "世界の理を解く를 단순히 푼다는 말보다 세계의 이치를 밝혀낸다는 설정 의미로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-08AC48A078F004100481",
+      "source_text": "感じるの。禍々しい波動を",
+      "before": "느껴져. 불길한 파동이",
+      "after": "불길한 파동이 느껴져",
+      "category": "naturalness",
+      "reason": "목적어 도치가 어색한 한국어 문장을 자연스러운 어순으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-0966C5E7B227F50A5DC5",
+      "source_text": "皇帝アルスの悪政は\n打倒するべきだし♪",
+      "before": "황제 알스의 폭정은\n무너뜨려야 하잖아♪",
+      "after": "황제 알스의 폭정은\n타도해야지♪",
+      "category": "meaning",
+      "reason": "打倒する를 폭정의 주체를 끌어내린다는 '타도'의 의미로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-0A918DE32F20FB67C2C8",
+      "source_text": "ディーバにお目にかかったことが\nあるとは、なんと幸せな……",
+      "before": "디바를 뵌 적이\n있다니, 얼마나 행복한……",
+      "after": "디바를 뵌 적이\n있다니, 얼마나 영광스러운지……",
+      "category": "speaker_voice",
+      "reason": "신앙 대상인 디바를 만난 일을 단순 행복이 아니라 영광으로 여기는 경건한 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-0BA001F58891EF319DFD",
+      "source_text": "かもしれないな。\nまあ、とりあえず今は\nアブシム捜しに協力してくれ",
+      "before": "그럴지도 모르지.\n뭐, 일단 지금은\n아부심 찾는 걸 도와줘",
+      "after": "그럴지도 모르지.\n뭐, 일단 지금은\n아부심을 찾는 걸 도와줘",
+      "category": "grammar",
+      "reason": "찾다의 목적어에 필요한 조사를 보충했다."
+    },
+    {
+      "tm_id": "ARF-TM-0BC6957EDE930E59EA50",
+      "source_text": "……しかし、あの様子は\nちょっと気になるな。\n変なことを考えなければいいが",
+      "before": "……하지만 그 모습은\n조금 신경 쓰이는군.\n엉뚱한 생각만 안 하면 좋겠는데",
+      "after": "……하지만 저 모습은\n조금 신경 쓰이는군.\n엉뚱한 생각만 안 하면 좋겠는데",
+      "category": "meaning",
+      "reason": "あの様子를 추상적인 '그 모습'보다 현재 지켜보는 상대의 낌새를 가리키도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0DE32E74CEF0B7DE2DDB",
+      "source_text": "あの美しい青の瞳に見つめられると\n私の中の邪悪なものが\n浄化されるようでした",
+      "before": "그 아름다운 푸른 눈동자가 나를 바라보면\n내 안의 사악한 것이\n정화되는 듯했습니다",
+      "after": "그 아름다운 푸른 눈동자가 날 바라보면\n내 안의 사악한 것이\n정화되는 듯했습니다",
+      "category": "naturalness",
+      "reason": "목적어와 주어 관계를 유지하면서 대사체를 더 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0DE429A6443DEFA80911",
+      "source_text": "まあまあ。\n誤解ってこともあるんじゃね？",
+      "before": "뭐, 뭐.\n오해일 수도 있잖아?",
+      "after": "자, 자.\n오해일 수도 있잖아?",
+      "category": "speaker_voice",
+      "reason": "まあまあ를 반복 감탄이 아니라 상대를 달래는 중재의 감탄사로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-0E6BD461C4C9885B6C17",
+      "source_text": "火山を活性化させて\nカルブンクルスを潰して\nどうなるって言うんだ！",
+      "before": "화산을 활성화해서\n카르분클루스를 무너뜨리면\n뭐가 달라진다는 거야!",
+      "after": "화산을 활성화해서\n카르분클루스를 무너뜨리고\n어쩌겠다는 거야!",
+      "category": "meaning",
+      "reason": "どうなるって言うんだ를 결과 차이를 묻는 말이 아니라 상대의 의도를 추궁하는 문장으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1042F72FAE9721830F45",
+      "source_text": "それよか、早く勇者セシル様の\n飛光艇を手に入れようよ",
+      "before": "그것보다 빨리 이 용사 세실 님의\n비광정을 손에 넣자",
+      "after": "그보다 어서 용사 세실 님의\n비광정을 손에 넣자",
+      "category": "meaning",
+      "reason": "원문에 없는 화자 지시어 '이'를 제거하고 재촉의 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-1085589E12AE4532F9C7",
+      "source_text": "何故、まだ\nオルキナ教の元にいるのだ",
+      "before": "어째서 아직\n오르키나교 밑에 있는 거냐?",
+      "after": "어째서 아직도\n오르키나교에 속해 있는 거냐?",
+      "category": "meaning",
+      "reason": "教の元にいる를 물리적으로 아래에 있다는 뜻이 아니라 교단에 소속돼 있다는 뜻으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-10909373C715E53B93FF",
+      "source_text": "そういう宗教じゃなかったと\n思ったけど",
+      "before": "그런 종교는 아니었던 것\n같은데",
+      "after": "그런 종교가 아니었던 것\n같은데",
+      "category": "grammar",
+      "reason": "종교의 성격을 회상하는 문장에 맞춰 불필요한 보조사 '는'을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-12436E070369E971FBED",
+      "source_text": "あはは！\nだったらこの現実はどうなの？",
+      "before": "아하하!\n그럼 이 현실은 어떻게 설명할래?",
+      "after": "아하하!\n그럼 이 현실은 어쩔 건데?",
+      "category": "speaker_voice",
+      "reason": "상대의 논리를 현실로 반박하는 도발적 질문을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-12CD9F5D669790D98465",
+      "source_text": "だとするとアイオーン隊は\nエンジュさんを罪に陥れることで\n何か得をするんじゃないか？",
+      "before": "그렇다면 아이온대는\n엔주 씨를 죄에 빠뜨려서\n무언가 이득을 보는 게 아닐까?",
+      "after": "그렇다면 아이온대는\n엔주 씨에게 누명을 씌워서\n뭔가 이득을 보는 게 아닐까?",
+      "category": "meaning",
+      "reason": "罪に陥れる를 어색한 '죄에 빠뜨리다'가 아니라 범죄 누명을 씌운다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-12F5EA5F4B6F34BBC6FA",
+      "source_text": "ちょっとー。\nラルク、しっかりしてよ。\nねぇ、リフィア",
+      "before": "잠깐만.\n라르크, 정신 차려.\n그렇지, 리피아?",
+      "after": "잠깐만.\n라르크, 정신 차려.\n있잖아, 리피아",
+      "category": "function",
+      "reason": "ねぇ를 동의를 유도하는 '그렇지'가 아니라 리피아에게 말을 거는 호칭으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-13FB283C650098D74952",
+      "source_text": "ずばり、知的な眼鏡美人に\n決まってるじゃないか〜！\nか〜！　期待しちゃうなぁ！",
+      "before": "정답은 지적인 안경 미녀로\n정해져 있잖아〜!\n아〜! 기대되는데!",
+      "after": "정답은 지적인 안경 미녀로\n정해져 있잖아〜!\n캬〜! 기대되는데!",
+      "category": "speaker_voice",
+      "reason": "か〜라는 들뜬 감탄을 자연스러운 한국어 감탄사로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-147D32FB2310B134C9A7",
+      "source_text": "ま、気にしてなきゃ屑だろうよ",
+      "before": "뭐, 신경도 안 쓴다면 쓰레기겠지",
+      "after": "뭐, 그걸 신경도 안 쓴다면 쓰레기겠지",
+      "category": "naturalness",
+      "reason": "생략된 목적어를 문맥에 맞게 보충해 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-14C53457727BE1AD7DB4",
+      "source_text": "街の奥だ。同じ敷地に\n士官学校があるから\nすぐ分かると思うぜ",
+      "before": "도시 안쪽이야. 같은 부지에\n사관 학교가 있으니\n금방 알 수 있을 거야",
+      "after": "도시 안쪽이야. 같은 부지에\n사관학교가 있으니\n금방 알 수 있을 거야",
+      "category": "terminology",
+      "reason": "고정된 일반 명사 표기인 '사관학교'의 띄어쓰기를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-153380AD52D3EC41378B",
+      "source_text": "しかし今のアルス様には\nそれがない",
+      "before": "하지만 지금의 알스 님에게는\n그것이 없다",
+      "after": "하지만 지금의 알스 님에게는\n그런 망설임이 없다",
+      "category": "meaning",
+      "reason": "앞 문장의 ためらい를 받는 지시 내용을 보충해 의미를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-15374664FCD37D98984D",
+      "source_text": "だが今、アルス様を止められるのは\nお前しかいないのだ。お前は\nアルス様の友であったのだろう",
+      "before": "하지만 지금 알스 님을 막을 수 있는 건\n너밖에 없다. 너는\n알스 님의 친구였잖아",
+      "after": "하지만 지금 알스 님을 막을 수 있는 건\n너밖에 없다. 너는\n알스 님의 벗이었지 않느냐",
+      "category": "speaker_voice",
+      "reason": "격식 있는 화자의 어조와 友의 관계를 살려 '친구였잖아'라는 가벼운 표현을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-15D5D3BEF22BC516EC68",
+      "source_text": "この際、当時の話は\n後日にしましょう",
+      "before": "이참에 당시의 이야기는\n나중에 하죠",
+      "after": "그 당시 이야기는\n나중으로 미루죠",
+      "category": "meaning",
+      "reason": "この際를 잘못 옮긴 '이참에'를 제거하고 당장의 논의를 뒤로 미룬다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1601F0973C47481E0E38",
+      "source_text": "くっ……！\nレジスタンスに\n身を落としたか！　この外道め！",
+      "before": "큭……!\n레지스탕스로\n전락한 것이냐! 이 악당 놈!",
+      "after": "큭……!\n저항군으로\n전락했느냐! 이 악당 놈!",
+      "category": "terminology",
+      "reason": "レジスタンス를 고정 용어 '저항군'으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-162527991EF3C6092FBD",
+      "source_text": "我々はレジスタンス残党の\n殲滅に向かう！\nおまえたちは奧を頼む",
+      "before": "우리는 레지스탕스 잔당을\n섬멸하러 간다!\n너희는 안쪽을 부탁한다",
+      "after": "우리는 저항군 잔당을\n섬멸하러 간다!\n너희는 안쪽을 부탁한다",
+      "category": "terminology",
+      "reason": "レジスタンス残党을 고정 용어에 맞춰 '저항군 잔당'으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1707098D7E514E2E9D13",
+      "source_text": "方法はお任せします。\nとりあえずここを出ませんかぁ？\nさすがに冷えますから〜",
+      "before": "방법은 맡기겠습니다.\n일단 여기서 나가지 않을래요?\n아무래도 추우니까요〜",
+      "after": "방법은 맡기겠습니다.\n일단 여기서 나가는 게 어떨까요?\n아무래도 추우니까요〜",
+      "category": "naturalness",
+      "reason": "정중한 화자의 제안 어조를 유지하면서 반말처럼 들리던 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1782F3A38534F2CFC92D",
+      "source_text": "ホゼア。ダグラス卿夫人エンジュに\n対する国家反逆罪をときなさい",
+      "before": "호제아. 더글러스 경의 부인 엔주에게\n씌워진 국가 반역죄를 거두세요",
+      "after": "호제아. 더글러스 경의 부인 엔주에게\n씌워진 국가 반역죄 혐의를 풀어 주세요",
+      "category": "meaning",
+      "reason": "罪をとく를 죄를 거둔다는 말이 아니라 엔주에게 씌워진 혐의를 풀어 준다는 뜻으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-17FC1A6758E7778206DD",
+      "source_text": "アデールの話をされて\nカーッと頭に血が上って……",
+      "before": "아델 이야기를 듣자\n욱해서 머리에 피가 솟구쳐서……",
+      "after": "아델 이야기를 듣고\n순간 욱해서……",
+      "category": "naturalness",
+      "reason": "カーッと頭に血が上る라는 관용구를 중복 없이 자연스러운 한국어 구어로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "arf-ko-public-provenance-v1",
+  "game_id": "RPJJ99",
+  "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+  "translation_units": 29777,
+  "translation_occurrences": 84761,
+  "reviewed_batches": 149,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "delivery": "reversible Riivolution-style overlay",
+  "staging_summary": {
+    "schema": "arf-full-runtime-staging-v2",
+    "game_id": "RPJJ99",
+    "counts": {
+      "tm_units": 29777,
+      "catalog_occurrences": 84761,
+      "bscr_leaves": 606,
+      "bscr_occurrences": 79076,
+      "non_system_table_payloads": 15,
+      "non_system_table_occurrences": 449,
+      "system_occurrences": 5236,
+      "local_containers_rebuilt": 608,
+      "image_reinsertion_targets": 44,
+      "image_direct_physical_files": 43,
+      "image_cumulative_system_members": 1,
+      "staged_physical_files": 683,
+      "riivolution_file_rules": 683,
+      "supplemental_physical_files": 28,
+      "riivolution_memory_rules": 925
+    },
+    "riivolution": {
+      "xml": "riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
+      "file_count": 683,
+      "memory_count": 925,
+      "resize_true_count": 559,
+      "sha256": "ABD415AED5DF9DD10910D98ACADF892CC407778F71EEB632E7D41E3E2E5C66B3"
+    },
+    "static_validation": {
+      "valid": true,
+      "error_count": 0
+    },
+    "manifest_sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1",
+    "tree_sha256": "B9BF7A220CC5B2CF21858598ED3F72CF621FB04D1B85A954E55E728BAB64BF13"
+  }
+}

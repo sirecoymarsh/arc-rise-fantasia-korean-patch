@@ -1,0 +1,84 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0022",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0022.jsonl",
+  "draft": "work/translation/drafts/batch_0022.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0022.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 27,
+  "unchanged_units": 173,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-F9481ACD2389CC34C3FA",
+      "source_text": "全体に無属性ダメージ\n追加効果：状態異常",
+      "before": "전체에 무속성 피해\n추가 효과: 상태 이상",
+      "after": "전체에게 무속성 피해\n추가 효과: 상태 이상",
+      "category": "terminology",
+      "reason": "범위 효과 문장의 승인 표기인 ‘전체에게’를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-F9E2E357A791D6AB4B6E",
+      "source_text": "負の時代の巨石から生み出された杖。\n持つ者の身を堅牢なる大地の守護が包む",
+      "before": "음의 시대 거석에서 탄생한 지팡이.\n소지자의 몸을 견고한 대지의 가호가 감싼다",
+      "after": "음의 시대의 거석에서 탄생한 지팡이.\n소지자의 몸을 견고한 대지의 가호가 감싼다",
+      "category": "particle",
+      "reason": "‘음의 시대의 거석’으로 관형 관계를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-FD9E697C70F6CA82059C",
+      "source_text": "古き教えの<$13>14<$1F>00011D<$1F>01<$13>00と\n袂を分かつことで生まれた\n新たな教えのひとつ。\n創造と繁栄を象徴する\n<$13>14<$1F>0000FF<$1F>01<$13>00を信奉し\nオルキナ教で信じられる\n<$13>14<$1F>000102<$1F>01<$13>00に対しては\n消滅と衰退を象徴する\n邪神であるとの立場をとる",
+      "before": "옛 가르침의 <$13>14<$1F>00011D<$1F>01<$13>00와\n결별하며 생겨난\n새로운 가르침 중 하나.\n창조와 번영을 상징하는\n<$13>14<$1F>0000FF<$1F>01<$13>00를 신봉하며\n올키나교가 믿는\n<$13>14<$1F>000102<$1F>01<$13>00를\n소멸과 쇠퇴를 상징하는\n사악한 신으로 여긴다",
+      "after": "옛 가르침의 <$13>14<$1F>00011D<$1F>01<$13>00와\n결별하며 생겨난\n새로운 가르침 중 하나.\n창조와 번영을 상징하는\n<$13>14<$1F>0000FF<$1F>01<$13>00를 신봉하며\n오르키나교가 믿는\n<$13>14<$1F>000102<$1F>01<$13>00를\n소멸과 쇠퇴를 상징하는\n사악한 신으로 여긴다",
+      "category": "proper_noun",
+      "reason": "승인 고유명사 ‘오르키나교’로 통일했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 23,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span."
+  },
+  "hashes": {
+    "reviewed_sha256": "D778F7E1C949552CB2A7344ECFE09B237D5A21C8A595DD2CA73F4E704283AB97"
+  },
+  "fixed_field_fit_application": {
+    "status": "applied",
+    "source": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+    "source_sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5",
+    "corrected_units_in_batch": 2,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

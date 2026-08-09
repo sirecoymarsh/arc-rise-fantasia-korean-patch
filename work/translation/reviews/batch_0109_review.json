@@ -1,0 +1,152 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0109",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0109.jsonl",
+  "draft": "work/translation/drafts/batch_0109.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0109.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 14,
+  "unchanged_units": 186,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-829591FD6B52AC0B7A33",
+      "source_text": "さきほど、城内が\n慌しかったようだけど\n――何かあったのかしら？<$0C>ここはお城だから\n賊が侵入したなんてことは\nないとは思いますけど……",
+      "before": "조금 전 성 안이\n어수선한 것 같던데\n――무슨 일이라도 있었나?<$0C>여기는 성이니\n도적이 침입했을 리는\n없다고 생각하지만……",
+      "after": "조금 전 성 안이\n어수선한 것 같던데\n――무슨 일이라도 있었을까?<$0C>여기는 성이니까\n도적이 침입했을 리는\n없었을 것 같긴 하지만……",
+      "category": "character_voice",
+      "reason": "「かしら」의 여성 화자 어조를 살리고 뒤 문장을 자연스러운 추측 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-82D8B61F87A68A668183",
+      "source_text": "任務を忘れることはありませんよ。\n片時たりともね",
+      "before": "임무를 잊는 일은 없습니다.\n한시도 말입니다",
+      "after": "임무를 잊는 일은 없습니다.\n단 한순간도요",
+      "category": "natural_korean",
+      "reason": "「片時たりとも」를 어색한 직역 대신 자연스러운 강조 표현으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-82E2FB4D8FCA3EEBE53F",
+      "source_text": "ラルクか、久しぶりだな。\n私も父の名に恥じぬように\n立派な兵士になろうと思ってな<$0C>今、それをザムエル殿の\n墓前に誓ったところだ",
+      "before": "라르크인가, 오랜만이군.\n나도 아버지의 이름에 부끄럽지 않은\n훌륭한 병사가 되려고 한다<$0C>방금 그걸 자무엘 님의\n묘전에서 맹세한 참이다",
+      "after": "라르크인가, 오랜만이군.\n나도 아버지의 이름에 부끄럽지 않은\n훌륭한 병사가 되려고 한다<$0C>방금 그걸 자무엘 님의\n무덤 앞에서 맹세한 참이다",
+      "category": "natural_korean",
+      "reason": "「墓前」의 한자 직역 ‘묘전’을 일상적인 한국어 ‘무덤 앞’으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-834DE12CF89BEB59B6D1",
+      "source_text": "私たち、ディアマントの民は\n大切な人を失いました……<$0C>ここに咲いている花を\nマハト陛下への手向けとして\n献じようと思います……",
+      "before": "우리 디아만트 백성은\n소중한 사람을 잃었습니다……<$0C>여기 피어 있는 꽃을\n마하트 폐하께 바치는 조화로\n헌상하려 합니다……",
+      "after": "우리 디아만트 백성은\n소중한 사람을 잃었습니다……<$0C>여기 피어 있는 꽃을\n마하트 폐하의 영전에\n바치려 합니다……",
+      "category": "meaning",
+      "reason": "실제 꽃을 바치는 「手向け」를 인조 꽃을 뜻할 수 있는 ‘조화’로 옮긴 오류를 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-83977D5D46072E876BB8",
+      "source_text": "工具用品を一式\n持ちながら旅をするってのは\nなかなか骨が折れるものだよ<$0C>ここからだと、エブルまでは\nだいぶ距離があるからね……",
+      "before": "공구 용품을 한 세트\n들고 여행하는 건\n제법 힘든 일이야<$0C>여기서 에블까지는\n거리가 상당히 머니까……",
+      "after": "공구 일체를\n들고 다니며 여행하는 건\n제법 고된 일이야<$0C>여기서 에블까지는\n거리가 상당히 머니까……",
+      "category": "natural_korean",
+      "reason": "「工具用品を一式」와 「骨が折れる」를 자연스러운 한국어 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-83CEFFB75108D2BB1BDF",
+      "source_text": "特に人助けになっているとも\n思わぬが……",
+      "before": "딱히 남을 돕는 일이라고는\n생각하지 않는다만……",
+      "after": "딱히 남을 돕는 일은\n아닌 것 같다만……",
+      "category": "grammar",
+      "reason": "조사와 서술부의 어색한 결합을 바로잡아 원문의 유보적 판단을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-842957DDFB929C18D5A2",
+      "source_text": "アルス陛下……ねぇ。\n言い慣れないし、聞きなれないな<$0C>俺は、ヴァイス殿下を\n１番、頼りにしていたんだが……",
+      "before": "알스 폐하……라.\n말하기도 듣기도 낯설군<$0C>나는 바이스 전하를\n１순위로 의지했는데……",
+      "after": "알스 폐하……라.\n말하기도 듣기도 낯설군<$0C>나는 바이스 전하를\n제１의 의지처로 여겼는데……",
+      "category": "natural_korean",
+      "reason": "원문의 전각 숫자 「１」을 유지하면서 어색한 ‘１순위로 의지하다’를 자연스러운 명사구로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-843D2366D5802E48F2F3",
+      "source_text": "腰が引けてる赤い髪の\n兵隊さんを見かけたけど\nきっと、やられちゃってるよね",
+      "before": "겁먹은 붉은 머리\n병사를 봤는데\n분명 당하고 있겠지",
+      "after": "겁먹은 붉은 머리\n병사를 봤는데\n분명 당했겠지",
+      "category": "meaning",
+      "reason": "이미 목격한 병사의 이후 상황을 추측하는 문맥에 맞춰 진행형을 완료 추측으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-847283A447DCD3AFCFD7",
+      "source_text": "悪いが、勤務中の\n私語は禁止されている<$0C>私も警備に集中したいので\n放っておいてくれないか？",
+      "before": "미안하지만 근무 중에는\n사담이 금지되어 있다<$0C>나도 경비에 집중하고 싶으니\n내버려 두지 않겠나?",
+      "after": "미안하지만 근무 중에는\n사담이 금지되어 있다<$0C>나도 경비에 집중하고 싶으니\n날 좀 내버려 두겠나?",
+      "category": "grammar",
+      "reason": "「放っておいてくれないか」의 목적어와 요청 의미가 자연스럽게 드러나도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-8475F6E80BA03DED96E2",
+      "source_text": "まあまあ、カリカリすんなよ坊主。\nそれじゃ、海に出たら\nディアマントに向かうぞ",
+      "before": "진정해, 꼬마야.\n그럼 바다에 나가면\n디아만트로 향한다",
+      "after": "진정해, 꼬마야.\n그럼 바다에 나가면\n디아만트로 향하자",
+      "category": "function",
+      "reason": "「向かうぞ」의 동행 제안을 평서형이 아닌 자연스러운 청유형으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-84D79E1B72C0C3A6120E",
+      "source_text": "目は充血しまくってるし……\nやっぱりあの人――おっかない",
+      "before": "눈은 잔뜩 충혈돼 있고……\n역시 그 사람―― 무서워",
+      "after": "눈은 잔뜩 충혈돼 있고……\n역시 그 사람――무서워",
+      "category": "formatting",
+      "reason": "원문에 없는 대시 뒤 공백을 제거해 문장부호 형식을 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-8563A26FC04CF68FEA7D",
+      "source_text": "ええ、これがそうよ。\n文面は丁寧なんだけど、字は汚い。\n子どもとも思えないけど……",
+      "before": "그래, 이게 그거야.\n글은 정중한데 글씨는 엉망이야.\n아이 같다고도 생각되지 않지만……",
+      "after": "그래, 이게 그거야.\n문장은 정중한데 글씨는 엉망이야.\n그렇다고 아이가 쓴 것 같지도 않지만……",
+      "category": "meaning",
+      "reason": "「文面」과 편지를 쓴 사람에 대한 추측을 각각 ‘문장’과 ‘아이가 쓴 것’으로 명확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-8575133DC7016A657A38",
+      "source_text": "ある日のこと。<$0C>仕事がひと段落して\n配達本部に戻ったときのこと……<$0C>受付の同僚が席を空け\n戻ってきたときには――<$0C>この箱と手紙、それに\n依頼の報酬が\nカウンターに置いてあったの",
+      "before": "어느 날의 일이야.<$0C>일이 일단락되어\n배달 본부로 돌아갔을 때였어……<$0C>접수대 동료가 자리를 비웠다가\n돌아와 보니――<$0C>이 상자와 편지, 그리고\n의뢰 보수가\n카운터에 놓여 있었대",
+      "after": "어느 날의 일이야.<$0C>일이 일단락되어\n배달 본부로 돌아갔을 때였어……<$0C>접수대 동료가 자리를 비웠다가\n돌아와 보니――<$0C>이 상자와 편지, 그리고\n의뢰 보수가\n카운터에 놓여 있었어",
+      "category": "meaning",
+      "reason": "화자가 직접 겪은 일을 전하는 대사이므로 마지막의 잘못된 전언형을 직접 경험형으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-8589A3B5B1C11170C75D",
+      "source_text": "特使様\nどうかご理解ください<$0C>街の民も議会も願いはひとつ。\n戦争がない平和な世界。\n議長だって、そう思っておられます",
+      "before": "특사님\n부디 이해해 주십시오<$0C>도시의 백성과 의회의 바람은 하나.\n전쟁이 없는 평화로운 세계.\n의장님도 그렇게 생각하십니다",
+      "after": "특사님\n부디 이해해 주십시오<$0C>도시 주민과 의회의 바람은 하나.\n전쟁 없는 평화로운 세계.\n의장님도 그렇게 생각하십니다",
+      "category": "natural_korean",
+      "reason": "「街の民」를 자연스러운 ‘도시 주민’으로 옮기고 중복된 조사 표현을 간결하게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

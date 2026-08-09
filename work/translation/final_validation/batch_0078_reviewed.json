@@ -1,0 +1,44 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0078.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0078.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 570,
+  "hangul_characters": "가각간갈감값강같갚개객거걱건걷걸검겁것게겠겨격결경곁계고곤곧골곱곳공과관광괜괴교구국군굴궁권귄규그극근글금급기긴길깃깊까깔꺼께꼬꼭꼼꽃꽤꿀꿈꿉꿔뀐끈끝끼나난날남납낯내낸냈냐너넘네녀년념녕노놀놈높놓뇌누눈눠뉴는늘늙능늦니닐님다닥단달담답당대더덕던덩데델도돈돌돕동돼됐되된될두둘뒤드득든들듭듯디딪따딴딸땅때떠떨떻또뚫뜨뜩뜬뜻띄라락란랄람랐랑래랜략러런럴럼럽렇레려력련렵렸령례로록론료루륙르른를름리린릴림마막만많말맑망맞맡매맵머먹멀멈멉멍메며면명모목몸못묘무문물뭐뭔뭘미민믿밀바박밖반받발밟밤방배백버번벌법벤벽변별병볕보복본볼봐봤부분불붉브비빈빌빚빛빠빤빼뻐뻥뿐쁘쁜쁨사삭산살삼상새생서석선설섭성세셈셔셨소속손솔쇼수순술숨쉬쉽쉿스슨슬슴습승시식신실싫심싶싸싼써쓰쓸씬씻아악안않알앗았앙앞애야약양얘어억언얼엄없엇었엉엎에엔엘여역연열염영옆예옛오옥온올옮옷와완왔왜외요용우욱운울움웃워원월웠위유으은을음의이익인일잃임입있잊자작잔잖잘잡장재쟁저적전절젊점접정젖제젠져졌조족존졸좀종좋죄죠주죽준줄중줘즉증지직진질짐집짖짜짝짱째쨌쪽쫓쬐찌차착찮참찼찾채챙처천청체쳐쳤초최추출취층치친칠침칼커컷케켜코콘크큰키킬타탁탈탑태터털텅테텐토톤통트특틀파판팔퍼편평폐포표푸풀품풍프픈픔피핀필핑하한할함합항해햇했행향헌헐험헛헤혀혁현형호혹혼홀화확환활황회후훨흥희흰히힐힘",
+  "error_count": 0,
+  "warning_count": 5,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-08A17F1BE01AB9BC7D27",
+      "characters": "・"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-094279C274E35EA046A7",
+      "characters": "・"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-09CC1749A4EDF41436E9",
+      "characters": "・"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-09EB025AE5F12EFFF68E",
+      "characters": "・"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-0A5FA04BDA5E08627D35",
+      "characters": "ー"
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

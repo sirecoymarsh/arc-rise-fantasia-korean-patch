@@ -1,0 +1,44 @@
+{
+  "schema": "arf-translation-layout-proposals-v1",
+  "batch": "batch_0002",
+  "reason": "Fixed-size system table fields must retain one NUL byte within their declared capacity.",
+  "translation_engine_policy": "Codex internal models only",
+  "proposals": [
+    {
+      "tm_id": "ARF-TM-09A6453609F8B1DA7B74",
+      "source_text": "地脈を流れるレイと感応する紫電の長剣。\nその一閃は、時に敵の光召術を低下させる",
+      "before": "지맥의 레이에 감응하는 자색 번개의 장검.\n그 일격은 때때로 적의 광소술을 약화시킨다",
+      "after": "지맥의 레이에 감응하는 자색 번개 장검.\n그 일격은 때때로 적의 광소술을 약화시킨다",
+      "encoded_bytes_before": 82,
+      "encoded_bytes_after": 80,
+      "capacity_including_nul": 81
+    },
+    {
+      "tm_id": "ARF-TM-020256D0F80CADF853BF",
+      "source_text": "鎧の堅牢さと法衣の俊敏さを兼ねた一着。\n防御力が大きく上昇し、抵抗力も高める",
+      "before": "갑옷의 견고함과 로브의 기동성을 갖춘 한 벌.\n방어력이 크게 상승하고 저항력도 높인다",
+      "after": "갑옷의 견고함과 로브의 기동성을 갖춘 옷.\n방어력이 크게 상승하고 저항력도 높인다",
+      "encoded_bytes_before": 82,
+      "encoded_bytes_after": 79,
+      "capacity_including_nul": 81
+    },
+    {
+      "tm_id": "ARF-TM-029F884DC13E9FD1E052",
+      "source_text": "お気にのスタイル",
+      "before": "마음에 드는 스타일",
+      "after": "즐겨 입는 스타일",
+      "encoded_bytes_before": 18,
+      "encoded_bytes_after": 16,
+      "capacity_including_nul": 17
+    },
+    {
+      "tm_id": "ARF-TM-0160A08C30E855DE9622",
+      "source_text": "水玉の水着",
+      "before": "물방울무늬 수영복",
+      "after": "물방울 수영복",
+      "encoded_bytes_before": 17,
+      "encoded_bytes_after": 13,
+      "capacity_including_nul": 17
+    }
+  ]
+}

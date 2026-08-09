@@ -1,0 +1,256 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0122",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0122.jsonl",
+  "draft": "work/translation/drafts/batch_0122.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0122.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 27,
+  "unchanged_units": 173,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-B4B1F54F529A8403CE18",
+      "source_text": "若手の積み荷主",
+      "before": "젊은 화물주",
+      "after": "젊은 화주",
+      "category": "terminology",
+      "reason": "積み荷主를 자연스러운 물류 용어인 화주로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B4B87160D1DCADBE72B1",
+      "source_text": "ち、ちょっと\n話しかけないでくれる……？\n隠れてるのがバレちゃうから",
+      "before": "자, 잠깐\n말 걸지 말아 줄래……?\n숨어 있는 게 들키니까",
+      "after": "자, 잠깐\n말 걸지 말아 줄래……?\n숨어 있는 게 들킬 테니까",
+      "category": "meaning",
+      "reason": "숨은 상태가 앞으로 들킬 수 있다는 인과와 시제를 바로잡음"
+    },
+    {
+      "tm_id": "ARF-TM-B532F141DC996D55D3F2",
+      "source_text": "彼を救ってくれたこと。\n心より感謝する",
+      "before": "그를 구해 준 것.\n진심으로 감사한다",
+      "after": "그를 구해 준 데 대해\n진심으로 감사한다",
+      "category": "natural_korean",
+      "reason": "명사형으로 끊긴 감사 문장을 자연스럽게 연결함"
+    },
+    {
+      "tm_id": "ARF-TM-B55385F311AE838A9093",
+      "source_text": "お兄ちゃんはその人から\n星へ行く船……この船の話を\n聞いたんだと思います",
+      "before": "오빠는 그 사람에게서\n별로 가는 배……이 배의 이야기를\n들었을 거예요",
+      "after": "오빠는 그 사람에게서\n별로 향하는 배……이 배의 이야기를\n들었을 거예요",
+      "category": "natural_korean",
+      "reason": "방향 조사 '별로'의 중의성을 피하도록 표현을 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B56C1B50E1F5CEF280DC",
+      "source_text": "逃げてるんじゃありません……\n何も考えないということは\n達観している……ってことです<$0C>ふぁ〜あ……",
+      "before": "도망치는 게 아닙니다……\n아무 생각도 하지 않는 건\n초연해진 것……이라는 뜻입니다<$0C>하아〜암……",
+      "after": "도망치는 게 아닙니다……\n아무 생각도 하지 않는 건\n초연해진 것……이라는 뜻입니다<$0C>하아암……",
+      "category": "natural_korean",
+      "reason": "일본어 물결표가 남은 하품 의성어를 한국어 표기로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B56F9207536304F717FA",
+      "source_text": "るるるるー♪\n……この歌？\nトゥレミリアの伝統的な唱歌<$0C>私も子どもの頃、カルブンクルスの\n歌劇場で友達と唄ってたんだ〜",
+      "before": "루루루루ー♪\n……이 노래?\n투레밀리아의 전통 창가야<$0C>나도 어릴 때 카르분클루스의\n가극장에서 친구들과 불렀어〜",
+      "after": "루루루루~♪\n……이 노래?\n투레밀리아의 전통 창가야<$0C>나도 어릴 때 카르분클루스의\n가극장에서 친구들과 불렀어~",
+      "category": "punctuation",
+      "reason": "노랫소리와 말끝에 남은 일본어 장음·물결표를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B572B78EC7543E8FFE23",
+      "source_text": "もうあなたとはやっていけないわ・・・。",
+      "before": "이제 당신과는 함께할 수 없어・・・。",
+      "after": "이제 당신과는 함께할 수 없어……",
+      "category": "punctuation",
+      "reason": "일본어식 점 세 개와 마침표를 프로젝트 말줄임표로 통일함"
+    },
+    {
+      "tm_id": "ARF-TM-B5B6211E1C73100381F7",
+      "source_text": "皇族の不幸があると\n帝都全体が喪に服することになって\n数日間、お店が営業しなくなるの<$0C>だから今日は買いだめに来たの。\n飢え死にして、マハト陛下の\n後を追うのはゴメンだもの",
+      "before": "황족에게 불행한 일이 생기면\n제도 전체가 상복을 입게 되어\n며칠 동안 가게가 영업하지 않아<$0C>그래서 오늘은 사재기하러 왔어.\n굶어 죽어서 마하트 폐하의\n뒤를 따르는 건 사양이거든",
+      "after": "황족에게 불행한 일이 생기면\n제도 전체가 상중에 들어\n며칠 동안 가게가 영업하지 않아<$0C>그래서 오늘은 사재기하러 왔어.\n굶어 죽어서 마하트 폐하의\n뒤를 따르는 건 사양이거든",
+      "category": "meaning",
+      "reason": "喪に服する를 문자 그대로 상복을 입는 것이 아니라 상중에 드는 관용 표현으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B5C79C253089A0491D1B",
+      "source_text": "元老院へ向かう　　\n議長に救援要請　　\nウィリーの妹に会う\nもどる　　　　　　",
+      "before": "원로원으로 향한다　　\n의장에게 구원 요청　　\n윌리의 여동생과 만난다\n돌아간다　　　　　　",
+      "after": "원로원으로 향한다　　\n의장에게 지원 요청　　\n윌리의 여동생과 만난다\n돌아간다　　　　　　",
+      "category": "terminology",
+      "reason": "救援要請를 문맥에 맞는 지원 요청으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B5CE89FCF16243C46D21",
+      "source_text": "微笑み傾ける兵士",
+      "before": "미소를 기울이는 병사",
+      "after": "살짝 미소 짓는 병사",
+      "category": "natural_korean",
+      "reason": "직역투 인물 라벨을 자연스러운 동작 표현으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B5EE6FC8054EE1B428B7",
+      "source_text": "それって、街にやってある\nモンスターよけと同じ？",
+      "before": "그거, 도시에 설치된\n몬스터 퇴치 장치와 같은 거야?",
+      "after": "그거, 도시에 설치된\n몬스터 방지 장치와 같은 거야?",
+      "category": "meaning",
+      "reason": "モンスターよけ를 퇴치가 아니라 접근 방지 장치로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B5FA1F4678CE49FFEA33",
+      "source_text": "逃がさないっスよ\nアニキ〜\n道連れっス",
+      "before": "놓치지 않을 검다\n형님〜\n같이 가는 검다",
+      "after": "놓치지 않을 검다\n형님~\n같이 가는 검다",
+      "category": "punctuation",
+      "reason": "대사에 남은 일본어 물결표를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B624FEDF7715AC797B73",
+      "source_text": "ここで警備していると\n体がしょっぱくなるから\nちょっと嫌なんですよね……",
+      "before": "여기서 경비하면\n몸이 짭짤해져서\n조금 싫단 말이죠……",
+      "after": "여기서 경비하면\n온몸에 소금기가 배어서\n조금 싫단 말이죠……",
+      "category": "natural_korean",
+      "reason": "바닷바람 때문에 몸에 소금기가 밴다는 뜻을 자연스럽게 표현함"
+    },
+    {
+      "tm_id": "ARF-TM-B6CE6769A537BB3A8F22",
+      "source_text": "景気も悪くなってきたから\n今日はパァーッと\nカジノで楽しんでくるか……<$0C>娯楽は心に効く薬だ。\n嫌なことは全部忘れて\n明日に向けてリフレッシュできる<$0C>……あんたも、ずいぶんと\n景気悪そうなツラ構えじゃないか。\n娯楽街にでも行ってこいよ",
+      "before": "경기도 나빠졌으니\n오늘은 화끈하게\n카지노에서 즐기고 올까……<$0C>오락은 마음에 듣는 약이야.\n싫은 일은 전부 잊고\n내일을 향해 재충전할 수 있지<$0C>……너도 꽤나\n경기 나빠 보이는 낯짝이군.\n유흥가에라도 다녀와",
+      "after": "경기도 나빠졌으니\n오늘은 화끈하게\n카지노에서 즐기고 올까……<$0C>오락은 마음에 잘 듣는 약이야.\n싫은 일은 전부 잊고\n내일을 향해 재충전할 수 있지<$0C>……너도 꽤나\n죽상을 하고 있잖아.\n유흥가에라도 다녀와",
+      "category": "meaning",
+      "reason": "景気悪そうな顔의 말장난성 표현을 문맥에 맞는 침울한 표정으로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B6D3FE60A3CB1842FC1B",
+      "source_text": "働き者",
+      "before": "일꾼",
+      "after": "부지런한 사람",
+      "category": "meaning",
+      "reason": "働き者를 직업인 일꾼이 아니라 부지런한 성격의 인물 라벨로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B6E428CB0586B79D2036",
+      "source_text": "最近は退屈してるの……\nママはお外に出ちゃいけない\nってうるさくてさー……<$0C>私、つまんなーい",
+      "before": "요즘은 심심해……\n엄마가 밖에 나가면 안 된다고\n잔소리해서 말이야……<$0C>나, 재미없어ー",
+      "after": "요즘은 심심해……\n엄마가 밖에 나가면 안 된다고\n잔소리해서 말이야……<$0C>나, 재미없어~",
+      "category": "punctuation",
+      "reason": "늘인 말끝에 남은 일본어 장음 부호를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B71E76D40F22DB238A11",
+      "source_text": "ディアマントからジャダへ\nゆる〜く旅をしていたつもりが\nいつの間にかこんなところに……<$0C>どうやら、北と南を\n間違えてしまったようで……\n――それにしても困った……",
+      "before": "디아만트에서 자다로\n느긋〜하게 여행할 생각이었는데\n어느새 이런 곳에……<$0C>아무래도 북쪽과 남쪽을\n착각한 모양이라……\n――정말 곤란하군……",
+      "after": "디아만트에서 자다로\n느긋하게 여행할 생각이었는데\n어느새 이런 곳에……<$0C>아무래도 북쪽과 남쪽을\n착각한 모양이라……\n――정말 곤란하군……",
+      "category": "natural_korean",
+      "reason": "단어 내부에 남은 일본어 물결표를 제거해 자연스럽게 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B74E4FE0EA66F57EBC13",
+      "source_text": "カルブンクルス港で\n水揚げされる魚介類は\n世界一だって言われてるんだ<$0C>特にこの時期に獲れる\nトゥレミリア魚なんて\n身がプリプリして最高の逸品さ",
+      "before": "카르분클루스 항구에서\n잡히는 해산물은\n세계 제일이라고 해<$0C>특히 이 시기에 잡히는\n투레밀리아어는\n살이 탱탱해서 최고의 일품이지",
+      "after": "카르분클루스 항구에서\n잡히는 해산물은\n세계 제일이라고 해<$0C>특히 이 시기에 잡히는\n투레밀리아 물고기는\n살이 탱탱해서 최고의 일품이지",
+      "category": "terminology",
+      "reason": "トゥレミリア魚가 언어명처럼 보이지 않도록 물고기 이름임을 명확히 함"
+    },
+    {
+      "tm_id": "ARF-TM-B755C90410DE945C8566",
+      "source_text": "今日もお留守番……\nまだかな、まだかな〜",
+      "before": "오늘도 집 보기……\n아직인가, 아직인가〜",
+      "after": "오늘도 집 보기……\n아직인가, 아직인가~",
+      "category": "punctuation",
+      "reason": "늘인 말끝에 남은 일본어 물결표를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B760810862405AA5B88D",
+      "source_text": "正直、帝国の人間が\nアルスの法律で苦しもうが\n私たちには関係ない<$0C>――いや、むしろ\n『ざまあみろ』ってなモンだ",
+      "before": "솔직히 제국 사람들이\n알스의 법 때문에 고통받든\n우리와는 상관없어<$0C>――아니, 오히려\n『꼴좋다』는 느낌이지",
+      "after": "솔직히 제국 사람들이\n알스의 법 때문에 고통받든\n우리와는 상관없어<$0C>――아니, 오히려\n『꼴좋다』고 할 정도지",
+      "category": "natural_korean",
+      "reason": "ざまあみろ의 인용과 종결을 자연스러운 구어체로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B78FF79433001B84E4E4",
+      "source_text": "ヴァイス様もいいけど\nアルス様に会ってみたいな〜\n……どんな人なんだろう？",
+      "before": "바이스 님도 좋지만\n알스 님을 만나 보고 싶어〜\n……어떤 사람일까?",
+      "after": "바이스 님도 좋지만\n알스 님을 만나 보고 싶어~\n……어떤 사람일까?",
+      "category": "punctuation",
+      "reason": "늘인 말끝에 남은 일본어 물결표를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B7932EE615DEF7570671",
+      "source_text": "じゃあ死ねば？",
+      "before": "그럼 죽든가?",
+      "after": "그럼 죽지 그래?",
+      "category": "natural_korean",
+      "reason": "じゃあ死ねば의 도발적인 구어체를 자연스럽게 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B79D1021972ADB029B5F",
+      "source_text": "暗殺された――なんて\n物騒な話も飛び交っているし\nどれが本当のことなんだか……",
+      "before": "암살당했다――느니\n흉흉한 이야기도 오가니\n뭐가 진실인지……",
+      "after": "암살당했다느니――\n흉흉한 이야기도 오가니\n뭐가 진실인지……",
+      "category": "grammar",
+      "reason": "인용 조사와 대시의 위치를 바로잡음"
+    },
+    {
+      "tm_id": "ARF-TM-B7D337A58036EBD0DD0E",
+      "source_text": "おい、それじゃこんな風に\n樹が石になってるのは\n邪神の呪いだとでも言うのか？",
+      "before": "어이, 그럼 이렇게\n나무가 돌이 된 게\n사신의 저주라는 거야?",
+      "after": "어이, 그럼 이렇게\n나무가 돌이 된 게\n사악한 신의 저주라는 거야?",
+      "category": "meaning",
+      "reason": "邪神을 死神과 혼동한 '사신' 오역을 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B7F8D71385318EAABBAA",
+      "source_text": "最近は朝から晩まで\n議会ばっかり……<$0C>そりゃ、帝国からの\n進軍が続いてるから\nしょうがないのだけど……",
+      "before": "요즘은 아침부터 밤까지\n의회뿐이야……<$0C>제국의\n진군이 계속되고 있으니\n어쩔 수 없지만……",
+      "after": "요즘은 아침부터 밤까지\n회의뿐이야……<$0C>제국의\n진군이 계속되고 있으니\n어쩔 수 없지만……",
+      "category": "meaning",
+      "reason": "議会를 기관 자체가 아니라 반복되는 회의 일정이라는 문맥으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B827C593DCFA081B591F",
+      "source_text": "大きくなったら\nパパの船に乗せてもらうんだ〜。\n……うらやましいでしょ？",
+      "before": "크면\n아빠 배에 태워 달라고 할 거야〜.\n……부럽지?",
+      "after": "크면\n아빠 배에 태워 달라고 할 거야~\n……부럽지?",
+      "category": "punctuation",
+      "reason": "늘인 말끝에 남은 일본어 물결표를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B82DBF5D4497D5CB1A86",
+      "source_text": "『モニカ』の仕立屋",
+      "before": "『모니카』의 양복점",
+      "after": "『모니카』의 양장점",
+      "category": "terminology",
+      "reason": "仕立屋를 프로젝트 내 점포 용어인 양장점으로 통일함"
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

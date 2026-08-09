@@ -1,0 +1,41 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0092.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0092.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 601,
+  "hangul_characters": "가각간갈감갑갔강같개객거걱건걷걸검겁것겉게겠겨격겪견결경곁계고곡곤골곳공과관광괴교구국군굴권규그극글금급기긴길깊까깐깨꺾껏께꼴꽃꽉꽤꾸꾼꿈꿔뀌끄끊끔끗끝끼낌나낙난날남납났낳내낸냐너널넓넣네녀년념노논놀놈놓누눈눠뉴느는늘늠능늦니닌닐님닙다단닫달담답닷당대더덕던데델도독돈돌동돼됐되된될두둘둬뒤뒷드득든듣들듭듯디딘따딸땅때땠땡떠떤떨떻뗀또똑뜨뜻띄라락란람랐랑래량러런럼럽렀렇레려력련렸령례로록론롭롯료루류르른를름릅리린릴림마막만많말맑맘맛망맞맡매맥맨맺머먹멋메며면명몇모목몰몸몹못묘무문물뭐뭔뭘미민믿밀바박밖반받발방배백버번벌법베벤변별병보복본볼봉봐봤부북분불붉붙브블비빛빠빨빼뻐뿐쁘사삭산살상새생서석선섭성세셔셨소속손솔수숙순술숨숲쉬쉽슈스슨슬슴습승시식신싣실싫심십싶싸싼쌓썩쎄쏟쑥쓰쓸씀씨씬아안않알암앗았앙앞애액야약양얘어억언얻얼엄업없엇었에엑엘여역연열엾였영옆예옛오옥온올와완왔왜왠외요용우욱운울움웅워원웠웩위윈유으은을음응의이인일잃임입있잎자작잔잖잘잠잡장재쟁저적전젊점정제젠젬져졌조족존졸좀좁좋죄죠주죽준줄중줘줬쥬즈즉즐즘증지직진질짐집짓짱째쩔쪽쫓찌찍차착찰참창찾채책처척천첨첫청체쳐쳤초총최추축출충치칙친침칩카칸칼캉캐케켜코콜크큰클큼키킬타탄탈탐탑탓탕태택터테텐토통투툭툼트튼틀파판패펠편평폐포표푸푹풀품프플픔피핀필하한할함합항해햇했행향허헌험헤혀현협형혜혹혼홀화환활황회횟후훨휑흉흐흑희히힐힘",
+  "error_count": 0,
+  "warning_count": 4,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-42038CEF28A49E08BBDB",
+      "characters": "・"
+    },
+    {
+      "code": "line_break_count_changed",
+      "tm_id": "ARF-TM-4210056EB2D4F3B77DDF",
+      "source_count": 3,
+      "translation_count": 2
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-42A75F2CB7355987572F",
+      "characters": "・"
+    },
+    {
+      "code": "line_break_count_changed",
+      "tm_id": "ARF-TM-432CB4D20A1C1B954921",
+      "source_count": 1,
+      "translation_count": 0
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

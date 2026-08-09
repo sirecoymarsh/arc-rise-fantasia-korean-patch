@@ -1,0 +1,247 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0034",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0034.jsonl",
+  "draft": "work/translation/drafts/batch_0034.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0034.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 23,
+  "unchanged_units": 177,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "speaker voice",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 13,
+      "tm_id": "ARF-TM-8C92F58F42F3E0FAE4BD",
+      "source_text": "これが洋上の眺めか――\nなんとすさまじい結晶化だ",
+      "before": "이것이 바다 위에서 보는 광경인가――\n참으로 끔찍한 결정화군",
+      "after": "이것이 바다 위에서 보는 광경인가――\n참으로 엄청난 결정화군",
+      "category": "meaning_tone",
+      "reason": "すさまじい를 공포로 단정한 표현 대신 결정화의 엄청난 규모를 나타내도록 바로잡았다."
+    },
+    {
+      "index": 19,
+      "tm_id": "ARF-TM-8CC49AC37DE9A70BD70D",
+      "source_text": "ほんと、２人とも変わらないね",
+      "before": "정말, 둘 다 변함없네",
+      "after": "정말, ２명 모두 변함없네",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 그대로 보존했다."
+    },
+    {
+      "index": 26,
+      "tm_id": "ARF-TM-8D360B5662C801DD595A",
+      "source_text": "なんだ？　汚い字だな。\n『南にあるのです』……って\nこれだけじゃわかんねーよ……",
+      "before": "뭐야?　글씨가 더럽네.\n『남쪽에 있는 겁니다』……라고\n이것만으론 모르겠잖아……",
+      "after": "뭐야?　악필이네.\n『남쪽에 있는 겁니다』……라고\n이것만으론 모르겠잖아……",
+      "category": "naturalness",
+      "reason": "汚い字를 글씨가 물리적으로 더럽다는 뜻이 아니라 읽기 힘든 악필로 자연스럽게 옮겼다."
+    },
+    {
+      "index": 47,
+      "tm_id": "ARF-TM-8E7A4528A18872F1A584",
+      "source_text": "私は、どうして\n神種だと知らされずにいたのかな……",
+      "before": "나는 왜\n신종이라는 걸 듣지 못했던 걸까……",
+      "after": "나는 왜\n신종이라는 사실을 알지 못했던 걸까……",
+      "category": "meaning",
+      "reason": "정체를 고지받지 못한 상태였다는 의미가 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "index": 57,
+      "tm_id": "ARF-TM-8F7C5B4D95EBA9621D94",
+      "source_text": "飛び級したんだよ",
+      "before": "단계를 건너뛰었어",
+      "after": "월반했어",
+      "category": "terminology",
+      "reason": "飛び級의 일반적인 한국어 표현인 월반으로 교정했다."
+    },
+    {
+      "index": 59,
+      "tm_id": "ARF-TM-8FA37EEE083CF4591D3F",
+      "source_text": "素敵なフレーズです",
+      "before": "멋진 문구입니다",
+      "after": "멋진 문장이네요",
+      "category": "context_naturalness",
+      "reason": "직전의 사랑 고백 대사를 가리키는 フレーズ를 문맥에 맞는 문장으로 옮겼다."
+    },
+    {
+      "index": 74,
+      "tm_id": "ARF-TM-90BEB07D515396A87AF5",
+      "source_text": "まぁ、行ってやろうじゃねーの",
+      "before": "뭐, 가 주도록 하실까",
+      "after": "뭐, 가 주도록 하자고",
+      "category": "speaker_voice",
+      "reason": "거친 남성 화자의 권유형을 불필요한 높임말 없이 자연스럽게 복원했다."
+    },
+    {
+      "index": 78,
+      "tm_id": "ARF-TM-911A254BEB9E1F090CAB",
+      "source_text": "ああ、そんな蛇に\n睨まれてシメあげられたい！",
+      "before": "아아, 그런 뱀에게\n노려보이며 꽉 조여지고 싶어!",
+      "after": "아아, 그런 뱀의 눈총을 받으며\n꽉 조여지고 싶어!",
+      "category": "meaning_naturalness",
+      "reason": "수동형 睨まれてシメあげられたい의 피학적 농담이 자연스럽게 전달되도록 교정했다."
+    },
+    {
+      "index": 82,
+      "tm_id": "ARF-TM-91704D6D0DA47E8BC8A4",
+      "source_text": "コピンレースとは\n出走するコピンにコインを賭け――<$0C>１位になるコピンを\n的中させることで\n配当を得るゲームです<$0C>コピンレース中では\nWiiリモコンを振ることにより\nコピンを応援することができます<$0C>応援されたコピンは\n素早く走ろうとします<$0C>が、コピンにはスタミナがあり\nスタミナがなくなると\n座って休もうとします<$0C>この際\n応援しても効果がありませんので\n注意してください<$0C>コピンレースの説明は以上になります",
+      "before": "코핀 레이스는\n출주하는 코핀에게 코인을 걸고――<$0C>1위를 차지할 코핀을\n맞혀서\n배당을 받는 게임입니다<$0C>코핀 레이스 중에는\nWii 리모컨을 흔들어\n코핀을 응원할 수 있습니다<$0C>응원받은 코핀은\n빠르게 달리려 합니다<$0C>하지만 코핀에게는 스태미나가 있어\n스태미나가 떨어지면\n앉아서 쉬려고 합니다<$0C>이때는\n응원해도 효과가 없으니\n주의해 주세요<$0C>코핀 레이스 설명은 여기까지입니다",
+      "after": "코핀 레이스는\n출전하는 코핀에게 코인을 걸고――<$0C>１위를 차지할 코핀을\n맞혀서\n배당을 받는 게임입니다<$0C>코핀 레이스 중에는\nWii 리모컨을 흔들어\n코핀을 응원할 수 있습니다<$0C>응원받은 코핀은\n빠르게 달리려 합니다<$0C>하지만 코핀에게는 스태미나가 있어\n스태미나가 떨어지면\n앉아서 쉬려고 합니다<$0C>이때는\n응원해도 효과가 없으니\n주의해 주세요<$0C>코핀 레이스 설명은 여기까지입니다",
+      "category": "numeric_fidelity_terminology",
+      "reason": "원문의 전각 숫자 １을 복원하고 출주를 자연스러운 게임 용어인 출전으로 교정했다."
+    },
+    {
+      "index": 88,
+      "tm_id": "ARF-TM-91AA492DDF0146CC9A4D",
+      "source_text": "でも、敵と味方になってしまって\n私なら悲しいと思うから……",
+      "before": "하지만 적과 아군이 되어 버리면\n나라면 슬플 것 같아서……",
+      "after": "하지만 서로 적과 아군으로 갈리면\n나라면 슬플 것 같아서……",
+      "category": "meaning_naturalness",
+      "reason": "敵と味方になってしまって가 양측으로 갈라진다는 의미임을 명확히 했다."
+    },
+    {
+      "index": 93,
+      "tm_id": "ARF-TM-91DCA27079A32BC876DA",
+      "source_text": "いやあ、それほどでも",
+      "before": "아유, 그 정도까지야",
+      "after": "아니, 뭐 그 정도까지야",
+      "category": "speaker_voice",
+      "reason": "겸연쩍게 받아치는 남성 화자의 어조를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 101,
+      "tm_id": "ARF-TM-9275EBA212391D08187C",
+      "source_text": "ここには確か\n入り組んだ入り江があったはずだ。\n今は用がねぇな",
+      "before": "여기에는 분명\n복잡한 만이 있었을 텐데.\n지금은 볼일 없어",
+      "after": "여기에는 분명\n복잡하게 굽이진 후미가 있었을 텐데.\n지금은 볼일 없어",
+      "category": "lexical_accuracy",
+      "reason": "入り組んだ入り江를 지형 문맥에 맞는 복잡하게 굽이진 후미로 구체화했다."
+    },
+    {
+      "index": 102,
+      "tm_id": "ARF-TM-92939A9CCA9E72A725DD",
+      "source_text": "闘技場説明２",
+      "before": "투기장 설명 2",
+      "after": "투기장 설명２",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 보존했다."
+    },
+    {
+      "index": 104,
+      "tm_id": "ARF-TM-92B848DF987AE35C9C47",
+      "source_text": "女の子だったら\nここにちゃんといるじゃん。\n神秘の美少女が２人も",
+      "before": "여자애라면\n여기 제대로 있잖아.\n신비로운 미소녀가 둘이나",
+      "after": "여자애라면\n여기 제대로 있잖아.\n신비로운 미소녀가 ２명이나",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 보존했다."
+    },
+    {
+      "index": 115,
+      "tm_id": "ARF-TM-9358E033828EF53E8DC7",
+      "source_text": "ここは、まるで巨大な階段みたいね。\n珊瑚の棚と棚とが連なっているから",
+      "before": "여긴 마치 거대한 계단 같네.\n산호 선반이 층층이 이어져 있으니까",
+      "after": "여긴 마치 거대한 계단 같네.\n산호층과 산호층이 이어져 있으니까",
+      "category": "lexical_naturalness",
+      "reason": "珊瑚の棚를 직역한 선반 대신 지형을 나타내는 산호층으로 교정했다."
+    },
+    {
+      "index": 118,
+      "tm_id": "ARF-TM-93AA28EEF272DE3A2AAC",
+      "source_text": "それは、聖地ノワーレを\n開く鍵となってる９体のログレス",
+      "before": "그건 성지 노와레를\n여는 열쇠인 9체의 로그레스다",
+      "after": "그건 성지 노와레를\n여는 열쇠인 ９체의 로그레스다",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ９를 보존했다."
+    },
+    {
+      "index": 120,
+      "tm_id": "ARF-TM-93FA375A6FD2418FB1BE",
+      "source_text": "ここんとこの画面右上に\n情報表示が出るようになってるから\n降りられるようだったら<$0C><$15>10を押せば\nあとは勝手に飛光艇が\n着陸のシークエンスに入ってくれるよ",
+      "before": "요즘 화면 오른쪽 위에\n정보 표시가 뜨게 되어 있으니\n내릴 수 있을 것 같으면<$0C><$15>10을 누르면\n나머지는 비광정이 알아서\n착륙 절차에 들어가 줄 거야",
+      "after": "여기 화면 오른쪽 위에\n정보 표시가 뜨게 되어 있으니\n착륙할 수 있을 것 같으면<$0C><$15>10을 누르면\n나머지는 비광정이 알아서\n착륙 절차에 들어가 줄 거야",
+      "category": "meaning_ui",
+      "reason": "ここんとこの를 시간 부사인 요즘으로 오역한 부분을 화면상의 위치를 가리키도록 바로잡았다."
+    },
+    {
+      "index": 130,
+      "tm_id": "ARF-TM-943502E58E26B1B6E0A0",
+      "source_text": "闘技場説明２２",
+      "before": "투기장 설명 22",
+      "after": "투기장 설명２２",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２２를 보존했다."
+    },
+    {
+      "index": 144,
+      "tm_id": "ARF-TM-951424D2796A8AFC999F",
+      "source_text": "頭が下がる思いっス",
+      "before": "고개가 절로 숙여짐다",
+      "after": "절로 고개가 숙여지는 마음임다",
+      "category": "spelling",
+      "reason": "오타가 난 종결형을 니콜의 말투를 유지한 채 교정했다."
+    },
+    {
+      "index": 168,
+      "tm_id": "ARF-TM-9762E149C1F3723BB610",
+      "source_text": "我が国の軍隊を指揮する\n将軍の１人だよ",
+      "before": "우리나라 군대를 지휘하는\n장군 중 한 명이야",
+      "after": "우리나라 군대를 지휘하는\n장군 중 １명이야",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 보존했다."
+    },
+    {
+      "index": 183,
+      "tm_id": "ARF-TM-982521507887E76782D5",
+      "source_text": "こうなったら……\nアニキ〜〜〜\n道連れになってくださいっス！",
+      "before": "이렇게 된 이상……\n형님～～～\n같이 죽어 주십쇼!",
+      "after": "이렇게 된 이상……\n형님～～～\n형님도 같이 당해 주십쇼!",
+      "category": "context_meaning",
+      "reason": "의상 소동 문맥의 道連れ를 실제 죽음이 아니라 같은 곤경에 끌어들이는 농담으로 바로잡았다."
+    },
+    {
+      "index": 191,
+      "tm_id": "ARF-TM-98C034A81C55EE6E895D",
+      "source_text": "猫？　猫くらい\nどこにでもいるだろ？\n珍しいのか？",
+      "before": "고양이? 고양이 정도야\n어디에나 있잖아?\n신기한 거야?",
+      "after": "고양이? 고양이 정도야\n어디에나 있잖아?\n드문 거야?",
+      "category": "lexical_accuracy",
+      "reason": "珍しい를 신기하다는 감상보다 희귀 여부를 묻는 말로 정확히 옮겼다."
+    },
+    {
+      "index": 199,
+      "tm_id": "ARF-TM-99431CEF1BDE7CA98524",
+      "source_text": "ヨウショウ？　テンネンの？",
+      "before": "요쇼?　천연인 거야?",
+      "after": "요충지?　천연인 거야?",
+      "category": "wordplay",
+      "reason": "ヨウショウ을 무의미한 음사로 두지 않고 직전의 要衝과 天然을 잇는 말장난이 보이도록 교정했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

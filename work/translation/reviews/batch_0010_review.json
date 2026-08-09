@@ -1,0 +1,516 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0010",
+  "draft_author": "/root/audit_boundary_integration",
+  "reviewer": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": false,
+  "source": "work/translation/tm_v2/batches/source/batch_0010.jsonl",
+  "draft": "work/translation/drafts/batch_0010.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0010.jsonl",
+  "validation_report": "work/translation/validation/batch_0010_reviewed.json",
+  "boundary_audit": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+  "reviewed_units": 200,
+  "modified_units": 57,
+  "unchanged_units": 143,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "linked_term_particles",
+    "system_function_accuracy",
+    "natural_korean",
+    "character_voice",
+    "highlight_typography",
+    "control_tokens",
+    "line_breaks",
+    "source_structure_prefixes",
+    "codepage_corruption",
+    "fixed_field_capacity",
+    "custom_euc28_encoding"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-632B07266FB53D1ED283",
+      "source_text": "深い峡谷の対岸へ渡れば",
+      "before": "깊은 협곡 건너편으로 건너가면",
+      "after": "깊은 협곡을 건너 맞은편으로 가면",
+      "category": "natural_korean",
+      "reason": "“협곡 건너편으로 건너가면”의 중복 어감을 없애면서 맞은편으로 건너간다는 의미를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-636473A8DF7634862F1A",
+      "source_text": "おう、俺だ。\nおまえらの飛光艇を改造できるかもしれん。\n俺のところに来てくれ。\n　\n※途中で放棄できないクエストです",
+      "before": "여, 나다.\n너희 비광정을 개조할 수 있을지도 몰라.\n내게 와 줘.\n　\n※도중에 포기할 수 없는 퀘스트입니다",
+      "after": "어이, 나다.\n너희 비광정을 개조할 수 있을지도 몰라.\n내게 와 줘.\n　\n※도중에 포기할 수 없는 퀘스트입니다",
+      "category": "character_voice_naturalness",
+      "reason": "일본어 남성 구어 인사 「おう」를 직역투인 “여”가 아니라 거친 친근감을 살린 “어이”로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-63ABF12D6840ACA38E75",
+      "source_text": "レベル１のＭＰを完全回復",
+      "before": "레벨 1의 MP를 완전 회복",
+      "after": "레벨 1 MP 완전 회복",
+      "category": "system_template_consistency",
+      "reason": "승인된 MP 회복 아이템 설명 형식인 “레벨 N MP 완전 회복”으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6492E09C663473EA98DD",
+      "source_text": "遥か昔の<$13>14<$1F>0000E8<$1F>01<$13>00は\nノワーレの教えの元\nひとつにまとまっていた。\nしかし、長き時を経て\nそのひとつの教義は\nサウスとノース、ふたつ\nの教義に分かれ、この違い\nはやがて、新たな国家を\n生み出すにいたった",
+      "before": "아득한 옛날의 <$13>14<$1F>0000E8<$1F>01<$13>00는\n노와레의 가르침 아래\n하나로 뭉쳐 있었다.\n하지만 오랜 세월이 흘러\n하나였던 교리는\n사우스와 노스, 두 갈래의\n교리로 나뉘었고, 이 차이는\n마침내 새로운 국가를\n낳기에 이르렀다",
+      "after": "아득한 옛날의 <$13>14<$1F>0000E8<$1F>01<$13>00은\n노와레의 가르침 아래\n하나로 뭉쳐 있었다.\n하지만 오랜 세월이 흘러\n하나였던 교리는\n사우스와 노스, 두 갈래의\n교리로 나뉘었고, 이 차이는\n마침내 새로운 국가를\n낳기에 이르렀다",
+      "category": "linked_term_particle",
+      "reason": "연결 용어 <$13>14<$1F>0000E8<$1F>01<$13>00은 “풀헤임”으로 표시되므로 받침에 맞춰 주제 조사를 “은”으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-6584141B7F798528EB75",
+      "source_text": "『深慮』の<$13>14<$1F>0000F0<$1F>01<$13>00を\nその身に宿す<$13>14<$1F>0000EF<$1F>01<$13>00。\n神を造りだした彼女は\n常に近くから神を――\n<$13>14<$1F>000105<$1F>01<$13>00を慮ってきた。\nそして、神の意志の揺らぎ\nを見た時、彼女は覚悟を\n決め、<$13>14<$1F>000109<$1F>01<$13>00が目指す\n未来をともに希求する",
+      "before": "‘심려’의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n신을 만들어 낸 그녀는\n언제나 가까이에서 신을――\n<$13>14<$1F>000105<$1F>01<$13>00을 염려해 왔다.\n그리고 신의 뜻이 흔들리는\n것을 보았을 때, 그녀는\n각오를 다지고 <$13>14<$1F>000109<$1F>01<$13>00가\n바라는 미래를 함께 갈망한다",
+      "after": "『심려』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n신을 만들어 낸 그녀는\n언제나 가까이에서 신을――\n<$13>14<$1F>000105<$1F>01<$13>00을 염려해 왔다.\n그리고 신의 뜻이 흔들리는\n것을 보았을 때, 그녀는\n각오를 다지고 <$13>14<$1F>000109<$1F>01<$13>00이\n지향하는 미래를 함께 갈망한다",
+      "category": "linked_term_particle_and_meaning",
+      "reason": "로고스 강조 괄호를 『』로 통일하고, “현종”으로 표시되는 연결 용어의 조사를 “이”로 바로잡았으며 目指す를 “지향하다”로 구분해 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-65C417CA6B987B927361",
+      "source_text": "肉球グローブ",
+      "before": "발바닥 젤리 글러브",
+      "after": "발바닥 글러브",
+      "category": "post_review_fit_or_encoding",
+      "reason": "肉球의 발바닥 의미를 유지하면서 고정 아이템명 슬롯에 맞도록 중복 뉘앙스인 ‘젤리’를 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-663F612ABAAD949518DE",
+      "source_text": "『審判』の<$13>14<$1F>0000F0<$1F>01<$13>00を\nその身に宿す<$13>14<$1F>0000EF<$1F>01<$13>00。\n<$13>14<$1F>00014B<$1F>01<$13>00の奥地にて\n<$13>14<$1F>0000FB<$1F>01<$13>00の訪れを\n長らく待ち望んでいた。\n身丈ほどもある槍から\n放たれる一閃は\nまさに審判の光。\n何者も逃れられはしない",
+      "before": "‘심판’의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n<$13>14<$1F>00014B<$1F>01<$13>00 깊은 곳에서\n<$13>14<$1F>0000FB<$1F>01<$13>00가 찾아오기를\n오랫동안 기다려 왔다.\n키만 한 창에서\n뿜어지는 일격은\n그야말로 심판의 빛.\n누구도 피할 수 없다",
+      "after": "『심판』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n<$13>14<$1F>00014B<$1F>01<$13>00 깊은 곳에서\n<$13>14<$1F>0000FB<$1F>01<$13>00가 찾아오기를\n오랫동안 기다려 왔다.\n키만 한 창에서\n뿜어지는 일격은\n그야말로 심판의 빛.\n누구도 피할 수 없다",
+      "category": "highlight_typography",
+      "reason": "로고스 명칭의 강조 표기를 기존 승인 문장과 같은 『심판』으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-677735296AE32579212D",
+      "source_text": "波形の刃が特徴のやじり型をした短剣。\n所持者に疾風のごとき『逃げ』をうたせる",
+      "before": "파도 모양 칼날이 특징인 화살촉형 단검.\n소지자에게 질풍 같은 ‘도주’를 선사한다",
+      "after": "파도 모양 칼날이 특징인 화살촉형 단검.\n소지자에게 질풍 같은 『도주』를 선사한다",
+      "category": "highlight_typography",
+      "reason": "게임 내 명령명 강조 표기를 기존 규칙에 맞춰 『도주』로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6815C0943045AA4F9521",
+      "source_text": "『防御こそ最大の攻撃』を実践する長剣。\n身を守ることで、自身の体力を回復する",
+      "before": "‘방어야말로 최고의 공격’을 실천하는 장검.\n몸을 지켜 자신의 체력을 회복한다",
+      "after": "『방어야말로 최고의 공격』을 실천하는 장검.\n몸을 지켜 자신의 체력을 회복한다",
+      "category": "highlight_typography",
+      "reason": "원문의 강조 범위를 보존해 문구 전체를 『』로 표기했다."
+    },
+    {
+      "tm_id": "ARF-TM-6830469ADB270DC92787",
+      "source_text": "<$15>01以降の行動を最後に実行する",
+      "before": "<$15>01이후의 행동을 마지막에 실행한다",
+      "after": "<$15>01이후 행동을 마지막 순서로 실행한다",
+      "category": "system_order_clarity",
+      "reason": "행동 순서 효과임이 분명하도록 “마지막 순서로 실행한다”로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-684D5F993520858141BC",
+      "source_text": "『守護』の<$13>14<$1F>0000F0<$1F>01<$13>00を\nその身に宿す<$13>14<$1F>0000EF<$1F>01<$13>00。\n地下都市ヒルベルトの\n守り手として崇められてき\nたが、民を<$13>14<$1F>0000F6<$1F>01<$13>00から\n救うことができず、心を痛\nめていた。だが、バネトゥ\nの堅牢なる『守護の矜持』\nは永遠に不変であった",
+      "before": "‘수호’의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n지하 도시 힐베르트의\n수호자로 숭배받아 왔으나\n백성을 <$13>14<$1F>0000F6<$1F>01<$13>00에서\n구하지 못해 마음 아파했다.\n하지만 바네투의 굳건한\n‘수호의 긍지’는 영원히\n변하지 않았다",
+      "after": "『수호』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n지하 도시 힐베르트의\n수호자로 숭배받아 왔으나\n백성을 <$13>14<$1F>0000F6<$1F>01<$13>00에서\n구하지 못해 마음 아파했다.\n하지만 바네투의 굳건한\n『수호의 긍지』는 영원히\n변하지 않았다",
+      "category": "highlight_typography",
+      "reason": "로고스와 고유 구절의 강조 표기를 각각 『수호』, 『수호의 긍지』로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6A2477812D5D2BC087E1",
+      "source_text": "<$13>14<$1F>000021<$1F>01<$13>00のひとつ。\nキャラクターの水<$13>14<$1F>000014<$1F>01<$13>00を\n減少させる。\n<$13>14<$1F>000033<$1F>01<$13>00状態の際に\n水耐性ダウン効果を重ねる\nと、<$13>14<$1F>000033<$1F>01<$13>00の効果を\n弱めたり、上書きすること\nができる。この<$13>14<$1F>000021<$1F>01<$13>00は\n<$13>14<$1F>000022<$1F>01<$13>00である",
+      "before": "<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터의 물 <$13>14<$1F>000014<$1F>01<$13>00을\n감소시킨다.\n<$13>14<$1F>000033<$1F>01<$13>00 상태일 때\n물 내성 하락 효과를 더하면\n<$13>14<$1F>000033<$1F>01<$13>00 효과를\n약화시키거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다",
+      "after": "<$13>14<$1F>000021<$1F>01<$13>00 중 하나.\n캐릭터의 물 <$13>14<$1F>000014<$1F>01<$13>00을\n감소시킨다.\n<$13>14<$1F>000033<$1F>01<$13>00 상태일 때\n물 내성 하락 효과를 겹치면\n<$13>14<$1F>000033<$1F>01<$13>00의 효과를\n약화하거나 덮어쓸 수\n있다. 이 <$13>14<$1F>000021<$1F>01<$13>00는\n<$13>14<$1F>000022<$1F>01<$13>00이다",
+      "category": "system_template_consistency",
+      "reason": "승인된 동일 구조의 내성 하락 도움말에 맞춰 “효과를 겹치면 / 의 효과를 / 약화하거나”로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6AF905B3F3DB39574713",
+      "source_text": "<$13>14<$1F>0000A0<$1F>01<$13>00レベル３の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人の<$13>14<$1F>000017<$1F>01<$13>00状態を\n回復する。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nレイズスピリットでは\n追加効果として対象を\n<$13>14<$1F>000039<$1F>01<$13>00状態にする",
+      "before": "<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000017<$1F>01<$13>00 상태를\n회복한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n레이즈 스피릿은\n추가 효과로 대상을\n<$13>14<$1F>000039<$1F>01<$13>00 상태로 만든다",
+      "after": "<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000017<$1F>01<$13>00 상태를\n회복한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n레이즈 스피릿에서는\n추가 효과로 대상을\n<$13>14<$1F>000039<$1F>01<$13>00 상태로 만든다",
+      "category": "amplified_spell_template",
+      "reason": "증폭 광소술에서의 추가 효과라는 では의 범위를 살려 “레이즈 스피릿에서는”으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-6B40573910771C78495D",
+      "source_text": "全体のＨＰ完全回復\nＤＥＦ・ＲＥＳアップ",
+      "before": "전체 HP 완전 회복\nDEF·RES 상승",
+      "after": "전체 HP 완전 회복\nDEF/RES 상승",
+      "category": "post_review_fit_or_encoding",
+      "reason": "custom EUC28에서 지원되지 않는 U+00B7 가운데점을 ASCII 슬래시로 바꿔 DEF와 RES의 병렬 상승 의미를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-6BD20B4712E326616E36",
+      "source_text": "レベル４のＭＰを小回復",
+      "before": "레벨 4의 MP를 소량 회복",
+      "after": "레벨 4 MP 소량 회복",
+      "category": "system_template_consistency",
+      "reason": "승인된 MP 회복 아이템 설명 형식인 “레벨 N MP 소량 회복”으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6BDC3F0A66844C38B464",
+      "source_text": "地脈のレイを絶えず吸い上げる強化銃。\n時に、ＭＰの消費なく光召術を放てる",
+      "before": "지맥의 레이를 끊임없이 빨아들이는 강화 총.\n때때로 MP 소모 없이 광소술을 펼칠 수 있다",
+      "after": "지맥의 레이를 계속 흡수하는 강화 총.\n때로 MP 소모 없이 광소술을 쓸 수 있다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "지맥의 레이를 계속 흡수하고 때로 MP 소모 없이 광소술을 쓸 수 있다는 효과를 보존하면서 고정 설명 슬롯에 들어가도록 간결화했다."
+    },
+    {
+      "tm_id": "ARF-TM-6C305033F1C81AB4CFA4",
+      "source_text": "<$15>01瀕死状態の被ダメージ時\n必ず『ぼうぎょ』状態になる",
+      "before": "<$15>01빈사 상태에서 피해를 받으면\n반드시 ‘방어’ 상태가 된다",
+      "after": "<$15>01빈사 상태에서 피해를 받으면\n반드시 『방어』 상태가 된다",
+      "category": "highlight_typography",
+      "reason": "기존 승인된 상태명 표기에 맞춰 『방어』로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6C5054B9510914480DA6",
+      "source_text": "ＳＰ消費異常回復",
+      "before": "SP 소모 상태 이상 회복",
+      "after": "SP 소모 이상 회복",
+      "category": "post_review_fit_or_encoding",
+      "reason": "ＳＰ消費와 異常回復의 두 의미를 모두 유지한 채 고정 능력명 슬롯에 맞도록 ‘상태’를 생략했다."
+    },
+    {
+      "tm_id": "ARF-TM-6CB405A006F515338DB2",
+      "source_text": "歌姫のこと。\n<$13>14<$1F>000061<$1F>01<$13>00よりも、より高度な\n力として知られる、歌召術\nを操る希有の存在。\n<$13>14<$1F>000141<$1F>01<$13>00における\nディーバは、国家の象徴\nであり、人々にとっては\nかけがえのない拠り所\nとなっている",
+      "before": "가희를 뜻한다.\n<$13>14<$1F>000061<$1F>01<$13>00보다 한층 고도의\n힘으로 알려진 가소술을\n다루는 희귀한 존재.\n<$13>14<$1F>000141<$1F>01<$13>00에서\n디바는 국가의 상징이며\n사람들에게 무엇과도 바꿀 수 없는\n마음의 버팀목이\n되고 있다",
+      "after": "가희를 뜻한다.\n<$13>14<$1F>000061<$1F>01<$13>00보다 한층 고도의\n힘으로 알려진 가소술을\n다루는 희귀한 존재.\n<$13>14<$1F>000141<$1F>01<$13>00에서\n디바는 국가의 상징이며\n사람들에게 더없이 소중한\n마음의 버팀목이\n되고 있다",
+      "category": "layout_and_naturalness",
+      "reason": "かけがえのない의 의미를 유지하면서 긴 줄을 “더없이 소중한”으로 줄여 화면 가독성을 높였다."
+    },
+    {
+      "tm_id": "ARF-TM-6D379644563BC03E2C7D",
+      "source_text": "続・鳥害に困っています",
+      "before": "속편·새 떼 때문에 곤란합니다",
+      "after": "속편: 조류 피해 문제",
+      "category": "post_review_fit_or_encoding",
+      "reason": "지원되지 않는 U+00B7을 콜론으로 바꾸고 ‘속편’과 조류 피해 문제의 의미를 유지하면서 퀘스트 제목의 현재 in-place 용량에도 맞게 줄였다."
+    },
+    {
+      "tm_id": "ARF-TM-6D67199653B95859CB16",
+      "source_text": "鈍い光を放つ錬鉄の片刃剣。\nその所持者は、時に身を護られる",
+      "before": "탁한 빛을 내는 연철 외날검.\n소지자는 때때로 몸을 보호받는다",
+      "after": "희미한 빛을 내는 연철 외날검.\n소지자는 때때로 보호를 받는다",
+      "category": "item_flavor_naturalness",
+      "reason": "鈍い光를 자연스러운 “희미한 빛”으로 옮기고 어색한 “몸을 보호받는다”를 “보호를 받는다”로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-6E5FB52069C83669BE95",
+      "source_text": "<$03>ニコルの置き手紙",
+      "before": "<$03>니콜의 쪽지",
+      "after": "<$03>니콜이 남긴 편지",
+      "category": "contextual_meaning",
+      "reason": "置き手紙가 단순 쪽지가 아니라 남겨 둔 편지임을 제목에 자연스럽게 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-6EFBB28238FC9B7BBEF8",
+      "source_text": "<$13>14<$1F>00009E<$1F>01<$13>00レベル３の<$13>14<$1F>000061<$1F>01<$13>00。\n敵単体に<$13>14<$1F>00009E<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nイグニッションでは\n追加効果として\n対象を<$13>14<$1F>000020<$1F>01<$13>00状態に\nすることがある",
+      "before": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n적 단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n이그니션은\n추가 효과로\n대상을 <$13>14<$1F>000020<$1F>01<$13>00 상태로\n만들 때가 있다",
+      "after": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n적 단일 대상에게 <$13>14<$1F>00009E<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n이그니션에서는\n추가 효과로\n대상을 <$13>14<$1F>000020<$1F>01<$13>00 상태로\n만들기도 한다",
+      "category": "amplified_spell_template",
+      "reason": "증폭 광소술에서의 추가 효과라는 では를 “이그니션에서는”으로 살리고, 확률 효과 문구를 승인 형식인 “만들기도 한다”로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6F31BB7096C5ADED90ED",
+      "source_text": "『解放』の<$13>14<$1F>0000F0<$1F>01<$13>00を\nその身に宿す<$13>14<$1F>0000EF<$1F>01<$13>00。\n<$13>14<$1F>000133<$1F>01<$13>00の<$13>14<$1F>000136<$1F>01<$13>00に囚われて\n長らく帝国に<$13>14<$1F>0000EC<$1F>01<$13>00の恩恵を\n供給し続けていた。\nもしも、空より閃光が降り\nその後全てが消滅する光景\nを見たのならば、それはき\nっとシムマフの光輝である",
+      "before": "‘해방’의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n<$13>14<$1F>000133<$1F>01<$13>00의 <$13>14<$1F>000136<$1F>01<$13>00에 갇혀\n오랫동안 제국에 <$13>14<$1F>0000EC<$1F>01<$13>00의 은혜를\n공급해 왔다.\n만약 하늘에서 섬광이 내려\n그 뒤 모든 것이 소멸하는\n광경을 보았다면, 그것은\n분명 심마프의 광휘다",
+      "after": "『해방』의 <$13>14<$1F>0000F0<$1F>01<$13>00를\n그 몸에 품은 <$13>14<$1F>0000EF<$1F>01<$13>00.\n<$13>14<$1F>000133<$1F>01<$13>00의 <$13>14<$1F>000136<$1F>01<$13>00에 갇혀\n오랫동안 제국에 <$13>14<$1F>0000EC<$1F>01<$13>00의 은혜를\n공급해 왔다.\n만약 하늘에서 섬광이 내려\n그 뒤 모든 것이 소멸하는\n광경을 보았다면, 그것은\n분명 심마프의 광휘다",
+      "category": "highlight_typography",
+      "reason": "로고스 명칭의 강조 표기를 기존 승인 문장과 같은 『해방』으로 통일했다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "tm_id": "ARF-TM-66F107FD41B6AAFA317A",
+      "severity": "documented_structural_prefix_warning",
+      "validator_warning": "japanese_remaining",
+      "character": "座",
+      "source_text": "<$0F>座<$01>物理攻撃",
+      "translation_ko": "<$0F>座<$01>물리 공격",
+      "retained_prefix": "<$0F>座<$01>",
+      "covered_by_current_canonical_boundary_audit": false,
+      "reason": "원문 스캐너 단위의 선두 구조 바이트일 가능성이 있으나 이 정확한 TM ID에 대한 안전한 필드 경계가 아직 검증되지 않아 임의 삭제하지 않고 그대로 보존했다.",
+      "disposition": "Validator warning accepted; insertion 단계에서 검증된 clean_source_text/table_unit_id가 확보되기 전까지 자동 제거 금지."
+    },
+    {
+      "tm_id": "ARF-TM-6974E74566C7ACD128CE",
+      "severity": "documented_structural_prefix_warning",
+      "validator_warning": "japanese_remaining",
+      "character": "座",
+      "source_text": "<$0F>座<$01>ネイティブピース",
+      "translation_ko": "<$0F>座<$01>네이티브 피스",
+      "retained_prefix": "<$0F>座<$01>",
+      "covered_by_current_canonical_boundary_audit": false,
+      "reason": "원문 스캐너 단위의 선두 구조 바이트일 가능성이 있으나 이 정확한 TM ID에 대한 안전한 필드 경계가 아직 검증되지 않아 임의 삭제하지 않고 그대로 보존했다.",
+      "disposition": "Validator warning accepted; insertion 단계에서 검증된 clean_source_text/table_unit_id가 확보되기 전까지 자동 제거 금지."
+    },
+    {
+      "tm_id": "ARF-TM-6C7D1D1FA08176F581BB",
+      "severity": "documented_structural_prefix_warning",
+      "validator_warning": "japanese_remaining",
+      "character": "座",
+      "source_text": "<$0F>座<$04>エンカウント",
+      "translation_ko": "<$0F>座<$04>인카운트",
+      "retained_prefix": "<$0F>座<$04>",
+      "covered_by_current_canonical_boundary_audit": false,
+      "reason": "원문 스캐너 단위의 선두 구조 바이트일 가능성이 있으나 이 정확한 TM ID에 대한 안전한 필드 경계가 아직 검증되지 않아 임의 삭제하지 않고 그대로 보존했다.",
+      "disposition": "Validator warning accepted; insertion 단계에서 검증된 clean_source_text/table_unit_id가 확보되기 전까지 자동 제거 금지."
+    },
+    {
+      "tm_id": "ARF-TM-6F80E9C2A497112750BA",
+      "severity": "documented_structural_prefix_warning",
+      "validator_warning": "japanese_remaining",
+      "character": "接",
+      "source_text": "{接 リアルの定理",
+      "translation_ko": "{接 리얼의 섭리",
+      "retained_prefix": "{接 ",
+      "covered_by_current_canonical_boundary_audit": false,
+      "reason": "원문 스캐너 단위의 선두 구조 바이트일 가능성이 있으나 이 정확한 TM ID에 대한 안전한 필드 경계가 아직 검증되지 않아 임의 삭제하지 않고 그대로 보존했다.",
+      "disposition": "Validator warning accepted; insertion 단계에서 검증된 clean_source_text/table_unit_id가 확보되기 전까지 자동 제거 금지."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "completed_units": 200,
+    "unique_tm_ids": 200,
+    "blank_translations": 0,
+    "source_metadata_preserved": true,
+    "control_tokens_preserved": true,
+    "ids_and_order_preserved": true,
+    "line_break_counts_preserved_between_draft_and_review": true,
+    "validator_error_count": 0,
+    "validator_warning_count": 4,
+    "validator_warnings": [
+      {
+        "code": "japanese_remaining",
+        "tm_id": "ARF-TM-66F107FD41B6AAFA317A",
+        "characters": "座"
+      },
+      {
+        "code": "japanese_remaining",
+        "tm_id": "ARF-TM-6974E74566C7ACD128CE",
+        "characters": "座"
+      },
+      {
+        "code": "japanese_remaining",
+        "tm_id": "ARF-TM-6C7D1D1FA08176F581BB",
+        "characters": "座"
+      },
+      {
+        "code": "japanese_remaining",
+        "tm_id": "ARF-TM-6F80E9C2A497112750BA",
+        "characters": "接"
+      }
+    ],
+    "warning_disposition": "All four warnings are exact documented structural-prefix residues; none is untranslated prose.",
+    "valid": true,
+    "status": "passed"
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 36,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0010_reviewed.json",
+      "error_count": 0,
+      "warning_count": 4,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  },
+  "fit_report": "work/translation/validation/batch_0010_fit_only.json",
+  "temporary_fit_artifacts": {
+    "merged_translation_memory": "work/translation/validation/batch_0010_merge_temp/translation_memory_draft.json",
+    "approved_corpus_manifest": "work/translation/validation/batch_0010_corpus_temp/corpus_manifest.json",
+    "temporary_append_only_codebook": "work/translation/validation/batch_0010_codebook_temp.json",
+    "production_artifacts_modified": false
+  },
+  "fit_validation": {
+    "approved_units": 200,
+    "matched_unique_tm_units": 164,
+    "matched_table_fields": 168,
+    "matched_fields_by_schema": {
+      "ability": 23,
+      "chat": 2,
+      "dragon": 2,
+      "help": 23,
+      "item": 66,
+      "magic": 1,
+      "monster_book": 12,
+      "quest": 13,
+      "shop": 1,
+      "special": 5,
+      "todo": 20
+    },
+    "fixed_overflow_count": 0,
+    "resizable_table_in_place_overflow_count": 4,
+    "resizable_overflows": [
+      {
+        "tm_id": "ARF-TM-69435ADFB2703A72954B",
+        "schema": "quest",
+        "catalog": "quest.json",
+        "table_unit_id": "quest:9:title",
+        "source_text": "害虫の逆襲",
+        "translation_ko": "해충의 역습",
+        "encoded_bytes": 11,
+        "required_with_nul": 12,
+        "capacity": 11,
+        "headroom_after_nul": -1,
+        "fits_in_place": false,
+        "table_resizable": true,
+        "matched_via_boundary_audit": false
+      },
+      {
+        "tm_id": "ARF-TM-6772F31AA70170BAA048",
+        "schema": "quest",
+        "catalog": "quest.json",
+        "table_unit_id": "quest:23:description",
+        "source_text": "<$13>02肉球グローブ<$13>00が欲しいんだ。\nたくさん集めてきてくれ！\nぷにぷにぷにぷにぷにぷにぷにぷに……\nしないと眠れないんだ！\nフードをかぶったネコから取れるぞ！",
+        "translation_ko": "<$13>02발바닥 젤리 글러브<$13>00가 갖고 싶어.\n잔뜩 모아 와 줘!\n말랑말랑말랑말랑말랑말랑말랑말랑……\n그렇지 않으면 잠들 수 없어!\n후드를 쓴 고양이에게서 얻을 수 있어!",
+        "encoded_bytes": 156,
+        "required_with_nul": 157,
+        "capacity": 153,
+        "headroom_after_nul": -4,
+        "fits_in_place": false,
+        "table_resizable": true,
+        "matched_via_boundary_audit": false
+      },
+      {
+        "tm_id": "ARF-TM-64323999D9E6EA270A0D",
+        "schema": "quest",
+        "catalog": "quest.json",
+        "table_unit_id": "quest:31:objective_1",
+        "source_text": "全ての月影の宿にある碑石を調べてくる",
+        "translation_ko": "모든 달그림자 여관에 있는 비석을 조사해 온다",
+        "encoded_bytes": 44,
+        "required_with_nul": 45,
+        "capacity": 37,
+        "headroom_after_nul": -8,
+        "fits_in_place": false,
+        "table_resizable": true,
+        "matched_via_boundary_audit": false
+      },
+      {
+        "tm_id": "ARF-TM-6DC63DE66DF360948655",
+        "schema": "quest",
+        "catalog": "quest.json",
+        "table_unit_id": "quest:54:description",
+        "source_text": "ギルドで名を上げている\nラルク傭兵団との決闘を望む。\nレゾルベント大氷壁にて待つ。\n　\n※途中で放棄できないクエストです",
+        "translation_ko": "길드에서 이름을 날리는\n라르크 용병단과 결투를 원한다.\n레졸벤트 대빙벽에서 기다리겠다.\n　\n※도중에 포기할 수 없는 퀘스트입니다",
+        "encoded_bytes": 125,
+        "required_with_nul": 126,
+        "capacity": 117,
+        "headroom_after_nul": -9,
+        "fits_in_place": false,
+        "table_resizable": true,
+        "matched_via_boundary_audit": false
+      }
+    ],
+    "unmatched_system_tm_count": 36,
+    "encoding_error_count": 0,
+    "global_encoding_error_count": 0,
+    "known_fixed_fields_fit": true,
+    "safe_for_fixed_table_insertion": false,
+    "boundary_audit_tm_units_matched": 0,
+    "corrected_unit_encoder_proofs": [
+      {
+        "tm_id": "ARF-TM-65C417CA6B987B927361",
+        "translation_ko": "발바닥 글러브",
+        "schema": "item",
+        "table_unit_id": "item:93:name",
+        "encoded_bytes": 13,
+        "encoded_hex": "B9CFB9C0B3F320B1C5B0A8BAE8",
+        "nul_terminator_bytes": 1,
+        "required_with_nul": 14,
+        "capacity_including_nul": 17,
+        "headroom_after_nul": 3,
+        "fits_in_place": true,
+        "table_resizable": false
+      },
+      {
+        "tm_id": "ARF-TM-6B40573910771C78495D",
+        "translation_ko": "전체 HP 완전 회복\nDEF/RES 상승",
+        "schema": "dragon",
+        "table_unit_id": "dragon:11:battle_description",
+        "encoded_bytes": 30,
+        "encoded_hex": "C1EEC4D320485020BFDDC1EE20C8B9BABC0A4445462F52455320BBBDBDA7",
+        "nul_terminator_bytes": 1,
+        "required_with_nul": 31,
+        "capacity_including_nul": 49,
+        "headroom_after_nul": 18,
+        "fits_in_place": true,
+        "table_resizable": false
+      },
+      {
+        "tm_id": "ARF-TM-6BDC3F0A66844C38B464",
+        "translation_ko": "지맥의 레이를 계속 흡수하는 강화 총.\n때로 MP 소모 없이 광소술을 쓸 수 있다",
+        "schema": "item",
+        "table_unit_id": "item:309:description_primary",
+        "encoded_bytes": 74,
+        "encoded_hex": "B0AFB8A9C1A320B6DEB0ABB7BE20B0F6BCB520C8E7BCC8C7D6B3DF20B0B9C8AE20C4D62E0AB5CCB7A3204D5020BCB4B8DA20BED9B0AB20B1AEBCB4BCDBC0F220BDF220BCC820C1BBB3F2",
+        "nul_terminator_bytes": 1,
+        "required_with_nul": 75,
+        "capacity_including_nul": 81,
+        "headroom_after_nul": 6,
+        "fits_in_place": true,
+        "table_resizable": false
+      },
+      {
+        "tm_id": "ARF-TM-6C5054B9510914480DA6",
+        "translation_ko": "SP 소모 이상 회복",
+        "schema": "ability",
+        "table_unit_id": "ability:166:name",
+        "encoded_bytes": 17,
+        "encoded_hex": "535020BCB4B8DA20B0ABBBBD20C8B9BABC",
+        "nul_terminator_bytes": 1,
+        "required_with_nul": 18,
+        "capacity_including_nul": 21,
+        "headroom_after_nul": 3,
+        "fits_in_place": true,
+        "table_resizable": false
+      },
+      {
+        "tm_id": "ARF-TM-6D379644563BC03E2C7D",
+        "translation_ko": "속편: 조류 피해 문제",
+        "schema": "quest",
+        "table_unit_id": "quest:2:title",
+        "encoded_bytes": 20,
+        "encoded_hex": "BCB5C7A23A20C2CFB7B020C7CAC7E820B8FBC2C8",
+        "nul_terminator_bytes": 1,
+        "required_with_nul": 21,
+        "capacity_including_nul": 23,
+        "headroom_after_nul": 2,
+        "fits_in_place": true,
+        "table_resizable": true
+      }
+    ],
+    "status": "known_fixed_fields_passed; four quest-table in-place overflows and 36 boundary-unmatched units remain for their documented rebuild/audit paths"
+  },
+  "hashes": {
+    "source_sha256": "8BEFE54E1644C619F3AF45F3E81CD32419487E9D7FD2A774AB9424ECDA0EDCEF",
+    "draft_sha256": "873B8F3854CB5C9BD5C7862A68BEA53E316276741D0FA422EC7CBFDBBE7C8A41",
+    "reviewed_sha256": "D1EA9B63D0968B12C3717CCF4420D4B29AE6FD83A2598F319A26794CE4019558",
+    "validation_sha256": "6C38AC2BB8D4D141C0A4AA3AE4B3F22F674AC7136957709AC8A2B5CEF8E71C41",
+    "boundary_audit_sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "fit_report_sha256": "D6B92BF2D14AD838A274EA55EC8CCFF81E00C5A4D182B7C310222636DB4E3738",
+    "temporary_translation_memory_json_sha256": "CD9F850C812C6FA8E21B6452FEA7CFE1AF908CAE07CCF0715B140006DF2D0344",
+    "temporary_translation_memory_csv_sha256": "6D2CEC48DD2BAF61643546D24A0B6BEA2712FD7171EF0047C18CB0B145463D78",
+    "temporary_coverage_sha256": "2B210B98ACD215A59031C1E880F0F045DAE803D839CEF6EA782515B18A5FC62C",
+    "temporary_approved_units_jsonl_sha256": "1FFA84E605E4095FF3E7D0DA29E175BB74C871F860914D0ECF3F42A969045FFF",
+    "temporary_approved_corpus_sha256": "AA13D09BE22B0C0AD63D732DE3A95DB271CE5D82DF40411C3319AD4E865E3264",
+    "temporary_corpus_manifest_sha256": "D0EFFF87AC88ADC6F92B6484CE8C899DF7A98EEE74D2B2F9B71A82551BFE24EB",
+    "temporary_codebook_sha256": "918DC777C72E6190A99F863B0D2AA9CA5AEC4463E1EA33B40036435C94E7BCDC",
+    "canonical_codebook_sha256": "C2B3EFD964B88FB58B166AEE72EC655DCBBE0E6245A7B69AFFA22F96EF55851A",
+    "production_translation_memory_sha256": "EA80A6C38B6FDEE64997F6BE9D9E2314F1198032AFE44D299BDDC0D1EDC3CC3F"
+  }
+}

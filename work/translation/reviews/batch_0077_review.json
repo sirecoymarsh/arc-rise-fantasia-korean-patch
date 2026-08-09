@@ -1,0 +1,189 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0077",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0077.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0077.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0077.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 17,
+  "unchanged_row_count": 183,
+  "modifications": [
+    {
+      "row_index": 18,
+      "tm_id": "ARF-TM-03BD2E91CD932B6F5F99",
+      "source_text": "レジスタンスの人たちが\nそわそわしているの……<$0C>……何かあったのかしら？",
+      "before": "레지스탕스 사람들이\n안절부절못하고 있어……<$0C>……무슨 일이 있는 걸까?",
+      "after": "저항군 사람들이\n안절부절못하고 있어……<$0C>……무슨 일이 있는 걸까?",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기 '저항군'을 적용했다."
+    },
+    {
+      "row_index": 21,
+      "tm_id": "ARF-TM-03D49B0D6B0313634EEE",
+      "source_text": "イベント（EV09_17_2700B）を再生",
+      "before": "이벤트（EV09_17_2700B） 재생",
+      "after": "이벤트(EV09_17_2700B)를 재생",
+      "category": "formatting",
+      "reason": "메뉴 문구의 괄호를 한국어 표기로 통일했다."
+    },
+    {
+      "row_index": 27,
+      "tm_id": "ARF-TM-03F5F36C800855E0F0EF",
+      "source_text": "貴族たちも兵士たちも\n何をそんなに急いでいるのか……<$0C>感情をあらわにしたり\n肩で風を切って走るのは\n心にゆとりがない証拠です",
+      "before": "귀족도 병사도\n뭘 그렇게 서두르는지……<$0C>감정을 드러내거나\n거들먹거리며 뛰는 건\n마음에 여유가 없다는 증거입니다",
+      "after": "귀족도 병사도\n뭘 그렇게 서두르는지……<$0C>감정을 드러내거나\n거드름을 피우며 뛰는 건\n마음에 여유가 없다는 증거입니다",
+      "category": "naturalness",
+      "reason": "肩で風を切る의 거만한 태도를 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 29,
+      "tm_id": "ARF-TM-03F8CDF0F4A715E60241",
+      "source_text": "ここがその名も轟く\n『紅霞のザムエル』殿が\n運営されている武芸塾か<$0C>伝説のロードナイトの武芸塾……\n息子が大きくなったら\n是非、ここに通わせたいですな",
+      "before": "여기가 그 이름도 유명한\n『홍하의 자무엘』 님이\n운영하는 무예관인가<$0C>전설의 로드나이트의 무예관……\n아들이 크면\n꼭 여기에 다니게 하고 싶군",
+      "after": "여기가 그 이름도 유명한\n『홍하의 자무엘』 님이\n운영하는 무예관인가<$0C>전설의 로드나이트가 세운 무예관……\n아들이 크면\n꼭 여기에 다니게 하고 싶군",
+      "category": "naturalness",
+      "reason": "중복 소유격을 제거해 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 42,
+      "tm_id": "ARF-TM-043BACC02EE5BC60094D",
+      "source_text": "ティグリス河D2へ\n",
+      "before": "티그리스강D2로\n",
+      "after": "티그리스강 D2로\n",
+      "category": "formatting",
+      "reason": "지명과 맵 식별자의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 49,
+      "tm_id": "ARF-TM-0451B506E5486BDC67DB",
+      "source_text": "そこにいる兵隊さんの\n２人の皇子様のお話は\n私、よくわからなかったわ……<$0C>だって、どちらとも立派ですもの",
+      "before": "저기 있는 병사분들의\n두 황자님 이야기는\n전 잘 모르겠어요……<$0C>두 분 다 훌륭하시니까요",
+      "after": "저기 있는 병사분들이 나누는\n두 황자님 이야기는\n전 잘 모르겠어요……<$0C>두 분 다 훌륭하시니까요",
+      "category": "semantic_accuracy",
+      "reason": "병사들이 두 황자에 관해 나누는 이야기라는 수식 관계를 명확히 했다."
+    },
+    {
+      "row_index": 58,
+      "tm_id": "ARF-TM-047700C9A0485ED26489",
+      "source_text": "今日はお嬢様のお守りで\nここまでやってきたのですが\n私では持て余してしまいます……<$0C>子どもは元気が１番ですが\n何事も過ぎるのは問題で……\n肝を冷やしているところなんです",
+      "before": "오늘은 아가씨를 돌보느라\n여기까지 왔습니다만\n저로서는 감당이 안 됩니다……<$0C>아이는 씩씩한 게 제일이지만\n무엇이든 지나치면 문제라서……\n지금 간이 철렁합니다",
+      "after": "오늘은 아가씨를 돌보느라\n여기까지 왔습니다만\n저로서는 감당이 안 됩니다……<$0C>아이는 씩씩한 게 제일이지만\n무엇이든 지나치면 문제라서……\n계속 가슴을 졸이고 있습니다",
+      "category": "semantic_accuracy",
+      "reason": "肝を冷やしている의 지속적인 불안 상태를 정확히 반영했다."
+    },
+    {
+      "row_index": 74,
+      "tm_id": "ARF-TM-04D54225CB011DECFF91",
+      "source_text": "ボクの領域を侵しに来たか\nイーサの子よ！<$0C>滅ぼされることを\n恐れもしないで！",
+      "before": "나의 영역을 침범하러 왔느냐\n이사의 아이여!<$0C>멸망하는 것도\n두려워하지 않고!",
+      "after": "나의 영역을 침범하러 왔느냐\n이사의 아이여!<$0C>멸망당하는 것을\n두려워하지도 않고!",
+      "category": "naturalness",
+      "reason": "수동 의미와 조사를 바로잡았다."
+    },
+    {
+      "row_index": 102,
+      "tm_id": "ARF-TM-05512CD093DAAA7A4B6C",
+      "source_text": "心にわだかまりがあると\n剣の方も鈍ってきちまうもんだ。\n……お前なりに決着をつけてこい",
+      "before": "마음에 응어리가 있으면\n칼끝도 무뎌지는 법이지.\n……너 나름대로 결판을 짓고 와",
+      "after": "마음에 응어리가 있으면\n검도 무뎌지는 법이지.\n……너 나름대로 결판을 짓고 와",
+      "category": "semantic_accuracy",
+      "reason": "剣の方를 검술 전반을 가리키는 표현으로 바로잡았다."
+    },
+    {
+      "row_index": 107,
+      "tm_id": "ARF-TM-05647E389EAFA55A5FE6",
+      "source_text": "貴族たちの謀反の噂や\nレジスタンスによるテロの危険もある。\n……警備に注力しなければなるまい",
+      "before": "귀족들의 모반 소문과\n레지스탕스의 테러 위험도 있다.\n……경비에 힘을 쏟아야겠군",
+      "after": "귀족들의 모반 소문과\n저항군의 테러 위험도 있다.\n……경비에 힘을 쏟아야겠군",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기를 적용했다."
+    },
+    {
+      "row_index": 109,
+      "tm_id": "ARF-TM-0580BFEDE74A199C5E37",
+      "source_text": "さあって、どうすんだ？\nこのままあてもなーく\nウロチョロしちゃう訳？",
+      "before": "자아, 어떻게 할래?\n이대로 목적도 없이\n어슬렁거릴 셈이야?",
+      "after": "자, 어떻게 할 건데?\n이대로 목적도 없이\n어슬렁거릴 셈이야?",
+      "category": "naturalness",
+      "reason": "도입부와 질문형 구어를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 112,
+      "tm_id": "ARF-TM-058AC370AD42CEE9D5F5",
+      "source_text": "（奇特な収集家にも\n　さすがにこれは売れなかった\n　ってところかしら……）",
+      "before": "（기이한 수집가에게도\n　역시 이건 팔리지 않았던\n　모양이네……）",
+      "after": "(기이한 수집가에게도\n　역시 이건 팔리지 않았던\n　모양이네……)",
+      "category": "formatting",
+      "reason": "한국어 문장에 맞는 괄호 표기로 통일했다."
+    },
+    {
+      "row_index": 140,
+      "tm_id": "ARF-TM-0616A326922BA73ED6EE",
+      "source_text": "あれ、以前どっかで会ったよね？\nそうそう、帝都で見たことある顔だ！\n確か、君、認可傭兵だったでしょ？",
+      "before": "어라, 전에 어디서 만났지?\n그래, 제도에서 본 적 있는 얼굴이야!\n분명 너, 인가 용병이었지?",
+      "after": "어라, 전에 어디서 만났지?\n그래, 제도에서 본 적 있는 얼굴이야!\n분명 너, 공인 용병이었지?",
+      "category": "terminology",
+      "reason": "認可傭兵을 프로젝트 통용 표기 '공인 용병'으로 통일했다."
+    },
+    {
+      "row_index": 162,
+      "tm_id": "ARF-TM-06A32BD6CAD0F2BCA3D7",
+      "source_text": "ラルク殿――\n和平についての話し合いは\n後日、執務室で行われます",
+      "before": "라르크 공――\n평화에 관한 논의는\n훗날 집무실에서 이루어집니다",
+      "after": "라르크 님――\n화평에 관한 논의는\n추후 집무실에서 진행됩니다",
+      "category": "register",
+      "reason": "後日를 '추후'로 옮기고 공적인 안내 어조를 다듬었다."
+    },
+    {
+      "row_index": 166,
+      "tm_id": "ARF-TM-06B83B4398652EF1438A",
+      "source_text": "ああ。定理のない未来の為に",
+      "before": "그래. 정리 없는 미래를 위하여",
+      "after": "그래. 섭리 없는 미래를 위하여",
+      "category": "terminology",
+      "reason": "定理의 확정 설정 용어 '섭리'를 적용했다."
+    },
+    {
+      "row_index": 172,
+      "tm_id": "ARF-TM-06E08834CF5C32675A68",
+      "source_text": "……俺も苦手だったよ。\nだけど、最近は色々ありすぎて\nだんだん慣れてきたよ",
+      "before": "……나도 어려웠어.\n하지만 요즘 너무 많은 일을 겪어서\n점점 익숙해졌어",
+      "after": "……나도 서툴렀어.\n하지만 요즘 너무 많은 일을 겪어서\n점점 익숙해졌어",
+      "category": "semantic_accuracy",
+      "reason": "苦手를 능숙하지 못했다는 의미로 명확히 했다."
+    },
+    {
+      "row_index": 179,
+      "tm_id": "ARF-TM-070A42185A08341A83C9",
+      "source_text": "この街が愛おしく思えるくらい\n軍に入って長生きできるように\n頑張ろうって思うわ……",
+      "before": "이 도시가 사랑스럽게 느껴질 만큼\n군에 들어가 오래 살아남도록\n노력해야겠다고 생각해……",
+      "after": "군에 들어가 오래 살아남아서\n이 도시가 사랑스럽게 느껴질 만큼\n버텨 보려고 해……",
+      "category": "naturalness",
+      "reason": "목적 관계와 한국어 어순을 자연스럽게 정리했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

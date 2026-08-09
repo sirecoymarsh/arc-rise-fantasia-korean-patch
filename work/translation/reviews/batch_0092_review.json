@@ -1,0 +1,189 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0092",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0092.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0092.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0092.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 17,
+  "unchanged_row_count": 183,
+  "modifications": [
+    {
+      "row_index": 12,
+      "tm_id": "ARF-TM-4028A7647D7D571DAE19",
+      "source_text": "あんたら観光客のお陰で\n俺たちの生活はなりたってるからな。\n何かあったら、いつでも相談に乗ろう<$0C>こういう娯楽ってのは\n世の中が物騒な時ほど儲かるのさ。\nだから帝国には感謝しないとな！",
+      "before": "당신들 관광객 덕분에\n우리도 먹고사는 거니까.\n무슨 일 있으면 언제든 상담해 주지<$0C>이런 오락은\n세상이 흉흉할 때일수록 돈이 돼.\n그러니 제국에 감사해야겠군!",
+      "after": "당신들 관광객 덕분에\n우리도 먹고사는 거니까.\n무슨 일 있으면 언제든 얘기해<$0C>이런 오락은\n세상이 흉흉할 때일수록 돈이 돼.\n그러니 제국에 감사해야겠군!",
+      "category": "naturalness",
+      "reason": "상담에 응하겠다는 호의를 화자의 말투에 맞는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "row_index": 27,
+      "tm_id": "ARF-TM-40816E78D5AB6194567A",
+      "source_text": "食べ物屋さんは、どうして\nリコと食べ物を交換してくれるの？\n食べ物屋さんはリコを食べるの？",
+      "before": "음식 가게는 왜\n리코한테 음식을 주는 거야?\n음식 가게는 리코를 먹을 거야?",
+      "after": "음식점은 왜\n리코와 음식을 바꿔 주는 거야?\n음식점은 리코를 먹는 거야?",
+      "category": "meaning",
+      "reason": "화폐 리코와 음식을 교환한다는 아이의 질문에서 교환 의미가 누락된 부분을 복원했다."
+    },
+    {
+      "row_index": 32,
+      "tm_id": "ARF-TM-40A6754F8BBD2AE3A3B1",
+      "source_text": "こんな日は、大聖堂に赴いて\n手の皮が擦りむけるほどに\n祈り続ければ不安なんてないのに",
+      "before": "이런 날에는 대성당에 가서\n손바닥이 벗겨질 만큼\n계속 기도하면 불안하지 않을 텐데",
+      "after": "이런 날에는 대성당에 가서\n손이 까질 만큼\n계속 기도하면 불안하지 않을 텐데",
+      "category": "naturalness",
+      "reason": "손의 피부가 벗겨질 만큼 기도한다는 과장을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "row_index": 33,
+      "tm_id": "ARF-TM-40A8EC08062788AC7389",
+      "source_text": "落ち着いてたほうが\nいいんだろうって思うけどさ\nどうも駄目なんだ……",
+      "before": "침착하는 게\n좋다는 건 알지만\n아무래도 안 되겠어……",
+      "after": "침착해야 한다는 건\n알고 있지만\n아무래도 안 되겠어……",
+      "category": "grammar",
+      "reason": "부자연스러운 침착하다 활용을 자연스러운 의무 표현으로 바로잡았다."
+    },
+    {
+      "row_index": 41,
+      "tm_id": "ARF-TM-40C4B3345AED17386396",
+      "source_text": "さっき、街の男が\n因縁つけてきたから\n返り討ちにしてやったぜ<$0C>そいつの持ち物の中に\nこんなモンが入ってたから\nお前にくれてやる",
+      "before": "아까 도시 남자가\n시비를 걸어오길래\n되받아쳐 줬지<$0C>그 녀석 물건 중에\n이런 게 들어 있길래\n너한테 주마",
+      "after": "아까 마을 남자가\n시비를 걸어오길래\n도리어 혼내 줬지<$0C>그 녀석 소지품에\n이런 게 들어 있길래\n너한테 주마",
+      "category": "naturalness",
+      "reason": "시비를 건 상대를 되받아친 상황과 소지품 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 42,
+      "tm_id": "ARF-TM-40C57AB3EA32370F1426",
+      "source_text": "最近、街の人たちから\n『赤い月』ってよく聞くんだけど\n一体、何の話をしてるんだい？<$0C>月っていえば、昔よく聞かされた\nおとぎ話に出てきた気がするけど……",
+      "before": "요즘 도시 사람들이\n『붉은 달』이라는 말을 자주 하던데\n대체 무슨 이야기야?<$0C>달이라면 옛날에 자주 듣던\n옛날이야기에 나온 것 같기도 한데……",
+      "after": "요즘 도시 사람들이\n『붉은 달』이라는 말을 자주 하던데\n대체 무슨 이야기야?<$0C>달이라면 어릴 때 자주 듣던\n동화에 나온 것 같기도 한데……",
+      "category": "naturalness",
+      "reason": "옛날이라는 말의 반복을 없애고 어린 시절 들은 동화라는 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 54,
+      "tm_id": "ARF-TM-41139603500E4D9B3699",
+      "source_text": "アルス様は努力の方よね。\n……だから共感できるの。\n世の中、才能だけじゃないの",
+      "before": "알스 님은 노력하는 분이시지.\n……그래서 공감할 수 있어.\n세상은 재능이 전부가 아니야",
+      "after": "알스 님은 노력파시지.\n……그래서 공감할 수 있어.\n세상은 재능이 전부가 아니야",
+      "category": "word_choice",
+      "reason": "재능형이 아닌 노력형 인물이라는 뜻을 간결한 고정 표현으로 옮겼다."
+    },
+    {
+      "row_index": 67,
+      "tm_id": "ARF-TM-416DA08BD3139FD6FF57",
+      "source_text": "きっと、アントラクスは\nよみがえってくれると思うわ<$0C>ここの人たちって、捨て身？\nって思えちゃうくらい\n一所懸命なんだもん",
+      "before": "분명 안트락스는\n다시 살아날 거야<$0C>이곳 사람들은 목숨도 아깝지 않나?\n하는 생각이 들 정도로\n열심히 일하거든",
+      "after": "분명 안트락스는\n다시 살아날 거야<$0C>이곳 사람들은 목숨을 내놓은 건가?\n싶을 정도로\n열심히 일하거든",
+      "category": "meaning",
+      "reason": "사람들이 몸을 사리지 않고 일한다는 의미를 분명하게 복원했다."
+    },
+    {
+      "row_index": 86,
+      "tm_id": "ARF-TM-41D9FB52362C0EC3A827",
+      "source_text": "森の結晶化、もう止められない。\nコピンの英雄、この里を\n救ってはくれませんか？",
+      "before": "숲의 결정화, 이제 막을 수 없어.\n코핀의 영웅, 이 마을을\n구해 주지 않겠어?",
+      "after": "숲의 결정화, 이제 막을 수 없어.\n코핀의 영웅, 이 마을을\n구해 주지 않겠습니까?",
+      "category": "honorifics",
+      "reason": "도움을 청하는 원문의 정중한 종결을 반영했다."
+    },
+    {
+      "row_index": 98,
+      "tm_id": "ARF-TM-41ECF045C55FFA515738",
+      "source_text": "この村の西の方に\nグラ慈恵教会という\n建物があることはご存知か？<$0C>サージュやマリアを含め\n村の多くの若者たちが\nそこで育てられていたんだ",
+      "before": "이 마을 서쪽에\n그라 자혜 교회라는\n건물이 있는 건 알고 있나?<$0C>사쥬와 마리아를 비롯해\n마을의 많은 젊은이가\n그곳에서 자랐지",
+      "after": "이 마을 서쪽에\n그라 자혜교회라는\n건물이 있는 건 알고 있나?<$0C>사쥬와 마리아를 비롯해\n마을의 많은 젊은이가\n그곳에서 자랐지",
+      "category": "proper_noun",
+      "reason": "용어집과 기존 지명 표기에 맞춰 그라 자혜교회의 띄어쓰기를 통일했다."
+    },
+    {
+      "row_index": 118,
+      "tm_id": "ARF-TM-42643E8F67D96AB17897",
+      "source_text": "昔は……友達と一緒になって\n海のどこから波が始まるのか\n『見えた』『嘘だ』って<$0C>眺めていたものですよ",
+      "before": "옛날에는…… 친구들과 함께\n바다 어디에서 파도가 시작되는지\n『보였다』『거짓말』이라며<$0C>바라보곤 했지요",
+      "after": "옛날에는…… 친구들과 함께\n바다 어디에서 파도가 시작되는지\n『보인다』『거짓말이야』 하며<$0C>바라보곤 했지요",
+      "category": "naturalness",
+      "reason": "친구들과 파도의 시작점을 두고 주고받던 말을 자연스러운 직접화법으로 다듬었다."
+    },
+    {
+      "row_index": 126,
+      "tm_id": "ARF-TM-4277C738B104DB65EC0D",
+      "source_text": "そのうち、この世界から\n美酒も美食もなくなるだろう<$0C>それが法だから仕方がないが\nそれはそれで退屈な世界だ……",
+      "before": "머지않아 이 세상에서\n좋은 술과 맛있는 음식도 사라지겠지<$0C>법이라니 어쩔 수 없지만\n그건 그것대로 따분한 세상이군……",
+      "after": "머지않아 이 세상에서\n좋은 술과 맛있는 음식도 사라지겠지<$0C>그게 법이니 어쩔 수 없지만\n그건 그것대로 따분한 세상이군……",
+      "category": "meaning",
+      "reason": "그러한 금지가 법이기 때문에 어쩔 수 없다는 인과관계를 복원했다."
+    },
+    {
+      "row_index": 143,
+      "tm_id": "ARF-TM-42BB9E52105134406C12",
+      "source_text": "ヴァイスが死んだお陰で\n議会の数がめっきり減って\nこっちは大助かりだわ……<$0C>狭い議会でずっと\n議論を続けていると\nもう息が詰まってしまって……",
+      "before": "바이스가 죽은 덕분에\n의회 인원이 확 줄어서\n난 정말 살 것 같아……<$0C>비좁은 의회에서 계속\n논의를 이어 가다 보면\n숨이 막힐 지경이거든……",
+      "after": "바이스가 죽은 덕분에\n회의 횟수가 눈에 띄게 줄어서\n난 정말 살 것 같아……<$0C>비좁은 의회에서 계속\n논의를 이어 가다 보면\n숨이 막힐 지경이거든……",
+      "category": "meaning",
+      "reason": "줄어든 대상이 의원 수가 아니라 의회 회의 횟수라는 문맥을 바로잡았다."
+    },
+    {
+      "row_index": 147,
+      "tm_id": "ARF-TM-42BE472078E790EA631D",
+      "source_text": "思い切って槍にするとか……\nでも、槍はかっこ悪いし\n皆にバカにされるんだよな",
+      "before": "큰맘 먹고 창으로 바꾼다든가……\n하지만 창은 멋이 없고\n다들 바보 취급할 텐데",
+      "after": "큰맘 먹고 창으로 바꾼다든가……\n하지만 창은 멋도 없고\n다들 놀려 대니까 말이야",
+      "category": "meaning",
+      "reason": "창을 쓰면 주변 사람들에게 놀림받는다는 뜻을 바보 취급이라는 과한 해석에서 바로잡았다."
+    },
+    {
+      "row_index": 165,
+      "tm_id": "ARF-TM-4321258329FA2CEBFF22",
+      "source_text": "どちらの定理も選ばぬイーサの子よ\n神に抗いたいのなら\n神を生んだ私を、見事倒してみせよ",
+      "before": "어느 정리도 선택하지 않은 이사의 아이여\n신에게 맞서고 싶다면\n신을 낳은 나를 훌륭히 쓰러뜨려 보아라",
+      "after": "어느 섭리도 선택하지 않은 이사의 아이여\n신에게 맞서고 싶다면\n신을 낳은 나를 당당히 쓰러뜨려 보아라",
+      "category": "terminology",
+      "reason": "세계관 용어 定理를 용어집의 고정 번역인 섭리로 통일하고 문장을 다듬었다."
+    },
+    {
+      "row_index": 191,
+      "tm_id": "ARF-TM-43B8CA2D83DFA1FB017D",
+      "source_text": "ログレスはいいのか？",
+      "before": "로그레스는 괜찮은 거냐?",
+      "after": "로그레스는 어쩔 거야?",
+      "category": "meaning",
+      "reason": "로그레스 수집을 어떻게 할 것인지 묻는 문맥을 상태 확인으로 오해하지 않도록 바로잡았다."
+    },
+    {
+      "row_index": 198,
+      "tm_id": "ARF-TM-43D78A35CDAF1760A6AD",
+      "source_text": "エブルに戻ったとしても\n今じゃ、新帝国憲章のせいで\nおめおめ外出もできねえよ",
+      "before": "에블로 돌아간다 해도\n지금은 신제국 헌장 때문에\n뻔뻔하게 외출할 수도 없어",
+      "after": "에블로 돌아간다 해도\n지금은 신제국 헌장 때문에\n마음 놓고 외출할 수도 없어",
+      "category": "idiom",
+      "reason": "거리낌 없이 외출할 수 없다는 뜻을 뻔뻔하다는 부정확한 표현에서 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0081",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0081.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0081.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0081.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 18,
+  "unchanged_row_count": 182,
+  "modifications": [
+    {
+      "row_index": 10,
+      "tm_id": "ARF-TM-13C485C46CF059198E95",
+      "source_text": "勝敗を分かつのは信念の強さ。\n今回は、お前たちの想いが\n私の忠義を上回ったのだ<$0C>……アルス様はこの先だ。\nラルク……あの方の\n悲しみにケリをつけてくれ",
+      "before": "승패를 가르는 건 신념의 강함.\n이번에는 너희의 마음이\n내 충의를 뛰어넘었다<$0C>……알스 님은 이 앞에 있다.\n라르크…… 그분의\n슬픔에 결판을 내 다오",
+      "after": "승패를 가르는 건 신념의 강함.\n이번에는 너희의 마음이\n내 충의를 뛰어넘었다<$0C>……알스 님은 이 앞에 있다.\n라르크…… 그분의\n슬픔에 결착을 지어 다오",
+      "category": "naturalness",
+      "reason": "悲しみにケリをつける를 부자연스러운 '슬픔에 결판' 대신 결착을 짓는다는 표현으로 다듬었다."
+    },
+    {
+      "row_index": 12,
+      "tm_id": "ARF-TM-13CB9C8723B1FFDEDC98",
+      "source_text": "崩れた家々の隙間から\n木漏れ日が差し込むのです。\nこれが復興の光でしょうか……",
+      "before": "무너진 집들 사이로\n나뭇잎 사이의 햇살이 비칩니다.\n이게 부흥의 빛일까요……",
+      "after": "무너진 집들 사이로\n햇살이 비칩니다.\n이게 부흥의 빛일까요……",
+      "category": "naturalness",
+      "reason": "木漏れ日를 중복 수식 없이 자연스러운 '햇살'로 옮겼다."
+    },
+    {
+      "row_index": 29,
+      "tm_id": "ARF-TM-14069AFE20FAE67CB3E9",
+      "source_text": "パパが『外に出ちゃダメ』\nっていうから、今日はおうちで\nおままごとしているの……<$0C>１人で遊ぶのつまんなーい。\n……お兄ちゃんも一緒に遊ぶ？",
+      "before": "아빠가 『밖에 나가면 안 돼』라고\n해서 오늘은 집에서\n소꿉놀이하고 있어……<$0C>１명 혼자 노는 건 재미없어.\n……형도 같이 놀래?",
+      "after": "아빠가 『밖에 나가면 안 돼』라고\n해서 오늘은 집에서\n소꿉놀이하고 있어……<$0C>１인 놀이는 재미없어.\n……형도 같이 놀래?",
+      "category": "naturalness",
+      "reason": "１人で遊ぶ의 숫자를 유지하면서 중복된 '１명 혼자' 표현을 자연스럽게 고쳤다."
+    },
+    {
+      "row_index": 40,
+      "tm_id": "ARF-TM-1438F2DC3518439054E5",
+      "source_text": "EV09_12_1100B\nEV09_12_1300B\nイベント君 消去\n実験\nやめる",
+      "before": "EV09_12_1100B\nEV09_12_1300B\n이벤트 캐릭터 삭제\n실험\n취소",
+      "after": "EV09_12_1100B\nEV09_12_1300B\n이벤트 캐릭터 삭제\n실험\n그만두기",
+      "category": "ui",
+      "reason": "디버그 메뉴의 やめる를 동작 종료 항목으로 정확히 옮겼다."
+    },
+    {
+      "row_index": 41,
+      "tm_id": "ARF-TM-143C36A0BEB0F4AE1234",
+      "source_text": "リフィアちゃんのことは\n自分にまるっと\n任せてほしいッス！<$0C>少しでも危険が及ぼうものなら\n自分の命に代えても\n死守する覚悟ッス！",
+      "before": "리피아 일은\n이 몸에게 전부\n맡겨 주십쇼!<$0C>조금이라도 위험이 닥치면\n제 목숨과 바꿔서라도\n끝까지 지킬 각오임다!",
+      "after": "리피아 일은\n저한테 전부\n맡겨 주십쇼!<$0C>조금이라도 위험이 닥치면\n제 목숨과 바꿔서라도\n끝까지 지킬 각오임다!",
+      "category": "character_voice",
+      "reason": "自分に를 자연스러운 1인칭으로 옮기면서 니콜의 말버릇을 유지했다."
+    },
+    {
+      "row_index": 45,
+      "tm_id": "ARF-TM-1454D6BD09C13D865271",
+      "source_text": "いつも通りの暮らしを\n心がけることが重要です。\nそうすれば心が落ち着くんじゃ……",
+      "before": "평소와 같은 생활을\n마음에 새기는 게 중요합니다.\n그러면 마음이 안정될 겁니다……",
+      "after": "평소처럼 생활하려\n노력하는 게 중요합니다.\n그러면 마음도 차분해질 겁니다……",
+      "category": "semantic_accuracy",
+      "reason": "いつも通りの暮らしを心がける를 '생활을 마음에 새기다'가 아닌 일상을 유지하려 노력한다는 뜻으로 바로잡았다."
+    },
+    {
+      "row_index": 66,
+      "tm_id": "ARF-TM-14A24915FB83E0CDAB4A",
+      "source_text": "人形　　　：cop002〜cop003\nミニリッチ：cop010〜cop013\nスケルトン：cop020〜cop023\nリッチ　　：cop030〜cop033\nやめる",
+      "before": "인형　　　: cop002~cop003\n미니 리치: cop010~cop013\n스켈레톤: cop020~cop023\n리치　　: cop030~cop033\n취소",
+      "after": "인형　　　: cop002~cop003\n미니 리치: cop010~cop013\n스켈레톤: cop020~cop023\n리치　　: cop030~cop033\n그만두기",
+      "category": "ui",
+      "reason": "디버그 메뉴의 やめる를 동작 종료 항목으로 정확히 옮겼다."
+    },
+    {
+      "row_index": 70,
+      "tm_id": "ARF-TM-14AC94EC81B94E32F842",
+      "source_text": "アルス皇帝なら\nバトラキテスを解放してくれる――\n……そう信じています<$0C>バトラキテスは私の故郷。\n１日でも早く帰りたいのです……",
+      "before": "알스 황제라면\n바트라키테스를 해방해 줄 거야――\n……그렇게 믿습니다<$0C>바트라키테스는 내 고향.\n１일이라도 빨리 돌아가고 싶어요……",
+      "after": "알스 황제라면\n바트라키테스를 해방해 주실 거야――\n……그렇게 믿습니다<$0C>바트라키테스는 제 고향입니다.\n１일이라도 빨리 돌아가고 싶습니다……",
+      "category": "register",
+      "reason": "대사 후반부의 공식적인 말투에 맞춰 소유격과 종결 어미를 정리했다."
+    },
+    {
+      "row_index": 93,
+      "tm_id": "ARF-TM-153A86FF4AE9EAF708A8",
+      "source_text": "きっと、もうすぐ\n市も喪に服するはずだから\n今の内に買いだめしとかないと……",
+      "before": "분명 곧\n시장도 상을 치를 테니\n지금 사재기해 둬야 해……",
+      "after": "분명 곧\n장터도 상중에 들어갈 테니\n지금 미리 사 둬야……",
+      "category": "naturalness",
+      "reason": "市が喪に服する를 시장이 장례를 치른다는 직역 대신 장터가 상중에 들어간다는 뜻으로 다듬었다."
+    },
+    {
+      "row_index": 108,
+      "tm_id": "ARF-TM-157A88AEEEF103677E22",
+      "source_text": "議会政治に変わってから\n国内の貧富の差が少なくなっている。\nこれはどこにも見られない兆候だ<$0C>戦争なんて野蛮な行為よりも\n新しい政治のシステムこそが\n民を豊かにすることが証明されたのだ",
+      "before": "의회 정치로 바뀐 뒤\n국내 빈부 격차가 줄어들고 있다.\n어디에서도 볼 수 없는 징후다<$0C>전쟁 같은 야만적인 행위보다\n새로운 정치 체제가\n백성을 풍요롭게 한다는 게 증명됐다",
+      "after": "의회 정치로 바뀐 뒤\n국내 빈부 격차가 줄어들고 있다.\n다른 어디에서도 볼 수 없는 징조다<$0C>전쟁 같은 야만적인 행위보다\n새로운 정치 체제가\n백성을 풍요롭게 한다는 게 증명됐다",
+      "category": "word_choice",
+      "reason": "긍정적인 변화인 兆候를 부정적 뉘앙스가 강한 '징후' 대신 '징조'로 옮겼다."
+    },
+    {
+      "row_index": 116,
+      "tm_id": "ARF-TM-15A5841A0CB7F9B3C2C5",
+      "source_text": "とにかく皇帝崩御の件も含めて\nカルブンクルスの議長に\n知らせなくちゃ",
+      "before": "아무튼 황제 붕어 건도 포함해\n카르분클루스 의장에게\n알려야 해",
+      "after": "아무튼 황제의 붕어 소식도\n카르분클루스 의장에게\n알려야 해",
+      "category": "naturalness",
+      "reason": "붕어에 관한 소식을 전한다는 의미가 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "row_index": 117,
+      "tm_id": "ARF-TM-15AB4294EFDC0A960679",
+      "source_text": "辺境の地02・ＮＰＣ配置初期化\n",
+      "before": "변경의 땅 02·NPC 배치 초기화\n",
+      "after": "변경의 땅 02・NPC 배치 초기화\n",
+      "category": "formatting",
+      "reason": "원문의 고유명사 구분점과 행 끝 형식을 반영했다."
+    },
+    {
+      "row_index": 128,
+      "tm_id": "ARF-TM-15E26CE5F002EC4824FB",
+      "source_text": "ありがとよ……って\nいつの間にか俺も\n持ちきれなくなってたみたいでさ<$0C>今回は遠慮させてくれ\nせっかくなのに悪いな",
+      "before": "고마워……라고 하려 했더니\n어느새 나도\n더 들 수 없게 된 모양이야<$0C>이번에는 사양할게\n모처럼인데 미안해",
+      "after": "고맙……다고 하고 싶지만\n어느새 나도\n더 들 수 없게 된 모양이야<$0C>이번에는 사양할게\n모처럼인데 미안해",
+      "category": "naturalness",
+      "reason": "말을 꺼냈다가 소지 한도를 깨닫는 화자의 자기 정정이 자연스럽게 드러나도록 옮겼다."
+    },
+    {
+      "row_index": 131,
+      "tm_id": "ARF-TM-15EF8FFEC4B458D01294",
+      "source_text": "そうね、陸路は危険だから\n１人じゃ、無理よね。",
+      "before": "그래, 육로는 위험하니까\n１명 혼자서는 무리겠지.",
+      "after": "그래, 육로는 위험하니까\n１명으로는 무리겠지.",
+      "category": "naturalness",
+      "reason": "１人じゃ의 숫자를 유지하면서 중복된 '１명 혼자' 표현을 바로잡았다."
+    },
+    {
+      "row_index": 136,
+      "tm_id": "ARF-TM-16146E662FB00C514412",
+      "source_text": "この武芸塾は本当に\n変わっている武芸塾だよね<$0C>だって、貴族の子どもと\n貧民の子どもが\n一緒に稽古しているんだよ？<$0C>この武芸塾の門をくぐったら\n身分なんて関係ない。\nだから、自由な子どもが育つんだ",
+      "before": "이 무예 학원은 정말\n특이한 무예 학원이야<$0C>왜냐하면 귀족 아이와\n빈민 아이가\n함께 수련하고 있잖아?<$0C>이 무예 학원 문을 들어서면\n신분 따윈 상관없어.\n그래서 자유로운 아이들이 자라지",
+      "after": "이 무예관은 정말\n특이한 무예관이야<$0C>왜냐하면 귀족 아이와\n빈민 아이가\n함께 수련하고 있잖아?<$0C>이 무예관 문을 들어서면\n신분 따윈 상관없어.\n그래서 자유로운 아이들이 자라지",
+      "category": "terminology",
+      "reason": "대사 전체의 武芸塾을 확정 표기 '무예관'으로 통일했다."
+    },
+    {
+      "row_index": 155,
+      "tm_id": "ARF-TM-167E36D0CDE841589B6E",
+      "source_text": "アントラクスのことや\nバトラキテスのことを忘れたの？<$0C>血塗られたメリディア一族は\nだまし討ちが得意な一族なの",
+      "before": "안트락스와\n바트라키테스 일을 잊었어?<$0C>피로 물든 메리디아 일족은\n기습이 특기인 가문이야",
+      "after": "안트락스와\n바트라키테스 일을 잊었어?<$0C>피로 물든 메리디아 일족은\n속여서 기습하는 데 능한 가문이야",
+      "category": "semantic_accuracy",
+      "reason": "だまし討ち의 속임수와 기습 의미를 모두 반영했다."
+    },
+    {
+      "row_index": 176,
+      "tm_id": "ARF-TM-16DC292DE2DDB270AE16",
+      "source_text": "行くぞっ！",
+      "before": "간다!",
+      "after": "가자!",
+      "category": "naturalness",
+      "reason": "동료를 독려하는 行くぞ를 선언형보다 자연스러운 권유형으로 옮겼다."
+    },
+    {
+      "row_index": 182,
+      "tm_id": "ARF-TM-16F841591185B757B921",
+      "source_text": "こだわる男",
+      "before": "고집하는 남자",
+      "after": "고집 센 남자",
+      "category": "naturalness",
+      "reason": "こだわる의 관형 표현을 자연스러운 인물 묘사로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

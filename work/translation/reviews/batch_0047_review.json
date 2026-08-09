@@ -1,0 +1,248 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0047",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0047.jsonl",
+  "draft": "work/translation/drafts/batch_0047.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0047.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 26,
+  "unchanged_units": 174,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-C4EBBBCD79948CDA9807",
+      "source_text": "コアを破壊するということは\n私を殺すということ",
+      "before": "코어를 파괴한다는 것은\n나를 죽인다는 뜻",
+      "after": "코어를 파괴한다는 건\n저를 죽인다는 뜻입니다",
+      "category": "speaker_voice",
+      "reason": "정중한 신적 존재의 서술 어조로 문장을 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-CBA459654CB8C463987D",
+      "source_text": "他のみんなはどこにいるんだろう",
+      "before": "다른 모두는 어디 있을까",
+      "after": "다른 사람들은 어디 있을까",
+      "category": "naturalness",
+      "reason": "다른 모두라는 직역을 일행을 가리키는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CC3318AE6C9C03C368DE",
+      "source_text": "まあ、あの２人のことだから\n心配はしちゃいないが\n早いとこ合流してやらねえとな",
+      "before": "뭐, 그 ２명이라\n걱정은 안 하지만\n빨리 합류해 줘야지",
+      "after": "뭐, 그 ２명이라\n걱정은 안 하지만\n빨리 합류해야겠어",
+      "category": "meaning",
+      "reason": "상대가 합류해 주기를 바라는 뜻이 아니라 화자가 서둘러 합류해야 한다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-CC7438413B41B929295E",
+      "source_text": "うん。勇者セシルの敵じゃないよ。\n……なんて\nさっきは負けちゃったけど",
+      "before": "응. 용사 세실의 상대가 아니지.\n……라고 해도\n아까는 져 버렸지만",
+      "after": "응. 용사 세실의 상대가 못 되지.\n……라고 해도\n아까는 져 버렸지만",
+      "category": "naturalness",
+      "reason": "상대가 아니라는 표현을 세실에게 적수가 되지 못한다는 자연스러운 뜻으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CCF3885D57A490EB480D",
+      "source_text": "ソニアとの話ってのは\nこいつのことだったのか……",
+      "before": "소니아와 한 이야기는\n이걸 말한 거였나……",
+      "after": "소니아와 얘기했다는 게\n이걸 말한 거였나……",
+      "category": "naturalness",
+      "reason": "소니아와 나눈 사전 협의의 내용을 되짚는 문장으로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D4AEC1E4B302E3FC0D8D",
+      "source_text": "リューズが歌う石……？",
+      "before": "류즈가 노래하는 돌……?",
+      "after": "류즈가 노래하는 돌이라고……?",
+      "category": "grammar",
+      "reason": "류즈가 돌을 노래한다는 중의성을 피하고 정체를 되묻는 서술 구조로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DB16603D960F3EB4256E",
+      "source_text": "さぁて、ラルク。相手も本気で来たぜ。\nこっちは総仕上げと行こうや",
+      "before": "자, 라르크. 상대도 진심으로 나왔어.\n우린 마지막 총력전으로 가자고",
+      "after": "자, 라르크. 상대도 진심으로 덤비네.\n이쪽도 마무리로 가자고",
+      "category": "naturalness",
+      "reason": "상대의 전력과 최종전을 맞는 능글맞은 화자의 어조를 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-E13506F595A4DAAC0AEE",
+      "source_text": "あれは私を偽神として反乱を起こした\nメリディア王の仕業です",
+      "before": "그것은 저를 거짓 신이라 여기고 반란을 일으킨\n메리디아왕의 짓입니다",
+      "after": "그것은 저를 거짓 신이라 여기고 반란을 일으킨\n메리디아 왕의 짓입니다",
+      "category": "proper_noun",
+      "reason": "인명과 직위를 구분해 메리디아 왕으로 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-E57F67D4F48E602B2081",
+      "source_text": "イーサシステムはすでに崩壊していた。\n私が自分に疑問を持った瞬間に",
+      "before": "이사 시스템은 이미 붕괴해 있었습니다.\n제가 자신에게 의문을 품은 순간에",
+      "after": "이사 시스템은 이미 붕괴해 있었습니다.\n제가 제 존재에 의문을 품은 순간에",
+      "category": "grammar",
+      "reason": "자기 자신에 대한 의문이라는 재귀 관계를 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-F07D10920A2AF44EE60C",
+      "source_text": "ラルク。\n定理を組み、世界に示すのは私たちの役目",
+      "before": "라르크.\n섭리를 세우고 세상에 보이는 건 우리의 역할",
+      "after": "라르크.\n섭리를 짜고 세상에 제시하는 건 우리의 역할",
+      "category": "meaning",
+      "reason": "定理を組む와 示す를 섭리를 구성해 세상에 제시한다는 뜻으로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-F42C533FD7FB8E9F5332",
+      "source_text": "すまぬ、世話をかけたな",
+      "before": "미안하다, 신세를 졌군",
+      "after": "미안하다. 신세를 끼쳤군",
+      "category": "meaning",
+      "reason": "世話をかけた를 신세를 졌다가 아니라 상대에게 수고를 끼쳤다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-03BC82208663AF8243A4",
+      "source_text": "リフィアよ。よろしく",
+      "before": "리피아야. 잘 부탁해",
+      "after": "리피아구나. 잘 부탁해",
+      "category": "function",
+      "reason": "리피아를 부르는 말이 아니라 이름을 확인하고 인사하는 문장으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-09B56122EDE6AE671928",
+      "source_text": "アルス様\nサージュが同行しているとはいえ\nラグーン曹長らを追うのでしたら――",
+      "before": "알스님\n사쥬가 동행하고 있다 해도\n라군 상사 일행을 쫓으시려면――",
+      "after": "알스 님\n사쥬가 동행하고 있다 해도\n라군 상사 일행을 쫓으시려면――",
+      "category": "proper_noun",
+      "reason": "인물 이름과 존칭의 띄어쓰기를 기존 표기에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-09BDB0EE95990A7DEDC6",
+      "source_text": "お前はアデール様のために\nすべてのログレスを――",
+      "before": "넌 아델님을 위해\n모든 로그레스를――",
+      "after": "넌 아델 님을 위해\n모든 로그레스를――",
+      "category": "proper_noun",
+      "reason": "인물 이름과 존칭의 띄어쓰기를 기존 표기에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-11FDFCF94A69F6E4ECF4",
+      "source_text": "あ、そうだ。アルス、竜討伐の\n契約金だけどよ、医者のところに\nまとめて渡すように手配してくれ",
+      "before": "아, 맞다. 알스, 용 토벌\n계약금 말인데, 의사한테\n한꺼번에 전해 주도록 손써 줘",
+      "after": "아, 맞다. 알스, 용 토벌\n계약금 말인데, 의사에게\n한꺼번에 전해지도록 마련해 줘",
+      "category": "naturalness",
+      "reason": "손써 달라는 직역을 계약금 전달을 주선해 달라는 자연스러운 요청으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1625072203C8AC8A0BBA",
+      "source_text": "……アルス……\nモンスターの気配がするわ。\nそれも大群よ",
+      "before": "……알스……\n몬스터의 기척이 느껴져.\n그것도 대군이야",
+      "after": "……알스……\n몬스터의 기척이 느껴져.\n그것도 엄청난 무리야",
+      "category": "meaning",
+      "reason": "大群을 군대가 아니라 몬스터가 이룬 거대한 무리라는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1B268B590758CC81193C",
+      "source_text": "俺はマリアをエブルまで送ってくる",
+      "before": "나는 마리아를 에블까지 데려다주고 오겠다",
+      "after": "난 마리아를 에블까지 데려다주고 올게",
+      "category": "speaker_voice",
+      "reason": "라르크의 자연스러운 반말 의지 표현으로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-1D3B3BE3598345495AD1",
+      "source_text": "どういうことだ。話せ！",
+      "before": "무슨 말이야? 말해!",
+      "after": "무슨 뜻이지? 말해!",
+      "category": "speaker_voice",
+      "reason": "사정을 추궁하는 단정적이고 강한 반문 어조로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-2022320707957352472D",
+      "source_text": "ですが、アルス様。\nここから先は道がみっつに分かれておりますぞ",
+      "before": "하지만 알스님.\n이 앞부터는 길이 셋으로 나뉘어 있습니다",
+      "after": "하지만 알스 님.\n이 앞부터는 길이 셋으로 나뉘어 있습니다",
+      "category": "proper_noun",
+      "reason": "인물 이름과 존칭의 띄어쓰기를 기존 표기에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-22761492EC656AA642D8",
+      "source_text": "……じゃあ、俺様はオイゲンの組に\n入れてもらうぜ",
+      "before": "……그럼 나는 오이겐 조에\n넣어 달라고 하지",
+      "after": "……그럼 이 몸은 오이겐 조에\n넣어 달라고 하지",
+      "category": "speaker_voice",
+      "reason": "俺様를 사용하는 사쥬의 과장되고 능글맞은 자기 호칭을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-25DCED986BBD75B5C7F5",
+      "source_text": "あ、ああ！　今行く！",
+      "before": "으, 응! 지금 갈게!",
+      "after": "아, 알았어! 지금 갈게!",
+      "category": "function",
+      "reason": "부름에 당황해 응답하는 말더듬과 행동 의사를 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-26546200ABA0456F2F6C",
+      "source_text": "それが勇者道ってもんです",
+      "before": "그게 바로 용사의 길입니다",
+      "after": "그게 바로 용사도라는 겁니다",
+      "category": "terminology",
+      "reason": "勇者道를 승인된 시스템 용어인 용사도로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-2694D276A18B76376141",
+      "source_text": "でもアデール、ラルクは任務で\n命じられたから、それで――",
+      "before": "하지만 아델, 라르크는 임무로\n명령을 받았으니까, 그래서――",
+      "after": "하지만 아델, 라르크는 임무를\n명령받은 거야. 그래서――",
+      "category": "grammar",
+      "reason": "명령을 받은 대상과 변명의 인과 관계를 자연스럽게 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-3030048F0767814291F4",
+      "source_text": "伝言を預かりました",
+      "before": "전언을 맡았습니다",
+      "after": "전언을 받았습니다",
+      "category": "naturalness",
+      "reason": "메시지를 맡았다는 직역을 전달할 전언을 받았다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-3B78D48D166DC3A0C897",
+      "source_text": "そうだね。ごめん、アデール",
+      "before": "그러네. 미안해, 아델",
+      "after": "그래. 미안해, 아델",
+      "category": "function",
+      "reason": "앞선 말을 받아들이는 동의 표현을 자연스럽게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-3FCFEF69FB1EC4CFC574",
+      "source_text": "宿でオルキナ教の信者と間違われ\n宿泊を断られた上に\n兵士を呼ばれてしまったのです",
+      "before": "여관에서 오르키나교 신자로 오해받아\n숙박을 거절당한 데다\n병사까지 불려 왔습니다",
+      "after": "여관에서 오르키나교 신자로 오해받아\n숙박을 거절당한 데다\n여관 측에서 병사까지 불렀습니다",
+      "category": "meaning",
+      "reason": "화자가 불려 왔다는 뜻이 아니라 여관이 병사를 호출했다는 행위 관계로 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

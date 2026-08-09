@@ -1,0 +1,170 @@
+{
+  "schema": "arf-final-heuristic-warning-qa-application-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "reviewer": "/root/audit_boundary_integration",
+  "source_inventory": "work/scratch/heuristic_warning_inventory.json",
+  "source_inventory_sha256": "EDD8ECA5898D33060FCA102052D12B26A67C0DBC2E0BAC68FC68466DDA8DA343",
+  "original_warning_events": 148,
+  "warning_events_corrected": 7,
+  "warning_events_waived": 141,
+  "adjacent_contamination_corrections": 1,
+  "total_target_corrections": 8,
+  "all_original_warnings_classified_exactly_once": true,
+  "waiver_artifact": "work/translation/final_validation/heuristic_warning_waivers.json",
+  "waiver_artifact_sha256": "0BEBDFADE1C1AF8112760881466326C522F1B19851C80317DFC521550E2AC4D1",
+  "batches": {
+    "batch_0020": {
+      "corrected_units": 1,
+      "modified_against_draft": 55,
+      "reviewed_sha256": "E075082C7A57A8DA8BEA974940026447F4C2E2EACB8C09393ED384801034E681",
+      "review_report_sha256": "389FF1C2471C59140EC363A3AA702FC68390BB0C6259F831690C23F8A06D1AFC"
+    },
+    "batch_0024": {
+      "corrected_units": 1,
+      "modified_against_draft": 25,
+      "reviewed_sha256": "39A93C9DEEEC7F2FC0724C35B1885F17D95EF3040CA217BADA2DF24D9C1E6478",
+      "review_report_sha256": "8D404D670990D7858F3DD6925E9A42C927C92744D0089E456702B82291AD42A7"
+    },
+    "batch_0038": {
+      "corrected_units": 2,
+      "modified_against_draft": 52,
+      "reviewed_sha256": "153458A0AF6723B5A1A6F7EF8D08A86AD283B26FACE9DC4BB26C7DA1F0833450",
+      "review_report_sha256": "F26981D64095462C65B0055F78F043EF79B18AE1CBF1BCAD2D69BC55C439B626"
+    },
+    "batch_0040": {
+      "corrected_units": 1,
+      "modified_against_draft": 18,
+      "reviewed_sha256": "660A672DE6B8A97E5C9E7DD4A70FD1F11F0513BC5F9EC50F9DC362EE0D3497C8",
+      "review_report_sha256": "8F3313AC3910AC5F508350E8AB1F835F876539D50BD9B8F11E533C1E5D14F999"
+    },
+    "batch_0130": {
+      "corrected_units": 1,
+      "modified_against_draft": 30,
+      "reviewed_sha256": "E02A565FB005588D4EF2D22F31D57889531A13E6161EA3E0CC5C33C9E883E885",
+      "review_report_sha256": "731FFFD35783CA34AC1F70B51F2F0A86FD4ABCB00A6C049F91C8D98836F93CBB"
+    },
+    "batch_0146": {
+      "corrected_units": 1,
+      "modified_against_draft": 15,
+      "reviewed_sha256": "9DC0755B3A822B3DBFFEB5BA5F65FCA9923B5679FC0A41389B7B5420A41148DA",
+      "review_report_sha256": "1BCB8400A8C480C09E1F62F165F73FCEB240CED715564B2D68113CF79670EAEE"
+    },
+    "batch_0148": {
+      "corrected_units": 1,
+      "modified_against_draft": 10,
+      "reviewed_sha256": "440F6C0ECEEEE4C8EED7FBCF3B4551BCAE3F0853D419F7281058DC89360C1B26",
+      "review_report_sha256": "F36F882E14E7EA7D06E072F007F0DFB756338CBA0B1AD9BBEF5B6B7AF7DA44AC"
+    }
+  },
+  "corrections": [
+    {
+      "batch": "batch_0020",
+      "tm_id": "ARF-TM-E534E71AD7499543F0CE",
+      "warning_code": "line_break_count_changed",
+      "classification": "actual_layout_problem",
+      "before": "<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 불과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n슈팅 레이에서는\n추가 효과로 대상을\n<$13>14<$1F>00001E<$1F>01<$13>00 상태로\n만들기도 한다",
+      "after": "<$13>14<$1F>0000A5<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 불과 바람의 <$13>14<$1F>0000A2<$1F>01<$13>00\n피해를 준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n슈팅 레이에서는\n추가 효과로 대상을\n<$13>14<$1F>00001E<$1F>01<$13>00 상태로 만들기도 한다",
+      "reason": "The Korean target introduced a ninth help-text row where the source uses eight. Combining the final predicate restores the original row count without changing meaning or controls.",
+      "source_line_breaks": 7,
+      "before_line_breaks": 8,
+      "after_line_breaks": 7,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0024",
+      "tm_id": "ARF-TM-02092909CE7571121DB4",
+      "warning_code": "line_break_count_changed",
+      "classification": "actual_cross_unit_contamination",
+      "before": "그래.\n오이겐은 의외로\n대담하네",
+      "after": "코핀을 의심하시는 건가요?\n아니면 여행자분을요?",
+      "reason": "The reviewed target duplicated the following Oigen line and did not translate either question in this source unit.",
+      "source_line_breaks": 1,
+      "before_line_breaks": 2,
+      "after_line_breaks": 1,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0038",
+      "tm_id": "ARF-TM-D455D34DAAE2B196FF7A",
+      "warning_code": "line_break_count_changed",
+      "classification": "actual_cross_unit_contamination",
+      "before": "정말 눈이\n소리를 내는 건 아닌데\n그렇게 들린달까",
+      "after": "하지만……",
+      "reason": "An unrelated three-line explanation was assigned to the one-word adversative source.",
+      "source_line_breaks": 0,
+      "before_line_breaks": 2,
+      "after_line_breaks": 0,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0038",
+      "tm_id": "ARF-TM-D48976DB07E2A48C40A7",
+      "warning_code": null,
+      "classification": "adjacent_cross_unit_contamination",
+      "before": "형님, 뭔가 불만스러워 보임다",
+      "after": "우후후, 딱 맞잖아",
+      "reason": "Context inspection around a warning-bearing record exposed this adjacent target as unrelated speech from another character.",
+      "source_line_breaks": 0,
+      "before_line_breaks": 0,
+      "after_line_breaks": 0,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0040",
+      "tm_id": "ARF-TM-EB059BF132A1700CD1B3",
+      "warning_code": "line_break_count_changed",
+      "classification": "actual_cross_unit_contamination",
+      "before": "……뭐, 계속 고민하고 있을\n때가 아닌가.\n기운 차리고 가자",
+      "after": "아델도 할아버지에게\n가르침을 받고 있으니까",
+      "reason": "The reviewed target duplicated the immediately following unit rather than translating Adele's instruction from the old man.",
+      "source_line_breaks": 1,
+      "before_line_breaks": 2,
+      "after_line_breaks": 1,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0130",
+      "tm_id": "ARF-TM-D53C943A87FD81958325",
+      "warning_code": "line_break_count_changed",
+      "classification": "actual_source_omission",
+      "before": "『붉은 달』의 신께서\n엄청 화나셨어<$0C>...",
+      "after": "『붉은 달』의 신께서\n엄청 화나셨어<$0C>어젯밤, 결정이\n머리에 박히는 꿈을 꿨어.\n분명 나쁜 일의 전조야……",
+      "reason": "The second page had been replaced by three ASCII periods, omitting the dream and bad-omen meaning.",
+      "source_line_breaks": 3,
+      "before_line_breaks": 1,
+      "after_line_breaks": 3,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0146",
+      "tm_id": "ARF-TM-A9EFA9056E0F9AD1B271",
+      "warning_code": "line_break_count_changed",
+      "classification": "actual_cross_unit_contamination",
+      "before": "백월 주거 구역 T01로\n",
+      "after": "……엔주?",
+      "reason": "The target copied the following debug destination label instead of the established character name Enju.",
+      "source_line_breaks": 0,
+      "before_line_breaks": 1,
+      "after_line_breaks": 0,
+      "control_tokens_verified": true
+    },
+    {
+      "batch": "batch_0148",
+      "tm_id": "ARF-TM-75CB7CF351BFAF4E91F9",
+      "warning_code": "japanese_remaining",
+      "classification": "actual_punctuation_problem",
+      "before": "그런가・・・.",
+      "after": "그런가……",
+      "reason": "Three Japanese middle dots were being used as an ellipsis and were followed by a redundant period; a Korean ellipsis is the intended mark.",
+      "source_line_breaks": 0,
+      "before_line_breaks": 0,
+      "after_line_breaks": 0,
+      "control_tokens_verified": true
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

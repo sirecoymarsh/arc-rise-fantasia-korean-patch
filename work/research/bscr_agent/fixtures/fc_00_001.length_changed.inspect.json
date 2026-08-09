@@ -1,0 +1,545 @@
+{
+  "schema": "arf-bscr-inspect-v1",
+  "sha256": "2fb5d3ed3044e2c258e38c652d1a7145caafb78d808e793fdab8f7df52e3d54e",
+  "length": 4032,
+  "header": {
+    "magic": "bscr",
+    "variant_tag": 172,
+    "file_name": "fc_00_001.bscr",
+    "file_size": 4032,
+    "descriptor_count": 4,
+    "descriptor_start": 64,
+    "string_count": 32,
+    "pool_start": 256,
+    "bytecode_size": 3088,
+    "bytecode_start": 944
+  },
+  "pool_padding_hex": "000000",
+  "descriptors": [
+    {
+      "index": 0,
+      "offset": 64,
+      "size": 52,
+      "type_code": 224,
+      "name": "FC_END"
+    },
+    {
+      "index": 1,
+      "offset": 116,
+      "size": 52,
+      "type_code": 224,
+      "name": "SET_SE_FC"
+    },
+    {
+      "index": 2,
+      "offset": 168,
+      "size": 44,
+      "type_code": 224,
+      "name": "DELETE_SE_FC"
+    },
+    {
+      "index": 3,
+      "offset": 212,
+      "size": 44,
+      "type_code": 234,
+      "name": "FC_EPISODE_00_001"
+    }
+  ],
+  "strings": [
+    {
+      "index": 0,
+      "relative_offset": 0,
+      "absolute_offset": 256,
+      "byte_length": 16,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "c_rank/FC_SE.vol",
+      "controls": []
+    },
+    {
+      "index": 1,
+      "relative_offset": 17,
+      "absolute_offset": 273,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_00",
+      "controls": []
+    },
+    {
+      "index": 2,
+      "relative_offset": 43,
+      "absolute_offset": 299,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001900",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "00",
+          "raw_hex": "193030",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "relative_offset": 47,
+      "absolute_offset": 303,
+      "byte_length": 32,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "おい、本当にこれで過ごすのか？!!",
+      "controls": []
+    },
+    {
+      "index": 4,
+      "relative_offset": 80,
+      "absolute_offset": 336,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_01",
+      "controls": []
+    },
+    {
+      "index": 5,
+      "relative_offset": 106,
+      "absolute_offset": 362,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001902",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "02",
+          "raw_hex": "193032",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "relative_offset": 110,
+      "absolute_offset": 366,
+      "byte_length": 32,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "巡礼者のフリしてた方がいいだろ？",
+      "controls": []
+    },
+    {
+      "index": 7,
+      "relative_offset": 143,
+      "absolute_offset": 399,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_02",
+      "controls": []
+    },
+    {
+      "index": 8,
+      "relative_offset": 169,
+      "absolute_offset": 425,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001908",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "08",
+          "raw_hex": "193038",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "relative_offset": 173,
+      "absolute_offset": 429,
+      "byte_length": 49,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "リフィアちゃん、アデールちゃん\n似合ってるっスよ！",
+      "controls": [
+        {
+          "offset": 30,
+          "kind": "line_break",
+          "raw_hex": "0a"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "relative_offset": 223,
+      "absolute_offset": 479,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_03",
+      "controls": []
+    },
+    {
+      "index": 11,
+      "relative_offset": 249,
+      "absolute_offset": 505,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001907",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "07",
+          "raw_hex": "193037",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "relative_offset": 253,
+      "absolute_offset": 509,
+      "byte_length": 37,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "そうかな……\nでも、素敵よね、この衣装",
+      "controls": [
+        {
+          "offset": 12,
+          "kind": "line_break",
+          "raw_hex": "0a"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "relative_offset": 291,
+      "absolute_offset": 547,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_04",
+      "controls": []
+    },
+    {
+      "index": 14,
+      "relative_offset": 317,
+      "absolute_offset": 573,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001901",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "01",
+          "raw_hex": "193031",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "relative_offset": 321,
+      "absolute_offset": 577,
+      "byte_length": 39,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "どうしてニコルは\n服をきちんと着ないの？",
+      "controls": [
+        {
+          "offset": 16,
+          "kind": "line_break",
+          "raw_hex": "0a"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "relative_offset": 361,
+      "absolute_offset": 617,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_05",
+      "controls": []
+    },
+    {
+      "index": 17,
+      "relative_offset": 387,
+      "absolute_offset": 643,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001906",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "06",
+          "raw_hex": "193036",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "relative_offset": 391,
+      "absolute_offset": 647,
+      "byte_length": 30,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "うん……ちょっとだらしないかな",
+      "controls": []
+    },
+    {
+      "index": 19,
+      "relative_offset": 422,
+      "absolute_offset": 678,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_06",
+      "controls": []
+    },
+    {
+      "index": 20,
+      "relative_offset": 448,
+      "absolute_offset": 704,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001908",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "08",
+          "raw_hex": "193038",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "relative_offset": 452,
+      "absolute_offset": 708,
+      "byte_length": 20,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "えー！　マジっスか!?",
+      "controls": []
+    },
+    {
+      "index": 22,
+      "relative_offset": 473,
+      "absolute_offset": 729,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_07",
+      "controls": []
+    },
+    {
+      "index": 23,
+      "relative_offset": 499,
+      "absolute_offset": 755,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001906",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "06",
+          "raw_hex": "193036",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "relative_offset": 503,
+      "absolute_offset": 759,
+      "byte_length": 26,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "それだけ着くずしているとね",
+      "controls": []
+    },
+    {
+      "index": 25,
+      "relative_offset": 530,
+      "absolute_offset": 786,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_08",
+      "controls": []
+    },
+    {
+      "index": 26,
+      "relative_offset": 556,
+      "absolute_offset": 812,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001908",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "08",
+          "raw_hex": "193038",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "relative_offset": 560,
+      "absolute_offset": 816,
+      "byte_length": 45,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "そうっスかねえ……\nこれが俺の味わいなんスけど",
+      "controls": [
+        {
+          "offset": 18,
+          "kind": "line_break",
+          "raw_hex": "0a"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "relative_offset": 606,
+      "absolute_offset": 862,
+      "byte_length": 25,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC00/001C/FC00_01_001C_09",
+      "controls": []
+    },
+    {
+      "index": 29,
+      "relative_offset": 632,
+      "absolute_offset": 888,
+      "byte_length": 3,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "\u001900",
+      "controls": [
+        {
+          "offset": 0,
+          "kind": "speaker_slot",
+          "payload_ascii": "00",
+          "raw_hex": "193030",
+          "well_formed": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "relative_offset": 636,
+      "absolute_offset": 892,
+      "byte_length": 41,
+      "roles": [
+        "literal"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "もういいから\n目立たないよう大人しくしてろ",
+      "controls": [
+        {
+          "offset": 12,
+          "kind": "line_break",
+          "raw_hex": "0a"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "relative_offset": 678,
+      "absolute_offset": 934,
+      "byte_length": 6,
+      "roles": [
+        "call_target"
+      ],
+      "reference_count": 1,
+      "decoded_euc_jp": "FC_END",
+      "controls": []
+    }
+  ],
+  "choice_sites": []
+}

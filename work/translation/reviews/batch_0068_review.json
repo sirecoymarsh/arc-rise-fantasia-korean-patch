@@ -1,0 +1,279 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0068",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0068.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0068.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0068.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 27,
+  "unchanged_row_count": 173,
+  "modifications": [
+    {
+      "row_index": 0,
+      "tm_id": "ARF-TM-CCC3F5073A1E19D90C55",
+      "source_text": "頼むわね。\nこれが司令部からの書状よ",
+      "before": "부탁해.\n이게 사령부의 서장이야",
+      "after": "부탁해.\n이게 사령부에서 온 서신이야",
+      "category": "terminology",
+      "reason": "書状을 문맥에 맞는 '서신'으로 옮기고 출처 관계를 분명히 했다."
+    },
+    {
+      "row_index": 10,
+      "tm_id": "ARF-TM-CDC95413BFB0DDAE6D38",
+      "source_text": "そうすればお前には\nアルス皇子の監視役を頼める",
+      "before": "그러면 네게는\n알스 황자의 감시역을 맡길 수 있어",
+      "after": "그러면 네게\n알스 황자의 감시역을 맡길 수 있다",
+      "category": "register",
+      "reason": "군 상관의 단정적인 말투를 유지했다."
+    },
+    {
+      "row_index": 17,
+      "tm_id": "ARF-TM-CE6B6C8876DC41B31558",
+      "source_text": "俺たちにとっては\n大げさじゃないっつーの。\nどうやって造ったんだ。こんなの？",
+      "before": "우리에게는\n과장이 아니라니까.\n어떻게 만든 거야, 이런 걸?",
+      "after": "우리한텐\n과장이 아니라니까.\n이런 걸 어떻게 만든 거야?",
+      "category": "naturalness",
+      "reason": "강조와 의문문의 한국어 어순을 다듬었다."
+    },
+    {
+      "row_index": 21,
+      "tm_id": "ARF-TM-CF4A9EBF654F7BA929B6",
+      "source_text": "この間からてんで上の空だろうが",
+      "before": "전부터 계속 넋이 나가 있잖아",
+      "after": "아까부터 완전히 딴생각만\n하고 있잖아",
+      "category": "semantic_accuracy",
+      "reason": "上の空의 의미를 자연스러운 관용 표현으로 옮겼다."
+    },
+    {
+      "row_index": 31,
+      "tm_id": "ARF-TM-D070D6FC468DC6DAAA38",
+      "source_text": "最後にお会いしたのは１８年前\n当時はまだ大佐で\nいらっしゃいましたね",
+      "before": "마지막으로 뵌 건 １８년 전.\n당시엔 아직 대령\n이셨지요",
+      "after": "마지막으로 뵌 건 １８년 전.\n당시에는 아직 대령이셨지요",
+      "category": "naturalness",
+      "reason": "부자연스러운 줄바꿈과 서술어 결합을 정리했다."
+    },
+    {
+      "row_index": 45,
+      "tm_id": "ARF-TM-D279C9D99F60946B9656",
+      "source_text": "僕は父さんに\n目覚めさせられたんだ。\nラフィル様を殺す為にね",
+      "before": "난 아버지가\n깨웠어.\n라필 님을 죽이려고 말이야",
+      "after": "난 아버지에 의해\n깨어난 거야.\n라필 님을 죽이기 위해서 말이야",
+      "category": "semantic_accuracy",
+      "reason": "수동 관계와 각성 목적을 명확히 했다."
+    },
+    {
+      "row_index": 57,
+      "tm_id": "ARF-TM-D3F5135CFC060D1E605E",
+      "source_text": "班員の選抜は\nラグーン曹長に一任する",
+      "before": "조원 선발은\n라군 하사에게 일임한다",
+      "after": "조원 선발은\n라군 상사에게 일임한다",
+      "category": "terminology",
+      "reason": "曹長의 확정 계급 표기 '상사'를 적용했다."
+    },
+    {
+      "row_index": 65,
+      "tm_id": "ARF-TM-D52F61767AF5C15E3CC0",
+      "source_text": "どういうこと……\nそんなことしたら\n神種は死んじゃうのに",
+      "before": "무슨 뜻이야……\n그러면\n신종은 죽어 버리는데",
+      "after": "무슨 뜻이야……\n그렇게 하면\n신종은 죽어 버리는데",
+      "category": "naturalness",
+      "reason": "조건 관계가 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "row_index": 68,
+      "tm_id": "ARF-TM-D5E4BD0214A687AF68B4",
+      "source_text": "世界に蔓延する前に\n徹底的に滅ぼさねばならぬ",
+      "before": "세계에 만연하기 전에\n철저히 멸망시켜야 한다",
+      "after": "세계에 퍼지기 전에\n철저히 박멸해야 한다",
+      "category": "semantic_accuracy",
+      "reason": "대상을 제거한다는 滅ぼす의 의미를 '박멸'로 정확히 표현했다."
+    },
+    {
+      "row_index": 72,
+      "tm_id": "ARF-TM-D6A5AB7418E48D135FAC",
+      "source_text": "でも……やっぱ……さ。\n突然別れると……",
+      "before": "하지만…… 역시…… 말이야.\n갑자기 헤어지려니……",
+      "after": "하지만…… 역시…… 말이야.\n갑자기 헤어지려니까……",
+      "category": "naturalness",
+      "reason": "중단된 구어체의 호흡을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 74,
+      "tm_id": "ARF-TM-D6E9F24960C5D300C8CB",
+      "source_text": "もっとも全員がリフィアの中に\n入るんじゃ、意識を失った体を\n襲われる危険があるけどな",
+      "before": "하지만 전원이 리피아 안에\n들어가면 의식을 잃은 몸이\n습격당할 위험이 있어",
+      "after": "하지만 전원이 리피아 안으로\n들어가면 의식을 잃은 몸이\n습격당할 위험이 있어",
+      "category": "semantic_accuracy",
+      "reason": "이동 방향과 위험의 대상을 명확히 했다."
+    },
+    {
+      "row_index": 82,
+      "tm_id": "ARF-TM-D91118387D41D5A5EEF6",
+      "source_text": "ええ……アブシムは\nアルスに奪われてしまったから",
+      "before": "그래…… 아브심은\n알스에게 빼앗겼으니까",
+      "after": "그래…… 아부심은\n알스에게 빼앗겼으니까",
+      "category": "terminology",
+      "reason": "アブシム의 확정 표기 '아부심'을 적용했다."
+    },
+    {
+      "row_index": 84,
+      "tm_id": "ARF-TM-D930F496E42FDD0EA2AA",
+      "source_text": "でも私たちの思惑とは関係なく\nアルスはリアルの定理を導くために\nログレスを手に入れようとしているわ",
+      "before": "하지만 우리 생각과 상관없이\n알스는 리얼의 섭리를 이끌려고\n로그레스를 손에 넣으려 해",
+      "after": "하지만 우리 의도와 상관없이\n알스는 리얼의 섭리를 도출하려고\n로그레스를 손에 넣으려 해",
+      "category": "semantic_accuracy",
+      "reason": "導く를 설정 문맥의 '도출하다'로 바로잡았다."
+    },
+    {
+      "row_index": 103,
+      "tm_id": "ARF-TM-DCB64671DA7707B16938",
+      "source_text": "お前らがすんなり俺を\n盗賊と勘違いしてくれて助かったわ",
+      "before": "너희가 순순히 날\n도적으로 착각해 줘서 살았어",
+      "after": "너희가 순순히 날\n도적으로 착각해 줘서 다행이었어",
+      "category": "naturalness",
+      "reason": "助かった의 안도 뉘앙스를 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 110,
+      "tm_id": "ARF-TM-DD1D38E5C022E5543D22",
+      "source_text": "この先が\nあの塔みたいな神殿か……<$0C>あのバカが目立っちまった\nばっかりだしな<$0C>信心深いオルキナ教の連中が\n多そうな場所は避けておいた方が\nよさそうだぜ<$0C>街中で情報を集めるとしますか",
+      "before": "이 앞이\n저 탑 같은 신전인가……<$0C>저 바보가 눈에 띄어\n버렸으니까<$0C>독실한 오르키나교 사람들이\n많아 보이는 곳은 피해 두는 게\n좋겠어<$0C>도시에서 정보를 모아 볼까",
+      "after": "이 앞이\n저 탑 같은 신전인가……<$0C>저 바보가 눈에 띄어 버린\n탓도 있으니까<$0C>독실한 오르키나교 사람들이\n많아 보이는 곳은 피해 두는 게\n좋겠어<$0C>도시에서 정보를 모아 볼까",
+      "category": "naturalness",
+      "reason": "제어 코드를 유지하면서 인과 표현과 줄 호흡을 다듬었다."
+    },
+    {
+      "row_index": 118,
+      "tm_id": "ARF-TM-DEB03557DBBB8F8402F4",
+      "source_text": "あの頃はまだ１４、５の\n若造でしたから",
+      "before": "그때는 아직 １４, ５살의\n애송이였으니까요",
+      "after": "그때는 아직 １４, ５살짜리\n애송이였으니까요",
+      "category": "naturalness",
+      "reason": "나이를 나타내는 수치와 구어체를 자연스럽게 결합했다."
+    },
+    {
+      "row_index": 125,
+      "tm_id": "ARF-TM-DF31B0E2EC8C7EA26EA1",
+      "source_text": "おやおや。元アルコーン隊の\n拷問が得意なレディじゃ\nありませんか",
+      "before": "이런, 이런. 전 알콘대의\n고문이 특기인 숙녀분\n아닙니까",
+      "after": "이런, 이런. 전 알콘대 소속의\n고문이 특기인 숙녀분\n아닙니까",
+      "category": "naturalness",
+      "reason": "수식 관계를 명확히 했다."
+    },
+    {
+      "row_index": 131,
+      "tm_id": "ARF-TM-E0255EB8574A50AE5BD7",
+      "source_text": "嘘……もしかしてあたし\nちょっと意識されてた？",
+      "before": "설마…… 나\n조금은 의식되고 있었어?",
+      "after": "설마…… 나한테\n조금은 마음이 있었던 거야?",
+      "category": "semantic_accuracy",
+      "reason": "意識されてた의 연애 감정 뉘앙스를 반영했다."
+    },
+    {
+      "row_index": 133,
+      "tm_id": "ARF-TM-E081E42D86236BFCECEF",
+      "source_text": "ええ。だからそうなる前に\nカルブンクルスから\n救援部隊を呼ぶの",
+      "before": "그래. 그러니 그렇게 되기 전에\n카르분클루스에서\n구원 부대를 부르는 거야",
+      "after": "그래. 그러니 그렇게 되기 전에\n카르분클루스에서\n지원 부대를 부르는 거야",
+      "category": "terminology",
+      "reason": "救援部隊를 군사 문맥의 '지원 부대'로 통일했다."
+    },
+    {
+      "row_index": 137,
+      "tm_id": "ARF-TM-E0E08DFE45BEDD2C54E3",
+      "source_text": "お〜や〜？\nアルス陛下じゃありませんか",
+      "before": "이런〜?\n알스 폐하 아니십니까",
+      "after": "어~라~?\n알스 폐하 아니십니까",
+      "category": "register",
+      "reason": "늘여 말하는 도발적 호칭의 어조를 살렸다."
+    },
+    {
+      "row_index": 151,
+      "tm_id": "ARF-TM-E2ACF372A6298B68D8DD",
+      "source_text": "ここではコードの解析と変換の\n実験が行われていたようだ",
+      "before": "여기서는 코드의 분석과 변환\n실험이 진행됐던 모양이야",
+      "after": "여기서는 코드 해석과 변환\n실험이 진행됐던 모양이야",
+      "category": "naturalness",
+      "reason": "명사구의 중복 조사를 제거했다."
+    },
+    {
+      "row_index": 153,
+      "tm_id": "ARF-TM-E30E647D3226C5FD1183",
+      "source_text": "リフィアにイーサの子とか言われても\n訳がわからないから、言う通りに\nしておけばいいだろうって……",
+      "before": "리피아가 이사의 아이라 해도\n무슨 소린지 모르니 말하는 대로\n하면 되겠지 하고……",
+      "after": "리피아가 이사의 아이라는 말을 들어도\n무슨 소린지 모르니, 시키는 대로\n하면 되겠지 하고……",
+      "category": "semantic_accuracy",
+      "reason": "발언을 들은 주체와 이어지는 판단을 분명히 했다."
+    },
+    {
+      "row_index": 166,
+      "tm_id": "ARF-TM-E509D98639F149613DB6",
+      "source_text": "そんな顔しないの。\n誘惑しちゃうわよ<$15>00",
+      "before": "그런 표정 짓지 마.\n유혹해 버린다<$15>00",
+      "after": "그런 표정 짓지 마.\n유혹해 버릴 거야<$15>00",
+      "category": "register",
+      "reason": "장난스러운 경고의 미래 뉘앙스를 살렸다."
+    },
+    {
+      "row_index": 168,
+      "tm_id": "ARF-TM-E571BE9E4460A1200CAA",
+      "source_text": "はい……みんなのことも\nオイゲンさんのことも\n信頼しています",
+      "before": "네…… 모두도\n오이겐 씨도\n믿고 있어요",
+      "after": "네…… 모두와\n오이겐 씨를\n믿고 있어요",
+      "category": "naturalness",
+      "reason": "신뢰 대상에 맞도록 조사를 바로잡았다."
+    },
+    {
+      "row_index": 172,
+      "tm_id": "ARF-TM-E62E3988F9ECDBDD2B53",
+      "source_text": "そうね。レジスタンスの\nニューリーダー♪としても",
+      "before": "그래. 레지스탕스의\n새 리더♪로서도",
+      "after": "그래. 저항군의\n새 지도자♪로서도",
+      "category": "terminology",
+      "reason": "조직명과 직책을 확정 용어로 통일했다."
+    },
+    {
+      "row_index": 173,
+      "tm_id": "ARF-TM-E64C1F12B2CF6568B5D2",
+      "source_text": "２人の差し出す定理を選ぶことで\n滅びの歌を滅し、混沌から\n楽園ノワーレを生み出した",
+      "before": "２명이 내미는 섭리를 선택함으로써\n멸망의 노래를 없애고 혼돈에서\n낙원 노와레를 만들어 냈다",
+      "after": "２명이 제시하는 섭리를 선택해\n멸망의 노래를 없애고 혼돈에서\n낙원 노와레를 만들어 냈다",
+      "category": "naturalness",
+      "reason": "불필요한 번역투를 줄이고 문장 연결을 다듬었다."
+    },
+    {
+      "row_index": 187,
+      "tm_id": "ARF-TM-E7F3E61E0B315E8E72D2",
+      "source_text": "そうなの？　私は……\n不思議と懐かしい感じがするわ",
+      "before": "그래? 난……\n왠지 모르게 그리운 느낌이 들어",
+      "after": "그래? 난……\n이상하게도 그리운 느낌이 들어",
+      "category": "naturalness",
+      "reason": "不思議と의 부사적 뉘앙스를 자연스럽게 반영했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

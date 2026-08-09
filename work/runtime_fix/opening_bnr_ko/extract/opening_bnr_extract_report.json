@@ -1,0 +1,367 @@
+{
+  "schema": "arf-ko-opening-bnr-extract-v1",
+  "source": "work\\disc_extracted\\DATA\\files\\opening.bnr",
+  "source_size": 505696,
+  "source_sha256": "24EFADD02D6E3C489189F6F1DD6DFDB29D8C961E60A0B12ED03FF16CD101CD64",
+  "imet_names": [
+    "ARC RISE FANTASIA",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "outer_files": [
+    {
+      "index": 1,
+      "type": 1,
+      "name": "meta",
+      "word1": 0,
+      "word2": 5,
+      "path": "meta",
+      "kind": "directory"
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "name": "banner.bin",
+      "word1": 128,
+      "word2": 233856,
+      "path": "meta/banner.bin",
+      "kind": "file",
+      "size": 233856,
+      "sha256": "69630BBCA35F1943BAD9F586ED23BDAA5742153D079965510F1FF01ED161CC85",
+      "head16": "494D4435000391600000000000000000"
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "name": "icon.bin",
+      "word1": 233984,
+      "word2": 11912,
+      "path": "meta/icon.bin",
+      "kind": "file",
+      "size": 11912,
+      "sha256": "2C0A745B59F8804720196BAB74BECD941E232049CA2A281D18DA3956CFC06F4B",
+      "head16": "494D443500002E680000000000000000"
+    },
+    {
+      "index": 4,
+      "type": 0,
+      "name": "sound.bin",
+      "word1": 245920,
+      "word2": 258240,
+      "path": "meta/sound.bin",
+      "kind": "file",
+      "size": 258240,
+      "sha256": "778866463BB1B9CAB04B915DEBAC98097C8E2759869307C55DF0B40A2177368B",
+      "head16": "494D44350003F0A00000000000000000"
+    }
+  ],
+  "nested": {
+    "meta/banner.bin": {
+      "imd5": {
+        "declared_payload_size": 233824,
+        "actual_payload_size": 233824,
+        "md5": "AF388419CA725B54FE4853FDBBECFB29",
+        "md5_valid": true
+      },
+      "lz77_decompressed_size": 483584,
+      "lz77_decompressed_sha256": "DFF4D0FA8784E87DD8BA9F3DCB39949ABA679943D438D51BA6ED55714A9D0894",
+      "files": [
+        {
+          "index": 1,
+          "type": 1,
+          "name": "arc",
+          "word1": 0,
+          "word2": 17,
+          "path": "arc",
+          "kind": "directory"
+        },
+        {
+          "index": 2,
+          "type": 1,
+          "name": "anim",
+          "word1": 1,
+          "word2": 5,
+          "path": "arc/anim",
+          "kind": "directory"
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "name": "banner_loop.brlan",
+          "word1": 448,
+          "word2": 4604,
+          "path": "arc/anim/banner_loop.brlan",
+          "kind": "file",
+          "size": 4604,
+          "sha256": "698C81C2FD95DED56B6A0E8FCCE95F39441A9DCC113398C6F5C32B26DFC6A96E",
+          "head16": "524C414EFEFF0008000011FC00100001"
+        },
+        {
+          "index": 4,
+          "type": 0,
+          "name": "banner_start.brlan",
+          "word1": 5056,
+          "word2": 5124,
+          "path": "arc/anim/banner_start.brlan",
+          "kind": "file",
+          "size": 5124,
+          "sha256": "E224FD8A57C022DCAF2F18415A8E4FEB151CA5ADC7347240EA04C6A90088813F",
+          "head16": "524C414EFEFF00080000140400100001"
+        },
+        {
+          "index": 5,
+          "type": 1,
+          "name": "blyt",
+          "word1": 1,
+          "word2": 7,
+          "path": "arc/blyt",
+          "kind": "directory"
+        },
+        {
+          "index": 6,
+          "type": 0,
+          "name": "banner.brlyt",
+          "word1": 10208,
+          "word2": 7328,
+          "path": "arc/blyt/banner.brlyt",
+          "kind": "file",
+          "size": 7328,
+          "sha256": "D37667233545BEBA66C130B8FCC43726C92C3119F8463AA6965DCAC81A1376FD",
+          "head16": "524C5954FEFF000800001CA000100031"
+        },
+        {
+          "index": 7,
+          "type": 1,
+          "name": "timg",
+          "word1": 1,
+          "word2": 17,
+          "path": "arc/timg",
+          "kind": "directory"
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "name": "cloud_001.tpl",
+          "word1": 17536,
+          "word2": 57664,
+          "path": "arc/timg/cloud_001.tpl",
+          "kind": "file",
+          "size": 57664,
+          "sha256": "E2EF4FFF094960641B6EFCDFACB9A260A7C356D821442F41F32B3A1B272D5B47",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "name": "cloud_010.tpl",
+          "word1": 75200,
+          "word2": 41024,
+          "path": "arc/timg/cloud_010.tpl",
+          "kind": "file",
+          "size": 41024,
+          "sha256": "ED8B716E08D69EE98903D37CA38D5F40D98184CA8EE329D4C6B4E09FE6A4F43D",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 10,
+          "type": 0,
+          "name": "cloud_999.tpl",
+          "word1": 116224,
+          "word2": 16448,
+          "path": "arc/timg/cloud_999.tpl",
+          "kind": "file",
+          "size": 16448,
+          "sha256": "7E263E2BB732022264937C146E7586C424C26B5B6215B7DF0C1656822A31DC56",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 11,
+          "type": 0,
+          "name": "mmvrogo.tpl",
+          "word1": 132672,
+          "word2": 11968,
+          "path": "arc/timg/mmvrogo.tpl",
+          "kind": "file",
+          "size": 11968,
+          "sha256": "A8E6B1B0622263A0C075087B59D90F0A3E33CBD36EB7E83BE42FADF75C5322C2",
+          "head16": "0020AF30000000010000000C00000080"
+        },
+        {
+          "index": 12,
+          "type": 0,
+          "name": "sora.tpl",
+          "word1": 144640,
+          "word2": 32832,
+          "path": "arc/timg/sora.tpl",
+          "kind": "file",
+          "size": 32832,
+          "sha256": "2614673438B755EB87F86676141EDD4E5D581DDACE2F9E5B765DC09A25CC13DB",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 13,
+          "type": 0,
+          "name": "title_base.tpl",
+          "word1": 177472,
+          "word2": 136064,
+          "path": "arc/timg/title_base.tpl",
+          "kind": "file",
+          "size": 136064,
+          "sha256": "1C28D0C269087A253AF8B250DE50FA7AEC0CEE6DAB9C1CEFD1F16FF88445493C",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 14,
+          "type": 0,
+          "name": "title_effect.tpl",
+          "word1": 313536,
+          "word2": 102464,
+          "path": "arc/timg/title_effect.tpl",
+          "kind": "file",
+          "size": 102464,
+          "sha256": "547E915D9F6FB473A97F2964967DD722D77EBB338A6E8DBD0DA8A0D7F7415287",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 15,
+          "type": 0,
+          "name": "title_effect02.tpl",
+          "word1": 416000,
+          "word2": 65600,
+          "path": "arc/timg/title_effect02.tpl",
+          "kind": "file",
+          "size": 65600,
+          "sha256": "93D0AFC17681814C61BD7E1D774BE4CED67839D8D889B3ACFE43E9CAD96EFBCD",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 16,
+          "type": 0,
+          "name": "white.tpl",
+          "word1": 481600,
+          "word2": 1984,
+          "path": "arc/timg/white.tpl",
+          "kind": "file",
+          "size": 1984,
+          "sha256": "F42D5A6DC3612712BF31EC47FA269C5A3705857313B99ED7BA705475A4EDFAD6",
+          "head16": "0020AF30000000010000000C00000014"
+        }
+      ]
+    },
+    "meta/icon.bin": {
+      "imd5": {
+        "declared_payload_size": 11880,
+        "actual_payload_size": 11880,
+        "md5": "47B11B2F61CE640F67A53728BA35EC10",
+        "md5_valid": true
+      },
+      "lz77_decompressed_size": 18880,
+      "lz77_decompressed_sha256": "4B3474F7F4BF14D682FD62322B2E75A6B493ABE899E3BEC4584414EFCC56684D",
+      "files": [
+        {
+          "index": 1,
+          "type": 1,
+          "name": "arc",
+          "word1": 0,
+          "word2": 10,
+          "path": "arc",
+          "kind": "directory"
+        },
+        {
+          "index": 2,
+          "type": 1,
+          "name": "anim",
+          "word1": 1,
+          "word2": 4,
+          "path": "arc/anim",
+          "kind": "directory"
+        },
+        {
+          "index": 3,
+          "type": 0,
+          "name": "icon.brlan",
+          "word1": 224,
+          "word2": 324,
+          "path": "arc/anim/icon.brlan",
+          "kind": "file",
+          "size": 324,
+          "sha256": "6E0627A8B2D13AEC03FF51DC0605183C05C776E730208C281EB8F0E2C559DEE6",
+          "head16": "524C414EFEFF00080000014400100001"
+        },
+        {
+          "index": 4,
+          "type": 1,
+          "name": "blyt",
+          "word1": 1,
+          "word2": 6,
+          "path": "arc/blyt",
+          "kind": "directory"
+        },
+        {
+          "index": 5,
+          "type": 0,
+          "name": "icon.brlyt",
+          "word1": 576,
+          "word2": 2504,
+          "path": "arc/blyt/icon.brlyt",
+          "kind": "file",
+          "size": 2504,
+          "sha256": "35A83D69E5B59184D2A96C26E620104AB2ED28BD96102EC32D3DCCD66F9D1ADC",
+          "head16": "524C5954FEFF0008000009C800100015"
+        },
+        {
+          "index": 6,
+          "type": 1,
+          "name": "timg",
+          "word1": 1,
+          "word2": 10,
+          "path": "arc/timg",
+          "kind": "directory"
+        },
+        {
+          "index": 7,
+          "type": 0,
+          "name": "bg.tpl",
+          "word1": 3104,
+          "word2": 8512,
+          "path": "arc/timg/bg.tpl",
+          "kind": "file",
+          "size": 8512,
+          "sha256": "9365A7079B95ABD8974A2AF6C99A602DDFD61926FE76A860F23A3564E62DC0C4",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 8,
+          "type": 0,
+          "name": "cloud.tpl",
+          "word1": 11616,
+          "word2": 2880,
+          "path": "arc/timg/cloud.tpl",
+          "kind": "file",
+          "size": 2880,
+          "sha256": "E1E6CB67561B9DB3C037734EC49FF2DEFB991ADE87F50102CAAA71B55D51FFB9",
+          "head16": "0020AF30000000010000000C00000014"
+        },
+        {
+          "index": 9,
+          "type": 0,
+          "name": "title.tpl",
+          "word1": 14496,
+          "word2": 4384,
+          "path": "arc/timg/title.tpl",
+          "kind": "file",
+          "size": 4384,
+          "sha256": "55A1C2389E661D77811D1FA07AFCB57E1CDEDC05F759C286FF0206D53711E530",
+          "head16": "0020AF30000000010000000C00000014"
+        }
+      ]
+    }
+  }
+}

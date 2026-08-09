@@ -1,0 +1,312 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0054",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0054.jsonl",
+  "draft": "work/translation/drafts/batch_0054.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0054.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 34,
+  "unchanged_units": 166,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-7CB268EB0F3C64BE826E",
+      "source_text": "医療費の免除の他\n毎月１０万リコの援助金を\n支払うことになる",
+      "before": "의료비 면제 외에\n매달 １０만 리코의 지원금을\n지급하게 된다",
+      "after": "의료비 면제 외에\n매달 １０만 리코를 지원금으로\n지급하게 된다",
+      "category": "naturalness",
+      "reason": "지원금에 불필요하게 붙은 관형격 조사를 자연스러운 보어 구조로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7E4F53DD78C60BE6D838",
+      "source_text": "やるって言うなら\nたたきのめしてやるっ！",
+      "before": "하겠다면\n때려눕혀 주겠어!",
+      "after": "싸우겠다면\n때려눕혀 주겠어!",
+      "category": "meaning",
+      "reason": "やる를 막연히 무언가를 한다는 뜻이 아니라 싸우겠다는 도전으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-846A5518878695942FDE",
+      "source_text": "……あ、ありがとう。でも大丈夫。\n私のコードにエルザさんのコードが\n侵食してきたみたいだわ……",
+      "before": "……아, 고마워. 하지만 괜찮아.\n내 코드에 엘자 씨의 코드가\n침식해 온 모양이야……",
+      "after": "……아, 고마워. 하지만 괜찮아.\n내 코드로 엘자 씨의 코드가\n침식해 들어온 것 같아……",
+      "category": "grammar",
+      "reason": "침식의 방향과 진행 상황이 자연스럽게 드러나도록 조사와 서술어를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-862CAFFA31D3A84BEF15",
+      "source_text": "くっ、リフィアを入れても３人じゃ\nちょっと厳しいか……！",
+      "before": "크윽, 리피아를 넣어도 ３명이면\n조금 벅찬가……!",
+      "after": "크윽, 리피아까지 ３명이면\n조금 벅찬가……!",
+      "category": "naturalness",
+      "reason": "파티 인원을 세는 상황에서 넣어도라는 기계적인 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8B8AFAB294E08E27BB20",
+      "source_text": "よかった。\n苦しんでいる人を救えて……",
+      "before": "다행이야.\n고통받는 사람을 구해서……",
+      "after": "다행이야.\n고통받는 사람을 구할 수 있어서……",
+      "category": "meaning",
+      "reason": "구조에 성공해 다행이라는 가능·성취의 의미를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-8E41F08CE55D5494D24E",
+      "source_text": "だが、皇帝陛下が生きておいでなら\n使者との謁見ぐらいは\nお許し下さる筈だ",
+      "before": "하지만 황제 폐하께서 살아 계시다면\n사자와의 알현 정도는\n허락하실 거야",
+      "after": "하지만 황제 폐하께서 살아 계시다면\n사절과의 알현 정도는\n허락하실 것이다",
+      "category": "meaning",
+      "reason": "使者를 사자라는 중의적 한자어 대신 외교 사절로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-9335EAA9F53CA351146C",
+      "source_text": "ラルク……急げ。\n次なるログレスこそそなたの手に。\nさすれば定理は世界に広がるだろう",
+      "before": "라르크…… 서둘러라.\n다음 로그레스야말로 네 손에 넣어라.\n그러면 섭리는 세계에 퍼질 것이다",
+      "after": "라르크…… 서둘러라.\n다음 로그레스는 반드시 네 손에 넣어라.\n그러면 섭리는 세계에 퍼질 것이다",
+      "category": "naturalness",
+      "reason": "次なるログレスこそ의 강조를 자연스러운 명령문으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-971E620E8B5D1042B864",
+      "source_text": "わかった。恩に着る",
+      "before": "알았다. 신세를 지겠군",
+      "after": "알았다. 이 은혜는 잊지 않겠다",
+      "category": "meaning",
+      "reason": "恩に着る를 앞으로 신세를 지겠다는 뜻이 아니라 받은 은혜를 기억하겠다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9B4199EDD3F6C94B1955",
+      "source_text": "感謝して欲しいものですね\nレディ",
+      "before": "감사해 주셨으면 합니다\n레이디",
+      "after": "감사해 주셔야겠군요,\n레이디",
+      "category": "speaker_voice",
+      "reason": "상대를 비꼬며 감사를 요구하는 정중한 화자의 어조로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9BA3E548DEBF03DC0E78",
+      "source_text": "話の続きは街に出てからに\nした方がいいのではないか？",
+      "before": "이야기의 나머지는 도시로 나가서\n하는 게 좋지 않을까?",
+      "after": "이야기는 밖으로 나간 뒤에\n마저 하는 게 좋지 않을까?",
+      "category": "naturalness",
+      "reason": "이야기의 나머지라는 직역을 대화를 이어 한다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9DD682DD63F42700754B",
+      "source_text": "ラルクの言葉が嬉しかった。\nみんなは私を腫れ物に触るように\n接したのに、ラルクは違ってた",
+      "before": "라르크의 말이 기뻤어.\n모두는 날 대하기 조심스러워했는데,\n라르크는 달랐어",
+      "after": "라르크의 말이 기뻤어.\n다들 날 상처라도 건드리듯 조심했는데,\n라르크는 달랐어",
+      "category": "meaning",
+      "reason": "腫れ物に触るように를 상대를 지나치게 조심스럽게 대하는 관용적 의미로 자연스럽게 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-9E20DA674B3EEDFAC295",
+      "source_text": "死んだらどうするんだ！\n亡くなったおふくろさんも\n悲しむだろーが！",
+      "before": "죽으면 어쩌려고!\n돌아가신 네 어머니도\n슬퍼하잖아!",
+      "after": "죽으면 어쩌려고!\n돌아가신 네 어머니도\n슬퍼할 거잖아!",
+      "category": "meaning",
+      "reason": "앞으로 죽는다면 어머니가 슬퍼할 것이라는 가정의 시제를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9EBAFFD36FC3FC725CC1",
+      "source_text": "――リフィア、来い！",
+      "before": "――리피아, 와!",
+      "after": "――리피아, 따라와!",
+      "category": "function",
+      "reason": "来い를 그 자리에 오라는 말이 아니라 화자를 따라오라는 다급한 명령으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A01656324CB541779C31",
+      "source_text": "負の時代の？\nなら、かなり古い遺跡なんだな",
+      "before": "음의 시대의?\n그럼 상당히 오래된 유적이군",
+      "after": "음의 시대 거라고?\n그럼 꽤 오래된 유적이군",
+      "category": "naturalness",
+      "reason": "の가 대신하는 명사를 보충해 질문을 자연스럽게 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-A071A25480AA57876188",
+      "source_text": "当時オルキナ教のディーバは\nイグナーツという男に\n命を狙われていた",
+      "before": "당시 오르키나교의 디바는\n이그나츠라는 남자에게\n목숨을 노림당하고 있었다",
+      "after": "당시 오르키나교의 디바는\n이그나츠라는 남자에게\n목숨을 위협받고 있었다",
+      "category": "naturalness",
+      "reason": "노림당한다는 직역을 자연스러운 피동 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A1087CE2E8961FA29926",
+      "source_text": "……ラルクって\n怖いけど優しいのね",
+      "before": "……라르크는\n무섭지만 상냥하구나",
+      "after": "……라르크는\n무섭지만 다정하네",
+      "category": "speaker_voice",
+      "reason": "인물의 부드러운 반말에 맞춰 상냥하구나라는 직역투를 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A487ED442A7B98FA3831",
+      "source_text": "ラルク。\nセシルも連れていって\nあげましょうよ",
+      "before": "라르크.\n세실도 데려가\n주자",
+      "after": "라르크.\n세실도 함께\n데려가 주자",
+      "category": "naturalness",
+      "reason": "줄 끝에서 용언이 어색하게 갈라지지 않도록 의미 단위에 맞춰 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-AE9BE4753339A7AB10E9",
+      "source_text": "ようやく見つけたよ。\nイマジナル・ディーバ",
+      "before": "드디어 찾았어.\n이매지널의 디바",
+      "after": "드디어 찾았어.\n이매지널 디바",
+      "category": "terminology",
+      "reason": "고정 직위명 イマジナル・ディーバ를 이매지널 디바로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B0CFC41FA336CB2D3DB6",
+      "source_text": "アルス様を支持する派閥が\n共和国と結託し、帝国を\n内部分裂させようとしている",
+      "before": "알스님을 지지하는 파벌이\n공화국과 결탁해 제국을\n내부에서 분열시키려 한다",
+      "after": "알스 님을 지지하는 파벌이\n공화국과 결탁해 제국을\n내부에서 분열시키려 한다",
+      "category": "proper_noun",
+      "reason": "인물 이름과 존칭을 기존 표기에 맞춰 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-B3F59FF5BE9AE4064215",
+      "source_text": "リフィアちゃん。\n年頃の青少年に\nその台詞はないわー",
+      "before": "리피아.\n한창때의 청년에게\n그런 말은 너무하잖아",
+      "after": "리피아.\n사춘기 청소년에게\n그런 말은 너무하잖아",
+      "category": "meaning",
+      "reason": "年頃の青少年를 한창때의 청년이라는 모호한 말 대신 사춘기 또래라는 뜻으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-B7E3005A42A78661B40F",
+      "source_text": "よし。２人とも行くぞ",
+      "before": "좋아. ２명 다 가자",
+      "after": "좋아. ２명 모두 가자",
+      "category": "naturalness",
+      "reason": "숫자를 보존하면서 ２人とも를 자연스러운 한국어로 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-B8E44DDA110D69E8AF20",
+      "source_text": "聖皇ホゼア様からダグラス卿夫人\nエンジュを釈放するよう\n命令書が届いております！",
+      "before": "성황 호제아님께 더글러스 경 부인\n엔주를 석방하라는\n명령서가 도착했습니다!",
+      "after": "성황 호제아 님으로부터 더글러스 경 부인\n엔주를 석방하라는\n명령서가 도착했습니다!",
+      "category": "particle",
+      "reason": "명령서를 보낸 주체인 호제아에 출발점을 나타내는 조사와 올바른 존칭 띄어쓰기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-BA2AFB9BACCA013365B2",
+      "source_text": "ディーバは娘を巻き込むまいと\nワシらロードナイトに\n娘の護衛を頼んできたんぢゃ",
+      "before": "디바는 딸을 말려들게 하지 않으려고\n우리 로드 나이트에게\n딸의 호위를 부탁했다",
+      "after": "디바는 딸이 휘말리지 않도록\n우리 로드 나이트에게\n딸의 호위를 부탁했다",
+      "category": "naturalness",
+      "reason": "말려들게 하지 않는다는 직역을 위험에 휘말리지 않게 한다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-BE0A85B7B47DFC45901D",
+      "source_text": "私はこのコード・ディスクを\n受け取ったために、ＱＥＤから\n狙われることになった",
+      "before": "나는 이 코드 디스크를\n받았기 때문에 ＱＥＤ에게\n노림당하게 됐어",
+      "after": "나는 이 코드 디스크를\n받았기 때문에 ＱＥＤ의\n표적이 됐어",
+      "category": "naturalness",
+      "reason": "노림당하게 되었다는 직역을 표적이 되었다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-BF2B9BFC486F6C37169C",
+      "source_text": "ノースノワーレ教のことなら\n私にも関係はある筈です",
+      "before": "노스 노와레교 일이라면\n저에게도 관계가 있을 겁니다",
+      "after": "노스 노와레교 일이라면\n저와도 관련이 있을 겁니다",
+      "category": "grammar",
+      "reason": "저에게도 관계가 있다는 어색한 조사 결합을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C1604F231D607DE03D0C",
+      "source_text": "ラルク……いいの？\nあんな小さな子を１人で……",
+      "before": "라르크…… 괜찮아?\n저렇게 어린아이를 １명만……",
+      "after": "라르크…… 괜찮겠어?\n저 어린아이 １명을 혼자 보내도……",
+      "category": "meaning",
+      "reason": "１人で를 아이 한 명만 있다는 뜻이 아니라 어린아이를 혼자 보내는 상황으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C1BE36F3B10F1AB86811",
+      "source_text": "何で何で？　どういうこと？",
+      "before": "왜, 왜? 무슨 일이야?",
+      "after": "왜, 왜? 무슨 말이야?",
+      "category": "function",
+      "reason": "설명을 듣고 뜻을 되묻는 どういうこと를 무슨 일인지 묻는 말과 구분했다."
+    },
+    {
+      "tm_id": "ARF-TM-C5509E30ABB68E0D75AA",
+      "source_text": "表向きは元老院が\n取り仕切っているように\n見えるがな",
+      "before": "겉으로는 원로원이\n통솔하는 것처럼\n보이지만 말이다",
+      "after": "겉으로는 원로원이\n주관하는 것처럼\n보이지만 말이다",
+      "category": "naturalness",
+      "reason": "정치를 운영하는 取り仕切る를 군사적 통솔이 아니라 주관한다는 뜻으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C94E8499CE67C68E112E",
+      "source_text": "おふくろ……\nどういうことだ……",
+      "before": "엄마……\n무슨 일이야……",
+      "after": "엄마……\n무슨 말이야……",
+      "category": "function",
+      "reason": "어머니의 설명을 듣고 의미를 되묻는 どういうこと를 무슨 일이냐는 질문과 구분했다."
+    },
+    {
+      "tm_id": "ARF-TM-CB6CC876FC3BD27B370E",
+      "source_text": "ちっ！　もう扉を突破されたのか！",
+      "before": "쳇! 벌써 문을 돌파했나!",
+      "after": "쳇! 벌써 문을 뚫었나!",
+      "category": "naturalness",
+      "reason": "문을 돌파한다는 직역을 방어를 뚫었다는 자연스러운 전투 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CEA9192D21C2EEDEAF24",
+      "source_text": "いいもんね。セシルちゃん\n１人でおじーちゃんの仇\n取っちゃうもん！",
+      "before": "상관없거든. 세실은\n１명으로도 자무엘 할아버지의 원수를\n갚을 거야!",
+      "after": "상관없거든. 세실은\n１명이서라도 자무엘 할아버지의 원수를\n갚고 말 거야!",
+      "category": "speaker_voice",
+      "reason": "숫자를 보존하면서 혼자서라도 복수하겠다는 세실의 허세와 결의를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-CF6009493432D097D3F0",
+      "source_text": "親とはぐれたまま\nホゾンのせいでこんなことに\nなっちゃったんだね……",
+      "before": "부모와 떨어진 채\n호존 때문에 이렇게\n되어 버린 거구나……",
+      "after": "엄마와 헤어진 채\n호존 때문에 이렇게\n되어 버린 거구나……",
+      "category": "meaning",
+      "reason": "뒤에서 아이의 어머니를 찾는 문맥에 맞춰 親를 엄마로 구체화했다."
+    },
+    {
+      "tm_id": "ARF-TM-D2E36BE9E2D157A21F85",
+      "source_text": "……ま、いいわ。\n今回の事件について\n説明してもらえない？",
+      "before": "……뭐, 됐어.\n이번 사건을\n설명해 주겠어?",
+      "after": "……뭐, 됐어.\n이번 사건을\n설명해 주지 않겠어?",
+      "category": "naturalness",
+      "reason": "설명을 요구하는 정중한 반문을 한국어에서 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DA53676240861E8799B2",
+      "source_text": "……イグナーツの使いが来たのよ",
+      "before": "……이그나츠의 사자가 왔어",
+      "after": "……이그나츠가 보낸 사람이 왔어",
+      "category": "meaning",
+      "reason": "使い를 사자라는 중의적 한자어 대신 이그나츠가 보낸 사람으로 명확히 했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

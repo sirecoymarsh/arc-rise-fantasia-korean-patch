@@ -1,0 +1,400 @@
+{"offset":3958007,"offset_hex":"0x003C64F7","source_text":">> 内蔵フォントの作成に失敗しました\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3958368,"offset_hex":"0x003C6660","source_text":"(File) ファイルの読み込みに失敗しました( %s )\n","byte_length":46,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3958415,"offset_hex":"0x003C668F","source_text":"(File) ADXFで読み込む際、ファイルのサイズが違います、バッファーオーバーランの可能性があります\n","byte_length":94,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3958585,"offset_hex":"0x003C6739","source_text":"(File) File_read_check_async 予期せぬ戻り値 %d\n","byte_length":47,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3958633,"offset_hex":"0x003C6769","source_text":"(File) なんで何回も ASYNC 終了みてんねん\n","byte_length":41,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3958675,"offset_hex":"0x003C6793","source_text":"(File) さっき終了したって言ったやん!!\n","byte_length":38,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3958714,"offset_hex":"0x003C67BA","source_text":"その圧縮タイプには対応していません\n","byte_length":35,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3959376,"offset_hex":"0x003C6A50","source_text":">> 未解放の MOBJ を初期化しようとしています\n","byte_length":44,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3960834,"offset_hex":"0x003C7002","source_text":">> TEV のユーザー定義が記述されていますがマルチになっていません\n","byte_length":64,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3960899,"offset_hex":"0x003C7043","source_text":">> 無効なマルチテクスチャセットです\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3961177,"offset_hex":"0x003C7159","source_text":">> 敵が読み込まれていません( %d )\n","byte_length":34,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3961435,"offset_hex":"0x003C725B","source_text":">> 既にゲストキャラがいるのに、ゲストフラグ設定しようとしました\n","byte_length":64,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3961500,"offset_hex":"0x003C729C","source_text":">> パーティにいないキャラにゲストフラグ設定しようとしました\n","byte_length":60,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3961823,"offset_hex":"0x003C73DF","source_text":"■テストこ〜〜な〜〜！","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3961846,"offset_hex":"0x003C73F6","source_text":"■キャラバン","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3961859,"offset_hex":"0x003C7403","source_text":"■イベント","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3961900,"offset_hex":"0x003C742C","source_text":"ＳＥ再生　　　　　　　　　 : %d","byte_length":31,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3961932,"offset_hex":"0x003C744C","source_text":"ＳＥ停止　　　　　　　　　 : %d","byte_length":31,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3961999,"offset_hex":"0x003C748F","source_text":"リバーブＡＵＸ−Ａ　　　　 : %s","byte_length":31,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962061,"offset_hex":"0x003C74CD","source_text":"リバーブＡＵＸ−Ｂ　　　　 : %s","byte_length":31,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962093,"offset_hex":"0x003C74ED","source_text":"ＳＥ入れ替え（マップ）　 　> ＭＣＳ起動","byte_length":39,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962133,"offset_hex":"0x003C7515","source_text":"ＳＥ入れ替え（システム） 　> ＭＣＳ起動","byte_length":39,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962173,"offset_hex":"0x003C753D","source_text":"コリジョン描画　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962214,"offset_hex":"0x003C7566","source_text":"トラップ描画　　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962244,"offset_hex":"0x003C7584","source_text":"パスカメラ描画　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962274,"offset_hex":"0x003C75A2","source_text":"アンビエント　　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962304,"offset_hex":"0x003C75C0","source_text":"ＡＩパス軌道　　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962334,"offset_hex":"0x003C75DE","source_text":"配置ＳＥ描画　　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962364,"offset_hex":"0x003C75FC","source_text":"スクリプトログ　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962397,"offset_hex":"0x003C761D","source_text":"ＥＥ−ＭＣＳ　　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962427,"offset_hex":"0x003C763B","source_text":"有効","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962432,"offset_hex":"0x003C7640","source_text":"無効","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962437,"offset_hex":"0x003C7645","source_text":"カメラオフセット　　Ｐ２ : %s(%.1f)(%s)","byte_length":39,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962481,"offset_hex":"0x003C7671","source_text":"カメラ補間パワー　　　　 : (%3.1f) 荒 <<<< 滑","byte_length":45,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962527,"offset_hex":"0x003C769F","source_text":"カメラ補間スピード　　　 : (%3.1f) 遅 <<<< 早","byte_length":45,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962573,"offset_hex":"0x003C76CD","source_text":"テストコマンド（ＰＧ用） : Ａボタン実行","byte_length":39,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962613,"offset_hex":"0x003C76F5","source_text":"キー入力無し時重力オフ　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962643,"offset_hex":"0x003C7713","source_text":"する","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962648,"offset_hex":"0x003C7718","source_text":"しない","byte_length":6,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962655,"offset_hex":"0x003C771F","source_text":"エンカウント　　　　　　 : %s","byte_length":29,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962685,"offset_hex":"0x003C773D","source_text":"マップチェンジ　　 > %s（現在のマップ）","byte_length":39,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962725,"offset_hex":"0x003C7765","source_text":"ＧＬＯＷ　　　　Ｗ : %.2f","byte_length":25,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962751,"offset_hex":"0x003C777F","source_text":"ＧＬＯＷカラー　Ｒ : %3d","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962776,"offset_hex":"0x003C7798","source_text":"　　　　　　　　Ｇ : %3d","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962801,"offset_hex":"0x003C77B1","source_text":"　　　　　　　　Ｂ : %3d","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962826,"offset_hex":"0x003C77CA","source_text":"　　　　　　　　Ａ : %3d","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962851,"offset_hex":"0x003C77E3","source_text":"マテリアル　　　　 : %s","byte_length":23,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962875,"offset_hex":"0x003C77FB","source_text":"マテリアル　Ａ　　 : %3d","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962900,"offset_hex":"0x003C7814","source_text":"ノード　　　　　　 : %s","byte_length":23,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962924,"offset_hex":"0x003C782C","source_text":"ノード表示　　　　 : %s","byte_length":23,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962948,"offset_hex":"0x003C7844","source_text":"モーションチェック : %3d","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962973,"offset_hex":"0x003C785D","source_text":"サウンド関連　　　 >","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3962994,"offset_hex":"0x003C7872","source_text":"データチェック　　 >","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963015,"offset_hex":"0x003C7887","source_text":"アニメカメラ　　　 : %s","byte_length":23,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963039,"offset_hex":"0x003C789F","source_text":"深度設定　　　　　 >","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963060,"offset_hex":"0x003C78B4","source_text":"フォグ設定　　　　 >","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963081,"offset_hex":"0x003C78C9","source_text":"デバッグモード　　 : %s","byte_length":23,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963647,"offset_hex":"0x003C7AFF","source_text":"MEMORY1 : %2d MB (0x%.8X byte) %5d(m:%3d) [%d％]\nMEMORY2 : %2d MB (0x%.8X byte) %5d(m:%3d) [%d％]\n","byte_length":98,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963784,"offset_hex":"0x003C7B88","source_text":"全滅時でも復帰（イベントかな・・・）\n","byte_length":37,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963859,"offset_hex":"0x003C7BD3","source_text":"ワールド起動\n","byte_length":13,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3963991,"offset_hex":"0x003C7C57","source_text":"時系列フラグ値 >>> %d\n","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964166,"offset_hex":"0x003C7D06","source_text":"gauss 解除\n","byte_length":11,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964178,"offset_hex":"0x003C7D12","source_text":"gauss_inv 解除\n","byte_length":15,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964194,"offset_hex":"0x003C7D22","source_text":"depth 解除\n","byte_length":11,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964206,"offset_hex":"0x003C7D2E","source_text":"blur 解除\n","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964217,"offset_hex":"0x003C7D39","source_text":"gauss_b 解除\n","byte_length":13,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964231,"offset_hex":"0x003C7D47","source_text":"glare 解除\n","byte_length":11,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964243,"offset_hex":"0x003C7D53","source_text":"wrap 解除\n","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964311,"offset_hex":"0x003C7D97","source_text":"グループ指定 : %d\n","byte_length":18,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964362,"offset_hex":"0x003C7DCA","source_text":"PC先制攻撃戦闘\n","byte_length":15,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964378,"offset_hex":"0x003C7DDA","source_text":"ENEMY先制攻撃戦闘\n","byte_length":18,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964397,"offset_hex":"0x003C7DED","source_text":"通常戦闘\n","byte_length":9,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964425,"offset_hex":"0x003C7E09","source_text":"辺境の森","byte_length":8,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964469,"offset_hex":"0x003C7E35","source_text":"ジャダの街","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964497,"offset_hex":"0x003C7E51","source_text":"竜縛塔：外側","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964527,"offset_hex":"0x003C7E6F","source_text":"竜縛塔：内部","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964557,"offset_hex":"0x003C7E8D","source_text":"竜縛塔：シムマフの部屋","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964597,"offset_hex":"0x003C7EB5","source_text":"盗賊のアジト：海岸沿い","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964637,"offset_hex":"0x003C7EDD","source_text":"盗賊のアジト：洞窟内","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964675,"offset_hex":"0x003C7F03","source_text":"盗賊のアジト：船着き場","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964715,"offset_hex":"0x003C7F2B","source_text":"密林","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964737,"offset_hex":"0x003C7F41","source_text":"密林ボス用","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964765,"offset_hex":"0x003C7F5D","source_text":"アデイン教神殿下層部","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964803,"offset_hex":"0x003C7F83","source_text":"オーリエンス首都","byte_length":16,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964837,"offset_hex":"0x003C7FA5","source_text":"海中通路","byte_length":8,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964863,"offset_hex":"0x003C7FBF","source_text":"アデイン教神殿上層部","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964901,"offset_hex":"0x003C7FE5","source_text":"カルブンクルス・プリズン","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964943,"offset_hex":"0x003C800F","source_text":"ティグリス河（仮）","byte_length":18,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3964979,"offset_hex":"0x003C8033","source_text":"エブル遺跡","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965007,"offset_hex":"0x003C804F","source_text":"死の峡谷：崖","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965037,"offset_hex":"0x003C806D","source_text":"死の峡谷：谷底","byte_length":14,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965069,"offset_hex":"0x003C808D","source_text":"廃屋ダンジョン：地下実験場","byte_length":26,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965113,"offset_hex":"0x003C80B9","source_text":"廃屋ダンジョン：教会地下","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965155,"offset_hex":"0x003C80E3","source_text":"廃屋ダンジョン：外側","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965193,"offset_hex":"0x003C8109","source_text":"バトラキテス","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965223,"offset_hex":"0x003C8127","source_text":"メリディアン帝国旗艦：甲板","byte_length":26,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965267,"offset_hex":"0x003C8153","source_text":"メリディアン帝国旗艦：内部","byte_length":26,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965311,"offset_hex":"0x003C817F","source_text":"ディアマント城","byte_length":14,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965343,"offset_hex":"0x003C819F","source_text":"ディアマント城：ボス用","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965383,"offset_hex":"0x003C81C7","source_text":"白月居住区","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965411,"offset_hex":"0x003C81E3","source_text":"白月","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965433,"offset_hex":"0x003C81F9","source_text":"白月：ボス用","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965463,"offset_hex":"0x003C8217","source_text":"赤月","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965485,"offset_hex":"0x003C822D","source_text":"赤月：ボス用","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965515,"offset_hex":"0x003C824B","source_text":"蒼月","byte_length":4,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965537,"offset_hex":"0x003C8261","source_text":"蒼月：ボス用","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965567,"offset_hex":"0x003C827F","source_text":"蒼月：ラストボス用","byte_length":18,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965603,"offset_hex":"0x003C82A3","source_text":"神竜競合ダンジョン１","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965641,"offset_hex":"0x003C82C9","source_text":"火山外","byte_length":6,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965665,"offset_hex":"0x003C82E1","source_text":"火山中","byte_length":6,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965689,"offset_hex":"0x003C82F9","source_text":"神竜競合ダンジョン３","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965727,"offset_hex":"0x003C831F","source_text":"神竜競合ダンジョン４","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965765,"offset_hex":"0x003C8345","source_text":"神竜競合ダンジョン５","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965803,"offset_hex":"0x003C836B","source_text":"隠し神竜ダンジョン１","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965841,"offset_hex":"0x003C8391","source_text":"隠し神竜ダンジョン２","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965879,"offset_hex":"0x003C83B7","source_text":"神竜戦専用","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965907,"offset_hex":"0x003C83D3","source_text":"エクストラダンジョン","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3965945,"offset_hex":"0x003C83F9","source_text":"エクストラダンジョン：ボス用","byte_length":28,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966008,"offset_hex":"0x003C8438","source_text":"闘技場","byte_length":6,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966032,"offset_hex":"0x003C8450","source_text":"ワールドマップ：平原","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966070,"offset_hex":"0x003C8476","source_text":"ワールドマップ：森","byte_length":18,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966106,"offset_hex":"0x003C849A","source_text":"ワールドマップ：砂漠","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966144,"offset_hex":"0x003C84C0","source_text":"ワールドマップ：海岸","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966182,"offset_hex":"0x003C84E6","source_text":"ワールドマップ：雪原","byte_length":20,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966220,"offset_hex":"0x003C850C","source_text":"バトラキテス（船あり）","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966260,"offset_hex":"0x003C8534","source_text":"ワールドマップ：エブル周辺","byte_length":26,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966304,"offset_hex":"0x003C8560","source_text":"ワールドマップ：海岸：ルフンガ用","byte_length":32,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966354,"offset_hex":"0x003C8592","source_text":"戦闘背景デバッグ用","byte_length":18,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966441,"offset_hex":"0x003C85E9","source_text":"戦闘背景サンプル","byte_length":16,"reason":"unavailable_test_or_debug_menu"}
+{"offset":3966563,"offset_hex":"0x003C8663","source_text":">> 戦闘キャラクタ読み込み(%d) alloc\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3966600,"offset_hex":"0x003C8688","source_text":">> 何も装備していないか不正な武器を装備しています(PC:%d)\n","byte_length":57,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3966658,"offset_hex":"0x003C86C2","source_text":">> 読み込みたい武器は既に読み込まれています(%d)\n","byte_length":48,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3966707,"offset_hex":"0x003C86F3","source_text":">> 武器読み込み(%d)\n","byte_length":20,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3966728,"offset_hex":"0x003C8708","source_text":">> キャラクタがいないのに武器を読み込もうとしました(キャラクタ：%d)\n","byte_length":68,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3966834,"offset_hex":"0x003C8772","source_text":"%d は、バトルメンバーでないのでキャッシュから消去\n","byte_length":50,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3966915,"offset_hex":"0x003C87C3","source_text":"%d は、キャッシュにいるっぽい〜ん\n","byte_length":34,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3966950,"offset_hex":"0x003C87E6","source_text":"%d は、キャッシュにいないっぽいので、読み込み対象だ〜ね\n","byte_length":56,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967007,"offset_hex":"0x003C881F","source_text":"バトルＰＣ入れ替えタスク削除\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967037,"offset_hex":"0x003C883D","source_text":"%d 読み込み完了\n","byte_length":16,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967054,"offset_hex":"0x003C884E","source_text":">> 戦闘キャラクタ読み込み(%d) cache\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967091,"offset_hex":"0x003C8873","source_text":"バトルＰＣ入れ替え中にまた入れ替えろとな〜？？？\n","byte_length":49,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3967389,"offset_hex":"0x003C899D","source_text":"ワークバッファが足りません Connet_top\n","byte_length":38,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967428,"offset_hex":"0x003C89C4","source_text":"ワークバッファが足りません Connet_end\n","byte_length":38,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967680,"offset_hex":"0x003C8AC0","source_text":">> 敵ＩＤ範囲外の敵をロードしようとしました(%d)\n","byte_length":48,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967742,"offset_hex":"0x003C8AFE","source_text":"停止します\n","byte_length":11,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3967772,"offset_hex":"0x003C8B1C","source_text":">> (ERROR) 敵データが破損しています(%d)\n","byte_length":40,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3967839,"offset_hex":"0x003C8B5F","source_text":">> フリーな位置の取得に失敗しました\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3968249,"offset_hex":"0x003C8CF9","source_text":"96盗まれた","byte_length":10,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968304,"offset_hex":"0x003C8D30","source_text":"停止中だよもん","byte_length":14,"reason":"unreachable_developer_placeholder"}
+{"offset":3968650,"offset_hex":"0x003C8E8A","source_text":"E2ディザスターファング","byte_length":22,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968674,"offset_hex":"0x003C8EA2","source_text":"E6煌歌","byte_length":6,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968682,"offset_hex":"0x003C8EAA","source_text":"E4ミリオンリグレット","byte_length":20,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968704,"offset_hex":"0x003C8EC0","source_text":"E7斬影","byte_length":6,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968712,"offset_hex":"0x003C8EC8","source_text":"E5イクシード迅雷昂","byte_length":18,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968732,"offset_hex":"0x003C8EDC","source_text":"E0クリムゾンシュート","byte_length":20,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968754,"offset_hex":"0x003C8EF2","source_text":"E3ジオインパクト","byte_length":16,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968772,"offset_hex":"0x003C8F04","source_text":"E1ミスティックフォーチュン","byte_length":26,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3968876,"offset_hex":"0x003C8F6C","source_text":">> 魔法バンク使用中です（ %d ）\n","byte_length":32,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3968915,"offset_hex":"0x003C8F93","source_text":">> そんなテーブル関数は存在しません( %d )\n","byte_length":42,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3968983,"offset_hex":"0x003C8FD7","source_text":">> ユーザー定義の方が間違っています（%s）\n","byte_length":42,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3969819,"offset_hex":"0x003C931B","source_text":"うっとうしいから見ない","byte_length":22,"reason":"unavailable_tutorial_test_choice"}
+{"offset":3969842,"offset_hex":"0x003C9332","source_text":"「ＡＰについての説明」を見る","byte_length":28,"reason":"unavailable_tutorial_test_choice"}
+{"offset":3969871,"offset_hex":"0x003C934F","source_text":"「光術連携の説明」を見る","byte_length":24,"reason":"unavailable_tutorial_test_choice"}
+{"offset":3969896,"offset_hex":"0x003C9368","source_text":"「アビリティの説明」を見る","byte_length":26,"reason":"unavailable_tutorial_test_choice"}
+{"offset":3969923,"offset_hex":"0x003C9383","source_text":"「適当なキャラ絵」を見る","byte_length":24,"reason":"unavailable_tutorial_test_choice"}
+{"offset":3969948,"offset_hex":"0x003C939C","source_text":"「汗臭い･･･」を見る","byte_length":22,"reason":"unavailable_tutorial_test_choice"}
+{"offset":3970009,"offset_hex":"0x003C93D9","source_text":">> コマンドに項目をつみすぎました。\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3970196,"offset_hex":"0x003C9494","source_text":"あれ？？\n","byte_length":9,"reason":"unreachable_developer_placeholder"}
+{"offset":3970277,"offset_hex":"0x003C94E5","source_text":"warning : 指定文字列が文字列格納領域から見つかりません。\n","byte_length":57,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3970335,"offset_hex":"0x003C951F","source_text":"warning : スクリプトのバージョンが古い可能性があります。\n","byte_length":57,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3970929,"offset_hex":"0x003C9771","source_text":" ファンクションスタックオーバーフロー\n","byte_length":38,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3971032,"offset_hex":"0x003C97D8","source_text":"同じ関数が２回以上コールされている!!!!!\n","byte_length":40,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3971156,"offset_hex":"0x003C9854","source_text":"スタックインデックス : %d\n","byte_length":26,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3971608,"offset_hex":"0x003C9A18","source_text":"チェックディジット = %d\n","byte_length":24,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3971633,"offset_hex":"0x003C9A31","source_text":"セーブ管理タスク初期化\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3971668,"offset_hex":"0x003C9A54","source_text":"セーブ管理タスク後始末\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3971704,"offset_hex":"0x003C9A78","source_text":"セーブデータがあった\n","byte_length":21,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3971726,"offset_hex":"0x003C9A8E","source_text":"セーブデータがない\n","byte_length":19,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3971746,"offset_hex":"0x003C9AA2","source_text":"セーブ開始\n","byte_length":11,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3971941,"offset_hex":"0x003C9B65","source_text":"セーブ失敗\n","byte_length":11,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972247,"offset_hex":"0x003C9C97","source_text":"ロード管理タスク初期化\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972271,"offset_hex":"0x003C9CAF","source_text":"ロード管理タスク後始末\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972295,"offset_hex":"0x003C9CC7","source_text":"セーブデータのバージョンが違う %d != %d\n","byte_length":40,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972336,"offset_hex":"0x003C9CF0","source_text":"%d番目のデータ構造体サイズがおかしい %d != %d\n","byte_length":46,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972383,"offset_hex":"0x003C9D1F","source_text":"%d番目のデータチェックディジットがおかしい %d != %d\n","byte_length":52,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972436,"offset_hex":"0x003C9D54","source_text":"キャラ読み込み終了\n","byte_length":19,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972482,"offset_hex":"0x003C9D82","source_text":"ワールドでロードされた\n","byte_length":23,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972506,"offset_hex":"0x003C9D9A","source_text":"ロード時\n","byte_length":9,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972516,"offset_hex":"0x003C9DA4","source_text":"ここにくることはあってはならない","byte_length":32,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972549,"offset_hex":"0x003C9DC5","source_text":"NAND空きチェックタスク初期化\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972579,"offset_hex":"0x003C9DE3","source_text":"NAND空きチェックタスク後始末\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3972803,"offset_hex":"0x003C9EC3","source_text":"アプリブロック = %d\n","byte_length":20,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972824,"offset_hex":"0x003C9ED8","source_text":"アプリノード   = %d\n","byte_length":20,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972845,"offset_hex":"0x003C9EED","source_text":"空きブロック = %d\n","byte_length":18,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972864,"offset_hex":"0x003C9F00","source_text":"空きノード   = %d\n","byte_length":18,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3972883,"offset_hex":"0x003C9F13","source_text":"ホームディレクトリに作成可能なファイルサイズの上限を超過しようとしている。\n","byte_length":75,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3973127,"offset_hex":"0x003CA007","source_text":"ホームディレクトリに作成可能なファイル／ディレクトリ数の上限を超過しようとしている。 \n","byte_length":86,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3973354,"offset_hex":"0x003CA0EA","source_text":"システムで予約されている空き容量を消費しようとしている。 \n","byte_length":58,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3973413,"offset_hex":"0x003CA125","source_text":"システムで予約されている空きiノードを消費しようとしている。 \n","byte_length":61,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3973638,"offset_hex":"0x003CA206","source_text":"タイトルセーブデータチェックタスク初期化\n","byte_length":41,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3973680,"offset_hex":"0x003CA230","source_text":"タイトルセーブデータチェックタスク後始末\n","byte_length":41,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3973728,"offset_hex":"0x003CA260","source_text":">> テーブル以上の番号がコールされました\n","byte_length":40,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3973789,"offset_hex":"0x003CA29D","source_text":"Data_create(...) -> バンクオーバーです。拡張してくださいな。\n","byte_length":61,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3973851,"offset_hex":"0x003CA2DB","source_text":">> エフェクトデータのバージョンが異なります\n","byte_length":44,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3973896,"offset_hex":"0x003CA308","source_text":"Addr_set(...) -> バンクオーバーです。拡張してくださいな。\n","byte_length":58,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3973955,"offset_hex":"0x003CA343","source_text":">> エフェクトデータではないものが割り当てられました\n","byte_length":52,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974008,"offset_hex":"0x003CA378","source_text":">> Eff_bank_addr_set_mem(...) -> エフェクトはそのバンクには読み込まれてません!!\n","byte_length":80,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974096,"offset_hex":"0x003CA3D0","source_text":">> eff_init_get_table_addr(...) データが無いのに値を変更しようとしました\n","byte_length":73,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974184,"offset_hex":"0x003CA428","source_text":">> そのエフェクト初期化関数はまだ実装されてないです\n","byte_length":52,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974240,"offset_hex":"0x003CA460","source_text":">> (ERROR) EFF_TBL_CMD_EFF_ENTRY_BONE_ エラー。そのエントリーのエフェクトは存在しません(%d)\n","byte_length":92,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974336,"offset_hex":"0x003CA4C0","source_text":">> Render_eff_sort_entry(...) -> 登録数がオーバーです。拡張せんといかんね\n","byte_length":74,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974411,"offset_hex":"0x003CA50B","source_text":">> (ERROR) Sort_entry(...) -> 例外処理です( NULL ), 登録できませんでした。\n","byte_length":75,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3974908,"offset_hex":"0x003CA6FC","source_text":"サスペンド状態に落とす\n","byte_length":23,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3974932,"offset_hex":"0x003CA714","source_text":"サスペンド状態から復帰する\n","byte_length":27,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3975024,"offset_hex":"0x003CA770","source_text":"読み込み完了\n","byte_length":13,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975134,"offset_hex":"0x003CA7DE","source_text":"NPC or ENEMY読み込み待機タスク初期化\n","byte_length":37,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975172,"offset_hex":"0x003CA804","source_text":"NPC or ENEMY読み込み待機タスク後始末\n","byte_length":37,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975210,"offset_hex":"0x003CA82A","source_text":"PC読み込み待機タスク初期化\n","byte_length":27,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975238,"offset_hex":"0x003CA846","source_text":"PC読み込み待機タスク後始末\n","byte_length":27,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975355,"offset_hex":"0x003CA8BB","source_text":"****** ユーザー定義が間違っています（%s）\n","byte_length":42,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975459,"offset_hex":"0x003CA923","source_text":"存在しないモーションを再生しようとしたよ %d\n","byte_length":44,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3975609,"offset_hex":"0x003CA9B9","source_text":"info : パスカメラフレーム数 %d\n","byte_length":31,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3975641,"offset_hex":"0x003CA9D9","source_text":"error : パスカメラのフレーム数が %d を超えています\n","byte_length":51,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3975759,"offset_hex":"0x003CAA4F","source_text":"または、登録できるNPCインデックスが%d体を超えました\n","byte_length":52,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3975836,"offset_hex":"0x003CAA9C","source_text":"または、登録できるOBJインデックスが%d個を超えました\n","byte_length":52,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3975913,"offset_hex":"0x003CAAE9","source_text":"または、登録できるTREインデックスが%d個を超えました\n","byte_length":52,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3975990,"offset_hex":"0x003CAB36","source_text":"または、登録できるENEMYインデックスが%d体を超えました\n","byte_length":54,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3976155,"offset_hex":"0x003CABDB","source_text":"warning : batch_end()が batch_start()と対になっていない\n","byte_length":56,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3976677,"offset_hex":"0x003CADE5","source_text":"****** ユーザー定義が間違っています（%s）\n","byte_length":42,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3976720,"offset_hex":"0x003CAE10","source_text":"event_chr_change_tex chr%d 変更できるマテリアル数最大値を超えてます\n","byte_length":68,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3976789,"offset_hex":"0x003CAE55","source_text":"マテリアル parts_no発見 = %d [%d]\n","byte_length":34,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977006,"offset_hex":"0x003CAF2E","source_text":"NPC IDがNPC最大登録数を超えています\n","byte_length":36,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977043,"offset_hex":"0x003CAF53","source_text":"scr err >>>> 既にCHR_NPC%.2dは他のキャラに使用されています\n","byte_length":59,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3977125,"offset_hex":"0x003CAFA5","source_text":"err >> NPCにＡＩをつけようとしましたが、肝心なNPCがいません (CHR_NPC%.2d)\n","byte_length":74,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3977200,"offset_hex":"0x003CAFF0","source_text":"OBJ IDがOBJ最大登録数を超えています\n","byte_length":36,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977237,"offset_hex":"0x003CB015","source_text":"ENEMY IDがENEMY最大登録数を超えています\n","byte_length":40,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977303,"offset_hex":"0x003CB057","source_text":"err >> 敵にＡＩをつけようとしましたが、肝心な敵がいません (ENM_DAT%.2d)\n","byte_length":72,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3977392,"offset_hex":"0x003CB0B0","source_text":"いっぱいいっぱい P\n","byte_length":19,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977412,"offset_hex":"0x003CB0C4","source_text":"move_direction warning : このNPC[%d番]は配置されていますか？\n","byte_length":61,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3977494,"offset_hex":"0x003CB116","source_text":"いっぱいいっぱい D\n","byte_length":19,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977514,"offset_hex":"0x003CB12A","source_text":"フレーム変更 %3.3f\n","byte_length":19,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3977691,"offset_hex":"0x003CB1DB","source_text":"配置できるエフェクトの数が %d 個を超えました\n","byte_length":45,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977880,"offset_hex":"0x003CB298","source_text":"%s はパーティにいません\n","byte_length":24,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3977905,"offset_hex":"0x003CB2B1","source_text":"指定ケージスロットが存在しません\n","byte_length":33,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3978327,"offset_hex":"0x003CB457","source_text":"user resource が読み込まれていません\n","byte_length":37,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3978395,"offset_hex":"0x003CB49B","source_text":"user se が読み込まれていません\n","byte_length":31,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3978517,"offset_hex":"0x003CB515","source_text":"クエストクリアチェック(%d)=%s\n","byte_length":30,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3978731,"offset_hex":"0x003CB5EB","source_text":"内部 : %3.3f\n","byte_length":13,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3978745,"offset_hex":"0x003CB5F9","source_text":"背景モデル(%d)セピア化\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3978783,"offset_hex":"0x003CB61F","source_text":"未接続\n","byte_length":7,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3978791,"offset_hex":"0x003CB627","source_text":"リモコン\n","byte_length":9,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3978801,"offset_hex":"0x003CB631","source_text":"ヌンチャク\n","byte_length":11,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3978813,"offset_hex":"0x003CB63D","source_text":"クラコン\n","byte_length":9,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3978823,"offset_hex":"0x003CB647","source_text":"ＧＣパッド\n","byte_length":11,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3979256,"offset_hex":"0x003CB7F8","source_text":">> ダメージ計算の atks_p が NUL できたっすー\n","byte_length":45,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3979304,"offset_hex":"0x003CB828","source_text":">> ※※ NAND ホームディレクトリの取得に失敗 ※※\n","byte_length":49,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3979354,"offset_hex":"0x003CB85A","source_text":">> ※※ NAND ホームディレクトリの移動に失敗 ※※\n","byte_length":49,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3979583,"offset_hex":"0x003CB93F","source_text":"ERROR : スクリプト overflow queue\n","byte_length":34,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3979618,"offset_hex":"0x003CB962","source_text":"スキップターゲットが見つかりません\n","byte_length":35,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979681,"offset_hex":"0x003CB9A1","source_text":"MW_TALK   メッセージ・・・[%s]\n","byte_length":31,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979713,"offset_hex":"0x003CB9C1","source_text":"MW_TALKNC メッセージ・・・[%s]\n","byte_length":31,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979745,"offset_hex":"0x003CB9E1","source_text":"MW_TALKBC メッセージ・・・[%s]\n","byte_length":31,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979777,"offset_hex":"0x003CBA01","source_text":"MW_TALKNCNA メッセージ・・・[%s]\n","byte_length":33,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979811,"offset_hex":"0x003CBA23","source_text":"UNKNOWN メッセージ・・・[%s]\n","byte_length":29,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979841,"offset_hex":"0x003CBA41","source_text":"voice start HBM起動中\n","byte_length":22,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3979960,"offset_hex":"0x003CBAB8","source_text":"GetSbd_DataHeader  データがありません  %d\n","byte_length":42,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3980003,"offset_hex":"0x003CBAE3","source_text":"GetSbd_Data  ヘッダがありません  %d\n","byte_length":36,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3980040,"offset_hex":"0x003CBB08","source_text":"GetSbd_Data  データがありません  %d\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3980077,"offset_hex":"0x003CBB2D","source_text":"アイコンデータがありません。\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3980111,"offset_hex":"0x003CBB4F","source_text":"マップがありません。","byte_length":20,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3982231,"offset_hex":"0x003CC397","source_text":"会話メッセージのデータがSC_NPC_MESSAGE_MAX_を超えています\n","byte_length":58,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3982542,"offset_hex":"0x003CC4CE","source_text":"#####    コリジョンオブジェクト登録ミスしました！     ####\n","byte_length":59,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3983528,"offset_hex":"0x003CC8A8","source_text":">> アイテム持ってないのに装備しようとしましたよ！(item_no=%d)\n","byte_length":62,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3983591,"offset_hex":"0x003CC8E7","source_text":">> だから装備なんてしないんだから！(pc_no=%d)\n","byte_length":46,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3983638,"offset_hex":"0x003CC916","source_text":">> アイテムがないのに装備しようとしましたよ(%d)\n","byte_length":48,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3983687,"offset_hex":"0x003CC947","source_text":">> 範囲外のスロットにジェムをセットしようとしました(%d/%d)\n","byte_length":59,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3986912,"offset_hex":"0x003CD5E0","source_text":"コマ落ち = %d\n","byte_length":14,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3986927,"offset_hex":"0x003CD5EF","source_text":"デコードスキップ = %d\n","byte_length":22,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3986950,"offset_hex":"0x003CD606","source_text":"表示スキップ = %d\n","byte_length":18,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3986969,"offset_hex":"0x003CD619","source_text":"エンプティBスキップ = %d\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3987006,"offset_hex":"0x003CD63E","source_text":"ムービーファイル名がありません\n","byte_length":31,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3987038,"offset_hex":"0x003CD65E","source_text":"ムービーワークバッファ:%d\n","byte_length":26,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3987086,"offset_hex":"0x003CD68E","source_text":"T_Movie構造体の確保に失敗しました\n","byte_length":34,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3987332,"offset_hex":"0x003CD784","source_text":"ムービー再生タスク初期化\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3987371,"offset_hex":"0x003CD7AB","source_text":"ムービー再生タスク後始末\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3988304,"offset_hex":"0x003CDB50","source_text":"インドア管理タスク初期化\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3988343,"offset_hex":"0x003CDB77","source_text":"インドア管理タスク後始末\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3991696,"offset_hex":"0x003CE890","source_text":"環境エフェクト管理タスク初期化\n","byte_length":31,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3991741,"offset_hex":"0x003CE8BD","source_text":"環境エフェクト管理タスク後始末\n","byte_length":31,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3991932,"offset_hex":"0x003CE97C","source_text":"アイコン番号が%d\n","byte_length":17,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3992296,"offset_hex":"0x003CEAE8","source_text":">> CBTL_EFFECT::Eff_boot(...) エフェクトを起動できませんでした(%d:%d)\n","byte_length":70,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3992768,"offset_hex":"0x003CECC0","source_text":">> 魔法バンク使用中です（ %d ）\n","byte_length":32,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3993540,"offset_hex":"0x003CEFC4","source_text":"ショップウィンドウの作成に失敗\n","byte_length":31,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3993572,"offset_hex":"0x003CEFE4","source_text":"ギルドウィンドウの作成に失敗\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3993602,"offset_hex":"0x003CF002","source_text":"説明を聞き終わった\n","byte_length":19,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3993622,"offset_hex":"0x003CF016","source_text":"「説明を聞く」を選んだ\n","byte_length":23,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3993671,"offset_hex":"0x003CF047","source_text":"カジノウィンドウの作成に失敗\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":3993701,"offset_hex":"0x003CF065","source_text":"「説明を聞く」を選んだ %d\n","byte_length":26,"reason":"internal_non_display_string_or_unproven_visibility"}
+{"offset":3994177,"offset_hex":"0x003CF241","source_text":"ないよ〜〜ん","byte_length":12,"reason":"unreachable_developer_placeholder"}
+{"offset":3994754,"offset_hex":"0x003CF482","source_text":"ダミー３","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994763,"offset_hex":"0x003CF48B","source_text":"ダミー４","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994772,"offset_hex":"0x003CF494","source_text":"ダミー５","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994781,"offset_hex":"0x003CF49D","source_text":"ダミー６","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994790,"offset_hex":"0x003CF4A6","source_text":"ダミー７","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994799,"offset_hex":"0x003CF4AF","source_text":"ダミー８","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994808,"offset_hex":"0x003CF4B8","source_text":"ダミー９","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994980,"offset_hex":"0x003CF564","source_text":"50セーブポイント","byte_length":16,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3994998,"offset_hex":"0x003CF576","source_text":"51宝箱","byte_length":6,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995006,"offset_hex":"0x003CF57E","source_text":"52次のマップ","byte_length":12,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995020,"offset_hex":"0x003CF58C","source_text":"53ワールドマップ","byte_length":16,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995038,"offset_hex":"0x003CF59E","source_text":"54はしご","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995048,"offset_hex":"0x003CF5A8","source_text":"55宿屋","byte_length":6,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995056,"offset_hex":"0x003CF5B0","source_text":"56道具屋","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995066,"offset_hex":"0x003CF5BA","source_text":"57武具屋","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995076,"offset_hex":"0x003CF5C4","source_text":"58工房","byte_length":6,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995084,"offset_hex":"0x003CF5CC","source_text":"59仕立屋","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995094,"offset_hex":"0x003CF5D6","source_text":"5aギルド","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995104,"offset_hex":"0x003CF5E0","source_text":"5bカジノ","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995114,"offset_hex":"0x003CF5EA","source_text":"5c闘技場","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995124,"offset_hex":"0x003CF5F4","source_text":"5dハーモニーホール","byte_length":18,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995144,"offset_hex":"0x003CF608","source_text":"5e現在位置","byte_length":10,"reason":"internal_identifier_or_dummy_label"}
+{"offset":3995515,"offset_hex":"0x003CF77B","source_text":"96になります。\nよろしいですか？","byte_length":31,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":3996339,"offset_hex":"0x003CFAB3","source_text":"96になります。\nよろしいですか？","byte_length":31,"reason":"internal_or_invalid_placeholder_literal"}
+{"offset":4002828,"offset_hex":"0x003D140C","source_text":"ロードエラー（テスト）","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4002851,"offset_hex":"0x003D1423","source_text":"セーブエラー（テスト）","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4003213,"offset_hex":"0x003D158D","source_text":"タイトル地域（デバッグ用）","byte_length":26,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4003240,"offset_hex":"0x003D15A8","source_text":"不明の地域（デバッグ用）","byte_length":24,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4005332,"offset_hex":"0x003D1DD4","source_text":"@@@@@@@@@@エクセルアウトのInsertItemに失敗！！！！！！@@@@@@@@@\n","byte_length":64,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006262,"offset_hex":"0x003D2176","source_text":"敵の出現テーブルの異常\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006286,"offset_hex":"0x003D218E","source_text":"条件に当てはまる項目が存在しません\n","byte_length":35,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006322,"offset_hex":"0x003D21B2","source_text":"最後の条件は-1になるように設定してください\n","byte_length":43,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006552,"offset_hex":"0x003D2298","source_text":">> 必殺技に必要なＴＰ：%d >= %d\n","byte_length":32,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006720,"offset_hex":"0x003D2340","source_text":">> %d年%d月%d日%d時%d分%d秒\n","byte_length":28,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006793,"offset_hex":"0x003D2389","source_text":"チェック終了\n","byte_length":13,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006807,"offset_hex":"0x003D2397","source_text":"マップ確認","byte_length":10,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4006818,"offset_hex":"0x003D23A2","source_text":"戦闘サンプル","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4006831,"offset_hex":"0x003D23AF","source_text":"ワールドマップ","byte_length":14,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4006846,"offset_hex":"0x003D23BE","source_text":"モデルビュアー","byte_length":14,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4006861,"offset_hex":"0x003D23CD","source_text":"エンカウントエフェクト","byte_length":22,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4006884,"offset_hex":"0x003D23E4","source_text":"●ＴＥＳＴ○","byte_length":12,"reason":"unavailable_test_or_debug_menu"}
+{"offset":4007100,"offset_hex":"0x003D24BC","source_text":"文字列おーばー！","byte_length":16,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4007306,"offset_hex":"0x003D258A","source_text":">> コピンレース初期化\n","byte_length":22,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4007329,"offset_hex":"0x003D25A1","source_text":">> コピンレース読み込み\n","byte_length":24,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4007376,"offset_hex":"0x003D25D0","source_text":">> コピンレースデータセット\n","byte_length":28,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4007423,"offset_hex":"0x003D25FF","source_text":">> コピンレース終了\n","byte_length":20,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4009540,"offset_hex":"0x003D2E44","source_text":"オートパイロットウィンドウ フェード終了\n","byte_length":40,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4012343,"offset_hex":"0x003D3937","source_text":"@縮麺","byte_length":5,"reason":"false_positive_binary_candidate"}
+{"offset":4013564,"offset_hex":"0x003D3DFC","source_text":"error : スクリプトデータでない先頭ポインタが渡されました","byte_length":56,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4013637,"offset_hex":"0x003D3E45","source_text":"あれ？？\n","byte_length":9,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4013647,"offset_hex":"0x003D3E4F","source_text":"warning : 指定文字列が文字列格納領域から見つかりません。\n","byte_length":57,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4013705,"offset_hex":"0x003D3E89","source_text":"warning : スクリプトのバージョンが古い可能性があります。\n","byte_length":57,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4013806,"offset_hex":"0x003D3EEE","source_text":" ファンクションスタックオーバーフロー\n","byte_length":38,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4013909,"offset_hex":"0x003D3F55","source_text":"同じ関数が２回以上コールされている!!!!!\n","byte_length":40,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4014083,"offset_hex":"0x003D4003","source_text":"warning : 使用されていないスクリプト格納領域を ClearScript しようとした\n","byte_length":72,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4017292,"offset_hex":"0x003D4C8C","source_text":"****** ユーザー定義が間違っています（%s）\n","byte_length":42,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4018035,"offset_hex":"0x003D4F73","source_text":"ヘアーロールタスク初期化\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4018073,"offset_hex":"0x003D4F99","source_text":"ヘアーロールタスク後始末\n","byte_length":25,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4018164,"offset_hex":"0x003D4FF4","source_text":"位置情報描画厨","byte_length":14,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4019168,"offset_hex":"0x003D53E0","source_text":">> フリーな位置の取得に失敗しました\n","byte_length":36,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4019210,"offset_hex":"0x003D540A","source_text":">> 魔法バンク使用中です（ %d ）\n","byte_length":32,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4019272,"offset_hex":"0x003D5448","source_text":"行き先案内 %d がヒット\n","byte_length":23,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4019296,"offset_hex":"0x003D5460","source_text":"ポーズタスク初期化\n","byte_length":19,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4019324,"offset_hex":"0x003D547C","source_text":"ポーズタスク後始末\n","byte_length":19,"reason":"developer_log_assert_or_runtime_diagnostic"}
+{"offset":4032718,"offset_hex":"0x003D88CE","source_text":"柤:喜","byte_length":5,"reason":"false_positive_binary_candidate"}
+{"offset":4099740,"offset_hex":"0x003E8E9C","source_text":"竜縛塔イベント飛空挺","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4099816,"offset_hex":"0x003E8EE8","source_text":"ルフンガ用イベント","byte_length":18,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4100348,"offset_hex":"0x003E90FC","source_text":"遺跡Ｂイベント用","byte_length":16,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4100500,"offset_hex":"0x003E9194","source_text":"ＰＣ用飛空艇ブリッジ","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4100804,"offset_hex":"0x003E92C4","source_text":"白月：シムマフ回想用","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4100956,"offset_hex":"0x003E935C","source_text":"ジャダバトルフィール","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101032,"offset_hex":"0x003E93A8","source_text":"神竜バトルフィールド","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101108,"offset_hex":"0x003E93F4","source_text":"白月の居住区00 セピア","byte_length":21,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101184,"offset_hex":"0x003E9440","source_text":"バトラ広場Ｂイベント","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101260,"offset_hex":"0x003E948C","source_text":"オーリエンスイベント","byte_length":20,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101412,"offset_hex":"0x003E9524","source_text":"イベントムービー用29B","byte_length":21,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101488,"offset_hex":"0x003E9570","source_text":"イベントムービー用30B","byte_length":21,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101564,"offset_hex":"0x003E95BC","source_text":"予備枠","byte_length":6,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101640,"offset_hex":"0x003E9608","source_text":"予備枠","byte_length":6,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101716,"offset_hex":"0x003E9654","source_text":"予備枠","byte_length":6,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101792,"offset_hex":"0x003E96A0","source_text":"予備枠","byte_length":6,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101868,"offset_hex":"0x003E96EC","source_text":"久野テストマップ","byte_length":16,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4101944,"offset_hex":"0x003E9738","source_text":"相内テストマップ","byte_length":16,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102020,"offset_hex":"0x003E9784","source_text":"河本テストマップ","byte_length":16,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102096,"offset_hex":"0x003E97D0","source_text":"伊藤テストマップ","byte_length":16,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102172,"offset_hex":"0x003E981C","source_text":"佐々木テストマップ","byte_length":18,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102248,"offset_hex":"0x003E9868","source_text":"テストマップ00","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102324,"offset_hex":"0x003E98B4","source_text":"テストマップ01","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102400,"offset_hex":"0x003E9900","source_text":"テストマップ02","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102476,"offset_hex":"0x003E994C","source_text":"テストマップ03","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102552,"offset_hex":"0x003E9998","source_text":"テストマップ04","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102628,"offset_hex":"0x003E99E4","source_text":"テストマップ05","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102704,"offset_hex":"0x003E9A30","source_text":"テストマップ06","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102780,"offset_hex":"0x003E9A7C","source_text":"テストマップ07","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102856,"offset_hex":"0x003E9AC8","source_text":"テストマップ08","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4102932,"offset_hex":"0x003E9B14","source_text":"テストマップ09","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4103008,"offset_hex":"0x003E9B60","source_text":"テストマップ10","byte_length":14,"reason":"explicit_event_test_or_internal_map_label"}
+{"offset":4135738,"offset_hex":"0x003F1B3A","source_text":"予備枠","byte_length":6,"reason":"reserved_internal_slot"}
+{"offset":4135762,"offset_hex":"0x003F1B52","source_text":"予備枠","byte_length":6,"reason":"reserved_internal_slot"}
+{"offset":4135786,"offset_hex":"0x003F1B6A","source_text":"予備枠","byte_length":6,"reason":"reserved_internal_slot"}
+{"offset":4135810,"offset_hex":"0x003F1B82","source_text":"予備枠","byte_length":6,"reason":"reserved_internal_slot"}

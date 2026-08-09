@@ -1,0 +1,92 @@
+{
+  "schema": "arf-ko-final-static-verification-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "canonical_boundary_audit_sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+  "reviewed_units": 1400,
+  "translated_occurrences": 1921,
+  "validators": {
+    "batch_0001": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "A403B37DAAB92ACF61243E67427D06565285989A7784A3CC5098639BE781F947"
+    },
+    "batch_0002": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "701B368E0B3E78C030E0B89EB4D27CEBA31D6A6A736728775AD3AAA3258F2739"
+    },
+    "batch_0003": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "E2C870935C2CA75A05774272C57F0C62FA9DA8159840216B377C4E224B592489"
+    },
+    "batch_0004": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "14A15A494EB374F9F9BE9B64A59CB2E9A93E245AD7472A98E3DDFCE5379E20FB"
+    },
+    "batch_0005": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "0E65249B4DC7BAEB2C908E819D9400CF84B3A8F95B6161EFB17F1CB914DADDDD"
+    },
+    "batch_0006": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "6AF377C5EB67BD61652B0373C506C6BACC9E1603E5A3EA98178FE0FF8F007722"
+    },
+    "batch_0007": {
+      "completed_units": 200,
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "sha256": "FEBC740324EC0BCFEDFBB9241511C2F75643FC7867FFB0351296BF8FBBC4C53E"
+    }
+  },
+  "fit": {
+    "matched_unique_tm_units": 1400,
+    "matched_table_fields": 1935,
+    "fixed_overflow_count": 0,
+    "unmatched_system_tm_count": 0,
+    "encoding_error_count": 0,
+    "global_encoding_error_count": 0,
+    "safe_for_fixed_table_insertion": true
+  },
+  "font": {
+    "assigned_characters": 784,
+    "reserved_source_pairs": 2227,
+    "verification_errors": 0,
+    "valid": true
+  },
+  "table_application": {
+    "approved_system_tm_units": 1400,
+    "replacement_table_fields": 1935,
+    "payloads_rebuilt": 13,
+    "verification_error_count": 0,
+    "valid": true
+  },
+  "partial_runtime_staging": {
+    "edited_system_vol_entries": 20,
+    "direct_files": 2,
+    "static_error_count": 0,
+    "static_valid": true,
+    "dolphin_screen_test": "pending"
+  },
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

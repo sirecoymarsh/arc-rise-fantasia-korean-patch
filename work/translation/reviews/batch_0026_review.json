@@ -1,0 +1,246 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0026",
+  "draft_author": "/root/translate_batch_0009",
+  "reviewer": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex 내부 모델 전용",
+  "external_services_used": [],
+  "external_service_status": "없음",
+  "source": "work/translation/tm_v2/batches/source/batch_0026.jsonl",
+  "draft": "work/translation/drafts/batch_0026.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0026.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 23,
+  "unchanged_units": 177,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 21,
+      "tm_id": "ARF-TM-19D798F211780C8E4F47",
+      "source_text": "ぼろぼろになった僕に\n立てるか、って\n声をかけてくれたんだ",
+      "before": "만신창이가 된 나에게\n일어설 수 있겠냐고\n말을 걸어 줘어",
+      "after": "만신창이가 된 나에게\n일어설 수 있겠냐고\n말을 걸어 줬어",
+      "category": "typo",
+      "reason": "〈걸어 줘어〉 오탈자를 바로잡았다."
+    },
+    {
+      "index": 24,
+      "tm_id": "ARF-TM-1A49499DE4574337A0CB",
+      "source_text": "そうだな。\nまぁ、俺も落胆してるのは確かだ。\nせっかく飛び立てた直後だったしな",
+      "before": "그렇군.\n뭐, 나도 실망한 건 사실이다.\n모처럼 막 날아오른 참이었으니까",
+      "after": "그래.\n뭐, 나도 실망한 건 사실이야.\n모처럼 막 날아오른 참이었으니까",
+      "category": "character_voice",
+      "reason": "俺 화자인 라르크의 대사를 군인형 해라체가 아닌 자연스러운 반말로 복원했다."
+    },
+    {
+      "index": 38,
+      "tm_id": "ARF-TM-1B808C3A309D102BDD24",
+      "source_text": "僕はラフィル様に\n命を助けられました",
+      "before": "저는 라필 님께\n목숨을 구원받았습니다",
+      "after": "라필 님께서\n제 목숨을 구해 주셨습니다",
+      "category": "grammar",
+      "reason": "목숨을 구원받았다는 부자연스러운 피동 표현을 고쳤다."
+    },
+    {
+      "index": 47,
+      "tm_id": "ARF-TM-1BE1A4F1074634A2C146",
+      "source_text": "剣を水平に振り抜いてさ\n切っ先で茎だけ断つ――で\n花びらは１枚も散らさずにって修行",
+      "before": "검을 수평으로 휘둘러서\n칼끝으로 줄기만 자르고――\n꽃잎은 한 장도 흘뜨리지 않는 수련",
+      "after": "검을 수평으로 휘둘러서\n칼끝으로 줄기만 자르고――\n꽃잎은 한 장도 흩뜨리지 않는 수련",
+      "category": "typo",
+      "reason": "〈흘뜨리지〉 오탈자를 〈흩뜨리지〉로 바로잡았다."
+    },
+    {
+      "index": 61,
+      "tm_id": "ARF-TM-1CC7E8BE71626A34FC57",
+      "source_text": "どうしても私は認められないわ。\nあなたたちとヴァイスが\n同じとは思えないの",
+      "before": "아무래도 난 인정할 수 없어.\n너희와 바이스가\n같다고는 생각되지 않아",
+      "after": "아무래도 난 인정할 수 없어.\n너희와 바이스가\n같다고 생각할 수 없어",
+      "category": "dialogue_naturalness",
+      "reason": "일본어식 피동 직역을 자연스러운 한국어 판단 표현으로 다듬었다."
+    },
+    {
+      "index": 66,
+      "tm_id": "ARF-TM-1D16402986286B24C303",
+      "source_text": "雪が降ってるとさ\nなんだか無音の音が\n聞こえてくるみたいじゃない？",
+      "before": "눈이 내리면 말이야\n왜지 소리 없는 소리가\n들려오는 것 같지 않아?",
+      "after": "눈이 내리면 말이야\n왠지 소리 없는 소리가\n들려오는 것 같지 않아?",
+      "category": "typo",
+      "reason": "〈왜지〉를 〈왠지〉로 바로잡았다."
+    },
+    {
+      "index": 77,
+      "tm_id": "ARF-TM-1D95951D462C734488E9",
+      "source_text": "よくそんなんで生活できてたな",
+      "before": "그렇게 살면서도 잘 버텨네",
+      "after": "그렇게 살면서도 잘 살아왔네",
+      "category": "typo_and_meaning",
+      "reason": "〈버텨네〉 오탈자를 바로잡고 생활해 왔다는 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "index": 82,
+      "tm_id": "ARF-TM-1DF26D2562141358E2DC",
+      "source_text": "なんだがゾッとしちゃってるんスよ",
+      "before": "왜지 소름이 돋는단 말임다",
+      "after": "왠지 소름이 돋는단 말임다",
+      "category": "typo",
+      "reason": "〈왜지〉를 〈왠지〉로 바로잡았다."
+    },
+    {
+      "index": 87,
+      "tm_id": "ARF-TM-1E27D375582692DD7427",
+      "source_text": "ちょっとそこの２人。\nあんまり暑い暑い言わないでよね。\nこっちまで移っちゃうじゃない",
+      "before": "잠깐, 거기 두 사람.\n자꾸 덩다 덩다 하지 마.\n나한테까지 옮잖아",
+      "after": "잠깐, 거기 두 사람.\n자꾸 덥다 덥다 하지 마.\n나한테까지 옮잖아",
+      "category": "typo",
+      "reason": "반복된 깨진 오탈자를 원문의 〈덥다〉 감탄으로 복원했다."
+    },
+    {
+      "index": 91,
+      "tm_id": "ARF-TM-1E8E6C31FB3E8CE9DB0D",
+      "source_text": "休戦会議にこぎ着けたんだから\n万々歳だけど",
+      "before": "휴전 회의까지 성사시켰으니\n만세를 부를 일이지만",
+      "after": "휴전 회의까지 성사시켰으니\n더할 나위 없이 좋은 일이지만",
+      "category": "idiom_meaning",
+      "reason": "万々歳를 문자 그대로 만세를 부르는 행위가 아니라 매우 좋은 성과라는 뜻으로 옮겼다."
+    },
+    {
+      "index": 94,
+      "tm_id": "ARF-TM-1EDB9C57ADBD35EF1317",
+      "source_text": "ふふ。そういう性分でな。\nラルクとリフィアという存在に\n希望を見いだしてからは",
+      "before": "후후. 원래 이런 성격이라서.\n라르크와 리피아라는 존재에게서\n희망을 발견한 뒤로는",
+      "after": "후후. 그런 성미라서 말이지.\n라르크와 리피아라는 존재에게서\n희망을 발견한 뒤로는",
+      "category": "dialogue_naturalness",
+      "reason": "そういう性分でな의 설명 어조를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 104,
+      "tm_id": "ARF-TM-1F76CF484FD7426390AE",
+      "source_text": "それに……\nラルクだってがんばってんじゃん。\nなんか、かわいそうだよ",
+      "before": "그리고……\n라르크도 열심히 하고 있잖아.\n왜지 불쌍해",
+      "after": "그리고……\n라르크도 열심히 하고 있잖아.\n왠지 안쓰러워",
+      "category": "typo_and_nuance",
+      "reason": "〈왜지〉를 바로잡고 かわいそう의 연민을 자연스럽게 표현했다."
+    },
+    {
+      "index": 106,
+      "tm_id": "ARF-TM-1F8521A6C9EAD784B918",
+      "source_text": "（ほら、いいから、ほっとけって）",
+      "before": "（이봐, 됐으니까 내버려 둠）",
+      "after": "(이봐, 됐으니까 그냥 내버려 둬)",
+      "category": "typo_and_character_voice",
+      "reason": "인터넷식 오탈자 〈둠〉을 제거하고 반말 명령으로 복원했다."
+    },
+    {
+      "index": 109,
+      "tm_id": "ARF-TM-1FA03E56A3817610806B",
+      "source_text": "いやあ、ここの所色々あっただろ？\nなんか昔のこと思い出したりしてさ",
+      "before": "아니, 요즘 이런저런 일이 많았잖아?\n왜지 옛날 생각이 나서",
+      "after": "아니, 요즘 이런저런 일이 많았잖아?\n왠지 옛날 일이 떠올라서",
+      "category": "typo_and_naturalness",
+      "reason": "〈왜지〉를 바로잡고 思い出す를 자연스럽게 옮겼다."
+    },
+    {
+      "index": 134,
+      "tm_id": "ARF-TM-20E3AF5FDDC635A0932B",
+      "source_text": "そうなのね。\nでも、痣ができたのだから\nとても痛かったのよね",
+      "before": "그렇구나.\n하지만 멍이 들었으니\n많이 아파겠네",
+      "after": "그렇구나.\n하지만 멍이 들었으니\n많이 아팠겠네",
+      "category": "typo",
+      "reason": "〈아파겠네〉 오탈자를 바로잡았다."
+    },
+    {
+      "index": 145,
+      "tm_id": "ARF-TM-218D15EA56E34750E910",
+      "source_text": "神秘って……\nセシルのことじゃなくて\nリフィアちゃんのことっスよね",
+      "before": "신비라니……\n세실이 아니라\n리피아 양 얘기겠죠",
+      "after": "신비라니……\n세실이 아니라\n리피아 얘기겠죠",
+      "category": "honorific_consistency",
+      "reason": "リフィアちゃん을 승인된 호칭 운용에 맞춰 과도한 〈양〉 없이 옮겼다."
+    },
+    {
+      "index": 150,
+      "tm_id": "ARF-TM-21F34F2CD6FC740DF54F",
+      "source_text": "オイゲンには娘さんがいるんだよね",
+      "before": "오이겐에겐 딸이 있지",
+      "after": "오이겐에겐 딸이 있지?",
+      "category": "sentence_function",
+      "reason": "상대에게 확인하는 원문의 질문 기능을 물음표와 어조로 복원했다."
+    },
+    {
+      "index": 152,
+      "tm_id": "ARF-TM-22147EFE72131FFDADB5",
+      "source_text": "父親が先代の元老院議長だった筈だ。\n父親の死後、後を継ぐ形で\n選挙に出たと記憶している",
+      "before": "아버지가 전대 원로원 의장이었을 거다.\n아버지가 죽은 뒤 뒤를 잇는 형태로\n선거에 나왔다고 기억한다",
+      "after": "아버지가 선대 원로원 의장이었을 거다.\n아버지가 세상을 떠난 뒤 그 뒤를 이어\n선거에 나선 것으로 기억한다",
+      "category": "grammar_and_term",
+      "reason": "전대보다 자연스러운 〈선대〉를 쓰고 중복되는 〈뒤 뒤〉를 정리했다."
+    },
+    {
+      "index": 157,
+      "tm_id": "ARF-TM-22781B4CF7A63D7BF651",
+      "source_text": "やっぱ、ヴァイス様ですかね",
+      "before": "역시 바이스 님이려나",
+      "after": "역시 바이스 님이겠죠",
+      "category": "dialogue_function",
+      "reason": "추측·동의를 구하는 ですかね의 어조를 자연스럽게 복원했다."
+    },
+    {
+      "index": 159,
+      "tm_id": "ARF-TM-228FCA2868E2F74C9F7B",
+      "source_text": "……確かにな。\nくそ、何とかヴァイス様を\n助けられないのかよ",
+      "before": "……확실히 그렇군.\n젠장, 어떻게든 바이스 님을\n구할 수 없는 건가",
+      "after": "……그러게.\n젠장, 어떻게든 바이스 님을\n구할 수 없는 건가",
+      "category": "character_voice",
+      "reason": "俺 화자인 라르크의 말투를 절제된 군인체가 아닌 거친 반말로 맞췄다."
+    },
+    {
+      "index": 184,
+      "tm_id": "ARF-TM-23A817DF1269C75D71A2",
+      "source_text": "悲しみと憤りの表現だ。\n俺を置いて水着になって\n浜辺で遊ぶ子らへのね",
+      "before": "슬픔과 분노의 표현이야.\n나만 두고 수영복으로 갈아입은 뒤\n해변에서 노는 아이들을 향한",
+      "after": "슬픔과 분노의 표현이야.\n나만 두고 수영복으로 갈아입은 뒤\n해변에서 노는 아이들을 향한 거지",
+      "category": "sentence_completion",
+      "reason": "원문의 대상을 밝히는 へのね를 완결된 한국어 문장으로 복원했다."
+    },
+    {
+      "index": 186,
+      "tm_id": "ARF-TM-23B8F391703686297A47",
+      "source_text": "この口元などは\nサージュ殿にそっくりです",
+      "before": "이 입매 같은 건\n사쥬 공과 똑 닮았습니다",
+      "after": "이 입매 같은 건\n사쥬 님과 똑 닮았습니다",
+      "category": "honorific_naturalness",
+      "reason": "サージュ殿을 문맥에 맞는 〈사쥬 님〉으로 다듬었다."
+    },
+    {
+      "index": 200,
+      "tm_id": "ARF-TM-248FC7930396D28CC220",
+      "source_text": "ははは！　そうそう！\nこいつも箱入りなんだ",
+      "before": "하하하! 맞아, 맞아!\n이 녀석도 온실 속 화초야",
+      "after": "하하하! 맞아, 맞아!\n이 녀석도 상자 속에서 곱게 자랐거든",
+      "category": "wordplay_context",
+      "reason": "箱入り의 문자적 오해로 이어지는 농담과 곱게 자란 의미를 함께 살렸다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_task_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "지시에 따라 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

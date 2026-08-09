@@ -1,0 +1,83 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\interface\\msgfrm.vol",
+  "header": {
+    "end_of_header": 288,
+    "count": 6,
+    "declared_size": 55872,
+    "actual_size": 55872
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "if_talk.bin",
+      "size": 1196,
+      "relative_offset": 0,
+      "absolute_offset": 288,
+      "head_hex": "002A0005000002005A00FF080DA0294000000200590002050E6026C00000020C",
+      "head_ascii": ".*......Z.....)@....Y....`&.....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_4\\if_talk.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 1,
+      "name": "if_talk_face_eureka.wtm",
+      "size": 18016,
+      "relative_offset": 1216,
+      "absolute_offset": 1504,
+      "head_hex": "57544D4400000020006800A80902010000000220000000000000000000000000",
+      "head_ascii": "WTMD... .h......... ............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_4\\if_talk_face_eureka.wtm",
+      "sjis_run_count": 64,
+      "sjis_runs": []
+    },
+    {
+      "index": 2,
+      "name": "if_talk_message_bg.wtm",
+      "size": 2944,
+      "relative_offset": 19232,
+      "absolute_offset": 19520,
+      "head_hex": "57544D4400000020003800680000000000000020000000000000000000000000",
+      "head_ascii": "WTMD... .8.h....... ............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_4\\if_talk_message_bg.wtm",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 3,
+      "name": "if_talk_message_frame.wtm",
+      "size": 32544,
+      "relative_offset": 22176,
+      "absolute_offset": 22464,
+      "head_hex": "57544D440000002000A000C80902010000000220000000000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_4\\if_talk_message_frame.wtm",
+      "sjis_run_count": 24,
+      "sjis_runs": []
+    },
+    {
+      "index": 4,
+      "name": "if_talk_name_bg.wtm",
+      "size": 416,
+      "relative_offset": 54720,
+      "absolute_offset": 55008,
+      "head_hex": "57544D4400000020001800200000000000000020000000000000000000000000",
+      "head_ascii": "WTMD... ... ....... ............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_4\\if_talk_name_bg.wtm",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 5,
+      "name": "if_talk_name_frame.wtm",
+      "size": 448,
+      "relative_offset": 55136,
+      "absolute_offset": 55424,
+      "head_hex": "57544D4400000020001800200802010000000040000000000000000000000000",
+      "head_ascii": "WTMD... ... .......@............",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_4\\if_talk_name_frame.wtm",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    }
+  ]
+}

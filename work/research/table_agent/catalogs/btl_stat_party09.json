@@ -1,0 +1,37 @@
+{
+  "format": "arf-rpjj99-non-bscr-table-v1",
+  "game_id": "RPJJ99",
+  "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party09.bin",
+  "source_size": 14464,
+  "source_sha256": "a98bb094b9f1e711c87546786807805e505ff4c05c277af7d3f343bd2f517bc3",
+  "schema": "btem",
+  "encoding_contract": "raw bytes; source renders as EUC-JP; Korean replacements use custom font-map bytes",
+  "writer_contract": "set replacement_hex only; runtime controls and NUL are validated",
+  "metadata": {
+    "header_size_word": 16,
+    "data_offset": 384,
+    "name_capacity": 36
+  },
+  "unit_count": 1,
+  "nonempty_count": 1,
+  "japanese_unit_count": 1,
+  "units": [
+    {
+      "id": "btem:0:display_name",
+      "schema": "btem",
+      "record": 0,
+      "field": "display_name",
+      "offset": 384,
+      "offset_hex": "0x180",
+      "capacity": 36,
+      "byte_length": 8,
+      "headroom": 27,
+      "nul_terminated": true,
+      "raw_hex": "A5AFA5E9A5A4A5C9",
+      "source_text": "クライド",
+      "has_japanese": true,
+      "control_signature": [],
+      "replacement_hex": ""
+    }
+  ]
+}

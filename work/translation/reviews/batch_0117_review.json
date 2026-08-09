@@ -1,0 +1,224 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0117",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0117.jsonl",
+  "draft": "work/translation/drafts/batch_0117.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0117.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 23,
+  "unchanged_units": 177,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-A0F9C9D702DD11092430",
+      "source_text": "『股旅兄弟舎』の夢は\nただ地図を作ることじゃない<$0C>フルヘイムの情報を網羅した\nガイドブックを作ることなのさ",
+      "before": "『나그네 형제상회』의 꿈은\n단순히 지도를 만드는 게 아니야<$0C>풀헤임의 정보를 망라한\n가이드북을 만드는 거지",
+      "after": "『마타타비 형제사』의 꿈은\n단순히 지도를 만드는 게 아니야<$0C>풀헤임의 정보를 망라한\n가이드북을 만드는 거지",
+      "category": "proper_noun",
+      "reason": "조직명 股旅兄弟舎를 프로젝트 표기인 마타타비 형제사로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-A11384A2DB51CBCFDEC2",
+      "source_text": "そうか……\n君が読みたくなる本なら\nみんなも読んでくれるんだろうね",
+      "before": "그렇구나……\n네가 읽고 싶은 책이라면\n모두도 읽어 주겠지",
+      "after": "그렇구나……\n네가 읽고 싶은 책이라면\n다들 읽어 주겠지",
+      "category": "natural_korean",
+      "reason": "「みんなも」를 부자연스러운 직역 대신 자연스러운 복수 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A1409719360E9A03EFED",
+      "source_text": "……充分、お金だと思うが",
+      "before": "……충분한 돈이라고 생각하는데",
+      "after": "……충분히 큰돈이라고 생각하는데",
+      "category": "meaning",
+      "reason": "앞 문맥의 １０만 리코가 충분히 큰돈이라는 반응이 분명하도록 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-A14346E492529B2ED5AC",
+      "source_text": "イマジナル神よ、教えてほしい。\n娘は……一体……\n何のために生まれてきたのか……",
+      "before": "이매지널 신이여, 가르쳐 주소서.\n딸은…… 대체……\n무엇을 위해 태어난 것입니까……",
+      "after": "이매지널신이여, 가르쳐 주소서.\n딸은…… 대체……\n무엇을 위해 태어난 것입니까……",
+      "category": "proper_noun",
+      "reason": "신명 イマジナル神을 프로젝트 표기인 이매지널신으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-A18DE42EE1A7613C6405",
+      "source_text": "それも持って行って頂戴<$0C>めぐって欲しい行き先\n手に入れて欲しい品のリストが\n最後の１枚についてるの",
+      "before": "그것도 가져가 줘<$0C>들러 줬으면 하는 곳과\n구해 줬으면 하는 물건 목록이\n마지막 한 장에 적혀 있어",
+      "after": "그것도 가져가 줘<$0C>들러 줬으면 하는 곳과\n구해 줬으면 하는 물건 목록이\n마지막 １장에 적혀 있어",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-A19CBA36920B654F03C0",
+      "source_text": "口やかましい兵士",
+      "before": "시끄러운 병사",
+      "after": "잔소리 심한 병사",
+      "category": "meaning",
+      "reason": "「口やかましい」를 단순히 시끄러운 것이 아니라 잔소리가 심하다는 뜻으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A1D00C8786EB4F8CCC15",
+      "source_text": "エンジュさんの家に行かないと。\n芸術街にあるんだったよな",
+      "before": "엔주 씨의 집에 가야 해.\n예술가에 있었지",
+      "after": "엔주 씨의 집에 가야 해.\n예술 거리에 있었지",
+      "category": "meaning",
+      "reason": "지명 성격의 「芸術街」를 예술가로 잘못 옮긴 부분을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A1D52A6A65E01272CC2C",
+      "source_text": "どれだけ民に嫌われようと\n私はアルス皇帝の味方<$0C>少しくらい傲慢な方が皇帝と\nしての威厳が保てるってものだわ<$0C>……あなたもそう思うでしょ？",
+      "before": "백성들이 아무리 싫어해도\n나는 알스 황제의 편이야<$0C>조금 오만한 편이 황제로서의\n위엄을 지킬 수 있는 법이라고<$0C>……당신도 그렇게 생각하지?",
+      "after": "백성들이 그분을 아무리 싫어해도\n나는 알스 황제의 편이야<$0C>조금 오만한 편이 황제로서의\n위엄을 지킬 수 있는 법이라고<$0C>……당신도 그렇게 생각하지?",
+      "category": "meaning",
+      "reason": "백성이 싫어하는 대상이 화자가 아니라 알스 황제임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-A1DC640C21D49736A2C2",
+      "source_text": "人の定理を貫く力無き時は\nあなたのログレスを\nすべて奪い去ります。<$0C>覚悟してくださいですっ！",
+      "before": "인간의 섭리를 관철할 힘이 없을 때는\n당신의 로그레스를\n모두 빼앗아 가겠습니다.<$0C>각오하는 검다!",
+      "after": "인간의 정리를 관철할 힘이 없다면\n당신의 로그레스를\n모두 빼앗아 가겠습니다.<$0C>각오하십시오!",
+      "category": "meaning",
+      "reason": "「人の定理」를 섭리가 아닌 정리로 복원하고 잘못된 종결 표현을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A1F20FF3C42EA09F236A",
+      "source_text": "大丈夫だって！\n警備兵がよそ見している隙に\n中に入れば余裕っしょ！",
+      "before": "괜찮다니까!\n경비병이 한눈파는 틈에\n들어가면 여유롭지!",
+      "after": "괜찮다니까!\n경비병이 한눈파는 틈에\n들어가면 식은 죽 먹기잖아!",
+      "category": "idiom",
+      "reason": "「余裕っしょ」를 여유롭다는 직역 대신 아주 쉽다는 구어체로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A26E8EDE2DC6A34F342A",
+      "source_text": "あ、あなたは……\n帝室認可傭兵のラグーン曹長？",
+      "before": "다, 당신은……\n황실 인가 용병 라군 조장?",
+      "after": "다, 당신은……\n황실 공인 용병 라군 상사?",
+      "category": "terminology",
+      "reason": "帝室認可傭兵과 曹長을 프로젝트 표기인 황실 공인 용병과 상사로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-A286C509641BEC00A878",
+      "source_text": "イーサの子が２人生まれた以上\n互いに互いを\n倒さなければなりません",
+      "before": "이사의 아이가 두 명 태어난 이상\n서로가 서로를\n쓰러뜨려야만 합니다",
+      "after": "이사의 아이가 ２명 태어난 이상\n서로가 서로를\n쓰러뜨려야만 합니다",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-A296D880A4C76472A18C",
+      "source_text": "戦争と恋愛――\n僕の人生は今のところ\n２連敗中です……",
+      "before": "전쟁과 사랑――\n제 인생은 지금까지\n2연패 중입니다……",
+      "after": "전쟁과 사랑――\n제 인생은 지금까지\n２연패 중입니다……",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-A2A57851CD19E32362B7",
+      "source_text": "俺は自身の意思で\n仕えるべき主君を代えなどしない。\n――俺はこの街で生まれたのだ",
+      "before": "나는 내 의지로\n섬겨야 할 주군을 바꾸지 않는다.\n――나는 이 도시에서 태어났으니까",
+      "after": "나는 내 뜻으로\n섬길 주군을 바꾸는 일은 없다.\n――나는 이 도시에서 태어났으니까",
+      "category": "natural_korean",
+      "reason": "주군을 바꾸지 않는다는 결의를 자연스러운 어순으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A2EBD66CB4DEA7DF86A9",
+      "source_text": "ニンカヨウヘイだったら\nアントラクスくらい\nいったことあるよな〜",
+      "before": "인가 용병이라면\n안트락스 정도는\n가 본 적 있겠지~",
+      "after": "공인 용병이라면\n안트락스 정도는\n가 본 적 있겠지~",
+      "category": "terminology",
+      "reason": "어린아이의 발음으로 적힌 ニンカヨウヘイ를 프로젝트 용어 공인 용병으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A33EEF6A198EFFD6B493",
+      "source_text": "ボクたちの握り心地は\nかなり良いと評判です。\n今日もニギニギされたし……",
+      "before": "우리의 손맛은\n상당히 좋다고 소문났습니다.\n오늘도 꽉꽉 쥐어졌고……",
+      "after": "우리는 손에 쥐는 감촉이\n상당히 좋다고 소문났습니다.\n오늘도 주물주물 당했고……",
+      "category": "meaning",
+      "reason": "「握り心地」를 손맛이 아니라 쥐었을 때의 감촉으로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A38DA1A7A4AE4486CE39",
+      "source_text": "突然、夫を奪われるんだもの。\nエンジュ様のお気持ちは\n察するに余りあるわ……",
+      "before": "갑자기 남편을 빼앗겼잖아.\n엔주 님의 심정은\n충분히 이해해……",
+      "after": "갑자기 남편을 빼앗겼잖아.\n엔주 님의 심정은\n헤아리고도 남아……",
+      "category": "idiom",
+      "reason": "「察するに余りある」를 충분히 헤아릴 만하다는 관용적 의미로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A38F77A2ACBBA2D8012E",
+      "source_text": "出世とは程遠いけど\n上層地区の喧騒から逃れて\n１人佇むってのも悪くないわ",
+      "before": "출세와는 거리가 멀지만\n상층 지역의 소란을 피해\n혼자 지내는 것도 나쁘지 않아",
+      "after": "출세와는 거리가 멀지만\n상층 지역의 소란을 피해\n１명만의 시간을 보내는 것도 나쁘지 않아",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 유지하면서 혼자 있는 시간을 뜻하도록 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A3B184DE76CF8276D25F",
+      "source_text": "ほとんどの子が……えいっ！\n塾をやめちゃったけど……ふんっ！<$0C>先生がいなくても……やあっ！\n稽古を続けることにしたんだっ！",
+      "before": "아이들 대부분이…… 에잇!\n도장을 그만뒀지만…… 흥!<$0C>선생님이 없어도…… 이야앗!\n수련을 계속하기로 했어!",
+      "after": "아이들 대부분이…… 에잇!\n무예관을 그만뒀지만…… 흥!<$0C>선생님이 없어도…… 이야앗!\n수련을 계속하기로 했어!",
+      "category": "terminology",
+      "reason": "ザムエル武芸塾을 가리키는 「塾」을 프로젝트 표기인 무예관으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-A3F6EC4945F2D87E37F6",
+      "source_text": "飛び石の手前にトラップがあります",
+      "before": "비석 앞에 함정이 있습니다",
+      "after": "징검돌 앞에 함정이 있습니다",
+      "category": "meaning",
+      "reason": "「飛び石」를 비석으로 오역한 부분을 징검돌로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A45D9FF411E6CC31C1A5",
+      "source_text": "幾何回廊アルヴィス・希望する記憶  第２層",
+      "before": "기하 회랑 알비스·희망하는 기억  제2층",
+      "after": "기하 회랑 알비스·희망하는 기억  제２층",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 번역문에 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-A49F676DD35733647CD9",
+      "source_text": "かっこいい兵隊さんに\nなりたいなあ",
+      "before": "멋진 군인이\n되고 싶다",
+      "after": "멋진 군인이\n되고 싶어",
+      "category": "voice",
+      "reason": "아이의 소망에 맞는 자연스러운 구어체 종결로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A4AFC3526B4853B20C43",
+      "source_text": "どんな状況であっても\n私たちがここにいる限り\n街に危害は加えさせん",
+      "before": "어떤 상황에서도\n우리가 이곳에 있는 한\n도시에 위해를 끼치게 두지 않겠습니다",
+      "after": "어떤 상황에서도\n우리가 이곳에 있는 한\n도시에 위해를 가하게 두지 않겠다",
+      "category": "voice",
+      "reason": "단호한 병사의 말투와 문장 종결을 일관되게 맞췄다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

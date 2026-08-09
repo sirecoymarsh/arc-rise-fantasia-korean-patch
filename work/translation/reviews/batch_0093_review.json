@@ -1,0 +1,198 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0093",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0093.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0093.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0093.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 18,
+  "unchanged_row_count": 182,
+  "modifications": [
+    {
+      "row_index": 15,
+      "tm_id": "ARF-TM-444976ADA8031B0F9FA6",
+      "source_text": "ボクは決めていました<$0C>もしイーサの子が神の定理を選ぶため\nログレスを集めようと欲した時には\nイーサの子を殺そうと",
+      "before": "저는 결심했습니다<$0C>만약 이사의 아이가 신의 정리를 고르기 위해\n로그레스를 모으려 한다면\n이사의 아이를 죽이겠다고",
+      "after": "저는 결심했습니다<$0C>만약 이사의 아이가 신의 섭리를 고르기 위해\n로그레스를 모으려 한다면\n이사의 아이를 죽이겠다고",
+      "category": "terminology",
+      "reason": "세계관 용어 定理를 용어집의 고정 번역인 섭리로 통일했다."
+    },
+    {
+      "row_index": 21,
+      "tm_id": "ARF-TM-446BEAB8D4C9339C6970",
+      "source_text": "私って、よかれと思ったことが\nいっつも裏目に出るタイプなの。\nいるでしょ？　そういう不幸な人……",
+      "before": "나는 잘되라고 한 일이\n언제나 나쁘게 돌아오는 유형이야.\n있지? 그런 불행한 사람……",
+      "after": "나는 좋은 뜻으로 한 일이\n언제나 나쁜 결과로 돌아오는 타입이야.\n있지? 그런 불행한 사람……",
+      "category": "naturalness",
+      "reason": "선의로 한 일이 늘 역효과를 낸다는 뜻을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "row_index": 33,
+      "tm_id": "ARF-TM-44AFC98DE723D9DBD934",
+      "source_text": "ラルクは私を――イマジナルの\n定理を選んだんじゃないの。\n選ばされたのっ！",
+      "before": "라르크는 나를――이매지널의\n정리를 선택한 게 아니야.\n선택하도록 강요당한 거야!",
+      "after": "라르크는 나를 선택한 게 아니야――\n이매지널의 섭리를 고르도록\n강요당한 거야!",
+      "category": "meaning",
+      "reason": "라르크가 자의로 화자이자 이매지널의 섭리를 택한 것이 아니라 강요받았다는 관계를 명확히 하고 고정 용어를 적용했다."
+    },
+    {
+      "row_index": 39,
+      "tm_id": "ARF-TM-44C84860DE3D7AF14260",
+      "source_text": "あんまりブラブラしないで\nたまには武芸塾に\n帰ってきてよね！<$0C>武芸塾の子たちも\nラルクとの手合わせを\n楽しみにしてるんだから！",
+      "before": "너무 빈둥거리지만 말고\n가끔은 무예 학원으로\n돌아와 줘!<$0C>무예 학원 아이들도\n라르크와 대련하기를\n기대하고 있으니까!",
+      "after": "너무 빈둥거리지만 말고\n가끔은 무예관으로\n돌아와 줘!<$0C>무예관 아이들도\n라르크와 대련하기를\n기대하고 있으니까!",
+      "category": "terminology",
+      "reason": "자무엘 무예관과 연결되는 시설 명칭을 일관되게 통일했다."
+    },
+    {
+      "row_index": 41,
+      "tm_id": "ARF-TM-44C9C1EF1332C160A76F",
+      "source_text": "この前、帝都から辞令が来たんだ。\nどうやらディアマントへの配属が\n正式に決まったらしい<$0C>栄転だとは思うんだけど\nこいつらのことを考えると\nあんまり気乗りしないんだよな",
+      "before": "얼마 전에 제도에서 사령장이 왔어.\n아무래도 디아만트 발령이\n정식으로 결정된 모양이야<$0C>영전이라고 생각하지만\n이 녀석들을 생각하면\n별로 내키지 않아",
+      "after": "얼마 전에 제도에서 인사 발령이 내려왔어.\n아무래도 디아만트 발령이\n정식으로 결정된 모양이야<$0C>영전이라고 생각하지만\n이 녀석들을 생각하면\n별로 내키지 않아",
+      "category": "meaning",
+      "reason": "인사 명령을 뜻하는 辞令를 사령장으로 오해한 번역을 바로잡았다."
+    },
+    {
+      "row_index": 45,
+      "tm_id": "ARF-TM-44D18F66180701356AF1",
+      "source_text": "天然な青年",
+      "before": "천연덕스러운 청년",
+      "after": "엉뚱한 청년",
+      "category": "meaning",
+      "reason": "꾸밈없고 다소 엉뚱한 성격을 가리키는 天然을 천연덕스럽다는 다른 의미에서 바로잡았다."
+    },
+    {
+      "row_index": 67,
+      "tm_id": "ARF-TM-4545325831003D54FD93",
+      "source_text": "おちつく犬",
+      "before": "마음이 편해지는 개",
+      "after": "차분한 개",
+      "category": "meaning",
+      "reason": "개가 차분한 상태임을 사람의 마음을 편안하게 해 준다는 사역 의미로 오해한 번역을 바로잡았다."
+    },
+    {
+      "row_index": 84,
+      "tm_id": "ARF-TM-45A32350786368CF7D99",
+      "source_text": "私も、あなたと同じ……\nこの時間を切り取って\n額縁に入れて飾りたいくらい……",
+      "before": "나도 당신과 같아……\n이 시간을 잘라내어\n액자에 넣어 장식하고 싶을 만큼……",
+      "after": "나도 당신과 같아……\n이 순간을 그대로 담아\n액자에 넣어 장식하고 싶을 만큼……",
+      "category": "idiom",
+      "reason": "행복한 순간을 사진처럼 간직하고 싶다는 비유를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "row_index": 97,
+      "tm_id": "ARF-TM-45E4A17F34FD6AFF43FE",
+      "source_text": "マハト陛下の死因について\n病死と発表されるらしいが\nそれを信じるヤツは誰もいないさ",
+      "before": "마하트 폐하의 사인에 관해\n병사로 발표할 모양이지만\n그걸 믿는 녀석은 아무도 없어",
+      "after": "마하트 폐하의 사인에 관해\n병으로 숨졌다고 발표할 모양이지만\n그걸 믿는 녀석은 아무도 없어",
+      "category": "word_choice",
+      "reason": "병사를 군인으로 오해할 여지가 없도록 병으로 숨졌다는 의미를 명확히 했다."
+    },
+    {
+      "row_index": 99,
+      "tm_id": "ARF-TM-45EF995300AD04CB7F5D",
+      "source_text": "私は貴族の人たちには\nあまりいい印象を持っていないんです<$0C>偉そうにいばり散らすのが\n趣味のような人たちですから……",
+      "before": "저는 귀족들에게\n별로 좋은 인상을 품고 있지 않습니다<$0C>잘난 듯이 거들먹거리는 게\n취미인 것 같은 사람들이니까요……",
+      "after": "저는 귀족들을\n별로 좋게 보지 않습니다<$0C>잘난 듯이 거들먹거리는 게\n취미인 것 같은 사람들이니까요……",
+      "category": "naturalness",
+      "reason": "좋은 인상을 품는다는 부자연스러운 결합을 자연스러운 평가 표현으로 다듬었다."
+    },
+    {
+      "row_index": 100,
+      "tm_id": "ARF-TM-45F07E59E614A11E0F79",
+      "source_text": "遂にバトラキテスまでも\n帝国の手に落ちた……<$0C>帝国がその牙を北方に向けるのは\n時間の問題じゃないか……\n娘よ……どうか無事で……",
+      "before": "마침내 바트라키테스마저\n제국의 손에 넘어갔다……<$0C>제국이 그 이빨을 북쪽으로 돌리는 건\n시간문제 아닌가……\n딸아…… 부디 무사하기를……",
+      "after": "마침내 바트라키테스마저\n제국의 손에 넘어갔다……<$0C>제국이 그 송곳니를 북쪽으로 돌리는 건\n시간문제 아닌가……\n딸아…… 부디 무사하기를……",
+      "category": "word_choice",
+      "reason": "침략 의지를 비유하는 牙를 이빨보다 문맥에 맞는 송곳니로 다듬었다."
+    },
+    {
+      "row_index": 106,
+      "tm_id": "ARF-TM-4620EB351927AB42A722",
+      "source_text": "見た目によらない兵士",
+      "before": "외모와 달리 의외인 병사",
+      "after": "보기와는 다른 병사",
+      "category": "naturalness",
+      "reason": "겉보기와 실제 인상이 다르다는 NPC 표제를 간결하고 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 110,
+      "tm_id": "ARF-TM-4635693AADD211D82CAB",
+      "source_text": "我らはオパルス駐留部隊司令官\nエリオット中将の使いなり！",
+      "before": "우리는 오팔루스 주둔 부대 사령관\n엘리엇 중장의 하수인이다!",
+      "after": "우리는 오팔루스 주둔 부대 사령관\n엘리엇 중장의 사절이다!",
+      "category": "meaning",
+      "reason": "중장의 명을 받고 온 사절을 하수인으로 오해한 번역을 바로잡았다."
+    },
+    {
+      "row_index": 136,
+      "tm_id": "ARF-TM-46BEA61AA855C82D5F73",
+      "source_text": "エブル、バトラキテスと来たら\n次に狙われるのはどこでしょう？<$0C>一気に首都を落とすのか\n精神的支柱である聖都を落とすか\n……共和国の旗色はよくないですね",
+      "before": "에블, 바트라키테스 다음으로\n노림을 받는 곳은 어디일까요?<$0C>단숨에 수도를 함락시킬지\n정신적 지주인 성도를 함락시킬지\n……공화국의 전황은 좋지 않군요",
+      "after": "에블과 바트라키테스를 거쳤으니\n다음 표적은 어디일까요?<$0C>단숨에 수도를 함락시킬지\n정신적 지주인 성도를 함락시킬지\n……공화국의 전황은 좋지 않군요",
+      "category": "naturalness",
+      "reason": "노림을 받는다는 부자연스러운 피동 표현을 다음 공격 표적이라는 자연스러운 말로 다듬었다."
+    },
+    {
+      "row_index": 146,
+      "tm_id": "ARF-TM-46E7E516548F4310D990",
+      "source_text": "ラルクさんは、お兄さんに\nとってもそっくりですねぇ<$0C>あの人が人の未来を託したのも\nちょっとだけわかる気がします",
+      "before": "라르크 씨는 형님과\n정말 많이 닮았네요<$0C>그 사람이 사람들의 미래를 맡긴 것도\n조금은 알 것 같아요",
+      "after": "라르크 씨는 형님과\n정말 많이 닮았네요<$0C>형님이 인류의 미래를 맡긴 것도\n조금은 이해할 것 같아요",
+      "category": "meaning",
+      "reason": "형이 라르크에게 인류의 미래를 맡긴 까닭을 이해한다는 주체와 대상을 명확히 했다."
+    },
+    {
+      "row_index": 163,
+      "tm_id": "ARF-TM-4748CABE2E4F6AE4574C",
+      "source_text": "武芸塾なんて\nうさんくさい商売をしてるから\nこういう目に遭うのだ<$0C>『類は友を呼ぶ』と言うしな。\nいくら、学の浅い君だって\nことわざの意味は知ってるだろ？",
+      "before": "무예 학원 같은\n수상쩍은 장사를 하니까\n이런 일을 당하는 거다<$0C>『유유상종』이라는 말도 있지.\n아무리 배움이 짧은 자네라도\n속담의 뜻은 알겠지?",
+      "after": "무예관 같은\n수상쩍은 장사를 하니까\n이런 일을 당하는 거다<$0C>『유유상종』이라는 말도 있지.\n아무리 배움이 짧은 자네라도\n속담의 뜻은 알겠지?",
+      "category": "terminology",
+      "reason": "자무엘 무예관과 연결되는 시설 명칭을 일관되게 통일했다."
+    },
+    {
+      "row_index": 166,
+      "tm_id": "ARF-TM-474DDA4B6042367E3E5E",
+      "source_text": "この士官学校の卒業生の多くが\n共和国中の駐留軍に\n新兵として派遣されているんだ<$0C>いってしまえばここは\n共和国の武器庫――\nそういっても大袈裟じゃないのさ",
+      "before": "이 사관학교 졸업생 대부분이\n공화국 전역의 주둔군으로\n신병이 되어 파견되고 있어<$0C>말하자면 이곳은\n공화국의 무기고――\n그렇게 말해도 과장은 아니야",
+      "after": "이 사관학교 졸업생 대부분이\n공화국 전역의 주둔군에\n신병으로 파견되고 있어<$0C>말하자면 이곳은\n공화국의 무기고――\n그렇게 말해도 과장은 아니야",
+      "category": "grammar",
+      "reason": "파견 신분을 나타내는 조사와 서술을 자연스럽게 바로잡았다."
+    },
+    {
+      "row_index": 193,
+      "tm_id": "ARF-TM-47CE8357D8F86A965547",
+      "source_text": "可愛い女の子でも\n入塾してくれればな……<$0C>『センパイ』とか\n呼ばれちゃってさ……",
+      "before": "귀여운 여자애라도\n입학해 주면 좋을 텐데……<$0C>『선배』 같은 호칭으로\n불리는 거지……",
+      "after": "귀여운 여자애라도\n입문해 주면 좋을 텐데……<$0C>『선배』라고\n불러 주기도 하고……",
+      "category": "terminology",
+      "reason": "무예관에 들어오는 일을 학교 입학이 아닌 입문으로 옮기고 호칭을 직접적으로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

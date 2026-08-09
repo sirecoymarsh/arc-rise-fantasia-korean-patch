@@ -1,0 +1,136 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0056",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0056.jsonl",
+  "draft": "work/translation/drafts/batch_0056.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0056.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 12,
+  "unchanged_units": 188,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-25E2EE7093404A584CA3",
+      "source_text": "心配しなくても\nあいつがレオンに違いねぇよ",
+      "before": "걱정하지 않아도\n그 녀석이 레온이 틀림없어",
+      "after": "걱정할 필요 없어.\n그 녀석은 틀림없이 레온이야",
+      "category": "grammar",
+      "reason": "레온임이 틀림없다는 단정이 자연스럽게 성립하도록 문장을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-36F35246440C71BF61D2",
+      "source_text": "なるほど\n神種も所詮は神の捨てゴマか",
+      "before": "그렇군\n신종도 결국 신의 버리는 패인가",
+      "after": "그렇군\n신종도 결국 신의 버림패인가",
+      "category": "word_choice",
+      "reason": "희생시키고 버리는 말이라는 뜻의 '捨てゴマ'를 자연스러운 한국어로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-39AC882A1F7847BA5D88",
+      "source_text": "さぁ、ラルク。\nそろそろみんなを集めましょ",
+      "before": "자, 라르크.\n이제 슬슬 다들 모으자",
+      "after": "자, 라르크.\n이제 슬슬 모두를 모으자",
+      "category": "grammar",
+      "reason": "사람들을 불러 모은다는 목적격 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-3C8254F2A43FB004B597",
+      "source_text": "人の未来を人の手に取り戻すって\nのはそういうことだろ",
+      "before": "사람의 미래를 사람 손에 되찾는다는 건\n그런 거잖아",
+      "after": "사람의 미래를 사람의 손으로 되찾는다는 건\n그런 거잖아",
+      "category": "grammar",
+      "reason": "미래를 되찾는 수단을 나타내는 조사를 자연스럽게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-409BF177AE6D3E3F4CF4",
+      "source_text": "私のことは気にするな",
+      "before": "나는 신경 쓰지 마라",
+      "after": "나를 신경 쓰지 마라",
+      "category": "grammar",
+      "reason": "신경 쓰는 대상을 나타내는 목적격 조사를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-412FD2291B84C026C8F9",
+      "source_text": "……そうか。\n神種と接触したのか。\nなるほど……",
+      "before": "……그런가.\n신종과 접촉했군.\n그렇다면……",
+      "after": "……그런가.\n신종과 접촉했군.\n그렇군……",
+      "category": "meaning",
+      "reason": "새 사실을 납득하는 'なるほど'를 조건·결론 표현과 구분했다."
+    },
+    {
+      "tm_id": "ARF-TM-4163C121A308A9DC2E9A",
+      "source_text": "……なら\nそういうことにしておきますよ",
+      "before": "……그럼\n그런 것으로 해 두지",
+      "after": "……그럼\n그런 걸로 해 두죠",
+      "category": "speaker_voice",
+      "reason": "상대와 거리를 두는 공손한 어조를 종결 표현에 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-43605AD47E4E69A5CFB4",
+      "source_text": "りょ、了解致しました！",
+      "before": "며, 명심하겠습니다!",
+      "after": "아, 알겠습니다!",
+      "category": "meaning",
+      "reason": "명령을 이해하고 수락하는 '了解'의 기능을 정확히 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-47DFB2E65F5419934FC4",
+      "source_text": "ごめんなさい。\n勝手なことばかり言って",
+      "before": "미안해.\n제멋대로인 말만 해서",
+      "after": "미안해.\n내 멋대로 말해서",
+      "category": "grammar",
+      "reason": "제멋대로 말한 행동을 사과하는 구어체가 자연스럽게 이어지도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-4CA17372C19185D76D59",
+      "source_text": "スクイルもこんな風に\n美しいログレスなのかしら……",
+      "before": "스쿠일도 이런 식으로\n아름다운 로그레스일까……",
+      "after": "스쿠일도 이렇게\n아름다운 로그레스일까……",
+      "category": "naturalness",
+      "reason": "눈앞의 풍경처럼 아름다운지 묻는 비교 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-57DB3DC46DAFECB85A4F",
+      "source_text": "油断して先を越されたら\n勇者の名が泣くよ。\n急ごう!!",
+      "before": "방심해서 추월당하면\n용사의 이름이 울 거야.\n서두르자!!",
+      "after": "방심해서 선수를 빼앗기면\n용사라는 이름이 울겠다.\n서두르자!!",
+      "category": "naturalness",
+      "reason": "남에게 뒤처지면 용사의 명예가 손상된다는 관용적 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-5CD8F6F8F19A1F31C4CD",
+      "source_text": "今、ラルクが契約している\nログレスは３体。\nこのままの調子で行きたいものだな",
+      "before": "지금 라르크가 계약한\n로그레스는 ３마리.\n이대로 계속하고 싶군",
+      "after": "지금 라르크가 계약한\n로그레스는 ３마리.\n이 기세로 계속 가고 싶군",
+      "category": "naturalness",
+      "reason": "현재의 좋은 흐름을 유지하고 싶다는 뜻을 자연스럽게 다듬고 전각 숫자를 보존했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

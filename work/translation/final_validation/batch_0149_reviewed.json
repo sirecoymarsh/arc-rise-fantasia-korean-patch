@@ -1,0 +1,18 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0149.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0149.jsonl",
+  "source_units": 177,
+  "translation_units": 177,
+  "completed_units": 177,
+  "unique_hangul": 375,
+  "hangul_characters": "가각간갈감같개갸거걱건걸검것게겐겠결겼경계고곡곱곳과관괜교구국군균그금긋기긴길까깔꺄꺾께끄끔나난날남났낮내냐너넌네녀년노놀놈누느는늘능늦니님다단닫달담대더던데델도돌동돼됐된두둘뒤드든들디딱땅때떡떻또뛰뜻라람랑래러런럼렁렇레렸례로록론롭뢰료루류르른를리린립마막만많말망맞맵머먹멀멍메며면명모못무문물뭐미민밀바박받발방백버법베벤별병보볼봐부분불붉붙브블비쁜쁨삐사산살상새색생서석설성세소속손솔송수술숨스슨슬슴습시식신실심싶쓰씨아악안않알았앞야약어억언얼업없었에엔엘여역연열염였영예오올와완왔왼요용우운울움웃원월유으은을음의이인일임입있잊자잖잘잠잡장재저적전절점접정제젠져졌조족존좋죄주죽줄중줘즈즌지직진질짐집짓짜째쩡쪽쭉차찮창찾처청체쳐최층치친칭카컷코콜크클키킨킬타탁탑태택터테토통투트판팔퍼펴평표풀풍프피핀하한할함합항해했행헌헤혀혐협형호화환회흥희히힐",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

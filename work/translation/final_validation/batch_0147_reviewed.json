@@ -1,0 +1,18 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0147.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0147.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 365,
+  "hangul_characters": "가각간갈갑같갯거건걸것게겐겠겨경계고곤곳공과관괜교구국군그근기길까깐꺄께꼴꽃끄끌끔끝낌나난날남났내냐너넘네넬넸녀년노누눈는니님다단달담당대더던데도돈돌동돼됐되된두둬뒤드든들디따때떻또뜨뜬라란람랑랗래량러런럼렇레려렸례로루류륭르른를름리린립마막만말매머먹먼멍메멜면명모목못무문뭐뭡미민믿바반받방배백법베벤벽변병보복볼봉부분불브비빠빨뻐사산상색생서석선설섯성세셨소속손솔송수숨쉬슈스슨습시식신실싫심십싶쓰씀씨아악안않알앗았야약얀얇얍양어억언얼없었에엔엘여역연열영오옥온올와완왔왜왼요욕용우운워원월웠윌유으은을음응의이인일임입있자작잖잠잡장재쟁저적전절젊점정제조족종좋죄주중줘즈즌증지직진집째쪽찮창찾처철청쳐촌추측층치친침카컷켜쾅쾌크큰클킁키타탁탄터통퉁트틀틱파팔페편폐포표푸푹프피필하한할함합해했헤헥현형호혼홀화환활황회후훌훗휴흠흥히",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0078",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0078.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0078.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0078.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 16,
+  "unchanged_row_count": 184,
+  "modifications": [
+    {
+      "row_index": 6,
+      "tm_id": "ARF-TM-07A59B56B77126250ABD",
+      "source_text": "昔は漁師の小船に乗せてもらってね。\nいや、そのせがれが幼馴染で――\n朝早くに、海に出てねえ<$0C>たくさんの土産を\n家に持って帰ってねえ。いやあ\nあのときの船酔いは酷かった……",
+      "before": "옛날엔 어부의 작은 배에 태워 줬지.\n아니, 그 집 아들이 소꿉친구라서――\n이른 아침부터 바다에 나가서는<$0C>선물을 잔뜩\n집으로 가져왔지. 이야,\n그때 멀미는 정말 심했어……",
+      "after": "옛날엔 어부의 작은 배에 태워 달라고 했지.\n아니, 그 집 아들이 소꿉친구라서――\n이른 아침부터 바다에 나가서는<$0C>선물을 잔뜩\n집으로 가져왔지. 이야,\n그때 멀미는 정말 심했어……",
+      "category": "semantic_accuracy",
+      "reason": "화자가 어부의 배에 태워 달라고 했다는 능동 관계를 바로잡았다."
+    },
+    {
+      "row_index": 11,
+      "tm_id": "ARF-TM-07B828B9D6CA17F24D9D",
+      "source_text": "<$19>00、先に進まないか",
+      "before": "<$19>00, 먼저 가지 않겠나",
+      "after": "<$19>00, 계속 나아가지 않겠나",
+      "category": "semantic_accuracy",
+      "reason": "先に進む를 먼저 간다는 뜻이 아닌 앞으로 진행한다는 의미로 옮겼다."
+    },
+    {
+      "row_index": 26,
+      "tm_id": "ARF-TM-07E25E67AB28AD03D35F",
+      "source_text": "グリーンヒル議長は\n精力的に元老院議員の\n内部改革を推進してるらしい<$0C>随分とふっきれた様子だが\nこれは聖皇ホゼアの告発と\n何か関連があるのだろうか？",
+      "before": "그린힐 의장은\n정력적으로 원로원 의원들의\n내부 개혁을 추진하는 모양이야<$0C>꽤나 미련을 털어 낸 모습인데\n이게 성황 호제아의 고발과\n무슨 관련이 있는 걸까?",
+      "after": "그린힐 의장은\n적극적으로 원로원 의원들의\n내부 개혁을 추진하는 모양이야<$0C>꽤나 미련을 털어 낸 모습인데\n이게 성황 호제아의 고발과\n무슨 관련이 있는 걸까?",
+      "category": "naturalness",
+      "reason": "精力的의 번역에서 불필요한 성적 뉘앙스를 제거했다."
+    },
+    {
+      "row_index": 34,
+      "tm_id": "ARF-TM-07FB06AAC97564D4E8B9",
+      "source_text": "アルコーン隊さえいれば\n共和国軍の勝利は約束されたも同然。\n何も怯えることはないんですよ",
+      "before": "알콘대만 있으면\n공화국군의 승리는 약속된 것이나 다름없어.\n아무것도 두려워할 필요 없습니다",
+      "after": "알콘대만 있으면\n공화국군의 승리는 약속된 것이나 다름없습니다.\n아무것도 두려워할 필요 없습니다",
+      "category": "register",
+      "reason": "한 대사 안의 존댓말 종결을 통일했다."
+    },
+    {
+      "row_index": 53,
+      "tm_id": "ARF-TM-08582DD03D2235364311",
+      "source_text": "ヤバイ、コイツ……\n果てしなくウザいんだけど……\nね、こいつ何とかしてよ？",
+      "before": "위험해, 이 녀석……\n끝도 없이 짜증 나는데……\n있지, 이 녀석 좀 어떻게 해 줘",
+      "after": "큰일이네, 이 녀석……\n끝도 없이 짜증 나는데……\n있지, 이 녀석 좀 어떻게 해 줘",
+      "category": "register",
+      "reason": "ヤバイ를 상황에 맞는 부정적 감탄으로 옮겼다."
+    },
+    {
+      "row_index": 66,
+      "tm_id": "ARF-TM-08A17F1BE01AB9BC7D27",
+      "source_text": "幾何回廊アルヴィス・混濁する記憶  第４層",
+      "before": "기하 회랑 알비스・혼탁해지는 기억  제４층",
+      "after": "기하 회랑 알비스・혼탁한 기억  제４층",
+      "category": "naturalness",
+      "reason": "混濁する를 명사구 제목에 맞게 간결하게 다듬었다."
+    },
+    {
+      "row_index": 68,
+      "tm_id": "ARF-TM-08B207B5608D9465B712",
+      "source_text": "フフ……懲りないわね。\nじゃあ、お姉さんが本当の\n秘密の意味、教えてあげよっか？",
+      "before": "후후…… 끈질긴 꼬마네.\n그럼 누나가 진짜\n비밀의 의미를 가르쳐 줄까?",
+      "after": "후후…… 좀처럼 포기할 줄 모르네.\n그럼 누나가 진짜\n비밀의 의미를 가르쳐 줄까?",
+      "category": "semantic_accuracy",
+      "reason": "懲りない를 실패해도 포기하지 않는다는 의미로 바로잡았다."
+    },
+    {
+      "row_index": 88,
+      "tm_id": "ARF-TM-0908578A58B5B5E70717",
+      "source_text": "『赤い月』が何だってんだ！\nそんなのメじゃねえ\nこっちには家族がいるんだ<$0C>家族のためだったら\nオルキナだろうが地獄だろうが\n喜んでいってやるってんだ！",
+      "before": "『붉은 달』이 뭐 어쨌다는 거야!\n그딴 건 아무것도 아니야\n이쪽엔 가족이 있다고<$0C>가족을 위해서라면\n오르키나든 지옥이든\n기꺼이 가 주겠어!",
+      "after": "『붉은 달』이 뭐 어쨌다는 거야!\n그딴 건 별것도 아니야\n이쪽엔 가족이 있다고<$0C>가족을 위해서라면\n오르키나든 지옥이든\n기꺼이 가 주겠어!",
+      "category": "naturalness",
+      "reason": "メじゃねえ를 구어체 관용 표현으로 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 95,
+      "tm_id": "ARF-TM-0931B332B306860EAD24",
+      "source_text": "いい商品が高い値で売られ\n粗悪品は安く買い叩かれる――\nこれぞ、自由競争ってヤツ<$0C>これだけ盛んな港だと\n商人の生存競争も激しそうね。\n最後まで生き残れるといいけれど",
+      "before": "좋은 상품은 비싼 값에 팔리고\n조악한 물건은 헐값에 팔린다――\n이게 바로 자유 경쟁이지<$0C>이렇게 번성한 항구라면\n상인들의 생존 경쟁도 치열하겠어.\n끝까지 살아남으면 좋겠지만",
+      "after": "좋은 상품은 비싼 값에 팔리고\n조악한 물건은 헐값에 매입된다――\n이게 바로 자유 경쟁이지<$0C>이렇게 번성한 항구라면\n상인들의 생존 경쟁도 치열하겠어.\n끝까지 살아남으면 좋겠지만",
+      "category": "semantic_accuracy",
+      "reason": "買い叩かれる를 싸게 팔린다가 아닌 헐값에 매입된다는 의미로 바로잡았다."
+    },
+    {
+      "row_index": 106,
+      "tm_id": "ARF-TM-096C769F3EA64CFE9217",
+      "source_text": "ラルク。私はいつもたったひとつの\n解を追い求めています",
+      "before": "라르크. 나는 언제나 단 하나의\n해를 쫓고 있습니다",
+      "after": "라르크. 나는 언제나 단 하나의\n해답을 찾아 헤매고 있습니다",
+      "category": "naturalness",
+      "reason": "대화 문맥의 解를 자연스러운 '해답'으로 옮겼다."
+    },
+    {
+      "row_index": 118,
+      "tm_id": "ARF-TM-09B26A99C4512F13B9CB",
+      "source_text": "bug040:ビートル\nbug041:メタルクワガタ\nbug042:レイディバード\nbug043:ナナホシ\nやめる",
+      "before": "bug040:비틀\nbug041:메탈 쿠와가타\nbug042:레이디 버드\nbug043:나나호시\n그만두기",
+      "after": "bug040:비틀\nbug041:메탈 사슴벌레\nbug042:레이디버드\nbug043:나나호시\n그만두기",
+      "category": "terminology",
+      "reason": "곤충 이름과 합성어 표기를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 120,
+      "tm_id": "ARF-TM-09CC1749A4EDF41436E9",
+      "source_text": "幾何回廊アルヴィス・混濁する記憶  第２層",
+      "before": "기하 회랑 알비스・혼탁해지는 기억  제２층",
+      "after": "기하 회랑 알비스・혼탁한 기억  제２층",
+      "category": "naturalness",
+      "reason": "混濁する를 명사구 제목에 맞게 간결하게 다듬었다."
+    },
+    {
+      "row_index": 134,
+      "tm_id": "ARF-TM-0A07DAA98672BD9E48CE",
+      "source_text": "だって、納得じゃん？\n動く箱の中身が\nコピンだったなんて",
+      "before": "그야 납득되잖아?\n움직이는 상자 안에\n코핀이 있었다니",
+      "after": "그야 납득되잖아?\n움직이는 상자 안에 든 게\n코핀이었다니",
+      "category": "naturalness",
+      "reason": "상자와 내용물의 관계를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 137,
+      "tm_id": "ARF-TM-0A1A047A94D5774FF9B1",
+      "source_text": "頭がボーっとしてんだよね……\n生活に潤いが足りないんだよ、きっと。\n軍人って出会いとかないからさァ……",
+      "before": "머리가 멍하거든……\n생활에 활기가 부족한 거야, 분명.\n군인은 만날 기회 같은 게 없으니까……",
+      "after": "머리가 멍하거든……\n생활에 활기가 부족한 거야, 분명.\n군인은 만남 같은 게 없으니까……",
+      "category": "semantic_accuracy",
+      "reason": "出会い를 단순 접촉 기회가 아닌 연애 상대와의 만남으로 자연스럽게 옮겼다."
+    },
+    {
+      "row_index": 153,
+      "tm_id": "ARF-TM-0A71F15B0569230E0947",
+      "source_text": "――正直、不安です<$0C>政権が変わるってことは\n全てが変わるってことでしょ？\n……大丈夫なのか？",
+      "before": "――솔직히 불안합니다<$0C>정권이 바뀐다는 건\n모든 게 바뀐다는 거잖아?\n……괜찮을까?",
+      "after": "――솔직히 불안합니다<$0C>정권이 바뀐다는 건\n모든 게 바뀐다는 뜻이죠?\n……괜찮은 걸까요?",
+      "category": "register",
+      "reason": "한 대사 안의 존댓말 종결을 통일했다."
+    },
+    {
+      "row_index": 189,
+      "tm_id": "ARF-TM-0B21E7464C66614F2670",
+      "source_text": "ラルク、あんまり\nアルス殿下にご迷惑を\nかけてはダメよ<$0C>いくら仲が良くても\nアルス殿下にはお立場が\nあるのですから",
+      "before": "라르크, 너무\n알스 전하께 폐를\n끼치면 안 돼<$0C>아무리 사이가 좋아도\n알스 전하께는 지켜야 할 입장이\n있으시니까",
+      "after": "라르크, 너무\n알스 전하께 폐를\n끼치면 안 돼<$0C>아무리 사이가 좋아도\n알스 전하께는 지켜야 할\n입장이 있으시니까",
+      "category": "naturalness",
+      "reason": "수식 관계와 줄 호흡을 자연스럽게 정리했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

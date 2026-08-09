@@ -1,0 +1,160 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0084",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0084.jsonl",
+  "draft": "work/translation/drafts/batch_0084.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0084.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 15,
+  "unchanged_units": 185,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-2072DA61C6FB8EE830F9",
+      "source_text": "嫁に冷たくあしらわれても\n娘が汚い言葉を覚えても\nやっぱり人生捨てたものじゃない<$0C>今度は嫁と娘を\nここに連れてくることにします",
+      "before": "아내에게 쌀쌀맞게 대해지고\n딸이 험한 말을 배워도\n역시 인생은 살 만해<$0C>다음에는 아내와 딸을\n여기에 데려오겠습니다",
+      "after": "아내가 쌀쌀맞게 굴고\n딸이 험한 말을 배워도\n역시 인생은 살 만해<$0C>다음에는 아내와 딸을\n여기에 데려오겠습니다",
+      "category": "grammar",
+      "reason": "아내가 화자에게 냉담하게 군다는 의미를 자연스러운 능동문으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-20BAE1E54358124AFCED",
+      "source_text": "……１人でいいの。\nもう大切な人を作ったり\n失ったりするのは嫌だから……",
+      "before": "……１명이면 돼.\n이젠 소중한 사람을 만들거나\n잃는 건 싫으니까……",
+      "after": "……혼자면 돼.\n이젠 소중한 사람을 만들거나\n잃는 건 싫으니까……",
+      "category": "numeric_fidelity",
+      "reason": "원문에 숫자가 없는 '１명' 표기를 제거하고 혼자 지내겠다는 의미를 정확히 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-20CED27245A179357A44",
+      "source_text": "この村の１番奥にね\nグランツさんって人が住んでるの<$0C>怖い人だけど、機械に詳しくて\n直せないものはないって言ってた",
+      "before": "이 마을 가장 안쪽에\n그란츠 씨라는 사람이 살아<$0C>무서운 사람이지만 기계에 밝아서\n못 고치는 게 없다고 했어",
+      "after": "이 마을 １번 안쪽에\n그란츠 씨라는 사람이 살아<$0C>무서운 사람이지만 기계에 밝아서\n못 고치는 게 없다고 했어",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 '１'을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-20E1D1A21D8DD88A62C2",
+      "source_text": "やれやれ。\nすーっかり頭に血が上ってやがる",
+      "before": "이런, 이런.\n완전히 머리에 피가 몰렸군",
+      "after": "이런, 이런.\n완전히 머리끝까지 화가 났군",
+      "category": "idiom",
+      "reason": "격분한 상태를 뜻하는 '頭に血が上る'를 자연스러운 한국어 관용 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-20E9C860CBA49D4961C2",
+      "source_text": "この歳になっても\n自分の足で歩けているのは<$0C>長年、満ち干の道を通って\n神殿に参拝しているおかげだね",
+      "before": "이 나이가 돼서도\n내 발로 걸을 수 있는 건<$0C>오랫동안 물때의 길을 지나\n신전에 참배한 덕분이야",
+      "after": "이 나이가 돼서도\n내 발로 걸을 수 있는 건<$0C>오랫동안 밀물과 썰물의 길을 지나\n신전에 참배한 덕분이야",
+      "category": "word_choice",
+      "reason": "밀물과 썰물에 따라 열리는 길이라는 '満ち干の道'의 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-20F64268A2BFCDBCE139",
+      "source_text": "お前が和平の使者とは……\n趣味の悪い冗談じゃないか<$0C>だって、お前は宣戦布告の\n親書を持ってきた男だぜ？",
+      "before": "네가 화평 사자라니……\n취향 나쁜 농담이군<$0C>너는 선전포고\n친서를 가져온 남자잖아?",
+      "after": "네가 화평 사자라니……\n고약한 농담이군<$0C>너는 선전포고\n친서를 가져온 남자잖아?",
+      "category": "naturalness",
+      "reason": "'趣味の悪い冗談'을 자연스러운 한국어 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-21519E26EBD367E025F3",
+      "source_text": "ここから泉をずっと見てると\nたまに浮いてる葉っぱの裏側に\n変な生き物がいる――<$0C>ような気がするの。\n気のせいなのかな……",
+      "before": "여기서 샘을 계속 보고 있으면\n가끔 떠 있는 나뭇잎 뒷면에\n이상한 생물이 있는――<$0C>것 같은 기분이 들어.\n기분 탓일까……",
+      "after": "여기서 샘을 계속 바라보면\n가끔 떠 있는 나뭇잎 뒤에\n이상한 생물이 보이는――<$0C>것 같아.\n기분 탓일까……",
+      "category": "naturalness",
+      "reason": "생물이 보이는 듯하다는 문장이 제어 토큰 전후로 자연스럽게 이어지도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-218BE47F667E56FFFFC0",
+      "source_text": "ここでお見送りするのは\n高貴なお方が多いのです<$0C>……身だしなみには気をつけなきゃ",
+      "before": "여기서 배웅하는 분은\n고귀한 분이 많습니다<$0C>……몸가짐을 조심해야겠어요",
+      "after": "여기서 배웅하는 분은\n고귀한 분이 많습니다<$0C>……차림새를 단정히 해야겠어요",
+      "category": "word_choice",
+      "reason": "외모와 복장을 단정히 한다는 '身だしなみ'의 의미를 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-21A817903FAC9DF19AF7",
+      "source_text": "……あら。シェリィ・グリーンヒル\n議長暗殺未遂事件への関与も\n疑った方がよさそうですね",
+      "before": "……어머. 셰리 그린힐\n의장 암살 미수 사건에 관여했는지도\n의심해 보는 게 좋겠군요",
+      "after": "……어머. 셰리 그린힐\n의장 암살 미수 사건에 연루됐는지도\n의심해 보는 게 좋겠군요",
+      "category": "grammar",
+      "reason": "사건 관여 여부를 의심한다는 문장의 호응을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-2213EDBA5B6FC9075B8E",
+      "source_text": "ねえ、お前は１人ぼっちなの？\nだとしたら、私と一緒ね。\nかわいそうに……",
+      "before": "있지, 넌 １명뿐이야?\n그렇다면 나와 같네.\n불쌍해라……",
+      "after": "있지, 너도 １명 홀로야?\n그렇다면 나와 같네.\n불쌍해라……",
+      "category": "grammar",
+      "reason": "전각 숫자 '１'을 보존하면서 홀로인지 묻는 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-227BD4F1A8D0B8732846",
+      "source_text": "今は帝国のことよりも\n共和国の経済を立て直すことが\n何よりも最優先事項である<$0C>エブル、バトラキテスを\n奪われた上に多くの都市が\n傷ついてしまったからな……",
+      "before": "지금은 제국보다\n공화국 경제를 재건하는 것이\n무엇보다 최우선 과제다<$0C>에브루와 바트라키테스를\n빼앗긴 데다 많은 도시가\n피해를 입었으니까……",
+      "after": "지금은 제국보다\n공화국 경제를 재건하는 것이\n무엇보다 최우선 과제다<$0C>에블과 바트라키테스를\n빼앗긴 데다 많은 도시가\n피해를 입었으니까……",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-227F00BC51E452DF4383",
+      "source_text": "……おはようございます<$0C>…………\n……それだけですが……何か？",
+      "before": "……안녕하세요<$0C>…………\n……그게 다입니다만…… 뭔가요?",
+      "after": "……좋은 아침입니다<$0C>…………\n……그게 다입니다만…… 뭔가요?",
+      "category": "meaning",
+      "reason": "아침 인사인 'おはようございます'를 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-22E294FC3DE572618EC8",
+      "source_text": "美しい街が壊されるのを\n見るのは耐えられないわ……\nだって、こんなに綺麗なんですもの",
+      "before": "아름다운 도시가 파괴되는 걸\n보는 건 견딜 수 없어……\n이렇게 아름다운걸",
+      "after": "아름다운 도시가 파괴되는 걸\n보는 건 견딜 수 없어……\n이렇게나 아름다우니까",
+      "category": "grammar",
+      "reason": "이유를 나타내는 마지막 문장의 어미와 띄어쓰기를 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-22E744C1A7FE30BECD99",
+      "source_text": "そこにいる綺麗な女の人――\n本当の家族じゃないけど\n私のママなの……<$0C>この前の襲撃で\n１人ぼっちになった私を\n拾ってくれたんだ……",
+      "before": "저기 있는 예쁜 여자――\n진짜 가족은 아니지만\n내 엄마야……<$0C>지난 습격으로\n１명뿐이 된 나를\n거둬 줬어……",
+      "after": "저기 있는 예쁜 여자――\n진짜 가족은 아니지만\n내 엄마야……<$0C>지난 습격으로\n１명 홀로 남은 나를\n거둬 줬어……",
+      "category": "grammar",
+      "reason": "전각 숫자 '１'을 보존하면서 홀로 남았다는 의미를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-23A71E8857D44D6C5074",
+      "source_text": "共和国に永遠の忠誠を誓うより\n特定のレディに永遠の愛を誓った方が\n男としては勝ち組だろ？",
+      "before": "공화국에 영원한 충성을 맹세하는 것보다\n특정 숙녀에게 영원한 사랑을 맹세하는 게\n남자로서는 승리한 인생이지?",
+      "after": "공화국에 영원한 충성을 맹세하는 것보다\n특정 숙녀에게 영원한 사랑을 맹세하는 게\n남자로서는 성공한 인생이지?",
+      "category": "naturalness",
+      "reason": "연애에서 성공한 사람을 뜻하는 '勝ち組'을 자연스러운 한국어로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

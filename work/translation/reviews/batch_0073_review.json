@@ -1,0 +1,152 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0073",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0073.jsonl",
+  "draft": "work/translation/drafts/batch_0073.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0073.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 14,
+  "unchanged_units": 186,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-7C89B364D2908CADCDA1",
+      "source_text": "……謀略で人を陥れるのは\n母親譲りか",
+      "before": "……모략으로 사람을 함정에 빠뜨리는 건\n어머니에게 물려받았나",
+      "after": "……모략으로 사람을 함정에 빠뜨리는 건\n어머니를 닮았나",
+      "category": "naturalness",
+      "reason": "성향이 어머니에게서 이어졌다는 '母親譲り'를 자연스러운 한국어 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7E6D977200AD1A3BC6C3",
+      "source_text": "侵入者だ！\n地下牢に賊が侵入した！",
+      "before": "침입자다!\n지하 감옥에 적이 침입했다!",
+      "after": "침입자다!\n지하 감옥에 도적이 침입했다!",
+      "category": "word_choice",
+      "reason": "침입자를 가리키는 '賊'을 문맥에 맞는 '도적'으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7ED073E7E0F70CEE0195",
+      "source_text": "みんなは竜玉石をつけていないの？",
+      "before": "다들 용옥석을 달고 있지 않아?",
+      "after": "다들 용옥석을 차고 있지 않아?",
+      "category": "naturalness",
+      "reason": "신체에 착용하는 용옥석의 동사를 자연스러운 '차다'로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-83E1E2CD5B36D73BCFA1",
+      "source_text": "追いかけなくていいんスか、アニキ",
+      "before": "쫓아가지 않아도 됨까, 형님",
+      "after": "쫓아가지 않아도 괜찮슴까, 형님",
+      "category": "speaker_voice",
+      "reason": "니콜의 말투를 유지하면서도 오타처럼 보이던 종결 표현을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-8E372E36A99D45E84C67",
+      "source_text": "メリディア帝国軍とは縁もゆかりもないっ\nて顔をしておいた方が安全よ",
+      "before": "메리디아 제국군과는 아무 연도 없다는\n표정을 지어 두는 게 안전해",
+      "after": "메리디아 제국군과는 아무 인연도 없다는\n표정을 지어 두는 게 안전해",
+      "category": "grammar",
+      "reason": "부자연스러운 '아무 연도'를 '아무 인연도'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-8F6C7344083C93784C1E",
+      "source_text": "そんな風に言うのはやめろよ。\nトゥレミリアから我が帝国まで\n女性１人では大変だったと思うよ",
+      "before": "그런 식으로 말하지 마.\n투레밀리아에서 우리 제국까지\n여자 １명이서는 힘들었을 거야",
+      "after": "그런 식으로 말하지 마.\n투레밀리아에서 우리 제국까지\n여자 １명 혼자서는 힘들었을 거야",
+      "category": "grammar",
+      "reason": "전각 숫자 '１'을 보존하면서 '１명이서는'의 잘못된 조사를 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-907C71C01873776D1F7E",
+      "source_text": "本日夕刻より、ダグラス卿夫人の\n処刑が行われることが\n決定したのです",
+      "before": "오늘 저녁부터 더글러스 경 부인의\n처형을 집행하기로\n결정됐습니다",
+      "after": "오늘 저녁, 더글러스 경 부인의\n처형이 집행되기로\n결정됐습니다",
+      "category": "meaning",
+      "reason": "처형이 오늘 저녁부터 지속된다는 뜻이 아니라 그 시각에 집행된다는 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-9624DF1EB7319EE7D83E",
+      "source_text": "ＯＫ〜！\nブレイブセシル号なら\nひとっ飛びだよ！",
+      "before": "ＯＫ〜!\n브레이브 세실호라면\n금방이야!",
+      "after": "OK〜!\n브레이브 세실호라면\n금방이야!",
+      "category": "orthography",
+      "reason": "문체 가이드에 따라 전각 영문 약어 'ＯＫ'를 반각 ASCII 'OK'로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-9A403F0486A11BBD48AD",
+      "source_text": "そうだ。それにこれは真実を知る\nチャンスかもしれない",
+      "before": "그래. 게다가 이건 진실을 알\n기회일지도 몰라",
+      "after": "그래. 게다가 이건\n진실을 알 기회일지도 몰라",
+      "category": "line_breaks",
+      "reason": "조사와 의미 덩어리가 어색하게 끊기지 않도록 두 줄 구조 안에서 줄바꿈을 조정했다."
+    },
+    {
+      "tm_id": "ARF-TM-9F968219AE4A8B39FE9F",
+      "source_text": "てか、リフィアのパパがシムマフって\n計算合わなくない？",
+      "before": "그보다 리피아의 아빠가 심마프라면\n계산이 안 맞지 않아?",
+      "after": "그보다 리피아의 아빠가 심마프라면\n앞뒤가 안 맞지 않아?",
+      "category": "idiom",
+      "reason": "나이와 시간 관계가 맞지 않는다는 뜻의 '計算が合わない'를 자연스러운 관용 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A17D67A2CE0754E79350",
+      "source_text": "竜玉石？\n濁竜から採れる石ころのことか？",
+      "before": "용옥석?\n탁룡에게서 나오는 돌멩이 말이야?",
+      "after": "용옥석?\n탁룡에게서 채취되는 돌멩이 말이야?",
+      "category": "word_choice",
+      "reason": "자원이나 광물을 얻는다는 '採れる'의 뜻을 '채취되다'로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-A1FE429C4A9FCF9D42A0",
+      "source_text": "さあ、いくぞ２人とも",
+      "before": "자, 가자. ２명 다",
+      "after": "자, 가자. 너희 ２명 다",
+      "category": "grammar",
+      "reason": "전각 숫자 '２'를 보존하면서 호격 표현을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-A2B6A0724F85D95AB570",
+      "source_text": "カメラ補完切り替え　OFF\n",
+      "before": "카메라 보완 전환　OFF\n",
+      "after": "카메라 보간 전환　OFF\n",
+      "category": "terminology",
+      "reason": "카메라 처리 용어 '補完'을 문맥에 맞는 '보간'으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-A3CD13677BC302ED0B92",
+      "source_text": "仮にまだ命令書が届いていない\nのだとしても、このままでは\n間に合うかどうかわからんな",
+      "before": "아직 명령서가 도착하지 않은\n것이라 해도 이대로는\n제때 맞출 수 있을지 모르겠군",
+      "after": "아직 명령서가 도착하지 않은\n것이라 해도 이대로는\n시간에 맞출 수 있을지 모르겠군",
+      "category": "naturalness",
+      "reason": "기한에 맞출 수 있는지를 뜻하는 '間に合う'를 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

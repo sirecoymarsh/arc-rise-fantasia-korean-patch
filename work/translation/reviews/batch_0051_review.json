@@ -1,0 +1,208 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0051",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0051.jsonl",
+  "draft": "work/translation/drafts/batch_0051.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0051.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 21,
+  "unchanged_units": 179,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-2B0C2ADFB301B90D9100",
+      "source_text": "そうか。お前らがこういう塔を\n見慣れてるってことは、ここは\n負の時代の建造物ってことかもな",
+      "before": "그렇구나. 너희가 이런 탑을\n많이 봤다면 여긴\n부의 시대 건축물일지도 모르겠네",
+      "after": "그렇구나. 너희가 이런 탑을\n많이 봤다면 여긴\n음의 시대 건축물일지도 모르겠네",
+      "category": "terminology",
+      "reason": "고정 설정어 '負の時代'를 '음의 시대'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-30134D7C887D4689D77E",
+      "source_text": "みんなを助けようと思って",
+      "before": "다들 도와주려고",
+      "after": "모두를 도우려고",
+      "category": "grammar",
+      "reason": "도움의 대상을 나타내는 목적격 관계를 자연스럽게 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-35100AFB32815E271BA6",
+      "source_text": "ラルク……\nパピルサグは僕らがもらった",
+      "before": "라르크……\n파피르사그는 우리가 받았어",
+      "after": "라르크……\n파피르사그는 우리가 차지했어",
+      "category": "meaning",
+      "reason": "경쟁 끝에 파피르사그와 먼저 계약했다는 문맥을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-35189695033C0F84FD62",
+      "source_text": "ザムエルおじいちゃんも\nお母さんも、ラルクも！",
+      "before": "자무엘 할아버지도\n어머니도, 라르크도!",
+      "after": "자무엘 할아버지도\n엄마도, 라르크도!",
+      "category": "speaker_voice",
+      "reason": "감정적으로 자신의 어머니를 열거하는 장면에 맞춰 호칭을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-3BAF9400B1C6D63087C7",
+      "source_text": "……あなたの首を私に頂戴！",
+      "before": "……당신의 목을 내게 줘!",
+      "after": "……당신의 목을 내놔!",
+      "category": "function",
+      "reason": "목숨을 요구하는 위협이 한국어 대사로 강하게 전달되도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-3D76542C45F55EE8427C",
+      "source_text": "あれ。このエレベータ\nレイエネルギーが来てないみたい",
+      "before": "어라. 이 엘리베이터\n레이 에너지가 안 오는 것 같아",
+      "after": "어라. 이 엘리베이터\n레이 에너지가 공급되지 않는 것 같아",
+      "category": "meaning",
+      "reason": "엘리베이터에 에너지가 공급되지 않는 상태임을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-407BC05B1421FBB04560",
+      "source_text": "サージュの言う通り\nここで見逃しても悪影響しかない",
+      "before": "사쥬 말대로\n여기서 놓쳐도 나쁜 영향밖에 없어",
+      "after": "사쥬 말대로\n여기서 살려 보내 봐야 해가 될 뿐이야",
+      "category": "meaning",
+      "reason": "적을 놓아주는 행위가 해만 낳는다는 원문의 판단을 정확히 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-6840E58A7646FCEBCB72",
+      "source_text": "負の時代のエレベータの一種だ。\nあれを使えば、一気に最上階まで\n行けるだろう",
+      "before": "부의 시대에 쓰던 엘리베이터의 일종이다.\n저걸 쓰면 단숨에 꼭대기 층까지\n갈 수 있을 것이다",
+      "after": "음의 시대에 쓰던 엘리베이터의 일종이다.\n저걸 쓰면 단숨에 꼭대기 층까지\n갈 수 있을 것이다",
+      "category": "terminology",
+      "reason": "고정 설정어 '負の時代'를 '음의 시대'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-6B5BA45183FE0EDE3A4C",
+      "source_text": "共和国背理法に記された特殊工作隊\n『終わりなき闇の女王』――ＱＥＤ",
+      "before": "공화국 배리법에 기록된 특수 공작대\n『끝나지 않는 어둠의 여왕』――QED",
+      "after": "공화국 귀류법에 기록된 특수 공작대\n『끝나지 않는 어둠의 여왕』――ＱＥＤ",
+      "category": "terminology",
+      "reason": "고정 용어 '공화국 귀류법'과 원문의 전각 표기 'ＱＥＤ'를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-6F9313FFF1E6E8DE9C04",
+      "source_text": "この扉を開ければ侵入者があったことを\nアイオーン隊に伝えることになる",
+      "before": "이 문을 열면 침입자가 있다는 사실을\n아이온대에 알리게 된다",
+      "after": "이 문을 열면 침입이 있었다는 사실을\n아이온대에 알리게 된다",
+      "category": "meaning",
+      "reason": "문을 여는 순간 과거의 침입 사실이 통보된다는 의미를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-7C4718AD6697A6AE55E2",
+      "source_text": "でもサージュも降りていったから\nそうするのが１番だと思ったの",
+      "before": "하지만 사쥬도 내려갔으니까\n그게 １번 낫다고 생각했어",
+      "after": "하지만 사쥬도 내려갔으니까\n그게 １순위라고 생각했어",
+      "category": "naturalness",
+      "reason": "가장 나은 선택이라는 뜻을 자연스럽게 다듬고 전각 숫자 '１'을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-7ED1AE02FC7FA263D2A4",
+      "source_text": "それが１番だろ、オイゲン",
+      "before": "그게 １번 낫겠지, 오이겐",
+      "after": "그게 １순위겠지, 오이겐",
+      "category": "naturalness",
+      "reason": "최선의 선택이라는 뜻을 자연스럽게 다듬고 전각 숫자 '１'을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-8240D8E8F8CD7290BF40",
+      "source_text": "そうね。ノースノワーレ教にとって\n重要な教会なのだとしたら",
+      "before": "그러게. 노스 노와레교에\n중요한 교회라면",
+      "after": "그러게. 노스 노와레교에서\n중요한 교회라면",
+      "category": "grammar",
+      "reason": "해당 종교에서 중요한 교회라는 관계가 자연스럽게 드러나도록 조사를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-84314D8C5CA1C8257860",
+      "source_text": "濁竜相手に１人で戦うつもりか!?",
+      "before": "탁룡을 상대로 １명 혼자 싸울 셈이야!?",
+      "after": "탁룡을 상대로 １명이서 싸울 셈이야!?",
+      "category": "grammar",
+      "reason": "혼자 싸운다는 뜻을 중복 없이 다듬고 전각 숫자 '１'을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-8796CDF1BC29C1F950A2",
+      "source_text": "ラルク。\nパピルサグの契約は済ませたよ",
+      "before": "라르크.\n파피르사그와 계약은 마쳤어",
+      "after": "라르크.\n파피르사그와의 계약은 마쳤어",
+      "category": "grammar",
+      "reason": "계약 상대와의 관계를 나타내는 조사를 자연스럽게 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-888C3A32A20E0C312714",
+      "source_text": "どうすればいいかなんて簡単だよ",
+      "before": "어떻게 하면 될지는 간단해",
+      "after": "어떻게 해야 하는지는 간단해",
+      "category": "naturalness",
+      "reason": "행동 방침이 명확하다는 뜻을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8C49BD4799BB9014453A",
+      "source_text": "ならば――俺を殺しに来るがいい。\nもう１人の愚かなイーサの子\nアルフォンス・ゼナ・メリディア",
+      "before": "그렇다면――나를 죽이러 와라.\n또 다른 어리석은 이사의 아이\n알폰스 제나 메리디아",
+      "after": "그렇다면――나를 죽이러 와라.\n또 １명의 어리석은 이사의 아이\n알폰스 제나 메리디아",
+      "category": "numeric_fidelity",
+      "reason": "또 한 명을 가리키는 원문의 전각 숫자 '１'을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-8D5EED557E72B909A240",
+      "source_text": "むっかー！\n華麗に退場された！\n悔しい！",
+      "before": "으으, 분해!\n멋지게 퇴장당했어!\n억울해!",
+      "after": "으으, 열받아!\n화려하게 퇴장해 버렸어!\n분해!",
+      "category": "meaning",
+      "reason": "화자 자신이 퇴장당한 것이 아니라 상대가 떠나 버린 상황과 분한 감정을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-9443B7CC35C7F73A189F",
+      "source_text": "……正規の手続きで行われた\n接収ではないのかもしれぬ",
+      "before": "……정식 절차를 밟은\n점거가 아닐지도 모른다",
+      "after": "……정식 절차를 밟은\n접수가 아닐지도 모른다",
+      "category": "word_choice",
+      "reason": "시설을 정식으로 넘겨받는 '接収'의 의미를 '점거'와 구분했다."
+    },
+    {
+      "tm_id": "ARF-TM-983D85D093C9762B38D1",
+      "source_text": "ホゾン投与による\n人体実験の論文よ",
+      "before": "호존 투여에 의한\n인체 실험 논문이야",
+      "after": "호존을 투여한\n인체 실험 논문이야",
+      "category": "naturalness",
+      "reason": "일본어식 명사 연결을 자연스러운 한국어 관형 구조로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9DBADE7540B4D0EF5801",
+      "source_text": "ラルク……\nあなたの首を私に頂戴！",
+      "before": "라르크……\n당신의 목을 내게 줘!",
+      "after": "라르크……\n당신의 목을 내놔!",
+      "category": "function",
+      "reason": "목숨을 요구하는 위협이 한국어 대사로 강하게 전달되도록 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

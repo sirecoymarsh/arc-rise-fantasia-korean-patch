@@ -1,0 +1,171 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0079",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0079.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0079.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0079.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 15,
+  "unchanged_row_count": 185,
+  "modifications": [
+    {
+      "row_index": 18,
+      "tm_id": "ARF-TM-0BD578896AC35F6E8C36",
+      "source_text": "私たちはまたも裏切られた。\nアルスのことなんて\nもう信じることはできません",
+      "before": "우리는 또다시 배신당했어.\n알스 같은 건\n이제 믿을 수 없습니다",
+      "after": "우리는 또다시 배신당했습니다.\n알스 같은 건\n이제 믿을 수 없습니다",
+      "category": "register",
+      "reason": "한 대사 안에서 반말과 존댓말이 섞이지 않도록 공식적인 말투로 통일했다."
+    },
+    {
+      "row_index": 31,
+      "tm_id": "ARF-TM-0BFC00A9012A1D4A4369",
+      "source_text": "聖地ノワーレ・困惑の回廊",
+      "before": "성지 노와레·곤혹의 회랑",
+      "after": "성지 노와레・곤혹의 회랑",
+      "category": "formatting",
+      "reason": "프로젝트 지명 표기의 고유명사 구분점으로 통일했다."
+    },
+    {
+      "row_index": 45,
+      "tm_id": "ARF-TM-0C3A05F687D9A6F6C2BD",
+      "source_text": "イギ、アリ〜！\nイギイギ、アリ〜！",
+      "before": "이기, 아리~!\n이기이기, 아리~!",
+      "after": "이의, 있음~!\n이의이의, 있음~!",
+      "category": "wordplay",
+      "reason": "異議あり를 흉내 내는 아이의 말장난이 한국어에서도 드러나도록 옮겼다."
+    },
+    {
+      "row_index": 54,
+      "tm_id": "ARF-TM-0C5CD7C9E2E12AD58C7F",
+      "source_text": "兵士を続けても、傭兵になるんでも\nまともな仕事をやってりゃいいだろ？<$0C>……そういえば\nお前たちは知らないんだよな？",
+      "before": "군인으로 남든 용병이 되든\n제대로 된 일을 하면 됐잖아?<$0C>……그러고 보니\n너희는 모르고 있었지?",
+      "after": "군인으로 남든 용병이 되든\n떳떳한 일을 하면 되잖아?<$0C>……그러고 보니\n너희는 모르고 있었지?",
+      "category": "semantic_accuracy",
+      "reason": "まともな仕事를 과거의 일을 추궁하는 뜻이 아니라 떳떳한 일을 하면 된다는 의미로 바로잡았다."
+    },
+    {
+      "row_index": 72,
+      "tm_id": "ARF-TM-0CABB17E33578A97E02A",
+      "source_text": "ラルク。\nお前には私とレジスタンスの\n橋渡し役を頼む",
+      "before": "라르크.\n너에게 나와 레지스탕스의\n가교 역할을 맡기겠다",
+      "after": "라르크.\n너에게 나와 저항군의\n가교 역할을 맡기겠다",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기 '저항군'을 적용했다."
+    },
+    {
+      "row_index": 78,
+      "tm_id": "ARF-TM-0CC33766D93C88C11CCE",
+      "source_text": "……そうなんですかぁ？<$0C>てっきり、グリーンヒル議長は\n死んじゃったのかと思ってました。\nほら、美人薄命っていうでしょ？",
+      "before": "……그런가요?<$0C>난 당연히 그린힐 의장은\n죽은 줄 알았어요.\n미인은 박명이라잖아요?",
+      "after": "……그런가요오?<$0C>전 당연히 그린힐 의장은\n죽은 줄 알았어요.\n미인은 박명이라잖아요?",
+      "category": "character_voice",
+      "reason": "そうなんですかぁ의 늘어지는 말투를 살리고 문장 호흡을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 98,
+      "tm_id": "ARF-TM-0D17702FABC4EDF366D0",
+      "source_text": "帝都ディアマント・ザムエル武芸塾  １Ｆ",
+      "before": "제도 디아만트·자무엘 무예 학원  １F",
+      "after": "제도 디아만트・자무엘 무예관  １Ｆ",
+      "category": "terminology",
+      "reason": "ザムエル武芸塾의 확정 표기와 원문의 전각 층 표기 및 구분점을 적용했다."
+    },
+    {
+      "row_index": 102,
+      "tm_id": "ARF-TM-0D2A1896D7F7131A70D1",
+      "source_text": "リーダー・ラルク。\nその節は、お世話になりました<$0C>あなたのお陰で\n私たちもしばらく活動を\n続けることができそうです",
+      "before": "리더 라르크.\n그때는 신세 많이 졌습니다<$0C>당신 덕분에\n저희도 한동안 활동을\n계속할 수 있을 것 같습니다",
+      "after": "지도자 라르크.\n그때는 신세 많이 졌습니다<$0C>당신 덕분에\n저희도 한동안 활동을\n계속할 수 있을 것 같습니다",
+      "category": "terminology",
+      "reason": "조직 직책 リーダー를 확정 표기 '지도자'로 통일했다."
+    },
+    {
+      "row_index": 108,
+      "tm_id": "ARF-TM-0D3B74309D53752DCE73",
+      "source_text": "cop020:スケルトン\ncop021:リビングデッド\ncop022:ゴールドボーン\ncop023:キングボーン\nやめる",
+      "before": "cop020:스켈레톤\ncop021:리빙 데드\ncop022:골드 본\ncop023:킹 본\n취소",
+      "after": "cop020:스켈레톤\ncop021:리빙 데드\ncop022:골드 본\ncop023:킹 본\n그만두기",
+      "category": "ui",
+      "reason": "디버그 메뉴의 やめる를 취소가 아닌 동작 종료 항목으로 정확히 옮겼다."
+    },
+    {
+      "row_index": 114,
+      "tm_id": "ARF-TM-0D5F04A166140F964BD8",
+      "source_text": "カルブンクルスの藻を\n生地にふんだんに練りこんだ\n『グリーンヒル饅頭』を開発したの<$0C>これで観光客の心を鷲掴み！\nこの新商品をカルブンクルスの\n土産物の定番にしてやるわ",
+      "before": "카르분클루스의 해초를\n반죽에 듬뿍 넣은\n『그린힐 만두』를 개발했어<$0C>이걸로 관광객의 마음을 단번에 사로잡겠어!\n이 신상품을 카르분클루스의\n대표 기념품으로 만들 거야",
+      "after": "카르분클루스의 해초를\n반죽에 듬뿍 넣은\n『그린힐 만주』를 개발했어<$0C>이걸로 관광객의 마음을 단번에 사로잡겠어!\n이 신상품을 카르분클루스의\n대표 기념품으로 만들 거야",
+      "category": "semantic_accuracy",
+      "reason": "饅頭를 고기소 음식인 만두가 아니라 일본식 과자 '만주'로 바로잡았다."
+    },
+    {
+      "row_index": 164,
+      "tm_id": "ARF-TM-0E1B4930555540D20CDC",
+      "source_text": "お困りのことがあれば\n私たちレジスタンスに\n何なりとご用命ください……",
+      "before": "곤란한 일이 있으면\n저희 레지스탕스에\n뭐든지 말씀해 주세요……",
+      "after": "곤란한 일이 있으면\n저희 저항군에\n뭐든지 말씀해 주세요……",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기 '저항군'을 적용했다."
+    },
+    {
+      "row_index": 167,
+      "tm_id": "ARF-TM-0E2C4D88CDEB60405351",
+      "source_text": "アルス陛下って\nあのアルス兄ちゃんのことだろ？\n……やっぱ武芸塾はスゴイや！",
+      "before": "알스 폐하라면\n그 알스 형 말이지?\n……역시 무예 학원은 대단해!",
+      "after": "알스 폐하라면\n그 알스 형 말이지?\n……역시 무예관은 대단해!",
+      "category": "terminology",
+      "reason": "武芸塾의 확정 표기 '무예관'을 적용했다."
+    },
+    {
+      "row_index": 173,
+      "tm_id": "ARF-TM-0E4C6CB759713E5836A3",
+      "source_text": "アントラクスロケタイ　　　　　\nオルキナ教大神殿ロケタイ　　　\nオルキナ教大神殿地下ロケタイ　\nレイ制御装置破壊　　　　　　　\nアデール誘拐　　　　　　　　　\n海鳴りの道ロケタイ　　　　　　\n海鳴りの道ボス登場　　　　　　\nリアルの巫継承儀式前半　　　　\nリアルの巫継承儀式後半　　　　\n占領後のアントラクス　　　　　\n飛空艇でディアマントへ　　　　\nもどる　　　　　　　　",
+      "before": "안트락스 로케타이　　　　　\n오르키나교 대신전 로케타이　　　\n오르키나교 대신전 지하 로케타이　\n레이 제어 장치 파괴　　　　　　　\n아델 유괴　　　　　　　　　\n해명의 길 로케타이　　　　　　\n해명의 길 보스 등장　　　　　　\n리얼의 무녀 계승 의식 전반　　　　\n리얼의 무녀 계승 의식 후반　　　　\n점령 후 안트락스　　　　　\n비공정으로 디아만트에　　　　\n돌아가기　　　　　　　　",
+      "after": "안트락스 로케타이　　　　　\n오르키나교 대신전 로케타이　　　\n오르키나교 대신전 지하 로케타이　\n레이 제어 장치 파괴　　　　　　　\n아델 유괴　　　　　　　　　　　\n해명의 길 로케타이　　　　　　　\n해명의 길 보스 등장　　　　　　　\n리얼의 무녀 계승 의식 전반　　　　\n리얼의 무녀 계승 의식 후반　　　　\n점령 후 안트락스　　　　　　　　\n비공정을 타고 디아만트로　　　　　\n돌아간다　　　　　　　　　　　",
+      "category": "ui",
+      "reason": "이동 항목의 목적지 표현과 디버그 메뉴의 もどる 표기를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 180,
+      "tm_id": "ARF-TM-0E6C7C731DFC7D017380",
+      "source_text": "子どもたちが奔放に\n育ってくれるということは\n親にとってはこの上ない喜びだわ<$0C>あなたも子どもを持てば\n私の気持ちが分かるようになるわ",
+      "before": "아이들이 자유분방하게\n자라 주는 건\n부모에게 더없는 기쁨이야<$0C>당신도 아이를 낳으면\n내 마음을 알게 될 거야",
+      "after": "아이들이 자유분방하게\n자라 주는 건\n부모에게 더없는 기쁨이야<$0C>당신도 아이가 생기면\n내 마음을 알게 될 거야",
+      "category": "semantic_accuracy",
+      "reason": "子どもを持つ를 출산으로 한정하지 않고 아이가 생긴다는 뜻으로 정확히 옮겼다."
+    },
+    {
+      "row_index": 198,
+      "tm_id": "ARF-TM-0EC61D769A25BD6ABA88",
+      "source_text": "俺たちはディーバの依頼を受けて\nそれを妨害し、ディーバの娘を\n――アデールを助けた",
+      "before": "우린 디바의 의뢰를 받고\n그걸 방해해 디바의 딸을\n――아델을 구했어",
+      "after": "우린 디바의 의뢰를 받아\n그 계획을 저지하고 디바의 딸을\n――아델을 구했어",
+      "category": "semantic_accuracy",
+      "reason": "それ가 디바의 의뢰가 아니라 앞서 언급된 계획을 가리키도록 지시 관계를 명확히 했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

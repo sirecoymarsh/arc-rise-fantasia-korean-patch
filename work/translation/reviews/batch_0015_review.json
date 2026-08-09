@@ -1,0 +1,239 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0015",
+  "draft_author": "/root/translate_batch_0008",
+  "reviewer": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0015.jsonl",
+  "draft": "work/translation/drafts/batch_0015.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0015.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 54,
+  "unchanged_units": 146,
+  "metadata_restored_fields": 0,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "system_function_accuracy",
+    "proper_nouns_and_glossary",
+    "natural_korean",
+    "particles_spacing_and_typography",
+    "control_tokens",
+    "numbers_and_identifiers",
+    "line_breaks",
+    "source_structure_prefixes",
+    "dummy_and_developer_strings",
+    "source_metadata_integrity"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-A37E9264F56058D6D5A3",
+      "source_text": "希少な輝石にレイ結晶を融合させたもの。\n所持者の身体は毒を受けつけなくなる",
+      "before": "희귀한 휘석에 레이 결정을 융합한 것.\n소지자의 몸은 독에 중독되지 않는다",
+      "after": "희귀한 휘석에 레이 결정을 융합한 것.\n소지자의 몸에는 독이 통하지 않게 된다",
+      "category": "item_flavor_naturalness",
+      "reason": "‘독에 중독되지 않는다’라는 중복 표현을 피하고 「毒を受けつけなくなる」의 독 면역 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A387DCE7BD34FFA42B1F",
+      "source_text": "<$13>14<$1F>0000E4<$1F>01<$13>00に固定されているが、\n<$13>14<$1F>000050<$1F>01<$13>00を上昇させること\nにより、ロックが解除され\n外せるようになる。\nこの<$13>14<$1F>00004C<$1F>01<$13>00は、自身の<$13>14<$1F>0000E4<$1F>01<$13>00\nだけではなく、他のキャラ\nクターの<$13>14<$1F>0000E4<$1F>01<$13>00にセットする\nこともできる。\n鍵のマークが目印となる",
+      "before": "<$13>14<$1F>0000E4<$1F>01<$13>00에 고정되어 있지만,\n<$13>14<$1F>000050<$1F>01<$13>00을 높이면\n잠금이 해제되어\n분리할 수 있게 된다.\n이 <$13>14<$1F>00004C<$1F>01<$13>00는 자신의 <$13>14<$1F>0000E4<$1F>01<$13>00뿐\n아니라 다른 캐릭터의\n<$13>14<$1F>0000E4<$1F>01<$13>00에도 장착할\n수 있다.\n열쇠 표시가 표식이다",
+      "after": "<$13>14<$1F>0000E4<$1F>01<$13>00에 고정되어 있지만,\n<$13>14<$1F>000050<$1F>01<$13>00을 높이면\n잠금이 해제되어\n분리할 수 있게 된다.\n이 <$13>14<$1F>00004C<$1F>01<$13>00는 자신의 <$13>14<$1F>0000E4<$1F>01<$13>00뿐\n아니라 다른 캐릭터의\n<$13>14<$1F>0000E4<$1F>01<$13>00에도 장착할\n수 있다.\n열쇠 표시로 구별할 수 있다",
+      "category": "help_text_naturalness",
+      "reason": "‘열쇠 표시가 표식이다’라는 동어 반복을 제거하고 열쇠 표시가 식별 표지라는 뜻을 자연스럽게 정리하면서 9줄 구조를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-A4FEF45EA59A80CCD200",
+      "source_text": "栄養満点のハチミツ。\n健康食品として親しまれている",
+      "before": "영양 만점의 벌꿀.\n건강식품으로 사랑받고 있다",
+      "after": "영양 만점인 꿀.\n건강식품으로 사랑받고 있다",
+      "category": "item_name_consistency",
+      "reason": "동일 아이템 「ハチミツ」의 기존 승인명 ‘꿀’과 일치시키고 관형 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A501872F8CEE17173043",
+      "source_text": "<$13>14<$1F>0000A0<$1F>01<$13>00レベル３の<$13>14<$1F>000061<$1F>01<$13>00。\n対象を中心とした範囲内の\n敵に<$13>14<$1F>0000A0<$1F>01<$13>00ダメージを\n与える。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nタービュランスでは\n追加効果として対象を\n<$13>14<$1F>000027<$1F>01<$13>00状態に\nすることがある",
+      "before": "<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A0<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n터뷸런스는\n추가 효과로 대상을\n<$13>14<$1F>000027<$1F>01<$13>00 상태로\n만들 때가 있다",
+      "after": "<$13>14<$1F>0000A0<$1F>01<$13>00 레벨 3의 <$13>14<$1F>000061<$1F>01<$13>00.\n대상을 중심으로 한 범위 내\n적에게 <$13>14<$1F>0000A0<$1F>01<$13>00 피해를\n준다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n터뷸런스에서는\n추가 효과로 대상을\n<$13>14<$1F>000027<$1F>01<$13>00 상태로\n만들 때가 있다",
+      "category": "help_text_grammar",
+      "reason": "「タービュランスでは」의 문맥 조사를 ‘터뷸런스에서는’으로 바로잡아 증폭기에서 발생하는 추가 효과임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-A5C5EDF0FF9698C007DB",
+      "source_text": "<$13>02ハチミツ<$13>00を１０個納品",
+      "before": "<$13>02벌꿀<$13>00 10개 납품",
+      "after": "<$13>02꿀<$13>00 10개 납품",
+      "category": "item_name_consistency",
+      "reason": "동일 아이템 「ハチミツ」의 기존 승인명 ‘꿀’과 퀘스트 납품 표기를 일치시켰다."
+    },
+    {
+      "tm_id": "ARF-TM-A5FDBB85289624069D79",
+      "source_text": "素早く繰りだされる鉄の指先。\n狙った獲物からかすめとる",
+      "before": "빠르게 내지르는 쇠 손가락.\n노린 먹잇감에게서 슬쩍 훔친다",
+      "after": "재빠르게 뻗어 나가는 철제 손끝.\n노린 먹잇감에게서 슬쩍 훔친다",
+      "category": "item_flavor_naturalness",
+      "reason": "「鉄の指先」를 부자연스러운 ‘쇠 손가락’ 대신 장비의 철제 손끝으로 옮기고 빠르게 내지르는 동작을 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-A86CB1CAEA1AB4462E7C",
+      "source_text": "風のジェムの破片。工房で修復できる\n修復必要個数：５個",
+      "before": "바람의 젬 파편. 공방에서 복원할 수 있다\n복원에 필요한 개수: 5개",
+      "after": "바람 젬의 파편. 공방에서 복구할 수 있다\n복구 필요 개수: 5개",
+      "category": "item_series_consistency",
+      "reason": "기존 승인된 젬 파편 계열의 ‘○○ 젬의 파편 / 공방에서 복구 / 복구 필요 개수’ 형식과 일치시켰다."
+    },
+    {
+      "tm_id": "ARF-TM-A89996AABD8E1F8ABB76",
+      "source_text": "戦闘勝利時\n入手できるＥＸＰが上昇する",
+      "before": "전투 승리 시\n획득 EXP가 상승한다",
+      "after": "전투 승리 시\n획득하는 EXP가 상승한다",
+      "category": "system_grammar",
+      "reason": "기존 동일 효과 승인문과 맞춰 ‘획득 EXP’라는 압축 명사열을 자연스러운 ‘획득하는 EXP’로 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-AB0C79FAC864F3DC3988",
+      "source_text": "<$13>14<$1F>0000A1<$1F>01<$13>00レベル２の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人を<$13>14<$1F>000026<$1F>01<$13>00の\n状態にする。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nエンデュランスでは\n<$13>14<$1F>000026<$1F>01<$13>00の効果量が\n大きくなる",
+      "before": "<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>000026<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n엔듀런스는\n<$13>14<$1F>000026<$1F>01<$13>00의 효과량이\n커진다",
+      "after": "<$13>14<$1F>0000A1<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>000026<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n엔듀런스에서는\n<$13>14<$1F>000026<$1F>01<$13>00의 효과량이\n커진다",
+      "category": "help_text_grammar",
+      "reason": "「エンデュランスでは」의 문맥 조사를 ‘엔듀런스에서는’으로 바로잡아 해당 증폭기에서 효과량이 커진다는 기능을 명료하게 했다."
+    },
+    {
+      "tm_id": "ARF-TM-AD3A1867998401EEFCF0",
+      "source_text": "範囲に氷属性ダメージ\n追加効果：足止め",
+      "before": "범위에 얼음 속성 피해\n추가 효과: 속박",
+      "after": "범위 내 대상에게 얼음 속성 피해\n추가 효과: 속박",
+      "category": "system_range_accuracy",
+      "reason": "동일 효과의 기존 승인문과 범위 템플릿에 맞춰 피해 대상이 범위 내 대상임을 명시했다."
+    },
+    {
+      "tm_id": "ARF-TM-AD77A546E95FC07981D1",
+      "source_text": "カーンディーヴァ",
+      "before": "칸 디바",
+      "after": "칸디바",
+      "category": "item_name_spacing",
+      "reason": "단일 신화 무기명 「カーンディーヴァ」를 불필요하게 띄어 쓰지 않고 일본어 음가에 맞춘 한 단어 표기로 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-AD91F202E50660965880",
+      "source_text": "Ｂ−０２",
+      "before": "B−02",
+      "after": "B-02",
+      "category": "identifier_typography",
+      "reason": "영문·숫자 식별자의 유니코드 마이너스를 기존 승인 형식에 맞는 ASCII 하이픈으로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-AE53A968C1D4EA086D5E",
+      "source_text": "水耐性＋２、火耐性−２",
+      "before": "물 내성+2, 불 내성−2",
+      "after": "물 내성+2, 불 내성-2",
+      "category": "system_typography",
+      "reason": "한국어 시스템 수치 표기의 반각 ASCII 규칙에 맞춰 감소 기호를 하이픈으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-AE8C1985361BDE296AB1",
+      "source_text": "範囲に複数属性ダメージ\n光属性＋闇属性",
+      "before": "범위에 복합 속성 피해\n빛 속성+어둠 속성",
+      "after": "범위 내 대상에게 복합 속성 피해\n빛+어둠 속성",
+      "category": "system_range_and_attribute_accuracy",
+      "reason": "범위 피해의 대상을 명확히 하고 속성 조합을 스타일 가이드의 ‘빛+어둠 속성’ 형식으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-AEF4C74B1E1AF5E4111A",
+      "source_text": "Ｍ−０１",
+      "before": "M−01",
+      "after": "M-01",
+      "category": "identifier_typography",
+      "reason": "영문·숫자 식별자의 유니코드 마이너스를 기존 승인 형식에 맞는 ASCII 하이픈으로 정규화했다."
+    }
+  ],
+  "metadata_restorations": [],
+  "residual_issues": [
+    {
+      "tm_ids": [
+        "ARF-TM-A40CEBB3DA017B2A9BA8",
+        "ARF-TM-A6AFAE4816E08BF5CDBB",
+        "ARF-TM-A7E2768BA56FBC1810C2",
+        "ARF-TM-A8CC5FDC3238BC79D899",
+        "ARF-TM-A976F64CD6878EEB8D46",
+        "ARF-TM-A9B82F16C475C3FFFB43",
+        "ARF-TM-A9FDDD72A5CE8040E1EF",
+        "ARF-TM-AA380E540A3AC22A2368",
+        "ARF-TM-AAFB96AB461949113BCE",
+        "ARF-TM-ABCDDBA7D897B6D52A8C",
+        "ARF-TM-AC0D3A8B28A47AE11641",
+        "ARF-TM-ACD54F56DE68B89B6AE8",
+        "ARF-TM-AE7ED45BAB85CA443826",
+        "ARF-TM-B0384A711A7D2AA36297",
+        "ARF-TM-B05C9753BE922B17B2B2",
+        "ARF-TM-B0BD31C07706574E8230"
+      ],
+      "severity": "leading_structure_marker_unverified",
+      "issue": "선두의 @, 따옴표, 공백, 座, X, C, D, 숫자, &, 세로줄, 역슬래시 표지는 구조 바이트 또는 개발용 표지일 가능성이 있다. 별도 경계 감사 없이 삭제하지 않고 source_text와 translation_ko에 보수적으로 유지했다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-AB4CCCC12089626CCB9D",
+        "ARF-TM-B0C0D87D2C8CEE01B66C"
+      ],
+      "severity": "source_prefix_or_suffix_missing",
+      "issue": "「りないもの」와 「サージュの言葉を頼りに、ジャダへ向かうた」는 각각 선두 또는 말미 글자가 누락된 스캔 문자열로 보인다. 초벌의 의미 추정 번역을 잠정 유지했으며 원시 구조 확인 전 자동 삽입 대상으로 확정하지 않는다."
+    },
+    {
+      "tm_ids": [
+        "ARF-TM-A57B01424098B33D30F3",
+        "ARF-TM-A6B2526FA209A1AE1FF9",
+        "ARF-TM-A8482AD01F20311F9487",
+        "ARF-TM-AD091EF698484C9DE04E",
+        "ARF-TM-AD3FFCA34F63F913366E",
+        "ARF-TM-AF5B077971DE623C2088",
+        "ARF-TM-AF6BF887DDB571A36BD3"
+      ],
+      "severity": "visibility_unconfirmed",
+      "issue": "번호형 퀘스트와 명시적 더미 문자열은 의미와 번호를 보존해 번역했으나 플레이어 노출 여부가 확정되지 않았다. 런타임 노출 확인 전 일반 공개 텍스트와 분리한다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit 도구를 실행하지 않았다."
+  },
+  "construction_counts": {
+    "source_units": 200,
+    "draft_units": 200,
+    "reviewed_units": 200,
+    "modified_units": 15,
+    "unchanged_units": 185,
+    "metadata_restored_fields": 0
+  },
+  "hashes": {
+    "source_sha256": "14A3C17239592886D26F57836348DD7457AF01926462EBF98804A3313DEC8F1D",
+    "draft_sha256": "64C4334C08325737AF0F115EB46675F1454F0E527E32BA378740AE9FF657EC47",
+    "reviewed_sha256": "FEE34708695263413767F6162663162E0A6FEF984622AF799AB5B9D1CBAAB5F2"
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 36,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span."
+  },
+  "fixed_field_fit_application": {
+    "status": "applied",
+    "source": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+    "source_sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5",
+    "corrected_units_in_batch": 3,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

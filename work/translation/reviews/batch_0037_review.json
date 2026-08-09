@@ -1,0 +1,392 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0037",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0037.jsonl",
+  "draft": "work/translation/drafts/batch_0037.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0037.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 44,
+  "unchanged_units": 156,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-B78E37DAD4C46526459D",
+      "source_text": "異様な事態ではないか？",
+      "before": "이상한 사태가 아닌가?",
+      "after": "기이한 사태가 아닌가?",
+      "category": "meaning",
+      "reason": "異様의 비정상적이고 기이한 뉘앙스를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-B7A8DCA8F6761114E7F5",
+      "source_text": "泳ぎたいな〜",
+      "before": "수영하고 싶다〜",
+      "after": "수영하고 싶어〜",
+      "category": "speaker_voice",
+      "reason": "구어체 화자의 자연스러운 반말 종결로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-B7AF1BE9F832780424CF",
+      "source_text": "でも、俺はジャダとか帝都とか\n守りたくて兵士になったんス",
+      "before": "하지만 저는 자다나 제도 같은 곳을\n지키고 싶어서 병사가 됐슴다",
+      "after": "하지만 저는 자다와 제도를\n지키고 싶어서 병사가 됐슴다",
+      "category": "naturalness",
+      "reason": "열거 조사와 니콜의 말투를 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-B7C1F0F2F4E0AA2CFE1C",
+      "source_text": "まったく皆、柄でもねぇくせに\n気ぃ遣いやがって",
+      "before": "정말이지 다들, 어울리지도 않게\n신경이나 쓰고",
+      "after": "정말 다들, 어울리지도 않게\n신경이나 써 주고 말이야",
+      "category": "naturalness",
+      "reason": "신경 써 주는 동료들을 투덜대는 뜻으로 문장을 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-B86BA08B44922376779D",
+      "source_text": "はぐれたって、その後のことは？",
+      "before": "놓쳤다니, 그 뒤에는?",
+      "after": "헤어졌다니, 그 뒤에는?",
+      "category": "meaning",
+      "reason": "はぐれた를 대상을 놓친 것이 아니라 일행과 헤어진 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-B9069682552B044D33F0",
+      "source_text": "憤ることはありませんが",
+      "before": "화날 일은 아니지만",
+      "after": "분개할 일은 아닙니다만",
+      "category": "speaker_voice",
+      "reason": "정중한 화자의 말투와 憤る의 의미를 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-B9E00D3545AAD4D31BDB",
+      "source_text": "まさかイグナーツが\nあのような手に出ようとは……\n読み切れなかった私のせいだ",
+      "before": "설마 이그나츠가\n그런 수를 쓰다니……\n다 읽지 못한 내 탓이야",
+      "after": "설마 이그나츠가\n그런 수를 쓰다니……\n간파하지 못한 내 탓이다",
+      "category": "meaning",
+      "reason": "読み切れなかった를 글을 다 읽지 못했다가 아니라 계략을 간파하지 못했다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-BA1BF4EBAF16E5726499",
+      "source_text": "知的眼鏡に童顔、そして\nあのグラマーな体型――",
+      "before": "지적인 안경에 동안, 그리고\n저 글래머러스한 몸매――",
+      "after": "지적인 안경과 동안, 그리고\n저 글래머러스한 몸매――",
+      "category": "naturalness",
+      "reason": "인물의 외형 요소를 자연스럽게 병렬했다."
+    },
+    {
+      "tm_id": "ARF-TM-BAE453FB1E2D07A03366",
+      "source_text": "皆さんを守るためなら\n僕は喜んでモンスターの餌に――",
+      "before": "여러분을 지키기 위해서라면\n저는 기꺼이 몬스터 먹이로――",
+      "after": "여러분을 지키기 위해서라면\n저는 기꺼이 몬스터의 먹이로――",
+      "category": "particle",
+      "reason": "몬스터와 먹이의 소유 관계를 나타내는 조사를 보충했다."
+    },
+    {
+      "tm_id": "ARF-TM-BAFA888B38B0DA7ADF0C",
+      "source_text": "あなたは皇子じゃなくて\nラルクたちも兵士じゃなくて？",
+      "before": "넌 황자가 아니고\n라르크 일행도 병사가 아니라면?",
+      "after": "네가 황자가 아니고\n라르크 일행도 병사가 아니었다면?",
+      "category": "grammar",
+      "reason": "가정 조건이 두 대상 전체에 걸리도록 시제를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-BB002D9B9FBB177E100A",
+      "source_text": "楽しませてもらうためよ。\n色々とね",
+      "before": "즐겁게 해 달라고.\n여러 가지로",
+      "after": "날 즐겁게 해 주라고.\n여러 가지로 말이야",
+      "category": "naturalness",
+      "reason": "즐거움을 받는 대상을 보충해 한국어 문장을 자연스럽게 했다."
+    },
+    {
+      "tm_id": "ARF-TM-BB0768CD01114B714101",
+      "source_text": "悲哀だねえ\n明日は我が身かな――って\nお前、本当に反省してる訳？",
+      "before": "비애로군\n내일은 내 차례인가――라니\n너, 정말 반성하는 거야?",
+      "after": "서글프네\n내일은 내 신세가 될지도――라니\n너, 정말 반성하는 거야?",
+      "category": "meaning",
+      "reason": "明日は我が身의 관용적 의미와 이어지는 핀잔을 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-BB49BB9ECE176152C35D",
+      "source_text": "うっへぇ……これで操縦するんスか？\nわけわかんない機器ばっか……",
+      "before": "우와…… 이걸로 조종하는 검까?\n영문 모를 기계뿐……",
+      "after": "우엑…… 이걸로 조종하는 검까?\n영문 모를 기계뿐……",
+      "category": "function",
+      "reason": "うっへぇ의 질색하는 반응을 감탄의 반응으로 오해하지 않도록 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-BB73F1008BC5D2E786EA",
+      "source_text": "いいとこに来たじゃない。\n君よりずっと純情な奴が",
+      "before": "좋은 때 왔네.\n너보다 훨씬 순진한 녀석이",
+      "after": "마침 잘 왔네.\n너보다 훨씬 순진한 녀석이",
+      "category": "naturalness",
+      "reason": "いいとこに来た의 때맞춰 왔다는 뜻을 자연스럽게 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-BBD759FF56DA0F1E1532",
+      "source_text": "ああ。その時点の記憶は曖昧だ。\nすでに記憶を喪失しかけていた\nのかもしれないな",
+      "before": "그래. 그 시점의 기억은 흐릿해.\n이미 기억을 잃어 가고 있었던\n걸지도 모르지",
+      "after": "그래. 그 시점의 기억은 희미하다.\n이미 기억을 잃기 시작했던\n것인지도 모르겠군",
+      "category": "speaker_voice",
+      "reason": "격식 있고 절제된 화자의 종결 어조로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-BC1BDC579E635622A380",
+      "source_text": "引きこまれるぞ、いいか――",
+      "before": "끌려 들어간다, 준비해――",
+      "after": "끌려 들어갈 거다, 각오해――",
+      "category": "meaning",
+      "reason": "이어질 상황을 경고하는 미래 표현과 각오하라는 뜻을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-BC6D80E754BEB5301A60",
+      "source_text": "どうしたんだい？\nそんな真剣な顔して",
+      "before": "무슨 일이야?\n그렇게 심각한 얼굴을 하고",
+      "after": "무슨 일이야?\n그렇게 진지한 얼굴을 하고",
+      "category": "meaning",
+      "reason": "真剣な顔를 심각함보다 진지한 표정이라는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-BCDC79E876F952A4827F",
+      "source_text": "仕事ねぇ……\nあんたが探ってる件は\n上手くいってんのか？",
+      "before": "일이야……\n당신이 조사하는 건\n잘되고 있어?",
+      "after": "일이라……\n당신이 조사 중인 건\n잘돼 가고 있어?",
+      "category": "naturalness",
+      "reason": "仕事ねぇ의 화제 되받기와 조사 중인 건에 대한 질문을 자연스럽게 이었다."
+    },
+    {
+      "tm_id": "ARF-TM-BD6BCF2B7BB7560C18A1",
+      "source_text": "そうです。\nコピンもピエロになっています",
+      "before": "맞습니다.\n코핀도 광대가 됐습니다",
+      "after": "그렇습니다.\n코핀도 광대가 되어 있습니다",
+      "category": "speaker_voice",
+      "reason": "코핀의 정중한 말투와 현재 상태를 일관되게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-BD849930E374C470D0CD",
+      "source_text": "ありゃ厳しすぎるだろ？",
+      "before": "그건 너무 엄격했잖아?",
+      "after": "그건 너무 혹독했잖아?",
+      "category": "meaning",
+      "reason": "厳しい가 예절상 엄격함이 아니라 수련이 혹독했다는 뜻임을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-BDE20892CC511B3CDF99",
+      "source_text": "あまりしつこいと\n僕も感情的になりますよ",
+      "before": "너무 끈질기게 굴면\n저도 감정적으로 나옵니다",
+      "after": "너무 끈질기게 굴면\n저도 감정적으로 나올 겁니다",
+      "category": "naturalness",
+      "reason": "상대에게 경고하는 미래 표현을 자연스럽게 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-BDF246CD3EBFD945B902",
+      "source_text": "いや。\n基本的にはまったく似てない",
+      "before": "아니.\n기본적으로 전혀 안 닮았어",
+      "after": "아니다.\n기본적으로는 전혀 닮지 않았다",
+      "category": "speaker_voice",
+      "reason": "격식 있고 단정적인 화자의 말투로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-BE44BC6570CF5002B448",
+      "source_text": "嬉し〜\n約束だからね〜",
+      "before": "기뻐〜\n약속한 거다〜",
+      "after": "기뻐〜\n약속이야〜",
+      "category": "naturalness",
+      "reason": "約束だからね의 친근한 확인을 자연스러운 반말로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-BE4C957EF5BE796F5556",
+      "source_text": "いぇい、ときましたか",
+      "before": "예이라니, 나왔군요",
+      "after": "예이까지 나왔군요",
+      "category": "naturalness",
+      "reason": "いぇい라는 감탄까지 나왔다는 관찰을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-BEE2C18B1F3F1D642248",
+      "source_text": "あらあら、青少年は\n自意識過剰だねえ",
+      "before": "어이쿠, 청소년은\n자의식 과잉이네",
+      "after": "어머나, 청소년은\n자의식 과잉이네",
+      "category": "speaker_voice",
+      "reason": "능글맞은 여성 화자의 감탄사와 말투로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-BF4BC34A9FDB175F96DE",
+      "source_text": "むしろ……\nこのラスカーダの管理者たちが\n特別なのかも知れぬな",
+      "before": "오히려……\n이 라스카다 관리자들이\n특별한 것일지도 몰라",
+      "after": "오히려……\n이 라스카다 관리자들이\n특별한 것일지도 모르겠군",
+      "category": "speaker_voice",
+      "reason": "절제된 남성 화자의 종결 어조로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-BF984FC43490F0C0F6CF",
+      "source_text": "その逆もまた然り。\nリフィアも似た人間を\n見たことがあったのかもしれない",
+      "before": "그 반대도 마찬가지.\n리피아도 닮은 사람을\n본 적 있을지도 몰라",
+      "after": "그 반대도 마찬가지다.\n리피아도 닮은 사람을\n본 적 있을지도 모른다",
+      "category": "speaker_voice",
+      "reason": "격식 있고 단정적인 화자의 서술 어조를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-BFD7142AB2B735D8E08E",
+      "source_text": "はは、でもそのおかげで\nラルクは傭兵になれた\nようなものじゃないか",
+      "before": "하하, 하지만 그 덕에\n라르크가 용병이 될 수 있었던\n거나 다름없잖아",
+      "after": "하하, 하지만 그 덕에\n라르크가 용병이 된\n셈이잖아",
+      "category": "naturalness",
+      "reason": "ようなもの를 가능성이 아니라 결과상 그런 셈이라는 뜻으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C0A4FCC602410BC08774",
+      "source_text": "それに、サージュとオイゲンもよ",
+      "before": "그리고 사쥬와 오이겐도",
+      "after": "그리고 사쥬와 오이겐도 그래",
+      "category": "naturalness",
+      "reason": "앞 문장의 서술을 이어받는 생략 문장을 한국어로 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-C1CBF413065B6D7D5347",
+      "source_text": "俺なんて、剣使えないのに\n覚えときゃいいんぢゃ!!\nって怒られて",
+      "before": "나는 검도 못 쓰는데\n기억해 두면 좋다잖아!!\n라고 혼났어",
+      "after": "저는 검도 못 쓰는데\n기억해 두면 되는 거다!!\n라고 혼났슴다",
+      "category": "speaker_voice",
+      "reason": "니콜의 말투를 복원하고 覚えときゃいい의 뜻을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C1FA7AB31D651545A6B0",
+      "source_text": "さすがに、このあたりは\n勇者道８段のあたしにも厳しいなぁ",
+      "before": "역시 이 근처는\n용사의 길 ８단인 나도 힘드네",
+      "after": "역시 이 근처는\n용사도 ８단인 나도 힘드네",
+      "category": "terminology",
+      "reason": "勇者道를 기존 용어인 용사도로 통일하고 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-C26C624637F3E4B9497A",
+      "source_text": "もう、わかったから！",
+      "before": "이제 알았으니까!",
+      "after": "됐어, 알았으니까!",
+      "category": "naturalness",
+      "reason": "もう의 제지하는 뉘앙스를 살려 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C275AB1FA46B27472DE1",
+      "source_text": "あのお２人は僕の顔を\n上上下下左右左右と\n激しく歪めるのです",
+      "before": "그 두 분은 제 얼굴을\n위아래 위아래 좌우 좌우로\n심하게 일그러뜨립니다",
+      "after": "그 두 분은 제 얼굴을\n위위아래아래좌우좌우로\n심하게 일그러뜨립니다",
+      "category": "meaning",
+      "reason": "上上下下左右左右의 방향 순서를 정확히 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C2BDDE05B3D5031CD466",
+      "source_text": "僕は素直に申しあげました。\nあなたの指先は僕を貫通しそうです。\nでも、とても心地いい……と",
+      "before": "저는 솔직히 말씀드렸습니다.\n당신 손가락은 저를 관통할 것 같습니다.\n하지만 정말 기분 좋습니다……라고",
+      "after": "저는 솔직히 말씀드렸습니다.\n당신의 손가락은 저를 관통할 것 같습니다.\n하지만 정말 기분 좋습니다……라고",
+      "category": "particle",
+      "reason": "손가락의 소유 관계를 나타내는 조사를 보충했다."
+    },
+    {
+      "tm_id": "ARF-TM-C31B63E97768C2FD0797",
+      "source_text": "もっとも\nこのような状況に陥らぬことこそ\n肝要なのだがな",
+      "before": "다만\n이런 상황에 빠지지 않는 게\n중요하겠지만",
+      "after": "다만\n이런 상황에 빠지지 않는 것이야말로\n중요한 일이지만 말이지",
+      "category": "speaker_voice",
+      "reason": "강조 표현과 고풍스러운 종결을 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-C366E4640A0DF10B3236",
+      "source_text": "その綺麗な目を曇らせちゃ\n鈍いラルクでもない限り\n堅物野郎でもわかっちゃうでしょ",
+      "before": "그 아름다운 눈을 흐리게 하면\n라르크처럼 둔하지 않은 이상\n고지식한 녀석도 알아채지",
+      "after": "그 아름다운 눈에 그늘이 지면\n둔감한 라르크가 아닌 이상\n고지식한 녀석이라도 알아채겠지",
+      "category": "meaning",
+      "reason": "ない限り의 조건을 이중 부정으로 잘못 옮긴 부분을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C370660419F2E6323E85",
+      "source_text": "水とか食料とか、ここに\nあるものも必要だったはずだぜ。\nだが、他にも理由はある",
+      "before": "물이나 식량처럼, 여기에\n있는 것도 필요했겠지.\n하지만 다른 이유도 있어",
+      "after": "여기 있는 물이나 식량도\n필요했겠지.\n하지만 다른 이유도 있어",
+      "category": "naturalness",
+      "reason": "장소와 필요한 물자를 자연스러운 한국어 어순으로 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-C40ECBC3C2290B88B812",
+      "source_text": "ソニア博士の研究結果では\n小さな結晶の無効化にも\n時間がかかるということだったわ",
+      "before": "소니아 박사 연구 결과로는\n작은 결정 무효화에도\n시간이 걸린다고 했어",
+      "after": "소니아 박사의 연구 결과로는\n작은 결정을 무효화하는 데도\n시간이 걸린다고 했어",
+      "category": "grammar",
+      "reason": "관형격 조사와 무효화하는 행위의 목적 표현을 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-C4229ACCD925E01FFC4E",
+      "source_text": "私がどうかしたの？",
+      "before": "내가 왜?",
+      "after": "내가 뭐 어쨌어?",
+      "category": "function",
+      "reason": "私がどうかしたの를 자신에게 무슨 문제가 있는지 되묻는 말로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-C477DF36BF5E9E19337A",
+      "source_text": "じゃ、リフィア、行くよ〜",
+      "before": "그럼, 리피아, 간다〜",
+      "after": "그럼, 리피아, 가자〜",
+      "category": "meaning",
+      "reason": "行くよ를 혼자 간다는 선언이 아니라 동행을 재촉하는 말로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C4A2BE7C48745D2F5FB2",
+      "source_text": "あらあら、勇者様に\nあきれられちゃったか",
+      "before": "어머, 용사님에게\n질려 버렸나",
+      "after": "어머나, 용사님이\n우리에게 질려 버렸나 보네",
+      "category": "meaning",
+      "reason": "あきれた 주체와 대상이 뒤바뀐 부분을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-C4EFC873EB93B1A20968",
+      "source_text": "美人っスよね、気の強そーな",
+      "before": "미인이죠, 성격 세 보이는",
+      "after": "미인임다, 기가 세 보이는",
+      "category": "speaker_voice",
+      "reason": "니콜 특유의 말투로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-C4F33A31A66B54992043",
+      "source_text": "ラルクさんの言葉の通り\nとてもクールとは存じますが\nコピンには辛いかと",
+      "before": "라르크 씨 말대로\n정말 쿨하긴 하지만\n코핀에게는 힘듭니다",
+      "after": "라르크 씨의 말씀대로\n아주 쿨하다고 생각합니다만\n코핀에게는 힘들 것 같습니다",
+      "category": "speaker_voice",
+      "reason": "코핀의 정중한 화법을 세 행에 일관되게 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-C56C133DDA76A79DEA17",
+      "source_text": "……ニコルの奴\nしっかりやってければ\nいいんだけどな",
+      "before": "……니콜 녀석\n제대로 해내면\n좋겠는데",
+      "after": "……니콜 녀석\n제대로 해 나갈 수 있으면\n좋겠는데",
+      "category": "naturalness",
+      "reason": "조건과 바람이 자연스럽게 이어지도록 문장을 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

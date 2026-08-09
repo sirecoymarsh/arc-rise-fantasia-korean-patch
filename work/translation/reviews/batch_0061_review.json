@@ -1,0 +1,144 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0061",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0061.jsonl",
+  "draft": "work/translation/drafts/batch_0061.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0061.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 13,
+  "unchanged_units": 187,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-190708F3E44BCF835470",
+      "source_text": "だってアデールは\n俺やアルスと幼なじみで……",
+      "before": "아델은\n나와 알스의 소꿉친구고……",
+      "after": "그도 그럴 게 아델은\n나와 알스의 소꿉친구고……",
+      "category": "meaning",
+      "reason": "이유를 덧붙이는 'だって'의 연결 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-19160C56497F4A4E6DA0",
+      "source_text": "そんなつれないこと\n言ってくれちゃって。\nラルクくんは反抗期かな",
+      "before": "그렇게 매정한 소릴 다 하고.\n라르크 군은 반항기인가?",
+      "after": "그렇게 매정한 소릴\n다 하네.\n라르크 군은 반항기인가?",
+      "category": "line_breaks",
+      "reason": "원문의 세 줄 구조를 복원하면서 능청스러운 말투를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1A38AB4FE7B222DDA80B",
+      "source_text": "場の空気を読まないと嫌われるぜ？\nお前らの相手は俺たちだ",
+      "before": "분위기 파악 못 하면 미움받는다고?\n너희 상대는 우리다",
+      "after": "분위기 파악 못 하면 미움받을걸?\n너희 상대는 우리다",
+      "category": "naturalness",
+      "reason": "상대에게 분위기를 읽으라고 경고하는 뜻이 자연스럽게 드러나도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-1C1750975B043B7E9082",
+      "source_text": "ならば私の手駒にイーサの因子を\n植え付け、新たなイーサの子に\nイマジナルの定理を選ばせるまで！",
+      "before": "그렇다면 내 장기말에 이사의 인자를\n심어 새로운 이사의 아이에게\n이매지널의 섭리를 선택하게 하겠다!",
+      "after": "그렇다면 내 수족에게 이사의 인자를\n심어 새로운 이사의 아이가\n이매지널의 섭리를 선택하게 하겠다!",
+      "category": "word_choice",
+      "reason": "'手駒'를 부자연스러운 '장기말' 대신 문맥에 맞는 '수족'으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1FF8712C6A5EEB0F167E",
+      "source_text": "ね、ねぇ、こっちにはオルキナ教の\nディーバ暗殺は聖皇の命令で\nＱＥＤがやったって書いてあるよ",
+      "before": "저, 저기. 여기엔 오르키나교의\n디바 암살은 성황의 명령을 받은\nＱＥＤ의 짓이라고 쓰여 있어",
+      "after": "저, 저기. 여기엔 오르키나교의\n디바 암살은 성황의 명령을 받은\nQED의 짓이라고 쓰여 있어",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 표기인 ASCII 'QED'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-21FB39193CC73EC3AB38",
+      "source_text": "マハト陛下は毒でも盛られたのか\nお加減が悪くてな",
+      "before": "마하트 폐하께선 독이라도 당하셨는지\n몸이 편찮으셔서 말이야",
+      "after": "마하트 폐하께선 누가 독이라도 먹였는지\n몸이 편찮으셔서 말이야",
+      "category": "meaning",
+      "reason": "독살 시도를 당했을 가능성을 나타내는 '毒を盛られた'의 피동 의미를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-24F7B22D426DCF520CCB",
+      "source_text": "……息が……出来ない……\nくる……しい……",
+      "before": "……숨을…… 쉴 수 없어……\n괴…… 로워……",
+      "after": "……숨을…… 쉴 수 없어……\n괴……로워……",
+      "category": "spacing",
+      "reason": "말더듬 표현 안에 잘못 삽입된 공백을 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-2526665346C01DAE6C38",
+      "source_text": "いいえ。聖皇の宣下なく\n行われていることよ",
+      "before": "아니. 성황의 교시 없이\n진행되는 일이야",
+      "after": "아니. 성황의 선포 없이\n진행되는 일이야",
+      "category": "word_choice",
+      "reason": "공식적으로 뜻을 내리는 '宣下'를 문맥에 맞는 '선포'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-25E3F01601BC6DBD5B06",
+      "source_text": "ラルク。騙されるなよ。\nこいつだって必死になって\nアルスにログレスを集めさせてたんだ",
+      "before": "라르크. 속지 마.\n이 녀석도 필사적으로\n알스에게 로그레스를 모아 주게 했어",
+      "after": "라르크. 속지 마.\n이 녀석도 필사적으로\n알스가 로그레스를 모으게 했어",
+      "category": "meaning",
+      "reason": "로그레스를 모은 주체가 알스이며 상대가 이를 시켰다는 사역 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-271A0670449B6D4A319F",
+      "source_text": "どうして奴らと一緒にいるんだ？\nやっぱりＱＥＤが関わってるのか",
+      "before": "왜 놈들과 함께 있는 거지?\n역시 ＱＥＤ가 관련된 건가",
+      "after": "왜 놈들과 함께 있는 거지?\n역시 QED가 관련된 건가",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 표기인 ASCII 'QED'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-2A63B700747ACCC45CA8",
+      "source_text": "空中回廊がどこにあるのかが\nわからなきゃ、任務どころの\n話じゃないからな",
+      "before": "공중 회랑이 어디 있는지도\n모르면 임무는커녕\n아무것도 못 하니까",
+      "after": "공중 회랑이 어디 있는지도\n모르면 임무를 논할\n형편도 아니니까",
+      "category": "meaning",
+      "reason": "위치를 모르면 임무 자체를 논할 수 없다는 원문의 의미를 정확히 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-2ED993C75EFDB96F9DBB",
+      "source_text": "おやおや。\nようやく気づいたのかい\nラルクくん",
+      "before": "이런, 이런.\n이제야 눈치챘어,\n라르크 군?",
+      "after": "이런, 이런.\n이제야 눈치챘니,\n라르크 군",
+      "category": "naturalness",
+      "reason": "상대를 여유롭게 놀리는 의문형 어조를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-314A76876F5607A512DF",
+      "source_text": "……馬鹿者！\n敵に情けをかける奴があるか！",
+      "before": "……이 바보 녀석!\n적에게 인정을 베푸는 놈이 어디 있나!",
+      "after": "……이 바보 녀석!\n적에게 자비를 베푸는 놈이 어디 있나!",
+      "category": "word_choice",
+      "reason": "적에게 연민을 베푼다는 '情けをかける'의 뜻을 명확히 했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

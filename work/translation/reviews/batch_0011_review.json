@@ -1,0 +1,466 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0011",
+  "draft_author": "/root/translate_batch_0008",
+  "reviewer": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0011.jsonl",
+  "draft": "work/translation/drafts/batch_0011.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0011.jsonl",
+  "validation_report": "work/translation/validation/batch_0011_reviewed.json",
+  "boundary_audit": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+  "reviewed_units": 200,
+  "modified_units": 61,
+  "unchanged_units": 139,
+  "review_dimensions": [
+    "meaning_omission_addition",
+    "proper_nouns_and_glossary",
+    "system_function_accuracy",
+    "numbers_and_numeric_typography",
+    "natural_korean_and_particles",
+    "control_tokens",
+    "line_breaks",
+    "source_metadata_and_order",
+    "source_structure_prefixes",
+    "codepage_corruption"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-704729BF040FA29EDB69",
+      "source_text": "ニコルを人質に取られたラルクたちは",
+      "before": "니콜이 인질로 잡힌 라르크 일행은",
+      "after": "니콜을 인질로 빼앗긴 라르크 일행은",
+      "category": "narrative_agency",
+      "reason": "「ニコルを人質に取られた」의 피해 주체가 라르크 일행임을 분명히 해, 니콜을 인질로 빼앗겼다는 사건 관계를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-71A32F6B9637757E7093",
+      "source_text": "どの国の兵士たちが身につけるものとも\n異なる白銀の甲冑に深紅の衣……",
+      "before": "어느 나라 병사들이 입는 것과도\n다른 은빛 갑옷에 심홍색 옷……",
+      "after": "어느 나라 병사들의 것과도\n다른 은빛 갑옷과 진홍빛 옷……",
+      "category": "item_flavor_naturalness",
+      "reason": "장황한 수식 구조를 정리하고 「深紅」를 의상 설명에 자연스러운 ‘진홍빛’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-71B04DBCFBB058E6B2FF",
+      "source_text": "<$13>14<$1F>00009E<$1F>01<$13>00レベル４の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人を<$13>14<$1F>00003F<$1F>01<$13>00の\n状態にする。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nペインリフレクトでは\n効果ターンが長くなる",
+      "before": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>00003F<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n페인 리플렉트에서는\n효과 턴이 길어진다",
+      "after": "<$13>14<$1F>00009E<$1F>01<$13>00 레벨 4의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명을 <$13>14<$1F>00003F<$1F>01<$13>00\n상태로 만든다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n페인 리플렉트에서는\n효과 지속 턴이 늘어난다",
+      "category": "system_term_clarity",
+      "reason": "「効果ターン」이 효과의 지속 턴 수를 뜻한다는 점을 명시하고 기존 승인본의 표현과 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-71C643455DE9064EDA1B",
+      "source_text": "紺の布地に、波や風を思わせる模様が\n染め抜かれている、一般的な形の水着",
+      "before": "남색 천에 파도와 바람을 연상시키는 무늬를\n물들인 일반적인 형태의 수영복",
+      "after": "남색 천에 파도와 바람을 연상시키는 무늬를\n염색해 넣은 일반적인 형태의 수영복",
+      "category": "item_flavor_naturalness",
+      "reason": "「染め抜かれている」를 ‘무늬를 물들인’이라는 어색한 목적 관계 대신 천에 무늬를 염색해 넣었다는 뜻으로 명료화했다."
+    },
+    {
+      "tm_id": "ARF-TM-72DDC0BBDA2801FC19B7",
+      "source_text": "<$13>14<$1F>000016<$1F>01<$13>00のひとつ。\n<$13>14<$1F>000060<$1F>01<$13>00、<$13>14<$1F>00005C<$1F>01<$13>00\n<$13>14<$1F>00004B<$1F>01<$13>00が\n使用できなくなる。また、\n足止め状態の時は、移動が\n行えない。\nこの<$13>14<$1F>000016<$1F>01<$13>00は\nターンの経過、戦闘終了で\n回復する",
+      "before": "<$13>14<$1F>000016<$1F>01<$13>00 중 하나.\n<$13>14<$1F>000060<$1F>01<$13>00, <$13>14<$1F>00005C<$1F>01<$13>00\n<$13>14<$1F>00004B<$1F>01<$13>00을\n사용할 수 없다. 또한,\n속박 상태에서는 이동을\n할 수 없다.\n이 <$13>14<$1F>000016<$1F>01<$13>00은\n턴 경과 및 전투 종료 시\n회복된다",
+      "after": "<$13>14<$1F>000016<$1F>01<$13>00 중 하나.\n<$13>14<$1F>000060<$1F>01<$13>00, <$13>14<$1F>00005C<$1F>01<$13>00,\n<$13>14<$1F>00004B<$1F>01<$13>00을\n사용할 수 없다. 또한,\n속박 상태에서는 이동을\n할 수 없다.\n이 <$13>14<$1F>000016<$1F>01<$13>00은\n턴 경과 및 전투 종료 시\n회복된다",
+      "category": "system_list_clarity",
+      "reason": "사용 불가능해지는 세 행동을 쉼표로 분명히 연결해 마지막 제어 토큰만 앞 항목에 붙어 보이던 모호성을 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-73593090CBB270EBC6C8",
+      "source_text": "単体のＬＶアップ\n自身以外に発動",
+      "before": "단일 대상의 LV 상승\n자신 이외에게 발동",
+      "after": "단일 대상의 LV 상승\n자신 이외의 대상에게 발동",
+      "category": "system_target_clarity",
+      "reason": "「自身以外」 뒤의 생략된 대상을 보완해 자신 이외의 대상에게 발동한다는 기능을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-736318A3FE044DFC2CEB",
+      "source_text": "荷物の搬送をお願いしたい。\nオパルスにいる\n配達員から指示を受けてくれ。\n　\n※途中で放棄できないクエストです",
+      "before": "화물 운반을 부탁하고 싶다.\n오팔루스에 있는\n배달원에게 지시를 받아라.\n\n※도중에 포기할 수 없는 퀘스트입니다",
+      "after": "짐 운반을 부탁하고 싶다.\n오팔루스에 있는\n배달원에게 지시를 받아라.\n　\n※도중에 포기할 수 없는 퀘스트입니다",
+      "category": "quest_register_and_layout",
+      "reason": "일반 의뢰 문맥의 「荷物」를 자연스러운 ‘짐’으로 옮기고, 원문의 공백 전용 줄을 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-73D441AD089DB8B40C7A",
+      "source_text": "風属性耐性３",
+      "before": "바람 속성 내성 3",
+      "after": "바람 내성 3",
+      "category": "terminology_consistency",
+      "reason": "기존 승인본의 수치형 속성 내성 표기인 ‘불/물/땅 내성 N’ 형식에 맞춰 중복된 ‘속성’을 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-7411D8C828A417B079FB",
+      "source_text": "トゥレミリアの国教である\n<$13>14<$1F>000150<$1F>01<$13>00への\n穏やかな臣従を謳う法令。\nしかしながら、実際には\n政の最高機関である\n<$13>14<$1F>000152<$1F>01<$13>00から意志決定能力を\nを奪い、教会の意に反する\n判断をくださせないための\n悪しき枷であった",
+      "before": "투레밀리아의 국교인\n<$13>14<$1F>000150<$1F>01<$13>00에 대한\n온건한 복종을 표방하는 법령.\n하지만 실제로는\n정치 최고 기관인\n<$13>14<$1F>000152<$1F>01<$13>00에서 의사 결정 능력을\n빼앗아 교회의 뜻에 반하는\n판단을 내리지 못하게 하는\n악랄한 족쇄였다",
+      "after": "투레밀리아의 국교인\n<$13>14<$1F>000150<$1F>01<$13>00에 대한\n온건한 복종을 표방하는 법령.\n하지만 실제로는\n정치 최고 기관인\n<$13>14<$1F>000152<$1F>01<$13>00의 의사 결정권을\n빼앗아 교회의 뜻에 반하는\n판단을 내리지 못하게 하는\n악랄한 족쇄였다",
+      "category": "lore_legal_meaning",
+      "reason": "「意志決定能力を奪い」를 기관에서 능력을 빼앗는다는 직역 대신 해당 기관의 의사 결정권을 박탈한다는 법·정치 문맥으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7474ABD8FFB6799544CF",
+      "source_text": "<$13>14<$1F>0000F9<$1F>01<$13>00の妹神。\n『滅び』と『自然回帰』を\n象徴するとされる。\n<$13>14<$1F>000145<$1F>01<$13>00における\n信仰の対象であり\nその孤高なる教義に\n多くの教徒たちが\n祈りを捧げている",
+      "before": "<$13>14<$1F>0000F9<$1F>01<$13>00의 여동생인 신.\n『멸망』과 『자연 회귀』를\n상징한다고 한다.\n<$13>14<$1F>000145<$1F>01<$13>00에서\n신앙의 대상이며\n그 고고한 교리에\n많은 교도들이\n기도를 올리고 있다",
+      "after": "<$13>14<$1F>0000F9<$1F>01<$13>00의 여동생인 여신.\n『멸망』과 『자연 회귀』를\n상징한다고 한다.\n<$13>14<$1F>000145<$1F>01<$13>00에서\n신앙의 대상이며\n그 고고한 교리에\n많은 교도들이\n기도를 올리고 있다",
+      "category": "lore_naturalness",
+      "reason": "여성 신격을 뜻하는 「妹神」을 어색한 ‘여동생인 신’ 대신 ‘여동생인 여신’으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-750D46334D9E1C842770",
+      "source_text": "またしても1人飛び出して行くグランツ。",
+      "before": "또다시 1명만 뛰쳐나가는 그란츠.",
+      "after": "또다시 혼자 뛰쳐나가는 그란츠.",
+      "category": "narrative_meaning",
+      "reason": "「1人」은 인원 한 명만 움직인다는 뜻이 아니라 그란츠가 혼자 뛰쳐나갔다는 뜻이므로 자연스럽게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-753F61760C8FE9567BBF",
+      "source_text": "▼ モニカの仕立屋",
+      "before": "▼ 모니카 양장점",
+      "after": "▼ 모니카의 양장점",
+      "category": "shop_name_consistency",
+      "reason": "기존 승인된 ‘캐럴의 양장점’ 등 「인명＋の仕立屋」의 소유격 표기와 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7575B9B08BD14910DED8",
+      "source_text": "全体に氷属性ダメージ",
+      "before": "전체에 얼음 속성 피해",
+      "after": "전체에게 얼음 속성 피해",
+      "category": "system_target_consistency",
+      "reason": "기존 승인본의 「全体に〜ダメージ」 템플릿인 ‘전체에게 … 피해’와 조사를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-75A35B0045611D33AEED",
+      "source_text": "熟練のコーダーが設計した標準的な杖。\n持つ者の集中力を高め、見識を深くする",
+      "before": "숙련된 코더가 설계한 표준형 지팡이.\n소지자의 집중력을 높이고 식견을 깊게 한다",
+      "after": "숙련된 코더가 설계한 표준형 지팡이.\n소지자의 집중력을 높이고 식견을 넓힌다",
+      "category": "item_flavor_naturalness",
+      "reason": "‘식견을 깊게 한다’는 직역투를 한국어에서 자연스러운 ‘식견을 넓힌다’로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-75A43EBE8B8902F51997",
+      "source_text": "異性のために仕立てられた衣服は\n少女の身体を包むと予想外の効果を生む",
+      "before": "이성용으로 지은 옷은\n소녀의 몸을 감싸자 뜻밖의 효과를 낳는다",
+      "after": "이성용으로 지은 옷은\n소녀의 몸을 감싸면 뜻밖의 효과를 낳는다",
+      "category": "conditional_meaning",
+      "reason": "소녀가 착용할 때 효과가 생긴다는 원문의 조건 관계를 ‘감싸자’가 아닌 ‘감싸면’으로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-7719DAF524C9B160812D",
+      "source_text": "<$13>14<$1F>00009F<$1F>01<$13>00レベル２の<$13>14<$1F>000061<$1F>01<$13>00。\n味方１人の<$13>14<$1F>000017<$1F>01<$13>00以外の\n<$13>14<$1F>000016<$1F>01<$13>00を回復する。\n<$13>14<$1F>0000B0<$1F>01<$13>00の\nキュアコンディションでは\n追加効果として<$13>14<$1F>000003<$1F>01<$13>00を回復\nする",
+      "before": "<$13>14<$1F>00009F<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000017<$1F>01<$13>00 이외\n<$13>14<$1F>000016<$1F>01<$13>00을 회복한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n큐어 컨디션에서는\n추가 효과로 <$13>14<$1F>000003<$1F>01<$13>00을 회복\n한다",
+      "after": "<$13>14<$1F>00009F<$1F>01<$13>00 레벨 2의 <$13>14<$1F>000061<$1F>01<$13>00.\n아군 1명의 <$13>14<$1F>000017<$1F>01<$13>00 이외의\n<$13>14<$1F>000016<$1F>01<$13>00을 회복한다.\n<$13>14<$1F>0000B0<$1F>01<$13>00의\n큐어 컨디션에서는\n추가 효과로 <$13>14<$1F>000003<$1F>01<$13>00을 회복\n한다",
+      "category": "linked_term_particle",
+      "reason": "「〜以外の〜」에 대응하는 관형격 조사 ‘의’를 보완해 전투 불능 이외의 상태 이상을 회복한다는 범위를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-77B556A73C168B67D700",
+      "source_text": "メリディア帝室の人間が軍務の際にまとう\n２種の青と白が象徴的にあしらわれている",
+      "before": "메리디아 황실 사람이 군무 때 입으며\n2가지 푸른색과 흰색을 상징적으로 배치했다",
+      "after": "메리디아 황실 사람들이 군무 때 입으며\n두 가지 푸른빛과 흰빛이 상징적으로 쓰였다",
+      "category": "item_flavor_grammar",
+      "reason": "황실 사람들을 단수처럼 표현한 문장을 고치고, 「２種の青と白」의 색채 배치를 자연스러운 의상 설명으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-784CBE5B370AEAAD2BB0",
+      "source_text": "クマのきぐるみ",
+      "before": "곰 인형옷",
+      "after": "곰 인형탈",
+      "category": "costume_terminology_consistency",
+      "reason": "기존 승인본의 「きぐるみ」 표기 ‘인형탈’과 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-78DBECD76905E2FDCA92",
+      "source_text": "メリディア皇家直属部隊の士官が身につける\n静かなる剛直と隠された忠義の証",
+      "before": "메리디아 황실 직속 부대 장교가 입는\n고요한 강직함과 숨겨진 충의의 증표",
+      "after": "메리디아 황실 직속 부대 장교가 입는\n묵묵한 강직함과 숨겨진 충의의 증표",
+      "category": "item_flavor_naturalness",
+      "reason": "「静かなる剛直」를 어색한 ‘고요한 강직함’ 대신 인물의 태도를 나타내는 ‘묵묵한 강직함’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-791B48002FBBE50F44C7",
+      "source_text": "全体に物理無効の効果",
+      "before": "전체에 물리 무효 효과",
+      "after": "전체에게 물리 무효 효과",
+      "category": "system_target_consistency",
+      "reason": "기존 승인본의 「全体に光召無効の効果」와 같은 ‘전체에게 … 효과’ 템플릿으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7A12430669EC8999E8BB",
+      "source_text": "火耐性＋４、水耐性−４",
+      "before": "불 내성＋4, 물 내성−4",
+      "after": "불 내성＋４, 물 내성−４",
+      "category": "numeric_typography_preservation",
+      "reason": "원문과 기존 승인본의 수치형 내성 표기에 맞춰 전각 숫자와 부호 형식을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-7B5EBA5D65D0210733D4",
+      "source_text": "帝国軍に採用されている標準的な法衣。\n防御力と抵抗力を高める",
+      "before": "제국군이 채택한 표준형 법의.\n방어력과 저항력을 높인다",
+      "after": "제국군이 채택한 표준 로브.\n방어력과 저항력을 높인다",
+      "category": "item_terminology_consistency",
+      "reason": "장비 문맥의 「法衣」를 기존 승인본과 동일한 ‘로브’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7B7638561B4203DCA4A2",
+      "source_text": "高純度の鋼で強化された頑丈な胸当て。\n防御力と抵抗力を高める",
+      "before": "고순도 강철로 강화한 튼튼한 흉갑.\n방어력과 저항력을 높인다",
+      "after": "고순도 강철로 보강한 견고한 흉갑.\n방어력과 저항력을 높인다",
+      "category": "item_flavor_consistency",
+      "reason": "기존 승인된 동계열 방어구 설명의 ‘고순도 강철로 보강한 견고한…’ 표현과 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7B8736D0FDA916121B1A",
+      "source_text": "物理攻撃時、魔獣系へ与える\nダメージが上昇する",
+      "before": "물리 공격 시 마수에게 주는\n피해가 증가한다",
+      "after": "물리 공격 시 마수계에게 주는\n피해가 증가한다",
+      "category": "enemy_category_meaning",
+      "reason": "「魔獣系」를 개별 마수가 아니라 계열 분류인 ‘마수계’로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-7D09EEACC06CC036D83F",
+      "source_text": "ギルド受付の男",
+      "before": "길드 접수원 남자",
+      "after": "길드의 남성 접수원",
+      "category": "role_label_naturalness",
+      "reason": "‘길드 접수원 남자’라는 일본어식 명사 나열을 자연스러운 역할명으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-76E49C6A0E93976F891E",
+      "source_text": "大蛇ウロボロスの生皮を剥いで作った剣。\nその一閃は、時に敵を病魔に蝕む",
+      "before": "거대한 뱀 우로보로스의 생가죽을 벗겨 만든 검.\n그 일섬은 때로 적을 병마에 잠식시킨다",
+      "after": "거대 뱀 우로보로스의 생가죽으로 만든 검.\n그 일섬은 때로 적을 병마에 잠식시킨다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "81바이트 고정 설명 필드에 맞추기 위해 ‘거대한’을 ‘거대’로, 생가죽 제작 표현을 ‘생가죽으로 만든’으로 압축했다. 거대 뱀 우로보로스·생가죽 검·일섬의 병마 효과는 모두 보존했으며 78바이트+NUL 1바이트로 적합하다."
+    },
+    {
+      "tm_id": "ARF-TM-7092E11C1F16690A719C",
+      "source_text": "名家で働く若い青年は、脚の線を露わとする\n衣服に身を包み、主人のため美を競った",
+      "before": "명문가에서 일하는 젊은이는 다리선을 드러낸\n옷을 입고 주인을 위해 아름다움을 겨뤘다",
+      "after": "명문가에서 일하는 젊은이는 다리선을 드러낸\n옷을 입고 주인을 위해 미를 겨뤘다",
+      "category": "post_review_fit_or_encoding",
+      "reason": "원문의 「美を競った」를 자연스럽고 간결한 ‘미를 겨뤘다’로 다듬었다. 젊은이·다리선을 드러낸 옷·주인을 위한 경쟁 의미를 보존하면서 76바이트+NUL 1바이트로 81바이트 필드에 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-77F216B015A6123828EF",
+      "source_text": "愛らしい聖職者",
+      "before": "사랑스러운 성직자",
+      "after": "귀여운 성직자",
+      "category": "post_review_fit_or_encoding",
+      "reason": "「愛らしい」의 의미를 유지하는 짧고 자연스러운 ‘귀여운’으로 교정해 13바이트+NUL 1바이트로 17바이트 이름 필드에 맞췄다."
+    }
+  ],
+  "residual_issues": [
+    {
+      "severity": "structured_table_boundary_audit_required",
+      "issue": "현재 canonical boundary audit에는 batch_0011 TM ID가 포함되지 않는다. 숫자·ASCII·백슬래시·제어 토큰·공백·선두 조사 등이 붙은 17개 스캐너 문자열은 정확한 구조 필드/오프셋 감사 전 접두부를 임의 삭제하지 않았으며 자동 삽입 대상으로 확정하지 않는다.",
+      "canonical_audit_matches": 0,
+      "candidates": [
+        {
+          "tm_id": "ARF-TM-6FE3047B2F1E08A11D03",
+          "source_text": "2ウインドスライサ",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "offset_hex": "0xAE3"
+        },
+        {
+          "tm_id": "ARF-TM-704EB3AAAAEFC6AC296B",
+          "source_text": "8友との別れ",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "offset_hex": "0x827B"
+        },
+        {
+          "tm_id": "ARF-TM-70601A9BFEDDE998AEA7",
+          "source_text": "C骸使い",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "offset_hex": "0x5967"
+        },
+        {
+          "tm_id": "ARF-TM-732A78E7D681BF59765C",
+          "source_text": "<$0F>j| レイスコール",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x1413B"
+        },
+        {
+          "tm_id": "ARF-TM-741077073B934193B0E0",
+          "source_text": "<$0F>j| 星へ行く船",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x1865C"
+        },
+        {
+          "tm_id": "ARF-TM-76A63A8AD34066C87E65",
+          "source_text": " イマジナル神",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x159A4"
+        },
+        {
+          "tm_id": "ARF-TM-76B51C383A34DA046D7B",
+          "source_text": "\\<$01>再生",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x4D41"
+        },
+        {
+          "tm_id": "ARF-TM-76F0851E6EF383C5BB8D",
+          "source_text": "@コーリング",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "offset_hex": "0x1C2F"
+        },
+        {
+          "tm_id": "ARF-TM-76FDAE9B18A1AA524BAE",
+          "source_text": "\\<$18>共鳴",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0xE922"
+        },
+        {
+          "tm_id": "ARF-TM-790B7230AA1559A2AECE",
+          "source_text": "Cアクアスコール",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "offset_hex": "0xA3F"
+        },
+        {
+          "tm_id": "ARF-TM-797AE6E8435B663EF940",
+          "source_text": "\nぼうぎょ",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x84D5"
+        },
+        {
+          "tm_id": "ARF-TM-79911725A855E7A9AE3A",
+          "source_text": "を目指し、変わり果てた街を歩くラルクたち",
+          "logical_locator": "Sys/system.vol::0050:todo.dat",
+          "offset_hex": "0x1A30"
+        },
+        {
+          "tm_id": "ARF-TM-79EE3468D66BBC161745",
+          "source_text": "l クドアンヌ",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x1F173"
+        },
+        {
+          "tm_id": "ARF-TM-7AEC296E45889B5F6C4C",
+          "source_text": "0たいせつなこと",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "offset_hex": "0x7C4B"
+        },
+        {
+          "tm_id": "ARF-TM-7B3267721661E573D95F",
+          "source_text": "1ブースター",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "offset_hex": "0xCCF"
+        },
+        {
+          "tm_id": "ARF-TM-7BE71EA239FECFC14640",
+          "source_text": " 創世記",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x1688D"
+        },
+        {
+          "tm_id": "ARF-TM-7CD4CC8553B43C2C978E",
+          "source_text": "<$0F>座<$01>作戦設定",
+          "logical_locator": "Sys/help.bin",
+          "offset_hex": "0x6F22"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7CD4CC8553B43C2C978E",
+      "severity": "embedded_structure_character",
+      "issue": "`<$0F>座<$01>作戦設定`의 `座`는 제어 토큰 사이에 낀 구조 경계 문자일 가능성이 있다. 초벌의 음가 보존 번역 `좌`를 유지했으며, 구조화된 help 필드 경계 승인 전에는 삭제하거나 정상 표제로 단정하지 않는다."
+    },
+    {
+      "tm_id": "ARF-TM-79911725A855E7A9AE3A",
+      "severity": "leading_fragment_context_dependency",
+      "issue": "원문이 목적격 조사 `を`로 시작해 앞 필드의 대신전을 목적어로 이어 받는 조각이다. 초벌의 문맥 복원 번역을 유지했으며 정확한 필드 결합 여부는 후속 경계 감사 대상이다."
+    }
+  ],
+  "validation": {
+    "expected_units": 200,
+    "actual_units": 200,
+    "completed_units": 200,
+    "source_metadata_preserved": true,
+    "ids_and_order_preserved": true,
+    "control_tokens_preserved": true,
+    "line_break_counts_preserved": true,
+    "validator_error_count": 0,
+    "validator_warning_count": 0,
+    "validator_warnings": [],
+    "valid": true,
+    "status": "passed"
+  },
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/batch_0011.json",
+    "source_sha256": "E52E112E8C285A41D68DEF26D5454A90480FC36AC449CD019D9844474620D3D1",
+    "audited_units_in_batch": 33,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span.",
+    "validation": {
+      "report": "work/translation/validation/batch_0011_reviewed.json",
+      "error_count": 0,
+      "warning_count": 0,
+      "valid": true,
+      "boundary_audit_units_available": 235
+    }
+  },
+  "hashes": {
+    "source_sha256": "D8712B52FEA2DC960BE50B4FA286C7309495EF2D0A5EE35D453A2BBE56A5673E",
+    "draft_sha256": "9344CC272446F48857C6D19EC6D7CC324B213CEF5465613107C2818E8920859F",
+    "reviewed_sha256": "7B8667B5DAC343E90C0A5AE64FFB7591ED9ABD61743FBC1274098FE881658CDC",
+    "validation_sha256": "9E3083849AD8E2603B3A1C6E1BC1D8AE02DB361FE1B67CF490A98C05E976D8CF",
+    "boundary_audit_sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "post_review_fit_sha256": "4CAD5CC285522712F46447196698C096F755E2AD08D282EC46EFA44FECD9BB48",
+    "post_review_temporary_tm_sha256": "8160C61FFA7016BA4790DBC10BFF42E2A216DFCCE04862B6CFB960089D72D04C",
+    "post_review_temporary_codebook_sha256": "8FEE8348945F09C0937317EA5C180BD366E257049851E6895E68ADCB86110B24",
+    "batch_0011_boundary_audit_sha256": "E52E112E8C285A41D68DEF26D5454A90480FC36AC449CD019D9844474620D3D1"
+  },
+  "post_review_fit_validation": {
+    "baseline_reviewed_sha256": "DC9A0AED77F947B91A51F02CCC7490129C431112C2BCFC600A727AD1D1A0BE2B",
+    "temporary_translation_memory": "work/translation/validation/batch_0011_fit_work_reviewed/translation_memory_draft.json",
+    "temporary_translation_memory_sha256": "8160C61FFA7016BA4790DBC10BFF42E2A216DFCCE04862B6CFB960089D72D04C",
+    "temporary_codebook": "work/translation/validation/batch_0011_codebook_temp.json",
+    "temporary_codebook_sha256": "8FEE8348945F09C0937317EA5C180BD366E257049851E6895E68ADCB86110B24",
+    "fit_report": "work/translation/validation/batch_0011_fit_only.json",
+    "fit_report_sha256": "4CAD5CC285522712F46447196698C096F755E2AD08D282EC46EFA44FECD9BB48",
+    "approved_tm_units": 1600,
+    "fixed_overflow_count": 0,
+    "resizable_table_in_place_overflow_count": 69,
+    "prior_batches_resizable_overflow_count": 66,
+    "batch_0011_resizable_overflow_count": 3,
+    "batch_0011_resizable_overflows": [
+      {
+        "tm_id": "ARF-TM-76EBA2061DEA0F12EC8A",
+        "table_unit_id": "quest:20:title",
+        "translation_ko": "설국의 명산품",
+        "required_with_nul": 14,
+        "capacity": 11
+      },
+      {
+        "tm_id": "ARF-TM-7D09EEACC06CC036D83F",
+        "table_unit_id": "quest:36:requester",
+        "translation_ko": "길드의 남성 접수원",
+        "required_with_nul": 19,
+        "capacity": 15
+      },
+      {
+        "tm_id": "ARF-TM-704EFD4C1AB65A11833C",
+        "table_unit_id": "quest:47:title",
+        "translation_ko": "뜻밖의 의뢰인",
+        "required_with_nul": 14,
+        "capacity": 13
+      }
+    ],
+    "resizable_policy": "검증된 quest.bin 가변 테이블 재빌드 대상으로 유지하며 억지 축약하지 않음.",
+    "unmatched_system_tm_count": 33,
+    "unmatched_note": "33건은 별도 batch_0011 경계 감사에서 해결됐으나 아직 canonical audit에 병합되지 않아 이 preflight에서는 unmatched로 남는다.",
+    "encoding_error_count": 0,
+    "global_encoding_error_count": 0,
+    "known_fixed_fields_fit": true,
+    "batch_0011_boundary_audit": "work/translation/boundary_audit/batch_0011.json",
+    "batch_0011_boundary_audit_sha256": "E52E112E8C285A41D68DEF26D5454A90480FC36AC449CD019D9844474620D3D1",
+    "boundary_audit_clean_translation_conflicts": [],
+    "boundary_audit_note": "후속 fixed-field 교정 3건은 경계 감사 33건의 범위 밖이므로 audit clean translation과 충돌하지 않는다. 감사 JSON은 수정하지 않았다.",
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": []
+  }
+}

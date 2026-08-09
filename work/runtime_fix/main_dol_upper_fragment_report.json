@@ -1,0 +1,9 @@
+{
+  "selected": 270,
+  "errors": [],
+  "validation": {
+    "raw_match": true,
+    "capacity": true,
+    "placeholders": true
+  }
+}

@@ -1,0 +1,4153 @@
+{
+  "schema": "arf-ko-riivolution-release-v1",
+  "package": "Arc_Rise_Fantasia_Korean_Patch_v1.0",
+  "created_utc": "2026-08-09T00:40:51.055533+00:00",
+  "game_id": "RPJJ99",
+  "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+  "source_media_included": false,
+  "source_media_write_policy": "read-only; never overwrite",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "runtime_ready_release": true,
+  "staging_manifest_sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1",
+  "staging_tree_sha256": "B9BF7A220CC5B2CF21858598ED3F72CF621FB04D1B85A954E55E728BAB64BF13",
+  "overlay_file_count": 684,
+  "game_replacement_file_count": 683,
+  "file_count_excluding_manifest": 689,
+  "files": [
+    {
+      "path": "Install-ARF-KO.ps1",
+      "role": "installer_metadata",
+      "size_bytes": 6108,
+      "sha256": "013B70AE7A9C7054DFBE189AAD676D3F31781A6401720F1B9D8DBD667BE0E888"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Btl/btl_tutorial.vld",
+      "role": "riivolution_overlay",
+      "size_bytes": 94208,
+      "sha256": "186CDE21D7173AF5E8F5FFDA3066D0E5E51564E3D292BAA0E04F51DABFB180FC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Btl/btl_usual.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4833312,
+      "sha256": "3C960132514473F8BC9C80681813E91B1EAD2D2AE5AD586ED77E91EB0427D556"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_00.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "B10751151D9A5B16784FAFFB1605843AC26C1E19F3D18532573F55AC43D17D2A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_01.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "E3FA1355811752B3FED1F865F413A740B0C57A067F18DFCD2A6DCA54E2FD98B2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_02.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "EC75EA0B4F83CA98AA7749F2722F6B9DDC23518DFB968E98A306073E3A06674F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_03.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "AE3816EC63D324E9CFDD4D8BCBED4835E1ADFF10B5FCE88E6D31E0ABFF0C7D46"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_04.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "5308A07347A2693F09663DAC40A86D65753296D69A2EEAD113F1A29F3E2CC773"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_05.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "7BE358BAB623471EA8F96E6283F2C2D850ED6FE7228F8930C8BF47DAE9F4016A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_06.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "EB32567C58098F9576ED5269E5F1C911272944FE320D81A178CF5EC4F2F596DF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_07.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "605AFD866C5EFD557B50E6EBF269B25E4D6F32157D50078BBDA6E6556BB9AD98"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_08.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "0CC44885C3FD6F777306BE990023FE4DC712F3C7399168B9DD319EFF786B8983"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_09.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7744,
+      "sha256": "905C283F44393DDED990BB3D7F3A4D6D9A9ECFA5E6E65478A4A5A39BB1F9912F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_10.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "A196EA343E1D36F10086454D648060578BAB8912956F8E39B37E0D749F7E85FB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_11.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7584,
+      "sha256": "756C6CD973E9DBBEA7684D1AF7F271B3BEF8C7667C248DB56F84F55AFB53776F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_12.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "6115715A3AD264195C0A39F18F1254C81E006234367BF58A855755129ADAB82C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_13.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "0C97C4D3D6AC49C66452349A099F7BE4775CB405E52C699A84C381AEF90DDEE5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_14.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "C18C4EE5134BE53DFAA01E14A6A5BC9249851B0091C78F73A9DAF5EB0D60C13E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_15.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "8176A74BF931EE4C5FEDB65DF1924A8C56610BD174F1F811E6736A49877B6832"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_16.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7584,
+      "sha256": "8B99C8D8C55818506719F3A3FBF585DCE02560475201123F5FDBE2F491592839"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_17.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "E5D72E3B8266304BA37772FB3F05CEC9F485C13B79225B3DCEC305547F37768A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_18.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "B613DD0C894274A9BBDB73A9423A353CCDA9B4839A68FBDAA66CF192245AB47B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_19.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "10C9955B2456F1DBA033AFD0A2A9EE7C0EC082351F3BD63AE28FF4F2DD1FDE42"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_20.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7584,
+      "sha256": "8CA5F9A11877C7B16658926B6B89ECD0B3B21D567046C9FC5D9AE7DE7B05A0D2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_21.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "01BC828197B52F526008DE2EBEBE33026CC84517F34E025174F30EC85FD83583"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_22.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "2CBC0C4A65D0766668CF0C9B4CFFF1573BC316849EC36FFAE8653A895A5CEDED"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/exp/exp_fc_000.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3520,
+      "sha256": "8FE905A860EA8F76FCE2208AD93A53AF7114F4FBB2EC3D23DFEEFA9695ADD382"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/exp/exp_fc_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1856,
+      "sha256": "846A62595B44F5AB8015A1AFDB08CAA0078BDEF86B40C6DC16A83DA7B21E040C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/exp/exp_fc_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1440,
+      "sha256": "1EB64BBFF125EC141A8283C0D56A9BC1C9F8825534438D1B44F7CB770253C16F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/exp/exp_fc_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 800,
+      "sha256": "AAC05E9EB8AC7793E450BE0B5C8F5BAC72EA07D85F73196A352671CBB6CBA890"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/exp/exp_fc_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1984,
+      "sha256": "36054A2847C3EA761C7E0A0D27FE7835A7047EAB27BB25222B30818261A70F6E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/exp/exp_fc_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6784,
+      "sha256": "6E7B4F5F498C20C84084346C2A921E0B43CC43D92FE4390C413AAE3E38EE6D19"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "4B1FD178D1B634BD663C8AB0BCB8390AF37F5AC4CCB53F6BA14B0BABF40D8E7D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8000,
+      "sha256": "34786A909E07D8F45C838633977D63ED2E550C7854AC486C78AE0A8A6FF05325"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 12672,
+      "sha256": "926AD074B3EBC7E32DA47FA3DEBD7A8E9AB47661B6297619863C74F57152B3E2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9696,
+      "sha256": "4CF70034663843CCB3548D3A67139B91654D88692E47F7717B9CBD0EDF66B1DE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9344,
+      "sha256": "099C406C26F87A2CC21C968C52A8C300A31FFC6B3D21EEC1BEFFC236844763EB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8096,
+      "sha256": "EFA3E0BA4DF3F0A5E4A392E4742FAB8E990CEF9FDAED9750DF36D0312C5516F4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 10464,
+      "sha256": "8E9C726834530292CEBCA4BEB99A5FEEE7850237F73E84D4DE7E0616E1CA62A9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8800,
+      "sha256": "ADED4248BFE1713A2A6C156E674054E08151E5BB0438FAB4CF222F5E2DBF8E67"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5344,
+      "sha256": "5A46FCFB064EDAB58190E75B451F9E8728333567273E18AA2268779E34FA6AFD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5728,
+      "sha256": "2A1BE55385BDB76ACF2FBDFD5B8ED747A1D2F3B6131E141A1B7865091CAF59BA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9696,
+      "sha256": "D5472A202BD60A14D0F21EBDA568860FEB9B6AECC12AA3EBF0AE3DA853873F37"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7680,
+      "sha256": "46A4278BA56E7D33EF5DB19DD3A2CE101D65DF010A10B98505E60350E5414574"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5248,
+      "sha256": "975D8972CA00D1D294D91EED559641C1A02087BEF4D407EB8C48B6AC0E5A9264"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6624,
+      "sha256": "47E501D14EAD7D07439FBFE80161DAB4B695CBC272E5DFDAABB908C2A9274669"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8160,
+      "sha256": "5B03E98751638781F628D4A34C50C27DF4745B9540E1773DA151611B653FD4BB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9216,
+      "sha256": "9AC0FBBA1C6229A5A236BD3F20107EE0C2497D80438320DEBB56CAC96F53E990"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7424,
+      "sha256": "8ED1DCBEC63F6ABBAFD917D5FB76517442697B3F791565BE26C0BC033AE05B49"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5280,
+      "sha256": "C4D642157B20072718A72A7F2DBE800C92E71714559FFD8F5B6C11BDB18DECE2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8096,
+      "sha256": "A8D899B0BBE1D4E34F0C9BB56F32083114ECB674407EEAF14053EC6B2FCA7F02"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5920,
+      "sha256": "334E303F09B7E9A7989F8846A1B5B28080306D93140A5AB38245A1AF4932FFEE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7264,
+      "sha256": "7972CFABD0CF03D11A7F1916EA344EEFD3698B068890173E6CB599E766123938"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7872,
+      "sha256": "F63BD985EA1B996EBE931F1A3325595EC9FC151D8CD0E048DF65223F9431CD9A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3776,
+      "sha256": "E8375A093C698F28013A6A331A914E08D4D2F5D6248067D0747D43EEDE51D668"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9632,
+      "sha256": "29B3FBE470BF63717CA2079BC046748A1E34714D71544CA359761F8C10A78163"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 11488,
+      "sha256": "2EF27B0826E3D58A026F7802C556C16D46EE58D7B0C5B42CB3A6ED797381F1CC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9920,
+      "sha256": "D39DE550133B6D2EB4423CF573ECFCEB9EC05ADF4D7BB546D04E5186BB01E6E9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_027.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 12864,
+      "sha256": "2C34645CCA2ABB797A531F6EFBE41EF765BFE5E648918C5A0B31648C6917C29F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_028.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 11424,
+      "sha256": "D1C80D52820A9371BEB2066F294230E9DB4869E93A08643E032CD7A1DC2B8C73"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_029.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8736,
+      "sha256": "B985F8844302764102147FBCC9963D8698EBE5424596EE309D7271C7BCF4F9AA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_030.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8256,
+      "sha256": "1CA65B80CC46A7B3F1286389610A8DCF651F4E5D6528BD814E2CE9C564B82C7D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_031.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4992,
+      "sha256": "ECA3AFB0EAEC9EE60ABEF4B8D08D8D168490A52EAB831257CE85E0D62BE40D89"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_032.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "0BF4A850D12DA9CCD8D9FED6D0277D26CE3D7B37CEFE1B0AEB437CB733D28A92"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_033.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7168,
+      "sha256": "0092A997EBF43F4E7333667F8ED0F8A1F1893465991BB735EA8CA0A1865851C6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_034.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5760,
+      "sha256": "BE7CC4FF495CBB80B39EB00D42E78402B49B486A7729605F7AE1D452DC826CDC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_035.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6560,
+      "sha256": "497D411CD05B3E92D457634834F2A4B70DEFBD37C5B1DD91FF82E5A3A62077A2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_036.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7264,
+      "sha256": "97BED50F9AF46300F6B0896E678AB442090EFDDE7367A55B904869EAD9EFA12F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_037.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8672,
+      "sha256": "83911E851B3032B5DD1A10A1EBCACC31010918CDBB3EE8B2507D575917FBF933"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_038.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4672,
+      "sha256": "EBDFD1334B35D61F23F0FA2628834E7AA38C0292BD1BC87AF331E34ADF703681"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_039.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6496,
+      "sha256": "64D5CE0D6411755132410948AA42884C09FFD51F144D7D0548AC648A7125E708"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_040.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7744,
+      "sha256": "6A7D7EE12AAE3200C7AC87E30C2C77249379E94220D4B666B53C4CEDDD9581FC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_041.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7552,
+      "sha256": "B5FB730449EE8587738DEEABA48B42B0CAB17EB690AF82B73C4CF5BA1C90298A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_042.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7968,
+      "sha256": "22C9965246479D26E53AD69D5E5184CFB3B8D23E2D1D60FCCD4A2C29AB279358"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_043.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7360,
+      "sha256": "5BF631D7BCA6A70CFA8EE12596D96563502EA11C718AA4884A7A74334EE18A48"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_044.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8544,
+      "sha256": "55CFED056FA1A08A2FB9554D84F8E047A5A9CB1AEAB061156C7DC5D085FAE7E3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_045.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9248,
+      "sha256": "80529A2A25DA531198CE61399D26599BA828FC0846A115C93355BCA9A9855679"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_046.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4800,
+      "sha256": "21450E25A7DCD01E7930775575BC8DD722F7EC76974AA650678A2023B6FF364F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_047.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7872,
+      "sha256": "16A671492E004CAB42636DD39E73FFE9ABFD129F3BB6D8E220F5CA0C8262CB08"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_048.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 9728,
+      "sha256": "EF932D0A4F45C8E1BCF86E6D7AB7323746EEBAE81EF832ECF22CC7DA057A4ECC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_049.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 16096,
+      "sha256": "E5DFBDBA56DFFE7AE026DB229BD76D12EBF3D8D0B65E15C88A3758763AA2942B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_050.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 10112,
+      "sha256": "C6EF74947B7884341A651B6C74F9AEB7F0F2498A9CFF5C1C806251F488079A5C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_051.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 10240,
+      "sha256": "1DD620C1737162747944733AEFEFA02FD70B3836F4DDC558439BCBE731E493B5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_052.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 11584,
+      "sha256": "92BBBBCCA03578FFBDD5291A2AD6CEF3910087763024AAB747C445D955758B6F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_053.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 15136,
+      "sha256": "A575F5A67109227D25193B30459DDED4E2EBBD916B9CE31C61C415C80B50301C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_054.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 14784,
+      "sha256": "F79177728E27FEB6BA7E82C76297708712AC807706245152F9B216E22F3AFA0F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_00_055.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 14784,
+      "sha256": "F79177728E27FEB6BA7E82C76297708712AC807706245152F9B216E22F3AFA0F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5088,
+      "sha256": "761B1C998061D67A86B134654393CABBD69557887B4617F3B6751CE7A8DD92F9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3520,
+      "sha256": "A24441F41586C314226379613D6736218531E2877613BA0ED6C496AF4C5598C6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3232,
+      "sha256": "1C2419CF495F613483AD05695295088733933701E1C23155BF430A49094768C6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3168,
+      "sha256": "E8C857A0833C6BA7DCD4BE3D001479A2E3D32F58EA5DD5E42E371F9FFC47C29D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3168,
+      "sha256": "DB8F7D17C01741589646B969BA33100505065691DE644EEF62F982216306A939"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3584,
+      "sha256": "937ACB42A4D32B8B84CBBB72D28ED3675D2D95F6AD44F3E34DDAB47D45E2DE62"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3200,
+      "sha256": "8AEB401C7BC336A2D68D8E47E0D29CC8CEBD860826F0265EF47EF5480862595C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4576,
+      "sha256": "E4FFAC3FC5BC2C9997E16F0D0A6A77A4C80F8120F43F6236CC1406FE90CFC8EF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4480,
+      "sha256": "4E5AF63145BA44579BBDE4E5E0381EE498D4A551A43E0CB3D87C3F4359F49BFD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "71FB566FF603C8C9D7E7CDD6F65C2E4242E4E3194A2F9788C99FC3DCAD8AEE00"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3808,
+      "sha256": "6A1897B98773FEA2607D74234C594ABF2924495284284EA2DEECA0C4CDD88FFA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4256,
+      "sha256": "AD442F25909DA9755CFCB485DF57ACF4941C77FCA389BE6E6064B6D2540CFB44"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4416,
+      "sha256": "8E2743E7D57F924B0D53C0A0C5040984A3BD13BE524FF890797B3D2C2EDFD200"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3200,
+      "sha256": "FCD83EE3D7C94ABD85ED6EFB5EB6B8B205DE58CE07D1F073183B1AC61FB62001"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3456,
+      "sha256": "0C6972756D822AB9F23C1B0C0592337A53BFE48F6EC26E77D54FC7794849297B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2592,
+      "sha256": "3C54A936B2452A927F4D0BFB333DE9DBA671F4DCA81DCF043E1B9E8BD280DC0F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3744,
+      "sha256": "ED245AD2D5AC7A5AA8C5833CAAC2A2E2184869C87ADCB54337D27E7FC64AC801"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "F493E6C0877A3E49099622E41F07BD3E6B3D3E2512E6EA6C87FA4EFA15459845"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4192,
+      "sha256": "15A32D36B89FF892BDBBC3E4E1D98878F7B55993A03B6E901EA58F87ED83534F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3168,
+      "sha256": "2B0AA0D9DB178759453D353E6B12669FBDDFAB2779B5953356DD4809414E63DD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_01_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "86A5B835DC60CB5E3F5CC3D1CE4EB58C63CEA9D821ED41F944605D0012CFC798"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "64C4457BA8C4EAFC8156E3B9B8470E70660F55CD4A28063E0421B566AAF0232F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3840,
+      "sha256": "13AA2E729095F6D397A9D2FE21BAA067A69C32BA4A03DC6C1B02DD70C937C1CC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4672,
+      "sha256": "06317AB54E2B68F457E2F278DD6E9319989979EDCE07A67D061751ED660A2B3B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4608,
+      "sha256": "7A3B5BDF9790C26B933C2FC94B247429C860658C897CD752825991CCC5E7F629"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3136,
+      "sha256": "97F67CD6897C614655CCE3091CC65698A912D2B378A0AEB078D0A30472B25EFE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4896,
+      "sha256": "14A365F22AB4E83FD2381CB44EF28B6577B8010EDC54F08A8EFD5B878B84AD4B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4640,
+      "sha256": "CFACA57B22048330A4F158D4A21FD6394040E0625E4FB944BC796347C1BBBBBF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "9FDE595D9B5C710814BF7848AB33DA98D63381CA7AF97E3BA709DB5F49DCA764"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6112,
+      "sha256": "672D202B6113756846F3428CFDA0B798502AAEF07C18DA04126FAB32735C47E0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "033BCD0C359FAEE68EBABD0F9CCF8872FDF4CF1E4F7AED6EF0408AA1A5BFE55C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3168,
+      "sha256": "682688D1CEDF3CCA32A857634EF27C8A165D3BCFBD1F7EA98AF0C371CF899F3D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3168,
+      "sha256": "DDEFF5BC01AC580A25C15DAEFBA1F944F16D0CA398411520E173012203626FC3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5024,
+      "sha256": "B3A82D6812BF53329010B50AF1DDFA0D22CC6017C672F026053F5CC59A079720"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3456,
+      "sha256": "8CFED493E308F84A7463EEEE52B1170E1B4039ABE23B685797C853CD5021FF83"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3456,
+      "sha256": "94B6F8366BB866143ABCAFE90DFE4C2477A1F69489057A1927AB57390722C336"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3712,
+      "sha256": "DE69E4541331A54045CCBE93C17712AF22F076324D74BF19B25CB1060F6A226C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "7E60EFCCAFB6C34BEF1776E97509E8C39446A5EB32E2D04A7D9D30CC013C0664"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2912,
+      "sha256": "736AA4BBC7E24807AB8082A5F71F45BD72185A5DE055637B14B365232395C97E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4224,
+      "sha256": "64915E5F94D4A65E7F1ED1EBC8A050B3F2BD488B78C8FAFDE37560FF11E32C68"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "5385358347388DC0757829652AF292546458510BADF2A04A09DF5204CC841EDA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "2703122AA7205078CD4BFD789F7A269A84847B1AE14215892E4B5F73FAD970F2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3616,
+      "sha256": "B00CD8F7F4FD7AF0EE5C476DB92EAA88B26A6EEF318EEA35B987ABBD96766107"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4448,
+      "sha256": "F8DF8670E97AF74836CB8BED2B840958BFDB85FF30DF81424DFE4D1BF7FF561C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2880,
+      "sha256": "6F31E725AB4529B00CC4F74F7920AFCCD8B51A50A28B57F74E583BDF5F230F79"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3616,
+      "sha256": "2F4D04314B1D08A7E111940FACAB396E8E9C13B5AFB55614550700DE8B5C9442"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_027.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4448,
+      "sha256": "26252532D510B157F3C525E97F8B208C461217AFDC47FE69C16BD9657CE8D676"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_028.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3712,
+      "sha256": "FE3BAD7C3887E14676EBB84F46404F46A6F67F4F2CC86B0EFBC5A1B2F7036AC7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_029.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5280,
+      "sha256": "645B4E4EE097A193041A0DD14690B46325D6FA1F2DE16A3F0E57705C37AF48A2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_030.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4896,
+      "sha256": "03F70A5662CE73FCB12557EF0AC4B5E886491E5B5A5EAD4B43603609CD85B6DD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_02_031.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4000,
+      "sha256": "033921766BD3A0C2B3D70941F2B2336FA37CC131CF4D0F8EEEF79AAD3D0DE12C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5664,
+      "sha256": "D20376CE00D37635824B9657DA550F7E6CA0BBB8F8C4C0488E9946118022DA21"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3264,
+      "sha256": "CA99C1A76D6A185A273DAAC4941EBEA69B5C4263723F9F886F8F5A4F9914D11D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3072,
+      "sha256": "1BE9931CED7716D4A0DC54F60E18DF747B5A275696D8911A2C08941EB2EB01BF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4672,
+      "sha256": "C1B1687C64D79898A310FEE06C0D991668A5D93D2A591CF193382DD23C3C90B6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2528,
+      "sha256": "098F9B43F8F0094A52252F5D990B1C82AC98570E8E3C44977DC4D4CF3BB52B52"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4608,
+      "sha256": "B332F72EF853A914176F884E0A19F3F22DBE1CF309E495F9F16597840B98C456"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3424,
+      "sha256": "5D1C2BC76A6277CBAC31EA7F77D54C98EC69848525BBE7849FF380F12ED994AD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5696,
+      "sha256": "468F5E19F3B916460E3613EE304C54C28D9DA72D5830C457ECCFE4CFD029726F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3360,
+      "sha256": "103188E1F14F72E1407379583FB44746F20DBA802B4EDB5BC4281DB3C640DFBB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4480,
+      "sha256": "2936807E2034A98F1904BC82365C19AAD0E28F85E63646D6A5708B3CA7E4CB23"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4192,
+      "sha256": "ACD0DD21F203D060AEA79E19E9608F4515BE5B654A8E3106249BAC4EB5A6E67E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4512,
+      "sha256": "84D3AA783C398A9F2AF32870AFA0FC86353C1EBB096BCE0490302AA933014347"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3232,
+      "sha256": "CA5D1AB2A42DCEF3F7EA7292032B22760010A8B60987CECD60628C3396CF17A8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4672,
+      "sha256": "C908E96D722AF9CA38A88F98FFE50BB2C9083B47B54560C4F24C640CE2F98E0E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4896,
+      "sha256": "ED2C43BF9438522B0DA193C8B2DEA7FC38558FF6915196EF0266369BE879B149"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4672,
+      "sha256": "34BA24304E05089F6CFA8086104642043E0F1B25A9ED0C35899E1F5AC06D31A7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5088,
+      "sha256": "8EAC52F12AD69150C48791C4F49618138CD6171D5BD746A8247B994343AAEAE5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2720,
+      "sha256": "89B5BB4D29333B921B18E5B968ED7BACC3D84A6DD98FC9973B2A9EA97DDF8011"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4512,
+      "sha256": "5803A30F497F67FE4CBD63A6AFDEC95F1B75FEBB6FC79919BE5B58D8B22C3330"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4448,
+      "sha256": "866EB2D769F650666A06A2C2D94BA8ACAC240A43C399C6F2026E8042023786A3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3872,
+      "sha256": "FE6F3F58B92F37036D5B3D62A593FF99522260D15D11D2AFC80F0D390EB7F742"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3008,
+      "sha256": "281F3CBF0634E5968DCF214E6B349A2D05F163B94828BEA655FB5A3F0C25263B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3456,
+      "sha256": "1E707B230606EF9E378E9C91614C1D59E620219E34C7DA413C09D49CB1671C15"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4480,
+      "sha256": "0181D8146F31913471700EE2250A79F58A8E5B2E4B2FA2B1E596A25D7F363EB3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2624,
+      "sha256": "F344C0A2EC500DBA92F503A8F34542BC81BDB7707672C82D3F099F6DE81FE7D4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_03_027.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7200,
+      "sha256": "BF951ABEE3BE4104A19F043BD5619BFF02F9FE5AC68E4054EF2AB250DABD9567"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3552,
+      "sha256": "FB3C8A7666816FCC645FB6A0A92B22CC9E79CF2CF04A9A35445E4DA1F19F72C5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7520,
+      "sha256": "6C76879E65BECC55F7FB5B4CF3E67456AE7FBB73F80354FC00353F8A2F11E718"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5056,
+      "sha256": "08391ECA0839BE4097F82339C209551088F78C0B8E6905D91927ADCB942CC61A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3552,
+      "sha256": "A8CE4D1AA046DA4AD893C3B15483241D319E690F7BDE1C1F1AE7739DBC10A328"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5952,
+      "sha256": "521EBBAE6161B575078764EF109A7D2A8491EC69B84AC42AFAD135DF733C4101"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2944,
+      "sha256": "91F1D6DC54CD17EE63F72E3A5797E84331ECE0F1653D7F231C4C1E717869E698"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6560,
+      "sha256": "260316931113274523FD75D13505CB6FD8C0958A9480EE5DD3CC104487980038"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3200,
+      "sha256": "B6D0DE055CF78DB3C6A69F9199924FF51D9616CB82528E326EDD1F8C97D621FD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "B974C1666FBA1A90191CC446BC47FBACC4004376A29373F952507688F7E6F376"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4160,
+      "sha256": "CA23637FF5992C0661A0FA4136226CA840CA1FC49B34F06268F0D945C593C194"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "395D065AF5873875A6CB0F3FC7CE7006A3CD5B19E2A9388AADBA5B186BC8E078"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8448,
+      "sha256": "3CC6FA5374472F6965453950FDAEE5D4B2BDD3EBC6110CDD88D09079F7FE19CA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4640,
+      "sha256": "761600A5348492BC3C2FA7B1C04A77C86B6F8ABAE32337D0492F655E786FF92C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5280,
+      "sha256": "7D0E71ED136C49A3256A5B946A7717DD0B2AD08EF9866FCCABCD82D36A847E43"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "A460E0A4D63D6C908F721DD07BF5A67A09976C7417BDCD58BE4E59A66A5A1792"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5152,
+      "sha256": "A68D25D01FA329E71D0C1FB73657C8BADC3668B765311D9829B7AE0C1D4766B0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5120,
+      "sha256": "C6035CE84501CA5E35ECB4FF47D1D58E11BE554985CE5A5825B131033267A0B0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4416,
+      "sha256": "74BE696A07F05675C0A5C36C19213BAE461F1838E59B7DBFBB78A95ED474AB1A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2656,
+      "sha256": "ACDB5B222310B2FCBABDA8C00A252F7C06FBCC95DAED92BA8E3916210DF2E2F9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4032,
+      "sha256": "FCDF9723B7BA4D18184875D9A8D22FC3A61ED355D929CD5C74FE78F4D8326F9D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3744,
+      "sha256": "4AA282A57DB0D9EF0451044BDD0F7E1172E90680CC2B153DEFC308F3493198C9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5888,
+      "sha256": "E9D0B8202F5D824319AA1E2B796DB33435F4233C3057E893730FF6D421871F6C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_04_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3360,
+      "sha256": "56F8B77B01B436EF3BD49F9E28450F4ADEBC5967CE4E4BEE0C14E00DE7CE8B18"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4512,
+      "sha256": "D916698360F11FD74F7C038420AFE67A0744BAF8CAD1947512398642360D3317"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4864,
+      "sha256": "BFFC4E3935C339249887FF142C66BAB3968462518165DE078250435DC653732E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4640,
+      "sha256": "87B7E92C4B4BD0D13F5B38F7C282CBE8FD170E85269561D4265D1FD6B3E6B12F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6208,
+      "sha256": "34FF7F9FB208CF8981143C31CDEB80FC673A1528A1514788A930075DFE2BAF19"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5376,
+      "sha256": "B5C7D18820806B1F609EABFA0C0158CA3243E9A139B1E60CFC06B620E3A52C06"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6368,
+      "sha256": "E681E0E234084B8A6F58D3AF5E466F545ED6318AEB9857005192A1C60E69A3D8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5696,
+      "sha256": "07AF19BB463E6E40E52C02685489113CB45C14651DAEBE0D8F56C6EE84054CDA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5664,
+      "sha256": "47FB97CB96265543EB95B5FCCF37C927AEDF8F4C8981C9C108E3505A77EE6463"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5344,
+      "sha256": "C888C7A092B2738B67F6ED5460999034E3DEBB19641D159F82259362CF3B50CB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5664,
+      "sha256": "1B318905437E3B278D5D6625AD1ACB6D4146D2C0E762CF0E520A372C32411552"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6144,
+      "sha256": "39854C319023385C53AA3268AC6F62BD13B9CF0CE6952F942CDFE47184948DB0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4928,
+      "sha256": "2C10F624E8A98D817A0DFEB1BF9F4F706ECF227D2BDC8C3FEDFC4171901307A8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3296,
+      "sha256": "DED61A0E119B5F066B9D8CCA54EF2202E6B3FAC4F8F76B9C90307E3CC0A18526"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6016,
+      "sha256": "E8A8E11844B0921B7B4CDD5DD9EFB897ED8CE334D85760A7635CF5BA4E559503"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5504,
+      "sha256": "2D3736BF27569F33358C1969ADD2042712A79A0A26B49B6CECC6E1FA0F393DFB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3744,
+      "sha256": "78C0A3E8CC6A3CE6466B1BA0A52C666C40A5975B0EB68E903917A1B03AB7B411"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5536,
+      "sha256": "E2E4DE7891810DA43084F4CBD8D6E5CD9345423F58DD2061B11252552682DC07"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5376,
+      "sha256": "03C32DB471A1B6527205B524B68E6B3FCEC485F960506D4F9AF20A6DC79D0832"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5152,
+      "sha256": "8215BC433DD3F0F75A7A8771652F985DD1A3B607662BE30E213A90C506F72993"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6720,
+      "sha256": "1E9CF7C38241F2B1F20DAA91361681174BA19509FC5CE78D81C527D780837436"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5920,
+      "sha256": "C7B7B7A04C127F8256816518E003985559607F1469D3E79CEB520DEC9EBE56F9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5664,
+      "sha256": "A36F8CB4342AA62C7976E119EC0C9315D10A0AE5F19B3A91DE1C09A7DF45DA4B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5152,
+      "sha256": "B4B58987EB96E2D89C174904899DBE3B5922C449F224E67949058C5FCB70CF50"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5152,
+      "sha256": "FAEC8AE9BD089C72B949E968E33BF77D9E4FAB77517068CD56F286D8B03AD5A1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5056,
+      "sha256": "0B6E932EDE1BCD66FFF00F525D1500ECE4CF06682AEAF380784B25DB89A46BCB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_05_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5824,
+      "sha256": "1172207CFD018AB98AE281349D8DF1371B0CAC5D416B377DCC428EEB52AD8CC9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2720,
+      "sha256": "77C265887527CEFFE3787F586A63D92C8760123906869683D973F1A7FFF5F2F2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4608,
+      "sha256": "7A510B8BAD57612D86E389FF43F87473DA122AEA3FFAA13BA42A263CCD028B04"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4320,
+      "sha256": "0233C535DE1B14BFF151612091EA3019D09EF7C6593BD6F94A27776D70D7C77E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3872,
+      "sha256": "4D7FB8F4841AAE248FDE990C35B1FBDEDF94FF9BF15D43CC8F0866D950288651"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5184,
+      "sha256": "701AE633E5086E12E3A6B275EDBE06094AC642AE528C7F9BAAC5B384C5CCDA48"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5792,
+      "sha256": "E1E6FC4BD1CB74D6C7F24F95695798C025C637A18C40BE0F2B22F3D792A74F20"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5952,
+      "sha256": "7010A9145C6A6A7B4C01CC6B2E31E7C29B6B3621862489C4028349816E3B2474"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5504,
+      "sha256": "E91FBC5DEA5A49AE027D24C48EBADEED27C94818C5A84283C587CF4B37F48B5E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3360,
+      "sha256": "8D4F27162CFD286F70FF8F694803EA87264AF12C777C9D72C00E09D2ADA1AD70"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3104,
+      "sha256": "77F16EFFB7B69FE0A9E76D961EBF3C67DF242F64D9F4BACFDAA1EA08BC51EECB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4224,
+      "sha256": "D420B2838317529DE9186BC8132BB32B92516456AFD3DC80E575630571AF1B78"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4608,
+      "sha256": "1BE050D618D389AABFC1782BBA62E1F3DF86813182BE95E752C95CB0AEAE2573"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4256,
+      "sha256": "04CEE496DD9584DD17A47725F667F8F4004A585DB25CCCED78FF89E9BF403440"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3552,
+      "sha256": "FF0F267B299D7DB99E87F6C2AACCA5192B499E8F1C883125AA3207EFF161D283"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5184,
+      "sha256": "2BDE81CBA98D51B4F478A7ADB6C77E0E75E02DDB900D2596B81144F473322DE2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5984,
+      "sha256": "C3628E08938D95BAA506B43C0238E17A32A820BB9707EF05CC2002F7CDE97D74"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4768,
+      "sha256": "514578CD02E0533B13EFA494D6ED82DD0D9193E7ADCAA633196A82C8A315416A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5120,
+      "sha256": "70112A313298D9BF691C4342435613FF9F957EA178660386BAB21E65E1FB12B4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4832,
+      "sha256": "0AFDFC1F02F489C5C9CB6E9AD7018CC5C42CF9E0421893B55A14BA652FF1D267"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5568,
+      "sha256": "F9F00A57566CAC686C1C2BB6432FF4E18BFCAF0400921F91099DF67583B59E60"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4672,
+      "sha256": "D76441CCCAC65AE64B10FA57585996C89AF108C80C62E6478526BD800EDF5F11"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4800,
+      "sha256": "14649F7BFDA03E05412F2DB0C1E5505FEA3F3C3CD1AADBD68185F0D1EEFCCFE1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7328,
+      "sha256": "7EDF10FC4F12497D9DE962B74F48102CBDD9410FD9440CD8524895E7CE1F0D41"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4512,
+      "sha256": "95ECC17E54AC816490C7D86F3F27C0F8913AB60071D258ACEC2D20E9706A3F69"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2592,
+      "sha256": "A4359C52E09048EE6520EBA3E18D9725ABF46A45616CDAFB8D627C9E1AE529CC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_027.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5632,
+      "sha256": "2EAD830355B4ED859D1FC5B2C359FE0DBE213EFE171E8D346EF2122BD71E8926"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_028.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4128,
+      "sha256": "186EA72B3EA573865DE4E271C2B910BF40190B927F5A66A38D504D18546512DD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_030.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4032,
+      "sha256": "473BBBE27F730FDFC7EF7ACEF041FF30D3F19C149EA2D20B18205C0792BA6A77"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_031.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4576,
+      "sha256": "64DE268BCC2401249CAD1B4E6D7E46A1AF17F89B66ED18DC4C22EFFB890E2088"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_032.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4992,
+      "sha256": "7B2C52A01CB6DE90956E4C65EF0391220ED1FD97110788A8D4B9EA8923ED4D8A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_033.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3744,
+      "sha256": "C4F3A15192208D7B7D4571051513DEC6F30B2CBEDD5CB0E6AC268B8780A87226"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_035.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 10016,
+      "sha256": "10B35EC483A40C6A806FF0D174D9A6ABBCA5E1D774685D26B59ED7FD5B3CB31C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_036.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3936,
+      "sha256": "966F1518E5F90948AF1CD528B7F45F3CEB6DDB01D8FB1015D33E54ECFA0C5301"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_037.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4480,
+      "sha256": "16145BB21E2C3067F3AA396BFC5624B832E215382132647615B43839487EFD66"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_038.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7904,
+      "sha256": "FD3F0961DBC3E56895CBD2231D25A928AE4DFEB2DBCDA2969666F7016B400C8D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_039.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4192,
+      "sha256": "0EAE36DBD97B090882029DDC4233C51AE8EBBEE6E9FD7DDCD22163AD62C92B9F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_040.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4192,
+      "sha256": "CB9F15491B7F51E777603552E49811ED67201F8EA661ABCBAC6A035FD7F1C25E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_041.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 10752,
+      "sha256": "4687E285355B320F694AFCC6ADE046FBD92065ECC0EB338B542A4BFC2050DA89"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_042.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8288,
+      "sha256": "700F8589955C03BAF43B7264531FCDD435EA977BF617D6F7EED32BEAB1F16F32"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_043.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6848,
+      "sha256": "37565505AF9B4F0F86DA9AD90471836CB07690FB59EED4892E76A25C93DF133B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_044.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8256,
+      "sha256": "FD9CE62A69CEE23126B7F9F9B9CC63F783D6EF7CD20B722A260035877EC03AB1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_06_045.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6656,
+      "sha256": "8AC9D1EF16803ADFC47AC051F93CE5E6E97DD29006FE7443AD8086E5105EF9F2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4864,
+      "sha256": "CDE0C67556A9140852F67D3EEE02C5598AC0C0918F5CE4E48B8A546AA7C923C9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "232B5D8722D7AD4AC4964E7C71DDB3168E65351BB07F46D80C154685A6571BD3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6432,
+      "sha256": "C9C292C4FCAEE2902760697337C4CDE140488ED3051B833AB4BD53E4BBAC8FD3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4576,
+      "sha256": "B001EC559DA16B9DFD2C4DBFC04607D8BAD28D09A8F207EF6F1405D3DA37624B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2880,
+      "sha256": "E650C3C563BC8A81897F539AEA9F31DD69807B0E70AE54982C602FF46BAD3AE5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "3E9A35015182CD19BC7242BAFDF878064AED3C2470E50205E96B8A8ACD4B2BA5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2848,
+      "sha256": "F4C6423194532B02E2BDDC06205852F6BC09DA166969A052D12A67F175F7A3F1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4928,
+      "sha256": "0E5F73D0A89C6201CC47A194164DE174E2B1846CCCB03B731A63636BE9896684"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4576,
+      "sha256": "C4A13007DABC5E4C7170F53A8B756989E0CA5755E84ADBCD3FDE19FF3A509B99"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3520,
+      "sha256": "057811E3A411F6D7B5CDE0DA45A791A6F3DF08EBDBBCA6B35708321A9B5E2BD9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4160,
+      "sha256": "398C4864ECBFFDB03E00804729E89F0C6E47A154B76DF0F1D4874D82AD9F45E4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5120,
+      "sha256": "C3C673D609D36FD894E0717ACE3E118E41DEB559317C7C2CCFAEFC59C93854C0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5376,
+      "sha256": "DC6A3DEB40A4FCBCC3369DE9457FDE5FA697F935558CDF6ADA86D3E2CCDF9E1E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6304,
+      "sha256": "CC1CD6E634B037A5B4EEAEC7F84AEDDD7BE91B77A829DD253FCEBEBFB6AB3A07"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7776,
+      "sha256": "B023C518BEF7C77F887E33AAE9C973BD7E90A1C76E922C75A178ABB3E80D6504"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3840,
+      "sha256": "8228783C514B1BB81151D4502F6217AAF2D8506A54495379BF0662FD113C0847"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_07_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4960,
+      "sha256": "729F634B7BDF6F0544FDE9FE958658FDACA3A77BFA03537134366B32849D597B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7200,
+      "sha256": "2E113D001A964A9264E65A6594935A9DA0735102E0222FC2F02E1ED652AF332A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4928,
+      "sha256": "0EE9A92CB6ADF768175E1EB33BE7D1FDF791013F5D59EFA3BBC89C204A9A5F29"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "5510666843643969570859ACC97F25B73E8C0150E6D78C612C7AAFD2B1245458"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4064,
+      "sha256": "D522C02A257CC6BBBF050ACADC4EEB739C855D360134F7BDD31E6FEF60728941"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "5678179BC2BAC571A2BE7EDAA1ADFF8FD2061FD99CF59F4655830762988EDCA2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3232,
+      "sha256": "D035DC07321129427E40628364A19A23DD1F7F1C40E279C508D600E2A7008629"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5472,
+      "sha256": "0B6DDBEFC4782645AFEB83E65475F7098CC9812136F071BBF69D7612F61AD01C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4320,
+      "sha256": "16167E461908C0F946709DC015ED817FA1F45DD55A559928CB28A5F0442FE46F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5248,
+      "sha256": "0D9ADA3D6FA9DB67E501B4E997DA9772E6136301F7B3DD1F1B9C521122D6B77C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4448,
+      "sha256": "01BB2E5996DB6139B8E8A745938D5B13DFB71B8B14A96199BB4C577319D4E24D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3872,
+      "sha256": "2FAEAE17ADBF21018123F2CF5D3A7D0F0B1C41D8D6C8C8037F3C20F6523FCE87"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4384,
+      "sha256": "EB9C7929E17497896B6BD260C79B2E7A9DFFBA034C8DD135BC792F719D3CF0FF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3808,
+      "sha256": "A31A63EC2AABED9F48C91A4CE7860F7082A669BE769F0EC98F2BE1911E371F1C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5056,
+      "sha256": "33260FECC52403FDECCBF86CB32B87E98E1E53D5AD2BC7537BFEBD4E8F5F8017"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7360,
+      "sha256": "E907FE82619746DC665F36EDC2DDD8C7C71849FD1F08206FE5E70C6A3C1C61AD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4576,
+      "sha256": "BE530D444220E69E878CDECD134594D3DAD8412EAAF1DF001E7B32E4CC8E564D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4160,
+      "sha256": "525C8F18C42979B71EEA1DCD8F447448766D367CE77D8F350139087CC810E9D1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5696,
+      "sha256": "D0DB8C449216C99C894A1B316F170DC71BCE41E05E7E7A4FEF732C97ED2DC80F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3840,
+      "sha256": "56C71AD7080379E7AAB7135963E1E9E5E4BCCBA0DA48C49422FEFDB27FDC1993"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5568,
+      "sha256": "36624352789DD380D4F7BE656E88A8BAF3D3A205F757185DBE274FBAA28116B5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5920,
+      "sha256": "8687421304AEAACFC6B4FABD9D5AE24BD9B7267328B1934C024DD420166FB2EA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6112,
+      "sha256": "C407B775802E23FBC80DAF41B6FF44C53761B380B7EB2B72191E0D4D9B80861F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7488,
+      "sha256": "53ADAC37C6E210555BE641B1F4A186F34560B7B80409B388956C98CCD64EC2B5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_08_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4256,
+      "sha256": "FF7881D631C156E377F002DF28F91A67B99CFBB7E566D93B99BEF8732BAD4CD2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3872,
+      "sha256": "8113000041F373AF3F775F8F3D31F9597B3842877952E00F823F683C8D2880FF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3520,
+      "sha256": "CC2333D18C80D0138B9579751586157F169D2BC4448F23528945A213951725DC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4224,
+      "sha256": "42DBCC96526A6FD112F1DF5C0F82635838C7999FC156406107F6CE4A8E395075"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5472,
+      "sha256": "2B6A1AB88C7AFB715D5F250F40C21BA5CE846156D72AF7897A573E50485ACB4B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4640,
+      "sha256": "9EA0B45B80FA734FB4F2823EFA32DAC5E63E00245FAC365621E153070D472BA0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3648,
+      "sha256": "DB5566B9A694B10B71FDEA0A1F90AB2AC56933F41D7E8CAFB51A8CD677335F7E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4704,
+      "sha256": "95296D26E01CBA61843B1224E37E57764121C64A46BF8D631D848858F13706B1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6048,
+      "sha256": "D6B46E619DE1A73AE2CBDAC3233B572B537E04FD598F9F42E158FBD461FB20AF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7488,
+      "sha256": "6389CE250778610FBB9B2B9D91318BFC0E4B3C6F6441507778AE4B8426615C6D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4864,
+      "sha256": "8E144CCFD7DBCDEE0072E5401CCDC1E219A3D6384018D80FD9E04EC7F7D0FD6E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3968,
+      "sha256": "B942F2941A6AC1EA078B24CB9C914235ADA5BC133782EA662C43E3CEFF9C5D1F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2784,
+      "sha256": "7F4DBAEB86AFB401BB7034570F55DBA7C4997D3549A853A645D4D792F1564335"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3488,
+      "sha256": "2F4F6C700176AFE1B364F2F82F62C226C194E81EBEA7390596C25E76380213EA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4736,
+      "sha256": "3B5648B1374CC8793482413FB2AD7AFF44295049F82183F6C4C643E880F99DF9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3296,
+      "sha256": "724BDDE70DAC2C4D1BB1B59F7AD9C1984AC66550802C3E107005CA7AF6943899"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4000,
+      "sha256": "389E9B5DABE6804210827A818E4167016CBE4016D65D921A372AB98451E49B3D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4832,
+      "sha256": "FD9D45F4DF8F960ABAB1E477254A4875F8D8D24C98A0EF5063D3974B8C2EAB7D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3552,
+      "sha256": "2B4B4A1E47344DC874876C7AFA8092B1E3B1CA08FA0EB3FF7DC17A8F9E2962FC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4096,
+      "sha256": "8CC4621D970978784F7A5FE2EB6B67940CA18E0E5D30C4180CE6435E767988BF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3808,
+      "sha256": "41C31321EA1195163D6ADDDDF5181F6BA63454066CD19D5AE1A7C2037A81AD36"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6464,
+      "sha256": "8421F6242D4E6DD8BEC834CF89C220FA340BFB4F22C523203DB59831B6E26480"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5952,
+      "sha256": "2D787E307B8FD021089634E0B9E305E290ABB89584181E5675A44D702C615174"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4256,
+      "sha256": "C27108CB31945C34BB7F5FC06BAC65822F1D895BB318CEBB6A402EA0336FBC74"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4128,
+      "sha256": "A11FEB32470959E3AA3810E067D0880715797A739BB936DFE4FA223FBA3F3D10"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8096,
+      "sha256": "E2AF418D5BA5784743A978ED480D2B6AA74D440B3435B4AEDF50B83CB1F13DA2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7968,
+      "sha256": "D841B07BCEA892A486EDD092776ED11B18080712870A6968C756CAABA1BBD43A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_027.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3616,
+      "sha256": "9654BB02C522902F3189A1308D2824EF9BE600C6097651C07CEDA76405B5FDA7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_029.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4256,
+      "sha256": "076146FA3E486237486D8769C5889B85094D0F04E95C145ABD588B0F641B8601"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_030.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4832,
+      "sha256": "A728CCAF1D104BFAA8E79A25F17766EA7A90134054DD34F2818DEDE33977EFD5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_031.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5408,
+      "sha256": "7BFCF3A159DEAD57B6B8E8B5CFA012E31A457F3591C7B7104DA7CC55B4BF41EE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_032.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2752,
+      "sha256": "58D6F146C928316FE70D4E5A3AC40E16474B99E098EE7449E464E371493C8B3C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_033.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6688,
+      "sha256": "3BCAA163DC11C35B94ABE38212DDA122198EB34444029E64A7843B74355F1125"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_034.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5184,
+      "sha256": "87B91F674B35F701215CAF16FCD702C0267F821E05B911572AEFF7D0B067B2D9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_035.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7104,
+      "sha256": "799537B6611AA67FD0C3B4DB394F6B876A68A9072B2A2616B8A1EA969BBA4BEF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_036.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6656,
+      "sha256": "7A551FE90526F7519ACDA0F0F8FB06960FB14087191CAE223880BC038EB18BE6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_037.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 7712,
+      "sha256": "CAD2369474ABECCC5E176C09CB62CB52EE4E4847CF4719D2480894C1AC901EA4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_038.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5568,
+      "sha256": "9A64D819867263CF9853829B325FAB7CEBA211EE0529DAA9B59F5E8C6DF73F12"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_039.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4896,
+      "sha256": "2B939F503996E30B329F0A6BFF8BAD873BB7D6E9B296A2FC371E18D5AD18BF5C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_040.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "5B57ED9682E995C408A8A5288F927124E8AE8AC4FE17FBECF07FC46CCE4257F4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_042.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5728,
+      "sha256": "B1BEA03756416D7004549E5072A779267F979A890E4EC04FEDF5F4D11C3B976B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_043.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3872,
+      "sha256": "4035A0627B5448FFD0B17D30E15C5915865441A505EEA081B3B27863F45877F3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_044.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 4480,
+      "sha256": "C4EB9A2F143D1C7D918177B8180EB3E349BADC04477932609805639FF60B0CFC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/fc/fc_09_045.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 5888,
+      "sha256": "EABA2D37D52B3859E7583CF330027D55F724023F28ED530D929BD9D5E6D37A75"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_000.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "84C8B1CB173981C87E3E897159DF80E16CBD5819EA16FBE3884978703DB18096"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_001.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 576,
+      "sha256": "B21BA370949B812579D34E640B38D04C6DFD5F0995E681993CF7A3C2F8E6DD19"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_002.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 576,
+      "sha256": "E87DF0F30F31AA3BDF405AE564FF2C3863D41D486306D5F59963543CF72A909B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_003.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 576,
+      "sha256": "066C8A2CB114378F1F6AF5A535C3F1D9493CB76B9108E65C840AF7861B28E244"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_004.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3552,
+      "sha256": "F94A6D5D97E5DA16D6A72DDCC13F94D04ED38787E875CB4C6E1E00E5442A408B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_005.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1600,
+      "sha256": "29287D3C0E59A08F9E1861BD93166B382362532903CC97F73CCFB044778CCF30"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_006.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 42912,
+      "sha256": "F308630A45357C6D9A144B2C3877E24D6A1E54DB681F373E87F9B8F209D475C1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_007.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "67D72B4C33E975CD96C84881A21ACFA5D88FBC84A33542560BB99AE9BD709C97"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_008.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "C5F19277298E683E7D52EA0BD02D258FC0625589A7931AF1FA2B084A17A2DCA5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_009.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "BAF72B457F309805CA3D5811C66CEDF87C0E6CAA7736DE126C10A0DD0F750317"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_010.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "97AB627B4100AC739AC03FA20C8CB086B11C0FA04D29574E89B421ABEA7B20CC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_011.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 640,
+      "sha256": "4413640B18F63A4861F123A05441EDFB818822B0DACD0FF3BB89D452328C4790"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_012.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3392,
+      "sha256": "8C2EE1DCB3B20B37775D81CFE430B47A4EA87648B2CE1DD063E30540CACE6F88"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_013.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "86DBFAF9F739292B8966B768F3DAF38A96747E09299FB10DB6FBE6F8F36A7C56"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_014.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2784,
+      "sha256": "EE82064343BBE710E49BD256F193D2B222ACE1921A2E49B1A1FD0281DB1FF273"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_015.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 896,
+      "sha256": "6CECAD8BF2361FFF5153D39FE902A9557FA87D18FC10E8ED52BA1CECC724252A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_016.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 12416,
+      "sha256": "38C01DD8888D8D3B98144E87BCE3F4A1D4D6C3FBFD63DB404F85D06DE80DC9A4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_017.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "EC884FC8C104C9E14B8A2F01A721EBB2F1A27B564BC5657930ABF2858BA8A708"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_018.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1120,
+      "sha256": "F2281C91656B2B5FD8658A312752439BCB0D6EDC67001EEE6D4ADD8CFA364505"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_019.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6080,
+      "sha256": "18C8CDDA27A211EA8546D402F488D1D0BE24B0367A02C2DD0F517BAC94CDD8CE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_020.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6048,
+      "sha256": "00F1149AC22878FCD1FA7C2F193F79E39460B8EC608F1EC5B821429CF2863377"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_021.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6048,
+      "sha256": "4637B716E62A9457D9E2BC99C647E58FC8F446EBEFFCCFF4F866C0B3253F42A7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_022.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6048,
+      "sha256": "43459668674E323C29625DD3982AD8148D68C6FDB8D37693A79306CED89ADBB2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_023.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 512,
+      "sha256": "D1CD97293134F3D292A81BA641DE1D49AFE5204CD265FB496AFC0D51C3877A72"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_024.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1216,
+      "sha256": "4983AC4DF808A672B353651933CA8C59CC9424233F37250CD74DACC8BD46DEAC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_025.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2784,
+      "sha256": "B30139006CA0667ED46A69D03EC0AF08902EF9B3C35BE7B1F6C14036BFB20400"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_026.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "9BB8451BFFE3257DA05E8C9AA990C3FCD55DF5114AC24F8AC3016E6E6B4E34F4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_027.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "355061C9A6E4CBF59D241B236DEC3F408F9784FBF2F5DBDFCCB2AB7B2D352CEF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_028.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "EA9F4E3D2E16017933DF50E7BB9611A61D1C2C2E56B0CE5ACF78E3FB71684F62"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_029.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6592,
+      "sha256": "DC5C1DA8EBC0F6BD793F0C1F924D6AA582B7FA9D993DD2D9FF5D51241B3A70DD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_030.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 640,
+      "sha256": "98E5D740570612F6F0312BD5012F49B3D63F04FFF9D75780CD9FB706A9E75CEC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_031.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 576,
+      "sha256": "567A4E573A340788B9EEE04B6BDAA7E25116D20E10733DB673409254FA836954"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_032.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 91584,
+      "sha256": "731C68D2205FC9604F4DBEFA9F56138D56E67A2CC5A48B6D6F2226CB877832D3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_033.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1248,
+      "sha256": "9DC4206D06B3AF8FBC70CE09F569EE8C260CD4F8731B453F4D9D2CFFDBB0A0DB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_034.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 576,
+      "sha256": "6EA6F130F895F04BF942B70BDC72124FF9995119498F7D40782B9BC782AA75E9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_035.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2144,
+      "sha256": "052EE9CC45C00AF21DFFCD70EB4797A8E4AE7EA2E65B5CC18C858765BC96C436"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_036.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 576,
+      "sha256": "7AF3C0C958994DB9FBE84033B580D98C57A737B8633223D8F94A025D9E118736"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_037.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 640,
+      "sha256": "08CA622D7BA9DB9A37B5999036FC561DB0FE48DDEF18C7A1F4806CD7175F1312"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_038.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 640,
+      "sha256": "93A05754F9A3F4BA41BA855F2E79F115A24CF17CE94B09E0F170D0CE425C10CB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_039.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 832,
+      "sha256": "4069317195901F98AF12C553D7F65AB363BCEE271CB659620BD43F4E774A7282"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_040.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 448,
+      "sha256": "9B8CDC50E0DE1CD8B7580D24D4243E521F70FA03C02DA9A6494A27DC34DB3B3B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_041.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1568,
+      "sha256": "5FF200B1D63190992E65605EAF567EA20F46C4862BB1C8186A337CC57B180869"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_042.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 480,
+      "sha256": "B8D59C4E300E3D3B723389980634584D9D1AC63FAE6E3AC4FFDEFC00B8009B4F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_043.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 480,
+      "sha256": "D6817A7DB146C8332A1FFB62B5D6D5C5E403723346D7AB6E7034D1400CCF8CEE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_044.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 480,
+      "sha256": "1C3BDCD394C68B5112C81B4156FBC8FEE33A9B638428C7FDA625FE9B340F49B7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_045.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 480,
+      "sha256": "9229ED0CE7D91C371A7E957DD91709E37A78A6A1FB32D543EDAE3BF596A964AF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_046.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 672,
+      "sha256": "B4A954FD571E1371593B211560B2981A05A8D19FF183B9442CF356AA7C0EAA9F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_047.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "21D661F8DA6E4356631E028FEB569C623F16A667536CF4AD34A82681445CEC41"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_048.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "765A5336325B6EF050F265EE648D88E75E0C83EEC577865CEF993892CC35875B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_049.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "FBC85A83439DA6C84079CB10643DC30769824684134108E81DB6ED011F134683"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_050.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 2816,
+      "sha256": "7C97395950CEF3DF6A5A5822B51D321B88980E8D590522A4EA9672FCF8A4C712"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_051.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 8640,
+      "sha256": "30F229A7E64D3D1D268D98B10DE053ED78FD9459430ABE378F57711FEE344CB4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_052.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 31136,
+      "sha256": "85F056ABF5567A7F249DBE9EEED4375F40A23B0AE10AA91F8F8744D8B4383533"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_053.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 21600,
+      "sha256": "EC5102BCC0B58F3164538C9B80961A24377DDD96993720EBD73D63969478DACA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_054.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "F157AEE88D058E6A84FE1D216000AD0F2B589921768E83F70DFD54CCAFFFE589"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_055.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "BAF2923683AFA05482F697A0B9EE28A77CAE0146B27A8FE0F6FF5B5A62868B87"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_056.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "E2793FCA83FEA11CF2728528150D07C52FD1D52D1CEE36513D8DF177A492753F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_057.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "4068F3F401642334DB27E89D0E7C556796F8D73F86AC0C78AF3CA5E906C372D3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_058.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "7788824F5D546B8D1C1A28DB2B29FD51CE643CEEE9350E5F7DC2278721A32BD8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_059.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "151122F40639E3C8E004F37F21AC0F4892DE63E61DA2149C990613C476B25201"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_060.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "8626C858D9A3F1594DD43174686E098839230681F907A6D5441B2B07A4D50959"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_061.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "499B769FE93F72EF59C73E047163E321966E94AB7743E789B7F50304E63DB182"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_062.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "7300BF9E03D770AF183716DABDA3331F1D1754F0A2E43C95D4F2BD5DBF19225C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/wld/wld_fc_063.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 608,
+      "sha256": "6C5A9DAF8C7A499EE7BC600811D8B48C5338054EE8940EEDA4603E1D47A5AEF8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Hbm/home.csv",
+      "role": "riivolution_overlay",
+      "size_bytes": 3640,
+      "sha256": "BCBE430B52BD0D44036737FD1775CB96C9731BC026D0C7210EC9ECEDA520E12A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Hbm/home_nosave.csv",
+      "role": "riivolution_overlay",
+      "size_bytes": 2558,
+      "sha256": "BF527E3B5F79FC936F723256932F06790979825FFDBF0F4EEACB930CD0D910EF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Hbm/homeBtn.arc",
+      "role": "riivolution_overlay",
+      "size_bytes": 432160,
+      "sha256": "A583578077CB3EC808532719BFD9835462B2AFE66327343F266EA4A895277CC8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_casino_intro_bj_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 114788,
+      "sha256": "9F8379C1E52F527CB1AE619CA0EDCA802B146234066D48FCDFD8C108D22577B0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_casino_intro_poker_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 97012,
+      "sha256": "57B0D57A37533810CD6E21E1FD4A5F07BC536787F468AF28D2CD8E186721B90F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_adk_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 58436,
+      "sha256": "E354A3945FBAD70023AB5181C1172F26A933BF2E601C450E720F87F049650DCA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_adz_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 50220,
+      "sha256": "0DCE473F4D8E9C02C2333F55975CCF2D7BB85A0C98D308957E751A269BA94FD0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_aka_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 50448,
+      "sha256": "07C274F35653567108747636261E50DEE40BE1D37587E6F6C14EEF0C6B5AB601"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_aot_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 45000,
+      "sha256": "5778927ABBCDF2D3215ACB7F95F9D9D6655AFF1D40E842473E2582CA0CBDE799"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_bat_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 42696,
+      "sha256": "9EED822E6EBDDCB6230F9DB86E246A911CA2AE366EA7511432009A1F05C23A2E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_bne_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 51800,
+      "sha256": "B283794C04F4171767469B090070473E21A5D73144BB830489C0A3AF252FF78E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_can_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 45636,
+      "sha256": "5EFB8A52E5A5A4781EB9F3E16DF6B24ADBC70E79E9E2C2F6085FA79AC2E4E26F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_cob_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 43436,
+      "sha256": "CF8D7F8E3AF8E6C764D0BE04F3A438B34EBA2BD7EBB4383399E134ED93AB95FA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_cop_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 52648,
+      "sha256": "B18E21ADCB9791F4E762EC696A35B552E7422464E120DC960D3885F35B83E062"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_des_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 43612,
+      "sha256": "CCF98724E2E2228A2E63A077D861C43E144835EA9F8D1B7F26BC81A819C67C7F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_dia_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 49892,
+      "sha256": "C596AADDF7854D31961BA03ED38EA59C6B274342FE1EBD06E7967629FBFE5BB0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_ebu_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 34032,
+      "sha256": "D15E5A5BA6CA1A18A39934612074927EAD5B3F6E96CB6DC0C74F0E7E9A330864"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_evt_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 44080,
+      "sha256": "D0C03D94D6B24E4F209A6B7127B38DD84B0B9DB8ED71A873C1499C220D888445"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_ext_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 54516,
+      "sha256": "744A3A6B814FCC29EE60C929471C2C9B2192762D590EE00BAFB9A67D182E5BAF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_hai_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 52464,
+      "sha256": "9DCE84A170079B5288E6C5EB3399E16AC8723B8F00CCE4EEABA45C02533AA9E1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_hgu_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 53740,
+      "sha256": "325CF8AD0460E6FBECF790109815E2D662A420134929558D9C11084995BBB4A1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_hki_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 38264,
+      "sha256": "7A62C141581808F222E31D6CC615AE2B8D77C8C24A53437DA198DD4F5E009A07"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_hnk_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 41340,
+      "sha256": "6EF154A1AD713114E60D3625C6E0CE5C7C2E1C157F2705817832EC0F82837175"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_ise_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 41296,
+      "sha256": "8D512B992E8B50ADD0B4AFD7F4A49ED1979023ADC4E6180E609DBDB8509D7397"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_jad_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 33920,
+      "sha256": "5456589B53B6D274FF80E4F574E739238B59249EEA1EDBF428AFD78B10E078D5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_kai_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 46652,
+      "sha256": "25FD885E37E5B4F9D0D72C8D0D22E38F0573D1E5ACEADBF436CDA741762658E7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_kal_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 36276,
+      "sha256": "DA53FC375BA3B63FD8652413D56975E515CC5CDDF06C9016C78CB1248F9C1931"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_kan_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 52392,
+      "sha256": "059D2905E902453DD4CBC474F77D890E8A2BAD17D750655C2576FE12ED2F26F6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_koo_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 48668,
+      "sha256": "7175438FF6FA5C5D01CCB837B977AC020F7EDDBF83DBC19C8287BA3E83759755"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_kza_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 44884,
+      "sha256": "88B8E6E1AB22679F13C06A67837334CF2796ACD8FDF377DED7C8354BE7598B33"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_mit_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 44256,
+      "sha256": "AF1FDB5E842AE0C01729EF0227F125D50A54DF32477BB9EE4A52993902415B9B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_mse_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 48108,
+      "sha256": "32B19DE54D91F751C9FF42FCA4F719E538A50FA6E61036E4890A0AC8E6454DF0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_ori_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 45432,
+      "sha256": "EC08E6978A5AB9A60185AB366D93A2881C488ADA402B406BD11012900B186D6F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_ryu_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 46444,
+      "sha256": "952098D5B3926ECEA6B53825DB64082D8C8743CC2A7A9290D33E90642C73C843"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_sba_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 35648,
+      "sha256": "0F62BE75194714B90C6E1711E1E76C7228BEB9FF24AA7EA38FCDE88F5A2ED91A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_sir_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 51748,
+      "sha256": "9D4647C58BF7134AA85DD00332DD356C084F4B3B0D26507579BEC5FF2640983D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_syo_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 48824,
+      "sha256": "07F3F3CCBA81E843756EC9AB033B688A2EAEC00799475268AC31F6599A9158B9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_tig_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 44360,
+      "sha256": "AC5B796989298F433D712A1470F97A6CD8F0624F0B8868CE19251656C589978D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_tka_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 49144,
+      "sha256": "8D6A293E72FCFB9AE67EAF9AA8D58F3B35AF20FB48DD47F5262AECDE02AEB1C2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_tou_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 44600,
+      "sha256": "7EFC1869EDB3283F7D6EAAA03D24594654C00553A1E471F68267CD4FC8C1B78C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_tpa_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 39300,
+      "sha256": "E32EDB424664EAC686CD36A6F7253314A04422C1AFC28277BFDB65AD8767DAE1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_loc_title_yuk_wtm.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 38776,
+      "sha256": "1BDEA85FF428DE3269907690FF1BA7E3EE517460D8DAD03536EDC8B3F36034E5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_aiuchi.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 108364,
+      "sha256": "6F5229D03D57B19C92FF3B25711A5A32CAD59B8A55A15D83BD0AC8BEEB6C0881"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_hisano.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1427124,
+      "sha256": "A095BA4D477F0762B03898D7B02DB94DFC2D42BD990BCA2A76B814A40FB773B6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_ito.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2101396,
+      "sha256": "BE2BBD50D6A107D8D832AFE5A551A43F06FAED40120B56DA8F6810E41A0392DA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_kawamoto.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2417396,
+      "sha256": "B6188F2B992D02BCBE4C4B5A483F31CE3EBECB4FA691ECFE3EF46230F3428098"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_sasaki.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1417420,
+      "sha256": "6EAD648F2258DA1348710E4D73E8C808B158250CFAD68A20FB67069BA480CFE7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 155392,
+      "sha256": "7B79C796776D1265B4226A7ADA8A6862E828DE3FF6919DBB12FD619CCFA724FC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2752016,
+      "sha256": "7C388983611C5892185C8EE0C3CFE11FCA82F55BD41BBB816241A8507F82AE18"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 19656,
+      "sha256": "CFC6E03B11D2AB9B9E9D5387E3EDB545AEB6BB46B3EA77CC6C9E57C344A92AFF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 18240,
+      "sha256": "86B52D76CA391DE43D70F43984139ED1D1B58DA285114EBABAF80A5F3F48E6C9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2763676,
+      "sha256": "A78429401D8263FF408B50DF9C7F5A088DA96A5E3F1AEB7F54ED98F955D0BBFD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 18224,
+      "sha256": "B4B3CEC2ABECB7ACC7089AB3E78121CB9BB2E7FB165A6883DD4DBDE7D1900C1C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test06.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2752028,
+      "sha256": "E0F224A807D3949B9B8255E1E0CCFCB7B39AFB0B543FAA24421DB83AA76FC8F0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test07.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2752048,
+      "sha256": "DDFCB459043C6A07812AACC32FA0B9B7DE9CB0ABC7D707065E83F9042DAAAD5A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test08.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 182248,
+      "sha256": "D9CD1EC350B51032FAE1C0E4DF95580D27D453EA96F8EEA1F91ACE45D1DEE129"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test09.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2861568,
+      "sha256": "8A96DB0F043D6D1A228730DE2DC08EFCAFAA634C76C9EF66BD42251205F3D576"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_test10.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 560136,
+      "sha256": "6EA8B0A2043C93F0A1C6B5792EE46858FE48ECD88C28761711548875C59A06A9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/_map_worldmap.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 367032,
+      "sha256": "70A68881BDAE400752CB194A57AB83871A18C4D1A6D327AEDE2EF801ABC13FE6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adk_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2441720,
+      "sha256": "24026BCB3CBC0FF69C1361869AAE5DED6F805CBD10F41C734D052EC4742F783C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adk_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3436740,
+      "sha256": "11497BB9B7E7EADFAB1CE2481E72CAD4CE65AB2714B3B60DFC2323C491C89C80"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adk_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2227132,
+      "sha256": "EAFBBBF143C5AE923D66D85B9CDE6BA708E64B429B07B72EEE96AC25D66AEAB9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adk_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3318964,
+      "sha256": "378FF50D901B9593226EB7BEAACCBFA4D6B23FCBF3BA95ADC915763A475A4F00"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adk_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2089376,
+      "sha256": "2565721CFF60659B239D57567D62F2011B4327872C6F7CD7124EEFCFD2668684"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adk_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3199792,
+      "sha256": "3070A50A282E80EC8EACA838A6F1822087A539D4B21D99B0F2FE999AAA2FEF1D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adz_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3047964,
+      "sha256": "E05B66426C24AC4BD7258AC62ADD269E0B5705B6068B6F2809FB05624A5601F6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adz_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2813804,
+      "sha256": "4AC3B76C1A02FA8343CEBC96EFA0B86EE6F6A369B3A937839EFD6C2D7A96E0F2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adz_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2581444,
+      "sha256": "C8B108B786206E6DDA185692C5FDD02AA4D082BC55E3E8CF2F316A1D1D54BD60"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adz_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2383408,
+      "sha256": "439B94BBEAB7C7EDC0F446F8793801918D7E0F7C6799C12EAFBE8C58CFAE785B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adz_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 887584,
+      "sha256": "DE197E67AE54709BF5CC6D8156581E5EBE6A46C01F24807CD2BEE27AA4A4484D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_adz_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2759496,
+      "sha256": "1DA51BD1BCB03658306BA870A524A89205E0C65A2DE45A6CA19F4C442DB3E408"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aka_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2856728,
+      "sha256": "EA04A159D90BF7A2CF7A7C6D9A2006078ADB73F0893FD0C4186B1BCC7CF597EB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aka_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2382616,
+      "sha256": "ACA2193C93F273BEEB85292A68EC4924D278FD0D3EE8E604EEC735DD4DF96E4D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aka_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3209644,
+      "sha256": "07841085C023B5BBABC9F1317AFCF97769C51F75CB49D3426F6ADE6DC8847613"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aka_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 352400,
+      "sha256": "CDC15FD8027E0BBB4E5BD2ECEBFCF26171FE2F7C0FD05C04E45D6F907B37E87A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aka_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 352400,
+      "sha256": "F0F2505974D21CA72981440D1FB84DD3FE820570561B9F00222CEECDEC23DEE0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3028276,
+      "sha256": "202F3570C1EAC50C6C73C3A6D52D3F2E21C861E76A01226AC863926F7B25C88A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3619720,
+      "sha256": "AD27AEDC8AEEAE49527DCD333E30CC2E98A0884DD62A289D2DDDDB6B352C831E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2839424,
+      "sha256": "2D58248A904FE1C93C21B91D9A66D45D355FAAEE5269B7C6ACD7109E2D9B0026"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3106740,
+      "sha256": "A6F462E90F5D3671C4CFB4E212BCC908186589121798D7A253BB05AF94D6FBB8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3363328,
+      "sha256": "F5CC88D65065CC874F176287A55FE86A812A17F0F4C1068E0B9444D5A634353D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3001896,
+      "sha256": "3C052B73927AD136C3074D58F8F4195F84CD2BD3D6AF95BE57EEA78BA9479A1D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_06.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3671276,
+      "sha256": "3A504BBB3E42B111E55223FF6496CE51BE7AEC920B53B451A479011B9EBF58FF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_07.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3125864,
+      "sha256": "F7E2ABB4BDAC3EDECE6B1FF5018A463CE4BEA9C0335E17E3BA9E30CC3364169F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_aot_08.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2650704,
+      "sha256": "0C75E0EE913E4AB913378FB9905C885DF6B982BD29D92736B3F1A7C971BEF784"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_can_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2361136,
+      "sha256": "90694464CE61A6979145069BA870B5F8B45F1A0DB631978306E5A3E45FDB2F12"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_can_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2554296,
+      "sha256": "A5C92FD841411624AF65B13ED3BEE0DEFE6A256A0D59AE813828C1FBBF352173"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_can_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2959428,
+      "sha256": "3900E731A641EE494DA4CE7DF343CBD6FE5C6C5B0F8FF30DA6E4B7913FD9322D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_can_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2159056,
+      "sha256": "C53B3BF8162E5845D9A4D9F7DA3C94C477444AE53661001F7019E9AC256B3D9D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_des_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1971220,
+      "sha256": "B2A3346194663688F146749BB3F2FB2CC1C88AD487ABDBA2141DE6F080676F40"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_des_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1499136,
+      "sha256": "2E1812ADB8E8123BE938F870B437E3F42E909E3913488F8D604FC5BB9D718275"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_des_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1015676,
+      "sha256": "4F575D1FD2EE984DEA3F8ADB51397A190B043923A1CFB51E17918C0CAA96CB9B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_des_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1501460,
+      "sha256": "494CDB0600AA1349ED6A22C03A9F1FD325E0B33417C820F99EAC69D46556DF0F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_des_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1332736,
+      "sha256": "8B57DF683C110AA02AEB397666319B231723DAB65282DB741EFE66BFBBEF0BF2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_des_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1559400,
+      "sha256": "9748C778DFA8E9C5C8CE18D5F7F9C8B85FA2854AC6DCB6B9F4495F2DCEAAD787"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2632260,
+      "sha256": "162C4DD3270895A7457D00DBF7131991450751D81A0A9E81EA09039C2DABEAD0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2492208,
+      "sha256": "040639AF94A53619225A1B3D74E12EAB51C36F5CD5D41C78BECB6DDEDB7DFAED"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1842864,
+      "sha256": "74FE7353BD628130E42F57DA081A9D157949B7FB31E870818C33247010D107AF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2080372,
+      "sha256": "A9CAB0032B55E9D9A3FCA1A5C6A52158A46E483CD7C00D021B99357B1300CE07"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3325056,
+      "sha256": "637E1E95852D429C015A33AC27725B1D2F9EAC02E07DF3497809155C9702929E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3715096,
+      "sha256": "41207F6A5896714BBC377ABC51C05DBCBD5B559DCF1BA08791323F756546EA5F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_06.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2202472,
+      "sha256": "BC7E469AC3528D351A022980B1FF89E1C9A45615CEB07E414C632B8FEDCDEFFD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_07.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1761032,
+      "sha256": "C835CC36C22E87A3CC18037B161DC6D4B91391FA921A1094BF7CF44B421476B3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ext_08.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2828432,
+      "sha256": "9722A77757D9A7891F527877776094759630BAF324C3EB42E2441E34B9F33919"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hai_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1940556,
+      "sha256": "A4668A2F026C2CEDFC11D5888A7A45792A0FF89B0AA9881B97E6B4FA926C1A48"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hai_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2190916,
+      "sha256": "38EBB452C89967E78F6D0F535ED0F8B218C6B0C71662B043E5C113D0A606004D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hai_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1497176,
+      "sha256": "0AFDC1DB693D2B18E733C4AE8589664532B1CC7879392472D6E6F8377E08FAE3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hai_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2563244,
+      "sha256": "C46017CA3DCD37BED3998E40A0FE433475908C9E6B6C925C4DF0CC7D8483FEAB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hai_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2203504,
+      "sha256": "7ABF1B70E73E1DDC13E54AC873F280E5AE39791948A092468E8CCEB1540534D8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hai_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2160564,
+      "sha256": "A7F51AB327A77768A6B76D2706C406508FB434D085AA546A0FD83989EDB81275"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hgu_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1706020,
+      "sha256": "DE098A360E29EF8F6E893C7B144DE745DC39F8EFBA0BDC604CCFF85FD0513D5D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hgu_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1580520,
+      "sha256": "F1AD6B5530852A5BFCC3D5B38AD0C060516E5C9AF0A3CD557FB975CA03945438"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hgu_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1242428,
+      "sha256": "BD978F34DF33BC21BC0A0529C0634704FBEDD0843776E0656B997C20B139E9BC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hgu_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2263048,
+      "sha256": "112877469362CF65DD15D9D28ECC755DA4B43AC5C824580FFE23F47795780053"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hgu_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1688628,
+      "sha256": "A4C5FC42F629CB1C15AED0D83873EE162C6F8CA931513B78A972C08F2A453830"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hgu_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1493864,
+      "sha256": "784CF7326E93E54B895A5EC64E7C77F7FF6FE3B41417BF4276A20167BB31BE1B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hnb_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1781536,
+      "sha256": "1EAE9D5101CB4CB511D77FACA51A063FD7EF528B460711BE990E8C9845464812"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hnk_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2536632,
+      "sha256": "CAE8A223AF26295EBCD24C66C42F85BE0223305C553118BCFE39399FB9EC21A6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hnk_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2240360,
+      "sha256": "699CE9B40E6B2B6F14E14D76ECCC894BAB5672C2C8DB30752BB89562A60C4B4C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_hnk_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2974252,
+      "sha256": "6B841B91BE883223B46EE0D5B3A119EA2F97C50ADDE31309F23DA808A7234344"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ise_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1484748,
+      "sha256": "291D3F6706640071CDB2DE8D25262DC9A3E73B1EDEC44D936222B1DC9FF3965D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ise_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1444068,
+      "sha256": "AB817C7890DB99127DDE6CD2B61526EF07E2D8805A13DBE966CE0C9EA4A0F062"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ise_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1472600,
+      "sha256": "77659EF5B7441088E3A448CB038CBF0AE0C66EB2A6611359ED1AA0823A8E7779"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ise_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1341140,
+      "sha256": "934889E36599BC7C74A1AF487B727A40FC02124115A24275BA491C4CCA9B21CD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ise_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1032676,
+      "sha256": "A21B3471866B77948A424FA1F67F63DCE34EA9682CB0FF2C0115BB82D1BD3825"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ise_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1656660,
+      "sha256": "77C005A38F2BD3B15D6C7A159A04278B382CC17FFBE80701CF75387BB5F35D1A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kai_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2547636,
+      "sha256": "071B8F1365A7DCDDBA21F5D2E672547FB05F87EE9108D972630C9F8723AE29B8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kai_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2916536,
+      "sha256": "8FA5EC3A7D41677B8E28750310745D951EFA9E21E265E47C435437D10F370B05"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kai_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1776172,
+      "sha256": "824BD8527121DC18F16152E6223F07E1C9C6CFC047F3711E693A86C72C947EFF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kai_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2873364,
+      "sha256": "48D144A07A23B0BAF1D0076AED17A24E6E4A91C7DC213060B09F05005B817CB1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kal_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 897672,
+      "sha256": "BDA08ED771CFD7C286B74C05C3EA160EDB2FAA4CF51EEF565B0762B40926E550"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kal_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 819752,
+      "sha256": "76007333814D1E675FD14C3706E1591BD87553B6679EE8B98A42808E92A111BE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kal_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 792248,
+      "sha256": "912EEF5C4B990CA02CFDBC5A6275BF195BDE2D79E747F5C61B9B7B475E1ACC5C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kal_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 781484,
+      "sha256": "7FA7CA54BF9DAFBAA1B530206CBAF9019F324CE903AF3B4483E8983C88ABD63B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kal_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 828668,
+      "sha256": "92693854463BB5B2E4FAAC37BA03C8C02394196E3407850D0CBABF74B8BAA19F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kal_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 724024,
+      "sha256": "D3CF4777AC9E7D836CD4B6D25C6F27586E7F4F4C02BB3A63F6E1E82657A74DC8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_koo_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1113700,
+      "sha256": "138E06EB669D58ACAA56C409BF59B99AD92FC383A1E3C8B674A4346F4FF37170"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_koo_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1817396,
+      "sha256": "91F17B45888DA678A139ABD73FA98785C80467A5E6B79C957BE957CB62D458A5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_koo_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1653984,
+      "sha256": "DDDF2EAA36F7EC160ED6A67884D95C4ECBA76512C2D5ED80BE4CDA8BCA00E096"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_koo_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2366428,
+      "sha256": "5E516F058146C916F992DD81DCC85F7C96710F0533B08CE04E9648CD4FF6C970"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_koo_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1438284,
+      "sha256": "E48B55E0D3B7CEE0CBC342E69E6C56347021D6E56EB292F9D507F0DA7D6A0A42"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_koo_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2536364,
+      "sha256": "FD8A70C9774B73AFF7C231937B6541FF230DB3ED7F34203B5EAD8B0C0CE96769"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kza_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1760592,
+      "sha256": "C253C4DA96A3871D293EB085DA960D23AFF06EE66D2EB9E5C2F4913BEBF559E7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kza_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2695212,
+      "sha256": "C80CADB95C827B0C9138EF034E604F6F11CA7D6A2FDD294347D81D510AA3753F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kza_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3075260,
+      "sha256": "61057668F39079E6ED246CDF8DCD179DDA83A7FDE5799D5AB30EF4D4091C645A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kza_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1569280,
+      "sha256": "105B9C7C42F31B386FB8AD0C3C71AA24737B602A53C1967F6B4F4229787619DF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kza_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2781612,
+      "sha256": "E749537C17FE184D7C1A480C13B1632D0046845AFE068B2200D9990A4939C7D0"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_kza_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2698364,
+      "sha256": "D4D7264FEA73072BEB40D79EDFD4A818F7BB7A3A917601CEB7B8A64C5048BDC1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mit_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2182768,
+      "sha256": "A3BF9CEF31D99BD0B9121A2DB684C01BAE9461BF84218B7F4C607231AFCDECD5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mit_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2648124,
+      "sha256": "87F12C23BFF08F072AA47660F7BA8A833C7A69D89E56A13134A7AE626A2DDA27"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mit_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3050928,
+      "sha256": "A79B2374D324FFC319DC2C21B7609248F5E52A4A69D093B16B8991CB9DDE7C5D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mit_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2697424,
+      "sha256": "C0699FE0217C594ABA8BD07772F1AED27FA43F4B2F1E25FD04B425DE2AF034FB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mse_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 531172,
+      "sha256": "C543B67DD5418BEB916F8E2B9415438C582F4459EFCEA52CEFACCFB601093EC2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mse_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2040460,
+      "sha256": "6C7F352F401A77775C1F6F12B160FA39BC11FC21DFFC3D66268B8A5CEF43E1E7"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mse_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1633172,
+      "sha256": "4E395AC1EB9F76AC5E3F54CCD4E3E270879F386772AD0039597D7E5A62662F44"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mse_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1864404,
+      "sha256": "940F0664A944552581FA804654135F1AFA28AEDACC63AF84DE6F475405A905C1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_mse_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2138268,
+      "sha256": "A25B54FAB8598C691360572C92F3A1C0B9B6F3957657FBD9D5764F7917345821"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ryu_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1685964,
+      "sha256": "9DBE8FDC9E9EE9236DA7A0C1D4FEB7AAB79D7D0B58C5610642F34D8284392094"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ryu_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1085640,
+      "sha256": "6490833B13D14A2A35B58F402428DB39BF1B81636F34CC95E0484F9C7FCDE119"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ryu_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1078776,
+      "sha256": "9AF0C4F985FBA16F35DFE72C95445015550E28128D6C7EDB09287989E833A854"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ryu_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1212444,
+      "sha256": "DC4ED8AF92701945D5CBB49161FA4D39B472E9E7A76F2A9C96665BD036AF1681"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_ryu_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1071056,
+      "sha256": "0E1E01E98D9223BCF5E3464B4F532C4EBE3F17BC2393905E5B727EC424BBF229"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1337832,
+      "sha256": "A511EA8DE49E099D267E8C4DBD263FD7B15F46DD753578C2DF07186E69876AEB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1468936,
+      "sha256": "D26F8716CA3B57587C1DD029998633177709AB6527A18B3C8BD4897237A3C34C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1394508,
+      "sha256": "2C39530FBBA4FFCAAB08F7833B8F836D4811F58269A7BF7F5D2B5BA5A43D4BC2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1970112,
+      "sha256": "D8F1FCE6F0A3A5DA388534C7E8667793AF411B83DF097846DED855295A8453F9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1928596,
+      "sha256": "90EF8827F743C59FBF886CD118356F9B8005C6B0D45AF15A14DB2996CC55DE57"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1391260,
+      "sha256": "A73324934E7719E61ACDCAEC0880E63C6CA23D1280848FCBA9EA630691960814"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_sir_06.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2202396,
+      "sha256": "5E076A245D3F1D1A887C5A8364EF8496AD279C2AD4BE3F5721164F476FCF41D6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_syo_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1271948,
+      "sha256": "33658E10B8F71A9B2B7A97639211C5F063B528EC6BD0232F01C173A22B7C1E7B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_syo_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1887080,
+      "sha256": "7FF8A44125B683879C957E85F94B1AD7396C4CE006CDB4E7C7F46FE195AF83DC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_syo_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1661280,
+      "sha256": "948BE299843B51E1370AA62C4B3716148A0A63C6DD798841EAB41A2060BFDAB5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_syo_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2448376,
+      "sha256": "AC031EE4411E9644B908401F796E9CBCBF3169114AB473961A92972336F2D4D8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_syo_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2036080,
+      "sha256": "3EBA11B3A572D51BBCD8581FC2EE145A2602C631B5061CE71AC71773804DCCE8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_syo_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1739492,
+      "sha256": "5A2D9A3AD7BBE849A051908634613EB1AE14792A728F726B7CBEE07478CA5EC6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tig_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1387152,
+      "sha256": "5518076FD3C984A8EC546A41852158D6957D04EF752D6A9A94366C7869556AE4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tig_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2004504,
+      "sha256": "AC205D7B8BD3BBEAA17B7F9E7B1E2C816BC953E321F0E0810BB983A3891A9314"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tig_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1196816,
+      "sha256": "2A6DB612BA8BC5453A0A947F2752F86DC7C1541588AEA7F214066B8C39CF0E0D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tig_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1711624,
+      "sha256": "7EE187A3228050FA97C2D114B122463C1A24D4F0018AB2DA7BE33D19EA936793"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tka_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3822428,
+      "sha256": "6D4E19B8BC07C821045980CB4006C7E07E7080AB29322BF85EA723702390EEA9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tka_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3731664,
+      "sha256": "C073CE97A8A987B2F6C80BAF75B0031DFF55C85F072A1CC60EFB444A654437F4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tka_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2950456,
+      "sha256": "F637AE488FBAB19B197B95FEBBC429638699BFC7261197C17653620621D71A5D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tka_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3495788,
+      "sha256": "29D9067D8C7A7E43CF5DDB3718BED887420740CD39D8C12BE82F6381907AB9A2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tka_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2406696,
+      "sha256": "B7DC034A8ABB8417429F3E84204A403C36E9F4169A4C78B35683FBF9CA50EC17"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tka_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1539312,
+      "sha256": "BCE88D694C3F128BA037B9AA05D1479951F685FFE45882C29F3BD165035BA6E5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tou_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1102240,
+      "sha256": "74642C0FB881ADBB734C5394646E0EF05160E6904BE13274EB88BA9B1AB9563B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tou_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1537120,
+      "sha256": "62072F4DEE3782B29F996CA837D9C9F43C5B388BB7AA832023F85A5D54605B81"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tou_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1371852,
+      "sha256": "4E65D2EECEDE8C49CBA3306A114035F9E11124D5CD4FABA73907CA8D3A092C2E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_d_tou_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1595312,
+      "sha256": "CF0F262F839F0A86E4DD13AFA4ED50513B7E373A597D04929A0613E756304ECE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_dem_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1833216,
+      "sha256": "7B076707C3D405BAA2DDACD9DD46A27A6717B7079C7AD25797AB9FCED342C30C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1200932,
+      "sha256": "0283EE7292368A6239690AC4012C00D50CFFCB40C280A832EF11CA1AF48B0335"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 643624,
+      "sha256": "C8CB27AA612C5C5CCDF2B58C6C12478006EF3B64480079569345E3F498330D9E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 839248,
+      "sha256": "68472BF9B577853E0C90225B498AEDF2A1EF00F19F21347BC6FEAEAF7B106938"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1915356,
+      "sha256": "788E175D7E84F4052E23A09E93CA60732EA42F77159659249DBE478D94B0966E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1333160,
+      "sha256": "4C64803998A8C90E2E322E3D441A4B06262CA3E912C3C7FAC9E6AC57F85CAA4F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1046916,
+      "sha256": "0152F717726F351B39293B08D4A7D59345573A3460118222BC103DFA8F37C15A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_06.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1965708,
+      "sha256": "A1F0B8C2B4F27CF58470ECCD863C34FB7EA458FE0A9D79B4CBE17075926B46F1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_07.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1598200,
+      "sha256": "88490928CF1B45BF26F0845B39411B60CCA13578FD78EA6831109D8062E4CFCE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_08.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1718176,
+      "sha256": "E1E94A9B0631FE502FCC1A5C36CA2D0337CA1907EA8B8861DC96ABB4D84BDFF4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_09.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 635992,
+      "sha256": "AFF59055A7B2D05E595CC749082421FC9EB908D4CEDD5813967AA30D30B47E7B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_10.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 740088,
+      "sha256": "87F10F2CDDB825B660D186DE2ACB15FFD294388A0F9301751550924228D08685"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_11.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 741616,
+      "sha256": "C0B82AED4016A3719E923FFBAECC36D11FF2FD247B288294C84B4B1A8C1B61AF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_12.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 122988,
+      "sha256": "0C1969D4B454B888C775AE47C082BC6F1D36ACF01993E074DB6469127DBE99BC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_13.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1823256,
+      "sha256": "B82A972461EE57BFE8BF7E0DC7E1EEAF2E1A9823FA2758063A11BE68D73C10DA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_14.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 686252,
+      "sha256": "5357797404D1C426032C004E4C29595EDEEE9D25EC6CB9B1C214DBCC7E7EBF50"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_15.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 899364,
+      "sha256": "7C9198B33F68A685379F3AB83D063658E3FA2B09298A83F3DA9F0FF66F9F2656"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_16.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 958444,
+      "sha256": "8EA6A16D1556C5D4C386341B9D6AABBE2A63C90C4A931D926CCF0B9E55982DE2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_17.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1637356,
+      "sha256": "0C68BF52AF52F8C93BF96B25E16146165DB0208CBD8B5CD95F0D7DF6CDF6F3D1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_18.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1028892,
+      "sha256": "DC9DC4C122AF7BE8344876E3E65B46EF6A6A47F3DBED94BC2BFC26BA5C3055CE"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_19.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1907048,
+      "sha256": "E0AA90A454737518CC219007B47474B69AB1A55D40984EF58E4C5ACE7D213ACA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_20.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 122960,
+      "sha256": "D02AA909BD94B12EDC8B43D9E9CB1438270A3F1A7399400D5EB17654F2C326DF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_21.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 868228,
+      "sha256": "94FF33A0F15F435B4EE878F7F046B73CC98E32239225BFBAE948B50600016994"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_22.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1080716,
+      "sha256": "12F648016E0B6E5E8E3AABEC8DBBBE193567CFD8083523C20304230BF2066B55"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_23.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1497244,
+      "sha256": "9587FC8436FAD8E09C2DB8FDB4DCC3059AE96E16978FC91099D6547C924897D3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_24.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1060984,
+      "sha256": "DBA84B428A3054B04F6F6A1569911B2464C0D9C68037610275299BD00AFD75FC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_25.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1634176,
+      "sha256": "2C81947365994A0D1C996EAE77439DCBE73CFFBFE2B74D7E2840E2F04B51DBD1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_26.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1155372,
+      "sha256": "A71AF7A186427A2895C65E8D694C7E5859FACEBF44407F5B52CBF2F5F5F9838D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_27.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3540644,
+      "sha256": "2B5B3663A5D7E09E763C1E0242821DC680EFF5AE6E0D60FA20165E6D64CA2EF4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_28.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 429164,
+      "sha256": "47137C25F3AEB71B07E4690CC05DF8919AD1EEF7D5558F835B67AB5F2A7AA8F9"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_29.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 414224,
+      "sha256": "167B8B990C3C54939E496D8889BB7DD33008D3E0B89510BB73C79488E91DD0D3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_31.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1361428,
+      "sha256": "B20261945530A0B0A7C8D4EECE2D9CF2D9696C134E6118ECA8579F55B7D3682C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_32.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 793180,
+      "sha256": "303B94118F318ABDBCF156385D346A86866E3F595D0F2508513B39CE0AAB1AAC"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_33.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 793180,
+      "sha256": "F4A4D92CCC2D0233D779B5DB35CE4EE44732C42753257242ADE83EC1F17B97E1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_i_evt_34.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1503904,
+      "sha256": "7CCD4484FA06610A9E66DDAE3D82C6CCAF76C72AF20E934019341AFDA04ED0BF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_bat_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2396852,
+      "sha256": "A0B67862C02A9B56B0E36FC83661803E24246BC423B2279D77D47E8126F5681F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_bat_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1823004,
+      "sha256": "1F06066958767E3FAC0408948B5A7DD3C9F614A3015C8DB3526CEFF9EDDD8CC3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_bat_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1881876,
+      "sha256": "B44E9E8D73DF63ADD3F14CE4318A0E826B2A143FF70622E0432AABF149EDC9E5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_bne_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2267980,
+      "sha256": "E2FA4CD72B6527261C6CF65C7AC61BE48E3091138B0DB07FE92BE4E79B9E1636"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_bne_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2390136,
+      "sha256": "0020BA5C5164C7A6619234148BC034BFD1894BED767D82412A3491E373B64BF8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_bne_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2972304,
+      "sha256": "48E5CB77402FF090150D8EED1ED8E8615E43E318BA44D37867ED6F6EECCA25A2"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb1_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1504084,
+      "sha256": "F11672EBEF2EC40C829AF944BD8984C00A7AA3A0E13A120F91B72D129931C649"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb2_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2691600,
+      "sha256": "255AFDDD31F09D58072355F9BA959E2CC52168E769AB6A01B9E6010B1425EFAA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb3_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 716700,
+      "sha256": "BCF049F483C47EE85D10A607850FF4301270D45A3051ADF5891B685084D21A33"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb4_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2678992,
+      "sha256": "3844BE1DA4C11636C699D08DE59A777C6AEFABAD2170A506C82FDA20E2D13953"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb5_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2118664,
+      "sha256": "5C93BB01EC6BF25DF965C8EACE6E80896A9D845D46B85EC9EED3EE84B54B2F06"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb6_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1534188,
+      "sha256": "86C02C37DF4D75031DDBE07CC1FA6966ABF780FB7CDFBEEF946EA15424728900"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cb7_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1061656,
+      "sha256": "AEB907352B3CECF75E21E49A3D33AF9A70BF572CC8E07F15D9AD361F09DF96A1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cob_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2712200,
+      "sha256": "282A622D6EE9AE1FA286900E00015AA5E8FE9CF42FFE38C707C8975BD889CC01"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_cop_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2292292,
+      "sha256": "3ABD09CF12584786A2B203A2DF22F245C37B69D6CE41A386E74B78A518762B8E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_dia_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2957752,
+      "sha256": "5CA228894BCF9F4128AFEE9D0A2CE908B597701F6D4551E8C66CE2108EF628C5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_dia_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3214000,
+      "sha256": "C7DF4FB431B8EA0FBAE3AC4AD87D073D88796DC67198A8EEAEBF09448FA6B87A"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_dia_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2347952,
+      "sha256": "315853CB14B3A4D24E9DCBE6AD28DCE5E02BA6470D7CE0ABA25509D70D9F30B8"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_dia_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3791776,
+      "sha256": "387A5808E6432AB4BD814EA7CBCC0A6C58383C21432239FA0159B7596F2672D1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_dia_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3484864,
+      "sha256": "E130F528BC7AFB8DC94957D2390872CF8178D1E2310FB915BF316706DDEEE331"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_dia_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3071628,
+      "sha256": "C844C3624614F4B2DF1B01B3FC2EC642505E9854EB1085B71AC72C7CE515EB45"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ebu_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2953068,
+      "sha256": "09FF691D2543AB93914AD8787FF6618EA38D7CA537F9B2830ABD6C4AB9EB0698"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ebu_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2121000,
+      "sha256": "C770ADE1366BFDA4B598B2C6B788E8D68FBDBE877DEE24B559E83076C5D8956F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_hki_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2345132,
+      "sha256": "F623FF5F23374A2F0738F01C02AD0425994F2EAF4DB6D140509D4545C1CF5F36"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_hki_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2380892,
+      "sha256": "A343FC7511D9292CB643991429EAF0561FCC08BF84B7979A04E370EF06449BC5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_jad_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1648256,
+      "sha256": "1B1C5DA616500155C46C4632CC6389DD9BE5218D1CD091D50706775AA67ED925"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_jad_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1803068,
+      "sha256": "B84888AD2542CE8E8BBD20D63C591A7B76B49E8EF85357BD1AF6AE02212C3A2F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3710352,
+      "sha256": "62813575B1DCA858D8980140A281F8E02E37E689129F9AFA5998F0205DBEED23"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3249116,
+      "sha256": "89CB77658FE23DEBCDF4F7DFB8E3912850F609F14292DB8DC974C914C8C16C58"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2820136,
+      "sha256": "37D161BA43197A4F168CAC10C3ADE538DCB087C882AB4DC5E4AD3CA470037707"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3313916,
+      "sha256": "E0DE2D22DCB1752ED293546129100F56268AA835D1E3E9E901BA93E52B314B7B"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2888976,
+      "sha256": "D9CA7C1328D4A8173E4BA74AA0F6B500CE9F5B07C8D3BDB54A1278D9EE255410"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_05.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 3820224,
+      "sha256": "05451FE62CF6E3E39D30E462D8F4D7B25944724693FDDF1D145D9A08C0EA13DB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_kan_06.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2339788,
+      "sha256": "13E27969DAAC57A746009319CCA40FE6CBD607C1914C7807C5B79FC5730D5DFF"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_orb_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2534296,
+      "sha256": "936FFF0A853E19F6C7EB99FF89AA224BAA067FB8050395B7D4EE5C5556ABB715"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_orb_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2295068,
+      "sha256": "3E7428C105B2BD688639005E859AFB67C2C7D2C131C5AF4B9C27D2D35894A4FA"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_orb_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2604100,
+      "sha256": "46868851FD301612C290705135F4822857A66F025C826778F008375B2F113A14"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_orb_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2369932,
+      "sha256": "BE52F35C10904378AC243AEF069F8AF09D28AE11FB7F98ADE53D482E5784C957"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ori_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2250444,
+      "sha256": "A6A7ABD55197D304C63894B9CF0EA7CACD673936FD5915EC0F13C713F287B6F1"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ori_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2014356,
+      "sha256": "E83E5CB21656CDC5D0C7D3C08818E3F0E9BAFD0E88AC20F9ABD6109616D35676"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ori_02.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2619752,
+      "sha256": "357B44F10F820E694B554110B84B8363E77CB5796F39501F5A7C73C9290E9090"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ori_03.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2234252,
+      "sha256": "481215CBC52D8F0F5573E18CBB1A3C9B3A52C2C0140B47EA6841FC2FD36812AD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_ori_04.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2061648,
+      "sha256": "08FA62A4187F080C7E4D64A45BF9E6AF6BADE3ABD29A35C75A58BE8FB9B656FD"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_sba_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 2292764,
+      "sha256": "3208F256505868FFA2A72D8E9933DBB9A7DAAD473E341FC033BB24C5032B01C4"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_tpa_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1795188,
+      "sha256": "B4C0B24C2B7E66D76FDE859FC388CDD028807DDB7974D85D32F92131760E8AF6"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_yuk_00.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1689480,
+      "sha256": "FDBE5C28DFA81B85247FDAED33F8754C3D4E7A3D409D72DE6A61A99C6A4C4EE5"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Map/map_t_yuk_01.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1866712,
+      "sha256": "7ACC2EACB96514681195DAE884912E50846B355E8A96F9D68B65F4CA45BB3F3C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/minigame/mg_copin.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 1954336,
+      "sha256": "D8BEC7CF4D065895A68BBACD0D82865B290EE9EA8AC4274ECD1983D6FFBB4C8E"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Movie/RAY_OP_02.sfd",
+      "role": "riivolution_overlay",
+      "size_bytes": 356079616,
+      "sha256": "A6095E7E5DB15012AA914AF41958F4BF5947DD5029C199605C66FCB6577BD2A3"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/opening.bnr",
+      "role": "riivolution_overlay",
+      "size_bytes": 506240,
+      "sha256": "63C06073023FE8AEA760AC8AB763A281E531355E1B12B883CF6F64D15D1BB778"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/help.bin",
+      "role": "riivolution_overlay",
+      "size_bytes": 131860,
+      "sha256": "BD2223EF7063947787313BB1604F46F77ADF866ABB820EEC2F7914A1827F7BCB"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/monster_book.bin",
+      "role": "riivolution_overlay",
+      "size_bytes": 176456,
+      "sha256": "D5E74976D8503FFE89E72EEEC8B61600083F827FE60CFA83951199860A59E33D"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/strapA_jp.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 287776,
+      "sha256": "37B1A8B270BCD3CD063F86A8309CB03E49BA61C22CEDFDB936474B9641867F8C"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/strapB_jp.wtm",
+      "role": "riivolution_overlay",
+      "size_bytes": 287776,
+      "sha256": "73E7CA87451A52E95B049517B2933304F7CDD610CD47C3FB3844CC44A88CE45F"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/system.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 6172608,
+      "sha256": "66F962EFCF9DF925309B4ACEC56C280A31E196333DA64AE1CD0B355E58B07F57"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/title.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3322240,
+      "sha256": "80152E9A00A507DD7BBE54DEDA9530B7F1A189D8A079F43FDDC4B29D5A3AD793"
+    },
+    {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Title/title.vol",
+      "role": "riivolution_overlay",
+      "size_bytes": 3322240,
+      "sha256": "80152E9A00A507DD7BBE54DEDA9530B7F1A189D8A079F43FDDC4B29D5A3AD793"
+    },
+    {
+      "path": "payload/riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
+      "role": "riivolution_overlay",
+      "size_bytes": 139960,
+      "sha256": "ABD415AED5DF9DD10910D98ACADF892CC407778F71EEB632E7D41E3E2E5C66B3"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "role": "installer_metadata",
+      "size_bytes": 1661,
+      "sha256": "F8CBA1266ED700669AFE93BDBE2DEAFE149A7A25FDC6694A093F19953190AA76"
+    },
+    {
+      "path": "README_KO.md",
+      "role": "installer_metadata",
+      "size_bytes": 1356,
+      "sha256": "3CF5522E8A648CADB9D352815DCF5CA552FD4C77B4CE34D4C89126D9F55E672C"
+    },
+    {
+      "path": "Restore-ARF-KO.ps1",
+      "role": "installer_metadata",
+      "size_bytes": 2549,
+      "sha256": "1ABB9CB116C512A8E86FC2FAD26D9EAE50C8DC9B770E8A2AAF6153CED8E9EF43"
+    },
+    {
+      "path": "Verify-ARF-KO.ps1",
+      "role": "installer_metadata",
+      "size_bytes": 1373,
+      "sha256": "144A589300B7CE3A2D5AF0800595228B55C514C6363E5A46F17464B1233E0A8B"
+    }
+  ]
+}

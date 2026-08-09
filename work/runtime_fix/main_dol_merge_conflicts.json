@@ -1,0 +1,14 @@
+{
+  "row_count": 925,
+  "conflict_count": 1,
+  "conflicts": [
+    {
+      "offset": 3972758,
+      "offset_hex": "0x003C9E96",
+      "kept": "%s\n조작 컨트롤러로 설정했습니다.",
+      "alternate": "%s을\n조작 컨트롤러로 설정했습니다.",
+      "alternate_file": "main_dol_lower_fragment.jsonl",
+      "resolution": "kept_neutral_particle_safe_wording"
+    }
+  ]
+}

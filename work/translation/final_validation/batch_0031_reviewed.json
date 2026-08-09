@@ -1,0 +1,44 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0031.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0031.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 470,
+  "hangul_characters": "가각간갈감갖같개걔거걱건걸것게겐겠겨격결경곁계고곧곳공과관광괜굉구국군굴권귀그극근금급기긴길깊까깎깐껄께꼬꼴꽃꽤꾸꿀뀐끄끈끊끔끝낄나난날낡남내냄냈냐냥너넌네녀년념노높누눈는늘늙능니님다단달닮담답당대더던덤덥데델도돌동돼됐되된될두둔둘뒤드득든들듯디따딱딴땅때떠떤떴떻또뜨뜩라란람랐랑래러런럴럼렇레려련렸령례로록료루류르른를름리린릴림마막만많말맙맛망맞맡매맨머먹멀멋메며면명모목몬몰몸못묘무문물뭐뭔뭘미믿밀바밖반받밝밤밥방배버번벌범벙벨변별병보본볼봐부분불비빌빚빠빨뻔뼈쁘쁜사산살상새생서석선설섭성세셰소속손솔송쇄수숙순술숨쉽슈스슨슬슴습승시신실싫심십싶싸쓰쓸씨아안않알앗았앞애야약양얘어억언얻엄업없엇었에엔엘여역연엽였영옆예옛오온올와완왓왔왜왠외요용우운울움워원위유육으은을음읍응의이인일잃입있잊자잔잖잘잠장저적전젊점정제젠져졌조존좀종좋죠주죽준줄중줘줬쥬즐증지직진질짐집짓짜쨌쩔쩡쪽차착찬찮참찾채책처청체쳐쳤추충취치친침칭카코콜쿠퀘크클큼킬탓태택탱터테통툼트특튼틀틈티파팔펜편평폐표프플픔피핀필하한할함항해햇했헤혀혼화확황횟후훈훔흐흔희히힘",
+  "error_count": 0,
+  "warning_count": 5,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-62A108120DFEC4744FFB",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-62A7F7881C9C3ABD6E7A",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-64A5D517465BBC8527A1",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-6860EFD03107F0A6C6D3",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-6D419E19C5267B421E81",
+      "characters": "ー"
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

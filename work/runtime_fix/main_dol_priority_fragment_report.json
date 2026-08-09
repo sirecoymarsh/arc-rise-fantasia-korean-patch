@@ -1,0 +1,32 @@
+{
+  "schema": "arf-main-dol-translation-report-v1",
+  "source": "work/disc_extracted/DATA/sys/main.dol",
+  "source_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC",
+  "probe_candidate_count": 1885,
+  "selected_runtime_user_visible_count": 146,
+  "excluded_or_deferred_candidate_count": 1739,
+  "counts_by_lane": {
+    "title_system": 5,
+    "controller_prompt": 2,
+    "tutorial_prompt": 1,
+    "common_prompt": 4,
+    "common_choice": 4,
+    "initial_setup": 40,
+    "save_system": 19,
+    "common_ui": 40,
+    "system_notification": 5,
+    "system_menu": 26
+  },
+  "validation": {
+    "all_offsets_present_in_probe": true,
+    "all_source_bytes_match_main_dol": true,
+    "all_estimated_targets_fit_capacity": true,
+    "placeholder_policy": "printf placeholders preserved verbatim"
+  },
+  "errors": [],
+  "exclusions": {
+    "debug_only": "developer menus, printf/assert/log strings, task init/finalize traces, test maps and internal identifiers excluded",
+    "deferred_user_content": "battle/casino/quest and map-specific main.dol strings outside initial/title/system-common priority remain for the next runtime-fix pass"
+  },
+  "unresolved": []
+}

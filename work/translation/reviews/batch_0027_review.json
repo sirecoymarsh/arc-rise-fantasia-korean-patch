@@ -1,0 +1,291 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0027",
+  "draft_author": "/root/translate_batch_0009",
+  "reviewer": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex 내부 모델 전용",
+  "external_services_used": [],
+  "external_service_status": "없음",
+  "source": "work/translation/tm_v2/batches/source/batch_0027.jsonl",
+  "draft": "work/translation/drafts/batch_0027.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0027.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 28,
+  "unchanged_units": 172,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 10,
+      "tm_id": "ARF-TM-25675C7E665C5780E159",
+      "source_text": "……そうだ\n第二空挺団に俺が生きてるって\n知らせねぇとな……",
+      "before": "……맞다.\n제2공정단에 내가 살아 있다고\n알려야겠군……",
+      "after": "……맞다.\n제2공정단에 내가 살아 있다고\n알려야겠어……",
+      "category": "character_voice",
+      "reason": "俺 화자인 라르크의 대사를 군인형 종결이 아닌 자연스러운 반말로 맞췄다."
+    },
+    {
+      "index": 23,
+      "tm_id": "ARF-TM-262F51A48D3C2435A692",
+      "source_text": "あれはいじめじゃねえ。\nおまえがヘマして叱られてただけだ",
+      "before": "그건 괴롭힌 게 아니야.\n네가 실수해서 혼난 것뿐이다",
+      "after": "그건 괴롭힌 게 아니야.\n네가 실수해서 혼난 것뿐이야",
+      "category": "character_voice",
+      "reason": "라르크의 반말을 두 문장에서 일관되게 유지했다."
+    },
+    {
+      "index": 24,
+      "tm_id": "ARF-TM-26331508114F7B6B7DBA",
+      "source_text": "イグナーツを追っていた",
+      "before": "이그나츠를 뒤쫓고 있었어",
+      "after": "이그나츠를 쫓고 있었다",
+      "category": "character_voice",
+      "reason": "오이겐의 절제된 해라체로 화자 말투를 교정했다."
+    },
+    {
+      "index": 35,
+      "tm_id": "ARF-TM-273C7E2F52C7117F6E88",
+      "source_text": "残るはセシル殿とラルク殿……",
+      "before": "남은 사람은 세실 공과 라르크 공……",
+      "after": "남은 사람은 세실 님과 라르크 님……",
+      "category": "honorific_naturalness",
+      "reason": "コピン의 정중한 殿 호칭을 한국어에서 자연스러운 〈님〉으로 옮겼다."
+    },
+    {
+      "index": 37,
+      "tm_id": "ARF-TM-276EB967A7A14FC1004F",
+      "source_text": "なんか\n煙にまかれた気分がする……",
+      "before": "왜지\n얼렁뚝땅 넘어간 기분이야……",
+      "after": "왠지\n얼렁뚱땅 넘어간 기분이야……",
+      "category": "typo",
+      "reason": "〈왜지〉를 〈왠지〉로 바로잡았다."
+    },
+    {
+      "index": 41,
+      "tm_id": "ARF-TM-27AD04EB17E20441C6E6",
+      "source_text": "うわっと、ここにもいたんだっけか\n希少な天然さんが",
+      "before": "우왕, 여기에도 있었지\n희귀한 천연 캐릭터가",
+      "after": "우왓, 여기에도 있었지\n희귀한 천연 아가씨가",
+      "category": "wordplay_and_naturalness",
+      "reason": "天然의 중의적 농담을 유지하면서 〈천연 캐릭터〉라는 메타 표현을 자연스러운 호칭으로 다듬었다."
+    },
+    {
+      "index": 45,
+      "tm_id": "ARF-TM-27E7F2A4DB93757040A3",
+      "source_text": "私はいつしか１人になっていた。\n大河ミレグリスのほとりで\n気を失っていたらしい",
+      "before": "난 어느새 혼자가 되어 있었다.\n대하 밀레그리스 강가에서\n의식을 잃었던 모양이다",
+      "after": "난 어느새 혼자가 되어 있었다.\n대하 밀레그리스 기슭에서\n의식을 잃었던 모양이다",
+      "category": "proper_noun_and_naturalness",
+      "reason": "승인 지명 〈대하 밀레그리스〉를 유지하며 중복되는 〈강가〉를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 49,
+      "tm_id": "ARF-TM-28600EB5C153974641FB",
+      "source_text": "ごめんなさい、知らないの。\nしもべ……歌学省の人が\n教えてくれなかったから",
+      "before": "미안해, 몰라.\n하인…… 가학성 사람들이\n가르쳐 주지 않았거든",
+      "after": "미안해, 몰라.\n시종…… 가학성 사람들이\n가르쳐 주지 않았거든",
+      "category": "lore_terminology",
+      "reason": "しもべ를 리피아의 관계와 기존 용례에 맞는 〈시종〉으로 교정했다."
+    },
+    {
+      "index": 75,
+      "tm_id": "ARF-TM-2A4A8CEC17B1478E5CDE",
+      "source_text": "クエストには、依頼内容ごとに\nそれぞれ達成条件があってな。\nそいつをこなせば報酬を得られる<$0C>条件を満たしたら、そのあとで\nギルドまで報告に来ればいいんだ<$0C>報告するのは、クエストを請けた\nギルド以外でも構わないぞ。\nちゃんと報告するのを忘れるなよ！",
+      "before": "퀘스트에는 의뢰 내용마다\n각각 달성 조건이 있어.\n그걸 해내면 보수를 받을 수 있지<$0C>조건을 충족한 뒤\n길드에 와서 보고하면 돼<$0C>보고는 퀘스트를 받은\n길드가 아니어도 상관없다.\n제대로 보고하는 걸 잊지 마!",
+      "after": "퀘스트에는 의뢰 내용마다\n각각 달성 조건이 있어.\n그걸 해내면 보상을 받을 수 있지<$0C>조건을 충족한 뒤\n길드에 와서 보고하면 돼<$0C>보고는 퀘스트를 받은\n길드가 아니어도 상관없다.\n제대로 보고하는 걸 잊지 마!",
+      "category": "system_terminology",
+      "reason": "퀘스트 달성 報酬를 시스템 문맥에 맞는 〈보상〉으로 통일하고 제어 토큰은 유지했다."
+    },
+    {
+      "index": 76,
+      "tm_id": "ARF-TM-2A5917500DB1DEA44C37",
+      "source_text": "さあな。\nこっちが聞きてぇよ",
+      "before": "글쎄.\n내가 묻고 싶다고",
+      "after": "글쎄.\n오히려 내가 묻고 싶어",
+      "category": "dialogue_naturalness",
+      "reason": "こっちが聞きてぇ의 반문을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "index": 79,
+      "tm_id": "ARF-TM-2A7119991755B63E9B34",
+      "source_text": "おおげさに言って\n面白がってもらおうって\n思っただけで……",
+      "before": "과장해서 말하면\n재미있어할 거라고\n생각했을 뿐인데……",
+      "after": "과장해서 말해\n재미있어해 주길\n바랐을 뿐인데……",
+      "category": "dialogue_meaning",
+      "reason": "大げさに言って를 조건형이 아닌 이미 과장해 말했다는 완료 의미로 교정했다."
+    },
+    {
+      "index": 90,
+      "tm_id": "ARF-TM-2AE179027CC55B3E70EF",
+      "source_text": "ならば、土地勘もある。\n偵察者に選んだお前の判断に\n間違いはないはずだ",
+      "before": "그렇다면 지리도 익숙하겠군.\n정찰자로 고른 네 판단은\n틀리지 않았을 거다",
+      "after": "그렇다면 지리에도 밝겠군.\n정찰자로 고른 네 판단은\n틀리지 않았을 거다",
+      "category": "dialogue_naturalness",
+      "reason": "土地勘がある를 자연스러운 〈지리에 밝다〉로 옮겼다."
+    },
+    {
+      "index": 106,
+      "tm_id": "ARF-TM-2BEA85DBD446AC230B57",
+      "source_text": "うん……でも……\nこのペンダントを身に着けたとき\n何だかあったかい気持ちになったの",
+      "before": "응…… 하지만……\n이 펜던트를 착용했을 때\n왜지 마음이 따뜻해졌어",
+      "after": "응…… 하지만……\n이 펜던트를 몸에 지녔을 때\n왠지 마음이 따뜻해졌어",
+      "category": "typo_and_character_voice",
+      "reason": "〈왜지〉를 바로잡고 아델의 말투에 맞게 身に着ける를 자연스럽게 다듬었다."
+    },
+    {
+      "index": 108,
+      "tm_id": "ARF-TM-2C1B70225294543AAB2C",
+      "source_text": "でも話の筋は通ってるし\n腕も確かっぽい",
+      "before": "그래도 이야기에는 앞뒤가 맞고\n실력도 확실한 것 같아",
+      "after": "그래도 말은 이치에 맞고\n실력도 확실한 것 같아",
+      "category": "grammar",
+      "reason": "부자연스러운 〈이야기에는 앞뒤가 맞고〉를 자연스러운 조사와 관용 표현으로 고쳤다."
+    },
+    {
+      "index": 109,
+      "tm_id": "ARF-TM-2C3A25326CAEAA83656A",
+      "source_text": "でかいだろ？\nあいつが帝国軍の誇る\n旗艦パーセヴァルだ",
+      "before": "크지?\n저게 제국군이 자랑하는\n기함 파르세발이다",
+      "after": "크지?\n저게 제국군이 자랑하는\n기함 파르세발이야",
+      "category": "character_voice",
+      "reason": "라르크의 반말을 마지막 줄까지 일관되게 유지했다."
+    },
+    {
+      "index": 118,
+      "tm_id": "ARF-TM-2CBB3E120EA300BD19DD",
+      "source_text": "そう……だな。\nそしてアルスの奴には\n神をも従えるという目的がある",
+      "before": "그래…… 그렇군.\n그리고 알스 녀석에겐\n신마저 따르게 하겠다는 목적이 있어",
+      "after": "그래…… 그렇지.\n그리고 알스 녀석에겐\n신마저 따르게 하겠다는 목적이 있어",
+      "category": "character_voice",
+      "reason": "라르크 대사에 섞인 오이겐식 종결을 자연스러운 반말로 교정했다."
+    },
+    {
+      "index": 122,
+      "tm_id": "ARF-TM-2D1343CA8AB4F9397EBD",
+      "source_text": "永久結氷という存在が\n自然を畏怖すべきという\n人の本能に働いたのだろう",
+      "before": "영구 결빙이라는 존재가\n자연을 두려워해야 한다는\n인간의 본능을 자극한 것이겠지",
+      "after": "영구결빙이라는 존재가\n자연을 두려워해야 한다는\n인간의 본능을 자극한 것이겠지",
+      "category": "proper_noun_consistency",
+      "reason": "고유 지명 永久結氷을 기존 승인 표기 〈영구결빙〉으로 통일했다."
+    },
+    {
+      "index": 132,
+      "tm_id": "ARF-TM-2DFA6A91E6E0D22A8925",
+      "source_text": "うるせえ！　お前らがいるから\n余計に暑く感じるんだよ！\n文句言うなら置いてくぞ！",
+      "before": "시끄러워! 너희가 있으니까\n더 덩게 느껴진다고!\n불평할 거면 두고 간다!",
+      "after": "시끄러워! 너희가 있으니까\n더 덥게 느껴진다고!\n불평할 거면 두고 간다!",
+      "category": "typo",
+      "reason": "깨진 오탈자 〈덩게〉를 〈덥게〉로 복원했다."
+    },
+    {
+      "index": 133,
+      "tm_id": "ARF-TM-2DFEF74F21ABB46F4069",
+      "source_text": "あら、どうしたの？\n距離を取っているけど\nお姉さんが怖いのかしら",
+      "before": "어머, 왜 그래?\n거리를 두고 있는데\n누님이 무서운 걸까",
+      "after": "어머, 왜 그래?\n거리를 두고 있는데\n이 언니가 무서운 걸까",
+      "category": "speaker_reference",
+      "reason": "화자가 자신을 가리키는 お姉さん을 상대 기준 〈누님〉이 아닌 〈이 언니〉로 옮겼다."
+    },
+    {
+      "index": 135,
+      "tm_id": "ARF-TM-2E1E3972EF05619C0335",
+      "source_text": "勇者様セシルの伝説は\n変なことにならないように\n気をつけなきゃ……",
+      "before": "용사 세실님의 전설이\n이상해지지 않도록\n조심해야 해……",
+      "after": "용사님 세실의 전설이\n이상해지지 않도록\n조심해야 해……",
+      "category": "title_word_order",
+      "reason": "勇者様セシル의 수식 관계가 자연스럽게 드러나도록 어순을 바로잡았다."
+    },
+    {
+      "index": 138,
+      "tm_id": "ARF-TM-2E4AE1C8506ABA655FAA",
+      "source_text": "それはあまりに罪深く……\n甘美にして危険な香り漂う……",
+      "before": "그건 너무나 죄 깊고……\n달콤하면서 위험한 향기가 감도는……",
+      "after": "그건 너무나 죄가 깊고……\n달콤하면서 위험한 향기가 감도는……",
+      "category": "grammar",
+      "reason": "〈죄 깊고〉의 누락된 조사를 보완했다."
+    },
+    {
+      "index": 143,
+      "tm_id": "ARF-TM-2E99454359204E5FD22F",
+      "source_text": "そ、かな……えへ、ありがと。\nアルスはちょっと意外な感じかな",
+      "before": "그, 런가…… 헤헤, 고마워.\n알스는 좀 의외인 느낌이려나",
+      "after": "그, 그런가…… 헤헤, 고마워.\n알스는 좀 의외인 느낌이려나",
+      "category": "typo",
+      "reason": "깨진 말더듬 표기 〈그, 런가〉를 바로잡았다."
+    },
+    {
+      "index": 160,
+      "tm_id": "ARF-TM-2F97CB13432A4E09026B",
+      "source_text": "――そうだな、起こったことを\nくよくよ考えても始まらないか",
+      "before": "――그래, 일어난 일을\n계속 끌끌 생각해 봐야 소용없나",
+      "after": "――그래, 일어난 일을\n계속 끙끙대 봐야 소용없나",
+      "category": "typo_and_idiom",
+      "reason": "깨진 오탈자 〈끌끌〉을 제거하고 くよくよ의 걱정하는 의미를 살렸다."
+    },
+    {
+      "index": 174,
+      "tm_id": "ARF-TM-3055ED40CDC53A4F0A0E",
+      "source_text": "そうね。\nとても急がしかったけど",
+      "before": "그러게.\n정말 바쁨지만",
+      "after": "그러게.\n정말 바빴지만",
+      "category": "typo",
+      "reason": "〈바쁨지만〉 오탈자를 〈바빴지만〉으로 바로잡았다."
+    },
+    {
+      "index": 175,
+      "tm_id": "ARF-TM-3058705D4E30A14290B0",
+      "source_text": "外見こそ優しいが\n揺るがぬ強い意志を持った人間だ。\n敵として侮れぬ相手だ……",
+      "before": "겉보기엔 다정하지만\n흔들리지 않는 강한 의지를 지닌 사람이다.\n적으로서 얹볼 수 없는 상대다……",
+      "after": "겉보기엔 다정하지만\n흔들리지 않는 강한 의지를 지닌 사람이다.\n적으로서 얕볼 수 없는 상대다……",
+      "category": "typo",
+      "reason": "〈얹볼〉 오탈자를 〈얕볼〉로 바로잡았다."
+    },
+    {
+      "index": 178,
+      "tm_id": "ARF-TM-30D654E9DE79A29CD5E4",
+      "source_text": "足りないお金はどうするの？\n貸してもらえるの？",
+      "before": "부족한 돈은 어떻게 해?\n빌려줄 사람이 있어?",
+      "after": "부족한 돈은 어떻게 해?\n빌릴 수 있어?",
+      "category": "dialogue_meaning",
+      "reason": "貸してもらえる를 빌려줄 사람의 존재가 아니라 돈을 빌릴 수 있는지 묻는 뜻으로 간결하게 옮겼다."
+    },
+    {
+      "index": 185,
+      "tm_id": "ARF-TM-316CD1CF5EFF1153CFDA",
+      "source_text": "いいか、ラルク。\nレックスはレックス。\nお前はお前だ。勝ち負けではない",
+      "before": "잘 들어, 라르크.\n렉스는 렉스.\n너는 너다. 승패의 문제가 아니야",
+      "after": "잘 들어, 라르크.\n렉스는 렉스.\n너는 너다. 승패의 문제가 아니다",
+      "category": "character_voice",
+      "reason": "오이겐의 해라체를 마지막 문장까지 일관되게 유지했다."
+    },
+    {
+      "index": 193,
+      "tm_id": "ARF-TM-31D70E14D60D98C88281",
+      "source_text": "まぁ、幻滅したけど悪かぁねーよ",
+      "before": "뭐, 환멸은 느꼈지만 나쁘진 않아",
+      "after": "뭐, 좀 실망했지만 나쁘진 않아",
+      "category": "dialogue_nuance",
+      "reason": "가벼운 자기평가 문맥의 幻滅을 강한 〈환멸〉 대신 〈실망〉으로 조정했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_task_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "지시에 따라 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0134",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0134.jsonl",
+  "draft": "work/translation/drafts/batch_0134.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0134.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 27,
+  "unchanged_units": 173,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-E38CC147BB8DB318707A",
+      "source_text": "だが――私はいつだって\nお前を護ることが喜びだった。\nそれは今も変わっていない",
+      "before": "하지만――나는 언제나\n너를 지키는 것이 기뻤다.\n그건 지금도 변하지 않았어",
+      "after": "하지만――나는 언제나\n너를 지키는 게 기쁨이었어.\n그건 지금도 변하지 않았어",
+      "category": "voice_natural_korean",
+      "reason": "회상 문장의 종결과 지킨다는 행위가 기쁨이었다는 의미를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E3E2E67C5EF34494641F",
+      "source_text": "まさか、うちの門下生から\n皇帝陛下が生まれるなんてな！<$0C>これで、この武芸塾も\n大人気間違いナシだぜ！",
+      "before": "설마 우리 문하생 중에서\n황제 폐하가 나오다니!<$0C>이제 이 무예관도\n큰 인기 틀림없어!",
+      "after": "설마 우리 문하생 중에서\n황제 폐하가 나오다니!<$0C>이제 이 무예관도\n큰 인기를 끌 게 틀림없어!",
+      "category": "grammar_natural_korean",
+      "reason": "누락된 서술 관계를 보완해 문장을 자연스럽게 완성했다."
+    },
+    {
+      "tm_id": "ARF-TM-E3F09A1C55BB0B5E0F78",
+      "source_text": "道に迷っちゃって気づいたら\nこんな所に来ちゃったんだけど……\nコピンに会えたからラッキーよね<$0C>実はコピンって、ものすごく\n握り心地がいいって知ってた？\n貴族が欲しがるのも分かる気がするわ",
+      "before": "길을 잃고 정신을 차려 보니\n이런 곳까지 와 버렸는데……\n코핀을 만났으니 운이 좋네<$0C>사실 코핀은 엄청나게\n쥐는 감촉이 좋다는 거 알아?\n귀족들이 탐내는 것도 이해가 돼",
+      "after": "길을 잃고 정신을 차려 보니\n이런 곳까지 와 버렸는데……\n코핀을 만났으니 운이 좋네<$0C>사실 코핀은 엄청나게\n손에 쥐는 느낌이 좋다는 거 알아?\n귀족들이 탐내는 것도 이해가 돼",
+      "category": "natural_korean",
+      "reason": "握り心地를 자연스러운 한국어 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E40109CE1003ECEB0AE0",
+      "source_text": "結局のところ、どんなに\n厳しい環境でも、人間って\n生きていける……<$0C>私は窮屈な暮らしに\nすっかり慣れてしまいました<$0C>人間の順応性の高さって\nある意味、おそろしいですね……",
+      "before": "결국 아무리\n혹독한 환경이라도 인간은\n살아갈 수 있어……<$0C>나는 답답한 생활에\n완전히 익숙해져 버렸습니다<$0C>인간의 높은 적응력은\n어떤 의미에서는 무섭군요……",
+      "after": "결국 아무리\n혹독한 환경이라도 인간은\n살아갈 수 있어요……<$0C>저는 답답한 생활에\n완전히 익숙해져 버렸습니다<$0C>인간의 뛰어난 적응력은\n어떤 의미에서는 무섭네요……",
+      "category": "voice_natural_korean",
+      "reason": "화자의 존대 문체와 인칭을 일관되게 맞추고 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E415B176FD43841D038A",
+      "source_text": "次女と三女が見つかっている\n",
+      "before": "둘째와 셋째를 찾음\n",
+      "after": "둘째 딸과 셋째 딸을 찾음\n",
+      "category": "meaning",
+      "reason": "次女와 三女가 딸을 가리킨다는 정보를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E4197F0E4E55F3DCC100",
+      "source_text": "ママが言ってたの……\n『いなくなった、家族の分まで\n　あなたは幸せにならなきゃ』って",
+      "before": "엄마가 말했어……\n『사라진 가족의 몫까지\n　너는 행복해져야 해』라고",
+      "after": "엄마가 말했어……\n『잃은 가족의 몫까지\n　너는 행복해져야 해』라고",
+      "category": "meaning_natural_korean",
+      "reason": "습격으로 잃은 가족이라는 문맥을 자연스럽게 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-E449838A768501C91480",
+      "source_text": "正直、今の状態で国民たちに\nアルス陛下の不満を聞かされても\nそれを論破する自信も気概もない……",
+      "before": "솔직히 지금 상태에서 국민에게\n알스 폐하에 대한 불만을 들어도\n그걸 반박할 자신도 기개도 없어……",
+      "after": "솔직히 지금 상태에서 국민들이\n알스 폐하에 대한 불만을 늘어놓아도\n그걸 반박할 자신도 기개도 없어……",
+      "category": "meaning_natural_korean",
+      "reason": "국민에게서 불만을 듣는 피동 관계를 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E46E95BD6AA9DC29B4D9",
+      "source_text": "私、体が弱くて\n雇われているご主人様に\n叱られてばっかりなんです<$0C>――でも、でもでも\n怒られるっていうのは\n期待の裏返しだと思うんです",
+      "before": "나는 몸이 약해서\n고용주님께\n늘 꾸중만 들어요<$0C>――하지만, 하지만요\n꾸중을 듣는 건\n기대한다는 뜻이라고 생각해요",
+      "after": "저는 몸이 약해서\n주인님께\n늘 꾸중만 들어요<$0C>――하지만, 하지만요\n꾸중을 듣는 건\n기대한다는 뜻이라고 생각해요",
+      "category": "voice_natural_korean",
+      "reason": "화자의 존대 문체와 메이드가 주인을 부르는 표현을 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E49F84A513DB3A14D732",
+      "source_text": "ヴァイス皇太子が\nマハト陛下の薬に毒を混ぜて\n暗殺したって話――<$0C>オレはあながち\n嘘じゃないって思うんだ。\nあの人ならやりかねないよ",
+      "before": "바이스 황태자가\n마하트 폐하의 약에 독을 섞어\n암살했다는 이야기――<$0C>난 꼭\n거짓말은 아니라고 생각해.\n그 사람이라면 그러고도 남아",
+      "after": "바이스 황태자가\n마하트 폐하의 약에 독을 섞어\n암살했다는 이야기――<$0C>난 그게 꼭\n거짓말만은 아니라고 생각해.\n그 사람이라면 그러고도 남아",
+      "category": "meaning_natural_korean",
+      "reason": "あながち嘘じゃない의 반드시 거짓만은 아니라는 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E4BD348F9D4B12169819",
+      "source_text": "オルキナの教えが\n破滅的であるとする向きもある……<$0C>ですが、我らは天水に対して\n利己的であることを捨てた――\nそれだけなのです",
+      "before": "오르키나의 가르침이\n파멸적이라고 보는 이들도 있습니다……<$0C>하지만 우리는 하늘의 물에 대해\n이기적이기를 그만두었을――\n뿐입니다",
+      "after": "오르키나의 가르침이\n파멸적이라고 보는 이들도 있습니다……<$0C>하지만 우리는 하늘의 물을 두고\n이기적으로 굴기를 그만두었을――\n뿐입니다",
+      "category": "grammar_meaning",
+      "reason": "문법이 끊긴 직역을 바로잡고 이기적인 태도를 버렸다는 의미를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E4C5580A53473A8350FC",
+      "source_text": "僕は考えちゃうんだよねえ……",
+      "before": "나는 생각하게 되더라……",
+      "after": "나는 생각하게 되네……",
+      "category": "tense_voice",
+      "reason": "현재의 사색을 나타내는 원문 시제와 말투를 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E4D4CB7BFA8F0449C858",
+      "source_text": "イーサ神との契約はこの石に刻まれ\n聖典メリディアスとなった",
+      "before": "이사 신과의 계약은 이 돌에 새겨져\n성전 메리디아스가 되었다",
+      "after": "이사신과의 계약은 이 돌에 새겨져\n성전 메리디아스가 되었다",
+      "category": "setting_terminology",
+      "reason": "신명 고정 표기인 이사신을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-E518B9F1FADFF2775B68",
+      "source_text": "竜縛塔が機能しなくとも\n首都防衛のための切り札に変わりない。\n怪しい真似はしてくれるなよ？",
+      "before": "용박탑이 기능하지 않더라도\n수도 방위를 위한 비장의 수인 건 변함없다.\n수상한 짓은 하지 마라",
+      "after": "용박탑이 기능하지 않더라도\n수도 방위를 위한 비장의 카드인 건 변함없다.\n수상한 짓은 하지 마라",
+      "category": "idiom_natural_korean",
+      "reason": "切り札를 자연스러운 한국어 관용 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E528759FC208F0E6C6BA",
+      "source_text": "EV02_08_0200B\nイベント君 消去\nやめる",
+      "before": "EV02_08_0200B\n이벤트 군 삭제\n그만두기",
+      "after": "EV02_08_0200B\n이벤트군 삭제\n그만두기",
+      "category": "terminology",
+      "reason": "디버그 용어의 합성어 표기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-E535EEAFE6415E636120",
+      "source_text": "もう見つけたですか？\nおにーちゃん早すぎなのです！<$0C>しぶしぶさっきの場所に戻るですのよ",
+      "before": "벌써 찾은 거예요?\n오빠, 너무 빠른 거예요!<$0C>마지못해 아까 있던 곳으로 돌아갈게요",
+      "after": "벌써 찾은 거예요?\n오빠, 너무 빠른 거예요!<$0C>마지못해 아까 있던 곳으로 돌아가는 거예요",
+      "category": "voice",
+      "reason": "캐릭터의 ですのよ 말버릇이 유지되도록 종결을 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-E56693A47FD9DE821324",
+      "source_text": "ザムエル武芸塾が\n襲撃に遭うなんて信じられない。\n――ここは帝都なのよ？",
+      "before": "자무엘 무예관이\n습격당하다니 믿을 수 없어.\n――여긴 제도라고?",
+      "after": "자무엘 무예관이\n습격당하다니 믿을 수 없어.\n――여긴 제도잖아?",
+      "category": "meaning_voice",
+      "reason": "帝都임을 강조하는 반문 어조를 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E56C1F5F2BE84AD1DCBA",
+      "source_text": "はぁ……\n何ということだ……\nこれまでの苦労は一体……",
+      "before": "하아……\n어쩌다 이런 일이……\n지금까지 고생은 대체……",
+      "after": "하아……\n어쩌다 이런 일이……\n지금까지의 고생은 대체……",
+      "category": "grammar",
+      "reason": "관형격 조사를 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-E5B70D714051A2C4D169",
+      "source_text": "この階層は、１番上――\n高い壁がないから\n陽の光が明るいです<$0C>風が気持ちいいのですが\n少し強すぎるくらいで……\n帽子が飛ばされてしまうんです",
+      "before": "이 층은 １번 위――\n높은 벽이 없어서\n햇빛이 밝아요<$0C>바람이 기분 좋지만\n조금 너무 강해서……\n모자가 날아가 버려요",
+      "after": "이 층은 위에서 １번째――\n높은 벽이 없어서\n햇빛이 밝아요<$0C>바람이 기분 좋지만\n조금 너무 강해서……\n모자가 날아가 버려요",
+      "category": "numeric_fidelity_natural_korean",
+      "reason": "원문의 전각 숫자 １을 보존하면서 가장 위층이라는 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E5C889BC750AE9C1BD48",
+      "source_text": "新帝国憲章の是非など\n我々が問うべきことではない<$0C>私たちは帝国のための駒<$0C>陛下の采配に身を任せるだけだ",
+      "before": "신제국 헌장이 옳은지 그른지는\n우리가 물을 일이 아니다<$0C>우리는 제국을 위한 말<$0C>폐하의 지휘에 몸을 맡길 뿐이다",
+      "after": "신제국 헌장이 옳은지 그른지는\n우리가 물을 일이 아니다<$0C>우리는 제국의 장기말<$0C>폐하의 지휘에 몸을 맡길 뿐이다",
+      "category": "meaning",
+      "reason": "駒가 제국이 움직이는 장기말이라는 비유임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-E61CB080750D8068F036",
+      "source_text": "エブルへと向かう途中に\nここを使わせてもらってるんだ。\n野宿の必要がなくなって助かった",
+      "before": "에블로 가는 길에\n여길 쓰게 해 달라고 했어.\n노숙할 필요가 없어져서 다행이야",
+      "after": "에블로 가는 길에\n여기를 이용하고 있어.\n노숙할 필요가 없어져서 다행이야",
+      "category": "meaning_natural_korean",
+      "reason": "使わせてもらってる를 사용 허락을 받아 이용 중이라는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E6244763D68FF9106165",
+      "source_text": "それにしても――\nリーダーが共和国の\n元老院の議長だったなんて驚きだわ<$0C>やはり、偉大な器を持つ人は\nどの分野においても\nそれを隠すことはできないのね<$0C>同じ女性として尊敬していたから\nいなくなってしまうのは\nとても寂しいけどね……",
+      "before": "그나저나――\n리더가 공화국\n원로원 의장이었다니 놀라워<$0C>역시 큰 그릇을 지닌 사람은\n어느 분야에서든\n그걸 감출 수 없는 거네<$0C>같은 여자로서 존경했으니\n사라지는 건\n정말 쓸쓸하지만……",
+      "after": "그나저나――\n리더가 공화국의\n원로원 의장이었다니 놀라워<$0C>역시 큰 그릇을 지닌 사람은\n어느 분야에서든\n그걸 감출 수 없는 거네<$0C>같은 여자로서 존경했으니\n사라지는 건\n정말 쓸쓸하지만……",
+      "category": "grammar",
+      "reason": "소속을 나타내는 관형격 조사를 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-E63A828CAEB39B1C1387",
+      "source_text": "長女と次女が見つかっている\n",
+      "before": "첫째와 둘째를 찾음\n",
+      "after": "첫째 딸과 둘째 딸을 찾음\n",
+      "category": "meaning",
+      "reason": "長女와 次女가 딸을 가리킨다는 정보를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E6D1DD24F9D6989FE8C1",
+      "source_text": "ふかふかのベッドはあるし\n飲み水は汲み放題だし\n皆、いい人ばかり――<$0C>もしかしたら、占領された\nフェリスの村よりも\n居心地がいいかもしれないわ",
+      "before": "푹신한 침대도 있고\n마실 물도 마음껏 길을 수 있고\n다들 좋은 사람뿐――<$0C>어쩌면 점령당한\n페리스 마을보다도\n살기 좋을지 몰라",
+      "after": "푹신한 침대도 있고\n마실 물도 마음껏 길을 수 있고\n다들 좋은 사람뿐――<$0C>어쩌면 점령당한\n펠리스 마을보다도\n살기 좋을지 몰라",
+      "category": "proper_noun",
+      "reason": "지명 고정 표기인 펠리스를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-E6DBA3BD6AF7983E031D",
+      "source_text": "何かにつまずいた時\nよくここを訪れるんです",
+      "before": "무언가에 걸려 넘어졌을 때\n자주 이곳을 찾습니다",
+      "after": "일이 뜻대로 풀리지 않을 때\n자주 이곳을 찾습니다",
+      "category": "idiom_meaning",
+      "reason": "つまずいた를 물리적으로 넘어진다는 뜻이 아닌 난관에 부딪힌다는 비유로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E728CF9069AEDD1EB8ED",
+      "source_text": "って、明るく\nバカにしてんじゃねーよ",
+      "before": "그렇다고 밝게\n비웃지는 말라고",
+      "after": "그렇다고 해맑게\n놀리지는 말라고",
+      "category": "meaning_natural_korean",
+      "reason": "明るく馬鹿にする의 해맑게 놀리는 어감을 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-E749EA5D4D0C13DFF26A",
+      "source_text": "こんな扱いを受けるほどに\n私たちの信仰は罪深いの？<$0C>神に祈ることに\nここまでの覚悟と犠牲が\n伴うなんて信じられる？<$0C>力で押さえ込んでも\n信心は不変だというのに……",
+      "before": "이런 취급을 받을 만큼\n우리의 신앙은 죄가 깊은 걸까?<$0C>신에게 기도하는 데\n이만한 각오와 희생이\n따른다니 믿을 수 있어?<$0C>힘으로 억눌러도\n신앙심은 변하지 않는데……",
+      "after": "이런 취급을 받을 만큼\n우리의 신앙은 그토록 죄 많은 걸까?<$0C>신에게 기도하는 데\n이만한 각오와 희생이\n따른다니 믿을 수 있어?<$0C>힘으로 억눌러도\n신앙심은 변하지 않는데……",
+      "category": "natural_korean",
+      "reason": "罪深い를 자연스러운 한국어 서술로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E782A7C648594E4F8219",
+      "source_text": "こんな所にお客とは\nまさに魔界にリアル神！\n……自慢の道具をご覧ください！",
+      "before": "이런 곳에 손님이라니\n그야말로 마계에 리얼 신!\n……자랑스러운 도구를 보세요!",
+      "after": "이런 곳에 손님이라니\n그야말로 마계에 리얼신!\n……자랑할 만한 도구를 보세요!",
+      "category": "setting_terminology_natural_korean",
+      "reason": "리얼신 고정 표기를 적용하고 自慢の道具를 자연스럽게 옮겼다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

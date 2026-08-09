@@ -1,0 +1,65 @@
+{
+  "format": "arf-systemvol-runtime-diagnostic-v1",
+  "variant": "item_only",
+  "variant_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\systemvol_variants\\item_only\\system.vol",
+  "variant_sha256": "1850A5F4D749B83F098F2FEA61AD57AB149C52CD65A97447E40CA26EA48E0AC7",
+  "debug_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\__runtime_debug__\\system.vol",
+  "dolphin_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\tools\\dolphin-2603a\\Dolphin-x64\\Dolphin.exe",
+  "dolphin_pid": 66472,
+  "dolphin_user": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\dolphin_user_runs\\item_only_1786233127_59856",
+  "descriptor": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\arc_rise_fantasia_ko_systemvol_variant.json",
+  "window": {
+    "hwnd": 2106118,
+    "hwnd_hex": "0x202306",
+    "title": "Dolphin",
+    "visible": true,
+    "rect": [
+      1720,
+      785,
+      2376,
+      1304
+    ]
+  },
+  "frames": [
+    {
+      "target_seconds": 60.0,
+      "actual_seconds": 60.891,
+      "capture": {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\final_runtime\\retest_item_only_60p0s.png",
+        "width": 640,
+        "height": 480
+      },
+      "image": {
+        "width": 640,
+        "height": 480,
+        "sha256": "CDA0E5D0C280C6DAE497D6156D8834DB4286E845A5750E1F542113A33EE869AE",
+        "nonblack_pixel_ratio": 0.76623698,
+        "rgb_mean": [
+          75.9614,
+          99.6154,
+          87.1001
+        ]
+      }
+    },
+    {
+      "target_seconds": 90.0,
+      "actual_seconds": 90.922,
+      "capture": {
+        "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\final_runtime\\retest_item_only_90p0s.png",
+        "width": 640,
+        "height": 480
+      },
+      "image": {
+        "width": 640,
+        "height": 480,
+        "sha256": "D3236B9F1E50E6C5A178AB5033C2101FC794934D8BAC76D2A83602A454F07421",
+        "nonblack_pixel_ratio": 0.72297526,
+        "rgb_mean": [
+          87.0432,
+          122.5083,
+          114.7287
+        ]
+      }
+    }
+  ]
+}

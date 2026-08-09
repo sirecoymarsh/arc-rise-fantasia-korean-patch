@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0075",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0075.jsonl",
+  "draft": "work/translation/drafts/batch_0075.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0075.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-D57D8397DBF6E0D3BF90",
+      "source_text": "密林って、きっと虫とかも\nいっぱいいるんスよね。\nやだなぁ……",
+      "before": "밀림이라면 분명 벌레 같은 것도\n잔뜩 있겠죠.\n싫다……",
+      "after": "밀림이라면 분명 벌레 같은 것도\n잔뜩 있을 검다.\n싫은데……",
+      "category": "speaker_voice",
+      "reason": "니콜의 말투를 살리고 '싫다'로 끊긴 독백을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DA0EFC3F1292BDC76DD3",
+      "source_text": "そいつはリフィアちゃんだって\n同じなんじゃねぇの？\n２人でイライラしてどうすんのよ",
+      "before": "그건 리피아도\n마찬가지 아니야?\n２명이서 짜증 내면 어쩌자는 거야",
+      "after": "그건 리피아도\n마찬가지 아니야?\n２명이나 짜증 내서 어쩌자는 거야",
+      "category": "grammar",
+      "reason": "전각 숫자 '２'를 보존하면서 '２명이서'의 어색한 조사를 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-DBC4B8E1F8A264CABA1F",
+      "source_text": "ふざけるな！　卑怯な手段で\n玉座を手に入れても\nアルス様は喜ばれぬ！",
+      "before": "웃기지 마! 비겁한 수단으로\n왕좌를 손에 넣어도\n알스 님은 기뻐하지 않으신다!",
+      "after": "웃기지 마! 비겁한 수단으로\n옥좌를 손에 넣어도\n알스 님은 기뻐하지 않으신다!",
+      "category": "terminology",
+      "reason": "황제의 자리인 '玉座'를 프로젝트의 기존 표기인 '옥좌'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-DD1B3CC4BB236DDD6354",
+      "source_text": "そういえば\nリフィアも竜玉石をつけていたな。\nじゃあお前も神種なのか？",
+      "before": "그러고 보니\n리피아도 용옥석을 달고 있었지.\n그럼 너도 신종이야?",
+      "after": "그러고 보니\n리피아도 용옥석을 차고 있었지.\n그럼 너도 신종이야?",
+      "category": "naturalness",
+      "reason": "신체에 착용하는 용옥석의 동사를 자연스러운 '차다'로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DE1E12D176A4E9451083",
+      "source_text": "それにしても、トゥレミリアじゃ\n変な習慣があるんだな。\n竜玉石を体につけるなんて",
+      "before": "그나저나 투레밀리아에는\n이상한 풍습이 있네.\n용옥석을 몸에 달다니",
+      "after": "그나저나 투레밀리아에는\n이상한 풍습이 있네.\n용옥석을 몸에 붙이다니",
+      "category": "word_choice",
+      "reason": "용옥석이 신체에 부착된다는 설정이 드러나도록 착용 동사를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DEB9788C89C08B279AF0",
+      "source_text": "アニキまで酷いっスよ。\n俺ちゃんと任務を果たしました",
+      "before": "형님까지 너무함다.\n저 임무를 제대로 수행했슴다",
+      "after": "형님까지 너무하심다.\n전 임무를 제대로 수행했슴다",
+      "category": "speaker_voice",
+      "reason": "니콜 특유의 말투를 유지하면서 문법적으로 어색한 종결을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E02A3879CAFCEAECEE88",
+      "source_text": "……と、とにかく\nこれで先に進めそうだな",
+      "before": "……아, 아무튼\n이제 앞으로 갈 수 있을 것 같네",
+      "after": "……어, 어쨌든\n이제 앞으로 갈 수 있을 것 같네",
+      "category": "speaker_voice",
+      "reason": "말을 더듬는 원문의 호흡을 한국어 감탄사와 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-E3EF259ACA95ED0022CA",
+      "source_text": "親友の危機を見過ごすなんて\nできないさ",
+      "before": "친구의 위기를 모른 척할 수는\n없지",
+      "after": "절친한 친구의 위기를 모른 척할 수는\n없지",
+      "category": "meaning",
+      "reason": "'親友'의 가까운 관계를 단순한 친구보다 명확하게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-E830FB049AACDF2381BC",
+      "source_text": "あはん。わかったわ。\nラルクは神を生かしたまま\n殺すつもりなのね",
+      "before": "아하. 알겠어.\n라르크는 신을 살려 둔 채\n죽일 생각이구나",
+      "after": "아항. 알겠어.\n라르크는 신을 살려 둔 채\n죽일 생각이구나",
+      "category": "speaker_voice",
+      "reason": "능글맞게 깨달음을 나타내는 'あはん'의 억양을 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-EC89FF34FEFCA898B432",
+      "source_text": "ここがガウス地下道？\nなんかいかにもって雰囲気だね。\nワクワクしてきた♪",
+      "before": "여기가 가우스 지하도야?\n정말 분위기부터 수상하네.\n두근거리기 시작했어♪",
+      "after": "여기가 가우스 지하도야?\n딱 봐도 분위기 있네.\n두근거리기 시작했어♪",
+      "category": "naturalness",
+      "reason": "탐험 장소다운 분위기에 들뜬 화자의 감정이 이어지도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-EC9A4749C96566E25EDC",
+      "source_text": "もう私から何ひとつ奪わせないわ！",
+      "before": "이제 누구도 내게서 아무것도 빼앗지 못해!",
+      "after": "이제 누구에게도 아무것도 빼앗기지 않을 거야!",
+      "category": "naturalness",
+      "reason": "더는 자신의 것을 빼앗기지 않겠다는 결의를 자연스러운 피동 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-EDD141D8C95D78505281",
+      "source_text": "凄い緑……歌学省の庭とは\nまったく景色が違うわ。素敵……",
+      "before": "엄청난 초록빛…… 가학성 정원과는\n풍경이 완전히 달라. 멋져……",
+      "after": "초록빛이 굉장해…… 가학성 정원과는\n풍경이 완전히 달라. 멋져……",
+      "category": "naturalness",
+      "reason": "풍부한 녹음을 보고 감탄하는 대사를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-F3A560F27986BFE8B805",
+      "source_text": "フレイア将軍……\nいかが致しましょう",
+      "before": "프레이아 장군……\n어떻게 할까요",
+      "after": "프레이아 장군……\n어떻게 하시겠습니까",
+      "category": "honorifics",
+      "reason": "장군에게 방침을 묻는 공식 장면의 높임말을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-F651DFECE674EB88B13F",
+      "source_text": "……こっちは手負いだ。\nひとまずトパジオンで休もう",
+      "before": "……우린 부상자야.\n일단 토파지온에서 쉬자",
+      "after": "……우린 다친 몸이야.\n일단 토파지온에서 쉬자",
+      "category": "naturalness",
+      "reason": "부상당한 상태를 뜻하는 '手負い'를 자연스러운 대사로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-F9FBD04399C6986FA2C3",
+      "source_text": "私もそのおぞましき現種です",
+      "before": "나도 그 소름 끼치는 현종입니다",
+      "after": "저도 그 소름 끼치는 현종입니다",
+      "category": "honorifics",
+      "reason": "정중한 종결과 어울리도록 화자의 일인칭을 '저'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-FA085F5AEFB7C662FEFB",
+      "source_text": "あんたは出来損ないじゃないよ。\nパパだっていつもあんたに\n目をかけて……",
+      "before": "넌 못난이가 아니야.\n아빠도 늘 널\n눈여겨보고……",
+      "after": "넌 결함품이 아니야.\n아빠도 늘 널\n눈여겨보고……",
+      "category": "terminology",
+      "reason": "설정상 실패작을 비하하는 '出来損ない'를 기존 문맥의 '결함품'으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-FAD9C3E6936FABC8EF30",
+      "source_text": "……ラルク。この世界は神を\n名乗る奴らの箱庭だ",
+      "before": "……라르크. 이 세계는 신을\n자처하는 녀석들의 정원이야",
+      "after": "……라르크. 이 세계는 신을\n자처하는 녀석들의 모형 정원이야",
+      "category": "meaning",
+      "reason": "신들이 통제하는 축소 세계를 뜻하는 '箱庭'의 비유를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-FB87B4648AE94093DDEF",
+      "source_text": "……軍にいればこんなこと\n言われ慣れてる",
+      "before": "……군에 있으면 이런 말은\n익숙하게 들어",
+      "after": "……군에 있으면 이런 말은\n듣는 데 익숙해져",
+      "category": "naturalness",
+      "reason": "반복해서 같은 말을 들어 익숙하다는 의미를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-FBFE342BD7F024185480",
+      "source_text": "母上からは口止めをされていた",
+      "before": "어머님께 입단속을 당했어",
+      "after": "어머님께 함구하라는 말을 들었어",
+      "category": "word_choice",
+      "reason": "비밀을 말하지 말라는 당부인 '口止め'를 과도하게 강압적이지 않은 표현으로 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0033",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0033.jsonl",
+  "draft": "work/translation/drafts/batch_0033.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0033.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-7F7828AA7FBED5ACFC79",
+      "source_text": "どっちが本命？",
+      "before": "어느 쪽이 진짜야?",
+      "after": "진짜 마음은 어느 쪽이야?",
+      "category": "meaning",
+      "reason": "本命이 둘 중 진심으로 좋아하는 상대를 뜻한다는 점을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-8065AEC81E7D7FD9DC78",
+      "source_text": "この前は、浜辺でコピンに\n愛の言葉をささやかれた〜\nってぼやいてたぜ",
+      "before": "전에는 해변에서 코핀에게\n사랑의 말을 속삭임당했다고\n푸념하더라",
+      "after": "전에는 해변에서 코핀에게\n사랑 고백을 받았다〜\n하고 푸념하더라",
+      "category": "naturalness",
+      "reason": "부자연스러운 피동 표현을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8193986335E1E010E721",
+      "source_text": "そうか、ならば心配あるまい。\nアルコーン隊も\n無能ではない筈だからな",
+      "before": "그렇군, 그렇다면 걱정할 것 없겠어.\n아르콘대도\n무능하진 않을 테니까",
+      "after": "그렇군, 그렇다면 걱정할 것 없겠군.\n아르콘대도\n무능하지는 않을 테니 말이지",
+      "category": "speaker_voice",
+      "reason": "격식 있고 고풍스러운 화자의 종결 어조를 일관되게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-81F1F4489CF900746B40",
+      "source_text": "私と一緒ね。\nラルクにどこまでも\n付いていきたいもの",
+      "before": "나랑 같네.\n라르크를 어디까지나\n따라가고 싶은 것",
+      "after": "나랑 같네.\n라르크를 어디까지나\n따라가고 싶거든",
+      "category": "naturalness",
+      "reason": "이유를 덧붙이는 もの의 말끝을 자연스럽게 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-82197128644E1FB29118",
+      "source_text": "ディーバを継いだ時に\n歴代ディーバのコードを\n体に刻み込まれたのだと思うわ",
+      "before": "디바를 계승했을 때\n역대 디바의 코드를\n몸에 새긴 것 같아",
+      "after": "디바를 계승했을 때\n역대 디바의 코드가\n몸에 새겨진 것 같아",
+      "category": "meaning",
+      "reason": "코드가 화자의 몸에 새겨진 피동 관계를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-83246BC3704AC8E04E84",
+      "source_text": "アントラクスの南西だ。\n俺たちに付いてきてる\nあいつの故郷だな",
+      "before": "안트락스 남서쪽이야.\n우리를 따라오는\n저 녀석 고향이지",
+      "after": "안트락스 남서쪽이야.\n우리를 따라오는\n저 녀석의 고향이지",
+      "category": "particle",
+      "reason": "저 녀석과 고향의 소유 관계를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-8337D606A8698F14FD44",
+      "source_text": "こりないね、あんたたちって。\nそんなだから女難の相\nありありなんじゃん？",
+      "before": "질리지도 않네, 당신들.\n그러니까 여난의 상이\n훤히 보이는 거 아니야?",
+      "after": "정신을 못 차리네, 당신들은.\n그러니까 여자 때문에 고생할 팔자가\n훤히 보이는 거 아니야?",
+      "category": "meaning",
+      "reason": "こりない와 女難の相의 관용적 의미를 문맥에 맞게 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-83ED9BA2D6B14FB813AF",
+      "source_text": "おっとお嬢さん。\n俺にホレると危険だぜ？",
+      "before": "어이쿠 아가씨.\n나한테 반하면 위험해?",
+      "after": "어이쿠, 아가씨.\n나한테 반하면 위험할걸?",
+      "category": "function",
+      "reason": "실제 여부를 묻는 질문이 아니라 능글맞은 경고가 되도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-83FFD43DDB8AAE8A5261",
+      "source_text": "クライドという男にも、また\n使命があるのだろう。\n自らに課した誓いだ",
+      "before": "클라이드라는 남자에게도, 또한\n사명이 있겠지.\n스스로 세운 맹세다",
+      "after": "클라이드라는 남자에게도\n사명이 있겠지.\n스스로 세운 맹세다",
+      "category": "naturalness",
+      "reason": "중복된 부사를 덜고 세 행의 논리를 자연스럽게 연결했다."
+    },
+    {
+      "tm_id": "ARF-TM-841E9BCBB0CCB232FEA2",
+      "source_text": "すげえ……なんだここ……\n外から見たときゃ\nなんにもわからなかったが",
+      "before": "대단해…… 뭐야 여기……\n밖에서 봤을 땐\n아무것도 몰랐는데",
+      "after": "대단하네…… 대체 여긴 뭐야……\n밖에서 봤을 땐\n아무것도 알 수 없었는데",
+      "category": "naturalness",
+      "reason": "놀라움과 외관만으로 알 수 없었다는 의미를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8435C92D234930390354",
+      "source_text": "悪いわね……レスリー。\nあなたにはいつも苦労をかけてしまう",
+      "before": "미안하네…… 레슬리.\n너한테 늘 고생만 시켜",
+      "after": "미안해…… 레슬리.\n너한테 늘 고생만 시키네",
+      "category": "speaker_voice",
+      "reason": "여성 화자의 부드러운 반말 어조로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-84502AC1D0116F608AD4",
+      "source_text": "危ういまでの使命感と\n自身へと課せられた完全の追求\nそれに――",
+      "before": "위태로울 정도의 사명감과\n자신에게 부과한 완전함의 추구\n그리고――",
+      "after": "위태로울 정도의 사명감과\n자신에게 부과된 완전함의 추구\n그리고――",
+      "category": "meaning",
+      "reason": "자신에게 요구가 부과된 피동 관계를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-86C14A9186678B804FBE",
+      "source_text": "コピンは日々変わっております。\n同じ日は二度と訪れないように\n同じコピンも１日とありません",
+      "before": "코핀은 나날이 변하고 있습니다.\n같은 날은 두 번 다시 오지 않듯\n같은 코핀인 날도 １일도 없습니다",
+      "after": "코핀은 나날이 변하고 있습니다.\n같은 날은 두 번 다시 오지 않듯\n코핀이 똑같은 날은 단 １일도 없습니다",
+      "category": "naturalness",
+      "reason": "매일 달라지는 코핀이라는 비유를 자연스럽게 다듬고 원문의 숫자를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-87D77CF2B94740FA5220",
+      "source_text": "あなたとラルクの話が聞けて。\nいつも楽しいから",
+      "before": "너와 라르크 이야기를 들으면.\n늘 즐거우니까",
+      "after": "너와 라르크에 관한 이야기를 들을 수 있어서\n늘 즐거우니까",
+      "category": "meaning",
+      "reason": "두 사람에 관한 이야기를 들을 수 있어 즐겁다는 인과를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-8814ECFF15D14B7BC3DC",
+      "source_text": "っていうか、セシルの奴は\n面白がってるだけだろ？",
+      "before": "그러니까 세실 녀석은\n재미있어할 뿐이잖아?",
+      "after": "그보다 세실 녀석은\n재미있어하는 것뿐이잖아?",
+      "category": "meaning",
+      "reason": "っていうか의 화제 전환과 面白がる의 의미를 자연스럽게 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-8819B94E163087EA024E",
+      "source_text": "うん、そうみたい。\nまた来ましょう。鳥たちを\n驚かさないようにこっそりと",
+      "before": "응, 그런 것 같아.\n또 오자. 새들을\n놀라게 하지 않도록 살짝",
+      "after": "응, 그런 것 같아.\n또 오자. 새들을\n놀라게 하지 않도록 조용히",
+      "category": "naturalness",
+      "reason": "こっそりとの 조용히 다가가는 뉘앙스를 문맥에 맞게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-88BC73FB7A96E537BDD4",
+      "source_text": "何よ！　いつも扱いに困る\nみたいな顔で私のこと見て！",
+      "before": "뭐야! 늘 곤란하다는\n듯이 날 보면서!",
+      "after": "뭐야! 늘 날 어떻게 대해야 할지 모르겠다는\n표정으로 쳐다보면서!",
+      "category": "meaning",
+      "reason": "扱いに困る가 상대를 어떻게 대할지 몰라 한다는 뜻임을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-896263655E9A20255F6D",
+      "source_text": "好きなんだもんって",
+      "before": "좋아하니까라니",
+      "after": "『좋아하니까』라니",
+      "category": "function",
+      "reason": "인용되는 발화와 이를 되받는 표현의 경계를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-8A580A7EC07758606AA7",
+      "source_text": "ソニアさんがおっしゃっていた\nヴァイスの……\nあなたのお兄さんの言葉ね",
+      "before": "소니아 씨가 말한\n바이스의……\n네 형의 말이네",
+      "after": "소니아 씨가 말씀하신\n바이스의……\n네 형의 말이네",
+      "category": "speaker_voice",
+      "reason": "おっしゃっていた의 높임을 반영했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

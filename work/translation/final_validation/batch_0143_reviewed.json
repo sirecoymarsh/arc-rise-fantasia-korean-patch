@@ -1,0 +1,18 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0143.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0143.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 304,
+  "hangul_characters": "가간감강갖같개거건걸겁것게겐겠겨격경곁계고곤곳과관광괜구국군굳그글금기긴길까깐끄끝나난내냐너넌널네넸노놀놈농놓누는니님다닥단달담당대데델도돌동돼됐되두둘둬드든들따때또뜻라란람랍래러런럼렇레련로뢰루류르른를릅리릭마막만말망맡매머먹멍메면명모몬무묵문물뭐뭘미바박받방배벤벽변별보볼봉봐부분불브비빨쁜사삭살상생서석선설섭세셨소속쇄수술숨쉬스슨슬습승시신실싶쎄씀씨아안않알았야약어언얼없었에엔엘여역연였영예오옥온와왔요우운움워원웠위으은을음응의이인일입있자잔잠장저적전정제젠져존종좋죠주죽준줘줬쥬즈지직진짓짜째쨌쪽쫓차찮참찾체쳐추춰취치칠카캐컷코콜쿨클키탁탑택터테통트파판포프피필하한할함합해했행형호화환황회횟효흥희",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

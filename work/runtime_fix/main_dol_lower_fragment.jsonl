@@ -1,0 +1,283 @@
+{"offset":3958044,"source_text":"ARC RISE FANTASIA の\nディスクをセットしてください。","translation_ko":"ARC RISE FANTASIA 디스크를\n넣어 주세요.","context":"게임 디스크 삽입 요구 화면","lane":"title_system","capacity_to_nul":51}
+{"offset":3958096,"source_text":"ディスクを読めませんでした。\nくわしくは、本体の取扱説明書をお読みください。","translation_ko":"디스크를 읽을 수 없습니다.\nWii 본체 사용설명서를 확인해 주세요.","context":"게임 디스크 읽기 오류 화면","lane":"title_system","capacity_to_nul":75}
+{"offset":3967472,"source_text":"石化","translation_ko":"석화","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967477,"source_text":"猛毒","translation_ko":"맹독","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967482,"source_text":"混乱","translation_ko":"혼란","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967487,"source_text":"静寂","translation_ko":"침묵","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967492,"source_text":"足止め","translation_ko":"속박","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967499,"source_text":"麻痺","translation_ko":"마비","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967504,"source_text":"病気","translation_ko":"질병","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967509,"source_text":"睡眠","translation_ko":"수면","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967534,"source_text":"レベル","translation_ko":"레벨","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967541,"source_text":"敵対心","translation_ko":"적대심","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967548,"source_text":"最大ＨＰ","translation_ko":"최대 HP","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":8}
+{"offset":3967557,"source_text":"火耐性","translation_ko":"화내성","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967564,"source_text":"水耐性","translation_ko":"수내성","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967571,"source_text":"風耐性","translation_ko":"풍내성","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967578,"source_text":"土耐性","translation_ko":"토내성","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":6}
+{"offset":3967585,"source_text":"神速","translation_ko":"신속","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967590,"source_text":"再生","translation_ko":"재생","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967595,"source_text":"祝福","translation_ko":"축복","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967600,"source_text":"物理無効","translation_ko":"물리무효","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":8}
+{"offset":3967609,"source_text":"光召無効","translation_ko":"광술무효","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":8}
+{"offset":3967618,"source_text":"全て無効","translation_ko":"전부무효","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":8}
+{"offset":3967627,"source_text":"ダメージ反射","translation_ko":"피해 반사","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":12}
+{"offset":3967640,"source_text":"浮遊","translation_ko":"부유","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":4}
+{"offset":3967648,"source_text":"%sをかばう","translation_ko":"%s 엄호","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":10}
+{"offset":3967659,"source_text":"ログレス開放","translation_ko":"로그레스개방","context":"전투 상태·능력 표시","lane":"battle_status","capacity_to_nul":12}
+{"offset":3968074,"source_text":"の攻撃","translation_ko":" 공격","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":6}
+{"offset":3968081,"source_text":"のエクセルアクト","translation_ko":" 엑셀 액트","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":16}
+{"offset":3968098,"source_text":"の光召術","translation_ko":" 광소술","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":8}
+{"offset":3968107,"source_text":"のアイテム","translation_ko":"의 아이템","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":10}
+{"offset":3968118,"source_text":"の防御","translation_ko":" 방어","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":6}
+{"offset":3968125,"source_text":"を盗んだ","translation_ko":" 훔침","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":8}
+{"offset":3968134,"source_text":"が戦闘不能","translation_ko":" 전투 불능","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":10}
+{"offset":3968145,"source_text":"を撃破","translation_ko":" 격파","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":6}
+{"offset":3968152,"source_text":"のログレス開放","translation_ko":" 로그레스 개방","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":14}
+{"offset":3968167,"source_text":"のクリティカル","translation_ko":" 크리티컬","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":14}
+{"offset":3968182,"source_text":"が盗む失敗","translation_ko":" 훔침실패","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":10}
+{"offset":3968193,"source_text":"はアイテムを持っていない","translation_ko":"은 아이템이 없다","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":24}
+{"offset":3968218,"source_text":"を破壊","translation_ko":" 파괴","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":6}
+{"offset":3968225,"source_text":"を盗んだがもう持てない","translation_ko":"을 훔쳤지만 더 못 든다","context":"전투 결과 로그에 이름 뒤로 결합되는 문구","lane":"battle_log","capacity_to_nul":22}
+{"offset":3968328,"source_text":"シングルコネクト","translation_ko":"싱글 커넥트","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":16}
+{"offset":3968345,"source_text":"エクセルアクト修得","translation_ko":"엑셀 액트 습득","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":18}
+{"offset":3968364,"source_text":"強奪","translation_ko":"강탈","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":4}
+{"offset":3968369,"source_text":"慎重に盗む","translation_ko":"신중강탈","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":10}
+{"offset":3968380,"source_text":"全力攻撃","translation_ko":"전력공격","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968389,"source_text":"全力防御","translation_ko":"전력방어","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968398,"source_text":"破壊の一撃","translation_ko":"파괴일격","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":10}
+{"offset":3968409,"source_text":"全力で溜める","translation_ko":"전력 충전","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":12}
+{"offset":3968422,"source_text":"全力で変換","translation_ko":"전력 변환","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":10}
+{"offset":3968433,"source_text":"一生懸命応援","translation_ko":"힘껏 응원","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":12}
+{"offset":3968446,"source_text":"癒しの励まし","translation_ko":"치유의 격려","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":12}
+{"offset":3968459,"source_text":"深く罵る","translation_ko":"심한욕설","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968468,"source_text":"一生懸命かばう","translation_ko":"전력 엄호","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":14}
+{"offset":3968483,"source_text":"耐える","translation_ko":"버티기","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":6}
+{"offset":3968490,"source_text":"生命の奇跡","translation_ko":"생명기적","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":10}
+{"offset":3968501,"source_text":"吸収攻撃","translation_ko":"흡수공격","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968510,"source_text":"状態変化吸収","translation_ko":"상태변화흡수","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":12}
+{"offset":3968523,"source_text":"ＳＰ吸収","translation_ko":"SP 흡수","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968532,"source_text":"状態変化吸収＋","translation_ko":"상태변화흡수+","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":14}
+{"offset":3968547,"source_text":"みんなから強奪","translation_ko":"모두에게 강탈","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":14}
+{"offset":3968562,"source_text":"みんなから吸収","translation_ko":"모두에게 흡수","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":14}
+{"offset":3968577,"source_text":"全力ＤＥＦストック","translation_ko":"전력 DEF 비축","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":18}
+{"offset":3968596,"source_text":"鉄壁","translation_ko":"철벽","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":4}
+{"offset":3968601,"source_text":"全力ＲＥＳストック","translation_ko":"전력 RES 비축","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":18}
+{"offset":3968620,"source_text":"連続攻撃","translation_ko":"연속공격","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968629,"source_text":"協力攻撃","translation_ko":"협력공격","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":8}
+{"offset":3968638,"source_text":"%sをかばう","translation_ko":"%s 엄호","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":10}
+{"offset":3968799,"source_text":"歌召術","translation_ko":"가소술","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":6}
+{"offset":3968806,"source_text":"エクセルアクト","translation_ko":"엑셀 액트","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":14}
+{"offset":3968821,"source_text":"フラッシュドライブ","translation_ko":"플래시 드라이브","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":18}
+{"offset":3968840,"source_text":"トリニティアクト","translation_ko":"트리니티 액트","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":16}
+{"offset":3968857,"source_text":"エクセルトリニティ","translation_ko":"엑셀 트리니티","context":"전투 기술·연계 명칭","lane":"battle_action","capacity_to_nul":18}
+{"offset":3969118,"source_text":"Wiiリモコンの通信が切れました。","translation_ko":"Wii 리모컨 연결이 끊겼습니다.","context":"컨트롤러 연결 끊김 안내","lane":"controller_prompt","capacity_to_nul":31}
+{"offset":3969150,"source_text":"Wiiリモコンにヌンチャクか\nクラシックコントローラを接続してください。","translation_ko":"Wii 리모컨에 눈차크 또는\n클래식 컨트롤러를 연결해 주세요.","context":"필수 확장 컨트롤러 연결 안내","lane":"controller_prompt","capacity_to_nul":68}
+{"offset":3969768,"source_text":"逃走","translation_ko":"도주","context":"전투 도주 결과","lane":"battle_notice","capacity_to_nul":4}
+{"offset":3969773,"source_text":"逃走に失敗","translation_ko":"도주 실패","context":"전투 도주 실패 결과","lane":"battle_notice","capacity_to_nul":10}
+{"offset":3969784,"source_text":"「戦闘チュートリアル」を見ますか？","translation_ko":"「전투 튜토리얼」을 보시겠습니까?","context":"전투 튜토리얼 확인","lane":"tutorial_prompt","capacity_to_nul":34}
+{"offset":3969976,"source_text":"行動を開始しますか？","translation_ko":"행동하시겠습니까?","context":"전투 행동 확정","lane":"common_prompt","capacity_to_nul":20}
+{"offset":3969997,"source_text":"はい","translation_ko":"예","context":"긍정 선택지","lane":"common_choice","capacity_to_nul":4}
+{"offset":3970002,"source_text":"いいえ","translation_ko":"아니요","context":"부정 선택지","lane":"common_choice","capacity_to_nul":6}
+{"offset":3971234,"source_text":"セーブポイント","translation_ko":"세이브 포인트","context":"세이브 포인트 화면 제목","lane":"save_system","capacity_to_nul":14}
+{"offset":3971589,"source_text":"持ちきれないか……","translation_ko":"더는 못 드나……","context":"소지 한도 도달 시 짧은 알림","lane":"inventory_notice","capacity_to_nul":18}
+{"offset":3972609,"source_text":"ゲームで使用する\nコントローラを設定します。\nコントローラのボタンを押せば\n確定されます。","translation_ko":"사용할 컨트롤러를\n설정합니다.\n컨트롤러의 버튼을 누르면\n확정됩니다.","context":"최초 실행 컨트롤러 설정 안내","lane":"initial_setup","capacity_to_nul":87}
+{"offset":3972697,"source_text":"ヌンチャク","translation_ko":"눈차크","context":"컨트롤러 종류","lane":"initial_setup","capacity_to_nul":10}
+{"offset":3972708,"source_text":"クラシックコントローラ","translation_ko":"클래식 컨트롤러","context":"컨트롤러 종류","lane":"initial_setup","capacity_to_nul":22}
+{"offset":3972731,"source_text":"ゲームキューブコントローラ","translation_ko":"게임큐브 컨트롤러","context":"컨트롤러 종류","lane":"initial_setup","capacity_to_nul":26}
+{"offset":3972758,"source_text":"%sを\n操作コントローラに設定しました。","translation_ko":"%s을\n조작 컨트롤러로 설정했습니다.","context":"컨트롤러 설정 완료 안내","lane":"initial_setup","capacity_to_nul":37}
+{"offset":3972959,"source_text":"Wii本体保存メモリの空き容量が不足しています。\nWiiメニューのデータ管理画面でデータをSDカード\nに移動するか、データを消去して%sブロックの\n空きブロックを用意してください。","translation_ko":"Wii 본체 저장 메모리의 여유 공간이 부족합니다.\nWii 메뉴의 데이터 관리 화면에서 데이터를 SD 카드로\n옮기거나 삭제하여 %s블록의\n여유 공간을 확보해 주세요.","context":"저장 공간 부족 안내","lane":"save_system","capacity_to_nul":167}
+{"offset":3973214,"source_text":"Wii本体保存メモリの空きファイル数が不足して\nいます。\nWiiメニューのデータ管理画面でデータをSDカー\nドに移動するか、データを消去してください。","translation_ko":"Wii 본체 저장 메모리의 여유 파일 수가\n부족합니다.\nWii 메뉴의 데이터 관리 화면에서 데이터를\nSD 카드로 옮기거나 삭제해 주세요.","context":"저장 파일 수 부족 안내","lane":"save_system","capacity_to_nul":139}
+{"offset":3973475,"source_text":"このまま始めた場合、セーブが出来ません","translation_ko":"이대로 시작하면 저장할 수 없습니다","context":"저장 불가 경고","lane":"save_system","capacity_to_nul":38}
+{"offset":3973514,"source_text":"セーブなしで始める","translation_ko":"저장하지 않고 시작","context":"저장 없이 시작 선택지","lane":"save_system","capacity_to_nul":18}
+{"offset":3973533,"source_text":"Wiiメニューのデータ管理画面へ","translation_ko":"Wii 데이터 관리 화면으로","context":"Wii 데이터 관리 이동 선택지","lane":"save_system","capacity_to_nul":29}
+{"offset":3973563,"source_text":"ゲームを始める\n","translation_ko":"게임 시작\n","context":"타이틀 선택지","lane":"title_system","capacity_to_nul":15}
+{"offset":3973579,"source_text":"Wiiメニューへ\n","translation_ko":"Wii 메뉴로\n","context":"타이틀 선택지","lane":"title_system","capacity_to_nul":14}
+{"offset":3973594,"source_text":"Wii本体保存メモリをチェックしています・・・","translation_ko":"Wii 본체 저장 메모리를 확인하고 있습니다...","context":"타이틀 저장 메모리 검사 안내","lane":"save_system","capacity_to_nul":43}
+{"offset":3974488,"source_text":"たたかう","translation_ko":"공격","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":8}
+{"offset":3974497,"source_text":"物理的な攻撃","translation_ko":"물리 공격","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":12}
+{"offset":3974510,"source_text":"光召術","translation_ko":"광소술","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":6}
+{"offset":3974517,"source_text":"ＭＰを消費する行動","translation_ko":"MP를 소비하는 행동","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":18}
+{"offset":3974536,"source_text":"エクセルアクト","translation_ko":"엑셀 액트","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":14}
+{"offset":3974551,"source_text":"ＳＰを消費する行動","translation_ko":"SP를 소비하는 행동","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":18}
+{"offset":3974570,"source_text":"アームフォース","translation_ko":"암 포스","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":14}
+{"offset":3974585,"source_text":"ＡＰを消費する行動","translation_ko":"AP를 소비하는 행동","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":18}
+{"offset":3974604,"source_text":"アイテム","translation_ko":"아이템","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":8}
+{"offset":3974613,"source_text":"アイテムを使用","translation_ko":"아이템 사용","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":14}
+{"offset":3974628,"source_text":"ログレス","translation_ko":"로그레스","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":8}
+{"offset":3974637,"source_text":"ログレスの能力を使用","translation_ko":"로그레스 능력 사용","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":20}
+{"offset":3974658,"source_text":"ぼうぎょ","translation_ko":"방어","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":8}
+{"offset":3974667,"source_text":"ダメージを軽減","translation_ko":"피해 감소","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":14}
+{"offset":3974682,"source_text":"待機／移動","translation_ko":"대기/이동","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":10}
+{"offset":3974693,"source_text":"待機及び移動","translation_ko":"대기 및 이동","context":"전투 커맨드와 도움말","lane":"battle_command","capacity_to_nul":12}
+{"offset":3977971,"source_text":"%sの地図","translation_ko":"%s 지도","context":"지도 항목의 동적 명칭","lane":"map_ui","capacity_to_nul":8}
+{"offset":3979020,"source_text":"システム","translation_ko":"시스템","context":"용병 안내서 분류 탭","lane":"guide_ui","capacity_to_nul":8}
+{"offset":3979029,"source_text":"コマンド","translation_ko":"커맨드","context":"용병 안내서 분류 탭","lane":"guide_ui","capacity_to_nul":8}
+{"offset":3979038,"source_text":"モンスター","translation_ko":"몬스터","context":"용병 안내서 분류 탭","lane":"guide_ui","capacity_to_nul":10}
+{"offset":3979049,"source_text":"光召術","translation_ko":"광소술","context":"용병 안내서 분류 탭","lane":"guide_ui","capacity_to_nul":6}
+{"offset":3979056,"source_text":"アイテム","translation_ko":"아이템","context":"용병 안내서 분류 탭","lane":"guide_ui","capacity_to_nul":8}
+{"offset":3979065,"source_text":"用語","translation_ko":"용어","context":"용병 안내서 분류 탭","lane":"guide_ui","capacity_to_nul":4}
+{"offset":3979070,"source_text":"傭兵の手引『%s』に項目が追加","translation_ko":"안내서 『%s』에 항목 추가","context":"용병 안내서 새 항목 알림","lane":"system_notification","capacity_to_nul":28}
+{"offset":3979099,"source_text":"%sの最大ＨＰが %d 上昇","translation_ko":"%s의 최대 HP가 %d 상승","context":"캐릭터 성장 알림","lane":"system_notification","capacity_to_nul":22}
+{"offset":3979146,"source_text":"アームフォース『%s』のロック解除","translation_ko":"암 포스 『%s』 잠금 해제","context":"암 포스 해금 알림","lane":"system_notification","capacity_to_nul":32}
+{"offset":3979179,"source_text":"アームフォースフレーム拡張","translation_ko":"암 포스 프레임 확장","context":"암 포스 프레임 확장 알림","lane":"system_notification","capacity_to_nul":26}
+{"offset":3979211,"source_text":"「%s」を修得","translation_ko":"「%s」 습득","context":"기술 습득 알림","lane":"system_notification","capacity_to_nul":12}
+{"offset":3994056,"source_text":"ラルク","translation_ko":"라르크","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994063,"source_text":"リフィア","translation_ko":"리피아","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994072,"source_text":"サージュ","translation_ko":"사쥬","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994081,"source_text":"オイゲン","translation_ko":"오이겐","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994090,"source_text":"セシル","translation_ko":"세실","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994097,"source_text":"レスリー","translation_ko":"레슬리","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994106,"source_text":"アルス","translation_ko":"알스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994113,"source_text":"アデール","translation_ko":"아델","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994122,"source_text":"ニコル","translation_ko":"니콜","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994129,"source_text":"クライド","translation_ko":"클라이드","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994138,"source_text":"ディノス","translation_ko":"디노스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994190,"source_text":"？？？","translation_ko":"???","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994197,"source_text":"ヴァイス","translation_ko":"바이스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994206,"source_text":"イグナーツ","translation_ko":"이그나츠","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994217,"source_text":"ホゼア","translation_ko":"호제아","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994224,"source_text":"ポーリャ","translation_ko":"폴랴","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994233,"source_text":"ルーニャ","translation_ko":"루냐","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994242,"source_text":"リューズ","translation_ko":"류즈","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994251,"source_text":"ソアラ","translation_ko":"소아라","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994258,"source_text":"フレイア","translation_ko":"프레이아","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994267,"source_text":"エレナ","translation_ko":"엘레나","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994274,"source_text":"ザムエル","translation_ko":"자무엘","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994283,"source_text":"マリア","translation_ko":"마리아","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994290,"source_text":"エンジュ","translation_ko":"엔주","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994299,"source_text":"シェリィ","translation_ko":"셰리","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994308,"source_text":"エリオット","translation_ko":"엘리엇","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994319,"source_text":"ハーデル","translation_ko":"하델","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994328,"source_text":"シエル","translation_ko":"시엘","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994335,"source_text":"グランツ","translation_ko":"그란츠","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994344,"source_text":"ソニア","translation_ko":"소니아","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994351,"source_text":"コピン","translation_ko":"코핀","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994358,"source_text":"コピン長老","translation_ko":"코핀 장로","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994369,"source_text":"アヴリース","translation_ko":"아브리스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994380,"source_text":"カザフ","translation_ko":"카자프","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994387,"source_text":"マーク","translation_ko":"마크","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994394,"source_text":"ミッキー","translation_ko":"미키","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994403,"source_text":"リョウ","translation_ko":"료","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994410,"source_text":"村長","translation_ko":"촌장","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994415,"source_text":"帝国宰相","translation_ko":"제국재상","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994424,"source_text":"艦長","translation_ko":"함장","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994429,"source_text":"盗賊首領","translation_ko":"도적두목","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994438,"source_text":"医者","translation_ko":"의사","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994443,"source_text":"帝国兵","translation_ko":"제국병","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994450,"source_text":"教団兵","translation_ko":"교단병","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994457,"source_text":"共和国兵","translation_ko":"공화국병","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994466,"source_text":"アイオーン兵士","translation_ko":"아이온대 병사","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":14}
+{"offset":3994481,"source_text":"巡礼者","translation_ko":"순례자","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994488,"source_text":"元老院議員","translation_ko":"원로원의원","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994499,"source_text":"暴漢","translation_ko":"건달","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994504,"source_text":"オルキナ教徒","translation_ko":"오르키나교도","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":12}
+{"offset":3994517,"source_text":"商人","translation_ko":"상인","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994522,"source_text":"若い女","translation_ko":"아가씨","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994529,"source_text":"若い男","translation_ko":"청년","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994536,"source_text":"老人","translation_ko":"노인","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994541,"source_text":"中年女","translation_ko":"중년녀","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994548,"source_text":"学生","translation_ko":"학생","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994553,"source_text":"宿屋の主人","translation_ko":"여관 주인","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994564,"source_text":"男の子","translation_ko":"소년","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994571,"source_text":"制御システム","translation_ko":"제어 시스템","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":12}
+{"offset":3994584,"source_text":"神種","translation_ko":"신종","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994589,"source_text":"ルーシャ","translation_ko":"루샤","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994598,"source_text":"ヴァネッサ","translation_ko":"바네사","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994609,"source_text":"サキ","translation_ko":"사키","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994614,"source_text":"女の子","translation_ko":"소녀","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994621,"source_text":"中年男","translation_ko":"아저씨","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994628,"source_text":"老女","translation_ko":"노파","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994633,"source_text":"司祭","translation_ko":"사제","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994638,"source_text":"門番","translation_ko":"경비","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994643,"source_text":"伝令兵","translation_ko":"전령병","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994650,"source_text":"ウォルター","translation_ko":"월터","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994661,"source_text":"エルザ","translation_ko":"엘자","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994668,"source_text":"ライアン","translation_ko":"라이언","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994677,"source_text":"ルイス","translation_ko":"루이스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994684,"source_text":"母親","translation_ko":"엄마","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994689,"source_text":"トム","translation_ko":"톰","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994694,"source_text":"ガトゥーラ","translation_ko":"가투라","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994705,"source_text":"元老院使者","translation_ko":"원로원사자","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994716,"source_text":"受付係","translation_ko":"접수원","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994723,"source_text":"隊長","translation_ko":"대장","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994728,"source_text":"警備兵","translation_ko":"경비병","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994735,"source_text":"ノースノワーレ教徒","translation_ko":"노스노와레 교도","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":18}
+{"offset":3994817,"source_text":"シムマフ","translation_ko":"심마프","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994826,"source_text":"ギルダブ","translation_ko":"길다브","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994835,"source_text":"パピルサグ","translation_ko":"파피르사그","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994846,"source_text":"アルル","translation_ko":"아를루","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994853,"source_text":"アブシム","translation_ko":"아부심","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994862,"source_text":"グラ","translation_ko":"그라","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":4}
+{"offset":3994867,"source_text":"スクイル","translation_ko":"스쿠일","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994876,"source_text":"クドアンヌ","translation_ko":"쿠도안느","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994887,"source_text":"ウルグラ","translation_ko":"우르그라","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994896,"source_text":"バネトゥ","translation_ko":"바네투","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994905,"source_text":"ルフンガ","translation_ko":"루훙가","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994914,"source_text":"マシュガル","translation_ko":"마슈가르","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994925,"source_text":"骸使い","translation_ko":"사령사","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":6}
+{"offset":3994932,"source_text":"宿屋コピン","translation_ko":"여관 코핀","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":10}
+{"offset":3994943,"source_text":"カジノの受付嬢","translation_ko":"카지노 접수원","context":"대화·전투에서 표시되는 특수 개체명","lane":"speaker_name","capacity_to_nul":14}
+{"offset":3994958,"source_text":"作戦１","translation_ko":"작전1","context":"작전 프리셋 명칭","lane":"strategy_ui","capacity_to_nul":6}
+{"offset":3994965,"source_text":"作戦２","translation_ko":"작전2","context":"작전 프리셋 명칭","lane":"strategy_ui","capacity_to_nul":6}
+{"offset":3994972,"source_text":"作戦３","translation_ko":"작전3","context":"작전 프리셋 명칭","lane":"strategy_ui","capacity_to_nul":6}
+{"offset":3995320,"source_text":"猛毒","translation_ko":"맹독","context":"아이템 대상의 상태 표시","lane":"status_ui","capacity_to_nul":4}
+{"offset":3995325,"source_text":"石化","translation_ko":"석화","context":"아이템 대상의 상태 표시","lane":"status_ui","capacity_to_nul":4}
+{"offset":3995330,"source_text":"静寂","translation_ko":"침묵","context":"아이템 대상의 상태 표시","lane":"status_ui","capacity_to_nul":4}
+{"offset":3995335,"source_text":"病気","translation_ko":"질병","context":"아이템 대상의 상태 표시","lane":"status_ui","capacity_to_nul":4}
+{"offset":3995341,"source_text":"誰に使いますか？","translation_ko":"누구에게?","context":"아이템 사용 대상 선택","lane":"common_prompt","capacity_to_nul":16}
+{"offset":3995358,"source_text":"全体に使います","translation_ko":"전체 사용","context":"전체 대상 사용 안내","lane":"common_prompt","capacity_to_nul":14}
+{"offset":3995373,"source_text":"%sを\n　　　　個捨てます。\nよろしいですか？","translation_ko":"%s\n      개를 버립니다.\n계속할까요?","context":"아이템 버리기 확인","lane":"inventory_prompt","capacity_to_nul":42}
+{"offset":3995416,"source_text":"設定を初期化します。よろしいですか？","translation_ko":"설정을 초기화하시겠습니까?","context":"설정 초기화 확인","lane":"common_prompt","capacity_to_nul":36}
+{"offset":3995453,"source_text":"%sを1個購入します。\nよろしいですか？","translation_ko":"%s을 1개 구매합니다.\n구매할까요?","context":"아이템 1개 구매 확인","lane":"shop_prompt","capacity_to_nul":36}
+{"offset":3995547,"source_text":"%sを1個売却します。\nよろしいですか？","translation_ko":"%s을 1개 판매합니다.\n판매할까요?","context":"아이템 1개 판매 확인","lane":"shop_prompt","capacity_to_nul":36}
+{"offset":3995584,"source_text":"%sのケージに\n%sを行います。\nよろしいですか？","translation_ko":"%s의 케이지에\n%s을 적용합니다.\n계속할까요?","context":"케이지 가공 확인","lane":"cage_prompt","capacity_to_nul":44}
+{"offset":3995629,"source_text":"%sのケージの加工を\n全てリセットします。\nよろしいですか？","translation_ko":"%s의 케이지 가공을\n모두 초기화합니다.\n계속할까요?","context":"케이지 가공 초기화 확인","lane":"cage_prompt","capacity_to_nul":56}
+{"offset":3995686,"source_text":"%sを5個使用して\n%sを1個生成します。\nよろしいですか？","translation_ko":"%s 5개를 사용해\n%s 1개를 생성합니다.\n계속할까요?","context":"아이템 합성 확인","lane":"craft_prompt","capacity_to_nul":52}
+{"offset":3995739,"source_text":"%sを購入します。\nよろしいですか？","translation_ko":"%s을 구매합니다.\n구매할까요?","context":"아이템 구매 확인","lane":"shop_prompt","capacity_to_nul":33}
+{"offset":3995773,"source_text":"このゲームデータをロードします。\nよろしいですか？","translation_ko":"이 게임 데이터를 불러옵니다.\n계속하시겠습니까?","context":"게임 데이터 불러오기 확인","lane":"save_system","capacity_to_nul":49}
+{"offset":3995823,"source_text":"ロードすると、現在のゲームデータは\n失われますがよろしいですか？","translation_ko":"불러오면 현재 게임 데이터는\n사라집니다. 계속하시겠습니까?","context":"불러오기 시 현재 데이터 손실 경고","lane":"save_system","capacity_to_nul":63}
+{"offset":3995887,"source_text":"ゲームデータをセーブします。よろしいですか？","translation_ko":"게임 데이터를 저장하시겠습니까?","context":"게임 데이터 저장 확인","lane":"save_system","capacity_to_nul":44}
+{"offset":3995932,"source_text":"既にゲームデータがセーブされています。\n上書きしてもよろしいですか？","translation_ko":"이미 게임 데이터가 저장되어 있습니다.\n덮어쓰시겠습니까?","context":"게임 데이터 덮어쓰기 확인","lane":"save_system","capacity_to_nul":67}
+{"offset":3996000,"source_text":"このクエストを請けます。\nよろしいですか？","translation_ko":"이 퀘스트를 수락합니다.\n계속하시겠습니까?","context":"퀘스트 수락 확인","lane":"quest_prompt","capacity_to_nul":41}
+{"offset":3996042,"source_text":"このクエストは途中で放棄できませんが\nよろしいですか？","translation_ko":"이 퀘스트는 도중에 포기할 수 없습니다.\n계속할까요?","context":"포기 불가 퀘스트 수락 경고","lane":"quest_prompt","capacity_to_nul":53}
+{"offset":3996096,"source_text":"クリア条件を満たしたクエストは\n放棄できません。\nこのクエストを達成しますか？","translation_ko":"완료 조건을 충족한 퀘스트는\n포기할 수 없습니다.\n완료하시겠습니까?","context":"완료 조건 충족 퀘스트 처리 확인","lane":"quest_prompt","capacity_to_nul":76}
+{"offset":3996173,"source_text":"このクエストを達成します。\nよろしいですか？","translation_ko":"이 퀘스트를 완료합니다.\n계속하시겠습니까?","context":"퀘스트 완료 확인","lane":"quest_prompt","capacity_to_nul":43}
+{"offset":3996217,"source_text":"このクエストを放棄します。\nよろしいですか？","translation_ko":"이 퀘스트를 포기합니다.\n계속하시겠습니까?","context":"퀘스트 포기 확인","lane":"quest_prompt","capacity_to_nul":43}
+{"offset":3996261,"source_text":"選択した戦闘を開始します。\nよろしいですか？","translation_ko":"선택한 전투를 시작합니다.\n계속하시겠습니까?","context":"선택 전투 시작 확인","lane":"battle_prompt","capacity_to_nul":43}
+{"offset":3996371,"source_text":"コインを%d枚と\n%sを交換します。\nよろしいですか？","translation_ko":"코인 %d개와\n%s을 교환합니다.\n계속하시겠습니까?","context":"카지노 코인 교환 확인","lane":"casino_prompt","capacity_to_nul":48}
+{"offset":3996437,"source_text":"%x%sから\nこの武器へ移動します。よろしいですか？","translation_ko":"%x%s에서\n이 무기로 옮깁니다. 계속하시겠습니까?","context":"무기 간 피스 이동 확인","lane":"equipment_prompt","capacity_to_nul":47}
+{"offset":3996485,"source_text":"ダブルアップしますか？","translation_ko":"더블 업하시겠습니까?","context":"카지노 더블 업 확인","lane":"casino_prompt","capacity_to_nul":22}
+{"offset":3996508,"source_text":"%sへ移動します。\nよろしいですか？","translation_ko":"%s로 이동합니다.\n계속할까요?","context":"목적지 이동 확인","lane":"travel_prompt","capacity_to_nul":33}
+{"offset":3996542,"source_text":"成功報酬となるアイテム・もしくはお金を\n限界まで所持しています。このまま達成した場合\n報酬が失われます。よろしいですか？","translation_ko":"성공 보상 아이템이나 돈을\n한도까지 보유 중입니다. 지금 완료하면\n보상을 잃습니다. 계속하시겠습니까?","context":"보상 소지 한도 초과 퀘스트 완료 경고","lane":"quest_prompt","capacity_to_nul":118}
+{"offset":3996661,"source_text":"成功報酬となるアイテム・もしくはお金を\n限界まで所持しています。このまま勝利した場合\n報酬が失われます。よろしいですか？","translation_ko":"성공 보상 아이템이나 돈을\n한도까지 보유 중입니다. 지금 승리하면\n보상을 잃습니다. 계속하시겠습니까?","context":"보상 소지 한도 초과 전투 승리 경고","lane":"battle_prompt","capacity_to_nul":118}
+{"offset":3996780,"source_text":"はい","translation_ko":"예","context":"긍정 선택지","lane":"common_choice","capacity_to_nul":4}
+{"offset":3996785,"source_text":"いいえ","translation_ko":"아니요","context":"부정 선택지","lane":"common_choice","capacity_to_nul":6}
+{"offset":3996792,"source_text":"装備","translation_ko":"장비","context":"장비 선택지","lane":"equipment_ui","capacity_to_nul":4}
+{"offset":3996797,"source_text":"外す","translation_ko":"해제","context":"장비 해제 선택지","lane":"equipment_ui","capacity_to_nul":4}
+{"offset":3996802,"source_text":"アームフォース","translation_ko":"암 포스","context":"암 포스 메뉴","lane":"equipment_ui","capacity_to_nul":14}
+{"offset":3996817,"source_text":"呼び寄せ","translation_ko":"호출","context":"대상 불러오기 선택지","lane":"common_ui","capacity_to_nul":8}
+{"offset":3996826,"source_text":"自動航行","translation_ko":"자동항해","context":"자동 항해 선택지","lane":"travel_ui","capacity_to_nul":8}
+{"offset":3996835,"source_text":"ロードするファイルを選んでください","translation_ko":"불러올 파일을 선택해 주세요","context":"불러오기 파일 선택 안내","lane":"save_system","capacity_to_nul":34}
+{"offset":3996870,"source_text":"セーブするファイルを選んでください","translation_ko":"저장할 파일을 선택해 주세요","context":"저장 파일 선택 안내","lane":"save_system","capacity_to_nul":34}
+{"offset":3996905,"source_text":"『決定』で、それぞれのエクセルアクトを\n確認できます","translation_ko":"『결정』으로 각 엑셀 액트를\n확인할 수 있습니다","context":"엑셀 액트 확인 조작 도움말","lane":"system_menu","capacity_to_nul":51}
+{"offset":3996957,"source_text":"『決定』で、%sの衣装を\n選択することができます","translation_ko":"『결정』으로 %s의 의상을\n선택할 수 있습니다","context":"의상 선택 조작 도움말","lane":"system_menu","capacity_to_nul":45}
+{"offset":3997003,"source_text":"エクセルアクトを習得していません","translation_ko":"엑셀 액트를 습득하지 않았습니다","context":"엑셀 액트 미습득 안내","lane":"system_menu","capacity_to_nul":32}
+{"offset":3997036,"source_text":"衣装を持っていません","translation_ko":"의상이 없습니다","context":"의상 미보유 안내","lane":"system_menu","capacity_to_nul":20}
+{"offset":3997057,"source_text":"アイテムを確認したり使うことができます","translation_ko":"아이템을 확인하거나 사용할 수 있습니다","context":"아이템 메뉴 설명","lane":"system_menu","capacity_to_nul":38}
+{"offset":3997096,"source_text":"光召術を使用したり\nケージのジェムを付け替えることができます","translation_ko":"광소술을 사용하거나\n케이지의 젬을 교체할 수 있습니다","context":"광소술·케이지 메뉴 설명","lane":"system_menu","capacity_to_nul":59}
+{"offset":3997156,"source_text":"武器を持ち替えたり\nアームフォースのセットができます","translation_ko":"무기를 바꾸거나\n암 포스를 설정할 수 있습니다","context":"무기·암 포스 메뉴 설명","lane":"system_menu","capacity_to_nul":51}
+{"offset":3997208,"source_text":"防具を装備できます","translation_ko":"방어구 장비","context":"방어구 메뉴 설명","lane":"system_menu","capacity_to_nul":18}
+{"offset":3997227,"source_text":"戦闘に関する様々な設定ができます","translation_ko":"전투 설정을 변경할 수 있습니다","context":"작전 메뉴 설명","lane":"system_menu","capacity_to_nul":32}
+{"offset":3997260,"source_text":"地図を見ることができます","translation_ko":"지도를 볼 수 있습니다","context":"지도 메뉴 설명","lane":"system_menu","capacity_to_nul":24}
+{"offset":3997285,"source_text":"様々な情報を確認することができます","translation_ko":"여러 정보를 확인할 수 있습니다","context":"정보 메뉴 설명","lane":"system_menu","capacity_to_nul":34}
+{"offset":3997320,"source_text":"設定の変更やセーブ、ロードができます","translation_ko":"설정 변경, 저장/불러오기 가능","context":"시스템 메뉴 설명","lane":"system_menu","capacity_to_nul":36}
+{"offset":3997357,"source_text":"『隊列変更』で戦闘参加者の入れ替え\n『決定』でステータスを確認できます","translation_ko":"『대열 변경』으로 전투 멤버를 교체하고\n『결정』으로 상태를 확인합니다","context":"파티 대열 변경 조작 도움말","lane":"system_menu","capacity_to_nul":69}
+{"offset":3997427,"source_text":"ゲストメンバーは隊列を入れ替えることは\nできません","translation_ko":"게스트 멤버는 대열을\n바꿀 수 없습니다","context":"게스트 멤버 대열 변경 제한","lane":"system_menu","capacity_to_nul":49}
+{"offset":3997477,"source_text":"%sと入れ替えたいメンバーを\n選択してください","translation_ko":"%s와 교체할 멤버를\n선택해 주세요","context":"파티 교체 대상 선택","lane":"system_menu","capacity_to_nul":43}
+{"offset":3997521,"source_text":"光召術を使用します","translation_ko":"광소술 사용","context":"광소술 메뉴 설명","lane":"system_menu","capacity_to_nul":18}
+{"offset":3997540,"source_text":"ケージの設定を行います","translation_ko":"케이지를 설정합니다","context":"케이지 메뉴 설명","lane":"system_menu","capacity_to_nul":22}
+{"offset":3997563,"source_text":"武器のアームフォースフレームに\nピースをセットすることができます","translation_ko":"무기의 암 포스 프레임에\n피스를 설정할 수 있습니다","context":"암 포스 피스 메뉴 설명","lane":"system_menu","capacity_to_nul":63}
+{"offset":3997627,"source_text":"装備する武器を選択します","translation_ko":"장비할 무기를 선택합니다","context":"무기 장비 메뉴 설명","lane":"system_menu","capacity_to_nul":24}
+{"offset":3997652,"source_text":"作戦の設定を行います","translation_ko":"작전을 설정합니다","context":"작전 메뉴 설명","lane":"system_menu","capacity_to_nul":20}
+{"offset":3997673,"source_text":"パーティ編成を行います","translation_ko":"파티를 편성합니다","context":"파티 편성 메뉴 설명","lane":"system_menu","capacity_to_nul":22}

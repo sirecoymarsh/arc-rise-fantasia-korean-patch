@@ -1,0 +1,176 @@
+{
+  "schema": "arf-endroll-wtm-payload-manifest-v1",
+  "game_id": "RPJJ99",
+  "file_count": 23,
+  "payload_aggregate_sha256": "3AD4024E673672EDAA5E9DD2101CFBA9043B11A408B5410757F5B441A5FD9FCE",
+  "source_root": "work/disc_extracted/DATA/files",
+  "payload_root": "work/runtime_fix/endroll_ui/payloads",
+  "staging_or_release_modified": false,
+  "before_contact_sheet": "before_contact_sheet.png",
+  "after_contact_sheet": "after_contact_sheet.png",
+  "translation_map": "translation_map.json",
+  "structural_validation": "structural_validation.json",
+  "files": [
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_00.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_00.wtm",
+      "source_sha256": "53A0AA80D8A551A7FAEF55B8193ECB21826BB1BFD0F10EB305522FE0AB64826E",
+      "payload_sha256": "B10751151D9A5B16784FAFFB1605843AC26C1E19F3D18532573F55AC43D17D2A",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_01.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_01.wtm",
+      "source_sha256": "9C305503A3DCF7F376F084F0AA0611964C484EC6245A6D558C9885E10A271A6E",
+      "payload_sha256": "E3FA1355811752B3FED1F865F413A740B0C57A067F18DFCD2A6DCA54E2FD98B2",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_02.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_02.wtm",
+      "source_sha256": "C371F44089AFF73D5CDCD3AE1C6463D6231C6848A1029D01CB68EBFB3C453E1A",
+      "payload_sha256": "EC75EA0B4F83CA98AA7749F2722F6B9DDC23518DFB968E98A306073E3A06674F",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_03.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_03.wtm",
+      "source_sha256": "F21635164052C671DC9241E6860ECC52779BF2B97A1A84CF63E6516A9FC6CC1C",
+      "payload_sha256": "AE3816EC63D324E9CFDD4D8BCBED4835E1ADFF10B5FCE88E6D31E0ABFF0C7D46",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_04.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_04.wtm",
+      "source_sha256": "B63A91F9645A84E57CB88BD40AA9F26A0F80D4DE67287DD833F05C63891BD2AC",
+      "payload_sha256": "5308A07347A2693F09663DAC40A86D65753296D69A2EEAD113F1A29F3E2CC773",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_05.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_05.wtm",
+      "source_sha256": "BD85D42A904CC00253ADEB4CE7CFAAC54FD3CB0BACEA701D84C1EA0928196DC7",
+      "payload_sha256": "7BE358BAB623471EA8F96E6283F2C2D850ED6FE7228F8930C8BF47DAE9F4016A",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_06.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_06.wtm",
+      "source_sha256": "380FD44D8BB674FFF19584DCE966E2872813B76BA4B1E33F4655313791EBB0B8",
+      "payload_sha256": "EB32567C58098F9576ED5269E5F1C911272944FE320D81A178CF5EC4F2F596DF",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_07.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_07.wtm",
+      "source_sha256": "E547446BA8D186149D26AB85FB9FA0BC531931EB3142070C7D1DB58ADB90C8A9",
+      "payload_sha256": "605AFD866C5EFD557B50E6EBF269B25E4D6F32157D50078BBDA6E6556BB9AD98",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_08.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_08.wtm",
+      "source_sha256": "9AF3104489B27F56C72C51FBEE82BFC6C25AB88C8D9EDB6B1F72A7F6E64FB3CF",
+      "payload_sha256": "0CC44885C3FD6F777306BE990023FE4DC712F3C7399168B9DD319EFF786B8983",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_09.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_09.wtm",
+      "source_sha256": "38C99B044CB45F4A7527AB94C0E065B5F5DE257B16BB9EC836C5A1CF4AFA94DD",
+      "payload_sha256": "905C283F44393DDED990BB3D7F3A4D6D9A9ECFA5E6E65478A4A5A39BB1F9912F",
+      "size_bytes": 7744
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_10.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_10.wtm",
+      "source_sha256": "EEF335E27713E711FD3D696BAA2F73B0CD4EC130DC89CD931934689E63E1C20A",
+      "payload_sha256": "A196EA343E1D36F10086454D648060578BAB8912956F8E39B37E0D749F7E85FB",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_11.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_11.wtm",
+      "source_sha256": "C3DC64BE922010803CB4C49BD482050603F63F795971382191A53C0E108751D1",
+      "payload_sha256": "756C6CD973E9DBBEA7684D1AF7F271B3BEF8C7667C248DB56F84F55AFB53776F",
+      "size_bytes": 7584
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_12.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_12.wtm",
+      "source_sha256": "EED589E0AEE439620C5F0A1C262E1667E6AA3D16834F3F8E34D08EAE1F7FC868",
+      "payload_sha256": "6115715A3AD264195C0A39F18F1254C81E006234367BF58A855755129ADAB82C",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_13.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_13.wtm",
+      "source_sha256": "1A272A2717FB736B15150B4C48B643542D1E4705CCBAFB86968D6757E69613FF",
+      "payload_sha256": "0C97C4D3D6AC49C66452349A099F7BE4775CB405E52C699A84C381AEF90DDEE5",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_14.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_14.wtm",
+      "source_sha256": "C4A207CB2130FFC5286E4AD5554174D00E79585BED23756D347793CC6E1AD711",
+      "payload_sha256": "C18C4EE5134BE53DFAA01E14A6A5BC9249851B0091C78F73A9DAF5EB0D60C13E",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_15.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_15.wtm",
+      "source_sha256": "FE3FB69A87C46E7EEE9F539ECDCBCB3175578894A9AD15804236CA4BEB8154AD",
+      "payload_sha256": "8176A74BF931EE4C5FEDB65DF1924A8C56610BD174F1F811E6736A49877B6832",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_16.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_16.wtm",
+      "source_sha256": "F67FFAFA739CDF418F665D21CD94F60EAFE7A66A1E62F52776AD7385E922DF50",
+      "payload_sha256": "8B99C8D8C55818506719F3A3FBF585DCE02560475201123F5FDBE2F491592839",
+      "size_bytes": 7584
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_17.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_17.wtm",
+      "source_sha256": "917F157FD6EA14F6741DC914A517C31037B88C3487825E39C6C507284620A51D",
+      "payload_sha256": "E5D72E3B8266304BA37772FB3F05CEC9F485C13B79225B3DCEC305547F37768A",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_18.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_18.wtm",
+      "source_sha256": "FC3A56BF46E998B54511421A9B1A264C12317C34B47D1CA42C2C920F08D90C1D",
+      "payload_sha256": "B613DD0C894274A9BBDB73A9423A353CCDA9B4839A68FBDAA66CF192245AB47B",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_19.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_19.wtm",
+      "source_sha256": "5F2518C4472779017F34768ECD9D642426FC5D6D60A6A966098A37BC67D78CDE",
+      "payload_sha256": "10C9955B2456F1DBA033AFD0A2A9EE7C0EC082351F3BD63AE28FF4F2DD1FDE42",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_20.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_20.wtm",
+      "source_sha256": "4BDD7102774AE1521F9532C167C34CABC010AE1B2B8DF6CD2FAA5F8249121801",
+      "payload_sha256": "8CA5F9A11877C7B16658926B6B89ECD0B3B21D567046C9FC5D9AE7DE7B05A0D2",
+      "size_bytes": 7584
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_21.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_21.wtm",
+      "source_sha256": "E77848C2BFE3AFBEBD5D9AC2812001063FAA120EAADD09F8738A6751D1BF96C8",
+      "payload_sha256": "01BC828197B52F526008DE2EBEBE33026CC84517F34E025174F30EC85FD83583",
+      "size_bytes": 7552
+    },
+    {
+      "physical_path": "Event/endroll/EV09_18_0200C_22.wtm",
+      "payload_path": "payloads/Event/endroll/EV09_18_0200C_22.wtm",
+      "source_sha256": "C833C0271A8D74D3E5A0D19AE7003A5F3193FD24899B9820CB00ACC3ABCAF211",
+      "payload_sha256": "2CBC0C4A65D0766668CF0C9B4CFFF1573BC316849EC36FFAE8653A895A5CEDED",
+      "size_bytes": 7552
+    }
+  ]
+}

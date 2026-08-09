@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "project": "Arc Rise Fantasia (Japan) Korean Localization",
+  "game_id": "RPJJ99",
+  "source_language": "ja-JP",
+  "target_language": "ko-KR",
+  "localization_mode": "direct_replacement",
+  "audio_policy": "preserve_original_japanese_audio",
+  "translation_policy": {
+    "codex_internal_models_only": true,
+    "allowed": [
+      "Codex primary model",
+      "Codex internal sub-agents",
+      "local deterministic extraction, validation, and packaging scripts"
+    ],
+    "prohibited": [
+      "Gemini",
+      "DeepL",
+      "Google Translate",
+      "Papago",
+      "external translation APIs",
+      "external generative AI models"
+    ],
+    "external_research_scope": "Technical format research and proper-noun verification only; never translation generation or rewriting."
+  },
+  "protected_content": [
+    "control codes",
+    "format specifiers",
+    "lookup keys",
+    "archive entry names",
+    "script opcodes",
+    "binary structure and alignment"
+  ],
+  "delivery_default": "reversible Riivolution-style overlay plus Dolphin validation",
+  "source_media_policy": "immutable; never overwrite the original RVZ",
+  "approved_from_user_request": true,
+  "last_updated": "2026-08-03"
+}

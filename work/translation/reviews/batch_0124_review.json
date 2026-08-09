@@ -1,0 +1,274 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0124",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0124.jsonl",
+  "draft": "work/translation/drafts/batch_0124.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0124.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 26,
+  "unchanged_units": 174,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 7,
+      "tm_id": "ARF-TM-BC2476060969FC74994D",
+      "source_text": "『ここまで到達するとは\n　根性のあるヤツぢゃ！』<$0C>『その根性を見込んで\n　ザムエル武芸塾への\n　入門を許すぞい！』<$0C>と記されているのだ……",
+      "before": "『여기까지 도달하다니\n　근성 있는 녀석이로다!』<$0C>『그 근성을 높이 사\n　자무엘 무예 도장에\n　입문하는 것을 허락하노라!』<$0C>라고 적혀 있다……",
+      "after": "『여기까지 도달하다니\n　근성 있는 녀석이로다!』<$0C>『그 근성을 높이 사\n　자무엘 무예관에\n　입문하는 것을 허락하노라!』<$0C>라고 적혀 있다……",
+      "category": "proper_noun",
+      "reason": "반복 시설명 ザムエル武芸塾의 프로젝트 표기 자무엘 무예관을 적용했다."
+    },
+    {
+      "index": 10,
+      "tm_id": "ARF-TM-BC3526DD592393FC0C82",
+      "source_text": "なるほど。この地は\nイーサ神の箱庭であり\n友の墓標でもあるということか",
+      "before": "그렇군. 이 땅은\n이사신의 정원이자\n벗의 묘비이기도 하다는 건가",
+      "after": "그렇군. 이 땅은\n이사 신의 정원이자\n벗의 묘비이기도 하다는 건가",
+      "category": "proper_noun",
+      "reason": "신명 イーサ神을 이름과 호칭이 구분되도록 이사 신으로 표기했다."
+    },
+    {
+      "index": 15,
+      "tm_id": "ARF-TM-BC4C752CFF6022E2879A",
+      "source_text": "パピルサグと\nウルグラと\nスクイルね",
+      "before": "파필사그와\n울그라와\n스쿠일이네",
+      "after": "파피르사그와\n우르그라와\n스쿠일이네",
+      "category": "proper_noun",
+      "reason": "로그레스 고유명 パピルサグ와 ウルグラ의 프로젝트 표기 파피르사그, 우르그라를 적용했다."
+    },
+    {
+      "index": 17,
+      "tm_id": "ARF-TM-BC6413E08BCD70482B10",
+      "source_text": "アルス陛下を公然と批判する\n兵士たちの気がしれない<$0C>帝国のために仕えると誓った\nあの時の忠誠の言葉は\n偽りだったということなのか？",
+      "before": "알스 폐하를 공공연히 비판하는\n병사들의 마음을 모르겠군<$0C>제국을 위해 섬기겠다고 맹세한\n그때의 충성 서약은\n거짓이었다는 건가?",
+      "after": "알스 폐하를 공공연히 비판하는\n병사들을 이해할 수 없다<$0C>제국을 위해 섬기겠다고 맹세한\n그때의 충성 서약은\n거짓이었다는 건가?",
+      "category": "natural_korean",
+      "reason": "兵士たちの気がしれない를 뜻이 분명한 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "index": 23,
+      "tm_id": "ARF-TM-BC79FE1A52AEEBE924EA",
+      "source_text": "聞きましたか、今の言い様",
+      "before": "들으셨어요, 방금 그 말투",
+      "after": "방금 그 말투, 들으셨어요?",
+      "category": "natural_korean",
+      "reason": "평서형으로 끝난 초안을 원문의 질문 의도와 한국어 어순에 맞게 바로잡았다."
+    },
+    {
+      "index": 25,
+      "tm_id": "ARF-TM-BC82D08EC5B2C851947D",
+      "source_text": "グリーンヒル議長が\n暗殺されたとかで元老院は\n大わらわだよ<$0C>死体も見つかってないのに\n何で『暗殺』ってわかるのかね？",
+      "before": "그린힐 의장이\n암살당했다며 원로원은\n벌집을 쑤신 듯해<$0C>시신도 못 찾았는데\n어떻게 『암살』이라고 아는 걸까?",
+      "after": "그린힐 의장이\n암살당했다며 원로원은\n발칵 뒤집혔어<$0C>시신도 못 찾았는데\n어떻게 『암살』이라고 아는 걸까?",
+      "category": "idiom",
+      "reason": "大わらわだ를 벌집을 쑤신 듯하다는 직역 대신 발칵 뒤집혔다는 자연스러운 표현으로 옮겼다."
+    },
+    {
+      "index": 31,
+      "tm_id": "ARF-TM-BC99A17179353B72706F",
+      "source_text": "運よく爆撃から\n逃れることができたのですが\n心労から体を壊してしまいました",
+      "before": "운 좋게 폭격을\n피할 수 있었지만\n심로로 몸을 망치고 말았습니다",
+      "after": "운 좋게 폭격을\n피할 수 있었지만\n마음고생 탓에 몸이 상했습니다",
+      "category": "natural_korean",
+      "reason": "心労から体を壊す를 심로라는 번역투 대신 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "index": 35,
+      "tm_id": "ARF-TM-BCAE2A17355DF8A8D3BD",
+      "source_text": "■■４体目勝ち■■\n",
+      "before": "■■4번째 승리■■\n",
+      "after": "■■４번째 승리■■\n",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ４를 반각 숫자로 바꾸지 않고 복원했다."
+    },
+    {
+      "index": 38,
+      "tm_id": "ARF-TM-BCC432279880274C7F20",
+      "source_text": "ああ。悪い……",
+      "before": "그래. 미안하다……",
+      "after": "아, 미안……",
+      "category": "meaning",
+      "reason": "감탄사 ああ를 동의 표현 그래로 옮긴 오류를 사과에 앞선 감탄으로 바로잡았다."
+    },
+    {
+      "index": 47,
+      "tm_id": "ARF-TM-BCEBAFCCEB9763A73B84",
+      "source_text": "アルス皇帝が即位したことは\n私たちにとっては至上の喜び。\nしかし、その犠牲はあまりに大きい<$0C>未来ある多くの街の若者たちが\n此度のことでその命を失いました。\n……今は喪に服する時です",
+      "before": "알스 황제의 즉위는\n우리에게 더없는 기쁨입니다.\n하지만 희생이 너무 컸습니다<$0C>앞날이 창창한 많은 젊은이가\n이번 일로 목숨을 잃었습니다.\n……지금은 상복을 입을 때입니다",
+      "after": "알스 황제의 즉위는\n우리에게 더없는 기쁨입니다.\n하지만 희생이 너무 컸습니다<$0C>앞날이 창창한 많은 젊은이가\n이번 일로 목숨을 잃었습니다.\n……지금은 애도할 때입니다",
+      "category": "idiom",
+      "reason": "喪に服する는 반드시 상복을 입는 행위가 아니라 애도한다는 뜻이므로 문맥에 맞게 교정했다."
+    },
+    {
+      "index": 48,
+      "tm_id": "ARF-TM-BCED2B43817BB2169D41",
+      "source_text": "確かエブルのグランツが\nマシュガルの研究をしていたな。\n話を聞いてみてはどうだ",
+      "before": "에블의 그란츠가\n마슈갈을 연구했었지.\n이야기를 들어보는 게 어때",
+      "after": "에블의 그란츠가\n마슈가르를 연구했었지.\n이야기를 들어보는 게 어때",
+      "category": "proper_noun",
+      "reason": "로그레스 マシュガル의 프로젝트 표기 마슈가르를 적용했다."
+    },
+    {
+      "index": 63,
+      "tm_id": "ARF-TM-BD31FBCFABA464F7C1BE",
+      "source_text": "あ、アニキ〜！\nみんながいじめるんスよ！",
+      "before": "혀, 형님~!\n다들 날 괴롭힘다!",
+      "after": "아, 형님〜!\n다들 절 괴롭힌단 말임다!",
+      "category": "voice",
+      "reason": "원문에 없는 말더듬을 제거하고 っスよ의 거친 후배 말투를 자연스럽게 살렸다."
+    },
+    {
+      "index": 71,
+      "tm_id": "ARF-TM-BD5F30D5F940E8722A46",
+      "source_text": "いつまでも、この場に\nすがっていたら、私の妻は\n天に召されないでしょう……<$0C>私は過去にとらわれず\n未来を生きる決心をしました",
+      "before": "언제까지고 이곳에\n매달려 있으면 제 아내는\n천국에 가지 못하겠지요……<$0C>저는 과거에 사로잡히지 않고\n미래를 살기로 결심했습니다",
+      "after": "언제까지고 이곳에\n매달려 있으면 제 아내는\n편히 떠나지 못하겠지요……<$0C>저는 과거에 사로잡히지 않고\n미래를 살기로 결심했습니다",
+      "category": "natural_korean",
+      "reason": "天に召されない를 특정 종교의 천국 표현으로 한정하지 않고 문맥에 맞는 한국어로 다듬었다."
+    },
+    {
+      "index": 73,
+      "tm_id": "ARF-TM-BD68C4725B63029B04B1",
+      "source_text": "今日は彼とデートなの……\n何回もデートしてるはずなのに\nいつも胸がドキドキするの<$0C>今日はどんな１日になるのかしら……\nああ……胸のドキドキが止まらない！",
+      "before": "오늘은 그이와 데이트야……\n몇 번이나 데이트했는데도\n늘 가슴이 두근거려<$0C>오늘은 어떤 하루가 될까……\n아아…… 가슴이 두근거려 멈추질 않아!",
+      "after": "오늘은 그이와 데이트야……\n몇 번이나 데이트했는데도\n늘 가슴이 두근거려<$0C>오늘은 어떤 １일이 될까……\n아아…… 가슴이 두근거려 멈추질 않아!",
+      "category": "numeric_fidelity",
+      "reason": "원문에 명시된 전각 숫자 １을 하루로 치환하지 않고 보존했다."
+    },
+    {
+      "index": 84,
+      "tm_id": "ARF-TM-BD90E4348ADA7A4DFDDB",
+      "source_text": "繊細なメイド",
+      "before": "섬세한 하녀",
+      "after": "섬세한 메이드",
+      "category": "terminology",
+      "reason": "직업명 メイド를 프로젝트에서 사용하는 메이드 표기로 통일했다."
+    },
+    {
+      "index": 104,
+      "tm_id": "ARF-TM-BDF5BB720C2E4E8AB5D3",
+      "source_text": "……坊やじゃない。ラルクだ",
+      "before": "……도련님이 아니야. 라르크다",
+      "after": "……꼬맹이가 아니야. 라르크다",
+      "category": "meaning",
+      "reason": "坊や는 도련님이라는 신분 호칭이 아니라 어린 남자아이를 낮춰 부르는 말이므로 의미를 바로잡았다."
+    },
+    {
+      "index": 105,
+      "tm_id": "ARF-TM-BDF6F4E4355AD7120A3B",
+      "source_text": "親戚の家に遊びに行くにも\n外出許可証が必要だなんて……\n正気の沙汰じゃない！<$0C>アルス皇帝は我々の\nこの窮状をご存知なのだろうか？\n……一体、どうしてしまったんだ",
+      "before": "친척 집에 놀러 가는 데도\n외출 허가증이 필요하다니……\n제정신이 아니야!<$0C>알스 황제는 우리가 처한\n이 궁핍함을 알고 계신 걸까?\n……대체 왜 이렇게 변한 거지",
+      "after": "친척 집에 놀러 가는 데도\n외출 허가증이 필요하다니……\n제정신이 아니야!<$0C>알스 황제는 우리가 처한\n이 곤경을 알고 계신 걸까?\n……대체 왜 이렇게 변한 거지",
+      "category": "meaning",
+      "reason": "窮状는 경제적 궁핍에 한정되지 않고 현재 처한 곤경을 뜻하므로 의미를 바로잡았다."
+    },
+    {
+      "index": 120,
+      "tm_id": "ARF-TM-BE2DC977BF7746D83F94",
+      "source_text": "悪態をつく兵士",
+      "before": "험담하는 병사",
+      "after": "욕설을 내뱉는 병사",
+      "category": "meaning",
+      "reason": "悪態をつく는 남을 험담한다기보다 불평과 욕설을 내뱉는다는 뜻이므로 인물 라벨을 교정했다."
+    },
+    {
+      "index": 134,
+      "tm_id": "ARF-TM-BE793756FE870346BD44",
+      "source_text": "この先も長そうだ。\n気をつけてね、<$19>04",
+      "before": "앞으로도 길겠네.\n조심해, <$19>04",
+      "after": "앞길도 멀 것 같아.\n조심해, <$19>04",
+      "category": "natural_korean",
+      "reason": "この先も長そうだ를 앞으로도 길겠네라는 번역투 대신 문맥에 맞는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "index": 136,
+      "tm_id": "ARF-TM-BE7E8D6D38CBB8EEC863",
+      "source_text": "萎えている兵士",
+      "before": "시든 병사",
+      "after": "풀이 죽은 병사",
+      "category": "meaning",
+      "reason": "萎えている는 신체적으로 시들었다는 뜻이 아니라 기세가 꺾인 상태이므로 인물 라벨을 교정했다."
+    },
+    {
+      "index": 154,
+      "tm_id": "ARF-TM-BEF55A64D6A040E654C5",
+      "source_text": "ち、ちょっと脅かさないでよっ！\n今、忙しいんだから！",
+      "before": "자, 잠깐 협박하지 마!\n지금 바쁘단 말이야!",
+      "after": "자, 잠깐 놀라게 하지 마!\n지금 바쁘단 말이야!",
+      "category": "meaning",
+      "reason": "脅かさないで는 이 문맥에서 협박하지 말라는 뜻이 아니라 갑자기 놀라게 하지 말라는 뜻이다."
+    },
+    {
+      "index": 163,
+      "tm_id": "ARF-TM-BF2311CA98B9E44AB814",
+      "source_text": "兵隊にも衣替えって\n習慣が必要だと思わない？<$0C>さすがにこの格好で\nこの仕事はないでしょう。\nいつか脱水症状で倒れるよ",
+      "before": "군대에도 옷을 갈아입는\n관습이 필요하지 않아?<$0C>아무리 그래도 이 차림으로\n이런 일을 하는 건 아니잖아.\n언젠가 탈수 증상으로 쓰러질 거야",
+      "after": "병사에게도 계절마다 옷을 바꾸는\n관습이 필요하지 않아?<$0C>아무리 그래도 이 차림으로\n이런 일을 하는 건 아니잖아.\n언젠가 탈수 증상으로 쓰러질 거야",
+      "category": "meaning",
+      "reason": "兵隊를 군대라는 조직으로 옮긴 오류를 병사로 바로잡고 衣替え의 계절별 옷 갈아입기 의미를 살렸다."
+    },
+    {
+      "index": 176,
+      "tm_id": "ARF-TM-BF7D55A0498DBFFD73E9",
+      "source_text": "議場に用はない！\n地下の刑場に急ぐぜ！",
+      "before": "의회에 볼일 없어!\n지하 형장으로 서두르자!",
+      "after": "회의장에는 볼일 없어!\n지하 형장으로 서두르자!",
+      "category": "meaning",
+      "reason": "議場는 의회라는 기관이 아니라 회의가 열리는 장소이므로 회의장으로 교정했다."
+    },
+    {
+      "index": 180,
+      "tm_id": "ARF-TM-BF8F228A28F389B624AE",
+      "source_text": "『わへーかいだん』ってなあに？",
+      "before": "『화해 회담』이 뭐야?",
+      "after": "『평화 회담』이 뭐야?",
+      "category": "terminology",
+      "reason": "어린아이의 발음 わへーかいだん이 가리키는 和平会談을 프로젝트 표기 평화 회담으로 통일했다."
+    },
+    {
+      "index": 184,
+      "tm_id": "ARF-TM-BF9CCEF1618AD4FBB4E0",
+      "source_text": "行商人/メイド/合唱団１　表示\n合唱団２/コーダー上級-下級/医師　表示\nハト/カモメ/ネコ/イヌ　表示\nセプテントリオ兵士　表示\nmap＿getコマンド",
+      "before": "행상인/하녀/합창단 １　표시\n합창단 ２/코더 상급-하급/의사　표시\n비둘기/갈매기/고양이/개　표시\n셉텐트리오 병사　표시\nmap_get 명령",
+      "after": "행상인/메이드/합창단 １　표시\n합창단 ２/코더 상급-하급/의사　표시\n비둘기/갈매기/고양이/개　표시\n셉텐트리오 병사　표시\nmap_get 명령",
+      "category": "terminology",
+      "reason": "직업명 メイド를 같은 배치와 프로젝트의 메이드 표기로 통일했다."
+    },
+    {
+      "index": 197,
+      "tm_id": "ARF-TM-BFBF6B88FFEF044EB604",
+      "source_text": "ずっと睨み合っていた\n商売敵が別の街に移ったらしく\n最近、めっきり姿を見ないのよ<$0C>……何だろうな、この気持ち。\n寂しいっていうワケじゃないけど\nちょっとだけ物足りない気分なの",
+      "before": "계속 경쟁하던\n장사 상대가 다른 도시로 옮겨서\n요즘 통 보이지 않아<$0C>……뭐지, 이 기분.\n외로운 건 아니지만\n조금 허전해",
+      "after": "계속 대립하던\n장사 경쟁자가 다른 도시로 옮겼는지\n요즘 통 보이지 않아<$0C>……뭐지, 이 기분.\n외로운 건 아니지만\n조금 허전해",
+      "category": "meaning",
+      "reason": "商売敵를 거래 상대라는 뜻의 장사 상대로 옮긴 오류를 경쟁 관계가 드러나도록 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않음."
+  }
+}

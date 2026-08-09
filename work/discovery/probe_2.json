@@ -1,0 +1,151 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Map\\map_common.vol",
+  "header": {
+    "end_of_header": 160,
+    "count": 3,
+    "declared_size": 249440,
+    "actual_size": 249440
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "save_point.efp",
+      "size": 239968,
+      "relative_offset": 0,
+      "absolute_offset": 160,
+      "head_hex": "52544450000000A0000000030003A96055280022000000000000000000000000",
+      "head_ascii": "RTDP...........`U(.\"............",
+      "sjis_run_count": 334,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 184,
+          "text": "UU[EUU[藏U_"
+        },
+        {
+          "byte_offset_approx": 220,
+          "text": "U混GXUUUUUUUUUUUUUUUQUUUU躑UUUUUU"
+        },
+        {
+          "byte_offset_approx": 220,
+          "text": "UUUUUUUUUUUUUUUUUUU躑UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUj"
+        },
+        {
+          "byte_offset_approx": 220,
+          "text": "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUXWUUUUUUUUUUUUUUQUUUU躑UUUUUU"
+        },
+        {
+          "byte_offset_approx": 605,
+          "text": "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUXTUTUUUUUUUUUUUUQUUUU躑UUUUUUiU"
+        },
+        {
+          "byte_offset_approx": 896,
+          "text": "UUUUUUUUUUUUUUUUUUU甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUj"
+        },
+        {
+          "byte_offset_approx": 1206,
+          "text": "U-U1UUUiU1U拔UUUUWUUUWUxUxUUUU"
+        },
+        {
+          "byte_offset_approx": 1526,
+          "text": "U-U1UUUiU1U拔UUUUVUUUVUxUxUUUU"
+        },
+        {
+          "byte_offset_approx": 1609,
+          "text": "甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 2006,
+          "text": "UU鷆UUj"
+        },
+        {
+          "byte_offset_approx": 2006,
+          "text": "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUXVUTUUUUUUUUUUUUQUUUUiUUUUUUU拔iUKU"
+        },
+        {
+          "byte_offset_approx": 2322,
+          "text": "劍k劔亘"
+        },
+        {
+          "byte_offset_approx": 2330,
+          "text": "劍UUUUi"
+        },
+        {
+          "byte_offset_approx": 2330,
+          "text": "瑠UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUXQUTUUUUUUUUUUUUQUUUUiUUUUUUU拔iUKUUUUUUUUUUUUUaUUUXUPU}UUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 2908,
+          "text": "UUUUUUUYUUUKUUU拔UUUUUUYUUUuUUUgUUUUUUUUUUU9UU[EUUUUUUUUUUUmUUU1UUUUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "snow2.wtm",
+      "size": 2112,
+      "relative_offset": 239968,
+      "absolute_offset": 240128,
+      "head_hex": "57544D4400000020008000200802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ... .......@............",
+      "sjis_run_count": 3,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1003,
+          "text": "aUdEk[1\"&h膓"
+        },
+        {
+          "byte_offset_approx": 1381,
+          "text": "\"T昧#D豬$4eU"
+        },
+        {
+          "byte_offset_approx": 1408,
+          "text": "茨腓壱eC"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "place.wtm",
+      "size": 7200,
+      "relative_offset": 242080,
+      "absolute_offset": 242240,
+      "head_hex": "57544D4400000020006000400903010100000420000200000000000000000000",
+      "head_ascii": "WTMD... .`.@....... ............",
+      "sjis_run_count": 8,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 4788,
+          "text": ":CDDX涛"
+        },
+        {
+          "byte_offset_approx": 4908,
+          "text": "挟?A"
+        },
+        {
+          "byte_offset_approx": 4946,
+          "text": "Q@Cr吃@"
+        },
+        {
+          "byte_offset_approx": 5160,
+          "text": "吉g吃12"
+        },
+        {
+          "byte_offset_approx": 5225,
+          "text": "Tk`lmf2xTU絮Q''T!|p"
+        },
+        {
+          "byte_offset_approx": 5413,
+          "text": "匡h奨x}VV}勁`症h"
+        },
+        {
+          "byte_offset_approx": 5446,
+          "text": "28|Ok僞"
+        },
+        {
+          "byte_offset_approx": 5582,
+          "text": "h擲TVt"
+        }
+      ]
+    }
+  ]
+}

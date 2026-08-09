@@ -1,0 +1,208 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0121",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0121.jsonl",
+  "draft": "work/translation/drafts/batch_0121.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0121.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 21,
+  "unchanged_units": 179,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-B03437F6FCD01F2EB5A9",
+      "source_text": "よく後ろ向きな性格だと\n友人に指摘される\nだが歩くときは前向きだ<$0C>何をして後ろ向きというのか\n彼を夜中まで問い詰めたい",
+      "before": "친구는 내 성격이 너무\n뒤를 향한다고 지적한다\n하지만 걸을 때는 앞을 향한다<$0C>뭘 두고 뒤를 향한다는 건지\n밤늦게까지 그를 추궁하고 싶다",
+      "after": "내 성격이 너무 뒤만 본다고\n친구에게 자주 지적받는다\n하지만 걸을 때는 앞을 본다<$0C>무슨 점이 뒤만 본다는 건지\n밤늦게까지 그를 추궁하고 싶다",
+      "category": "meaning",
+      "reason": "後ろ向き의 성격·방향 중의성을 한국어 말장난으로 살림"
+    },
+    {
+      "tm_id": "ARF-TM-B0454AE75B836A79469A",
+      "source_text": "新帝国憲章を巡る\n一連の騒動を見ていると\n人間は汚い生き物だと実感する<$0C>自分の利益を守ったり\n自分の生活を守ったり……\n誰１人、他人のことを考えない",
+      "before": "신제국 헌장을 둘러싼\n일련의 소동을 보고 있자니\n인간은 추악한 생물임을 실감하게 돼<$0C>자기 이익을 지키고\n자기 생활을 지키고……\n누구 １명 남을 생각하지 않아",
+      "after": "신제국 헌장을 둘러싼\n일련의 소동을 보고 있자니\n인간은 추악한 생물임을 실감하게 돼<$0C>자기 이익을 지키고\n자기 생활을 지키고……\n단 １명도 남을 생각하지 않아",
+      "category": "grammar",
+      "reason": "誰１人의 부정 호응을 자연스러운 한국어로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B0717F1D26A80D663001",
+      "source_text": "……私は１人でも生きていける。\n誰かに頼る人生なんてもうたくさん。\nだから、私の前から早く消えて……",
+      "before": "……나는 １명이어도 살아갈 수 있어.\n누군가에게 의지하는 삶은 이제 지긋지긋해.\n그러니 내 앞에서 빨리 사라져……",
+      "after": "……나는 １명만으로도 살아갈 수 있어.\n누군가에게 의지하는 삶은 이제 지긋지긋해.\n그러니 내 앞에서 빨리 사라져……",
+      "category": "numeric_fidelity",
+      "reason": "１人でも의 '혼자서도' 의미를 수치를 유지해 자연스럽게 표현함"
+    },
+    {
+      "tm_id": "ARF-TM-B0A4C08D75B78B985CFF",
+      "source_text": "アルス陛下は乱心された……\nそれもこれもオルキナ教に\n心酔してしまった結果だ<$0C>――何と嘆かわしいことか",
+      "before": "알스 폐하께서는 난심을 품으셨다……\n이 모든 게 오르키나교에\n심취한 결과다<$0C>――참으로 한탄스러운 일이군",
+      "after": "알스 폐하께서는 이성을 잃으셨다……\n이 모든 게 오르키나교에\n심취한 결과다<$0C>――참으로 한탄스러운 일이군",
+      "category": "meaning",
+      "reason": "乱心을 '난심을 품다'가 아니라 이성을 잃는 의미로 바로잡음"
+    },
+    {
+      "tm_id": "ARF-TM-B0D70664B35893944CF8",
+      "source_text": "私の憧れの兵隊さん……\nここから、おしとやかに\n見守り続けることにするわ<$0C>じ〜〜っ",
+      "before": "내가 동경하는 병사님……\n여기서 얌전히\n계속 지켜볼 거야<$0C>지〜〜긋",
+      "after": "내가 동경하는 병사님……\n여기서 얌전히\n계속 지켜볼 거야<$0C>지이이긋",
+      "category": "natural_korean",
+      "reason": "일본어 물결표가 남은 응시 의태어를 한국어 표기로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B160AA21C61C240637CC",
+      "source_text": "サウスノワーレを国教とする\nメリディア帝国の元首が\nオルキナ教に傾倒している……<$0C>元老院のように常に\n政教が一致していなければ\n国がまとまるはずもなかろう",
+      "before": "사우스 노와레를 국교로 삼은\n메리디아 제국의 원수가\n오르키나교에 심취해 있다……<$0C>원로원처럼 언제나\n정교가 일치하지 않는다면\n나라가 하나로 뭉칠 리 없겠지",
+      "after": "사우스 노와레를 국교로 삼은\n메리디아 제국의 국가원수가\n오르키나교에 심취해 있다……<$0C>원로원처럼 언제나\n정교가 일치하지 않는다면\n나라가 하나로 뭉칠 리 없겠지",
+      "category": "meaning",
+      "reason": "元首를 군 계급이나 원수로 오해하지 않도록 국가원수로 명확히 함"
+    },
+    {
+      "tm_id": "ARF-TM-B179E2DF9B0A48B696B1",
+      "source_text": "和平についての話し合いは\n後日、執務室で行われる。\nそれまで、待つのだな",
+      "before": "평화에 관한 회담은\n훗날 집무실에서 열릴 것이다.\n그때까지 기다리도록",
+      "after": "평화에 관한 회담은\n추후 집무실에서 열릴 것이다.\n그때까지 기다리도록",
+      "category": "meaning",
+      "reason": "後日을 먼 훗날이 아니라 추후 일정이라는 의미로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B24E8D5CD6FAA05549E4",
+      "source_text": "いいか、ここで\n見たことは全て忘れろ<$0C>帝国兵が皇子に害されたなど\n帝国の面子にかかわる……",
+      "before": "잘 들어, 여기서\n본 건 전부 잊어라<$0C>제국 병사가 황자에게 당했다는 건\n제국의 체면이 걸린 일이다……",
+      "after": "잘 들어, 여기서\n본 건 전부 잊어라<$0C>제국 병사가 황자에게 해를 입었다는 건\n제국의 체면이 걸린 일이다……",
+      "category": "meaning",
+      "reason": "害された의 피격·피해 의미를 모호한 '당했다' 대신 명확히 표현함"
+    },
+    {
+      "tm_id": "ARF-TM-B25A22010F4ED6B30F61",
+      "source_text": "平和なことはいいことです……\nそれでこそ、ジャダって感じです",
+      "before": "평화로운 건 좋은 일이죠……\n그래야 자다답다는 느낌이에요",
+      "after": "평화로운 건 좋은 일이죠……\n그래야 자다답죠",
+      "category": "natural_korean",
+      "reason": "중복된 설명형 종결을 간결하고 자연스럽게 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B25D1AC75848A7685959",
+      "source_text": "私の家族が真っ黒になって\n動かなくなっちゃったから……\n私、ずっと１人で泣いていたの<$0C>そしたらお姉ちゃんが来て\n私に声をかけてくれたの",
+      "before": "우리 가족이 새까맣게 타서\n움직이지 않게 됐으니까……\n나, 계속 １명으로 울고 있었어<$0C>그랬더니 언니가 와서\n나한테 말을 걸어 줬어",
+      "after": "우리 가족이 새까맣게 타서\n움직이지 않게 됐으니까……\n나, 계속 １명만 남아 울고 있었어<$0C>그랬더니 언니가 와서\n나한테 말을 걸어 줬어",
+      "category": "numeric_fidelity",
+      "reason": "１人で의 혼자 남은 상황을 수치를 유지해 자연스럽게 표현함"
+    },
+    {
+      "tm_id": "ARF-TM-B2B5A77C123A0FCDFDBA",
+      "source_text": "あの２人……\n姉妹なんだろうか……\n可憐だ……",
+      "before": "그 ２명……\n자매인 걸까……\n가련해……",
+      "after": "그 ２명……\n자매인 걸까……\n사랑스러워……",
+      "category": "meaning",
+      "reason": "可憐을 가련함이 아니라 사랑스러운 모습이라는 의미로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B2C02BC79F5603BD6B0F",
+      "source_text": "あぁ、ありがとう\n手間をかけさせたな",
+      "before": "아, 고마워\n수고를 끼쳤네",
+      "after": "아, 고마워\n번거롭게 했네",
+      "category": "natural_korean",
+      "reason": "手間をかけさせた의 관용적 의미를 자연스럽게 옮김"
+    },
+    {
+      "tm_id": "ARF-TM-B2D0B03278E9A395C943",
+      "source_text": "自分の１番好きなところは？\n――で、どうだっ",
+      "before": "자기가 １번 좋아하는 점은?\n――자, 말해 봐",
+      "after": "자기 자신에게서 １번 마음에 드는 점은?\n――자, 말해 봐",
+      "category": "meaning",
+      "reason": "질문의 대상이 자기 자신임을 명확히 하고 자연스러운 표현으로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B2ED1EEE10ABB9DFC1B7",
+      "source_text": "喪失した少女",
+      "before": "상실한 소녀",
+      "after": "상실을 겪은 소녀",
+      "category": "natural_korean",
+      "reason": "喪失した를 어색한 관형 표현 대신 자연스러운 인물 라벨로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B3743979E21FD2A5B86F",
+      "source_text": "でも……\n少しイーサ神が可哀想……",
+      "before": "하지만……\n이사 신이 조금 불쌍해……",
+      "after": "하지만……\n이사신이 조금 불쌍해……",
+      "category": "proper_noun",
+      "reason": "설정 고유명 イーサ神을 이사신으로 통일함"
+    },
+    {
+      "tm_id": "ARF-TM-B37A4BC5D21C836668AC",
+      "source_text": "ちょっと待って〜！\n何でボクがヴァイス役なの？\nボクもアルコーン隊がいい！",
+      "before": "잠깐만〜!\n왜 내가 바이스 역할이야?\n나도 알콘대가 좋아!",
+      "after": "잠깐만~!\n왜 내가 바이스 역할이야?\n나도 알콘대가 좋아!",
+      "category": "punctuation",
+      "reason": "대사에 남은 일본어 물결표를 한국어 표기로 바꿈"
+    },
+    {
+      "tm_id": "ARF-TM-B3BB27CF4399173E4865",
+      "source_text": "世界が変わろうとしています。\nこの街の惨劇は痛みなのです。\n変化する世界が産む、軋みなのです<$0C>そう思わなければ――\nこの痛みに耐えられないでしょう",
+      "before": "세계가 변하려 하고 있습니다.\n이 도시의 참극은 고통입니다.\n변하는 세계가 낳는 삐걱임입니다<$0C>그렇게 생각하지 않으면――\n이 고통을 견딜 수 없겠지요",
+      "after": "세계가 변하려 하고 있습니다.\n이 도시의 참극은 고통입니다.\n변하는 세계가 낳는 마찰입니다<$0C>그렇게 생각하지 않으면――\n이 고통을 견딜 수 없겠지요",
+      "category": "meaning",
+      "reason": "세계 변화가 낳는 軋み를 문자 그대로 삐걱임이 아닌 마찰로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-B3D54590D2E4DA17FCE5",
+      "source_text": "それにしてもスゴイ蜃気楼だった。\n思い出すのも怖いくらいさ",
+      "before": "그래도 정말 굉장한 신기루였어.\n떠올리는 것조차 무서울 정도야",
+      "after": "그나저나 정말 굉장한 신기루였어.\n떠올리는 것조차 무서울 정도야",
+      "category": "meaning",
+      "reason": "それにしても를 역접이 아닌 화제 전환 표현으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B41E7738EAC7531EB9F4",
+      "source_text": "昔は酒に呑まれるような\nコピンじゃなかった。\nそう、あの日までは……",
+      "before": "예전에는 술에 먹히는\n코핀이 아니었어.\n그래, 그날까지는……",
+      "after": "예전에는 술에 휘둘리는\n코핀이 아니었어.\n그래, 그날까지는……",
+      "category": "natural_korean",
+      "reason": "酒に呑まれる의 관용적 의미를 자연스럽게 표현함"
+    },
+    {
+      "tm_id": "ARF-TM-B4450A3E2848D3EBA9F2",
+      "source_text": "私が役に立つのでしたら……\nねぇ、ラルク",
+      "before": "제가 도움이 된다면……\n그렇지, 라르크",
+      "after": "제가 도움이 된다면……\n있잖아, 라르크",
+      "category": "meaning",
+      "reason": "ねぇ의 부름말을 동의 표현으로 오역한 부분을 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-B445C7805F28BEB51A8A",
+      "source_text": "熱を帯びてしまったら\n酷い目に遭うからね……\nま、いい気味だけどさ……",
+      "before": "열을 받으면\n끔찍한 꼴을 당할 테니까……\n뭐, 꼴좋지만……",
+      "after": "달아오르면\n끔찍한 꼴을 당할 테니까……\n뭐, 꼴좋지만……",
+      "category": "meaning",
+      "reason": "금속이 熱を帯びる 상황을 화가 난다는 뜻이 아니라 달아오르는 의미로 수정함"
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

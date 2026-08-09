@@ -1,0 +1,64 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0032.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0032.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 497,
+  "hangul_characters": "가각간갈감갑강같개거건걸겁것게겐겠격결경계고곡곤곧곳공과관광괜괴교구국군굴귀그근금기긴길김깊까깐께껴꼬꼭꼼꽤꿈끄끝낌나난날남낫내냉냐냥너널넓네녀년념노높놓누눈느는늘능니닐님다단달닮답당대더덕던덜덮데델도독돌돕동돼되된될두둘둠둬뒤드든듣들듯디딘따딱때떠떤떨떻또뚫뜬라락란랄람랐랑래러런럴럼럽렇레려련렸령로록롭롯뢰료룡루륙륭르륵른를름리린릴림립마막만많말망맞매맹머먹멈멋메며면명몇모목몰몸못무문묻물뭉뭐뭔뭘미민밀바반받발밤방배버번범법벗베벼벽변별병보복본볼봐봤부분불붙블비빗빠뻐뿐쁜사산살상새생샹서석선설섰성세센셨소속손솔솟수숙순술숨슈스슨슬슴습승시식신실싫심십싶싸싹쌍써쓸씨아악안않알앗았앙앞애야약양얘어억언얻얼엄없었에엔엘엥여연열였영예옛오온올옷와왜왠외왼요용우욱운울움웅워원웬위유육율으은을음읍응의이익인일잃임입있자작잔잖잘잠잡장재쟁저적전절젊점정제젠져졌조존종좋죄죠주죽줄중줘줬쥬즐지직진짐집짝짱쩌쩔쩨쪽찌찔차착찬찮참창찾처척청체쳐쳤최추축춘출충춰치칠침컴켜코콘콜쿨크큰키킨킬타탁탄탑태택터턱테통투트특틀파퍼펴편평폐표푸피핀필하한할함합항해했행허험헤현형호혼화확활황회효후훌휴흐흙희히힌힐힘",
+  "error_count": 0,
+  "warning_count": 9,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-74408B294DE04A91B32B",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-757A6AF2244B97A3AD80",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-766B52E0E3DDD3633E23",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-76E630F2CBA974D99155",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-78A240116E2F1D887B4B",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-7977069CEFB4E254DEEA",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-7A5B44934F895F5C8CEE",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-7BB9B79E09B9F6FF6EB3",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-7C2A8BBF167D6794FC73",
+      "characters": "ー"
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

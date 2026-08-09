@@ -1,0 +1,288 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0065",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0065.jsonl",
+  "draft": "work/translation/drafts/batch_0065.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0065.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 31,
+  "unchanged_units": 169,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-84504F4E5DA08EBA7BE3",
+      "source_text": "自ら泥にまみれると決意された\nアルス様に最期まで従うのみ",
+      "before": "스스로 진흙탕에 몸담기로 결심하신\n알스님을 끝까지 따를 뿐",
+      "after": "스스로 진흙탕에 몸담기로 결심하신\n알스 님을 끝까지 따를 뿐",
+      "category": "proper_noun",
+      "reason": "인명과 존칭 띄어쓰기를 프로젝트 표기에 맞춰 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-857534BB2DE4A05EB5BF",
+      "source_text": "これはフレイア将軍の……\nわかった。でも気をつけろよ。\nアルス様は以前のアルス様じゃない",
+      "before": "이건 프레이아 장군의……\n알았어. 하지만 조심해.\n알스님은 예전의 알스님이 아니야",
+      "after": "이건 프레이아 장군의……\n알았어. 하지만 조심해.\n알스 님은 예전의 알스 님이 아니야",
+      "category": "proper_noun",
+      "reason": "반복되는 인명과 존칭의 띄어쓰기를 모두 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-857AB6E6D47D2D0FE937",
+      "source_text": "アデールがバトラキテスで\nディノスと共に行ったあの殺戮が\nアルス様を変えた",
+      "before": "아델이 바트라키테스에서\n디노스와 함께 저지른 그 학살이\n알스님을 바꿔 놓았다",
+      "after": "아델이 바트라키테스에서\n디노스와 함께 저지른 그 학살이\n알스 님을 바꿔 놓았다",
+      "category": "proper_noun",
+      "reason": "인명과 존칭의 띄어쓰기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-863D8842DAB825CA6737",
+      "source_text": "だがアルス様は自分を玉座に\nつける為と解釈した",
+      "before": "하지만 알스님은 자신을 왕좌에\n앉히기 위한 말로 해석했다",
+      "after": "하지만 알스 님은 자신을 왕좌에\n앉히려는 계획이라고 해석했다",
+      "category": "meaning",
+      "reason": "생략된 목적어를 보충해 아델의 행동을 자신을 즉위시키려는 계획으로 해석했다는 뜻을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-8651566AD63A3084561F",
+      "source_text": "……あの方はこれから\nカルブンクルスを攻める。\nいや、滅ぼすおつもりだ",
+      "before": "……그분은 이제\n카르분클루스를 공격할 거다.\n아니, 멸망시킬 생각이야",
+      "after": "……그분은 이제\n카르분클루스를 공격하신다.\n아니, 멸망시키려 하신다",
+      "category": "speaker_voice",
+      "reason": "높여 부르는 대상에게 맞춰 발화 전체의 존대 시제를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-86C445ED32D7CB9895F7",
+      "source_text": "私たちの通行はノース、サウス\n両ノワーレ教の教典によって\n保証されている筈です",
+      "before": "저희 통행은 노스와 사우스\n두 노와레교의 경전에 의해\n보장되어 있을 겁니다",
+      "after": "저희 통행은 노스·사우스\n두 노와레교의 경전으로\n보장되어 있을 겁니다",
+      "category": "terminology",
+      "reason": "両ノワーレ教의 병렬 관계와 경전에 따른 통행 보장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-876BA569EA54C7B56F7F",
+      "source_text": "あら、そういう発言は\n良くないとお姉さんは思うな",
+      "before": "어머, 그런 말은\n좋지 않다고 누나는 생각해",
+      "after": "어머, 그런 말은\n좋지 않다고 이 누나는 생각해",
+      "category": "speaker_voice",
+      "reason": "お姉さん의 장난스러운 자기 지칭을 자연스러운 한국어 구어체로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-87E22EB9E8039C7BFFEF",
+      "source_text": "聖皇様よ。なら、アイオーン隊が\n暗殺なんて仕事をしてるのも\nその未来予想図のためなのか？",
+      "before": "성황님. 그럼 아이온대가\n암살 같은 일을 하는 것도\n그 미래 설계도를 위해서인가?",
+      "after": "성황이군. 그럼 아이온대가\n암살 같은 일을 하는 것도\n그 미래 설계도를 위해서인가?",
+      "category": "meaning",
+      "reason": "聖皇様よ의 종결 조사 よ를 호칭으로 오인한 초안을 '성황이군'이라는 확인으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-894DA301677C29C920E2",
+      "source_text": "アルス様を助けることが\n出来るかもしれぬ",
+      "before": "알스님을 도울 수\n있을지도 모른다",
+      "after": "알스 님을 도울 수\n있을지도 모른다",
+      "category": "proper_noun",
+      "reason": "인명과 존칭의 띄어쓰기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-89B9E932EECF57CA1899",
+      "source_text": "共和国背理法によって元老院に\n吸い上げられた資金は\nノースノワーレ教に送られ",
+      "before": "공화국 배리법으로 원로원에\n빨려 들어간 자금은\n노스 노와레교로 보내졌고",
+      "after": "공화국 배리법으로 원로원이\n거둬들인 자금은\n노스 노와레교로 보내졌고",
+      "category": "meaning",
+      "reason": "吸い上げられた를 물리적으로 빨려 들어간다는 직역 대신 원로원이 자금을 거둬들인다는 뜻으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-89DCA3067490AE2B1471",
+      "source_text": "いいえ。ホゼアは式典がない限り\nいつも大聖堂の祈りの間にいると\n聞いていたけれど……",
+      "before": "아니. 호제아는 의식이 없는 한\n늘 대성당 기도의 방에 있다고\n들었는데……",
+      "after": "아니. 호제아는 공식 행사가 없는 한\n늘 대성당 기도의 방에 있다고\n들었는데……",
+      "category": "meaning",
+      "reason": "式典을 일반 의식이 아니라 공식 행사로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-8BCA31B498D99924CE9F",
+      "source_text": "だが真実であってもらわないと\n困ることになる",
+      "before": "하지만 사실이어야만\n곤란해지지 않는다",
+      "after": "하지만 사실이 아니라면\n곤란해진다",
+      "category": "meaning",
+      "reason": "真実であってもらわないと困る의 이중 부정을 사실이 아니면 곤란하다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-8CB99ACD596DE257AC48",
+      "source_text": "……おまえたちとは\n分かり合えまい。\nここでおまえたちを討つ！",
+      "before": "……너희와는\n서로 이해할 수 없겠군.\n여기서 너희를 친다!",
+      "after": "……너희와는\n서로 이해할 수 없겠군.\n여기서 너희를 쓰러뜨리겠다!",
+      "category": "meaning",
+      "reason": "討つ를 막연히 친다는 말이 아니라 상대를 쓰러뜨리겠다는 결의로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-8CF14DB469AC9CBEF439",
+      "source_text": "お前ら、裏ギルドの人間だな？",
+      "before": "너희, 뒷길드 사람이군?",
+      "after": "너희, 암흑 길드 소속이군?",
+      "category": "terminology",
+      "reason": "裏ギルド를 기존 시스템 데이터의 고정 번역 '암흑 길드'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-8D28D322DFAB4E1DE385",
+      "source_text": "それが新帝国憲章だ。アルス様は\n新帝国憲章によって、星に負担を\n強いない生活を行わせようとした",
+      "before": "그게 신제국 헌장이다. 알스님은\n신제국 헌장으로 별에 부담을\n주지 않는 생활을 하게 하려 했다",
+      "after": "그게 신제국 헌장이다. 알스 님은\n신제국 헌장으로 별에 부담을\n주지 않는 생활을 하게 하려 했다",
+      "category": "proper_noun",
+      "reason": "인명과 존칭 띄어쓰기를 프로젝트 표기에 맞춰 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-8FA6BC493A6C81824539",
+      "source_text": "……ここまで１人で来たのか？\n怪我は……ないか？",
+      "before": "……여기까지 １명으로 온 건가?\n다친 데는…… 없어?",
+      "after": "……여기까지 １명이서 온 건가?\n다친 데는…… 없어?",
+      "category": "grammar",
+      "reason": "１人で의 혼자 왔다는 의미를 숫자를 보존하면서 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8FD2AE54BED5559EB514",
+      "source_text": "それに俺はいつだって\nお前を見ていたつもりだぜ",
+      "before": "그리고 난 언제나\n너를 지켜봤다고 생각해",
+      "after": "그리고 난 언제나\n널 지켜봐 왔어",
+      "category": "meaning",
+      "reason": "見ていたつもりだ를 어색한 '생각해'가 아니라 계속 지켜봐 왔다는 화자의 의도로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-903CC2A3E3105346A54B",
+      "source_text": "ヴァイス様！　危ない！",
+      "before": "바이스님! 위험합니다!",
+      "after": "바이스 님! 위험합니다!",
+      "category": "proper_noun",
+      "reason": "인명과 존칭의 띄어쓰기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-908F6031AE6A95CF8101",
+      "source_text": "そうか、あんたもアルス様の\n感動的な演説に心を打たれて\nこっちに寝返ったクチだね",
+      "before": "그렇군, 당신도 알스님의\n감동적인 연설에 마음이 움직여\n이쪽으로 돌아선 부류구나",
+      "after": "그렇군, 당신도 알스 님의\n감동적인 연설에 마음이 움직여\n이쪽으로 돌아선 부류구나",
+      "category": "proper_noun",
+      "reason": "인명과 존칭의 띄어쓰기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-923A05338AE1C4B9DB83",
+      "source_text": "……無駄ですよ。その歌陣は体内の\nホゾンとレイを置き換えることで\nコード情報を抜き取るもの",
+      "before": "……소용없습니다. 그 가진은 체내의\n호존과 레이를 치환해서\n코드 정보를 추출하는 것",
+      "after": "……소용없습니다. 그 가진은 체내의\n호존과 레이를 치환해서\n코드 정보를 추출하는 장치입니다",
+      "category": "grammar",
+      "reason": "서술이 끊긴 명사구를 장치의 기능을 설명하는 완결된 문장으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-92E4C26EA0137286B33C",
+      "source_text": "……そう、だな。\n私もその信頼に報いたい",
+      "before": "……그래, 그렇군.\n나도 그 신뢰에 보답하고 싶다",
+      "after": "……그래, 맞아.\n나도 그 신뢰에 보답하고 싶다",
+      "category": "speaker_voice",
+      "reason": "そうだな를 불필요한 자기 확인 반복 대신 상대 말에 동의하는 자연스러운 응답으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-9614DAEB3295E80DA929",
+      "source_text": "でも悪辣なんて酷いよ……\nレイの供給を止められて\n困ってるのは私たちの方なのに",
+      "before": "하지만 악랄하다니 너무해……\n레이 공급을 끊겨서\n곤란한 건 우리 쪽인데",
+      "after": "하지만 악랄하다니 너무해……\n레이 공급이 끊겨서\n곤란한 건 우리 쪽인데",
+      "category": "grammar",
+      "reason": "공급을 끊긴다는 어색한 피동 조사 결합을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-97AC8183CF497B298994",
+      "source_text": "ついでに……世界も\nどうにか出来たらいいって思う",
+      "before": "그리고…… 세계도\n어떻게든 할 수 있으면 좋겠어",
+      "after": "내친김에…… 세계도\n어떻게든 할 수 있으면 좋겠어",
+      "category": "meaning",
+      "reason": "ついでに의 '하는 김에'라는 뜻을 단순 접속사 '그리고'보다 정확히 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-987D44E8D329DF0A09B5",
+      "source_text": "ひとつだけ、あるんです",
+      "before": "딱 하나, 있어요",
+      "after": "한 가지 방법이 있습니다",
+      "category": "meaning",
+      "reason": "앞에서 다른 수단을 묻는 문맥에 맞춰 생략된 '방법'을 보충했다."
+    },
+    {
+      "tm_id": "ARF-TM-99E0F494B703C1038083",
+      "source_text": "それは心得ているつもりです",
+      "before": "그건 명심하고 있습니다",
+      "after": "그 점은 알고 있습니다",
+      "category": "meaning",
+      "reason": "心得ている를 명심 중이라는 상태보다 해당 사정을 알고 있다는 뜻으로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-9A3E2CB7E8D9ED23D019",
+      "source_text": "そんな奴を追いかけるより\nレジスタンスのリーダーを\n見つけよう",
+      "before": "그런 녀석을 쫓기보다\n레지스탕스의 리더를\n찾자",
+      "after": "그런 녀석을 쫓기보다\n저항군의 지도자를\n찾자",
+      "category": "terminology",
+      "reason": "レジスタンス와 リーダー를 고정 용어 및 자연스러운 직책명으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-9B133CA0010D943F8813",
+      "source_text": "これで認可傭兵はクビ、か。\nただの傭兵になるって訳だ",
+      "before": "이걸로 공인 용병은 해고인가.\n그냥 용병이 되는 거군",
+      "after": "이걸로 공인 용병 자리에서는 잘리는 건가.\n이제 그냥 용병이 되는 거군",
+      "category": "naturalness",
+      "reason": "クビ를 직역한 '해고' 대신 공인 용병 자격을 잃는 상황으로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9B50E3A94193D47F98ED",
+      "source_text": "私たちもフェリスへ行きましょう",
+      "before": "우리도 페리스로 가자",
+      "after": "우리도 펠리스로 가자",
+      "category": "proper_noun",
+      "reason": "지명 フェリス를 고정 표기 '펠리스'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9C0ADB3F3B27A0E1D6FF",
+      "source_text": "何っスか、あれ！\n一度はアニキを裏切ったくせに！",
+      "before": "저게 뭠까!\n한번 형님을 배신했으면서!",
+      "after": "저게 뭡니까!\n한번 형님을 배신했으면서!",
+      "category": "naturalness",
+      "reason": "의미 전달을 해치는 과도한 축약형을 자연스러운 질문으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-9CB8EF783B91515AC9E8",
+      "source_text": "……しかし、今の私はアルス様の\n命ずるままに動くコマだ",
+      "before": "……하지만 지금의 나는 알스님의\n명령대로 움직이는 말이다",
+      "after": "……하지만 지금의 나는 알스 님이\n명령하는 대로 움직이는 장기말이다",
+      "category": "meaning",
+      "reason": "인명 존칭을 통일하고 コマ를 모호한 '말'이 아니라 조종되는 장기말이라는 비유로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-9D5AD8CE4C6EED32EED3",
+      "source_text": "良かった！　私たち\nあなたにホゾンのコード変換に\nついてお聞きしたくて……",
+      "before": "다행이다! 저희는\n호존의 코드 변환에 관해\n당신께 여쭤보고 싶어서……",
+      "after": "다행이에요! 저희는\n호존의 코드 변환에 관해\n여쭤보고 싶어서……",
+      "category": "speaker_voice",
+      "reason": "정중한 화자의 말투를 첫 감탄부터 일관되게 맞추고 중복 대명사를 덜어냈다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

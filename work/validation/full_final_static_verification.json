@@ -1,0 +1,183 @@
+{
+  "schema": "arf-full-final-static-verification-v1",
+  "generated_at_utc": "2026-08-03T20:38:04.101947+00:00",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "static_runtime_staging_status": "PASS",
+  "static_valid": true,
+  "release_lane_status": "PASS",
+  "dolphin_runtime_status": "NOT_SUPPLIED",
+  "runtime_ready_release": true,
+  "overall_status": "PASS",
+  "summary": {
+    "tm_units": 29777,
+    "catalog_occurrences": 84761,
+    "review_batches": 149,
+    "remaining_heuristic_warnings": 141,
+    "unwaived_heuristic_warnings": 0,
+    "system_payloads": 13,
+    "system_fields": 5236,
+    "font_pages": 9,
+    "image_reinsertion_targets": 44,
+    "text_physical_sources": 612,
+    "image_physical_sources": 43,
+    "overlay_allowlist_files": 655,
+    "unexpected_files": 0,
+    "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "release_overlay_files": 656,
+    "release_game_replacements": 655,
+    "installer_fixture_passed": 5,
+    "dolphin_runtime_checks": null
+  },
+  "lanes": {
+    "text_translation_and_report": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "final_text_font_report": "work/final_text_font_integration_report.json",
+        "final_text_font_report_sha256": "4FC16430D61DDB97B489CB7D1A42529FEB42E5B67A944D63E454016655327116",
+        "hash_bound_report_artifacts": 69,
+        "review_batches": 149,
+        "reviewed_units": 29777,
+        "validator_warnings": 141,
+        "tm_units": 29777,
+        "catalog_occurrences": 84761,
+        "text_physical_sources": 612,
+        "text_source_tree_sha256": "B2BB50009D2FBBFE4E4D683751B469E33EDBB27693787758F808796D25E66240"
+      }
+    },
+    "heuristic_warning_waivers": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "waivers_sha256": "0BEBDFADE1C1AF8112760881466326C522F1B19851C80317DFC521550E2AC4D1",
+        "waiver_verification_sha256": "AE4DF0D66171FDC0912ACECCDDBF38C8458225B8486E546EDCFE5872D1C81785",
+        "initial_warning_events": 148,
+        "corrected_warning_events": 7,
+        "remaining_warning_events": 141,
+        "exact_waiver_entries": 141,
+        "unwaived_warning_events": 0,
+        "stale_waiver_entries": 0
+      }
+    },
+    "system_tables_and_fonts": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "system_application_proof_sha256": "6297101ED6B35EA763C1D082D95B0A62A7259B76A96F5F9335CB1986EDDF90C3",
+        "system_payloads": 13,
+        "system_fields": 5236,
+        "system_payload_tree_sha256": "6498125CC3DF5F9DA6DF864A2E340CCEC0E5E8BF0ECF7963DE519006AA7E7977",
+        "font_pages": 9,
+        "font_tree_sha256": "D77DACF4BABFA9D90E9DAFDEF7EA4E8625D75ADAE3951B28AB7FDEA9528ABC47",
+        "codebook_sha256": "C068CE21DCD05D3081A26504757206543E7928921A30630F9154D3AA96790EC4",
+        "font_injection_verification_sha256": "4C566A28D5C91187D970AA8DC14ECEDBD33479C295FB2283EBB34DA9A6F40529"
+      }
+    },
+    "image_ui": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "reinsertion_manifest_sha256": "C4D18E426A267D3F0D3C7EF65CB3BBEEC4DF109A7040D184685F6EE724974665",
+        "structural_validation_sha256": "667E2AA9865CFB635A3F6F3A48FF22BFA5393278FFB904ACDEB226BAF309E8AB",
+        "structural_checks_passed": 48,
+        "reinsertion_targets": 44,
+        "direct_physical_targets": 43,
+        "cumulative_system_targets": 1,
+        "target_payload_tree_sha256": "5B06FB2C13F5892C5CEEBC91D194D82D4D541511D4455B76DD136B78E78394EC"
+      }
+    },
+    "immutable_source_rvz": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "path": "F:\\DOWN\\Arc Rise Fantasia (Japan)\\Arc Rise Fantasia (Japan).rvz",
+        "size_bytes": 3589772720,
+        "sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+        "modified": false
+      }
+    },
+    "runtime_staging": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "staging_manifest_sha256": "E882D404FABC0249BDA54FD3DD0AACE1507BD22AD61765E188A16DE291FA03AC",
+        "text_physical_files": 612,
+        "image_physical_files": 43,
+        "overlay_allowlist_files": 655,
+        "overlay_actual_files": 655,
+        "overlay_tree_sha256": "4C0D6C2C72943E409B21F1BF90542AC5E7B07B2950617A4B7D094DC0C7CE62C5",
+        "occurrence_application_rows": 84761,
+        "occurrence_application_manifest_sha256": "29783CF169352034686525676CA09DAEB3908A0FEA298492C36A3A33CA16D863",
+        "leaf_manifest_sha256": "392B6F742516AE162B661D3683DC33816F447C5331E5CE31F124DF2AC5AB042B",
+        "bscr_reports": 606,
+        "table_replacement_reports": 15,
+        "table_verification_reports": 15,
+        "container_reports": 608,
+        "individual_report_tree_sha256": "2456219C82BAAB35922368467279C6BDDEE80A827A7BCA815BEA655C976C7AC0",
+        "application_files": 2498,
+        "application_tree_sha256": "4694D200061D85901C8A44FF6078FE62400347AF01131922F6601964144F1262",
+        "unexpected_overlay_files": 0,
+        "missing_overlay_files": 0,
+        "unexpected_application_files": 0,
+        "missing_application_files": 0,
+        "unexpected_staging_files": 0,
+        "missing_staging_files": 0,
+        "unexpected_files": 0
+      }
+    },
+    "release_package": {
+      "status": "PASS",
+      "valid": true,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "status": "PASS",
+        "package_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0",
+        "manifest_sha256": "312D1352FA4865FC1A11BBB3264C2AFF54D4DD4AEB9750D3A1C58E2B08AA22F7",
+        "package_physical_files": 655,
+        "zip_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.zip",
+        "zip_size_bytes": 393887552,
+        "zip_sha256": "E4E7CB87E20266F41E41045C7A26EAFDD8607EAD60C6C98E23C219182F8685EB",
+        "release_validation_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\validation\\final_release_validation.json",
+        "release_validation_sha256": "DBE05112F69FF5958B114E9E49B149D58C6873938FAAD053D8E83D465C21E52B",
+        "release_validation_overlay_files": 656,
+        "release_validation_game_replacements": 655,
+        "installer_fixture_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\validation\\installer_fixture.json",
+        "installer_fixture_sha256": "F87177A14793F7C3AF4182605BB2526E0EC917A72A2017F5FAA63BF24D17EE0B",
+        "installer_fixture_passed": 5
+      }
+    },
+    "dolphin_runtime": {
+      "status": "NOT_SUPPLIED",
+      "valid": null,
+      "error_count": 0,
+      "errors": [],
+      "evidence": {
+        "status": "NOT_SUPPLIED",
+        "default_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\validation\\dolphin_runtime_validation.json",
+        "reason": "optional Dolphin runtime report was not supplied"
+      }
+    }
+  },
+  "static_error_count": 0,
+  "static_errors": [],
+  "release_error_count": 0,
+  "release_errors": [],
+  "dolphin_runtime_error_count": 0,
+  "dolphin_runtime_errors": []
+}

@@ -1,0 +1,1660 @@
+{
+  "schema": "arf-main-dol-lower-fragment-audit-v1",
+  "source_file": "DATA/sys/main.dol",
+  "source_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC",
+  "source_verification": {
+    "actual_file": "work/disc_extracted/DATA/sys/main.dol",
+    "actual_size": 4464672,
+    "actual_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC",
+    "expected_sha256_match": true,
+    "candidate_raw_byte_match_count": 606,
+    "candidate_raw_byte_mismatch_count": 0
+  },
+  "assigned_offset_start": 3958007,
+  "assigned_offset_end": 3997695,
+  "candidate_count": 606,
+  "included_count": 283,
+  "excluded_count": 323,
+  "unresolved_count": 0,
+  "validation": {
+    "custom_euc28_estimator": "ASCII=1 byte, non-ASCII=2 bytes",
+    "capacity_overflow_count": 0,
+    "printf_token_mismatch_count": 0,
+    "newline_mismatch_count": 0,
+    "errors": []
+  },
+  "exclusion_counts_by_reason": {
+    "developer_log_assert_or_runtime_diagnostic": 107,
+    "internal_non_display_string_or_unproven_visibility": 58,
+    "unavailable_test_or_debug_menu": 116,
+    "internal_or_invalid_placeholder_literal": 11,
+    "unreachable_developer_placeholder": 3,
+    "unavailable_tutorial_test_choice": 6,
+    "internal_identifier_or_dummy_label": 22
+  },
+  "exclusions": [
+    {
+      "offset": 3958007,
+      "source_text": ">> 内蔵フォントの作成に失敗しました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3958368,
+      "source_text": "(File) ファイルの読み込みに失敗しました( %s )\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3958415,
+      "source_text": "(File) ADXFで読み込む際、ファイルのサイズが違います、バッファーオーバーランの可能性があります\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3958585,
+      "source_text": "(File) File_read_check_async 予期せぬ戻り値 %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3958633,
+      "source_text": "(File) なんで何回も ASYNC 終了みてんねん\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3958675,
+      "source_text": "(File) さっき終了したって言ったやん!!\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3958714,
+      "source_text": "その圧縮タイプには対応していません\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3959376,
+      "source_text": ">> 未解放の MOBJ を初期化しようとしています\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3960834,
+      "source_text": ">> TEV のユーザー定義が記述されていますがマルチになっていません\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3960899,
+      "source_text": ">> 無効なマルチテクスチャセットです\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3961177,
+      "source_text": ">> 敵が読み込まれていません( %d )\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3961435,
+      "source_text": ">> 既にゲストキャラがいるのに、ゲストフラグ設定しようとしました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3961500,
+      "source_text": ">> パーティにいないキャラにゲストフラグ設定しようとしました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3961823,
+      "source_text": "■テストこ〜〜な〜〜！",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3961846,
+      "source_text": "■キャラバン",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3961859,
+      "source_text": "■イベント",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3961900,
+      "source_text": "ＳＥ再生　　　　　　　　　 : %d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3961932,
+      "source_text": "ＳＥ停止　　　　　　　　　 : %d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3961999,
+      "source_text": "リバーブＡＵＸ−Ａ　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962061,
+      "source_text": "リバーブＡＵＸ−Ｂ　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962093,
+      "source_text": "ＳＥ入れ替え（マップ）　 　> ＭＣＳ起動",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962133,
+      "source_text": "ＳＥ入れ替え（システム） 　> ＭＣＳ起動",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962173,
+      "source_text": "コリジョン描画　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962214,
+      "source_text": "トラップ描画　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962244,
+      "source_text": "パスカメラ描画　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962274,
+      "source_text": "アンビエント　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962304,
+      "source_text": "ＡＩパス軌道　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962334,
+      "source_text": "配置ＳＥ描画　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962364,
+      "source_text": "スクリプトログ　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962397,
+      "source_text": "ＥＥ−ＭＣＳ　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962427,
+      "source_text": "有効",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962432,
+      "source_text": "無効",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962437,
+      "source_text": "カメラオフセット　　Ｐ２ : %s(%.1f)(%s)",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962481,
+      "source_text": "カメラ補間パワー　　　　 : (%3.1f) 荒 <<<< 滑",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962527,
+      "source_text": "カメラ補間スピード　　　 : (%3.1f) 遅 <<<< 早",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962573,
+      "source_text": "テストコマンド（ＰＧ用） : Ａボタン実行",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962613,
+      "source_text": "キー入力無し時重力オフ　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962643,
+      "source_text": "する",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962648,
+      "source_text": "しない",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962655,
+      "source_text": "エンカウント　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962685,
+      "source_text": "マップチェンジ　　 > %s（現在のマップ）",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962725,
+      "source_text": "ＧＬＯＷ　　　　Ｗ : %.2f",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962751,
+      "source_text": "ＧＬＯＷカラー　Ｒ : %3d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962776,
+      "source_text": "　　　　　　　　Ｇ : %3d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962801,
+      "source_text": "　　　　　　　　Ｂ : %3d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962826,
+      "source_text": "　　　　　　　　Ａ : %3d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962851,
+      "source_text": "マテリアル　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962875,
+      "source_text": "マテリアル　Ａ　　 : %3d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962900,
+      "source_text": "ノード　　　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962924,
+      "source_text": "ノード表示　　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962948,
+      "source_text": "モーションチェック : %3d",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962973,
+      "source_text": "サウンド関連　　　 >",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3962994,
+      "source_text": "データチェック　　 >",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963015,
+      "source_text": "アニメカメラ　　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963039,
+      "source_text": "深度設定　　　　　 >",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963060,
+      "source_text": "フォグ設定　　　　 >",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963081,
+      "source_text": "デバッグモード　　 : %s",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963647,
+      "source_text": "MEMORY1 : %2d MB (0x%.8X byte) %5d(m:%3d) [%d％]\nMEMORY2 : %2d MB (0x%.8X byte) %5d(m:%3d) [%d％]\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963784,
+      "source_text": "全滅時でも復帰（イベントかな・・・）\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963859,
+      "source_text": "ワールド起動\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3963991,
+      "source_text": "時系列フラグ値 >>> %d\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964166,
+      "source_text": "gauss 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964178,
+      "source_text": "gauss_inv 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964194,
+      "source_text": "depth 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964206,
+      "source_text": "blur 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964217,
+      "source_text": "gauss_b 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964231,
+      "source_text": "glare 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964243,
+      "source_text": "wrap 解除\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964311,
+      "source_text": "グループ指定 : %d\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964362,
+      "source_text": "PC先制攻撃戦闘\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964378,
+      "source_text": "ENEMY先制攻撃戦闘\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964397,
+      "source_text": "通常戦闘\n",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964425,
+      "source_text": "辺境の森",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964469,
+      "source_text": "ジャダの街",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964497,
+      "source_text": "竜縛塔：外側",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964527,
+      "source_text": "竜縛塔：内部",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964557,
+      "source_text": "竜縛塔：シムマフの部屋",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964597,
+      "source_text": "盗賊のアジト：海岸沿い",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964637,
+      "source_text": "盗賊のアジト：洞窟内",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964675,
+      "source_text": "盗賊のアジト：船着き場",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964715,
+      "source_text": "密林",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964737,
+      "source_text": "密林ボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964765,
+      "source_text": "アデイン教神殿下層部",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964803,
+      "source_text": "オーリエンス首都",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964837,
+      "source_text": "海中通路",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964863,
+      "source_text": "アデイン教神殿上層部",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964901,
+      "source_text": "カルブンクルス・プリズン",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964943,
+      "source_text": "ティグリス河（仮）",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3964979,
+      "source_text": "エブル遺跡",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965007,
+      "source_text": "死の峡谷：崖",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965037,
+      "source_text": "死の峡谷：谷底",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965069,
+      "source_text": "廃屋ダンジョン：地下実験場",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965113,
+      "source_text": "廃屋ダンジョン：教会地下",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965155,
+      "source_text": "廃屋ダンジョン：外側",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965193,
+      "source_text": "バトラキテス",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965223,
+      "source_text": "メリディアン帝国旗艦：甲板",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965267,
+      "source_text": "メリディアン帝国旗艦：内部",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965311,
+      "source_text": "ディアマント城",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965343,
+      "source_text": "ディアマント城：ボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965383,
+      "source_text": "白月居住区",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965411,
+      "source_text": "白月",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965433,
+      "source_text": "白月：ボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965463,
+      "source_text": "赤月",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965485,
+      "source_text": "赤月：ボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965515,
+      "source_text": "蒼月",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965537,
+      "source_text": "蒼月：ボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965567,
+      "source_text": "蒼月：ラストボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965603,
+      "source_text": "神竜競合ダンジョン１",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965641,
+      "source_text": "火山外",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965665,
+      "source_text": "火山中",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965689,
+      "source_text": "神竜競合ダンジョン３",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965727,
+      "source_text": "神竜競合ダンジョン４",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965765,
+      "source_text": "神竜競合ダンジョン５",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965803,
+      "source_text": "隠し神竜ダンジョン１",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965841,
+      "source_text": "隠し神竜ダンジョン２",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965879,
+      "source_text": "神竜戦専用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965907,
+      "source_text": "エクストラダンジョン",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3965945,
+      "source_text": "エクストラダンジョン：ボス用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966008,
+      "source_text": "闘技場",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966032,
+      "source_text": "ワールドマップ：平原",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966070,
+      "source_text": "ワールドマップ：森",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966106,
+      "source_text": "ワールドマップ：砂漠",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966144,
+      "source_text": "ワールドマップ：海岸",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966182,
+      "source_text": "ワールドマップ：雪原",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966220,
+      "source_text": "バトラキテス（船あり）",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966260,
+      "source_text": "ワールドマップ：エブル周辺",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966304,
+      "source_text": "ワールドマップ：海岸：ルフンガ用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966354,
+      "source_text": "戦闘背景デバッグ用",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966441,
+      "source_text": "戦闘背景サンプル",
+      "reason": "unavailable_test_or_debug_menu"
+    },
+    {
+      "offset": 3966563,
+      "source_text": ">> 戦闘キャラクタ読み込み(%d) alloc\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3966600,
+      "source_text": ">> 何も装備していないか不正な武器を装備しています(PC:%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3966658,
+      "source_text": ">> 読み込みたい武器は既に読み込まれています(%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3966707,
+      "source_text": ">> 武器読み込み(%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3966728,
+      "source_text": ">> キャラクタがいないのに武器を読み込もうとしました(キャラクタ：%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3966834,
+      "source_text": "%d は、バトルメンバーでないのでキャッシュから消去\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3966915,
+      "source_text": "%d は、キャッシュにいるっぽい〜ん\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3966950,
+      "source_text": "%d は、キャッシュにいないっぽいので、読み込み対象だ〜ね\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967007,
+      "source_text": "バトルＰＣ入れ替えタスク削除\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967037,
+      "source_text": "%d 読み込み完了\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967054,
+      "source_text": ">> 戦闘キャラクタ読み込み(%d) cache\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967091,
+      "source_text": "バトルＰＣ入れ替え中にまた入れ替えろとな〜？？？\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3967389,
+      "source_text": "ワークバッファが足りません Connet_top\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967428,
+      "source_text": "ワークバッファが足りません Connet_end\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967680,
+      "source_text": ">> 敵ＩＤ範囲外の敵をロードしようとしました(%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967742,
+      "source_text": "停止します\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3967772,
+      "source_text": ">> (ERROR) 敵データが破損しています(%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3967839,
+      "source_text": ">> フリーな位置の取得に失敗しました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3968249,
+      "source_text": "96盗まれた",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968304,
+      "source_text": "停止中だよもん",
+      "reason": "unreachable_developer_placeholder"
+    },
+    {
+      "offset": 3968650,
+      "source_text": "E2ディザスターファング",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968674,
+      "source_text": "E6煌歌",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968682,
+      "source_text": "E4ミリオンリグレット",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968704,
+      "source_text": "E7斬影",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968712,
+      "source_text": "E5イクシード迅雷昂",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968732,
+      "source_text": "E0クリムゾンシュート",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968754,
+      "source_text": "E3ジオインパクト",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968772,
+      "source_text": "E1ミスティックフォーチュン",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3968876,
+      "source_text": ">> 魔法バンク使用中です（ %d ）\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3968915,
+      "source_text": ">> そんなテーブル関数は存在しません( %d )\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3968983,
+      "source_text": ">> ユーザー定義の方が間違っています（%s）\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3969819,
+      "source_text": "うっとうしいから見ない",
+      "reason": "unavailable_tutorial_test_choice"
+    },
+    {
+      "offset": 3969842,
+      "source_text": "「ＡＰについての説明」を見る",
+      "reason": "unavailable_tutorial_test_choice"
+    },
+    {
+      "offset": 3969871,
+      "source_text": "「光術連携の説明」を見る",
+      "reason": "unavailable_tutorial_test_choice"
+    },
+    {
+      "offset": 3969896,
+      "source_text": "「アビリティの説明」を見る",
+      "reason": "unavailable_tutorial_test_choice"
+    },
+    {
+      "offset": 3969923,
+      "source_text": "「適当なキャラ絵」を見る",
+      "reason": "unavailable_tutorial_test_choice"
+    },
+    {
+      "offset": 3969948,
+      "source_text": "「汗臭い･･･」を見る",
+      "reason": "unavailable_tutorial_test_choice"
+    },
+    {
+      "offset": 3970009,
+      "source_text": ">> コマンドに項目をつみすぎました。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3970196,
+      "source_text": "あれ？？\n",
+      "reason": "unreachable_developer_placeholder"
+    },
+    {
+      "offset": 3970277,
+      "source_text": "warning : 指定文字列が文字列格納領域から見つかりません。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3970335,
+      "source_text": "warning : スクリプトのバージョンが古い可能性があります。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3970929,
+      "source_text": " ファンクションスタックオーバーフロー\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3971032,
+      "source_text": "同じ関数が２回以上コールされている!!!!!\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3971156,
+      "source_text": "スタックインデックス : %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3971608,
+      "source_text": "チェックディジット = %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3971633,
+      "source_text": "セーブ管理タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3971668,
+      "source_text": "セーブ管理タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3971704,
+      "source_text": "セーブデータがあった\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3971726,
+      "source_text": "セーブデータがない\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3971746,
+      "source_text": "セーブ開始\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3971941,
+      "source_text": "セーブ失敗\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972247,
+      "source_text": "ロード管理タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972271,
+      "source_text": "ロード管理タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972295,
+      "source_text": "セーブデータのバージョンが違う %d != %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972336,
+      "source_text": "%d番目のデータ構造体サイズがおかしい %d != %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972383,
+      "source_text": "%d番目のデータチェックディジットがおかしい %d != %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972436,
+      "source_text": "キャラ読み込み終了\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972482,
+      "source_text": "ワールドでロードされた\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972506,
+      "source_text": "ロード時\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972516,
+      "source_text": "ここにくることはあってはならない",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972549,
+      "source_text": "NAND空きチェックタスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972579,
+      "source_text": "NAND空きチェックタスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3972803,
+      "source_text": "アプリブロック = %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972824,
+      "source_text": "アプリノード   = %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972845,
+      "source_text": "空きブロック = %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972864,
+      "source_text": "空きノード   = %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3972883,
+      "source_text": "ホームディレクトリに作成可能なファイルサイズの上限を超過しようとしている。\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3973127,
+      "source_text": "ホームディレクトリに作成可能なファイル／ディレクトリ数の上限を超過しようとしている。 \n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3973354,
+      "source_text": "システムで予約されている空き容量を消費しようとしている。 \n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3973413,
+      "source_text": "システムで予約されている空きiノードを消費しようとしている。 \n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3973638,
+      "source_text": "タイトルセーブデータチェックタスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3973680,
+      "source_text": "タイトルセーブデータチェックタスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3973728,
+      "source_text": ">> テーブル以上の番号がコールされました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3973789,
+      "source_text": "Data_create(...) -> バンクオーバーです。拡張してくださいな。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3973851,
+      "source_text": ">> エフェクトデータのバージョンが異なります\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3973896,
+      "source_text": "Addr_set(...) -> バンクオーバーです。拡張してくださいな。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3973955,
+      "source_text": ">> エフェクトデータではないものが割り当てられました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974008,
+      "source_text": ">> Eff_bank_addr_set_mem(...) -> エフェクトはそのバンクには読み込まれてません!!\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974096,
+      "source_text": ">> eff_init_get_table_addr(...) データが無いのに値を変更しようとしました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974184,
+      "source_text": ">> そのエフェクト初期化関数はまだ実装されてないです\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974240,
+      "source_text": ">> (ERROR) EFF_TBL_CMD_EFF_ENTRY_BONE_ エラー。そのエントリーのエフェクトは存在しません(%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974336,
+      "source_text": ">> Render_eff_sort_entry(...) -> 登録数がオーバーです。拡張せんといかんね\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974411,
+      "source_text": ">> (ERROR) Sort_entry(...) -> 例外処理です( NULL ), 登録できませんでした。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3974908,
+      "source_text": "サスペンド状態に落とす\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3974932,
+      "source_text": "サスペンド状態から復帰する\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3975024,
+      "source_text": "読み込み完了\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975134,
+      "source_text": "NPC or ENEMY読み込み待機タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975172,
+      "source_text": "NPC or ENEMY読み込み待機タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975210,
+      "source_text": "PC読み込み待機タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975238,
+      "source_text": "PC読み込み待機タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975355,
+      "source_text": "****** ユーザー定義が間違っています（%s）\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975459,
+      "source_text": "存在しないモーションを再生しようとしたよ %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3975609,
+      "source_text": "info : パスカメラフレーム数 %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3975641,
+      "source_text": "error : パスカメラのフレーム数が %d を超えています\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3975759,
+      "source_text": "または、登録できるNPCインデックスが%d体を超えました\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3975836,
+      "source_text": "または、登録できるOBJインデックスが%d個を超えました\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3975913,
+      "source_text": "または、登録できるTREインデックスが%d個を超えました\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3975990,
+      "source_text": "または、登録できるENEMYインデックスが%d体を超えました\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3976155,
+      "source_text": "warning : batch_end()が batch_start()と対になっていない\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3976677,
+      "source_text": "****** ユーザー定義が間違っています（%s）\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3976720,
+      "source_text": "event_chr_change_tex chr%d 変更できるマテリアル数最大値を超えてます\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3976789,
+      "source_text": "マテリアル parts_no発見 = %d [%d]\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977006,
+      "source_text": "NPC IDがNPC最大登録数を超えています\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977043,
+      "source_text": "scr err >>>> 既にCHR_NPC%.2dは他のキャラに使用されています\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3977125,
+      "source_text": "err >> NPCにＡＩをつけようとしましたが、肝心なNPCがいません (CHR_NPC%.2d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3977200,
+      "source_text": "OBJ IDがOBJ最大登録数を超えています\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977237,
+      "source_text": "ENEMY IDがENEMY最大登録数を超えています\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977303,
+      "source_text": "err >> 敵にＡＩをつけようとしましたが、肝心な敵がいません (ENM_DAT%.2d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3977392,
+      "source_text": "いっぱいいっぱい P\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977412,
+      "source_text": "move_direction warning : このNPC[%d番]は配置されていますか？\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3977494,
+      "source_text": "いっぱいいっぱい D\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977514,
+      "source_text": "フレーム変更 %3.3f\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3977691,
+      "source_text": "配置できるエフェクトの数が %d 個を超えました\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977880,
+      "source_text": "%s はパーティにいません\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3977905,
+      "source_text": "指定ケージスロットが存在しません\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3978327,
+      "source_text": "user resource が読み込まれていません\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3978395,
+      "source_text": "user se が読み込まれていません\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3978517,
+      "source_text": "クエストクリアチェック(%d)=%s\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3978731,
+      "source_text": "内部 : %3.3f\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3978745,
+      "source_text": "背景モデル(%d)セピア化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3978783,
+      "source_text": "未接続\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3978791,
+      "source_text": "リモコン\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3978801,
+      "source_text": "ヌンチャク\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3978813,
+      "source_text": "クラコン\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3978823,
+      "source_text": "ＧＣパッド\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3979256,
+      "source_text": ">> ダメージ計算の atks_p が NUL できたっすー\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3979304,
+      "source_text": ">> ※※ NAND ホームディレクトリの取得に失敗 ※※\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3979354,
+      "source_text": ">> ※※ NAND ホームディレクトリの移動に失敗 ※※\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3979583,
+      "source_text": "ERROR : スクリプト overflow queue\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3979618,
+      "source_text": "スキップターゲットが見つかりません\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979681,
+      "source_text": "MW_TALK   メッセージ・・・[%s]\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979713,
+      "source_text": "MW_TALKNC メッセージ・・・[%s]\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979745,
+      "source_text": "MW_TALKBC メッセージ・・・[%s]\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979777,
+      "source_text": "MW_TALKNCNA メッセージ・・・[%s]\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979811,
+      "source_text": "UNKNOWN メッセージ・・・[%s]\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979841,
+      "source_text": "voice start HBM起動中\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3979960,
+      "source_text": "GetSbd_DataHeader  データがありません  %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3980003,
+      "source_text": "GetSbd_Data  ヘッダがありません  %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3980040,
+      "source_text": "GetSbd_Data  データがありません  %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3980077,
+      "source_text": "アイコンデータがありません。\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3980111,
+      "source_text": "マップがありません。",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3982231,
+      "source_text": "会話メッセージのデータがSC_NPC_MESSAGE_MAX_を超えています\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3982542,
+      "source_text": "#####    コリジョンオブジェクト登録ミスしました！     ####\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3983528,
+      "source_text": ">> アイテム持ってないのに装備しようとしましたよ！(item_no=%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3983591,
+      "source_text": ">> だから装備なんてしないんだから！(pc_no=%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3983638,
+      "source_text": ">> アイテムがないのに装備しようとしましたよ(%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3983687,
+      "source_text": ">> 範囲外のスロットにジェムをセットしようとしました(%d/%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3986912,
+      "source_text": "コマ落ち = %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3986927,
+      "source_text": "デコードスキップ = %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3986950,
+      "source_text": "表示スキップ = %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3986969,
+      "source_text": "エンプティBスキップ = %d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3987006,
+      "source_text": "ムービーファイル名がありません\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3987038,
+      "source_text": "ムービーワークバッファ:%d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3987086,
+      "source_text": "T_Movie構造体の確保に失敗しました\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3987332,
+      "source_text": "ムービー再生タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3987371,
+      "source_text": "ムービー再生タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3988304,
+      "source_text": "インドア管理タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3988343,
+      "source_text": "インドア管理タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3991696,
+      "source_text": "環境エフェクト管理タスク初期化\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3991741,
+      "source_text": "環境エフェクト管理タスク後始末\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3991932,
+      "source_text": "アイコン番号が%d\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3992296,
+      "source_text": ">> CBTL_EFFECT::Eff_boot(...) エフェクトを起動できませんでした(%d:%d)\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3992768,
+      "source_text": ">> 魔法バンク使用中です（ %d ）\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3993540,
+      "source_text": "ショップウィンドウの作成に失敗\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3993572,
+      "source_text": "ギルドウィンドウの作成に失敗\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3993602,
+      "source_text": "説明を聞き終わった\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3993622,
+      "source_text": "「説明を聞く」を選んだ\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3993671,
+      "source_text": "カジノウィンドウの作成に失敗\n",
+      "reason": "developer_log_assert_or_runtime_diagnostic"
+    },
+    {
+      "offset": 3993701,
+      "source_text": "「説明を聞く」を選んだ %d\n",
+      "reason": "internal_non_display_string_or_unproven_visibility"
+    },
+    {
+      "offset": 3994177,
+      "source_text": "ないよ〜〜ん",
+      "reason": "unreachable_developer_placeholder"
+    },
+    {
+      "offset": 3994754,
+      "source_text": "ダミー３",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994763,
+      "source_text": "ダミー４",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994772,
+      "source_text": "ダミー５",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994781,
+      "source_text": "ダミー６",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994790,
+      "source_text": "ダミー７",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994799,
+      "source_text": "ダミー８",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994808,
+      "source_text": "ダミー９",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994980,
+      "source_text": "50セーブポイント",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3994998,
+      "source_text": "51宝箱",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995006,
+      "source_text": "52次のマップ",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995020,
+      "source_text": "53ワールドマップ",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995038,
+      "source_text": "54はしご",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995048,
+      "source_text": "55宿屋",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995056,
+      "source_text": "56道具屋",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995066,
+      "source_text": "57武具屋",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995076,
+      "source_text": "58工房",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995084,
+      "source_text": "59仕立屋",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995094,
+      "source_text": "5aギルド",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995104,
+      "source_text": "5bカジノ",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995114,
+      "source_text": "5c闘技場",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995124,
+      "source_text": "5dハーモニーホール",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995144,
+      "source_text": "5e現在位置",
+      "reason": "internal_identifier_or_dummy_label"
+    },
+    {
+      "offset": 3995515,
+      "source_text": "96になります。\nよろしいですか？",
+      "reason": "internal_or_invalid_placeholder_literal"
+    },
+    {
+      "offset": 3996339,
+      "source_text": "96になります。\nよろしいですか？",
+      "reason": "internal_or_invalid_placeholder_literal"
+    }
+  ],
+  "provenance": {
+    "translation_engine": "Codex internal model only",
+    "external_translation_used": false,
+    "terminology_sources": [
+      "work/translation/glossary_agent/glossary.csv",
+      "work/translation/final/translation_memory_draft.json"
+    ]
+  }
+}

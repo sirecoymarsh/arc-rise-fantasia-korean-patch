@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-08-03T02:40:21.086Z",
+  "tool": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\rtdp_tool.js",
+  "fixedLayoutCases": [
+    {
+      "extractionDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\fc_00_001",
+      "sourceArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Event\\fc\\fc_00_001.vol",
+      "repackedArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\fc_00_001.repacked.vol",
+      "sourceSize": 4128,
+      "repackedSize": 4128,
+      "sourceSha256": "013da5122f3cb0354840c59dd8b1ee58f37291972ba9692c70c0e6965287ecdd",
+      "repackedSha256": "013da5122f3cb0354840c59dd8b1ee58f37291972ba9692c70c0e6965287ecdd",
+      "byteExact": true,
+      "differentByteCount": 0,
+      "differentOffsets": []
+    },
+    {
+      "extractionDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\btl_gameover",
+      "sourceArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Btl\\btl_gameover.vol",
+      "repackedArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\btl_gameover.repacked.vol",
+      "sourceSize": 241664,
+      "repackedSize": 241664,
+      "sourceSha256": "5e1bd2605b55815364d43e586f22310cea797ff1c1d48dcd7408915f01817f17",
+      "repackedSha256": "5e1bd2605b55815364d43e586f22310cea797ff1c1d48dcd7408915f01817f17",
+      "byteExact": true,
+      "differentByteCount": 0,
+      "differentOffsets": []
+    },
+    {
+      "extractionDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\system",
+      "sourceArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\system.vol",
+      "repackedArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\system.repacked.vol",
+      "sourceSize": 6172640,
+      "repackedSize": 6172640,
+      "sourceSha256": "1a7c20a70c3e62d6640048d20f0200232a73fc9ea17bba9f62b8bf6d06f9471d",
+      "repackedSha256": "1a7c20a70c3e62d6640048d20f0200232a73fc9ea17bba9f62b8bf6d06f9471d",
+      "byteExact": true,
+      "differentByteCount": 0,
+      "differentOffsets": []
+    },
+    {
+      "extractionDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\system_nested_enm_symbole",
+      "sourceArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\system\\payloads\\0049__enm_symbole.efp",
+      "repackedArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\system_nested_enm_symbole.repacked.vol",
+      "sourceSize": 56000,
+      "repackedSize": 56000,
+      "sourceSha256": "d9d126c095df82c41a302c888da3c112087df57d1a24f5531c9698510fc19cde",
+      "repackedSha256": "d9d126c095df82c41a302c888da3c112087df57d1a24f5531c9698510fc19cde",
+      "byteExact": true,
+      "differentByteCount": 0,
+      "differentOffsets": []
+    }
+  ],
+  "allFixedLayoutCasesByteExact": true,
+  "sameSizeMutation": {
+    "sourceArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Event\\fc\\fc_00_001.vol",
+    "extractionDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\fc_00_001_same_size_mutation",
+    "repackedArchive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\fc_00_001_same_size_mutation.repacked.vol",
+    "reextractedDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\fc_00_001_same_size_mutation.reextracted",
+    "payloadEditOffset": 31,
+    "expectedStoredArchiveOffset": 127,
+    "decodedByteBefore": 0,
+    "decodedByteAfter": 1,
+    "storedByteBefore": 85,
+    "storedByteAfter": 84,
+    "xorKey": "0x55",
+    "xorRelationBefore": true,
+    "xorRelationAfter": true,
+    "archiveSizePreserved": true,
+    "archiveDifference": {
+      "differentByteCount": 1,
+      "differentOffsets": [
+        {
+          "offset": 127,
+          "left": 85,
+          "right": 84
+        }
+      ]
+    },
+    "reextractedPayloadSha256": "ddfa3ee183797db09cf0d62cc4e0129ecce0181e8300eb09086443d7876ebd27",
+    "editedPayloadSha256": "ddfa3ee183797db09cf0d62cc4e0129ecce0181e8300eb09086443d7876ebd27",
+    "editedPayloadRecoveredExactly": true
+  },
+  "resizeGuard": {
+    "extractionDirectory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\fixtures\\fc_00_001_resize_rejection",
+    "originalPayloadSize": 4028,
+    "editedPayloadSize": 4029,
+    "processExitCode": 1,
+    "rejected": true,
+    "stderr": "ERROR: Error: Entry 0 fc_00_001.bscr: size changed 4028 -> 4029; fixed-layout repack refuses resizing\n    at repackArchive (C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\rtdp_tool.js:432:13)\n    at main (C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\rtdp_tool.js:859:44)\n    at Object.<anonymous> (C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\rtdp_agent\\rtdp_tool.js:896:3)\n    at Module._compile (node:internal/modules/cjs/loader:1830:14)\n    at Object..js (node:internal/modules/cjs/loader:1961:10)\n    at Module.load (node:internal/modules/cjs/loader:1553:32)\n    at Module._load (node:internal/modules/cjs/loader:1355:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+    "outputArchiveExists": false
+  }
+}

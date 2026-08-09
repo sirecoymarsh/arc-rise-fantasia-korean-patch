@@ -1,0 +1,295 @@
+{
+  "schema": "arf-main-dol-crossreview-v1",
+  "valid": true,
+  "verdict": "PASS",
+  "review_policy": {
+    "reviewer": "independent Codex internal model",
+    "external_translation_tools_or_apis_used": false,
+    "full_rows_read_and_cross_checked": 925,
+    "dimensions": [
+      "Japanese source meaning and runtime lane context",
+      "natural Korean, terminology, and compact fixed-capacity wording",
+      "runtime-variable particle safety",
+      "printf/control/ASCII-prefix/newline preservation",
+      "raw offset, source bytes, NUL terminator, and byte capacity",
+      "strong Japanese residue and codebook glyph closure",
+      "29,777-unit final TM and locked glossary/style guide consistency",
+      "400-row debug/internal exclusion accounting"
+    ]
+  },
+  "authoritative_inputs": {
+    "source_main_dol": {
+      "path": "work/disc_extracted/DATA/sys/main.dol",
+      "size": 4464672,
+      "sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+    },
+    "pre_crossreview_translations_sha256": "A0F997FCECB0B7C6697C1E2CE3510F1F5F72A3A22EDAD0F9CFC13957B93A8A91",
+    "final_tm": {
+      "path": "work/translation/final/translation_memory_draft.json",
+      "unit_count": 29777,
+      "sha256": "24F2E372067160BCD5710623135B2A316B7A314BF56101F265DA7B64C765D93D"
+    },
+    "glossary": {
+      "path": "work/translation/glossary_agent/glossary.csv",
+      "sha256": "0AC89DD4B593B3E2664D8CBB4FC9A40730F9407A3D381620E99AB135C3510DD1"
+    },
+    "style_guide": {
+      "path": "work/translation/glossary_agent/style_guide.md",
+      "sha256": "0382CBABF15A5EF248D125583E0E27EBECD12EB9BE6F38925647A1631D106583"
+    },
+    "exclusions": {
+      "path": "work/runtime_fix/main_dol_exclusions.jsonl",
+      "count": 400,
+      "sha256": "C478E1A5CD71FC5CE5B03F0A099118E055EBB66BA1082C5801A2703DDE3CBEB8"
+    }
+  },
+  "result": {
+    "translations_path": "work/runtime_fix/main_dol_translations.jsonl",
+    "translations_sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3",
+    "reviewed_rows": 925,
+    "corrected_rows": 146,
+    "unchanged_after_review_rows": 779,
+    "correction_lane_counts": {
+      "battle_status": 1,
+      "battle_log": 11,
+      "battle_action": 2,
+      "system_notification": 4,
+      "speaker_name": 2,
+      "common_prompt": 2,
+      "shop_prompt": 3,
+      "cage_prompt": 1,
+      "casino_prompt": 1,
+      "travel_prompt": 1,
+      "system_menu": 5,
+      "quest": 1,
+      "initial_setup": 1,
+      "casino": 1,
+      "map_ui": 2,
+      "common_ui": 1,
+      "place_name": 2,
+      "minigame": 2,
+      "area_name": 36,
+      "map_name": 67
+    },
+    "change_log": {
+      "path": "work/runtime_fix/main_dol_crossreview_changes.json",
+      "sha256": "C3372D6E127BE8707D989AF3063ADCFBD1643516541528F08849D1BDAFA5FEF8"
+    }
+  },
+  "coverage": {
+    "translated_user_visible": 925,
+    "excluded_debug_internal": 400,
+    "audited_candidates": 1325,
+    "overlap_count": 0,
+    "unresolved_count": 0,
+    "accounting_valid": true
+  },
+  "tm_crosscheck": {
+    "exact_source_matches": 142,
+    "exact_target_matches": 96,
+    "differences_for_hard_capacity": 41,
+    "deliberate_context_ui_differences": 5,
+    "deliberate_context_ui_rows": [
+      {
+        "offset_hex": "0x003C93CD",
+        "source_text": "はい",
+        "translation_ko": "예",
+        "tm_translation_ko": "네"
+      },
+      {
+        "offset_hex": "0x003C93D2",
+        "source_text": "いいえ",
+        "translation_ko": "아니요",
+        "tm_translation_ko": "아니"
+      },
+      {
+        "offset_hex": "0x003C9A05",
+        "source_text": "持ちきれないか……",
+        "translation_ko": "더는 못 드나……",
+        "tm_translation_ko": "다 들 수 없나……"
+      },
+      {
+        "offset_hex": "0x003CFC6C",
+        "source_text": "はい",
+        "translation_ko": "예",
+        "tm_translation_ko": "네"
+      },
+      {
+        "offset_hex": "0x003CFC71",
+        "source_text": "いいえ",
+        "translation_ko": "아니요",
+        "tm_translation_ko": "아니"
+      }
+    ]
+  },
+  "glossary_crosscheck": {
+    "exact_source_matches": 122,
+    "exact_target_matches": 110,
+    "hard_capacity_exceptions": 12,
+    "hard_capacity_exception_rows": [
+      {
+        "offset_hex": "0x003C8A70",
+        "source_text": "物理無効",
+        "translation_ko": "물리무효",
+        "glossary_target_ko": "물리 무효",
+        "capacity": 8,
+        "glossary_bytes": 9
+      },
+      {
+        "offset_hex": "0x003C8A79",
+        "source_text": "光召無効",
+        "translation_ko": "광소무효",
+        "glossary_target_ko": "광소 무효",
+        "capacity": 8,
+        "glossary_bytes": 9
+      },
+      {
+        "offset_hex": "0x003CF52D",
+        "source_text": "骸使い",
+        "translation_ko": "사령사",
+        "glossary_target_ko": "망자술사",
+        "capacity": 6,
+        "glossary_bytes": 8
+      },
+      {
+        "offset_hex": "0x003D1E7A",
+        "source_text": "ガロア大裂溝",
+        "translation_ko": "갈루아대열곡",
+        "glossary_target_ko": "갈루아 대열곡",
+        "capacity": 12,
+        "glossary_bytes": 13
+      },
+      {
+        "offset_hex": "0x003D1EA3",
+        "source_text": "ナブラ密林",
+        "translation_ko": "나블라밀림",
+        "glossary_target_ko": "나블라 밀림",
+        "capacity": 10,
+        "glossary_bytes": 11
+      },
+      {
+        "offset_hex": "0x003D1EE5",
+        "source_text": "ガウス地下道",
+        "translation_ko": "가우스지하도",
+        "glossary_target_ko": "가우스 지하도",
+        "capacity": 12,
+        "glossary_bytes": 13
+      },
+      {
+        "offset_hex": "0x003D1F87",
+        "source_text": "空中回廊ベルクト",
+        "translation_ko": "공중회랑베르쿠트",
+        "glossary_target_ko": "공중 회랑 베르쿠트",
+        "capacity": 16,
+        "glossary_bytes": 18
+      },
+      {
+        "offset_hex": "0x003E83A0",
+        "source_text": "ナブラ密林",
+        "translation_ko": "나블라밀림",
+        "glossary_target_ko": "나블라 밀림",
+        "capacity": 10,
+        "glossary_bytes": 11
+      },
+      {
+        "offset_hex": "0x003E83EC",
+        "source_text": "ガウス地下道",
+        "translation_ko": "가우스지하도",
+        "glossary_target_ko": "가우스 지하도",
+        "capacity": 12,
+        "glossary_bytes": 13
+      },
+      {
+        "offset_hex": "0x003E84D0",
+        "source_text": "ガロア大裂溝",
+        "translation_ko": "갈루아대열곡",
+        "glossary_target_ko": "갈루아 대열곡",
+        "capacity": 12,
+        "glossary_bytes": 13
+      },
+      {
+        "offset_hex": "0x003E86E4",
+        "source_text": "空中回廊ベルクト",
+        "translation_ko": "공중회랑베르쿠트",
+        "glossary_target_ko": "공중 회랑 베르쿠트",
+        "capacity": 16,
+        "glossary_bytes": 18
+      },
+      {
+        "offset_hex": "0x003E8A74",
+        "source_text": "オルキナ教大神殿",
+        "translation_ko": "오르키나교대신전",
+        "glossary_target_ko": "오르키나교 대신전",
+        "capacity": 16,
+        "glossary_bytes": 17
+      }
+    ],
+    "unjustified_fit_differences": []
+  },
+  "font_encoding": {
+    "baseline_codebook": {
+      "path": "work/font/final_v1/codebook.json",
+      "sha256": "C068CE21DCD05D3081A26504757206543E7928921A30630F9154D3AA96790EC4"
+    },
+    "validation_codebook_append_only": {
+      "path": "work/runtime_fix/main_dol_crossreview_codebook_temp.json",
+      "sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF"
+    },
+    "modified_existing_mapping_count": 0,
+    "appended_characters": [
+      "켬"
+    ],
+    "missing_hangul_against_baseline": [
+      "켬"
+    ],
+    "missing_hangul_against_validation_codebook": [],
+    "release_dependency": "The final v2 append-only codebook/font rebuild must include 켬. The temporary validation codebook proves the JSONL is otherwise encodable without changing any existing mapping."
+  },
+  "patcher_validation": {
+    "report_path": "work/runtime_fix/main_dol_crossreview_patch_report.json",
+    "report_sha256": "BED617A61BFC8531BD40FC5597F38BBC3B30B338F31680AB98AB6289EE27ED94",
+    "patched_dol_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\main.dol.crossreview.patched",
+    "patched_dol_sha256": "2FF34AC7A78176DD2464ACA4DF925D5B70507CC98111D94091C5F1824626AC2C",
+    "summary": {
+      "patch_rows": 925,
+      "source_bytes": 16721,
+      "encoded_bytes": 14225,
+      "zero_padding_bytes": 2496,
+      "changed_byte_offsets": 16260,
+      "file_size_preserved": true,
+      "all_original_raw_verified": true,
+      "all_original_terminating_nuls_preserved": true,
+      "changes_confined_to_allowlisted_spans": true
+    }
+  },
+  "checks": {
+    "row_count_925": true,
+    "unique_sorted_offsets": true,
+    "source_dol_sha_bound": true,
+    "source_raw_and_nul_contract": true,
+    "capacity_and_declared_length": true,
+    "printf_tokens_preserved": true,
+    "newline_counts_preserved": true,
+    "ascii_control_prefixes_preserved": true,
+    "japanese_residue_zero": true,
+    "codex_only_provenance": true,
+    "candidate_accounting_1325": true,
+    "change_log_bound_to_final_jsonl": true,
+    "glossary_all_fit_differences_resolved": true,
+    "temp_codebook_append_only": true,
+    "temp_codebook_font_closure": true,
+    "patcher_valid_925": true,
+    "patcher_source_contract": true
+  },
+  "error_details": {
+    "general": [],
+    "source_raw_mismatches": [],
+    "capacity": [],
+    "printf": [],
+    "newlines": [],
+    "prefixes": [],
+    "japanese_residue": [],
+    "provenance": [],
+    "accounting_overlap": []
+  }
+}

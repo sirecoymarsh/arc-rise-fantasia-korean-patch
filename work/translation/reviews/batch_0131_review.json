@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0131",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_tail",
+  "draft_author": "/root/translate_tail",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0131.jsonl",
+  "draft": "work/translation/drafts/batch_0131.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0131.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-D7ED7E29B7E88DC444A9",
+      "source_text": "股旅兄弟舎の十五男坊",
+      "before": "마타타비 형제단의 열다섯째 아들",
+      "after": "마타타비 형제사의 열다섯째 아들",
+      "category": "proper_noun",
+      "reason": "조직명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D858214A944091FBDA0A",
+      "source_text": "聞いた話なんだけど\n帝国のアルス皇帝って\nオルキナに改宗したんだろ？<$0C>――もしかしたら\nアントラクスを元の姿に\n戻してくれるんじゃないか？",
+      "before": "들은 얘긴데\n제국의 알스 황제가\n올키나교로 개종했다면서?<$0C>――어쩌면\n안트락스를 원래 모습으로\n되돌려 주지 않을까?",
+      "after": "들은 얘긴데\n제국의 알스 황제가\n오르키나교로 개종했다면서?<$0C>――어쩌면\n안트락스를 원래 모습으로\n되돌려 주지 않을까?",
+      "category": "proper_noun",
+      "reason": "종교명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D863F628DF464BEA19E4",
+      "source_text": "第１章：ジャダ終了まで　　　　\n第２章：オルキナ到着まで　　　\n第３章：オルキナ陥落まで　　　\n第４章：バトラキテスまで　　　\n第５章：飛光艇墜落まで　　　　\n第６章：和平会談開催準備まで　\n第７章：ヴァイス死亡まで　　　\n第８章：ホゾン浄化計画開始まで\n第９章：エンディングまで　　　\nムービー　　　　　　　　　　　\nアルル契約　　　　　　　　　　\nチェック用　　　　　　　　　　",
+      "before": "제１장: 자다 종료까지　　　　　\n제２장: 올키나 도착까지　　　　\n제３장: 올키나 함락까지　　　　\n제４장: 바트라키테스까지　　　　\n제５장: 비광정 추락까지　　　　　\n제６장: 평화 회담 개최 준비까지　\n제７장: 바이스 사망까지　　　　\n제８장: 호존 정화 계획 개시까지\n제９장: 엔딩까지　　　　\n무비　　　　　　　　　　　　\n아를 계약　　　　　　　　　　\n확인용　　　　　　　　　　",
+      "after": "제１장: 자다 종료까지　　　　　\n제２장: 오르키나 도착까지　　　　\n제３장: 오르키나 함락까지　　　　\n제４장: 바트라키테스까지　　　　\n제５장: 비광정 추락까지　　　　　\n제６장: 평화 회담 개최 준비까지　\n제７장: 바이스 사망까지　　　　\n제８장: 호존 정화 계획 개시까지\n제９장: 엔딩까지　　　　\n무비　　　　　　　　　　　　\n아를루 계약　　　　　　　　　　\n확인용　　　　　　　　　　",
+      "category": "proper_noun",
+      "reason": "메뉴 안의 지명과 인명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D8FE812253D9363D9939",
+      "source_text": "祈りの街の猫",
+      "before": "기도의 도시의 고양이",
+      "after": "기도 도시의 고양이",
+      "category": "natural_korean",
+      "reason": "중복 조사를 제거해 인물 라벨을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D90CD53DE7AB4DFE507F",
+      "source_text": "リフィアちゃんの様子は？",
+      "before": "리피아 상태는 어때?",
+      "after": "리피아는 어때?",
+      "category": "natural_korean",
+      "reason": "대화체에서 부자연스러운 명사 연결을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D94DC787437AB55A1D15",
+      "source_text": "いくら考えても\nわからないことばかり――\n今日も酒に逃げるとしよう",
+      "before": "아무리 생각해도\n모르는 것뿐――\n오늘도 술로 도망치자",
+      "after": "아무리 생각해도\n모르는 것뿐――\n오늘도 술로 도피하자",
+      "category": "idiom",
+      "reason": "酒に逃げる의 비유적 의미를 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-D95D40E2EBFDB545B634",
+      "source_text": "……ったく<$0C>死んだ後まで俺たちを\nひっかきまわすなんてな。\n……じーさんらしいぜ<$0C>一応ギルドには報告\n入れとくか……",
+      "before": "……정말이지<$0C>죽고 나서까지 우리를\n휘젓고 다니다니.\n……영감답군<$0C>일단 길드에는\n보고해 둘까……",
+      "after": "……정말이지<$0C>죽고 나서까지 우리를\n휘젓고 다니다니.\n……할아버지답군<$0C>일단 길드에는\n보고해 둘까……",
+      "category": "voice_meaning",
+      "reason": "자무엘을 가리키는 가족 관계 호칭을 문맥에 맞게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D990A7AAA516C1CDC8B1",
+      "source_text": "酒だけしか、酒だけしか\nボクに優しくしてくれねえんだ",
+      "before": "술밖에, 술밖에는\n나한테 다정하게 대해 주지 않아",
+      "after": "술만이, 술만이\n나한테 다정하게 대해 줘",
+      "category": "meaning",
+      "reason": "술만이 자신에게 다정하다는 원문의 주어 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-D9F1118CF5BAE7AD8985",
+      "source_text": "表の２人ですか？\nいつもああして遊んでるんですよ<$0C>子どもはいいわよね。\n遊んでいるだけでいいんだもの。\n戻れるなら子どもに戻りたいわ",
+      "before": "밖에 있는 두 사람 말인가요?\n항상 저렇게 놀고 있어요<$0C>아이는 좋겠어요.\n놀기만 하면 되니까요.\n돌아갈 수 있다면 아이로 돌아가고 싶어요",
+      "after": "밖에 있는 ２명 말인가요?\n항상 저렇게 놀고 있어요<$0C>아이는 좋겠어요.\n놀기만 하면 되니까요.\n돌아갈 수 있다면 아이로 돌아가고 싶어요",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２와 수치를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-DA17AD9E0A2724DF76EA",
+      "source_text": "誰か１人を見せしめとして\n痛めつけてやる必要があるな……",
+      "before": "누군가 한 명을 본보기로\n두들겨 팰 필요가 있겠군……",
+      "after": "누군가 １명을 본보기로\n두들겨 팰 필요가 있겠군……",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 수치를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-DA2A5DE7799EEAFAF21F",
+      "source_text": "相変わらず、ここは寒いよ。\n早くカルブンクルスに戻りたい……",
+      "before": "여전히 여긴 춥네.\n빨리 카르분쿨루스로 돌아가고 싶어……",
+      "after": "여전히 여긴 춥네.\n빨리 카르분클루스로 돌아가고 싶어……",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DA55FE769F1047FBBE58",
+      "source_text": "私はベネトナーシュに\nこれから身を寄せるつもりです<$0C>元老院がノースノワーレと\n袂を分かつというならば\nもはやこの街に居場所はありません",
+      "before": "저는 베네트나슈에\n앞으로 몸을 의탁할 생각입니다<$0C>원로원이 노스노와레와\n갈라서겠다는 것이라면\n더는 이 도시에 제 자리가 없습니다",
+      "after": "저는 베네트나슈에\n앞으로 몸을 의탁할 생각입니다<$0C>원로원이 노스 노와레교와\n갈라서겠다는 것이라면\n더는 이 도시에 제 자리가 없습니다",
+      "category": "proper_noun",
+      "reason": "종교 기관명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DA5A285535434E2DF8C0",
+      "source_text": "そこにいるコピン。\n嫌なことがあると酒に逃げる。\nいつも酔いどれコピン……",
+      "before": "저기 있는 코핀.\n싫은 일이 있으면 술로 도망쳐.\n언제나 주정뱅이 코핀……",
+      "after": "저기 있는 코핀.\n싫은 일이 있으면 술로 도피해.\n언제나 주정뱅이 코핀……",
+      "category": "idiom",
+      "reason": "酒に逃げる의 비유적 의미를 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-DA663FDBC61F3CA57993",
+      "source_text": "帝国の影響を受けていないのは\n首都であるカルブンクルスと\n教会のあるベネトナーシュくらいさ<$0C>どっちにしても\n徒歩でいくには、あまりにも\n距離が離れすぎていて……",
+      "before": "제국의 영향을 받지 않은 곳은\n수도 카르분쿨루스와\n교회가 있는 베네트나슈 정도야<$0C>어느 쪽이든\n걸어서 가기에는 너무나\n멀리 떨어져 있어서……",
+      "after": "제국의 영향을 받지 않은 곳은\n수도 카르분클루스와\n교회가 있는 베네트나슈 정도야<$0C>어느 쪽이든\n걸어서 가기에는 너무나\n멀리 떨어져 있어서……",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DA6BBA7B5E4BB85973C6",
+      "source_text": "さ、さすがに――\nこれだけ大きい都市の\n地図を作ると骨が折れる……<$0C>ちょっとくらい\n休んだっていいよね……<$0C>――あ、そこの君。\nこの街の地図の複製をあげるから\n私の代わりに検証してくれない？",
+      "before": "이 정도로 큰 도시의\n지도를 만들려니 정말\n고생스럽네……<$0C>조금쯤은\n쉬어도 되겠지……<$0C>――아, 거기 너.\n이 도시 지도의 사본을 줄 테니\n나 대신 검증해 주지 않을래?",
+      "after": "아, 아무래도――\n이 정도로 큰 도시의 지도를\n만들려니 정말 고생스럽네……<$0C>조금쯤은\n쉬어도 되겠지……<$0C>――아, 거기 너.\n이 도시 지도의 사본을 줄 테니\n나 대신 검증해 주지 않을래?",
+      "category": "meaning_line_break",
+      "reason": "누락된 머뭇거림을 복원하고 원문의 발화 흐름에 맞춰 줄바꿈을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DA74FF1D2724879ED8DD",
+      "source_text": "ここは首都カルブンクルス。\n旅人の方、歓迎いたします",
+      "before": "이곳은 수도 카르분쿨루스.\n여행자분, 환영합니다",
+      "after": "이곳은 수도 카르분클루스.\n여행자분, 환영합니다",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DA9EB8A1C4FFE2EC7F79",
+      "source_text": "股旅兄弟舎の三男坊",
+      "before": "마타타비 형제단의 셋째 아들",
+      "after": "마타타비 형제사의 셋째 아들",
+      "category": "proper_noun",
+      "reason": "조직명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DB180E9EFB3DB8EF922E",
+      "source_text": "ここはオパルスの士官学校だ。\n――あんたは入学希望者？\n……にしては随分、老けてるな",
+      "before": "여기는 오팔루스 사관학교다.\n――당신은 입학 희망자야?\n……그치고는 꽤 늙었네",
+      "after": "여기는 오팔루스 사관학교다.\n――당신은 입학 희망자야?\n……그러기엔 꽤 나이가 많군",
+      "category": "natural_korean",
+      "reason": "오탈자를 바로잡고 상대의 나이를 지적하는 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DB2D4DEC8E867B4E58EF",
+      "source_text": "いつもアルス陛下の隣にいる女――\nあの忌々しいオルキナ教の\nディーバだって噂だぜ？<$0C>そんな汚れた女を愛人にするなんて\nアルス陛下はどうかしてる",
+      "before": "늘 알스 폐하 곁에 있는 여자――\n그 꺼림칙한 올키나교의\n디바라는 소문이라고?<$0C>그런 더러운 여자를 애인으로 삼다니\n알스 폐하는 제정신이 아니야",
+      "after": "늘 알스 폐하 곁에 있는 여자――\n그 꺼림칙한 오르키나교의\n디바라는 소문이라고?<$0C>그런 더러운 여자를 애인으로 삼다니\n알스 폐하는 제정신이 아니야",
+      "category": "proper_noun",
+      "reason": "종교명 고정 표기를 적용했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "arf-ko-final-release-validation-v1",
+  "package_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0",
+  "zip_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.zip",
+  "zip_size_bytes": 512595064,
+  "zip_sha256": "086664F46BD84ADD891CD95FE6A81C5D3E58135CD76B419C0C13938F4E102120",
+  "manifest_sha256": "4F05AD29C11FF304FB94F2ED3C713665B1B34E4F5CA289477133288B9C427253",
+  "overlay_file_count": 684,
+  "game_replacement_file_count": 683,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

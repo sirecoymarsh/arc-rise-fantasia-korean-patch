@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0099",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0099.jsonl",
+  "draft": "work/translation/drafts/batch_0099.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0099.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-5C06A039DB3E244BC52F",
+      "source_text": "苦い顔の兵士",
+      "before": "쓴 표정의 병사",
+      "after": "씁쓸한 표정의 병사",
+      "category": "natural Korean",
+      "reason": "苦い顔를 직역한 쓴 표정 대신 자연스러운 씁쓸한 표정으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-5C1276B9CD8B7EC544CA",
+      "source_text": "国から配給される\n食事にはもうウンザリ……<$0C>マズイだけじゃなくって\n量もほんの少しなのよ!?\nウチには育ち盛りの子がいるのに……",
+      "before": "나라에서 배급하는\n식사는 이제 지긋지긋해……<$0C>맛없는 것뿐 아니라\n양도 아주 조금이라고!?\n우리 집에는 한창 클 아이가 있는데……",
+      "after": "나라에서 배급하는\n식사는 이제 지긋지긋해……<$0C>맛도 없는데다\n양도 아주 적다고!?\n우리 집에는 한창 클 아이가 있는데……",
+      "category": "natural Korean",
+      "reason": "マズイだけじゃなくって의 연결을 맛도 없는데다로 고쳐 문장을 자연스럽게 했다."
+    },
+    {
+      "tm_id": "ARF-TM-5C4CCBB816897191C5B9",
+      "source_text": "戦火の気配をいち早く察知するのも\n行商人の立派なスキルのひとつ。\n私もまだ未熟者ということです",
+      "before": "전쟁의 기운을 재빨리 감지하는 것도\n행상인의 훌륭한 기술 중 하나.\n저도 아직 미숙하다는 뜻이죠",
+      "after": "전쟁의 기운을 재빨리 감지하는 것도\n행상인의 훌륭한 스킬 중 하나.\n저도 아직 미숙하다는 뜻이죠",
+      "category": "terminology",
+      "reason": "원문의 スキル을 프로젝트 용어인 스킬로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-5C6F669E32D7C56444B7",
+      "source_text": "私たちがついていながら\n賊の侵入を許すとは……\n全く情けない話だ",
+      "before": "우리가 있으면서\n도적의 침입을 허용하다니……\n정말 한심한 일이다",
+      "after": "우리가 지키고 있으면서도\n도적의 침입을 허용하다니……\n정말 한심한 일이다",
+      "category": "meaning",
+      "reason": "私たちがついていながら가 경비 중이었음에도 침입을 허용했다는 뜻임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-5C977EFDEE4BE84DC02B",
+      "source_text": "元老院の決断のせいで\n我々、警備兵はより一層\n気を引き締めねばなりません<$0C>それにしても――\n復興もまだ終わらぬというのに\n身内に刃を向けられるなんて……",
+      "before": "원로원의 결정 때문에\n우리 경비병은 더욱\n긴장해야 합니다<$0C>그나저나――\n재건도 아직 끝나지 않았는데\n같은 편에게 칼을 겨누다니……",
+      "after": "원로원의 결정 때문에\n우리 경비병은 더욱\n긴장해야 합니다<$0C>그나저나――\n재건도 아직 끝나지 않았는데\n같은 편이 우리에게 칼을 겨누다니……",
+      "category": "meaning",
+      "reason": "身内に刃を向けられる의 피동 관계를 같은 편이 우리에게 칼을 겨눈다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-5CD9ADB77F259B528222",
+      "source_text": "皆さん色んなノリで\nこの階層に来るんスねえ<$0C>まあ、自分も似たようなもんっスよ。\nそういうノリで来ましたもん\n――今朝も",
+      "before": "다들 온갖 기세로\n이 층에 오시는군요<$0C>뭐, 저도 비슷함다.\n그런 기세로 왔거든요\n――오늘 아침에도",
+      "after": "다들 저마다 다른 기분으로\n이 층에 오시는군요<$0C>뭐, 저도 비슷함다.\n그런 기세로 왔거든요\n――오늘 아침에도",
+      "category": "natural Korean",
+      "reason": "色んなノリ를 온갖 기세로 직역한 표현을 자연스럽게 다듬고 니콜의 말투를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-5CDE7A9EC66D79AE140D",
+      "source_text": "この大砲……見てくれよ。\n光輝く漆黒のボディ……\n僕の整備の賜物さ<$0C>おっと！　弾を撃つなんて\n無粋なことを言わないでくれよ。\n汚れちまうじゃないか",
+      "before": "이 대포…… 좀 봐.\n빛나는 칠흑의 몸체……\n내 정비 솜씨의 결정체야<$0C>이런! 탄을 쏘겠다는\n몰상식한 말은 하지 마.\n더러워지잖아",
+      "after": "이 대포…… 좀 봐.\n빛나는 칠흑의 몸체……\n내 정비 솜씨의 결정체야<$0C>이런! 탄을 쏘겠다는\n멋없는 소리는 하지 마.\n더러워지잖아",
+      "category": "meaning",
+      "reason": "無粋를 몰상식함이 아니라 멋없고 운치 없다는 의미로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-5CE0083C6FEF19F558D4",
+      "source_text": "海がとっても綺麗……<$0C>何もしない１日があっても\nわたしはいいと思うの。\nあなたは、どう思う？",
+      "before": "바다가 정말 아름다워……<$0C>아무것도 하지 않는 하루가 있어도\n난 괜찮다고 생각해.\n당신은 어때?",
+      "after": "바다가 정말 아름다워……<$0C>아무것도 하지 않는 １일이 있어도\n난 괜찮다고 생각해.\n당신은 어때?",
+      "category": "numeric fidelity",
+      "reason": "원문의 １日에 포함된 전각 숫자 １을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-5CE1DDF9A5B44C5E85E6",
+      "source_text": "ここにいるギチョーって人は\nこの街で１番偉い人なんだよ。\n一度でいいから会ってみたーい！",
+      "before": "여기 있는 의장이라는 사람은\n이 도시에서 가장 높은 사람이래.\n한 번만이라도 만나 보고 싶어!",
+      "after": "여기 있는 의장이라는 사람은\n이 도시의 １인자래.\n한 번만이라도 만나 보고 싶어!",
+      "category": "numeric fidelity",
+      "reason": "１番偉い의 뜻을 자연스럽게 옮기면서 전각 숫자 １을 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-5CF69E2A9D5DA8934AFB",
+      "source_text": "気合十分な女の子",
+      "before": "기합이 충분한 여자아이",
+      "after": "의욕 넘치는 여자아이",
+      "category": "natural Korean",
+      "reason": "気合十分을 기합이 충분하다고 직역한 표현을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-5D12F4D2DEDEE7F07C36",
+      "source_text": "選択肢は嫌いなの。\n選べる未来が決まってるワケないわ<$0C>二者択一なら、第三の答えを\n自分で勝ち取りにいってやる！",
+      "before": "선택지는 싫어.\n고를 수 있는 미래가 정해져 있을 리 없잖아<$0C>둘 중 하나라면 제３의 답을\n내 손으로 쟁취하겠어!",
+      "after": "선택지는 싫어.\n고를 수 있는 미래가 정해져 있을 리 없잖아<$0C>둘 중 하나라면 세 번째 답을\n내 손으로 쟁취하겠어!",
+      "category": "numeric fidelity",
+      "reason": "원문 第三을 번역하며 새로 생긴 전각 숫자 ３을 한글 표현으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-5DB89A6FA1206DB5B740",
+      "source_text": "観念するんだな！",
+      "before": "관념해라!",
+      "after": "순순히 포기해라!",
+      "category": "natural Korean",
+      "reason": "観念するんだな를 관념해라로 직역한 표현을 자연스러운 위협 대사로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-5E0226BE40EB60AF2470",
+      "source_text": "母上を救う為、禁忌であったこの\n聖典メリディアスの封印を解き\nイーサ神との契約を施そうとした",
+      "before": "어머니를 구하려고 금기였던 이\n성전 메리디어스의 봉인을 풀고\n이사신과 계약을 맺으려 했다",
+      "after": "어머니를 구하려고 금기였던 이\n성전 메리디아스의 봉인을 풀고\n이사신과 계약을 맺으려 했다",
+      "category": "proper nouns",
+      "reason": "聖典メリディアス의 승인 표기인 성전 메리디아스를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-5E2E6A3EFB8BC9BAC7E2",
+      "source_text": "ここはフェリス。\n砂漠に囲まれた灼熱の村だ<$0C>今は、我らメリディア軍が\n平和裏に統治している",
+      "before": "여기는 펠리스.\n사막에 둘러싸인 작열하는 마을이다<$0C>지금은 우리 메리디아군이\n평화롭게 통치하고 있다",
+      "after": "여기는 펠리스.\n사막에 둘러싸인 불볕더위의 마을이다<$0C>지금은 우리 메리디아군이\n평화롭게 통치하고 있다",
+      "category": "natural Korean",
+      "reason": "灼熱の村를 작열하는 마을로 직역한 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-5EB86D64FA7D00E8C119",
+      "source_text": "サウスノワーレ教にとって\nノワーレ教は父親のようなもの。\nこの宿には親近感を覚えます",
+      "before": "사우스 노와레교에게\n노와레교는 아버지 같은 존재.\n이 여관에는 친근감이 듭니다",
+      "after": "사우스 노와레교에 있어\n노와레교는 아버지 같은 존재입니다.\n이 여관에는 친근감을 느낍니다",
+      "category": "particles",
+      "reason": "サウスノワーレ教にとって의 관점을 자연스러운 조사와 서술로 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-5F2D184F23D3CC5351D7",
+      "source_text": "帝国の死神を頼るのは癪だが\nここはディーバを信じ\n救援部隊を差し向けたい",
+      "before": "제국의 사신에게 의지하는 건 싫지만\n여기서는 디바를 믿고\n구원 부대를 보내고 싶다",
+      "after": "제국의 사신에게 의지하는 건 분하지만\n여기서는 디바를 믿고\n구원 부대를 보내고 싶다",
+      "category": "meaning",
+      "reason": "癪だ를 단순히 싫다는 뜻이 아니라 분하고 못마땅하다는 뉘앙스로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-5F450EC6161A4095E399",
+      "source_text": "少し緊張しています……\n共和国がバトラキテスの報復に\n来るかもしれませんから……",
+      "before": "조금 긴장됩니다……\n공화국이 바트라키테스의 보복을 하러\n올지도 모르니까요……",
+      "after": "조금 긴장됩니다……\n공화국이 바트라키테스의 복수를 하러\n올지도 모르니까요……",
+      "category": "meaning",
+      "reason": "バトラキテスの報復가 바트라키테스를 위한 보복이라는 의미가 드러나도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-5F537583955100B46DFD",
+      "source_text": "ここで毎日働く身になってみろ。\n退屈ってのは１番の地獄だぜ？\n何の楽しみもねえんだからよ",
+      "before": "여기서 매일 일해 봐.\n지루함이야말로 가장 큰 지옥이라고?\n아무 즐거움도 없으니까",
+      "after": "여기서 매일 일해 봐.\n지루함이야말로 １번 가는 지옥이야.\n아무 즐거움도 없으니까",
+      "category": "numeric fidelity",
+      "reason": "원문의 １番에 포함된 전각 숫자 １을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-5F53AB862BBDAF9B56AF",
+      "source_text": "エブルやバトラキテスの民は\n元はといえば共和国の領民<$0C>圧政に苦しむ彼らを\n救うために立ち上がる――\nいつかその日が来るだろう",
+      "before": "에블과 바트라키테스 사람들은\n원래 공화국의 영민<$0C>압정에 시달리는 그들을\n구하려고 일어선다――\n언젠가 그날이 오겠지",
+      "after": "에블과 바트라키테스 사람들은\n원래 공화국의 영민<$0C>폭정에 시달리는 그들을\n구하려고 일어선다――\n언젠가 그날이 오겠지",
+      "category": "meaning",
+      "reason": "圧政을 압정으로 옮긴 오타성 오역을 폭정으로 바로잡았다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

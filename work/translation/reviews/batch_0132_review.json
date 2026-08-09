@@ -1,0 +1,192 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0132",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0132.jsonl",
+  "draft": "work/translation/drafts/batch_0132.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0132.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-DB362B0C7A5F7A64E92F",
+      "source_text": "オレたち帝国兵が\nお前らの腑抜けた根性を\n叩きなおしてやるよ",
+      "before": "우리 제국 병사들이\n너희의 빠진 근성을\n다시 다잡아 주마",
+      "after": "우리 제국 병사들이\n너희의 나약해빠진 근성을\n다시 다잡아 주마",
+      "category": "meaning_natural_korean",
+      "reason": "腑抜けた根性의 나약하고 해이한 상태를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-DB3CEEDDEC17BBE448A8",
+      "source_text": "レジスタンスに入れて下さい",
+      "before": "저항군에 넣어 주세요",
+      "after": "저항군에 들어가게 해 주세요",
+      "category": "meaning_natural_korean",
+      "reason": "조직에 가입시켜 달라는 의미를 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-DB4E0BABD48D7D31FB88",
+      "source_text": "こうやって、非日常をはしゃげるのは\n兵隊が敵を追い返してくれたお陰だ。\n本当に頭が下がるよ……",
+      "before": "이렇게 비일상적인 상황에 들뜰 수 있는 건\n병사들이 적을 몰아내 준 덕분이야.\n정말 고개가 숙여져……",
+      "after": "이렇게 비일상을 즐길 수 있는 건\n병사들이 적을 몰아내 준 덕분이야.\n정말 고개가 절로 숙여져……",
+      "category": "idiom_natural_korean",
+      "reason": "非日常をはしゃげる와 頭が下がる의 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-DB6A4AFA17D7BF024B29",
+      "source_text": "なんということでしょう……\nこのような状況ですが\nご、ご休息をとられますか？",
+      "before": "어쩌면 좋죠……\n이런 상황이지만\n쉬, 쉬어 가시겠습니까?",
+      "after": "이럴 수가……\n이런 상황이지만\n쉬, 쉬어 가시겠습니까?",
+      "category": "meaning",
+      "reason": "なんということでしょう의 놀라움과 탄식을 정확히 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-DB7D92597AB97D3BF05E",
+      "source_text": "EV09_17_2700B\nEDまで通し\nイベント君 消去\nギミック実験",
+      "before": "EV09_17_2700B\nED까지 연속 재생\n이벤트 군 삭제\n기믹 실험",
+      "after": "EV09_17_2700B\nED까지 연속 재생\n이벤트군 삭제\n기믹 실험",
+      "category": "terminology",
+      "reason": "디버그 용어의 합성어 표기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-DB880CB9675A9D9E8345",
+      "source_text": "俺は初めてじゃない。\n連れは初めてだ――何もかも",
+      "before": "난 처음이 아니야.\n동행은 처음이지――전부 다",
+      "after": "난 처음이 아니야.\n내 동료는 처음이지――모든 게",
+      "category": "meaning_natural_korean",
+      "reason": "처음인 주체가 동행인임을 명확히 하고 문장을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DBD559935656540D939E",
+      "source_text": "あら？　迷惑してるって言ったら\n引き取ってくれるの？\n――だったら考えちゃうわ",
+      "before": "어머? 민폐라고 하면\n데려가 줄 거야?\n――그렇다면 생각해 볼게",
+      "after": "어머? 내가 성가시다고 하면\n데려가 줄 거야?\n――그렇다면 생각해 볼게",
+      "category": "meaning_natural_korean",
+      "reason": "迷惑してる의 화자 관점과 인수해 간다는 의미를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DBF1AB0B804EEE6A8EA1",
+      "source_text": "一応、竜縛塔にも\n文化的な価値はあるんです。\n誰も気づいてないけど……",
+      "before": "그래도 용박탑에는\n문화적인 가치가 있습니다.\n아무도 알아주지 않지만……",
+      "after": "일단 용박탑에도\n문화적 가치는 있습니다.\n아무도 눈치채지 못하지만……",
+      "category": "meaning_natural_korean",
+      "reason": "気づいてない를 알아주지 않는다는 뜻이 아닌 인지하지 못한다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DC0F836C7BBE2BFA859F",
+      "source_text": "説明好きの青年",
+      "before": "설명하기 좋아하는 청년",
+      "after": "설명하기를 좋아하는 청년",
+      "category": "natural_korean",
+      "reason": "인물 라벨의 조사를 자연스럽게 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-DC11A76BA27FD2A6B811",
+      "source_text": "ロートルがロートルだって……",
+      "before": "퇴물보고 퇴물이라니……",
+      "after": "퇴물더러 퇴물이라니……",
+      "category": "natural_korean",
+      "reason": "호칭을 되받는 문장의 조사와 어감을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DC3E4F0FE5237D10E09A",
+      "source_text": "うちのメイドには\n本当に迷惑をかけている……\nまったく情けない当主だよ",
+      "before": "우리 집 메이드에게\n정말 폐를 끼치고 있어……\n참 한심한 가장이지",
+      "after": "우리 집 메이드에게\n정말 폐를 끼치고 있어……\n참 한심한 당주지",
+      "category": "meaning_terminology",
+      "reason": "当主를 가장이 아닌 집안의 주인인 당주로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-DC456D616978EA5C0001",
+      "source_text": "この世には\nあらゆる理解を超えた\n未知の空間があるといいます<$0C>それは神のきまぐれか\nそれとも新しき定理か――",
+      "before": "이 세상에는\n온갖 이해를 넘어선\n미지의 공간이 있다고 합니다<$0C>그것은 신의 변덕인가\n아니면 새로운 섭리인가――",
+      "after": "이 세상에는\n모든 이해를 초월한\n미지의 공간이 있다고 합니다<$0C>그것은 신의 변덕인가\n아니면 새로운 정리인가――",
+      "category": "meaning_setting_terminology",
+      "reason": "あらゆる理解와 定理를 각각 자연스럽고 설정에 맞게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-DC97E05E7F3502A79EC8",
+      "source_text": "新たに踏みだす娘",
+      "before": "새롭게 내딛는 소녀",
+      "after": "새 출발을 하는 소녀",
+      "category": "meaning_natural_korean",
+      "reason": "新たに踏みだす의 새롭게 나아가는 의미를 인물 라벨로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-DCDC323A3B1937B15EB0",
+      "source_text": "星へ行く船？　それは？",
+      "before": "별까지 가는 배? 그게 뭐야?",
+      "after": "별로 가는 배? 그게 뭐야?",
+      "category": "meaning",
+      "reason": "星へ行く船의 목적지를 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-DCEE4FF186DA9F7F4BEB",
+      "source_text": "この街の者たちの多くが\n身に覚えの無い罪で\n投獄されています……<$0C>この街を出る者も\n後を絶たないのです……\n逃げ出すなど私たちにはとても……",
+      "before": "이 도시 사람들 대부분이\n기억에도 없는 죄로\n투옥되어 있습니다……<$0C>도시를 떠나는 사람도\n끊이지 않습니다……\n저희는 도망칠 엄두조차……",
+      "after": "이 도시 사람들 대부분이\n저지른 적도 없는 죄로\n투옥되어 있습니다……<$0C>도시를 떠나는 사람도\n끊이지 않습니다……\n저희는 도망칠 엄두조차……",
+      "category": "meaning_natural_korean",
+      "reason": "身に覚えの無い罪의 억울한 누명 의미를 자연스럽게 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-DD65263298EF0C54E908",
+      "source_text": "まさに常勝無敗――\nヴァイス殿下はお強い方だ。\n……向かうところ敵ナシさ！<$0C>バトラキテスさえ落とせば\n後はカルブンクルスを落とすのも\n時間の問題さ",
+      "before": "그야말로 상승불패――\n바이스 전하는 강한 분이야.\n……가는 곳마다 적수가 없지!<$0C>바트라키테스만 함락하면\n카르분클루스를 함락하는 것도\n시간문제야",
+      "after": "그야말로 백전불패――\n바이스 전하는 강한 분이야.\n……가는 곳마다 적수가 없지!<$0C>바트라키테스만 함락하면\n카르분클루스를 함락하는 것도\n시간문제야",
+      "category": "idiom_natural_korean",
+      "reason": "常勝無敗를 자연스러운 한국어 관용 표현으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DD96B64E0AB754DCC95E",
+      "source_text": "うるせえ！\nこっちは仕事してんだ！\nふざけたこと言うとぶっ飛ばすぞ！",
+      "before": "시끄러워!\n이쪽은 일하고 있다고!\n헛소리하면 날려 버린다!",
+      "after": "시끄러워!\n이쪽은 일하고 있다고!\n헛소리하면 날려 버릴 거다!",
+      "category": "voice_natural_korean",
+      "reason": "위협하는 미래 의도를 자연스러운 종결로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-DE38CEB64C9A6EDDF87B",
+      "source_text": "自然への回帰が\n生への根源的な接近であるのなら<$0C>生への接近とは\n危険との親密さを\n高める行為に他ならない<$0C>危機にさらされることによって\n生命は己が存在という輪郭を\nあやふやにしなくなるの",
+      "before": "자연으로의 회귀가\n생명의 근원에 다가가는 것이라면<$0C>생명에 다가간다는 것은\n위험과의 친밀함을\n높이는 행위와 다르지 않아<$0C>위기에 노출됨으로써\n생명은 자신의 존재라는 윤곽을\n모호하게 만들지 않게 되지",
+      "after": "자연으로의 회귀가\n생명의 근원에 다가가는 것이라면<$0C>생명에 다가간다는 것은\n위험과의 친밀함을\n높이는 행위와 다르지 않아<$0C>위기에 노출됨으로써\n생명은 자신의 존재라는 윤곽을\n더는 흐리지 않게 돼",
+      "category": "meaning_natural_korean",
+      "reason": "이중 부정의 직역투를 제거하면서 존재의 윤곽이 선명해진다는 의미를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-DF06568649F6A317E16E",
+      "source_text": "みんなは気づいてないけれど\n戦争の足音は着々と\n近づいてきてるんじゃないのか？",
+      "before": "모두는 눈치채지 못했지만\n전쟁의 발소리가 착실히\n다가오는 것 아닐까?",
+      "after": "다들 눈치채지 못하고 있지만\n전쟁의 발소리는 차츰\n다가오고 있는 것 아닐까?",
+      "category": "meaning_natural_korean",
+      "reason": "着々との 진행 의미와 문장 주어를 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

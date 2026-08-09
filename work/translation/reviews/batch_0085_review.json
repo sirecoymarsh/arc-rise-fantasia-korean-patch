@@ -1,0 +1,162 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0085",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0085.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0085.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0085.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 14,
+  "unchanged_row_count": 186,
+  "modifications": [
+    {
+      "row_index": 38,
+      "tm_id": "ARF-TM-24A584D2A22CD1EC27FE",
+      "source_text": "新しく制定された法律の下\n帝国の圧政がはじまったと聞きます。\nエブルに住む友人が心配です……",
+      "before": "새로 제정된 법 아래\n제국의 폭정이 시작됐다고 들었습니다.\n에브루에 사는 친구가 걱정됩니다……",
+      "after": "새로 제정된 법 아래\n제국의 폭정이 시작됐다고 들었습니다.\n에블에 사는 친구가 걱정됩니다……",
+      "category": "terminology",
+      "reason": "エブル의 확정 지명 표기 '에블'을 적용했다."
+    },
+    {
+      "row_index": 43,
+      "tm_id": "ARF-TM-24B49BB385B6E805E708",
+      "source_text": "ホゼア様は判断を誤った。\nお前たちのような野蛮な現種を\nここに招きいれるなんて……！<$0C>何たる失態！　何たる愚かさ！\n――腸が煮えくり返る思いだ",
+      "before": "호제아 님은 판단을 그르쳤어.\n너희 같은 야만적인 현종을\n이곳에 들이다니……!<$0C>이 무슨 실태! 이 무슨 어리석음!\n――분통이 터질 지경이다",
+      "after": "호제아 님은 판단을 그르쳤어.\n너희 같은 야만적인 현종을\n이곳에 들이다니……!<$0C>이 무슨 실책! 이 무슨 어리석음!\n――분통이 터질 지경이다",
+      "category": "semantic_accuracy",
+      "reason": "失態를 상태를 뜻하는 '실태'가 아니라 잘못을 뜻하는 '실책'으로 바로잡았다."
+    },
+    {
+      "row_index": 46,
+      "tm_id": "ARF-TM-24D27D623CE02610AA07",
+      "source_text": "アントラクスを陥落させて\nその次はエブル、バトラキテス……\nこき使われて兵隊たちは青色吐息<$0C>軍に入ったから、戦争は覚悟してる。\nしかし、これほど人使いが荒いと\n兵士たちも疲弊してくるってもんだ",
+      "before": "안트락스를 함락시키고\n그다음은 에브루, 바트라키테스……\n혹사당한 병사들은 죽을 맛이지<$0C>군대에 들어왔으니 전쟁은 각오했어.\n하지만 이렇게 사람을 막 부리면\n병사들도 피폐해지는 법이야",
+      "after": "안트락스를 함락시키고\n그다음은 에블, 바트라키테스……\n혹사당한 병사들은 죽을 맛이지<$0C>군대에 들어왔으니 전쟁은 각오했어.\n하지만 이렇게 사람을 막 부리면\n병사들도 피폐해지는 법이야",
+      "category": "terminology",
+      "reason": "エブル의 확정 지명 표기 '에블'을 적용했다."
+    },
+    {
+      "row_index": 73,
+      "tm_id": "ARF-TM-252A4254ACB9934BA4E3",
+      "source_text": "オルキナ教は\n多くの国や人々によって\n邪教と呼ばれ蔑まれています<$0C>しかし、それは\n教えの一部を拡大解釈して\n印象操作をされているがゆえ<$0C>……確かに私たちは滅びを\n否定することはできません<$0C>しかし、その滅びは\nただの生命の滅びではなく\n新生への大いなる布石なのです",
+      "before": "오르키나교는\n많은 나라와 사람들에게\n사교라 불리며 멸시받고 있습니다<$0C>하지만 그것은\n가르침의 일부가 확대 해석되어\n인상이 조작된 탓입니다<$0C>……확실히 우리는 멸망을\n부정할 수 없습니다<$0C>하지만 그 멸망은\n단순한 생명의 멸망이 아니라\n신생을 위한 위대한 포석입니다",
+      "after": "오르키나교는\n많은 나라와 사람들에게\n사교라 불리며 멸시받고 있습니다<$0C>하지만 그것은\n가르침의 일부가 확대 해석되어\n악의적인 인상 조작을 당한 탓입니다<$0C>……확실히 우리는 멸망을\n부정할 수 없습니다<$0C>하지만 그 멸망은\n단순한 생명의 멸망이 아니라\n신생을 위한 위대한 포석입니다",
+      "category": "naturalness",
+      "reason": "印象操作をされている를 직역투인 '인상이 조작되다' 대신 인상 조작을 당한다는 뜻으로 옮겼다."
+    },
+    {
+      "row_index": 89,
+      "tm_id": "ARF-TM-2589CECD7AD1A50D1A31",
+      "source_text": "わかっています。\nだけど、帝国軍は一筋縄で\nいく相手ではありません<$0C>このあかしを持っていれば\n帝国領内の店にいる協力者が\n商品を売ってくれるはずです<$0C>準備を万全に整えて\nどうか、私たちのリーダーを\n救ってほしいのです！",
+      "before": "알고 있습니다.\n하지만 제국군은 만만하게\n볼 상대가 아닙니다<$0C>이 증표를 가지고 있으면\n제국 영내 가게에 있는 협력자가\n물건을 팔아 줄 겁니다<$0C>빈틈없이 준비해서\n부디 우리 리더를\n구해 주세요!",
+      "after": "알고 있습니다.\n하지만 제국군은 만만하게\n볼 상대가 아닙니다<$0C>이 증표를 가지고 있으면\n제국 영내 가게에 있는 협력자가\n물건을 팔아 줄 겁니다<$0C>빈틈없이 준비해서\n부디 우리 지도자를\n구해 주세요!",
+      "category": "terminology",
+      "reason": "조직 직책 リーダー를 확정 표기 '지도자'로 통일했다."
+    },
+    {
+      "row_index": 91,
+      "tm_id": "ARF-TM-258CFA890187616CE724",
+      "source_text": "オレも警備ばっかやってないで\nカジノにいきてぇよ……<$0C>まったく、損な役回りだぜ。\n隣は暑苦しいし、仕事はつまんねーし\n軍人なんて辞めちまおうかな",
+      "before": "나도 경비만 하지 말고\n카지노에 가고 싶다고……<$0C>정말 손해 보는 역할이야.\n옆 녀석은 부담스럽고, 일은 재미없고\n군인 따위 그만둘까",
+      "after": "나도 경비만 하지 말고\n카지노에 가고 싶다고……<$0C>정말 손해 보는 역할이야.\n옆 녀석은 보기만 해도 답답하고, 일은 재미없고\n군인 따위 그만둘까",
+      "category": "naturalness",
+      "reason": "暑苦しい를 단순히 부담스럽다가 아니라 보기만 해도 덥고 답답한 인상을 준다는 뜻으로 다듬었다."
+    },
+    {
+      "row_index": 99,
+      "tm_id": "ARF-TM-25C4F34EA5E792D5B3B5",
+      "source_text": "私ではなく\n妻のほうに似たのでしょう。\n頬のえくぼなんか特にね……",
+      "before": "저보다는\n아내를 닮았겠죠.\n볼의 보조개는 특히……",
+      "after": "저보다는\n아내를 닮았겠죠.\n특히 볼의 보조개가요……",
+      "category": "naturalness",
+      "reason": "마지막 명사구의 조사와 어순을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 103,
+      "tm_id": "ARF-TM-25D57F156B624D2653E9",
+      "source_text": "自分で考えなきゃ\n役にたたなきゃって思ったけど\n全然うまくいかなかった！",
+      "before": "스스로 생각해야 해\n도움이 돼야 한다고 생각했는데\n전혀 잘 안 됐어!",
+      "after": "스스로 생각해야 하고\n도움이 되어야 한다고 생각했는데\n전혀 잘 안 됐어!",
+      "category": "grammar",
+      "reason": "병렬되는 두 생각을 연결해 한국어 문장을 완성했다."
+    },
+    {
+      "row_index": 106,
+      "tm_id": "ARF-TM-25ED43C3B37FC6D2303E",
+      "source_text": "全回復しました",
+      "before": "모두 회복했습니다",
+      "after": "완전히 회복했습니다",
+      "category": "semantic_accuracy",
+      "reason": "全回復를 여러 대상을 모두 회복했다는 뜻이 아니라 완전 회복으로 정확히 옮겼다."
+    },
+    {
+      "row_index": 119,
+      "tm_id": "ARF-TM-26273154A17C35260984",
+      "source_text": "究極のモンスターを目指す\nボクたちには\n未知の力があるのです<$0C>さあ、同胞よ\nかかってくるのです",
+      "before": "궁극의 몬스터를 지향하는\n우리에게는\n미지의 힘이 있습니다<$0C>자, 동포여\n덤비는 겁니다",
+      "after": "궁극의 몬스터를 목표로 하는\n우리에게는\n미지의 힘이 있습니다<$0C>자, 동포여\n덤비는 겁니다",
+      "category": "naturalness",
+      "reason": "目指す를 부자연스러운 '지향하다' 대신 목표로 한다는 뜻으로 옮겼다."
+    },
+    {
+      "row_index": 125,
+      "tm_id": "ARF-TM-2633FD43F5F9055D3973",
+      "source_text": "……もう十分だ。ラルク。\nキミは僕が手を組むには値しない",
+      "before": "……이제 충분하다. 라르크.\n너는 내가 손잡을 가치가 없어",
+      "after": "……이제 충분하다. 라르크.\n넌 내가 손을 잡아 줄 가치도 없어",
+      "category": "semantic_accuracy",
+      "reason": "手を組むには値しない의 가치 판단 주체가 알스임을 분명히 했다."
+    },
+    {
+      "row_index": 144,
+      "tm_id": "ARF-TM-2696FAF43FECBAC21D4E",
+      "source_text": "やたら元気な娘",
+      "before": "쓸데없이 활기찬 아가씨",
+      "after": "지나치게 활기찬 아가씨",
+      "category": "word_choice",
+      "reason": "やたら元気를 불필요하다는 뜻의 '쓸데없이'가 아니라 유난히 활기차다는 인상으로 옮겼다."
+    },
+    {
+      "row_index": 155,
+      "tm_id": "ARF-TM-26BCB110A9C8A7983FEE",
+      "source_text": "戦うのは野蛮だと……思うよ？",
+      "before": "싸우는 건 야만적이라고…… 생각해?",
+      "after": "싸우는 건 야만적이라고…… 생각해",
+      "category": "semantic_accuracy",
+      "reason": "화자의 견해를 청자에게 되묻는 문장으로 바꾸지 않고 원문의 망설이는 진술로 복원했다."
+    },
+    {
+      "row_index": 157,
+      "tm_id": "ARF-TM-26C1024CC5F606823E74",
+      "source_text": "あの優しかったマハト陛下が\n崩御されるなんて信じられん<$0C>今、妻に花を摘ませているんだ。\n最も美しい花を飾って\n陛下の手向けになるように……<$0C>よければ、うちの妻を\n手伝ってあげてくれ",
+      "before": "그 상냥했던 마하트 폐하가\n붕어하시다니 믿을 수 없군<$0C>지금 아내에게 꽃을 따게 하고 있어.\n가장 아름다운 꽃을 장식해서\n폐하께 바칠 수 있도록……<$0C>괜찮다면 우리 아내를\n도와주지 않겠나",
+      "after": "그 상냥했던 마하트 폐하께서\n서거하시다니 믿을 수 없군<$0C>지금 아내에게 꽃을 따게 하고 있어.\n가장 아름다운 꽃을 장식해서\n폐하께 바칠 수 있도록……<$0C>괜찮다면 우리 아내를\n도와주지 않겠나",
+      "category": "register",
+      "reason": "왕의 죽음을 자연스러운 높임 표현으로 다듬고 주격 높임을 보완했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

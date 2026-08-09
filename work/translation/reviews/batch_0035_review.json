@@ -1,0 +1,184 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0035",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0035.jsonl",
+  "draft": "work/translation/drafts/batch_0035.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0035.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 16,
+  "unchanged_units": 184,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "speaker voice",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 3,
+      "tm_id": "ARF-TM-997A30AD5F0B1DE0C9D5",
+      "source_text": "闘技場説明１２",
+      "before": "투기장 설명 12",
+      "after": "투기장 설명１２",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １２를 보존했다."
+    },
+    {
+      "index": 7,
+      "tm_id": "ARF-TM-99CEA7B4A6E07B14FF8C",
+      "source_text": "どうぞ、サージュ君",
+      "before": "말해 보렴, 사쥬 군",
+      "after": "자, 사쥬 군",
+      "category": "context_naturalness",
+      "reason": "발언 순서를 넘겨주는 どうぞ를 과도하게 풀어 쓰지 않고 장면에 맞는 짧은 호명으로 다듬었다."
+    },
+    {
+      "index": 43,
+      "tm_id": "ARF-TM-9D122DE91F23D01DAF8B",
+      "source_text": "知らん。\n仲間の輪を乱すな、着ろ――\nと２人に脅されてな",
+      "before": "모른다.\n동료들 사이를 흐트러뜨리지 말고 입어라――\n라며 둘에게 협박당해서 말이지",
+      "after": "모른다.\n동료들 사이를 흐트러뜨리지 말고 입어라――\n라며 ２명에게 협박당해서 말이지",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 보존했다."
+    },
+    {
+      "index": 47,
+      "tm_id": "ARF-TM-9D7DFE8B58E773DEBA00",
+      "source_text": "ワールドスクリプト６０",
+      "before": "월드 스크립트 60",
+      "after": "월드 스크립트６０",
+      "category": "numeric_fidelity_terminology",
+      "reason": "고정 용어 월드 스크립트를 유지하면서 원문의 전각 숫자 ６０을 복원했다."
+    },
+    {
+      "index": 58,
+      "tm_id": "ARF-TM-9E8DD30B047A76DBAAF8",
+      "source_text": "レスリー、セシル――ありがとう。\n２人にはいつも助けられてばかりで",
+      "before": "레슬리, 세실――고마워.\n둘에게는 언제나 도움만 받고 있어",
+      "after": "레슬리, 세실――고마워.\n２명에게는 언제나 도움만 받고 있어",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 보존했다."
+    },
+    {
+      "index": 74,
+      "tm_id": "ARF-TM-A072EEEB571C66801A09",
+      "source_text": "ある２人の男の関係について。\n彼らの正体はいかに？",
+      "before": "어떤 두 남자의 관계에 관해.\n그들의 정체는 과연?",
+      "after": "어떤 ２명 남자의 관계에 관해.\n그들의 정체는 과연?",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 ２를 보존했다."
+    },
+    {
+      "index": 76,
+      "tm_id": "ARF-TM-A0C809631AAED7D88D92",
+      "source_text": "１人で、３人分は歩かされたわ",
+      "before": "혼자서 세 사람 몫은 걸었어",
+      "after": "１명이서, ３명 몫은 걸었어",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 ３을 모두 보존했다."
+    },
+    {
+      "index": 83,
+      "tm_id": "ARF-TM-A160CD4CBBE9483C95F2",
+      "source_text": "どうして？\n聞かせてもらいたいな。\n返答次第によっては――",
+      "before": "왜?\n들려줬으면 하는데.\n대답에 따라서는――",
+      "after": "왜?\n한번 들어 보고 싶은데.\n대답에 따라서는――",
+      "category": "naturalness",
+      "reason": "聞かせてもらいたい의 요청을 자연스러운 한국어 구어체로 다듬었다."
+    },
+    {
+      "index": 89,
+      "tm_id": "ARF-TM-A1E6AC796ED888B5DA1A",
+      "source_text": "アデールちゃんがディーバだったなん\nてね！　確かに神秘的な感じではあっ\nたかな〜？　ね！　リフィアちゃん！",
+      "before": "아델이 디바였다니\n말이야!　확실히 신비로운 느낌은 있\n었으려나~?　그렇지!　리피아!",
+      "after": "아델이 디바였다니 말이야!\n확실히 신비로운 느낌은\n있었으려나〜? 그렇지! 리피아!",
+      "category": "line_breaks_naturalness",
+      "reason": "원문의 3행 구조는 유지하면서 한국어 단어가 행 사이에서 끊긴 문제를 해소했다."
+    },
+    {
+      "index": 101,
+      "tm_id": "ARF-TM-A29828B73ACC79DAED85",
+      "source_text": "うん。\n他の人の想いを受け止めてこそ\n真の勇者様だからね",
+      "before": "응.\n다른 사람의 마음을 받아들여야\n진정한 용자님이니까",
+      "after": "응.\n다른 사람의 마음을 받아들여야\n진정한 용사님이니까",
+      "category": "glossary_terminology",
+      "reason": "勇者의 고정 번역을 용자로 쓰지 않고 용사로 통일했다."
+    },
+    {
+      "index": 121,
+      "tm_id": "ARF-TM-A3C4EA3C7892FE9EB0C9",
+      "source_text": "そうか。\nだが、１人で思い悩むくらいなら\n話してくれ。いつでもいい",
+      "before": "그런가.\n하지만 혼자 끙끙 앓을 바에는\n이야기해라. 언제든 괜찮다",
+      "after": "그런가.\n하지만 １명이서 끙끙 앓을 바에는\n이야기해라. 언제든 괜찮다",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １을 보존했다."
+    },
+    {
+      "index": 143,
+      "tm_id": "ARF-TM-A55794101EC654DE0A90",
+      "source_text": "えー！　マジっスか!?",
+      "before": "에~!　진짬까!?",
+      "after": "에〜!　진짜임까!?",
+      "category": "speaker_voice",
+      "reason": "ニコル의 っス체를 반영하되 잘못 축약된 표현을 자연스러운 캐릭터 말투로 교정했다."
+    },
+    {
+      "index": 148,
+      "tm_id": "ARF-TM-A5D32D7D7A75BFE9F033",
+      "source_text": "基本的には……ちがうな。\n在籍していたことも\nあるにはあるのだが",
+      "before": "기본적으로는…… 아니다.\n재적했던 적도\n있기는 하지만",
+      "after": "기본적으로는…… 아니다.\n소속돼 있던 적도\n있기는 하지만",
+      "category": "naturalness",
+      "reason": "재적이라는 문어적 직역을 대화에 자연스러운 소속 표현으로 바꿨다."
+    },
+    {
+      "index": 158,
+      "tm_id": "ARF-TM-A6A06B3CB9E7871135D9",
+      "source_text": "こいつが死神なら、俺は何神様？\n美と愛の化身として\n崇め奉られなきゃ、だよな？",
+      "before": "이 녀석이 사신이면 난 무슨 신님이지?\n미와 사랑의 화신으로\n떠받들어져야 하잖아?",
+      "after": "이 녀석이 사신이면 난 어떤 신이지?\n미와 사랑의 화신으로\n떠받들어져야 하잖아?",
+      "category": "naturalness",
+      "reason": "何神様의 익살스러운 질문을 부자연스러운 신님 직역 없이 자연스럽게 다듬었다."
+    },
+    {
+      "index": 180,
+      "tm_id": "ARF-TM-A8AB0DE9C61152B460DD",
+      "source_text": "つまり、相手と\n互角になれってこと？",
+      "before": "그러니까 상대와\n호각이 되라는 거야?",
+      "after": "그러니까 상대와\n대등해지라는 거야?",
+      "category": "naturalness",
+      "reason": "互角になれ를 한국어 대화에 자연스러운 대등해지다로 교정했다."
+    },
+    {
+      "index": 200,
+      "tm_id": "ARF-TM-A9CBCBA86579DEC922DC",
+      "source_text": "闘技場説明１８",
+      "before": "투기장 설명 18",
+      "after": "투기장 설명１８",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １８을 보존했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

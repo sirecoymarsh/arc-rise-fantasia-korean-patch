@@ -1,0 +1,232 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0148",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_final",
+  "draft_author": "/root/translate_final",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0148.jsonl",
+  "draft": "work/translation/drafts/batch_0148.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0148.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 10,
+  "unchanged_units": 190,
+  "correction_count": 9,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "index": 22,
+      "tm_id": "ARF-TM-5AD0306C05659C8F7B53",
+      "source_text": "え！　嘘!?",
+      "before": "뭐! 거짓말!?",
+      "after": "뭐! 거짓말이지!?",
+      "category": "natural_korean_voice",
+      "reason": "놀라서 되묻는 짧은 대사가 자연스럽게 들리도록 의문 종결을 보완했다."
+    },
+    {
+      "index": 62,
+      "tm_id": "ARF-TM-6B542866DBFB654F0130",
+      "source_text": "あ、アニキィ〜！",
+      "before": "혀, 형니임~!",
+      "after": "아, 형니임~!",
+      "category": "typo_voice",
+      "reason": "あ의 머뭇거림이 「혀」로 잘못 옮겨진 오타를 「아」로 바로잡았다."
+    },
+    {
+      "index": 80,
+      "tm_id": "ARF-TM-7349D83D6510E69648C0",
+      "source_text": "悪いな、そいつはもう\n持ちきれないみたいだ",
+      "before": "미안, 그건 이제\n다 들 수 없는 모양이야",
+      "after": "미안, 그건 더는\n들 수 없는 모양이야",
+      "category": "natural_korean",
+      "reason": "소지 한도 때문에 더 들 수 없다는 持ちきれない의 뜻을 자연스럽게 다듬었다."
+    },
+    {
+      "index": 114,
+      "tm_id": "ARF-TM-830925F3580A6B904475",
+      "source_text": "鼻を高くする老人",
+      "before": "코를 높이 드는 노인",
+      "after": "우쭐대는 노인",
+      "category": "meaning_natural_korean",
+      "reason": "鼻を高くする의 관용적 의미인 우쭐대는 모습을 인물 라벨에 반영했다."
+    },
+    {
+      "index": 118,
+      "tm_id": "ARF-TM-851D0666A95D3709D35F",
+      "source_text": "おかあさん……\nお昼はお仕事してるんだ……\nだから、ずっとお留守番してるの",
+      "before": "엄마……\n낮에는 일하고 있어……\n그래서 계속 집을 보고 있어",
+      "after": "엄마……\n낮에는 일하고 있어……\n그래서 계속 집을 지키고 있어",
+      "category": "natural_korean",
+      "reason": "ずっとお留守番してる를 자연스러운 한국어인 「계속 집을 지키고 있어」로 다듬었다."
+    },
+    {
+      "index": 132,
+      "tm_id": "ARF-TM-8AB778F5715D62FF308C",
+      "source_text": "取り違える女",
+      "before": "헷갈리는 여자",
+      "after": "착각하는 여자",
+      "category": "meaning",
+      "reason": "取り違える를 단순히 헷갈리게 한다는 뜻이 아니라 잘못 판단한다는 뜻으로 옮겼다."
+    },
+    {
+      "index": 151,
+      "tm_id": "ARF-TM-934A215A5A0A87D9821B",
+      "source_text": "悲鳴だ!?",
+      "before": "비명이다!?",
+      "after": "비명이야!?",
+      "category": "natural_korean_voice",
+      "reason": "비명을 알아차리고 놀라는 대사가 자연스럽게 들리도록 종결을 다듬었다."
+    },
+    {
+      "index": 163,
+      "tm_id": "ARF-TM-97CF333B458C64246D17",
+      "source_text": "まーたエブルに\n逆もどりっスねぇ……",
+      "before": "또 에블로\n되돌아가는군요……",
+      "after": "또 에블로\n되돌아가게 됐슴다……",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 프로젝트의 「~슴다/~임다」 계열로 살렸다."
+    },
+    {
+      "index": 200,
+      "tm_id": "ARF-TM-AA1AA5C14723CFAC1F3F",
+      "source_text": "送らせろ！",
+      "before": "내가 보내게 해 줘!",
+      "after": "내가 데려다주게 해 줘!",
+      "category": "meaning",
+      "reason": "送る를 단순히 보내다가 아니라 비광정으로 목적지까지 데려다준다는 문맥으로 옮겼다."
+    }
+  ],
+  "corrections": [
+    {
+      "index": 22,
+      "tm_id": "ARF-TM-5AD0306C05659C8F7B53",
+      "source_text": "え！　嘘!?",
+      "before": "뭐! 거짓말!?",
+      "after": "뭐! 거짓말이지!?",
+      "category": "natural_korean_voice",
+      "reason": "놀라서 되묻는 짧은 대사가 자연스럽게 들리도록 의문 종결을 보완했다."
+    },
+    {
+      "index": 62,
+      "tm_id": "ARF-TM-6B542866DBFB654F0130",
+      "source_text": "あ、アニキィ〜！",
+      "before": "혀, 형니임~!",
+      "after": "아, 형니임~!",
+      "category": "typo_voice",
+      "reason": "あ의 머뭇거림이 「혀」로 잘못 옮겨진 오타를 「아」로 바로잡았다."
+    },
+    {
+      "index": 80,
+      "tm_id": "ARF-TM-7349D83D6510E69648C0",
+      "source_text": "悪いな、そいつはもう\n持ちきれないみたいだ",
+      "before": "미안, 그건 이제\n다 들 수 없는 모양이야",
+      "after": "미안, 그건 더는\n들 수 없는 모양이야",
+      "category": "natural_korean",
+      "reason": "소지 한도 때문에 더 들 수 없다는 持ちきれない의 뜻을 자연스럽게 다듬었다."
+    },
+    {
+      "index": 114,
+      "tm_id": "ARF-TM-830925F3580A6B904475",
+      "source_text": "鼻を高くする老人",
+      "before": "코를 높이 드는 노인",
+      "after": "우쭐대는 노인",
+      "category": "meaning_natural_korean",
+      "reason": "鼻を高くする의 관용적 의미인 우쭐대는 모습을 인물 라벨에 반영했다."
+    },
+    {
+      "index": 118,
+      "tm_id": "ARF-TM-851D0666A95D3709D35F",
+      "source_text": "おかあさん……\nお昼はお仕事してるんだ……\nだから、ずっとお留守番してるの",
+      "before": "엄마……\n낮에는 일하고 있어……\n그래서 계속 집을 보고 있어",
+      "after": "엄마……\n낮에는 일하고 있어……\n그래서 계속 집을 지키고 있어",
+      "category": "natural_korean",
+      "reason": "ずっとお留守番してる를 자연스러운 한국어인 「계속 집을 지키고 있어」로 다듬었다."
+    },
+    {
+      "index": 132,
+      "tm_id": "ARF-TM-8AB778F5715D62FF308C",
+      "source_text": "取り違える女",
+      "before": "헷갈리는 여자",
+      "after": "착각하는 여자",
+      "category": "meaning",
+      "reason": "取り違える를 단순히 헷갈리게 한다는 뜻이 아니라 잘못 판단한다는 뜻으로 옮겼다."
+    },
+    {
+      "index": 151,
+      "tm_id": "ARF-TM-934A215A5A0A87D9821B",
+      "source_text": "悲鳴だ!?",
+      "before": "비명이다!?",
+      "after": "비명이야!?",
+      "category": "natural_korean_voice",
+      "reason": "비명을 알아차리고 놀라는 대사가 자연스럽게 들리도록 종결을 다듬었다."
+    },
+    {
+      "index": 163,
+      "tm_id": "ARF-TM-97CF333B458C64246D17",
+      "source_text": "まーたエブルに\n逆もどりっスねぇ……",
+      "before": "또 에블로\n되돌아가는군요……",
+      "after": "또 에블로\n되돌아가게 됐슴다……",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 프로젝트의 「~슴다/~임다」 계열로 살렸다."
+    },
+    {
+      "index": 200,
+      "tm_id": "ARF-TM-AA1AA5C14723CFAC1F3F",
+      "source_text": "送らせろ！",
+      "before": "내가 보내게 해 줘!",
+      "after": "내가 데려다주게 해 줘!",
+      "category": "meaning",
+      "reason": "送る를 단순히 보내다가 아니라 비광정으로 목적지까지 데려다준다는 문맥으로 옮겼다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "final_qa_correction_provenance": {
+    "status": "applied",
+    "reviewer": "/root/audit_boundary_integration",
+    "scope": "exhaustive classification of final heuristic warnings",
+    "source_inventory": "work/scratch/heuristic_warning_inventory.json",
+    "source_inventory_sha256": "EDD8ECA5898D33060FCA102052D12B26A67C0DBC2E0BAC68FC68466DDA8DA343",
+    "corrected_units_in_batch": 1,
+    "corrections": [
+      {
+        "tm_id": "ARF-TM-75CB7CF351BFAF4E91F9",
+        "warning_code": "japanese_remaining",
+        "classification": "actual_punctuation_problem",
+        "before": "그런가・・・.",
+        "after": "그런가……",
+        "reason": "Three Japanese middle dots were being used as an ellipsis and were followed by a redundant period; a Korean ellipsis is the intended mark.",
+        "source_line_breaks": 0,
+        "before_line_breaks": 0,
+        "after_line_breaks": 0,
+        "control_tokens_verified": true
+      }
+    ],
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  },
+  "hashes": {
+    "reviewed_sha256": "440F6C0ECEEEE4C8EED7FBCF3B4551BCAE3F0853D419F7281058DC89360C1B26"
+  }
+}

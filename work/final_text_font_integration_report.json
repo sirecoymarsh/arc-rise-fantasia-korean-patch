@@ -1,0 +1,869 @@
+{
+  "schema": "arf-final-text-font-integration-report-v2",
+  "generated_at_utc": "2026-08-09T00:38:26.504763+00:00",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "source_language": "ja-JP",
+  "target_language": "ko-KR",
+  "scope": {
+    "included": [
+      "149-batch independent review chain",
+      "exhaustive classification of all 148 heuristic warnings",
+      "29,777-unit frozen translation memory",
+      "canonical structured-table boundary audit",
+      "append-only custom glyph codebook",
+      "9 injected EUC28 WTM font pages",
+      "13 authoritative system-table payloads",
+      "925 independently cross-reviewed main.dol runtime strings"
+    ],
+    "excluded": [
+      "runtime ISO/RVZ rebuild",
+      "Dolphin runtime playthrough"
+    ]
+  },
+  "immutable_source_rvz": {
+    "path": "F:\\DOWN\\Arc Rise Fantasia (Japan)\\Arc Rise Fantasia (Japan).rvz",
+    "format": "RVZ",
+    "size_bytes": 3589772720,
+    "baseline_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "current_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "current_sha256_reverified_during_report_build": true,
+    "baseline_size_matches": true,
+    "hash_matches_immutable_baseline": true,
+    "creation_time_utc": "2026-08-03T02:10:49.172731+00:00",
+    "last_write_time_utc": "1996-12-24T14:32:00+00:00",
+    "write_operations_performed_by_this_stage": 0,
+    "modified": false
+  },
+  "review_chain": {
+    "artifact": {
+      "path": "work/translation/final_validation/review_chain.json",
+      "size_bytes": 135698,
+      "sha256": "1CD0B00CBBC0C6F04F7B63AABDEB5B6533C27FF68A36F42AE0D847B7936634F2"
+    },
+    "batch_manifest": {
+      "path": "work/translation/tm_v2/batch_manifest.json",
+      "size_bytes": 53814,
+      "sha256": "21E701C55469F5917A223B1614C9D5630FDF565A00FE9D98A7B1872347EA0F6F"
+    },
+    "manifest_batches": 149,
+    "manifest_units": 29777,
+    "validated_batches": 149,
+    "reviewed_units": 29777,
+    "all_manifest_batches_supplied": true,
+    "batch_0149": {
+      "manifest_unit_count": 177,
+      "source_unit_count": 177,
+      "reviewed_unit_count": 177,
+      "source_sha256": "A5FF3C86653BB95954D8D75FB00912F97159B1A8102436F7A7C498C15E84EB5C",
+      "reviewed_sha256": "EDC15D98826192E289792C3398E4BEC49BA50B7C539D256BDDDE8BD481CB5F3E"
+    },
+    "validation_errors": 0,
+    "advisory_warnings": 141,
+    "advisory_warning_codes": {
+      "japanese_remaining": 117,
+      "line_break_count_changed": 24
+    },
+    "unwaived_advisory_warnings": 0,
+    "warning_policy": "Every original warning received an internal-model semantic/layout decision. Genuine defects were corrected; each remaining acting-mark or Korean line-reflow warning has an exact current-state waiver.",
+    "valid": true
+  },
+  "heuristic_warning_final_qa": {
+    "initial_inventory": {
+      "path": "work/scratch/heuristic_warning_inventory.json",
+      "size_bytes": 200271,
+      "sha256": "EDD8ECA5898D33060FCA102052D12B26A67C0DBC2E0BAC68FC68466DDA8DA343"
+    },
+    "application": {
+      "path": "work/translation/final_validation/heuristic_warning_qa_application.json",
+      "size_bytes": 8455,
+      "sha256": "7CB200CD14D01D07D6D3C171850A525BE0A5C720D9B49440FCF3D7F3DEC5E111"
+    },
+    "waivers": {
+      "path": "work/translation/final_validation/heuristic_warning_waivers.json",
+      "size_bytes": 226825,
+      "sha256": "0BEBDFADE1C1AF8112760881466326C522F1B19851C80317DFC521550E2AC4D1"
+    },
+    "waiver_verification": {
+      "path": "work/translation/final_validation/heuristic_warning_waiver_verification.json",
+      "size_bytes": 1185,
+      "sha256": "AE4DF0D66171FDC0912ACECCDDBF38C8458225B8486E546EDCFE5872D1C81785"
+    },
+    "original_warning_events": 148,
+    "genuine_warning_defects_corrected": 7,
+    "adjacent_contamination_corrections": 1,
+    "total_target_corrections": 8,
+    "remaining_warning_events": 141,
+    "waiver_entries": 141,
+    "waiver_categories": {
+      "intentional_vocal_lengthening_acting_mark": 62,
+      "verified_korean_line_reflow": 24,
+      "intentional_middle_dot_delimiter_or_emphasis": 55
+    },
+    "unwaived_warning_events": 0,
+    "stale_waiver_entries": 0,
+    "all_original_warnings_classified_exactly_once": true,
+    "all_remaining_warnings_exactly_waived": true,
+    "external_translation_models_or_apis_used": false,
+    "valid": true
+  },
+  "canonical_boundary_audit": {
+    "artifact": {
+      "path": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+      "size_bytes": 1659735,
+      "sha256": "F1D312C5F70CECA06AF3B070B39A21ECD364F391ED52E6D999FFAE88DDBAED77"
+    },
+    "component_count": 8,
+    "reviewed_batches_bound": 22,
+    "audited_tm_units": 720,
+    "linked_table_units": 727,
+    "ambiguous_tm_units": 0,
+    "unmatched_tm_units": 0,
+    "reviewed_translation_mismatches": 0,
+    "reviewed_state_verified": true,
+    "final_remaining_component": {
+      "path": "work/translation/boundary_audit/final_remaining_system.json",
+      "size_bytes": 902390,
+      "sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5"
+    }
+  },
+  "frozen_translation_memory": {
+    "json": {
+      "path": "work/translation/final/translation_memory_draft.json",
+      "size_bytes": 43637320,
+      "sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1"
+    },
+    "csv": {
+      "path": "work/translation/final/translation_memory_draft.csv",
+      "size_bytes": 8398954,
+      "sha256": "A1ED7DE7071CE16CBA7E0A41B757B2E7D4181149D56FEDA27BC71844AFD95CA0"
+    },
+    "coverage": {
+      "path": "work/translation/final/coverage.json",
+      "size_bytes": 21343,
+      "sha256": "076A04C81AED51C61E3E12B6CECE42B0C21711621B626D5B76E5796843C8B7F3"
+    },
+    "total_units": 29777,
+    "translated_units": 29777,
+    "reviewed_units": 29777,
+    "coverage_percent": 100.0,
+    "total_occurrences": 84761,
+    "translated_occurrences": 84761,
+    "translated_by_surface": {
+      "system_database": 4343,
+      "battle_text": 172,
+      "misc_text": 60,
+      "event_script": 4259,
+      "map_dialogue": 20943
+    }
+  },
+  "approved_corpus": {
+    "approved_units": {
+      "path": "work/font/final_v1/approved_units.jsonl",
+      "size_bytes": 4043036,
+      "sha256": "4EAD9FAB01678481003F814C8ADA8CCDB7D44CE139AAD75873EBF748ACFD1907"
+    },
+    "corpus": {
+      "path": "work/font/final_v1/approved_korean_corpus.txt",
+      "size_bytes": 2286193,
+      "sha256": "7106C07BC9B5D0D6D2E0A26E002AD610C2764AB76D4E40FEB0AE6BDA0DCCE8F8"
+    },
+    "manifest": {
+      "path": "work/font/final_v1/corpus_manifest.json",
+      "size_bytes": 4811,
+      "sha256": "66ABB35ED9D7A8EFEDA6E3FE8E54345F5354F8E2ED4B48E449C250724F0A80BA"
+    },
+    "approved_units_count": 29777,
+    "unique_hangul": 1366,
+    "translation_memory_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+    "final_font_approved_units": {
+      "path": "work/font/final_v2/approved_units.jsonl",
+      "size_bytes": 4562911,
+      "sha256": "B048C99D6FD43D8C1F2DC2B1A80FFD2D067703B523EBDBF1D7A524E4A1700B5B"
+    },
+    "final_font_approved_units_manifest": {
+      "path": "work/font/final_v2/approved_units_manifest.json",
+      "size_bytes": 1084,
+      "sha256": "37ACE4361518E758E1B9FF82CB0086A0D1F3750EE36D2432974BF3EDA80403A4"
+    },
+    "final_font_approved_units_count": 30702,
+    "main_dol_supplement_count": 925
+  },
+  "append_only_codebook": {
+    "baseline": {
+      "path": "work/font/final_v1/codebook.json",
+      "size_bytes": 302219,
+      "sha256": "C068CE21DCD05D3081A26504757206543E7928921A30630F9154D3AA96790EC4"
+    },
+    "final": {
+      "path": "work/font/final_v2/codebook.json",
+      "size_bytes": 302438,
+      "sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF"
+    },
+    "verification": {
+      "path": "work/font/final_v2/codebook_append_only_verification.json",
+      "size_bytes": 951,
+      "sha256": "11F210E8FD4B91D466057BCEE7584A4ADDCBC48EDDA41380513EF43545CBC18D"
+    },
+    "reserved_pairs": {
+      "path": "work/font/original_reserved_pairs_v2.txt",
+      "size_bytes": 13362,
+      "sha256": "F84E29616A95F4501811F4A0837DAD646BC2F28219BBEE6ACA59CB6CB7E4142E"
+    },
+    "existing_assigned": 1368,
+    "final_assigned": 1369,
+    "appended_characters": 1,
+    "required_hangul": 504,
+    "required_custom_glyphs": 504,
+    "custom_non_euc_jp_glyphs": {
+      "U+00B7": {
+        "unicode": "U+00B7",
+        "bytes_hex": "CBEF",
+        "global_slot": 3391,
+        "page": 4,
+        "local_slot": 79,
+        "column": 10,
+        "row": 3,
+        "x": 220,
+        "y": 84
+      },
+      "U+FF5E": {
+        "unicode": "U+FF5E",
+        "bytes_hex": "D4F1",
+        "global_slot": 4257,
+        "page": 5,
+        "local_slot": 117,
+        "column": 2,
+        "row": 5,
+        "x": 44,
+        "y": 140
+      }
+    },
+    "existing_assignments_changed": 0,
+    "reserved_source_pairs": 2227,
+    "reserved_pair_collisions": 0,
+    "errors": [],
+    "valid": true
+  },
+  "main_dol_runtime_extension": {
+    "translations": {
+      "path": "work/runtime_fix/main_dol_translations.jsonl",
+      "size_bytes": 549652,
+      "sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3"
+    },
+    "crossreview": {
+      "path": "work/runtime_fix/main_dol_crossreview.json",
+      "size_bytes": 9836,
+      "sha256": "ED2FEA1C40A25CC84C8144943764C3CD0A0CEAE077E4D174053F50717AED062E"
+    },
+    "patch_report": {
+      "path": "work/runtime_fix/main_dol_patch_report_v2.json",
+      "size_bytes": 461796,
+      "sha256": "B68A8F8BD1EC1086B6BB109B8F11CA52AF7E9D6BEBB785A93F01A069BC59BB1E"
+    },
+    "translated_strings": 925,
+    "new_font_glyph": "켬",
+    "source_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC",
+    "patched_semantic_sha256": "2FF34AC7A78176DD2464ACA4DF925D5B70507CC98111D94091C5F1824626AC2C",
+    "valid": true
+  },
+  "font_injection": {
+    "font_source": {
+      "path": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "size_bytes": 12600392,
+      "sha256": "E8CBC0B2AFCC14FB45DFB6086D5102C0B23A96E7B6E708F3122ACDE1B86C9082"
+    },
+    "font_size": 22,
+    "manifest": {
+      "path": "work/font/final_v2/injection_manifest.json",
+      "size_bytes": 4590,
+      "sha256": "3B65BAA226EB84AA271F42EBB5D94645668D710F3EE2565CE52B639F5156DF0B"
+    },
+    "verification": {
+      "path": "work/font/final_v2/injection_verification.json",
+      "size_bytes": 3695,
+      "sha256": "BABCDC180C01FEC93C67007C90DB7BED98051197CEFA8A5472B353F372BE2764"
+    },
+    "wtm_pages": 9,
+    "assigned_characters": 1369,
+    "approved_units_encoded": 30702,
+    "approved_units_sha256": "b048c99d6fd43d8c1f2dc2b1a80ffd2d067703b523ebdbf1d7a524e4a1700b5b",
+    "approved_unit_encoding_errors": 0,
+    "assigned_cells_without_pixel_change": 0,
+    "total_changed_pixels": 581993,
+    "payloads": [
+      {
+        "file": "EUC28-0.wtm",
+        "path": "work/font/final_v2/injected/EUC28-0.wtm",
+        "size_bytes": 262208,
+        "sha256": "E8879B9BC06C1AB7CB5978EB73DE141C0CA83B27653AF933A2A66F54BB2AEE01",
+        "changed_from_source": true
+      },
+      {
+        "file": "EUC28-1.wtm",
+        "path": "work/font/final_v2/injected/EUC28-1.wtm",
+        "size_bytes": 262208,
+        "sha256": "E563B950365B09884C849C413BF3CE9247C974463C7594F53FCAECD53DC83E62",
+        "changed_from_source": true
+      },
+      {
+        "file": "EUC28-2.wtm",
+        "path": "work/font/final_v2/injected/EUC28-2.wtm",
+        "size_bytes": 262208,
+        "sha256": "1A62EFA8495AF40A560A5EBBEF208E75CDF9E9C8DD9754F1FCE77165B0A5AC65",
+        "changed_from_source": true
+      },
+      {
+        "file": "EUC28-3.wtm",
+        "path": "work/font/final_v2/injected/EUC28-3.wtm",
+        "size_bytes": 262208,
+        "sha256": "0C5CB57EEE25F140CBB987ACC3DD56C5F2D59FD575C8A3524E64C2BB82539AB2",
+        "changed_from_source": true
+      },
+      {
+        "file": "EUC28-4.wtm",
+        "path": "work/font/final_v2/injected/EUC28-4.wtm",
+        "size_bytes": 262208,
+        "sha256": "F15973B74B54BA021F1F54E6CE2D76C75FE2B6C4E76253F6408F5F37EEE30BD6",
+        "changed_from_source": true
+      },
+      {
+        "file": "EUC28-5.wtm",
+        "path": "work/font/final_v2/injected/EUC28-5.wtm",
+        "size_bytes": 262208,
+        "sha256": "2E6C62C9F8B5547D739831309685B2E347174F318E89B86EC33980509B2B27D6",
+        "changed_from_source": true
+      },
+      {
+        "file": "EUC28-6.wtm",
+        "path": "work/font/final_v2/injected/EUC28-6.wtm",
+        "size_bytes": 262208,
+        "sha256": "8F7CC3512FDB412B6BB06425ECF725B19A24B126F86228E64CE46AA93541546F",
+        "changed_from_source": false
+      },
+      {
+        "file": "EUC28-7.wtm",
+        "path": "work/font/final_v2/injected/EUC28-7.wtm",
+        "size_bytes": 262208,
+        "sha256": "D684E81AB6545CC5C6B51C0FE660707F319D6FB5770558EA56F58110675DDFBE",
+        "changed_from_source": false
+      },
+      {
+        "file": "EUC28-8.wtm",
+        "path": "work/font/final_v2/injected/EUC28-8.wtm",
+        "size_bytes": 262208,
+        "sha256": "E50A6CF68E93A8CE7BED166EB0465BEA8060162F3AEE8CD24B24373676253876",
+        "changed_from_source": false
+      }
+    ],
+    "errors": [],
+    "valid": true
+  },
+  "fixed_field_fit": {
+    "artifact": {
+      "path": "work/font/final_v2/fit_preflight.json",
+      "size_bytes": 80449,
+      "sha256": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138"
+    },
+    "translation_memory_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+    "codebook_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+    "catalog_tree_sha256": "B6CD9BAC0A43ED1248EBA7FA08DE9EDF3672FF181344588C6B4D905B9EA7D823",
+    "boundary_audit_sha256": "F1D312C5F70CECA06AF3B070B39A21ECD364F391ED52E6D999FFAE88DDBAED77",
+    "approved_tm_units": 29777,
+    "matched_unique_system_tm_units": 4343,
+    "matched_table_fields": 5236,
+    "fixed_overflow_count": 0,
+    "resizable_table_in_place_overflow_count": 127,
+    "unmatched_system_tm_count": 0,
+    "encoding_error_count": 0,
+    "global_encoding_error_count": 0,
+    "boundary_tm_units_matched": 720,
+    "boundary_table_fields_matched": 727,
+    "table_specific_boundary_fields_matched": 1,
+    "known_fixed_fields_fit": true,
+    "safe_for_fixed_table_insertion": true,
+    "geometry_regression_correction": {
+      "path": "work/translation/fixed_field_fit/geometry_regression_correction.json",
+      "size_bytes": 1313,
+      "sha256": "E2827130EF636951E415831A267EC02260A5B81CE1E6E1B70CAB1217925DC23B"
+    },
+    "geometry_repair_validation": {
+      "path": "work/runtime_validation/fixed_table_geometry_repair_validation.json",
+      "size_bytes": 25659,
+      "sha256": "4A00B580D2288A684977BDDD81F9D504BA436355A96176A394EEFDD4C537ACDB"
+    },
+    "geometry_corrected_tm_id": "ARF-TM-7983B232461623CDF50F",
+    "geometry_capacity_including_nul": 20,
+    "geometry_target_bytes_after": 18,
+    "protected_metadata_changed_bytes_after_repair": 0
+  },
+  "system_table_application": {
+    "proof": {
+      "path": "work/final_system_table_application/application_proof.json",
+      "size_bytes": 14182,
+      "sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1"
+    },
+    "catalog_allowlist": [
+      "ability.json",
+      "chat.json",
+      "dragon.json",
+      "help.json",
+      "item.json",
+      "magic.json",
+      "monster_book.json",
+      "operation.json",
+      "quest.json",
+      "shop.json",
+      "special.json",
+      "todo.json",
+      "treasure.json"
+    ],
+    "approved_system_tm_units": 4343,
+    "applied_unique_tm_units": 4343,
+    "replacement_table_fields": 5236,
+    "system_database_scanner_occurrences": 5236,
+    "structured_field_coverage_matches_scanner_occurrences": true,
+    "table_specific_boundary_replacement_fields": 1,
+    "payloads_rebuilt": 13,
+    "fixed_payload_changes_outside_declared_slots": 0,
+    "verification_error_count": 0,
+    "payloads": [
+      {
+        "catalog": "ability.json",
+        "schema": "ability",
+        "replacement_fields": 486,
+        "boundary_mapped_fields": 24,
+        "table_specific_boundary_fields": 1,
+        "path": "work/final_system_table_application/payloads/ability.bin",
+        "size_bytes": 36500,
+        "sha256": "4F261522C2B8FF8F54BA60DCD59C5FE62475C4C72A3AED3E9FBA9D0832B021C5",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "chat.json",
+        "schema": "chat",
+        "replacement_fields": 303,
+        "boundary_mapped_fields": 265,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/chat.bin",
+        "size_bytes": 100972,
+        "sha256": "7DDC30BBD711561BF142CB3DAED71D44AB9432F29D64BC4CD9859424D4157A87",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "dragon.json",
+        "schema": "dragon",
+        "replacement_fields": 65,
+        "boundary_mapped_fields": 4,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/dragon.bin",
+        "size_bytes": 3627,
+        "sha256": "B8374EBE1BF8DBBA947F64CEE3317FDC8D1FD810B9E76E0DFA4E9BEAF0ED6F81",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "help.json",
+        "schema": "help",
+        "replacement_fields": 760,
+        "boundary_mapped_fields": 379,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/help.bin",
+        "size_bytes": 131860,
+        "sha256": "BD2223EF7063947787313BB1604F46F77ADF866ABB820EEC2F7914A1827F7BCB",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "item.json",
+        "schema": "item",
+        "replacement_fields": 1785,
+        "boundary_mapped_fields": 0,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/item.bin",
+        "size_bytes": 196860,
+        "sha256": "D34872BC0016AF92C2B59181427C1D7BD578E38F7ADEF0C0E4ECB99C31C5E852",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "magic.json",
+        "schema": "magic",
+        "replacement_fields": 145,
+        "boundary_mapped_fields": 47,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/magic.bin",
+        "size_bytes": 8036,
+        "sha256": "3C1BC17B51543E7F1AD8F1D1FF3C9F77728C309F3C8FADAA000DF7AD3D98983E",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "monster_book.json",
+        "schema": "monster_book",
+        "replacement_fields": 540,
+        "boundary_mapped_fields": 0,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/monster_book.bin",
+        "size_bytes": 176456,
+        "sha256": "D5E74976D8503FFE89E72EEEC8B61600083F827FE60CFA83951199860A59E33D",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "operation.json",
+        "schema": "operation",
+        "replacement_fields": 16,
+        "boundary_mapped_fields": 0,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/operation.bin",
+        "size_bytes": 960,
+        "sha256": "16B49B30131856C5DA6C41F09869743CEAD969D257832544E00B03BAA260DD0A",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "quest.json",
+        "schema": "quest",
+        "replacement_fields": 272,
+        "boundary_mapped_fields": 0,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/quest.bin",
+        "size_bytes": 22945,
+        "sha256": "BE66B83879381102A667B4DF02FA97C3343DE82E7B9C9E3508797274E78A3524",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "shop.json",
+        "schema": "shop",
+        "replacement_fields": 46,
+        "boundary_mapped_fields": 0,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/shop.bin",
+        "size_bytes": 4042,
+        "sha256": "4097BF014641ED81A7B2CB68E7D34D629740C124A40E19E1257F4C47E3C62E88",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "special.json",
+        "schema": "special",
+        "replacement_fields": 151,
+        "boundary_mapped_fields": 2,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/special.bin",
+        "size_bytes": 10944,
+        "sha256": "DD5BDFF4BC1502CF26092F291590FCA9915584CA9F4B4C965A672E631A944516",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "todo.json",
+        "schema": "todo",
+        "replacement_fields": 411,
+        "boundary_mapped_fields": 6,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/todo.dat",
+        "size_bytes": 29952,
+        "sha256": "98E1D553DF385DF41EE0C764D8DCDF9857A8EE31421AA1CAF20F7702ED871001",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      },
+      {
+        "catalog": "treasure.json",
+        "schema": "treasure",
+        "replacement_fields": 256,
+        "boundary_mapped_fields": 0,
+        "table_specific_boundary_fields": 0,
+        "path": "work/final_system_table_application/payloads/treasure.bin",
+        "size_bytes": 12544,
+        "sha256": "3CF3538C18C74B0220C13C807B7B123E55C4C613219E01432C636D60C8DC333B",
+        "verification_errors": 0,
+        "changes_outside_declared_slots": 0
+      }
+    ],
+    "valid": true
+  },
+  "nested_boundary_resolution": {
+    "tm_id": "ARF-TM-B9E4C48F9B1EA3670863",
+    "scanner_source_text": "行動",
+    "reviewed_tm_translation_ko": "행동",
+    "coexisting_exact_occurrence": {
+      "occurrence_id": "ARF-037BE37E9EFFA460870B",
+      "logical_locator": "Sys/help.bin",
+      "table_unit_id": "help:0:title",
+      "uses_reviewed_tm_translation": true
+    },
+    "nested_occurrence_id": "ARF-9436C9070C3E005687B8",
+    "nested_logical_locator": "Sys/system.vol::0038:ability.bin",
+    "nested_scanner_offset": 31832,
+    "nested_scanner_raw_hex": "B9D4C6B0",
+    "parent_table_unit_id": "ability:218:name",
+    "parent_table_offset": 31828,
+    "parent_table_raw_hex": "BAC7C2AEB9D4C6B0",
+    "missing_real_field_prefix_hex": "BAC7C2AE",
+    "parent_clean_source_text": "最速行動",
+    "table_specific_translation_ko": "최속 행동",
+    "application_mode": "table_specific_only",
+    "capacity_including_nul": 21,
+    "required_with_nul": 10,
+    "raw_source_sha256": "8c433a1879789914d100570de3308ade33a4b25a10fb012f2aa09396fedf70a3",
+    "raw_bytes_verified": true,
+    "occurrence_field_delta_after_resolution": {
+      "artifact": {
+        "path": "work/translation/fixed_field_fit/system_occurrence_field_delta.json",
+        "size_bytes": 191,
+        "sha256": "DCCC4DA8B60751C042093E3F871B35D4B8A08704D77B8B147C95F50F6223FDEB"
+      },
+      "system_occurrences": 5236,
+      "applied_structured_fields": 5236,
+      "net_delta": 0,
+      "units_with_count_delta": 0
+    },
+    "resolved": true
+  },
+  "resolved_incidents": [
+    {
+      "id": "heuristic_warning_exhaustive_final_qa",
+      "initial_warning_events": 148,
+      "resolution": "All warnings were reviewed with source, target, surface, and context. Seven genuine warning-bearing defects plus one adjacent cross-unit contamination were explicitly corrected. The 141 remaining punctuation acting-mark and Korean line-reflow warnings are individually hash-bound and waived.",
+      "target_corrections": 8,
+      "waivers": 141,
+      "unwaived_warnings": 0,
+      "evidence": {
+        "path": "work/translation/final_validation/heuristic_warning_waiver_verification.json",
+        "size_bytes": 1185,
+        "sha256": "AE4DF0D66171FDC0912ACECCDDBF38C8458225B8486E546EDCFE5872D1C81785"
+      },
+      "resolved": true
+    },
+    {
+      "id": "review_validation_initial_6_errors",
+      "initial_errors": 6,
+      "resolution": "Three false repeated-question-mark heuristic hits were corrected in the validators; three cross-unit contaminated targets were restored without automatic retranslation.",
+      "integrity_corrections": 3,
+      "evidence": {
+        "path": "work/translation/reviews/final_validation_integrity_corrections.json",
+        "size_bytes": 2789,
+        "sha256": "3468BEBEB9E851B128AEE67EE83EBFACD9A930AD11FA0E47025E093F2BE060F3"
+      },
+      "final_errors": 0,
+      "resolved": true
+    },
+    {
+      "id": "font_encoding_initial_48_errors",
+      "initial_errors": 48,
+      "breakdown": {
+        "U+00B7": 47,
+        "U+FF5E": 1
+      },
+      "resolution": "The append-only mapping now extracts and renders required non-EUC-JP custom glyphs in addition to Hangul.",
+      "final_errors": 0,
+      "resolved": true
+    },
+    {
+      "id": "initial_417_unmatched_system_boundaries",
+      "initial_unmatched_tm_units": 417,
+      "discovery": {
+        "path": "work/translation/boundary_audit/remaining_system_discovery_preflight.json",
+        "size_bytes": 427915,
+        "sha256": "2DDB71C7FB04E9901D300C877E9031D784647E707596690E8DD7F28AB1694246"
+      },
+      "resolution": "Exact scanner/table byte-range overlap mapped and reviewed every remaining boundary; the final component also records the separately discovered nested occurrence.",
+      "final_component_units": 418,
+      "final_unmatched_tm_units": 0,
+      "resolved": true
+    },
+    {
+      "id": "initial_42_fixed_width_overflows",
+      "initial_fixed_overflows": 42,
+      "preflight": {
+        "path": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+        "size_bytes": 96432,
+        "sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5"
+      },
+      "application": {
+        "path": "work/translation/fixed_field_fit/application_report.json",
+        "size_bytes": 29412,
+        "sha256": "2B1C637AC7F0091533F3F9305E3419A59172CC7532A370E06E9E6098ACAF88FD"
+      },
+      "resolution": "Forty-two explicitly pinned internal-model compact rewrites were applied with line breaks and mechanical meaning preserved.",
+      "final_fixed_overflows": 0,
+      "resolved": true
+    },
+    {
+      "id": "fixed_schema_capacity_overlapped_binary_metadata",
+      "initial_protected_metadata_bytes_changed": 1231,
+      "initial_affected_record_file_instances": 621,
+      "affected_schemas": [
+        "item",
+        "shop",
+        "special",
+        "help",
+        "monster_book"
+      ],
+      "resolution": "Corrected five fixed-field capacities to exclude adjacent binary metadata, compacted the one newly overflowing shop name with the internal model, rebuilt all 13 payloads, and independently verified zero protected-byte changes.",
+      "correction": {
+        "path": "work/translation/fixed_field_fit/geometry_regression_correction.json",
+        "size_bytes": 1313,
+        "sha256": "E2827130EF636951E415831A267EC02260A5B81CE1E6E1B70CAB1217925DC23B"
+      },
+      "repair_validation": {
+        "path": "work/runtime_validation/fixed_table_geometry_repair_validation.json",
+        "size_bytes": 25659,
+        "sha256": "4A00B580D2288A684977BDDD81F9D504BA436355A96176A394EEFDD4C537ACDB"
+      },
+      "final_protected_metadata_bytes_changed": 0,
+      "resolved": true
+    },
+    {
+      "id": "discarded_26_catalog_intermediate_proof",
+      "initial_catalogs_scanned": 26,
+      "resolution": "The proof allowlist was restricted to the 13 authoritative system tables, excluding one battle tutorial and twelve party BTEM catalogs that could create cross-surface false matches.",
+      "final_catalogs_scanned": 13,
+      "final_proof": {
+        "path": "work/final_system_table_application/application_proof.json",
+        "size_bytes": 14182,
+        "sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1"
+      },
+      "resolved": true
+    },
+    {
+      "id": "scanner_occurrence_5236_vs_structured_field_5235",
+      "initial_scanner_occurrences": 5236,
+      "initial_structured_fields": 5235,
+      "resolution": "The second 行動 scanner occurrence was proven to be a nested suffix of ability:218:name 最速行動.  The shared reviewed TM target 행동 was preserved for help:0:title while the parent field receives the table-specific target 최속 행동.",
+      "final_scanner_occurrences": 5236,
+      "final_structured_fields": 5236,
+      "final_delta": 0,
+      "resolved": true
+    }
+  ],
+  "implementation_scripts": [
+    {
+      "path": "work/research/validate_translation_batch.py",
+      "size_bytes": 7494,
+      "sha256": "86E01BA5DBBFC77265605936C035006CE14768F3A64A5F19424E2222972D08D1"
+    },
+    {
+      "path": "work/research/validate_review_chain.py",
+      "size_bytes": 14512,
+      "sha256": "21F73C5D686BF2710E2819E221A7B4FB59E0F3A0716170C8764F914013A7100E"
+    },
+    {
+      "path": "work/research/merge_translation_batches.py",
+      "size_bytes": 8232,
+      "sha256": "002FA22CD0A3499230964DC8B17FF2B384E8245FE483652A82B9188D650C99D3"
+    },
+    {
+      "path": "work/research/build_remaining_system_boundary_audit.py",
+      "size_bytes": 27140,
+      "sha256": "6BA5474374264DB64FA43015C9FFCA6A17EAC0941557B92E152FB83D9AD45FAF"
+    },
+    {
+      "path": "work/research/apply_boundary_audit.py",
+      "size_bytes": 10799,
+      "sha256": "AD5D974BE4251976408C8FF480E09A3333F9ED2B3362A38BFA92B0EFD599CF84"
+    },
+    {
+      "path": "work/research/apply_boundary_audit_final_remaining.py",
+      "size_bytes": 1266,
+      "sha256": "4911394C0032DE9B70499A2BD8163B745C1EFDC6FA01F393FDC1299686EC0BF5"
+    },
+    {
+      "path": "work/research/build_canonical_boundary_audit.py",
+      "size_bytes": 13227,
+      "sha256": "ED3FA9D18E08E9629520073B313FA551A63D988A7B1C92728572527E49F6FCBF"
+    },
+    {
+      "path": "work/research/apply_fixed_field_fit_corrections.py",
+      "size_bytes": 13860,
+      "sha256": "D70AC9EDB6C65897A13DE2DC2FFE2E8F4388596BA690DC5CA36A9BD480015484"
+    },
+    {
+      "path": "work/research/build_approved_corpus.py",
+      "size_bytes": 3032,
+      "sha256": "C3A740C97928827B05DBD450168BF010AEC92695AC8EB44D070A03DDDE13B8D6"
+    },
+    {
+      "path": "work/research/build_final_font_approved_units.py",
+      "size_bytes": 4151,
+      "sha256": "546CEB31196A18576B42DE65351A10B70830E7FDDCF20CCC086AC28C86922ECE"
+    },
+    {
+      "path": "work/research/verify_append_only_codebook.py",
+      "size_bytes": 4683,
+      "sha256": "9CF67C385D467F04BEFD5A8D5F3A01C079DFE9AF34092EEDC29BCBA30BC8538D"
+    },
+    {
+      "path": "work/research/font_agent/arf_euc28_mapping.py",
+      "size_bytes": 15889,
+      "sha256": "29B068A44358E9BA9F3649F55942BD4754E81E66B244FDB82ADA16CCB59DB339"
+    },
+    {
+      "path": "work/research/verify_injected_fonts.py",
+      "size_bytes": 10041,
+      "sha256": "15BF375FE5BB2DA21A91E50150CF5CE4749998B7511FBCE4F3D818E8EEA3E746"
+    },
+    {
+      "path": "work/research/encode_custom_euc28.py",
+      "size_bytes": 2194,
+      "sha256": "4C6297D599FA62C0D9D48361FDFA7F82EDB15B5A6E00F8D8FC6D06F1079A97EE"
+    },
+    {
+      "path": "work/research/check_translation_fit.py",
+      "size_bytes": 14484,
+      "sha256": "003D4C7DBA7BCF03DF7BBED05AF704EB9ED6BD0CE5EF195F8DB01D29E05CCF9B"
+    },
+    {
+      "path": "work/research/build_system_table_application_proof.py",
+      "size_bytes": 17334,
+      "sha256": "C091CB09670F62CE464AC72E681DB57169386E2FD4372F286427834CDB704B12"
+    },
+    {
+      "path": "work/research/apply_final_heuristic_warning_qa.py",
+      "size_bytes": 21927,
+      "sha256": "12420489C93FD999ACAD10FA1D0BC849C5515202552F63A638779D121AF915F3"
+    },
+    {
+      "path": "work/research/verify_final_heuristic_warning_waivers.py",
+      "size_bytes": 7069,
+      "sha256": "C39EFE2FEB6CDAC33F5BB95A451A46B6A0342FAA52A8BFEA7833505B19094BEB"
+    },
+    {
+      "path": "work/scratch/analyze_system_occurrence_field_delta.py",
+      "size_bytes": 4240,
+      "sha256": "18C80507A07A25B89BFEDF245AF2C51D1C3000B474FC1A67C2DB5CE770E95C16"
+    },
+    {
+      "path": "work/research/build_final_text_font_integration_report.py",
+      "size_bytes": 54212,
+      "sha256": "95BB1AC96CCBBE0C9A56053087EBBA3D57B32A59B795952CA0D21E4E446E965F"
+    },
+    {
+      "path": "work/research/audit_final_release_refresh_dependencies.py",
+      "size_bytes": 29111,
+      "sha256": "DC583A241B28A1ADE3CACDE1BD6A96321CFFAF64A3048009E7C27D3BCAF28D01"
+    }
+  ],
+  "final_invariants": {
+    "internal_model_only": true,
+    "original_rvz_unchanged": true,
+    "review_chain_149_batches_29777_units": true,
+    "heuristic_warnings_148_classified_unwaived_zero": true,
+    "batch_0149_has_177_units": true,
+    "canonical_boundary_720_tm_727_fields_zero_ambiguity": true,
+    "translation_memory_29777_units_84761_occurrences_100_percent": true,
+    "append_only_codebook_1369_characters_zero_collisions": true,
+    "font_pages_9_zero_encoding_errors": true,
+    "system_tables_13_payloads_5236_fields_zero_errors": true
+  },
+  "error_count": 0,
+  "errors": [],
+  "advisory_warning_count": 141,
+  "valid": true
+}

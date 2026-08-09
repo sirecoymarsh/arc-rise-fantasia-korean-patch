@@ -1,0 +1,200 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0142",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_final",
+  "draft_author": "/root/translate_final",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work\\translation/tm_v2/batches/source/batch_0142.jsonl",
+  "draft": "work\\translation/drafts/batch_0142.jsonl",
+  "reviewed_output": "work\\translation/reviewed/batch_0142.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 20,
+  "unchanged_units": 180,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-7D3BA0150BA3F0768DCB",
+      "source_text": "仕方あるまい。\n我が『天威』のロゴスを与えよう",
+      "before": "어쩔 수 없군.\n나의 『천위』의 로그레스를 주마",
+      "after": "어쩔 수 없군.\n나의 『천위』 로고스를 주마",
+      "category": "terminology",
+      "reason": "ロゴス를 로그레스로 오역한 부분을 고정 용어 로고스로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-277851F5300E03C812B0",
+      "source_text": "■■イベント君消去■■\n",
+      "before": "■■이벤트 캐릭터 삭제■■\n",
+      "after": "■■이벤트군 삭제■■\n",
+      "category": "terminology",
+      "reason": "イベント君의 고정 디버그 표기인 이벤트군을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-296B8CD93FD02C0F47E9",
+      "source_text": "競合２回目\n",
+      "before": "경쟁 2회차\n",
+      "after": "경합 ２회차\n",
+      "category": "terminology_numeric_fidelity",
+      "reason": "競合을 경합으로 통일하고 원문의 전각 숫자 ２를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-45ADB9F6FA371D6E5F65",
+      "source_text": "オブジェ君",
+      "before": "오브제 군",
+      "after": "오브젝트군",
+      "category": "terminology",
+      "reason": "オブジェ君의 디버그 객체명을 오브젝트군으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-63256BC653E572DF8153",
+      "source_text": "レオンの理想像が……",
+      "before": "레온의 이상형이……",
+      "after": "레온의 이상상이……",
+      "category": "meaning",
+      "reason": "理想像가 이상형이 아니라 상상해 온 이상적인 모습이라는 뜻이 되도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-6B3B8A8D2885437B9D30",
+      "source_text": "ガキの頃から\n俺たちグラ慈恵教会の仲間は\nグラと親しかった",
+      "before": "어릴 적부터\n우리 그라 자혜교회 사람들은\n그라와 친하게 지냈다",
+      "after": "어릴 적부터\n우리 그라 자혜교회 동료들은\n그라와 친하게 지냈다",
+      "category": "meaning",
+      "reason": "仲間를 단순한 사람들로 옮긴 부분을 동료 관계가 드러나도록 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-79B530674300FD0DB8F5",
+      "source_text": "コレに頼む",
+      "before": "이쪽에 부탁할게",
+      "after": "이걸로 부탁할게",
+      "category": "meaning",
+      "reason": "서명할 물건을 가리키는 コレ를 사람을 가리키는 이쪽으로 오해하지 않도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-D0856D10D7CE804290C1",
+      "source_text": "競合３回目\n",
+      "before": "경쟁 3회차\n",
+      "after": "경합 ３회차\n",
+      "category": "terminology_numeric_fidelity",
+      "reason": "競合을 경합으로 통일하고 원문의 전각 숫자 ３을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-F86E7E49D3C3AB986483",
+      "source_text": "イベント君G",
+      "before": "이벤트 캐릭터 G",
+      "after": "이벤트군 G",
+      "category": "terminology",
+      "reason": "イベント君의 고정 디버그 표기인 이벤트군을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-FC08BAA1BD99EA53B526",
+      "source_text": "競合１回目\n",
+      "before": "경쟁 1회차\n",
+      "after": "경합 １회차\n",
+      "category": "terminology_numeric_fidelity",
+      "reason": "競合을 경합으로 통일하고 원문의 전각 숫자 １을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-1986F9FE2FEDBF88ADB9",
+      "source_text": "タイムは……",
+      "before": "시간은……",
+      "after": "타임은……",
+      "category": "terminology",
+      "reason": "측정 결과를 말하는 디버그 문맥에 맞게 タイム를 타임으로 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-4607E60EAF7259F084EC",
+      "source_text": "競合君",
+      "before": "경쟁 캐릭터",
+      "after": "경합군",
+      "category": "terminology",
+      "reason": "競合君을 일반 캐릭터가 아닌 경합 디버그 객체명으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-55911687FBDAE3550C2D",
+      "source_text": "私に異存はない",
+      "before": "나는 이견 없다",
+      "after": "나는 이의 없다",
+      "category": "natural_korean",
+      "reason": "격식 있는 짧은 동의문을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8E0B73225292E2C68872",
+      "source_text": "俺さまも賛成。\n最近足腰に来るんだよねぇ",
+      "before": "나도 찬성.\n요즘 허리랑 다리가 쑤시거든",
+      "after": "이 몸도 찬성.\n요즘 허리랑 다리가 쑤시거든",
+      "category": "voice",
+      "reason": "俺さま의 과장된 자칭이 드러나도록 화자 어조를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-BE0AE3F00F709B65B06A",
+      "source_text": "お父様……",
+      "before": "아버님……",
+      "after": "아버지……",
+      "category": "voice",
+      "reason": "딸이 아버지를 부르는 말로 부자연스러운 아버님을 아버지로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-EA36DB75D9B3CE5F76EE",
+      "source_text": "いつでも寄ってくださいね〜",
+      "before": "언제든 들러 주세요~",
+      "after": "언제든 들러 주세요〜",
+      "category": "punctuation",
+      "reason": "원문의 장음 물결표를 동일한 문자로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-1820CB51E61E582A957B",
+      "source_text": "道具屋の娘",
+      "before": "도구점 딸",
+      "after": "도구점 주인의 딸",
+      "category": "natural_korean",
+      "reason": "소유 관계가 빠진 명사구를 자연스럽게 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-354447346BE2228883EE",
+      "source_text": "私なら平気",
+      "before": "나라면 괜찮아",
+      "after": "나는 괜찮아",
+      "category": "meaning",
+      "reason": "조건문이 아니라 자신의 상태를 말하는 문장으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-438D2074E1A7CECA4B78",
+      "source_text": "どの小屋から来たか答える君",
+      "before": "어느 오두막에서 왔는지 답하는 캐릭터",
+      "after": "어느 오두막에서 왔는지 답하는 군",
+      "category": "terminology",
+      "reason": "디버그 명칭의 君을 프로젝트 표기인 군으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-6D31348CAF402C5F1FAB",
+      "source_text": "白々しい……",
+      "before": "뻔한 소리를……",
+      "after": "시치미 떼기는……",
+      "category": "meaning",
+      "reason": "白々しい의 능청스럽게 모르는 체한다는 의미를 살렸다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

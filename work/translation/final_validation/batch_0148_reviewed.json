@@ -1,0 +1,18 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0148.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0148.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 380,
+  "hangul_characters": "가각감같개거걱건걸검것게겠겨격결경계고곡곳공과관광교구국군규그근글금급기긴길김깃까껏께꾸꿈끄끝낌나낙날남났낮내냐냥너넘네넸녀녁년녕노놓느는늘니님다단닫달담답당대더덕던데델도돌동돼됐되된두둘둬뒤드득든들디땀떻또뜻라락람랑래러런럼레려력례로료룡루룬류르른를름리림링마만말맵머면명모못무물뭉뭐미밀바발밝방배버베벤벽변별볍병보복볼봐부분붉붙블비빛빨뻐삐사산살상생서석설성세셋셨소속손솔송수순쉬슈스슨슴습승시식신실심십싶쓰씨아안않알암앗았앙앞애야얌얍양얕어억언엄없었에엔엘여역염영오옥온옮옷와왼요용우운울움웅워원월위윌유육으윽은을음응의이익인일임입있잊자작잡장재쟁저적전절점정제족좀종좋죄주죽준줄중줘쥬즌즐지직진짐집짓째쪽쭐찌차착창찾처천철청추충층치카컷케켜크큰클키타탁탐탕태털테템통투트팔패편폐포표품프플피필하한할함합항해했행허험협형호홍화확환황회획후훙휴흐흑흔흥흩히",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 720
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0042",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0042.jsonl",
+  "draft": "work/translation/drafts/batch_0042.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0042.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 13,
+  "unchanged_units": 187,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-046A843BAC74F4899133",
+      "source_text": "……見てなかったの、ラルク",
+      "before": "……못 봤어, 라르크",
+      "after": "……못 봤구나, 라르크",
+      "category": "meaning",
+      "reason": "화자가 보지 못했다는 뜻이 아니라 라르크가 보지 않았음을 확인하는 문장으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-2F66C1A4EEA0772F8246",
+      "source_text": "レディ、お手をどうぞ",
+      "before": "레이디, 손을 이리로",
+      "after": "레이디, 손을 내주시죠",
+      "category": "speaker_voice",
+      "reason": "여성에게 손을 청하는 세련되고 공손한 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-684A9E5022A55D14E953",
+      "source_text": "教会はアイオーン隊に接収\nされちまってて、マリア以外は\n死んだって報告を受けてたんだ",
+      "before": "교회는 아이온대에 접수\n당했고, 마리아 말고는\n죽었다는 보고를 받았어",
+      "after": "교회는 아이온대에\n점거당했고, 마리아 말고는\n죽었다는 보고를 받았어",
+      "category": "meaning",
+      "reason": "接収를 단순 접수가 아니라 무력 조직에 의한 점거로 명확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-78779BBB88C017FDE3E6",
+      "source_text": "私なら１人でも\nちゃんとやれるから！",
+      "before": "나라면 １명이어도\n제대로 해낼 수 있으니까!",
+      "after": "난 １명 혼자서도\n제대로 해낼 수 있으니까!",
+      "category": "naturalness",
+      "reason": "혼자서도 일을 해낼 수 있다는 자신감을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-7A185B01838A30D275AB",
+      "source_text": "そういや、伝説の傭兵って割に\n若いッスね。いくつなんスか？",
+      "before": "그러고 보니 전설의 용병치고\n젊슴다. 몇 살임까?",
+      "after": "그러고 보니 전설의 용병치고\n젊어 보이네요. 몇 살임까?",
+      "category": "meaning",
+      "reason": "실제 나이를 단정하지 않고 겉보기에 젊다는 관찰로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-821F5D6849486294909A",
+      "source_text": "アニキー",
+      "before": "형니ー임",
+      "after": "형니〜임",
+      "category": "naturalness",
+      "reason": "일본어 장음 기호가 한국어 단어에 섞이지 않도록 늘여 부르는 말투로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-B3A35B5B2BC0C5E42EA4",
+      "source_text": "だもんって……伝説の傭兵なんて\n言われてた奴が、そんな子ども\nみたいなしゃべり方するなよ",
+      "before": "싫은걸이라니…… 전설의 용병이라\n불리던 녀석이 그런 어린애\n같은 말투 쓰지 마",
+      "after": "『싫은걸』이라니…… 전설의 용병이라\n불리던 녀석이 그런 어린애\n같은 말투 쓰지 마",
+      "category": "function",
+      "reason": "상대가 방금 한 말을 직접 인용해 타박하는 발화 구조를 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-B948FD5412E0A8FCD8E2",
+      "source_text": "別に焦ってなんかいません",
+      "before": "딱히 초조해하지 않았습니다",
+      "after": "딱히 초조해하지 않습니다",
+      "category": "meaning",
+      "reason": "현재 초조하지 않다고 부정하는 발화를 과거형에서 현재형으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-D46EBB9D1BAC2BB98A0B",
+      "source_text": "……私がサージュの未来を\n踏みにじったのだ",
+      "before": "……내가 사쥬의 미래를\n짓밟은 거야",
+      "after": "……내가 사쥬의 미래를\n짓밟은 것이다",
+      "category": "speaker_voice",
+      "reason": "오이겐의 절제된 단정형 어조로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-DD7EEA4BCDF29C98B486",
+      "source_text": "そうなのか!?",
+      "before": "그랬어!?",
+      "after": "그랬던 거야!?",
+      "category": "meaning",
+      "reason": "새로 알게 된 과거의 사실에 놀라는 반응이 드러나도록 시제를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-EDEABAA8324997651F1F",
+      "source_text": "……ラルク。\nちょっとは空気読もうよ",
+      "before": "……라르크.\n조금은 분위기를 읽자",
+      "after": "……라르크.\n눈치 좀 챙겨",
+      "category": "naturalness",
+      "reason": "空気を読む의 관용적 의미를 자연스러운 한국어 대사로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-F5F4901CAC7CB4162673",
+      "source_text": "幸運なことに、昔の私は\n奴の仲間だった訳ではないのでな",
+      "before": "다행히 옛날의 나는\n그 녀석 동료가 아니었으니까",
+      "after": "다행히 예전의 나는\n그 녀석 동료가 아니었으니 말이지",
+      "category": "speaker_voice",
+      "reason": "오이겐의 설명조 어투와 과거 시점을 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-42D099D813F61B3E3E81",
+      "source_text": "あっさり言いやがって……",
+      "before": "아무렇지도 않게 말하네……\n그때까지 여동생 정도로만 여겼던 상대가\n갑자기 특별한 사람으로 변해서――",
+      "after": "아무렇지도 않게 말하네……",
+      "category": "line_breaks",
+      "reason": "다음 번역 단위의 문장이 잘못 붙은 초과 번역을 제거하고 원문의 단일 행 구조를 복원했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

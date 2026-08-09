@@ -1,0 +1,150 @@
+{
+  "schema": "arf-boundary-integration-audit-v1",
+  "generated_at": "2026-08-03T13:58:15+09:00",
+  "auditor": "Independent Codex internal-model technical audit",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "scope": {
+    "production_scripts": [
+      "work/research/apply_boundary_audit.py",
+      "work/research/validate_translation_batch.py",
+      "work/research/merge_translation_batches.py",
+      "work/research/check_translation_fit.py"
+    ],
+    "canonical_boundary_audit": "work/translation/boundary_audit/batches_0001_0002.json",
+    "application_report": "work/translation/boundary_audit/application_report.json",
+    "reviewed_batches": [
+      "work/translation/reviewed/batch_0001.jsonl",
+      "work/translation/reviewed/batch_0002.jsonl"
+    ]
+  },
+  "overall_status": "PASS_WITH_ADVISORY",
+  "checks": {
+    "exact_boundary_linking": {
+      "status": "PASS",
+      "tm_units": 61,
+      "linked_table_fields": 68,
+      "unique_occurrences": 68,
+      "raw_files_checked": 5,
+      "anomaly_types": {
+        "scanner_skipped_field_prefix": 8,
+        "scanner_included_pre_field_structure_bytes": 53
+      },
+      "schemas": {
+        "ability": 6,
+        "chat": 23,
+        "help": 25,
+        "magic": 4,
+        "todo": 3
+      },
+      "verification": "TM occurrence IDs, scanner offsets/bytes, structured table IDs, table offsets/bytes, clean source text, capacities, source hashes, and byte-range overlap all matched independently."
+    },
+    "reviewed_batch_application": {
+      "status": "PASS",
+      "audited_records_present": 61,
+      "clean_targets_applied": 61,
+      "targets_changed_from_pre_audit_approved_text": 60,
+      "targets_already_clean_and_unchanged": 1,
+      "all_61_targets_encode_and_fit_declared_capacity": true,
+      "audited_units_by_batch": {
+        "batch_0001": 11,
+        "batch_0002": 50
+      }
+    },
+    "help_295_title_fit": {
+      "status": "PASS",
+      "tm_id": "ARF-TM-019ABE60D53A27F0D5E8",
+      "table_unit_id": "help:295:title",
+      "translation_ko": "코핀에게 전해진 진실",
+      "encoded_payload_bytes": 20,
+      "encoded_hex": "C5BFC7CEBEE0B0C920C1EEC7E8C3C920C3C9BDB6",
+      "nul_terminator_bytes": 1,
+      "required_bytes_including_nul": 21,
+      "field_capacity_bytes_including_nul": 21,
+      "headroom_bytes": 0
+    },
+    "production_tool_execution": {
+      "status": "PASS",
+      "validators": {
+        "batch_0001": {
+          "exit_code": 0,
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true
+        },
+        "batch_0002": {
+          "exit_code": 0,
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true
+        }
+      },
+      "validator_report_idempotent": true,
+      "merge": {
+        "translated_units": 400,
+        "reviewed_units": 400,
+        "boundary_metadata_units": 61,
+        "idempotent_outputs": true
+      },
+      "fit_preflight": {
+        "approved_tm_units": 800,
+        "matched_unique_tm_units": 720,
+        "matched_table_fields": 1259,
+        "boundary_audit_tm_units_matched": 61,
+        "boundary_audit_table_fields_matched": 68,
+        "fixed_overflow_count": 0,
+        "resizable_table_in_place_overflow_count": 60,
+        "unmatched_system_tm_count": 80,
+        "encoding_error_count": 0,
+        "global_encoding_error_count": 0,
+        "known_fixed_fields_fit": true,
+        "safe_for_fixed_table_insertion": false
+      },
+      "fit_report_idempotent": true,
+      "note": "safe_for_fixed_table_insertion remains false only because 80 other approved system TM units remain unmatched; the 61 audited units/68 linked fields are matched and have zero fixed overflow."
+    },
+    "apply_tool_idempotence": {
+      "status": "PASS",
+      "tested_from_reconstructed_pre_application_state": true,
+      "first_and_second_output_hashes_identical": true,
+      "outputs_compared": 5,
+      "note_marker_duplicates_after_second_run": 0,
+      "reported_adjustments_each_run": 60
+    },
+    "control_token_exception_scope": {
+      "status": "PASS",
+      "canonical_audit_tm_id_count": 61,
+      "audited_structural_control_exception_id": "ARF-TM-00B9C7C59B369D5EE2EB",
+      "audited_exception_passed_with_canonical_audit": true,
+      "audited_exception_failed_without_audit": true,
+      "non_audited_control_mismatch_id": "ARF-TM-7C50BE886780C7DF7434",
+      "non_audited_mismatch_rejected_by_validator_with_canonical_audit": true,
+      "non_audited_mismatch_rejected_by_merger_with_canonical_audit": true,
+      "canonical_scope_result": "limited to the 61 IDs present in the canonical audit",
+      "caller_modified_audit_can_expand_scope": true
+    }
+  },
+  "failures": [],
+  "advisories": [
+    {
+      "id": "AUDIT_FILE_IS_CALLER_TRUST_ROOT",
+      "severity": "advisory",
+      "detail": "--boundary-audit content is not schema/hash-pinned by the three consumers. Canonical scope is correct, but a caller-modified audit can define a new control-token exemption. Pin the canonical SHA-256 in orchestration/release checks.",
+      "canonical_audit_sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+      "demonstrated_with_disposable_fake_audit": true
+    }
+  ],
+  "input_sha256": {
+    "work/translation/boundary_audit/batches_0001_0002.json": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+    "work/translation/boundary_audit/application_report.json": "2634F894BC741426F7D4185CDD52CAA7370BFD44D1740BBB7F094059FD3A0B99",
+    "work/translation/reviewed/batch_0001.jsonl": "7EBB22A7017CC14D1A133F806CE2197E55A3E2481077B4494171014C7EF135AB",
+    "work/translation/reviewed/batch_0002.jsonl": "422DC33FAAE578EADAF5102CBE34C170423E71E0A45C278F587F77620433BE63",
+    "work/font/canonical_v1/codebook.json": "4BA8DFB2952355C54CC9D6B40F4732A85CFA090CA6B4998DC28BF1F02DDD0AB3",
+    "work/research/apply_boundary_audit.py": "0A2B5027CD24302E9A19DD9960D3783B2E2FCFAB84BFE8F6A621195F722ABDEE",
+    "work/research/validate_translation_batch.py": "F737FB4DE8250A52670D1FE0C0E4BA609B3CEA437A4A659C6A575C3F319F4580",
+    "work/research/merge_translation_batches.py": "31BE0001A2AC005A62CEB6100CA269865391CF03CB554E41077560A0F0DBD2F2",
+    "work/research/check_translation_fit.py": "AF62002DDD574C645B8C228A2B97CE8A5BF280F06832723FFF1A5E6A7DC755B5"
+  }
+}

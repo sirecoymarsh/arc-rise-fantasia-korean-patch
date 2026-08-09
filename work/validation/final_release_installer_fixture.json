@@ -1,0 +1,32 @@
+﻿{
+    "schema":  "arf-ko-installer-fixture-v1",
+    "package_root":  "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0",
+    "source_rvz_sha256":  "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "checks":  [
+                   {
+                       "name":  "pristine_install",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "installed_hash_verification",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "byte_exact_restore",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "restored_target_has_no_added_files",
+                       "passed":  true,
+                       "count":  0
+                   },
+                   {
+                       "name":  "tampered_payload_rejected_before_target_write",
+                       "passed":  true,
+                       "target_files":  0
+                   }
+               ],
+    "passed_count":  5,
+    "failed_count":  0,
+    "valid":  true
+}

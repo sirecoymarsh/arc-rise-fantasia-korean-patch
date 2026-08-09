@@ -1,0 +1,2 @@
+﻿const fs=require('fs');const p=JSON.parse(fs.readFileSync('work/catalog/text_probe_10.json','utf8'));const tm=JSON.parse(fs.readFileSync('work/translation/final/translation_memory_draft.json','utf8'));const m=new Map(tm.units.map(u=>[u.source_text,u.translation_ko]));
+for(const [a,b,n] of [[0x3c6400,0x3c6600,'disc'],[0x3c89f0,0x3c9430,'battle'],[0x3c98a0,0x3ca250,'startup'],[0x3cb700,0x3cb7e0,'notifs'],[0x3cf1c8,0x3d157e,'menu']]){const xs=p.records.filter(r=>r.offset>=a&&r.offset<b); console.log(n,xs.length,'tm',xs.filter(r=>m.has(r.text)).length);}

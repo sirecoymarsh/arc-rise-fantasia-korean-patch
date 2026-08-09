@@ -1,0 +1,10 @@
+{
+  "interface/tex_casino_intro_race_wtm.cxd": "No Japanese text detected; race scene art only.",
+  "interface/tex_casino_intro_slot_wtm.cxd": "No Japanese text detected; slot symbols and English BET COIN label retained as art/UI convention.",
+  "Sys/criware.wtm": "CRIWARE middleware logo; no Japanese text and not a game-localization surface.",
+  "Hbm/homeBtnIcon.wtm": "Wii Home Button icon; symbolic art with no Japanese text.",
+  "Title/title.vol::title_flear.tpl": "Title flare/effect texture; no identified display text.",
+  "Title/title.vol::title.brres": "Title scene model/layout resources; baked labels are stored in the separately edited WTMD members.",
+  "Title/title.vol::light.brres": "Lighting effect resource; no display text.",
+  "Title/title.vol::rain.brres": "Rain effect resource; no display text."
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0082",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0082.jsonl",
+  "draft": "work/translation/drafts/batch_0082.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0082.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 13,
+  "unchanged_units": 187,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-17B587ECBAAA32322CB1",
+      "source_text": "日陰で２日も置いておいたら\n食べごろになるんですって……<$0C>今日の夕飯には\n間に合わないじゃないの！",
+      "before": "그늘에서 ２일이나 두면\n먹기 좋게 익는대요……<$0C>오늘 저녁에는\n못 맞추잖아!",
+      "after": "그늘에서 ２일이나 두면\n먹기 좋게 익는대요……<$0C>오늘 저녁 식사에는\n늦잖아!",
+      "category": "naturalness",
+      "reason": "저녁 식사 때까지 익지 않는다는 뜻의 '間に合わない'를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-17F05A8CE4CE0D2E4F4B",
+      "source_text": "青い瞳のノワーレ教徒",
+      "before": "푸른 눈의 노와레교 신자",
+      "after": "푸른 눈의 노와레교도",
+      "category": "terminology",
+      "reason": "종교 소속을 나타내는 'ノワーレ教徒'를 프로젝트의 기존 표기인 '노와레교도'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1888BFBCB9DDB8C5D842",
+      "source_text": "あんたの信心深さは\nあんまり関係ないと思うぞ、俺は",
+      "before": "네 신앙심은\n별로 상관없는 것 같은데, 나는",
+      "after": "내 생각엔 네 신앙심은\n별로 상관없는 것 같은데",
+      "category": "naturalness",
+      "reason": "화자의 견해를 덧붙이는 '俺は'이 자연스럽게 연결되도록 어순을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-18DD9BB7EAD1F9E233CD",
+      "source_text": "レベル１ＭＰ　　\nレベル２ＭＰ　　\nレベル３ＭＰ　　\nレベル４ＭＰ　　\n魔法威力：火属性\n魔法威力：水属性\n魔法威力：風属性\n魔法威力：土属性\nスロット数　　　\n最強　　　　　　\nリセット　　　　\nやめる　　　　　",
+      "before": "레벨１ＭＰ　　\n레벨２ＭＰ　　\n레벨３ＭＰ　　\n레벨４ＭＰ　　\n마법 위력: 불 속성\n마법 위력: 물 속성\n마법 위력: 바람 속성\n마법 위력: 땅 속성\n슬롯 수　　　\n최강　　　　　\n초기화　　　　\n그만두기　　　",
+      "after": "레벨１MP　　\n레벨２MP　　\n레벨３MP　　\n레벨４MP　　\n마법 위력: 불 속성\n마법 위력: 물 속성\n마법 위력: 바람 속성\n마법 위력: 땅 속성\n슬롯 수　　　\n최강　　　　　\n초기화　　　　\n그만두기　　　",
+      "category": "orthography",
+      "reason": "전각 숫자는 보존하고 문체 가이드에 따라 전각 영문 약어 'ＭＰ'를 반각 ASCII 'MP'로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-19114F864A07BC87840C",
+      "source_text": "エブル遺跡D00へ\n",
+      "before": "에브루 유적 D00으로\n",
+      "after": "에블 유적 D00으로\n",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-19461F0EAB47A0B0BF35",
+      "source_text": "あんたがレジスタンスの\n新しいリーダーか<$0C>カザフから詳しい話は聞いてる。\n――今後ともよろしく頼む",
+      "before": "당신이 저항군의\n새 지도자인가<$0C>카자프에게 자세한 이야기는 들었다.\n――앞으로도 잘 부탁한다",
+      "after": "당신이 레지스탕스의\n새 지도자인가<$0C>카자프에게 자세한 이야기는 들었다.\n――앞으로도 잘 부탁한다",
+      "category": "terminology",
+      "reason": "조직명 'レジスタンス'를 프로젝트에서 사용하는 음역 표기 '레지스탕스'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1980BF9735B137F8CA0B",
+      "source_text": "Ｂランクイベントサンプルを再生しますか？",
+      "before": "Ｂ랭크 이벤트 샘플을 재생하시겠습니까?",
+      "after": "B랭크 이벤트 샘플을 재생하시겠습니까?",
+      "category": "orthography",
+      "reason": "문체 가이드에 따라 전각 영문 'Ｂ'를 반각 ASCII 'B'로 정규화했다."
+    },
+    {
+      "tm_id": "ARF-TM-19D9854FAE198DD2FA95",
+      "source_text": "あら、ボウヤ……\nお姉さんに何か用？<$0C>私も退屈していたから\n少しだけなら\n遊んであげてもいいわよ♪",
+      "before": "어머, 도련님……\n누나한테 무슨 볼일이야?<$0C>나도 심심했으니까\n잠깐이라면\n놀아 줘도 좋아♪",
+      "after": "어머, 도련님……\n누나한테 무슨 볼일이야?<$0C>나도 심심했으니까\n잠깐이라면\n놀아 줄 수도 있어♪",
+      "category": "meaning",
+      "reason": "화자가 상대와 놀아 주겠다는 '遊んであげる'의 행위 방향을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1A0E9DE80A7A2CC56AE9",
+      "source_text": "さっきは助かった。\nさすが伝説の傭兵って\n呼ばれるだけのことはあるな",
+      "before": "아까는 도움받았어.\n과연 전설의 용병이라\n불릴 만하군",
+      "after": "아까는 덕분에 살았어.\n과연 전설의 용병이라\n불릴 만하군",
+      "category": "naturalness",
+      "reason": "상대의 도움으로 위기를 넘겼다는 '助かった'를 자연스러운 감사 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1A51CC1C20C0F9432B75",
+      "source_text": "和平会談と称してのだまし討ち……\nヴァイス皇太子は悪辣なお方ね。\n肉親に討たれるのも無理はありません",
+      "before": "화평 회담을 핑계로 한 기습……\n바이스 황태자는 악랄한 분이군요.\n혈육에게 토벌당한 것도 무리는 아닙니다",
+      "after": "화평 회담을 핑계로 한 기습……\n바이스 황태자는 악랄한 분이군요.\n혈육의 손에 죽은 것도 무리는 아닙니다",
+      "category": "word_choice",
+      "reason": "가족에게 죽임을 당했다는 '肉親に討たれる'를 자연스럽고 정확하게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-1A74877F69F6CD19699D",
+      "source_text": "あのヴァイス殿下が\n海の藻屑に消えたなんて……\n到底、信じることができん",
+      "before": "그 바이스 전하가\n바다의 물거품으로 사라졌다니……\n도저히 믿을 수 없어",
+      "after": "그 바이스 전하가\n바닷속으로 사라졌다니……\n도저히 믿을 수 없어",
+      "category": "idiom",
+      "reason": "바다에서 죽거나 사라진다는 '海の藻屑に消える'를 자연스러운 관용 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1AB1344FF445547DDB11",
+      "source_text": "エブルが汚され\nバトラキテスが蹂躙されました。\n次はカルブンクルスでしょうか？",
+      "before": "에브루가 더럽혀지고\n바트라키테스가 유린당했습니다.\n다음은 카르분클루스일까요?",
+      "after": "에블이 더럽혀지고\n바트라키테스가 유린당했습니다.\n다음은 카르분클루스일까요?",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 'エブル'을 '에블'로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1B1E132DAAA946FD93AE",
+      "source_text": "天衝塔ザイフェルト・ラウンドフロア０６",
+      "before": "천충탑 자이펠트・라운드 플로어０６",
+      "after": "천충탑 자이페르트・라운드 플로어０６",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명 '天衝塔ザイフェルト'를 '천충탑 자이페르트'로 바로잡고 전각 숫자를 보존했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

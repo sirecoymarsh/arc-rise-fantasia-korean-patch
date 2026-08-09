@@ -1,0 +1,735 @@
+{
+  "schema": "contextual-game-localization.image-contact-sheet.v1",
+  "status": "pass",
+  "input_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\image_ui_final\\edited",
+  "output_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\image_ui_final\\reports\\contact_edited",
+  "image_count": 48,
+  "page_count": 2,
+  "error_count": 0,
+  "page_files": [
+    "contact_001.png",
+    "contact_002.png"
+  ],
+  "entries": [
+    {
+      "path": "0000__title_pressanybutton.png",
+      "page": 1,
+      "cell": 0,
+      "column": 0,
+      "row": 0,
+      "size": [
+        240,
+        32
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "0001__title_logo.png",
+      "page": 1,
+      "cell": 1,
+      "column": 1,
+      "row": 0,
+      "size": [
+        640,
+        448
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "0002__title_newgame01.png",
+      "page": 1,
+      "cell": 2,
+      "column": 2,
+      "row": 0,
+      "size": [
+        112,
+        24
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "0003__title_newgame02.png",
+      "page": 1,
+      "cell": 3,
+      "column": 3,
+      "row": 0,
+      "size": [
+        112,
+        24
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "0004__title_continue01.png",
+      "page": 1,
+      "cell": 4,
+      "column": 0,
+      "row": 1,
+      "size": [
+        112,
+        24
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "0005__title_continue02.png",
+      "page": 1,
+      "cell": 5,
+      "column": 1,
+      "row": 1,
+      "size": [
+        112,
+        24
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "nowloading.png",
+      "page": 1,
+      "cell": 6,
+      "column": 2,
+      "row": 1,
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "strapA_jp.png",
+      "page": 1,
+      "cell": 7,
+      "column": 3,
+      "row": 1,
+      "size": [
+        640,
+        448
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "strapB_jp.png",
+      "page": 1,
+      "cell": 8,
+      "column": 0,
+      "row": 2,
+      "size": [
+        640,
+        448
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_casino_intro_bj_wtm.png",
+      "page": 1,
+      "cell": 9,
+      "column": 1,
+      "row": 2,
+      "size": [
+        256,
+        192
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_casino_intro_poker_wtm.png",
+      "page": 1,
+      "cell": 10,
+      "column": 2,
+      "row": 2,
+      "size": [
+        256,
+        192
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_adk_wtm.png",
+      "page": 1,
+      "cell": 11,
+      "column": 3,
+      "row": 2,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_adz_wtm.png",
+      "page": 1,
+      "cell": 12,
+      "column": 0,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_aka_wtm.png",
+      "page": 1,
+      "cell": 13,
+      "column": 1,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_aot_wtm.png",
+      "page": 1,
+      "cell": 14,
+      "column": 2,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_bat_wtm.png",
+      "page": 1,
+      "cell": 15,
+      "column": 3,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_bne_wtm.png",
+      "page": 1,
+      "cell": 16,
+      "column": 0,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_can_wtm.png",
+      "page": 1,
+      "cell": 17,
+      "column": 1,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_cob_wtm.png",
+      "page": 1,
+      "cell": 18,
+      "column": 2,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_cop_wtm.png",
+      "page": 1,
+      "cell": 19,
+      "column": 3,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_des_wtm.png",
+      "page": 1,
+      "cell": 20,
+      "column": 0,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_dia_wtm.png",
+      "page": 1,
+      "cell": 21,
+      "column": 1,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_ebu_wtm.png",
+      "page": 1,
+      "cell": 22,
+      "column": 2,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_evt_wtm.png",
+      "page": 1,
+      "cell": 23,
+      "column": 3,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_ext_wtm.png",
+      "page": 2,
+      "cell": 0,
+      "column": 0,
+      "row": 0,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_hai_wtm.png",
+      "page": 2,
+      "cell": 1,
+      "column": 1,
+      "row": 0,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_hgu_wtm.png",
+      "page": 2,
+      "cell": 2,
+      "column": 2,
+      "row": 0,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_hki_wtm.png",
+      "page": 2,
+      "cell": 3,
+      "column": 3,
+      "row": 0,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_hnk_wtm.png",
+      "page": 2,
+      "cell": 4,
+      "column": 0,
+      "row": 1,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_ise_wtm.png",
+      "page": 2,
+      "cell": 5,
+      "column": 1,
+      "row": 1,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_jad_wtm.png",
+      "page": 2,
+      "cell": 6,
+      "column": 2,
+      "row": 1,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_kai_wtm.png",
+      "page": 2,
+      "cell": 7,
+      "column": 3,
+      "row": 1,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_kal_wtm.png",
+      "page": 2,
+      "cell": 8,
+      "column": 0,
+      "row": 2,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_kan_wtm.png",
+      "page": 2,
+      "cell": 9,
+      "column": 1,
+      "row": 2,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_koo_wtm.png",
+      "page": 2,
+      "cell": 10,
+      "column": 2,
+      "row": 2,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_kza_wtm.png",
+      "page": 2,
+      "cell": 11,
+      "column": 3,
+      "row": 2,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_mit_wtm.png",
+      "page": 2,
+      "cell": 12,
+      "column": 0,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_mse_wtm.png",
+      "page": 2,
+      "cell": 13,
+      "column": 1,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_ori_wtm.png",
+      "page": 2,
+      "cell": 14,
+      "column": 2,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_ryu_wtm.png",
+      "page": 2,
+      "cell": 15,
+      "column": 3,
+      "row": 3,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_sba_wtm.png",
+      "page": 2,
+      "cell": 16,
+      "column": 0,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_sir_wtm.png",
+      "page": 2,
+      "cell": 17,
+      "column": 1,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_syo_wtm.png",
+      "page": 2,
+      "cell": 18,
+      "column": 2,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_tig_wtm.png",
+      "page": 2,
+      "cell": 19,
+      "column": 3,
+      "row": 4,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_tka_wtm.png",
+      "page": 2,
+      "cell": 20,
+      "column": 0,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_tou_wtm.png",
+      "page": 2,
+      "cell": 21,
+      "column": 1,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_tpa_wtm.png",
+      "page": 2,
+      "cell": 22,
+      "column": 2,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "tex_loc_title_yuk_wtm.png",
+      "page": 2,
+      "cell": 23,
+      "column": 3,
+      "row": 5,
+      "size": [
+        408,
+        128
+      ],
+      "mode": "RGBA",
+      "frames": 1,
+      "alpha_min": 0,
+      "alpha_max": 255
+    }
+  ]
+}

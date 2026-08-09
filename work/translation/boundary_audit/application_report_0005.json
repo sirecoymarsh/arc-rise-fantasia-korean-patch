@@ -1,0 +1,412 @@
+{
+  "schema": "arf-system-table-boundary-audit-application-v1",
+  "game_id": "RPJJ99",
+  "audit": "work/translation/boundary_audit/batch_0005.json",
+  "audit_sha256": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "audited_units": 28,
+  "translation_adjustments_this_application": 28,
+  "special_fixed_title_rewrites": 0,
+  "batches": {
+    "batch_0005": {
+      "audited_units": 28,
+      "modified_against_draft": 50,
+      "reviewed_sha256": "FDD35157505093D8F849759253A63C03CC1FA7F0E6740310A5CD0F04DEBE30F0"
+    }
+  },
+  "adjustments": [
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-26154CC088EA9858A295",
+      "corrupt_scanner_source_text": "防具９",
+      "clean_source_text": "属性防具９",
+      "before": "방어구 9",
+      "after": "속성 방어구 9",
+      "table_unit_ids": [
+        "ability:237:name"
+      ],
+      "anomaly_type": "scanner_skipped_field_prefix",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-268FE3A89633F86067BF",
+      "corrupt_scanner_source_text": "<$01>ＡＴＫアップ",
+      "clean_source_text": "ＡＴＫアップ",
+      "before": "<$01>ATK 상승",
+      "after": "ATK 상승",
+      "table_unit_ids": [
+        "help:36:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-277B950DF85077058794",
+      "corrupt_scanner_source_text": "<$01><$10>病の帝都",
+      "clean_source_text": "病の帝都",
+      "before": "<$01><$10>병든 제도",
+      "after": "병든 제도",
+      "table_unit_ids": [
+        "chat:161:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-27AD47C57FE8105F2B3F",
+      "corrupt_scanner_source_text": "\\<$08>水属性",
+      "clean_source_text": "水属性",
+      "before": "\\<$08>물 속성",
+      "after": "물 속성",
+      "table_unit_ids": [
+        "help:159:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-27F35FE3D9FE16D34E23",
+      "corrupt_scanner_source_text": "<$01>変動型",
+      "clean_source_text": "変動型",
+      "before": "<$01>변동형",
+      "after": "변동형",
+      "table_unit_ids": [
+        "help:34:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-28CB420E418C794C9C08",
+      "corrupt_scanner_source_text": "<$01>ＲＥＳ",
+      "clean_source_text": "ＲＥＳ",
+      "before": "<$01>RES",
+      "after": "RES",
+      "table_unit_ids": [
+        "help:13:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-28CFADF5DE8C4AE12869",
+      "corrupt_scanner_source_text": "<$0C>ラスカーダ",
+      "clean_source_text": "ラスカーダ",
+      "before": "<$0C>라스카다",
+      "after": "라스카다",
+      "table_unit_ids": [
+        "chat:243:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2986D8B401D04351C299",
+      "corrupt_scanner_source_text": "'ニコル誘拐",
+      "clean_source_text": "ニコル誘拐",
+      "before": "'니콜 유괴",
+      "after": "니콜 유괴",
+      "table_unit_ids": [
+        "chat:242:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2A297D8C36ED52B83A44",
+      "corrupt_scanner_source_text": "<$03>同調",
+      "clean_source_text": "同調",
+      "before": "<$03>동조",
+      "after": "동조",
+      "table_unit_ids": [
+        "help:85:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2A3C4940C525EC9DAF66",
+      "corrupt_scanner_source_text": "<$0F>紅 竜玉石",
+      "clean_source_text": "竜玉石",
+      "before": "<$0F>紅 용옥석",
+      "after": "용옥석",
+      "table_unit_ids": [
+        "help:270:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2AB724E4E0F1E9606773",
+      "corrupt_scanner_source_text": "<$10>\t<$14> ギルダブ",
+      "clean_source_text": "ギルダブ",
+      "before": "<$10>\t<$14> 길다브",
+      "after": "길다브",
+      "table_unit_ids": [
+        "help:358:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2B6665B264859A328CBA",
+      "corrupt_scanner_source_text": "<$1C>パーセヴァルへ",
+      "clean_source_text": "パーセヴァルへ",
+      "before": "<$1C>파르세발로",
+      "after": "파르세발로",
+      "table_unit_ids": [
+        "chat:202:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2B989385931925687400",
+      "corrupt_scanner_source_text": "7モデルはコピン",
+      "clean_source_text": "モデルはコピン",
+      "before": "7모델은 코핀",
+      "after": "모델은 코핀",
+      "table_unit_ids": [
+        "chat:327:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2BA13BAE15318C87633C",
+      "corrupt_scanner_source_text": " オルキナ教国",
+      "clean_source_text": "オルキナ教国",
+      "before": " 오르키나 교국",
+      "after": "오르키나 교국",
+      "table_unit_ids": [
+        "help:321:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2BA8CD9F02365E9F1ADA",
+      "corrupt_scanner_source_text": "<$01>ＬＶアップ",
+      "clean_source_text": "ＬＶアップ",
+      "before": "<$01>LV 상승",
+      "after": "LV 상승",
+      "table_unit_ids": [
+        "help:46:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2C3D48E4C9B071E648FC",
+      "corrupt_scanner_source_text": "=※カット　占拠町",
+      "clean_source_text": "※カット　占拠町",
+      "before": "=※컷　점령된 마을",
+      "after": "※컷　점령된 마을",
+      "table_unit_ids": [
+        "chat:197:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2CA673A3AC438AEDC3C8",
+      "corrupt_scanner_source_text": "C育まれた友情",
+      "clean_source_text": "育まれた友情",
+      "before": "C쌓아 온 우정",
+      "after": "쌓아 온 우정",
+      "table_unit_ids": [
+        "chat:9:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2D58FB2F2F74257CD00E",
+      "corrupt_scanner_source_text": "?騎士と看護兵",
+      "clean_source_text": "騎士と看護兵",
+      "before": "?기사와 간호병",
+      "after": "기사와 간호병",
+      "table_unit_ids": [
+        "chat:301:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2E1A9634D60A48117846",
+      "corrupt_scanner_source_text": "A聞き耳",
+      "clean_source_text": "聞き耳",
+      "before": "A엿듣기",
+      "after": "엿듣기",
+      "table_unit_ids": [
+        "chat:48:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2EE13E3C65F50236427C",
+      "corrupt_scanner_source_text": "<$01>混乱",
+      "clean_source_text": "混乱",
+      "before": "<$01>혼란",
+      "after": "혼란",
+      "table_unit_ids": [
+        "help:24:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2F4940F51C1E016D349B",
+      "corrupt_scanner_source_text": " セシルの勇者道〜矜持",
+      "clean_source_text": "セシルの勇者道〜矜持",
+      "before": " 세실의 용사도〜긍지",
+      "after": "세실의 용사도〜긍지",
+      "table_unit_ids": [
+        "chat:238:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-2FD60C05F1AF6D2533CD",
+      "corrupt_scanner_source_text": "<$01>神速",
+      "clean_source_text": "神速",
+      "before": "<$01>신속",
+      "after": "신속",
+      "table_unit_ids": [
+        "help:59:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-3023F15EFFDAC5989442",
+      "corrupt_scanner_source_text": "@0 シムマフ",
+      "clean_source_text": "シムマフ",
+      "before": "@0 심마프",
+      "after": "심마프",
+      "table_unit_ids": [
+        "help:357:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-3084E6892E8C01209F16",
+      "corrupt_scanner_source_text": "<$03>※移植　寝間着01",
+      "clean_source_text": "※移植　寝間着01",
+      "before": "<$03>※이식　잠옷 01",
+      "after": "※이식　잠옷 01",
+      "table_unit_ids": [
+        "chat:334:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-308A3E4CB80452AFFE2F",
+      "corrupt_scanner_source_text": "<$03>皆がひとつの奇跡",
+      "clean_source_text": "皆がひとつの奇跡",
+      "before": "<$03>모두가 하나 된 기적",
+      "after": "모두가 하나 된 기적",
+      "table_unit_ids": [
+        "chat:220:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 43,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-3126A9FFF4ABDD2906EC",
+      "corrupt_scanner_source_text": "$ 知的眼鏡美人",
+      "clean_source_text": "知的眼鏡美人",
+      "before": "$ 지적인 안경 미인",
+      "after": "지적인 안경 미인",
+      "table_unit_ids": [
+        "help:375:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-312E68C0778E492B0128",
+      "corrupt_scanner_source_text": "<$0F>座<$10>胴装備",
+      "clean_source_text": "胴装備",
+      "before": "<$0F>座<$10>몸통 장비",
+      "after": "몸통 장비",
+      "table_unit_ids": [
+        "help:229:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    },
+    {
+      "batch_id": "batch_0005",
+      "tm_id": "ARF-TM-314637BF9C5DA0F07928",
+      "corrupt_scanner_source_text": "<$7F><$08>雷属性",
+      "clean_source_text": "雷属性",
+      "before": "<$7F><$08>번개 속성",
+      "after": "번개 속성",
+      "table_unit_ids": [
+        "help:164:title"
+      ],
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "capacity_including_nul": 21,
+      "reason": "verified scanner-boundary repair"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schema": "arf-endroll-baked-dialogue-ko-v1",
+  "translation_policy": "Codex internal model only",
+  "external_translation_services_used": [],
+  "entry_count": 23,
+  "entries": [
+    {
+      "index": 0,
+      "physical_path": "Event/endroll/EV09_18_0200C_00.wtm",
+      "source_text_jp": "やっほー!!\nラルク、起きる時間だよー!!",
+      "translation_ko": "야호~!!\n라르크, 일어날 시간이야~!!",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 1,
+      "physical_path": "Event/endroll/EV09_18_0200C_01.wtm",
+      "source_text_jp": "起きろってば、おきろー!!",
+      "translation_ko": "일어나라니까, 일어나~!!",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 22,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 2,
+      "physical_path": "Event/endroll/EV09_18_0200C_02.wtm",
+      "source_text_jp": "……ん",
+      "translation_ko": "……응",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 22,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 3,
+      "physical_path": "Event/endroll/EV09_18_0200C_03.wtm",
+      "source_text_jp": "お前が目覚める時に合わせて\n我々のメッセージを残しておく",
+      "translation_ko": "네가 깨어날 때에 맞춰\n우리의 메시지를 남겨 두마",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 4,
+      "physical_path": "Event/endroll/EV09_18_0200C_04.wtm",
+      "source_text_jp": "お前が寂しがるといけないんでな。\n気の利いたモーニングコールだろ？",
+      "translation_ko": "네가 외로워하면 안 되니까.\n센스 있는 모닝콜이지?",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 5,
+      "physical_path": "Event/endroll/EV09_18_0200C_05.wtm",
+      "source_text_jp": "ソニアの計算だと\nあなたが目覚めるのはおよそ５００年後よ",
+      "translation_ko": "소니아의 계산대로라면\n네가 깨어나는 건 약 500년 뒤야",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 6,
+      "physical_path": "Event/endroll/EV09_18_0200C_06.wtm",
+      "source_text_jp": "お前が眠ってから大変だったぜ。\nま、アルス坊やが頑張ってくれてな",
+      "translation_ko": "네가 잠든 뒤로 참 힘들었지.\n뭐, 알스 꼬마가 애써 준 덕에",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 7,
+      "physical_path": "Event/endroll/EV09_18_0200C_07.wtm",
+      "source_text_jp": "今度はましな皇帝になれそうだぜ",
+      "translation_ko": "이번엔 제법 괜찮은 황제가 되겠어",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 19,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 8,
+      "physical_path": "Event/endroll/EV09_18_0200C_08.wtm",
+      "source_text_jp": "我らも全力でサポートするつもりだ",
+      "translation_ko": "우리도 전력으로 도울 생각이다",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 21,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 9,
+      "physical_path": "Event/endroll/EV09_18_0200C_09.wtm",
+      "source_text_jp": "私は５年たったら\n眠りについてちゃうけどね",
+      "translation_ko": "난 5년 뒤면\n잠들어 버리겠지만",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        320,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 10,
+      "physical_path": "Event/endroll/EV09_18_0200C_10.wtm",
+      "source_text_jp": "希望がある限り、人は前に向かって\n歩いて行くことが出来る",
+      "translation_ko": "희망이 있는 한, 사람은 앞을 향해\n걸어갈 수 있어",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 11,
+      "physical_path": "Event/endroll/EV09_18_0200C_11.wtm",
+      "source_text_jp": "あなたが目覚める約束の日まで\n私たちは必死で生き抜いてみせる",
+      "translation_ko": "네가 깨어나기로 한 약속의 날까지\n우린 필사적으로 살아남을게",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 12,
+      "physical_path": "Event/endroll/EV09_18_0200C_12.wtm",
+      "source_text_jp": "みんな……",
+      "translation_ko": "다들……",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 22,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 13,
+      "physical_path": "Event/endroll/EV09_18_0200C_13.wtm",
+      "source_text_jp": "だから、安心していいよ",
+      "translation_ko": "그러니 안심해도 돼",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 22,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 14,
+      "physical_path": "Event/endroll/EV09_18_0200C_14.wtm",
+      "source_text_jp": "ラルクが目覚めたとき\nラルクは独りぼっちじゃないよ",
+      "translation_ko": "라르크가 깨어날 때\n라르크는 혼자가 아닐 거야",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 15,
+      "physical_path": "Event/endroll/EV09_18_0200C_15.wtm",
+      "source_text_jp": "私たちの心を受け継いだ誰かが\n必ずラルクを迎えてくれるわ",
+      "translation_ko": "우리 마음을 이어받은 누군가가\n반드시 라르크를 맞아 줄 거야",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 16,
+      "physical_path": "Event/endroll/EV09_18_0200C_16.wtm",
+      "source_text_jp": "約束する。この人の世を\n５００年後のお前に託すことを",
+      "translation_ko": "약속하지. 이 인간 세상을\n500년 뒤의 네게 맡기겠다",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 17,
+      "physical_path": "Event/endroll/EV09_18_0200C_17.wtm",
+      "source_text_jp": "――そろそろ時間だ",
+      "translation_ko": "――슬슬 시간이군",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 22,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 18,
+      "physical_path": "Event/endroll/EV09_18_0200C_18.wtm",
+      "source_text_jp": "じゃあな、ラルク。\nお前は最高の相棒だったぜ",
+      "translation_ko": "잘 있어라, 라르크.\n넌 최고의 파트너였다",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 19,
+      "physical_path": "Event/endroll/EV09_18_0200C_19.wtm",
+      "source_text_jp": "ばいば～い！　また未来でね！",
+      "translation_ko": "바이바~이! 미래에서 또 봐!",
+      "line_count": 1,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 22,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 20,
+      "physical_path": "Event/endroll/EV09_18_0200C_20.wtm",
+      "source_text_jp": "お姉さんのこと\n忘れちゃダ・メ・ヨ",
+      "translation_ko": "누나를\n잊으면 안·돼·요",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 21,
+      "physical_path": "Event/endroll/EV09_18_0200C_21.wtm",
+      "source_text_jp": "さらばだ。\nお前と共に在れたことを誇りに思う",
+      "translation_ko": "잘 있어라.\n너와 함께했음을 자랑스럽게 여긴다",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    },
+    {
+      "index": 22,
+      "physical_path": "Event/endroll/EV09_18_0200C_22.wtm",
+      "source_text_jp": "……リフィアは……\nリフィアはどうしたんだ……",
+      "translation_ko": "……리피아는……\n리피아는 어떻게 된 거야……",
+      "line_count": 2,
+      "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+      "font_size_px": 17,
+      "canvas": [
+        312,
+        48
+      ],
+      "provenance": "Codex internal model",
+      "external_translation_used": false
+    }
+  ]
+}

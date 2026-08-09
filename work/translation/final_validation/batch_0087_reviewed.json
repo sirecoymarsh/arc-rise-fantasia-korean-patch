@@ -1,0 +1,24 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0087.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0087.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 602,
+  "hangul_characters": "가각간갈감갑갓강갖같객거걱건걷걸검겁것게겠겨견결겹겼경계고곤곧곱곳공과관광괜괴교구국군궁궂귀규그극글금급긍기긴길까깐깨꺼꺾껏께껴꼴꽃꽤꾀꿈뀌끄끈끔끗끝끼낀낄낌나낙난날남났낯내낸냅냐냥너널넣네녀년녔노녹논놀놈누눈눠느는늘능니님닙닝다단달담답닷당대댈더덕던덤덩데델도독돌동돼됐되된될두둔둘둬뒤드득든듣들듬듯등디딘딜따딱때떠떤떻뜩뜬뜻라락란랄람랑래랜랫량러런럴럼럽렇레렉렌려력련렴렵렸령례로록론롭료루뤄뤘류륙륭르른를름릅리릭린릴림립마막만많말맛망맞맡매맥맵맺먹먼멀멈멋메며면명모목몫몰몸못무묵문물뭐뭔미민믿밀밍바박밖반받발밥방배백버번벌법벤벽변별병보복본볼봐봤뵙부북분불붉붕브블비빙빛빠빨뻐뻔뼈뿍뿐쁘쁜쁠쁨사삭산살삶샀상새샘생서석선설섯성세셈셔셨소속손솔송쇠수숙순술숨숭쉬슈스슨슬습슷시식신실심십싶싸써쓰쓸씨씻아악안앉않알암압았앞애야약양얘어억언얹얻얼엄업없엇었엉에엔여역연열엾였영옆예옛오옥온올옷와왔왠외왼요욕용우운울움웃워원위유육으은을음응의이익인일읽잃임입있잊자작잔잖잘잠잡장재쟁저적전절젊점정제젠져졌조족존좀종좋죄죠주죽준줄줍중줘줬쥐쥬즉즐즘증지직진질짊짐집짓징짜짝째쨌쩍쪄쪽찌차착찮참찾책처청체쳐초최추축춘출충측츰층치친침카칼캐커케켰코크큰클큼키타탁탄탑탓탕태터테텐토통투튜트틀티파판팔패팬퍼펠편평폐포표풀품풋프픈플픔피핀하학한할함합항해했행향허헌험헤혀현형호혹혼홀홍화확환활황회효후훈훌흐흥희히힐힘",
+  "error_count": 0,
+  "warning_count": 1,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-2E670224F73BE0ADA0A4",
+      "characters": "・"
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

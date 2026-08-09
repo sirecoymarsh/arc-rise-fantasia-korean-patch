@@ -1,0 +1,252 @@
+{
+  "noop_roundtrip": [
+    {
+      "input_sha256": "5bb20dc30114d3f4e6d11ede2bf01cfac15f7471cee5113d92c4af0775061827",
+      "output_sha256": "5bb20dc30114d3f4e6d11ede2bf01cfac15f7471cee5113d92c4af0775061827",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-0.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "b3944afa85a41f16fb971b92bda88c8f65da02d5def10130d4cb988277caae8d",
+      "output_sha256": "b3944afa85a41f16fb971b92bda88c8f65da02d5def10130d4cb988277caae8d",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-1.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "e225c695178daa2356062fad7aa54d3ca183f6f240137f1f7efe9f6b8536117f",
+      "output_sha256": "e225c695178daa2356062fad7aa54d3ca183f6f240137f1f7efe9f6b8536117f",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-2.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "b1721b889bd1cfdcbc038f8c111a0d8a6275e029d71c87e233899558db2b77b2",
+      "output_sha256": "b1721b889bd1cfdcbc038f8c111a0d8a6275e029d71c87e233899558db2b77b2",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-3.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "7480a304a08360d279970fd73331505542a8066c009b5f4f2196a5b51d4f03b5",
+      "output_sha256": "7480a304a08360d279970fd73331505542a8066c009b5f4f2196a5b51d4f03b5",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-4.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "634ccc1b4b5e58f6592059d1a68f35ccaf6145817bed9043f04bce8d3f391421",
+      "output_sha256": "634ccc1b4b5e58f6592059d1a68f35ccaf6145817bed9043f04bce8d3f391421",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-5.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+      "output_sha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-6.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+      "output_sha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-7.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    },
+    {
+      "input_sha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+      "output_sha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+      "exact_match": true,
+      "size": 262208,
+      "file": "EUC28-8.wtm",
+      "width": 512,
+      "height": 1024,
+      "format": "C4",
+      "palette": "RGB5A3",
+      "image_offset": 64
+    }
+  ],
+  "mapping_landmarks": [
+    {
+      "bytes_hex": "A1A2",
+      "character": "、",
+      "global_slot": 2,
+      "page": 0,
+      "local_slot": 2,
+      "column": 2,
+      "row": 0,
+      "x": 44,
+      "y": 0,
+      "pass": true
+    },
+    {
+      "bytes_hex": "A3B0",
+      "character": "０",
+      "global_slot": 208,
+      "page": 0,
+      "local_slot": 208,
+      "column": 1,
+      "row": 9,
+      "x": 22,
+      "y": 252,
+      "pass": true
+    },
+    {
+      "bytes_hex": "A4A1",
+      "character": "ぁ",
+      "global_slot": 289,
+      "page": 0,
+      "local_slot": 289,
+      "column": 13,
+      "row": 12,
+      "x": 286,
+      "y": 336,
+      "pass": true
+    },
+    {
+      "bytes_hex": "A5A1",
+      "character": "ァ",
+      "global_slot": 385,
+      "page": 0,
+      "local_slot": 385,
+      "column": 17,
+      "row": 16,
+      "x": 374,
+      "y": 448,
+      "pass": true
+    },
+    {
+      "bytes_hex": "A6A1",
+      "character": "Α",
+      "global_slot": 481,
+      "page": 0,
+      "local_slot": 481,
+      "column": 21,
+      "row": 20,
+      "x": 462,
+      "y": 560,
+      "pass": true
+    },
+    {
+      "bytes_hex": "A7A1",
+      "character": "А",
+      "global_slot": 577,
+      "page": 0,
+      "local_slot": 577,
+      "column": 2,
+      "row": 25,
+      "x": 44,
+      "y": 700,
+      "pass": true
+    },
+    {
+      "bytes_hex": "A8A1",
+      "character": "─",
+      "global_slot": 673,
+      "page": 0,
+      "local_slot": 673,
+      "column": 6,
+      "row": 29,
+      "x": 132,
+      "y": 812,
+      "pass": true
+    },
+    {
+      "bytes_hex": "B0A1",
+      "character": "亜",
+      "global_slot": 721,
+      "page": 0,
+      "local_slot": 721,
+      "column": 8,
+      "row": 31,
+      "x": 176,
+      "y": 868,
+      "pass": true
+    },
+    {
+      "bytes_hex": "B1A1",
+      "character": "院",
+      "global_slot": 817,
+      "page": 0,
+      "local_slot": 817,
+      "column": 12,
+      "row": 35,
+      "x": 264,
+      "y": 980,
+      "pass": true
+    },
+    {
+      "bytes_hex": "B1AC",
+      "character": "卯",
+      "global_slot": 828,
+      "page": 1,
+      "local_slot": 0,
+      "column": 0,
+      "row": 0,
+      "x": 0,
+      "y": 0,
+      "pass": true
+    },
+    {
+      "bytes_hex": "F4A6",
+      "character": "熙",
+      "global_slot": 7254,
+      "page": 8,
+      "local_slot": 630,
+      "column": 9,
+      "row": 27,
+      "x": 198,
+      "y": 756,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "noop_files": 9,
+    "noop_exact": true,
+    "landmarks": 11,
+    "landmarks_pass": true
+  }
+}

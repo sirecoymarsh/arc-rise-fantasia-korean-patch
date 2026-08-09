@@ -1,0 +1,30 @@
+{
+  "schema": "arf-endroll-wtm-visual-validation-v1",
+  "valid": true,
+  "reviewer": "Codex internal model visual review",
+  "review_method": "100% scale inspection of paired before/after contact sheets",
+  "asset_count": 23,
+  "passed_count": 23,
+  "failed_count": 0,
+  "before_contact_sheet": {
+    "path": "before_contact_sheet.png",
+    "sha256": "D222B890D46EDE8D7F0AE0FEC86C0191D095C00281185E0D4EAB18AB41A1955F"
+  },
+  "after_contact_sheet": {
+    "path": "after_contact_sheet.png",
+    "sha256": "E7E57860E5D6D376CFA47552E90FE8AF9E6F5C01EA9748872E5F088A306152E6"
+  },
+  "checks": {
+    "all_23_frames_show_korean": true,
+    "visible_japanese_residue_count": 0,
+    "clipped_or_overlapping_frame_count": 0,
+    "line_count_within_one_or_two": true,
+    "legible_white_fill_and_dark_outline": true,
+    "names_follow_project_glossary": true
+  },
+  "notes": [
+    "라르크와 리피아 표기는 프로젝트 고정 용어를 사용했다.",
+    "각 문장은 원문의 화법과 장면 연결을 유지하면서 312x48 또는 320x48 캔버스에 맞게 1~2행으로 다듬었다.",
+    "시각 검증은 런타임 재생 검증을 대체하지 않으며, 이 산출물은 지시대로 아직 staging/release에 반영하지 않았다."
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0045",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0045.jsonl",
+  "draft": "work/translation/drafts/batch_0045.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0045.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 26,
+  "unchanged_units": 174,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-E8186B37816FB32D16CB",
+      "source_text": "男の子の服？",
+      "before": "남자아이 옷?",
+      "after": "남자애 옷?",
+      "category": "naturalness",
+      "reason": "아이의 성별을 가리키는 구어를 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-EE95D86C9D8D040579C2",
+      "source_text": "相変わらず堅いっていうか\nオイゲンさんは真面目だねえ",
+      "before": "여전히 딱딱하다 해야 하나\n오이겐 씨는 진지하네",
+      "after": "여전히 딱딱하다고 해야 하나\n오이겐 씨는 참 성실하네",
+      "category": "meaning",
+      "reason": "真面目를 진지한 표정이 아니라 고지식할 만큼 성실한 성품이라는 뜻으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-F05987A6C9041F9E8074",
+      "source_text": "こうして旅を共にするのも\n何かの縁――",
+      "before": "이렇게 함께 여행하는 것도\n무언가의 인연――",
+      "after": "이렇게 함께 여행하는 것도\n어떤 인연이겠지――",
+      "category": "naturalness",
+      "reason": "무언가의 인연이라는 직역을 자연스러운 추측 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-F589C9E04FBA2AB1F364",
+      "source_text": "ま、いいか。最初の質問だしな。\n俺様の好物は……パンだな。\n焼きたての",
+      "before": "뭐, 됐나. 첫 질문이니까.\n내가 좋아하는 건…… 빵이야.\n갓 구운 거",
+      "after": "뭐, 됐어. 첫 질문이니까.\n내가 좋아하는 건…… 빵이야.\n갓 구운 거",
+      "category": "speaker_voice",
+      "reason": "거친 반말 화자의 말투와 좋아하는 음식을 밝히는 흐름을 자연스럽게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-F7997BC7B87E0C00B248",
+      "source_text": "そうよね……って、どうして!?\nここで弱みを見せると\nずっとつけこまれるのよ",
+      "before": "그렇지…… 잠깐, 왜!?\n여기서 약한 모습을 보이면\n계속 약점을 잡힐 거야",
+      "after": "그렇지…… 잠깐, 왜!?\n여기서 약한 모습을 보이면\n계속 이용당할 거야",
+      "category": "meaning",
+      "reason": "つけこまれる를 약점이 잡힌다가 아니라 약한 틈을 이용당한다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-F9BC859E32F3C27A7CFD",
+      "source_text": "なあに？",
+      "before": "왜?",
+      "after": "응?",
+      "category": "speaker_voice",
+      "reason": "부드러운 여성 화자가 부름에 답하는 자연스러운 반말로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-FA44B6E6E99BCFFCB354",
+      "source_text": "ん？\nああ、そうか",
+      "before": "응?\n아, 그렇구나",
+      "after": "음?\n아, 그렇군",
+      "category": "speaker_voice",
+      "reason": "격식 있고 절제된 화자의 짧은 깨달음 어조로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-FDA1195F5EE768924CF4",
+      "source_text": "例えばだよ？\nあのリフィアとアデール\n２人ならどちらが好み？",
+      "before": "예를 들면 말이야.\n저 리피아와 아델\n２명 중 어느 쪽이 취향이야?",
+      "after": "가령 말이야.\n리피아와 아델, 저 ２명 중\n누가 더 취향이야?",
+      "category": "grammar",
+      "reason": "숫자를 보존하면서 두 사람 중 선호를 묻는 문장 구조를 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-FEF838CED771C49E2962",
+      "source_text": "というかだな……手伝っていけ",
+      "before": "아니, 그러니까…… 돕고 가",
+      "after": "아니, 그러니까…… 돕고 가라",
+      "category": "speaker_voice",
+      "reason": "상대를 붙잡아 도움을 명하는 단정적 어조로 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-1C6A53C3EA6FF673E392",
+      "source_text": "気安く名前を呼ばないで！\n当たり前みたいな顔で\nラルクの横にいて！",
+      "before": "함부로 내 이름 부르지 마!\n당연하다는 얼굴로\n라르크 옆에 붙어 있고!",
+      "after": "함부로 내 이름 부르지 마!\n아무렇지도 않은 얼굴로\n라르크 옆에 붙어 있고!",
+      "category": "naturalness",
+      "reason": "당연하다는 듯 행동한다는 비난을 자연스러운 한국어 표정 묘사로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-38BC0D94CAC26E24B64C",
+      "source_text": "変わったのは\nアデールの心の方だろ。\n周りは何も変わってねぇよ",
+      "before": "변한 건\n아델 마음 쪽이잖아.\n주변은 아무것도 안 변했어",
+      "after": "변한 건\n아델의 마음이잖아.\n주변은 아무것도 안 변했어",
+      "category": "grammar",
+      "reason": "마음 쪽이라는 직역을 자연스러운 주어와 서술 구조로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-4983B1331318F7B87ED5",
+      "source_text": "あははははっ！　決まってるだろ。\n姉さん、あなたや\n父さんたちのことさ！",
+      "before": "아하하하핫! 당연하잖아.\n누나와\n아버지들 말이야!",
+      "after": "아하하하핫! 당연하잖아.\n누나, 누나와 아버지 일행을\n두고 하는 말이야!",
+      "category": "meaning",
+      "reason": "父さんたち를 여러 아버지가 아니라 아버지와 그 일행을 가리키는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-EDDBB37A6D1BDC90602E",
+      "source_text": "ラルクの言葉が嬉しかった。\nみんなは私に腫れ物に触るように\n接したのに、ラルクは違ってた",
+      "before": "라르크의 말이 기뻤어.\n다들 나를 깨질 물건처럼\n대했지만 라르크는 달랐어",
+      "after": "라르크의 말이 기뻤어.\n다들 내 눈치를 보며 조심스럽게\n대했지만 라르크는 달랐어",
+      "category": "meaning",
+      "reason": "腫れ物に触るように의 과도하게 조심스레 대한다는 관용적 의미를 자연스럽게 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-2B26C8576B85B3BA29EF",
+      "source_text": "ラルク。行きましょう",
+      "before": "라르크. 가자",
+      "after": "라르크. 가요",
+      "category": "speaker_voice",
+      "reason": "상대에게 함께 가자고 권하는 정중한 청유 어조를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-14C94DDBBD478804AF42",
+      "source_text": "……オイゲンが……\n知らなかったにしても、他の\nアイオーン隊は知っていたのか",
+      "before": "……오이겐이……\n몰랐다 해도 다른\n아이온대는 알고 있었을까",
+      "after": "……오이겐이……\n몰랐다고 해도, 다른\n아이온대 대원들은 알고 있었을까",
+      "category": "grammar",
+      "reason": "몰랐다는 조건의 주체와 다른 대원들을 명확히 구분했다."
+    },
+    {
+      "tm_id": "ARF-TM-1CEE8F4D3C6BBDB0703F",
+      "source_text": "私が奴を引きつける。\nその間にお前たちは飛光艇へ急げ",
+      "before": "내가 녀석을 끌어 두겠다.\n그동안 너희는 비광정으로 서둘러라",
+      "after": "내가 녀석의 주의를 끌겠다.\n그동안 너희는 비광정으로 서둘러라",
+      "category": "meaning",
+      "reason": "引きつける를 붙잡아 둔다는 뜻이 아니라 주의를 자신에게 돌린다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-29DB3F22D366BE0B6511",
+      "source_text": "ちょっと。\nどうしちゃったのよ、あの２人？",
+      "before": "잠깐.\n저 ２명 대체 왜 저래?",
+      "after": "잠깐.\n저 ２명, 대체 왜 저래?",
+      "category": "grammar",
+      "reason": "숫자를 보존하면서 두 사람을 화제로 삼는 조사와 어순을 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-45B1B09E7A0677E61360",
+      "source_text": "ん？\nいや、ただふっと思ったんだ",
+      "before": "응?\n아니, 그냥 문득 생각났어",
+      "after": "어?\n아니, 그냥 문득 생각났어",
+      "category": "speaker_voice",
+      "reason": "라르크의 놀란 반응을 부드러운 응답으로 잘못 옮긴 부분을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-58C0482C52766DB63B3E",
+      "source_text": "ラルクが行ってしまうぞ",
+      "before": "라르크가 가 버린다",
+      "after": "라르크가 가 버리겠어",
+      "category": "function",
+      "reason": "현재 상황을 경고하고 재촉하는 미래 어조로 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-5B4CFF968C006154438C",
+      "source_text": "逃げろって時だけは\n返事がいいんだよねぇ\nニコルの奴はよ",
+      "before": "도망칠 때만큼은\n대답이 빠르다니까\n니콜 녀석은",
+      "after": "도망치라고 할 때만큼은\n대답 하나는 잘한다니까\n니콜 녀석은 말이야",
+      "category": "meaning",
+      "reason": "返事がいい를 단순히 빠르다가 아니라 유난히 시원하게 응답한다는 뜻으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A746FCA1F2F2171DD36A",
+      "source_text": "グリーンヒル議長の指示が\n無ければ動かないことに\nなってる筈だ",
+      "before": "그린힐 의장의 지시가\n없으면 움직이지 않게\n되어 있을 거야",
+      "after": "그린힐 의장의 지시가\n없으면 움직이지 않기로\n되어 있을 텐데",
+      "category": "grammar",
+      "reason": "조직의 행동 원칙을 나타내는 문장을 자연스러운 피동 구조로 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-BD23A80D45DAB13A8820",
+      "source_text": "だからこーゆートコで\n考え事するなって\n前に言ったじゃん",
+      "before": "그러니까 이런 곳에서\n딴생각하지 말라고\n전에 말했잖아",
+      "after": "그러니까 이런 곳에서\n생각에 빠지지 말라고\n전에 말했잖아",
+      "category": "meaning",
+      "reason": "考え事를 엉뚱한 생각이 아니라 주변을 잊고 생각에 잠기는 행위로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E9F18878DE970B0FADDF",
+      "source_text": "……ごめんなさい。\nでも私のことは放っておいて",
+      "before": "……미안해.\n하지만 난 내버려 둬",
+      "after": "……미안해.\n하지만 나를 내버려 둬",
+      "category": "particle",
+      "reason": "放っておいて의 목적어에 맞는 목적격 조사를 사용했다."
+    },
+    {
+      "tm_id": "ARF-TM-73C1C6D40D17D3B423E4",
+      "source_text": "……アルスはいつも\nそうやって逃げるんだわ！",
+      "before": "……알스는 언제나\n그런 식으로 도망치는구나!",
+      "after": "……알스는 언제나\n그런 식으로 도망치는 거야!",
+      "category": "function",
+      "reason": "새삼 깨닫는 어조가 아니라 상대를 비난하는 단정적 감정 표현으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-CE1EB41197BFF640FC81",
+      "source_text": "何よ！　あんたなんかぁっ！",
+      "before": "뭐야! 너 따위이잇!",
+      "after": "뭐야! 너 따위가아!",
+      "category": "naturalness",
+      "reason": "분노로 길게 외치는 감탄을 어색한 철자 없이 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-26E796A258347196E07B",
+      "source_text": "……放っておいて。１人で平気だから",
+      "before": "……내버려 둬. １명이어도 괜찮으니까",
+      "after": "……내버려 둬. １명뿐이어도 난 괜찮으니까",
+      "category": "grammar",
+      "reason": "숫자를 보존하면서 혼자여도 괜찮다는 문장을 자연스러운 어순으로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

@@ -1,0 +1,1765 @@
+{
+  "schema": "arf-system-table-boundary-audit-v1",
+  "game_id": "RPJJ99",
+  "scope": {
+    "reviewed_batches": [
+      "batch_0011.jsonl"
+    ],
+    "expected_tm_units": 33,
+    "audited_tm_units": 33,
+    "substring_analysis_only": {
+      "single_candidate": 30,
+      "multiple_candidates": 3,
+      "no_candidate": 0,
+      "used_as_deciding_evidence": false
+    }
+  },
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "protected_inputs": {
+    "production_translation_memory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\current\\translation_memory_draft.json",
+    "production_translation_memory_sha256": "EA80A6C38B6FDEE64997F6BE9D9E2314F1198032AFE44D299BDDC0D1EDC3CC3F",
+    "reviewed_batch": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0011.jsonl",
+    "reviewed_batch_sha256": "DC9A0AED77F947B91A51F02CCC7490129C431112C2BCFC600A727AD1D1A0BE2B",
+    "modified_by_audit": false
+  },
+  "fit_input": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0011_fit_only.json",
+    "sha256": "C836D334C9EB741BAA2C83335A8067A47DA8B1116E722B695570B487656F1A77",
+    "temporary_merged_translation_memory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0011_fit_work_reviewed\\translation_memory_draft.json",
+    "temporary_merged_translation_memory_sha256": "B3C3A38F54585D54CC5396ECFD71013EF0D8A94123725821A6FA744E61FFD066",
+    "temporary_merge_approved_units": 1600,
+    "unmatched_analysis_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0011_unmatched_analysis.json",
+    "unmatched_analysis_sha256": "AFB603862541957A78D63F53EA4CFEF66228F3FB0A7B0FB5849F66568B0EF2E6",
+    "unmatched_system_tm_count": 33,
+    "global_encoding_error_count": 0,
+    "pre_audit_fixed_overflow_count_outside_boundary_scope": 3,
+    "pre_audit_fixed_overflow_tm_ids_outside_boundary_scope": [
+      "ARF-TM-76E49C6A0E93976F891E",
+      "ARF-TM-7092E11C1F16690A719C",
+      "ARF-TM-77F216B015A6123828EF"
+    ],
+    "pre_audit_resizable_in_place_overflow_count": 69
+  },
+  "codebook": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0011_codebook_temp.json",
+    "sha256": "8FEE8348945F09C0937317EA5C180BD366E257049851E6895E68ADCB86110B24",
+    "prior_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\font\\canonical_v1\\codebook.json",
+    "prior_sha256": "C2B3EFD964B88FB58B166AEE72EC655DCBBE0E6245A7B69AFFA22F96EF55851A",
+    "prior_assigned": 784,
+    "current_temporary_assigned": 805,
+    "new_append_only_glyphs": 21,
+    "prior_assignments_unchanged": true,
+    "corpus_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0011_corpus_temp\\approved_korean_corpus.txt",
+    "corpus_sha256": "35518E377E4F5BDAF0CE6FBEEE2EC3CCAB9AAE61CD4CCC92A65019D6F7E26238",
+    "corpus_manifest_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\validation\\batch_0011_corpus_temp\\corpus_manifest.json",
+    "corpus_manifest_sha256": "C0FF21B1F02548CE4E38E95EA5172057681AE0BEBC1A49969E24FDB8AE55EB7E"
+  },
+  "method": "Each occurrence was linked only when its scanner byte range had exactly one offset overlap with a structured table field; raw slices and whole-payload SHA-256 were verified. Substring candidates were never deciding evidence.",
+  "summary": {
+    "resolved_tm_units": 33,
+    "ambiguous_tm_units": 0,
+    "unmatched_tm_units": 0,
+    "linked_table_units": 33,
+    "anomaly_types": {
+      "scanner_included_pre_field_structure_bytes": 31,
+      "scanner_skipped_field_prefix": 2
+    },
+    "encoded_fit_statuses": {
+      "verified_fit": 33
+    },
+    "encoded_fit_review_required": 0
+  },
+  "action_lists": {
+    "ambiguous_tm_ids": [],
+    "unmatched_tm_ids": [],
+    "overflow_tm_ids": [],
+    "encoding_error_tm_ids": [],
+    "recommended_action": "Exclude ambiguous/unmatched units until raw structural evidence exists; rewrite fixed-field overflows or use a proven resizable path; append missing glyphs and rerender the font for encoding errors."
+  },
+  "units": [
+    {
+      "tm_id": "ARF-TM-6FE3047B2F1E08A11D03",
+      "status": "resolved",
+      "schema": "magic",
+      "logical_locator": "Sys/system.vol::0034:magic.bin",
+      "corrupt_scanner_source_text": "2ウインドスライサ",
+      "approved_translation_before_boundary_audit": "2윈드 슬라이서",
+      "table_unit_ids": [
+        "magic:17:menu_name"
+      ],
+      "clean_source_text": "ウインドスライサ",
+      "clean_translation_ko": "윈드 슬라이서",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 20,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 13,
+        "encoded_hex": "C0D8B4FD20BDA3B6A2B0ABBBDA",
+        "required_with_nul": 14,
+        "max_payload_bytes": 19,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-5130BB746C9880888AED",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "scanner_offset": 2787,
+          "scanner_offset_hex": "0xAE3",
+          "scanner_byte_length": 17,
+          "scanner_raw_hex": "32A5A6A5A4A5F3A5C9A5B9A5E9A5A4A5B5",
+          "table_unit_id": "magic:17:menu_name",
+          "table_offset": 2788,
+          "table_offset_hex": "0xAE4",
+          "table_byte_length": 16,
+          "table_raw_hex": "A5A6A5A4A5F3A5C9A5B9A5E9A5A4A5B5",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 16,
+          "pre_field_structure_hex_in_scanner": "32",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\magic.bin",
+          "raw_source_sha256": "fefba72d4133d30a7828c8e0bd5785bd3827348dd05b8e02d6d0bae91242f205",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-704EB3AAAAEFC6AC296B",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "8友との別れ",
+      "approved_translation_before_boundary_audit": "8친구와의 이별",
+      "table_unit_ids": [
+        "chat:255:title"
+      ],
+      "clean_source_text": "友との別れ",
+      "clean_translation_ko": "친구와의 이별",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 13,
+        "encoded_hex": "C4F4B1B1BFDBC1A320B0ABBAB1",
+        "required_with_nul": 14,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-2981F45937A6D59A3C61",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 33403,
+          "scanner_offset_hex": "0x827B",
+          "scanner_byte_length": 11,
+          "scanner_raw_hex": "38CDA7A4C8A4CECACCA4EC",
+          "table_unit_id": "chat:255:title",
+          "table_offset": 33404,
+          "table_offset_hex": "0x827C",
+          "table_byte_length": 10,
+          "table_raw_hex": "CDA7A4C8A4CECACCA4EC",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 10,
+          "pre_field_structure_hex_in_scanner": "38",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-70601A9BFEDDE998AEA7",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "C骸使い",
+      "approved_translation_before_boundary_audit": "C망자술사",
+      "table_unit_ids": [
+        "chat:16:title"
+      ],
+      "clean_source_text": "骸使い",
+      "clean_translation_ko": "망자술사",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 8,
+        "encoded_hex": "B7F1C1BEBCDBBBAA",
+        "required_with_nul": 9,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-CF8C5490368B2F957412",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 22887,
+          "scanner_offset_hex": "0x5967",
+          "scanner_byte_length": 7,
+          "scanner_raw_hex": "43B3BCBBC8A4A4",
+          "table_unit_id": "chat:16:title",
+          "table_offset": 22888,
+          "table_offset_hex": "0x5968",
+          "table_byte_length": 6,
+          "table_raw_hex": "B3BCBBC8A4A4",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 6,
+          "pre_field_structure_hex_in_scanner": "43",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-70F306D51E25DD67944C",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$08>アースシェル",
+      "approved_translation_before_boundary_audit": "<$7F><$08>어스 셸",
+      "table_unit_ids": [
+        "help:203:title"
+      ],
+      "clean_source_text": "アースシェル",
+      "clean_translation_ko": "어스 셸",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 7,
+        "encoded_hex": "BEBFBCF720BCB3",
+        "required_with_nul": 8,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-B6E784357004999CA4EA",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 70439,
+          "scanner_offset_hex": "0x11327",
+          "scanner_byte_length": 14,
+          "scanner_raw_hex": "7F08A5A2A1BCA5B9A5B7A5A7A5EB",
+          "table_unit_id": "help:203:title",
+          "table_offset": 70441,
+          "table_offset_hex": "0x11329",
+          "table_byte_length": 12,
+          "table_raw_hex": "A5A2A1BCA5B9A5B7A5A7A5EB",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 12,
+          "pre_field_structure_hex_in_scanner": "7F08",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-71107872BBFDD316732C",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$08>ジャッジメント",
+      "approved_translation_before_boundary_audit": "<$7F><$08>저지먼트",
+      "table_unit_ids": [
+        "help:217:title"
+      ],
+      "clean_source_text": "ジャッジメント",
+      "clean_translation_ko": "저지먼트",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 8,
+        "encoded_hex": "C1E7B0AFC9C5C6D7",
+        "required_with_nul": 9,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-8B158C1F96318D173E2A",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 75297,
+          "scanner_offset_hex": "0x12621",
+          "scanner_byte_length": 16,
+          "scanner_raw_hex": "7F08A5B8A5E3A5C3A5B8A5E1A5F3A5C8",
+          "table_unit_id": "help:217:title",
+          "table_offset": 75299,
+          "table_offset_hex": "0x12623",
+          "table_byte_length": 14,
+          "table_raw_hex": "A5B8A5E3A5C3A5B8A5E1A5F3A5C8",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 14,
+          "pre_field_structure_hex_in_scanner": "7F08",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-72828725BCE29713BB66",
+      "status": "resolved",
+      "schema": "ability",
+      "logical_locator": "Sys/system.vol::0038:ability.bin",
+      "corrupt_scanner_source_text": "防具１３",
+      "approved_translation_before_boundary_audit": "방어구 13",
+      "table_unit_ids": [
+        "ability:241:name"
+      ],
+      "clean_source_text": "属性防具１３",
+      "clean_translation_ko": "속성 방어구 13",
+      "translation_repair": "restore_missing_field_prefix_semantics",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 14,
+        "encoded_hex": "BCB5BCA520B9D1BEBFB1B1203133",
+        "required_with_nul": 15,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_skipped_field_prefix",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-F276F3C837768AF332DC",
+          "logical_locator": "Sys/system.vol::0038:ability.bin",
+          "scanner_offset": 35190,
+          "scanner_offset_hex": "0x8976",
+          "scanner_byte_length": 8,
+          "scanner_raw_hex": "CBC9B6F1A3B1A3B3",
+          "table_unit_id": "ability:241:name",
+          "table_offset": 35186,
+          "table_offset_hex": "0x8972",
+          "table_byte_length": 12,
+          "table_raw_hex": "C2B0C0ADCBC9B6F1A3B1A3B3",
+          "offset_delta_scanner_minus_table": 4,
+          "overlap_bytes": 8,
+          "pre_field_structure_hex_in_scanner": "",
+          "missing_real_field_prefix_hex": "C2B0C0AD",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\ability.bin",
+          "raw_source_sha256": "8c433a1879789914d100570de3308ade33a4b25a10fb012f2aa09396fedf70a3",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-72C75B30D277CBC53EB0",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$01>足止め",
+      "approved_translation_before_boundary_audit": "<$01>속박",
+      "table_unit_ids": [
+        "help:28:title"
+      ],
+      "clean_source_text": "足止め",
+      "clean_translation_ko": "속박",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 4,
+        "encoded_hex": "BCB5B9C6",
+        "required_with_nul": 5,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-9844A7F856F8B61DF0F7",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 9715,
+          "scanner_offset_hex": "0x25F3",
+          "scanner_byte_length": 7,
+          "scanner_raw_hex": "01C2ADBBDFA4E1",
+          "table_unit_id": "help:28:title",
+          "table_offset": 9716,
+          "table_offset_hex": "0x25F4",
+          "table_byte_length": 6,
+          "table_raw_hex": "C2ADBBDFA4E1",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 6,
+          "pre_field_structure_hex_in_scanner": "01",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-732A78E7D681BF59765C",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$0F>j| レイスコール",
+      "approved_translation_before_boundary_audit": "<$0F>j| 레이 스콜",
+      "table_unit_ids": [
+        "help:237:title"
+      ],
+      "clean_source_text": "レイスコール",
+      "clean_translation_ko": "레이 스콜",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 9,
+        "encoded_hex": "B6DEB0AB20BCF7C5C3",
+        "required_with_nul": 10,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-FAE09B183339F2F96B72",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 82235,
+          "scanner_offset_hex": "0x1413B",
+          "scanner_byte_length": 16,
+          "scanner_raw_hex": "0F6A7C20A5ECA5A4A5B9A5B3A1BCA5EB",
+          "table_unit_id": "help:237:title",
+          "table_offset": 82239,
+          "table_offset_hex": "0x1413F",
+          "table_byte_length": 12,
+          "table_raw_hex": "A5ECA5A4A5B9A5B3A1BCA5EB",
+          "offset_delta_scanner_minus_table": -4,
+          "overlap_bytes": 12,
+          "pre_field_structure_hex_in_scanner": "0F6A7C20",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-741077073B934193B0E0",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$0F>j| 星へ行く船",
+      "approved_translation_before_boundary_audit": "<$0F>j| 별로 가는 배",
+      "table_unit_ids": [
+        "help:288:title"
+      ],
+      "clean_source_text": "星へ行く船",
+      "clean_translation_ko": "별로 가는 배",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 12,
+        "encoded_hex": "BAB1B7A320B0B0B3DF20B9D9",
+        "required_with_nul": 13,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-96689D42F753AB830772",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 99932,
+          "scanner_offset_hex": "0x1865C",
+          "scanner_byte_length": 14,
+          "scanner_raw_hex": "0F6A7C20C0B1A4D8B9D4A4AFC1A5",
+          "table_unit_id": "help:288:title",
+          "table_offset": 99936,
+          "table_offset_hex": "0x18660",
+          "table_byte_length": 10,
+          "table_raw_hex": "C0B1A4D8B9D4A4AFC1A5",
+          "offset_delta_scanner_minus_table": -4,
+          "overlap_bytes": 10,
+          "pre_field_structure_hex_in_scanner": "0F6A7C20",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-748A9A519366BC06C706",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "<$01>\n眠る実力",
+      "approved_translation_before_boundary_audit": "<$01>\n잠든 실력",
+      "table_unit_ids": [
+        "chat:160:title"
+      ],
+      "clean_source_text": "眠る実力",
+      "clean_translation_ko": "잠든 실력",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 9,
+        "encoded_hex": "C1D7B5AB20BDB6B6E9",
+        "required_with_nul": 10,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-EAB4B8F1F6CB0AB4F691",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 29222,
+          "scanner_offset_hex": "0x7226",
+          "scanner_byte_length": 10,
+          "scanner_raw_hex": "010ACCB2A4EBBCC2CECF",
+          "table_unit_id": "chat:160:title",
+          "table_offset": 29224,
+          "table_offset_hex": "0x7228",
+          "table_byte_length": 8,
+          "table_raw_hex": "CCB2A4EBBCC2CECF",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 8,
+          "pre_field_structure_hex_in_scanner": "010A",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-749FE406FCAA19320F8B",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "<$01><$02>自然との暮らし",
+      "approved_translation_before_boundary_audit": "<$01><$02>자연과 함께하는 삶",
+      "table_unit_ids": [
+        "chat:46:title"
+      ],
+      "clean_source_text": "自然との暮らし",
+      "clean_translation_ko": "자연과 함께하는 삶",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 18,
+        "encoded_hex": "C1BEBEF7B1A820C7E0B1EDC7D6B3DF20CCA8",
+        "required_with_nul": 19,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-CD4E3542C0C4B173CBA7",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 24206,
+          "scanner_offset_hex": "0x5E8E",
+          "scanner_byte_length": 16,
+          "scanner_raw_hex": "0102BCABC1B3A4C8A4CECAEBA4E9A4B7",
+          "table_unit_id": "chat:46:title",
+          "table_offset": 24208,
+          "table_offset_hex": "0x5E90",
+          "table_byte_length": 14,
+          "table_raw_hex": "BCABC1B3A4C8A4CECAEBA4E9A4B7",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 14,
+          "pre_field_structure_hex_in_scanner": "0102",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-76A63A8AD34066C87E65",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": " イマジナル神",
+      "approved_translation_before_boundary_audit": " 이매지널신",
+      "table_unit_ids": [
+        "help:255:title"
+      ],
+      "clean_source_text": "イマジナル神",
+      "clean_translation_ko": "이매지널신",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 10,
+        "encoded_hex": "B0ABB8A7B0AFB2E0BDB4",
+        "required_with_nul": 11,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-7B3B30A824EF8187F894",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 88484,
+          "scanner_offset_hex": "0x159A4",
+          "scanner_byte_length": 13,
+          "scanner_raw_hex": "20A5A4A5DEA5B8A5CAA5EBBFC0",
+          "table_unit_id": "help:255:title",
+          "table_offset": 88485,
+          "table_offset_hex": "0x159A5",
+          "table_byte_length": 12,
+          "table_raw_hex": "A5A4A5DEA5B8A5CAA5EBBFC0",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 12,
+          "pre_field_structure_hex_in_scanner": "20",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-76B51C383A34DA046D7B",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "\\<$01>再生",
+      "approved_translation_before_boundary_audit": "\\<$01>재생",
+      "table_unit_ids": [
+        "help:57:title"
+      ],
+      "clean_source_text": "再生",
+      "clean_translation_ko": "재생",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 4,
+        "encoded_hex": "C1DEBBC3",
+        "required_with_nul": 5,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-B611E37DFC772635E2CB",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 19777,
+          "scanner_offset_hex": "0x4D41",
+          "scanner_byte_length": 6,
+          "scanner_raw_hex": "5C01BAC6C0B8",
+          "table_unit_id": "help:57:title",
+          "table_offset": 19779,
+          "table_offset_hex": "0x4D43",
+          "table_byte_length": 4,
+          "table_raw_hex": "BAC6C0B8",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 4,
+          "pre_field_structure_hex_in_scanner": "5C01",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-76F0851E6EF383C5BB8D",
+      "status": "resolved",
+      "schema": "magic",
+      "logical_locator": "Sys/system.vol::0034:magic.bin",
+      "corrupt_scanner_source_text": "@コーリング",
+      "approved_translation_before_boundary_audit": "@콜링",
+      "table_unit_ids": [
+        "magic:44:menu_name"
+      ],
+      "clean_source_text": "コーリング",
+      "clean_translation_ko": "콜링",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 20,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 4,
+        "encoded_hex": "C5C3B7DB",
+        "required_with_nul": 5,
+        "max_payload_bytes": 19,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-767976B0EA503F96E6BD",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "scanner_offset": 7215,
+          "scanner_offset_hex": "0x1C2F",
+          "scanner_byte_length": 11,
+          "scanner_raw_hex": "40A5B3A1BCA5EAA5F3A5B0",
+          "table_unit_id": "magic:44:menu_name",
+          "table_offset": 7216,
+          "table_offset_hex": "0x1C30",
+          "table_byte_length": 10,
+          "table_raw_hex": "A5B3A1BCA5EAA5F3A5B0",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 10,
+          "pre_field_structure_hex_in_scanner": "40",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\magic.bin",
+          "raw_source_sha256": "fefba72d4133d30a7828c8e0bd5785bd3827348dd05b8e02d6d0bae91242f205",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-76FDAE9B18A1AA524BAE",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "\\<$18>共鳴",
+      "approved_translation_before_boundary_audit": "\\<$18>공명",
+      "table_unit_ids": [
+        "help:172:title"
+      ],
+      "clean_source_text": "共鳴",
+      "clean_translation_ko": "공명",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 4,
+        "encoded_hex": "B1A7B8D9",
+        "required_with_nul": 5,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-1E2C21B736B7869F44AD",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 59682,
+          "scanner_offset_hex": "0xE922",
+          "scanner_byte_length": 6,
+          "scanner_raw_hex": "5C18B6A6CCC4",
+          "table_unit_id": "help:172:title",
+          "table_offset": 59684,
+          "table_offset_hex": "0xE924",
+          "table_byte_length": 4,
+          "table_raw_hex": "B6A6CCC4",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 4,
+          "pre_field_structure_hex_in_scanner": "5C18",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-77A9E0365FFBE6894F94",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$08>リキッドハウル",
+      "approved_translation_before_boundary_audit": "<$7F><$08>리퀴드 하울",
+      "table_unit_ids": [
+        "help:191:title"
+      ],
+      "clean_source_text": "リキッドハウル",
+      "clean_translation_ko": "리퀴드 하울",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 11,
+        "encoded_hex": "B7C4C5D6B4FD20C7D6BFF9",
+        "required_with_nul": 12,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-B91BB47CF89E19E1385E",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 66275,
+          "scanner_offset_hex": "0x102E3",
+          "scanner_byte_length": 16,
+          "scanner_raw_hex": "7F08A5EAA5ADA5C3A5C9A5CFA5A6A5EB",
+          "table_unit_id": "help:191:title",
+          "table_offset": 66277,
+          "table_offset_hex": "0x102E5",
+          "table_byte_length": 14,
+          "table_raw_hex": "A5EAA5ADA5C3A5C9A5CFA5A6A5EB",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 14,
+          "pre_field_structure_hex_in_scanner": "7F08",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-78821B71BBB7AA7A0909",
+      "status": "resolved",
+      "schema": "dragon",
+      "logical_locator": "Sys/system.vol::0032:dragon.bin",
+      "corrupt_scanner_source_text": "<$01><$01><$01><$01>マシュガル",
+      "approved_translation_before_boundary_audit": "<$01><$01><$01><$01>마슈가르",
+      "table_unit_ids": [
+        "dragon:12:name"
+      ],
+      "clean_source_text": "マシュガル",
+      "clean_translation_ko": "마슈가르",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 24,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 8,
+        "encoded_hex": "B7DCBCF4B0B0B7B7",
+        "required_with_nul": 9,
+        "max_payload_bytes": 23,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-D5DFB7E926D4F3663809",
+          "logical_locator": "Sys/system.vol::0032:dragon.bin",
+          "scanner_offset": 3344,
+          "scanner_offset_hex": "0xD10",
+          "scanner_byte_length": 14,
+          "scanner_raw_hex": "01010101A5DEA5B7A5E5A5ACA5EB",
+          "table_unit_id": "dragon:12:name",
+          "table_offset": 3348,
+          "table_offset_hex": "0xD14",
+          "table_byte_length": 10,
+          "table_raw_hex": "A5DEA5B7A5E5A5ACA5EB",
+          "offset_delta_scanner_minus_table": -4,
+          "overlap_bytes": 10,
+          "pre_field_structure_hex_in_scanner": "01010101",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\dragon.bin",
+          "raw_source_sha256": "36f2557290c19f4087ce5f687df7d06cbf745ed0db79112c944f2e659b362b18",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-790B7230AA1559A2AECE",
+      "status": "resolved",
+      "schema": "magic",
+      "logical_locator": "Sys/system.vol::0034:magic.bin",
+      "corrupt_scanner_source_text": "Cアクアスコール",
+      "approved_translation_before_boundary_audit": "C아쿠아 스콜",
+      "table_unit_ids": [
+        "magic:16:menu_name"
+      ],
+      "clean_source_text": "アクアスコール",
+      "clean_translation_ko": "아쿠아 스콜",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 20,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 11,
+        "encoded_hex": "BDFBC5CEBDFB20BCF7C5C3",
+        "required_with_nul": 12,
+        "max_payload_bytes": 19,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-0F1CFB919501D1234FED",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "scanner_offset": 2623,
+          "scanner_offset_hex": "0xA3F",
+          "scanner_byte_length": 15,
+          "scanner_raw_hex": "43A5A2A5AFA5A2A5B9A5B3A1BCA5EB",
+          "table_unit_id": "magic:16:menu_name",
+          "table_offset": 2624,
+          "table_offset_hex": "0xA40",
+          "table_byte_length": 14,
+          "table_raw_hex": "A5A2A5AFA5A2A5B9A5B3A1BCA5EB",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 14,
+          "pre_field_structure_hex_in_scanner": "43",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\magic.bin",
+          "raw_source_sha256": "fefba72d4133d30a7828c8e0bd5785bd3827348dd05b8e02d6d0bae91242f205",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-79239BD90BD92B80753A",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$08>リフレクション",
+      "approved_translation_before_boundary_audit": "<$7F><$08>리플렉션",
+      "table_unit_ids": [
+        "help:185:title"
+      ],
+      "clean_source_text": "リフレクション",
+      "clean_translation_ko": "리플렉션",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 8,
+        "encoded_hex": "B7C4C7C7B6E3BCAE",
+        "required_with_nul": 9,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-F65DD294AB23673BCB69",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 64193,
+          "scanner_offset_hex": "0xFAC1",
+          "scanner_byte_length": 16,
+          "scanner_raw_hex": "7F08A5EAA5D5A5ECA5AFA5B7A5E7A5F3",
+          "table_unit_id": "help:185:title",
+          "table_offset": 64195,
+          "table_offset_hex": "0xFAC3",
+          "table_byte_length": 14,
+          "table_raw_hex": "A5EAA5D5A5ECA5AFA5B7A5E7A5F3",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 14,
+          "pre_field_structure_hex_in_scanner": "7F08",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-793445E1A357A8C7AF60",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$04>種族",
+      "approved_translation_before_boundary_audit": "<$04>종족",
+      "table_unit_ids": [
+        "help:148:title"
+      ],
+      "clean_source_text": "種族",
+      "clean_translation_ko": "종족",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 4,
+        "encoded_hex": "C2EDC2D2",
+        "required_with_nul": 5,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-2B83E9462FADEAC961A1",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 51355,
+          "scanner_offset_hex": "0xC89B",
+          "scanner_byte_length": 5,
+          "scanner_raw_hex": "04BCEFC2B2",
+          "table_unit_id": "help:148:title",
+          "table_offset": 51356,
+          "table_offset_hex": "0xC89C",
+          "table_byte_length": 4,
+          "table_raw_hex": "BCEFC2B2",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 4,
+          "pre_field_structure_hex_in_scanner": "04",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-797AE6E8435B663EF940",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "\nぼうぎょ",
+      "approved_translation_before_boundary_audit": "\n방어",
+      "table_unit_ids": [
+        "help:98:title"
+      ],
+      "clean_source_text": "ぼうぎょ",
+      "clean_translation_ko": "방어",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 4,
+        "encoded_hex": "B9D1BEBF",
+        "required_with_nul": 5,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-550626960EEC07F76335",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 34005,
+          "scanner_offset_hex": "0x84D5",
+          "scanner_byte_length": 9,
+          "scanner_raw_hex": "0AA4DCA4A6A4AEA4E7",
+          "table_unit_id": "help:98:title",
+          "table_offset": 34006,
+          "table_offset_hex": "0x84D6",
+          "table_byte_length": 8,
+          "table_raw_hex": "A4DCA4A6A4AEA4E7",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 8,
+          "pre_field_structure_hex_in_scanner": "0A",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7997FAEEC44DB49163E1",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$02>全力ＲＥＳストック",
+      "approved_translation_before_boundary_audit": "<$7F><$02>전력 RES 스톡",
+      "table_unit_ids": [
+        "help:130:title"
+      ],
+      "clean_source_text": "全力ＲＥＳストック",
+      "clean_translation_ko": "전력 RES 스톡",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 13,
+        "encoded_hex": "C1EEB6E92052455320BCF7CBE0",
+        "required_with_nul": 14,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-866825FA90F456276355",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 45108,
+          "scanner_offset_hex": "0xB034",
+          "scanner_byte_length": 20,
+          "scanner_raw_hex": "7F02C1B4CECFA3D2A3C5A3D3A5B9A5C8A5C3A5AF",
+          "table_unit_id": "help:130:title",
+          "table_offset": 45110,
+          "table_offset_hex": "0xB036",
+          "table_byte_length": 18,
+          "table_raw_hex": "C1B4CECFA3D2A3C5A3D3A5B9A5C8A5C3A5AF",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 18,
+          "pre_field_structure_hex_in_scanner": "7F02",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-79EE3468D66BBC161745",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "l クドアンヌ",
+      "approved_translation_before_boundary_audit": "l 쿠도안느",
+      "table_unit_ids": [
+        "help:367:title"
+      ],
+      "clean_source_text": "クドアンヌ",
+      "clean_translation_ko": "쿠도안느",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 8,
+        "encoded_hex": "C5CEB4C2BEA5B3D2",
+        "required_with_nul": 9,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-AB4AC6E362D4F1C40421",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 127347,
+          "scanner_offset_hex": "0x1F173",
+          "scanner_byte_length": 12,
+          "scanner_raw_hex": "6C20A5AFA5C9A5A2A5F3A5CC",
+          "table_unit_id": "help:367:title",
+          "table_offset": 127349,
+          "table_offset_hex": "0x1F175",
+          "table_byte_length": 10,
+          "table_raw_hex": "A5AFA5C9A5A2A5F3A5CC",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 10,
+          "pre_field_structure_hex_in_scanner": "6C20",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7A6FF640666B7790C646",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "<$03>ラルクとオイゲン",
+      "approved_translation_before_boundary_audit": "<$03>라르크와 오이겐",
+      "table_unit_ids": [
+        "chat:168:title"
+      ],
+      "clean_source_text": "ラルクとオイゲン",
+      "clean_translation_ko": "라르크와 오이겐",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 15,
+        "encoded_hex": "B6A2B7B7C5E6BFDB20BFBEB0ABB0D0",
+        "required_with_nul": 16,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-71274432AFCC03C621E4",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 29575,
+          "scanner_offset_hex": "0x7387",
+          "scanner_byte_length": 17,
+          "scanner_raw_hex": "03A5E9A5EBA5AFA4C8A5AAA5A4A5B2A5F3",
+          "table_unit_id": "chat:168:title",
+          "table_offset": 29576,
+          "table_offset_hex": "0x7388",
+          "table_byte_length": 16,
+          "table_raw_hex": "A5E9A5EBA5AFA4C8A5AAA5A4A5B2A5F3",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 16,
+          "pre_field_structure_hex_in_scanner": "03",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7AEC296E45889B5F6C4C",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "0たいせつなこと",
+      "approved_translation_before_boundary_audit": "0소중한 것",
+      "table_unit_ids": [
+        "chat:219:title"
+      ],
+      "clean_source_text": "たいせつなこと",
+      "clean_translation_ko": "소중한 것",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 9,
+        "encoded_hex": "BCB4C2FEC7D920B0C4",
+        "required_with_nul": 10,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-DBB51972A7862A196D45",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 31819,
+          "scanner_offset_hex": "0x7C4B",
+          "scanner_byte_length": 15,
+          "scanner_raw_hex": "30A4BFA4A4A4BBA4C4A4CAA4B3A4C8",
+          "table_unit_id": "chat:219:title",
+          "table_offset": 31820,
+          "table_offset_hex": "0x7C4C",
+          "table_byte_length": 14,
+          "table_raw_hex": "A4BFA4A4A4BBA4C4A4CAA4B3A4C8",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 14,
+          "pre_field_structure_hex_in_scanner": "30",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7B3267721661E573D95F",
+      "status": "resolved",
+      "schema": "magic",
+      "logical_locator": "Sys/system.vol::0034:magic.bin",
+      "corrupt_scanner_source_text": "1ブースター",
+      "approved_translation_before_boundary_audit": "1부스터",
+      "table_unit_ids": [
+        "magic:20:menu_name"
+      ],
+      "clean_source_text": "ブースター",
+      "clean_translation_ko": "부스터",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 20,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 6,
+        "encoded_hex": "BAD4BCF7C6BE",
+        "required_with_nul": 7,
+        "max_payload_bytes": 19,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-4B8F1C104FE7E2337EE9",
+          "logical_locator": "Sys/system.vol::0034:magic.bin",
+          "scanner_offset": 3279,
+          "scanner_offset_hex": "0xCCF",
+          "scanner_byte_length": 11,
+          "scanner_raw_hex": "31A5D6A1BCA5B9A5BFA1BC",
+          "table_unit_id": "magic:20:menu_name",
+          "table_offset": 3280,
+          "table_offset_hex": "0xCD0",
+          "table_byte_length": 10,
+          "table_raw_hex": "A5D6A1BCA5B9A5BFA1BC",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 10,
+          "pre_field_structure_hex_in_scanner": "31",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\magic.bin",
+          "raw_source_sha256": "fefba72d4133d30a7828c8e0bd5785bd3827348dd05b8e02d6d0bae91242f205",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7B4D5A20AA3FDB5FA484",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$01>ダメージ反射",
+      "approved_translation_before_boundary_audit": "<$01>피해 반사",
+      "table_unit_ids": [
+        "help:63:title"
+      ],
+      "clean_source_text": "ダメージ反射",
+      "clean_translation_ko": "피해 반사",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 9,
+        "encoded_hex": "C7CAC7E820B9C9BBAA",
+        "required_with_nul": 10,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-D92F3AFBB9710BEF47B0",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 21860,
+          "scanner_offset_hex": "0x5564",
+          "scanner_byte_length": 13,
+          "scanner_raw_hex": "01A5C0A5E1A1BCA5B8C8BFBCCD",
+          "table_unit_id": "help:63:title",
+          "table_offset": 21861,
+          "table_offset_hex": "0x5565",
+          "table_byte_length": 12,
+          "table_raw_hex": "A5C0A5E1A1BCA5B8C8BFBCCD",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 12,
+          "pre_field_structure_hex_in_scanner": "01",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7BBF6765F3E6EAD02AE4",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$08>フルケア",
+      "approved_translation_before_boundary_audit": "<$7F><$08>풀 케어",
+      "table_unit_ids": [
+        "help:192:title"
+      ],
+      "clean_source_text": "フルケア",
+      "clean_translation_ko": "풀 케어",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 7,
+        "encoded_hex": "C7B620C5BBBEBF",
+        "required_with_nul": 8,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-7268E9DADCE02F71370F",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 66622,
+          "scanner_offset_hex": "0x1043E",
+          "scanner_byte_length": 10,
+          "scanner_raw_hex": "7F08A5D5A5EBA5B1A5A2",
+          "table_unit_id": "help:192:title",
+          "table_offset": 66624,
+          "table_offset_hex": "0x10440",
+          "table_byte_length": 8,
+          "table_raw_hex": "A5D5A5EBA5B1A5A2",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 8,
+          "pre_field_structure_hex_in_scanner": "7F08",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7BE71EA239FECFC14640",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": " 創世記",
+      "approved_translation_before_boundary_audit": " 창세기",
+      "table_unit_ids": [
+        "help:266:title"
+      ],
+      "clean_source_text": "創世記",
+      "clean_translation_ko": "창세기",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 6,
+        "encoded_hex": "C4ADBCA6B1CE",
+        "required_with_nul": 7,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-F815B7380510434C99CC",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 92301,
+          "scanner_offset_hex": "0x1688D",
+          "scanner_byte_length": 7,
+          "scanner_raw_hex": "20C1CFC0A4B5AD",
+          "table_unit_id": "help:266:title",
+          "table_offset": 92302,
+          "table_offset_hex": "0x1688E",
+          "table_byte_length": 6,
+          "table_raw_hex": "C1CFC0A4B5AD",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 6,
+          "pre_field_structure_hex_in_scanner": "20",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7BECC1D0372FAD196C33",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$7F><$08>ジェムの破片",
+      "approved_translation_before_boundary_audit": "<$7F><$08>젬의 파편",
+      "table_unit_ids": [
+        "help:175:title"
+      ],
+      "clean_source_text": "ジェムの破片",
+      "clean_translation_ko": "젬의 파편",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 9,
+        "encoded_hex": "C2CAC1A320C6E8C7A2",
+        "required_with_nul": 10,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-B8F6C727C50D2160167F",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 60723,
+          "scanner_offset_hex": "0xED33",
+          "scanner_byte_length": 14,
+          "scanner_raw_hex": "7F08A5B8A5A7A5E0A4CEC7CBCAD2",
+          "table_unit_id": "help:175:title",
+          "table_offset": 60725,
+          "table_offset_hex": "0xED35",
+          "table_byte_length": 12,
+          "table_raw_hex": "A5B8A5A7A5E0A4CEC7CBCAD2",
+          "offset_delta_scanner_minus_table": -2,
+          "overlap_bytes": 12,
+          "pre_field_structure_hex_in_scanner": "7F08",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7C3174BF24D161835E83",
+      "status": "resolved",
+      "schema": "ability",
+      "logical_locator": "Sys/system.vol::0038:ability.bin",
+      "corrupt_scanner_source_text": "防具１１",
+      "approved_translation_before_boundary_audit": "방어구 11",
+      "table_unit_ids": [
+        "ability:239:name"
+      ],
+      "clean_source_text": "属性防具１１",
+      "clean_translation_ko": "속성 방어구 11",
+      "translation_repair": "restore_missing_field_prefix_semantics",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 14,
+        "encoded_hex": "BCB5BCA520B9D1BEBFB1B1203131",
+        "required_with_nul": 15,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_skipped_field_prefix",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-4E42E8C2A4259AFA18A6",
+          "logical_locator": "Sys/system.vol::0038:ability.bin",
+          "scanner_offset": 34898,
+          "scanner_offset_hex": "0x8852",
+          "scanner_byte_length": 8,
+          "scanner_raw_hex": "CBC9B6F1A3B1A3B1",
+          "table_unit_id": "ability:239:name",
+          "table_offset": 34894,
+          "table_offset_hex": "0x884E",
+          "table_byte_length": 12,
+          "table_raw_hex": "C2B0C0ADCBC9B6F1A3B1A3B1",
+          "offset_delta_scanner_minus_table": 4,
+          "overlap_bytes": 8,
+          "pre_field_structure_hex_in_scanner": "",
+          "missing_real_field_prefix_hex": "C2B0C0AD",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\ability.bin",
+          "raw_source_sha256": "8c433a1879789914d100570de3308ade33a4b25a10fb012f2aa09396fedf70a3",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7CD4CC8553B43C2C978E",
+      "status": "resolved",
+      "schema": "help",
+      "logical_locator": "Sys/help.bin",
+      "corrupt_scanner_source_text": "<$0F>座<$01>作戦設定",
+      "approved_translation_before_boundary_audit": "<$0F>좌<$01>작전 설정",
+      "table_unit_ids": [
+        "help:82:title"
+      ],
+      "clean_source_text": "作戦設定",
+      "clean_translation_ko": "작전 설정",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 21,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 9,
+        "encoded_hex": "C1C1C1EE20BBF0B0AC",
+        "required_with_nul": 10,
+        "max_payload_bytes": 20,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-141450E4EEF264CDF95A",
+          "logical_locator": "Sys/help.bin",
+          "scanner_offset": 28450,
+          "scanner_offset_hex": "0x6F22",
+          "scanner_byte_length": 12,
+          "scanner_raw_hex": "0FBAC201BAEEC0EFC0DFC4EA",
+          "table_unit_id": "help:82:title",
+          "table_offset": 28454,
+          "table_offset_hex": "0x6F26",
+          "table_byte_length": 8,
+          "table_raw_hex": "BAEEC0EFC0DFC4EA",
+          "offset_delta_scanner_minus_table": -4,
+          "overlap_bytes": 8,
+          "pre_field_structure_hex_in_scanner": "0FBAC201",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+          "raw_source_sha256": "1a73d89b2598247c6d2cf507fd1ecc81fcc6c84bc67cf589612adef25a314607",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7CD5AC9B229F544526D6",
+      "status": "resolved",
+      "schema": "chat",
+      "logical_locator": "Sys/system.vol::0041:chat.bin",
+      "corrupt_scanner_source_text": "<$12>ヴァイスの死",
+      "approved_translation_before_boundary_audit": "<$12>바이스의 죽음",
+      "table_unit_ids": [
+        "chat:205:title"
+      ],
+      "clean_source_text": "ヴァイスの死",
+      "clean_translation_ko": "바이스의 죽음",
+      "translation_repair": "remove_copied_structural_prefix",
+      "translation_changed": true,
+      "capacity": 43,
+      "encoded_fit": {
+        "review_required": false,
+        "status": "verified_fit",
+        "encoded_bytes": 13,
+        "encoded_hex": "B9C0B0ABBCF7C1A320C2FBC0F3",
+        "required_with_nul": 14,
+        "max_payload_bytes": 42,
+        "nul_terminator_reserved": true
+      },
+      "anomaly_type": "scanner_included_pre_field_structure_bytes",
+      "evidence": [
+        {
+          "occurrence_id": "ARF-42D3780C4BFC90B6C5B7",
+          "logical_locator": "Sys/system.vol::0041:chat.bin",
+          "scanner_offset": 31203,
+          "scanner_offset_hex": "0x79E3",
+          "scanner_byte_length": 13,
+          "scanner_raw_hex": "12A5F4A5A1A5A4A5B9A4CEBBE0",
+          "table_unit_id": "chat:205:title",
+          "table_offset": 31204,
+          "table_offset_hex": "0x79E4",
+          "table_byte_length": 12,
+          "table_raw_hex": "A5F4A5A1A5A4A5B9A4CEBBE0",
+          "offset_delta_scanner_minus_table": -1,
+          "overlap_bytes": 12,
+          "pre_field_structure_hex_in_scanner": "12",
+          "missing_real_field_prefix_hex": "",
+          "raw_source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+          "raw_source_sha256": "b6265427516c3aa9cd8967f997dba2b8172066da7f5d93aa89a6feaeb779affc",
+          "raw_source_sha256_verified": true,
+          "raw_field_bytes_verified": true,
+          "raw_scanner_bytes_verified": true,
+          "mapping_status": "exact_by_offset_overlap"
+        }
+      ]
+    }
+  ]
+}

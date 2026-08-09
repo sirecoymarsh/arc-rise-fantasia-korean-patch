@@ -1,0 +1,53 @@
+{
+  "schema": "arf-translation-layout-proposals-v1",
+  "batch": "batch_0001",
+  "reason": "Fixed-size system table fields must retain one NUL byte within their declared capacity.",
+  "translation_engine_policy": "Codex internal models only",
+  "proposals": [
+    {
+      "tm_id": "ARF-TM-C7BDC415AC8F83633180",
+      "source_text": "ザムエル武芸塾、免許皆伝の証。\n光召術を強化し、時に敵をかく乱させる",
+      "before": "자무엘 무예관의 모든 기예를 전수받았다는 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "after": "자무엘 무예관의 면허개전 증표.\n광소술을 강화하고 때로 적을 교란한다",
+      "encoded_bytes_before": 83,
+      "encoded_bytes_after": 67,
+      "capacity_including_nul": 81
+    },
+    {
+      "tm_id": "ARF-TM-15D533F09035FFEBF5FC",
+      "source_text": "白と空色を基調とする皇家ゆかりの長靴。\n華麗な立ち回りを可能としてくれる",
+      "before": "황실과 인연이 있는, 흰색과 하늘색 바탕의 장화.\n화려한 몸놀림을 펼칠 수 있게 해 준다",
+      "after": "흰색과 하늘색 바탕의, 황실과 인연 깊은 장화.\n화려한 몸놀림이 가능해진다",
+      "encoded_bytes_before": 83,
+      "encoded_bytes_after": 71,
+      "capacity_including_nul": 81
+    },
+    {
+      "tm_id": "ARF-TM-000493C50A2D7118D5B6",
+      "source_text": "灰の衣に身を包んだ男は視線を伏しているが\nその瞳は不意に見つめて不敵に煌めく――",
+      "before": "잿빛 옷을 두른 남자는 시선을 내리깔고 있지만\n그 눈동자는 문득 시선을 맞추며 도전적으로 번뜩인다――",
+      "after": "잿빛 옷의 남자는 눈을 내리깔지만\n문득 마주친 눈동자가 도전적으로 번뜩인다――",
+      "encoded_bytes_before": 99,
+      "encoded_bytes_after": 77,
+      "capacity_including_nul": 81
+    },
+    {
+      "tm_id": "ARF-TM-029F884DC13E9FD1E052",
+      "source_text": "お気にのスタイル",
+      "before": "마음에 드는 스타일",
+      "after": "즐겨 입는 스타일",
+      "encoded_bytes_before": 18,
+      "encoded_bytes_after": 16,
+      "capacity_including_nul": 17
+    },
+    {
+      "tm_id": "ARF-TM-0160A08C30E855DE9622",
+      "source_text": "水玉の水着",
+      "before": "물방울무늬 수영복",
+      "after": "물방울 수영복",
+      "encoded_bytes_before": 17,
+      "encoded_bytes_after": 13,
+      "capacity_including_nul": 17
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "unique": 3,
+  "occurrences": 3,
+  "characters": [
+    {
+      "character": "룹",
+      "unicode": "U+B8F9",
+      "count": 1
+    },
+    {
+      "character": "켬",
+      "unicode": "U+CF2C",
+      "count": 1
+    },
+    {
+      "character": "궈",
+      "unicode": "U+AD88",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "arf-ko-development-checkpoint-validation-v1",
+  "package_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_KO_Checkpoint_2026-08-03",
+  "zip_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\outputs\\Arc_Rise_Fantasia_KO_Checkpoint_2026-08-03.zip",
+  "zip_size_bytes": 8322505,
+  "zip_sha256": "DC2D71E9DB88972EC0C8CF077D10EF334B10EB2D60BFA45B654BE218AA6ED358",
+  "manifest_files": 125,
+  "prohibited_game_binary_count": 0,
+  "zip_crc_ok": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

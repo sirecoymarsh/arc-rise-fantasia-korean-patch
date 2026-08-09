@@ -1,0 +1,107 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Event\\c_rank\\EV011_01_0100D.vol",
+  "header": {
+    "end_of_header": 352,
+    "count": 8,
+    "declared_size": 51680,
+    "actual_size": 51680
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "opt_btl_p_ern_00h_anm33.brcha",
+      "size": 25344,
+      "relative_offset": 0,
+      "absolute_offset": 352,
+      "head_hex": "62726573FEFF00000000630000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres......c.....root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\opt_btl_p_ern_00h_anm33.brcha",
+      "sjis_run_count": 88,
+      "sjis_runs": []
+    },
+    {
+      "index": 1,
+      "name": "opt_btl_p_mrk_00h_anm24.brcha",
+      "size": 14336,
+      "relative_offset": 25344,
+      "absolute_offset": 25696,
+      "head_hex": "62726573FEFF00000000380000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres......8.....root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\opt_btl_p_mrk_00h_anm24.brcha",
+      "sjis_run_count": 39,
+      "sjis_runs": []
+    },
+    {
+      "index": 2,
+      "name": "opt_btl_p_wil_00h_anm24.brcha",
+      "size": 11648,
+      "relative_offset": 39680,
+      "absolute_offset": 40032,
+      "head_hex": "62726573FEFF000000002D8000100002726F6F74000000580000002800000001",
+      "head_ascii": "bres......-.....root...X...(....",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\opt_btl_p_wil_00h_anm24.brcha",
+      "sjis_run_count": 25,
+      "sjis_runs": []
+    },
+    {
+      "index": 3,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 352,
+      "head_hex": "",
+      "head_ascii": "",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\entry_0003_reserved_file",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 4,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 352,
+      "head_hex": "",
+      "head_ascii": "",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\entry_0004_reserved_file",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 5,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 352,
+      "head_hex": "",
+      "head_ascii": "",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\entry_0005_reserved_file",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 6,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 352,
+      "head_hex": "",
+      "head_ascii": "",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\entry_0006_reserved_file",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 7,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 352,
+      "head_hex": "",
+      "head_ascii": "",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\probe_1\\entry_0007_reserved_file",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    }
+  ]
+}

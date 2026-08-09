@@ -1,0 +1,45 @@
+{
+  "schema": "arf-ko-dolphin-runtime-session-v1",
+  "started_utc": "2026-08-09T00:26:57.320010+00:00",
+  "pid": 70384,
+  "dolphin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\tools\\dolphin-2603a\\Dolphin-x64\\Dolphin.exe",
+    "sha256": "5E076628B977603DCDE9DDEF5EEDF10B5A9CE0B6208BD4E6DFA9039CDEBF3433"
+  },
+  "user": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\dolphin_user_final_validation",
+  "dolphin_ini": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\dolphin_user_final_validation\\Config\\Dolphin.ini",
+    "sha256": "2C75ADF7C83A14D6314012C57F59FCDB843F18E7889480BCC39864A559A132BA"
+  },
+  "wiimote_ini": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\dolphin_user_final_validation\\Config\\WiimoteNew.ini",
+    "sha256": "6AFE877662F2046B13DDD96DE8BADA0CEA4D5F46EB1E656FB7F08906D34FAE71"
+  },
+  "gc_pad_ini": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\dolphin_user_final_validation\\Config\\GCPadNew.ini",
+    "sha256": "8B33A2144A1A6B81C8AF0B47F0FD0CFF2ED5DAD4DF72AEBE6BDA0DF19A4DCC72"
+  },
+  "settings": {
+    "EmulationSpeed": 1.0,
+    "MMU": false,
+    "UsePanicHandlers": true
+  },
+  "descriptor": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\arc_rise_fantasia_ko_full.json",
+    "sha256": "DED4C889E8A6FF3E76EE8AF787F3CD1E3E26C5A13D97E38FF7576A76F9310201"
+  },
+  "xml": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
+    "sha256": "ABD415AED5DF9DD10910D98ACADF892CC407778F71EEB632E7D41E3E2E5C66B3"
+  },
+  "system_vol": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
+    "sha256": "66F962EFCF9DF925309B4ACEC56C280A31E196333DA64AE1CD0B355E58B07F57"
+  },
+  "staging_manifest": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_runtime_staging\\staging_manifest.json",
+    "sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1"
+  },
+  "stdout": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\final_runtime\\full_runtime_dolphin.stdout.log",
+  "stderr": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_validation\\final_runtime\\full_runtime_dolphin.stderr.log"
+}

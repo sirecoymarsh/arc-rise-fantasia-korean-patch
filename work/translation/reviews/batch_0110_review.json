@@ -1,0 +1,160 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0110",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0110.jsonl",
+  "draft": "work/translation/drafts/batch_0110.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0110.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 15,
+  "unchanged_units": 185,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-85CC20E12D8C35FF00A4",
+      "source_text": "相変わらず帝国は\n戦争に明け暮れる日々――\nこのままでいいのでしょうか？",
+      "before": "여전히 제국은\n전쟁으로 날을 지새우는 나날――\n이대로 괜찮은 걸까요?",
+      "after": "여전히 제국은\n전쟁에만 매달려 지내는데――\n이대로 괜찮은 걸까요?",
+      "category": "natural_korean",
+      "reason": "「戦争に明け暮れる日々」의 중복 직역을 자연스러운 서술문으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-8610E2543A60C2071982",
+      "source_text": "もちろん、座学だけじゃない。\n厳しい戦闘訓練や実習を重ねて\nようやく１人前になれるんだ<$0C>入学して、きちんと卒業できるのは\n全体の１割が積の山さ",
+      "before": "물론 이론 수업만 있는 게 아니야.\n혹독한 전투 훈련과 실습을 거듭해야\n비로소 １인분 몫을 할 수 있어<$0C>입학해서 제대로 졸업할 수 있는 건\n전체의 １할이 고작이야",
+      "after": "물론 이론 수업만 있는 게 아니야.\n혹독한 전투 훈련과 실습을 거듭해야\n비로소 １인분은 해낼 수 있어<$0C>입학해서 제대로 졸업할 수 있는 건\n전체의 １할이 고작이야",
+      "category": "natural_korean",
+      "reason": "전각 숫자 「１」을 보존하면서 중복된 ‘１인분 몫’을 자연스러운 구어 표현으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-86262976EED03569B36F",
+      "source_text": "これは、もう\n金勘定の腕が鳴って鳴って――<$0C>鳴りやんでくれない\nお話ですなあ",
+      "before": "이건 정말\n돈 계산 솜씨가 근질근질해서――<$0C>도무지 가라앉지 않는\n이야기군요",
+      "after": "이건 정말\n돈 계산할 생각에 손이 근질근질해서――<$0C>도무지 진정되지 않는\n이야기군요",
+      "category": "idiom",
+      "reason": "「腕が鳴る」를 능력을 발휘하고 싶어 근질거린다는 관용 의미로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-8633EDADE31013040E05",
+      "source_text": "ここに並ぶ賞状を見ましたか？\nいやはや、立派な功績じゃないか<$0C>聞けば、あのアルス皇子も\nここの門下生の１人だとか。\nますます、興味が尽きませんな",
+      "before": "여기 늘어선 상장을 보셨습니까?\n이야, 훌륭한 공적이군요<$0C>듣자 하니 알스 황자도\n이곳 문하생 １명이라더군요.\n더욱 흥미가 끝이 없습니다",
+      "after": "여기 늘어선 상장을 보셨습니까?\n이야, 훌륭한 공적이군요<$0C>듣자 하니 알스 황자도\n이곳 문하생 １명이라더군요.\n점점 더 흥미가 생기는군요",
+      "category": "natural_korean",
+      "reason": "「興味が尽きない」의 뜻을 어색한 ‘흥미가 끝이 없다’ 대신 자연스러운 감탄으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-86C15B61EF813E86D951",
+      "source_text": "あー、だりー。\nだるくて死にそうだあ……<$0C>何で、エリートのオレが\nこんな辺境警備なんだ？",
+      "before": "아ー, 귀찮아.\n귀찮아서 죽을 것 같아……<$0C>왜 엘리트인 내가\n이런 변방 경비를 하는 거지?",
+      "after": "아, 나른해.\n몸이 늘어져 죽을 것 같아……<$0C>왜 엘리트인 내가\n이런 변방 경비를 하는 거지?",
+      "category": "meaning",
+      "reason": "「だるい」를 단순히 귀찮다는 뜻이 아니라 몸이 나른하고 늘어지는 상태로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-86C778F47C2CC07B24F5",
+      "source_text": "今日は海まで\nママと一緒にお散歩なの。\n早く海に行きたいな〜",
+      "before": "오늘은 바다까지\n엄마와 함께 산책하는 날이야.\n빨리 바다에 가고 싶다〜",
+      "after": "오늘은 바다까지\n엄마와 함께 산책하는 날이야.\n빨리 바다에 가고 싶어〜",
+      "category": "character_voice",
+      "reason": "아이의 구어체에 맞지 않는 평서형 종결을 자연스러운 반말로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-8779C65C3C6067EA88CA",
+      "source_text": "元気を出して……<$0C>帝国の人たちに\n私たちの不屈の意志を\n見せつけてやりましょうよ？",
+      "before": "기운 내……<$0C>제국 사람들에게\n우리의 불굴의 의지를\n보여 주자고?",
+      "after": "기운 내……<$0C>제국 사람들에게\n우리의 불굴의 의지를\n보여 주자고요!",
+      "category": "function",
+      "reason": "「見せつけてやりましょうよ」의 격려와 권유를 어색한 의문형이 아닌 힘 있는 청유형으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-879DE33F30BB42963E85",
+      "source_text": "メリディア帝国が\nこれ以上、戦火を広げるのは\nもう無理ではないだろうか<$0C>ここで見ていれば\n兵士たちの疲弊は明らか。\n国の財政は火の車だと聞いている",
+      "before": "메리디아 제국이\n이 이상 전쟁의 불길을 넓히는 건\n이제 무리가 아닐까<$0C>여기서 보고 있으면\n병사들이 지친 게 분명해.\n나라 재정도 불난 집이라더군",
+      "after": "메리디아 제국이\n이 이상 전쟁의 불길을 넓히는 건\n이제 무리가 아닐까<$0C>여기서 보면\n병사들이 지친 게 분명해.\n나라 재정도 매우 빠듯하다더군",
+      "category": "idiom",
+      "reason": "재정난을 뜻하는 「火の車」를 실제 화재로 오해할 수 있는 표현 대신 의미에 맞게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-87B2D92DF02EF1A05990",
+      "source_text": "私たちはアルス皇帝を信じている<$0C>悪政の噂が事実だとしても\nそれにはやむにやまれぬ\n事情があるに違いないのだ",
+      "before": "우리는 알스 황제를 믿는다<$0C>악정에 관한 소문이 사실이라 해도\n그럴 수밖에 없는\n사정이 분명 있을 것이다",
+      "after": "우리는 알스 황제를 믿는다<$0C>폭정에 관한 소문이 사실이라 해도\n그럴 수밖에 없는\n사정이 분명 있을 것이다",
+      "category": "natural_korean",
+      "reason": "「悪政」의 어색한 한자 직역 ‘악정’을 문맥에 맞는 ‘폭정’으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-87DD33FDD05D64DBD14B",
+      "source_text": "……やれやれ。\n面倒なことになったなぁ",
+      "before": "……이런, 이런.\n골치 아픈 일이 됐군",
+      "after": "……이거 참.\n골치 아픈 일이 됐군",
+      "category": "natural_korean",
+      "reason": "「やれやれ」를 한국어에서 자연스러운 난감함의 감탄사로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-88050DA13CE87C684CB3",
+      "source_text": "ようこそ、ソフィアの仕立屋へ。\nお洒落は旅の基本中の基本！\n是非ともご覧になっていってください",
+      "before": "어서 오세요, 소피아의 양장점에.\n멋내기는 여행의 기본 중 기본!\n꼭 구경하고 가 주세요",
+      "after": "소피아의 양장점에 어서 오세요.\n멋내기는 여행의 기본 중 기본!\n꼭 구경하고 가 주세요",
+      "category": "grammar",
+      "reason": "도착점 조사가 문장 끝에 남은 어색한 도치문을 자연스러운 환영 인사로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-88084AB155CBC8C6D375",
+      "source_text": "この宿はとても居心地がいい。\n帝都のけたたましい喧騒とは\n全く無縁の静けさがあるからの",
+      "before": "이 여관은 무척 편안해.\n제도의 시끄러운 소란과는\n전혀 인연 없는 고요함이 있으니까",
+      "after": "이 여관은 무척 편안해.\n제도의 요란한 번잡함과는\n완전히 동떨어진 고요함이 있으니 말일세",
+      "category": "natural_korean",
+      "reason": "「全く無縁」의 직역투를 자연스럽게 풀고 노년 화자의 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-88BE069D8CCA578F5517",
+      "source_text": "ここにいると\n空に浮かんでる飛光艇が\n毎日、見れるんだぜ？",
+      "before": "여기 있으면\n하늘에 떠 있는 비광정을\n매일 볼 수 있다고?",
+      "after": "여기 있으면\n하늘에 떠 있는 비광정을\n매일 볼 수 있다니까?",
+      "category": "character_voice",
+      "reason": "자랑하듯 알려 주는 「見れるんだぜ？」를 단순 확인 질문이 아닌 구어적 강조로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-898B4FF01EB50744D95E",
+      "source_text": "君、ずいぶんと\n疲れている顔してるね<$0C>そんな時は、一口飲めば元気全快！\n都市労働者のマストアイテムを\nプレゼントしてあげよう！",
+      "before": "자네, 꽤\n피곤해 보이는 얼굴이군<$0C>그럴 때는 한 모금이면 기운이 완전 회복!\n도시 노동자의 필수 아이템을\n선물해 주지!",
+      "after": "자네, 꽤\n피곤해 보이는 얼굴이군<$0C>그럴 때는 한 모금이면 기운이 완전 회복!\n도시 노동자의 필수품을\n선물해 주지!",
+      "category": "terminology",
+      "reason": "「マストアイテム」를 프로젝트의 자연스러운 번역 원칙에 맞춰 ‘필수품’으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-898CE41D27C2A27FBAC5",
+      "source_text": "さーて\n俺たちも休ませてもらおうぜ",
+      "before": "자ー\n우리도 좀 쉬어 보자고",
+      "after": "자, 그럼\n우리도 좀 쉬자고",
+      "category": "natural_korean",
+      "reason": "일본어 장음 기호가 남은 감탄사를 자연스러운 한국어 전환 표현으로 고쳤다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

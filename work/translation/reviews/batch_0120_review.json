@@ -1,0 +1,224 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0120",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/audit_boundary_integration",
+  "draft_author": "/root/audit_boundary_integration",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0120.jsonl",
+  "draft": "work/translation/drafts/batch_0120.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0120.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 23,
+  "unchanged_units": 177,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-ACC35D573314233EA631",
+      "source_text": "てぃ！　とぅ！\nてぃやー！",
+      "before": "티! 투!\n티야ー!",
+      "after": "티! 투!\n티야아!",
+      "category": "natural_korean",
+      "reason": "일본어 장음 부호가 남은 기합을 한국어 발음으로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-ACC9B24FC65E043556A7",
+      "source_text": "ラルク曹長……\n私はあなたたちを\n投獄したくはありません……<$0C>私は何も見ていないので\n早くどこかへ行ってください",
+      "before": "라군 상사……\n저는 여러분을\n투옥하고 싶지 않습니다……<$0C>저는 아무것도 보지 못했으니\n어서 어디론가 가 주십시오",
+      "after": "라르크 상사……\n저는 여러분을\n투옥하고 싶지 않습니다……<$0C>저는 아무것도 보지 못했으니\n어서 어디론가 가 주십시오",
+      "category": "proper_noun",
+      "reason": "ラルク를 라군으로 잘못 옮긴 인명 오역을 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-ACCE77865E19D8F316D8",
+      "source_text": "パパとトゥレミリア共和国まで\n一緒にいくことにしたの<$0C>アントラクスがあんなだし\n帝国の人たちはおっかないし\n……共和国が１番安全よね？",
+      "before": "아빠와 투레밀리아 공화국까지\n함께 가기로 했어<$0C>안트락스는 저런 상태고\n제국 사람들은 무섭고\n……공화국이 １번 안전하겠지?",
+      "after": "아빠와 투레밀리아 공화국까지\n함께 가기로 했어<$0C>안트락스는 저런 상태고\n제국 사람들은 무섭고\n……공화국이 안전도 １등이겠지?",
+      "category": "numeric_fidelity",
+      "reason": "１番의 수치 정보를 보존하면서 최상급 의미가 자연스럽게 드러나도록 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AD25C825181D7D6072DA",
+      "source_text": "ち、近寄らないで！\n教団と争うということは\nあなたたち帝国の人間でしょ!?",
+      "before": "가, 가까이 오지 마!\n교단과 싸운다는 건\n당신들도 제국 사람이지!?",
+      "after": "가, 가까이 오지 마!\n교단과 싸운다는 건\n당신들은 제국 사람이지!?",
+      "category": "meaning",
+      "reason": "원문에 없는 보조사 '도'를 제거해 대상을 정확히 지칭함"
+    },
+    {
+      "tm_id": "ARF-TM-AD9BF1F390C1920A0DD6",
+      "source_text": "ここの警備兵たちは\nそろいもそろって木偶の坊よ！\n全然、危機感がないんだから！<$0C>この前なんて立ちながら\n居眠りする警備兵を見ちゃったの。\n逆にすごいと思ったくらいよ！",
+      "before": "여기 경비병들은 하나같이\n전부 허수아비야!\n위기감이 전혀 없다니까!<$0C>얼마 전에는 서서\n졸고 있는 경비병도 봤어.\n오히려 대단하다고 생각했을 정도야!",
+      "after": "여기 경비병들은 하나같이\n허수아비야!\n위기감이 전혀 없다니까!<$0C>얼마 전에는 서서\n졸고 있는 경비병도 봤어.\n오히려 대단하다고 생각했을 정도야!",
+      "category": "natural_korean",
+      "reason": "'하나같이 전부'의 중복 표현을 정리함"
+    },
+    {
+      "tm_id": "ARF-TM-ADB078A21C5F23915123",
+      "source_text": "この前、変なモノを拾ったよ。\n何に使うかわからないから\nあんた、これ預かっといてよ",
+      "before": "얼마 전에 이상한 걸 주웠어.\n어디에 쓰는지 모르겠으니\n당신이 이거 맡아 둬",
+      "after": "얼마 전에 이상한 걸 주웠어.\n어디에 쓰는지 모르겠으니\n네가 이거 맡아 둬",
+      "category": "voice",
+      "reason": "あんた의 반말 어조에 맞게 호칭을 조정함"
+    },
+    {
+      "tm_id": "ARF-TM-ADCB10A8F89E879EFB6D",
+      "source_text": "たかが服って思うだろうけど\n服って１番、私たちの身近にある\nパートナーだと思うわ",
+      "before": "고작 옷이라고 생각하겠지만\n옷은 우리에게 １번 가까운\n동반자라고 생각해",
+      "after": "고작 옷이라고 생각하겠지만\n옷은 우리에게 가장 가까운\n１순위 동반자라고 생각해",
+      "category": "numeric_fidelity",
+      "reason": "１番을 보존하면서 부자연스러운 '１번 가까운'을 자연스럽게 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-ADDA23B63B2FAD466F90",
+      "source_text": "『アンナ』の仕立屋",
+      "before": "『안나』의 양복점",
+      "after": "『안나』의 양장점",
+      "category": "terminology",
+      "reason": "仕立屋를 프로젝트 내 점포 용어인 양장점으로 통일함"
+    },
+    {
+      "tm_id": "ARF-TM-AE76AD6928FAADE0E147",
+      "source_text": "街が復興するって時に\nこんなこと気にしてるなんて……\n私って、不謹慎ね",
+      "before": "도시가 복구되는 마당에\n이런 걸 신경 쓰고 있다니……\n나도 참 불경스럽네",
+      "after": "도시가 복구되는 마당에\n이런 걸 신경 쓰고 있다니……\n나도 참 경솔하네",
+      "category": "meaning",
+      "reason": "不謹慎을 종교적 불경이 아니라 상황에 맞지 않는 경솔함으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AEAFDAC344F77FE7CF6E",
+      "source_text": "村の住民が勝手に外に行くのは\nあなたたちにとっても都合が\n悪いんじゃないかしら？",
+      "before": "마을 주민이 멋대로 밖에 나가면\n당신들에게도 사정이\n곤란해지지 않을까?",
+      "after": "마을 주민이 멋대로 밖에 나가면\n당신들 입장에서도\n곤란하지 않을까?",
+      "category": "natural_korean",
+      "reason": "어색한 조사 결합을 자연스러운 한국어 문장으로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-AEF82EE8F637C0490E6D",
+      "source_text": "目の前の男、見てよ。\nもう１時間もモジモジしてるの<$0C>告白するなら\nさっさとしろって感じ。\nしてくれないと断れないじゃない",
+      "before": "눈앞의 남자 좀 봐.\n벌써 １시간이나 우물쭈물하고 있어<$0C>고백할 거면\n빨리하라는 느낌이야.\n안 해 주면 거절할 수도 없잖아",
+      "after": "눈앞의 남자 좀 봐.\n벌써 １시간이나 우물쭈물하고 있어<$0C>고백할 거면\n빨리 좀 하라는 거지.\n고백 안 하면 거절도 못 하잖아",
+      "category": "meaning",
+      "reason": "고백하지 않으면 거절할 수도 없다는 인과를 명확하게 복원함"
+    },
+    {
+      "tm_id": "ARF-TM-AEFABC7CD838A1766750",
+      "source_text": "遠方にずっといると\n帝国が懐かしく思える……\n早く戻りたいものだな",
+      "before": "먼 곳에 계속 있다 보니\n제국이 그리워지는군……\n어서 돌아가고 싶어",
+      "after": "먼 곳에 계속 있다 보니\n제국이 그리워지는군……\n어서 돌아가고 싶군",
+      "category": "voice",
+      "reason": "군인 어조가 마지막 줄까지 일관되도록 종결을 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AF1E370264AC3B886CDE",
+      "source_text": "もはやボクの声は\n彼に届きそうもありません。\nやるなら、とことんやってほしい",
+      "before": "이제 내 목소리는\n그에게 닿을 것 같지 않습니다.\n할 거라면 철저히 해 줬으면 해요",
+      "after": "이제 내 목소리는\n그에게 닿을 것 같지 않습니다.\n할 거라면 끝까지 해 줬으면 합니다",
+      "category": "voice",
+      "reason": "한 대사 안의 존댓말 종결을 통일하고 とことん의 의미를 살림"
+    },
+    {
+      "tm_id": "ARF-TM-AF4F2EB0A34D6CA587DE",
+      "source_text": "家を建てようと思います。\nこの子と一緒に住む家を、ね<$0C>私たちの血の繋がりは薄いですが\nこの街で苦難をともに乗り越えた\n何より強い絆がありますから……",
+      "before": "집을 지으려고 합니다.\n이 아이와 함께 살 집을요<$0C>우리의 핏줄은 희미하지만\n이 도시에서 고난을 함께 이겨 낸\n무엇보다 강한 유대가 있으니까요……",
+      "after": "집을 지으려고 합니다.\n이 아이와 함께 살 집을요<$0C>우리의 혈연은 가깝지 않지만\n이 도시에서 고난을 함께 이겨 낸\n무엇보다 강한 유대가 있으니까요……",
+      "category": "meaning",
+      "reason": "血の繋がりは薄い를 자연스러운 혈연 관계 표현으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AF6DEB7703794B3EE6CF",
+      "source_text": "ディアマントにも\n成金貴族が増えてしまって\n貴族の質は下がる一方――<$0C>爵位は金で買うものではなく\n与えられるもの――\n……私はそう思います",
+      "before": "디아만트에도\n졸부 귀족이 늘어나서\n귀족의 품격은 떨어지기만 해――<$0C>작위는 돈으로 사는 게 아니라\n수여받는 것――\n……나는 그렇게 생각합니다",
+      "after": "디아만트에도\n졸부 귀족이 늘어나서\n귀족의 품격은 계속 떨어지고 있습니다――<$0C>작위는 돈으로 사는 게 아니라\n수여받는 것――\n……저는 그렇게 생각합니다",
+      "category": "voice",
+      "reason": "정중한 화자의 종결과 1인칭을 문장 전체에서 통일함"
+    },
+    {
+      "tm_id": "ARF-TM-AF736F9BF54CB69EA98F",
+      "source_text": "新しく玉座に就いた\nアルス皇帝までも乱心し\n国を乱していると聞きます<$0C>こうなってくると\nやはりメリディアの血筋は\n呪われているのかもしれません",
+      "before": "새로 왕좌에 오른\n알스 황제마저 난심을 품어\n나라를 어지럽힌다고 들었습니다<$0C>이쯤 되니\n역시 메리디아의 혈통은\n저주받았을지도 모르겠군요",
+      "after": "새로 왕좌에 오른\n알스 황제마저 이성을 잃고\n나라를 어지럽힌다고 들었습니다<$0C>이쯤 되니\n역시 메리디아의 혈통은\n저주받았을지도 모르겠군요",
+      "category": "meaning",
+      "reason": "乱心을 '난심을 품다'가 아니라 이성을 잃는 의미로 바로잡음"
+    },
+    {
+      "tm_id": "ARF-TM-AF8AA164ECB4D12B164E",
+      "source_text": "竜縛塔の上から\nフルヘイムを見下ろすのが\n私の１番の夢なの！",
+      "before": "용박탑 위에서\n풀헤임을 내려다보는 게\n내 １번 꿈이야!",
+      "after": "용박탑 위에서\n풀헤임을 내려다보는 게\n내 꿈 중 １순위야!",
+      "category": "numeric_fidelity",
+      "reason": "１番の夢의 서열 의미를 수치를 유지한 채 자연스럽게 표현함"
+    },
+    {
+      "tm_id": "ARF-TM-AF8B60492A21F2FFA45F",
+      "source_text": "不穏な世の中だからこそ\n教えに殉じるべきだと思います<$0C>もし、あなたがよろしければ\nともに聖都の大聖堂まで\n祈りを捧げに参りましょう……",
+      "before": "불온한 세상이기에 더욱\n가르침에 순교해야 한다고 생각합니다<$0C>괜찮으시다면\n함께 성도의 대성당까지\n기도를 올리러 가시죠……",
+      "after": "불온한 세상이기에 더욱\n가르침에 몸을 바쳐야 한다고 생각합니다<$0C>괜찮으시다면\n함께 성도의 대성당까지\n기도를 올리러 가시죠……",
+      "category": "meaning",
+      "reason": "教えに殉じる를 문맥에 맞는 신앙적 헌신 표현으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AF98805A935284905CC8",
+      "source_text": "ギルドに先に入るべきか\nそれとも、衣装屋に向かうべきか――<$0C>私の迷いは――\n消えてくれそうになくてね",
+      "before": "길드에 먼저 들어갈지\n아니면 의상점으로 갈지――<$0C>내 고민은――\n사라질 것 같지 않아서",
+      "after": "길드에 먼저 들어갈지\n아니면 의상점으로 갈지――<$0C>내 고민은――\n사라질 것 같지 않네",
+      "category": "natural_korean",
+      "reason": "끝나지 않은 연결형 종결을 완결된 구어체로 다듬음"
+    },
+    {
+      "tm_id": "ARF-TM-AF9D8CE162D64BF1B76C",
+      "source_text": "現在、元老院では。\nオパルス防衛戦後の処理に\n関連しての議論が行われている<$0C>立ち入りは禁止である。\n――去られよ",
+      "before": "현재 원로원에서는.\n오팔루스 방어전 이후의 처리와\n관련된 논의가 진행 중이다<$0C>출입은 금지다.\n――물러가라",
+      "after": "현재 원로원에서는\n오팔루스 방어전 이후의 처리와\n관련된 논의가 진행 중이다<$0C>출입은 금지다.\n――물러가라",
+      "category": "punctuation",
+      "reason": "문장 중간에 잘못 들어간 마침표를 제거함"
+    },
+    {
+      "tm_id": "ARF-TM-AF9F26F7545A282CDED4",
+      "source_text": "わりぃな、持ちきれねーみたいだ\nあんたに返すよ",
+      "before": "미안, 더는 못 들 것 같아\n당신에게 돌려줄게",
+      "after": "미안, 더는 못 들 것 같아\n네게 돌려줄게",
+      "category": "voice",
+      "reason": "거친 반말 화자의 あんた를 자연스러운 반말 호칭으로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AFC02F01A7335CFB7A02",
+      "source_text": "おう、ラルク。\n俺にはわかるぜ……お前の\nそんな顔を見せられちゃあな！<$0C>とうとうやったんだな？\nマシュガルの野郎をぶっちぎって\n捕まえちまったんだろ！<$0C>違うか？",
+      "before": "어이, 라르크.\n난 알겠어……네가\n그런 얼굴을 하고 있으니 말이야!<$0C>드디어 해냈구나?\n마슈가르 자식을 따돌리고\n붙잡은 거지!<$0C>아니야?",
+      "after": "어이, 라르크.\n난 알겠어……네가\n그런 얼굴을 하고 있으니 말이야!<$0C>드디어 해냈구나?\n마슈가르 자식을 단숨에 제압해서\n붙잡은 거지!<$0C>아니야?",
+      "category": "meaning",
+      "reason": "ぶっちぎって를 '따돌리고 붙잡다'라는 모순된 표현 대신 단숨에 제압한 의미로 수정함"
+    },
+    {
+      "tm_id": "ARF-TM-AFEE2EA3B61DCCC5C84F",
+      "source_text": "動くなって、言ったってさ\n別にいいじゃん。\n猫くらい逃げたって",
+      "before": "움직이지 말라고 해도 말이야\n뭐 어때.\n고양이 정도는 도망쳐도",
+      "after": "움직이지 말라고 해도 말이야\n뭐 어때.\n고양이 정도는 도망쳐도 되잖아",
+      "category": "grammar",
+      "reason": "생략으로 불완전해진 마지막 문장을 자연스럽게 완결함"
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

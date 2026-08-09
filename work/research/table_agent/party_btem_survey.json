@@ -1,0 +1,90 @@
+{
+  "btl_stat_party00.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party00.bin",
+    "size": 14688,
+    "head_hex": "42 54 45 4d 00 00 00 10 00 00 01 80 00 00 00 00 00 00 00 00 00 00 00 01 00 00 04 60 00 00 05 40 00 00 00 00 00 00 05 80 00 00 05 a0 00 00 05 a8 00 00 05 b0 00 00 05 dc 00 00 05 e4 00 00 06 34",
+    "string_count": 5,
+    "common_start_deltas": [
+      [
+        4,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        14293,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 373,
+        "end": 376,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 377,
+        "end": 380,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 384,
+        "end": 390,
+        "byte_length": 6,
+        "text": "ラルク"
+      },
+      {
+        "start": 14677,
+        "end": 14680,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 14681,
+        "end": 14684,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      }
+    ]
+  },
+  "btl_stat_party06B.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party06B.bin",
+    "size": 14848,
+    "head_hex": "42 54 45 4d 00 00 00 10 00 00 01 80 00 00 00 00 00 00 00 00 00 00 00 01 00 00 04 60 00 00 05 40 00 00 00 00 00 00 05 80 00 00 05 d0 00 00 05 d8 00 00 05 e0 00 00 06 0c 00 00 06 14 00 00 06 64",
+    "string_count": 3,
+    "common_start_deltas": [
+      [
+        4,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 373,
+        "end": 376,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 377,
+        "end": 380,
+        "byte_length": 3,
+        "text": "戈\u0013"
+      },
+      {
+        "start": 384,
+        "end": 390,
+        "byte_length": 6,
+        "text": "アルス"
+      }
+    ]
+  }
+}

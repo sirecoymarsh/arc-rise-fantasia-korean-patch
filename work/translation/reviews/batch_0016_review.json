@@ -1,0 +1,181 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0016",
+  "independent_reviewer": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0009",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_services_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0016.jsonl",
+  "draft": "work/translation/drafts/batch_0016.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0016.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 47,
+  "unchanged_units": 153,
+  "review_dimensions": [
+    "meaning_and_function",
+    "numbers",
+    "proper_nouns_and_glossary",
+    "natural_korean_and_particles",
+    "character_voice",
+    "control_tokens",
+    "line_breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-B27E5C135FA68A3CA2CB",
+      "source_text": "肌に長く触れる物には上質な絹を\nベッドからの脱出を困難なものとする一品",
+      "before": "피부에 오래 닿는 물건에는 고급 비단을.\n침대에서 벗어나기 어렵게 만드는 일품",
+      "after": "피부에 오래 닿는 것에는 고급 비단을.\n침대에서 빠져나오기 어렵게 만드는 일품",
+      "category": "naturalness",
+      "reason": "침구 설명에 맞게 대상을 자연스럽게 표현하고, 침대에서 벗어나기 어렵다는 익살스러운 뉘앙스를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-B293DB1B04D5E45A78CF",
+      "source_text": "敵に狙われやすくなる",
+      "before": "적에게 노려지기 쉬워진다",
+      "after": "적의 표적이 되기 쉬워진다",
+      "category": "system_naturalness",
+      "reason": "일본어식 피동 표현을 전투 효과를 명확히 전달하는 자연스러운 한국어로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-B2B87CEAF9F4BA9DE57F",
+      "source_text": "ジャダが何者かに襲撃された。",
+      "before": "자다에 누군가의 습격이 있었다.",
+      "after": "누군가가 자다를 습격했다.",
+      "category": "meaning_proper_noun",
+      "reason": "지명 '자다'가 습격당했다는 의미를 주어와 목적어가 분명한 문장으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-B2CE45046564CEA45C3C",
+      "source_text": "辞令",
+      "before": "임명장",
+      "after": "명령서",
+      "category": "context_consistency",
+      "reason": "새 임무가 적힌 문서라는 연결 설명과 기존 번역에 맞춰 아이템명을 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B3292CF7D89C214576A8",
+      "source_text": "貴族の間でも人気の食材。\n頬が落ちそうなほどおいしい",
+      "before": "귀족들 사이에서도 인기 있는 식재료.\n볼이 빠질 듯 맛있다",
+      "after": "귀족들 사이에서도 인기 있는 식재료.\n입에서 살살 녹을 만큼 맛있다",
+      "category": "idiom",
+      "reason": "매우 맛있다는 일본어 관용구를 자연스러운 한국어 관용 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-B367E21DBE66ADD90EC8",
+      "source_text": "防戦の葉",
+      "before": "방전의 잎",
+      "after": "방어의 잎",
+      "category": "meaning",
+      "reason": "「防戦」을 전기 방전을 뜻하는 말이 아닌 방어 의미로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-B381456A166465E37193",
+      "source_text": "水鉄砲・改",
+      "before": "물총·개",
+      "after": "물총-개",
+      "category": "item_name_consistency",
+      "reason": "개량판을 나타내는 「・改」를 기존 아이템명 표기인 '-개'로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B3DF0E608DB912DA4310",
+      "source_text": "スノウフロッグ",
+      "before": "스노 프로그",
+      "after": "스노우 프로그",
+      "category": "proper_noun_consistency",
+      "reason": "같은 「スノウ」 계열 몬스터의 확정 표기 '스노우'와 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B4A0B182A0E02604CC7C",
+      "source_text": "クライムオーバー",
+      "before": "클라임 오버",
+      "after": "오크 아이",
+      "category": "item_name_consistency",
+      "reason": "'서드 아이', '포레스트 아이' 등 같은 합성 아이템명의 띄어쓰기 방식과 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B4CF94E07D2CA0B4A00A",
+      "source_text": "防戦の秘薬",
+      "before": "방전의 비약",
+      "after": "방어의 비약",
+      "category": "meaning",
+      "reason": "「防戦」을 전기 방전을 뜻하는 말이 아닌 방어 의미로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-B5056A6116C306725990",
+      "source_text": "<$15>01高確率で、物理攻撃行動の\n１行動全てがクリティカルになる",
+      "before": "<$15>01높은 확률로 물리 공격 시\n1회 행동의 모든 공격이 치명타가 된다",
+      "after": "<$15>01높은 확률로 물리 공격 행동\n1회 전체가 치명타가 된다",
+      "category": "system_consistency",
+      "reason": "한 번의 물리 공격 행동 전체가 치명타가 되는 기능을 동형 효과 문구와 동일하게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-B55179DDD5006ED705B2",
+      "source_text": "サージュがソニアにつけた\n妙なあだ名。\n美人が眼鏡をかければ\n知的に見えない訳がない。\n知的で眼鏡で美人……\n世の男性諸君は\nその響きだけで\n腰砕けになること\n間違いなしである",
+      "before": "사쥬가 소니아에게 붙인\n묘한 별명.\n미인이 안경을 쓰면\n지적으로 보이지 않을 리 없다.\n지적이고 안경 쓴 미인……\n세상의 남성들이여\n그 말만 들어도\n허리가 풀릴 것이\n틀림없다",
+      "after": "사쥬가 소니아에게 붙인\n묘한 별명.\n미인이 안경을 쓰면\n지적으로 보이지 않을 리 없다.\n지적이고 안경 쓴 미인……\n세상 남자들은\n그 말만 들어도\n다리에 힘이 풀릴 것이\n틀림없다",
+      "category": "naturalness_idiom",
+      "reason": "주어를 자연스럽게 잇고 「腰砕け」를 한국어의 '다리에 힘이 풀리다'로 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-B6DA70FEC218FF2628B3",
+      "source_text": "<$13>14<$1F>00005A<$1F>01<$13>00を行った\n際に、画面左下部に表示\nされる値。\n値が大きいほど連携による\n効果が大きいものとなる。\n値は様々な要素により\n変動する",
+      "before": "<$13>14<$1F>00005A<$1F>01<$13>00를 실행했을\n때 화면 왼쪽 아래에 표시\n되는 수치.\n수치가 클수록 연계로 인한\n효과가 커진다.\n수치는 다양한 요소에 따라\n변동한다",
+      "after": "<$13>14<$1F>00005A<$1F>01<$13>00 실행 시\n화면 왼쪽 아래에 표시되는\n수치.\n수치가 클수록 연계로 인한\n효과가 커진다.\n수치는 다양한 요소에 의해\n변동한다",
+      "category": "line_layout_naturalness",
+      "reason": "조사와 서술어가 행 사이에서 부자연스럽게 갈라진 부분을 의미 단위로 재배치했다."
+    },
+    {
+      "tm_id": "ARF-TM-B808CB40CE547865CC65",
+      "source_text": "かつて、人はヒトから\n<$13>14<$1F>0000EF<$1F>01<$13>00へと変わった。\n人をヒトではなく<$13>14<$1F>0000EF<$1F>01<$13>00\nたらしめる為には、自らを\n犠牲にする心と、<$13>14<$1F>0000F0<$1F>01<$13>00を\n強力な力に変換可能な\n肉体へと再構成させる\n高度なコード処理の\n双方が不可欠であった",
+      "before": "과거 인간은 평범한 사람에서\n<$13>14<$1F>0000EF<$1F>01<$13>00로 변했다.\n사람을 평범한 인간이 아닌 <$13>14<$1F>0000EF<$1F>01<$13>00로\n만들기 위해서는 자신을\n희생하는 마음과 <$13>14<$1F>0000F0<$1F>01<$13>00 자체를\n강력한 힘으로 변환할 수 있는\n육체로 재구성하는\n고도의 코드 처리,\n두 가지가 모두 필수였다",
+      "after": "과거 사람들은 인간에서\n<$13>14<$1F>0000EF<$1F>01<$13>00로 변했다.\n사람을 인간이 아닌 <$13>14<$1F>0000EF<$1F>01<$13>00로\n만들기 위해서는 자신을\n희생하는 마음과 <$13>14<$1F>0000F0<$1F>01<$13>00 자체를\n강력한 힘으로 변환할 수 있는\n육체로 재구성하는\n고도의 코드 처리,\n두 가지가 모두 필수였다",
+      "category": "lore_meaning",
+      "reason": "원문의 일반적 '사람(人)'과 종으로서의 '인간(ヒト)' 대비를 보존하고 '평범한'이라는 불필요한 의미를 제거했다."
+    },
+    {
+      "tm_id": "ARF-TM-BC183FD69C0001D051E8",
+      "source_text": "<$13>14<$1F>000098<$1F>01<$13>00方法のひとつ。\n敵の<$13>14<$1F>000003<$1F>01<$13>00の量から<$13>14<$1F>000098<$1F>01<$13>00する。\n<$13>14<$1F>000003<$1F>01<$13>00が減っていなければ\n<$13>14<$1F>000098<$1F>01<$13>00されることはない。\nので、<$13>14<$1F>000098<$1F>01<$13>00方法が生命の\n<$13>14<$1F>000093<$1F>01<$13>00がいる所では\n<$13>14<$1F>000003<$1F>01<$13>00の量を常に保つと良い",
+      "before": "<$13>14<$1F>000098<$1F>01<$13>00 방식 중 하나.\n적의 <$13>14<$1F>000003<$1F>01<$13>00 양으로 <$13>14<$1F>000098<$1F>01<$13>00한다.\n<$13>14<$1F>000003<$1F>01<$13>00가 줄지 않았다면\n<$13>14<$1F>000098<$1F>01<$13>00되지 않는다.\n따라서 <$13>14<$1F>000098<$1F>01<$13>00 방식이 생명인\n<$13>14<$1F>000093<$1F>01<$13>00가 있는 곳에서는\n<$13>14<$1F>000003<$1F>01<$13>00를 항상 최대치로 유지하면 좋다",
+      "after": "<$13>14<$1F>000098<$1F>01<$13>00 방식 중 하나.\n적의 <$13>14<$1F>000003<$1F>01<$13>00 잔량을 바탕으로 <$13>14<$1F>000098<$1F>01<$13>00한다.\n<$13>14<$1F>000003<$1F>01<$13>00가 줄지 않았다면\n<$13>14<$1F>000098<$1F>01<$13>00될 일은 없다.\n따라서 <$13>14<$1F>000098<$1F>01<$13>00 방식이 생명인\n<$13>14<$1F>000093<$1F>01<$13>00가 있는 곳에서는\n<$13>14<$1F>000003<$1F>01<$13>00를 항상 최대치로 유지하는 것이 좋다",
+      "category": "system_clarity",
+      "reason": "HP 잔량을 바탕으로 감지한다는 판정 방식과 감지되지 않는 조건을 자연스럽고 명확하게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-BCF02BA928ECB94232E5",
+      "source_text": "アダマンプレート",
+      "before": "아다만플레이트",
+      "after": "아다만 플레이트",
+      "category": "item_name_consistency",
+      "reason": "'아이언 플레이트', '스틸 플레이트' 등 같은 장비 계열의 띄어쓰기와 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-BD9419750072A180F18E",
+      "source_text": "<$1B>伝説と現実と",
+      "before": "<$1B>전설과 현실과",
+      "after": "<$1B>전설과 현실",
+      "category": "title_naturalness",
+      "reason": "제목 끝에 남은 일본어식 병렬 조사를 제거해 자연스러운 한국어 제목으로 다듬었다."
+    }
+  ],
+  "boundary_audit_application": {
+    "status": "applied",
+    "source": "work/translation/boundary_audit/final_remaining_system.json",
+    "source_sha256": "32BBCE13CFE1756FE0AF572228F75EFF946007CFB19CD0F9273E5BF18529A1A5",
+    "audited_units_in_batch": 29,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false,
+    "insertion_contract": "Use clean_source_text and exact table_unit_ids; do not replace the corrupt NUL-scanner byte span."
+  },
+  "hashes": {
+    "reviewed_sha256": "21D40AA2DC9EC9CE816E6D4955BE2C58F8A89C7572485B7D6AA24F662D917020"
+  },
+  "fixed_field_fit_application": {
+    "status": "applied",
+    "source": "work/translation/fixed_field_fit/preflight_before_corrections.json",
+    "source_sha256": "8D24170F71010E405B10ECBDB6487349798F4615DFC4DDAAB2A793BD45CE35F5",
+    "corrected_units_in_batch": 2,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  }
+}

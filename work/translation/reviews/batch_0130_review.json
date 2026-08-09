@@ -1,0 +1,307 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0130",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_tail",
+  "draft_author": "/root/translate_tail",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0130.jsonl",
+  "draft": "work/translation/drafts/batch_0130.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0130.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 30,
+  "unchanged_units": 170,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-D39538ED8457DD9A8DEF",
+      "source_text": "白月ロケタイ　　　\n居住区ロケタイ　　\nアルスがやって来る\nイグナーツを追う　\nホゼアを追う　　　\nホゼア戦　　　　　\nニコル特攻　　　　\nイマジナル神封印　\n赤月へ向かう　　　\nもどる　　　　　　",
+      "before": "백월 로케타이　　　\n거주 구역 로케타이　\n알스가 찾아온다\n이그나츠를 쫓는다　\n호제아를 쫓는다　　\n호제아전　　　　　\n니콜 특공　　　　　\n이매지널 신 봉인　\n붉은 달로 향한다　\n돌아가기　　　　　",
+      "after": "백월 로케타이　　　\n거주 구역 로케타이　\n알스가 찾아온다\n이그나츠를 쫓는다　\n호제아를 쫓는다　　\n호제아전　　　　　\n니콜 특공　　　　　\n이매지널신 봉인　\n붉은 달로 향한다　\n돌아가기　　　　　",
+      "category": "setting_terminology",
+      "reason": "신명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D3A6C13EAB97394551A2",
+      "source_text": "この帝都ディアマントは\nおそらくフルヘイムの中でも\nもっとも偉大なる都であろう<$0C>トゥレミリア共和国の首都――\nカルブンクルスなど\n帝都の足元にも及ばぬはず",
+      "before": "이 제도 디아만트는\n아마 풀헤임에서도\n가장 위대한 도시일 것이다<$0C>투레밀리아 공화국의 수도――\n카르분쿨루스 따위는\n제도의 발끝에도 못 미치지",
+      "after": "이 제도 디아만트는\n아마 풀헤임에서도\n가장 위대한 도시일 것이다<$0C>투레밀리아 공화국의 수도――\n카르분클루스 따위는\n제도의 발끝에도 못 미치지",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D3BB58EFD915124DA4FB",
+      "source_text": "……１人にしてくれ\n人は苦手なんだ……",
+      "before": "……혼자 있게 해 줘\n사람은 어려워……",
+      "after": "……나 １명만 있게 해 줘\n사람은 어려워……",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 혼자 있게 해 달라는 의미를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D40D2F971DE3C30AEAA7",
+      "source_text": "天衝塔ザイフェルト・ラウンドフロア０５",
+      "before": "천충탑 자이펠트·라운드 플로어０５",
+      "after": "천충탑 자이페르트·라운드 플로어０５",
+      "category": "proper_noun",
+      "reason": "장소명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D471BF250670BDE165D7",
+      "source_text": "オルキナ方面に勤めてる\n友だちから聞いた話なんだが――<$0C>今、オルキナの海には\n世にも奇妙な真っ赤な大陸が\n浮かんでいるって話なんだ",
+      "before": "올키나 쪽에서 근무하는\n친구에게 들은 얘긴데――<$0C>지금 올키나의 바다에는\n세상에서 본 적 없는 새빨간 대륙이\n떠 있다고 하더군",
+      "after": "오르키나 쪽에서 근무하는\n친구에게 들은 얘긴데――<$0C>지금 오르키나의 바다에는\n세상에서 본 적 없는 새빨간 대륙이\n떠 있다고 하더군",
+      "category": "proper_noun",
+      "reason": "종교·지명 표기를 오르키나로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D47340C72DBB207947A9",
+      "source_text": "世界は変わります。\n変わらないものなどないのです",
+      "before": "세상은 변합니다.\n변하지 않는 것은 없어요",
+      "after": "세상은 변합니다.\n변하지 않는 것은 없습니다",
+      "category": "voice",
+      "reason": "앞 문장과 존대 종결을 일관되게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-D48412DC271077D9FA8D",
+      "source_text": "EV01_04_0300B\nイベント君 消去\nやめる",
+      "before": "EV01_04_0300B\n이벤트 군 삭제\n그만두기",
+      "after": "EV01_04_0300B\n이벤트군 삭제\n그만두기",
+      "category": "terminology",
+      "reason": "디버그 용어의 합성어 표기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-D4A7E2DA45800E25F998",
+      "source_text": "満月の宿・小屋",
+      "before": "만월의 숙소·오두막",
+      "after": "만월의 여관·오두막",
+      "category": "proper_noun",
+      "reason": "장소명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D51AA329E939D2F15117",
+      "source_text": "将軍のご婦人の\n警護の任についております<$0C>この周囲にはオルキナ教徒が\n多いですから油断はできません",
+      "before": "장군 부인의\n호위 임무를 맡고 있습니다<$0C>이 주변에는 올키나교도가\n많으니 방심할 수 없습니다",
+      "after": "장군 부인의\n호위 임무를 맡고 있습니다<$0C>이 주변에는 오르키나교도가\n많으니 방심할 수 없습니다",
+      "category": "proper_noun",
+      "reason": "종교명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D51F4E5B0A66E06C80B4",
+      "source_text": "見てくれてますか!?　ラルク曹長殿！\n止まる時は、自分が死ぬ時です！",
+      "before": "보고 계십니까!? 라군 상사님!\n멈추는 때는 제가 죽는 때입니다!",
+      "after": "보고 계십니까!? 라르크 상사님!\n멈추는 때는 제가 죽는 때입니다!",
+      "category": "proper_noun_rank",
+      "reason": "원문의 인명 라르크와 계급 상사를 정확히 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D53C943A87FD81958325",
+      "source_text": "『赤い月』の神様\nものすごく怒ってる<$0C>昨日の夜、結晶が\n頭に突き刺さる夢を見た。\nきっと、悪いことの前触れ……",
+      "before": "『붉은 달』의 신님\n엄청 화났어<$0C>어젯밤에 결정이\n머리에 박히는 꿈을 꿨어.\n분명 나쁜 일이 생길 징조야……",
+      "after": "『붉은 달』의 신께서\n엄청 화나셨어<$0C>...",
+      "category": "voice_control_token",
+      "reason": "神様의 높임과 원문의 제어 토큰 위치를 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-D563070547805F0D8235",
+      "source_text": "ホゾンの無効化を、歌う石――\nイーサ神に奏上するには",
+      "before": "호존의 무효화를 노래하는 돌――\n이사 신께 아뢰려면",
+      "after": "호존의 무효화를 노래하는 돌――\n이사신께 아뢰려면",
+      "category": "setting_terminology",
+      "reason": "신명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D5756B2E02134790AEAC",
+      "source_text": "お前たちの働きへの\n順当な礼だ。気にしないでくれ<$0C>まあ、コピン絡みで船１隻\n失った件は許し難かったが……",
+      "before": "너희가 해낸 일에 대한\n정당한 보답이다. 신경 쓰지 마라<$0C>뭐, 코핀 때문에 배 한 척을\n잃은 건 용서하기 어려웠지만……",
+      "after": "너희가 해낸 일에 대한\n정당한 보답이다. 신경 쓰지 마라<$0C>뭐, 코핀 때문에 배 １척을\n잃은 건 용서하기 어려웠지만……",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 수치를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D5B30BEC986A0C515CE9",
+      "source_text": "……私、これから\nずっと１人……\n誰にも頼らずに生きてくの……",
+      "before": "……나, 이제부터\n계속 혼자……\n아무에게도 의지하지 않고 살 거야……",
+      "after": "……나, 이제부터\n계속 １명뿐이야……\n아무에게도 의지하지 않고 살 거야……",
+      "category": "numeric_fidelity_natural_korean",
+      "reason": "원문의 전각 숫자 １을 보존하면서 독백을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D5B5DE40A4A9A9B675B3",
+      "source_text": "私は今のままでいいの。\nだって、今が１番幸せだもの",
+      "before": "난 지금 이대로가 좋아.\n지금이 가장 행복하니까",
+      "after": "난 지금 이대로가 좋아.\n지금이 １번 행복하니까",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 최상급 의미를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D5CF8E2E124C9CF04E85",
+      "source_text": "あんなリフィアは初めてだ。\nだが、それは悪いことではない。\n人は変わることができる",
+      "before": "저런 리피아는 처음이다.\n하지만 나쁜 일은 아니야.\n사람은 변할 수 있다",
+      "after": "저런 리피아는 처음이다.\n하지만 나쁜 일은 아니다.\n사람은 변할 수 있다",
+      "category": "voice",
+      "reason": "독백의 문체와 종결을 일관되게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-D5FE84B5EBE3D2EA2DAA",
+      "source_text": "今日は憧れの先輩とデート……<$0C>こうやって待っている１分１秒が幸せ。\nもう１時間くらい待っているけど\nそれもすごく幸せよ……",
+      "before": "오늘은 동경하던 선배와 데이트……<$0C>이렇게 기다리는 매 순간이 행복해.\n벌써 한 시간쯤 기다렸지만\n그것도 정말 행복해……",
+      "after": "오늘은 동경하던 선배와 데이트……<$0C>이렇게 기다리는 １분 １초가 행복해.\n벌써 １시간쯤 기다렸지만\n그것도 정말 행복해……",
+      "category": "numeric_fidelity_meaning",
+      "reason": "원문의 １分１秒와 １時間 수치 및 기다리는 순간마다 행복하다는 뜻을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6174FE1A38F8736E34F",
+      "source_text": "新帝国憲章のお陰で\nアントラクスに戻ることが\nできなくなってしまったんだ<$0C>帝国の影響のない\nカルブンクルスに\n亡命でもしようかと思ってる",
+      "before": "신제국 헌장 때문에\n안트락스로 돌아갈 수\n없게 됐어<$0C>제국의 영향이 없는\n카르분쿨루스로\n망명할까 생각 중이야",
+      "after": "신제국 헌장 때문에\n안트락스로 돌아갈 수\n없게 됐어<$0C>제국의 영향이 없는\n카르분클루스로\n망명할까 생각 중이야",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6418A25C5628C8D528B",
+      "source_text": "１人とは限らないでしょ",
+      "before": "한 명이라고 정해진 건 아니잖아",
+      "after": "１명이라고 정해진 건 아니잖아",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 수치를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D654F430C218E2A21237",
+      "source_text": "寄り添う女の子",
+      "before": "곁에 붙어 있는 여자아이",
+      "after": "곁을 지키는 여자아이",
+      "category": "natural_korean",
+      "reason": "인물 라벨을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D67B2550829A46B1118F",
+      "source_text": "サージュ！\nここにアデールをさらった\nオルキナ教の奴らが来なかったか!?",
+      "before": "사쥬!\n여기에 아델을 납치한\n올키나교 녀석들이 오지 않았어!?",
+      "after": "사쥬!\n여기에 아델을 납치한\n오르키나교 녀석들이 오지 않았어!?",
+      "category": "proper_noun",
+      "reason": "종교명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6ABEEBCC2808801E7AA",
+      "source_text": "この度の一件は、我が帝国内の\n不逞の輩どもが働いた狼藉。\nお詫びの言葉もございません",
+      "before": "이번 일은 우리 제국 안의\n불온한 자들이 저지른 난동입니다.\n사죄의 말씀도 드릴 수 없습니다",
+      "after": "이번 일은 우리 제국 안의\n불온한 자들이 저지른 난동입니다.\n뭐라 사죄드려야 할지 모르겠습니다",
+      "category": "meaning_natural_korean",
+      "reason": "お詫びの言葉もございません의 사죄 관용 표현을 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-D6D5DA8A694D0E2A3841",
+      "source_text": "カルブンクルスには\n街としての本質的な美しさがあります<$0C>建物としての様式美ではなく\n国民の生活に根づいた機能美は\n先人の作り上げた文化の賜物です",
+      "before": "카르분쿨루스에는\n도시 본연의 아름다움이 있습니다<$0C>건물의 양식미가 아니라\n국민 생활에 뿌리내린 기능미는\n선인들이 만든 문화의 결실입니다",
+      "after": "카르분클루스에는\n도시 본연의 아름다움이 있습니다<$0C>건물의 양식미가 아니라\n국민 생활에 뿌리내린 기능미는\n선인들이 만든 문화의 결실입니다",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6D85426D60B94E2E2A0",
+      "source_text": "ちなみにもうすぐ\n呼び出されてから１時間たつわ。\n根性ないにも程があるっての",
+      "before": "참고로 이제 곧\n불려 나온 지 한 시간이야.\n배짱이 없어도 너무 없잖아",
+      "after": "참고로 이제 곧\n불려 나온 지 １시간이야.\n배짱이 없어도 너무 없잖아",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 １과 수치를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6FD5CCC52647A39AEB5",
+      "source_text": "恋愛\n仕事\n陽動<$15>00<$0C>かなり不調です。\n生きていてごめんなさいという\n気持ちになるかもしれません<$0C>それでも、１日は終わり\nやがて明日がやってきます。\n幸運を呼ぶ品は、生乾きの靴下です",
+      "before": "연애\n일\n유인<$15>00<$0C>상당히 부진합니다.\n살아 있어서 죄송하다는\n기분이 들지도 모릅니다<$0C>그래도 하루는 끝나고\n이윽고 내일이 찾아옵니다.\n행운을 부르는 물건은 덜 마른 양말입니다",
+      "after": "연애\n일\n양동<$15>00<$0C>상당히 부진합니다.\n살아 있어서 죄송하다는\n기분이 들지도 모릅니다<$0C>그래도 １일은 끝나고\n이윽고 내일이 찾아옵니다.\n행운을 부르는 물건은 덜 마른 양말입니다",
+      "category": "terminology_numeric_fidelity",
+      "reason": "陽動의 고정 번역과 원문의 전각 숫자 １을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D6FF5303785A299F75FD",
+      "source_text": "まあ、けっこういい線\n行ってるんじゃないかしら？",
+      "before": "뭐, 꽤 괜찮은 선까지\n간 것 아니려나?",
+      "after": "뭐, 꽤 근접한 데까지\n간 것 아니려나?",
+      "category": "idiom_natural_korean",
+      "reason": "いい線行ってる의 관용 의미를 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-D733B350F2EC3BB7EC6B",
+      "source_text": "帝国の兵士は超強いんだぜ！\n悪のオルキナ教国なんて\n簡単に捻り潰してやるんだ",
+      "before": "제국의 병사들은 엄청 강해!\n사악한 올키나 교국 따위는\n간단히 짓뭉개 버릴 거야",
+      "after": "제국의 병사들은 엄청 강해!\n사악한 오르키나 교국 따위는\n간단히 짓뭉개 버릴 거야",
+      "category": "proper_noun",
+      "reason": "국명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D7875A00EEC7C0BCACB7",
+      "source_text": "ここはトゥレミリア共和国が誇る\n首都カルブンクルスである",
+      "before": "이곳은 투레밀리아 공화국이 자랑하는\n수도 카르분쿨루스다",
+      "after": "이곳은 투레밀리아 공화국이 자랑하는\n수도 카르분클루스다",
+      "category": "proper_noun",
+      "reason": "고유명사 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D7A5395EF146ECE50160",
+      "source_text": "眉月の宿・小屋",
+      "before": "초승달의 숙소·오두막",
+      "after": "초승달 여관·오두막",
+      "category": "proper_noun",
+      "reason": "장소명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-D7D182191F86CE4DAC91",
+      "source_text": "何でもオルキナの方じゃ\n赤い大陸が浮かんでいるって話だ。\nいよいよ、終末って感じだな",
+      "before": "올키나 쪽에는\n붉은 대륙이 떠 있다는 얘기야.\n이제 정말 종말이란 느낌이군",
+      "after": "오르키나 쪽에는\n붉은 대륙이 떠 있다는 얘기야.\n이제 정말 종말이란 느낌이군",
+      "category": "proper_noun",
+      "reason": "종교·지명 표기를 오르키나로 통일했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "final_qa_correction_provenance": {
+    "status": "applied",
+    "reviewer": "/root/audit_boundary_integration",
+    "scope": "exhaustive classification of final heuristic warnings",
+    "source_inventory": "work/scratch/heuristic_warning_inventory.json",
+    "source_inventory_sha256": "EDD8ECA5898D33060FCA102052D12B26A67C0DBC2E0BAC68FC68466DDA8DA343",
+    "corrected_units_in_batch": 1,
+    "corrections": [
+      {
+        "tm_id": "ARF-TM-D53C943A87FD81958325",
+        "warning_code": "line_break_count_changed",
+        "classification": "actual_source_omission",
+        "before": "『붉은 달』의 신께서\n엄청 화나셨어<$0C>...",
+        "after": "『붉은 달』의 신께서\n엄청 화나셨어<$0C>어젯밤, 결정이\n머리에 박히는 꿈을 꿨어.\n분명 나쁜 일의 전조야……",
+        "reason": "The second page had been replaced by three ASCII periods, omitting the dream and bad-omen meaning.",
+        "source_line_breaks": 3,
+        "before_line_breaks": 1,
+        "after_line_breaks": 3,
+        "control_tokens_verified": true
+      }
+    ],
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_models_or_apis_used": false
+  },
+  "hashes": {
+    "reviewed_sha256": "E02A565FB005588D4EF2D22F31D57889531A13E6161EA3E0CC5C33C9E883E885"
+  }
+}

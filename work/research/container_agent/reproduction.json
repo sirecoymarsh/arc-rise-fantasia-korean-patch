@@ -1,0 +1,21 @@
+{
+  "format": "arf-container-reproduction-v1",
+  "generatedBy": "work/research/container_agent/verify_container_tool.js",
+  "tool": "work/research/container_agent/container_tool.js",
+  "nodeVersion": "v24.14.0",
+  "commandFromWorkspaceRoot": "node work/research/container_agent/verify_container_tool.js",
+  "immutableInputs": [
+    "work/disc_extracted/DATA/files/**/*.vol",
+    "work/disc_extracted/DATA/files/interface/tex_loc_title_jad_wtm.cxd",
+    "work/disc_extracted/DATA/files/interface/data_map_aka_vol.cxd",
+    "work/disc_extracted/DATA/files/Map/map_t_jad_00.cxd"
+  ],
+  "writesOnly": [
+    "work/research/container_agent/verification.json",
+    "work/research/container_agent/reproduction.json"
+  ],
+  "toolSha256": "6b7d755a2efe70170ec109b87a3f64fe9df5822e00fa80a57dafb9dc625a7374",
+  "verifierSha256": "6682d911264cb28514f1294db5f52ae51c1eced87b2a3e90b99622164a0b2cd6",
+  "verificationSha256": "8722f16606e4bafedc65f9021e1fbe409efb7ebdd0774851756de32dd7f44aff",
+  "note": "Controlled resizes are in-memory synthetic outer-container proofs; no source or extracted game file is modified."
+}

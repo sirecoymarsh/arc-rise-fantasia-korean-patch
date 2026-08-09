@@ -1,0 +1,1854 @@
+{
+  "item.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\item.bin",
+    "size": 196860,
+    "head_hex": "b2 bf a4 e2 cc b5 a4 b7 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 1787,
+    "common_start_deltas": [
+      [
+        17,
+        700
+      ],
+      [
+        238,
+        398
+      ],
+      [
+        157,
+        313
+      ],
+      [
+        81,
+        299
+      ],
+      [
+        255,
+        58
+      ],
+      [
+        98,
+        14
+      ],
+      [
+        207,
+        2
+      ],
+      [
+        31,
+        2
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 8,
+        "byte_length": 8,
+        "text": "何も無し"
+      },
+      {
+        "start": 255,
+        "end": 269,
+        "byte_length": 14,
+        "text": "ヒールリキッド"
+      },
+      {
+        "start": 272,
+        "end": 284,
+        "byte_length": 12,
+        "text": "ＨＰを小回復"
+      },
+      {
+        "start": 510,
+        "end": 524,
+        "byte_length": 14,
+        "text": "ミドルリキッド"
+      },
+      {
+        "start": 527,
+        "end": 539,
+        "byte_length": 12,
+        "text": "ＨＰを中回復"
+      },
+      {
+        "start": 765,
+        "end": 777,
+        "byte_length": 12,
+        "text": "ハイリキッド"
+      },
+      {
+        "start": 782,
+        "end": 794,
+        "byte_length": 12,
+        "text": "ＨＰを大回復"
+      },
+      {
+        "start": 1020,
+        "end": 1032,
+        "byte_length": 12,
+        "text": "フルリキッド"
+      },
+      {
+        "start": 1037,
+        "end": 1051,
+        "byte_length": 14,
+        "text": "ＨＰを完全回復"
+      },
+      {
+        "start": 1275,
+        "end": 1289,
+        "byte_length": 14,
+        "text": "ＭＰクイック１"
+      },
+      {
+        "start": 1292,
+        "end": 1314,
+        "byte_length": 22,
+        "text": "レベル１のＭＰを小回復"
+      },
+      {
+        "start": 1530,
+        "end": 1544,
+        "byte_length": 14,
+        "text": "ＭＰチャージ１"
+      },
+      {
+        "start": 1547,
+        "end": 1571,
+        "byte_length": 24,
+        "text": "レベル１のＭＰを完全回復"
+      },
+      {
+        "start": 1785,
+        "end": 1799,
+        "byte_length": 14,
+        "text": "ＭＰクイック２"
+      },
+      {
+        "start": 1802,
+        "end": 1824,
+        "byte_length": 22,
+        "text": "レベル２のＭＰを小回復"
+      }
+    ]
+  },
+  "shop.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\shop.bin",
+    "size": 4042,
+    "head_hex": "a2 a7 20 bb b3 b9 e2 cb b9 c6 b2 00 00 00 00 00 00 00 00 00 00 01 00 12 00 16 00 1f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 46,
+    "common_start_deltas": [
+      [
+        86,
+        44
+      ],
+      [
+        172,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 11,
+        "byte_length": 11,
+        "text": "▼ 山高帽堂"
+      },
+      {
+        "start": 86,
+        "end": 97,
+        "byte_length": 11,
+        "text": "▼ 貴婦人堂"
+      },
+      {
+        "start": 172,
+        "end": 183,
+        "byte_length": 11,
+        "text": "▼ 解放の槍"
+      },
+      {
+        "start": 258,
+        "end": 267,
+        "byte_length": 9,
+        "text": "▼ 賢母堂"
+      },
+      {
+        "start": 344,
+        "end": 355,
+        "byte_length": 11,
+        "text": "▼ 十二勇士"
+      },
+      {
+        "start": 430,
+        "end": 447,
+        "byte_length": 17,
+        "text": "▼ ヴィルの仕立屋"
+      },
+      {
+        "start": 516,
+        "end": 525,
+        "byte_length": 9,
+        "text": "▼ 木綿堂"
+      },
+      {
+        "start": 602,
+        "end": 613,
+        "byte_length": 11,
+        "text": "▼ 赤い弧月"
+      },
+      {
+        "start": 688,
+        "end": 707,
+        "byte_length": 19,
+        "text": "▼ ペネロペの仕立屋"
+      },
+      {
+        "start": 774,
+        "end": 783,
+        "byte_length": 9,
+        "text": "▼ 対称堂"
+      },
+      {
+        "start": 860,
+        "end": 871,
+        "byte_length": 11,
+        "text": "▼ 連なる星"
+      },
+      {
+        "start": 946,
+        "end": 965,
+        "byte_length": 19,
+        "text": "▼ ソフィアの仕立屋"
+      },
+      {
+        "start": 1032,
+        "end": 1043,
+        "byte_length": 11,
+        "text": "▼ 黄金率堂"
+      },
+      {
+        "start": 1118,
+        "end": 1129,
+        "byte_length": 11,
+        "text": "▼ 双頭の鷲"
+      },
+      {
+        "start": 1204,
+        "end": 1221,
+        "byte_length": 17,
+        "text": "▼ モニカの仕立屋"
+      }
+    ]
+  },
+  "dragon.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\dragon.bin",
+    "size": 3627,
+    "head_hex": "a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 63,
+    "common_start_deltas": [
+      [
+        48,
+        13
+      ],
+      [
+        97,
+        13
+      ],
+      [
+        49,
+        13
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        61,
+        7
+      ],
+      [
+        60,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        85,
+        2
+      ],
+      [
+        57,
+        1
+      ],
+      [
+        28,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 6,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 169,
+        "end": 175,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 218,
+        "end": 224,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 279,
+        "end": 287,
+        "byte_length": 8,
+        "text": "シムマフ"
+      },
+      {
+        "start": 303,
+        "end": 313,
+        "byte_length": 10,
+        "text": "解放の光輝"
+      },
+      {
+        "start": 351,
+        "end": 381,
+        "byte_length": 30,
+        "text": "『解放』のロゴスを宿すログレス"
+      },
+      {
+        "start": 448,
+        "end": 489,
+        "byte_length": 41,
+        "text": "能力値が平均的に上昇し\n火と風に耐性を得る"
+      },
+      {
+        "start": 497,
+        "end": 517,
+        "byte_length": 20,
+        "text": "全体に光属性ダメージ"
+      },
+      {
+        "start": 558,
+        "end": 566,
+        "byte_length": 8,
+        "text": "ギルダブ"
+      },
+      {
+        "start": 582,
+        "end": 592,
+        "byte_length": 10,
+        "text": "支配の静寂"
+      },
+      {
+        "start": 630,
+        "end": 660,
+        "byte_length": 30,
+        "text": "『支配』のロゴスを宿すログレス"
+      },
+      {
+        "start": 727,
+        "end": 770,
+        "byte_length": 43,
+        "text": "能力値と基礎ＡＰが上昇し\n火と土に耐性を得る"
+      },
+      {
+        "start": 776,
+        "end": 796,
+        "byte_length": 20,
+        "text": "全体に闇属性ダメージ"
+      }
+    ]
+  },
+  "treasure.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\treasure.bin",
+    "size": 12544,
+    "head_hex": "74 72 65 61 73 75 72 65 5f 67 72 65 65 6e 00 00 00 00 00 00 00 00 00 a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3d 6d 61 70 5f 73 68 69 6e 65 00 00 00 00 00 00",
+    "string_count": 256,
+    "common_start_deltas": [
+      [
+        49,
+        255
+      ]
+    ],
+    "strings": [
+      {
+        "start": 23,
+        "end": 29,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "byte_length": 6,
+        "text": "？？？"
+      },
+      {
+        "start": 121,
+        "end": 127,
+        "byte_length": 6,
+        "text": "？？？"
+      },
+      {
+        "start": 170,
+        "end": 174,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 219,
+        "end": 223,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 268,
+        "end": 272,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 317,
+        "end": 321,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 366,
+        "end": 370,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 415,
+        "end": 421,
+        "byte_length": 6,
+        "text": "？？？"
+      },
+      {
+        "start": 464,
+        "end": 468,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 513,
+        "end": 517,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 562,
+        "end": 566,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 611,
+        "end": 615,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 660,
+        "end": 664,
+        "byte_length": 4,
+        "text": "宝箱"
+      },
+      {
+        "start": 709,
+        "end": 713,
+        "byte_length": 4,
+        "text": "武器"
+      }
+    ]
+  },
+  "magic.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\magic.bin",
+    "size": 8036,
+    "head_hex": "a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff fe 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff fe 00 00",
+    "string_count": 145,
+    "common_start_deltas": [
+      [
+        40,
+        48
+      ],
+      [
+        103,
+        47
+      ],
+      [
+        21,
+        47
+      ],
+      [
+        164,
+        1
+      ],
+      [
+        20,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 6,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 164,
+        "end": 172,
+        "byte_length": 8,
+        "text": "ブレイズ"
+      },
+      {
+        "start": 184,
+        "end": 204,
+        "byte_length": 20,
+        "text": "フレイムデトネイター"
+      },
+      {
+        "start": 224,
+        "end": 244,
+        "byte_length": 20,
+        "text": "単体に火属性ダメージ"
+      },
+      {
+        "start": 327,
+        "end": 342,
+        "byte_length": 15,
+        "text": "\u001bファイアシェル"
+      },
+      {
+        "start": 348,
+        "end": 364,
+        "byte_length": 16,
+        "text": "フレイムカーテン"
+      },
+      {
+        "start": 388,
+        "end": 406,
+        "byte_length": 18,
+        "text": "単体の火耐性アップ"
+      },
+      {
+        "start": 491,
+        "end": 506,
+        "byte_length": 15,
+        "text": "\u001bファイアボール"
+      },
+      {
+        "start": 512,
+        "end": 532,
+        "byte_length": 20,
+        "text": "ファイアボルテックス"
+      },
+      {
+        "start": 552,
+        "end": 572,
+        "byte_length": 20,
+        "text": "単体に火属性ダメージ"
+      },
+      {
+        "start": 655,
+        "end": 670,
+        "byte_length": 15,
+        "text": "*マイトチャージ"
+      },
+      {
+        "start": 676,
+        "end": 690,
+        "byte_length": 14,
+        "text": "オーバーロード"
+      },
+      {
+        "start": 716,
+        "end": 734,
+        "byte_length": 18,
+        "text": "単体のＡＴＫアップ"
+      },
+      {
+        "start": 819,
+        "end": 834,
+        "byte_length": 15,
+        "text": "\"バーンドライブ"
+      },
+      {
+        "start": 840,
+        "end": 854,
+        "byte_length": 14,
+        "text": "イグニッション"
+      }
+    ]
+  },
+  "special.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\special.bin",
+    "size": 10944,
+    "head_hex": "a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 151,
+    "common_start_deltas": [
+      [
+        22,
+        73
+      ],
+      [
+        122,
+        72
+      ],
+      [
+        121,
+        2
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        144,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 6,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 144,
+        "end": 160,
+        "byte_length": 16,
+        "text": "ヘヴィクラッシュ"
+      },
+      {
+        "start": 166,
+        "end": 186,
+        "byte_length": 20,
+        "text": "単体に無属性ダメージ"
+      },
+      {
+        "start": 288,
+        "end": 296,
+        "byte_length": 8,
+        "text": "アクセル"
+      },
+      {
+        "start": 310,
+        "end": 328,
+        "byte_length": 18,
+        "text": "自分にＡＴＫアップ"
+      },
+      {
+        "start": 432,
+        "end": 446,
+        "byte_length": 14,
+        "text": "アースドライブ"
+      },
+      {
+        "start": 454,
+        "end": 499,
+        "byte_length": 45,
+        "text": "範囲内に土属性ダメージ\n追加効果：ＳＰＤダウン"
+      },
+      {
+        "start": 576,
+        "end": 586,
+        "byte_length": 10,
+        "text": "ゲイボルグ"
+      },
+      {
+        "start": 598,
+        "end": 618,
+        "byte_length": 20,
+        "text": "単体に無属性ダメージ"
+      },
+      {
+        "start": 720,
+        "end": 734,
+        "byte_length": 14,
+        "text": "イグニスビート"
+      },
+      {
+        "start": 742,
+        "end": 764,
+        "byte_length": 22,
+        "text": "範囲内に火属性ダメージ"
+      },
+      {
+        "start": 864,
+        "end": 880,
+        "byte_length": 16,
+        "text": "イーサファクター"
+      },
+      {
+        "start": 886,
+        "end": 921,
+        "byte_length": 35,
+        "text": "自分に祝福効果\n戦闘不能時に自動回復"
+      },
+      {
+        "start": 1008,
+        "end": 1020,
+        "byte_length": 12,
+        "text": "バスターロア"
+      }
+    ]
+  },
+  "operation.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\operation.bin",
+    "size": 960,
+    "head_hex": "a4 aa a4 de a4 ab a4 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 be f5 b6 b7 a4 f2 c8 bd c3 c7 a4 b7 a4 c6 a1 a2 c5 ac a4 b7 a4 bf b9 d4 c6 b0 a4 f2 a4 c8 a4 ea a4 de a4 b9 00 00 00 00",
+    "string_count": 16,
+    "common_start_deltas": [
+      [
+        24,
+        8
+      ],
+      [
+        96,
+        7
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 8,
+        "byte_length": 8,
+        "text": "おまかせ"
+      },
+      {
+        "start": 24,
+        "end": 60,
+        "byte_length": 36,
+        "text": "状況を判断して、適した行動をとります"
+      },
+      {
+        "start": 120,
+        "end": 128,
+        "byte_length": 8,
+        "text": "撃破優先"
+      },
+      {
+        "start": 144,
+        "end": 209,
+        "byte_length": 65,
+        "text": "敵を倒すことを優先した行動をとります。\n攻撃以外の行動はとりません"
+      },
+      {
+        "start": 240,
+        "end": 250,
+        "byte_length": 10,
+        "text": "光召術優先"
+      },
+      {
+        "start": 264,
+        "end": 335,
+        "byte_length": 71,
+        "text": "光召術を優先した行動をとります。\nそれ以外は『おまかせ』と同じになります"
+      },
+      {
+        "start": 360,
+        "end": 370,
+        "byte_length": 10,
+        "text": "光召術禁止"
+      },
+      {
+        "start": 384,
+        "end": 457,
+        "byte_length": 73,
+        "text": "光召術を使用する行動をとりません。\nそれ以外は『おまかせ』と同じになります"
+      },
+      {
+        "start": 480,
+        "end": 488,
+        "byte_length": 8,
+        "text": "回復優先"
+      },
+      {
+        "start": 504,
+        "end": 577,
+        "byte_length": 73,
+        "text": "回復行動のみ光召術を使用します。\nそれ以外は『光召術禁止』と同じになります"
+      },
+      {
+        "start": 600,
+        "end": 608,
+        "byte_length": 8,
+        "text": "温存優先"
+      },
+      {
+        "start": 624,
+        "end": 695,
+        "byte_length": 71,
+        "text": "ＳＰを消費する行動をとりません。\nそれ以外は『回復優先』と同じになります"
+      },
+      {
+        "start": 720,
+        "end": 728,
+        "byte_length": 8,
+        "text": "たたかう"
+      },
+      {
+        "start": 744,
+        "end": 776,
+        "byte_length": 32,
+        "text": "『たたかう』のみの行動をとります"
+      },
+      {
+        "start": 840,
+        "end": 848,
+        "byte_length": 8,
+        "text": "内容未定"
+      }
+    ]
+  },
+  "quest.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\quest.bin",
+    "size": 22990,
+    "head_hex": "53 53 43 52 00 00 0f 20 00 01 01 e0 00 00 0f 20 00 00 0f 14 00 00 0f 24 00 00 2d 20 00 00 0f 28 00 00 2d 49 00 00 0f 2c 00 00 2d 72 00 00 0f 30 00 00 2e 68 00 00 0f 34 00 00 2e 95 00 00 0f 38",
+    "string_count": 272,
+    "common_start_deltas": [
+      [
+        13,
+        34
+      ],
+      [
+        17,
+        29
+      ],
+      [
+        15,
+        23
+      ],
+      [
+        11,
+        20
+      ],
+      [
+        27,
+        19
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        31,
+        9
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        39,
+        9
+      ],
+      [
+        29,
+        7
+      ],
+      [
+        19,
+        6
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        35,
+        4
+      ],
+      [
+        112,
+        3
+      ],
+      [
+        33,
+        3
+      ],
+      [
+        41,
+        2
+      ],
+      [
+        149,
+        2
+      ],
+      [
+        159,
+        2
+      ]
+    ],
+    "strings": [
+      {
+        "start": 11552,
+        "end": 11592,
+        "byte_length": 40,
+        "text": "タイトル４５６７８９０１２３４５６７８９"
+      },
+      {
+        "start": 11593,
+        "end": 11633,
+        "byte_length": 40,
+        "text": "依頼主３４５６７８９０１２３４５６７８９"
+      },
+      {
+        "start": 11634,
+        "end": 11879,
+        "byte_length": 245,
+        "text": "依頼内容４５６７８９０１２３４５６７８９\n０１２３４５６７８９０１２３４５６７８９\n０１２３４５６７８９０１２３４５６７８９\n０１２３４５６７８９０１２３４５６７８９\n０１２３４５６７８９０１２３４５６７８９\n０１２３４５６７８９０１２３４５６７８９"
+      },
+      {
+        "start": 11880,
+        "end": 11924,
+        "byte_length": 44,
+        "text": "\u001303対象モンスター\u001300を１匹退治したらクリア９"
+      },
+      {
+        "start": 11927,
+        "end": 11945,
+        "byte_length": 18,
+        "text": "鳥害に困っています"
+      },
+      {
+        "start": 11946,
+        "end": 11962,
+        "byte_length": 16,
+        "text": "トパジオンの農夫"
+      },
+      {
+        "start": 11963,
+        "end": 12074,
+        "byte_length": 111,
+        "text": "レテアの森から害鳥が\n作物を荒らしに来るんだ。\nレテアの森とトパジオン近辺にいる\n害鳥を駆除してもらえんだろうか？"
+      },
+      {
+        "start": 12075,
+        "end": 12099,
+        "byte_length": 24,
+        "text": "\u001303チック\u001300を１０匹討伐"
+      },
+      {
+        "start": 12102,
+        "end": 12124,
+        "byte_length": 22,
+        "text": "続・鳥害に困っています"
+      },
+      {
+        "start": 12125,
+        "end": 12141,
+        "byte_length": 16,
+        "text": "トパジオンの農夫"
+      },
+      {
+        "start": 12142,
+        "end": 12253,
+        "byte_length": 111,
+        "text": "メリディア領内で\n大きい鳥たちまでもが作物を食い荒らし\n被害が悪化している。\n害鳥たちを駆除してもらえんだろうか？"
+      },
+      {
+        "start": 12254,
+        "end": 12278,
+        "byte_length": 24,
+        "text": "\u001303ビーク\u001300を１０匹討伐"
+      },
+      {
+        "start": 12281,
+        "end": 12305,
+        "byte_length": 24,
+        "text": "続々・鳥害に困っています"
+      },
+      {
+        "start": 12306,
+        "end": 12322,
+        "byte_length": 16,
+        "text": "トパジオンの農夫"
+      },
+      {
+        "start": 12323,
+        "end": 12437,
+        "byte_length": 114,
+        "text": "レテアの森に鳥が異常発生しているんだ。\n原因を突き止め、解決してもらえんか？\nなにやら見慣れない鳥も居たようだが……"
+      }
+    ]
+  },
+  "ability.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\ability.bin",
+    "size": 36500,
+    "head_hex": "a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 c0 a5 df a1 bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 454,
+    "common_start_deltas": [
+      [
+        21,
+        204
+      ],
+      [
+        125,
+        203
+      ],
+      [
+        146,
+        46
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 6,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "byte_length": 6,
+        "text": "ダミー"
+      },
+      {
+        "start": 146,
+        "end": 154,
+        "byte_length": 8,
+        "text": "ＨＰ上昇"
+      },
+      {
+        "start": 167,
+        "end": 178,
+        "byte_length": 11,
+        "text": "\u0015D2＋１００"
+      },
+      {
+        "start": 292,
+        "end": 302,
+        "byte_length": 10,
+        "text": "ＨＰ上昇＋"
+      },
+      {
+        "start": 313,
+        "end": 324,
+        "byte_length": 11,
+        "text": "\u0015D2＋２００"
+      },
+      {
+        "start": 438,
+        "end": 448,
+        "byte_length": 10,
+        "text": "ＨＰ上昇２"
+      },
+      {
+        "start": 459,
+        "end": 470,
+        "byte_length": 11,
+        "text": "\u0015D2＋５００"
+      },
+      {
+        "start": 584,
+        "end": 596,
+        "byte_length": 12,
+        "text": "ＨＰ上昇２＋"
+      },
+      {
+        "start": 605,
+        "end": 618,
+        "byte_length": 13,
+        "text": "\u0015D2＋１０００"
+      },
+      {
+        "start": 730,
+        "end": 740,
+        "byte_length": 10,
+        "text": "ＨＰ上昇３"
+      },
+      {
+        "start": 751,
+        "end": 764,
+        "byte_length": 13,
+        "text": "\u0015D2＋２０００"
+      },
+      {
+        "start": 876,
+        "end": 886,
+        "byte_length": 10,
+        "text": "ＡＴＫ上昇"
+      },
+      {
+        "start": 897,
+        "end": 904,
+        "byte_length": 7,
+        "text": "\u001590＋２"
+      },
+      {
+        "start": 1022,
+        "end": 1034,
+        "byte_length": 12,
+        "text": "ＡＴＫ上昇＋"
+      }
+    ]
+  },
+  "chat.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+    "size": 100972,
+    "head_hex": "53 53 43 52 00 00 56 a8 00 02 0a cf 00 00 56 a8 00 00 56 94 00 00 9b 68 00 00 56 9d 00 00 ab d8 00 01 8a 58 00 00 9d 37 00 00 ab dc 00 00 ab e3 00 01 8a 63 00 00 9d 42 00 00 ab e7 00 00 ac 4f",
+    "string_count": 345,
+    "common_start_deltas": [
+      [
+        44,
+        185
+      ],
+      [
+        43,
+        39
+      ],
+      [
+        45,
+        38
+      ],
+      [
+        105,
+        12
+      ],
+      [
+        152,
+        7
+      ],
+      [
+        87,
+        4
+      ],
+      [
+        132,
+        3
+      ],
+      [
+        88,
+        3
+      ],
+      [
+        221,
+        3
+      ],
+      [
+        42,
+        3
+      ],
+      [
+        311,
+        3
+      ],
+      [
+        412,
+        2
+      ],
+      [
+        47,
+        2
+      ],
+      [
+        89,
+        1
+      ],
+      [
+        308,
+        1
+      ],
+      [
+        131,
+        1
+      ],
+      [
+        90,
+        1
+      ],
+      [
+        263,
+        1
+      ],
+      [
+        178,
+        1
+      ],
+      [
+        134,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 22184,
+        "end": 22206,
+        "byte_length": 22,
+        "text": "テストデータ６７８９０"
+      },
+      {
+        "start": 22228,
+        "end": 22234,
+        "byte_length": 6,
+        "text": "竜討伐"
+      },
+      {
+        "start": 22271,
+        "end": 22278,
+        "byte_length": 7,
+        "text": "\u0003竜災害"
+      },
+      {
+        "start": 22315,
+        "end": 22324,
+        "byte_length": 9,
+        "text": "\u0003コーダー"
+      },
+      {
+        "start": 22359,
+        "end": 22374,
+        "byte_length": 15,
+        "text": "\u0003リフィアのこと"
+      },
+      {
+        "start": 22403,
+        "end": 22420,
+        "byte_length": 17,
+        "text": "\u0003知らなかった言葉"
+      },
+      {
+        "start": 22447,
+        "end": 22460,
+        "byte_length": 13,
+        "text": "Cアルスのこと"
+      },
+      {
+        "start": 22491,
+        "end": 22502,
+        "byte_length": 11,
+        "text": "C素直な言葉"
+      },
+      {
+        "start": 22535,
+        "end": 22542,
+        "byte_length": 7,
+        "text": "C出会い"
+      },
+      {
+        "start": 22579,
+        "end": 22592,
+        "byte_length": 13,
+        "text": "C育まれた友情"
+      },
+      {
+        "start": 22623,
+        "end": 22632,
+        "byte_length": 9,
+        "text": "C今の２人"
+      },
+      {
+        "start": 22667,
+        "end": 22674,
+        "byte_length": 7,
+        "text": "C竜玉石"
+      },
+      {
+        "start": 22711,
+        "end": 22722,
+        "byte_length": 11,
+        "text": "\u0003慌てる２人"
+      },
+      {
+        "start": 22755,
+        "end": 22768,
+        "byte_length": 13,
+        "text": "Cクライド将軍"
+      },
+      {
+        "start": 22799,
+        "end": 22810,
+        "byte_length": 11,
+        "text": "C弟分、登場"
+      }
+    ]
+  },
+  "todo.dat": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\todo.dat",
+    "size": 29952,
+    "head_hex": "00 00 00 00 00 0f b8 38 ff ff 00 00 ff ff 00 00 c8 e8 a4 ec c0 da a4 c3 a4 c6 a4 a4 a4 eb a5 ea a5 d5 a5 a3 a5 a2 a4 f2 b5 d9 a4 de a4 bb a4 eb a4 bf a4 e1 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 421,
+    "common_start_deltas": [
+      [
+        64,
+        192
+      ],
+      [
+        80,
+        175
+      ],
+      [
+        65,
+        16
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        144,
+        9
+      ],
+      [
+        77,
+        6
+      ],
+      [
+        67,
+        6
+      ]
+    ],
+    "strings": [
+      {
+        "start": 16,
+        "end": 52,
+        "byte_length": 36,
+        "text": "疲れ切っているリフィアを休ませるため"
+      },
+      {
+        "start": 80,
+        "end": 120,
+        "byte_length": 40,
+        "text": "レテアの森の南東にあるトパジオンを目指す"
+      },
+      {
+        "start": 160,
+        "end": 198,
+        "byte_length": 38,
+        "text": "リフィアを休ませるため、宿を探すラルク"
+      },
+      {
+        "start": 304,
+        "end": 342,
+        "byte_length": 38,
+        "text": "リフィアが休んでいる間、アルスの頼みで"
+      },
+      {
+        "start": 368,
+        "end": 406,
+        "byte_length": 38,
+        "text": "村長に濁竜被害について聞きに行くラルク"
+      },
+      {
+        "start": 433,
+        "end": 436,
+        "byte_length": 3,
+        "text": "\u000f紅"
+      },
+      {
+        "start": 448,
+        "end": 472,
+        "byte_length": 24,
+        "text": "村長の話を聞いたラルクは"
+      },
+      {
+        "start": 512,
+        "end": 542,
+        "byte_length": 30,
+        "text": "アルスと合流するため宿へ向かう"
+      },
+      {
+        "start": 592,
+        "end": 628,
+        "byte_length": 36,
+        "text": "ジャダへ行きたいというリフィアを連れ"
+      },
+      {
+        "start": 656,
+        "end": 690,
+        "byte_length": 34,
+        "text": "トパジオンの南にあるジャダを目指す"
+      },
+      {
+        "start": 736,
+        "end": 764,
+        "byte_length": 28,
+        "text": "アルスの提案で、ラルクたちは"
+      },
+      {
+        "start": 800,
+        "end": 836,
+        "byte_length": 36,
+        "text": "ジャダの司令官、クライドに会いに行く"
+      },
+      {
+        "start": 865,
+        "end": 868,
+        "byte_length": 3,
+        "text": "\u000f獰"
+      },
+      {
+        "start": 880,
+        "end": 908,
+        "byte_length": 28,
+        "text": "ジャダが何者かに襲撃された。"
+      },
+      {
+        "start": 944,
+        "end": 976,
+        "byte_length": 32,
+        "text": "敵を倒しつつ、街の入り口へ向かう"
+      }
+    ]
+  },
+  "help.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+    "size": 131860,
+    "head_hex": "b9 d4 c6 b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 ad a5 e3 a5 e9 a5 af a5 bf a1 bc a4 ac c0 ef c6 ae c3 e6 a4 cb 0a bc c2 b9 d4 a4 c7 a4 ad a4 eb c1 b4 a4 c6 a4 ce c1 aa c2 f2",
+    "string_count": 553,
+    "common_start_deltas": [
+      [
+        347,
+        207
+      ],
+      [
+        322,
+        95
+      ],
+      [
+        25,
+        95
+      ],
+      [
+        325,
+        76
+      ],
+      [
+        22,
+        76
+      ],
+      [
+        21,
+        1
+      ],
+      [
+        324,
+        1
+      ],
+      [
+        23,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 4,
+        "byte_length": 4,
+        "text": "行動"
+      },
+      {
+        "start": 21,
+        "end": 217,
+        "byte_length": 196,
+        "text": "キャラクターが戦闘中に\n実行できる全ての選択肢を\n行動と呼ぶ。\n行動は、例外なく\u001314\u001f000004\u001f01\u001300を\n消費する。\nまた、ターン内に一度も\n行動を行わない場合\n受けるダメージが上昇する\nというデメリットがある"
+      },
+      {
+        "start": 346,
+        "end": 359,
+        "byte_length": 13,
+        "text": "\u0001ターンカード"
+      },
+      {
+        "start": 368,
+        "end": 594,
+        "byte_length": 226,
+        "text": "戦闘中、画面右下部に表示\nされているカード。\n左から\u001314\u001f000000\u001f01\u001300順序の早さに\n応じて並んでいる。\nターンカードからは\n\u001314\u001f000000\u001f01\u001300順序だけではなく\n点滅しているアイコンから\nある程度敵の\u001314\u001f000000\u001f01\u001300を\n予測することができる"
+      },
+      {
+        "start": 693,
+        "end": 698,
+        "byte_length": 5,
+        "text": "\u0001ＬＶ"
+      },
+      {
+        "start": 715,
+        "end": 831,
+        "byte_length": 116,
+        "text": "キャラクターの強さの\n総合的な目安となる値。\n目安としてだけではなく\n攻撃や防御など\u001314\u001f000000\u001f01\u001300全てに\n影響を及ぼす"
+      },
+      {
+        "start": 1040,
+        "end": 1045,
+        "byte_length": 5,
+        "text": "\u0001ＨＰ"
+      },
+      {
+        "start": 1062,
+        "end": 1220,
+        "byte_length": 158,
+        "text": "キャラクターの体力を\n数値化したもの。\nダメージを受けること等で\n減少し、値が０になると\n\u001314\u001f000017\u001f01\u001300となる。\n宿屋、レベルアップなど\n様々な回復手段が存在する"
+      },
+      {
+        "start": 1387,
+        "end": 1392,
+        "byte_length": 5,
+        "text": "\u0001ＡＰ"
+      },
+      {
+        "start": 1409,
+        "end": 1560,
+        "byte_length": 151,
+        "text": "全ての\u001314\u001f000000\u001f01\u001300を行うのに必要\nとなる値。\n\u001314\u001f000005\u001f01\u001300と\u001314\u001f000006\u001f01\u001300という\nふたつの要素に分かれており\nこれらは、戦闘参加者全員\nで共有する"
+      },
+      {
+        "start": 1734,
+        "end": 1743,
+        "byte_length": 9,
+        "text": "\u0001回復ＡＰ"
+      },
+      {
+        "start": 1756,
+        "end": 1958,
+        "byte_length": 202,
+        "text": "\u001314\u001f000004\u001f01\u001300の要素のひとつ。\nターンの開始時に回復する\n\u001314\u001f000004\u001f01\u001300の値を示す。\n一部の例外を除き\n意識的に\u001314\u001f000004\u001f01\u001300を余らせない\n限り１ターンに使用できる\n\u001314\u001f000004\u001f01\u001300は回復ＡＰの値となる"
+      },
+      {
+        "start": 2081,
+        "end": 2090,
+        "byte_length": 9,
+        "text": "\u0001基礎ＡＰ"
+      },
+      {
+        "start": 2103,
+        "end": 2249,
+        "byte_length": 146,
+        "text": "\u001314\u001f000004\u001f01\u001300の要素のひとつ。\n１ターンに使用可能な\u001314\u001f000004\u001f01\u001300\nの最大値を示す。\n\u001314\u001f000004\u001f01\u001300を余らせたとしても\nこの値を超えることはない"
+      },
+      {
+        "start": 2428,
+        "end": 2433,
+        "byte_length": 5,
+        "text": "\u0001ＳＰ"
+      }
+    ]
+  },
+  "monster_book.bin": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\monster_book.bin",
+    "size": 176456,
+    "head_hex": "c4 eb b9 f1 ca bc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 a0 00 00 00 00 00 00 00 64 00 00 00 05 00 00 00 03 00 00 00 19 00 00 00 49",
+    "string_count": 543,
+    "common_start_deltas": [
+      [
+        384,
+        266
+      ],
+      [
+        260,
+        263
+      ],
+      [
+        644,
+        7
+      ],
+      [
+        140,
+        2
+      ],
+      [
+        120,
+        2
+      ],
+      [
+        139,
+        1
+      ],
+      [
+        121,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 0,
+        "end": 6,
+        "byte_length": 6,
+        "text": "帝国兵"
+      },
+      {
+        "start": 260,
+        "end": 266,
+        "byte_length": 6,
+        "text": "闘技場"
+      },
+      {
+        "start": 644,
+        "end": 652,
+        "byte_length": 8,
+        "text": "帝国騎兵"
+      },
+      {
+        "start": 904,
+        "end": 922,
+        "byte_length": 18,
+        "text": "レゾルベント大氷壁"
+      },
+      {
+        "start": 1288,
+        "end": 1296,
+        "byte_length": 8,
+        "text": "帝国士官"
+      },
+      {
+        "start": 1548,
+        "end": 1564,
+        "byte_length": 16,
+        "text": "旗艦パーセヴァル"
+      },
+      {
+        "start": 1932,
+        "end": 1940,
+        "byte_length": 8,
+        "text": "帝国骸兵"
+      },
+      {
+        "start": 2192,
+        "end": 2204,
+        "byte_length": 12,
+        "text": "バトラキテス"
+      },
+      {
+        "start": 2576,
+        "end": 2586,
+        "byte_length": 10,
+        "text": "城内警備兵"
+      },
+      {
+        "start": 2836,
+        "end": 2850,
+        "byte_length": 14,
+        "text": "ディアマント城"
+      },
+      {
+        "start": 3220,
+        "end": 3230,
+        "byte_length": 10,
+        "text": "帝国近衛兵"
+      },
+      {
+        "start": 3480,
+        "end": 3494,
+        "byte_length": 14,
+        "text": "廃都ヒルベルト"
+      },
+      {
+        "start": 3864,
+        "end": 3874,
+        "byte_length": 10,
+        "text": "帝国精鋭兵"
+      },
+      {
+        "start": 4124,
+        "end": 4136,
+        "byte_length": 12,
+        "text": "バトラキテス"
+      },
+      {
+        "start": 4508,
+        "end": 4516,
+        "byte_length": 8,
+        "text": "女帝国兵"
+      }
+    ]
+  },
+  "btl_tutorial.vld": {
+    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Btl\\btl_tutorial.vld",
+    "size": 94208,
+    "head_hex": "00 00 00 06 00 00 00 3c 00 00 00 00 ff ff ff ff 00 00 00 00 c0 ef a4 a6 c1 b0 a4 cb a4 d2 a4 c8 a4 c4 b8 c0 a4 c3 a4 c6 a4 aa a4 af 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "string_count": 379,
+    "common_start_deltas": [
+      [
+        256,
+        189
+      ],
+      [
+        112,
+        162
+      ],
+      [
+        96,
+        6
+      ],
+      [
+        896,
+        4
+      ],
+      [
+        1104,
+        2
+      ],
+      [
+        1424,
+        2
+      ],
+      [
+        1632,
+        2
+      ],
+      [
+        2208,
+        2
+      ],
+      [
+        1840,
+        2
+      ],
+      [
+        688,
+        2
+      ],
+      [
+        368,
+        1
+      ],
+      [
+        2000,
+        1
+      ],
+      [
+        528,
+        1
+      ],
+      [
+        784,
+        1
+      ],
+      [
+        320,
+        1
+      ]
+    ],
+    "strings": [
+      {
+        "start": 20,
+        "end": 44,
+        "byte_length": 24,
+        "text": "戦う前にひとつ言っておく"
+      },
+      {
+        "start": 276,
+        "end": 282,
+        "byte_length": 6,
+        "text": "ラルク"
+      },
+      {
+        "start": 388,
+        "end": 450,
+        "byte_length": 62,
+        "text": "協力して戦う場合は\n１人のときとは違う戦い方が\n必要になるからな"
+      },
+      {
+        "start": 644,
+        "end": 650,
+        "byte_length": 6,
+        "text": "ラルク"
+      },
+      {
+        "start": 756,
+        "end": 770,
+        "byte_length": 14,
+        "text": "どういうこと？"
+      },
+      {
+        "start": 1012,
+        "end": 1020,
+        "byte_length": 8,
+        "text": "リフィア"
+      },
+      {
+        "start": 1124,
+        "end": 1183,
+        "byte_length": 59,
+        "text": "俺たちは\u0015D4の分だけ\n行動できるってことぐらい\n知ってるよな？"
+      },
+      {
+        "start": 1380,
+        "end": 1386,
+        "byte_length": 6,
+        "text": "ラルク"
+      },
+      {
+        "start": 1492,
+        "end": 1506,
+        "byte_length": 14,
+        "text": "ええ、わかるわ"
+      },
+      {
+        "start": 1748,
+        "end": 1756,
+        "byte_length": 8,
+        "text": "リフィア"
+      },
+      {
+        "start": 1860,
+        "end": 1900,
+        "byte_length": 40,
+        "text": "行動するごとに\u0015D4が\n消費されていくのよね"
+      },
+      {
+        "start": 2116,
+        "end": 2124,
+        "byte_length": 8,
+        "text": "リフィア"
+      },
+      {
+        "start": 2228,
+        "end": 2234,
+        "byte_length": 6,
+        "text": "そうだ"
+      },
+      {
+        "start": 2484,
+        "end": 2490,
+        "byte_length": 6,
+        "text": "ラルク"
+      },
+      {
+        "start": 2596,
+        "end": 2646,
+        "byte_length": 50,
+        "text": "２人以上で戦う場合は\n全員で\u0015D4を共有することになる"
+      }
+    ]
+  }
+}

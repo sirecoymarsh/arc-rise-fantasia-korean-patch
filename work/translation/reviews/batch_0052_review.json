@@ -1,0 +1,416 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0052",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0052.jsonl",
+  "draft": "work/translation/drafts/batch_0052.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0052.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 47,
+  "unchanged_units": 153,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-AB26A8A303F1CB5BB75D",
+      "source_text": "全てを持ってたのは\nあんたでしょ！",
+      "before": "모든 걸 가진 건\n당신이잖아!",
+      "after": "모든 걸 가졌던 건\n당신이잖아!",
+      "category": "meaning",
+      "reason": "持ってた의 과거 시점을 살려 두 사람의 처지를 대비했다."
+    },
+    {
+      "tm_id": "ARF-TM-AE510BE2E23CD6E5D756",
+      "source_text": "地下にログレスがいる……訳ねぇよな。\nこういう場合",
+      "before": "지하에 로그레스가 있을…… 리 없지.\n이런 경우엔",
+      "after": "지하에 로그레스가 있을…… 리는 없겠지.\n이럴 땐",
+      "category": "naturalness",
+      "reason": "말줄임 뒤의 부정과 이어지는 미완 문장을 자연스러운 한국어 호흡으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-AFE46D0A6FF03D155BB7",
+      "source_text": "やだー♪　サージュってば♪\n冗談は顔だけにしておきなさい",
+      "before": "싫어라♪ 사쥬도 참♪\n농담은 얼굴로만 하세요",
+      "after": "싫어라♪ 사쥬도 참♪\n농담은 얼굴 하나로 충분하거든",
+      "category": "meaning",
+      "reason": "冗談は顔だけにしておきなさい의 외모를 빗댄 농담을 한국어에서 통하는 표현으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-B0A1A53941B577517734",
+      "source_text": "……やはりここはアイオーン隊の\n正式接収施設ではないのかも知れぬ",
+      "before": "……역시 이곳은 아이온대의\n정식 접수 시설이 아닐지도 모르겠군",
+      "after": "……역시 이곳은 아이온대가\n정식으로 접수한 시설이 아닐지도 모르겠군",
+      "category": "meaning",
+      "reason": "接収를 단순 접수가 아니라 시설을 공식적으로 넘겨받아 관리한다는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-B2F69FE040E5DC907434",
+      "source_text": "イーサの子か……\n俺のロゴスを求めに来たか",
+      "before": "이사의 아이인가……\n내 로고스를 구하러 왔나",
+      "after": "이사의 아이인가……\n내 로고스를 얻으러 왔나",
+      "category": "meaning",
+      "reason": "求めに来た를 구출이 아니라 로고스를 얻으러 왔다는 뜻으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-BAE3C5BAB5D4FB553CF2",
+      "source_text": "う〜。まさかこの高さを\n階段で行くつもり？",
+      "before": "으〜. 설마 이 높이를\n계단으로 갈 생각이야?",
+      "after": "으〜. 설마 이 높은 곳을\n계단으로 올라갈 생각이야?",
+      "category": "naturalness",
+      "reason": "높이를 계단으로 간다는 직역을 높은 곳까지 올라간다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-BB40ABFB7BB70F992C84",
+      "source_text": "何だかすごぉーいわネ♪\nさっき外から見た感じだと\n雲の上まで届いてたりして",
+      "before": "왠지 엄청나〜네♪\n아까 밖에서 본 느낌으로는\n구름 위까지 닿아 있기도 하고",
+      "after": "왠지 엄청나네♪\n아까 밖에서 본 느낌으로는\n구름 위까지 닿아 있는 거 아냐?",
+      "category": "meaning",
+      "reason": "雲の上まで届いてたりして를 구름 위까지 닿았을 가능성을 떠올리는 추측으로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C171026FD94BEDE582C1",
+      "source_text": "資料を見た限りでは\nもう人間に戻すことは出来ない",
+      "before": "자료를 본 바로는\n이제 인간으로 되돌릴 수 없어",
+      "after": "자료를 살펴본 바로는\n이제 인간으로 되돌릴 수 없어",
+      "category": "naturalness",
+      "reason": "자료를 본 바로는이라는 어색한 결합을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-C4643206810D1B65937D",
+      "source_text": "変換時のミスにより\n宝石がボディに融合してしまう\n……だって",
+      "before": "변환할 때의 실수로\n보석이 보디에 융합돼 버림\n……이래",
+      "after": "변환 과정의 실수로\n보석이 몸체에 융합돼 버림\n……이라고 쓰여 있어",
+      "category": "naturalness",
+      "reason": "실험 기록을 읽어 주는 상황에 맞춰 ボディ와 인용 종결을 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-C64623BFF83808E82157",
+      "source_text": "ラルク!?\nまさかキミも、この殺戮に\n加担していたというのか!?",
+      "before": "라르크!?\n설마 너도 이 살육에\n가담했던 거야!?",
+      "after": "라르크!?\n설마 너도 이 살육에\n가담했다는 건가!?",
+      "category": "speaker_voice",
+      "reason": "알스의 격앙된 추궁을 단정적인 반문 어조로 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-C78763B613AD2BB93C0B",
+      "source_text": "ふ〜。何とか\n逃げ切れたみたいっスね！",
+      "before": "후〜. 어떻게든\n따돌린 것 같네요!",
+      "after": "후〜. 어떻게든\n따돌린 것 같슴다!",
+      "category": "speaker_voice",
+      "reason": "니콜의 고유한 ~슴다 계열 말투를 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C81FFEEB1A3EE1372FF6",
+      "source_text": "アイオーン隊の人間が\n私利私欲のために接収を\n指示したのではないかということだ",
+      "before": "아이온대 사람이\n사리사욕을 위해 접수하도록\n지시한 게 아닐까 하는 말이다",
+      "after": "아이온대의 누군가가\n사리사욕을 위해 시설을 차지하라고\n지시한 게 아닐까 하는 말이다",
+      "category": "meaning",
+      "reason": "接収를 행정적 시설 장악이라는 문맥에 맞춰 번역하고 행위 주체를 자연스럽게 밝혔다."
+    },
+    {
+      "tm_id": "ARF-TM-C9856793C45531FD2F4C",
+      "source_text": "それともびびってる自分に\n言い聞かせてるのか？",
+      "before": "아니면 겁먹은 자신에게\n타이르는 거냐?",
+      "after": "아니면 겁먹은 자기 자신을\n다독이는 거냐?",
+      "category": "naturalness",
+      "reason": "자기 자신에게 타이른다는 직역을 스스로를 다독인다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-CA3260350AE666F7ECD9",
+      "source_text": "リフィア、お前もだ。\nいくら箱入りだったといっても\nこうして外にいる以上は――",
+      "before": "리피아, 너도 마찬가지야.\n아무리 곱게 자랐다지만\n이렇게 밖에 나온 이상은――",
+      "after": "리피아, 너도 마찬가지야.\n아무리 세상 물정 모르고 자랐다 해도\n이렇게 밖에 나온 이상은――",
+      "category": "meaning",
+      "reason": "箱入り를 단순히 곱게 자랐다는 뜻이 아니라 세상과 격리되어 자랐다는 의미로 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-CDD6D7FD88BBDB1D6541",
+      "source_text": "なるほど……あの時の一撃は\n命こそ奪いそこねたものの\nあなたの左腕は奪えましたか",
+      "before": "그렇군요…… 그때의 일격은\n목숨은 빼앗지 못했지만\n당신의 왼팔은 빼앗았습니까",
+      "after": "그렇군요…… 그때의 일격으로\n목숨은 빼앗지 못했지만\n당신의 왼팔은 빼앗았군요",
+      "category": "function",
+      "reason": "ましたか를 실제 질문이 아니라 결과를 확인하고 깨닫는 악역의 어조로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-CDE634E8F0F235D89B8A",
+      "source_text": "ここは確か\nパピルサグがいるのよね",
+      "before": "여기엔 분명\n파피르사그가 있지",
+      "after": "여기엔 분명\n파피르사그가 있지?",
+      "category": "function",
+      "reason": "상대에게 기억을 확인하는 のよね의 질문 기능을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D2BE306F3F70DC4E3B0D",
+      "source_text": "……飛光艇の件はマリアの礼だから\n返されても困るんだがな",
+      "before": "……비광정 건은 마리아의 답례니까\n갚아 줘도 곤란하다만",
+      "after": "……비광정 건은 마리아에게 한 보답이니\n다시 갚아 줘도 곤란하다만",
+      "category": "meaning",
+      "reason": "マリアの礼를 마리아가 준 답례가 아니라 마리아에게 한 보답이라는 뜻으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-D2CE1B42909F57DFB40A",
+      "source_text": "言い争ってる場合か！\nとにかく俺たちで\n何が起きているのか見てくる",
+      "before": "말다툼할 때야!\n아무튼 우리가\n무슨 일이 벌어지는지 보고 올게",
+      "after": "말다툼할 때가 아니야!\n아무튼 우리가\n무슨 일이 벌어지는지 보고 올게",
+      "category": "meaning",
+      "reason": "言い争ってる場合か를 말다툼할 때가 아니라는 반문으로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D3132D31B4DF3F99ECDB",
+      "source_text": "ア……アニキぃ……\nす、すみません……",
+      "before": "혀, 형니임……\n죄, 죄송합니다……",
+      "after": "혀…… 형니임……\n죄, 죄송함다……",
+      "category": "speaker_voice",
+      "reason": "겁먹어 더듬는 니콜의 발화와 고유한 ~슴다 말투를 함께 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-D31EC3AEE2AD751CF5F9",
+      "source_text": "おそらくオルキナ教国が\n関わっているのだと思います",
+      "before": "아마 오르키나 교국이\n관련되어 있다고 생각합니다",
+      "after": "아마 오르키나 교국이\n관련된 듯합니다",
+      "category": "naturalness",
+      "reason": "관련되어 있다고 생각합니다라는 일본어식 추측 표현을 간결한 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D4617796F8835DB31808",
+      "source_text": "残念。\n僕の手駒は増やせそうにないや",
+      "before": "아쉽네.\n내 말은 더 늘릴 수 없겠어",
+      "after": "아쉽네.\n내 장기말은 더 늘릴 수 없겠어",
+      "category": "meaning",
+      "reason": "手駒를 소유격 대명사로 오해할 수 있는 말이 아니라 조종하는 장기말이라는 뜻으로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-D4B274E1A2CAA68C64D2",
+      "source_text": "リフィアちゃん。\nマジレスされると\nやるせないっス……",
+      "before": "리피아.\n진지하게 대답하면\n맥 빠진다고요……",
+      "after": "리피아.\n그렇게 진지하게 답하면\n맥 빠짐다……",
+      "category": "speaker_voice",
+      "reason": "マジレス의 기능과 니콜의 고유 말투를 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-D6C9CCF32F5BACF0D4DC",
+      "source_text": "父殺しは大逆。\n皇太子といえども\n罪を免れることは出来ません",
+      "before": "아버지를 죽이는 것은 대역죄.\n황태자라 해도\n죄를 면할 수 없습니다",
+      "after": "부친 살해는 대역죄.\n황태자라 해도\n죄를 면할 수 없습니다",
+      "category": "naturalness",
+      "reason": "공적인 단죄 장면에 맞게 父殺し를 간결하고 격식 있게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-D9B172B67301638E7711",
+      "source_text": "この人……\nヴァイス殿下の姿に\n似ているわ……",
+      "before": "이 사람……\n바이스 전하의 모습과\n닮았어……",
+      "after": "이 사람……\n바이스 전하를\n닮았어……",
+      "category": "grammar",
+      "reason": "모습과 닮았다는 어색한 비교 구조를 사람을 직접 목적어로 삼는 표현으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-DFA1BE97D162428DF796",
+      "source_text": "今の悲鳴……\nフレイア将軍じゃないかしら",
+      "before": "방금 그 비명……\n프레이아 장군 아닐까",
+      "after": "방금 그 비명……\n프레이아 장군의 비명 아닐까",
+      "category": "meaning",
+      "reason": "사람 자체가 아니라 들린 비명의 주인을 추측하는 문장임을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-E15DB4A44A21B0C5334A",
+      "source_text": "困りましたねぇ。ホゼアからは\nイマジナル・ディーバとイーサの子を\n守るように命じられているのです",
+      "before": "곤란하군요. 호제아에게\n이매지널의 디바와 이사의 아이를\n지키라는 명령을 받았습니다",
+      "after": "곤란하군요. 호제아에게\n이매지널 디바와 이사의 아이를\n지키라는 명령을 받았습니다",
+      "category": "terminology",
+      "reason": "고정 직위명 イマジナル・ディーバ를 이매지널 디바로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-E30E942A6BF1B20BFE54",
+      "source_text": "私はあの方に\nついていくことしかできぬ。\nラグーン曹長。アルス様を頼む",
+      "before": "나는 그분을\n따르는 것밖에 할 수 없다.\n라군 상사. 알스님을 부탁한다",
+      "after": "나는 그분을\n따르는 것밖에 할 수 없다.\n라군 상사. 알스 님을 부탁한다",
+      "category": "proper_noun",
+      "reason": "인물 이름과 존칭을 기존 표기에 맞춰 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-E4A35481606195AFAE66",
+      "source_text": "確かにね。大爆発する敵と\n地下にいるなんて\nやっぱぞっとしないもん",
+      "before": "그러네. 대폭발하는 적과\n지하에 있는 건\n역시 오싹하니까",
+      "after": "그러네. 대폭발을 일으키는 적과\n지하에 있다니\n역시 생각만 해도 끔찍하잖아",
+      "category": "naturalness",
+      "reason": "ぞっとしない를 단순히 오싹한 감각이 아니라 생각하기도 싫은 위험한 상황으로 자연스럽게 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-E669D4BAC0A6A3CB81E1",
+      "source_text": "あら、手駒ならそこに来てるわよ",
+      "before": "어머, 말이라면 저기 와 있네",
+      "after": "어머, 장기말이라면 저기 와 있네",
+      "category": "meaning",
+      "reason": "手駒를 말이라는 중의적 표현 대신 조종하는 장기말로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-E6B7CB1CB26540898F20",
+      "source_text": "……パピルサグは僕らがもらう",
+      "before": "……파피르사그는 우리가 갖겠어",
+      "after": "……파피르사그는 우리가 차지하겠어",
+      "category": "naturalness",
+      "reason": "로그레스를 소유하겠다는 위협을 차지하겠다는 자연스러운 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E74C64CF5CCD4E191B77",
+      "source_text": "あ、アニキ!?\n何で生きてるんスか!?",
+      "before": "혀, 형님!?\n왜 살아 있는 거예요!?",
+      "after": "아, 형님!?\n왜 살아 있는 검까!?",
+      "category": "speaker_voice",
+      "reason": "あ를 잘못 옮긴 음절을 바로잡고 니콜의 놀란 ~슴까 계열 말투를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-E7FF7FC77FB284E7E9AF",
+      "source_text": "兄上。\n父上を手にかけられたという\n噂は本当ですか",
+      "before": "형님.\n아버님을 직접 해치셨다는\n소문은 사실입니까",
+      "after": "형님.\n아버님을 직접 죽이셨다는\n소문은 사실입니까",
+      "category": "meaning",
+      "reason": "手にかける를 막연히 해친 것이 아니라 직접 살해했다는 뜻으로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-EC094630E9EA2C288240",
+      "source_text": "お前。仮にも傭兵だろ。\nこいつが人だろうがなんだろうが\n敵なら倒せ。でなけりゃ死ぬぞ",
+      "before": "너. 그래도 용병이잖아.\n이 녀석이 사람이든 뭐든\n적이면 쓰러뜨려. 아니면 죽어",
+      "after": "너, 그래도 용병이잖아.\n이 녀석이 사람이든 뭐든\n적이면 쓰러뜨려. 안 그러면 죽는다",
+      "category": "meaning",
+      "reason": "でなけりゃ死ぬぞ를 죽으라는 명령이 아니라 그렇게 하지 않으면 죽는다는 경고로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-ED3BD0DD9945B242D4AD",
+      "source_text": "そ……そう、だよね。\nあの濁竜も元は人間かも\nしれないんだもんね",
+      "before": "그…… 그렇지.\n저 탁룡도 원래는 인간일지\n모르니까",
+      "after": "그…… 그렇지.\n저 탁룡도 원래는 인간이었을지\n모르니까",
+      "category": "meaning",
+      "reason": "元は人間를 현재 인간일 가능성이 아니라 과거에 인간이었을 가능성으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-F5A8AA3D845340D69C65",
+      "source_text": "言ったでしょう？\n私はあなた方を\n守らなければいけないんです",
+      "before": "말했잖습니까?\n저는 여러분을\n지켜야 합니다",
+      "after": "말씀드렸지요?\n저는 여러분을\n지켜야 합니다",
+      "category": "speaker_voice",
+      "reason": "정중하게 상대를 압박하는 화자의 말투에 맞춰 첫 문장을 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-F991D8F9545D376328B1",
+      "source_text": "あら、いいダイエットになるわ。\n本当は登りより降りの方が\nよりいいんだけど",
+      "before": "어머, 좋은 다이어트가 되겠네.\n사실 올라갈 때보다 내려갈 때가\n더 좋지만",
+      "after": "어머, 좋은 다이어트가 되겠네.\n사실 올라갈 때보다 내려갈 때가\n더 좋긴 하지만",
+      "category": "grammar",
+      "reason": "문장 끝의 양보 표현을 한국어에서 자연스럽게 완결했다."
+    },
+    {
+      "tm_id": "ARF-TM-FD78B421E154E6A345BD",
+      "source_text": "応急修理だが、これでエレベータが\n動くようになったはずだ",
+      "before": "응급 수리지만, 이걸로 엘리베이터가\n움직일 거야",
+      "after": "응급 수리지만, 이걸로 엘리베이터가\n움직이게 됐을 거다",
+      "category": "meaning",
+      "reason": "はずだ의 판단을 단순 미래가 아니라 수리 결과에 대한 확신으로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-FF1B73B4EDDA9690B6AE",
+      "source_text": "失礼ながら、この会談に\n傭兵の出る幕はないかと\n思いますぞ",
+      "before": "실례지만, 이 회담에\n용병이 나설 자리는 없다고\n생각합니다만",
+      "after": "실례지만, 이 회담에\n용병이 나설 자리는 없을 듯합니다만",
+      "category": "naturalness",
+      "reason": "없다고 생각합니다만이라는 직역투를 격식 있는 완곡 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0144B584CE03416A25B6",
+      "source_text": "……な、なんか出そうっスね。\n帰りたい",
+      "before": "……뭔, 뭔가 나올 것 같네요.\n돌아가고 싶어",
+      "after": "……뭔, 뭔가 나올 것 같네요.\n돌아가고 싶슴다",
+      "category": "speaker_voice",
+      "reason": "둘째 문장의 갑작스러운 반말을 니콜의 고유 말투로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-08C0F33C4171A266D33F",
+      "source_text": "癒シノ雨カ死ノ雨ヲ……\n私タチニ……",
+      "before": "치유의 비인가 죽음의 비를……\n우리에게……",
+      "after": "치유의 비나 죽음의 비를……\n우리에게……",
+      "category": "meaning",
+      "reason": "癒シノ雨カ死ノ雨ヲ의 선택 관계를 자연스러운 한국어 조사로 표현했다."
+    },
+    {
+      "tm_id": "ARF-TM-0BCD61E57E26D1BA2876",
+      "source_text": "罪のない\nしかも女性を襲うとは\n卑劣な奴め",
+      "before": "죄도 없는\n그것도 여성을 습격하다니\n비열한 녀석",
+      "after": "죄도 없는\n그것도 여성을 습격하다니\n비열한 놈!",
+      "category": "naturalness",
+      "reason": "비난 대사의 마지막 명사구를 감정 강도에 맞는 완결된 호통으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0C6B32A3FC7DAF0B3553",
+      "source_text": "これがリアル・ディーバなら\n一石二鳥だったのですがねぇ",
+      "before": "이게 리얼의 디바였다면\n일석이조였을 텐데요",
+      "after": "이게 리얼 디바였다면\n일석이조였을 텐데요",
+      "category": "terminology",
+      "reason": "고정 직위명 リアル・ディーバ를 리얼 디바로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1103C73AD0BF5D3F4FB1",
+      "source_text": "私がダグラス卿の義理の姉と知って\nエンジュの命を助けたければ\nこれを持って来いと脅してきたの",
+      "before": "내가 더글러스 경의 의붓누나인 걸 알고\n엔주의 목숨을 살리고 싶으면\n이걸 가져오라고 협박했어",
+      "after": "내가 더글러스 경의 처형이라는 걸 알고\n엔주의 목숨을 살리고 싶으면\n이걸 가져오라고 협박했어",
+      "category": "meaning",
+      "reason": "義理の姉를 더글러스 경의 아내인 엔주의 언니라는 관계에 맞춰 처형으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-113BFB6915E15E8E67D6",
+      "source_text": "……バネトゥも喜ぶでしょう、か",
+      "before": "……바네투도 기뻐하겠지, 인가",
+      "after": "……바네투도 기뻐하겠지……인가",
+      "category": "naturalness",
+      "reason": "앞서 들은 말을 되뇌며 의미를 짚는 독백으로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-1816EEA52E0F8E0B89B5",
+      "source_text": "何も知らない外野はひっこんでな！",
+      "before": "아무것도 모르는 제삼자는 빠져 있어!",
+      "after": "아무것도 모르는 외부인은 빠져 있어!",
+      "category": "naturalness",
+      "reason": "外野를 딱딱한 제삼자 대신 논쟁 밖의 외부인이라는 뜻으로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-18F207DE0FA6A0B29A3A",
+      "source_text": "バネトゥも喜ぶでしょう、ですか。\nアルス様。これはバネトゥの\n契約に影響があるのでは？",
+      "before": "바네투도 기뻐하겠지, 입니까.\n알스님. 이건 바네투와의\n계약에 영향이 있는 것 아닙니까?",
+      "after": "바네투도 기뻐하겠지……라는 말입니까.\n알스 님. 이건 바네투와의\n계약에 영향을 주는 것 아닙니까?",
+      "category": "function",
+      "reason": "앞선 문구를 인용해 계약 조건을 추론하는 질문임을 분명히 하고 존칭 표기를 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-1AA7AD3B6013C6621C0B",
+      "source_text": "今、帝国軍が危険な状態だ",
+      "before": "지금 제국군이 위험한 상태다",
+      "after": "지금 제국군이 위기에 처해 있다",
+      "category": "naturalness",
+      "reason": "위험한 상태라는 직역을 군이 위기에 놓였다는 자연스러운 표현으로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

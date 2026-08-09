@@ -1,0 +1,29 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0042.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0042.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 348,
+  "hangul_characters": "가각간갈감갑강같거걱건걸것게겐겠겨격결경계고곤곳과관괜교구군굴권귀균그금기길까깐깨꺅꾸꿉낌나난날남내낼냐냥너넌네녀년뇌누눈느는능니님다단달당대더던덮데델도독동돼됐되두둘뒤드든들디딜따딱때떤떨뜻라란람랐래랬러런럴럼렇레려력렸로록료룡루르른를름리린림마막만많말맙맞매맨맵멈멍며면명몇모목몬몰몸못무문묻물뭐뭔뭘미민밀바받밝밟밤배버법벨별병보봤부분불비뿐사산살상생서석선설섭성세소속손솔송쇼수숙쉬스슨슬슴습시식신실싫심십싶싸쐬쓰씨아악안않알았앞애야약양어억언없엇었에엣여역연엽였예옛오온와왜왠요용우운웃워원월위으은을음응의이인일임있자잖잠저적전젊점정제젠져졌조좀좋죄죠주죽중줘쥬즉증지직진질집짓짜째쯤차찬찮채책챙처척천청초춘충치친콜크키탁택터텐투특티틱파퍼편평표프플피하한할합해했행험헤혀형혜혼확환회후히",
+  "error_count": 0,
+  "warning_count": 2,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-830FE4E7249E06575A9D",
+      "characters": "ー"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-BFD15E3B45022DE17443",
+      "characters": "ー"
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

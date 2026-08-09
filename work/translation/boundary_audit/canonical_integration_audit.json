@@ -1,0 +1,370 @@
+{
+  "schema": "arf-canonical-boundary-integration-audit-v1",
+  "generated_at": "2026-08-03T14:37:04+09:00",
+  "auditor": "Independent Codex internal-model technical audit",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "requested_snapshot_boundary_audit": {
+    "logical_path_at_assignment": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+    "reconstructed_sha256": "C25EA40505BED4F414AB61D921D94676047851431C825C16022CB32C6AE59360",
+    "expected_sha256": "C25EA40505BED4F414AB61D921D94676047851431C825C16022CB32C6AE59360",
+    "tm_units": 169,
+    "table_fields": 176
+  },
+  "live_boundary_audit_at_completion": {
+    "path": "work/translation/boundary_audit/canonical_system_boundary_audit.json",
+    "sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "tm_units": 235,
+    "table_fields": 242
+  },
+  "overall_status": "PASS_WITH_STATE_NOTE",
+  "check_counts": {
+    "total": 11,
+    "pass": 10,
+    "warn": 1,
+    "fail": 0
+  },
+  "checks": {
+    "canonical_hash_and_component_pins": {
+      "status": "PASS",
+      "canonical_sha256": "C25EA40505BED4F414AB61D921D94676047851431C825C16022CB32C6AE59360",
+      "reconstructed_snapshot_matches_expected_sha256": true,
+      "live_canonical_path_sha256_at_audit": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+      "live_canonical_units_at_audit": 235,
+      "component_pins": [
+        {
+          "path": "work/translation/boundary_audit/batches_0001_0002.json",
+          "sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+          "audited_tm_units": 61,
+          "linked_table_units": 68
+        },
+        {
+          "path": "work/translation/boundary_audit/batches_0003_0004.json",
+          "sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+          "audited_tm_units": 80,
+          "linked_table_units": 80
+        },
+        {
+          "path": "work/translation/boundary_audit/batch_0005.json",
+          "sha256": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+          "audited_tm_units": 28,
+          "linked_table_units": 28
+        }
+      ],
+      "apply_component_pins_verified": 3,
+      "canonical_builder_component_pins_verified": 3,
+      "baseline_snapshot_canonical_pin": "C25EA40505BED4F414AB61D921D94676047851431C825C16022CB32C6AE59360",
+      "baseline_snapshot_pin_matches_requested": true,
+      "current_checkpoint_pin": "C25EA40505BED4F414AB61D921D94676047851431C825C16022CB32C6AE59360"
+    },
+    "canonical_composition": {
+      "status": "PASS",
+      "tm_units": 169,
+      "unique_tm_units": 169,
+      "linked_table_fields": 176,
+      "unique_linked_table_fields": 176,
+      "duplicate_tm_ids": 0,
+      "duplicate_table_ids": 0,
+      "missing_or_extra_vs_components": 0,
+      "components": [
+        {
+          "path": "work/translation/boundary_audit/batches_0001_0002.json",
+          "tm_units": 61,
+          "table_fields": 68
+        },
+        {
+          "path": "work/translation/boundary_audit/batches_0003_0004.json",
+          "tm_units": 80,
+          "table_fields": 80
+        },
+        {
+          "path": "work/translation/boundary_audit/batch_0005.json",
+          "tm_units": 28,
+          "table_fields": 28
+        }
+      ]
+    },
+    "exact_offset_raw_and_clean_source_linking": {
+      "status": "PASS",
+      "tm_units_verified": 169,
+      "table_fields_verified": 176,
+      "occurrence_records_verified": 176,
+      "raw_source_files_verified": 6,
+      "schema_counts": {
+        "ability": 9,
+        "chat": 65,
+        "help": 83,
+        "magic": 8,
+        "special": 1,
+        "todo": 3
+      },
+      "anomaly_counts": {
+        "scanner_skipped_field_prefix": 11,
+        "scanner_included_pre_field_structure_bytes": 158
+      },
+      "verification": "Occurrence membership, offsets, raw byte slices, overlap math, raw-file hashes, structured table records, clean source strings, and capacities all matched."
+    },
+    "reviewed_clean_target_and_capacity_application": {
+      "status": "PASS",
+      "reviewed_units_first_five_batches": 1000,
+      "audited_units_present_and_exact": 169,
+      "audited_units_by_batch": {
+        "batch_0001": 11,
+        "batch_0002": 50,
+        "batch_0003": 40,
+        "batch_0004": 40,
+        "batch_0005": 28
+      },
+      "targets_changed_from_pre_audit_approval": 166,
+      "targets_already_clean": 3,
+      "component_encoded_hex_preserved_under_current_codebook": 168,
+      "fixed_table_fields_checked": 176,
+      "minimum_fixed_field_headroom_bytes": 0,
+      "exact_capacity_fixed_fields": 9,
+      "help_title_fields_checked": 83,
+      "help_295_title": {
+        "translation_ko": "코핀에게 전해진 진실",
+        "payload_bytes": 20,
+        "encoded_hex": "C5BFC7CEBEE0B0C920C1EEC7E8C3C920C3C9BDB6",
+        "required_with_nul": 21,
+        "capacity": 21,
+        "headroom": 0
+      }
+    },
+    "component_application_reports": {
+      "status": "PASS",
+      "component_application_reports": [
+        {
+          "path": "work/translation/boundary_audit/application_report.json",
+          "audit_sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+          "audited_units": 61,
+          "adjustments": 60,
+          "sha256": "2634F894BC741426F7D4185CDD52CAA7370BFD44D1740BBB7F094059FD3A0B99"
+        },
+        {
+          "path": "work/translation/boundary_audit/application_report_0003_0004.json",
+          "audit_sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+          "audited_units": 80,
+          "adjustments": 78,
+          "sha256": "4A9B6AA5E1CB9977DBE8E9693554EF4A25426CAC8956C616B2D7A3953BC1A2C9"
+        },
+        {
+          "path": "work/translation/boundary_audit/application_report_0005.json",
+          "audit_sha256": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+          "audited_units": 28,
+          "adjustments": 28,
+          "sha256": "A2EBF8E8845112298AA69C454869DBB54CC3CADB27702DF16CF1228B63865DFD"
+        }
+      ],
+      "audited_units_total": 169,
+      "adjustment_records_total": 166,
+      "missing_or_extra_adjustment_ids": 0,
+      "reviewed_hash_pins_match": true
+    },
+    "current_translation_memory": {
+      "status": "WARN",
+      "tm_total_units": 29777,
+      "translated_units": 1400,
+      "reviewed_units": 1400,
+      "audited_units_exact": 169,
+      "batch_files": [
+        "batch_0001.jsonl",
+        "batch_0002.jsonl",
+        "batch_0003.jsonl",
+        "batch_0004.jsonl",
+        "batch_0005.jsonl",
+        "batch_0006.jsonl",
+        "batch_0007.jsonl"
+      ],
+      "fit_approved_units": 1400,
+      "fit_matched_unique_units": 1371,
+      "fit_unmatched_system_units": 29,
+      "fit_safe_for_fixed_table_insertion": false,
+      "translation_memory_sha256": "419409512D45D4B4D44A8EFEA2F07635AD21B871EBA1DF742191806542BEE5AA",
+      "coverage_sha256": "5C4CA079FF4A5A10F6B775197EF9076A6F3E036F4D4BBDAECE0C0F217AABAD66",
+      "reason": "Shared live state advanced to batch 0006 after this audit was assigned; the requested 1000-unit snapshot is reconstructed and verified separately."
+    },
+    "five_validators_merge_and_fit": {
+      "status": "PASS",
+      "validators": {
+        "batch_0001": {
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true,
+          "idempotent_report": true
+        },
+        "batch_0002": {
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true,
+          "idempotent_report": true
+        },
+        "batch_0003": {
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true,
+          "idempotent_report": true
+        },
+        "batch_0004": {
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true,
+          "idempotent_report": true
+        },
+        "batch_0005": {
+          "completed_units": 200,
+          "error_count": 0,
+          "warning_count": 0,
+          "valid": true,
+          "idempotent_report": true
+        }
+      },
+      "validator_batches_error_zero": 5,
+      "merge": {
+        "translated_units": 1000,
+        "reviewed_units": 1000,
+        "idempotent_outputs": true,
+        "boundary_metadata_units": 169
+      },
+      "fit_preflight": {
+        "approved_tm_units": 1000,
+        "matched_unique_tm_units": 1000,
+        "matched_table_fields": 1536,
+        "boundary_audit_tm_units_matched": 169,
+        "boundary_audit_table_fields_matched": 176,
+        "fixed_overflow_count": 0,
+        "resizable_table_in_place_overflow_count": 62,
+        "unmatched_system_tm_count": 0,
+        "encoding_error_count": 0,
+        "global_encoding_error_count": 0,
+        "known_fixed_fields_fit": true,
+        "safe_for_fixed_table_insertion": true
+      },
+      "validator_merge_fit_outputs_idempotent": true,
+      "snapshot_1000_reconstruction": {
+        "translation_memory_sha256": "0A66BA11837A1C1E094B05C8166CF6E2F387D22E40BB131F9CBF999828477A7B",
+        "translation_memory_csv_sha256": "EB41A511C6D77E05042386E7C730F390FBCFDF09914A86E0968F134E297789EF",
+        "coverage_sha256": "455C6F7F8F8766CD926C3DAAE74ABF432ACAAB7CC76F31004E3EB8FAB41C1820",
+        "historical_codebook_sha256": "284CA42BE7F27AB8861593B1D9B72399903DCC006876C405A58624973818A313",
+        "normalized_fit_preflight_sha256": "842DF629733548364FD1767A2CD6DD051358F85E639E77727BABE752C54B6040",
+        "matches_pinned_1000_unit_snapshot": true
+      }
+    },
+    "canonical_builder_idempotence_and_pin_rejection": {
+      "status": "PASS",
+      "rebuilt_sha256": "C25EA40505BED4F414AB61D921D94676047851431C825C16022CB32C6AE59360",
+      "matches_canonical_byte_for_byte": true,
+      "second_build_byte_idempotent": true,
+      "modified_component_hash_rejected": true
+    },
+    "component_application_idempotence_and_pin_rejection": {
+      "status": "PASS",
+      "components_tested": 3,
+      "results": [
+        {
+          "component": "work/translation/boundary_audit/batches_0001_0002.json",
+          "batches": [
+            "batch_0001",
+            "batch_0002"
+          ],
+          "audited_units": 61,
+          "second_run_byte_idempotent": true,
+          "modified_audit_hash_rejected": true
+        },
+        {
+          "component": "work/translation/boundary_audit/batches_0003_0004.json",
+          "batches": [
+            "batch_0003",
+            "batch_0004"
+          ],
+          "audited_units": 80,
+          "second_run_byte_idempotent": true,
+          "modified_audit_hash_rejected": true
+        },
+        {
+          "component": "work/translation/boundary_audit/batch_0005.json",
+          "batches": [
+            "batch_0005"
+          ],
+          "audited_units": 28,
+          "second_run_byte_idempotent": true,
+          "modified_audit_hash_rejected": true
+        }
+      ]
+    },
+    "control_token_exception_scope": {
+      "status": "PASS",
+      "canonical_audited_id_count": 169,
+      "audited_structural_exception_id": "ARF-TM-00B9C7C59B369D5EE2EB",
+      "audited_exception_passes_only_with_canonical_audit": true,
+      "non_audited_control_mismatch_id": "ARF-TM-7C50BE886780C7DF7434",
+      "non_audited_mismatch_rejected_by_validator": true,
+      "non_audited_mismatch_rejected_by_merger": true,
+      "release_pin_mitigates_caller_supplied_audit_trust": true
+    },
+    "review_sidecar_provenance_metadata": {
+      "status": "PASS",
+      "correct_sidecars": 5,
+      "incorrect_sidecars": 0,
+      "component_source_paths_and_sha256_match": true
+    }
+  },
+  "failures": [],
+  "findings": [],
+  "state_notes": [
+    {
+      "id": "LIVE_STATE_ADVANCED_DURING_AUDIT",
+      "functional_defect": false,
+      "detail": "Shared live state advanced to batch 0006 after this audit was assigned; the requested 1000-unit snapshot is reconstructed and verified separately.",
+      "live_state": {
+        "translated_units": 1400,
+        "reviewed_units": 1400,
+        "batch_files": [
+          "batch_0001.jsonl",
+          "batch_0002.jsonl",
+          "batch_0003.jsonl",
+          "batch_0004.jsonl",
+          "batch_0005.jsonl",
+          "batch_0006.jsonl",
+          "batch_0007.jsonl"
+        ],
+        "fit_approved_units": 1400,
+        "fit_matched_unique_units": 1371,
+        "fit_unmatched_system_units": 29,
+        "fit_safe": false
+      }
+    }
+  ],
+  "input_sha256": {
+    "work/translation/boundary_audit/canonical_system_boundary_audit.json": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+    "work/translation/boundary_audit/batches_0001_0002.json": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+    "work/translation/boundary_audit/batches_0003_0004.json": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+    "work/translation/boundary_audit/batch_0005.json": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+    "work/translation/boundary_audit/application_report.json": "2634F894BC741426F7D4185CDD52CAA7370BFD44D1740BBB7F094059FD3A0B99",
+    "work/translation/boundary_audit/application_report_0003_0004.json": "4A9B6AA5E1CB9977DBE8E9693554EF4A25426CAC8956C616B2D7A3953BC1A2C9",
+    "work/translation/boundary_audit/application_report_0005.json": "A2EBF8E8845112298AA69C454869DBB54CC3CADB27702DF16CF1228B63865DFD",
+    "work/translation/reviewed/batch_0001.jsonl": "7EBB22A7017CC14D1A133F806CE2197E55A3E2481077B4494171014C7EF135AB",
+    "work/translation/reviewed/batch_0002.jsonl": "422DC33FAAE578EADAF5102CBE34C170423E71E0A45C278F587F77620433BE63",
+    "work/translation/reviewed/batch_0003.jsonl": "3121E26E086B697C9F97BCC75ED3683B994CB86A4ABAEFA6F97AAFD9A2581302",
+    "work/translation/reviewed/batch_0004.jsonl": "2B0ACF14211E87DC7348AFF253FB5A719692373764DB82E3AA2411F90BC8CC1B",
+    "work/translation/reviewed/batch_0005.jsonl": "FDD35157505093D8F849759253A63C03CC1FA7F0E6740310A5CD0F04DEBE30F0",
+    "work/translation/current/translation_memory_draft.json": "EA80A6C38B6FDEE64997F6BE9D9E2314F1198032AFE44D299BDDC0D1EDC3CC3F",
+    "work/translation/current/coverage.json": "5C4CA079FF4A5A10F6B775197EF9076A6F3E036F4D4BBDAECE0C0F217AABAD66",
+    "work/font/canonical_v1/codebook.json": "C2B3EFD964B88FB58B166AEE72EC655DCBBE0E6245A7B69AFFA22F96EF55851A",
+    "work/font/canonical_v1/codebook_before_batch_0006.json": "284CA42BE7F27AB8861593B1D9B72399903DCC006876C405A58624973818A313",
+    "work/font/canonical_v1/fit_preflight.json": "1A94C05F2C3411CE1E93053DC5803831B0A09093538A7124F3CF45BF8DCCBB11",
+    "work/research/apply_boundary_audit.py": "FF8D2C7B374D34C70AEE13B8EB155C852CD625DCB73A116C3A4DB47315B4B0AC",
+    "work/research/apply_boundary_audit_0003_0004.py": "2BE6E03E90022D00799DBD8E4E3813129B62909C4828ED49D747E97F13560589",
+    "work/research/apply_boundary_audit_0005.py": "EB1D216F6A7F6E144145813BE09DA90FD9D0178802033C4128955D4675EDDA91",
+    "work/research/build_canonical_boundary_audit.py": "3778EF3BFE5CD61A6B22D78D1AB26F7E1402FDF1524057BA7B131987C6AA004D",
+    "work/research/validate_translation_batch.py": "F737FB4DE8250A52670D1FE0C0E4BA609B3CEA437A4A659C6A575C3F319F4580",
+    "work/research/merge_translation_batches.py": "31BE0001A2AC005A62CEB6100CA269865391CF03CB554E41077560A0F0DBD2F2",
+    "work/research/check_translation_fit.py": "AF62002DDD574C645B8C228A2B97CE8A5BF280F06832723FFF1A5E6A7DC755B5",
+    "work/research/build_checkpoint.py": "99C3F2CED7E2967F7B9C93AEF05FA5CF1F1A57E1EDC7DA1E01483F06272C160B",
+    "work/project/baseline_manifest.json": "E2E04B0D3811F5DD57CEC6E50C4E33E9429B91CDD5DB4087B5EB4E8AAC6389C9"
+  }
+}

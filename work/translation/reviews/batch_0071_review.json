@@ -1,0 +1,252 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0071",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0071.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0071.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0071.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 24,
+  "unchanged_row_count": 176,
+  "modifications": [
+    {
+      "row_index": 8,
+      "tm_id": "ARF-TM-2A8A2E8F43570701702D",
+      "source_text": "■■カット13-18■■\n",
+      "before": "■■컷 13-18■■\n",
+      "after": "■■컷13-18■■\n",
+      "category": "formatting",
+      "reason": "내부 컷 표식에 추가된 불필요한 공백을 제거했다."
+    },
+    {
+      "row_index": 14,
+      "tm_id": "ARF-TM-2C526DB3A72354A7BA4D",
+      "source_text": "あの様子だと、あたしより３、４年は\n先に目が覚めたんだと思う",
+      "before": "저 상태라면 나보다 ３, ４년은\n먼저 깨어났다고 봐",
+      "after": "저 상태라면 나보다 ３, ４년은\n먼저 깨어났을 거야",
+      "category": "naturalness",
+      "reason": "추정형 시제와 구어체를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 19,
+      "tm_id": "ARF-TM-2D75E826AEA30111097E",
+      "source_text": "いたとしても\n軍属なんじゃないスか？",
+      "before": "있다 해도\n군 소속 아닙니까?",
+      "after": "있다 해도\n군 소속 아니겠슴까?",
+      "category": "register",
+      "reason": "니콜의 말버릇과 추정형 어조를 일치시켰다."
+    },
+    {
+      "row_index": 53,
+      "tm_id": "ARF-TM-35BB39FF44159CD8D438",
+      "source_text": "私が何も……知らなかった\n……か……ら",
+      "before": "내가 아무것도…… 몰랐\n……기…… 때\n문이야",
+      "after": "내가 아무것도…… 몰랐기\n……때……문이야",
+      "category": "formatting",
+      "reason": "단어가 비정상적으로 네 줄로 분리된 번역을 원문의 두 줄과 말더듬에 맞게 복원했다."
+    },
+    {
+      "row_index": 61,
+      "tm_id": "ARF-TM-387AA9397626F56FA326",
+      "source_text": "この地に倒れし猛けき者。\n目覚めよ、カオスの名の下に！",
+      "before": "이 땅에 쓰러진 용맹한 자여.\n깨어나라, 카오스의 이름 아래!",
+      "after": "이 땅에 쓰러진 용맹한 자여.\n깨어나라, 카오스의 이름으로!",
+      "category": "register",
+      "reason": "의식문에 자연스러운 호격과 명령형을 적용했다."
+    },
+    {
+      "row_index": 69,
+      "tm_id": "ARF-TM-399A322C879D3F43DBA8",
+      "source_text": "……あなたはイーサの子。\nシムマフがあなたの元に\n下ったのですね",
+      "before": "……당신은 이사의 아이.\n심마프가 당신에게\n내려온 것이군요",
+      "after": "……당신은 이사의 아이.\n심마프가 당신의 휘하에\n들어온 것이군요",
+      "category": "semantic_accuracy",
+      "reason": "元に下る를 복종 관계라는 설정 문맥에 맞게 옮겼다."
+    },
+    {
+      "row_index": 82,
+      "tm_id": "ARF-TM-3BC1DB44FAE43D06178D",
+      "source_text": "それって確か\n滅びじゃなかったでしたっけ？",
+      "before": "그건 분명\n멸망 아니었던가요?",
+      "after": "그건 분명\n멸망 아니었슴까?",
+      "category": "register",
+      "reason": "니콜의 일관된 말버릇을 적용했다."
+    },
+    {
+      "row_index": 85,
+      "tm_id": "ARF-TM-3CBFBC2DB7ECEF7706D6",
+      "source_text": "１番酷いのは街の人間の定員を\n決めて、それを越えた住民は……",
+      "before": "１번 끔찍한 건 도시의 인원 제한을\n정하고, 이를 넘은 주민은……",
+      "after": "가장 끔찍한 건 도시의 정원을\n정해 놓고, 그 수를 넘은 주민은……",
+      "category": "semantic_accuracy",
+      "reason": "１番을 순번이 아닌 최상급으로 바로잡고 定員을 정원으로 옮겼다."
+    },
+    {
+      "row_index": 96,
+      "tm_id": "ARF-TM-3EE2BD7C39C87359C54B",
+      "source_text": "サージュの見張りはいいの？",
+      "before": "사쥬 감시는 괜찮아?",
+      "after": "사쥬 감시는 안 해도 돼?",
+      "category": "semantic_accuracy",
+      "reason": "見張りはいいの의 생략된 확인 의미를 분명히 했다."
+    },
+    {
+      "row_index": 100,
+      "tm_id": "ARF-TM-3F734423D65AC66BDD05",
+      "source_text": "あのね、リフィア。海は時間帯で\n海面の高さが変わるの。\nそれを潮と呼ぶのよ",
+      "before": "있잖아, 리피아. 바다는 시간대에 따라\n해수면 높이가 달라져.\n그걸 조수라고 해",
+      "after": "있잖아, 리피아. 바다는 시간대에 따라\n해수면 높이가 달라져.\n그걸 밀물과 썰물이라고 해",
+      "category": "terminology",
+      "reason": "潮를 자연 현상의 통용어로 풀어 썼다."
+    },
+    {
+      "row_index": 102,
+      "tm_id": "ARF-TM-401C10DC46E027587A7D",
+      "source_text": "……今はちょっとだけ\n事情が違うかもネ♪",
+      "before": "……지금은 사정이\n조금 다를지도 몰라♪",
+      "after": "……지금은 조금\n사정이 다를지도 모르지♪",
+      "category": "naturalness",
+      "reason": "원문의 줄 호흡과 장난스러운 종결을 살렸다."
+    },
+    {
+      "row_index": 118,
+      "tm_id": "ARF-TM-427D999486D30B6A7B95",
+      "source_text": "リフィア!?\nくっそ、あいつ何を焦ってるんだ！",
+      "before": "리피아!?\n젠장, 그 녀석 왜 서두르는 거야!",
+      "after": "리피아!?\n젠장, 그 녀석 왜 저렇게 초조해하지!",
+      "category": "semantic_accuracy",
+      "reason": "焦る를 단순 이동이 아닌 초조함으로 옮겼다."
+    },
+    {
+      "row_index": 133,
+      "tm_id": "ARF-TM-4606A3243976A01F7CFF",
+      "source_text": "余計なことをしたのは\nサージュじゃない。\nみすみすグラをくれてやるなんて",
+      "before": "쓸데없는 짓을 한 건\n사쥬가 아니야.\n뻔히 그라를 넘겨주다니",
+      "after": "쓸데없는 짓을 한 건\n사쥬가 아니야.\n뻔히 그라를 넘겨주고 말이야",
+      "category": "naturalness",
+      "reason": "비난하는 구어체의 연결을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 137,
+      "tm_id": "ARF-TM-46643BDFEF70D36FB00B",
+      "source_text": "イーサ神の元に定理を選ぶのは\nイーサの子の意志だけ",
+      "before": "이사신 아래에서 섭리를 고르는 건\n이사의 아이의 의지뿐이야",
+      "after": "이사신께 바칠 섭리를 고르는 건\n이사의 아이의 의지뿐이야",
+      "category": "semantic_accuracy",
+      "reason": "イーサ神の元に의 목적 관계를 명확히 했다."
+    },
+    {
+      "row_index": 145,
+      "tm_id": "ARF-TM-4808819E94A731838F6A",
+      "source_text": "ホゾンで汚染された大地でしか\n住めぬ人間もどきだからこそ\nリアルの定理に惑わされる",
+      "before": "호존에 오염된 대지에서만\n살 수 있는 인간 흉내이기에\n리얼의 섭리에 현혹되는 것이다",
+      "after": "호존에 오염된 대지에서만\n살 수 있는 유사 인간이기에\n리얼의 섭리에 현혹되는 것이다",
+      "category": "semantic_accuracy",
+      "reason": "人間もどきを 경멸적이면서도 의미가 분명한 표현으로 옮겼다."
+    },
+    {
+      "row_index": 152,
+      "tm_id": "ARF-TM-496FBD3F0A205BA086BA",
+      "source_text": "今でもイマジナル神の元では\n何十万という人々が\n眠りについている",
+      "before": "지금도 이매지널신 아래에서는\n수십만 명이나 되는 사람들이\n잠들어 있어",
+      "after": "지금도 이매지널신 곁에서는\n수십만 명이나 되는 사람들이\n잠들어 있어",
+      "category": "naturalness",
+      "reason": "神の元의 위치 관계를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 160,
+      "tm_id": "ARF-TM-4AC7B1E138793F5CEE71",
+      "source_text": "議長ならもうこの世にいない筈ですよ。\n例のディスクを残してね",
+      "before": "의장이라면 이미 이 세상에 없을 겁니다.\n그 디스크를 남기고 갔죠",
+      "after": "의장이라면 이미 이 세상에 없을 겁니다.\n그 디스크를 남긴 채로요",
+      "category": "naturalness",
+      "reason": "문장 끝의 ね를 부드러운 설명조로 반영했다."
+    },
+    {
+      "row_index": 164,
+      "tm_id": "ARF-TM-4B5BC69EB97DB1F1AF1C",
+      "source_text": "……ギルダブが\nあなたの元に下ったのか。\nならば、私も従いましょう",
+      "before": "……길다브가\n당신에게 내려왔군요.\n그렇다면 저도 따르겠습니다",
+      "after": "……길다브가\n당신의 휘하에 들어왔군요.\n그렇다면 저도 따르겠습니다",
+      "category": "semantic_accuracy",
+      "reason": "복종 관계를 나타내는 元に下る를 정확히 옮겼다."
+    },
+    {
+      "row_index": 170,
+      "tm_id": "ARF-TM-4CD34214F570E960634B",
+      "source_text": "では私がラルクに対し\nコード制御による洗脳を施します",
+      "before": "그럼 제가 라르크에게\n코드 제어로 세뇌를 시행하겠습니다",
+      "after": "그럼 제가 라르크에게\n코드 제어로 세뇌를 걸겠습니다",
+      "category": "naturalness",
+      "reason": "施す를 세뇌를 건다는 자연스러운 결합으로 고쳤다."
+    },
+    {
+      "row_index": 171,
+      "tm_id": "ARF-TM-4D3AB2DC7B95DEAFCD8E",
+      "source_text": "それじゃあって\nどこ行くんだよ",
+      "before": "그럼 이라니\n어디 가는 거야",
+      "after": "그럼이라니\n어디 가는 거야",
+      "category": "formatting",
+      "reason": "인용된 접속 표현의 불필요한 띄어쓰기를 바로잡았다."
+    },
+    {
+      "row_index": 180,
+      "tm_id": "ARF-TM-4F36B8A9C3009A6342C9",
+      "source_text": "相変わらず、おかしな動き方を\nなさいますね、教主リューズ様",
+      "before": "여전히 이상하게\n움직이시는군요, 교주 류즈 님",
+      "after": "여전히 이상한 행보를\n보이시는군요, 교주 류즈 님",
+      "category": "semantic_accuracy",
+      "reason": "動き方를 인물의 수상한 행보라는 문맥에 맞게 옮겼다."
+    },
+    {
+      "row_index": 186,
+      "tm_id": "ARF-TM-509D361629CEBB791A89",
+      "source_text": "……考えてても分からないか",
+      "before": "……생각해 봐도 모르겠나",
+      "after": "……생각해 봐도 모르겠어",
+      "category": "naturalness",
+      "reason": "화자의 독백형 결론을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 191,
+      "tm_id": "ARF-TM-511F27950D9C535FCE31",
+      "source_text": "殿下……このクライドめも\n駐屯軍を率いておりながら\nこのようなことに……",
+      "before": "전하…… 이 클라이드도\n주둔군을 이끌고 있으면서\n이런 일을……",
+      "after": "전하…… 주둔군을 이끄는\n이 클라이드가 이런 사태를\n초래하고 말다니……",
+      "category": "semantic_accuracy",
+      "reason": "자책하는 미완 문장의 생략 의미를 보충했다."
+    },
+    {
+      "row_index": 192,
+      "tm_id": "ARF-TM-513365CEBFADE1067E55",
+      "source_text": "私もお母様やしもべたちが\n殺されたとき、ショックだった。\n悲しみはみんな同じだわ",
+      "before": "나도 어머니와 하인들이\n살해당했을 때 충격받았어.\n슬픔은 누구에게나 같아",
+      "after": "나도 어머니와 하인들이\n살해당했을 때 충격받았어.\n슬픔은 모두에게 똑같아",
+      "category": "naturalness",
+      "reason": "보편적 슬픔을 나타내는 문장을 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

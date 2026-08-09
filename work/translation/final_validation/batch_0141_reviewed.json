@@ -1,0 +1,34 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0141.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0141.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 283,
+  "hangul_characters": "가각값같거건걸것게겠계고곳과관광괜괴구군그기길깃까께뀌낌나남낫내낸너널네넵녀노높놔누느는니닌닐님다단달담당대더데델도되두둘둬드든들듯디딘따때떤뜻라람래랩러럴럼렇려례로롭루르른를리린릴림립마만말맙매맵맺메멤면모무문물뭐미민바밖반받방배버번벌베벤보봐봤부분불브비빨뻤뿐사살상생서석설섭세셋션소속손수술쉬스슨슴습시식신실심십아악안않알았앰야약양어억언얼없에엘여역오와왓왔왜요용우운워월웠으은을음응의이인일임입있자잖장재저적전정제젝젠졌조족종좋주죽줘지진짜쩌쩍착찮처철쳇초출충치친침카컷케코콜퀘크큰클타탁탈터테텐트틀팔페펙편폐포표프플피필하한할함합핫해했행향형혹화확환획히힐",
+  "error_count": 0,
+  "warning_count": 3,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-DE1417DAB77F744D5902",
+      "characters": "・"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-E81156F402ED6E324B14",
+      "characters": "・"
+    },
+    {
+      "code": "japanese_remaining",
+      "tm_id": "ARF-TM-D977527E919942D7BF21",
+      "characters": "・"
+    }
+  ],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

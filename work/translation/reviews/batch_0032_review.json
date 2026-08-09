@@ -1,0 +1,168 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0032",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_batch_0008",
+  "draft_author": "/root/translate_batch_0008",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0032.jsonl",
+  "draft": "work/translation/drafts/batch_0032.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0032.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 16,
+  "unchanged_units": 184,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-6F34EA6F780CAEA96EDB",
+      "source_text": "……奥から冷気を感じるな。\n相当深い鍾乳洞やもしれぬ",
+      "before": "……안쪽에서 냉기가 느껴지는군.\n상당히 깊은 종유동굴일지도 모르겠어",
+      "after": "……안쪽에서 냉기가 느껴지는군.\n상당히 깊은 종유동굴일지도 모르겠군",
+      "category": "speaker_voice",
+      "reason": "고풍스럽고 단정적인 화자의 말투를 일관되게 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-70A9F703990668CBCED4",
+      "source_text": "僕は覚えてるよ。\nザムエル先生と皆で\n鍛錬のために山に登ったこと",
+      "before": "나는 기억해.\n자무엘 선생님과 모두\n수련하려고 산에 올랐던 일을",
+      "after": "나는 기억해.\n자무엘 선생님과 다 같이\n수련하러 산에 올랐던 일을",
+      "category": "naturalness",
+      "reason": "皆で의 함께했다는 뜻과 목적 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-70C1F7C3ACCCEFC4A687",
+      "source_text": "がく……ぶる？",
+      "before": "덜덜……떨?",
+      "after": "덜……덜?",
+      "category": "meaning",
+      "reason": "앞 문장의 ガクブル를 되묻는 말장난을 한국어 의태어로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-72D01B97EC3E4E62A902",
+      "source_text": "父か……それならよかろう。\n私にも経験があるのでな",
+      "before": "아버지인가…… 그렇다면 좋다.\n나도 경험이 있어서",
+      "after": "아버지인가…… 그렇다면 괜찮겠군.\n나도 경험이 있으니까 말이지",
+      "category": "speaker_voice",
+      "reason": "고풍스러운 화자의 종결 어조와 설명의 완결성을 맞췄다."
+    },
+    {
+      "tm_id": "ARF-TM-738AA8729D6B57387361",
+      "source_text": "いつまでも迷ってるかと思えば\n意外と刹那的だったり",
+      "before": "언제까지나 헤매는가 싶더니\n의외로 찰나적이기도 하고",
+      "after": "언제까지나 헤매는가 싶더니\n의외로 순간만 생각하기도 하고",
+      "category": "meaning",
+      "reason": "刹那的을 생소한 직역어 대신 순간만 중시한다는 뜻으로 풀었다."
+    },
+    {
+      "tm_id": "ARF-TM-73A238AE0215A2BEAA8B",
+      "source_text": "サージュ\nあんたも気楽ねえ……",
+      "before": "사쥬\n당신도 느긋하네……",
+      "after": "사쥬\n너도 참 태평하네……",
+      "category": "speaker_voice",
+      "reason": "あんた의 친근하고 타박하는 반말 어조를 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-74AC02BDD7672E23D16D",
+      "source_text": "わかるような気がします。\n今はきちんと理解していないけれど\nあなたの言うことが……",
+      "before": "알 것 같아.\n지금은 제대로 이해하진 못하지만\n네가 하는 말이……",
+      "after": "알 것 같습니다.\n지금은 제대로 이해하지 못하지만\n당신이 하신 말이……",
+      "category": "speaker_voice",
+      "reason": "원문의 정중한 화법을 세 행 전체에 일관되게 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-753851C6639F67A5EDC4",
+      "source_text": "バトラキテスのためだけじゃない。\nメリディアのためでもある",
+      "before": "바트라키테스만을 위해서가 아니야.\n메리디아를 위해서이기도 해",
+      "after": "바트라키테스만을 위해서가 아니야.\n메리디아를 위해서도 그래",
+      "category": "naturalness",
+      "reason": "대조되는 두 대상을 자연스러운 한국어로 연결했다."
+    },
+    {
+      "tm_id": "ARF-TM-7594C96485F4B9F6DA69",
+      "source_text": "私はどうしていればいい？",
+      "before": "난 어떻게 하고 있으면 돼?",
+      "after": "난 어떻게 하면 돼?",
+      "category": "naturalness",
+      "reason": "행동 지침을 묻는 질문으로 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7620FD96E3A979596662",
+      "source_text": "あなたならきっとなれるわ。\n皆に慕われる勇者様に",
+      "before": "너라면 분명 될 수 있어.\n모두에게 사랑받는 용사님이",
+      "after": "너라면 분명 될 수 있어.\n모두에게 사랑받는 용사님으로",
+      "category": "particle",
+      "reason": "될 수 있다는 서술과 이어지도록 보격 표현을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-762AF9F23F423BA4B425",
+      "source_text": "まあ、眉間の険しいところなんかは\n似てるっていやあ、似てるかな",
+      "before": "뭐, 미간이 험한 부분은\n닮았다면 닮았나",
+      "after": "뭐, 미간을 험악하게 찌푸리는 건\n닮았다면 닮았으려나",
+      "category": "naturalness",
+      "reason": "표정을 가리키는 문장을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-766B52E0E3DDD3633E23",
+      "source_text": "いやー、セシルはとにかくとして\nリフィアちゃんのやらされてる感が\nたまんないっスー",
+      "before": "아니ー, 세실은 그렇다 치고\n리피아가 억지로 하는 느낌이\n못 참겠슴다ー",
+      "after": "아니ー, 세실은 그렇다 치고\n리피아가 억지로 하는 듯한 느낌이\n참을 수 없이 좋슴다ー",
+      "category": "meaning",
+      "reason": "たまんない가 불쾌함이 아니라 너무 좋아 견딜 수 없다는 뜻임을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-7728287A11A18D6DB21B",
+      "source_text": "それに、皆で遊んだ方が楽しいしね",
+      "before": "게다가 다 같이 노는 편이 즐겁고",
+      "after": "게다가 다 같이 노는 편이 더 즐거우니까",
+      "category": "meaning",
+      "reason": "方が의 비교 의미와 しね의 이유 제시를 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-7A06231DCAF3EEFB50FD",
+      "source_text": "ちゃんづけかよ。\nまぁな。\nいつまでもガタガタ言ってられねぇし",
+      "before": "짱 붙이지 마.\n뭐 그렇지.\n언제까지고 불평할 순 없고",
+      "after": "짱까지 붙여 부르냐.\n뭐, 그렇지.\n언제까지 불평만 할 순 없고",
+      "category": "meaning",
+      "reason": "ちゃんづけかよ를 호칭을 금지하는 말이 아니라 놀라며 지적하는 말로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7A2BF0A50EC311D279B8",
+      "source_text": "それがね……拍子抜けなの。\nきれいなお姉さんが\nあられもない姿を見せてるのに",
+      "before": "근데 말이야…… 김빠진다니까.\n예쁜 언니가\n꼴사나운 모습을 보여 주는데",
+      "after": "근데 말이야…… 김빠진다니까.\n예쁜 언니가\n민망한 모습을 보여 주는데",
+      "category": "meaning",
+      "reason": "あられもない姿를 꼴사납다가 아니라 민망하게 드러난 모습으로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-7BEA3A806E881CE43FFF",
+      "source_text": "失われた彼の命――",
+      "before": "잃어버린 그의 목숨――",
+      "after": "그가 잃은 목숨――",
+      "category": "naturalness",
+      "reason": "목숨을 분실물처럼 표현하지 않도록 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

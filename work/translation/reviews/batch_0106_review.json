@@ -1,0 +1,136 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0106",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/review_batch_0058_0060",
+  "draft_author": "/root/review_batch_0058_0060",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0106.jsonl",
+  "draft": "work/translation/drafts/batch_0106.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0106.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 12,
+  "unchanged_units": 188,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-76C13F6003B19D4A115C",
+      "source_text": "私、見たんだよ。\nジャダが襲われた時に\n剣をとって戦ってくれた人たち――<$0C>二刀流で敵を薙ぐ男と\n大きな剣を携えた若者……\n――いや、２人とも見事な腕前でね",
+      "before": "나 봤어.\n자다가 습격당했을 때\n검을 들고 싸워 준 사람들――<$0C>쌍검으로 적을 쓸어버린 남자와\n큰 검을 든 젊은이……\n――둘 다 훌륭한 솜씨였지",
+      "after": "나 봤어.\n자다가 습격당했을 때\n검을 들고 싸워 준 사람들――<$0C>쌍검으로 적을 쓸어버린 남자와\n큰 검을 든 젊은이……\n――２명 모두 훌륭한 솜씨였지",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 「２」를 복원하면서 문장 의미와 줄바꿈을 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-77345C31F484133AB875",
+      "source_text": "もうしないわ！\n足手まといにはならないから！",
+      "before": "이제 안 그럴게!\n방해가 되지 않을 테니까!",
+      "after": "이제 안 그럴게!\n짐이 되지 않을 테니까!",
+      "category": "meaning",
+      "reason": "「足手まとい」를 단순한 방해가 아니라 동료에게 짐이 되는 의미로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-77D59CDEFD7DC12BE79C",
+      "source_text": "この先は詰め所です。\n共和国を打倒するために\n兵たちが英気を養っています",
+      "before": "이 앞은 초소입니다.\n공화국을 타도하기 위해\n병사들이 영기를 기르고 있습니다",
+      "after": "이 앞은 초소입니다.\n공화국을 타도하기 위해\n병사들이 기력을 보충하고 있습니다",
+      "category": "natural_korean",
+      "reason": "「英気を養う」의 뜻을 자연스러운 한국어 관용 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-78256E20893EF2824A73",
+      "source_text": "まさか、メリディア家の人間が\nこのオパルスの街を\n救ってくれるなんて意外だったよ<$0C>人間は血によって\n縛られるにあらず――か<$0C>アルフォンス・メリディアではなく\nただの『アルス様』だったら\n私も全力で応援しようと思う",
+      "before": "설마 메리디아가 사람이\n이 오팔루스 도시를\n구해 줄 줄은 몰랐어<$0C>인간은 피에\n얽매이는 존재가 아니다――인가<$0C>알폰스 메리디아가 아니라\n그저 『알스 님』이라면\n나도 전력을 다해 응원할게",
+      "after": "설마 메리디아 가문의 사람이\n이 오팔루스 도시를\n구해 줄 줄은 몰랐어<$0C>인간은 피에\n얽매이는 존재가 아니다――인가<$0C>알폰스 메리디아가 아니라\n그저 『알스 님』이라면\n나도 전력을 다해 응원할게",
+      "category": "grammar",
+      "reason": "「メリディア家」를 ‘메리디아 가문’으로 옮겨 잘못된 조사 결합을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-78ABAD5B99AD21A33A56",
+      "source_text": "今日は憧れの先輩に告白するの。\nああ……胸のドキドキが止まらない！\n神様――私に勇気をちょうだいッ！",
+      "before": "오늘은 동경하던 선배에게 고백할 거야.\n아아…… 가슴이 두근거려 멈추지 않아!\n신이시여――제게 용기를 주세요!",
+      "after": "오늘은 동경하던 선배에게 고백할 거야.\n아아…… 가슴 두근거림이 멈추지 않아!\n신이시여――제게 용기를 주세요!",
+      "category": "natural_korean",
+      "reason": "가슴과 두근거림의 서술 관계를 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-78BA7C234FA626D51317",
+      "source_text": "確か、厄介な相手だったんじゃない？",
+      "before": "분명 까다로운 상대였지 않아?",
+      "after": "분명 까다로운 상대였던 거 아니야?",
+      "category": "grammar",
+      "reason": "부정 의문문의 잘못된 시제 결합을 자연스럽게 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-78E362EAE4F842BBEF97",
+      "source_text": "歴史的な観点からみても\n今の帝国のような統制経済が\nうまくいった試しはありません<$0C>……僕の個人的な意見ですが\nアルス皇帝の新帝国憲章は\n稚拙な愚策だと思います",
+      "before": "역사적인 관점에서 봐도\n지금 제국 같은 통제 경제가\n잘된 사례는 없습니다<$0C>……제 개인적인 의견입니다만\n알스 황제의 신제국 헌장은\n졸렬한 졸책이라고 생각합니다",
+      "after": "역사적인 관점에서 봐도\n지금 제국 같은 통제 경제가\n잘된 사례는 없습니다<$0C>……제 개인적인 의견입니다만\n알스 황제의 신제국 헌장은\n미숙한 졸책이라고 생각합니다",
+      "category": "natural_korean",
+      "reason": "「稚拙な愚策」의 중복 직역을 피하면서 미숙한 정책이라는 평가를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-7912C49FB24C450DA180",
+      "source_text": "アルス皇子だっけ？<$0C>演説はご立派だったけどさ\n具体的なことって\n何ひとつ言ってなくない？<$0C>大人ってバカだよねえ。\nあんな言葉で簡単に\n信奉者になってくれるんだから",
+      "before": "알스 황자였나?<$0C>연설은 훌륭했지만\n구체적인 이야기는\n하나도 안 하지 않았어?<$0C>어른들은 바보라니까.\n그런 말에 간단히\n신봉자가 되어 주잖아",
+      "after": "알스 황자였나?<$0C>연설은 훌륭했지만\n구체적인 건\n하나도 말하지 않았잖아?<$0C>어른들은 바보라니까.\n그런 말에 쉽게\n신봉자가 되어 주잖아",
+      "category": "grammar",
+      "reason": "「何ひとつ言ってなくない？」의 반문을 자연스러운 한국어 부정 의문문으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-7912C720861B853D73EF",
+      "source_text": "ピンチをチャンスに変えるのが\n一流の行商人――<$0C>砂漠に迷い込んだのであれば\nここでしか採れない名産品を\nたんまり持って帰ってやりますよ",
+      "before": "위기를 기회로 바꾸는 게\n일류 행상인――<$0C>사막에서 길을 잃었다면\n여기서만 나는 특산품을\n잔뜩 가져가 주겠어",
+      "after": "위기를 기회로 바꾸는 게\n일류 행상인――<$0C>사막에서 길을 잃었다면\n여기서만 나는 특산품을\n잔뜩 챙겨서 돌아가겠습니다",
+      "category": "voice",
+      "reason": "원문의 정중한 상인 말투를 끝까지 유지하고 마지막 동작을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-792BA4A097635DF39E6B",
+      "source_text": "……やっぱ、ここも\n帝国に制圧されてるんスね",
+      "before": "……역시 여기도\n제국에 제압됐군요",
+      "after": "……역시 여기도\n제국에 제압돼 있슴다",
+      "category": "character_voice",
+      "reason": "니콜의 「～ッス」 말투를 프로젝트 표기인 ‘~슴다’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7A1E82156CAF9EBE8012",
+      "source_text": "最近、三角関係にはまっています。\nこちらを立てれば、あちらが立たず\n両者に挟まれて苦心するというアレ<$0C>なかなかに複雑な状況ですが\nそこを楽しむ余裕が必要と思います<$0C>この状況さえ脱すれば\nコピンは一皮むけているはずです",
+      "before": "요즘 삼각관계에 빠졌습니다.\n이쪽을 세우면 저쪽이 서지 않고\n양쪽 사이에 끼어 고생한다는 그거<$0C>상당히 복잡한 상황이지만\n그걸 즐길 여유가 필요하다고 봅니다<$0C>이 상황만 벗어나면\n코핀은 한 꺼풀 벗겨졌을 겁니다",
+      "after": "요즘 삼각관계에 빠졌습니다.\n이쪽을 세우면 저쪽이 서지 않고\n양쪽 사이에 끼어 고생한다는 그거<$0C>상당히 복잡한 상황이지만\n그걸 즐길 여유가 필요하다고 봅니다<$0C>이 상황만 벗어나면\n코핀은 한층 성장해 있을 겁니다",
+      "category": "idiom",
+      "reason": "「一皮むける」를 문자 그대로 옮기지 않고 한층 성장한다는 관용 의미로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-7A84AF348EE0D5676EA1",
+      "source_text": "アルス皇帝には失望よ。\n何よ、新帝国憲章って……\n……バカバカしい！<$0C>１人でも多くの人たちを\n処刑するための法律にしか\n見えないわ",
+      "before": "알스 황제에게 실망했어.\n뭐야, 신제국 헌장이라니……\n……바보 같아!<$0C>한 명이라도 더 많은 사람을\n처형하기 위한 법으로밖에\n보이지 않아",
+      "after": "알스 황제에게 실망했어.\n뭐야, 신제국 헌장이라니……\n……바보 같아!<$0C>１명이라도 더 많은 사람을\n처형하기 위한 법으로밖에\n보이지 않아",
+      "category": "numeric_fidelity",
+      "reason": "원문의 전각 숫자 「１」을 번역문에 복원했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

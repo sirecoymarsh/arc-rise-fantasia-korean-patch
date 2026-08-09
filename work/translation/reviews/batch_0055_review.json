@@ -1,0 +1,224 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0055",
+  "reviewer": "/root/translate_batch_0008",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0055.jsonl",
+  "draft": "work/translation/drafts/batch_0055.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0055.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 23,
+  "unchanged_units": 177,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-E0358715E732787DA330",
+      "source_text": "……そう。これが開ければ\nＱＥＤの正体や、聖皇と通じている\n現元老院議員の正体",
+      "before": "……그래. 이걸 열 수 있다면\nQED의 정체와 성황과 내통하는\n현직 원로원 의원의 정체",
+      "after": "……그래. 이걸 열 수 있다면\nＱＥＤ의 정체와 성황과 내통하는\n현직 원로원 의원의 정체",
+      "category": "format_fidelity",
+      "reason": "원문의 전각 표기 'ＱＥＤ'를 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E13516582993121A08C4",
+      "source_text": "どうか私に力を貸して",
+      "before": "부디 내게 힘을 빌려줘",
+      "after": "부디 내게 힘을 빌려 줘",
+      "category": "grammar",
+      "reason": "보조 용언의 띄어쓰기를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-E8F810C84E6C25C733EB",
+      "source_text": "金で買った。\n私は父の死の真相を知るため\nＱＥＤに接触したかったのだ",
+      "before": "돈으로 샀어.\n난 아버지 죽음의 진상을 알기 위해\nQED와 접촉하고 싶었거든",
+      "after": "돈으로 샀어.\n난 아버지 죽음의 진상을 알기 위해\nＱＥＤ와 접촉하고 싶었거든",
+      "category": "format_fidelity",
+      "reason": "원문의 전각 표기 'ＱＥＤ'를 그대로 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E920166AEE9683E38D5B",
+      "source_text": "大賛成。人助け――\nいや、ミイラ助けは\n勇者道の基本だよ",
+      "before": "대찬성이야. 사람 돕기――\n아니, 미라 돕기는\n용사의 길의 기본이지",
+      "after": "대찬성이야. 사람 돕기――\n아니, 미라 돕기는\n용사의 길에서 기본이지",
+      "category": "grammar",
+      "reason": "'용사의 길의 기본'이라는 중복 조사를 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-E9409F479A6D69EEE4C7",
+      "source_text": "……ラグーン曹長。\nお前はアルス様の臣下であり\n友であろう",
+      "before": "……라군 상사.\n넌 알스 님의 신하이자\n친구일 것이다",
+      "after": "……라군 상사.\n넌 알스 님의 신하이자\n친구이기도 하지 않나",
+      "category": "function",
+      "reason": "상대가 알스의 친구임을 확인하는 수사 의문문의 기능을 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-EA8EB1B215D683E536D0",
+      "source_text": "お前なんて、アニキの手を\n煩わせるまでもねぇ！",
+      "before": "너 따위는 형님의 손을\n번거롭게 할 것도 없어!",
+      "after": "너 따위는 형님이 나설\n필요도 없어!",
+      "category": "naturalness",
+      "reason": "형님을 번거롭게 할 가치도 없다는 도발을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-ECDE51E4A5E33524DBDD",
+      "source_text": "わかったような\nわからないような……",
+      "before": "알 것도 같고\n모르겠기도 하고……",
+      "after": "알 것 같기도 하고\n아닌 것 같기도 하고……",
+      "category": "grammar",
+      "reason": "이해한 듯하면서도 확신하지 못하는 양면적인 반응을 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-F14C7FD59D812DC6A813",
+      "source_text": "もういい……やめてくれ。\n今すぐここから消えたくなる",
+      "before": "이제 됐어…… 그만해.\n당장 여기서 사라지고 싶어진다",
+      "after": "이제 됐어…… 그만해.\n당장 여기서 사라지고 싶어져",
+      "category": "naturalness",
+      "reason": "당혹감 때문에 자리를 피하고 싶어진다는 대사를 자연스러운 구어체로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-F606216C55134877D721",
+      "source_text": "……かもね。あーあ、残念。\nここは骸どもが多そうだから\n僕の手駒が増やせそうだったのに",
+      "before": "……그럴지도. 아아, 아쉽네.\n여긴 망자들이 많을 것 같아서\n내 말이 늘어날 줄 알았는데",
+      "after": "……그럴지도. 아아, 아쉽네.\n여긴 망자들이 많을 것 같아서\n내 말도 늘릴 수 있었는데",
+      "category": "meaning",
+      "reason": "망자를 자신의 말로 늘릴 수 있었을 것이라는 가능 의미를 정확히 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-F60A83D30532870851A5",
+      "source_text": "ヒルベルトハ地上ニ残サレタ民ノ\n嘆キガ残ル都市",
+      "before": "힐베르트는 지상에 남겨진 백성의\n한이 남은 도시",
+      "after": "힐베르트는 지상에 남겨진 백성의\n탄식이 남은 도시",
+      "category": "word_choice",
+      "reason": "버려진 백성의 슬픔과 탄식을 뜻하는 '嘆き'를 문맥에 맞게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-F99CD007E21E95EED32C",
+      "source_text": "わからない、か。そうだろうな。\n何もわからぬ木偶人形の方が\n奴らにとって都合がいい",
+      "before": "모른다, 인가. 그렇겠지.\n아무것도 모르는 꼭두각시가\n놈들에게는 편할 테니까",
+      "after": "모른다 이거지. 그렇겠지.\n아무것도 모르는 꼭두각시가\n놈들에게는 편할 테니까",
+      "category": "naturalness",
+      "reason": "상대의 무지를 비꼬는 어조가 자연스럽게 이어지도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-00C8DB179D940B064094",
+      "source_text": "なんかシムマフが呼んでる\nとか言って、勝手にふらふら\n竜縛塔の方へ行っちゃって……",
+      "before": "뭔가 심마프가 부른다느니\n그러면서 멋대로 비틀비틀\n용박탑 쪽으로 가 버려서……",
+      "after": "심마프가 부른다느니\n뭐라느니 하면서 멋대로\n용박탑 쪽으로 가 버려서……",
+      "category": "meaning",
+      "reason": "비틀거렸다는 뜻이 아니라 목적 없이 제멋대로 가 버렸다는 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-075789BD0521804553B9",
+      "source_text": "か……か、格好悪いんで\n通信……切るっスよっ！",
+      "before": "추…… 추, 추한 꼴이라\n통신…… 끊겠슴다!",
+      "after": "차…… 창피하니까\n통신…… 끊겠슴다!",
+      "category": "speaker_voice",
+      "reason": "겁먹은 모습을 보이는 것이 창피하다는 뜻과 니콜의 말투를 자연스럽게 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-097760E59A7FAEF01417",
+      "source_text": "聞いておきたかったんだ。\n俺自身を信頼させろっていう\nその言葉に答えられたかどうか",
+      "before": "물어보고 싶었다.\n나 자신을 믿게 해 보라는\n그 말에 답했는지",
+      "after": "물어보고 싶었어.\n나 자신을 믿게 해 보라는\n그 말에 답할 수 있었는지",
+      "category": "meaning",
+      "reason": "상대의 요구에 자신이 부응했는지를 묻는 의미를 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-0E6AD277D3988735FC8B",
+      "source_text": "対岸へ向かう\n山越えの道を知っている。\nかなり危険な道だが",
+      "before": "맞은편으로 가는\n산길을 알고 있다.\n상당히 위험한 길이지만",
+      "after": "강 건너편으로 향하는\n산길을 알고 있다.\n상당히 위험한 길이지만",
+      "category": "meaning",
+      "reason": "목적지가 단순한 맞은편이 아니라 강의 대안임을 문맥에 맞게 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-0E753E9E1BF983F735AB",
+      "source_text": "今一歩及ばなかったな。\nすまない、ラルク",
+      "before": "한 걸음이 미치지 못했군.\n미안하다, 라르크",
+      "after": "한 발짝 모자랐군.\n미안하다, 라르크",
+      "category": "naturalness",
+      "reason": "승부에서 아주 조금 미치지 못했다는 관용 표현을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-0E8309261A91600D2A81",
+      "source_text": "そ……それはそうなんですけど……\nでも……ほら\nオレって後方支援向きというか……",
+      "before": "그…… 그건 그렇지만……\n그래도…… 있잖슴까\n저는 후방 지원 체질이라고 할까……",
+      "after": "그…… 그건 그렇지만……\n그래도…… 있잖슴까\n저는 후방 지원에 맞는 편이랄까……",
+      "category": "naturalness",
+      "reason": "후방 지원에 적합하다는 뜻을 니콜의 말투에 맞는 자연스러운 표현으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-138365758106B1B078CD",
+      "source_text": "レスリーが１番だって奴もいるよ",
+      "before": "레슬리가 １번째라는 녀석도 있어",
+      "after": "레슬리가 １순위라는 녀석도 있어",
+      "category": "naturalness",
+      "reason": "가장 좋아한다는 뜻을 자연스럽게 다듬고 전각 숫자 '１'을 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-13C2C298528133E9727D",
+      "source_text": "サージュ、俺には親父に対する\n信頼で接してるって言ってたよな",
+      "before": "사쥬, 내가 아버지를 대하듯\n신뢰로 대한다고 했었지",
+      "after": "사쥬, 나를 아버지에 대한\n신뢰로 대한다고 했었지",
+      "category": "meaning",
+      "reason": "사쥬가 라르크를 대하는 근거가 렉스에 대한 신뢰라는 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-1468579266A11351D072",
+      "source_text": "！　ああ……\nありがとう、サージュ",
+      "before": "! 그래……\n고맙다, 사쥬",
+      "after": "！ 아……\n고맙다, 사쥬",
+      "category": "meaning",
+      "reason": "놀람 뒤에 이어지는 감탄을 동의 표현으로 오해하지 않도록 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-19348089BCB72D74BE72",
+      "source_text": "朴念仁で悪かったな",
+      "before": "무뚝뚝해서 미안하네",
+      "after": "눈치 없는 목석이라 미안하네",
+      "category": "word_choice",
+      "reason": "연애 감정에 둔감한 사람을 뜻하는 '朴念仁'의 의미를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-1E2A4C75345B78E72C1C",
+      "source_text": "ラルク、どうする？\n入り口を突破されたとなると……",
+      "before": "라르크, 어떻게 할래?\n입구가 뚫렸다면……",
+      "after": "적전 도주와 반역죄 혐의를 받고 있다.\n자, 너희는 어서 가라!",
+      "category": "meaning",
+      "reason": "화자가 두 죄목으로 문책받는 상태라는 피동 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-2208059FAD4F86629A01",
+      "source_text": "みんなを苦しめてしまったのに……\n私、幸せだなって思ってしまうの",
+      "before": "모두를 괴롭게 했는데……\n나, 행복하다고 생각해 버려",
+      "after": "모두를 괴롭게 했는데……\n나, 행복하다는 생각이 들어",
+      "category": "naturalness",
+      "reason": "죄책감 속에서도 행복을 느끼고 만다는 고백을 자연스럽게 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

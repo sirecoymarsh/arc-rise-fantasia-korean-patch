@@ -1,0 +1,18 @@
+{
+  "schema": "arf-translation-batch-validation-v2",
+  "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\tm_v2\\batches\\source\\batch_0144.jsonl",
+  "translation": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\reviewed\\batch_0144.jsonl",
+  "source_units": 200,
+  "translation_units": 200,
+  "completed_units": 200,
+  "unique_hangul": 295,
+  "hangul_characters": "가각간갑같개거건걸겁것게겠겨경계고곡공과괜교구국군규그글금급기긴길까깐꺄껏낌낑나난내냐네넸녀녕노놈높놔누눈뉴느는늘니님다단닫달닮답대데델도돼되될둘둬뒤드든들디따딸뚫라람랑래랬러런럴럼렇레려력로뢰룡르를리린릴마만말망맡맵먹멈메면멸모무문묻물뭐뭘뭡미바반밤방배버벌베별병보봐부분브비빠빨뿐쁠사살색서석선성세소손수순쉬스슨슴습시식신실심십쎄씨아악안않알았애야어업없었에엔엘여연열영오옥온올와요용우워원월위으은을음응의이익인일임입있자잖잘잠잡장재저전정제젝져종좋주죽중줘줬쥬지직진질짓쩔찮찾처쳇춘취측층치친침카캐컷케크큰탁탈탑택터털테톰트파팔평푹풀프픈플피필하한할합항해했행험헤혀현협형화확환희히힌",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "translation_engine_policy": "Codex internal models only",
+  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit_units_available": 302
+}

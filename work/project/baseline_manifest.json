@@ -1,0 +1,258 @@
+{
+  "schema": "arf-korean-localization-baseline-v1",
+  "created": "2026-08-03",
+  "game": {
+    "title": "Arc Rise Fantasia",
+    "region": "Japan",
+    "game_id": "RPJJ99",
+    "internal_name": "ARC RISE FANTASIA",
+    "disc_revision": 0,
+    "title_id": "0001000052504a4a"
+  },
+  "immutable_source": {
+    "path": "F:\\DOWN\\Arc Rise Fantasia (Japan)\\Arc Rise Fantasia (Japan).rvz",
+    "format": "RVZ",
+    "size_bytes": 3589772720,
+    "sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "compression": {
+      "codec": "Zstandard",
+      "level": 19,
+      "block_size": 131072
+    },
+    "write_policy": "read-only; never overwrite",
+    "last_sha256_reverification": {
+      "date": "2026-08-03",
+      "result": "matched immutable baseline",
+      "sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
+    }
+  },
+  "dolphin_verification": {
+    "tool_version": "Dolphin 2603a",
+    "tool_path": "work/tools/dolphin-2603a/Dolphin-x64/DolphinTool.exe",
+    "tool_size_bytes": 11677696,
+    "tool_sha256": "46E2ABDC7AB327AAB12638B34176CE3068F514F68ED92DAAE59CCB3079756F57",
+    "crc32": "f92834dc",
+    "sha1": "383599d38df8105da21a32d7a18fb4a30514878e",
+    "problems_found": "No",
+    "caveat": "DolphinTool reported 'Error creating key'; MD5 was not computed in this verification run.",
+    "header_evidence": "work/discovery/dolphin_header.txt",
+    "file_list_evidence": "work/discovery/disc_file_list.txt"
+  },
+  "data_partition_extraction": {
+    "path": "work/disc_extracted/DATA",
+    "game_files": 14526,
+    "game_file_bytes": 4265204063,
+    "total_extracted_files_including_system": 14537,
+    "total_extracted_bytes": 4270512343,
+    "inventory": "work/catalog/disc_inventory.json",
+    "inventory_size_bytes": 6872172,
+    "inventory_sha256": "0A48E769119A4FE8662D6697135CE79A25BAFA1F26A6859CF69D7F76467550F2"
+  },
+  "format_proofs": {
+    "rtdp_archives_parsed": 1064,
+    "rtdp_parse_errors": 0,
+    "rtdp_roundtrip_proof": "work/research/rtdp_agent/roundtrip_proof.json",
+    "rtdp_roundtrip_sha256": "EC2BB1AF97C5E81AF2D48F46E73802003C5656056571FEFE457214AF5591F2A6",
+    "bscr_assets_parsed": 609,
+    "bscr_noop_roundtrip_all_byte_exact": true,
+    "bscr_audit": "work/research/bscr_agent/full_audit.json",
+    "bscr_audit_sha256": "D46A490230D171645ED0FC7716C4AD8597885C4EB6EFB2CE8392D9ACC0198DFF",
+    "non_bscr_table_roundtrip_cases": 28,
+    "non_bscr_table_roundtrip_all_byte_exact": true,
+    "non_bscr_table_proof": "work/research/table_agent/roundtrip_proof.json",
+    "non_bscr_table_proof_sha256": "4E422C22708A23DDB4BE6EBAE4D0CB3B91E50A4117E867784C8518798134FF2E",
+    "font_pages": 9,
+    "font_noop_roundtrip_all_byte_exact": true,
+    "font_validation": "work/research/font_agent/validation.json",
+    "font_validation_sha256": "9395C7C7D2A3EF2F410857E2F87B28F8C7A2D9400F707B260227B5880F630280",
+    "outer_container_rebuilder": "work/research/container_agent/container_tool.js",
+    "outer_container_rebuilder_sha256": "6B7D755A2EFE70170EC109B87A3F64FE9DF5822E00FA80A57DAFB9DC625A7374",
+    "outer_container_verification": "work/research/container_agent/verification.json",
+    "outer_container_verification_sha256": "8722F16606E4BAFEDC65F9021E1FBE409EFB7EBDD0774851756DE32DD7F44AFF",
+    "outer_container_verification_result": "PASS",
+    "outer_container_all_1064_noop_byte_exact": true,
+    "variable_rtdp_lz10_cxd_and_nested_bottom_up_verified": true
+  },
+  "text_catalog": {
+    "version": "v2",
+    "logical_text_assets": 637,
+    "bscr_assets": 609,
+    "records": 84761,
+    "unique_source_texts": 29777,
+    "catalog_sha256": "E120AC3F0A6C09DACC8F671A5E6E058B6F5ADFA1E947646438D84325665B806E",
+    "catalog_csv_sha256": "369C5BA4A5039BD0234B508213D4C2C72085B9C7A2732A4C6C353269C8637865",
+    "catalog_summary": "work/catalog/text_v2/text_catalog_summary.json",
+    "correction_from_v1": "BSCR 0x38 is bytecode_size and 0x3C is bytecode_start/pool end; v2 removed 18,568 bytecode false-positive records."
+  },
+  "translation_memory": {
+    "version": "v2",
+    "units": 29777,
+    "batch_size": 200,
+    "batches": 149,
+    "translation_memory_sha256": "972FA316482C7755F429FE3C9592995B0EAAD29D9D6FCAC495483521605E7056",
+    "batch_manifest_sha256": "21E701C55469F5917A223B1614C9D5630FDF565A00FE9D98A7B1872347EA0F6F"
+  },
+  "translation_policy": {
+    "source_language": "ja-JP",
+    "target_language": "ko-KR",
+    "codex_internal_models_only": true,
+    "external_translation_models_or_apis": "prohibited",
+    "japanese_audio": "preserve"
+  },
+  "localization_progress": {
+    "glossary_terms": 286,
+    "glossary_sha256": "0AC89DD4B593B3E2664D8CBB4FC9A40730F9407A3D381620E99AB135C3510DD1",
+    "reviewed_translation_units": 1400,
+    "reviewed_translation_occurrences": 1921,
+    "coverage_percent": 4.7016,
+    "reviewed_batches": [
+      "batch_0001",
+      "batch_0002",
+      "batch_0003",
+      "batch_0004",
+      "batch_0005",
+      "batch_0006",
+      "batch_0007"
+    ],
+    "pending_draft_batches": [],
+    "reviewed_batch_validation": {
+      "batch_0001": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "A403B37DAAB92ACF61243E67427D06565285989A7784A3CC5098639BE781F947"
+      },
+      "batch_0002": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "701B368E0B3E78C030E0B89EB4D27CEBA31D6A6A736728775AD3AAA3258F2739"
+      },
+      "batch_0003": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "E2C870935C2CA75A05774272C57F0C62FA9DA8159840216B377C4E224B592489"
+      },
+      "batch_0004": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "14A15A494EB374F9F9BE9B64A59CB2E9A93E245AD7472A98E3DDFCE5379E20FB"
+      },
+      "batch_0005": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "0E65249B4DC7BAEB2C908E819D9400CF84B3A8F95B6161EFB17F1CB914DADDDD"
+      },
+      "batch_0006": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "6AF377C5EB67BD61652B0373C506C6BACC9E1603E5A3EA98178FE0FF8F007722"
+      },
+      "batch_0007": {
+        "error_count": 0,
+        "warning_count": 0,
+        "valid": true,
+        "sha256": "FEBC740324EC0BCFEDFBB9241511C2F75643FC7867FFB0351296BF8FBBC4C53E"
+      }
+    },
+    "current_translation_memory_sha256": "EA80A6C38B6FDEE64997F6BE9D9E2314F1198032AFE44D299BDDC0D1EDC3CC3F",
+    "current_translation_memory_csv_sha256": "90A5935F6F80E1BD6A45704D33524511F350FA0225AC5BFF2BA94A49A82FFCC1",
+    "coverage_sha256": "5C4CA079FF4A5A10F6B775197EF9076A6F3E036F4D4BBDAECE0C0F217AABAD66",
+    "boundary_audit": {
+      "audited_tm_units": 235,
+      "ambiguous_tm_units": 0,
+      "unmatched_tm_units": 0,
+      "sha256": "131DBA7684CA37C974FA0AF30654A71F53886A129B7258E978DF2C24BEB71920",
+      "component_audits": [
+        {
+          "path": "work/translation/boundary_audit/batches_0001_0002.json",
+          "sha256": "E47BA47E1B2A33940EB08EFFFF1E313FD6ACC4F23D63C5219680D63DBAEE80C7",
+          "audited_tm_units": 61,
+          "linked_table_units": 68
+        },
+        {
+          "path": "work/translation/boundary_audit/batches_0003_0004.json",
+          "sha256": "8500248960597E9A7A656F14FD07010A923C0B60544B1D1478E8B497900BDB5C",
+          "audited_tm_units": 80,
+          "linked_table_units": 80
+        },
+        {
+          "path": "work/translation/boundary_audit/batch_0005.json",
+          "sha256": "4776B6BB8042A707C9A2E3ADDEE08520396BF52B54E88ED0D72989936BA7339E",
+          "audited_tm_units": 28,
+          "linked_table_units": 28
+        },
+        {
+          "path": "work/translation/boundary_audit/batch_0006.json",
+          "sha256": "DE12AA2273139430E54DF9A7FE2024E4CF3C33ACA0FFE6D08CDC0684584B5E7F",
+          "audited_tm_units": 37,
+          "linked_table_units": 37
+        },
+        {
+          "path": "work/translation/boundary_audit/batch_0007.json",
+          "sha256": "8A04559A15EFAC784BACDA52E2B68B3AE94B0C157BB956AD731D3D3DF502DD42",
+          "audited_tm_units": 29,
+          "linked_table_units": 29
+        }
+      ],
+      "application_sha256": {
+        "batch_0001_0002": "2634F894BC741426F7D4185CDD52CAA7370BFD44D1740BBB7F094059FD3A0B99",
+        "batch_0003_0004": "4A9B6AA5E1CB9977DBE8E9693554EF4A25426CAC8956C616B2D7A3953BC1A2C9",
+        "batch_0005": "A2EBF8E8845112298AA69C454869DBB54CC3CADB27702DF16CF1228B63865DFD",
+        "batch_0006": "AC74AD71F62C4A358968D48841EDB96CC8A44D0B8251EAA1CC94DAA4CBD5CCAE",
+        "batch_0007": "DF4AC1F3E65928DC73393FE3207845D3E29D843AEF5F1AFEA50F7C6F097AF0D1"
+      }
+    },
+    "font": {
+      "approved_corpus_units": 1400,
+      "unique_hangul_in_corpus": 782,
+      "assigned_codebook_characters": 784,
+      "reserved_source_pairs": 2227,
+      "available_after_reservations": 4259,
+      "codebook_sha256": "C2B3EFD964B88FB58B166AEE72EC655DCBBE0E6245A7B69AFFA22F96EF55851A",
+      "injection_verification_valid": true,
+      "injection_verification_errors": 0,
+      "injection_verification_sha256": "D88598C0166F1BE244D6F8C80208453F316CD92BAE44F21D6A670FEDB191345C"
+    },
+    "fit_preflight": {
+      "fixed_overflow_count": 0,
+      "resizable_table_in_place_overflow_count": 66,
+      "encoding_error_count": 0,
+      "global_encoding_error_count": 0,
+      "unmatched_system_tm_count": 0,
+      "known_fixed_fields_fit": true,
+      "safe_for_fixed_table_insertion": true,
+      "sha256": "608D7E9B6F54DC69C4D3AF0D621C3D914BD7E3803B1D15870CF2090A7AAE808F"
+    },
+    "system_table_application_proof": {
+      "approved_system_tm_units": 1400,
+      "replacement_table_fields": 1935,
+      "payloads_rebuilt": 13,
+      "fixed_payload_changes_outside_declared_slots": 0,
+      "verification_error_count": 0,
+      "valid": true,
+      "sha256": "52F8538407321B81AE69E590C3CAF76BFBE7EF9448540AD9141A5CB3711C3ABE"
+    },
+    "partial_runtime_staging": {
+      "edited_system_vol_entries": 20,
+      "system_vol_rebuild_policy": "standard-resize",
+      "direct_files": 2,
+      "static_validation_valid": true,
+      "static_validation_errors": 0,
+      "dolphin_screen_test": "pending",
+      "sha256": "252BDB9F243A7C631BD5A06BBEC611E4FBF74EABCEC39E3ECFDB9DDB6B5B23C4"
+    },
+    "final_static_verification": {
+      "error_count": 0,
+      "valid": true,
+      "sha256": "FA5B6D81C7900B1313DB33529E9E278D351FB8E480F8997FEA0E292F5E1D9AF3"
+    },
+    "runtime_pilot_static_validation": "passed",
+    "runtime_pilot_dolphin_validation": "pending",
+    "runtime_pilot_validation_sha256": "F94AC4E10821CF199867143B2A9CA3358C9029B194B234337167082DDD9E3866"
+  }
+}

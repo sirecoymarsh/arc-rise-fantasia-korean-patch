@@ -1,0 +1,167 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_usual_entries\\btl_status.vol",
+  "header": {
+    "end_of_header": 576,
+    "count": 13,
+    "declared_size": 191648,
+    "actual_size": 191648
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "btl_stat_party00.bin",
+      "size": 14688,
+      "relative_offset": 0,
+      "absolute_offset": 576,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party00.bin",
+      "sjis_run_count": 1,
+      "sjis_runs": []
+    },
+    {
+      "index": 1,
+      "name": "btl_stat_party01.bin",
+      "size": 14816,
+      "relative_offset": 14688,
+      "absolute_offset": 15264,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party01.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 2,
+      "name": "btl_stat_party02.bin",
+      "size": 15200,
+      "relative_offset": 29504,
+      "absolute_offset": 30080,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party02.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 3,
+      "name": "btl_stat_party03.bin",
+      "size": 14560,
+      "relative_offset": 44704,
+      "absolute_offset": 45280,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party03.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 4,
+      "name": "btl_stat_party04.bin",
+      "size": 14880,
+      "relative_offset": 59264,
+      "absolute_offset": 59840,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party04.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 5,
+      "name": "btl_stat_party05.bin",
+      "size": 14400,
+      "relative_offset": 74144,
+      "absolute_offset": 74720,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party05.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 6,
+      "name": "btl_stat_party06.bin",
+      "size": 14880,
+      "relative_offset": 88544,
+      "absolute_offset": 89120,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party06.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 7,
+      "name": "btl_stat_party07.bin",
+      "size": 14784,
+      "relative_offset": 103424,
+      "absolute_offset": 104000,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party07.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 8,
+      "name": "btl_stat_party08.bin",
+      "size": 14272,
+      "relative_offset": 118208,
+      "absolute_offset": 118784,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party08.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 9,
+      "name": "btl_stat_party09.bin",
+      "size": 14464,
+      "relative_offset": 132480,
+      "absolute_offset": 133056,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party09.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 10,
+      "name": "btl_stat_party10.bin",
+      "size": 14464,
+      "relative_offset": 146944,
+      "absolute_offset": 147520,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party10.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 11,
+      "name": "btl_stat_party07B.bin",
+      "size": 14816,
+      "relative_offset": 161408,
+      "absolute_offset": 161984,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party07B.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 12,
+      "name": "btl_stat_party06B.bin",
+      "size": 14848,
+      "relative_offset": 176224,
+      "absolute_offset": 176800,
+      "head_hex": "4254454D00000010000001800000000000000000000000010000046000000540",
+      "head_ascii": "BTEM.......................`...@",
+      "extracted_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party06B.bin",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    }
+  ]
+}

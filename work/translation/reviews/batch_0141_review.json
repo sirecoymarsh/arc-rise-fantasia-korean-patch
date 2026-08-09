@@ -1,0 +1,592 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0141",
+  "reviewer": "/root/translate_batch_0009",
+  "draft_translator": "/root/translate_tail",
+  "draft_author": "/root/translate_tail",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work\\translation/tm_v2/batches/source/batch_0141.jsonl",
+  "draft": "work\\translation/drafts/batch_0141.jsonl",
+  "reviewed_output": "work\\translation/reviewed/batch_0141.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 69,
+  "unchanged_units": 131,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-99009C86446BA41E75B4",
+      "source_text": "いいのか？　悪いな。\nありがとよ、もらっとくぜ<$0C>……っていや、駄目か。\nまさかとは思うんだが間違いない。\n持ちきれないみたいだ……",
+      "before": "괜찮아? 미안하군.\n고맙다, 받아 둘게<$0C>……아니, 안 되겠네.\n설마 했지만 틀림없어.\n더는 들 수 없는 모양이야……",
+      "after": "괜찮겠어? 미안하군.\n고맙다, 받아 둘게<$0C>……아니, 안 되겠네.\n설마 했지만 틀림없어.\n다 들 수 없는 모양이야……",
+      "category": "natural_korean",
+      "reason": "거친 남성 화자의 말투와 소지 한도 의미가 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A36D938A5D81D8DC72BA",
+      "source_text": "ロケ鯛君",
+      "before": "로케이션 타이틀 군",
+      "after": "로케타이 군",
+      "category": "terminology",
+      "reason": "프로젝트의 반복 디버그 명칭인 ロケ鯛君을 기존 표기인 로케타이 군으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-EAC0343DC47BCEF8D7F0",
+      "source_text": "カット1-2\n",
+      "before": "컷1-2\n",
+      "after": "컷 1-2\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-027DD897E6CC14A43058",
+      "source_text": "PLACE24処理\n",
+      "before": "PLACE24처리\n",
+      "after": "PLACE24 처리\n",
+      "category": "debug_format",
+      "reason": "영문 식별자와 한국어 기능명 사이를 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-99B6F31DF8F8CFE5F536",
+      "source_text": "カット1-4\n",
+      "before": "컷1-4\n",
+      "after": "컷 1-4\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-804ADF38905F4D21DAD4",
+      "source_text": "ロケ鯛再生する？",
+      "before": "로케이션 타이틀을 재생할까?",
+      "after": "로케타이를 재생할까?",
+      "category": "terminology",
+      "reason": "반복 디버그 명칭 ロケ鯛를 기존 표기인 로케타이로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-B167A818D980FE903D0D",
+      "source_text": "カット4-5\n",
+      "before": "컷4-5\n",
+      "after": "컷 4-5\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-14834560DB17CB1605EC",
+      "source_text": "だからこそ、アルス様は\n傷つくのではないかと\n私は思っているのだ",
+      "before": "그렇기에 알스 님께서\n상처받으시는 게 아닐까\n나는 생각한다",
+      "after": "그렇기에 알스 님께서\n상처받으시는 게 아닐까\n나는 그렇게 생각한다",
+      "category": "natural_korean",
+      "reason": "마지막 판단문이 자연스러운 한국어가 되도록 부사를 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-D5F95533496D2206142D",
+      "source_text": "カット1-3\n",
+      "before": "컷1-3\n",
+      "after": "컷 1-3\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-F4EE910D5690D50A79B8",
+      "source_text": "カット18-19\n",
+      "before": "컷18-19\n",
+      "after": "컷 18-19\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-0ED42E03037B30D40CA8",
+      "source_text": "カット12-13\n",
+      "before": "컷12-13\n",
+      "after": "컷 12-13\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-B6D72E57E8E4E29E634F",
+      "source_text": "カット16-18\n",
+      "before": "컷16-18\n",
+      "after": "컷 16-18\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-817EF5C1EE3614356171",
+      "source_text": "ついこの間まで一緒に旅を\nしていたよしみで、ここは\n退いてくれないかしら",
+      "before": "얼마 전까지 함께 여행한\n정도 있으니 여기서는\n물러나 주지 않을래?",
+      "after": "얼마 전까지 함께 여행한\n정을 생각해서 여기서는\n물러나 주지 않을래?",
+      "category": "natural_korean",
+      "reason": "よしみ를 직역한 어색한 연결을 자연스러운 관계 표현으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-B0E84750F11311B0B5AF",
+      "source_text": "カット10-12\n",
+      "before": "컷10-12\n",
+      "after": "컷 10-12\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C5CA2E60F8F7684A135F",
+      "source_text": "無駄よ。ラルクはリフィアに\n騙されているんだもの。\nイマジナルの忠実なお人形さんに",
+      "before": "소용없어. 라르크는 리피아에게\n속고 있으니까.\n이매지널의 충실한 인형에게",
+      "after": "소용없어. 라르크는 리피아에게\n속고 있잖아.\n이매지널의 충실한 인형에게 말이야",
+      "category": "natural_korean",
+      "reason": "마지막 명사구가 앞 문장에 자연스럽게 이어지도록 조사와 종결을 보완했다."
+    },
+    {
+      "tm_id": "ARF-TM-D768A9DA2404994EB1B0",
+      "source_text": "カット13-15\n",
+      "before": "컷13-15\n",
+      "after": "컷 13-15\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-16B05DDB1A9C41FBBB47",
+      "source_text": "お前はアルス様の臣下であり\n友であろう。ならば、あの方を\n助けてくれ。頼む",
+      "before": "너는 알스 님의 신하이자\n친구잖아. 그렇다면 그분을\n도와줘. 부탁한다",
+      "after": "너는 알스 님의 신하이자\n친구일 테지. 그렇다면 그분을\n도와다오. 부탁한다",
+      "category": "voice",
+      "reason": "격식 있는 군인 화자의 부탁이 가벼운 구어체로 흐르지 않도록 조정했다."
+    },
+    {
+      "tm_id": "ARF-TM-E449C02CF92077B62ED4",
+      "source_text": "……ラグーン曹長",
+      "before": "……라군 중사",
+      "after": "……라군 상사",
+      "category": "terminology",
+      "reason": "曹長의 고정 계급 표기인 상사를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-1B7C254B3384E0D21A7B",
+      "source_text": "ロケタイ君から呼ばれてるっぽいのでフェードインします。\n",
+      "before": "로케이션 타이틀 군에게 불린 듯하니 페이드 인합니다.\n",
+      "after": "로케타이 군에게 불린 듯하니 페이드 인합니다.\n",
+      "category": "terminology",
+      "reason": "디버그 객체명 ロケタイ君을 로케타이 군으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-685F9A1AD8ED9F25ED92",
+      "source_text": "イベント君",
+      "before": "이벤트 군",
+      "after": "이벤트군",
+      "category": "terminology",
+      "reason": "イベント君의 고정 디버그 표기인 이벤트군을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-5D8ABABB16BCCCEED6A4",
+      "source_text": "カット3-4\n",
+      "before": "컷3-4\n",
+      "after": "컷 3-4\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-94A78E1DE2C7F03D6751",
+      "source_text": "PLACE16処理\n",
+      "before": "PLACE16처리\n",
+      "after": "PLACE16 처리\n",
+      "category": "debug_format",
+      "reason": "영문 식별자와 한국어 기능명 사이를 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-ACA133C7E3AADB3E3349",
+      "source_text": "カット24-26\n",
+      "before": "컷24-26\n",
+      "after": "컷 24-26\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C5DC12BBFA1799310343",
+      "source_text": "START_05到着\n",
+      "before": "START_05도착\n",
+      "after": "START_05 도착\n",
+      "category": "debug_format",
+      "reason": "영문 식별자와 한국어 기능명 사이를 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-CD728BE956EF85E636C3",
+      "source_text": "PLACE00処理\n",
+      "before": "PLACE00처리\n",
+      "after": "PLACE00 처리\n",
+      "category": "debug_format",
+      "reason": "영문 식별자와 한국어 기능명 사이를 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-28963323CBD69B5C2AB9",
+      "source_text": "は、はい……",
+      "before": "네, 네……",
+      "after": "네, 네에……",
+      "category": "voice",
+      "reason": "주저하는 대답의 더듬는 느낌이 자연스럽게 들리도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-45C74204EAC726550968",
+      "source_text": "カット7\n",
+      "before": "컷7\n",
+      "after": "컷 7\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-CDB1B59683D213E3E4C8",
+      "source_text": "カット10-11\n",
+      "before": "컷10-11\n",
+      "after": "컷 10-11\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-DE1417DAB77F744D5902",
+      "source_text": "ダミー・オブジェクト配置初期化\n",
+      "before": "더미・오브젝트 배치초기화\n",
+      "after": "더미・오브젝트 배치 초기화\n",
+      "category": "debug_format",
+      "reason": "복합 디버그 기능명 내부의 누락된 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-8AD86F8F7AE4023F5F61",
+      "source_text": "カット10\n",
+      "before": "컷10\n",
+      "after": "컷 10\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-922ABED252921624A010",
+      "source_text": "カット6-9\n",
+      "before": "컷6-9\n",
+      "after": "컷 6-9\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-250BCD2E543DB617BE53",
+      "source_text": "カット16-19\n",
+      "before": "컷16-19\n",
+      "after": "컷 16-19\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-714C4793F2BF9B6665DA",
+      "source_text": "カット16-17\n",
+      "before": "컷16-17\n",
+      "after": "컷 16-17\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-842CFCED89A0AC399923",
+      "source_text": "定理に契約……か",
+      "before": "섭리에 계약……인가",
+      "after": "섭리와 계약……인가",
+      "category": "grammar",
+      "reason": "定理와 契約을 병렬로 나열하는 문맥에 맞게 조사를 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-877D70E4EBC66F2EE163",
+      "source_text": "カット20-23\n",
+      "before": "컷20-23\n",
+      "after": "컷 20-23\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-9A506A53D6754BC7D8F9",
+      "source_text": "カット03\n",
+      "before": "컷03\n",
+      "after": "컷 03\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원하되 선행 0을 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-B8A1156F5843BA6AC275",
+      "source_text": "カット27-30\n",
+      "before": "컷27-30\n",
+      "after": "컷 27-30\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-1A6F5AE84C63E250E64F",
+      "source_text": "カット15-17\n",
+      "before": "컷15-17\n",
+      "after": "컷 15-17\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-22BDD07C9D351A53BE07",
+      "source_text": "カット5-6\n",
+      "before": "컷5-6\n",
+      "after": "컷 5-6\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-3BF6766128FB402BE6C8",
+      "source_text": "カット22-24\n",
+      "before": "컷22-24\n",
+      "after": "컷 22-24\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-569DDCE7F1B00677E4EC",
+      "source_text": "PLACE27処理\n",
+      "before": "PLACE27처리\n",
+      "after": "PLACE27 처리\n",
+      "category": "debug_format",
+      "reason": "영문 식별자와 한국어 기능명 사이를 띄어 썼다."
+    },
+    {
+      "tm_id": "ARF-TM-78594A92E69BEE9E263F",
+      "source_text": "カット14\n",
+      "before": "컷14\n",
+      "after": "컷 14\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-905D7C401F321053D84A",
+      "source_text": "……やっぱり私が駄目なんだわ",
+      "before": "……역시 내가 안 되는 거야",
+      "after": "……역시 내가 문제인 거야",
+      "category": "natural_korean",
+      "reason": "자책의 의미가 분명하고 자연스럽게 들리도록 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-9DADADFC785D94150108",
+      "source_text": "カメラオフセットOFF(初期値)\n",
+      "before": "카메라オフセットOFF(初期値)\n",
+      "after": "카메라 오프셋 OFF(초깃값)\n",
+      "category": "japanese_residue",
+      "reason": "번역문에 남은 일본어 디버그 용어를 한국어로 옮기고 영문 플래그는 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-0A47C9503A715F9CA742",
+      "source_text": "カット31-33\n",
+      "before": "컷31-33\n",
+      "after": "컷 31-33\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-1E2347D9188805561DD4",
+      "source_text": "カット34-35\n",
+      "before": "컷34-35\n",
+      "after": "컷 34-35\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-23D7645D7CB22FB6FE28",
+      "source_text": "カット04-6\n",
+      "before": "컷04-6\n",
+      "after": "컷 04-6\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원하되 원문의 선행 0을 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-2E44B995D78A21647C84",
+      "source_text": "カット9b\n",
+      "before": "컷9b\n",
+      "after": "컷 9b\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-58D4CFA7BB5D732B66B2",
+      "source_text": "カット36-38\n",
+      "before": "컷36-38\n",
+      "after": "컷 36-38\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-5CD36308B89B1D4A458E",
+      "source_text": "カット7-8\n",
+      "before": "컷7-8\n",
+      "after": "컷 7-8\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-B188E77DE435EF481220",
+      "source_text": "カット26.5\n",
+      "before": "컷26.5\n",
+      "after": "컷 26.5\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-B1BD841DDC732011DA10",
+      "source_text": "カット5-9\n",
+      "before": "컷5-9\n",
+      "after": "컷 5-9\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-C461CDC2408ABFB338C4",
+      "source_text": "カメラオフセットON(+150)\n",
+      "before": "카메라オフセットON(+150)\n",
+      "after": "카메라 오프셋 ON(+150)\n",
+      "category": "japanese_residue",
+      "reason": "번역문에 남은 일본어 디버그 용어를 한국어로 옮기고 수치와 영문 플래그를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-DFE9637AC48331623BC2",
+      "source_text": "カット39\n",
+      "before": "컷39\n",
+      "after": "컷 39\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-4254A7CB61ADE2CA64D6",
+      "source_text": "マジっスか!?",
+      "before": "정말임까!?",
+      "after": "진짜임까!?",
+      "category": "voice",
+      "reason": "니콜의 반복 말투에 맞게 マジ를 진짜로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-7B0127F7B28B1B4D458E",
+      "source_text": "グラと同じ？",
+      "before": "그래픽과 같아?",
+      "after": "그라와 같아?",
+      "category": "meaning",
+      "reason": "인물명 グラ를 일반 명사 그래픽으로 오역한 부분을 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-8C2D291E38796D06BDA2",
+      "source_text": "カット6-8\n",
+      "before": "컷6-8\n",
+      "after": "컷 6-8\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-3094CB84891F72043EBF",
+      "source_text": "カット9-11\n",
+      "before": "컷9-11\n",
+      "after": "컷 9-11\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-4ECDB02A102664B8BF43",
+      "source_text": "カット14-15\n",
+      "before": "컷14-15\n",
+      "after": "컷 14-15\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-53F27E394DE4E0E5A1C5",
+      "source_text": "……は、はい！",
+      "before": "……네, 네!",
+      "after": "……네, 넵!",
+      "category": "voice",
+      "reason": "주저하면서도 힘차게 답하는 말투가 자연스럽게 들리도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-7965C2CCCC4217286659",
+      "source_text": "カット9\n",
+      "before": "컷9\n",
+      "after": "컷 9\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-B75C6A4411F81CA5EBB2",
+      "source_text": "カット1\n",
+      "before": "컷1\n",
+      "after": "컷 1\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-D977527E919942D7BF21",
+      "source_text": "ダミー・ＮＰＣ配置初期化\n",
+      "before": "더미・NPC 배치초기화\n",
+      "after": "더미・NPC 배치 초기화\n",
+      "category": "debug_format",
+      "reason": "복합 디버그 기능명 내부의 누락된 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-E36FF56A671A17E3B1F2",
+      "source_text": "カット15\n",
+      "before": "컷15\n",
+      "after": "컷 15\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-0AAE2EB1A41FE1BE610B",
+      "source_text": "カット3-6\n",
+      "before": "컷3-6\n",
+      "after": "컷 3-6\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-11A0F72DFE431813D998",
+      "source_text": "違うんじゃね？\n外から見た感じじゃ\nもっと高かったはずだ",
+      "before": "아니지 않아?\n밖에서 봤을 때는\n더 높았을 텐데",
+      "after": "아닌 것 같은데?\n밖에서 봤을 때는\n더 높았을 텐데",
+      "category": "natural_korean",
+      "reason": "부자연스러운 이중 부정을 자연스러운 추측 표현으로 고쳤다."
+    },
+    {
+      "tm_id": "ARF-TM-153A1429A14B3C740EB5",
+      "source_text": "カット08-10\n",
+      "before": "컷08-10\n",
+      "after": "컷 08-10\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원하되 선행 0을 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-4411C9816AE4BC9CBD58",
+      "source_text": "カット19-21\n",
+      "before": "컷19-21\n",
+      "after": "컷 19-21\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원했다."
+    },
+    {
+      "tm_id": "ARF-TM-5B9BC79106A3A50FCF3D",
+      "source_text": "カット01-04\n",
+      "before": "컷01-04\n",
+      "after": "컷 01-04\n",
+      "category": "debug_format",
+      "reason": "컷 번호 앞의 구분 공백을 복원하되 선행 0을 유지했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}

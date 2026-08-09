@@ -1,0 +1,249 @@
+{
+  "format": "arc-rise-fantasia-korean-codebook-v1",
+  "encoding_contract": "Custom two-byte glyph IDs using B0A1..F4FE; not standard EUC-JP. A1..A8 symbol/kana area and post-F4 atlas tail remain untouched.",
+  "cell": {
+    "width": 22,
+    "height": 28
+  },
+  "atlas": {
+    "columns": 23,
+    "rows": 36,
+    "slots_per_file": 828,
+    "files": 9
+  },
+  "capacity": 6486,
+  "assigned": 21,
+  "characters": {
+    "가": {
+      "unicode": "U+AC00",
+      "bytes_hex": "B0A1",
+      "global_slot": 721,
+      "page": 0,
+      "local_slot": 721,
+      "column": 8,
+      "row": 31,
+      "x": 176,
+      "y": 868
+    },
+    "검": {
+      "unicode": "U+AC80",
+      "bytes_hex": "B0A2",
+      "global_slot": 722,
+      "page": 0,
+      "local_slot": 722,
+      "column": 9,
+      "row": 31,
+      "x": 198,
+      "y": 868
+    },
+    "글": {
+      "unicode": "U+AE00",
+      "bytes_hex": "B0A3",
+      "global_slot": 723,
+      "page": 0,
+      "local_slot": 723,
+      "column": 10,
+      "row": 31,
+      "x": 220,
+      "y": 868
+    },
+    "꼴": {
+      "unicode": "U+AF34",
+      "bytes_hex": "B0A4",
+      "global_slot": 724,
+      "page": 0,
+      "local_slot": 724,
+      "column": 11,
+      "row": 31,
+      "x": 242,
+      "y": 868
+    },
+    "나": {
+      "unicode": "U+B098",
+      "bytes_hex": "B0A5",
+      "global_slot": 725,
+      "page": 0,
+      "local_slot": 725,
+      "column": 12,
+      "row": 31,
+      "x": 264,
+      "y": 868
+    },
+    "다": {
+      "unicode": "U+B2E4",
+      "bytes_hex": "B0A6",
+      "global_slot": 726,
+      "page": 0,
+      "local_slot": 726,
+      "column": 13,
+      "row": 31,
+      "x": 286,
+      "y": 868
+    },
+    "라": {
+      "unicode": "U+B77C",
+      "bytes_hex": "B0A7",
+      "global_slot": 727,
+      "page": 0,
+      "local_slot": 727,
+      "column": 14,
+      "row": 31,
+      "x": 308,
+      "y": 868
+    },
+    "마": {
+      "unicode": "U+B9C8",
+      "bytes_hex": "B0A8",
+      "global_slot": 728,
+      "page": 0,
+      "local_slot": 728,
+      "column": 15,
+      "row": 31,
+      "x": 330,
+      "y": 868
+    },
+    "바": {
+      "unicode": "U+BC14",
+      "bytes_hex": "B0A9",
+      "global_slot": 729,
+      "page": 0,
+      "local_slot": 729,
+      "column": 16,
+      "row": 31,
+      "x": 352,
+      "y": 868
+    },
+    "사": {
+      "unicode": "U+C0AC",
+      "bytes_hex": "B0AA",
+      "global_slot": 730,
+      "page": 0,
+      "local_slot": 730,
+      "column": 17,
+      "row": 31,
+      "x": 374,
+      "y": 868
+    },
+    "아": {
+      "unicode": "U+C544",
+      "bytes_hex": "B0AB",
+      "global_slot": 731,
+      "page": 0,
+      "local_slot": 731,
+      "column": 18,
+      "row": 31,
+      "x": 396,
+      "y": 868
+    },
+    "입": {
+      "unicode": "U+C785",
+      "bytes_hex": "B0AC",
+      "global_slot": 732,
+      "page": 0,
+      "local_slot": 732,
+      "column": 19,
+      "row": 31,
+      "x": 418,
+      "y": 868
+    },
+    "자": {
+      "unicode": "U+C790",
+      "bytes_hex": "B0AD",
+      "global_slot": 733,
+      "page": 0,
+      "local_slot": 733,
+      "column": 20,
+      "row": 31,
+      "x": 440,
+      "y": 868
+    },
+    "주": {
+      "unicode": "U+C8FC",
+      "bytes_hex": "B0AE",
+      "global_slot": 734,
+      "page": 0,
+      "local_slot": 734,
+      "column": 21,
+      "row": 31,
+      "x": 462,
+      "y": 868
+    },
+    "증": {
+      "unicode": "U+C99D",
+      "bytes_hex": "B0AF",
+      "global_slot": 735,
+      "page": 0,
+      "local_slot": 735,
+      "column": 22,
+      "row": 31,
+      "x": 484,
+      "y": 868
+    },
+    "차": {
+      "unicode": "U+CC28",
+      "bytes_hex": "B0B0",
+      "global_slot": 736,
+      "page": 0,
+      "local_slot": 736,
+      "column": 0,
+      "row": 32,
+      "x": 0,
+      "y": 896
+    },
+    "카": {
+      "unicode": "U+CE74",
+      "bytes_hex": "B0B1",
+      "global_slot": 737,
+      "page": 0,
+      "local_slot": 737,
+      "column": 1,
+      "row": 32,
+      "x": 22,
+      "y": 896
+    },
+    "타": {
+      "unicode": "U+D0C0",
+      "bytes_hex": "B0B2",
+      "global_slot": 738,
+      "page": 0,
+      "local_slot": 738,
+      "column": 2,
+      "row": 32,
+      "x": 44,
+      "y": 896
+    },
+    "파": {
+      "unicode": "U+D30C",
+      "bytes_hex": "B0B3",
+      "global_slot": 739,
+      "page": 0,
+      "local_slot": 739,
+      "column": 3,
+      "row": 32,
+      "x": 66,
+      "y": 896
+    },
+    "하": {
+      "unicode": "U+D558",
+      "bytes_hex": "B0B4",
+      "global_slot": 740,
+      "page": 0,
+      "local_slot": 740,
+      "column": 4,
+      "row": 32,
+      "x": 88,
+      "y": 896
+    },
+    "한": {
+      "unicode": "U+D55C",
+      "bytes_hex": "B0B5",
+      "global_slot": 741,
+      "page": 0,
+      "local_slot": 741,
+      "column": 5,
+      "row": 32,
+      "x": 110,
+      "y": 896
+    }
+  }
+}

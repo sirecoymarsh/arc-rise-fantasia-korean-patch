@@ -1,0 +1,149 @@
+{
+  "schema": "arf-ko-tpl-render-v1",
+  "valid": true,
+  "texture_count": 12,
+  "textures": [
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\cloud_001.tpl",
+      "source_sha256": "E2EF4FFF094960641B6EFCDFACB9A260A7C356D821442F41F32B3A1B272D5B47",
+      "image_index": 0,
+      "width": 120,
+      "height": 120,
+      "format": 6,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_cloud_001_0.png",
+      "render_sha256": "844C9AB9C6F1700B9E4149CE4874FD67B66B7B974F488A1918CED0364F53A48A"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\cloud_010.tpl",
+      "source_sha256": "ED8B716E08D69EE98903D37CA38D5F40D98184CA8EE329D4C6B4E09FE6A4F43D",
+      "image_index": 0,
+      "width": 160,
+      "height": 64,
+      "format": 6,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_cloud_010_0.png",
+      "render_sha256": "8EC9E521C85B181413905B7994A6894606B9AD535ABEBD5929E909B2534108A7"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\cloud_999.tpl",
+      "source_sha256": "7E263E2BB732022264937C146E7586C424C26B5B6215B7DF0C1656822A31DC56",
+      "image_index": 0,
+      "width": 64,
+      "height": 64,
+      "format": 6,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_cloud_999_0.png",
+      "render_sha256": "A8C0CCCB8EF9A2D005D23F7D0754D2389D3CED543CCE8A4BDC0858991F93C445"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\mmvrogo.tpl",
+      "source_sha256": "A8E6B1B0622263A0C075087B59D90F0A3E33CBD36EB7E83BE42FADF75C5322C2",
+      "image_index": 0,
+      "width": 178,
+      "height": 63,
+      "format": 9,
+      "texture_data_offset": 192,
+      "palette_count": 48,
+      "palette_format": 2,
+      "palette_data_offset": 32,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_mmvrogo_0.png",
+      "render_sha256": "44521B85D02681518637714FE1B629B8477EE11CE30E5B352C8119BBA8D396C0"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\sora.tpl",
+      "source_sha256": "2614673438B755EB87F86676141EDD4E5D581DDACE2F9E5B765DC09A25CC13DB",
+      "image_index": 0,
+      "width": 256,
+      "height": 256,
+      "format": 14,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_sora_0.png",
+      "render_sha256": "39175E44BFC36BA24388CA31E01F04A1F02D9AD47FEB5BC12B5E1344489C7AA5"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\title_base.tpl",
+      "source_sha256": "1C28D0C269087A253AF8B250DE50FA7AEC0CEE6DAB9C1CEFD1F16FF88445493C",
+      "image_index": 0,
+      "width": 340,
+      "height": 200,
+      "format": 5,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_title_base_0.png",
+      "render_sha256": "9596D4EC6046417AFC4C611C17CD95E77650B4047E7FB4982310B165C4369A38"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\title_effect.tpl",
+      "source_sha256": "547E915D9F6FB473A97F2964967DD722D77EBB338A6E8DBD0DA8A0D7F7415287",
+      "image_index": 0,
+      "width": 200,
+      "height": 128,
+      "format": 6,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_title_effect_0.png",
+      "render_sha256": "D14CC0DE4952FE203A880448A7C3D90DAFF037577D7E0B2F9B68426062D3D168"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\title_effect02.tpl",
+      "source_sha256": "93D0AFC17681814C61BD7E1D774BE4CED67839D8D889B3ACFE43E9CAD96EFBCD",
+      "image_index": 0,
+      "width": 128,
+      "height": 128,
+      "format": 6,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_title_effect02_0.png",
+      "render_sha256": "E396C6B42D4D5F9387B173B6A0DFE303F3DBED6D40567D49379D91695BCAB8AA"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\banner\\arc\\timg\\white.tpl",
+      "source_sha256": "F42D5A6DC3612712BF31EC47FA269C5A3705857313B99ED7BA705475A4EDFAD6",
+      "image_index": 0,
+      "width": 40,
+      "height": 48,
+      "format": 1,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\banner_white_0.png",
+      "render_sha256": "16533B0023057068DEFEA63ECA4898386D412F33C20716637B9A43322A892AFE"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\icon\\arc\\timg\\bg.tpl",
+      "source_sha256": "9365A7079B95ABD8974A2AF6C99A602DDFD61926FE76A860F23A3564E62DC0C4",
+      "image_index": 0,
+      "width": 170,
+      "height": 96,
+      "format": 14,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\icon_bg_0.png",
+      "render_sha256": "D535B6F60727FADFDFBCA854AB08E37D0F3F70F172B3ADC2EE87BEC7C315537C"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\icon\\arc\\timg\\cloud.tpl",
+      "source_sha256": "E1E6CB67561B9DB3C037734EC49FF2DEFB991ADE87F50102CAAA71B55D51FFB9",
+      "image_index": 0,
+      "width": 170,
+      "height": 25,
+      "format": 14,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\icon_cloud_0.png",
+      "render_sha256": "61601F07E80D3637381ADB83D6940289AE1F86ED14D8017EB7924B5DA45E5F76"
+    },
+    {
+      "source": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\opening_bnr_ko\\extract\\icon\\arc\\timg\\title.tpl",
+      "source_sha256": "55A1C2389E661D77811D1FA07AFCB57E1CDEDC05F759C286FF0206D53711E530",
+      "image_index": 0,
+      "width": 120,
+      "height": 70,
+      "format": 14,
+      "texture_data_offset": 64,
+      "render": "work\\runtime_fix\\opening_bnr_ko\\render_before\\icon_title_0.png",
+      "render_sha256": "CCB7639D996165D8106DA8D1C253D3F5706A5290852DF4C036DC58927981EA0B"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "work\\runtime_fix\\opening_bnr_ko\\render_before\\opening_bnr_tpl_contact_p01.png",
+      "sha256": "A9FCC3791BC3CF5A9B6C6D00A20D2DF2290AFFA96F887D5B8EC18D8419E4B0F5",
+      "items": 12
+    }
+  ]
+}

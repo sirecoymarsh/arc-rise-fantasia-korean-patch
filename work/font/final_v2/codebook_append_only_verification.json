@@ -1,0 +1,23 @@
+{
+  "schema": "arf-append-only-codebook-verification-v1",
+  "translation_engine_policy": "Codex internal models only",
+  "existing_codebook_sha256": "C068CE21DCD05D3081A26504757206543E7928921A30630F9154D3AA96790EC4",
+  "extended_codebook_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+  "corpus_sha256": "9B219DAE472947C234DC874CD705C8D7E717C64D52522CB471417FF4FD5E55E5",
+  "reserved_hex_sha256": "F84E29616A95F4501811F4A0837DAD646BC2F28219BBEE6ACA59CB6CB7E4142E",
+  "existing_assigned": 1368,
+  "extended_assigned": 1369,
+  "appended_characters": 1,
+  "required_hangul": 504,
+  "required_custom_glyphs": 504,
+  "missing_required_custom_glyphs": 0,
+  "existing_assignments_changed": 0,
+  "reserved_source_pairs": 2227,
+  "reserved_pair_collisions": 0,
+  "duplicate_pair_count": 0,
+  "available_after_reservations": 4259,
+  "capacity_ok": true,
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "arf-bscr-raw-replacements-v1",
+  "note": "Non-translation length-change probe: append two ASCII exclamation bytes.",
+  "replacements": [
+    {
+      "offset": "0x2f",
+      "source_raw_hex": "a4aaa4a4a1a2cbdcc5f6a4cba4b3a4eca4c7b2e1a4b4a4b9a4cea4aba1a9",
+      "raw_hex": "a4aaa4a4a1a2cbdcc5f6a4cba4b3a4eca4c7b2e1a4b4a4b9a4cea4aba1a92121"
+    }
+  ]
+}

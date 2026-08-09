@@ -1,0 +1,261 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0072",
+  "reviewer": "/root/review_batch_0058_0060",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0072.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0072.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0072.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 25,
+  "unchanged_row_count": 175,
+  "modifications": [
+    {
+      "row_index": 0,
+      "tm_id": "ARF-TM-539AB81DA7CF6D928B0E",
+      "source_text": "申し訳ありませんが\n皆さんは席を外して下さいな",
+      "before": "죄송하지만\n여러분은 자리를 비켜 주세요",
+      "after": "죄송하지만\n여러분은 자리를 비워 주세요",
+      "category": "naturalness",
+      "reason": "席を外す의 통용 표현으로 바로잡았다."
+    },
+    {
+      "row_index": 6,
+      "tm_id": "ARF-TM-55A020E2B8C60379E3D0",
+      "source_text": "おっと外しちまった。\nでも、今度は外さないぜ？",
+      "before": "이런, 빗나갔군.\n하지만 다음엔 안 놓칠 거야",
+      "after": "이런, 빗나갔군.\n하지만 다음엔 빗맞히지 않아",
+      "category": "semantic_accuracy",
+      "reason": "두 번의 外す를 동일한 사격 의미로 일관되게 옮겼다."
+    },
+    {
+      "row_index": 24,
+      "tm_id": "ARF-TM-5A355C7A983F04BAF12C",
+      "source_text": "■■■■フラグねてるよ■■■■\n",
+      "before": "■■■■플래그 자고 있어■■■■\n",
+      "after": "■■■■플래그 잠들어 있음■■■■\n",
+      "category": "naturalness",
+      "reason": "개발용 표식의 일본어식 서술을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 39,
+      "tm_id": "ARF-TM-5C5FA30D4496D0B947A7",
+      "source_text": "お前らは先に船に乗って操舵室を占拠しろ。\n海に出ればこっちのもんだ",
+      "before": "너희는 먼저 배에 올라 조타실을 점거해.\n바다로 나가면 이쪽 세상이야",
+      "after": "너희는 먼저 배에 올라 조타실을 점거해.\n바다로 나가면 우리 세상이야",
+      "category": "naturalness",
+      "reason": "こっちのもんだ의 승산을 자신하는 관용 표현을 살렸다."
+    },
+    {
+      "row_index": 42,
+      "tm_id": "ARF-TM-5CDD92ED79F573A40176",
+      "source_text": "いつの間にかっていうか\nついさっきここに来た\nばっかりって感じもしてて",
+      "before": "어느새라고 해야 하나\n바로 조금 전에 여기 온\n것 같은 느낌도 들고",
+      "after": "어느새라고 해야 하나\n바로 조금 전에 여기에 온\n것만 같은 느낌도 들고",
+      "category": "naturalness",
+      "reason": "ばっかり의 시간상 뉘앙스를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 46,
+      "tm_id": "ARF-TM-5D7E738FC63F322C0573",
+      "source_text": "オイゲンという旅の傭兵の\n力添えもあって\n最小限の被害ですみました",
+      "before": "여행 중인 용병 오이겐의\n도움도 있어\n피해를 최소화할 수 있었습니다",
+      "after": "오이겐이라는 떠돌이 용병의\n도움도 있어서\n피해를 최소화할 수 있었습니다",
+      "category": "semantic_accuracy",
+      "reason": "旅の傭兵의 수식 관계와 力添え의 의미를 명확히 했다."
+    },
+    {
+      "row_index": 53,
+      "tm_id": "ARF-TM-5E854D5C424969A8A5DD",
+      "source_text": "俺……今レジスタンスにいるんス。\nだから戻れないっス",
+      "before": "저…… 지금 레지스탕스에 있슴다.\n그래서 돌아갈 수 없슴다",
+      "after": "저…… 지금 저항군에 있슴다.\n그래서 돌아갈 수 없슴다",
+      "category": "terminology",
+      "reason": "レジスタンス의 확정 표기 '저항군'을 적용했다."
+    },
+    {
+      "row_index": 60,
+      "tm_id": "ARF-TM-619799DFE5BE580E704E",
+      "source_text": "そんなこと言いましたかぁ？",
+      "before": "제가 그런 말을 했던가요?",
+      "after": "제가 그런 말을 했던가요오?",
+      "category": "register",
+      "reason": "소니아의 늘이는 말투를 일관되게 적용했다."
+    },
+    {
+      "row_index": 69,
+      "tm_id": "ARF-TM-62E1FBBDDB8502C9B8B4",
+      "source_text": "■■カット4-6■■\n",
+      "before": "■■컷 4-6■■\n",
+      "after": "■■컷4-6■■\n",
+      "category": "formatting",
+      "reason": "내부 컷 표식에 추가된 불필요한 공백을 제거했다."
+    },
+    {
+      "row_index": 70,
+      "tm_id": "ARF-TM-631CFC199BE26BC39716",
+      "source_text": "神を殺すかどうかは分かりません。\nできない約束はしたくない",
+      "before": "신을 죽일지는 모르겠습니다.\n지킬 수 없는 약속은 하고 싶지 않아요",
+      "after": "신을 죽일지는 모릅니다.\n지킬 수 없는 약속은 하고 싶지 않습니다",
+      "category": "register",
+      "reason": "한 대사 안에서 혼재한 존댓말 종결을 통일했다."
+    },
+    {
+      "row_index": 75,
+      "tm_id": "ARF-TM-644FF1214C2900FBD097",
+      "source_text": "■■カット24-26■■\n",
+      "before": "■■컷 24-26■■\n",
+      "after": "■■컷24-26■■\n",
+      "category": "formatting",
+      "reason": "내부 컷 표식에 추가된 불필요한 공백을 제거했다."
+    },
+    {
+      "row_index": 76,
+      "tm_id": "ARF-TM-64B5BCE2AF1572A1778F",
+      "source_text": "多分、あなたたちと同じ。オルキナ教徒\nではない興味本位の旅人ってところ",
+      "before": "아마 당신들과 마찬가지겠죠. 오르키나교도가\n아니라 호기심으로 찾아온 여행자랄까",
+      "after": "아마 당신들과 마찬가지겠죠. 오르키나교도가\n아닌, 호기심으로 찾아온 여행자랄까",
+      "category": "semantic_accuracy",
+      "reason": "교도 여부와 여행 동기의 문장 관계를 바로잡았다."
+    },
+    {
+      "row_index": 89,
+      "tm_id": "ARF-TM-66D561437CBC6C282647",
+      "source_text": "それは、無限ともいえる変容の\nパターンから、ひとつの解を演算する\n気の遠くなるような作業です",
+      "before": "그건 무한하다고도 할 수 있는 변용\n패턴에서 하나의 해답을 연산하는\n아득할 만큼 고된 작업입니다",
+      "after": "그건 무한하다고도 할 수 있는 변용\n패턴 중에서 하나의 해를 연산하는\n아득할 만큼 고된 작업입니다",
+      "category": "terminology",
+      "reason": "解를 기술 문맥의 '해'로 옮기고 조사 관계를 정리했다."
+    },
+    {
+      "row_index": 105,
+      "tm_id": "ARF-TM-6B9536A83F1BDE69DABB",
+      "source_text": "悪辣非道なラグーンとは\n貴殿のことであろう",
+      "before": "악랄하고 비도한 라군이란\n그대를 말하는 것이겠지",
+      "after": "극악무도한 라군이란\n그대를 말하는 것이겠지",
+      "category": "semantic_accuracy",
+      "reason": "悪辣非道를 자연스러운 사자성어로 바로잡았다."
+    },
+    {
+      "row_index": 110,
+      "tm_id": "ARF-TM-6D636E9217268CDB214F",
+      "source_text": "第二飛光艇団は任務を終えて帰還したんだ。\nだからキミを捜そうと思って……",
+      "before": "제２ 비광정단은 임무를 마치고 귀환했어.\n그래서 널 찾으려고……",
+      "after": "제２ 비광정단은 임무를 마치고 귀환했어.\n그래서 널 찾으려고 했는데……",
+      "category": "semantic_accuracy",
+      "reason": "미완의 의도 표현을 한국어 문맥에 맞게 보충했다."
+    },
+    {
+      "row_index": 114,
+      "tm_id": "ARF-TM-6DB8D10BAAD998EF8B47",
+      "source_text": "アデールちゃんにディーバを\n継がせたくなかったんだろうな",
+      "before": "아델에게 디바를\n잇게 하고 싶지 않았겠지",
+      "after": "아델에게 디바 자리를\n물려주고 싶지 않았겠지",
+      "category": "semantic_accuracy",
+      "reason": "ディーバを継がせる의 계승 의미를 명확히 했다."
+    },
+    {
+      "row_index": 120,
+      "tm_id": "ARF-TM-6F2F638B9F937151CD97",
+      "source_text": "俺ぁな、そういう\n物を大切にしない奴らが\n大嫌いなんだ!!　出てけっ!!",
+      "before": "난 말이지, 그런 식으로\n물건을 소중히 하지 않는 녀석들이\n정말 싫어!! 나가!!",
+      "after": "난 말이지, 그런 식으로\n물건을 소중히 여기지 않는 녀석들이\n정말 싫어!! 나가!!",
+      "category": "naturalness",
+      "reason": "목적어와 서술어의 결합을 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 123,
+      "tm_id": "ARF-TM-6F80DD280C61073DEE7C",
+      "source_text": "■■カット7-10■■\n",
+      "before": "■■컷 7-10■■\n",
+      "after": "■■컷7-10■■\n",
+      "category": "formatting",
+      "reason": "내부 컷 표식에 추가된 불필요한 공백을 제거했다."
+    },
+    {
+      "row_index": 125,
+      "tm_id": "ARF-TM-6F887234BA480D17137C",
+      "source_text": "りょ、了解であります",
+      "before": "료, 알겠습니다",
+      "after": "아, 알겠습니다",
+      "category": "naturalness",
+      "reason": "일본어 음절을 그대로 옮긴 말더듬을 한국어로 자연스럽게 바꿨다."
+    },
+    {
+      "row_index": 152,
+      "tm_id": "ARF-TM-73A4C59BE92354DF02D9",
+      "source_text": "ホゾンなしでは生きられぬ\n現種共は、ホゾンの浄化後\nことごとく死滅する",
+      "before": "호존 없이는 살 수 없는\n현종들은 호존 정화 후\n모조리 죽게 된다",
+      "after": "호존 없이는 살 수 없는\n현종들은 호존이 정화된 뒤\n모조리 전멸한다",
+      "category": "semantic_accuracy",
+      "reason": "ことごとく死滅する의 전멸 의미를 직접적으로 반영했다."
+    },
+    {
+      "row_index": 172,
+      "tm_id": "ARF-TM-77BDC3850836A85C28E9",
+      "source_text": "ルフンガを呼ぶためには\n奴の回遊ルートの近くで\nホゾン汚染を起こす必要がある",
+      "before": "루훙가를 부르려면\n녀석의 회유 경로 근처에서\n호존 오염을 일으켜야 한다",
+      "after": "루훙가를 부르려면\n녀석의 이동 경로 근처에서\n호존 오염을 일으켜야 한다",
+      "category": "terminology",
+      "reason": "回遊ルート를 생물의 이동 경로로 명확히 옮겼다."
+    },
+    {
+      "row_index": 178,
+      "tm_id": "ARF-TM-786D53B76FDF4D5F9F60",
+      "source_text": "もう息がないわ……",
+      "before": "이미 숨을 쉬지 않아……",
+      "after": "이미 숨이 끊어졌어……",
+      "category": "naturalness",
+      "reason": "사망 상태를 나타내는 관용 표현으로 다듬었다."
+    },
+    {
+      "row_index": 179,
+      "tm_id": "ARF-TM-786FE348E74412ABA2BD",
+      "source_text": "……助けて……くれたんだよな？\n悪い、助かった",
+      "before": "……구해…… 준 거지?\n미안, 살았어",
+      "after": "……구해…… 준 거지?\n미안, 고맙다",
+      "category": "semantic_accuracy",
+      "reason": "助かった를 구조에 대한 감사의 의미로 옮겼다."
+    },
+    {
+      "row_index": 188,
+      "tm_id": "ARF-TM-7A642255B318C11FCFC0",
+      "source_text": "おそらく処理が間に合わない",
+      "before": "아마 처리가 따라가지 못할 거야",
+      "after": "아마 처리 속도가 따라잡지 못할 거야",
+      "category": "semantic_accuracy",
+      "reason": "処理が間に合わない를 처리 속도 부족이라는 의미로 명확히 했다."
+    },
+    {
+      "row_index": 198,
+      "tm_id": "ARF-TM-7BD41F2E5E4FC5DA5FE8",
+      "source_text": "潮が引くというのは\n海面の高さが\n低くなるということなの",
+      "before": "썰물이 든다는 건\n해수면 높이가\n낮아진다는 뜻이야",
+      "after": "물이 빠진다는 건\n해수면 높이가\n낮아진다는 뜻이야",
+      "category": "naturalness",
+      "reason": "潮が引く의 통용 표현을 적용했다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  }
+}

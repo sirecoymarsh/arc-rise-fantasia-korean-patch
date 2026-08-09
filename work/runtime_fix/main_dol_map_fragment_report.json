@@ -1,0 +1,27 @@
+{
+  "candidate_count": 226,
+  "selected": 222,
+  "excluded": [
+    {
+      "offset_hex": "0x3F1B3A",
+      "source_text": "予備枠",
+      "reason": "reserved_internal_slot"
+    },
+    {
+      "offset_hex": "0x3F1B52",
+      "source_text": "予備枠",
+      "reason": "reserved_internal_slot"
+    },
+    {
+      "offset_hex": "0x3F1B6A",
+      "source_text": "予備枠",
+      "reason": "reserved_internal_slot"
+    },
+    {
+      "offset_hex": "0x3F1B82",
+      "source_text": "予備枠",
+      "reason": "reserved_internal_slot"
+    }
+  ],
+  "errors": []
+}

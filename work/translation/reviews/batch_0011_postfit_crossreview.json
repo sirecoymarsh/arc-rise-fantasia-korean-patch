@@ -1,0 +1,49 @@
+{
+  "schema": "arf-post-review-fit-crossreview-v1",
+  "batch_id": "batch_0011",
+  "reviewer": "/root",
+  "independent_from_postfit_author": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "scope": {
+    "category": "post_review_fit_or_encoding",
+    "units": 3,
+    "source": "work/translation/tm_v2/batches/source/batch_0011.jsonl",
+    "reviewed": "work/translation/reviewed/batch_0011.jsonl",
+    "fit": "work/translation/validation/batch_0011_fit_only.json",
+    "temporary_codebook": "work/translation/validation/batch_0011_codebook_temp.json"
+  },
+  "results": [
+    {
+      "tm_id": "ARF-TM-76E49C6A0E93976F891E",
+      "status": "PASS",
+      "translation_ko": "거대 뱀 우로보로스의 생가죽으로 만든 검.\n그 일섬은 때로 적을 병마에 잠식시킨다",
+      "encoded_bytes": 78,
+      "required_with_nul": 79,
+      "capacity": 81,
+      "reason": "거대 뱀 우로보로스, 벗겨 낸 생가죽으로 제작한 검, 일섬이 때때로 적을 병마에 잠식시키는 효과를 모두 보존한다."
+    },
+    {
+      "tm_id": "ARF-TM-7092E11C1F16690A719C",
+      "status": "PASS",
+      "translation_ko": "명문가에서 일하는 젊은이는 다리선을 드러낸\n옷을 입고 주인을 위해 미를 겨뤘다",
+      "encoded_bytes": 76,
+      "required_with_nul": 77,
+      "capacity": 81,
+      "reason": "명문가의 젊은 일꾼, 다리선을 드러내는 옷, 주인을 위해 아름다움을 겨룬다는 수식 관계와 의미를 보존한다."
+    },
+    {
+      "tm_id": "ARF-TM-77F216B015A6123828EF",
+      "status": "PASS",
+      "translation_ko": "귀여운 성직자",
+      "encoded_bytes": 13,
+      "required_with_nul": 14,
+      "capacity": 17,
+      "reason": "「愛らしい」의 인물 수식 의미를 자연스러운 짧은 표현으로 보존한다."
+    }
+  ],
+  "boundary_intersection_count": 0,
+  "fail_count": 0,
+  "status": "PASS",
+  "files_modified_by_review": []
+}

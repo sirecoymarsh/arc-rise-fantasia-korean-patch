@@ -1,0 +1,2172 @@
+{
+  "archive": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\system.vol",
+  "header": {
+    "end_of_header": 2240,
+    "count": 55,
+    "declared_size": 6172640,
+    "actual_size": 6172640
+  },
+  "entries": [
+    {
+      "index": 0,
+      "name": "EUC28-0.wtm",
+      "size": 262208,
+      "relative_offset": 0,
+      "absolute_offset": 2240,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 796,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1576,
+          "text": "劔儺DDD#333"
+        },
+        {
+          "byte_offset_approx": 1608,
+          "text": "劔劔DDDD3333"
+        },
+        {
+          "byte_offset_approx": 2944,
+          "text": "CWD戳!t戳"
+        },
+        {
+          "byte_offset_approx": 2961,
+          "text": "C4毖A^"
+        },
+        {
+          "byte_offset_approx": 3828,
+          "text": "$暉a"
+        },
+        {
+          "byte_offset_approx": 3914,
+          "text": "戰gI"
+        },
+        {
+          "byte_offset_approx": 8311,
+          "text": "!%EeE^朖"
+        },
+        {
+          "byte_offset_approx": 8377,
+          "text": "D摧d裁DDC"
+        },
+        {
+          "byte_offset_approx": 9068,
+          "text": "d擽0%M"
+        },
+        {
+          "byte_offset_approx": 9993,
+          "text": "毖Q4"
+        },
+        {
+          "byte_offset_approx": 10174,
+          "text": "I妊0"
+        },
+        {
+          "byte_offset_approx": 10431,
+          "text": "$35N戰DDJ劔劔撕劔"
+        },
+        {
+          "byte_offset_approx": 10591,
+          "text": "KN旱"
+        },
+        {
+          "byte_offset_approx": 10784,
+          "text": "劔劔DDDD3333"
+        },
+        {
+          "byte_offset_approx": 10848,
+          "text": "3333DDDD劔劔"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "EUC28-1.wtm",
+      "size": 262208,
+      "relative_offset": 262208,
+      "absolute_offset": 264448,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 962,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 308,
+          "text": "謡wc"
+        },
+        {
+          "byte_offset_approx": 1071,
+          "text": "慘毀憊"
+        },
+        {
+          "byte_offset_approx": 1170,
+          "text": "wsb&惡vw悸w"
+        },
+        {
+          "byte_offset_approx": 1237,
+          "text": "y劔7"
+        },
+        {
+          "byte_offset_approx": 1264,
+          "text": "ffff劔劔"
+        },
+        {
+          "byte_offset_approx": 1424,
+          "text": "33UFwww化"
+        },
+        {
+          "byte_offset_approx": 2141,
+          "text": "w{醉w|"
+        },
+        {
+          "byte_offset_approx": 2610,
+          "text": "&|dgw|略"
+        },
+        {
+          "byte_offset_approx": 3712,
+          "text": "ww弦3G"
+        },
+        {
+          "byte_offset_approx": 4063,
+          "text": "面w恂"
+        },
+        {
+          "byte_offset_approx": 4063,
+          "text": "w恂0"
+        },
+        {
+          "byte_offset_approx": 4659,
+          "text": "|ffg|劔呷"
+        },
+        {
+          "byte_offset_approx": 5773,
+          "text": "P&慵Cw"
+        },
+        {
+          "byte_offset_approx": 5900,
+          "text": "剽 謡v"
+        },
+        {
+          "byte_offset_approx": 5949,
+          "text": "劔栁ww惺ww玄"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "EUC28-2.wtm",
+      "size": 262208,
+      "relative_offset": 524416,
+      "absolute_offset": 526656,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 504,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 464,
+          "text": "g嗹f緯"
+        },
+        {
+          "byte_offset_approx": 824,
+          "text": "w県2w県w"
+        },
+        {
+          "byte_offset_approx": 1969,
+          "text": "Aw孤v鮎闊"
+        },
+        {
+          "byte_offset_approx": 3360,
+          "text": "ww愽b"
+        },
+        {
+          "byte_offset_approx": 3360,
+          "text": "己aQ"
+        },
+        {
+          "byte_offset_approx": 4721,
+          "text": "wG庫gz"
+        },
+        {
+          "byte_offset_approx": 4736,
+          "text": "s県ww県x"
+        },
+        {
+          "byte_offset_approx": 4960,
+          "text": "峡w椦"
+        },
+        {
+          "byte_offset_approx": 6432,
+          "text": "揚wwR"
+        },
+        {
+          "byte_offset_approx": 6656,
+          "text": "h駅w%e2#"
+        },
+        {
+          "byte_offset_approx": 7136,
+          "text": "w曲wDg"
+        },
+        {
+          "byte_offset_approx": 7648,
+          "text": "w嚊t$fS"
+        },
+        {
+          "byte_offset_approx": 7935,
+          "text": "迚awuT D!"
+        },
+        {
+          "byte_offset_approx": 8064,
+          "text": "y&y遊"
+        },
+        {
+          "byte_offset_approx": 8461,
+          "text": "缶握肝"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "EUC28-3.wtm",
+      "size": 262208,
+      "relative_offset": 786624,
+      "absolute_offset": 788864,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 283,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1180,
+          "text": "覺!&"
+        },
+        {
+          "byte_offset_approx": 2494,
+          "text": "訶5n鑚"
+        },
+        {
+          "byte_offset_approx": 3264,
+          "text": "&f|襾鮎鑰"
+        },
+        {
+          "byte_offset_approx": 3264,
+          "text": "勤貍勤"
+        },
+        {
+          "byte_offset_approx": 4064,
+          "text": "黑竧v"
+        },
+        {
+          "byte_offset_approx": 4064,
+          "text": "f功w"
+        },
+        {
+          "byte_offset_approx": 4564,
+          "text": "f幻3f誇ffl"
+        },
+        {
+          "byte_offset_approx": 8290,
+          "text": "e 標"
+        },
+        {
+          "byte_offset_approx": 8290,
+          "text": "i賣fw"
+        },
+        {
+          "byte_offset_approx": 11255,
+          "text": "!公Fvl詆"
+        },
+        {
+          "byte_offset_approx": 12640,
+          "text": "槁h系"
+        },
+        {
+          "byte_offset_approx": 14048,
+          "text": "ff幻"
+        },
+        {
+          "byte_offset_approx": 15221,
+          "text": "6幻6w弦m"
+        },
+        {
+          "byte_offset_approx": 16212,
+          "text": "亶A&鋧cW銕"
+        },
+        {
+          "byte_offset_approx": 18689,
+          "text": "b|靈a"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "EUC28-4.wtm",
+      "size": 262208,
+      "relative_offset": 1048832,
+      "absolute_offset": 1051072,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 286,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 184,
+          "text": "Z靕f7"
+        },
+        {
+          "byte_offset_approx": 1332,
+          "text": "w執w"
+        },
+        {
+          "byte_offset_approx": 2213,
+          "text": "哦wwf"
+        },
+        {
+          "byte_offset_approx": 2213,
+          "text": "靕wG"
+        },
+        {
+          "byte_offset_approx": 4820,
+          "text": "騁3$"
+        },
+        {
+          "byte_offset_approx": 6304,
+          "text": "X謡w"
+        },
+        {
+          "byte_offset_approx": 6943,
+          "text": "鋭7yD"
+        },
+        {
+          "byte_offset_approx": 7008,
+          "text": "X揚x"
+        },
+        {
+          "byte_offset_approx": 7744,
+          "text": "鸙詣刊x\"FS4"
+        },
+        {
+          "byte_offset_approx": 7840,
+          "text": "鈐uy"
+        },
+        {
+          "byte_offset_approx": 8096,
+          "text": "鐱gy"
+        },
+        {
+          "byte_offset_approx": 11704,
+          "text": "邪v 邪"
+        },
+        {
+          "byte_offset_approx": 13152,
+          "text": "7{隴"
+        },
+        {
+          "byte_offset_approx": 13376,
+          "text": "%楾0G"
+        },
+        {
+          "byte_offset_approx": 14992,
+          "text": "x佑 |"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "EUC28-5.wtm",
+      "size": 262208,
+      "relative_offset": 1311040,
+      "absolute_offset": 1313280,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 160,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 724,
+          "text": "U湫e"
+        },
+        {
+          "byte_offset_approx": 1264,
+          "text": "CWSDw訟w"
+        },
+        {
+          "byte_offset_approx": 1360,
+          "text": "WSD!訟wS"
+        },
+        {
+          "byte_offset_approx": 4484,
+          "text": "丞 獷"
+        },
+        {
+          "byte_offset_approx": 4893,
+          "text": "ww訟"
+        },
+        {
+          "byte_offset_approx": 4893,
+          "text": "衝wu@"
+        },
+        {
+          "byte_offset_approx": 8094,
+          "text": "\"\"曉"
+        },
+        {
+          "byte_offset_approx": 12640,
+          "text": "愰WUU3\"\"!"
+        },
+        {
+          "byte_offset_approx": 12834,
+          "text": "%酋UU"
+        },
+        {
+          "byte_offset_approx": 12834,
+          "text": "劯wwuDDDB"
+        },
+        {
+          "byte_offset_approx": 13184,
+          "text": "攻在["
+        },
+        {
+          "byte_offset_approx": 14706,
+          "text": "5x姻W"
+        },
+        {
+          "byte_offset_approx": 16027,
+          "text": "]衝C|"
+        },
+        {
+          "byte_offset_approx": 16303,
+          "text": "\"\"CeUUw詐"
+        },
+        {
+          "byte_offset_approx": 16776,
+          "text": "a訟u 衝1"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "EUC28-6.wtm",
+      "size": 262208,
+      "relative_offset": 1573248,
+      "absolute_offset": 1575488,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 555,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 212,
+          "text": "g悸d"
+        },
+        {
+          "byte_offset_approx": 308,
+          "text": "惡4e惺x俐髱"
+        },
+        {
+          "byte_offset_approx": 656,
+          "text": "tWw 營"
+        },
+        {
+          "byte_offset_approx": 2031,
+          "text": "2zuGw惺}"
+        },
+        {
+          "byte_offset_approx": 3264,
+          "text": "g妻}'庫}"
+        },
+        {
+          "byte_offset_approx": 4256,
+          "text": "~鯤wWy"
+        },
+        {
+          "byte_offset_approx": 6336,
+          "text": "故宥w"
+        },
+        {
+          "byte_offset_approx": 6688,
+          "text": "wg匡R"
+        },
+        {
+          "byte_offset_approx": 6784,
+          "text": "aBX榔"
+        },
+        {
+          "byte_offset_approx": 7200,
+          "text": "謡wwe#33"
+        },
+        {
+          "byte_offset_approx": 7552,
+          "text": "乂b&dC"
+        },
+        {
+          "byte_offset_approx": 7744,
+          "text": "W慘s"
+        },
+        {
+          "byte_offset_approx": 7808,
+          "text": "溿李w$dfQ"
+        },
+        {
+          "byte_offset_approx": 7840,
+          "text": "uW舎1"
+        },
+        {
+          "byte_offset_approx": 8064,
+          "text": "J刧g$wC$"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "EUC28-7.wtm",
+      "size": 262208,
+      "relative_offset": 1835456,
+      "absolute_offset": 1837696,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 743,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 271,
+          "text": "3332hVff孳劔"
+        },
+        {
+          "byte_offset_approx": 1004,
+          "text": "誣劯u"
+        },
+        {
+          "byte_offset_approx": 1520,
+          "text": "1fa3V寔Uw菶w"
+        },
+        {
+          "byte_offset_approx": 1613,
+          "text": "333Ffff甥劔"
+        },
+        {
+          "byte_offset_approx": 1873,
+          "text": "hffU{敲f{匚x{匚"
+        },
+        {
+          "byte_offset_approx": 2040,
+          "text": "ff玖w"
+        },
+        {
+          "byte_offset_approx": 2937,
+          "text": "~g釗"
+        },
+        {
+          "byte_offset_approx": 3045,
+          "text": "寇06宸"
+        },
+        {
+          "byte_offset_approx": 3400,
+          "text": "wx業eR{謀"
+        },
+        {
+          "byte_offset_approx": 3772,
+          "text": "料b0C"
+        },
+        {
+          "byte_offset_approx": 4504,
+          "text": "軻0o"
+        },
+        {
+          "byte_offset_approx": 5055,
+          "text": "亨F寉3"
+        },
+        {
+          "byte_offset_approx": 5325,
+          "text": "貿鮎烹h"
+        },
+        {
+          "byte_offset_approx": 6432,
+          "text": "頬鈼u%fdC"
+        },
+        {
+          "byte_offset_approx": 6526,
+          "text": "S1h咾"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "EUC28-8.wtm",
+      "size": 262208,
+      "relative_offset": 2097664,
+      "absolute_offset": 2099904,
+      "head_hex": "57544D4400000020020004000802010000000040000200000000000000000000",
+      "head_ascii": "WTMD... ...........@............",
+      "sjis_run_count": 212,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 368,
+          "text": "www銧f"
+        },
+        {
+          "byte_offset_approx": 656,
+          "text": "rDDAgwwれ"
+        },
+        {
+          "byte_offset_approx": 4856,
+          "text": "釤W@"
+        },
+        {
+          "byte_offset_approx": 4893,
+          "text": "w鋓劯"
+        },
+        {
+          "byte_offset_approx": 5892,
+          "text": "ゞUW"
+        },
+        {
+          "byte_offset_approx": 6239,
+          "text": "慾躑s"
+        },
+        {
+          "byte_offset_approx": 6432,
+          "text": "!'穆"
+        },
+        {
+          "byte_offset_approx": 6495,
+          "text": "W\"(嘖"
+        },
+        {
+          "byte_offset_approx": 8584,
+          "text": "嵒 瑢"
+        },
+        {
+          "byte_offset_approx": 8712,
+          "text": "s8棺"
+        },
+        {
+          "byte_offset_approx": 9188,
+          "text": "wx髙"
+        },
+        {
+          "byte_offset_approx": 10752,
+          "text": "採雖棺"
+        },
+        {
+          "byte_offset_approx": 12453,
+          "text": "WG崕"
+        },
+        {
+          "byte_offset_approx": 14864,
+          "text": "Hw!B彩xw棺釛7"
+        },
+        {
+          "byte_offset_approx": 15056,
+          "text": "\"333wUUU蟒"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "heart.wtm",
+      "size": 1312,
+      "relative_offset": 2359872,
+      "absolute_offset": 2362112,
+      "head_hex": "57544D4400000020001800200902010000000220000200000000000000000000",
+      "head_ascii": "WTMD... ... ....... ............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 10,
+      "name": "mapicon.wtm",
+      "size": 27168,
+      "relative_offset": 2361184,
+      "absolute_offset": 2363424,
+      "head_hex": "57544D4400000020016800200A03010100001020000200000000000000000000",
+      "head_ascii": "WTMD... .h. ....... ............",
+      "sjis_run_count": 35,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 41,
+          "text": "UmD$D船繕船mD"
+        },
+        {
+          "byte_offset_approx": 2176,
+          "text": "{J誼コ"
+        },
+        {
+          "byte_offset_approx": 2188,
+          "text": "破破3"
+        },
+        {
+          "byte_offset_approx": 2276,
+          "text": "{虐ニ1 DD3"
+        },
+        {
+          "byte_offset_approx": 2310,
+          "text": "bJセZ9"
+        },
+        {
+          "byte_offset_approx": 2329,
+          "text": "\"誼桔3"
+        },
+        {
+          "byte_offset_approx": 2374,
+          "text": "A 徭ZJ9"
+        },
+        {
+          "byte_offset_approx": 2386,
+          "text": "D\"悳{{"
+        },
+        {
+          "byte_offset_approx": 2436,
+          "text": "範郷{A1"
+        },
+        {
+          "byte_offset_approx": 2462,
+          "text": "ア)ニ"
+        },
+        {
+          "byte_offset_approx": 2538,
+          "text": "A1D\"bbR9セ恃"
+        },
+        {
+          "byte_offset_approx": 2538,
+          "text": "萩sjA倍A1)"
+        },
+        {
+          "byte_offset_approx": 2583,
+          "text": "A9AA91巴徊91"
+        },
+        {
+          "byte_offset_approx": 2630,
+          "text": "覿fJ \"\""
+        },
+        {
+          "byte_offset_approx": 2670,
+          "text": "汽33"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "itemicon.wtm",
+      "size": 68640,
+      "relative_offset": 2388352,
+      "absolute_offset": 2390592,
+      "head_hex": "57544D4400000020015000600A03010100001020000200000000000000000000",
+      "head_ascii": "WTMD... .P.`....... ............",
+      "sjis_run_count": 40,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 2138,
+          "text": "RT本"
+        },
+        {
+          "byte_offset_approx": 2184,
+          "text": "Avfバ父j"
+        },
+        {
+          "byte_offset_approx": 2286,
+          "text": "鉙蒸c  ;"
+        },
+        {
+          "byte_offset_approx": 2370,
+          "text": "譬|["
+        },
+        {
+          "byte_offset_approx": 2386,
+          "text": "釥j,"
+        },
+        {
+          "byte_offset_approx": 2462,
+          "text": "V|慇"
+        },
+        {
+          "byte_offset_approx": 2540,
+          "text": "朕[懊"
+        },
+        {
+          "byte_offset_approx": 2595,
+          "text": "KR忿"
+        },
+        {
+          "byte_offset_approx": 2606,
+          "text": "sA邊Ab"
+        },
+        {
+          "byte_offset_approx": 2636,
+          "text": "4R萱"
+        },
+        {
+          "byte_offset_approx": 2648,
+          "text": "溌3由1)"
+        },
+        {
+          "byte_offset_approx": 2718,
+          "text": "Qbい/"
+        },
+        {
+          "byte_offset_approx": 2728,
+          "text": "鵄1` A-1"
+        },
+        {
+          "byte_offset_approx": 2800,
+          "text": "a{丘1"
+        },
+        {
+          "byte_offset_approx": 2816,
+          "text": "2)sGア"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "status_font.wtm",
+      "size": 10016,
+      "relative_offset": 2456992,
+      "absolute_offset": 2459232,
+      "head_hex": "57544D4400000020002800E00903010100000420000200000000000000000000",
+      "head_ascii": "WTMD... .(......... ............",
+      "sjis_run_count": 47,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 636,
+          "text": "bAク"
+        },
+        {
+          "byte_offset_approx": 736,
+          "text": "尿疽b)"
+        },
+        {
+          "byte_offset_approx": 768,
+          "text": "貎鎤谺膿"
+        },
+        {
+          "byte_offset_approx": 816,
+          "text": "帰j19 ZA"
+        },
+        {
+          "byte_offset_approx": 826,
+          "text": "版徊J{V)"
+        },
+        {
+          "byte_offset_approx": 880,
+          "text": "弡詼\""
+        },
+        {
+          "byte_offset_approx": 1038,
+          "text": "J誑{9s1"
+        },
+        {
+          "byte_offset_approx": 2880,
+          "text": "[gザTTX"
+        },
+        {
+          "byte_offset_approx": 3664,
+          "text": "9,ペAzo"
+        },
+        {
+          "byte_offset_approx": 3819,
+          "text": ";L桧G"
+        },
+        {
+          "byte_offset_approx": 3827,
+          "text": "L瀕O;"
+        },
+        {
+          "byte_offset_approx": 4027,
+          "text": "dmト[V"
+        },
+        {
+          "byte_offset_approx": 4171,
+          "text": "嬰淀J"
+        },
+        {
+          "byte_offset_approx": 4856,
+          "text": "$w5徙"
+        },
+        {
+          "byte_offset_approx": 4946,
+          "text": "<U望L]"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "button_icon.wtm",
+      "size": 85440,
+      "relative_offset": 2467008,
+      "absolute_offset": 2469248,
+      "head_hex": "57544D440000002001E400540A03010100001020000200000000000000000000",
+      "head_ascii": "WTMD... ...T....... ............",
+      "sjis_run_count": 27,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 2140,
+          "text": "CDz}資賜y}"
+        },
+        {
+          "byte_offset_approx": 2214,
+          "text": "<=ｄ且"
+        },
+        {
+          "byte_offset_approx": 2258,
+          "text": "hh滑舶22`a刻誌"
+        },
+        {
+          "byte_offset_approx": 2278,
+          "text": "鋳麹hhBD+1"
+        },
+        {
+          "byte_offset_approx": 2334,
+          "text": "韋驎IJ"
+        },
+        {
+          "byte_offset_approx": 2346,
+          "text": "旧ijtvVZ"
+        },
+        {
+          "byte_offset_approx": 2512,
+          "text": "瀟oop||Y]22BBRT"
+        },
+        {
+          "byte_offset_approx": 2622,
+          "text": "OS悃"
+        },
+        {
+          "byte_offset_approx": 2780,
+          "text": "訣泯風x{"
+        },
+        {
+          "byte_offset_approx": 2780,
+          "text": "qr葛"
+        },
+        {
+          "byte_offset_approx": 2780,
+          "text": "st轄"
+        },
+        {
+          "byte_offset_approx": 2980,
+          "text": "TV擒蒿NQ"
+        },
+        {
+          "byte_offset_approx": 2996,
+          "text": "CH封"
+        },
+        {
+          "byte_offset_approx": 3056,
+          "text": "ｐ島樫"
+        },
+        {
+          "byte_offset_approx": 3056,
+          "text": "BE侭迫).NP"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "element.wtm",
+      "size": 12320,
+      "relative_offset": 2552448,
+      "absolute_offset": 2554688,
+      "head_hex": "57544D440000002000C000200500010000000020000200000000000000000000",
+      "head_ascii": "WTMD... ... ....... ............",
+      "sjis_run_count": 22,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1144,
+          "text": "f1跖!"
+        },
+        {
+          "byte_offset_approx": 2420,
+          "text": "ahc咫50$c"
+        },
+        {
+          "byte_offset_approx": 2480,
+          "text": "by`W怠@4"
+        },
+        {
+          "byte_offset_approx": 3754,
+          "text": "跛F鼕1"
+        },
+        {
+          "byte_offset_approx": 3770,
+          "text": "#麒麕"
+        },
+        {
+          "byte_offset_approx": 5072,
+          "text": "ac画"
+        },
+        {
+          "byte_offset_approx": 5664,
+          "text": "@裔\""
+        },
+        {
+          "byte_offset_approx": 6404,
+          "text": "梺8@"
+        },
+        {
+          "byte_offset_approx": 6572,
+          "text": "01蜂"
+        },
+        {
+          "byte_offset_approx": 6736,
+          "text": "蜂PB"
+        },
+        {
+          "byte_offset_approx": 6744,
+          "text": "枳`S"
+        },
+        {
+          "byte_offset_approx": 8100,
+          "text": "`V捌"
+        },
+        {
+          "byte_offset_approx": 8116,
+          "text": "0#穆"
+        },
+        {
+          "byte_offset_approx": 8264,
+          "text": "橢`V"
+        },
+        {
+          "byte_offset_approx": 8272,
+          "text": "穆0#"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "status_font2.wtm",
+      "size": 11808,
+      "relative_offset": 2564768,
+      "absolute_offset": 2567008,
+      "head_hex": "57544D4400000020002001500903010100000420000200000000000000000000",
+      "head_ascii": "WTMD... . .P....... ............",
+      "sjis_run_count": 16,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 622,
+          "text": "3\"C-糠dJ"
+        },
+        {
+          "byte_offset_approx": 797,
+          "text": "LW狽"
+        },
+        {
+          "byte_offset_approx": 840,
+          "text": "倦UwUw"
+        },
+        {
+          "byte_offset_approx": 840,
+          "text": "霻籀*;"
+        },
+        {
+          "byte_offset_approx": 840,
+          "text": "翩Uw"
+        },
+        {
+          "byte_offset_approx": 7543,
+          "text": "漕守鞳"
+        },
+        {
+          "byte_offset_approx": 8635,
+          "text": "粕粕圸囿"
+        },
+        {
+          "byte_offset_approx": 8635,
+          "text": "87==悴8777=="
+        },
+        {
+          "byte_offset_approx": 8635,
+          "text": "877777=悴8777====="
+        },
+        {
+          "byte_offset_approx": 8688,
+          "text": "===泗"
+        },
+        {
+          "byte_offset_approx": 8768,
+          "text": "繭岑87=7働沫"
+        },
+        {
+          "byte_offset_approx": 8953,
+          "text": "囓部粕"
+        },
+        {
+          "byte_offset_approx": 9276,
+          "text": "粕硲部粕粕粕蘭部粕粕悍囮粕粕國泝圉粕粕粕粕粕粕粕粕粕粕粕粕粕粕粕粕粕粕粕"
+        },
+        {
+          "byte_offset_approx": 9425,
+          "text": ",屮==="
+        },
+        {
+          "byte_offset_approx": 9537,
+          "text": "X圖===="
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "secret.wtm",
+      "size": 3104,
+      "relative_offset": 2576576,
+      "absolute_offset": 2578816,
+      "head_hex": "57544D4400000020005000200902010000000220000200000000000000000000",
+      "head_ascii": "WTMD... .P. ....... ............",
+      "sjis_run_count": 5,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 62,
+          "text": "{奏 &抗"
+        },
+        {
+          "byte_offset_approx": 1918,
+          "text": "旧hjkggl3"
+        },
+        {
+          "byte_offset_approx": 2208,
+          "text": "俣鋳利貯%2"
+        },
+        {
+          "byte_offset_approx": 2336,
+          "text": "樗濫泊"
+        },
+        {
+          "byte_offset_approx": 2368,
+          "text": "恍丁瀦"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "map_pt.wtm",
+      "size": 1120,
+      "relative_offset": 2579680,
+      "absolute_offset": 2581920,
+      "head_hex": "57544D4400000020004000200803010100000060000200000000000000000000",
+      "head_ascii": "WTMD... .@. .......`............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 18,
+      "name": "SYSTEM.SWD",
+      "size": 1030576,
+      "relative_offset": 2580800,
+      "absolute_offset": 2583040,
+      "head_hex": "7377646200000000000FB9B0041500000000000000000000D8070B1511310901",
+      "head_ascii": "swdb.........................1..",
+      "sjis_run_count": 9015,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 24243,
+          "text": "呼fq!Y?."
+        },
+        {
+          "byte_offset_approx": 24394,
+          "text": "5N濮"
+        },
+        {
+          "byte_offset_approx": 24485,
+          "text": "$\"琦"
+        },
+        {
+          "byte_offset_approx": 24564,
+          "text": "'糸N"
+        },
+        {
+          "byte_offset_approx": 24759,
+          "text": ")/經鋓"
+        },
+        {
+          "byte_offset_approx": 24963,
+          "text": "t7呱s"
+        },
+        {
+          "byte_offset_approx": 25029,
+          "text": "獻G浯"
+        },
+        {
+          "byte_offset_approx": 25156,
+          "text": "夜?7q>"
+        },
+        {
+          "byte_offset_approx": 25187,
+          "text": "侯!W"
+        },
+        {
+          "byte_offset_approx": 25224,
+          "text": "驎P't/"
+        },
+        {
+          "byte_offset_approx": 25344,
+          "text": "vxc椽"
+        },
+        {
+          "byte_offset_approx": 25379,
+          "text": "s7M8疾"
+        },
+        {
+          "byte_offset_approx": 25444,
+          "text": "悍x#?"
+        },
+        {
+          "byte_offset_approx": 25444,
+          "text": "抵TCX\"q烋"
+        },
+        {
+          "byte_offset_approx": 25498,
+          "text": "髱 N/"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "SYSTEM.SED",
+      "size": 9676,
+      "relative_offset": 3611392,
+      "absolute_offset": 3613632,
+      "head_hex": "7365646200000000000025CC041500000000000000000000D8070B1511310C01",
+      "head_ascii": "sedb......%..................1..",
+      "sjis_run_count": 6,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 377,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 1349,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 1457,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 2213,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 2321,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 3081,
+          "text": "赴脇oc"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "BT_SYS.SWD",
+      "size": 949888,
+      "relative_offset": 3621088,
+      "absolute_offset": 3623328,
+      "head_hex": "7377646200000000000E7E80041500630000000000000000D8070B1710300B03",
+      "head_ascii": "swdb......~....c.............0..",
+      "sjis_run_count": 8099,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 15828,
+          "text": "+榧qa"
+        },
+        {
+          "byte_offset_approx": 15858,
+          "text": "4*憶!彙"
+        },
+        {
+          "byte_offset_approx": 16008,
+          "text": "#:黽s"
+        },
+        {
+          "byte_offset_approx": 16039,
+          "text": "<4粫"
+        },
+        {
+          "byte_offset_approx": 16112,
+          "text": "cQ倍"
+        },
+        {
+          "byte_offset_approx": 16185,
+          "text": "_槧w/"
+        },
+        {
+          "byte_offset_approx": 16185,
+          "text": "櫓$癨,D嶬eDO"
+        },
+        {
+          "byte_offset_approx": 16185,
+          "text": "翰0t宗s"
+        },
+        {
+          "byte_offset_approx": 16376,
+          "text": "Ed矣 墲"
+        },
+        {
+          "byte_offset_approx": 16413,
+          "text": "擦D%"
+        },
+        {
+          "byte_offset_approx": 16442,
+          "text": "瀇V德"
+        },
+        {
+          "byte_offset_approx": 16560,
+          "text": "%7O隋/"
+        },
+        {
+          "byte_offset_approx": 16614,
+          "text": "50粃雪C"
+        },
+        {
+          "byte_offset_approx": 16631,
+          "text": "釧U6"
+        },
+        {
+          "byte_offset_approx": 16644,
+          "text": "鈊5.8"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "BT_SYS.SED",
+      "size": 6144,
+      "relative_offset": 4570976,
+      "absolute_offset": 4573216,
+      "head_hex": "736564620000000000001800041500630000000000000000D8070B1710300903",
+      "head_ascii": "sedb...........c.............0..",
+      "sjis_run_count": 4,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1705,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 3965,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 4613,
+          "text": "赴脇oc"
+        },
+        {
+          "byte_offset_approx": 4829,
+          "text": "赴脇oc"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "glare_tlut0.wtm",
+      "size": 4128,
+      "relative_offset": 4577120,
+      "absolute_offset": 4579360,
+      "head_hex": "57544D4400000020010000040600000000000020000100000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "sjis_run_count": 7,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1728,
+          "text": "b拂彳嫻喘拂彭喃喘拂彳嫻喘拂彭喃喃"
+        },
+        {
+          "byte_offset_approx": 1792,
+          "text": "f冑擁頬蛭枠擁頬蒜冑擁頬蛭枠擁頬斌"
+        },
+        {
+          "byte_offset_approx": 1856,
+          "text": "l杜地塵人杜地叢人杜地塵人杜地叢尋"
+        },
+        {
+          "byte_offset_approx": 1920,
+          "text": "q屍行蛍赫屍行荊客屍行蛍赫屍行荊久"
+        },
+        {
+          "byte_offset_approx": 2494,
+          "text": "^拊杼"
+        },
+        {
+          "byte_offset_approx": 2494,
+          "text": "^拊杼"
+        },
+        {
+          "byte_offset_approx": 2494,
+          "text": "^拊杼"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "name": "glare_tlut1.wtm",
+      "size": 4128,
+      "relative_offset": 4581248,
+      "absolute_offset": 4583488,
+      "head_hex": "57544D4400000020010000040600000000000020000100000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 24,
+      "name": "glare_tlut2.wtm",
+      "size": 4128,
+      "relative_offset": 4585376,
+      "absolute_offset": 4587616,
+      "head_hex": "57544D4400000020010000040600000000000020000100000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 25,
+      "name": "glare_tlut3.wtm",
+      "size": 4128,
+      "relative_offset": 4589504,
+      "absolute_offset": 4591744,
+      "head_hex": "57544D4400000020010000040600000000000020000100000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 26,
+      "name": "fld_shadow.wtm",
+      "size": 17440,
+      "relative_offset": 4593632,
+      "absolute_offset": 4595872,
+      "head_hex": "57544D4400000020008000800903010100000420000200000000000000000000",
+      "head_ascii": "WTMD... ........... ............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 27,
+      "name": "reserved_file",
+      "size": 0,
+      "relative_offset": 0,
+      "absolute_offset": 2240,
+      "head_hex": "",
+      "head_ascii": "",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 28,
+      "name": "exp_tbl.bin",
+      "size": 400,
+      "relative_offset": 4611072,
+      "absolute_offset": 4613312,
+      "head_hex": "00000000000000000000000A000000540000011E000002A700000530000008F6",
+      "head_ascii": "...............T...........0....",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 29,
+      "name": "status_data.bin",
+      "size": 1248,
+      "relative_offset": 4611488,
+      "absolute_offset": 4613728,
+      "head_hex": "00000073000000170000000D0000001700000010000000120000000300000002",
+      "head_ascii": "...s............................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 30,
+      "name": "item.bin",
+      "size": 196860,
+      "relative_offset": 4612736,
+      "absolute_offset": 4614976,
+      "head_hex": "B2BFA4E2CCB5A4B7000000000000000000000000000000000000000000000000",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 31,
+      "name": "shop.bin",
+      "size": 4042,
+      "relative_offset": 4809600,
+      "absolute_offset": 4811840,
+      "head_hex": "A2A720BBB3B9E2CBB9C6B2000000000000000000000100120016001F00000000",
+      "head_ascii": ".. .............................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 32,
+      "name": "dragon.bin",
+      "size": 3627,
+      "relative_offset": 4813664,
+      "absolute_offset": 4815904,
+      "head_hex": "A5C0A5DFA1BC000000000000000000000000000000000000A5C0A5DFA1BC0000",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 33,
+      "name": "treasure.bin",
+      "size": 12544,
+      "relative_offset": 4817312,
+      "absolute_offset": 4819552,
+      "head_hex": "74726561737572655F677265656E000000000000000000A5C0A5DFA1BC000000",
+      "head_ascii": "treasure_green..................",
+      "sjis_run_count": 30,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 1126,
+          "text": "Ｕreasure_yellow"
+        },
+        {
+          "byte_offset_approx": 3478,
+          "text": "鑪ap_shine"
+        },
+        {
+          "byte_offset_approx": 3625,
+          "text": "穰reasure_red"
+        },
+        {
+          "byte_offset_approx": 4360,
+          "text": "炙reasure_green"
+        },
+        {
+          "byte_offset_approx": 4458,
+          "text": "盈ap_shine"
+        },
+        {
+          "byte_offset_approx": 4556,
+          "text": "蚯reasure_blue"
+        },
+        {
+          "byte_offset_approx": 5340,
+          "text": "Ｕreasure_yellow"
+        },
+        {
+          "byte_offset_approx": 6123,
+          "text": "廖treasure_yellow"
+        },
+        {
+          "byte_offset_approx": 6222,
+          "text": "逆reasure_yellow"
+        },
+        {
+          "byte_offset_approx": 6320,
+          "text": "Ｕreasure_yellow"
+        },
+        {
+          "byte_offset_approx": 6369,
+          "text": "轂ep_bri_09"
+        },
+        {
+          "byte_offset_approx": 6565,
+          "text": "閣reasure_yellow"
+        },
+        {
+          "byte_offset_approx": 7153,
+          "text": "春reasure_red"
+        },
+        {
+          "byte_offset_approx": 7300,
+          "text": "縟reasure_yellow"
+        },
+        {
+          "byte_offset_approx": 7349,
+          "text": "咜reasure_red"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "name": "magic.bin",
+      "size": 8036,
+      "relative_offset": 4829856,
+      "absolute_offset": 4832096,
+      "head_hex": "A5C0A5DFA1BC0000000000000000000000000000FFFE00000000000000000000",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 35,
+      "name": "special.bin",
+      "size": 10944,
+      "relative_offset": 4837920,
+      "absolute_offset": 4840160,
+      "head_hex": "A5C0A5DFA1BC00000000000000000000000000000000A5C0A5DFA1BC00000000",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 36,
+      "name": "operation.bin",
+      "size": 960,
+      "relative_offset": 4848864,
+      "absolute_offset": 4851104,
+      "head_hex": "A4AAA4DEA4ABA4BB00000000000000000000000000000000BEF5B6B7A4F2C8BD",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 37,
+      "name": "quest.bin",
+      "size": 22990,
+      "relative_offset": 4849824,
+      "absolute_offset": 4852064,
+      "head_hex": "5353435200000F20000101E000000F2000000F1400000F2400002D2000000F28",
+      "head_ascii": "SSCR... ....... .......$..- ...(",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 38,
+      "name": "ability.bin",
+      "size": 36500,
+      "relative_offset": 4872832,
+      "absolute_offset": 4875072,
+      "head_hex": "A5C0A5DFA1BC000000000000000000000000000000A5C0A5DFA1BC0000000000",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 39,
+      "name": "weapon_data.bin",
+      "size": 6160,
+      "relative_offset": 4909344,
+      "absolute_offset": 4911584,
+      "head_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "head_ascii": "................................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 40,
+      "name": "casino.bin",
+      "size": 520,
+      "relative_offset": 4915520,
+      "absolute_offset": 4917760,
+      "head_hex": "0000000000000020000001900000002100000190000000220000019000000023",
+      "head_ascii": "....... .......!.......\".......#",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 41,
+      "name": "chat.bin",
+      "size": 100972,
+      "relative_offset": 4916064,
+      "absolute_offset": 4918304,
+      "head_hex": "53534352000056A800020ACF000056A80000569400009B680000569D0000ABD8",
+      "head_ascii": "SSCR..V.......V...V....h..V.....",
+      "sjis_run_count": 1,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 22162,
+          "text": "劃_msg_tbl"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "name": "REV_OFF.FXD",
+      "size": 128,
+      "relative_offset": 5017056,
+      "absolute_offset": 5019296,
+      "head_hex": "736678620000000000000080041500000000000000000000D807051D14022C01",
+      "head_ascii": "sfxb..........................,.",
+      "sjis_run_count": 1,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 86,
+          "text": "33>詛f"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "name": "REV_SMALL.FXD",
+      "size": 128,
+      "relative_offset": 5017184,
+      "absolute_offset": 5019424,
+      "head_hex": "736678620000000000000080041500000000000000000000D807051D13361C01",
+      "head_ascii": "sfxb.........................6..",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 44,
+      "name": "REV_MID.FXD",
+      "size": 128,
+      "relative_offset": 5017312,
+      "absolute_offset": 5019552,
+      "head_hex": "736678620000000000000080041500000000000000000000D807051D14000B01",
+      "head_ascii": "sfxb............................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 45,
+      "name": "REV_LARGE.FXD",
+      "size": 128,
+      "relative_offset": 5017440,
+      "absolute_offset": 5019680,
+      "head_hex": "736678620000000000000080041500000000000000000000D807051D140C0B01",
+      "head_ascii": "sfxb............................",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 46,
+      "name": "REV_SYSTEM.FXD",
+      "size": 128,
+      "relative_offset": 5017568,
+      "absolute_offset": 5019808,
+      "head_hex": "736678620000000000000080041500000000000000000000D807051D140C1B01",
+      "head_ascii": "sfxb............................",
+      "sjis_run_count": 1,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 86,
+          "text": "33>詛f"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "name": "banner.bin",
+      "size": 56992,
+      "relative_offset": 5017696,
+      "absolute_offset": 5019936,
+      "head_hex": "5749424E000000000FFF00000000000000000000000000000000000000000000",
+      "head_ascii": "WIBN............................",
+      "sjis_run_count": 61,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 3486,
+          "text": "p%ris郭孕徨Xrirzs赫GrWrhriq6qFqGqWt"
+        },
+        {
+          "byte_offset_approx": 3486,
+          "text": "s徭孕郭虐較zririririrXrXqWqGqGriqXqGq&rhqGq6p&qGq7p&p%q6p&p%p"
+        },
+        {
+          "byte_offset_approx": 3674,
+          "text": "p&pIu却'p'p'p&pIp'p&p"
+        },
+        {
+          "byte_offset_approx": 6164,
+          "text": "p&p7p&p&p&p&p膏挾膏jpjqkpjpIpHpHpHp7p&p&p&p"
+        },
+        {
+          "byte_offset_approx": 7686,
+          "text": "p%p&p&p&p&q7q6q7r6y孳"
+        },
+        {
+          "byte_offset_approx": 10998,
+          "text": "q9r6q&p(w挾"
+        },
+        {
+          "byte_offset_approx": 11160,
+          "text": "~罇Gp&q&p"
+        },
+        {
+          "byte_offset_approx": 12580,
+          "text": "sG~綠"
+        },
+        {
+          "byte_offset_approx": 12594,
+          "text": "q%x嘸綠"
+        },
+        {
+          "byte_offset_approx": 15626,
+          "text": "q%s6x角"
+        },
+        {
+          "byte_offset_approx": 16206,
+          "text": "xA}ピ"
+        },
+        {
+          "byte_offset_approx": 16222,
+          "text": "p)vUp[p}q蛍Cq(uFrjqEw榎sqGth"
+        },
+        {
+          "byte_offset_approx": 16222,
+          "text": "肺Sp[u"
+        },
+        {
+          "byte_offset_approx": 16222,
+          "text": "u孅)s荊蛍zpKp(p"
+        },
+        {
+          "byte_offset_approx": 16908,
+          "text": "p&t却"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "name": "wld_resident.bin",
+      "size": 866336,
+      "relative_offset": 5074688,
+      "absolute_offset": 5076928,
+      "head_hex": "53434D500000006000002380000027E000002E4000003CC0000041A000004660",
+      "head_ascii": "SCMP...`..#...'....@..<...A...F`",
+      "sjis_run_count": 4670,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 16979,
+          "text": "不tart"
+        },
+        {
+          "byte_offset_approx": 22224,
+          "text": "詆FL"
+        },
+        {
+          "byte_offset_approx": 22392,
+          "text": "清xFc緑"
+        },
+        {
+          "byte_offset_approx": 22423,
+          "text": "@{pG i霹-"
+        },
+        {
+          "byte_offset_approx": 22510,
+          "text": "F港隈[q颶"
+        },
+        {
+          "byte_offset_approx": 22595,
+          "text": "廡乃p"
+        },
+        {
+          "byte_offset_approx": 22595,
+          "text": "迫9E"
+        },
+        {
+          "byte_offset_approx": 22664,
+          "text": "LETF権"
+        },
+        {
+          "byte_offset_approx": 22774,
+          "text": "袈E琩"
+        },
+        {
+          "byte_offset_approx": 22858,
+          "text": "擣F檸錵"
+        },
+        {
+          "byte_offset_approx": 22896,
+          "text": "7'認"
+        },
+        {
+          "byte_offset_approx": 22906,
+          "text": "XlF稾n"
+        },
+        {
+          "byte_offset_approx": 22906,
+          "text": "F葱nF"
+        },
+        {
+          "byte_offset_approx": 22967,
+          "text": "++F捧hF"
+        },
+        {
+          "byte_offset_approx": 22987,
+          "text": "_F垓zE"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "name": "enm_symbole.efp",
+      "size": 56000,
+      "relative_offset": 5941024,
+      "absolute_offset": 5943264,
+      "head_hex": "52544450000000A0000000030000DAC055280020000000000000000000000000",
+      "head_ascii": "RTDP............U(. ............",
+      "sjis_run_count": 31,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 220,
+          "text": "U憶FXUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 10505,
+          "text": "\\柯h`"
+        },
+        {
+          "byte_offset_approx": 10572,
+          "text": "z爍lmmnz炮侭忝z{{"
+        },
+        {
+          "byte_offset_approx": 11024,
+          "text": "\\球顧"
+        },
+        {
+          "byte_offset_approx": 11552,
+          "text": "xym]肱燔y劔z"
+        },
+        {
+          "byte_offset_approx": 11976,
+          "text": "e拉苑"
+        },
+        {
+          "byte_offset_approx": 11984,
+          "text": "ff曳["
+        },
+        {
+          "byte_offset_approx": 11999,
+          "text": "`楪u喫"
+        },
+        {
+          "byte_offset_approx": 12519,
+          "text": "顧wj"
+        },
+        {
+          "byte_offset_approx": 12519,
+          "text": "y劈zz燒兵憊]]]]"
+        },
+        {
+          "byte_offset_approx": 12576,
+          "text": "木|ｂ箏"
+        },
+        {
+          "byte_offset_approx": 12998,
+          "text": "wh屓"
+        },
+        {
+          "byte_offset_approx": 13540,
+          "text": "炬y劈zz炮"
+        },
+        {
+          "byte_offset_approx": 13540,
+          "text": "忝z{猪"
+        },
+        {
+          "byte_offset_approx": 13584,
+          "text": "||う"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "name": "todo.dat",
+      "size": 29952,
+      "relative_offset": 5997024,
+      "absolute_offset": 5999264,
+      "head_hex": "00000000000FB838FFFF0000FFFF0000C8E8A4ECC0DAA4C3A4C6A4A4A4EBA5EA",
+      "head_ascii": ".......8........................",
+      "sjis_run_count": 1,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 5408,
+          "text": "衫皃熙"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "name": "map_dt_wld.dat",
+      "size": 4700,
+      "relative_offset": 6026976,
+      "absolute_offset": 6029216,
+      "head_hex": "0014010046BEA1A4448ED191464326C6000000000000000000000000696E7465",
+      "head_ascii": "....F...D...FC&.............inte",
+      "sjis_run_count": 10,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 4,
+          "text": "D紗詮C&"
+        },
+        {
+          "byte_offset_approx": 1004,
+          "text": "@瑁D-"
+        },
+        {
+          "byte_offset_approx": 1208,
+          "text": "D紗詮j%"
+        },
+        {
+          "byte_offset_approx": 1412,
+          "text": ",^卮"
+        },
+        {
+          "byte_offset_approx": 1424,
+          "text": "妬nterface/data_map_mit_vol.cxd"
+        },
+        {
+          "byte_offset_approx": 1524,
+          "text": "F膨Cinterface/data_map_tig_vol.cxd"
+        },
+        {
+          "byte_offset_approx": 1820,
+          "text": "Da*洲"
+        },
+        {
+          "byte_offset_approx": 1820,
+          "text": "鞍interface/data_map_can_vol.cxd"
+        },
+        {
+          "byte_offset_approx": 2604,
+          "text": "壷jD"
+        },
+        {
+          "byte_offset_approx": 2610,
+          "text": "最T賭"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "name": "map_dt_fld.dat",
+      "size": 5340,
+      "relative_offset": 6031680,
+      "absolute_offset": 6033920,
+      "head_hex": "010000EAFFFF5F6D61705F7465737430300000000100FFFFFFFF000000000000",
+      "head_ascii": "......_map_test00...............",
+      "sjis_run_count": 0,
+      "sjis_runs": []
+    },
+    {
+      "index": 53,
+      "name": "nowloading.wtm",
+      "size": 9248,
+      "relative_offset": 6037024,
+      "absolute_offset": 6039264,
+      "head_hex": "57544D4400000020008000400903010100000420000200000000000000000000",
+      "head_ascii": "WTMD... ...@....... ............",
+      "sjis_run_count": 22,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 56,
+          "text": "沍xQ"
+        },
+        {
+          "byte_offset_approx": 329,
+          "text": "e冉詰lO8H"
+        },
+        {
+          "byte_offset_approx": 568,
+          "text": "沺xx"
+        },
+        {
+          "byte_offset_approx": 652,
+          "text": "OO蓊"
+        },
+        {
+          "byte_offset_approx": 792,
+          "text": "涛00"
+        },
+        {
+          "byte_offset_approx": 876,
+          "text": "z^獗叢2&&"
+        },
+        {
+          "byte_offset_approx": 916,
+          "text": "左啌@P>bKQ>eM4("
+        },
+        {
+          "byte_offset_approx": 916,
+          "text": "猫;kRF6况"
+        },
+        {
+          "byte_offset_approx": 4192,
+          "text": "A＿uA"
+        },
+        {
+          "byte_offset_approx": 4455,
+          "text": "!Q)11堰11"
+        },
+        {
+          "byte_offset_approx": 4506,
+          "text": "B葛糾B"
+        },
+        {
+          "byte_offset_approx": 5976,
+          "text": "荘刻磁告"
+        },
+        {
+          "byte_offset_approx": 6205,
+          "text": "倦煉涛"
+        },
+        {
+          "byte_offset_approx": 6205,
+          "text": "屆悍敕"
+        },
+        {
+          "byte_offset_approx": 6444,
+          "text": "訣董血"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "name": "chr_p_bri_00h.efp",
+      "size": 124128,
+      "relative_offset": 6046272,
+      "absolute_offset": 6048512,
+      "head_hex": "52544450000000A0000000030001E4E055280021000000000000000000000000",
+      "head_ascii": "RTDP............U(.!............",
+      "sjis_run_count": 243,
+      "sjis_runs": [
+        {
+          "byte_offset_approx": 14,
+          "text": "萵U("
+        },
+        {
+          "byte_offset_approx": 329,
+          "text": "甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 649,
+          "text": "甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 1289,
+          "text": "甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 1365,
+          "text": "俵Uj"
+        },
+        {
+          "byte_offset_approx": 1382,
+          "text": "劍UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUWPUTUUUUUUUUUUUUQUUUUOUUUUUUU%U%U%U-UUUUUUUUUUUUUUUSUUUPUUUUk劔篭UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 1609,
+          "text": "甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 1922,
+          "text": "劍UUUU"
+        },
+        {
+          "byte_offset_approx": 1929,
+          "text": "甼UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+          "byte_offset_approx": 2576,
+          "text": "UUU_UUUUUUUUUU*偽UU"
+        },
+        {
+          "byte_offset_approx": 2576,
+          "text": "UUUUUUVUUU藏UUUUU*偽UUVUUU甼UUUUU*偽U"
+        },
+        {
+          "byte_offset_approx": 2744,
+          "text": "UUU_UUUUUUUUUU*涯UU"
+        },
+        {
+          "byte_offset_approx": 2744,
+          "text": "UUUUUUVUUU藏UUUUU*涯UUVUUU甼UUUUU*涯U"
+        },
+        {
+          "byte_offset_approx": 2912,
+          "text": "UUU1UUUUUUUVUUU藏UUUUU*"
+        },
+        {
+          "byte_offset_approx": 2912,
+          "text": "UUUVUUU甼UUUUU*"
+        }
+      ]
+    }
+  ]
+}

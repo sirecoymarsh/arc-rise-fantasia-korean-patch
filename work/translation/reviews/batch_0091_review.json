@@ -1,0 +1,297 @@
+{
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0091",
+  "reviewer": "/root/audit_boundary_integration",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "sources": {
+    "draft": "work/translation/drafts/batch_0091.jsonl",
+    "source": "work/translation/tm_v2/batches/source/batch_0091.jsonl",
+    "rules": "work/translation/tm_v2/TRANSLATION_RULES.md",
+    "style_guide": "work/translation/glossary_agent/style_guide.md",
+    "glossary": "work/translation/glossary_agent/glossary.csv"
+  },
+  "output": "work/translation/reviewed/batch_0091.jsonl",
+  "row_count": 200,
+  "reviewed_row_count": 200,
+  "modified_row_count": 29,
+  "unchanged_row_count": 171,
+  "modifications": [
+    {
+      "row_index": 2,
+      "tm_id": "ARF-TM-3B4F4E1421A278CC001E",
+      "source_text": "老人はいつも思う……\n自分が変わりに死んでやれたら、と。\nそんなことできはしないのに……",
+      "before": "노인은 언제나 생각하지……\n자신이 대신 죽어 줄 수 있다면 좋겠다고.\n그럴 수 있을 리 없는데도……",
+      "after": "이 늙은이는 언제나 생각하지……\n자신이 대신 죽어 줄 수 있다면 좋겠다고.\n그럴 수 있을 리 없는데도……",
+      "category": "speaker_voice",
+      "reason": "화자가 자신을 가리키는 노년의 자조적인 말투가 자연스럽게 드러나도록 다듬었다."
+    },
+    {
+      "row_index": 11,
+      "tm_id": "ARF-TM-3B7B1519C9837E629C42",
+      "source_text": "焦ってなんていないわ",
+      "before": "초조한 것 아니야",
+      "after": "초조한 게 아니야",
+      "category": "grammar",
+      "reason": "부정 구문의 의존 명사와 조사를 자연스럽게 바로잡았다."
+    },
+    {
+      "row_index": 21,
+      "tm_id": "ARF-TM-3BC2D7C5C5FBD8CBFAE1",
+      "source_text": "そう食べ物屋さんに聞いたら\n笑われちゃった……",
+      "before": "그렇게 음식점에 물었더니\n비웃음을 당했어……",
+      "after": "그렇게 음식점에 물었더니\n나를 보고 웃었어……",
+      "category": "meaning",
+      "reason": "단순히 웃음의 대상이 되었다는 원문의 뜻을 과도한 적의 없이 복원했다."
+    },
+    {
+      "row_index": 24,
+      "tm_id": "ARF-TM-3BD3B640E9A7610089F6",
+      "source_text": "精神世界はELVエフェクト出しません\n",
+      "before": "정신세계에서는 ELV 효과를 내지 않습니다\n",
+      "after": "정신 세계에서는 ELV 효과를 내지 않습니다\n",
+      "category": "orthography",
+      "reason": "일반 명사 결합의 띄어쓰기를 바로잡았다."
+    },
+    {
+      "row_index": 27,
+      "tm_id": "ARF-TM-3BDF3C96726C8413BDBF",
+      "source_text": "あれ？\n君も仕事から\n抜け出してきたところ？<$0C>……ん？\nなんだ、違うのか。悪かったね。\n共犯者が欲しくってさ",
+      "before": "어라?\n너도 일에서\n빠져나온 참이야?<$0C>……응?\n아, 아니구나. 미안해.\n공범이 필요했거든",
+      "after": "어라?\n너도 일하다\n몰래 빠져나온 참이야?<$0C>……응?\n아, 아니구나. 미안해.\n공범이 필요했거든",
+      "category": "naturalness",
+      "reason": "일에서 물리적으로 빠져나온다는 직역을 몰래 자리를 비운 상황에 맞게 다듬었다."
+    },
+    {
+      "row_index": 31,
+      "tm_id": "ARF-TM-3BF3A3F1602F7458EDC7",
+      "source_text": "闘技場にカジノ――\nこの街は退屈しないから\n長くいるのも苦じゃないね",
+      "before": "투기장에 카지노――\n이 도시는 지루할 틈이 없어서\n오래 있어도 괴롭지 않네",
+      "after": "투기장에 카지노――\n이 도시는 지루할 틈이 없어서\n오래 머물러도 질리지 않네",
+      "category": "naturalness",
+      "reason": "오래 체류하는 것이 부담스럽지 않다는 뜻을 자연스러운 한국어로 옮겼다."
+    },
+    {
+      "row_index": 32,
+      "tm_id": "ARF-TM-3BF6EF7C758CCFFAAF69",
+      "source_text": "オレは最強……\nオレは無敵……\n誰にだって勝てる――はず",
+      "before": "난 최강……\n난 무적……\n누구에게든 이길 수 있어――분명",
+      "after": "난 최강……\n난 무적……\n누구에게든 이길 수 있어――아마도",
+      "category": "meaning",
+      "reason": "자신을 다독이면서도 확신하지 못하는 문말의 뉘앙스를 복원했다."
+    },
+    {
+      "row_index": 51,
+      "tm_id": "ARF-TM-3C52B1C4FC1CB09C8CD0",
+      "source_text": "いい女ってのは\n常に恋しているものなの。\nお連れさんもそう思うでしょ？",
+      "before": "멋진 여자란\n언제나 사랑에 빠져 있는 법이야.\n동행도 그렇게 생각하지?",
+      "after": "멋진 여자란\n언제나 사랑에 빠져 있는 법이야.\n동행분도 그렇게 생각하지?",
+      "category": "honorifics",
+      "reason": "함께 온 사람을 가리키는 호칭을 자연스럽고 예의 있게 다듬었다."
+    },
+    {
+      "row_index": 55,
+      "tm_id": "ARF-TM-3C5DAE8A8A405C1F4991",
+      "source_text": "ザムエル武芸塾へ\n",
+      "before": "자무엘 무예 학원으로\n",
+      "after": "자무엘 무예관으로\n",
+      "category": "proper_noun",
+      "reason": "용어집의 고정 지명인 자무엘 무예관을 적용했다."
+    },
+    {
+      "row_index": 56,
+      "tm_id": "ARF-TM-3C6081BA16ABF0E77158",
+      "source_text": "麗しのアルス様に\n会えるっていうから\n武芸塾に入ったのに……",
+      "before": "아름다운 알스 님을\n만날 수 있다길래\n무예 학원에 들어왔는데……",
+      "after": "아름다운 알스 님을\n만날 수 있다길래\n무예관에 들어왔는데……",
+      "category": "terminology",
+      "reason": "자무엘 무예관과 연결되는 시설 명칭을 일관되게 통일했다."
+    },
+    {
+      "row_index": 60,
+      "tm_id": "ARF-TM-3C7618A8FC7A270BCD3B",
+      "source_text": "夜更かしをするから\nいつまでたっても風邪が治らないの！\n――わかってるの？",
+      "before": "밤늦게까지 깨어 있으니까\n아무리 지나도 감기가 낫지 않잖아!\n――알겠어?",
+      "after": "밤늦게까지 깨어 있으니까\n좀처럼 감기가 낫지 않잖아!\n――알겠어?",
+      "category": "naturalness",
+      "reason": "시간이 지나도 낫지 않는다는 표현을 자연스러운 관용으로 다듬었다."
+    },
+    {
+      "row_index": 61,
+      "tm_id": "ARF-TM-3C77EE8A0320E6A1EFC1",
+      "source_text": "この空間の……\n果ての果てを目指してくれないか",
+      "before": "이 공간의……\n끝과 끝을 향해 주지 않을래",
+      "after": "이 공간의……\n맨 끝까지 가 주지 않을래",
+      "category": "meaning",
+      "reason": "공간의 가장 먼 끝을 향한다는 의미를 분명하게 복원했다."
+    },
+    {
+      "row_index": 64,
+      "tm_id": "ARF-TM-3C84B3F5204E7FAE66DA",
+      "source_text": "ここはコピンの里。\nコピンの英雄、久しぶり。\n楽しんでいってほしい",
+      "before": "여기는 코핀 마을.\n코핀의 영웅, 오랜만이야.\n즐기다 가 줘",
+      "after": "여기는 코핀 마을.\n코핀의 영웅, 오랜만이야.\n즐겁게 지내다 가면 좋겠어",
+      "category": "naturalness",
+      "reason": "방문객에게 즐겁게 머물다 가길 바라는 인사를 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 74,
+      "tm_id": "ARF-TM-3CB9E6E4A159165EA152",
+      "source_text": "失った娘",
+      "before": "잃어버린 딸",
+      "after": "상실을 겪은 아가씨",
+      "category": "meaning",
+      "reason": "무언가를 잃은 여성을 가리키는 수식 구조를 딸을 잃어버렸다는 뜻으로 오해한 번역을 바로잡았다."
+    },
+    {
+      "row_index": 78,
+      "tm_id": "ARF-TM-3CC4D4906EB269ACBBC3",
+      "source_text": "ここは従っておくか――",
+      "before": "여기서는 따를까――",
+      "after": "여기서는 일단 따르자――",
+      "category": "meaning",
+      "reason": "당장은 상대의 지시에 따르기로 한다는 판단을 분명하게 옮겼다."
+    },
+    {
+      "row_index": 83,
+      "tm_id": "ARF-TM-3CE6F0E4ADE47EFF38A2",
+      "source_text": "費用はかかりますが\nギルドで傭兵を工面して\n陸路でいくしかないですかね……",
+      "before": "비용은 들겠지만\n길드에서 용병을 마련해\n육로로 갈 수밖에 없겠네요……",
+      "after": "비용은 들겠지만\n길드에서 용병을 구해\n육로로 갈 수밖에 없겠네요……",
+      "category": "word_choice",
+      "reason": "용병을 수배한다는 뜻에 맞도록 동사를 자연스럽게 교체했다."
+    },
+    {
+      "row_index": 96,
+      "tm_id": "ARF-TM-3D24C925DBDE1ACD1DFE",
+      "source_text": "ま、仲間はみ〜んな\nあの変な女たちに\n殺されちまったけどな",
+      "before": "뭐, 동료들은 모~두\n그 이상한 여자들에게\n살해당했지만",
+      "after": "뭐, 동료들은 모〜두\n그 이상한 여자들에게\n죽었지만 말이야",
+      "category": "speaker_voice",
+      "reason": "거친 화자의 말투와 완결된 문말을 살려 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 97,
+      "tm_id": "ARF-TM-3D289F1460DF353713A4",
+      "source_text": "本当に信用ならない国だよ。\nメリディアは",
+      "before": "정말 믿을 수 없는 나라야.\n메리디아는",
+      "after": "정말 믿을 수 없는 나라야.\n메리디아는 말이지",
+      "category": "naturalness",
+      "reason": "뒤늦게 화제를 덧붙이는 원문의 도치 어감을 한국어 문말로 살렸다."
+    },
+    {
+      "row_index": 119,
+      "tm_id": "ARF-TM-3D961E8E933988D5D194",
+      "source_text": "なかなか壮絶な展開ね……\n今頃、お城の方は大騒ぎね！",
+      "before": "꽤나 장렬한 전개네……\n지금쯤 성 쪽은 큰 소동이겠어!",
+      "after": "엄청난 전개네……\n지금쯤 성 쪽은 큰 소동이겠어!",
+      "category": "word_choice",
+      "reason": "사건 전개가 격렬하고 대단하다는 뜻을 장렬하다는 부자연스러운 표현에서 바로잡았다."
+    },
+    {
+      "row_index": 120,
+      "tm_id": "ARF-TM-3D9E4BB660FC4AF468E9",
+      "source_text": "船が揺れてないってことは\nどこかに漂着でもしたのかな",
+      "before": "배가 흔들리지 않는다면\n어딘가에 표착한 걸까",
+      "after": "배가 흔들리지 않는 걸 보면\n어딘가에 떠밀려 닿은 걸까",
+      "category": "meaning",
+      "reason": "배가 표류 끝에 어딘가에 닿았다는 의미를 자연스럽게 풀어 옮겼다."
+    },
+    {
+      "row_index": 130,
+      "tm_id": "ARF-TM-3DE634F49B350E56A28C",
+      "source_text": "めったにないことじゃない？\nあたしらみたいな職人が\nこうしてお城の側に呼ばれるなんて",
+      "before": "좀처럼 없는 일 아니야?\n우리 같은 장인이\n이렇게 성 근처로 불려 오다니",
+      "after": "좀처럼 없는 일이잖아?\n우리 같은 장인이\n이렇게 성 근처로 불려 오다니",
+      "category": "grammar",
+      "reason": "반문형 종결을 자연스럽게 바로잡았다."
+    },
+    {
+      "row_index": 131,
+      "tm_id": "ARF-TM-3DE831862C9CA8B37EF2",
+      "source_text": "まっとうに稼いでたら\nいつまでたっても下流生活から\n抜け出せないままさ<$0C>犯罪まがいのことをしなけりゃ\n上層地区に住むなんて夢のまた夢。\n……オレは上にいってやるぜ",
+      "before": "정직하게 벌어서는\n언제까지나 하류 생활을\n벗어나지 못해<$0C>범죄에 가까운 짓을 하지 않으면\n상층 구역에 사는 건 꿈속의 꿈.\n……난 위로 올라가겠어",
+      "after": "정직하게 벌어서는\n언제까지나 하류 생활을\n벗어나지 못해<$0C>범죄에 가까운 짓을 하지 않으면\n상층 구역에 사는 건 꿈도 못 꿀 일.\n……난 위로 올라가겠어",
+      "category": "idiom",
+      "reason": "실현 가능성이 극히 낮다는 관용 표현을 자연스러운 한국어로 교체했다."
+    },
+    {
+      "row_index": 135,
+      "tm_id": "ARF-TM-3DF3F352B9208A21A7A3",
+      "source_text": "おっと、危ねえ<$0C>ザムエルじーさんに\nこれからのことを\n相談するんだったよな",
+      "before": "이런, 위험해<$0C>자무엘 할아버지에게\n앞으로의 일을\n상의하기로 했었지",
+      "after": "아차, 깜빡할 뻔했네<$0C>자무엘 할아버지에게\n앞으로의 일을\n상의하기로 했었지",
+      "category": "meaning",
+      "reason": "위험을 알리는 말이 아니라 약속을 잊을 뻔했다는 상황임을 복원했다."
+    },
+    {
+      "row_index": 136,
+      "tm_id": "ARF-TM-3DFF814B2206A746556C",
+      "source_text": "何気に今の僕って――\nフラレちゃってる？",
+      "before": "아무렇지 않게 지금 나――\n차인 거야?",
+      "after": "그러고 보니 지금 나――\n차인 거야?",
+      "category": "idiom",
+      "reason": "문득 자신의 처지를 깨닫는 도입부를 자연스러운 한국어 관용으로 다듬었다."
+    },
+    {
+      "row_index": 141,
+      "tm_id": "ARF-TM-3E190A1F4F6FF45FBDEF",
+      "source_text": "頂くって、勇者道を極める奴の\n台詞かよ",
+      "before": "받겠다니, 용사도를 극한까지 익히는 녀석이\n할 말이냐",
+      "after": "받겠다니, 용사의 길을 걷는 녀석이\n할 말이냐",
+      "category": "naturalness",
+      "reason": "용사의 도를 닦는다는 표현을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "row_index": 149,
+      "tm_id": "ARF-TM-3E5BDB7F87D83BE4E814",
+      "source_text": "ラルクのアニキへ。\n色々考えましたが、やっぱり俺には\n傭兵は向いていないみたいです",
+      "before": "라르크 형님께.\n여러 가지를 생각해 봤지만 역시 저에게\n용병은 맞지 않는 모양입니다",
+      "after": "라르크 형님께.\n여러모로 생각해 봤지만, 역시 저는\n용병 체질이 아닌 모양입니다",
+      "category": "naturalness",
+      "reason": "편지 문체와 용병 일이 맞지 않는다는 뜻을 간결하고 자연스럽게 다듬었다."
+    },
+    {
+      "row_index": 155,
+      "tm_id": "ARF-TM-3E9841816185235AAFD6",
+      "source_text": "……そういえば、お前――\nその顔……どっかで見たような\n気がするんだが……",
+      "before": "……그러고 보니 너――\n그 얼굴…… 어디선가 본\n기분이 드는데……",
+      "after": "……그러고 보니 너――\n그 얼굴…… 어디선가 본 것 같은\n느낌이 드는데……",
+      "category": "grammar",
+      "reason": "어디선가 본 듯하다는 추측 구문을 자연스럽게 완성했다."
+    },
+    {
+      "row_index": 178,
+      "tm_id": "ARF-TM-3F2FB48E03159B328815",
+      "source_text": "武具屋 『連なる星』",
+      "before": "무기점 『이어지는 별』",
+      "after": "무구점 『이어지는 별』",
+      "category": "terminology",
+      "reason": "무기와 방어구를 함께 취급하는 시설 명칭을 무구점으로 바로잡았다."
+    },
+    {
+      "row_index": 193,
+      "tm_id": "ARF-TM-3F7DB2C03B8CE8B85854",
+      "source_text": "かたくなに守る警備兵",
+      "before": "완고하게 지키는 경비병",
+      "after": "한사코 지키는 경비병",
+      "category": "naturalness",
+      "reason": "완고한 태도로 지키는 상태를 NPC 표제에 어울리는 간결한 표현으로 다듬었다."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  }
+}
