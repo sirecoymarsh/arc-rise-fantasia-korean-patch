@@ -1,7 +1,7 @@
 ﻿{
     "schema":  "arf-ko-installer-fixture-v1",
     "package_root":  "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0",
-    "package_manifest_sha256":  "221D43F85ADDF2A93EB3C04E8C221C0F1BF0D65389897E44221DE629CE2C535B",
+    "package_manifest_sha256":  "EAE8E68668EF34E904BCD93164AB11AAFAEEA66570B6DFE2CEC1030882B0DD9E",
     "package_manifest_size_bytes":  180737,
     "source_rvz_sha256":  "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
     "checks":  [

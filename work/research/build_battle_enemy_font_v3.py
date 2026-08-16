@@ -32,8 +32,8 @@ def main() -> int:
             raise SystemExit(f"missing font build input: {path}")
     OUT.mkdir(parents=True, exist_ok=True)
     rows = json.loads(SKILLS.read_text(encoding="utf-8-sig"))["translations"]
-    if len(rows) != 212 or len({row["source_text"] for row in rows}) != 212:
-        raise SystemExit("battle text translation map must contain 212 unique sources")
+    if len(rows) != 229 or len({row["source_text"] for row in rows}) != 229:
+        raise SystemExit("battle text translation map must contain 229 unique sources")
     targets = [row["translation_ko"] for row in rows] + ["레이 스톤"]
     corpus = OUT / "battle_enemy_korean_corpus.txt"
     corpus.write_text("\n".join(targets) + "\n", encoding="utf-8")
@@ -71,7 +71,8 @@ def main() -> int:
         "--output", OUT / "injection_verification.json")
 
     verification = json.loads((OUT / "injection_verification.json").read_text(encoding="utf-8"))
-    if not verification.get("valid") or verification.get("approved_units_encoded") != 30915:
+    expected_approved_units = sum(1 for line in approved.read_text(encoding="utf-8").splitlines() if line.strip())
+    if not verification.get("valid") or verification.get("approved_units_encoded") != expected_approved_units:
         raise SystemExit("font v3 verification failed")
     print(json.dumps({
         "battle_text_units": len(rows), "approved_units": verification["approved_units_encoded"],

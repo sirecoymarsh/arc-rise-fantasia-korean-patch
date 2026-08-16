@@ -76,8 +76,9 @@ def main():
 
     app = load(report_path)
     expected_counts = {
-        "entries": 270, "display_names": 270, "part_names": 3, "skill_names": 563,
-        "total_units": 836, "entries_fitting_source_slots": 270,
+        "entries": 270, "display_names": 270, "alternate_display_names": 87,
+        "part_names": 3, "skill_names": 672, "total_units": 1032,
+        "entries_fitting_source_slots": 270,
         "changed_outside_allowed_bytes": 0,
     }
     need(app.get("valid") is True and app["counts"] == expected_counts, "battle application invalid")
@@ -168,10 +169,11 @@ def main():
         "supplemental_physical_files": 27,
         "staged_physical_files": 683, "riivolution_file_rules": 683,
         "battle_enemy_entries": 270, "battle_enemy_display_name_occurrences": 270,
+        "battle_enemy_alternate_display_name_occurrences": 87,
         "battle_enemy_part_name_occurrences": 3,
-        "battle_enemy_skill_name_occurrences": 563,
-        "battle_enemy_translation_occurrences": 836,
-        "battle_enemy_unique_skill_names": 209,
+        "battle_enemy_skill_name_occurrences": 672,
+        "battle_enemy_translation_occurrences": 1032,
+        "battle_enemy_unique_skill_names": 226,
         "battle_enemy_unique_part_names": 3,
     })
     doc["riivolution"].update({
@@ -220,7 +222,7 @@ def main():
         "output_sha256": app["output"]["vld_sha256"],
         "source_size": app["source"]["vld_size"],
         "output_size": app["output"]["vld_size"],
-        "edited_leaf_count": 270, "translated_unit_count": 836,
+        "edited_leaf_count": 270, "translated_unit_count": 1032,
         "container_report": "work/battle_enemy_application/application_report.json",
     })
     local.sort(key=lambda r: r["physical_path"].lower())

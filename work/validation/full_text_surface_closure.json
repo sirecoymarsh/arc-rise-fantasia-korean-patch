@@ -1,0 +1,279 @@
+{
+  "schema": "arf-full-text-surface-closure-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "scope": {
+    "vetted_rtdp_localization_payloads": 406,
+    "event_script_payloads": 380,
+    "translation_memory_units": 29777,
+    "translation_occurrences": 84761,
+    "battle_vld_entries_classified": 863,
+    "battle_enemy_units": 1032,
+    "battle_tutorial_semantic_units": 376,
+    "system_catalog_units": 6103,
+    "battle_party_name_payloads": 13
+  },
+  "burst_shot_provenance": {
+    "exact_original_strings_searched": [
+      "バーストショット",
+      "バースト・ショット"
+    ],
+    "exact_compound_hits": 0,
+    "component_term_hits": [
+      {
+        "kind": "enemy",
+        "entry": 57,
+        "term": "ショット",
+        "offset": 1978
+      },
+      {
+        "kind": "enemy",
+        "entry": 105,
+        "term": "バースト",
+        "offset": 2307
+      },
+      {
+        "kind": "enemy",
+        "entry": 106,
+        "term": "バースト",
+        "offset": 2947
+      },
+      {
+        "kind": "enemy",
+        "entry": 107,
+        "term": "バースト",
+        "offset": 3683
+      },
+      {
+        "kind": "enemy",
+        "entry": 125,
+        "term": "ショット",
+        "offset": 3642
+      }
+    ],
+    "wyvern_entry": 195,
+    "wyvern_named_skill_strings": [
+      "ウイングカッター",
+      "雄叫び"
+    ],
+    "classification": "monster behavior/action with no standalone display-name string"
+  },
+  "summary": {
+    "semantic_japanese_in_korean_targets": 0,
+    "typography_only_japanese_marks_in_korean_targets": 117,
+    "unmatched_semantic_japanese_after": 0,
+    "exact_burst_shot_source_hits": 0
+  },
+  "checks": [
+    {
+      "name": "existing_battle_system_closure_valid",
+      "passed": true
+    },
+    {
+      "name": "all_seven_battle_vld_families_classified",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "name": "burst_shot_exact_compound_absent",
+      "passed": true,
+      "component_hits": 5,
+      "component_rows": [
+        {
+          "kind": "enemy",
+          "entry": 57,
+          "term": "ショット",
+          "offset": 1978
+        },
+        {
+          "kind": "enemy",
+          "entry": 105,
+          "term": "バースト",
+          "offset": 2307
+        },
+        {
+          "kind": "enemy",
+          "entry": 106,
+          "term": "バースト",
+          "offset": 2947
+        },
+        {
+          "kind": "enemy",
+          "entry": 107,
+          "term": "バースト",
+          "offset": 3683
+        },
+        {
+          "kind": "enemy",
+          "entry": 125,
+          "term": "ショット",
+          "offset": 3642
+        }
+      ]
+    },
+    {
+      "name": "non_enemy_battle_vlds_are_asset_archives",
+      "passed": true
+    },
+    {
+      "name": "translation_memory_complete",
+      "passed": true
+    },
+    {
+      "name": "event_and_map_targets_have_no_semantic_japanese",
+      "passed": true,
+      "rows": [],
+      "typography_only_long_mark_or_punctuation_count": 117
+    },
+    {
+      "name": "all_vetted_rtdp_localization_payloads_accounted",
+      "passed": true,
+      "actual": {
+        "embedded battle party display name": 13,
+        "embedded field/resource labels": 1,
+        "BSCR scenario/event script": 380,
+        "localized data/string table": 12
+      }
+    },
+    {
+      "name": "battle_party_names_translated_without_metadata_damage",
+      "passed": true
+    },
+    {
+      "name": "burst_shot_absent_from_all_audited_source_text",
+      "passed": true,
+      "searched_source_units": 37292,
+      "hits": []
+    },
+    {
+      "name": "wyvern_named_skill_slots_exhaustive",
+      "passed": true,
+      "skill_sources": [
+        "ウイングカッター",
+        "雄叫び"
+      ]
+    },
+    {
+      "name": "wyvern_orb_attack_is_id_or_animation_only",
+      "passed": true,
+      "verdict": "No バーストショット display string exists; the orb attack is represented by behavior/animation data, not a translatable name slot."
+    },
+    {
+      "name": "current_staging_retains_closed_counts",
+      "passed": true
+    }
+  ],
+  "passed_count": 12,
+  "failed_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "artifacts": [
+    {
+      "path": "work/validation/localization_residue_closure.json",
+      "size_bytes": 21203,
+      "sha256": "94473DFB1621226BD91A7293BAB28A1D319DF35875A8EA716E6E329E7C665CB0"
+    },
+    {
+      "path": "work/validation/all_btl_vld_surface_classification.json",
+      "size_bytes": 6916,
+      "sha256": "1114F4F1C18984DF09FA4F7E2C85AE883E832568B762CF25C7F1EE31386D08BF"
+    },
+    {
+      "path": "work/translation/final/translation_memory_draft.json",
+      "size_bytes": 43637320,
+      "sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1"
+    },
+    {
+      "path": "work/research/rtdp_agent/audit/localization_payloads.json",
+      "size_bytes": 1163762,
+      "sha256": "37DE2386D507BB1C5171F8B1280847DED45A40D1A5C92573DE2E6441DC1F2F7F"
+    },
+    {
+      "path": "work/battle_enemy_application/party_name_geometry_audit.json",
+      "size_bytes": 4843,
+      "sha256": "8BF54496C894DA768F60A8DB75374E1026870E47245C5103480641E06C7903E6"
+    },
+    {
+      "path": "work/translation/battle_enemy/battle_enemy_catalog.json",
+      "size_bytes": 427776,
+      "sha256": "30EA9FB80BD48C84357C4F9B3BF7BF3378618A2B1641CFB20854C06C36AD0CE0"
+    },
+    {
+      "path": "work/research/table_agent/catalogs/btl_tutorial.json",
+      "size_bytes": 207908,
+      "sha256": "CBA3A5DE7D3EC27CDEFB76DD0ABEF3201E0C702CD9916AE33DC62E931BB02C3F"
+    },
+    {
+      "path": "work/final_runtime_staging/staging_manifest.json",
+      "size_bytes": 853510,
+      "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/ability.json",
+      "size_bytes": 349065,
+      "sha256": "D25B3A4FA5296DDFECA8C6B76DF8BF25BFEBEDCA13582E571506A4872621869A"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/chat.json",
+      "size_bytes": 234986,
+      "sha256": "B236CE0E35CBC0E366FA051B15694AD3E820257DFFAB3F348AD43BC0929A2D2B"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/dragon.json",
+      "size_bytes": 47019,
+      "sha256": "FE136A6343097794F4765F63CC891B6D1974FE9FBB9E73A7E0D6CDCBFED8B97D"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/help.json",
+      "size_bytes": 997838,
+      "sha256": "43EBCDB6437B10F9EF378FC9817D7FEF53AACF43B9E98DA0F2A977727DE1172B"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/item.json",
+      "size_bytes": 1614166,
+      "sha256": "530B5E090B6C4D653BD9928783C48F5F88A882056F5715AB61500464C7FC2A82"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/magic.json",
+      "size_bytes": 99275,
+      "sha256": "01F90C84DDD0034A9B1274046652D231891626942C501B9E47EAB92A187D3190"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/monster_book.json",
+      "size_bytes": 357613,
+      "sha256": "4132D3E34357610EECFA11DDC49CDE4D9B6B9841D0AE1BABE5162EAB485E8188"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/operation.json",
+      "size_bytes": 13008,
+      "sha256": "D28A71F9EFAD4824DF14B148D8411BBF3C458886F0DFDC27BCE3310610B9D903"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/quest.json",
+      "size_bytes": 377447,
+      "sha256": "6B7C749E9A7EE1D6AD08A0FF369CAEE59741CAB8DEE7E58D47776B323BBDF779"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/shop.json",
+      "size_bytes": 30471,
+      "sha256": "B23C4C59B3D1F777101563CC21B605D3F2F1A32444C337B079FCAC51E4525552"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/special.json",
+      "size_bytes": 107119,
+      "sha256": "393F804ABA9A1BA892991302214F3DC3D45CE25C95E42539C15380CD90D6ED7D"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/todo.json",
+      "size_bytes": 316407,
+      "sha256": "12656E4AE7A758426DDF5B2102A68F20B39B2D7D3CD220C0A37C77362D1647C8"
+    },
+    {
+      "path": "work/final_system_table_application/replacement_catalogs/treasure.json",
+      "size_bytes": 160618,
+      "sha256": "D441B786DE108CBCE910A293E59D09EF45FD77265912E6A927CDAC295E29B32D"
+    }
+  ],
+  "valid": true
+}

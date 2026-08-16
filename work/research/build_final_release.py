@@ -80,9 +80,10 @@ def validate_staging(
     expected_battle = {
         "entries": 270,
         "display_names": 270,
+        "alternate_display_names": 87,
         "part_names": 3,
-        "skill_names": 563,
-        "total_units": 836,
+        "skill_names": 672,
+        "total_units": 1032,
         "entries_fitting_source_slots": 270,
         "changed_outside_allowed_bytes": 0,
     }
@@ -99,6 +100,15 @@ def validate_staging(
     enemy_row = staged_rows.get("Btl/btl_enemy.vld", {})
     if not enemy_vld.is_file() or sha256(enemy_vld) != str(enemy_row.get("output_sha256", "")).upper():
         raise RuntimeError("battle enemy VLD is missing or differs from the bound staging row")
+    residue = dict(staging_manifest.get("system_text_residue_application", {}))
+    if (
+        residue.get("valid") is not True
+        or int(residue.get("translated_fields", -1)) != 30
+        or int(residue.get("ability_names", -1)) != 14
+        or int(residue.get("semantic_japanese_unmatched_after", -1)) != 0
+        or int(residue.get("changed_outside_allowed_bytes", -1)) != 0
+    ):
+        raise RuntimeError("system text residue closure is incomplete")
     if not staging_manifest_path.is_file():
         raise RuntimeError("staging manifest disappeared during validation")
 
@@ -141,7 +151,8 @@ def write_public_files(
 - 일본판 원본 RVZ SHA-256: `{SOURCE_RVZ_SHA256}`
 - 일본어 음성 유지
 - 원본 RVZ는 수정하지 않는 Riivolution/Dolphin 오버레이 방식
-- 전투 몬스터명 270개, 보스 부위명 3개, 몬스터 기술명 563회(고유 기술명 209개) 한국어화
+- 전투 몬스터 기본명 270개와 보조 표시명 87회, 보스 부위명 3개, 몬스터 기술명 672회(고유 기술명 226개) 한국어화
+- 전수검사에서 추가 발견한 어빌리티명 14개, 채팅 제목 15개, 상점명 1개 한국어화
 
 ## 설치
 
@@ -206,14 +217,25 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
         "game_id": GAME_ID,
         "source_rvz_sha256": SOURCE_RVZ_SHA256,
         "translation_units": int(staging_manifest.get("counts", {}).get("tm_units", 0))
-        + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0)),
+        + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0))
+        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0)),
         "translation_occurrences": int(staging_manifest.get("counts", {}).get("catalog_occurrences", 0))
-        + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0)),
+        + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0)),
         "battle_enemy": {
             "entries": staging_manifest.get("counts", {}).get("battle_enemy_entries"),
             "display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_display_name_occurrences"),
+            "alternate_display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_alternate_display_name_occurrences"),
+            "part_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_part_name_occurrences"),
             "skill_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_skill_name_occurrences"),
             "unique_skill_names": staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names"),
+        },
+        "system_text_residue": {
+            "translation_occurrences": staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences"),
+            "ability_names": staging_manifest.get("system_text_residue_application", {}).get("ability_names"),
+            "chat_titles": staging_manifest.get("system_text_residue_application", {}).get("chat_titles"),
+            "shop_names": staging_manifest.get("system_text_residue_application", {}).get("shop_names"),
+            "semantic_japanese_unmatched_after": staging_manifest.get("system_text_residue_application", {}).get("semantic_japanese_unmatched_after"),
         },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",

@@ -1,15 +1,15 @@
 {
   "schema": "arf-ko-dolphin-runtime-validation-v1",
-  "generated_at_utc": "2026-08-16T01:39:09.166233+00:00",
+  "generated_at_utc": "2026-08-16T12:11:19.962316+00:00",
   "game_id": "RPJJ99",
-  "staging_manifest_sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4",
-  "package_manifest_sha256": "221D43F85ADDF2A93EB3C04E8C221C0F1BF0D65389897E44221DE629CE2C535B",
+  "staging_manifest_sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E",
+  "package_manifest_sha256": "EAE8E68668EF34E904BCD93164AB11AAFAEEA66570B6DFE2CEC1030882B0DD9E",
   "riivolution_xml_sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2",
   "runtime_session": {
     "schema": "arf-ko-dolphin-runtime-session-v1",
     "path": "work/runtime_validation/final_runtime_v5/full_runtime_session.json",
-    "sha256": "917BB55665F50FE83AC4F72A450C6C7FB2140D6CB2FEF13515D2ABFBDDD45929",
-    "started_utc": "2026-08-16T01:20:07.237937+00:00",
+    "sha256": "58C179BC68F564B70932E7DCDCFBB016C1CC178FF5C3E247CAAB9C3A7D328D5A",
+    "started_utc": "2026-08-16T11:36:44.621862+00:00",
     "settings": {
       "EmulationSpeed": 1.0,
       "MMU": false,
@@ -17,7 +17,7 @@
       "FastDiscSpeed": false,
       "GFXBackend": "Vulkan"
     },
-    "system_vol_sha256": "B6BC39101EE564FD63B8D482C7443EF7F1A576571923D21B088D2ADB56B922CF",
+    "system_vol_sha256": "7CD034508B5A93AF33D1809A927265CA22751EBE4FA4A5C84DBF28B955323D2C",
     "descriptor_path": "work/runtime_validation/arc_rise_fantasia_ko_full.json",
     "logs": {
       "stdout": "work/runtime_validation/final_runtime_v5/full_runtime_dolphin.stdout.log",
@@ -27,58 +27,50 @@
   "attestation_source": "work/runtime_validation/dolphin_runtime_attestation.json",
   "checks": [
     {
-      "name": "final_v5_patch_boot_reaches_title",
+      "name": "final_patch_reaches_original_cinematic",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_title_probe.png"
+        "work/runtime_validation/final_runtime_v5/final_v6_probe_35s.png"
       ],
-      "notes": "The exact final staging reached the Korean title in the same continuous process."
+      "notes": "The exact final staging reached the original in-game cinematic in the captured session without a restart loop."
     },
     {
-      "name": "original_sfd_wyvern_sequence_passes_without_skip",
+      "name": "original_sfd_sequence_reaches_live_battle",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_before.png",
-        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_exact.png",
-        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_after.png"
+        "work/runtime_validation/final_runtime_v5/final_v6_probe_35s.png",
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_01.png"
       ],
-      "notes": "The original disc SFD advanced through the sword-strike freeze point without Skip; all three frames differ."
+      "notes": "The same session advanced from the original disc cinematic into live Wyvern battle; the staging contains no replacement SFD overlay."
     },
     {
-      "name": "korean_battle_monster_name_renders",
+      "name": "korean_battle_monster_and_result_text_renders",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_korean_monster_name.png"
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_03.png"
       ],
-      "notes": "Battle target information visibly renders the monster name in Korean."
-    },
-    {
-      "name": "korean_enemy_skill_name_renders",
-      "passed": true,
-      "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_03.png"
-      ],
-      "notes": "The enemy action visibly renders its skill name in Korean."
+      "notes": "The live battle frame visibly renders the Korean monster name and Korean critical-hit result text. This is not represented as an enemy skill-name observation."
     },
     {
       "name": "battle_frames_continue_advancing",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_01.png",
-        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_06.png"
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_01.png",
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_02.png",
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_03.png"
       ],
-      "notes": "Time-separated battle frames differ and the battle returns to command selection."
+      "notes": "Three time-separated live-battle frames differ; the measured consecutive differences are recorded in the runtime probe."
     },
     {
-      "name": "process_responsive_and_logs_clean",
+      "name": "runtime_session_bound_and_logs_clean",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_runtime_probe.json"
+        "work/runtime_validation/final_runtime_v5/final_v6_runtime_probe.json"
       ],
-      "notes": "The same PID remained running; Vulkan was used with MMU and FastDiscSpeed disabled; stdout and stderr are empty."
+      "notes": "The runtime probe binds the current staging, XML, system.vol and session; Vulkan is active, MMU and FastDiscSpeed are disabled, and both Dolphin logs are empty."
     }
   ],
-  "passed_count": 6,
+  "passed_count": 5,
   "failed_count": 0,
   "error_count": 0,
   "errors": [],
@@ -94,82 +86,53 @@
     },
     {
       "path": "work/runtime_validation/dolphin_runtime_attestation.json",
-      "size_bytes": 2306,
-      "sha256": "EC04F4E92696DA675FC2DFF8A45330CCA2A185CEAE2F22149DEFB0D19645B022",
+      "size_bytes": 2138,
+      "sha256": "5F11E11191688585968CC207A932C440EAD6BB93325CF3AF5FC0FE99CF9E8C61",
       "used_by_checks": [
         "attestation_source"
       ]
     },
     {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_01.png",
-      "size_bytes": 350019,
-      "sha256": "F1696C99054D2B9857A0029FF7E57D54F5CF023639AECB1B3EAAF8CD4555F5AE",
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_probe_35s.png",
+      "size_bytes": 184715,
+      "sha256": "34673C065FC4EA3A3B803454F88CC3F221435E6F91C4A108153FDB4FC1E833C1",
+      "used_by_checks": [
+        "final_patch_reaches_original_cinematic",
+        "original_sfd_sequence_reaches_live_battle"
+      ]
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_runtime_probe.json",
+      "size_bytes": 3985,
+      "sha256": "4BA914DC31AFFCC257D53D83351D9219ECA3767460A3E571F1F841A1AE02F1F7",
+      "used_by_checks": [
+        "runtime_session_bound_and_logs_clean"
+      ]
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_wyvern_01.png",
+      "size_bytes": 325103,
+      "sha256": "544F005172E1B0F6D5CF73E873B225A4BBBB2D19C2F88D0E9EF3C96690A8BA8C",
+      "used_by_checks": [
+        "battle_frames_continue_advancing",
+        "original_sfd_sequence_reaches_live_battle"
+      ]
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_wyvern_02.png",
+      "size_bytes": 345181,
+      "sha256": "16F1BEBF3105DB1FF5FC52E8C0101848F3A90DC25593F967C1BA023305545A49",
       "used_by_checks": [
         "battle_frames_continue_advancing"
       ]
     },
     {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_03.png",
-      "size_bytes": 334591,
-      "sha256": "3EE88DEDF4B1388BFAF7C82E47182584AFB5A1C65C12E1FE1CD0CB471F7A91A7",
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_wyvern_03.png",
+      "size_bytes": 356836,
+      "sha256": "EFE727F6AF3572E7B9B9281946D391A56160B64E818811CCA5B51420B4270B91",
       "used_by_checks": [
-        "korean_enemy_skill_name_renders"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_06.png",
-      "size_bytes": 342379,
-      "sha256": "44039E1C99F846515E8A3C9FD70D7E77333BECDF69366A6CE88E7C4E8AA455F3",
-      "used_by_checks": [
-        "battle_frames_continue_advancing"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_korean_monster_name.png",
-      "size_bytes": 336994,
-      "sha256": "8F522DBD7C248016B51052410071154BDEF6607B2E58CA5CEA325D9A91AE4FF8",
-      "used_by_checks": [
-        "korean_battle_monster_name_renders"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_runtime_probe.json",
-      "size_bytes": 2982,
-      "sha256": "37462E5CAAFA7F91009B40C05C110C9020ACFD98AB02E815C20712833DD86E53",
-      "used_by_checks": [
-        "process_responsive_and_logs_clean"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_title_probe.png",
-      "size_bytes": 426534,
-      "sha256": "7D2B4A553849FBCDA14F399AD39749968069D24EA55A75C6F7F3B72FEEFA2210",
-      "used_by_checks": [
-        "final_v5_patch_boot_reaches_title"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_wyvern_after.png",
-      "size_bytes": 224610,
-      "sha256": "C8F92920706DB66BE7CF068FF0C20F55FDB84BD1F3C6AE6E862B062E184BCEA7",
-      "used_by_checks": [
-        "original_sfd_wyvern_sequence_passes_without_skip"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_wyvern_before.png",
-      "size_bytes": 222031,
-      "sha256": "1A58602B648022EC0AE9D1BEE809241DC36521694E7E0147BF7094936D490AEE",
-      "used_by_checks": [
-        "original_sfd_wyvern_sequence_passes_without_skip"
-      ]
-    },
-    {
-      "path": "work/runtime_validation/final_runtime_v5/final_v5_wyvern_exact.png",
-      "size_bytes": 186302,
-      "sha256": "48753664DAE3D7AAA5D71C73ECBFC7E5B4726064A4503B6C91586C02D5796E42",
-      "used_by_checks": [
-        "original_sfd_wyvern_sequence_passes_without_skip"
+        "battle_frames_continue_advancing",
+        "korean_battle_monster_and_result_text_renders"
       ]
     },
     {
@@ -191,7 +154,7 @@
     {
       "path": "work/runtime_validation/final_runtime_v5/full_runtime_session.json",
       "size_bytes": 2606,
-      "sha256": "917BB55665F50FE83AC4F72A450C6C7FB2140D6CB2FEF13515D2ABFBDDD45929",
+      "sha256": "58C179BC68F564B70932E7DCDCFBB016C1CC178FF5C3E247CAAB9C3A7D328D5A",
       "used_by_checks": [
         "runtime_session_binding"
       ]

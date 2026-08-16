@@ -13,6 +13,12 @@ PATHS = {
     "battle_application": W / "battle_enemy_application" / "application_report.json",
     "staging_integration": W / "battle_enemy_application" / "staging_integration_report.json",
     "font_injection": W / "font" / "final_v3" / "injection_verification.json",
+    "battle_coverage": W / "validation" / "battle_text_independent_coverage_audit.json",
+    "system_residue": W / "system_text_residue_application" / "application_report.json",
+    "system_residue_integration": W / "system_text_residue_application" / "staging_integration_report.json",
+    "residue_closure": W / "validation" / "localization_residue_closure.json",
+    "all_btl_vld": W / "validation" / "all_btl_vld_surface_classification.json",
+    "full_text_closure": W / "validation" / "full_text_surface_closure.json",
     "geometry_repair": W / "runtime_validation" / "fixed_table_geometry_repair_validation.json",
     "staging_manifest": W / "final_runtime_staging" / "staging_manifest.json",
     "runtime": W / "validation" / "dolphin_runtime_validation.json",
@@ -54,16 +60,48 @@ def main() -> int:
     app = load(PATHS["battle_application"])
     check("battle_application_valid", app.get("valid") is True and app.get("error_count") == 0)
     check("battle_translation_counts", app.get("counts") == {
-        "entries": 270, "display_names": 270, "part_names": 3, "skill_names": 563,
-        "total_units": 836, "entries_fitting_source_slots": 270,
+        "entries": 270, "display_names": 270, "alternate_display_names": 87,
+        "part_names": 3, "skill_names": 672, "total_units": 1032,
+        "entries_fitting_source_slots": 270,
         "changed_outside_allowed_bytes": 0,
     }, actual=app.get("counts"))
     check("battle_temp_files_cleaned", app.get("repacked_entry_temp_files_cleaned") is True)
+    coverage = load(PATHS["battle_coverage"])
+    check("battle_independent_coverage", coverage.get("catalog", {}).get("unit_count") == 1032
+          and coverage.get("counts", {}).get("uncovered_before_first_rtdp") == 0
+          and coverage.get("counts", {}).get("unchanged_before_first_rtdp") == 0)
+    residue = load(PATHS["system_residue"])
+    check("system_residue_valid", residue.get("valid") is True
+          and residue.get("error_count") == 0
+          and residue.get("counts", {}).get("translated_fields") == 30
+          and residue.get("counts", {}).get("ability_names") == 14
+          and residue.get("counts", {}).get("changed_outside_allowed_bytes") == 0
+          and residue.get("coverage", {}).get("semantic_japanese_unmatched_after") == 0)
+    residue_integration = load(PATHS["system_residue_integration"])
+    check("system_residue_integration_valid", residue_integration.get("valid") is True
+          and residue_integration.get("error_count") == 0)
+    closure = load(PATHS["residue_closure"])
+    check("localization_residue_closure_valid", closure.get("valid") is True
+          and closure.get("error_count") == 0
+          and closure.get("summary", {}).get("semantic_japanese_unmatched_after") == 0
+          and closure.get("summary", {}).get("changed_outside_declared_text_slots") == 0)
+    all_btl_vld = load(PATHS["all_btl_vld"])
+    check("all_btl_vld_surface_classification_valid",
+          all_btl_vld.get("valid") is True
+          and all_btl_vld.get("exact_compound_hit_count") == 0
+          and sum(row.get("entry_count", 0) for row in all_btl_vld.get("summary", [])) == 863)
+    full_text = load(PATHS["full_text_closure"])
+    check("full_text_surface_closure_valid",
+          full_text.get("valid") is True and full_text.get("error_count") == 0
+          and full_text.get("summary", {}).get("semantic_japanese_in_korean_targets") == 0
+          and full_text.get("summary", {}).get("unmatched_semantic_japanese_after") == 0
+          and full_text.get("summary", {}).get("exact_burst_shot_source_hits") == 0)
+
 
     font = load(PATHS["font_injection"])
     check("font_v3_valid", font.get("valid") is True and font.get("error_count") == 0)
     check("font_v3_counts", font.get("assigned_characters") == 1370
-          and font.get("approved_units_encoded") == 30915
+          and font.get("approved_units_encoded") == 30932
           and font.get("approved_unit_encoding_errors") == 0)
 
     geometry = load(PATHS["geometry_repair"])
@@ -84,6 +122,12 @@ def main() -> int:
     check("battle_application_binding",
           staging.get("battle_enemy_application", {}).get("report_sha256")
           == sha(PATHS["battle_application"]))
+    check("system_residue_binding",
+          staging.get("system_text_residue_application", {}).get("report_sha256")
+          == sha(PATHS["system_residue"])
+          and staging.get("counts", {}).get("system_text_residue_translation_occurrences") == 30
+          and residue_integration.get("staging_manifest", {}).get("sha256")
+          == sha(PATHS["staging_manifest"]))
     staged_paths = {row.get("physical_path") for row in staging.get("static_validation", {}).get("staged_files", [])}
     sfd_repair = staging.get("sfd_runtime_compatibility", {})
     check("unsafe_reencoded_sfd_overlay_absent", "Movie/RAY_OP_02.sfd" not in staged_paths
@@ -93,12 +137,11 @@ def main() -> int:
 
     runtime = load(PATHS["runtime"])
     expected_runtime_checks = {
-        "final_v5_patch_boot_reaches_title",
-        "original_sfd_wyvern_sequence_passes_without_skip",
-        "korean_battle_monster_name_renders",
-        "korean_enemy_skill_name_renders",
+        "final_patch_reaches_original_cinematic",
+        "original_sfd_sequence_reaches_live_battle",
+        "korean_battle_monster_and_result_text_renders",
         "battle_frames_continue_advancing",
-        "process_responsive_and_logs_clean",
+        "runtime_session_bound_and_logs_clean",
     }
     observed_runtime_checks = {row.get("name") for row in runtime.get("checks", [])}
     check("runtime_report_valid", runtime.get("valid") is True

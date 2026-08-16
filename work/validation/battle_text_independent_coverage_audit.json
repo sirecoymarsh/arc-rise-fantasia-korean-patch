@@ -1,0 +1,473 @@
+{
+  "schema": "arf-battle-text-independent-coverage-audit-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "source": {
+    "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_enemy.vld",
+    "vld_sha256": "BDAFF6EFE547392664B04D45CFAECC9DD8D4D09ACBE5A3DA51F34347C26A96EF",
+    "header_sha256": "99568A02F4433365D6210B651D723348E2C078494C173D2FCB52DED1DB48C175"
+  },
+  "final": {
+    "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_enemy.vld",
+    "vld_sha256": "D8E161DDE2C8B3C3B2620844E4B8AB52EBD49FEFBBD3306D86025D4291C81886",
+    "header_sha256": "395DC149CBC2A33D1A7CCB48D1A8DD82DCF7F9579817340098D397C787C1B2D9"
+  },
+  "catalog": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\battle_enemy\\battle_enemy_catalog.json",
+    "sha256": "30EA9FB80BD48C84357C4F9B3BF7BF3378618A2B1641CFB20854C06C36AD0CE0",
+    "unit_count": 1032
+  },
+  "counts": {
+    "entries": 270,
+    "independent_japanese_runs": 34752,
+    "before_first_rtdp": 1006,
+    "after_first_rtdp": 33746,
+    "uncovered_before_first_rtdp": 0,
+    "unchanged_before_first_rtdp": 0,
+    "catalog_offset_mismatches": 26
+  },
+  "uncovered_before_first_rtdp": [],
+  "unchanged_before_first_rtdp": [],
+  "catalog_offset_mismatches": [
+    {
+      "entry": 185,
+      "unit": "btl_enemy:185:skill:0",
+      "expected_japanese_offset": 3132
+    },
+    {
+      "entry": 185,
+      "unit": "btl_enemy:185:skill:1",
+      "expected_japanese_offset": 3980
+    },
+    {
+      "entry": 186,
+      "unit": "btl_enemy:186:skill:1",
+      "expected_japanese_offset": 3980
+    },
+    {
+      "entry": 187,
+      "unit": "btl_enemy:187:skill:0",
+      "expected_japanese_offset": 2384
+    },
+    {
+      "entry": 188,
+      "unit": "btl_enemy:188:skill:0",
+      "expected_japanese_offset": 2384
+    },
+    {
+      "entry": 189,
+      "unit": "btl_enemy:189:skill:0",
+      "expected_japanese_offset": 2384
+    },
+    {
+      "entry": 190,
+      "unit": "btl_enemy:190:skill:0",
+      "expected_japanese_offset": 2384
+    },
+    {
+      "entry": 250,
+      "unit": "btl_enemy:250:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 251,
+      "unit": "btl_enemy:251:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 252,
+      "unit": "btl_enemy:252:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 253,
+      "unit": "btl_enemy:253:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 254,
+      "unit": "btl_enemy:254:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 255,
+      "unit": "btl_enemy:255:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 256,
+      "unit": "btl_enemy:256:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 257,
+      "unit": "btl_enemy:257:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 258,
+      "unit": "btl_enemy:258:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 259,
+      "unit": "btl_enemy:259:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 260,
+      "unit": "btl_enemy:260:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 261,
+      "unit": "btl_enemy:261:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 262,
+      "unit": "btl_enemy:262:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 263,
+      "unit": "btl_enemy:263:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 264,
+      "unit": "btl_enemy:264:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 265,
+      "unit": "btl_enemy:265:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 266,
+      "unit": "btl_enemy:266:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 267,
+      "unit": "btl_enemy:267:display_name",
+      "expected_japanese_offset": 392
+    },
+    {
+      "entry": 268,
+      "unit": "btl_enemy:268:display_name",
+      "expected_japanese_offset": 392
+    }
+  ],
+  "all_independent_strings_digest": {
+    "count": 34752,
+    "canonical_json_sha256": "82AA5465B487842A70E6BE9DD821AE8DBD7166B38FF11C6C4698487D26B0FAF2",
+    "sample_first_20": [
+      {
+        "entry": 0,
+        "offset": 384,
+        "end": 390,
+        "byte_length": 6,
+        "text": "帝国兵",
+        "raw_hex": "C4EBB9F1CABC",
+        "section": "before_first_rtdp",
+        "unchanged_in_final": false,
+        "final_hex": "C2C8B1B520BA",
+        "preceding_32_hex": "00000000000C44E0FF65E540005066420001000000D8F91300D8F91300000000",
+        "following_32_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_covered": true,
+        "catalog_units": [
+          "btl_enemy:0:display_name"
+        ]
+      },
+      {
+        "entry": 0,
+        "offset": 3123,
+        "end": 3133,
+        "byte_length": 10,
+        "text": "カマイタチ",
+        "raw_hex": "A5ABA5DEA5A4A5BFA5C1",
+        "section": "before_first_rtdp",
+        "unchanged_in_final": false,
+        "final_hex": "C4FEB9C0B6AC00000000",
+        "preceding_32_hex": "00000000000000000000000000000000000000000A0000000A0000003C154532",
+        "following_32_hex": "00000000000000000000000000000000000000000000200000005300000DE500",
+        "catalog_covered": true,
+        "catalog_units": [
+          "btl_enemy:0:skill:0"
+        ]
+      },
+      {
+        "entry": 0,
+        "offset": 82044,
+        "end": 82054,
+        "byte_length": 10,
+        "text": "侵蝕oxgXU\n",
+        "raw_hex": "BFAFBFAA6F786758550A",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "BFAFBFAA6F786758550A",
+        "preceding_32_hex": "6000000067587C9E55AAAAAB677864B9F5AA0AAA64B97C99AFAAAF2A67587C9E",
+        "following_32_hex": "000A6F1B6758552A002A675864B9BDAFB5006F787CB9FFFFFFAA173B675857AA",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 94828,
+        "end": 94836,
+        "byte_length": 8,
+        "text": "褸^x里7_",
+        "raw_hex": "EAFA5E78CEA4375F",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "EAFA5E78CEA4375F",
+        "preceding_32_hex": "D52F2BD5D67B1CBDAA00BDAAC625371F8002FD0ACE7A27D92808A3DED7980F5C",
+        "following_32_hex": "00D55FAAC9443F1EAA5E80003F1E1CBDA0E07A80075C14F2EBEFFB03279904BD",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 103416,
+        "end": 103421,
+        "byte_length": 5,
+        "text": "巍d悉",
+        "raw_hex": "D6DB64BCBD",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "D6DB64BCBD",
+        "preceding_32_hex": "17986CBCA8FFD555279E1C920000A8D5279E04B20000007817F91492005E5555",
+        "following_32_hex": "00A8AA075D1C9200F85CF804BD1CF3E002AE5E2E186C9D5EB500AAD6191CBD00",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 104702,
+        "end": 104710,
+        "byte_length": 8,
+        "text": "孥佶d散.",
+        "raw_hex": "D5D7D0CB64BBB62E",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "D5D7D0CB64BBB62E",
+        "preceding_32_hex": "60706F3A64992A2D090A6F0574DED57FAA00677B7CB92F35A5E5671B7CBBA0FF",
+        "following_32_hex": "00001E06743E99BB2000090C671A002E250A6FC474DE2C3C94B606A3743966EE",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 109152,
+        "end": 109159,
+        "byte_length": 7,
+        "text": "彁'掵⊃",
+        "raw_hex": "D7BB27D9DEA2BF",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "D7BB27D9DEA2BF",
+        "preceding_32_hex": "279904BCD52A0A0A2F98377F7D2B2FAF2E5804BC002BF502C61A371F00B5AA02",
+        "following_32_hex": "002FF80F7C7AFA57A8F1662FF90BD52000CEA43F3E57780000371F1CBDE86A7A",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 115976,
+        "end": 115981,
+        "byte_length": 5,
+        "text": "汎o舉",
+        "raw_hex": "C8C66FDAAA",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "C8C66FDAAA",
+        "preceding_32_hex": "C0276FDAAA0000001E077CF8AA00FFF51E077C98AA00FF55C8276FDAAA000000",
+        "following_32_hex": "0000001EC77C9BAA00FF5509C27CF8AA00FFD5D1E74438FFAAAAAAD1874418FF",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 117544,
+        "end": 117551,
+        "byte_length": 7,
+        "text": "豫o筧U_",
+        "raw_hex": "D0AE6FE4AA555F",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "D0AE6FE4AA555F",
+        "preceding_32_hex": "CB2906E2AA55BF001E606FE7550A0A0A1FE716000AFFEAF5CBC81E20A855FF00",
+        "following_32_hex": "0017A617C55EFA7FA06FC5677B587878E0206C6FE4805FEA0006A067258055FF",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 122248,
+        "end": 122252,
+        "byte_length": 4,
+        "text": "珥蓁",
+        "raw_hex": "E0E2E8ED",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "E0E2E8ED",
+        "preceding_32_hex": "E0E2E8EDA0A2AEAAC86C67580000AA55F0E3E0E2A8AFAFA5E082E8ED8000FFFF",
+        "following_32_hex": "0008FE55F0E3E0E200FFFF95E0E2F0E3FFFFAAAAE0E2E8ED2A0ABA9A64B96759",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 122256,
+        "end": 122260,
+        "byte_length": 4,
+        "text": "鞦珥",
+        "raw_hex": "F0E3E0E2",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "F0E3E0E2",
+        "preceding_32_hex": "C86C67580000AA55F0E3E0E2A8AFAFA5E082E8ED8000FFFFE0E2E8ED0008FE55",
+        "following_32_hex": "00FFFF95E0E2F0E3FFFFAAAAE0E2E8ED2A0ABA9A64B96759BFBFBFBFF0E3F8E3",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 126342,
+        "end": 126348,
+        "byte_length": 6,
+        "text": "真應節",
+        "raw_hex": "BFBFD8E6C0E1",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "BFBFD8E6C0E1",
+        "preceding_32_hex": "AFADC0C1C0C1AAAAAAAA64B97CB9FDFDFDFDD8C1D8C1AAAAAAAAD8E6C0E180BF",
+        "following_32_hex": "00FFEFFAD8C6D881BFBFBFBFD8C6D881FAFAFAFAD8E6C0E12AEAEAEA64B96759",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 128123,
+        "end": 128127,
+        "byte_length": 4,
+        "text": "康蒐",
+        "raw_hex": "B9AFBDAF",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "B9AFBDAF",
+        "preceding_32_hex": "99555557080E077CB9AAF50000214064B9AA55000067587C9EFFFFFF006F787C",
+        "following_32_hex": "00D1E26758AA55000029036758AA5500006F1B64B9F5D5FD006F1B64B9575557",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 128147,
+        "end": 128151,
+        "byte_length": 4,
+        "text": "黒屎",
+        "raw_hex": "B9F5D5FD",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "B9F5D5FD",
+        "preceding_32_hex": "9EFFFFFF006F787CB9AFBDAF00D1E26758AA55000029036758AA5500006F1B64",
+        "following_32_hex": "006F1B64B957555700296064B9AA55000029007CB9AA5500006F787C997F5F7F",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 130843,
+        "end": 130847,
+        "byte_length": 4,
+        "text": "辺蝕",
+        "raw_hex": "CAD5BFAA",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "CAD5BFAA",
+        "preceding_32_hex": "2A0BADD5D5822AD8AA0B2D2D2DAAAA9A2A35D555D5CB8AD34A2DF5D5EA82AAD3",
+        "following_32_hex": "00AAAA922A7856575E926AC32AE87E5E789AAA2B4A5FFAA800DBCA31CA577FFA",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 135350,
+        "end": 135356,
+        "byte_length": 6,
+        "text": "腎萵gx",
+        "raw_hex": "BFD5E8E26778",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "BFD5E8E26778",
+        "preceding_32_hex": "7E55D9671F7EF3F272730E8017A600A0FA5506C16F24A0A0F85E932F1FA5A000",
+        "following_32_hex": "002F577F1FA77CB8AAAAD7808A4817C500000025C9E66F590B55FFFA83CE1F7E",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 135547,
+        "end": 135553,
+        "byte_length": 6,
+        "text": "黶瘁§",
+        "raw_hex": "F3E1E1E1A1F8",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "F3E1E1E1A1F8",
+        "preceding_32_hex": "1CDEB6B8802659077D32121032C9C41CB2E1E1C1C13F9E1CB29A921090C12414",
+        "following_32_hex": "00C98729090302A2EBE88235352525C9A1C1E709010302AA8AF0602D2D2D2DAA",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 136888,
+        "end": 136892,
+        "byte_length": 4,
+        "text": "昏嚏",
+        "raw_hex": "BAAAD3EA",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "BAAAD3EA",
+        "preceding_32_hex": "3868068C2FADBDB5202B0682002AABF5D36A312C002ABEF5F28A202B020A2DD5",
+        "following_32_hex": "002AD757D08831CC00A8AA5D286E0644F4D87042EAAAC30A80A2E25AC00F0644",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 146655,
+        "end": 146660,
+        "byte_length": 5,
+        "text": "袒@凵",
+        "raw_hex": "EAD840D1E1",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "EAD840D1E1",
+        "preceding_32_hex": "BDD9A029E12AAAAF55D9A029E1AAAAFF55C803D8432AF5D5FFC822C06300FF55",
+        "following_32_hex": "0000AAD5C043D181000AAAFDC803C063805E5EA0C063D9A07A5E5AE8C040D181",
+        "catalog_covered": false,
+        "catalog_units": []
+      },
+      {
+        "entry": 0,
+        "offset": 150920,
+        "end": 150924,
+        "byte_length": 4,
+        "text": "繊刎",
+        "raw_hex": "C1A1D1E6",
+        "section": "after_first_rtdp",
+        "unchanged_in_final": true,
+        "final_hex": "C1A1D1E6",
+        "preceding_32_hex": "D1E62921FDFFBEBF29C62906FDEFAFB5D1E129279FBFB5D5D98129C6AAAAAEFF",
+        "following_32_hex": "00002ABBD981D1C6BFBDD555C1A1D981222AAEFDD981D1E60228D755D9E129C6",
+        "catalog_covered": false,
+        "catalog_units": []
+      }
+    ]
+  }
+}

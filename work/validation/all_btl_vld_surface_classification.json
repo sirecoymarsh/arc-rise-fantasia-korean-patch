@@ -1,0 +1,214 @@
+{
+  "schema": "arf-all-btl-vld-surface-classification-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "inputs": [
+    {
+      "kind": "enemy",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_enemy.vlh",
+      "header_sha256": "99568A02F4433365D6210B651D723348E2C078494C173D2FCB52DED1DB48C175",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_enemy.vld",
+      "vld_sha256": "BDAFF6EFE547392664B04D45CFAECC9DD8D4D09ACBE5A3DA51F34347C26A96EF",
+      "entry_count": 270
+    },
+    {
+      "kind": "magic",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_magic.vlh",
+      "header_sha256": "EF1B460E26658705BDE51F2EE0F42891CB483C5BD1C229024D6ED5DAE6BB4054",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_magic.vld",
+      "vld_sha256": "F4A4A17EBA676E911980C94D2F3DA582BEB40210506E6748BF22D82801DC12C9",
+      "entry_count": 247
+    },
+    {
+      "kind": "map",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_map.vlh",
+      "header_sha256": "48FD9BD697BFB23EB58B51AC05BB071E039367A5B398AD16927DD1B097ADEC2B",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_map.vld",
+      "vld_sha256": "FEA58FF3C6CE4277EFCF5B32822DDA6771A2BAF952204111FF97DC9BAAFD299E",
+      "entry_count": 57
+    },
+    {
+      "kind": "pc",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_pc.vlh",
+      "header_sha256": "7E270FCAF23790365B8B92481CB836F80633127BF50E27E7DAF12BF1996F872B",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_pc.vld",
+      "vld_sha256": "B5CD5564DE9FC490AB94AEF9858DABABA1E36767E6B8A72A19F8F3BD4D82A75E",
+      "entry_count": 12
+    },
+    {
+      "kind": "weapon",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_weapon.vlh",
+      "header_sha256": "771851D033AE819AAC13E25EB9A5D70A9C46F0A00694878EBC12FD3667655DB3",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_weapon.vld",
+      "vld_sha256": "A1EE340C542E9E1E4DA5511945AFC99F9465483E65BF59BB226952D0D336693B",
+      "entry_count": 193
+    },
+    {
+      "kind": "win",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_win.vlh",
+      "header_sha256": "C95AA60054629E6B0192E275A3716C4FAA210E0F89ACF92CAD34337CE22D0471",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_win.vld",
+      "vld_sha256": "7C2CC3E8B264386D748B473BB0C4BE34B9128B12AF24B0F035129012B69482F9",
+      "entry_count": 60
+    },
+    {
+      "kind": "tutorial",
+      "header": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_usual_entries\\btl_tutorial.vlh",
+      "header_sha256": "E8EFF7F777BFABACD04D8B9F2CA4AD6204F1861245036BEF6771EB075E045FDF",
+      "vld": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_tutorial.vld",
+      "vld_sha256": "9914F7D7D2BB4A85DC14FB9D332BA71A0D619E2FB102071C575FF56CDFFD27D7",
+      "entry_count": 24
+    }
+  ],
+  "summary": [
+    {
+      "kind": "enemy",
+      "entry_count": 270,
+      "nonempty_entries": 270,
+      "empty_entries": 0,
+      "decoded_magic_counts": {
+        "BTEM": 270
+      },
+      "entries_with_nested_rtdp": 270,
+      "burst_name_hits": [
+        {
+          "entry": 57,
+          "term": "ショット",
+          "offset": 1978
+        },
+        {
+          "entry": 105,
+          "term": "バースト",
+          "offset": 2307
+        },
+        {
+          "entry": 106,
+          "term": "バースト",
+          "offset": 2947
+        },
+        {
+          "entry": 107,
+          "term": "バースト",
+          "offset": 3683
+        },
+        {
+          "entry": 125,
+          "term": "ショット",
+          "offset": 3642
+        }
+      ]
+    },
+    {
+      "kind": "magic",
+      "entry_count": 247,
+      "nonempty_entries": 235,
+      "empty_entries": 12,
+      "decoded_magic_counts": {
+        "RTDP": 235,
+        "empty": 12
+      },
+      "entries_with_nested_rtdp": 235,
+      "burst_name_hits": []
+    },
+    {
+      "kind": "map",
+      "entry_count": 57,
+      "nonempty_entries": 55,
+      "empty_entries": 2,
+      "decoded_magic_counts": {
+        "RTDP": 55,
+        "empty": 2
+      },
+      "entries_with_nested_rtdp": 55,
+      "burst_name_hits": []
+    },
+    {
+      "kind": "pc",
+      "entry_count": 12,
+      "nonempty_entries": 12,
+      "empty_entries": 0,
+      "decoded_magic_counts": {
+        "RTDP": 12
+      },
+      "entries_with_nested_rtdp": 12,
+      "burst_name_hits": []
+    },
+    {
+      "kind": "weapon",
+      "entry_count": 193,
+      "nonempty_entries": 147,
+      "empty_entries": 46,
+      "decoded_magic_counts": {
+        "RTDP": 147,
+        "empty": 46
+      },
+      "entries_with_nested_rtdp": 147,
+      "burst_name_hits": []
+    },
+    {
+      "kind": "win",
+      "entry_count": 60,
+      "nonempty_entries": 56,
+      "empty_entries": 4,
+      "decoded_magic_counts": {
+        "RTDP": 56,
+        "empty": 4
+      },
+      "entries_with_nested_rtdp": 56,
+      "burst_name_hits": []
+    },
+    {
+      "kind": "tutorial",
+      "entry_count": 24,
+      "nonempty_entries": 21,
+      "empty_entries": 3,
+      "decoded_magic_counts": {
+        "....": 21,
+        "empty": 3
+      },
+      "entries_with_nested_rtdp": 0,
+      "burst_name_hits": []
+    }
+  ],
+  "burst_terms": [
+    "バーストショット",
+    "バースト・ショット",
+    "バースト",
+    "ショット"
+  ],
+  "exact_compound_hit_count": 0,
+  "component_term_hit_count": 5,
+  "burst_term_hits": [
+    {
+      "kind": "enemy",
+      "entry": 57,
+      "term": "ショット",
+      "offset": 1978
+    },
+    {
+      "kind": "enemy",
+      "entry": 105,
+      "term": "バースト",
+      "offset": 2307
+    },
+    {
+      "kind": "enemy",
+      "entry": 106,
+      "term": "バースト",
+      "offset": 2947
+    },
+    {
+      "kind": "enemy",
+      "entry": 107,
+      "term": "バースト",
+      "offset": 3683
+    },
+    {
+      "kind": "enemy",
+      "entry": 125,
+      "term": "ショット",
+      "offset": 3642
+    }
+  ],
+  "valid": true
+}

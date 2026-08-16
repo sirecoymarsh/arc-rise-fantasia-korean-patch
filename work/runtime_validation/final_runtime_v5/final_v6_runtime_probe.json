@@ -1,0 +1,117 @@
+{
+  "schema": "arf-ko-final-runtime-probe-v2",
+  "game_id": "RPJJ99",
+  "generated_utc": "2026-08-16T12:05:03.301591+00:00",
+  "runtime_session": {
+    "path": "work/runtime_validation/final_runtime_v5/full_runtime_session.json",
+    "size_bytes": 2606,
+    "sha256": "58C179BC68F564B70932E7DCDCFBB016C1CC178FF5C3E247CAAB9C3A7D328D5A",
+    "modified_utc": "2026-08-16T11:36:44.700846+00:00"
+  },
+  "staging_manifest": {
+    "path": "work/final_runtime_staging/staging_manifest.json",
+    "size_bytes": 853510,
+    "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E",
+    "modified_utc": "2026-08-16T11:29:30.271324+00:00"
+  },
+  "package_manifest": {
+    "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0/MANIFEST.json",
+    "size_bytes": 180737,
+    "sha256": "046B8DC18E142E95F16D7BD4E0B5F1E6231D2770C4743D67957CB98B8DA86058",
+    "modified_utc": "2026-08-16T11:34:43.623567+00:00"
+  },
+  "settings": {
+    "EmulationSpeed": 1.0,
+    "MMU": false,
+    "UsePanicHandlers": true,
+    "FastDiscSpeed": false,
+    "GFXBackend": "Vulkan"
+  },
+  "observed_scope": [
+    "original in-game cinematic after boot",
+    "live opening Wyvern battle",
+    "three time-separated advancing battle frames",
+    "Korean battle result text '와이번: 치명타'"
+  ],
+  "not_claimed": [
+    "full playthrough",
+    "every enemy skill exercised at runtime",
+    "a runtime label named バーストショット; exhaustive source audit proves no such display string exists"
+  ],
+  "screenshots": [
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_probe_35s.png",
+      "size_bytes": 184715,
+      "sha256": "34673C065FC4EA3A3B803454F88CC3F221435E6F91C4A108153FDB4FC1E833C1",
+      "modified_utc": "2026-08-16T11:38:50.510938+00:00"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_wyvern_01.png",
+      "size_bytes": 325103,
+      "sha256": "544F005172E1B0F6D5CF73E873B225A4BBBB2D19C2F88D0E9EF3C96690A8BA8C",
+      "modified_utc": "2026-08-16T11:39:19.647717+00:00"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_wyvern_02.png",
+      "size_bytes": 345181,
+      "sha256": "16F1BEBF3105DB1FF5FC52E8C0101848F3A90DC25593F967C1BA023305545A49",
+      "modified_utc": "2026-08-16T11:39:25.687798+00:00"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v6_wyvern_03.png",
+      "size_bytes": 356836,
+      "sha256": "EFE727F6AF3572E7B9B9281946D391A56160B64E818811CCA5B51420B4270B91",
+      "modified_utc": "2026-08-16T11:39:31.735365+00:00"
+    }
+  ],
+  "logs": {
+    "stdout": {
+      "path": "work/runtime_validation/final_runtime_v5/full_runtime_dolphin.stdout.log",
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "modified_utc": "2026-08-16T11:36:41.440975+00:00"
+    },
+    "stderr": {
+      "path": "work/runtime_validation/final_runtime_v5/full_runtime_dolphin.stderr.log",
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "modified_utc": "2026-08-16T11:36:41.440975+00:00"
+    },
+    "both_empty": true
+  },
+  "checks": [
+    {
+      "name": "session_bound_to_current_staging",
+      "passed": true
+    },
+    {
+      "name": "session_bound_to_current_system_vol",
+      "passed": true
+    },
+    {
+      "name": "required_vulkan_original_sfd_settings",
+      "passed": true
+    },
+    {
+      "name": "cinematic_reaches_live_wyvern_battle",
+      "passed": true
+    },
+    {
+      "name": "battle_frames_advance",
+      "passed": true,
+      "changed_pixels": {
+        "wyvern_01_to_02": 214813,
+        "wyvern_02_to_03": 213710
+      }
+    },
+    {
+      "name": "dolphin_logs_clean",
+      "passed": true
+    }
+  ],
+  "passed_count": 6,
+  "failed_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

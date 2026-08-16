@@ -1,0 +1,25 @@
+{
+  "schema": "arf-system-text-residue-staging-integration-v1",
+  "game_id": "RPJJ99",
+  "application_report": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\system_text_residue_application\\application_report.json",
+    "sha256": "D7CC21C61A9FEE7B5EA86D343A726AB6C7817110A6EB8811ABAB2D39A51782C2"
+  },
+  "staging_manifest": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
+    "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
+  },
+  "staged_system": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
+    "sha256": "7CD034508B5A93AF33D1809A927265CA22751EBE4FA4A5C84DBF28B955323D2C",
+    "size": 6172608
+  },
+  "updated_internal_entries": {
+    "ability.bin": "637A4ECA7111135E3C6B2D8CD413ABB49120196E242484EBC8EF819DCDE78A2C",
+    "chat.bin": "F9AF7C4B4625F64FE34AF1204CD074E109111358F8D8F9E15DE2B54503595D84",
+    "shop.bin": "FC86A1B12E9C3F803F2F27A2A342B479CAF7F3C25512D1C942E4B47FA4376487"
+  },
+  "valid": true,
+  "error_count": 0,
+  "errors": []
+}

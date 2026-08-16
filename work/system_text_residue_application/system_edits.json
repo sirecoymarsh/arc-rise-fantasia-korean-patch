@@ -1,0 +1,29 @@
+{
+  "format": "arf-container-edits-v1",
+  "edits": [
+    {
+      "entryPath": [
+        38
+      ],
+      "expectedSha256": "4f261522c2b8ff8f54ba60dcd59c5fe62475c4c72a3aed3e9fba9d0832b021c5",
+      "replacementFile": "payloads/ability.bin",
+      "name": "ability.bin"
+    },
+    {
+      "entryPath": [
+        41
+      ],
+      "expectedSha256": "7ddc30bbd711561bf142cb3daed71d44ab9432f29d64bc4cd9859424d4157a87",
+      "replacementFile": "payloads/chat.bin",
+      "name": "chat.bin"
+    },
+    {
+      "entryPath": [
+        31
+      ],
+      "expectedSha256": "4097bf014641ed81a7b2cb68e7d34d629740c124a40e19e1257f4c47e3c62e88",
+      "replacementFile": "payloads/shop.bin",
+      "name": "shop.bin"
+    }
+  ]
+}

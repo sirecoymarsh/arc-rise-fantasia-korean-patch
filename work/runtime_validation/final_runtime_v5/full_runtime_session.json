@@ -1,7 +1,7 @@
 {
   "schema": "arf-ko-dolphin-runtime-session-v1",
-  "started_utc": "2026-08-16T01:20:07.237937+00:00",
-  "pid": 54248,
+  "started_utc": "2026-08-16T11:36:44.621862+00:00",
+  "pid": 61508,
   "dolphin": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\tools\\dolphin-2603a\\Dolphin-x64\\Dolphin.exe",
     "sha256": "5E076628B977603DCDE9DDEF5EEDF10B5A9CE0B6208BD4E6DFA9039CDEBF3433"
@@ -36,11 +36,11 @@
   },
   "system_vol": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
-    "sha256": "B6BC39101EE564FD63B8D482C7443EF7F1A576571923D21B088D2ADB56B922CF"
+    "sha256": "7CD034508B5A93AF33D1809A927265CA22751EBE4FA4A5C84DBF28B955323D2C"
   },
   "staging_manifest": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
-    "sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4"
+    "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
   },
   "stdout": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_validation\\final_runtime_v5\\full_runtime_dolphin.stdout.log",
   "stderr": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_validation\\final_runtime_v5\\full_runtime_dolphin.stderr.log"

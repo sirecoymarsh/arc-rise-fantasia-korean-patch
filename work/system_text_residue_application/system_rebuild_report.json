@@ -1,0 +1,79 @@
+{
+  "format": "RTDP-tree-rebuild-v1",
+  "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_enemy_application\\system.vol",
+  "inputSha256": "b6bc39101ee564fd63b8d482c7443ef7f1a576571923d21b088d2adb56b922cf",
+  "outputSha256": "7cd034508b5a93af33d1809a927265ca22751ebe4fa4a5c84dbf28b955323d2c",
+  "inputSize": 6172608,
+  "outputSize": 6172608,
+  "byteExact": false,
+  "editAudit": [
+    {
+      "entryPath": [
+        38
+      ],
+      "name": "ability.bin",
+      "oldSize": 36500,
+      "newSize": 36500,
+      "oldSha256": "4f261522c2b8ff8f54ba60dcd59c5fe62475c4c72a3aed3e9fba9d0832b021c5",
+      "newSha256": "637a4eca7111135e3c6b2d8cd413abb49120196e242484ebc8ef819dcde78a2c"
+    },
+    {
+      "entryPath": [
+        41
+      ],
+      "name": "chat.bin",
+      "oldSize": 100972,
+      "newSize": 100972,
+      "oldSha256": "7ddc30bbd711561bf142cb3daed71d44ab9432f29d64bc4cd9859424d4157a87",
+      "newSha256": "f9af7c4b4625f64fe34af1204cd074e109111358f8d8f9e15de2b54503595d84"
+    },
+    {
+      "entryPath": [
+        31
+      ],
+      "name": "shop.bin",
+      "oldSize": 4042,
+      "newSize": 4042,
+      "oldSha256": "4097bf014641ed81a7b2cb68e7d34d629740c124a40e19e1257f4c47e3c62e88",
+      "newSha256": "fc86a1b12e9c3f803f2f27a2a342b479caf7f3c25512d1c942e4b47fa4376487"
+    }
+  ],
+  "containerAuditBottomUp": [
+    {
+      "prefix": [],
+      "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_enemy_application\\system.vol",
+      "inputSize": 6172608,
+      "inputSha256": "b6bc39101ee564fd63b8d482c7443ef7f1a576571923d21b088d2adb56b922cf",
+      "eoh": 2240,
+      "entryCount": 55,
+      "headerUnknownHex": "55280022000000000000000000000000",
+      "changes": [
+        {
+          "index": 31,
+          "oldSize": 4042,
+          "newSize": 4042,
+          "oldSha256": "4097bf014641ed81a7b2cb68e7d34d629740c124a40e19e1257f4c47e3c62e88",
+          "newSha256": "fc86a1b12e9c3f803f2f27a2a342b479caf7f3c25512d1c942e4b47fa4376487"
+        },
+        {
+          "index": 38,
+          "oldSize": 36500,
+          "newSize": 36500,
+          "oldSha256": "4f261522c2b8ff8f54ba60dcd59c5fe62475c4c72a3aed3e9fba9d0832b021c5",
+          "newSha256": "637a4eca7111135e3c6b2d8cd413abb49120196e242484ebc8ef819dcde78a2c"
+        },
+        {
+          "index": 41,
+          "oldSize": 100972,
+          "newSize": 100972,
+          "oldSha256": "7ddc30bbd711561bf142cb3daed71d44ab9432f29d64bc4cd9859424d4157a87",
+          "newSha256": "f9af7c4b4625f64fe34af1204cd074e109111358f8d8f9e15de2b54503595d84"
+        }
+      ],
+      "policy": "fixed-layout",
+      "outputSize": 6172608,
+      "outputSha256": "7cd034508b5a93af33d1809a927265ca22751ebe4fa4a5c84dbf28b955323d2c",
+      "byteExact": false
+    }
+  ]
+}

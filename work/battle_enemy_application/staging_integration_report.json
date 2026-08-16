@@ -5,7 +5,7 @@
   "external_translation_models_or_apis_used": false,
   "staging_manifest": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
-    "sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4"
+    "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
   },
   "xml": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
@@ -25,25 +25,26 @@
     "Btl/btl_enemy.vld": {
       "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_enemy.vld",
       "size": 221870080,
-      "sha256": "0AA02C1A25ACAA419DFA9DD640717299DF4BC8B88326B9557333D5563B28A480"
+      "sha256": "D8E161DDE2C8B3C3B2620844E4B8AB52EBD49FEFBBD3306D86025D4291C81886"
     },
     "Btl/btl_usual.vol": {
       "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_usual.vol",
       "size": 4833312,
-      "sha256": "AE474C4788C134511CB74C08FE1BBC764313B67A76FBB41F076CE0B247E46A17"
+      "sha256": "3FF42BC5877E56AD6CD778CA96D6683320215FDC066A92C737003706876E0945"
     },
     "Sys/system.vol": {
       "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
       "size": 6172608,
-      "sha256": "B6BC39101EE564FD63B8D482C7443EF7F1A576571923D21B088D2ADB56B922CF"
+      "sha256": "7CD034508B5A93AF33D1809A927265CA22751EBE4FA4A5C84DBF28B955323D2C"
     }
   },
   "battle_counts": {
     "entries": 270,
     "display_names": 270,
+    "alternate_display_names": 87,
     "part_names": 3,
-    "skill_names": 563,
-    "total_units": 836,
+    "skill_names": 672,
+    "total_units": 1032,
     "entries_fitting_source_slots": 270,
     "changed_outside_allowed_bytes": 0
   },
@@ -55,5 +56,12 @@
   },
   "error_count": 0,
   "errors": [],
-  "valid": true
+  "valid": true,
+  "system_text_residue": {
+    "report": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\system_text_residue_application\\application_report.json",
+    "report_sha256": "D7CC21C61A9FEE7B5EA86D343A726AB6C7817110A6EB8811ABAB2D39A51782C2",
+    "translated_fields": 30,
+    "semantic_japanese_unmatched_after": 0,
+    "valid": true
+  }
 }

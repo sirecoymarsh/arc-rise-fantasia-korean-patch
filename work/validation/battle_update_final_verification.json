@@ -20,6 +20,36 @@
       "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injection_verification.json"
     },
     {
+      "name": "artifact_exists:battle_coverage",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\battle_text_independent_coverage_audit.json"
+    },
+    {
+      "name": "artifact_exists:system_residue",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\system_text_residue_application\\application_report.json"
+    },
+    {
+      "name": "artifact_exists:system_residue_integration",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\system_text_residue_application\\staging_integration_report.json"
+    },
+    {
+      "name": "artifact_exists:residue_closure",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\localization_residue_closure.json"
+    },
+    {
+      "name": "artifact_exists:all_btl_vld",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\all_btl_vld_surface_classification.json"
+    },
+    {
+      "name": "artifact_exists:full_text_closure",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\full_text_surface_closure.json"
+    },
+    {
       "name": "artifact_exists:geometry_repair",
       "passed": true,
       "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_validation\\fixed_table_geometry_repair_validation.json"
@@ -69,15 +99,40 @@
       "actual": {
         "entries": 270,
         "display_names": 270,
+        "alternate_display_names": 87,
         "part_names": 3,
-        "skill_names": 563,
-        "total_units": 836,
+        "skill_names": 672,
+        "total_units": 1032,
         "entries_fitting_source_slots": 270,
         "changed_outside_allowed_bytes": 0
       }
     },
     {
       "name": "battle_temp_files_cleaned",
+      "passed": true
+    },
+    {
+      "name": "battle_independent_coverage",
+      "passed": true
+    },
+    {
+      "name": "system_residue_valid",
+      "passed": true
+    },
+    {
+      "name": "system_residue_integration_valid",
+      "passed": true
+    },
+    {
+      "name": "localization_residue_closure_valid",
+      "passed": true
+    },
+    {
+      "name": "all_btl_vld_surface_classification_valid",
+      "passed": true
+    },
+    {
+      "name": "full_text_surface_closure_valid",
       "passed": true
     },
     {
@@ -109,6 +164,10 @@
       "passed": true
     },
     {
+      "name": "system_residue_binding",
+      "passed": true
+    },
+    {
       "name": "unsafe_reencoded_sfd_overlay_absent",
       "passed": true
     },
@@ -121,19 +180,17 @@
       "passed": true,
       "expected": [
         "battle_frames_continue_advancing",
-        "final_v5_patch_boot_reaches_title",
-        "korean_battle_monster_name_renders",
-        "korean_enemy_skill_name_renders",
-        "original_sfd_wyvern_sequence_passes_without_skip",
-        "process_responsive_and_logs_clean"
+        "final_patch_reaches_original_cinematic",
+        "korean_battle_monster_and_result_text_renders",
+        "original_sfd_sequence_reaches_live_battle",
+        "runtime_session_bound_and_logs_clean"
       ],
       "actual": [
         "battle_frames_continue_advancing",
-        "final_v5_patch_boot_reaches_title",
-        "korean_battle_monster_name_renders",
-        "korean_enemy_skill_name_renders",
-        "original_sfd_wyvern_sequence_passes_without_skip",
-        "process_responsive_and_logs_clean"
+        "final_patch_reaches_original_cinematic",
+        "korean_battle_monster_and_result_text_renders",
+        "original_sfd_sequence_reaches_live_battle",
+        "runtime_session_bound_and_logs_clean"
       ]
     },
     {
@@ -181,7 +238,7 @@
       "passed": true
     }
   ],
-  "passed_count": 35,
+  "passed_count": 48,
   "failed_count": 0,
   "error_count": 0,
   "errors": [],
@@ -189,20 +246,56 @@
     {
       "name": "battle_application",
       "path": "work/battle_enemy_application/application_report.json",
-      "size_bytes": 216386,
-      "sha256": "BF0784C3241392130E2E57B29DBDAB52F845D85C4A89D3A9BBF64645F367BA1D"
+      "size_bytes": 227501,
+      "sha256": "BFC87CAE934B45AF73FFC369DCE8497BFECB39FA9980B9BAA4CE86940323C25E"
     },
     {
       "name": "staging_integration",
       "path": "work/battle_enemy_application/staging_integration_report.json",
-      "size_bytes": 2437,
-      "sha256": "0F9A4707CB670D8CEFD828A32354BF1F83757776C2E513135DEC91198138A62A"
+      "size_bytes": 2822,
+      "sha256": "A3BE69C272F9B79F2CE3C9FF0160996E677D3FEEB3163AECA2761EA9708CE74E"
     },
     {
       "name": "font_injection",
       "path": "work/font/final_v3/injection_verification.json",
       "size_bytes": 3695,
-      "sha256": "FF0BBC513BE857B2F2814157B0F4D345ED6DA7DC8F732D5271F07E6F97DC3040"
+      "sha256": "1BCA8D0AD3B6CA1401AB6EBD3BFEF50DE8F7F69B376DB3633D0C36B04F469324"
+    },
+    {
+      "name": "battle_coverage",
+      "path": "work/validation/battle_text_independent_coverage_audit.json",
+      "size_bytes": 15937,
+      "sha256": "FF4EDD45D9D0FA53123188121A42332B988A7D40B53BD5F060C711B60BB404B2"
+    },
+    {
+      "name": "system_residue",
+      "path": "work/system_text_residue_application/application_report.json",
+      "size_bytes": 22544,
+      "sha256": "D7CC21C61A9FEE7B5EA86D343A726AB6C7817110A6EB8811ABAB2D39A51782C2"
+    },
+    {
+      "name": "system_residue_integration",
+      "path": "work/system_text_residue_application/staging_integration_report.json",
+      "size_bytes": 1208,
+      "sha256": "91A815FA2F2963FF04F784A3AA1229D522690447F542359B234B03A372B858F3"
+    },
+    {
+      "name": "residue_closure",
+      "path": "work/validation/localization_residue_closure.json",
+      "size_bytes": 21203,
+      "sha256": "94473DFB1621226BD91A7293BAB28A1D319DF35875A8EA716E6E329E7C665CB0"
+    },
+    {
+      "name": "all_btl_vld",
+      "path": "work/validation/all_btl_vld_surface_classification.json",
+      "size_bytes": 6916,
+      "sha256": "1114F4F1C18984DF09FA4F7E2C85AE883E832568B762CF25C7F1EE31386D08BF"
+    },
+    {
+      "name": "full_text_closure",
+      "path": "work/validation/full_text_surface_closure.json",
+      "size_bytes": 8917,
+      "sha256": "6E8A48BD9FBA51224A0B590E087D242C9D74B5C457E5E1BCD1DDAABF526C95E1"
     },
     {
       "name": "geometry_repair",
@@ -213,44 +306,44 @@
     {
       "name": "staging_manifest",
       "path": "work/final_runtime_staging/staging_manifest.json",
-      "size_bytes": 852198,
-      "sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4"
+      "size_bytes": 853510,
+      "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
     },
     {
       "name": "runtime",
       "path": "work/validation/dolphin_runtime_validation.json",
-      "size_bytes": 7540,
-      "sha256": "A95B85C6A2ABAF8ACE09E766C278ADCF5278D99B348471559A3E08E55D6D8797"
+      "size_bytes": 6430,
+      "sha256": "A0CC8EC776E3499524439C565F4B0942F4802359359FED250AE69C5AE5293D40"
     },
     {
       "name": "release_validation",
       "path": "work/validation/final_release_validation.json",
       "size_bytes": 927,
-      "sha256": "A94570837DAD273327A615196AF901E97414D8F2138649468B14D885F5562C70"
+      "sha256": "52E5FC5C9E83221FCEA0C0643C4EF0E584308DB556D40CD0A6EABD716AD69792"
     },
     {
       "name": "installer_fixture",
       "path": "work/validation/installer_fixture.json",
       "size_bytes": 1353,
-      "sha256": "0049118E8DCA3D1283FF3413286782001A260DEB54EA6120C5B93CF29C46CF49"
+      "sha256": "D161121676D66D032DC8B1C970944A1580EBBB5705429BB9EA3896A71108F5F4"
     },
     {
       "name": "package_manifest",
       "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0/MANIFEST.json",
       "size_bytes": 180737,
-      "sha256": "221D43F85ADDF2A93EB3C04E8C221C0F1BF0D65389897E44221DE629CE2C535B"
+      "sha256": "EAE8E68668EF34E904BCD93164AB11AAFAEEA66570B6DFE2CEC1030882B0DD9E"
     },
     {
       "name": "zip",
       "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.zip",
-      "size_bytes": 590751313,
-      "sha256": "C23EBE6779B403B4A71AB849A86AF436D71E936CB3A6CD35975F39025A2889BC"
+      "size_bytes": 590751874,
+      "sha256": "B6FC3FB2A054A952CA0E82EFBF5361F9A5B4BAE0425E3EB1D1B51F4752783ABF"
     },
     {
       "name": "zip_checksum",
       "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.zip.sha256",
       "size_bytes": 107,
-      "sha256": "955C0797EE413535840DC2AB2A82A6FC818C829A684B6432EAD3DE7001958863"
+      "sha256": "D115672D2A9671ACEEC234418AE4EF1E050473E90FF18A64A7C128684FAB2550"
     }
   ],
   "valid": true

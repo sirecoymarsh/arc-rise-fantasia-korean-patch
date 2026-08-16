@@ -297,8 +297,16 @@
       "translation_ko": "부리 러시"
     },
     {
+      "source_text": "クロスカッター",
+      "translation_ko": "크로스 커터"
+    },
+    {
       "source_text": "グラビトンサマー",
       "translation_ko": "그라비톤 서머"
+    },
+    {
+      "source_text": "グラム",
+      "translation_ko": "그람"
     },
     {
       "source_text": "サソイノコエ",
@@ -457,6 +465,10 @@
       "translation_ko": "파워 라이즈"
     },
     {
+      "source_text": "ビフレスト",
+      "translation_ko": "비프로스트"
+    },
+    {
       "source_text": "ファイアボール",
       "translation_ko": "파이어볼"
     },
@@ -475,6 +487,10 @@
     {
       "source_text": "フレイムクラッシュ",
       "translation_ko": "플레임 크래시"
+    },
+    {
+      "source_text": "フロッティ",
+      "translation_ko": "흐로티"
     },
     {
       "source_text": "ブッドラッシュ",
@@ -509,6 +525,10 @@
       "translation_ko": "버서크"
     },
     {
+      "source_text": "ペネトレイトフィスト",
+      "translation_ko": "관통권"
+    },
+    {
       "source_text": "ペルソナブレス",
       "translation_ko": "페르소나 브레스"
     },
@@ -541,6 +561,10 @@
       "translation_ko": "라이프 리프"
     },
     {
+      "source_text": "ラグナロク",
+      "translation_ko": "라그나로크"
+    },
+    {
       "source_text": "ラッシングビート",
       "translation_ko": "러싱 비트"
     },
@@ -559,6 +583,10 @@
     {
       "source_text": "三段重ね",
       "translation_ko": "삼단 쌓기"
+    },
+    {
+      "source_text": "乱射",
+      "translation_ko": "난사"
     },
     {
       "source_text": "二枚刃",
@@ -625,6 +653,10 @@
       "translation_ko": "천위의 포효"
     },
     {
+      "source_text": "嫉妬の吐息",
+      "translation_ko": "질투의 숨결"
+    },
+    {
       "source_text": "孤高の咆哮",
       "translation_ko": "고고의 포효"
     },
@@ -645,6 +677,10 @@
       "translation_ko": "암석 떨구기"
     },
     {
+      "source_text": "強欲の腕",
+      "translation_ko": "탐욕의 팔"
+    },
+    {
       "source_text": "影舞",
       "translation_ko": "그림자 춤"
     },
@@ -663,6 +699,10 @@
     {
       "source_text": "惑いの粉",
       "translation_ko": "혼란의 가루"
+    },
+    {
+      "source_text": "憤怒の腕",
+      "translation_ko": "분노의 팔"
     },
     {
       "source_text": "擬態",
@@ -687,6 +727,10 @@
     {
       "source_text": "星の毒素",
       "translation_ko": "별의 독소"
+    },
+    {
+      "source_text": "暴食の吐息",
+      "translation_ko": "폭식의 숨결"
     },
     {
       "source_text": "有害ガス",
@@ -737,6 +781,10 @@
       "translation_ko": "질주"
     },
     {
+      "source_text": "瘴気",
+      "translation_ko": "독기"
+    },
+    {
       "source_text": "発散",
       "translation_ko": "발산"
     },
@@ -755,6 +803,18 @@
     {
       "source_text": "眠りの花粉",
       "translation_ko": "수면 꽃가루"
+    },
+    {
+      "source_text": "砲撃",
+      "translation_ko": "포격"
+    },
+    {
+      "source_text": "神斬",
+      "translation_ko": "신의 참격"
+    },
+    {
+      "source_text": "神雷",
+      "translation_ko": "신의 번개"
     },
     {
       "source_text": "突撃陣形",
@@ -809,6 +869,10 @@
       "translation_ko": "도주"
     },
     {
+      "source_text": "鎮められし怨嗟",
+      "translation_ko": "잠재워진 원한"
+    },
+    {
       "source_text": "閃刀・乱",
       "translation_ko": "섬도·란"
     },
@@ -823,6 +887,10 @@
     {
       "source_text": "雄叫び",
       "translation_ko": "포효"
+    },
+    {
+      "source_text": "雷撃",
+      "translation_ko": "뇌격"
     },
     {
       "source_text": "静寂ガス",

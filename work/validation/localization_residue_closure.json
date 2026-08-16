@@ -1,0 +1,676 @@
+{
+  "schema": "arf-localization-residue-closure-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_models_or_apis_used": false,
+  "scope": {
+    "battle_enemy_entries": "270 decompressed BTEM payloads before their first nested RTDP asset region",
+    "battle_tutorial": "all structured tutorial message/speaker fields plus an independent EUC-JP source scan",
+    "system_tables": "13 system display catalogs and the final staged system.vol leaves",
+    "excluded_as_non_text": "33,746 Japanese-looking EUC byte runs after BTEM nested RTDP boundaries; these are textures/models/binary assets, not string fields"
+  },
+  "summary": {
+    "battle_enemy_text_occurrences": 1032,
+    "battle_enemy_unique_skill_and_part_sources": 229,
+    "newly_closed_nonstandard_skill_sources": 17,
+    "newly_closed_nonstandard_skill_occurrences": 33,
+    "newly_closed_alternate_monster_name_occurrences": 87,
+    "battle_tutorial_semantic_japanese_occurrences": 376,
+    "system_catalog_units_audited": 6103,
+    "newly_closed_system_semantic_japanese_occurrences": 30,
+    "newly_closed_ability_names": 14,
+    "semantic_japanese_unmatched_after": 0,
+    "changed_outside_declared_text_slots": 0
+  },
+  "informational": {
+    "battle_generic_scanner_catalog_units_below_detection_threshold": 26,
+    "reason": "single-character/control-prefixed catalog strings are intentionally below the independent scanner's minimum two-Japanese-character heuristic; application source hashes and catalog counts still verify them",
+    "system_typography_only_original_byte_fields": 195,
+    "tutorial_punctuation_only_original_fields": 3
+  },
+  "new_skill_translations": [
+    {
+      "source_text": "クロスカッター",
+      "translation_ko": "크로스 커터"
+    },
+    {
+      "source_text": "グラム",
+      "translation_ko": "그람"
+    },
+    {
+      "source_text": "ビフレスト",
+      "translation_ko": "비프로스트"
+    },
+    {
+      "source_text": "フロッティ",
+      "translation_ko": "흐로티"
+    },
+    {
+      "source_text": "ペネトレイトフィスト",
+      "translation_ko": "관통권"
+    },
+    {
+      "source_text": "ラグナロク",
+      "translation_ko": "라그나로크"
+    },
+    {
+      "source_text": "乱射",
+      "translation_ko": "난사"
+    },
+    {
+      "source_text": "嫉妬の吐息",
+      "translation_ko": "질투의 숨결"
+    },
+    {
+      "source_text": "強欲の腕",
+      "translation_ko": "탐욕의 팔"
+    },
+    {
+      "source_text": "憤怒の腕",
+      "translation_ko": "분노의 팔"
+    },
+    {
+      "source_text": "暴食の吐息",
+      "translation_ko": "폭식의 숨결"
+    },
+    {
+      "source_text": "瘴気",
+      "translation_ko": "독기"
+    },
+    {
+      "source_text": "砲撃",
+      "translation_ko": "포격"
+    },
+    {
+      "source_text": "神斬",
+      "translation_ko": "신의 참격"
+    },
+    {
+      "source_text": "神雷",
+      "translation_ko": "신의 번개"
+    },
+    {
+      "source_text": "鎮められし怨嗟",
+      "translation_ko": "잠재워진 원한"
+    },
+    {
+      "source_text": "雷撃",
+      "translation_ko": "뇌격"
+    }
+  ],
+  "system_residue_translations": [
+    {
+      "table_unit_id": "ability:206:name",
+      "schema": "ability",
+      "source_text": "挑発",
+      "translation_ko": "도발",
+      "offset": 30076,
+      "capacity": 21,
+      "source_hex": "C4A9C8AF",
+      "replacement_hex": "B4C2B9CF",
+      "encoded_bytes": 4,
+      "headroom": 16
+    },
+    {
+      "table_unit_id": "ability:208:name",
+      "schema": "ability",
+      "source_text": "身代わり",
+      "translation_ko": "대신 맞기",
+      "offset": 30368,
+      "capacity": 21,
+      "source_hex": "BFC8C2E5A4EFA4EA",
+      "replacement_hex": "B4A6BDB420B7FEB1CE",
+      "encoded_bytes": 9,
+      "headroom": 11
+    },
+    {
+      "table_unit_id": "ability:210:name",
+      "schema": "ability",
+      "source_text": "ＤＥＦストック",
+      "translation_ko": "DEF 스톡",
+      "offset": 30660,
+      "capacity": 21,
+      "source_hex": "A3C4A3C5A3C6A5B9A5C8A5C3A5AF",
+      "replacement_hex": "44454620BCF7CBE0",
+      "encoded_bytes": 8,
+      "headroom": 12
+    },
+    {
+      "table_unit_id": "ability:211:name",
+      "schema": "ability",
+      "source_text": "ＲＥＳストック",
+      "translation_ko": "RES 스톡",
+      "offset": 30806,
+      "capacity": 21,
+      "source_hex": "A3D2A3C5A3D3A5B9A5C8A5C3A5AF",
+      "replacement_hex": "52455320BCF7CBE0",
+      "encoded_bytes": 8,
+      "headroom": 12
+    },
+    {
+      "table_unit_id": "ability:212:name",
+      "schema": "ability",
+      "source_text": "応援",
+      "translation_ko": "응원",
+      "offset": 30952,
+      "capacity": 21,
+      "source_hex": "B1FEB1E7",
+      "replacement_hex": "C0FDC0A5",
+      "encoded_bytes": 4,
+      "headroom": 16
+    },
+    {
+      "table_unit_id": "ability:217:name",
+      "schema": "ability",
+      "source_text": "運の采配",
+      "translation_ko": "행운의 지휘",
+      "offset": 31682,
+      "capacity": 21,
+      "source_hex": "B1BFA4CEBAD3C7DB",
+      "replacement_hex": "C7ECBFF7C1A320B0AFC8D0",
+      "encoded_bytes": 11,
+      "headroom": 9
+    },
+    {
+      "table_unit_id": "ability:219:name",
+      "schema": "ability",
+      "source_text": "遅延行動",
+      "translation_ko": "지연 행동",
+      "offset": 31974,
+      "capacity": 21,
+      "source_hex": "C3D9B1E4B9D4C6B0",
+      "replacement_hex": "B0AFBEF720C7ECB4D0",
+      "encoded_bytes": 9,
+      "headroom": 11
+    },
+    {
+      "table_unit_id": "ability:220:name",
+      "schema": "ability",
+      "source_text": "吸収",
+      "translation_ko": "흡수",
+      "offset": 32120,
+      "capacity": 21,
+      "source_hex": "B5DBBCFD",
+      "replacement_hex": "C8E7BCC8",
+      "encoded_bytes": 4,
+      "headroom": 16
+    },
+    {
+      "table_unit_id": "ability:221:name",
+      "schema": "ability",
+      "source_text": "ＨＰＳＰ変換",
+      "translation_ko": "HP-SP 변환",
+      "offset": 32266,
+      "capacity": 21,
+      "source_hex": "A3C8A3D0A3D3A3D0CAD1B4B9",
+      "replacement_hex": "48502D535020BAADC8B5",
+      "encoded_bytes": 10,
+      "headroom": 10
+    },
+    {
+      "table_unit_id": "ability:222:name",
+      "schema": "ability",
+      "source_text": "ＳＰ譲渡",
+      "translation_ko": "SP 양도",
+      "offset": 32412,
+      "capacity": 21,
+      "source_hex": "A3D3A3D0BEF9C5CF",
+      "replacement_hex": "535020BEBEB4C2",
+      "encoded_bytes": 7,
+      "headroom": 13
+    },
+    {
+      "table_unit_id": "ability:224:name",
+      "schema": "ability",
+      "source_text": "維持",
+      "translation_ko": "유지",
+      "offset": 32704,
+      "capacity": 21,
+      "source_hex": "B0DDBBFD",
+      "replacement_hex": "C0D9B0AF",
+      "encoded_bytes": 4,
+      "headroom": 16
+    },
+    {
+      "table_unit_id": "ability:225:name",
+      "schema": "ability",
+      "source_text": "命の変換",
+      "translation_ko": "생명의 변환",
+      "offset": 32850,
+      "capacity": 21,
+      "source_hex": "CCBFA4CECAD1B4B9",
+      "replacement_hex": "BBC3B8D9C1A320BAADC8B5",
+      "encoded_bytes": 11,
+      "headroom": 9
+    },
+    {
+      "table_unit_id": "ability:235:name",
+      "schema": "ability",
+      "source_text": "全て耐性",
+      "translation_ko": "모든 내성",
+      "offset": 34310,
+      "capacity": 21,
+      "source_hex": "C1B4A4C6C2D1C0AD",
+      "replacement_hex": "B8DAB5AB20B2C9BCA5",
+      "encoded_bytes": 9,
+      "headroom": 11
+    },
+    {
+      "table_unit_id": "ability:236:name",
+      "schema": "ability",
+      "source_text": "ドロップＵＰ",
+      "translation_ko": "드롭 UP",
+      "offset": 34456,
+      "capacity": 21,
+      "source_hex": "A5C9A5EDA5C3A5D7A3D5A3D0",
+      "replacement_hex": "B4FDCBD0205550",
+      "encoded_bytes": 7,
+      "headroom": 13
+    },
+    {
+      "table_unit_id": "chat:34:title",
+      "schema": "chat",
+      "source_text": "コピンの里",
+      "translation_ko": "코핀 마을",
+      "offset": 23680,
+      "capacity": 43,
+      "source_hex": "A5B3A5D4A5F3A4CECEA4",
+      "replacement_hex": "C5BFC7CE20B7DCC0F2",
+      "encoded_bytes": 9,
+      "headroom": 33
+    },
+    {
+      "table_unit_id": "chat:40:title",
+      "schema": "chat",
+      "source_text": "ザムエルじーさん",
+      "translation_ko": "자무엘 할아버지",
+      "offset": 23944,
+      "capacity": 43,
+      "source_hex": "A5B6A5E0A5A8A5EBA4B8A1BCA4B5A4F3",
+      "replacement_hex": "C1BEB8F3BEE720C7DFBDFBB9DEB0AF",
+      "encoded_bytes": 15,
+      "headroom": 27
+    },
+    {
+      "table_unit_id": "chat:43:title",
+      "schema": "chat",
+      "source_text": "爺と孫娘",
+      "translation_ko": "할아버지와 손녀",
+      "offset": 24076,
+      "capacity": 43,
+      "source_hex": "CCECA4C8C2B9CCBC",
+      "replacement_hex": "C7DFBDFBB9DEB0AFBFDB20BCB6B2FA",
+      "encoded_bytes": 15,
+      "headroom": 27
+    },
+    {
+      "table_unit_id": "chat:52:title",
+      "schema": "chat",
+      "source_text": "母とのつながり",
+      "translation_ko": "어머니와의 유대",
+      "offset": 24472,
+      "capacity": 43,
+      "source_hex": "CAECA4C8A4CEA4C4A4CAA4ACA4EA",
+      "replacement_hex": "BEBFB8BEB3E3BFDBC1A320C0D9B4A6",
+      "encoded_bytes": 15,
+      "headroom": 27
+    },
+    {
+      "table_unit_id": "chat:53:title",
+      "schema": "chat",
+      "source_text": "２つのペンダント",
+      "translation_ko": "두 개의 펜던트",
+      "offset": 24516,
+      "capacity": 43,
+      "source_hex": "A3B2A4C4A4CEA5DAA5F3A5C0A5F3A5C8",
+      "replacement_hex": "B4E120B0BDC1A320CBAEB4B8C6D7",
+      "encoded_bytes": 14,
+      "headroom": 28
+    },
+    {
+      "table_unit_id": "chat:54:title",
+      "schema": "chat",
+      "source_text": "戸惑うアデール",
+      "translation_ko": "당황하는 아델",
+      "offset": 24560,
+      "capacity": 43,
+      "source_hex": "B8CDCFC7A4A6A5A2A5C7A1BCA5EB",
+      "replacement_hex": "B4A1C8B8C7D6B3DF20BDFBB4BE",
+      "encoded_bytes": 13,
+      "headroom": 29
+    },
+    {
+      "table_unit_id": "chat:62:title",
+      "schema": "chat",
+      "source_text": "教えの都",
+      "translation_ko": "가르침의 도시",
+      "offset": 24912,
+      "capacity": 43,
+      "source_hex": "B6B5A4A8A4CEC5D4",
+      "replacement_hex": "B0B0B7B7C4F5C1A320B4C2BDA9",
+      "encoded_bytes": 13,
+      "headroom": 29
+    },
+    {
+      "table_unit_id": "chat:63:title",
+      "schema": "chat",
+      "source_text": "不穏な街角",
+      "translation_ko": "불온한 거리",
+      "offset": 24956,
+      "capacity": 43,
+      "source_hex": "C9D4B2BAA4CAB3B9B3D1",
+      "replacement_hex": "BAE5BFC4C7D920B0A2B7C4",
+      "encoded_bytes": 11,
+      "headroom": 31
+    },
+    {
+      "table_unit_id": "chat:73:title",
+      "schema": "chat",
+      "source_text": "アルスの使命",
+      "translation_ko": "알스의 사명",
+      "offset": 25396,
+      "capacity": 43,
+      "source_hex": "A5A2A5EBA5B9A4CEBBC8CCBF",
+      "replacement_hex": "BEA9BCF7C1A320BBAAB8D9",
+      "encoded_bytes": 11,
+      "headroom": 31
+    },
+    {
+      "table_unit_id": "chat:75:title",
+      "schema": "chat",
+      "source_text": "皇子の決意",
+      "translation_ko": "황자의 결의",
+      "offset": 25484,
+      "capacity": 43,
+      "source_hex": "B9C4BBD2A4CEB7E8B0D5",
+      "replacement_hex": "C8B8C1BEC1A320B0EAC1A3",
+      "encoded_bytes": 11,
+      "headroom": 31
+    },
+    {
+      "table_unit_id": "chat:79:title",
+      "schema": "chat",
+      "source_text": "探りあい",
+      "translation_ko": "서로 떠보기",
+      "offset": 25660,
+      "capacity": 43,
+      "source_hex": "C3B5A4EAA4A2A4A4",
+      "replacement_hex": "BBDAB7A320B5CEBAB7B1CE",
+      "encoded_bytes": 11,
+      "headroom": 31
+    },
+    {
+      "table_unit_id": "chat:287:title",
+      "schema": "chat",
+      "source_text": "勝ち負けでいうところの",
+      "translation_ko": "승패로 따지자면",
+      "offset": 34812,
+      "capacity": 43,
+      "source_hex": "BEA1A4C1C9E9A4B1A4C7A4A4A4A6A4C8A4B3A4EDA4CE",
+      "replacement_hex": "BDA7C6F4B7A320B5C7B0AFC1BEB8D3",
+      "encoded_bytes": 15,
+      "headroom": 27
+    },
+    {
+      "table_unit_id": "chat:294:title",
+      "schema": "chat",
+      "source_text": "着こなし術",
+      "translation_ko": "옷 잘 입는 법",
+      "offset": 35120,
+      "capacity": 43,
+      "source_hex": "C3E5A4B3A4CAA4B7BDD1",
+      "replacement_hex": "BFDA20C1CD20C1B9B3DF20B9F2",
+      "encoded_bytes": 13,
+      "headroom": 29
+    },
+    {
+      "table_unit_id": "chat:302:title",
+      "schema": "chat",
+      "source_text": "こだわりの一品",
+      "translation_ko": "엄선한 일품",
+      "offset": 35472,
+      "capacity": 43,
+      "source_hex": "A4B3A4C0A4EFA4EAA4CEB0ECC9CA",
+      "replacement_hex": "BED6BBEFC7D920C1ADC7B7",
+      "encoded_bytes": 11,
+      "headroom": 31
+    },
+    {
+      "table_unit_id": "chat:333:title",
+      "schema": "chat",
+      "source_text": "ピエロ",
+      "translation_ko": "피에로",
+      "offset": 36836,
+      "capacity": 43,
+      "source_hex": "A5D4A5A8A5ED",
+      "replacement_hex": "C7CABEE0B7A3",
+      "encoded_bytes": 6,
+      "headroom": 36
+    },
+    {
+      "table_unit_id": "shop:28:name",
+      "schema": "shop",
+      "source_text": "▼ コピンのなんでも<#B2>",
+      "translation_ko": "▼ 코핀의 만물상",
+      "offset": 2408,
+      "capacity": 20,
+      "source_hex": "A2A720A5B3A5D4A5F3A4CEA4CAA4F3A4C7A4E2B2",
+      "replacement_hex": "A2A720C5BFC7CEC1A320B7E1B9A3BBBD",
+      "encoded_bytes": 16,
+      "headroom": 3
+    }
+  ],
+  "checks": [
+    {
+      "name": "battle_application_counts",
+      "passed": true,
+      "actual": {
+        "entries": 270,
+        "display_names": 270,
+        "alternate_display_names": 87,
+        "part_names": 3,
+        "skill_names": 672,
+        "total_units": 1032,
+        "entries_fitting_source_slots": 270,
+        "changed_outside_allowed_bytes": 0
+      }
+    },
+    {
+      "name": "battle_independent_generic_coverage",
+      "passed": true,
+      "uncovered": 0,
+      "unchanged": 0
+    },
+    {
+      "name": "battle_catalog_complete",
+      "passed": true
+    },
+    {
+      "name": "battle_skill_map_complete",
+      "passed": true,
+      "required_unique": 229,
+      "mapped_unique": 229,
+      "missing": []
+    },
+    {
+      "name": "new_nonstandard_action_skill_sources_closed",
+      "passed": true,
+      "translations": [
+        {
+          "source_text": "クロスカッター",
+          "translation_ko": "크로스 커터"
+        },
+        {
+          "source_text": "グラム",
+          "translation_ko": "그람"
+        },
+        {
+          "source_text": "ビフレスト",
+          "translation_ko": "비프로스트"
+        },
+        {
+          "source_text": "フロッティ",
+          "translation_ko": "흐로티"
+        },
+        {
+          "source_text": "ペネトレイトフィスト",
+          "translation_ko": "관통권"
+        },
+        {
+          "source_text": "ラグナロク",
+          "translation_ko": "라그나로크"
+        },
+        {
+          "source_text": "乱射",
+          "translation_ko": "난사"
+        },
+        {
+          "source_text": "嫉妬の吐息",
+          "translation_ko": "질투의 숨결"
+        },
+        {
+          "source_text": "強欲の腕",
+          "translation_ko": "탐욕의 팔"
+        },
+        {
+          "source_text": "憤怒の腕",
+          "translation_ko": "분노의 팔"
+        },
+        {
+          "source_text": "暴食の吐息",
+          "translation_ko": "폭식의 숨결"
+        },
+        {
+          "source_text": "瘴気",
+          "translation_ko": "독기"
+        },
+        {
+          "source_text": "砲撃",
+          "translation_ko": "포격"
+        },
+        {
+          "source_text": "神斬",
+          "translation_ko": "신의 참격"
+        },
+        {
+          "source_text": "神雷",
+          "translation_ko": "신의 번개"
+        },
+        {
+          "source_text": "鎮められし怨嗟",
+          "translation_ko": "잠재워진 원한"
+        },
+        {
+          "source_text": "雷撃",
+          "translation_ko": "뇌격"
+        }
+      ]
+    },
+    {
+      "name": "core_system_application_valid",
+      "passed": true
+    },
+    {
+      "name": "system_residue_application_valid",
+      "passed": true
+    },
+    {
+      "name": "system_semantic_residue_closed",
+      "passed": true
+    },
+    {
+      "name": "system_residue_payloads_bound_to_staged_system",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "name": "battle_tutorial_source_catalog_exact",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "name": "battle_tutorial_independent_coverage",
+      "passed": true,
+      "independent_runs": 376,
+      "semantic_units": 376,
+      "uncovered": 0,
+      "unchanged_semantic": [],
+      "punctuation_only_preserved": [
+        "btl_tutorial:0x5450:message",
+        "btl_tutorial:0x10450:message",
+        "btl_tutorial:0x11800:message"
+      ]
+    },
+    {
+      "name": "staged_system_manifest_binding",
+      "passed": true
+    }
+  ],
+  "passed_count": 12,
+  "failed_count": 0,
+  "errors": [],
+  "error_count": 0,
+  "valid": true,
+  "artifacts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\battle_text_independent_coverage_audit.json",
+      "size_bytes": 18635525,
+      "sha256": "772CE8620B04013C75D6CB17AE425E53875DBAC205A3D36FEC10C9949154B471"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_enemy_application\\application_report.json",
+      "size_bytes": 227501,
+      "sha256": "BFC87CAE934B45AF73FFC369DCE8497BFECB39FA9980B9BAA4CE86940323C25E"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\battle_enemy\\battle_enemy_catalog.json",
+      "size_bytes": 427776,
+      "sha256": "30EA9FB80BD48C84357C4F9B3BF7BF3378618A2B1641CFB20854C06C36AD0CE0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\battle_enemy\\battle_enemy_skill_translations.json",
+      "size_bytes": 24174,
+      "sha256": "5406495AB9DB3482389C71A0BEE42A48D67AE5CFFC0E84B371C2C4DDEF804746"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\system_text_residue_application\\application_report.json",
+      "size_bytes": 22544,
+      "sha256": "D7CC21C61A9FEE7B5EA86D343A726AB6C7817110A6EB8811ABAB2D39A51782C2"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\application_proof.json",
+      "size_bytes": 14182,
+      "sha256": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\catalogs\\btl_tutorial.json",
+      "size_bytes": 207908,
+      "sha256": "CBA3A5DE7D3EC27CDEFB76DD0ABEF3201E0C702CD9916AE33DC62E931BB02C3F"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Btl\\btl_tutorial.vld",
+      "size_bytes": 94208,
+      "sha256": "9914F7D7D2BB4A85DC14FB9D332BA71A0D619E2FB102071C575FF56CDFFD27D7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_tutorial.vld",
+      "size_bytes": 94208,
+      "sha256": "186CDE21D7173AF5E8F5FFDA3066D0E5E51564E3D292BAA0E04F51DABFB180FC"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
+      "size_bytes": 6172608,
+      "sha256": "7CD034508B5A93AF33D1809A927265CA22751EBE4FA4A5C84DBF28B955323D2C"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
+      "size_bytes": 853510,
+      "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\audit_battle_text_coverage.py",
+      "size_bytes": 11509,
+      "sha256": "69484F4A8F003EE281A381300DADEE5EACA65229EC499B1464AC66B506D26AFE"
+    }
+  ]
+}

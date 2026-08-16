@@ -185,14 +185,21 @@ function main() {
       const units = unitsByEntry.get(entry.index) || [];
       const allowed = [];
       let nameCount = 0;
+      let alternateNameCount = 0;
       let partCount = 0;
       let skillCount = 0;
       for (const unit of units) {
-        if (unit.field === 'display_name') {
-          nameCount += 1;
-          const safeUnit = { ...unit, capacity: 35 };
-          assert(unit.offset === 0x180, `entry ${entry.index}: unexpected name offset`);
-          assert(sourceUnpacked[unit.offset + 35] === modified[unit.offset + 35], 'pre-edit metadata mismatch');
+        if (unit.field === 'display_name' || unit.field === 'alternate_display_name') {
+          const isPrimary = unit.field === 'display_name';
+          if (isPrimary) nameCount += 1;
+          else alternateNameCount += 1;
+          const safeUnit = { ...unit, capacity: isPrimary ? 35 : unit.capacity };
+          if (isPrimary) {
+            assert(unit.offset === 0x180, `entry ${entry.index}: unexpected name offset`);
+            assert(sourceUnpacked[unit.offset + 35] === modified[unit.offset + 35], 'pre-edit metadata mismatch');
+          } else {
+            assert(unit.capacity === 36, `entry ${entry.index}: unexpected alternate-name capacity`);
+          }
           let encoded;
           if (entry.index < 269) {
             const mapped = monsterNames.get(entry.index);
@@ -203,8 +210,10 @@ function main() {
             encoded = encodeText('레이 스톤', codebook);
           }
           writeField(modified, safeUnit, encoded);
-          allowed.push([unit.offset, unit.offset + 35]);
-          assert(modified[unit.offset + 35] === sourceUnpacked[unit.offset + 35], `entry ${entry.index}: name metadata changed`);
+          allowed.push([unit.offset, unit.offset + safeUnit.capacity]);
+          if (isPrimary) {
+            assert(modified[unit.offset + 35] === sourceUnpacked[unit.offset + 35], `entry ${entry.index}: name metadata changed`);
+          }
         } else if (unit.field === 'skill_name' || unit.field === 'part_name') {
           if (unit.field === 'skill_name') skillCount += 1;
           else partCount += 1;
@@ -219,9 +228,10 @@ function main() {
         }
       }
       assert(nameCount === 1, `entry ${entry.index}: expected one display name`);
+      assert(alternateNameCount === payloadCatalog.alternate_display_name_count, `entry ${entry.index}: alternate-name count mismatch`);
       assert(partCount === payloadCatalog.part_name_count, `entry ${entry.index}: part-name count mismatch`);
       assert(skillCount === payloadCatalog.skill_count, `entry ${entry.index}: skill count mismatch`);
-      totalUnits += nameCount + partCount + skillCount;
+      totalUnits += nameCount + alternateNameCount + partCount + skillCount;
       const confinement = diffOutsideAllowed(sourceUnpacked, modified, allowed);
       assert(confinement.changedOutsideAllowed === 0, `entry ${entry.index}: bytes changed outside text fields`);
       const repacked = compressLz10(modified, { alignment: 4 });
@@ -232,6 +242,7 @@ function main() {
       rows.push({
         index: entry.index,
         display_name_source: units.find(u => u.field === 'display_name').source_text,
+        alternate_display_name_count: alternateNameCount,
         part_name_count: partCount,
         skill_count: skillCount,
         source_offset: entry.offset,
@@ -329,6 +340,7 @@ function main() {
     counts: {
       entries: rows.length,
       display_names: catalog.display_name_count,
+      alternate_display_names: catalog.alternate_display_name_count,
       part_names: catalog.part_name_count,
       skill_names: catalog.skill_name_count,
       total_units: totalUnits,

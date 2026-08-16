@@ -30773,143 +30773,160 @@
 {"tm_id": "ARF-BTL-ENEMY-SKILL-070", "translation_ko": "캣 다이브"}
 {"tm_id": "ARF-BTL-ENEMY-SKILL-071", "translation_ko": "부리"}
 {"tm_id": "ARF-BTL-ENEMY-SKILL-072", "translation_ko": "부리 러시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-073", "translation_ko": "그라비톤 서머"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-074", "translation_ko": "유혹의 목소리"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-075", "translation_ko": "새틀라이트 캐논"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-076", "translation_ko": "서클 문"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-077", "translation_ko": "자연의 채찍"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-078", "translation_ko": "병든 포자"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-079", "translation_ko": "스카이 블레이더"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-080", "translation_ko": "스크루 드라이브"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-081", "translation_ko": "스톤 브레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-082", "translation_ko": "스파이크드 테일"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-083", "translation_ko": "스파이럴 크래시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-084", "translation_ko": "스프레드 라인"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-085", "translation_ko": "슬립 브레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-086", "translation_ko": "젤리 턴"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-087", "translation_ko": "소드 댄스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-088", "translation_ko": "견딜 수 없는 향기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-089", "translation_ko": "더블 스냅"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-090", "translation_ko": "체인 테일"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-091", "translation_ko": "칙 크라이"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-092", "translation_ko": "칙 러시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-093", "translation_ko": "차지"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-094", "translation_ko": "차지 클로"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-095", "translation_ko": "참 링"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-096", "translation_ko": "테일 엣지"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-097", "translation_ko": "테일 사격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-098", "translation_ko": "테일 차지"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-099", "translation_ko": "데스 스크루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-100", "translation_ko": "덴드로 브레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-101", "translation_ko": "토마호크"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-102", "translation_ko": "열매 화살"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-103", "translation_ko": "니벨룽"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-104", "translation_ko": "잠의 시간"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-105", "translation_ko": "노이즈 리사이틀"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-106", "translation_ko": "시작의 검"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-107", "translation_ko": "시작의 시간"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-108", "translation_ko": "배드 웨이브"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-109", "translation_ko": "배드 스포어"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-110", "translation_ko": "마비 스포어"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-111", "translation_ko": "마비 브레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-112", "translation_ko": "파워 라이즈"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-113", "translation_ko": "파이어볼"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-114", "translation_ko": "팻 프레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-115", "translation_ko": "팡거 댄스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-116", "translation_ko": "프란키스카"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-117", "translation_ko": "플레임 크래시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-118", "translation_ko": "버드 러시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-119", "translation_ko": "불 대시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-120", "translation_ko": "불 차지"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-121", "translation_ko": "프레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-122", "translation_ko": "헬 로테"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-123", "translation_ko": "베어 크라이"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-124", "translation_ko": "베놈 스크루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-125", "translation_ko": "버서크"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-126", "translation_ko": "페르소나 브레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-127", "translation_ko": "포이즌 피시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-128", "translation_ko": "포이즌 브레스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-129", "translation_ko": "미스테이크"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-130", "translation_ko": "각성의 시간"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-131", "translation_ko": "약속의 종"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-132", "translation_ko": "라이프 스포어"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-133", "translation_ko": "라이프 리프"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-134", "translation_ko": "러싱 비트"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-135", "translation_ko": "루미너스 라인"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-136", "translation_ko": "롤링 크래시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-137", "translation_ko": "와이드 사격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-138", "translation_ko": "삼단 쌓기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-139", "translation_ko": "양날"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-140", "translation_ko": "소나기 찌르기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-141", "translation_ko": "굽어보는 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-142", "translation_ko": "오만의 날개"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-143", "translation_ko": "응고 날개가루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-144", "translation_ko": "강직의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-145", "translation_ko": "용맹의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-146", "translation_ko": "단일 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-147", "translation_ko": "단일 돌진 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-148", "translation_ko": "명칭 미설정"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-149", "translation_ko": "흡혈"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-150", "translation_ko": "흡혈침"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-151", "translation_ko": "파묻히기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-152", "translation_ko": "부름에 응할 자는 없다"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-153", "translation_ko": "몽환"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-154", "translation_ko": "천위의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-155", "translation_ko": "고고의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-156", "translation_ko": "수호의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-157", "translation_ko": "심판의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-158", "translation_ko": "치어 러시"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-159", "translation_ko": "암석 떨구기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-160", "translation_ko": "그림자 춤"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-161", "translation_ko": "노도의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-162", "translation_ko": "나태의 날개"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-163", "translation_ko": "원령 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-164", "translation_ko": "혼란의 가루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-165", "translation_ko": "의태"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-166", "translation_ko": "지배의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-167", "translation_ko": "구원의 꿀"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-168", "translation_ko": "적 위치 범위 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-169", "translation_ko": "곤충 부르기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-170", "translation_ko": "별의 독소"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-171", "translation_ko": "유해 가스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-172", "translation_ko": "나무 열매 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-173", "translation_ko": "기지의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-174", "translation_ko": "침묵 날개가루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-175", "translation_ko": "심려의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-176", "translation_ko": "혼란 가스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-177", "translation_ko": "힘 모으기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-178", "translation_ko": "모아 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-179", "translation_ko": "연옥의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-180", "translation_ko": "광란의 날갯소리"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-181", "translation_ko": "맹독 가스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-182", "translation_ko": "질주"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-183", "translation_ko": "발산"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-184", "translation_ko": "직접 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-185", "translation_ko": "진공파"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-186", "translation_ko": "수면 가루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-187", "translation_ko": "수면 꽃가루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-188", "translation_ko": "돌격 진형"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-189", "translation_ko": "범위 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-190", "translation_ko": "범위 공격?"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-191", "translation_ko": "순결의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-192", "translation_ko": "자신 주변 공격"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-193", "translation_ko": "꽃가루"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-194", "translation_ko": "꽃가루 흩뿌리기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-195", "translation_ko": "보조"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-196", "translation_ko": "해방의 포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-197", "translation_ko": "용서받지 못할 대죄"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-198", "translation_ko": "초필살기"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-199", "translation_ko": "초음파"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-200", "translation_ko": "도주"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-201", "translation_ko": "섬도·란"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-202", "translation_ko": "섬도·멸"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-203", "translation_ko": "섬도·교"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-204", "translation_ko": "포효"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-205", "translation_ko": "침묵 가스"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-206", "translation_ko": "마비침"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-207", "translation_ko": "CODE:A"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-208", "translation_ko": "CODE:R"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-209", "translation_ko": "CODE:S"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-210", "translation_ko": "CODE:V"}
-{"tm_id": "ARF-BTL-ENEMY-SKILL-211", "translation_ko": "CODE:W"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-073", "translation_ko": "크로스 커터"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-074", "translation_ko": "그라비톤 서머"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-075", "translation_ko": "그람"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-076", "translation_ko": "유혹의 목소리"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-077", "translation_ko": "새틀라이트 캐논"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-078", "translation_ko": "서클 문"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-079", "translation_ko": "자연의 채찍"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-080", "translation_ko": "병든 포자"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-081", "translation_ko": "스카이 블레이더"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-082", "translation_ko": "스크루 드라이브"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-083", "translation_ko": "스톤 브레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-084", "translation_ko": "스파이크드 테일"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-085", "translation_ko": "스파이럴 크래시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-086", "translation_ko": "스프레드 라인"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-087", "translation_ko": "슬립 브레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-088", "translation_ko": "젤리 턴"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-089", "translation_ko": "소드 댄스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-090", "translation_ko": "견딜 수 없는 향기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-091", "translation_ko": "더블 스냅"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-092", "translation_ko": "체인 테일"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-093", "translation_ko": "칙 크라이"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-094", "translation_ko": "칙 러시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-095", "translation_ko": "차지"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-096", "translation_ko": "차지 클로"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-097", "translation_ko": "참 링"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-098", "translation_ko": "테일 엣지"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-099", "translation_ko": "테일 사격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-100", "translation_ko": "테일 차지"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-101", "translation_ko": "데스 스크루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-102", "translation_ko": "덴드로 브레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-103", "translation_ko": "토마호크"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-104", "translation_ko": "열매 화살"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-105", "translation_ko": "니벨룽"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-106", "translation_ko": "잠의 시간"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-107", "translation_ko": "노이즈 리사이틀"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-108", "translation_ko": "시작의 검"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-109", "translation_ko": "시작의 시간"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-110", "translation_ko": "배드 웨이브"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-111", "translation_ko": "배드 스포어"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-112", "translation_ko": "마비 스포어"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-113", "translation_ko": "마비 브레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-114", "translation_ko": "파워 라이즈"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-115", "translation_ko": "비프로스트"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-116", "translation_ko": "파이어볼"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-117", "translation_ko": "팻 프레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-118", "translation_ko": "팡거 댄스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-119", "translation_ko": "프란키스카"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-120", "translation_ko": "플레임 크래시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-121", "translation_ko": "흐로티"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-122", "translation_ko": "버드 러시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-123", "translation_ko": "불 대시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-124", "translation_ko": "불 차지"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-125", "translation_ko": "프레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-126", "translation_ko": "헬 로테"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-127", "translation_ko": "베어 크라이"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-128", "translation_ko": "베놈 스크루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-129", "translation_ko": "버서크"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-130", "translation_ko": "관통권"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-131", "translation_ko": "페르소나 브레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-132", "translation_ko": "포이즌 피시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-133", "translation_ko": "포이즌 브레스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-134", "translation_ko": "미스테이크"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-135", "translation_ko": "각성의 시간"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-136", "translation_ko": "약속의 종"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-137", "translation_ko": "라이프 스포어"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-138", "translation_ko": "라이프 리프"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-139", "translation_ko": "라그나로크"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-140", "translation_ko": "러싱 비트"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-141", "translation_ko": "루미너스 라인"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-142", "translation_ko": "롤링 크래시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-143", "translation_ko": "와이드 사격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-144", "translation_ko": "삼단 쌓기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-145", "translation_ko": "난사"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-146", "translation_ko": "양날"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-147", "translation_ko": "소나기 찌르기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-148", "translation_ko": "굽어보는 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-149", "translation_ko": "오만의 날개"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-150", "translation_ko": "응고 날개가루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-151", "translation_ko": "강직의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-152", "translation_ko": "용맹의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-153", "translation_ko": "단일 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-154", "translation_ko": "단일 돌진 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-155", "translation_ko": "명칭 미설정"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-156", "translation_ko": "흡혈"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-157", "translation_ko": "흡혈침"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-158", "translation_ko": "파묻히기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-159", "translation_ko": "부름에 응할 자는 없다"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-160", "translation_ko": "몽환"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-161", "translation_ko": "천위의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-162", "translation_ko": "질투의 숨결"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-163", "translation_ko": "고고의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-164", "translation_ko": "수호의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-165", "translation_ko": "심판의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-166", "translation_ko": "치어 러시"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-167", "translation_ko": "암석 떨구기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-168", "translation_ko": "탐욕의 팔"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-169", "translation_ko": "그림자 춤"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-170", "translation_ko": "노도의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-171", "translation_ko": "나태의 날개"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-172", "translation_ko": "원령 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-173", "translation_ko": "혼란의 가루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-174", "translation_ko": "분노의 팔"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-175", "translation_ko": "의태"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-176", "translation_ko": "지배의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-177", "translation_ko": "구원의 꿀"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-178", "translation_ko": "적 위치 범위 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-179", "translation_ko": "곤충 부르기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-180", "translation_ko": "별의 독소"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-181", "translation_ko": "폭식의 숨결"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-182", "translation_ko": "유해 가스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-183", "translation_ko": "나무 열매 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-184", "translation_ko": "기지의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-185", "translation_ko": "침묵 날개가루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-186", "translation_ko": "심려의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-187", "translation_ko": "혼란 가스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-188", "translation_ko": "힘 모으기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-189", "translation_ko": "모아 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-190", "translation_ko": "연옥의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-191", "translation_ko": "광란의 날갯소리"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-192", "translation_ko": "맹독 가스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-193", "translation_ko": "질주"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-194", "translation_ko": "독기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-195", "translation_ko": "발산"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-196", "translation_ko": "직접 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-197", "translation_ko": "진공파"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-198", "translation_ko": "수면 가루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-199", "translation_ko": "수면 꽃가루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-200", "translation_ko": "포격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-201", "translation_ko": "신의 참격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-202", "translation_ko": "신의 번개"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-203", "translation_ko": "돌격 진형"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-204", "translation_ko": "범위 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-205", "translation_ko": "범위 공격?"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-206", "translation_ko": "순결의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-207", "translation_ko": "자신 주변 공격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-208", "translation_ko": "꽃가루"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-209", "translation_ko": "꽃가루 흩뿌리기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-210", "translation_ko": "보조"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-211", "translation_ko": "해방의 포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-212", "translation_ko": "용서받지 못할 대죄"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-213", "translation_ko": "초필살기"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-214", "translation_ko": "초음파"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-215", "translation_ko": "도주"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-216", "translation_ko": "잠재워진 원한"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-217", "translation_ko": "섬도·란"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-218", "translation_ko": "섬도·멸"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-219", "translation_ko": "섬도·교"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-220", "translation_ko": "포효"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-221", "translation_ko": "뇌격"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-222", "translation_ko": "침묵 가스"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-223", "translation_ko": "마비침"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-224", "translation_ko": "CODE:A"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-225", "translation_ko": "CODE:R"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-226", "translation_ko": "CODE:S"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-227", "translation_ko": "CODE:V"}
+{"tm_id": "ARF-BTL-ENEMY-SKILL-228", "translation_ko": "CODE:W"}
 {"tm_id": "ARF-BTL-ENEMY-NAME-269", "translation_ko": "레이 스톤"}

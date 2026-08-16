@@ -4,55 +4,41 @@
   "session_path": "work/runtime_validation/final_runtime_v5/full_runtime_session.json",
   "checks": [
     {
-      "name": "final_v5_patch_boot_reaches_title",
+      "name": "final_patch_reaches_original_cinematic",
       "passed": true,
-      "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_title_probe.png"
-      ],
-      "notes": "The exact final staging reached the Korean title in the same continuous process."
+      "evidence_paths": ["work/runtime_validation/final_runtime_v5/final_v6_probe_35s.png"],
+      "notes": "The exact final staging reached the original in-game cinematic in the captured session without a restart loop."
     },
     {
-      "name": "original_sfd_wyvern_sequence_passes_without_skip",
+      "name": "original_sfd_sequence_reaches_live_battle",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_before.png",
-        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_exact.png",
-        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_after.png"
+        "work/runtime_validation/final_runtime_v5/final_v6_probe_35s.png",
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_01.png"
       ],
-      "notes": "The original disc SFD advanced through the sword-strike freeze point without Skip; all three frames differ."
+      "notes": "The same session advanced from the original disc cinematic into live Wyvern battle; the staging contains no replacement SFD overlay."
     },
     {
-      "name": "korean_battle_monster_name_renders",
+      "name": "korean_battle_monster_and_result_text_renders",
       "passed": true,
-      "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_korean_monster_name.png"
-      ],
-      "notes": "Battle target information visibly renders the monster name in Korean."
-    },
-    {
-      "name": "korean_enemy_skill_name_renders",
-      "passed": true,
-      "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_03.png"
-      ],
-      "notes": "The enemy action visibly renders its skill name in Korean."
+      "evidence_paths": ["work/runtime_validation/final_runtime_v5/final_v6_wyvern_03.png"],
+      "notes": "The live battle frame visibly renders the Korean monster name and Korean critical-hit result text. This is not represented as an enemy skill-name observation."
     },
     {
       "name": "battle_frames_continue_advancing",
       "passed": true,
       "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_01.png",
-        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_06.png"
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_01.png",
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_02.png",
+        "work/runtime_validation/final_runtime_v5/final_v6_wyvern_03.png"
       ],
-      "notes": "Time-separated battle frames differ and the battle returns to command selection."
+      "notes": "Three time-separated live-battle frames differ; the measured consecutive differences are recorded in the runtime probe."
     },
     {
-      "name": "process_responsive_and_logs_clean",
+      "name": "runtime_session_bound_and_logs_clean",
       "passed": true,
-      "evidence_paths": [
-        "work/runtime_validation/final_runtime_v5/final_v5_runtime_probe.json"
-      ],
-      "notes": "The same PID remained running; Vulkan was used with MMU and FastDiscSpeed disabled; stdout and stderr are empty."
+      "evidence_paths": ["work/runtime_validation/final_runtime_v5/final_v6_runtime_probe.json"],
+      "notes": "The runtime probe binds the current staging, XML, system.vol and session; Vulkan is active, MMU and FastDiscSpeed are disabled, and both Dolphin logs are empty."
     }
   ]
 }

@@ -4,6 +4,21 @@ import argparse, hashlib, json, mmap, struct
 from pathlib import Path
 
 
+ACTION_NAME_PREFIXES = {
+    bytes.fromhex(value)
+    for value in (
+        "00010000",
+        "00020000",
+        "00020001",
+        "00030000",
+        "00040000",
+        "02020000",
+        "02040000",
+    )
+}
+ALTERNATE_DISPLAY_NAME_OFFSETS = (0x404, 0x4D0, 0x59C)
+
+
 def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest().upper()
 
@@ -82,6 +97,12 @@ def decode_field(data: bytes, offset: int, capacity: int):
     return {'offset': offset, 'capacity': capacity, 'raw_hex': raw.hex().upper(), 'source_text': text}
 
 
+def overlaps(field: dict[str, object], units: list[dict[str, object]]) -> bool:
+    start = int(field['offset'])
+    end = start + int(field['capacity'])
+    return any(start < int(unit['offset']) + int(unit['capacity']) and int(unit['offset']) < end for unit in units)
+
+
 def scan_payload(data: bytes, index: int):
     if data[:4] != b'BTEM':
         raise ValueError(f'entry {index}: bad BTEM magic')
@@ -99,6 +120,23 @@ def scan_payload(data: bytes, index: int):
                 raise ValueError(f'entry {index}: missing part name {part_index} at 0x{part_offset:X}')
             part.update({'id': f'btl_enemy:{index}:part:{part_index}', 'field': 'part_name'})
             part_names.append(part)
+
+    alternate_names = []
+    for alternate_index, alternate_offset in enumerate(ALTERNATE_DISPLAY_NAME_OFFSETS):
+        alternate = decode_field(data, alternate_offset, 36)
+        if alternate is None:
+            continue
+        if alternate['source_text'] != name['source_text']:
+            raise ValueError(
+                f'entry {index}: alternate name at 0x{alternate_offset:X} differs: '
+                f"{alternate['source_text']!r} != {name['source_text']!r}"
+            )
+        alternate.update({
+            'id': f'btl_enemy:{index}:alternate_display_name:{alternate_index}',
+            'field': 'alternate_display_name',
+            'slot_kind': 'alternate_target_or_action_name',
+        })
+        alternate_names.append(alternate)
 
     skills = []
     default_skill = decode_field(data, 0x460, 32)
@@ -125,12 +163,29 @@ def scan_payload(data: bytes, index: int):
                 'id': f'btl_enemy:{index}:skill:{len(skills)}',
                 'field': 'skill_name',
                 'marker_offset': marker_at,
-                'slot_kind': 'action_record',
+                'slot_kind': 'action_record_marker_0x3c',
             })
             skills.append(field)
         cursor = marker_at + 4
-    # All user-facing enemy text observed so far lives before the nested RTDP assets.
-    return name, part_names, skills, first_rtdp
+
+    known_units = [name, *part_names, *alternate_names, *skills]
+    for offset in range(4, max(4, scan_end - 31)):
+        if data[offset - 4:offset] not in ACTION_NAME_PREFIXES:
+            continue
+        field = decode_field(data, offset, 32)
+        if field is None or overlaps(field, known_units):
+            continue
+        field.update({
+            'id': f'btl_enemy:{index}:skill:{len(skills)}',
+            'field': 'skill_name',
+            'marker_offset': offset - 4,
+            'slot_kind': 'action_record_nonstandard_prefix',
+            'action_prefix_hex': data[offset - 4:offset].hex().upper(),
+        })
+        skills.append(field)
+        known_units.append(field)
+
+    return name, part_names, alternate_names, skills, first_rtdp
 
 
 def main() -> int:
@@ -149,21 +204,48 @@ def main() -> int:
             for entry in entries:
                 packed = mm[entry['offset']:entry['offset'] + entry['packed_size']]
                 unpacked = lz10_decompress(packed)
-                name, part_names, skills, first_rtdp = scan_payload(unpacked, entry['index'])
+                name, part_names, alternate_names, skills, first_rtdp = scan_payload(unpacked, entry['index'])
                 units.append(name)
                 units.extend(part_names)
+                units.extend(alternate_names)
                 units.extend(skills)
-                payloads.append({**entry, 'packed_sha256': sha256_bytes(packed), 'unpacked_size': len(unpacked), 'unpacked_sha256': sha256_bytes(unpacked), 'first_rtdp_offset': first_rtdp, 'display_name': name['source_text'], 'part_name_count': len(part_names), 'skill_count': len(skills)})
+                payloads.append({
+                    **entry,
+                    'packed_sha256': sha256_bytes(packed),
+                    'unpacked_size': len(unpacked),
+                    'unpacked_sha256': sha256_bytes(unpacked),
+                    'first_rtdp_offset': first_rtdp,
+                    'display_name': name['source_text'],
+                    'part_name_count': len(part_names),
+                    'alternate_display_name_count': len(alternate_names),
+                    'skill_count': len(skills),
+                })
                 if entry['index'] % 25 == 0:
-                    print(f"{entry['index']}/{len(entries)} {name['source_text']} skills={len(skills)}")
+                    print(f"{entry['index']}/{len(entries)} {name['source_text']} skills={len(skills)} alt_names={len(alternate_names)}")
         finally:
             mm.close()
     duplicate_ids = len(units) - len({u['id'] for u in units})
-    report = {'schema': 'arf-btl-enemy-text-catalog-v2', 'header': str(ns.header.resolve()), 'vld': str(ns.vld.resolve()), 'header_sha256': sha256_bytes(header), 'vld_size': ns.vld.stat().st_size, 'entry_count': len(entries), 'unit_count': len(units), 'display_name_count': len(entries), 'part_name_count': sum(p['part_name_count'] for p in payloads), 'skill_name_count': sum(p['skill_count'] for p in payloads), 'duplicate_id_count': duplicate_ids, 'payloads': payloads, 'units': units}
+    report = {
+        'schema': 'arf-btl-enemy-text-catalog-v3',
+        'header': str(ns.header.resolve()),
+        'vld': str(ns.vld.resolve()),
+        'header_sha256': sha256_bytes(header),
+        'vld_size': ns.vld.stat().st_size,
+        'entry_count': len(entries),
+        'unit_count': len(units),
+        'display_name_count': len(entries),
+        'part_name_count': sum(p['part_name_count'] for p in payloads),
+        'alternate_display_name_count': sum(p['alternate_display_name_count'] for p in payloads),
+        'skill_name_count': sum(p['skill_count'] for p in payloads),
+        'duplicate_id_count': duplicate_ids,
+        'payloads': payloads,
+        'units': units,
+    }
     ns.output.parent.mkdir(parents=True, exist_ok=True)
     ns.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps({k: report[k] for k in ('entry_count','unit_count','display_name_count','part_name_count','skill_name_count','duplicate_id_count')}, ensure_ascii=False))
+    print(json.dumps({k: report[k] for k in ('entry_count', 'unit_count', 'display_name_count', 'part_name_count', 'alternate_display_name_count', 'skill_name_count', 'duplicate_id_count')}, ensure_ascii=False))
     return 0
+
 
 if __name__ == '__main__':
     raise SystemExit(main())
