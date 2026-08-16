@@ -114,7 +114,7 @@ def main() -> int:
         "not_claimed": [
             "full playthrough",
             "every enemy skill exercised at runtime",
-            "a runtime label named バーストショット; exhaustive source audit proves no such display string exists",
+            "a runtime label named バーストショット; the earlier identification as that exact name was incorrect",
         ],
         "screenshots": [artifact(path) for path in screenshots],
         "logs": {

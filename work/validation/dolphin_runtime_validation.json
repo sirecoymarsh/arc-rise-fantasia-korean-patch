@@ -1,6 +1,6 @@
 {
   "schema": "arf-ko-dolphin-runtime-validation-v1",
-  "generated_at_utc": "2026-08-16T12:11:19.962316+00:00",
+  "generated_at_utc": "2026-08-16T12:50:58.136453+00:00",
   "game_id": "RPJJ99",
   "staging_manifest_sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E",
   "package_manifest_sha256": "EAE8E68668EF34E904BCD93164AB11AAFAEEA66570B6DFE2CEC1030882B0DD9E",
@@ -103,8 +103,8 @@
     },
     {
       "path": "work/runtime_validation/final_runtime_v5/final_v6_runtime_probe.json",
-      "size_bytes": 3985,
-      "sha256": "4BA914DC31AFFCC257D53D83351D9219ECA3767460A3E571F1F841A1AE02F1F7",
+      "size_bytes": 3984,
+      "sha256": "661E98AFB8CE081016F6FB760DA98141CBAA4997BAE0D8D0FDA6849733D5A88D",
       "used_by_checks": [
         "runtime_session_bound_and_logs_clean"
       ]

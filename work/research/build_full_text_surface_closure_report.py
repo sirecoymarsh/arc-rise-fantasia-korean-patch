@@ -171,10 +171,10 @@ def main() -> int:
     check("wyvern_named_skill_slots_exhaustive",
           wyvern_skill_sources == ["ウイングカッター", "雄叫び"],
           skill_sources=wyvern_skill_sources)
-    check("wyvern_orb_attack_is_id_or_animation_only",
+    check("burst_shot_runtime_identification_corrected",
           not exact_hits and vld.get("exact_compound_hit_count") == 0
           and wyvern_skill_sources == ["ウイングカッター", "雄叫び"],
-          verdict="No バーストショット display string exists; the orb attack is represented by behavior/animation data, not a translatable name slot.")
+          verdict="The earlier runtime label identification as バーストショット was incorrect. The captured named Wyvern skill is ウイングカッター, stored at btl_enemy:195:skill:0 and translated as 날개 커터.")
 
     staging = load(PATHS["staging_manifest"])
     check("current_staging_retains_closed_counts",
@@ -204,7 +204,10 @@ def main() -> int:
             "component_term_hits": vld.get("burst_term_hits"),
             "wyvern_entry": 195,
             "wyvern_named_skill_strings": wyvern_skill_sources,
-            "classification": "monster behavior/action with no standalone display-name string",
+            "classification": "prior runtime identification as Burst Shot was incorrect",
+            "captured_named_skill_source": "ウイングカッター",
+            "captured_named_skill_catalog_id": "btl_enemy:195:skill:0",
+            "captured_named_skill_translation_ko": "날개 커터",
         },
         "summary": {
             "semantic_japanese_in_korean_targets": len(semantic_target_rows),

@@ -57,7 +57,10 @@
       "ウイングカッター",
       "雄叫び"
     ],
-    "classification": "monster behavior/action with no standalone display-name string"
+    "classification": "prior runtime identification as Burst Shot was incorrect",
+    "captured_named_skill_source": "ウイングカッター",
+    "captured_named_skill_catalog_id": "btl_enemy:195:skill:0",
+    "captured_named_skill_translation_ko": "날개 커터"
   },
   "summary": {
     "semantic_japanese_in_korean_targets": 0,
@@ -155,9 +158,9 @@
       ]
     },
     {
-      "name": "wyvern_orb_attack_is_id_or_animation_only",
+      "name": "burst_shot_runtime_identification_corrected",
       "passed": true,
-      "verdict": "No バーストショット display string exists; the orb attack is represented by behavior/animation data, not a translatable name slot."
+      "verdict": "The earlier runtime label identification as バーストショット was incorrect. The captured named Wyvern skill is ウイングカッター, stored at btl_enemy:195:skill:0 and translated as 날개 커터."
     },
     {
       "name": "current_staging_retains_closed_counts",

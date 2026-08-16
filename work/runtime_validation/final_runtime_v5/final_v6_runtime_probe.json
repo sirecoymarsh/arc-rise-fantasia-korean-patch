@@ -1,7 +1,7 @@
 {
   "schema": "arf-ko-final-runtime-probe-v2",
   "game_id": "RPJJ99",
-  "generated_utc": "2026-08-16T12:05:03.301591+00:00",
+  "generated_utc": "2026-08-16T12:50:57.937257+00:00",
   "runtime_session": {
     "path": "work/runtime_validation/final_runtime_v5/full_runtime_session.json",
     "size_bytes": 2606,
@@ -17,8 +17,8 @@
   "package_manifest": {
     "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0/MANIFEST.json",
     "size_bytes": 180737,
-    "sha256": "046B8DC18E142E95F16D7BD4E0B5F1E6231D2770C4743D67957CB98B8DA86058",
-    "modified_utc": "2026-08-16T11:34:43.623567+00:00"
+    "sha256": "EAE8E68668EF34E904BCD93164AB11AAFAEEA66570B6DFE2CEC1030882B0DD9E",
+    "modified_utc": "2026-08-16T12:09:01.003875+00:00"
   },
   "settings": {
     "EmulationSpeed": 1.0,
@@ -36,7 +36,7 @@
   "not_claimed": [
     "full playthrough",
     "every enemy skill exercised at runtime",
-    "a runtime label named バーストショット; exhaustive source audit proves no such display string exists"
+    "a runtime label named バーストショット; the earlier identification as that exact name was incorrect"
   ],
   "screenshots": [
     {

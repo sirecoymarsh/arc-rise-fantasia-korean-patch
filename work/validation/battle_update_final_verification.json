@@ -294,8 +294,8 @@
     {
       "name": "full_text_closure",
       "path": "work/validation/full_text_surface_closure.json",
-      "size_bytes": 8917,
-      "sha256": "6E8A48BD9FBA51224A0B590E087D242C9D74B5C457E5E1BCD1DDAABF526C95E1"
+      "size_bytes": 9174,
+      "sha256": "6197EB5AEE9BE971F1CBC58648F1E3DB105455CCCE9B94ABEF98648F6A850DFD"
     },
     {
       "name": "geometry_repair",
@@ -313,7 +313,7 @@
       "name": "runtime",
       "path": "work/validation/dolphin_runtime_validation.json",
       "size_bytes": 6430,
-      "sha256": "A0CC8EC776E3499524439C565F4B0942F4802359359FED250AE69C5AE5293D40"
+      "sha256": "4FE97F1EC9D7E3796ACCA83030E319E8FA888D6A3F4FA4E772A1A09F1D32A20E"
     },
     {
       "name": "release_validation",
