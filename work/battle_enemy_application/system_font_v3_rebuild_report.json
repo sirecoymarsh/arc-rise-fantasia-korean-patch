@@ -1,0 +1,125 @@
+{
+  "format": "RTDP-tree-rebuild-v1",
+  "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
+  "inputSha256": "66f962efcf9df925309b4acec56c280a31e196333da64ae1cd0b355e58b07f57",
+  "outputSha256": "b6bc39101ee564fd63b8d482c7443ef7f1a576571923d21b088d2adb56b922cf",
+  "inputSize": 6172608,
+  "outputSize": 6172608,
+  "byteExact": false,
+  "editAudit": [
+    {
+      "entryPath": [
+        0
+      ],
+      "name": "EUC28-0.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "e8879b9bc06c1ab7cb5978eb73de141c0ca83b27653af933a2a66f54bb2aee01",
+      "newSha256": "e8879b9bc06c1ab7cb5978eb73de141c0ca83b27653af933a2a66f54bb2aee01"
+    },
+    {
+      "entryPath": [
+        1
+      ],
+      "name": "EUC28-1.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "e563b950365b09884c849c413bf3ce9247c974463c7594f53fcaecd53dc83e62",
+      "newSha256": "e563b950365b09884c849c413bf3ce9247c974463c7594f53fcaecd53dc83e62"
+    },
+    {
+      "entryPath": [
+        2
+      ],
+      "name": "EUC28-2.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "1a62efa8495af40a560a5ebbef208e75cdf9e9c8dd9754f1fce77165b0a5ac65",
+      "newSha256": "1a62efa8495af40a560a5ebbef208e75cdf9e9c8dd9754f1fce77165b0a5ac65"
+    },
+    {
+      "entryPath": [
+        3
+      ],
+      "name": "EUC28-3.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "0c5cb57eee25f140cbb987acc3dd56c5f2d59fd575c8a3524e64c2bb82539ab2",
+      "newSha256": "0c5cb57eee25f140cbb987acc3dd56c5f2d59fd575c8a3524e64c2bb82539ab2"
+    },
+    {
+      "entryPath": [
+        4
+      ],
+      "name": "EUC28-4.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "f15973b74b54ba021f1f54e6ce2d76c75fe2b6c4e76253f6408f5f37eee30bd6",
+      "newSha256": "f15973b74b54ba021f1f54e6ce2d76c75fe2b6c4e76253f6408f5f37eee30bd6"
+    },
+    {
+      "entryPath": [
+        5
+      ],
+      "name": "EUC28-5.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "2e6c62c9f8b5547d739831309685b2e347174f318e89b86ec33980509b2b27d6",
+      "newSha256": "0daeb926c9f9ca51689fcd5507a10b04164ba75134ab8bf93fd1fe3cf3046d95"
+    },
+    {
+      "entryPath": [
+        6
+      ],
+      "name": "EUC28-6.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+      "newSha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f"
+    },
+    {
+      "entryPath": [
+        7
+      ],
+      "name": "EUC28-7.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+      "newSha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe"
+    },
+    {
+      "entryPath": [
+        8
+      ],
+      "name": "EUC28-8.wtm",
+      "oldSize": 262208,
+      "newSize": 262208,
+      "oldSha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+      "newSha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876"
+    }
+  ],
+  "containerAuditBottomUp": [
+    {
+      "prefix": [],
+      "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
+      "inputSize": 6172608,
+      "inputSha256": "66f962efcf9df925309b4acec56c280a31e196333da64ae1cd0b355e58b07f57",
+      "eoh": 2240,
+      "entryCount": 55,
+      "headerUnknownHex": "55280022000000000000000000000000",
+      "changes": [
+        {
+          "index": 5,
+          "oldSize": 262208,
+          "newSize": 262208,
+          "oldSha256": "2e6c62c9f8b5547d739831309685b2e347174f318e89b86ec33980509b2b27d6",
+          "newSha256": "0daeb926c9f9ca51689fcd5507a10b04164ba75134ab8bf93fd1fe3cf3046d95"
+        }
+      ],
+      "policy": "fixed-layout",
+      "outputSize": 6172608,
+      "outputSha256": "b6bc39101ee564fd63b8d482c7443ef7f1a576571923d21b088d2adb56b922cf",
+      "byteExact": false
+    }
+  ]
+}

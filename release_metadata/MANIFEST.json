@@ -1,7 +1,7 @@
 {
   "schema": "arf-ko-riivolution-release-v1",
   "package": "Arc_Rise_Fantasia_Korean_Patch_v1.0",
-  "created_utc": "2026-08-09T00:40:51.055533+00:00",
+  "created_utc": "2026-08-16T01:18:58.471652+00:00",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
   "source_media_included": false,
@@ -9,8 +9,8 @@
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
   "runtime_ready_release": true,
-  "staging_manifest_sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1",
-  "staging_tree_sha256": "B9BF7A220CC5B2CF21858598ED3F72CF621FB04D1B85A954E55E728BAB64BF13",
+  "staging_manifest_sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4",
+  "staging_tree_sha256": "6C6BB1378740E5EFE5D8E2EC60F9BA7E95E0509FBE614CD6FA7D7E5A5D78C2EF",
   "overlay_file_count": 684,
   "game_replacement_file_count": 683,
   "file_count_excluding_manifest": 689,
@@ -22,6 +22,12 @@
       "sha256": "013B70AE7A9C7054DFBE189AAD676D3F31781A6401720F1B9D8DBD667BE0E888"
     },
     {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Btl/btl_enemy.vld",
+      "role": "riivolution_overlay",
+      "size_bytes": 221870080,
+      "sha256": "0AA02C1A25ACAA419DFA9DD640717299DF4BC8B88326B9557333D5563B28A480"
+    },
+    {
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Btl/btl_tutorial.vld",
       "role": "riivolution_overlay",
       "size_bytes": 94208,
@@ -31,7 +37,7 @@
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Btl/btl_usual.vol",
       "role": "riivolution_overlay",
       "size_bytes": 4833312,
-      "sha256": "3C960132514473F8BC9C80681813E91B1EAD2D2AE5AD586ED77E91EB0427D556"
+      "sha256": "AE474C4788C134511CB74C08FE1BBC764313B67A76FBB41F076CE0B247E46A17"
     },
     {
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Event/endroll/EV09_18_0200C_00.wtm",
@@ -4066,12 +4072,6 @@
       "sha256": "D8BEC7CF4D065895A68BBACD0D82865B290EE9EA8AC4274ECD1983D6FFBB4C8E"
     },
     {
-      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Movie/RAY_OP_02.sfd",
-      "role": "riivolution_overlay",
-      "size_bytes": 356079616,
-      "sha256": "A6095E7E5DB15012AA914AF41958F4BF5947DD5029C199605C66FCB6577BD2A3"
-    },
-    {
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/opening.bnr",
       "role": "riivolution_overlay",
       "size_bytes": 506240,
@@ -4105,7 +4105,7 @@
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/system.vol",
       "role": "riivolution_overlay",
       "size_bytes": 6172608,
-      "sha256": "66F962EFCF9DF925309B4ACEC56C280A31E196333DA64AE1CD0B355E58B07F57"
+      "sha256": "B6BC39101EE564FD63B8D482C7443EF7F1A576571923D21B088D2ADB56B922CF"
     },
     {
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/Sys/title.vol",
@@ -4122,20 +4122,20 @@
     {
       "path": "payload/riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
       "role": "riivolution_overlay",
-      "size_bytes": 139960,
-      "sha256": "ABD415AED5DF9DD10910D98ACADF892CC407778F71EEB632E7D41E3E2E5C66B3"
+      "size_bytes": 139958,
+      "sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2"
     },
     {
       "path": "PROVENANCE.json",
       "role": "installer_metadata",
-      "size_bytes": 1661,
-      "sha256": "F8CBA1266ED700669AFE93BDBE2DEAFE149A7A25FDC6694A093F19953190AA76"
+      "size_bytes": 2145,
+      "sha256": "1683950D1BC8681D600C572C90E75D013B4400E411D4A39477D1638336DDDFCA"
     },
     {
       "path": "README_KO.md",
       "role": "installer_metadata",
-      "size_bytes": 1356,
-      "sha256": "3CF5522E8A648CADB9D352815DCF5CA552FD4C77B4CE34D4C89126D9F55E672C"
+      "size_bytes": 1911,
+      "sha256": "B52702A51B58DE61D9094832C47B9AEF75B438493B33BA31493625C21ECC410C"
     },
     {
       "path": "Restore-ARF-KO.ps1",

@@ -1,0 +1,59 @@
+{
+  "schema": "arf-battle-enemy-staging-integration-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_models_or_apis_used": false,
+  "staging_manifest": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
+    "sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4"
+  },
+  "xml": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
+    "sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2",
+    "file_count": 683,
+    "memory_count": 925,
+    "resize_true_count": 559
+  },
+  "physical_file_count": 683,
+  "removed_unsafe_sfd_overlay": {
+    "physical_path": "Movie/RAY_OP_02.sfd",
+    "was_present_before_repair": false,
+    "present_after_repair": false,
+    "source_disc_file_used": true
+  },
+  "outputs": {
+    "Btl/btl_enemy.vld": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_enemy.vld",
+      "size": 221870080,
+      "sha256": "0AA02C1A25ACAA419DFA9DD640717299DF4BC8B88326B9557333D5563B28A480"
+    },
+    "Btl/btl_usual.vol": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_usual.vol",
+      "size": 4833312,
+      "sha256": "AE474C4788C134511CB74C08FE1BBC764313B67A76FBB41F076CE0B247E46A17"
+    },
+    "Sys/system.vol": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Sys\\system.vol",
+      "size": 6172608,
+      "sha256": "B6BC39101EE564FD63B8D482C7443EF7F1A576571923D21B088D2ADB56B922CF"
+    }
+  },
+  "battle_counts": {
+    "entries": 270,
+    "display_names": 270,
+    "part_names": 3,
+    "skill_names": 563,
+    "total_units": 836,
+    "entries_fitting_source_slots": 270,
+    "changed_outside_allowed_bytes": 0
+  },
+  "font": {
+    "codebook_sha256": "509863959CE12CA28686F99DA86460CB590B6EBCA4AC36B6AC51C46EC88BCB0E",
+    "assigned_characters": 1370,
+    "appended_characters": 1,
+    "existing_assignments_changed": 0
+  },
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

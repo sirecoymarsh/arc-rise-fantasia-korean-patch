@@ -1,0 +1,257 @@
+{
+  "schema": "arf-ko-battle-update-final-verification-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "checks": [
+    {
+      "name": "artifact_exists:battle_application",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_enemy_application\\application_report.json"
+    },
+    {
+      "name": "artifact_exists:staging_integration",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_enemy_application\\staging_integration_report.json"
+    },
+    {
+      "name": "artifact_exists:font_injection",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injection_verification.json"
+    },
+    {
+      "name": "artifact_exists:geometry_repair",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_validation\\fixed_table_geometry_repair_validation.json"
+    },
+    {
+      "name": "artifact_exists:staging_manifest",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json"
+    },
+    {
+      "name": "artifact_exists:runtime",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\dolphin_runtime_validation.json"
+    },
+    {
+      "name": "artifact_exists:release_validation",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\final_release_validation.json"
+    },
+    {
+      "name": "artifact_exists:installer_fixture",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\installer_fixture.json"
+    },
+    {
+      "name": "artifact_exists:package_manifest",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0\\MANIFEST.json"
+    },
+    {
+      "name": "artifact_exists:zip",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.zip"
+    },
+    {
+      "name": "artifact_exists:zip_checksum",
+      "passed": true,
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.zip.sha256"
+    },
+    {
+      "name": "battle_application_valid",
+      "passed": true
+    },
+    {
+      "name": "battle_translation_counts",
+      "passed": true,
+      "actual": {
+        "entries": 270,
+        "display_names": 270,
+        "part_names": 3,
+        "skill_names": 563,
+        "total_units": 836,
+        "entries_fitting_source_slots": 270,
+        "changed_outside_allowed_bytes": 0
+      }
+    },
+    {
+      "name": "battle_temp_files_cleaned",
+      "passed": true
+    },
+    {
+      "name": "font_v3_valid",
+      "passed": true
+    },
+    {
+      "name": "font_v3_counts",
+      "passed": true
+    },
+    {
+      "name": "fixed_table_geometry_repair_valid",
+      "passed": true
+    },
+    {
+      "name": "staging_integration_valid",
+      "passed": true
+    },
+    {
+      "name": "staging_counts",
+      "passed": true
+    },
+    {
+      "name": "staging_manifest_binding",
+      "passed": true
+    },
+    {
+      "name": "battle_application_binding",
+      "passed": true
+    },
+    {
+      "name": "unsafe_reencoded_sfd_overlay_absent",
+      "passed": true
+    },
+    {
+      "name": "runtime_report_valid",
+      "passed": true
+    },
+    {
+      "name": "runtime_check_closure",
+      "passed": true,
+      "expected": [
+        "battle_frames_continue_advancing",
+        "final_v5_patch_boot_reaches_title",
+        "korean_battle_monster_name_renders",
+        "korean_enemy_skill_name_renders",
+        "original_sfd_wyvern_sequence_passes_without_skip",
+        "process_responsive_and_logs_clean"
+      ],
+      "actual": [
+        "battle_frames_continue_advancing",
+        "final_v5_patch_boot_reaches_title",
+        "korean_battle_monster_name_renders",
+        "korean_enemy_skill_name_renders",
+        "original_sfd_wyvern_sequence_passes_without_skip",
+        "process_responsive_and_logs_clean"
+      ]
+    },
+    {
+      "name": "runtime_vulkan_original_sfd_contract",
+      "passed": true
+    },
+    {
+      "name": "runtime_staging_binding",
+      "passed": true
+    },
+    {
+      "name": "package_counts",
+      "passed": true
+    },
+    {
+      "name": "package_staging_binding",
+      "passed": true
+    },
+    {
+      "name": "runtime_package_binding",
+      "passed": true
+    },
+    {
+      "name": "release_validation_valid",
+      "passed": true
+    },
+    {
+      "name": "release_counts",
+      "passed": true
+    },
+    {
+      "name": "release_zip_binding",
+      "passed": true
+    },
+    {
+      "name": "zip_sidecar_binding",
+      "passed": true
+    },
+    {
+      "name": "installer_fixture_valid",
+      "passed": true
+    },
+    {
+      "name": "installer_checks_all_passed",
+      "passed": true
+    }
+  ],
+  "passed_count": 35,
+  "failed_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "artifacts": [
+    {
+      "name": "battle_application",
+      "path": "work/battle_enemy_application/application_report.json",
+      "size_bytes": 216386,
+      "sha256": "BF0784C3241392130E2E57B29DBDAB52F845D85C4A89D3A9BBF64645F367BA1D"
+    },
+    {
+      "name": "staging_integration",
+      "path": "work/battle_enemy_application/staging_integration_report.json",
+      "size_bytes": 2437,
+      "sha256": "0F9A4707CB670D8CEFD828A32354BF1F83757776C2E513135DEC91198138A62A"
+    },
+    {
+      "name": "font_injection",
+      "path": "work/font/final_v3/injection_verification.json",
+      "size_bytes": 3695,
+      "sha256": "FF0BBC513BE857B2F2814157B0F4D345ED6DA7DC8F732D5271F07E6F97DC3040"
+    },
+    {
+      "name": "geometry_repair",
+      "path": "work/runtime_validation/fixed_table_geometry_repair_validation.json",
+      "size_bytes": 25659,
+      "sha256": "4A00B580D2288A684977BDDD81F9D504BA436355A96176A394EEFDD4C537ACDB"
+    },
+    {
+      "name": "staging_manifest",
+      "path": "work/final_runtime_staging/staging_manifest.json",
+      "size_bytes": 852198,
+      "sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4"
+    },
+    {
+      "name": "runtime",
+      "path": "work/validation/dolphin_runtime_validation.json",
+      "size_bytes": 7540,
+      "sha256": "A95B85C6A2ABAF8ACE09E766C278ADCF5278D99B348471559A3E08E55D6D8797"
+    },
+    {
+      "name": "release_validation",
+      "path": "work/validation/final_release_validation.json",
+      "size_bytes": 927,
+      "sha256": "A94570837DAD273327A615196AF901E97414D8F2138649468B14D885F5562C70"
+    },
+    {
+      "name": "installer_fixture",
+      "path": "work/validation/installer_fixture.json",
+      "size_bytes": 1353,
+      "sha256": "0049118E8DCA3D1283FF3413286782001A260DEB54EA6120C5B93CF29C46CF49"
+    },
+    {
+      "name": "package_manifest",
+      "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0/MANIFEST.json",
+      "size_bytes": 180737,
+      "sha256": "221D43F85ADDF2A93EB3C04E8C221C0F1BF0D65389897E44221DE629CE2C535B"
+    },
+    {
+      "name": "zip",
+      "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.zip",
+      "size_bytes": 590751313,
+      "sha256": "C23EBE6779B403B4A71AB849A86AF436D71E936CB3A6CD35975F39025A2889BC"
+    },
+    {
+      "name": "zip_checksum",
+      "path": "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.zip.sha256",
+      "size_bytes": 107,
+      "sha256": "955C0797EE413535840DC2AB2A82A6FC818C829A684B6432EAD3DE7001958863"
+    }
+  ],
+  "valid": true
+}

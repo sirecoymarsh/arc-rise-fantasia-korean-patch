@@ -32,8 +32,12 @@ def main() -> int:
     for row in movie["movies"]:
         relative = row["relative_path"]
         if relative == "Movie/RAY_OP_02.sfd":
-            row["review_verdict"] = "korean_subtitle_patch_verified"
-            row["review_notes"] = "Japanese logo subtitle replaced by 아크 라이즈 판타지아; five fade/logo frames reviewed."
+            row["review_verdict"] = "original_retained_runtime_compatibility"
+            row["review_notes"] = (
+                "Localized re-encode rejected: the captured freeze matches 48.5 s inside the edited "
+                "48.1-54.5 s interval, and the candidate has 143 timestamp regressions. "
+                "The trusted original SFD is used byte-for-byte."
+            )
         elif relative == "Movie/RAY_ED_ROLL.sfd":
             row["review_verdict"] = "no_japanese_script"
             row["review_notes"] = "Credits are English role labels and romanized names; no Japanese display text."
@@ -41,8 +45,9 @@ def main() -> int:
             row["review_verdict"] = "no_japanese_script"
             row["review_notes"] = "Fixed-interval and scene-change contact sheets reviewed; no Japanese display text."
     movie["manual_review_complete"] = True
-    movie["movies_requiring_patch"] = 1
+    movie["movies_requiring_patch"] = 0
     movie["movies_without_japanese_script"] = 20
+    movie["movies_retained_original_for_runtime_compatibility"] = 1
     movie["valid"] = True
     write_json(movie_path, movie)
 
@@ -74,8 +79,8 @@ def main() -> int:
         "endroll_verification": runtime / "endroll_ui/verification_summary.json",
         "opening_bnr_manifest": runtime / "opening_bnr_ko/opening_bnr_korean_payload_manifest.json",
         "hbm_manifest": runtime / "hbm_ko/hbm_korean_payload_manifest.json",
-        "opening_sfd_validation": runtime / "sfd_ko/sfd_final_validation.json",
-        "opening_sfd_contact": runtime / "sfd_ko/validation/RAY_OP_02_original_vs_korean.png",
+        "opening_sfd_timestamp_audit": ROOT / "work/runtime_validation/sfd_frame_timestamp_audit.json",
+        "opening_sfd_freeze_match": ROOT / "work/runtime_validation/sfd_freeze_frame_match.json",
         "opening_bnr_contact": runtime / "opening_bnr_ko/audit/opening_bnr_original_vs_korean.png",
         "endroll_before_contact": runtime / "endroll_ui/before_contact_sheet.png",
         "endroll_after_contact": runtime / "endroll_ui/after_contact_sheet.png",
@@ -101,13 +106,22 @@ def main() -> int:
             "hbm_physical_assets": 3,
         },
         "localized_surfaces": {
-            "opening_movie": 1,
+            "opening_movie": 0,
             "opening_bnr": 1,
             "ending_cards": 23,
             "home_button_assets": 3,
             "wii_strap_assets_already_in_base": 2,
         },
-        "remaining_japanese_user_visible_visual_surfaces": 0,
+        "original_runtime_compatible_surfaces": {"opening_movie": 1},
+        "remaining_japanese_user_visible_visual_surfaces": 1,
+        "runtime_compatibility_waivers": [
+            {
+                "physical_path": "Movie/RAY_OP_02.sfd",
+                "remaining_text": "アークライズファンタジア",
+                "reason": "trusted original retained; rejected localized candidate corrupts video timestamps and freezes at runtime",
+                "source_sha256": "8653907F6F4DE206E57FE108EC2D050135E4DB68306AC8CAE7D2BEBCA46DC4A0",
+            }
+        ],
         "artifacts": {
             name: {"path": str(path.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(path)}
             for name, path in dependencies.items()

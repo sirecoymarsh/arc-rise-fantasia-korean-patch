@@ -1,0 +1,1901 @@
+[
+  {
+    "index": 2,
+    "display_name": "帝国士官",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000A",
+        "offset": 330,
+        "text": "明",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "display_name": "教団兵",
+    "unknown": [
+      {
+        "marker_offset": 3396,
+        "marker": "00000039",
+        "offset": 3400,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "display_name": "教団衛兵",
+    "unknown": [
+      {
+        "marker_offset": 3432,
+        "marker": "00000039",
+        "offset": 3436,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "display_name": "教団神兵",
+    "unknown": [
+      {
+        "marker_offset": 3432,
+        "marker": "00000039",
+        "offset": 3436,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "display_name": "サウロイドデッド",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dサウロイドデッド",
+        "capacity_to_nul": 20
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dサウロイドデッド",
+        "capacity_to_nul": 19
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "display_name": "シーフ",
+    "unknown": [
+      {
+        "marker_offset": 3716,
+        "marker": "00000000",
+        "offset": 3720,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3732,
+        "marker": "00000000",
+        "offset": 3736,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3840,
+        "marker": "00000000",
+        "offset": 3844,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "display_name": "ローグ",
+    "unknown": [
+      {
+        "marker_offset": 3716,
+        "marker": "00000000",
+        "offset": 3720,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3732,
+        "marker": "00000000",
+        "offset": 3736,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3840,
+        "marker": "00000000",
+        "offset": 3844,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "display_name": "バーグラー",
+    "unknown": [
+      {
+        "marker_offset": 3692,
+        "marker": "00000000",
+        "offset": 3696,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3708,
+        "marker": "00000000",
+        "offset": 3712,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3816,
+        "marker": "00000000",
+        "offset": 3820,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "display_name": "マモン",
+    "unknown": [
+      {
+        "marker_offset": 4464,
+        "marker": "00000000",
+        "offset": 4468,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 4480,
+        "marker": "00000000",
+        "offset": 4484,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 4588,
+        "marker": "00000000",
+        "offset": 4592,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 43,
+    "display_name": "ゼフィアンポ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dゼフィアンポ",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dゼフィアンポ",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 44,
+    "display_name": "ガクチス",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000006",
+        "offset": 302,
+        "text": "凍",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 45,
+    "display_name": "ディープフロスト",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000006",
+        "offset": 302,
+        "text": "麾",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 46,
+    "display_name": "ヴァンガード",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dヴァンガード",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dヴァンガード",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 47,
+    "display_name": "マッカレル",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dマッカレル",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dマッカレル",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 48,
+    "display_name": "フライフィッシュ",
+    "unknown": [
+      {
+        "marker_offset": 3124,
+        "marker": "00000000",
+        "offset": 3128,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3292,
+        "marker": "00000000",
+        "offset": 3296,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 49,
+    "display_name": "デザートフィッシュ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dデザートフィッシュ",
+        "capacity_to_nul": 22
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dデザートフィッシュ",
+        "capacity_to_nul": 21
+      },
+      {
+        "marker_offset": 3988,
+        "marker": "00000000",
+        "offset": 3992,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 4156,
+        "marker": "00000000",
+        "offset": 4160,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "display_name": "キャットフィッシュ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dキャットフィッシュ",
+        "capacity_to_nul": 22
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dキャットフィッシュ",
+        "capacity_to_nul": 21
+      },
+      {
+        "marker_offset": 3988,
+        "marker": "00000000",
+        "offset": 3992,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 4180,
+        "marker": "00000000",
+        "offset": 4184,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 51,
+    "display_name": "レモラ",
+    "unknown": [
+      {
+        "marker_offset": 3796,
+        "marker": "00000000",
+        "offset": 3800,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3988,
+        "marker": "00000000",
+        "offset": 3992,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 53,
+    "display_name": "デザートフロッグ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dデザートフロッグ",
+        "capacity_to_nul": 20
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dデザートフロッグ",
+        "capacity_to_nul": 19
+      }
+    ]
+  },
+  {
+    "index": 54,
+    "display_name": "フレイムフロッグ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dフレイムフロッグ",
+        "capacity_to_nul": 20
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dフレイムフロッグ",
+        "capacity_to_nul": 19
+      }
+    ]
+  },
+  {
+    "index": 59,
+    "display_name": "ブラッドサッカー",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dブラッドサッカー",
+        "capacity_to_nul": 20
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dブラッドサッカー",
+        "capacity_to_nul": 19
+      }
+    ]
+  },
+  {
+    "index": 60,
+    "display_name": "フォルトゥーナ",
+    "unknown": [
+      {
+        "marker_offset": 2112,
+        "marker": "00000000",
+        "offset": 2116,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 61,
+    "display_name": "バルチャー",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000C",
+        "offset": 330,
+        "text": "怙",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 652,
+        "marker": "00000000",
+        "offset": 656,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 62,
+    "display_name": "スノウバルチャー",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000C",
+        "offset": 330,
+        "text": "慇",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 652,
+        "marker": "00000000",
+        "offset": 656,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 63,
+    "display_name": "ジゴクチョウ",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000C",
+        "offset": 330,
+        "text": "騾",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 652,
+        "marker": "00000000",
+        "offset": 656,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dジゴクチョウ",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dジゴクチョウ",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 64,
+    "display_name": "ベヌウ",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000C",
+        "offset": 330,
+        "text": "鰰",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 502,
+        "marker": "00000000",
+        "offset": 506,
+        "text": "魎",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 82,
+    "display_name": "マッドプラント",
+    "unknown": [
+      {
+        "marker_offset": 3344,
+        "marker": "00000002",
+        "offset": 3348,
+        "text": ">L麺",
+        "capacity_to_nul": 5
+      }
+    ]
+  },
+  {
+    "index": 83,
+    "display_name": "ポイズンプラント",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000010",
+        "offset": 330,
+        "text": "縲",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3592,
+        "marker": "00000002",
+        "offset": 3596,
+        "text": ">L麺",
+        "capacity_to_nul": 5
+      }
+    ]
+  },
+  {
+    "index": 84,
+    "display_name": "カニバルプラント",
+    "unknown": [
+      {
+        "marker_offset": 4020,
+        "marker": "00000002",
+        "offset": 4024,
+        "text": ">L麺",
+        "capacity_to_nul": 5
+      }
+    ]
+  },
+  {
+    "index": 85,
+    "display_name": "ジャックランタン",
+    "unknown": [
+      {
+        "marker_offset": 502,
+        "marker": "00000000",
+        "offset": 506,
+        "text": "矼",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 6976,
+        "marker": "00000002",
+        "offset": 6980,
+        "text": ">L麺",
+        "capacity_to_nul": 5
+      }
+    ]
+  },
+  {
+    "index": 99,
+    "display_name": "エリザベート",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000004",
+        "offset": 302,
+        "text": "聳",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 103,
+    "display_name": "リャナンシー",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dリャナンシー",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dリャナンシー",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 106,
+    "display_name": "ボーンルーク",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dボーンルーク",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dボーンルーク",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 107,
+    "display_name": "タナトス",
+    "unknown": [
+      {
+        "marker_offset": 502,
+        "marker": "00000000",
+        "offset": 506,
+        "text": "タ",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 111,
+    "display_name": "ハデス",
+    "unknown": [
+      {
+        "marker_offset": 502,
+        "marker": "00000000",
+        "offset": 506,
+        "text": "剞",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 118,
+    "display_name": "キュオン",
+    "unknown": [
+      {
+        "marker_offset": 2704,
+        "marker": "00000000",
+        "offset": 2708,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 119,
+    "display_name": "リュコス",
+    "unknown": [
+      {
+        "marker_offset": 2928,
+        "marker": "00000000",
+        "offset": 2932,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 120,
+    "display_name": "ガルム",
+    "unknown": [
+      {
+        "marker_offset": 3152,
+        "marker": "00000000",
+        "offset": 3156,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 121,
+    "display_name": "ナベリウス",
+    "unknown": [
+      {
+        "marker_offset": 3600,
+        "marker": "00000000",
+        "offset": 3604,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 126,
+    "display_name": "ウィス",
+    "unknown": [
+      {
+        "marker_offset": 3372,
+        "marker": "00000001",
+        "offset": 3376,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3424,
+        "marker": "00000001",
+        "offset": 3428,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 127,
+    "display_name": "フラミス",
+    "unknown": [
+      {
+        "marker_offset": 3396,
+        "marker": "00000001",
+        "offset": 3400,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3448,
+        "marker": "00000001",
+        "offset": 3452,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 128,
+    "display_name": "ベヒモス",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000013",
+        "offset": 330,
+        "text": "萓",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3396,
+        "marker": "00000001",
+        "offset": 3400,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3448,
+        "marker": "00000001",
+        "offset": 3452,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 129,
+    "display_name": "アマルテア",
+    "unknown": [
+      {
+        "marker_offset": 4540,
+        "marker": "00000001",
+        "offset": 4544,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 4592,
+        "marker": "00000001",
+        "offset": 4596,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 131,
+    "display_name": "ケットシー",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dケットシー",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dケットシー",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 134,
+    "display_name": "サミアッド",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dサミアッド",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dサミアッド",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 141,
+    "display_name": "モスリーフ",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000004",
+        "offset": 302,
+        "text": "迦",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dモスリーフ",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dモスリーフ",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 142,
+    "display_name": "ベルゼバブ",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000004",
+        "offset": 302,
+        "text": "迦",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dベルゼバブ",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dベルゼバブ",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 150,
+    "display_name": "ハベトロット",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dハベトロット",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dハベトロット",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 155,
+    "display_name": "マーリド",
+    "unknown": [
+      {
+        "marker_offset": 2212,
+        "marker": "00000000",
+        "offset": 2216,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 156,
+    "display_name": "ジン",
+    "unknown": [
+      {
+        "marker_offset": 2212,
+        "marker": "00000000",
+        "offset": 2216,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 157,
+    "display_name": "イフリート",
+    "unknown": [
+      {
+        "marker_offset": 2212,
+        "marker": "00000000",
+        "offset": 2216,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 158,
+    "display_name": "ダオ",
+    "unknown": [
+      {
+        "marker_offset": 2212,
+        "marker": "00000000",
+        "offset": 2216,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 159,
+    "display_name": "アロケル",
+    "unknown": [
+      {
+        "marker_offset": 4052,
+        "marker": "00000000",
+        "offset": 4056,
+        "text": "丁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 160,
+    "display_name": "セパル",
+    "unknown": [
+      {
+        "marker_offset": 4052,
+        "marker": "00000000",
+        "offset": 4056,
+        "text": "丁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 161,
+    "display_name": "タルタロス",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000F",
+        "offset": 330,
+        "text": "鸚",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 168,
+    "display_name": "デンドロミミック",
+    "unknown": [
+      {
+        "marker_offset": 502,
+        "marker": "00000000",
+        "offset": 506,
+        "text": "岱",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 169,
+    "display_name": "ガーゴイル",
+    "unknown": [
+      {
+        "marker_offset": 2352,
+        "marker": "00000000",
+        "offset": 2356,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 2700,
+        "marker": "00000000",
+        "offset": 2704,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 170,
+    "display_name": "フェイクスタチュー",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000006",
+        "offset": 302,
+        "text": "材",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 326,
+        "marker": "0000000E",
+        "offset": 330,
+        "text": "袱",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 2800,
+        "marker": "00000000",
+        "offset": 2804,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3148,
+        "marker": "00000000",
+        "offset": 3152,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 171,
+    "display_name": "ヴァサーゴ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dヴァサーゴ",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dヴァサーゴ",
+        "capacity_to_nul": 13
+      },
+      {
+        "marker_offset": 3216,
+        "marker": "00000000",
+        "offset": 3220,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3564,
+        "marker": "00000000",
+        "offset": 3568,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 172,
+    "display_name": "ゴルゴン",
+    "unknown": [
+      {
+        "marker_offset": 2576,
+        "marker": "00000000",
+        "offset": 2580,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 2924,
+        "marker": "00000000",
+        "offset": 2928,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 173,
+    "display_name": "ノーム",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dノーム",
+        "capacity_to_nul": 10
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dノーム",
+        "capacity_to_nul": 9
+      }
+    ]
+  },
+  {
+    "index": 174,
+    "display_name": "ウンディーネ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dウンディーネ",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dウンディーネ",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 175,
+    "display_name": "サラマンド",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dサラマンド",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dサラマンド",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 176,
+    "display_name": "シルフィード",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000005",
+        "offset": 330,
+        "text": "臉",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dシルフィード",
+        "capacity_to_nul": 16
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dシルフィード",
+        "capacity_to_nul": 15
+      }
+    ]
+  },
+  {
+    "index": 179,
+    "display_name": "グレープスライム",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000009",
+        "offset": 330,
+        "text": "準",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dグレープスライム",
+        "capacity_to_nul": 20
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dグレープスライム",
+        "capacity_to_nul": 19
+      }
+    ]
+  },
+  {
+    "index": 182,
+    "display_name": "リビングアームズ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dリビングアームズ",
+        "capacity_to_nul": 20
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dリビングアームズ",
+        "capacity_to_nul": 19
+      }
+    ]
+  },
+  {
+    "index": 186,
+    "display_name": "ベルクトシステム",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000A",
+        "offset": 330,
+        "text": "卆",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 189,
+    "display_name": "ラスカーダセイバー",
+    "unknown": [
+      {
+        "marker_offset": 2432,
+        "marker": "00000000",
+        "offset": 2436,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 190,
+    "display_name": "ベルクトセイバー",
+    "unknown": [
+      {
+        "marker_offset": 2432,
+        "marker": "00000000",
+        "offset": 2436,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 191,
+    "display_name": "セルキー",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000008",
+        "offset": 330,
+        "text": "朽",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 193,
+    "display_name": "ケルピー",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000004",
+        "offset": 302,
+        "text": "麾",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 203,
+    "display_name": "アーヴァンク",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000010",
+        "offset": 330,
+        "text": "粟",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 204,
+    "display_name": "キマイラ",
+    "unknown": [
+      {
+        "marker_offset": 9940,
+        "marker": "00000000",
+        "offset": 9944,
+        "text": "組",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 10496,
+        "marker": "00000000",
+        "offset": 10500,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 205,
+    "display_name": "アバドン",
+    "unknown": [
+      {
+        "marker_offset": 8764,
+        "marker": "00000000",
+        "offset": 8768,
+        "text": "組",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 9320,
+        "marker": "00000000",
+        "offset": 9324,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 209,
+    "display_name": "パピルサグ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dパピルサグ",
+        "capacity_to_nul": 14
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dパピルサグ",
+        "capacity_to_nul": 13
+      }
+    ]
+  },
+  {
+    "index": 212,
+    "display_name": "グラ",
+    "unknown": [
+      {
+        "marker_offset": 652,
+        "marker": "00000000",
+        "offset": 656,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 668,
+        "marker": "00000000",
+        "offset": 672,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 213,
+    "display_name": "スクイル",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000013",
+        "offset": 302,
+        "text": "凰",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 326,
+        "marker": "00000018",
+        "offset": 330,
+        "text": "它",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dスクイル",
+        "capacity_to_nul": 12
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dスクイル",
+        "capacity_to_nul": 11
+      }
+    ]
+  },
+  {
+    "index": 214,
+    "display_name": "クドアンヌ",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "00000007",
+        "offset": 302,
+        "text": "縲",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 215,
+    "display_name": "ウルグラ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dウルグラ",
+        "capacity_to_nul": 12
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dウルグラ",
+        "capacity_to_nul": 11
+      }
+    ]
+  },
+  {
+    "index": 216,
+    "display_name": "バネトゥ",
+    "unknown": [
+      {
+        "marker_offset": 1225,
+        "marker": "00000000",
+        "offset": 1229,
+        "text": "_7dバネトゥ",
+        "capacity_to_nul": 12
+      },
+      {
+        "marker_offset": 1226,
+        "marker": "0000005F",
+        "offset": 1230,
+        "text": "7dバネトゥ",
+        "capacity_to_nul": 11
+      }
+    ]
+  },
+  {
+    "index": 218,
+    "display_name": "マシュガル",
+    "unknown": [
+      {
+        "marker_offset": 1066,
+        "marker": "00000002",
+        "offset": 1070,
+        "text": "晞",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 222,
+    "display_name": "ポーリャ",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "0000000C",
+        "offset": 302,
+        "text": "慇",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 223,
+    "display_name": "ルーニャ",
+    "unknown": [
+      {
+        "marker_offset": 298,
+        "marker": "0000000B",
+        "offset": 302,
+        "text": "轢",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 225,
+    "display_name": "骸使い",
+    "unknown": [
+      {
+        "marker_offset": 3108,
+        "marker": "00000000",
+        "offset": 3112,
+        "text": "卒",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 229,
+    "display_name": "ヴァイス",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000014",
+        "offset": 330,
+        "text": "矗",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 230,
+    "display_name": "クライド",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "00000016",
+        "offset": 330,
+        "text": "饑",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 233,
+    "display_name": "アデール",
+    "unknown": [
+      {
+        "marker_offset": 350,
+        "marker": "0000000C",
+        "offset": 354,
+        "text": "鐇",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 234,
+    "display_name": "アデール",
+    "unknown": [
+      {
+        "marker_offset": 326,
+        "marker": "0000000C",
+        "offset": 330,
+        "text": "籥",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 237,
+    "display_name": "アルス",
+    "unknown": [
+      {
+        "marker_offset": 6484,
+        "marker": "00000000",
+        "offset": 6488,
+        "text": "卒",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 241,
+    "display_name": "ラルク",
+    "unknown": [
+      {
+        "marker_offset": 6948,
+        "marker": "00000000",
+        "offset": 6952,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 242,
+    "display_name": "リフィア",
+    "unknown": [
+      {
+        "marker_offset": 7748,
+        "marker": "00000000",
+        "offset": 7752,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 243,
+    "display_name": "サージュ",
+    "unknown": [
+      {
+        "marker_offset": 7784,
+        "marker": "00000000",
+        "offset": 7788,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 244,
+    "display_name": "オイゲン",
+    "unknown": [
+      {
+        "marker_offset": 7900,
+        "marker": "00000000",
+        "offset": 7904,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 245,
+    "display_name": "セシル",
+    "unknown": [
+      {
+        "marker_offset": 6676,
+        "marker": "00000007",
+        "offset": 6680,
+        "text": ">L麺",
+        "capacity_to_nul": 5
+      },
+      {
+        "marker_offset": 7392,
+        "marker": "00000000",
+        "offset": 7396,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 7640,
+        "marker": "00000000",
+        "offset": 7644,
+        "text": "組",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 7728,
+        "marker": "00000000",
+        "offset": 7732,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 8136,
+        "marker": "00000000",
+        "offset": 8140,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 8644,
+        "marker": "00000000",
+        "offset": 8648,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 9340,
+        "marker": "00000000",
+        "offset": 9344,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 10224,
+        "marker": "00000000",
+        "offset": 10228,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 246,
+    "display_name": "レスリー",
+    "unknown": [
+      {
+        "marker_offset": 7544,
+        "marker": "00000000",
+        "offset": 7548,
+        "text": "組",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 255,
+    "display_name": "Ａ−０２",
+    "unknown": [
+      {
+        "marker_offset": 3800,
+        "marker": "00000000",
+        "offset": 3804,
+        "text": "草",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 4020,
+        "marker": "00000000",
+        "offset": 4024,
+        "text": "草",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 258,
+    "display_name": "Ｍ−０１",
+    "unknown": [
+      {
+        "marker_offset": 2800,
+        "marker": "00000000",
+        "offset": 2804,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3148,
+        "marker": "00000000",
+        "offset": 3152,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 262,
+    "display_name": "Ｂ−０１",
+    "unknown": [
+      {
+        "marker_offset": 3376,
+        "marker": "00000000",
+        "offset": 3380,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 263,
+    "display_name": "Ｂ−０２",
+    "unknown": [
+      {
+        "marker_offset": 3596,
+        "marker": "00000001",
+        "offset": 3600,
+        "text": "柁",
+        "capacity_to_nul": 3
+      },
+      {
+        "marker_offset": 3648,
+        "marker": "00000001",
+        "offset": 3652,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 265,
+    "display_name": "Ｄ−００",
+    "unknown": [
+      {
+        "marker_offset": 2436,
+        "marker": "00000000",
+        "offset": 2440,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 266,
+    "display_name": "Ｄ−０１",
+    "unknown": [
+      {
+        "marker_offset": 2436,
+        "marker": "00000000",
+        "offset": 2440,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 267,
+    "display_name": "Ｄ−０２",
+    "unknown": [
+      {
+        "marker_offset": 2436,
+        "marker": "00000000",
+        "offset": 2440,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  },
+  {
+    "index": 268,
+    "display_name": "Ｄ−０３",
+    "unknown": [
+      {
+        "marker_offset": 2436,
+        "marker": "00000000",
+        "offset": 2440,
+        "text": "柁",
+        "capacity_to_nul": 3
+      }
+    ]
+  }
+]

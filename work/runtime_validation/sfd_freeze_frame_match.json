@@ -1,0 +1,275 @@
+{
+  "screenshot": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_validation\\final_runtime_v4\\cutscene_probe_b.png",
+  "screenshot_info": {
+    "shape": [
+      480,
+      640,
+      3
+    ],
+    "row_mean_first_last_nonblack": [
+      19,
+      411
+    ],
+    "col_mean_first_last_nonblack": [
+      0,
+      639
+    ],
+    "mean_rgb": [
+      29.18356770833333,
+      32.536878255208336,
+      48.5811328125
+    ]
+  },
+  "payload": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\sfd_ko\\payloads\\Movie\\RAY_OP_02.sfd",
+    "sample_count": 591,
+    "top_matches": [
+      {
+        "sample_index": 97,
+        "seconds": 48.5,
+        "correlation": 0.6214105356414157,
+        "mse": 9935.431169120928
+      },
+      {
+        "sample_index": 99,
+        "seconds": 49.5,
+        "correlation": 0.6180625514779781,
+        "mse": 9497.60575635877
+      },
+      {
+        "sample_index": 100,
+        "seconds": 50.0,
+        "correlation": 0.6090132120720725,
+        "mse": 8089.961066488175
+      },
+      {
+        "sample_index": 98,
+        "seconds": 49.0,
+        "correlation": 0.6054112806203402,
+        "mse": 10500.07329317269
+      },
+      {
+        "sample_index": 96,
+        "seconds": 48.0,
+        "correlation": 0.6050992371214484,
+        "mse": 9733.656291834002
+      },
+      {
+        "sample_index": 101,
+        "seconds": 50.5,
+        "correlation": 0.5977971707530689,
+        "mse": 7313.9330655957165
+      },
+      {
+        "sample_index": 102,
+        "seconds": 51.0,
+        "correlation": 0.5859802957162059,
+        "mse": 6757.086456938867
+      },
+      {
+        "sample_index": 90,
+        "seconds": 45.0,
+        "correlation": 0.5855670125644817,
+        "mse": 12443.240294511379
+      },
+      {
+        "sample_index": 103,
+        "seconds": 51.5,
+        "correlation": 0.5670950248239746,
+        "mse": 6362.813922356091
+      },
+      {
+        "sample_index": 95,
+        "seconds": 47.5,
+        "correlation": 0.5543392300268046,
+        "mse": 9289.142235609102
+      },
+      {
+        "sample_index": 104,
+        "seconds": 52.0,
+        "correlation": 0.5501786431676369,
+        "mse": 6320.639558232931
+      },
+      {
+        "sample_index": 105,
+        "seconds": 52.5,
+        "correlation": 0.5300332839458272,
+        "mse": 6236.105421686747
+      },
+      {
+        "sample_index": 30,
+        "seconds": 15.0,
+        "correlation": 0.5182791304046505,
+        "mse": 3909.8263052208836
+      },
+      {
+        "sample_index": 106,
+        "seconds": 53.0,
+        "correlation": 0.5152593692537037,
+        "mse": 6133.210062472111
+      },
+      {
+        "sample_index": 107,
+        "seconds": 53.5,
+        "correlation": 0.49714286685588144,
+        "mse": 6002.697791164659
+      },
+      {
+        "sample_index": 243,
+        "seconds": 121.5,
+        "correlation": 0.49023678359079015,
+        "mse": 13517.551427933959
+      },
+      {
+        "sample_index": 108,
+        "seconds": 54.0,
+        "correlation": 0.48035409997132933,
+        "mse": 5855.026215975011
+      },
+      {
+        "sample_index": 109,
+        "seconds": 54.5,
+        "correlation": 0.47132613343477026,
+        "mse": 5720.958277554663
+      },
+      {
+        "sample_index": 94,
+        "seconds": 47.0,
+        "correlation": 0.4706720081397103,
+        "mse": 8879.66990182954
+      },
+      {
+        "sample_index": 82,
+        "seconds": 41.0,
+        "correlation": 0.44842566548856705,
+        "mse": 16966.01673360107
+      }
+    ]
+  },
+  "source": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Movie\\RAY_OP_02.sfd",
+    "sample_count": 573,
+    "top_matches": [
+      {
+        "sample_index": 96,
+        "seconds": 48.0,
+        "correlation": 0.6191497261473734,
+        "mse": 9984.653056671128
+      },
+      {
+        "sample_index": 98,
+        "seconds": 49.0,
+        "correlation": 0.6133009900129482,
+        "mse": 9892.65829986613
+      },
+      {
+        "sample_index": 99,
+        "seconds": 49.5,
+        "correlation": 0.612167021155426,
+        "mse": 8238.994756804997
+      },
+      {
+        "sample_index": 97,
+        "seconds": 48.5,
+        "correlation": 0.6068959207916735,
+        "mse": 10592.642347166444
+      },
+      {
+        "sample_index": 100,
+        "seconds": 50.0,
+        "correlation": 0.5989093486236821,
+        "mse": 7454.594935296743
+      },
+      {
+        "sample_index": 95,
+        "seconds": 47.5,
+        "correlation": 0.5951860841591612,
+        "mse": 9639.754462293618
+      },
+      {
+        "sample_index": 101,
+        "seconds": 50.5,
+        "correlation": 0.5853605950286921,
+        "mse": 6772.723784024989
+      },
+      {
+        "sample_index": 102,
+        "seconds": 51.0,
+        "correlation": 0.5694647346056831,
+        "mse": 6389.612338241856
+      },
+      {
+        "sample_index": 103,
+        "seconds": 51.5,
+        "correlation": 0.5524470138358061,
+        "mse": 6344.248884426595
+      },
+      {
+        "sample_index": 88,
+        "seconds": 44.0,
+        "correlation": 0.5325150726936504,
+        "mse": 33907.277443105755
+      },
+      {
+        "sample_index": 104,
+        "seconds": 52.0,
+        "correlation": 0.5322690716030514,
+        "mse": 6274.249107541276
+      },
+      {
+        "sample_index": 94,
+        "seconds": 47.0,
+        "correlation": 0.5274445816361382,
+        "mse": 9172.137327086122
+      },
+      {
+        "sample_index": 105,
+        "seconds": 52.5,
+        "correlation": 0.5131351419826801,
+        "mse": 6156.454819277108
+      },
+      {
+        "sample_index": 90,
+        "seconds": 45.0,
+        "correlation": 0.5063704097673628,
+        "mse": 12026.594600624721
+      },
+      {
+        "sample_index": 106,
+        "seconds": 53.0,
+        "correlation": 0.49540039669771363,
+        "mse": 6017.65093708166
+      },
+      {
+        "sample_index": 243,
+        "seconds": 121.5,
+        "correlation": 0.4868135449500206,
+        "mse": 13528.751673360108
+      },
+      {
+        "sample_index": 107,
+        "seconds": 53.5,
+        "correlation": 0.480369179049517,
+        "mse": 5859.402164212405
+      },
+      {
+        "sample_index": 108,
+        "seconds": 54.0,
+        "correlation": 0.4710066008654526,
+        "mse": 5685.585564480143
+      },
+      {
+        "sample_index": 93,
+        "seconds": 46.5,
+        "correlation": 0.4350228026340072,
+        "mse": 8641.959170013386
+      },
+      {
+        "sample_index": 66,
+        "seconds": 33.0,
+        "correlation": 0.4335211118309111,
+        "mse": 4443.306224899598
+      }
+    ]
+  }
+}

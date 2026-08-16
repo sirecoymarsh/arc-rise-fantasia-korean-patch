@@ -2,8 +2,14 @@
   "schema": "arf-ko-public-provenance-v1",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
-  "translation_units": 29777,
-  "translation_occurrences": 84761,
+  "translation_units": 29986,
+  "translation_occurrences": 85597,
+  "battle_enemy": {
+    "entries": 270,
+    "display_name_occurrences": 270,
+    "skill_name_occurrences": 563,
+    "unique_skill_names": 209
+  },
   "reviewed_batches": 149,
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
@@ -25,21 +31,28 @@
       "image_cumulative_system_members": 1,
       "staged_physical_files": 683,
       "riivolution_file_rules": 683,
-      "supplemental_physical_files": 28,
-      "riivolution_memory_rules": 925
+      "supplemental_physical_files": 27,
+      "riivolution_memory_rules": 925,
+      "battle_enemy_entries": 270,
+      "battle_enemy_display_name_occurrences": 270,
+      "battle_enemy_part_name_occurrences": 3,
+      "battle_enemy_skill_name_occurrences": 563,
+      "battle_enemy_translation_occurrences": 836,
+      "battle_enemy_unique_skill_names": 209,
+      "battle_enemy_unique_part_names": 3
     },
     "riivolution": {
       "xml": "riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
       "file_count": 683,
       "memory_count": 925,
       "resize_true_count": 559,
-      "sha256": "ABD415AED5DF9DD10910D98ACADF892CC407778F71EEB632E7D41E3E2E5C66B3"
+      "sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2"
     },
     "static_validation": {
       "valid": true,
       "error_count": 0
     },
-    "manifest_sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1",
-    "tree_sha256": "B9BF7A220CC5B2CF21858598ED3F72CF621FB04D1B85A954E55E728BAB64BF13"
+    "manifest_sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4",
+    "tree_sha256": "6C6BB1378740E5EFE5D8E2EC60F9BA7E95E0509FBE614CD6FA7D7E5A5D78C2EF"
   }
 }

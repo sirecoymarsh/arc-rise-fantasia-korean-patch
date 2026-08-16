@@ -76,6 +76,29 @@ def validate_staging(
         raise RuntimeError("Riivolution file-rule count does not match physical staging")
     if str(riivolution.get("sha256", "")).upper() != sha256(xml_path):
         raise RuntimeError("Riivolution XML hash differs from staging manifest")
+    battle = dict(staging_manifest.get("battle_enemy_application", {}))
+    expected_battle = {
+        "entries": 270,
+        "display_names": 270,
+        "part_names": 3,
+        "skill_names": 563,
+        "total_units": 836,
+        "entries_fitting_source_slots": 270,
+        "changed_outside_allowed_bytes": 0,
+    }
+    if battle.get("valid") is not True or any(
+        int(battle.get(key, -1)) != value for key, value in expected_battle.items()
+    ):
+        raise RuntimeError("battle enemy translation application is incomplete")
+    enemy_vld = physical_root / "Btl" / "btl_enemy.vld"
+    staged_rows = {
+        str(row.get("physical_path")): row
+        for row in static.get("staged_files", [])
+        if isinstance(row, dict)
+    }
+    enemy_row = staged_rows.get("Btl/btl_enemy.vld", {})
+    if not enemy_vld.is_file() or sha256(enemy_vld) != str(enemy_row.get("output_sha256", "")).upper():
+        raise RuntimeError("battle enemy VLD is missing or differs from the bound staging row")
     if not staging_manifest_path.is_file():
         raise RuntimeError("staging manifest disappeared during validation")
 
@@ -118,6 +141,7 @@ def write_public_files(
 - 일본판 원본 RVZ SHA-256: `{SOURCE_RVZ_SHA256}`
 - 일본어 음성 유지
 - 원본 RVZ는 수정하지 않는 Riivolution/Dolphin 오버레이 방식
+- 전투 몬스터명 270개, 보스 부위명 3개, 몬스터 기술명 563회(고유 기술명 209개) 한국어화
 
 ## 설치
 
@@ -150,6 +174,13 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
+
+## 오프닝 영상 안정성
+
+`Movie/RAY_OP_02.sfd`는 일본판 원본을 그대로 사용합니다. 개발 중 전체 영상을
+재인코딩한 후보에서 프레임 타임스탬프 역행과 실제 정지가 확인되어 릴리스에서는
+해당 영상 오버레이를 제외했습니다. 따라서 오프닝 중 게임 제목 한 줄은 일본어로
+남지만, 영상과 음성은 원본과 동일하게 재생됩니다.
 """
     (package / "README_KO.md").write_text(readme, encoding="utf-8")
     public_staging = {
@@ -174,8 +205,16 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
         "schema": "arf-ko-public-provenance-v1",
         "game_id": GAME_ID,
         "source_rvz_sha256": SOURCE_RVZ_SHA256,
-        "translation_units": 29777,
-        "translation_occurrences": 84761,
+        "translation_units": int(staging_manifest.get("counts", {}).get("tm_units", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0)),
+        "translation_occurrences": int(staging_manifest.get("counts", {}).get("catalog_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0)),
+        "battle_enemy": {
+            "entries": staging_manifest.get("counts", {}).get("battle_enemy_entries"),
+            "display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_display_name_occurrences"),
+            "skill_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_skill_name_occurrences"),
+            "unique_skill_names": staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names"),
+        },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",
         "external_translation_models_or_apis_used": False,

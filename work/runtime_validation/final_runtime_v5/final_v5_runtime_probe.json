@@ -1,0 +1,81 @@
+{
+  "schema": "arf-ko-final-runtime-probe-v1",
+  "recorded_utc": "2026-08-16T01:38:13.859166+00:00",
+  "pid": 54248,
+  "process": {
+    "running": true,
+    "status": "running",
+    "create_time_utc": "2026-08-16T01:20:04.217197+00:00",
+    "cpu_seconds": 747.0
+  },
+  "settings": {
+    "MMU": false,
+    "FastDiscSpeed": false,
+    "GFXBackend": "Vulkan"
+  },
+  "observations": {
+    "title_reached": true,
+    "wyvern_sword_strike_passed_without_skip": true,
+    "korean_monster_name": "와이번",
+    "korean_enemy_skill_display": "와이번: 치명타",
+    "wyvern_changed_pixels_before_to_exact": 221307,
+    "wyvern_changed_pixels_exact_to_after": 221101,
+    "battle_changed_pixels": 216579
+  },
+  "logs": {
+    "stdout": {
+      "path": "work/runtime_validation/final_runtime_v5/full_runtime_dolphin.stdout.log",
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "stderr": {
+      "path": "work/runtime_validation/final_runtime_v5/full_runtime_dolphin.stderr.log",
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "both_empty": true
+  },
+  "screenshots": [
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_title_probe.png",
+      "size_bytes": 426534,
+      "sha256": "7D2B4A553849FBCDA14F399AD39749968069D24EA55A75C6F7F3B72FEEFA2210"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_wyvern_before.png",
+      "size_bytes": 222031,
+      "sha256": "1A58602B648022EC0AE9D1BEE809241DC36521694E7E0147BF7094936D490AEE"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_wyvern_exact.png",
+      "size_bytes": 186302,
+      "sha256": "48753664DAE3D7AAA5D71C73ECBFC7E5B4726064A4503B6C91586C02D5796E42"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_wyvern_after.png",
+      "size_bytes": 224610,
+      "sha256": "C8F92920706DB66BE7CF068FF0C20F55FDB84BD1F3C6AE6E862B062E184BCEA7"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_korean_monster_name.png",
+      "size_bytes": 336994,
+      "sha256": "8F522DBD7C248016B51052410071154BDEF6607B2E58CA5CEA325D9A91AE4FF8"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_03.png",
+      "size_bytes": 334591,
+      "sha256": "3EE88DEDF4B1388BFAF7C82E47182584AFB5A1C65C12E1FE1CD0CB471F7A91A7"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_01.png",
+      "size_bytes": 350019,
+      "sha256": "F1696C99054D2B9857A0029FF7E57D54F5CF023639AECB1B3EAAF8CD4555F5AE"
+    },
+    {
+      "path": "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_06.png",
+      "size_bytes": 342379,
+      "sha256": "44039E1C99F846515E8A3C9FD70D7E77333BECDF69366A6CE88E7C4E8AA455F3"
+    }
+  ],
+  "valid": true
+}

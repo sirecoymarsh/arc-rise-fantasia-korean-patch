@@ -4,12 +4,12 @@
   "translation_engine_policy": "Codex internal model only",
   "external_translation_models_or_apis_used": false,
   "base_physical_count": 655,
-  "supplemental_physical_count": 28,
-  "final_physical_count": 683,
+  "supplemental_physical_count": 27,
+  "final_physical_count": 682,
   "memory_patch_count": 925,
   "main_dol_staged_physically": false,
-  "xml_sha256": "ABD415AED5DF9DD10910D98ACADF892CC407778F71EEB632E7D41E3E2E5C66B3",
-  "staging_manifest_sha256": "D0051EC9C0B9A11E9CEF6D84B2AE69084ED88E27DF82B60D1C413C12291A49A1",
+  "xml_sha256": "BD0A9DF9784C5DF58CF9D3227E6E9343EA152EBAFCEB628FFFB0043CEE9C6344",
+  "staging_manifest_sha256": "32F85FCA5A0F6D8F65FB4A58875AAD23B5E0DD893CE2B2D5D1D467A3665D3078",
   "physical_files": [
     {
       "physical_path": "Hbm/home.csv",
@@ -253,15 +253,6 @@
       "output_size": 506240,
       "resize": true,
       "supplemental_lane": "opening_bnr"
-    },
-    {
-      "physical_path": "Movie/RAY_OP_02.sfd",
-      "source_sha256": "8653907F6F4DE206E57FE108EC2D050135E4DB68306AC8CAE7D2BEBCA46DC4A0",
-      "output_sha256": "A6095E7E5DB15012AA914AF41958F4BF5947DD5029C199605C66FCB6577BD2A3",
-      "source_size": 356079616,
-      "output_size": 356079616,
-      "resize": false,
-      "supplemental_lane": "opening_movie"
     }
   ],
   "valid": true

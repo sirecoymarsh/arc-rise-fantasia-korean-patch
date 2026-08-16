@@ -48,42 +48,60 @@ DEFAULT_RIIVOLUTION_XML = (
     ROOT
     / "work/final_runtime_staging/riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml"
 )
-DEFAULT_SESSION = ROOT / "work/runtime_validation/final_runtime/full_runtime_session.json"
+DEFAULT_SESSION = ROOT / "work/runtime_validation/final_runtime_v5/full_runtime_session.json"
 DEFAULT_OUTPUT = ROOT / "work/validation/dolphin_runtime_validation.json"
 
 TEMPLATE_CHECKS: tuple[dict[str, Any], ...] = (
     {
-        "name": "full_patch_boot_reaches_title_sequence",
+        "name": "final_v5_patch_boot_reaches_title",
         "passed": False,
         "evidence_paths": [
-            "work/runtime_validation/final_runtime/full_runtime_25s.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_title_probe.png",
         ],
-        "notes": "Confirm the full patch reaches the Arc Rise Fantasia title sequence without a restart loop.",
+        "notes": "Confirm the exact final staging reaches the Korean title without a restart loop.",
     },
     {
-        "name": "korean_controller_setup_prompt_renders",
+        "name": "original_sfd_wyvern_sequence_passes_without_skip",
         "passed": False,
         "evidence_paths": [
-            "work/runtime_validation/final_runtime/full_runtime_title.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_wyvern_before.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_wyvern_exact.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_wyvern_after.png",
         ],
-        "notes": "Confirm the controller setup prompt renders readable Korean text.",
+        "notes": "Confirm the original disc SFD advances through the sword-strike freeze point without using Skip.",
     },
     {
-        "name": "korean_initial_settings_menu_renders",
+        "name": "korean_battle_monster_name_renders",
         "passed": False,
         "evidence_paths": [
-            "work/runtime_validation/final_runtime/full_runtime_after_controller_a.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_korean_monster_name.png",
         ],
-        "notes": "Confirm the initial System settings screen renders Korean labels and help text.",
+        "notes": "Confirm the battle target information shows the monster name in Korean.",
     },
     {
-        "name": "initial_settings_input_does_not_restart",
+        "name": "korean_enemy_skill_name_renders",
         "passed": False,
         "evidence_paths": [
-            "work/runtime_validation/final_runtime/full_runtime_after_controller_a.png",
-            "work/runtime_validation/final_runtime/full_runtime_after_settings_complete.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_03.png",
         ],
-        "notes": "Confirm input advances the initial settings flow without returning to the boot sequence.",
+        "notes": "Confirm an enemy action displays its translated Korean skill name.",
+    },
+    {
+        "name": "battle_frames_continue_advancing",
+        "passed": False,
+        "evidence_paths": [
+            "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_01.png",
+            "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_06.png",
+        ],
+        "notes": "Confirm two time-separated battle frames differ while the Vulkan process remains responsive.",
+    },
+    {
+        "name": "process_responsive_and_logs_clean",
+        "passed": False,
+        "evidence_paths": [
+            "work/runtime_validation/final_runtime_v5/final_v5_runtime_probe.json",
+        ],
+        "notes": "Confirm the final process is responsive, Vulkan is active, and Dolphin logs contain no runtime error.",
     },
 )
 
@@ -264,6 +282,13 @@ def validate_runtime_session(
         )
     require_exact_hash(session.get("staging_manifest"), "staging_manifest", staging_manifest_path)
     require_exact_hash(session.get("xml"), "xml", xml_path)
+    settings = session.get("settings")
+    if not isinstance(settings, dict) or settings.get("GFXBackend") != "Vulkan":
+        raise ContractError("runtime session did not use the required Vulkan backend")
+    if settings.get("MMU") is not False:
+        raise ContractError("runtime session MMU setting differs from the tested contract")
+    if settings.get("FastDiscSpeed") is not False:
+        raise ContractError("runtime session unexpectedly depends on fast disc transfer")
 
     system_vol_path = (
         ROOT

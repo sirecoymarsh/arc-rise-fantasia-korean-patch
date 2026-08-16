@@ -1,7 +1,7 @@
 {
   "format": "arf-rpjj99-non-bscr-table-v1",
   "game_id": "RPJJ99",
-  "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party02.bin",
+  "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party02.bin",
   "source_size": 15200,
   "source_sha256": "ebe0c9271d9335b701c69d013c557fffbe65e615c1a79db6380c0a7ff1bb7a89",
   "schema": "btem",
@@ -10,7 +10,7 @@
   "metadata": {
     "header_size_word": 16,
     "data_offset": 384,
-    "name_capacity": 36
+    "name_capacity": 35
   },
   "unit_count": 1,
   "nonempty_count": 1,
@@ -23,9 +23,9 @@
       "field": "display_name",
       "offset": 384,
       "offset_hex": "0x180",
-      "capacity": 36,
+      "capacity": 35,
       "byte_length": 8,
-      "headroom": 27,
+      "headroom": 26,
       "nul_terminated": true,
       "raw_hex": "A5B5A1BCA5B8A5E5",
       "source_text": "サージュ",

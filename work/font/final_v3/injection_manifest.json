@@ -1,0 +1,106 @@
+{
+  "font": "C:\\Windows\\Fonts\\malgunbd.ttf",
+  "font_sha256": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082",
+  "font_size": 22,
+  "files": [
+    {
+      "page": 0,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-0.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-0.wtm",
+      "source_sha256": "5bb20dc30114d3f4e6d11ede2bf01cfac15f7471cee5113d92c4af0775061827",
+      "output_sha256": "e8879b9bc06c1ab7cb5978eb73de141c0ca83b27653af933a2a66f54bb2aee01",
+      "changed": true,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 1,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-1.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-1.wtm",
+      "source_sha256": "b3944afa85a41f16fb971b92bda88c8f65da02d5def10130d4cb988277caae8d",
+      "output_sha256": "e563b950365b09884c849c413bf3ce9247c974463c7594f53fcaecd53dc83e62",
+      "changed": true,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 2,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-2.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-2.wtm",
+      "source_sha256": "e225c695178daa2356062fad7aa54d3ca183f6f240137f1f7efe9f6b8536117f",
+      "output_sha256": "1a62efa8495af40a560a5ebbef208e75cdf9e9c8dd9754f1fce77165b0a5ac65",
+      "changed": true,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 3,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-3.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-3.wtm",
+      "source_sha256": "b1721b889bd1cfdcbc038f8c111a0d8a6275e029d71c87e233899558db2b77b2",
+      "output_sha256": "0c5cb57eee25f140cbb987acc3dd56c5f2d59fd575c8a3524e64c2bb82539ab2",
+      "changed": true,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 4,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-4.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-4.wtm",
+      "source_sha256": "7480a304a08360d279970fd73331505542a8066c009b5f4f2196a5b51d4f03b5",
+      "output_sha256": "f15973b74b54ba021f1f54e6ce2d76c75fe2b6c4e76253f6408f5f37eee30bd6",
+      "changed": true,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 5,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-5.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-5.wtm",
+      "source_sha256": "634ccc1b4b5e58f6592059d1a68f35ccaf6145817bed9043f04bce8d3f391421",
+      "output_sha256": "0daeb926c9f9ca51689fcd5507a10b04164ba75134ab8bf93fd1fe3cf3046d95",
+      "changed": true,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 6,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-6.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-6.wtm",
+      "source_sha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+      "output_sha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+      "changed": false,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 7,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-7.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-7.wtm",
+      "source_sha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+      "output_sha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+      "changed": false,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    },
+    {
+      "page": 8,
+      "source": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\canonical_v1\\source_original\\EUC28-8.wtm",
+      "output": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\injected\\EUC28-8.wtm",
+      "source_sha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+      "output_sha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+      "changed": false,
+      "size_preserved": true,
+      "header_palette_preserved": true,
+      "redecode_indices_exact": true
+    }
+  ]
+}

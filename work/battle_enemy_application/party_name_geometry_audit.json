@@ -1,0 +1,132 @@
+[
+  {
+    "Name": "btl_stat_party00.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 6,
+    "SourceNameHex": "A5E9A5EBA5AF000000000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "B6A2B7B7C5E6000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party01.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5EAA5D5A5A3A5A200000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "B7C4C7CABDFB000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party02.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5B5A1BCA5B8A5E500000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BBAAC3A80000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party03.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5AAA5A4A5B2A5F300000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BFBEB0ABB0D0000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party04.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 6,
+    "SourceNameHex": "A5BBA5B7A5EB000000000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BCA6BDB60000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party05.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5ECA5B9A5EAA1BC00000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "B6DEBDA3B7C4000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party06.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 6,
+    "SourceNameHex": "A5A2A5EBA5B9000000000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BEA9BCF70000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party06B.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 6,
+    "SourceNameHex": "A5A2A5EBA5B9000000000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BEA9BCF70000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party07.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5A2A5C7A1BCA5EB00000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BDFBB4BE0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party07B.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5A2A5C7A1BCA5EB00000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "BDFBB4BE0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party08.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 6,
+    "SourceNameHex": "A5CBA5B3A5EB000000000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "B3E3C5C30000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party09.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5AFA5E9A5A4A5C900000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "C5EEB6A2B0ABB4FD00000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "Name": "btl_stat_party10.bin",
+    "DataOffset": "0x180",
+    "SourceMeta": "0x00",
+    "CurrentMeta": "0x00",
+    "EqualMeta": true,
+    "TotalDiff": 8,
+    "SourceNameHex": "A5C7A5A3A5CEA5B900000000000000000000000000000000000000000000000000000000",
+    "CurrentNameHex": "B5C2B3A2BCF7000000000000000000000000000000000000000000000000000000000000"
+  }
+]

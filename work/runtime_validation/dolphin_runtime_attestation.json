@@ -1,0 +1,58 @@
+{
+  "schema": "arf-ko-dolphin-runtime-attestation-v1",
+  "game_id": "RPJJ99",
+  "session_path": "work/runtime_validation/final_runtime_v5/full_runtime_session.json",
+  "checks": [
+    {
+      "name": "final_v5_patch_boot_reaches_title",
+      "passed": true,
+      "evidence_paths": [
+        "work/runtime_validation/final_runtime_v5/final_v5_title_probe.png"
+      ],
+      "notes": "The exact final staging reached the Korean title in the same continuous process."
+    },
+    {
+      "name": "original_sfd_wyvern_sequence_passes_without_skip",
+      "passed": true,
+      "evidence_paths": [
+        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_before.png",
+        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_exact.png",
+        "work/runtime_validation/final_runtime_v5/final_v5_wyvern_after.png"
+      ],
+      "notes": "The original disc SFD advanced through the sword-strike freeze point without Skip; all three frames differ."
+    },
+    {
+      "name": "korean_battle_monster_name_renders",
+      "passed": true,
+      "evidence_paths": [
+        "work/runtime_validation/final_runtime_v5/final_v5_korean_monster_name.png"
+      ],
+      "notes": "Battle target information visibly renders the monster name in Korean."
+    },
+    {
+      "name": "korean_enemy_skill_name_renders",
+      "passed": true,
+      "evidence_paths": [
+        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_03.png"
+      ],
+      "notes": "The enemy action visibly renders its skill name in Korean."
+    },
+    {
+      "name": "battle_frames_continue_advancing",
+      "passed": true,
+      "evidence_paths": [
+        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_01.png",
+        "work/runtime_validation/final_runtime_v5/final_v5_enemy_skill_06.png"
+      ],
+      "notes": "Time-separated battle frames differ and the battle returns to command selection."
+    },
+    {
+      "name": "process_responsive_and_logs_clean",
+      "passed": true,
+      "evidence_paths": [
+        "work/runtime_validation/final_runtime_v5/final_v5_runtime_probe.json"
+      ],
+      "notes": "The same PID remained running; Vulkan was used with MMU and FastDiscSpeed disabled; stdout and stderr are empty."
+    }
+  ]
+}

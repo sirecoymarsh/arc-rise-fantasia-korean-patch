@@ -1,0 +1,856 @@
+{
+  "schema": "arf-btl-enemy-skill-translations-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_models_or_apis_used": false,
+  "translations": [
+    {
+      "source_text": "<$15>E0エクスプロード",
+      "translation_ko": "<$15>E0익스플로드"
+    },
+    {
+      "source_text": "<$15>E0フラムウェイブ",
+      "translation_ko": "<$15>E0플레임 웨이브"
+    },
+    {
+      "source_text": "<$15>E0フレアブレス",
+      "translation_ko": "<$15>E0플레어 브레스"
+    },
+    {
+      "source_text": "<$15>E0フレイムクロス",
+      "translation_ko": "<$15>E0플레임 크로스"
+    },
+    {
+      "source_text": "<$15>E0煉獄の炎",
+      "translation_ko": "<$15>E0연옥의 불꽃"
+    },
+    {
+      "source_text": "<$15>E1アクアブレス",
+      "translation_ko": "<$15>E1아쿠아 브레스"
+    },
+    {
+      "source_text": "<$15>E1ポイズンジュース",
+      "translation_ko": "<$15>E1포이즌 주스"
+    },
+    {
+      "source_text": "<$15>E1小魚ラッシュ",
+      "translation_ko": "<$15>E1치어 러시"
+    },
+    {
+      "source_text": "<$15>E2カマイタチ",
+      "translation_ko": "<$15>E2칼바람"
+    },
+    {
+      "source_text": "<$15>E2クロスカッター",
+      "translation_ko": "<$15>E2크로스 커터"
+    },
+    {
+      "source_text": "<$15>E2ヴェントブレス",
+      "translation_ko": "<$15>E2벤트 브레스"
+    },
+    {
+      "source_text": "<$15>E2疾風の翼",
+      "translation_ko": "<$15>E2질풍의 날개"
+    },
+    {
+      "source_text": "<$15>E3アースガルズ",
+      "translation_ko": "<$15>E3아스가르드"
+    },
+    {
+      "source_text": "<$15>E3アースクエイク",
+      "translation_ko": "<$15>E3어스퀘이크"
+    },
+    {
+      "source_text": "<$15>E3ガイアクラッシュ",
+      "translation_ko": "<$15>E3가이아 크래시"
+    },
+    {
+      "source_text": "<$15>E3キルストンプ",
+      "translation_ko": "<$15>E3킬 스톰프"
+    },
+    {
+      "source_text": "<$15>E3ジオクラッシュ",
+      "translation_ko": "<$15>E3지오 크래시"
+    },
+    {
+      "source_text": "<$15>E3スタチュードロップ",
+      "translation_ko": "<$15>E3스태추 드롭"
+    },
+    {
+      "source_text": "<$15>E3ソイルブレス",
+      "translation_ko": "<$15>E3소일 브레스"
+    },
+    {
+      "source_text": "<$15>E3ヘルローテ",
+      "translation_ko": "<$15>E3헬 로테"
+    },
+    {
+      "source_text": "<$15>E3リジル",
+      "translation_ko": "<$15>E3리질"
+    },
+    {
+      "source_text": "<$15>E3石化の息",
+      "translation_ko": "<$15>E3석화의 숨결"
+    },
+    {
+      "source_text": "<$15>E4フリーズクロス",
+      "translation_ko": "<$15>E4프리즈 크로스"
+    },
+    {
+      "source_text": "<$15>E4フロストブレス",
+      "translation_ko": "<$15>E4프로스트 브레스"
+    },
+    {
+      "source_text": "<$15>E4フロッティ",
+      "translation_ko": "<$15>E4흐로티"
+    },
+    {
+      "source_text": "<$15>E5サンダーフォール",
+      "translation_ko": "<$15>E5선더 폴"
+    },
+    {
+      "source_text": "<$15>E5スパークウェイブ",
+      "translation_ko": "<$15>E5스파크 웨이브"
+    },
+    {
+      "source_text": "<$15>E5プラズマウェイブ",
+      "translation_ko": "<$15>E5플라즈마 웨이브"
+    },
+    {
+      "source_text": "<$15>E5ボルトストリーム",
+      "translation_ko": "<$15>E5볼트 스트림"
+    },
+    {
+      "source_text": "<$15>E6カースドウェイブ",
+      "translation_ko": "<$15>E6커스드 웨이브"
+    },
+    {
+      "source_text": "<$15>E6サンライトキャノン",
+      "translation_ko": "<$15>E6선라이트 캐논"
+    },
+    {
+      "source_text": "<$15>E6ヒカリノアメ",
+      "translation_ko": "<$15>E6빛의 비"
+    },
+    {
+      "source_text": "<$15>E6ビフレスト",
+      "translation_ko": "<$15>E6비프로스트"
+    },
+    {
+      "source_text": "<$15>E7アビスピラー",
+      "translation_ko": "<$15>E7어비스 필러"
+    },
+    {
+      "source_text": "<$15>E7カオスピラー",
+      "translation_ko": "<$15>E7카오스 필러"
+    },
+    {
+      "source_text": "<$15>E7カースドウェイブ",
+      "translation_ko": "<$15>E7커스드 웨이브"
+    },
+    {
+      "source_text": "<$15>E7コープスバースト",
+      "translation_ko": "<$15>E7시체 폭발"
+    },
+    {
+      "source_text": "<$15>E7サマヨウモノ",
+      "translation_ko": "<$15>E7방황하는 자"
+    },
+    {
+      "source_text": "<$15>E7デスカッター",
+      "translation_ko": "<$15>E7데스 커터"
+    },
+    {
+      "source_text": "<$15>E7ナゲキノカバン",
+      "translation_ko": "<$15>E7탄식의 가방"
+    },
+    {
+      "source_text": "<$15>E7ヒゲキノカバン",
+      "translation_ko": "<$15>E7비극의 가방"
+    },
+    {
+      "source_text": "<$15>E7ペネトレイトフィスト",
+      "translation_ko": "<$15>E7관통권"
+    },
+    {
+      "source_text": "<$15>E7罪の開放",
+      "translation_ko": "<$15>E7죄의 해방"
+    },
+    {
+      "source_text": "<$15>E7罰の連撃",
+      "translation_ko": "<$15>E7벌의 연격"
+    },
+    {
+      "source_text": "くさい息",
+      "translation_ko": "구린 숨결"
+    },
+    {
+      "source_text": "たたかう",
+      "translation_ko": "공격"
+    },
+    {
+      "source_text": "まきあげる",
+      "translation_ko": "갈취하기"
+    },
+    {
+      "source_text": "アクアスコール",
+      "translation_ko": "아쿠아 스콜"
+    },
+    {
+      "source_text": "アサシンラッシュ",
+      "translation_ko": "어쌔신 러시"
+    },
+    {
+      "source_text": "アバドン・アームが復活",
+      "translation_ko": "아바돈 암 부활"
+    },
+    {
+      "source_text": "アバドン・アームを破壊",
+      "translation_ko": "아바돈 암 파괴"
+    },
+    {
+      "source_text": "アバドン・ウイングが復活",
+      "translation_ko": "아바돈 날개 부활"
+    },
+    {
+      "source_text": "アバドン・ウイングを破壊",
+      "translation_ko": "아바돈 날개 파괴"
+    },
+    {
+      "source_text": "アバドン・ヘッドが復活",
+      "translation_ko": "아바돈 헤드 부활"
+    },
+    {
+      "source_text": "アバドン・ヘッドを破壊",
+      "translation_ko": "아바돈 헤드 파괴"
+    },
+    {
+      "source_text": "ウイングカッター",
+      "translation_ko": "날개 커터"
+    },
+    {
+      "source_text": "エクスプロード",
+      "translation_ko": "익스플로드"
+    },
+    {
+      "source_text": "オワリノトキ",
+      "translation_ko": "끝의 시간"
+    },
+    {
+      "source_text": "オーバーヒート",
+      "translation_ko": "오버히트"
+    },
+    {
+      "source_text": "キケンナカオリ",
+      "translation_ko": "위험한 향기"
+    },
+    {
+      "source_text": "キツツキ",
+      "translation_ko": "딱따구리"
+    },
+    {
+      "source_text": "キマイラ・アーム",
+      "translation_ko": "키마이라 암"
+    },
+    {
+      "source_text": "キマイラ・アームが復活",
+      "translation_ko": "키마이라 암 부활"
+    },
+    {
+      "source_text": "キマイラ・アームを破壊",
+      "translation_ko": "키마이라 암 파괴"
+    },
+    {
+      "source_text": "キマイラ・ウイング",
+      "translation_ko": "키마이라 날개"
+    },
+    {
+      "source_text": "キマイラ・ウイングが復活",
+      "translation_ko": "키마이라 날개 부활"
+    },
+    {
+      "source_text": "キマイラ・ウイングを破壊",
+      "translation_ko": "키마이라 날개 파괴"
+    },
+    {
+      "source_text": "キマイラ・ヘッド",
+      "translation_ko": "키마이라 헤드"
+    },
+    {
+      "source_text": "キマイラ・ヘッドが復活",
+      "translation_ko": "키마이라 헤드 부활"
+    },
+    {
+      "source_text": "キマイラ・ヘッドを破壊",
+      "translation_ko": "키마이라 헤드 파괴"
+    },
+    {
+      "source_text": "キャットダイブ",
+      "translation_ko": "캣 다이브"
+    },
+    {
+      "source_text": "クチバシ",
+      "translation_ko": "부리"
+    },
+    {
+      "source_text": "クチバシラッシュ",
+      "translation_ko": "부리 러시"
+    },
+    {
+      "source_text": "グラビトンサマー",
+      "translation_ko": "그라비톤 서머"
+    },
+    {
+      "source_text": "サソイノコエ",
+      "translation_ko": "유혹의 목소리"
+    },
+    {
+      "source_text": "サテライトキャノン",
+      "translation_ko": "새틀라이트 캐논"
+    },
+    {
+      "source_text": "サークルムーン",
+      "translation_ko": "서클 문"
+    },
+    {
+      "source_text": "シゼンノムチ",
+      "translation_ko": "자연의 채찍"
+    },
+    {
+      "source_text": "シックスポア",
+      "translation_ko": "병든 포자"
+    },
+    {
+      "source_text": "スカイブレイダー",
+      "translation_ko": "스카이 블레이더"
+    },
+    {
+      "source_text": "スクリュードライブ",
+      "translation_ko": "스크루 드라이브"
+    },
+    {
+      "source_text": "ストーンブレス",
+      "translation_ko": "스톤 브레스"
+    },
+    {
+      "source_text": "スパイクドテイル",
+      "translation_ko": "스파이크드 테일"
+    },
+    {
+      "source_text": "スパイラルクラッシュ",
+      "translation_ko": "스파이럴 크래시"
+    },
+    {
+      "source_text": "スプレッドライン",
+      "translation_ko": "스프레드 라인"
+    },
+    {
+      "source_text": "スリープブレス",
+      "translation_ko": "슬립 브레스"
+    },
+    {
+      "source_text": "ゼリーターン",
+      "translation_ko": "젤리 턴"
+    },
+    {
+      "source_text": "ソードダンス",
+      "translation_ko": "소드 댄스"
+    },
+    {
+      "source_text": "タエラレヌカオリ",
+      "translation_ko": "견딜 수 없는 향기"
+    },
+    {
+      "source_text": "ダブルスナップ",
+      "translation_ko": "더블 스냅"
+    },
+    {
+      "source_text": "チェインテイル",
+      "translation_ko": "체인 테일"
+    },
+    {
+      "source_text": "チックライ",
+      "translation_ko": "칙 크라이"
+    },
+    {
+      "source_text": "チックラッシュ",
+      "translation_ko": "칙 러시"
+    },
+    {
+      "source_text": "チャージ",
+      "translation_ko": "차지"
+    },
+    {
+      "source_text": "チャージクロウ",
+      "translation_ko": "차지 클로"
+    },
+    {
+      "source_text": "チャームリング",
+      "translation_ko": "참 링"
+    },
+    {
+      "source_text": "テイルエッジ",
+      "translation_ko": "테일 엣지"
+    },
+    {
+      "source_text": "テイルショット",
+      "translation_ko": "테일 사격"
+    },
+    {
+      "source_text": "テイルチャージ",
+      "translation_ko": "테일 차지"
+    },
+    {
+      "source_text": "デススクリュー",
+      "translation_ko": "데스 스크루"
+    },
+    {
+      "source_text": "デンドロブレス",
+      "translation_ko": "덴드로 브레스"
+    },
+    {
+      "source_text": "トマホーク",
+      "translation_ko": "토마호크"
+    },
+    {
+      "source_text": "ナッツアロー",
+      "translation_ko": "열매 화살"
+    },
+    {
+      "source_text": "ニーヴェルング",
+      "translation_ko": "니벨룽"
+    },
+    {
+      "source_text": "ネムリノトキ",
+      "translation_ko": "잠의 시간"
+    },
+    {
+      "source_text": "ノイズリサイタル",
+      "translation_ko": "노이즈 리사이틀"
+    },
+    {
+      "source_text": "ハジマリノツルギ",
+      "translation_ko": "시작의 검"
+    },
+    {
+      "source_text": "ハジマリノトキ",
+      "translation_ko": "시작의 시간"
+    },
+    {
+      "source_text": "バッドウェーブ",
+      "translation_ko": "배드 웨이브"
+    },
+    {
+      "source_text": "バッドスポア",
+      "translation_ko": "배드 스포어"
+    },
+    {
+      "source_text": "パラライスポア",
+      "translation_ko": "마비 스포어"
+    },
+    {
+      "source_text": "パラライブレス",
+      "translation_ko": "마비 브레스"
+    },
+    {
+      "source_text": "パワーライズ",
+      "translation_ko": "파워 라이즈"
+    },
+    {
+      "source_text": "ファイアボール",
+      "translation_ko": "파이어볼"
+    },
+    {
+      "source_text": "ファットプレス",
+      "translation_ko": "팻 프레스"
+    },
+    {
+      "source_text": "ファンガーダンス",
+      "translation_ko": "팡거 댄스"
+    },
+    {
+      "source_text": "フランキスカ",
+      "translation_ko": "프란키스카"
+    },
+    {
+      "source_text": "フレイムクラッシュ",
+      "translation_ko": "플레임 크래시"
+    },
+    {
+      "source_text": "ブッドラッシュ",
+      "translation_ko": "버드 러시"
+    },
+    {
+      "source_text": "ブルダッシュ",
+      "translation_ko": "불 대시"
+    },
+    {
+      "source_text": "ブルチャージ",
+      "translation_ko": "불 차지"
+    },
+    {
+      "source_text": "プレス",
+      "translation_ko": "프레스"
+    },
+    {
+      "source_text": "ヘルローテ",
+      "translation_ko": "헬 로테"
+    },
+    {
+      "source_text": "ベアルクライ",
+      "translation_ko": "베어 크라이"
+    },
+    {
+      "source_text": "ベノムスクリュー",
+      "translation_ko": "베놈 스크루"
+    },
+    {
+      "source_text": "ベルセルク",
+      "translation_ko": "버서크"
+    },
+    {
+      "source_text": "ペルソナブレス",
+      "translation_ko": "페르소나 브레스"
+    },
+    {
+      "source_text": "ポイズンフィッシュ",
+      "translation_ko": "포이즌 피시"
+    },
+    {
+      "source_text": "ポイズンブレス",
+      "translation_ko": "포이즌 브레스"
+    },
+    {
+      "source_text": "ミステイク",
+      "translation_ko": "미스테이크"
+    },
+    {
+      "source_text": "メザメノトキ",
+      "translation_ko": "각성의 시간"
+    },
+    {
+      "source_text": "ヤクソクノカネ",
+      "translation_ko": "약속의 종"
+    },
+    {
+      "source_text": "ライフスポアー",
+      "translation_ko": "라이프 스포어"
+    },
+    {
+      "source_text": "ライフリープ",
+      "translation_ko": "라이프 리프"
+    },
+    {
+      "source_text": "ラッシングビート",
+      "translation_ko": "러싱 비트"
+    },
+    {
+      "source_text": "ルミナスライン",
+      "translation_ko": "루미너스 라인"
+    },
+    {
+      "source_text": "ローリングクラッシュ",
+      "translation_ko": "롤링 크래시"
+    },
+    {
+      "source_text": "ワイドショット",
+      "translation_ko": "와이드 사격"
+    },
+    {
+      "source_text": "三段重ね",
+      "translation_ko": "삼단 쌓기"
+    },
+    {
+      "source_text": "二枚刃",
+      "translation_ko": "양날"
+    },
+    {
+      "source_text": "五月雨突き",
+      "translation_ko": "소나기 찌르기"
+    },
+    {
+      "source_text": "俯瞰の咆哮",
+      "translation_ko": "굽어보는 포효"
+    },
+    {
+      "source_text": "傲慢の翼",
+      "translation_ko": "오만의 날개"
+    },
+    {
+      "source_text": "凝固のリンプン",
+      "translation_ko": "응고 날개가루"
+    },
+    {
+      "source_text": "剛直の咆哮",
+      "translation_ko": "강직의 포효"
+    },
+    {
+      "source_text": "勇猛の咆哮",
+      "translation_ko": "용맹의 포효"
+    },
+    {
+      "source_text": "単体攻撃",
+      "translation_ko": "단일 공격"
+    },
+    {
+      "source_text": "単体攻撃突進",
+      "translation_ko": "단일 돌진 공격"
+    },
+    {
+      "source_text": "名称未設定",
+      "translation_ko": "명칭 미설정"
+    },
+    {
+      "source_text": "吸血",
+      "translation_ko": "흡혈"
+    },
+    {
+      "source_text": "吸血の針",
+      "translation_ko": "흡혈침"
+    },
+    {
+      "source_text": "埋もれる",
+      "translation_ko": "파묻히기"
+    },
+    {
+      "source_text": "声に呼ばれるものはもういない",
+      "translation_ko": "부름에 응할 자는 없다"
+    },
+    {
+      "source_text": "夢幻",
+      "translation_ko": "몽환"
+    },
+    {
+      "source_text": "天威の咆哮",
+      "translation_ko": "천위의 포효"
+    },
+    {
+      "source_text": "孤高の咆哮",
+      "translation_ko": "고고의 포효"
+    },
+    {
+      "source_text": "守護の咆哮",
+      "translation_ko": "수호의 포효"
+    },
+    {
+      "source_text": "審判の咆哮",
+      "translation_ko": "심판의 포효"
+    },
+    {
+      "source_text": "小魚ラッシュ",
+      "translation_ko": "치어 러시"
+    },
+    {
+      "source_text": "岩石落とし",
+      "translation_ko": "암석 떨구기"
+    },
+    {
+      "source_text": "影舞",
+      "translation_ko": "그림자 춤"
+    },
+    {
+      "source_text": "怒涛の咆哮",
+      "translation_ko": "노도의 포효"
+    },
+    {
+      "source_text": "怠惰の翼",
+      "translation_ko": "나태의 날개"
+    },
+    {
+      "source_text": "怨霊攻撃",
+      "translation_ko": "원령 공격"
+    },
+    {
+      "source_text": "惑いの粉",
+      "translation_ko": "혼란의 가루"
+    },
+    {
+      "source_text": "擬態",
+      "translation_ko": "의태"
+    },
+    {
+      "source_text": "支配の咆哮",
+      "translation_ko": "지배의 포효"
+    },
+    {
+      "source_text": "救いの蜜",
+      "translation_ko": "구원의 꿀"
+    },
+    {
+      "source_text": "敵の位置から範囲攻撃",
+      "translation_ko": "적 위치 범위 공격"
+    },
+    {
+      "source_text": "昆虫を呼ぶ",
+      "translation_ko": "곤충 부르기"
+    },
+    {
+      "source_text": "星の毒素",
+      "translation_ko": "별의 독소"
+    },
+    {
+      "source_text": "有害ガス",
+      "translation_ko": "유해 가스"
+    },
+    {
+      "source_text": "木の実攻撃",
+      "translation_ko": "나무 열매 공격"
+    },
+    {
+      "source_text": "機知の咆哮",
+      "translation_ko": "기지의 포효"
+    },
+    {
+      "source_text": "沈黙のリンプン",
+      "translation_ko": "침묵 날개가루"
+    },
+    {
+      "source_text": "深慮の咆哮",
+      "translation_ko": "심려의 포효"
+    },
+    {
+      "source_text": "混乱ガス",
+      "translation_ko": "혼란 가스"
+    },
+    {
+      "source_text": "溜める",
+      "translation_ko": "힘 모으기"
+    },
+    {
+      "source_text": "溜め攻撃",
+      "translation_ko": "모아 공격"
+    },
+    {
+      "source_text": "煉獄の咆哮",
+      "translation_ko": "연옥의 포효"
+    },
+    {
+      "source_text": "狂いの羽音",
+      "translation_ko": "광란의 날갯소리"
+    },
+    {
+      "source_text": "猛毒ガス",
+      "translation_ko": "맹독 가스"
+    },
+    {
+      "source_text": "疾駆け",
+      "translation_ko": "질주"
+    },
+    {
+      "source_text": "発散",
+      "translation_ko": "발산"
+    },
+    {
+      "source_text": "直接攻撃",
+      "translation_ko": "직접 공격"
+    },
+    {
+      "source_text": "真空波",
+      "translation_ko": "진공파"
+    },
+    {
+      "source_text": "眠りの粉",
+      "translation_ko": "수면 가루"
+    },
+    {
+      "source_text": "眠りの花粉",
+      "translation_ko": "수면 꽃가루"
+    },
+    {
+      "source_text": "突撃陣形",
+      "translation_ko": "돌격 진형"
+    },
+    {
+      "source_text": "範囲攻撃",
+      "translation_ko": "범위 공격"
+    },
+    {
+      "source_text": "範囲攻撃？",
+      "translation_ko": "범위 공격?"
+    },
+    {
+      "source_text": "純潔の咆哮",
+      "translation_ko": "순결의 포효"
+    },
+    {
+      "source_text": "自分の周りを攻撃",
+      "translation_ko": "자신 주변 공격"
+    },
+    {
+      "source_text": "花粉",
+      "translation_ko": "꽃가루"
+    },
+    {
+      "source_text": "花粉ばらまき",
+      "translation_ko": "꽃가루 흩뿌리기"
+    },
+    {
+      "source_text": "補助",
+      "translation_ko": "보조"
+    },
+    {
+      "source_text": "解放の咆哮",
+      "translation_ko": "해방의 포효"
+    },
+    {
+      "source_text": "許されざる大罪",
+      "translation_ko": "용서받지 못할 대죄"
+    },
+    {
+      "source_text": "超必殺技",
+      "translation_ko": "초필살기"
+    },
+    {
+      "source_text": "超音波",
+      "translation_ko": "초음파"
+    },
+    {
+      "source_text": "逃走",
+      "translation_ko": "도주"
+    },
+    {
+      "source_text": "閃刀・乱",
+      "translation_ko": "섬도·란"
+    },
+    {
+      "source_text": "閃刀・滅",
+      "translation_ko": "섬도·멸"
+    },
+    {
+      "source_text": "閃刀・蛟",
+      "translation_ko": "섬도·교"
+    },
+    {
+      "source_text": "雄叫び",
+      "translation_ko": "포효"
+    },
+    {
+      "source_text": "静寂ガス",
+      "translation_ko": "침묵 가스"
+    },
+    {
+      "source_text": "麻痺針",
+      "translation_ko": "마비침"
+    },
+    {
+      "source_text": "ＣＯＤＥ：Ａ",
+      "translation_ko": "CODE:A"
+    },
+    {
+      "source_text": "ＣＯＤＥ：Ｒ",
+      "translation_ko": "CODE:R"
+    },
+    {
+      "source_text": "ＣＯＤＥ：Ｓ",
+      "translation_ko": "CODE:S"
+    },
+    {
+      "source_text": "ＣＯＤＥ：Ｖ",
+      "translation_ko": "CODE:V"
+    },
+    {
+      "source_text": "ＣＯＤＥ：Ｗ",
+      "translation_ko": "CODE:W"
+    }
+  ]
+}

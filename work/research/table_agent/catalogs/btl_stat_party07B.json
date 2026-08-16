@@ -1,7 +1,7 @@
 {
   "format": "arf-rpjj99-non-bscr-table-v1",
   "game_id": "RPJJ99",
-  "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party07B.bin",
+  "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\btl_status_entries\\btl_stat_party07B.bin",
   "source_size": 14816,
   "source_sha256": "b1ab22c26e00f193eeb559d254c4f4de6b85fbfe9076dabab01a25271bab47a4",
   "schema": "btem",
@@ -10,7 +10,7 @@
   "metadata": {
     "header_size_word": 16,
     "data_offset": 384,
-    "name_capacity": 36
+    "name_capacity": 35
   },
   "unit_count": 1,
   "nonempty_count": 1,
@@ -23,9 +23,9 @@
       "field": "display_name",
       "offset": 384,
       "offset_hex": "0x180",
-      "capacity": 36,
+      "capacity": 35,
       "byte_length": 8,
-      "headroom": 27,
+      "headroom": 26,
       "nul_terminated": true,
       "raw_hex": "A5A2A5C7A1BCA5EB",
       "source_text": "アデール",

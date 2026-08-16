@@ -15,9 +15,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 RUNTIME = ROOT / "work" / "runtime_validation"
 DOLPHIN = ROOT / "work" / "tools" / "dolphin-2603a" / "Dolphin-x64" / "Dolphin.exe"
-BASE_USER = RUNTIME / "dolphin_user"
-USER = RUNTIME / "dolphin_user_final_validation"
+BASE_USER = RUNTIME / "dolphin_user_final_validation"
+USER = RUNTIME / "dolphin_user_final_v5"
 DESCRIPTOR = RUNTIME / "arc_rise_fantasia_ko_full.json"
+BASE_FILE = Path(r"F:\DOWN\Arc Rise Fantasia (Japan)\Arc Rise Fantasia (Japan).rvz")
 XML = (
     ROOT
     / "work"
@@ -37,11 +38,26 @@ SYSTEM_VOL = (
     / "system.vol"
 )
 MANIFEST = ROOT / "work" / "final_runtime_staging" / "staging_manifest.json"
-SESSION = RUNTIME / "final_runtime" / "full_runtime_session.json"
+SESSION = RUNTIME / "final_runtime_v5" / "full_runtime_session.json"
 
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest().upper()
+
+
+def rebind_descriptor() -> None:
+    """Bind the runtime descriptor to the project's current absolute path."""
+    descriptor = json.loads(DESCRIPTOR.read_text(encoding="utf-8-sig"))
+    patches = descriptor.get("riivolution", {}).get("patches", [])
+    if len(patches) != 1:
+        raise SystemExit(f"unexpected Riivolution patch count: {len(patches)}")
+    descriptor["base-file"] = str(BASE_FILE.resolve())
+    patches[0]["root"] = str(XML.parents[1].resolve())
+    patches[0]["xml"] = str(XML.resolve())
+    DESCRIPTOR.write_text(
+        json.dumps(descriptor, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def set_ini_value(text: str, key: str, value: str) -> str:
@@ -70,16 +86,18 @@ def set_ini_section_value(text: str, section: str, key: str, value: str) -> str:
 
 
 def main() -> int:
-    for path in (DOLPHIN, BASE_USER, DESCRIPTOR, XML, SYSTEM_VOL, MANIFEST):
+    for path in (DOLPHIN, BASE_FILE, BASE_USER, DESCRIPTOR, XML, SYSTEM_VOL, MANIFEST):
         if not path.exists():
             raise SystemExit(f"missing final runtime input: {path}")
+    rebind_descriptor()
+
     if USER.exists():
         shutil.rmtree(USER)
     shutil.copytree(
         BASE_USER,
         USER,
         ignore=shutil.ignore_patterns(
-            "Cache", "Logs", "play_rec.dat", "*.uidcache", "*.lock"
+            "Cache", "Logs", "Dump", "ScreenShots", "play_rec.dat", "*.uidcache", "*.lock", "*.avi"
         ),
     )
     ini = USER / "Config" / "Dolphin.ini"
@@ -89,6 +107,10 @@ def main() -> int:
     # Prove the corrected patch works with Dolphin's fast/default non-MMU path;
     # the broken build previously raised an invalid-read warning here.
     text = set_ini_value(text, "MMU", "False")
+    # Prove that the repaired build no longer depends on the unrelated disc-speed workaround.
+    text = set_ini_section_value(text, "Core", "FastDiscSpeed", "False")
+    # Keep the final evidence backend fixed and reproducible.
+    text = set_ini_section_value(text, "Core", "GFXBackend", "Vulkan")
     # Only one emulated controller should share the keyboard during the
     # evidence run.  Otherwise the same physical key can simultaneously act
     # as GameCube Start and Wii Remote HOME, making controller attribution
@@ -102,7 +124,7 @@ def main() -> int:
     wiimote_ini.write_text(wiimote_text, encoding="utf-8")
     gc_pad_ini = USER / "Config" / "GCPadNew.ini"
     gc_pad_text = gc_pad_ini.read_text(encoding="utf-8-sig")
-    gc_pad_text = set_ini_value(gc_pad_text, "Device", "")
+    gc_pad_text = set_ini_section_value(gc_pad_text, "GCPad1", "Device", "")
     gc_pad_ini.write_text(gc_pad_text, encoding="utf-8")
 
     SESSION.parent.mkdir(parents=True, exist_ok=True)
@@ -135,7 +157,7 @@ def main() -> int:
             "sha256": sha256(wiimote_ini),
         },
         "gc_pad_ini": {"path": str(gc_pad_ini.resolve()), "sha256": sha256(gc_pad_ini)},
-        "settings": {"EmulationSpeed": 1.0, "MMU": False, "UsePanicHandlers": True},
+        "settings": {"EmulationSpeed": 1.0, "MMU": False, "UsePanicHandlers": True, "FastDiscSpeed": False, "GFXBackend": "Vulkan"},
         "descriptor": {"path": str(DESCRIPTOR.resolve()), "sha256": sha256(DESCRIPTOR)},
         "xml": {"path": str(XML.resolve()), "sha256": sha256(XML)},
         "system_vol": {"path": str(SYSTEM_VOL.resolve()), "sha256": sha256(SYSTEM_VOL)},

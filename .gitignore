@@ -4,6 +4,10 @@
 *.wbfs
 *.sfd
 *.cxd
+*.vld
+*.vlh
+*.lz10
+*.efp
 *.vol
 *.dol
 *.wtm
@@ -94,3 +98,8 @@ node_modules/
 
 # Corrected compact system-table payloads are intentional source artifacts
 !/work/final_system_table_application/payloads/*.bin
+
+/work/validation/installer_fixture_workspace/
+/work/runtime_validation/final_runtime_v3/
+/work/runtime_validation/final_runtime_v4/
+/work/runtime_validation/full_verifier_sfd_repair_probe.json

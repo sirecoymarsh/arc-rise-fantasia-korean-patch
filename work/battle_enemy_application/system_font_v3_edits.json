@@ -1,0 +1,77 @@
+{
+  "format": "arf-container-edits-v1",
+  "edits": [
+    {
+      "entryPath": [
+        0
+      ],
+      "expectedSha256": "e8879b9bc06c1ab7cb5978eb73de141c0ca83b27653af933a2a66f54bb2aee01",
+      "replacementFile": "system_font_v3_inputs/EUC28-0.wtm",
+      "name": "EUC28-0.wtm"
+    },
+    {
+      "entryPath": [
+        1
+      ],
+      "expectedSha256": "e563b950365b09884c849c413bf3ce9247c974463c7594f53fcaecd53dc83e62",
+      "replacementFile": "system_font_v3_inputs/EUC28-1.wtm",
+      "name": "EUC28-1.wtm"
+    },
+    {
+      "entryPath": [
+        2
+      ],
+      "expectedSha256": "1a62efa8495af40a560a5ebbef208e75cdf9e9c8dd9754f1fce77165b0a5ac65",
+      "replacementFile": "system_font_v3_inputs/EUC28-2.wtm",
+      "name": "EUC28-2.wtm"
+    },
+    {
+      "entryPath": [
+        3
+      ],
+      "expectedSha256": "0c5cb57eee25f140cbb987acc3dd56c5f2d59fd575c8a3524e64c2bb82539ab2",
+      "replacementFile": "system_font_v3_inputs/EUC28-3.wtm",
+      "name": "EUC28-3.wtm"
+    },
+    {
+      "entryPath": [
+        4
+      ],
+      "expectedSha256": "f15973b74b54ba021f1f54e6ce2d76c75fe2b6c4e76253f6408f5f37eee30bd6",
+      "replacementFile": "system_font_v3_inputs/EUC28-4.wtm",
+      "name": "EUC28-4.wtm"
+    },
+    {
+      "entryPath": [
+        5
+      ],
+      "expectedSha256": "2e6c62c9f8b5547d739831309685b2e347174f318e89b86ec33980509b2b27d6",
+      "replacementFile": "system_font_v3_inputs/EUC28-5.wtm",
+      "name": "EUC28-5.wtm"
+    },
+    {
+      "entryPath": [
+        6
+      ],
+      "expectedSha256": "8f7cc3512fdb412b6bb06425ecf725b19a24b126f86228e64ce46aa93541546f",
+      "replacementFile": "system_font_v3_inputs/EUC28-6.wtm",
+      "name": "EUC28-6.wtm"
+    },
+    {
+      "entryPath": [
+        7
+      ],
+      "expectedSha256": "d684e81ab6545cc5c6b51c0fe660707f319d6fb5770558ea56f58110675ddfbe",
+      "replacementFile": "system_font_v3_inputs/EUC28-7.wtm",
+      "name": "EUC28-7.wtm"
+    },
+    {
+      "entryPath": [
+        8
+      ],
+      "expectedSha256": "e50a6cf68e93a8ce7bed166eb0465bea8060162f3aee8cd24b24373676253876",
+      "replacementFile": "system_font_v3_inputs/EUC28-8.wtm",
+      "name": "EUC28-8.wtm"
+    }
+  ]
+}

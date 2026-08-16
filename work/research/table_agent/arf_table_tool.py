@@ -289,13 +289,13 @@ def parse_btem(data: bytes) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     if len(data) < 0x1A4 or data[:4] != b"BTEM":
         raise ValueError("btem: bad/truncated magic")
     data_offset = struct.unpack_from(">I", data, 8)[0]
-    if not (0x10 <= data_offset <= len(data) - 36):
+    if not (0x10 <= data_offset <= len(data) - 35):
         raise ValueError("btem: invalid data/name offset")
-    raw, terminated = field_raw(data, data_offset, 36)
-    return [unit("btem", 0, "display_name", data_offset, 36, raw, terminated)], {
+    raw, terminated = field_raw(data, data_offset, 35)
+    return [unit("btem", 0, "display_name", data_offset, 35, raw, terminated)], {
         "header_size_word": struct.unpack_from(">I", data, 4)[0],
         "data_offset": data_offset,
-        "name_capacity": 36,
+        "name_capacity": 35,
     }
 
 

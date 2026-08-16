@@ -3,7 +3,7 @@
 
 The base staging builder owns the 655 translated game files.  This script
 adds only the separately reviewed runtime surfaces: HOME Button resources,
-ending-card WTMs, opening.bnr, the localized opening movie, and fixed-width
+ending-card WTMs, opening.bnr, and fixed-width
 main.dol strings expressed as Riivolution memory writes.  main.dol itself is
 never copied into the overlay.
 """
@@ -24,7 +24,7 @@ import xml.etree.ElementTree as ET
 
 GAME_ID = "RPJJ99"
 BASE_PHYSICAL_COUNT = 655
-SUPPLEMENTAL_PHYSICAL_COUNT = 28
+SUPPLEMENTAL_PHYSICAL_COUNT = 27
 EXPECTED_MEMORY_PATCHES = 925
 MAIN_DOL_SHA256 = "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
 
@@ -104,7 +104,6 @@ def supplemental_payloads(runtime_fix: Path) -> list[tuple[str, Path, bool, str]
         rows.append((f"Event/endroll/{name}", runtime_fix / f"endroll_ui/payloads/Event/endroll/{name}", False, "endroll"))
     rows.extend([
         ("opening.bnr", runtime_fix / "opening_bnr_ko/payloads/opening.bnr", True, "opening_bnr"),
-        ("Movie/RAY_OP_02.sfd", runtime_fix / "sfd_ko/payloads/Movie/RAY_OP_02.sfd", False, "opening_movie"),
     ])
     return rows
 
@@ -144,8 +143,6 @@ def main() -> int:
     endroll = load_json(args.runtime_fix / "endroll_ui/manifest.json")
     endroll_verification = load_json(args.runtime_fix / "endroll_ui/verification_summary.json")
     opening = load_json(args.runtime_fix / "opening_bnr_ko/opening_bnr_korean_payload_manifest.json")
-    sfd_remux = load_json(args.runtime_fix / "sfd_ko/sfd_video_replacement_report.json")
-    sfd_final = load_json(args.runtime_fix / "sfd_ko/sfd_final_validation.json")
     crossreview = load_json(args.runtime_fix / "main_dol_crossreview.json")
     visual_audit = load_json(args.runtime_fix / "visual_sweep/final_visual_surface_audit.json")
     require(hbm.get("static_validation", {}).get("valid") is True, "HBM manifest is not valid")
@@ -155,8 +152,6 @@ def main() -> int:
     require(endroll_verification.get("valid") is True, "endroll verification is not valid")
     require(opening.get("static_validation", {}).get("valid") is True or opening.get("valid") is True,
             "opening.bnr manifest is not valid")
-    require(sfd_remux.get("valid") is True, "SFD remux report is not valid")
-    require(sfd_final.get("valid") is True, "SFD final validation is not valid")
     require(crossreview.get("valid") is True, "main.dol cross-review is not valid")
     require(visual_audit.get("valid") is True, "final visual surface audit is not valid")
 
@@ -296,8 +291,6 @@ def main() -> int:
             "endroll_manifest_sha256": sha256_file(args.runtime_fix / "endroll_ui/manifest.json"),
             "endroll_verification_sha256": sha256_file(args.runtime_fix / "endroll_ui/verification_summary.json"),
             "opening_bnr_manifest_sha256": sha256_file(args.runtime_fix / "opening_bnr_ko/opening_bnr_korean_payload_manifest.json"),
-            "sfd_video_replacement_report_sha256": sha256_file(args.runtime_fix / "sfd_ko/sfd_video_replacement_report.json"),
-            "sfd_final_validation_sha256": sha256_file(args.runtime_fix / "sfd_ko/sfd_final_validation.json"),
             "final_visual_surface_audit_sha256": sha256_file(args.runtime_fix / "visual_sweep/final_visual_surface_audit.json"),
         },
         "physical_files": added,
