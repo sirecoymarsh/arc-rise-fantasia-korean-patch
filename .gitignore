@@ -108,3 +108,5 @@ node_modules/
 /work/runtime_validation/residue_audit_*_capture.stdout.log
 /work/runtime_validation/residue_audit_*_capture.stderr.log
 /work/runtime_validation/btl_auto_demo_text_probe.json
+/work/research/ui_residue/
+/work/runtime_validation/imported_saves/

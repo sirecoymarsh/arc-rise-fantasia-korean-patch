@@ -16,7 +16,7 @@ RUN = ROOT / "work/runtime_validation/final_runtime_v5"
 OUT = RUN / "final_v6_runtime_probe.json"
 SESSION = RUN / "full_runtime_session.json"
 STAGING = ROOT / "work/final_runtime_staging/staging_manifest.json"
-PACKAGE = ROOT / "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0/MANIFEST.json"
+PACKAGE = ROOT / "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.2/MANIFEST.json"
 FILES = (
     "final_v6_probe_35s.png",
     "final_v6_wyvern_01.png",

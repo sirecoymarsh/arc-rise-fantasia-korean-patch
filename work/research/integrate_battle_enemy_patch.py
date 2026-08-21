@@ -125,7 +125,7 @@ def main():
     file_count = len(file_nodes)
     memory_count = len(memory_nodes)
     resize_true = sum(n.attrib.get("resize", "false").lower() == "true" for n in file_nodes)
-    need((file_count, memory_count, resize_true) == (683, 925, 559), "unexpected XML counts")
+    need((file_count, memory_count, resize_true) == (684, 925, 560), "unexpected XML counts")
 
     doc = rebind(load(MANIFEST))
     supplemental = doc["supplemental_runtime_patch"]
@@ -133,7 +133,7 @@ def main():
         row for row in supplemental.get("physical_files", [])
         if row.get("physical_path") != "Movie/RAY_OP_02.sfd"
     ]
-    supplemental["physical_count"] = 27
+    supplemental["physical_count"] = 28
     artifacts = supplemental.get("artifacts", {})
     artifacts.pop("sfd_video_replacement_report_sha256", None)
     artifacts.pop("sfd_final_validation_sha256", None)
@@ -166,8 +166,8 @@ def main():
     inputs["font_v3_injection_verification"] = {"path": str(inject_verify_path), "sha256": h(inject_verify_path)}
 
     doc["counts"].update({
-        "supplemental_physical_files": 27,
-        "staged_physical_files": 683, "riivolution_file_rules": 683,
+        "supplemental_physical_files": 28,
+        "staged_physical_files": 684, "riivolution_file_rules": 684,
         "battle_enemy_entries": 270, "battle_enemy_display_name_occurrences": 270,
         "battle_enemy_alternate_display_name_occurrences": 87,
         "battle_enemy_part_name_occurrences": 3,
@@ -203,7 +203,7 @@ def main():
         "output_size": app["output"]["vld_size"],
     })
     rows.sort(key=lambda r: r["physical_path"].lower())
-    static["staged_file_count"] = 683
+    static["staged_file_count"] = 684
 
     local = static["local_physical_reports"]
     usual = staged_row(local, "Btl/btl_usual.vol")
@@ -256,7 +256,7 @@ def main():
     physical = sorted(path for path in FILES.rglob("*") if path.is_file())
     rules = {n.attrib["external"].replace("\\", "/") for n in file_nodes}
     actual = {path.relative_to(FILES).as_posix() for path in physical}
-    need(len(physical) == 683 and rules == actual, "physical/XML file set mismatch")
+    need(len(physical) == 684 and rules == actual, "physical/XML file set mismatch")
     for row in rows:
         path = FILES / Path(row["physical_path"])
         need(path.is_file(), f"missing staged file: {row['physical_path']}")

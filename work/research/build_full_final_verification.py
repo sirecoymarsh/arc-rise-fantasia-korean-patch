@@ -49,8 +49,8 @@ EXPECTED_IMAGE_TARGETS = 44
 EXPECTED_IMAGE_PHYSICAL = 43
 EXPECTED_SUPPLEMENTAL_PHYSICAL = 28
 EXPECTED_MAIN_DOL_MEMORY_PATCHES = 925
-EXPECTED_OVERLAY_PHYSICAL = 683
-EXPECTED_RELEASE_OVERLAY_FILES = 684  # 683 game replacements + Riivolution XML
+EXPECTED_OVERLAY_PHYSICAL = 684
+EXPECTED_RELEASE_OVERLAY_FILES = 685  # 684 game replacements + Riivolution XML
 EXPECTED_BSCR_LEAVES = 606
 EXPECTED_BSCR_OCCURRENCES = 79_076
 EXPECTED_TABLE_LEAVES = 15
@@ -2109,7 +2109,7 @@ def safe_zip_name(name: str, package_name: str) -> bool:
 
 def verify_release(lane: Lane, context: dict[str, Any]) -> None:
     outputs = ROOT / "outputs"
-    package_name = "Arc_Rise_Fantasia_Korean_Patch_v1.0"
+    package_name = "Arc_Rise_Fantasia_Korean_Patch_v1.0.2"
     package = outputs / package_name
     zip_path = outputs / f"{package_name}.zip"
     checksum_path = outputs / f"{package_name}.zip.sha256"

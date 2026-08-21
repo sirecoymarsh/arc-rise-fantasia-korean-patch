@@ -178,7 +178,7 @@ def main() -> int:
 
     staging = load(PATHS["staging_manifest"])
     check("current_staging_retains_closed_counts",
-          staging.get("counts", {}).get("staged_physical_files") == 683
+          staging.get("counts", {}).get("staged_physical_files") == 684
           and staging.get("counts", {}).get("battle_enemy_translation_occurrences") == 1032
           and staging.get("counts", {}).get("system_text_residue_translation_occurrences") == 30)
 

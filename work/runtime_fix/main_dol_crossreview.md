@@ -2,8 +2,8 @@
 
 - 판정: **PASS**
 - 검수 범위: 사용자 표시 문자열 **925건 전수**
-- 교정: **146건**, 유지: **779건**
-- 최종 JSONL SHA-256: `1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3`
+- 교정: **147건**, 유지: **778건**
+- 최종 JSONL SHA-256: `64154B1F06422FD26C1D67C4D410DE8FF727D1ECA396CC577CABC60EFDC53DBA`
 - 외부 번역 도구/API: **사용하지 않음** (Codex 내부 모델만 사용)
 
 ## 대조 결과
@@ -17,7 +17,7 @@
 - 원본 main.dol SHA-256: `4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC`
 - raw/offset/NUL/capacity/printf/newline/ASCII 제어 접두사/일본어 잔존 검사: 모두 PASS
 - 패처: 925행 적용, 파일 크기 보존, 원문 raw 전부 확인, 종단 NUL 전부 보존, 변경 범위 allowlist 내부 — PASS
-- 검증용 패치 DOL SHA-256: `2FF34AC7A78176DD2464ACA4DF925D5B70507CC98111D94091C5F1824626AC2C`
+- 검증용 패치 DOL SHA-256: `6BD08B12F0258BBDAF57371BA0B0D58A2D2444B658B689CEB200AE06DC9F9991`
 
 ## 글꼴 의존성
 
@@ -31,4 +31,4 @@
 - 예술가→예술로, 정리의방→섭리의방, 루푼가→루훙가 등 의미 오류 교정
 - ON/OFF를 켬/끔으로 통일
 
-전체 146건의 원문·이전 번역·최종 번역·용량·사유는 `main_dol_crossreview_changes.json`에 기록했다.
+전체 147건의 원문·이전 번역·최종 번역·용량·사유는 `main_dol_crossreview_changes.json`에 기록했다.

@@ -1,0 +1,4636 @@
+{
+  "schema": "arf-if-resident-korean-ui-application-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_services_used": [],
+  "source": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd",
+    "size_bytes": 1325076,
+    "sha256": "09E6816C21AF70DDA1A7E474D0E25C50E0C3E9477E8313A8AFA922DE6172D359"
+  },
+  "translation_manifest": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\ui_image_residue\\ui_image_translations.json",
+    "sha256": "C5104B535104A55AFC84C256C752F65D35CF05FA5D323D5D3A773A76774A48F1"
+  },
+  "font": {
+    "path": "C:\\Windows\\Fonts\\malgunbd.ttf",
+    "sha256": "E8CBC0B2AFCC14FB45DFB6086D5102C0B23A96E7B6E708F3122ACDE1B86C9082"
+  },
+  "output": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\ui_residue_application\\payloads\\interface\\if_resident_vol.cxd",
+    "size_bytes": 1260716,
+    "sha256": "B28E29B28D1CFB640E4C45FAB447D71AB50B5021C37DC1628A13B15FBCC63854"
+  },
+  "counts": {
+    "translated_wtmd_entries": 68,
+    "translated_text_items": 155,
+    "verified_edited_entries": 68,
+    "verified_untouched_inner_entries": 445,
+    "render_fit_checks": 155,
+    "render_overflows": 0
+  },
+  "container_rebuild_report": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\ui_residue_application\\container_rebuild_report.json",
+    "sha256": "3415A61D376150C7903EE03B2195244B1FFBED25CC76E32B30ACCD1E64FC780A"
+  },
+  "entries": [
+    {
+      "entry_path": [
+        0,
+        287
+      ],
+      "outer_name": "tex_shared.vol",
+      "inner_name": "tex_shared_tab_moji.wtm",
+      "layout": "shared_tab_atlas",
+      "source_sha256": "23B427A8B756E99E0E6AACEF786D47C622071B3331C9D140D86BE1AD1A95DCB4",
+      "output_sha256": "E91461B941740D4437ED297BDD5A079AC91C1D0FBE3540712045F0A445FD63EA",
+      "size_bytes": 17952,
+      "width": 128,
+      "height": 136,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 11,
+      "stable_ids": [
+        "ARF-UI-IFR-00-287-01",
+        "ARF-UI-IFR-00-287-02",
+        "ARF-UI-IFR-00-287-03",
+        "ARF-UI-IFR-00-287-04",
+        "ARF-UI-IFR-00-287-05",
+        "ARF-UI-IFR-00-287-06",
+        "ARF-UI-IFR-00-287-07",
+        "ARF-UI-IFR-00-287-08",
+        "ARF-UI-IFR-00-287-09",
+        "ARF-UI-IFR-00-287-10",
+        "ARF-UI-IFR-00-287-11"
+      ],
+      "preview_png": "previews/00_287.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-00-287-01",
+          "target_ko": "작전",
+          "box": [
+            0,
+            16,
+            54,
+            40
+          ],
+          "rendered_bbox": [
+            11,
+            20,
+            43,
+            36
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-02",
+          "target_ko": "목록",
+          "box": [
+            105,
+            16,
+            128,
+            40
+          ],
+          "rendered_bbox": [
+            105,
+            22,
+            127,
+            33
+          ],
+          "font_size": 10,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-03",
+          "target_ko": "미계약",
+          "box": [
+            0,
+            40,
+            60,
+            64
+          ],
+          "rendered_bbox": [
+            6,
+            44,
+            53,
+            60
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-04",
+          "target_ko": "진행 중",
+          "box": [
+            60,
+            40,
+            128,
+            64
+          ],
+          "rendered_bbox": [
+            68,
+            44,
+            120,
+            60
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-05",
+          "target_ko": "완료",
+          "box": [
+            0,
+            64,
+            52,
+            88
+          ],
+          "rendered_bbox": [
+            10,
+            68,
+            42,
+            84
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-06",
+          "target_ko": "마을",
+          "box": [
+            52,
+            64,
+            104,
+            88
+          ],
+          "rendered_bbox": [
+            62,
+            68,
+            94,
+            84
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-07",
+          "target_ko": "터프",
+          "box": [
+            104,
+            64,
+            128,
+            88
+          ],
+          "rendered_bbox": [
+            104,
+            70,
+            128,
+            82
+          ],
+          "font_size": 11,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-08",
+          "target_ko": "던전",
+          "box": [
+            0,
+            88,
+            67,
+            112
+          ],
+          "rendered_bbox": [
+            17,
+            92,
+            49,
+            108
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-09",
+          "target_ko": "달그림자",
+          "box": [
+            67,
+            88,
+            128,
+            112
+          ],
+          "rendered_bbox": [
+            76,
+            94,
+            118,
+            106
+          ],
+          "font_size": 10,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-10",
+          "target_ko": "서바이벌",
+          "box": [
+            0,
+            112,
+            72,
+            136
+          ],
+          "rendered_bbox": [
+            5,
+            115,
+            67,
+            132
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-00-287-11",
+          "target_ko": "그룹",
+          "box": [
+            72,
+            112,
+            128,
+            136
+          ],
+          "rendered_bbox": [
+            84,
+            116,
+            116,
+            131
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        0,
+        289
+      ],
+      "outer_name": "tex_shared.vol",
+      "inner_name": "tex_shared_title_ability.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "FD9475B7D71D532080F116CA78AD3158FECF183A836D27750771A49AE060B152",
+      "output_sha256": "A5AC4B40DAACF72C70F77C8CE73CC38542FC7A6430C4975EE28EF9C78E2AE746",
+      "size_bytes": 448,
+      "width": 48,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-00-289-01"
+      ],
+      "preview_png": "previews/00_289.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-00-289-01",
+          "target_ko": "능력치",
+          "box": [
+            0,
+            0,
+            48,
+            16
+          ],
+          "rendered_bbox": [
+            3,
+            1,
+            44,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        0,
+        294
+      ],
+      "outer_name": "tex_shared.vol",
+      "inner_name": "tex_shared_title_name.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "E3B7B0E78653375D5C52C6E103F95FC9A04218AEC121403B463F58F60F70F83C",
+      "output_sha256": "4F0ACFBCA32CDA31358EDF0FFB3F3779696EE0B6687AE7C8AEE2A66FD4DE8592",
+      "size_bytes": 384,
+      "width": 40,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-00-294-01"
+      ],
+      "preview_png": "previews/00_294.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-00-294-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            6,
+            1,
+            34,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        2
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "6BB0968DBB1A19A90878AA1BFFB0902B504C937A9CB425C81D784D7AF6763ECA",
+      "output_sha256": "07B8AB46A27470782B2001B96A4E0959C6B5DFEA61706E58AF142E449914D464",
+      "size_bytes": 8512,
+      "width": 88,
+      "height": 192,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 8,
+      "stable_ids": [
+        "ARF-UI-IFR-06-002-01",
+        "ARF-UI-IFR-06-002-02",
+        "ARF-UI-IFR-06-002-03",
+        "ARF-UI-IFR-06-002-04",
+        "ARF-UI-IFR-06-002-05",
+        "ARF-UI-IFR-06-002-06",
+        "ARF-UI-IFR-06-002-07",
+        "ARF-UI-IFR-06-002-08"
+      ],
+      "preview_png": "previews/06_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-002-01",
+          "target_ko": "아이템",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            32,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-02",
+          "target_ko": "광소술",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            32,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-03",
+          "target_ko": "무기",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            50,
+            50,
+            88,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-04",
+          "target_ko": "방어구",
+          "box": [
+            1,
+            72,
+            88,
+            96
+          ],
+          "rendered_bbox": [
+            32,
+            74,
+            88,
+            93
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-05",
+          "target_ko": "전투 설정",
+          "box": [
+            1,
+            96,
+            88,
+            120
+          ],
+          "rendered_bbox": [
+            8,
+            98,
+            88,
+            117
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-06",
+          "target_ko": "지도",
+          "box": [
+            1,
+            120,
+            88,
+            144
+          ],
+          "rendered_bbox": [
+            50,
+            122,
+            88,
+            141
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-07",
+          "target_ko": "라이브러리",
+          "box": [
+            1,
+            144,
+            88,
+            168
+          ],
+          "rendered_bbox": [
+            1,
+            147,
+            88,
+            165
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-002-08",
+          "target_ko": "시스템",
+          "box": [
+            1,
+            168,
+            88,
+            192
+          ],
+          "rendered_bbox": [
+            32,
+            170,
+            88,
+            189
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        3
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji2.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "0C8B4D08DD6BE0B6DCADFA600289A163A95AA77266BBB49600C9D3642FCBD133",
+      "output_sha256": "09ABE226486BD7D991280CB344F1E33E8BF47A14933ACBFFD77293BB54140955",
+      "size_bytes": 19072,
+      "width": 88,
+      "height": 432,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 18,
+      "stable_ids": [
+        "ARF-UI-IFR-06-003-01",
+        "ARF-UI-IFR-06-003-02",
+        "ARF-UI-IFR-06-003-03",
+        "ARF-UI-IFR-06-003-04",
+        "ARF-UI-IFR-06-003-05",
+        "ARF-UI-IFR-06-003-06",
+        "ARF-UI-IFR-06-003-07",
+        "ARF-UI-IFR-06-003-08",
+        "ARF-UI-IFR-06-003-09",
+        "ARF-UI-IFR-06-003-10",
+        "ARF-UI-IFR-06-003-11",
+        "ARF-UI-IFR-06-003-12",
+        "ARF-UI-IFR-06-003-13",
+        "ARF-UI-IFR-06-003-14",
+        "ARF-UI-IFR-06-003-15",
+        "ARF-UI-IFR-06-003-16",
+        "ARF-UI-IFR-06-003-17",
+        "ARF-UI-IFR-06-003-18"
+      ],
+      "preview_png": "previews/06_003.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-003-01",
+          "target_ko": "상태",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            50,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-02",
+          "target_ko": "엑셀 액트",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            8,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-03",
+          "target_ko": "의상",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            50,
+            50,
+            88,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-04",
+          "target_ko": "사용",
+          "box": [
+            1,
+            72,
+            88,
+            96
+          ],
+          "rendered_bbox": [
+            50,
+            74,
+            88,
+            93
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-05",
+          "target_ko": "케이지",
+          "box": [
+            1,
+            96,
+            88,
+            120
+          ],
+          "rendered_bbox": [
+            32,
+            98,
+            88,
+            117
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-06",
+          "target_ko": "암 포스",
+          "box": [
+            1,
+            120,
+            88,
+            144
+          ],
+          "rendered_bbox": [
+            26,
+            122,
+            88,
+            141
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-07",
+          "target_ko": "장비",
+          "box": [
+            1,
+            144,
+            88,
+            168
+          ],
+          "rendered_bbox": [
+            50,
+            146,
+            88,
+            165
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-08",
+          "target_ko": "작전 설정",
+          "box": [
+            1,
+            168,
+            88,
+            192
+          ],
+          "rendered_bbox": [
+            8,
+            170,
+            88,
+            189
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-09",
+          "target_ko": "파티 편성",
+          "box": [
+            1,
+            192,
+            88,
+            216
+          ],
+          "rendered_bbox": [
+            8,
+            194,
+            88,
+            213
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-10",
+          "target_ko": "로그레스",
+          "box": [
+            1,
+            216,
+            88,
+            240
+          ],
+          "rendered_bbox": [
+            14,
+            218,
+            88,
+            237
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-11",
+          "target_ko": "주변 지도",
+          "box": [
+            1,
+            240,
+            88,
+            264
+          ],
+          "rendered_bbox": [
+            8,
+            242,
+            88,
+            261
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-12",
+          "target_ko": "세계 지도",
+          "box": [
+            1,
+            264,
+            88,
+            288
+          ],
+          "rendered_bbox": [
+            8,
+            266,
+            88,
+            285
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-13",
+          "target_ko": "용병 안내",
+          "box": [
+            1,
+            288,
+            88,
+            312
+          ],
+          "rendered_bbox": [
+            8,
+            290,
+            88,
+            309
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-14",
+          "target_ko": "길드 수첩",
+          "box": [
+            1,
+            312,
+            88,
+            336
+          ],
+          "rendered_bbox": [
+            8,
+            314,
+            88,
+            333
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-15",
+          "target_ko": "몬스터 도감",
+          "box": [
+            1,
+            336,
+            88,
+            360
+          ],
+          "rendered_bbox": [
+            6,
+            340,
+            88,
+            356
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-16",
+          "target_ko": "저장",
+          "box": [
+            1,
+            360,
+            88,
+            384
+          ],
+          "rendered_bbox": [
+            50,
+            362,
+            88,
+            381
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-17",
+          "target_ko": "불러오기",
+          "box": [
+            1,
+            384,
+            88,
+            408
+          ],
+          "rendered_bbox": [
+            14,
+            386,
+            88,
+            405
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-003-18",
+          "target_ko": "설정",
+          "box": [
+            1,
+            408,
+            88,
+            432
+          ],
+          "rendered_bbox": [
+            50,
+            410,
+            88,
+            429
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        4
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_arena.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "C7CED8542299E2FCC683926C9380A6F68B1566DC1C6A9A72F1DCEC8D1D9410DD",
+      "output_sha256": "AA944001D4305EE27A8ECAA47B84DA0778B09E83C79AEE154773C3E37E75DD79",
+      "size_bytes": 2176,
+      "width": 88,
+      "height": 48,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 2,
+      "stable_ids": [
+        "ARF-UI-IFR-06-004-01",
+        "ARF-UI-IFR-06-004-02"
+      ],
+      "preview_png": "previews/06_004.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-004-01",
+          "target_ko": "참가하기",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            14,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-004-02",
+          "target_ko": "나가기",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            32,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        5
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_casino.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "3CB937AB99B9A3DBEF949BA1A7CB52281CEE6DAF71868961BEF359D90F0137E3",
+      "output_sha256": "1F17D06BFC4E835B6FADB884F2C33FC8662E31775468D87CE8E4CF107C687335",
+      "size_bytes": 5344,
+      "width": 88,
+      "height": 120,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 5,
+      "stable_ids": [
+        "ARF-UI-IFR-06-005-01",
+        "ARF-UI-IFR-06-005-02",
+        "ARF-UI-IFR-06-005-03",
+        "ARF-UI-IFR-06-005-04",
+        "ARF-UI-IFR-06-005-05"
+      ],
+      "preview_png": "previews/06_005.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-005-01",
+          "target_ko": "게임하기",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            14,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-005-02",
+          "target_ko": "코인 구매",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            8,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-005-03",
+          "target_ko": "경품 교환",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            8,
+            50,
+            88,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-005-04",
+          "target_ko": "설명 듣기",
+          "box": [
+            1,
+            72,
+            88,
+            96
+          ],
+          "rendered_bbox": [
+            8,
+            74,
+            88,
+            93
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-005-05",
+          "target_ko": "나가기",
+          "box": [
+            1,
+            96,
+            88,
+            120
+          ],
+          "rendered_bbox": [
+            32,
+            98,
+            88,
+            117
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        6
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_casino2.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "591A85F54262070475B1C47D09A6B7084B8BF516ABEBCBC818724972A52F4EB1",
+      "output_sha256": "E240A31F49C75BCAF37DD014B293A04585D820CD84632C2841895E608D4F510B",
+      "size_bytes": 5344,
+      "width": 88,
+      "height": 120,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 5,
+      "stable_ids": [
+        "ARF-UI-IFR-06-006-01",
+        "ARF-UI-IFR-06-006-02",
+        "ARF-UI-IFR-06-006-03",
+        "ARF-UI-IFR-06-006-04",
+        "ARF-UI-IFR-06-006-05"
+      ],
+      "preview_png": "previews/06_006.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-006-01",
+          "target_ko": "슬롯",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            50,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-006-02",
+          "target_ko": "포커",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            50,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-006-03",
+          "target_ko": "블랙잭",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            32,
+            50,
+            88,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-006-04",
+          "target_ko": "코핀 레이스",
+          "box": [
+            1,
+            72,
+            88,
+            96
+          ],
+          "rendered_bbox": [
+            6,
+            76,
+            88,
+            92
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-006-05",
+          "target_ko": "돌아가기",
+          "box": [
+            1,
+            96,
+            88,
+            120
+          ],
+          "rendered_bbox": [
+            14,
+            98,
+            88,
+            117
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        7
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_customize.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "033BC8A9C0BFC9B2DD7C83760E0A1F5A828120D8D43B416E4D5C88A144C2976C",
+      "output_sha256": "152CE3059C53FFF4A07A46F2F0FDA3783ED23B93BFE3E52D9324C0D826A98BE3",
+      "size_bytes": 4288,
+      "width": 88,
+      "height": 96,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 4,
+      "stable_ids": [
+        "ARF-UI-IFR-06-007-01",
+        "ARF-UI-IFR-06-007-02",
+        "ARF-UI-IFR-06-007-03",
+        "ARF-UI-IFR-06-007-04"
+      ],
+      "preview_png": "previews/06_007.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-007-01",
+          "target_ko": "케이지 가공",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            6,
+            4,
+            88,
+            20
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-007-02",
+          "target_ko": "젬 복구",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            26,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-007-03",
+          "target_ko": "판매",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            50,
+            50,
+            88,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-007-04",
+          "target_ko": "상점 나가기",
+          "box": [
+            1,
+            72,
+            88,
+            96
+          ],
+          "rendered_bbox": [
+            6,
+            76,
+            88,
+            92
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        8
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_equipment_shop.w",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "CF2D432FB6453C5BDF0A50AB23D9E85A70E47D38CCC37557B7D096ED338E4F89",
+      "output_sha256": "21CC6354BC87DF38B0D4A0ECB6AF2667D7D91B12F48AE5F56C80CCF826D5C53B",
+      "size_bytes": 4288,
+      "width": 88,
+      "height": 96,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 4,
+      "stable_ids": [
+        "ARF-UI-IFR-06-008-01",
+        "ARF-UI-IFR-06-008-02",
+        "ARF-UI-IFR-06-008-03",
+        "ARF-UI-IFR-06-008-04"
+      ],
+      "preview_png": "previews/06_008.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-008-01",
+          "target_ko": "구매",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            50,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-008-02",
+          "target_ko": "판매",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            50,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-008-03",
+          "target_ko": "방어구 장비",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            6,
+            52,
+            88,
+            68
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-008-04",
+          "target_ko": "상점 나가기",
+          "box": [
+            1,
+            72,
+            88,
+            96
+          ],
+          "rendered_bbox": [
+            6,
+            76,
+            88,
+            92
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        9
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_guild.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "75623FD2E9742B960886074F817458283F4175D0EF42F42948D1A79ED660B28E",
+      "output_sha256": "EEDB9D055BDC03ED67E1D3246CC8B87D3D65E16BF9A7DB60EEEF0FBDDDE8EF63",
+      "size_bytes": 3232,
+      "width": 88,
+      "height": 72,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 3,
+      "stable_ids": [
+        "ARF-UI-IFR-06-009-01",
+        "ARF-UI-IFR-06-009-02",
+        "ARF-UI-IFR-06-009-03"
+      ],
+      "preview_png": "previews/06_009.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-009-01",
+          "target_ko": "퀘스트 선택",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            6,
+            4,
+            88,
+            20
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-009-02",
+          "target_ko": "설명 듣기",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            8,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-009-03",
+          "target_ko": "나가기",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            32,
+            50,
+            88,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        10
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_hotel.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "9A801457683B46839F8EC4EA87C9EC6632D53B3BB89A963590FDADCF9A7132EA",
+      "output_sha256": "10880D8E57DA019815D2EBF3C93E4E84A40035F1446B67818FF2B308D61F966E",
+      "size_bytes": 2176,
+      "width": 88,
+      "height": 48,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 2,
+      "stable_ids": [
+        "ARF-UI-IFR-06-010-01",
+        "ARF-UI-IFR-06-010-02"
+      ],
+      "preview_png": "previews/06_010.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-010-01",
+          "target_ko": "숙박하기",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            14,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-010-02",
+          "target_ko": "나가기",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            32,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        6,
+        11
+      ],
+      "outer_name": "if_heading.vol",
+      "inner_name": "if_heading_moji_item_shop.wtm",
+      "layout": "heading_rows_24_right",
+      "source_sha256": "0FA7EC199C4F858878F6EFCB6095B06C76F1030F13A8B6926C8893B6861BD6D9",
+      "output_sha256": "9438701F087B623FBAD3ABA345E4E32BB5E41A8162F88E6409CCCE3E620D6693",
+      "size_bytes": 3232,
+      "width": 88,
+      "height": 72,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 3,
+      "stable_ids": [
+        "ARF-UI-IFR-06-011-01",
+        "ARF-UI-IFR-06-011-02",
+        "ARF-UI-IFR-06-011-03"
+      ],
+      "preview_png": "previews/06_011.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-06-011-01",
+          "target_ko": "구매",
+          "box": [
+            1,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            50,
+            2,
+            88,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-011-02",
+          "target_ko": "판매",
+          "box": [
+            1,
+            24,
+            88,
+            48
+          ],
+          "rendered_bbox": [
+            50,
+            26,
+            88,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-06-011-03",
+          "target_ko": "상점 나가기",
+          "box": [
+            1,
+            48,
+            88,
+            72
+          ],
+          "rendered_bbox": [
+            6,
+            52,
+            88,
+            68
+          ],
+          "font_size": 15,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        10,
+        1
+      ],
+      "outer_name": "if_list.vol",
+      "inner_name": "if_list_title.wtm",
+      "layout": "list_title_2rows",
+      "source_sha256": "014F4AA25C11D00074B05DC855ABD1B86C134719AEDB57814B81D222C2311420",
+      "output_sha256": "8BCE40E3EAF7F2C7312422AF65D8454689C90FA9EBFA2C89479B8EFCD5331FCB",
+      "size_bytes": 704,
+      "width": 40,
+      "height": 32,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 2,
+      "stable_ids": [
+        "ARF-UI-IFR-10-001-01",
+        "ARF-UI-IFR-10-001-02"
+      ],
+      "preview_png": "previews/10_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-10-001-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            6,
+            1,
+            34,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-10-001-02",
+          "target_ko": "수량",
+          "box": [
+            0,
+            16,
+            40,
+            32
+          ],
+          "rendered_bbox": [
+            6,
+            17,
+            34,
+            31
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        15,
+        2
+      ],
+      "outer_name": "if_element.vol",
+      "inner_name": "if_element_title.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "3B0580130268AD5816B9D79E2CE43D650E5639CA4959A8D124657A12001562CC",
+      "output_sha256": "0C7C5D61D9126CCE38D32B866AF16BB6CC3C2488B97CFD88262492171A9E374B",
+      "size_bytes": 576,
+      "width": 64,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-15-002-01"
+      ],
+      "preview_png": "previews/15_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-15-002-01",
+          "target_ko": "속성 내성",
+          "box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "rendered_bbox": [
+            2,
+            1,
+            61,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        16,
+        2
+      ],
+      "outer_name": "if_equipment.vol",
+      "inner_name": "if_equipment_moji2.wtm",
+      "layout": "equipment_logres_rows",
+      "source_sha256": "170F8F86698AC3F522EC8CBBF80E525A83B988FC48C39315AF251CB2B7D3FCAD",
+      "output_sha256": "30B292073FDF7E26D90F56F16D539D6DDC911D178ED9112E145F0E07ED8DF9A4",
+      "size_bytes": 4576,
+      "width": 112,
+      "height": 80,
+      "gx": "C4",
+      "palette": "IA8",
+      "translation_count": 3,
+      "stable_ids": [
+        "ARF-UI-IFR-16-002-01",
+        "ARF-UI-IFR-16-002-02",
+        "ARF-UI-IFR-16-002-03"
+      ],
+      "preview_png": "previews/16_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-16-002-01",
+          "target_ko": "로그레스 I",
+          "box": [
+            0,
+            0,
+            112,
+            27
+          ],
+          "rendered_bbox": [
+            15,
+            4,
+            96,
+            22
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-16-002-02",
+          "target_ko": "로그레스 II",
+          "box": [
+            0,
+            27,
+            112,
+            54
+          ],
+          "rendered_bbox": [
+            13,
+            31,
+            99,
+            49
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-16-002-03",
+          "target_ko": "로그레스 III",
+          "box": [
+            0,
+            54,
+            112,
+            80
+          ],
+          "rendered_bbox": [
+            10,
+            58,
+            101,
+            76
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        16,
+        3
+      ],
+      "outer_name": "if_equipment.vol",
+      "inner_name": "if_equipment_title_current_equip",
+      "layout": "single_cyan_16",
+      "source_sha256": "99140E972FEEAAFA183B265ECBBD10D5B86AECE56B7E2FD15E79DC533425824F",
+      "output_sha256": "847A16AD48277D1D7FDD91BC6AEB1C0B8A14D3386474BC3E4AAA7BFE934D2441",
+      "size_bytes": 576,
+      "width": 64,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-16-003-01"
+      ],
+      "preview_png": "previews/16_003.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-16-003-01",
+          "target_ko": "현재 장비",
+          "box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "rendered_bbox": [
+            2,
+            1,
+            61,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        16,
+        4
+      ],
+      "outer_name": "if_equipment.vol",
+      "inner_name": "if_equipment_title_dragons.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "69F531F2ED33620455E1F83033365B58FA4794495E94A54EF6B2707883C75390",
+      "output_sha256": "0B8C4ACBD7C78FE8A02CCFD944A65765456C6987236AB034D75A4C548C1303BC",
+      "size_bytes": 640,
+      "width": 72,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-16-004-01"
+      ],
+      "preview_png": "previews/16_004.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-16-004-01",
+          "target_ko": "동기 로그레스",
+          "box": [
+            0,
+            0,
+            72,
+            16
+          ],
+          "rendered_bbox": [
+            0,
+            2,
+            72,
+            14
+          ],
+          "font_size": 11,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        18,
+        2
+      ],
+      "outer_name": "if_caption.vol",
+      "inner_name": "if_caption_title_current_equipme",
+      "layout": "single_cyan_16",
+      "source_sha256": "99140E972FEEAAFA183B265ECBBD10D5B86AECE56B7E2FD15E79DC533425824F",
+      "output_sha256": "847A16AD48277D1D7FDD91BC6AEB1C0B8A14D3386474BC3E4AAA7BFE934D2441",
+      "size_bytes": 576,
+      "width": 64,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-18-002-01"
+      ],
+      "preview_png": "previews/18_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-18-002-01",
+          "target_ko": "현재 장비",
+          "box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "rendered_bbox": [
+            2,
+            1,
+            61,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        20,
+        1
+      ],
+      "outer_name": "if_shop.vol",
+      "inner_name": "if_shop_title.wtm",
+      "layout": "shop_title_grid",
+      "source_sha256": "7F352F9F2560E9302211AFAA320EBBB5792555F12BB3A3DB49B3A9085741B7A9",
+      "output_sha256": "F350DE26084F8DBF2FD2ED61EBCD9C3D8480D485AE4B11507E9811AFB83A0ABB",
+      "size_bytes": 2240,
+      "width": 136,
+      "height": 32,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 7,
+      "stable_ids": [
+        "ARF-UI-IFR-20-001-01",
+        "ARF-UI-IFR-20-001-02",
+        "ARF-UI-IFR-20-001-03",
+        "ARF-UI-IFR-20-001-04",
+        "ARF-UI-IFR-20-001-05",
+        "ARF-UI-IFR-20-001-06",
+        "ARF-UI-IFR-20-001-07"
+      ],
+      "preview_png": "previews/20_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-20-001-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            42,
+            16
+          ],
+          "rendered_bbox": [
+            8,
+            1,
+            34,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-20-001-02",
+          "target_ko": "가격",
+          "box": [
+            42,
+            0,
+            82,
+            16
+          ],
+          "rendered_bbox": [
+            49,
+            1,
+            75,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-20-001-03",
+          "target_ko": "수량",
+          "box": [
+            82,
+            0,
+            110,
+            16
+          ],
+          "rendered_bbox": [
+            83,
+            1,
+            109,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-20-001-04",
+          "target_ko": "판매",
+          "box": [
+            110,
+            0,
+            136,
+            16
+          ],
+          "rendered_bbox": [
+            110,
+            1,
+            136,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-20-001-05",
+          "target_ko": "지불액",
+          "box": [
+            0,
+            16,
+            58,
+            32
+          ],
+          "rendered_bbox": [
+            10,
+            17,
+            48,
+            31
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-20-001-06",
+          "target_ko": "보유 수",
+          "box": [
+            58,
+            16,
+            104,
+            32
+          ],
+          "rendered_bbox": [
+            60,
+            17,
+            102,
+            30
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-20-001-07",
+          "target_ko": "가능 수",
+          "box": [
+            104,
+            16,
+            136,
+            32
+          ],
+          "rendered_bbox": [
+            104,
+            18,
+            136,
+            29
+          ],
+          "font_size": 9,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        23,
+        2
+      ],
+      "outer_name": "if_dp.vol",
+      "inner_name": "if_dp_moji.wtm",
+      "layout": "single_gold_24",
+      "source_sha256": "E48C3C752A6C60D10C72BAD99DE3479586FA32E22511F4D6B6A9D7BCFF0D6C0D",
+      "output_sha256": "2FD2EA565EAFA737D84C23B74A8CC29DDB95CFEEE310E957638CC8D55CC55909",
+      "size_bytes": 3616,
+      "width": 128,
+      "height": 24,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-23-002-01"
+      ],
+      "preview_png": "previews/23_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-23-002-01",
+          "target_ko": "DP 슬롯 수 개",
+          "box": [
+            0,
+            0,
+            128,
+            24
+          ],
+          "rendered_bbox": [
+            6,
+            2,
+            122,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        25,
+        1
+      ],
+      "outer_name": "if_cage_customize.vol",
+      "inner_name": "if_cage_customize_title.wtm",
+      "layout": "cage_title_grid",
+      "source_sha256": "F24C0D538460188ACC4154DCF33B0F9A3FA0BDA6698C8BBD608121880967022F",
+      "output_sha256": "167180A4947157C0C9C8BE98BE3AFDDAA3F10C116E727354E3234F1CA812B0CD",
+      "size_bytes": 896,
+      "width": 104,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 3,
+      "stable_ids": [
+        "ARF-UI-IFR-25-001-01",
+        "ARF-UI-IFR-25-001-02",
+        "ARF-UI-IFR-25-001-03"
+      ],
+      "preview_png": "previews/25_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-25-001-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            7,
+            1,
+            33,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-25-001-02",
+          "target_ko": "가격",
+          "box": [
+            40,
+            0,
+            80,
+            16
+          ],
+          "rendered_bbox": [
+            47,
+            1,
+            73,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-25-001-03",
+          "target_ko": "DP",
+          "box": [
+            80,
+            0,
+            104,
+            16
+          ],
+          "rendered_bbox": [
+            83,
+            2,
+            101,
+            13
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        26,
+        1
+      ],
+      "outer_name": "if_gem_repairance.vol",
+      "inner_name": "if_gem_repairance_title.wtm",
+      "layout": "gem_title_grid",
+      "source_sha256": "D1A77F8B59F803E1FF17B3F776C2EBDBE8B93DFAAB5D2AF58B3EF5B81C5EFA15",
+      "output_sha256": "7D75B8B2276E4451B8EC4A23B8246B679B165501DA193628E308D1F14329578C",
+      "size_bytes": 1088,
+      "width": 128,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 4,
+      "stable_ids": [
+        "ARF-UI-IFR-26-001-01",
+        "ARF-UI-IFR-26-001-02",
+        "ARF-UI-IFR-26-001-03",
+        "ARF-UI-IFR-26-001-04"
+      ],
+      "preview_png": "previews/26_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-26-001-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            7,
+            1,
+            33,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-26-001-02",
+          "target_ko": "가격",
+          "box": [
+            40,
+            0,
+            80,
+            16
+          ],
+          "rendered_bbox": [
+            47,
+            1,
+            73,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-26-001-03",
+          "target_ko": "DP",
+          "box": [
+            80,
+            0,
+            104,
+            16
+          ],
+          "rendered_bbox": [
+            83,
+            2,
+            101,
+            13
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-26-001-04",
+          "target_ko": "수량",
+          "box": [
+            104,
+            0,
+            128,
+            16
+          ],
+          "rendered_bbox": [
+            104,
+            2,
+            128,
+            14
+          ],
+          "font_size": 11,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        27,
+        1
+      ],
+      "outer_name": "if_clothes_shop.vol",
+      "inner_name": "if_clothes_shop_title.wtm",
+      "layout": "clothes_title_grid",
+      "source_sha256": "07D5E55D51467219016C9A4B2CB50A4E95AF037D259E7BC67C606B73BF805B1A",
+      "output_sha256": "3C2D7A1FC2AFC3AA211186D4AF2F1581138E2E220623C85158CF81EFA9BCDDA4",
+      "size_bytes": 704,
+      "width": 80,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 2,
+      "stable_ids": [
+        "ARF-UI-IFR-27-001-01",
+        "ARF-UI-IFR-27-001-02"
+      ],
+      "preview_png": "previews/27_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-27-001-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            7,
+            1,
+            33,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-27-001-02",
+          "target_ko": "가격",
+          "box": [
+            40,
+            0,
+            80,
+            16
+          ],
+          "rendered_bbox": [
+            47,
+            1,
+            73,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        28,
+        5
+      ],
+      "outer_name": "if_weapon.vol",
+      "inner_name": "if_weapon_custom.wtm",
+      "layout": "single_weapon_custom",
+      "source_sha256": "B13C08D0120C49A7DCEBCB5E4FA10C3AA55A20FC0DEA5336F4D1EEBD2E8F9693",
+      "output_sha256": "C93DE4CFDEEA35FF1E795D59041E60F78B12002600C5BC9378739764FE6E4EBE",
+      "size_bytes": 8224,
+      "width": 160,
+      "height": 48,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-28-005-01"
+      ],
+      "preview_png": "previews/28_005.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-28-005-01",
+          "target_ko": "커스터마이즈 중!",
+          "box": [
+            4,
+            4,
+            156,
+            44
+          ],
+          "rendered_bbox": [
+            5,
+            13,
+            155,
+            35
+          ],
+          "font_size": 19,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        28,
+        6
+      ],
+      "outer_name": "if_weapon.vol",
+      "inner_name": "if_weapon_lv.wtm",
+      "layout": "single_weapon_cyan_32",
+      "source_sha256": "FF06282A4CCFD3786CF946806F00CB4A4126683F8F9B5E798C280DEAB0FA86C2",
+      "output_sha256": "66C04A9EB99805BDBAF9ABE6CA6FAD21107C792A269C6B5BC91120F6D96C6F2F",
+      "size_bytes": 960,
+      "width": 56,
+      "height": 32,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-28-006-01"
+      ],
+      "preview_png": "previews/28_006.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-28-006-01",
+          "target_ko": "무기 Lv",
+          "box": [
+            1,
+            1,
+            55,
+            31
+          ],
+          "rendered_bbox": [
+            1,
+            7,
+            54,
+            24
+          ],
+          "font_size": 14,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        28,
+        7
+      ],
+      "outer_name": "if_weapon.vol",
+      "inner_name": "if_weapon_mihatudou.wtm",
+      "layout": "single_weapon_red_32",
+      "source_sha256": "54C11129B8B8927DF51D2EA047E17D1A705C9D1FE78F93948EA632F95A4B3B85",
+      "output_sha256": "1AB39257CC62A4A8CDA573189D31272BBB3FD16EBFF7C681582F1AF70F99D4DD",
+      "size_bytes": 2336,
+      "width": 56,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-28-007-01"
+      ],
+      "preview_png": "previews/28_007.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-28-007-01",
+          "target_ko": "미발동",
+          "box": [
+            1,
+            1,
+            55,
+            31
+          ],
+          "rendered_bbox": [
+            2,
+            6,
+            54,
+            25
+          ],
+          "font_size": 16,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        31,
+        1
+      ],
+      "outer_name": "if_tactics.vol",
+      "inner_name": "if_tactics_list_title.wtm",
+      "layout": "tactics_title_grid",
+      "source_sha256": "4050E1299C5EB9CDB66F35155E98D7D11E3EF2B2D36A354C88DED2E4648199BF",
+      "output_sha256": "B83EA45D69343F6D2DF214B356846C823F9E98366881667F1FE353ACFB3BA4CF",
+      "size_bytes": 1824,
+      "width": 80,
+      "height": 16,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 2,
+      "stable_ids": [
+        "ARF-UI-IFR-31-001-01",
+        "ARF-UI-IFR-31-001-02"
+      ],
+      "preview_png": "previews/31_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-31-001-01",
+          "target_ko": "이름",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            7,
+            1,
+            33,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-31-001-02",
+          "target_ko": "작전",
+          "box": [
+            40,
+            0,
+            80,
+            16
+          ],
+          "rendered_bbox": [
+            47,
+            1,
+            73,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        32,
+        2
+      ],
+      "outer_name": "if_dragons.vol",
+      "inner_name": "if_dragons_line_moji.wtm",
+      "layout": "dragons_effect_rows",
+      "source_sha256": "55B0823AFBD494C58B1D56516C15F8E0D312020CA8BF4B985B233FA1378884CF",
+      "output_sha256": "18090E2484592A17E6BA80B40E7C245807F43F2E31643D77A11AAACDF651A25D",
+      "size_bytes": 4000,
+      "width": 72,
+      "height": 48,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 2,
+      "stable_ids": [
+        "ARF-UI-IFR-32-002-01",
+        "ARF-UI-IFR-32-002-02"
+      ],
+      "preview_png": "previews/32_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-32-002-01",
+          "target_ko": "동기 효과",
+          "box": [
+            0,
+            0,
+            72,
+            24
+          ],
+          "rendered_bbox": [
+            0,
+            3,
+            72,
+            20
+          ],
+          "font_size": 16,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-32-002-02",
+          "target_ko": "개방 효과",
+          "box": [
+            0,
+            24,
+            72,
+            48
+          ],
+          "rendered_bbox": [
+            0,
+            27,
+            72,
+            44
+          ],
+          "font_size": 16,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        32,
+        3
+      ],
+      "outer_name": "if_dragons.vol",
+      "inner_name": "if_dragons_list_name.wtm",
+      "layout": "single_cyan_24",
+      "source_sha256": "D69FA7C71D0487530B517911226717CDF33D14C9B03DE6CC173511250FA92D93",
+      "output_sha256": "3EE3C877013FB80FE1EA4D3E9376C42252C3C2E2D611F8688A0A1B5904CDE8A4",
+      "size_bytes": 2656,
+      "width": 88,
+      "height": 24,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-32-003-01"
+      ],
+      "preview_png": "previews/32_003.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-32-003-01",
+          "target_ko": "신룡 1 2 3",
+          "box": [
+            0,
+            0,
+            88,
+            24
+          ],
+          "rendered_bbox": [
+            1,
+            2,
+            87,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        33,
+        2
+      ],
+      "outer_name": "if_world_map.vol",
+      "inner_name": "if_world_map_title.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "8A98435B039E631017363CA7EB63A919587776ED834C2256C560A55133C645FB",
+      "output_sha256": "C534F0DE9D30097C7DD58D35D15B08C1D11B86EA092B84671996EE8B5AD4A0D9",
+      "size_bytes": 384,
+      "width": 40,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-33-002-01"
+      ],
+      "preview_png": "previews/33_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-33-002-01",
+          "target_ko": "지도",
+          "box": [
+            0,
+            0,
+            40,
+            16
+          ],
+          "rendered_bbox": [
+            6,
+            1,
+            34,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        5
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_aquatic.wt",
+      "layout": "single_category_gold_32",
+      "source_sha256": "5D59B9B88015B3BC0FF340B94E7CA823D12993B33339975DA501E0304D9A0E2B",
+      "output_sha256": "F8887FFC35A3B85F84B70D7D5A47C6B6703D45FB081C2A2029D147DE0E3D5163",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-005-01"
+      ],
+      "preview_png": "previews/40_005.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-005-01",
+          "target_ko": "수생 생물계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            2,
+            7,
+            86,
+            25
+          ],
+          "font_size": 15,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        6
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_armforce_b",
+      "layout": "single_category_gold_32",
+      "source_sha256": "7FD1C382DDE7EE898D0286CF7AE5B5D7ACCCD7CFF49FE3D4EC55473ADCA22418",
+      "output_sha256": "DC2C4039A297990E52261C1FA6D5B3D944E4E5C30F7E9283DCFE348C3496480B",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-006-01"
+      ],
+      "preview_png": "previews/40_006.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-006-01",
+          "target_ko": "능력치 계열",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            2,
+            7,
+            86,
+            25
+          ],
+          "font_size": 15,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        7
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_armforce_g",
+      "layout": "single_category_gold_32",
+      "source_sha256": "3434B2B11A5F222584D50600C72C0FBDF0EE594475E45E5D72277D183807E927",
+      "output_sha256": "E915C275ED23E8EF1D3A0ED0B2966D36FB1A072679D22797157D7FCFBB868377",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-007-01"
+      ],
+      "preview_png": "previews/40_007.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-007-01",
+          "target_ko": "기타",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        8
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_armforce_p",
+      "layout": "single_category_gold_32",
+      "source_sha256": "9EF490F9F589163B72B2AAAC3E5D9CEE44D259138203AF642FDB8D098D01197E",
+      "output_sha256": "863EB0790F43C87D24BB732F26DF2F4E4E7592A2DBB72A3538F5D1D7BE2EBE3D",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-008-01"
+      ],
+      "preview_png": "previews/40_008.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-008-01",
+          "target_ko": "부가 효과",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            3,
+            5,
+            85,
+            26
+          ],
+          "font_size": 18,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        9
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_armforce_r",
+      "layout": "single_category_gold_32",
+      "source_sha256": "206F51B49F4E16D6EB9588191A3E68E5E2A144E38D776C5E32CA24DAAB74476A",
+      "output_sha256": "71A8228FA2053C25DBEAB954F0725A5D914E2D66484CE28642534A45AA0FEFCF",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-009-01"
+      ],
+      "preview_png": "previews/40_009.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-009-01",
+          "target_ko": "공격 계열",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            3,
+            5,
+            85,
+            26
+          ],
+          "font_size": 18,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        10
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_armforce_w",
+      "layout": "single_category_gold_32",
+      "source_sha256": "A02B1CAC2312998EE40196D859F572F710A838C683205173EC16648FBDD1BB5B",
+      "output_sha256": "EA4EB1E6E47680B67EBB43D8E1279941F01A49CA082A3C0C49207DBAEFA7B29C",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-010-01"
+      ],
+      "preview_png": "previews/40_010.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-010-01",
+          "target_ko": "명령",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        11
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_armforce_y",
+      "layout": "single_category_gold_32",
+      "source_sha256": "151696F1C8A79531737329997A843A73C07C3784317B82F5B3CD16D0C94ACCE2",
+      "output_sha256": "306C85DCBCF8459867BA4086E5E2F43F4FA0627D282DD281F977FBD9D4B261E0",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-011-01"
+      ],
+      "preview_png": "previews/40_011.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-011-01",
+          "target_ko": "방어 계열",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            3,
+            5,
+            85,
+            26
+          ],
+          "font_size": 18,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        12
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_beast.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "3F89D331B2B21FD9DA2EBB90E0F82A47C199AD2C6135F6F3E3B037688356C7E9",
+      "output_sha256": "EC4178C85D6E74B49B1DFDAE30355BAB7D48CC45742BD51D8B8BFCF5C101AB85",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-012-01"
+      ],
+      "preview_png": "previews/40_012.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-012-01",
+          "target_ko": "시설 계열",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            3,
+            5,
+            85,
+            26
+          ],
+          "font_size": 18,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        13
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_bird.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "0C85B08A4340D43AAD8C3CF27FB1481A02743BFE6E1D54BF93EFF88C2A1771FA",
+      "output_sha256": "BC735BCAB687F14D9A13C50F3D9110CB6A623D1AAB775522FB8593C61E54181B",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-013-01"
+      ],
+      "preview_png": "previews/40_013.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-013-01",
+          "target_ko": "날개 생물계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            2,
+            7,
+            86,
+            25
+          ],
+          "font_size": 15,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        14
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_bug.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "6AC78B7D005D03BFD205DBD12CFECB547C214D1A3349C5B78799869883F02E56",
+      "output_sha256": "17FBA73E4AC1014A3FC4DAD4525D29F2B522D2FA5B31F503A346D0B71E9909D7",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-014-01"
+      ],
+      "preview_png": "previews/40_014.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-014-01",
+          "target_ko": "곤충계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        15
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_corpus.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "406F3A5B9BA6D6492E28AC54ACA4A30F6FCA629B55E72B142334383832FC7ACE",
+      "output_sha256": "FF7A5D49293097D5F25EBFA9AE9F9FC0E9385B57F578D48B767D3A8E624DB0C1",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-015-01"
+      ],
+      "preview_png": "previews/40_015.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-015-01",
+          "target_ko": "불사계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        16
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_dragon.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "D42124735E0DE90E2BF2FA5AAEC74CCA4614EDBB583C7955AF3372488B4399CD",
+      "output_sha256": "A57599286D4B119D0311BDA668E18E0B7FA2298C06C97AB11B4FE39D576ABCC9",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-016-01"
+      ],
+      "preview_png": "previews/40_016.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-016-01",
+          "target_ko": "용계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        17
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_etc.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "E1E6953998559A7D108B1FE5C6EAC23A7DB4D14DAA2AA48C352F132E6F673A67",
+      "output_sha256": "3FDD03E6AB184F2B0D06D7A5FD8C68398D9DE06D332EE4778DCFB63882878A18",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-017-01"
+      ],
+      "preview_png": "previews/40_017.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-017-01",
+          "target_ko": "기타",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        18
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_all.w",
+      "layout": "single_category_gold_32",
+      "source_sha256": "712203E935D7C76EE94F1B237B105ECE9407E0BDC7392429003F4DB3074F389C",
+      "output_sha256": "56914CB1CE7DD192DF86258BAC98ED7A71EDD1BEF1DB2E5325786C970FADD154",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-018-01"
+      ],
+      "preview_png": "previews/40_018.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-018-01",
+          "target_ko": "전체",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        19
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_comma",
+      "layout": "single_category_gold_32",
+      "source_sha256": "E07865B1AB0C1E56F629709E192F73CFE19876F0F7BDCC16ED33CF398C2D2012",
+      "output_sha256": "F1CBA335F3987850F15D427B447D4D1BB4A13A3A164D4F3322D754344820CB12",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-019-01"
+      ],
+      "preview_png": "previews/40_019.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-019-01",
+          "target_ko": "명령",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        20
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_items",
+      "layout": "single_category_gold_32",
+      "source_sha256": "7205F0E5DF0D1678860F33A4E42A18264876E89079A5D8955F11009FCFEBB980",
+      "output_sha256": "BB693CAA005D45813AD42296414181A8DE1834843EFB3A5EF6D6B3FCE52C17E6",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-020-01"
+      ],
+      "preview_png": "previews/40_020.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-020-01",
+          "target_ko": "아이템",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        21
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_magic",
+      "layout": "single_category_gold_32",
+      "source_sha256": "ED25022F058A6F7B7274F8A8DFA000DAA14407D091DA956EB1E6C5476BF274FF",
+      "output_sha256": "499C919E34B673CFF49B762BBF28EC026405A71AA77B372ABE99BD427549DCEC",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-021-01"
+      ],
+      "preview_png": "previews/40_021.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-021-01",
+          "target_ko": "광소술",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        22
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_monst",
+      "layout": "single_category_gold_32",
+      "source_sha256": "7E30F53CD4729528F36F8B84E1EC14910FE039BAECE661FAE04121F5088055F9",
+      "output_sha256": "43286CE92EE41144508D534BDE1E46635D90A5A4DDA2D4BCADFDA119387DF11F",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-022-01"
+      ],
+      "preview_png": "previews/40_022.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-022-01",
+          "target_ko": "몬스터",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        23
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_syste",
+      "layout": "single_category_gold_32",
+      "source_sha256": "6536B56088F625B31489C3B442FEB9EF69AACC460A93576138709EC293D91ED9",
+      "output_sha256": "93D542A82C7A3AFBEE7C817486B3081E7C3FD30AD390E575D7C5D23005A3DD3B",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-023-01"
+      ],
+      "preview_png": "previews/40_023.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-023-01",
+          "target_ko": "시스템",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        24
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_help_word.",
+      "layout": "single_category_gold_32",
+      "source_sha256": "1CE7954DF197282D6E63ACF556CF4A05AA23FE564472B8D13DE541E546B8BACD",
+      "output_sha256": "FA999E40BF278B7EA3FE1B0A25CA32673FE658DCEEE3EB3086BA1AA86497A4CD",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-024-01"
+      ],
+      "preview_png": "previews/40_024.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-024-01",
+          "target_ko": "용어",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        25
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_human.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "C2DB4D5BE252F3B0D04FEE3A4C6F8DD6AB7D413440659947A2729735C66F268F",
+      "output_sha256": "41D03B85AEA138BEDFCEB3145AB2CF2ACFE908C0E2BABAC03422AD73F8E574E8",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-025-01"
+      ],
+      "preview_png": "previews/40_025.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-025-01",
+          "target_ko": "인간계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        26
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "68BFB405DC4D80D6F496992FF12CDF950EDCC62D48BC9B15E41CF899E7EB6D0E",
+      "output_sha256": "B101872D149903433382F256BEED5C2FAC1859BE9659C76E49B83C793C9A7A87",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-026-01"
+      ],
+      "preview_png": "previews/40_026.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-026-01",
+          "target_ko": "장신구",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        27
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "8D0FE460397D2666C13395F00CABD08C5FFAB347DDFE50494940624CDB3C16BC",
+      "output_sha256": "10939A3FF6AFD1EC7818BC29C4D2DD67887A9B834CEC57042294A58F42670687",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-027-01"
+      ],
+      "preview_png": "previews/40_027.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-027-01",
+          "target_ko": "몸통 장비",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            3,
+            5,
+            85,
+            26
+          ],
+          "font_size": 18,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        28
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "2B35ED07E2412B4F4C76CE8BF28E5A41EB862C16B0164271EA00E932ACE96EEA",
+      "output_sha256": "EB3744F44745A0F3737C41AF4C0CEC76D7AEAC6A8AC18536439ACC16146DE387",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-028-01"
+      ],
+      "preview_png": "previews/40_028.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-028-01",
+          "target_ko": "다리 장비",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            3,
+            5,
+            85,
+            26
+          ],
+          "font_size": 18,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        29
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "BB0DE65F2E553923AC6DCC81C092F38D4A277A93F4784523D2418F9AFD17C256",
+      "output_sha256": "C77A988FE42A53768F9851A5D48D88D46ED058EE5E9B9E50E59F2F69C41DE430",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-029-01"
+      ],
+      "preview_png": "previews/40_029.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-029-01",
+          "target_ko": "소모품",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        30
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "BF897520A40D1D9B41A991AA0E48C0DC6E21391BD8B68512CD93EF053F656E5C",
+      "output_sha256": "A3340A86345259F21DC53BB356567AD79D17D2FD6A2461E444F0BDA3456D059D",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-030-01"
+      ],
+      "preview_png": "previews/40_030.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-030-01",
+          "target_ko": "젬",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            32,
+            5,
+            56,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        31
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "CDDD2CCB58B70CDD96CCEE79C6FC85C43794B30B9A2DEA8C3D9881DB34841FBA",
+      "output_sha256": "3E5577A0209E4D00A62C962032C264F3912E571CA8D0DBA2C4D5A80F682E9B55",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-031-01"
+      ],
+      "preview_png": "previews/40_031.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-031-01",
+          "target_ko": "귀중품",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        32
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_itemcatego",
+      "layout": "single_category_gold_32",
+      "source_sha256": "A77A71F8B930BA45E0CA5AE27A03EE04135D2B987E6CE3B7C44BCA58E3198437",
+      "output_sha256": "52D063E41FD34172FA30B13514860292EE0E5295661545565448E90B140C2FA9",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-032-01"
+      ],
+      "preview_png": "previews/40_032.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-032-01",
+          "target_ko": "무기",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            22,
+            5,
+            66,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        33
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_magic.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "77CC4925D2D25FD2422B8B5D5D6FB9881224C31E5291818F0BBCC81684A795F2",
+      "output_sha256": "94AC475BA27CF4B40D1169771CBAF321AB882CFBE02E9E0BC4AECF7B7E92DD9A",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-033-01"
+      ],
+      "preview_png": "previews/40_033.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-033-01",
+          "target_ko": "마법 생물계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            2,
+            7,
+            86,
+            25
+          ],
+          "font_size": 15,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        40,
+        34
+      ],
+      "outer_name": "if_category_base.vol",
+      "inner_name": "if_category_base_moji_plant.wtm",
+      "layout": "single_category_gold_32",
+      "source_sha256": "448A73520D5DBFDA35E5C62FAC481C8B400BB3ADCB0398168759DD2155FC9025",
+      "output_sha256": "1EA6B02D76E604AF61DD71BBC821E8FE31AACF9D72D1EFC3E076A3FA289DC214",
+      "size_bytes": 3360,
+      "width": 88,
+      "height": 32,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-40-034-01"
+      ],
+      "preview_png": "previews/40_034.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-40-034-01",
+          "target_ko": "식물계",
+          "box": [
+            1,
+            1,
+            87,
+            31
+          ],
+          "rendered_bbox": [
+            12,
+            5,
+            76,
+            27
+          ],
+          "font_size": 20,
+          "stroke_width": 2,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        42,
+        2
+      ],
+      "outer_name": "if_caption_below.vol",
+      "inner_name": "if_caption_below_moji.wtm",
+      "layout": "single_cyan_24",
+      "source_sha256": "DA83AD325F719137C36EA6C1EF6B3805DE58C25E4085B5EBC84C7281A94E92DD",
+      "output_sha256": "FCC918D5A2264B372A8FE1B9CFF38AB358396CA3D1D1374D05C409B8088FAFCE",
+      "size_bytes": 2464,
+      "width": 80,
+      "height": 24,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-42-002-01"
+      ],
+      "preview_png": "previews/42_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-42-002-01",
+          "target_ko": "출현 지역",
+          "box": [
+            0,
+            0,
+            80,
+            24
+          ],
+          "rendered_bbox": [
+            0,
+            2,
+            80,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        43,
+        2
+      ],
+      "outer_name": "if_monster_status.vol",
+      "inner_name": "if_monster_status_titlemoji.wtm",
+      "layout": "monster_status_titles",
+      "source_sha256": "A41D4B78A4EA5781F4BA8B55B866695892012E7EA31EDCE0387E28E984620516",
+      "output_sha256": "F2CC3C6281BE03ADD78E04B431FDB6AAA787D8C489632DB01F2566B409DD9071",
+      "size_bytes": 2368,
+      "width": 96,
+      "height": 48,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 5,
+      "stable_ids": [
+        "ARF-UI-IFR-43-002-01",
+        "ARF-UI-IFR-43-002-02",
+        "ARF-UI-IFR-43-002-03",
+        "ARF-UI-IFR-43-002-04",
+        "ARF-UI-IFR-43-002-05"
+      ],
+      "preview_png": "previews/43_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-43-002-01",
+          "target_ko": "약점",
+          "box": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "rendered_bbox": [
+            3,
+            1,
+            29,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-43-002-02",
+          "target_ko": "내성",
+          "box": [
+            32,
+            0,
+            64,
+            16
+          ],
+          "rendered_bbox": [
+            35,
+            1,
+            61,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-43-002-03",
+          "target_ko": "감지",
+          "box": [
+            64,
+            0,
+            96,
+            16
+          ],
+          "rendered_bbox": [
+            67,
+            1,
+            93,
+            14
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-43-002-04",
+          "target_ko": "드롭 아이템",
+          "box": [
+            0,
+            16,
+            96,
+            32
+          ],
+          "rendered_bbox": [
+            15,
+            17,
+            81,
+            30
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-43-002-05",
+          "target_ko": "훔칠 아이템",
+          "box": [
+            0,
+            32,
+            96,
+            48
+          ],
+          "rendered_bbox": [
+            15,
+            33,
+            81,
+            47
+          ],
+          "font_size": 12,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        46,
+        1
+      ],
+      "outer_name": "if_quest_detail.vol",
+      "inner_name": "if_quest_detail_lv.wtm",
+      "layout": "quest_level_grid",
+      "source_sha256": "8C6051F547B9FA9FDC51D6A8F29D0A8ABF21547676CADAF6025E31E6ED6B3C4A",
+      "output_sha256": "03A0EA8CB990D6A5E5579643F63EE7DA3E0E2EA220D2F40D8C4BE6A90200F9B9",
+      "size_bytes": 7072,
+      "width": 136,
+      "height": 48,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 3,
+      "stable_ids": [
+        "ARF-UI-IFR-46-001-01",
+        "ARF-UI-IFR-46-001-02",
+        "ARF-UI-IFR-46-001-03"
+      ],
+      "preview_png": "previews/46_001.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-46-001-01",
+          "target_ko": "퀘스트 난이도",
+          "box": [
+            0,
+            0,
+            136,
+            24
+          ],
+          "rendered_bbox": [
+            10,
+            2,
+            126,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-001-02",
+          "target_ko": "참가비 R",
+          "box": [
+            0,
+            24,
+            72,
+            48
+          ],
+          "rendered_bbox": [
+            1,
+            27,
+            71,
+            45
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-001-03",
+          "target_ko": "권장 Lv",
+          "box": [
+            72,
+            24,
+            136,
+            48
+          ],
+          "rendered_bbox": [
+            72,
+            26,
+            136,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        46,
+        3
+      ],
+      "outer_name": "if_quest_detail.vol",
+      "inner_name": "if_quest_detail_main_title.wtm",
+      "layout": "quest_main_rows_24",
+      "source_sha256": "3A0FD4B0C33C2DC5308E73E06EB291A9615A65DA4ACA447BCFAA57F750E0F94D",
+      "output_sha256": "F500DECCA95A118A8F2CC2A825ACB03392C5A7E4374A8419916ADB4795D82EF9",
+      "size_bytes": 12064,
+      "width": 96,
+      "height": 120,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 5,
+      "stable_ids": [
+        "ARF-UI-IFR-46-003-01",
+        "ARF-UI-IFR-46-003-02",
+        "ARF-UI-IFR-46-003-03",
+        "ARF-UI-IFR-46-003-04",
+        "ARF-UI-IFR-46-003-05"
+      ],
+      "preview_png": "previews/46_003.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-46-003-01",
+          "target_ko": "의뢰인",
+          "box": [
+            0,
+            0,
+            96,
+            24
+          ],
+          "rendered_bbox": [
+            21,
+            3,
+            74,
+            21
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-003-02",
+          "target_ko": "완료 조건",
+          "box": [
+            0,
+            24,
+            96,
+            48
+          ],
+          "rendered_bbox": [
+            10,
+            27,
+            86,
+            44
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-003-03",
+          "target_ko": "성공 보상",
+          "box": [
+            0,
+            48,
+            96,
+            72
+          ],
+          "rendered_bbox": [
+            10,
+            51,
+            86,
+            68
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-003-04",
+          "target_ko": "상세 내용",
+          "box": [
+            0,
+            72,
+            96,
+            96
+          ],
+          "rendered_bbox": [
+            10,
+            75,
+            86,
+            93
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-003-05",
+          "target_ko": "전투 내용",
+          "box": [
+            0,
+            96,
+            96,
+            120
+          ],
+          "rendered_bbox": [
+            10,
+            99,
+            86,
+            117
+          ],
+          "font_size": 17,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        46,
+        4
+      ],
+      "outer_name": "if_quest_detail.vol",
+      "inner_name": "if_quest_detail_quest_type.wtm",
+      "layout": "quest_type_rows_24",
+      "source_sha256": "4054B04FDB097B590ECDA472F9FBA350C92CC077FD1C8FE3F332C8D7C33D5AD4",
+      "output_sha256": "1BEB51868097C2B9C0745A3AD1BCF087AA0E41B86085C0919587CC2BF8B48D16",
+      "size_bytes": 24736,
+      "width": 144,
+      "height": 168,
+      "gx": "C8",
+      "palette": "RGB5A3",
+      "translation_count": 7,
+      "stable_ids": [
+        "ARF-UI-IFR-46-004-01",
+        "ARF-UI-IFR-46-004-02",
+        "ARF-UI-IFR-46-004-03",
+        "ARF-UI-IFR-46-004-04",
+        "ARF-UI-IFR-46-004-05",
+        "ARF-UI-IFR-46-004-06",
+        "ARF-UI-IFR-46-004-07"
+      ],
+      "preview_png": "previews/46_004.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-46-004-01",
+          "target_ko": "+서바이벌+",
+          "box": [
+            0,
+            0,
+            144,
+            24
+          ],
+          "rendered_bbox": [
+            22,
+            2,
+            122,
+            21
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-004-02",
+          "target_ko": "+그룹+",
+          "box": [
+            0,
+            24,
+            144,
+            48
+          ],
+          "rendered_bbox": [
+            40,
+            26,
+            104,
+            45
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-004-03",
+          "target_ko": "+터프+",
+          "box": [
+            0,
+            48,
+            144,
+            72
+          ],
+          "rendered_bbox": [
+            40,
+            50,
+            104,
+            69
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-004-04",
+          "target_ko": "+토벌+",
+          "box": [
+            0,
+            72,
+            144,
+            96
+          ],
+          "rendered_bbox": [
+            40,
+            74,
+            104,
+            93
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-004-05",
+          "target_ko": "+수집+",
+          "box": [
+            0,
+            96,
+            144,
+            120
+          ],
+          "rendered_bbox": [
+            40,
+            98,
+            104,
+            117
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-004-06",
+          "target_ko": "+운반+",
+          "box": [
+            0,
+            120,
+            144,
+            144
+          ],
+          "rendered_bbox": [
+            40,
+            122,
+            104,
+            141
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        },
+        {
+          "stable_id": "ARF-UI-IFR-46-004-07",
+          "target_ko": "+특수+",
+          "box": [
+            0,
+            144,
+            144,
+            168
+          ],
+          "rendered_bbox": [
+            40,
+            146,
+            104,
+            165
+          ],
+          "font_size": 18,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        47,
+        2
+      ],
+      "outer_name": "if_arena.vol",
+      "inner_name": "if_arena_title.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "FFAAC2B40D2DAC9F31171D0038C1445EEBEF26332566CA3B98D8CAA6DC172868",
+      "output_sha256": "7FB3CBE34697119B9E6FF2EBD23A3CC39407D47D33A7BCEB923C4D52A0F774E3",
+      "size_bytes": 512,
+      "width": 56,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-47-002-01"
+      ],
+      "preview_png": "previews/47_002.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-47-002-01",
+          "target_ko": "참가비",
+          "box": [
+            0,
+            0,
+            56,
+            16
+          ],
+          "rendered_bbox": [
+            7,
+            1,
+            48,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    },
+    {
+      "entry_path": [
+        53,
+        3
+      ],
+      "outer_name": "if_volatility_below.vol",
+      "inner_name": "if_volatility_below_e_moji.wtm",
+      "layout": "single_cyan_16",
+      "source_sha256": "BADCE6315F7CB6D4395A7A2013BBCB177BD15A1E662C15702BA55F3F3163E76F",
+      "output_sha256": "EC82F8C0418987141900742E152F3E945CDD63215C3F9706DD017EECDD6F60CD",
+      "size_bytes": 576,
+      "width": 64,
+      "height": 16,
+      "gx": "C4",
+      "palette": "RGB5A3",
+      "translation_count": 1,
+      "stable_ids": [
+        "ARF-UI-IFR-53-003-01"
+      ],
+      "preview_png": "previews/53_003.png",
+      "render_checks": [
+        {
+          "stable_id": "ARF-UI-IFR-53-003-01",
+          "target_ko": "현재 장비",
+          "box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "rendered_bbox": [
+            2,
+            1,
+            61,
+            15
+          ],
+          "font_size": 13,
+          "stroke_width": 1,
+          "fit": true
+        }
+      ]
+    }
+  ],
+  "valid": true,
+  "errors": []
+}

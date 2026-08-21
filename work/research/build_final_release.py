@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.1"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.2"
 
 
 def sha256(path: Path) -> str:
@@ -115,6 +115,43 @@ def validate_staging(
         or int(residue.get("changed_outside_allowed_bytes", -1)) != 0
     ):
         raise RuntimeError("system text residue closure is incomplete")
+    counts = dict(staging_manifest.get("counts", {}))
+    if (
+        int(counts.get("ui_raster_translated_entries", -1)) != 68
+        or int(counts.get("ui_raster_translated_text_items", -1)) != 155
+    ):
+        raise RuntimeError("resident raster UI translation coverage is incomplete")
+    inputs = dict(staging_manifest.get("inputs", {}))
+    ui_translation_record = dict(inputs.get("ui_raster_translation_manifest", {}))
+    ui_report_record = dict(inputs.get("ui_raster_application_report", {}))
+    ui_translation_path = Path(str(ui_translation_record.get("path", "")))
+    ui_report_path = Path(str(ui_report_record.get("path", "")))
+    if (
+        not ui_translation_path.is_file()
+        or sha256(ui_translation_path) != str(ui_translation_record.get("sha256", "")).upper()
+        or ui_translation_record.get("translator_model") != "Codex internal"
+        or ui_translation_record.get("external_translation_models_or_services_used") != []
+    ):
+        raise RuntimeError("resident raster UI translation provenance is missing or stale")
+    if not ui_report_path.is_file() or sha256(ui_report_path) != str(ui_report_record.get("sha256", "")).upper():
+        raise RuntimeError("resident raster UI application report is missing or stale")
+    ui_report = json.loads(ui_report_path.read_text(encoding="utf-8"))
+    ui_file = physical_root / "interface" / "if_resident_vol.cxd"
+    ui_row = staged_rows.get("interface/if_resident_vol.cxd", {})
+    if (
+        ui_report.get("valid") is not True
+        or ui_report.get("translator_model") != "Codex internal"
+        or ui_report.get("external_translation_models_or_services_used") != []
+        or str(ui_report.get("source", {}).get("sha256", "")).upper()
+        != "09E6816C21AF70DDA1A7E474D0E25C50E0C3E9477E8313A8AFA922DE6172D359"
+        or int(ui_report.get("counts", {}).get("translated_wtmd_entries", -1)) != 68
+        or int(ui_report.get("counts", {}).get("translated_text_items", -1)) != 155
+        or int(ui_report.get("counts", {}).get("render_overflows", -1)) != 0
+        or not ui_file.is_file()
+        or sha256(ui_file) != str(ui_report.get("output", {}).get("sha256", "")).upper()
+        or sha256(ui_file) != str(ui_row.get("output_sha256", "")).upper()
+    ):
+        raise RuntimeError("resident raster UI staged payload is incomplete or unbound")
     if not staging_manifest_path.is_file():
         raise RuntimeError("staging manifest disappeared during validation")
 
@@ -149,7 +186,7 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.1
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.2
 
 ## 설치
 
@@ -187,6 +224,7 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
 - 원본 RVZ를 수정하지 않는 Riivolution/Dolphin 오버레이 방식
 - 전투 몬스터 기본명 270개와 보조 표시명 87회, 보스 부위명 3개, 몬스터 기술명 672회(고유 기술명 226개) 한국어화
 - 전수검사에서 추가 발견한 어빌리티명 14개, 채팅 제목 15개, 상점명 1개 한국어화
+- 메뉴·지도·무기 커스터마이즈·상점·퀘스트·몬스터 도감 등에 남아 있던 그림형 UI 68장, 155개 표기 한국어화
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
@@ -223,10 +261,12 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
         "source_rvz_sha256": SOURCE_RVZ_SHA256,
         "translation_units": int(staging_manifest.get("counts", {}).get("tm_units", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0))
-        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0)),
+        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0)),
         "translation_occurrences": int(staging_manifest.get("counts", {}).get("catalog_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0))
-        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0)),
+        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0)),
         "battle_enemy": {
             "entries": staging_manifest.get("counts", {}).get("battle_enemy_entries"),
             "display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_display_name_occurrences"),
@@ -241,6 +281,12 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
             "chat_titles": staging_manifest.get("system_text_residue_application", {}).get("chat_titles"),
             "shop_names": staging_manifest.get("system_text_residue_application", {}).get("shop_names"),
             "semantic_japanese_unmatched_after": staging_manifest.get("system_text_residue_application", {}).get("semantic_japanese_unmatched_after"),
+        },
+        "raster_ui": {
+            "translated_texture_entries": staging_manifest.get("counts", {}).get("ui_raster_translated_entries"),
+            "translated_text_items": staging_manifest.get("counts", {}).get("ui_raster_translated_text_items"),
+            "translator_model": "Codex internal",
+            "external_translation_models_or_services_used": [],
         },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",

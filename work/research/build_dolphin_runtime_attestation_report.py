@@ -43,7 +43,7 @@ ATTESTATION_SCHEMA = "arf-ko-dolphin-runtime-attestation-v1"
 SESSION_SCHEMA = "arf-ko-dolphin-runtime-session-v1"
 
 DEFAULT_STAGING_MANIFEST = ROOT / "work/final_runtime_staging/staging_manifest.json"
-DEFAULT_PACKAGE_MANIFEST = ROOT / "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0/MANIFEST.json"
+DEFAULT_PACKAGE_MANIFEST = ROOT / "outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.2/MANIFEST.json"
 DEFAULT_RIIVOLUTION_XML = (
     ROOT
     / "work/final_runtime_staging/riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml"

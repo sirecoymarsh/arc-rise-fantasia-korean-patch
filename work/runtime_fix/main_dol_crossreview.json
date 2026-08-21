@@ -27,7 +27,7 @@
     "final_tm": {
       "path": "work/translation/final/translation_memory_draft.json",
       "unit_count": 29777,
-      "sha256": "24F2E372067160BCD5710623135B2A316B7A314BF56101F265DA7B64C765D93D"
+      "sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1"
     },
     "glossary": {
       "path": "work/translation/glossary_agent/glossary.csv",
@@ -45,10 +45,10 @@
   },
   "result": {
     "translations_path": "work/runtime_fix/main_dol_translations.jsonl",
-    "translations_sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3",
+    "translations_sha256": "64154B1F06422FD26C1D67C4D410DE8FF727D1ECA396CC577CABC60EFDC53DBA",
     "reviewed_rows": 925,
-    "corrected_rows": 146,
-    "unchanged_after_review_rows": 779,
+    "corrected_rows": 147,
+    "unchanged_after_review_rows": 778,
     "correction_lane_counts": {
       "battle_status": 1,
       "battle_log": 11,
@@ -64,7 +64,7 @@
       "quest": 1,
       "initial_setup": 1,
       "casino": 1,
-      "map_ui": 2,
+      "map_ui": 3,
       "common_ui": 1,
       "place_name": 2,
       "minigame": 2,
@@ -73,7 +73,7 @@
     },
     "change_log": {
       "path": "work/runtime_fix/main_dol_crossreview_changes.json",
-      "sha256": "C3372D6E127BE8707D989AF3063ADCFBD1643516541528F08849D1BDAFA5FEF8"
+      "sha256": "B35421369569AEEBF1F8ED6D1CDA0FDF82A249813695AF963C2C252A758855E8"
     }
   },
   "coverage": {
@@ -247,15 +247,15 @@
   },
   "patcher_validation": {
     "report_path": "work/runtime_fix/main_dol_crossreview_patch_report.json",
-    "report_sha256": "BED617A61BFC8531BD40FC5597F38BBC3B30B338F31680AB98AB6289EE27ED94",
-    "patched_dol_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\main.dol.crossreview.patched",
-    "patched_dol_sha256": "2FF34AC7A78176DD2464ACA4DF925D5B70507CC98111D94091C5F1824626AC2C",
+    "report_sha256": "562E34285AF1A0120D48FFB8679E5E0784A8A72B8B88A40357470B47B309A58B",
+    "patched_dol_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\main.dol.crossreview.patched",
+    "patched_dol_sha256": "6BD08B12F0258BBDAF57371BA0B0D58A2D2444B658B689CEB200AE06DC9F9991",
     "summary": {
       "patch_rows": 925,
-      "source_bytes": 16721,
-      "encoded_bytes": 14225,
+      "source_bytes": 16734,
+      "encoded_bytes": 14238,
       "zero_padding_bytes": 2496,
-      "changed_byte_offsets": 16260,
+      "changed_byte_offsets": 16268,
       "file_size_preserved": true,
       "all_original_raw_verified": true,
       "all_original_terminating_nuls_preserved": true,

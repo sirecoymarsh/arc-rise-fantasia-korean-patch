@@ -26,7 +26,13 @@ function readJsonl(path) {
 
 function est(s) {
   let n = 0;
-  for (const ch of s) n += ch.codePointAt(0) <= 0x7f ? 1 : 2;
+  let cursor = 0;
+  for (const match of s.matchAll(/<\$[0-9A-Fa-f]{2}>/g)) {
+    for (const ch of s.slice(cursor, match.index)) n += ch.codePointAt(0) <= 0x7f ? 1 : 2;
+    n += 1;
+    cursor = match.index + match[0].length;
+  }
+  for (const ch of s.slice(cursor)) n += ch.codePointAt(0) <= 0x7f ? 1 : 2;
   return n;
 }
 
@@ -311,6 +317,6 @@ const md = `# main.dol 한국어 문자열 독립 교차검수\n\n` +
 `- 지역명 띄어쓰기와 카르분클루스·오팔루스·루훙가 오기 교정\n` +
 `- 예술가→예술로, 정리의방→섭리의방, 루푼가→루훙가 등 의미 오류 교정\n` +
 `- ON/OFF를 켬/끔으로 통일\n\n` +
-`전체 146건의 원문·이전 번역·최종 번역·용량·사유는 \`main_dol_crossreview_changes.json\`에 기록했다.\n`;
+`전체 ${changes.corrected_rows}건의 원문·이전 번역·최종 번역·용량·사유는 \`main_dol_crossreview_changes.json\`에 기록했다.\n`;
 fs.writeFileSync(P.outputMd, md, 'utf8');
 console.log(JSON.stringify({ valid, translations_sha256: translationSha, corrected_rows: changes.corrected_rows, report_sha256: sha(P.outputJson), md_sha256: sha(P.outputMd) }, null, 2));

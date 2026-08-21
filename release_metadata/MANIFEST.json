@@ -1,7 +1,7 @@
 {
   "schema": "arf-ko-riivolution-release-v1",
-  "package": "Arc_Rise_Fantasia_Korean_Patch_v1.0.1",
-  "created_utc": "2026-08-21T21:13:32.535311+00:00",
+  "package": "Arc_Rise_Fantasia_Korean_Patch_v1.0.2",
+  "created_utc": "2026-08-21T23:08:52.197115+00:00",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
   "source_media_included": false,
@@ -9,11 +9,11 @@
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
   "runtime_ready_release": true,
-  "staging_manifest_sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E",
-  "staging_tree_sha256": "66BACBD4E8290BB1E262CB1BEED4B4FDBBE553F8836AEDF0F1C4454F6BBBE25C",
-  "overlay_file_count": 684,
-  "game_replacement_file_count": 683,
-  "file_count_excluding_manifest": 688,
+  "staging_manifest_sha256": "5315D014A58D7559DE0ABCE5F44C50C0B86E845BDEF120141C36FA7FE9FF67C1",
+  "staging_tree_sha256": "59D1F45DE7DC8222BB8E4573E45D20AF5B1F6B2681D9DA2864B3FB93A9662D9A",
+  "overlay_file_count": 685,
+  "game_replacement_file_count": 684,
+  "file_count_excluding_manifest": 689,
   "files": [
     {
       "path": "Install-ARF-KO.ps1",
@@ -2458,6 +2458,12 @@
       "sha256": "A583578077CB3EC808532719BFD9835462B2AFE66327343F266EA4A895277CC8"
     },
     {
+      "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/if_resident_vol.cxd",
+      "role": "riivolution_overlay",
+      "size_bytes": 1260716,
+      "sha256": "B28E29B28D1CFB640E4C45FAB447D71AB50B5021C37DC1628A13B15FBCC63854"
+    },
+    {
       "path": "payload/riivolution_sd/arc_rise_fantasia_ko_full/files/interface/tex_casino_intro_bj_wtm.cxd",
       "role": "riivolution_overlay",
       "size_bytes": 114788,
@@ -4122,20 +4128,20 @@
     {
       "path": "payload/riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
       "role": "riivolution_overlay",
-      "size_bytes": 139958,
-      "sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2"
+      "size_bytes": 140091,
+      "sha256": "494A2A23F9944A1442079B76723844456B2187BF138DE4F55500023412F9F8DF"
     },
     {
       "path": "PROVENANCE.json",
       "role": "installer_metadata",
-      "size_bytes": 2535,
-      "sha256": "7AE06B3910617D47F1440BC41473A3D6E70D7E49F1E4644EEDE880DD96DDAB51"
+      "size_bytes": 2822,
+      "sha256": "FBAD6DF1F2878F3E6310A52DB9DAFD34E2EE6B790EF4895EFE4F7FAC85CC7361"
     },
     {
       "path": "README_KO.md",
       "role": "installer_metadata",
-      "size_bytes": 2325,
-      "sha256": "58E93AF561EDF6F34F48CD5CC2C9B7C8BB6C6194EDD2FCD9FD8A0E8128B1C748"
+      "size_bytes": 2475,
+      "sha256": "1314E7A6508D59E7CA92E381402AB0F2ADC873C1433F4B0C8B7D650A8905C571"
     },
     {
       "path": "설치하기.cmd",

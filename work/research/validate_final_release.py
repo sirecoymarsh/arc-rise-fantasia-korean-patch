@@ -14,7 +14,7 @@ from pathlib import Path, PurePosixPath
 
 EXPECTED_SOURCE = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 EXPECTED_GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.1"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.2"
 TEXT_EXTENSIONS = {".md", ".json", ".ps1", ".cmd", ".txt", ".xml"}
 PROHIBITED_PUBLIC_PATTERNS = [
     re.compile(r"C:\\Users\\", re.I),
@@ -165,6 +165,28 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
                 "declared": manifest.get("game_replacement_file_count"),
             }
         )
+    provenance_path = package / "PROVENANCE.json"
+    if provenance_path.is_file():
+        try:
+            provenance = json.loads(provenance_path.read_text(encoding="utf-8-sig"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            errors.append({"code": "public_provenance_invalid", "error": str(exc)})
+        else:
+            raster = dict(provenance.get("raster_ui", {}))
+            if (
+                provenance.get("translation_engine_policy") != "Codex internal models only"
+                or provenance.get("external_translation_models_or_apis_used") is not False
+                or int(raster.get("translated_texture_entries", -1)) != 68
+                or int(raster.get("translated_text_items", -1)) != 155
+                or raster.get("translator_model") != "Codex internal"
+                or raster.get("external_translation_models_or_services_used") != []
+            ):
+                errors.append({"code": "public_raster_ui_provenance_mismatch"})
+    readme_path = package / "README_KO.md"
+    if readme_path.is_file():
+        readme = readme_path.read_text(encoding="utf-8-sig")
+        if "v1.0.2" not in readme or "그림형 UI 68장, 155개 표기 한국어화" not in readme:
+            errors.append({"code": "public_readme_version_or_ui_scope_mismatch"})
     return errors
 
 

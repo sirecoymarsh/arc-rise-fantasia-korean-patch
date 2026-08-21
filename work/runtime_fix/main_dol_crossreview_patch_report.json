@@ -2,36 +2,36 @@
   "schema": "arf-main-dol-fixed-string-patch-v1",
   "valid": true,
   "source": {
-    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\sys\\main.dol",
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\sys\\main.dol",
     "size": 4464672,
     "sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
   },
   "inputs": {
     "translations_jsonl": {
-      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\main_dol_translations.jsonl",
-      "sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3"
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\main_dol_translations.jsonl",
+      "sha256": "64154B1F06422FD26C1D67C4D410DE8FF727D1ECA396CC577CABC60EFDC53DBA"
     },
     "codebook": {
-      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\main_dol_crossreview_codebook_temp.json",
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\main_dol_crossreview_codebook_temp.json",
       "format": "arc-rise-fantasia-korean-codebook-v1",
       "sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF"
     },
     "encoder": {
-      "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\encode_custom_euc28.py",
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\encode_custom_euc28.py",
       "sha256": "4C6297D599FA62C0D9D48361FDFA7F82EDB15B5A6E00F8D8FC6D06F1079A97EE"
     }
   },
   "output": {
-    "path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\runtime_fix\\main.dol.crossreview.patched",
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\main.dol.crossreview.patched",
     "size": 4464672,
-    "sha256": "2FF34AC7A78176DD2464ACA4DF925D5B70507CC98111D94091C5F1824626AC2C"
+    "sha256": "6BD08B12F0258BBDAF57371BA0B0D58A2D2444B658B689CEB200AE06DC9F9991"
   },
   "summary": {
     "patch_rows": 925,
-    "source_bytes": 16721,
-    "encoded_bytes": 14225,
+    "source_bytes": 16734,
+    "encoded_bytes": 14238,
     "zero_padding_bytes": 2496,
-    "changed_byte_offsets": 16260,
+    "changed_byte_offsets": 16268,
     "file_size_preserved": true,
     "all_original_raw_verified": true,
     "all_original_terminating_nuls_preserved": true,
@@ -8126,14 +8126,14 @@
     {
       "line": 540,
       "id": "line-000540",
-      "offset": 4004952,
-      "offset_hex": "0x3D1C58",
-      "byte_length": 8,
-      "source_raw_hex": "4631C8F4B8F7C4FA",
-      "source_text": "F1飛光艇",
-      "translation_ko": "F1비광정",
-      "encoded_hex": "4631BAEBB1AEB0AC",
-      "encoded_byte_length": 8,
+      "offset": 4004939,
+      "offset_hex": "0x3D1C4B",
+      "byte_length": 21,
+      "source_raw_hex": "4630B8BDBADFB0CCC3D6A1A1154631C8F4B8F7C4FA",
+      "source_text": "F0現在位置　\u0015F1飛光艇",
+      "translation_ko": "F0현재위치　<$15>F1비광정",
+      "encoded_hex": "4630C7FDC1DEC0B4C4F0A1A1154631BAEBB1AEB0AC",
+      "encoded_byte_length": 21,
       "zero_padding_bytes": 0,
       "terminator_offset": 4004960,
       "terminator_preserved": true

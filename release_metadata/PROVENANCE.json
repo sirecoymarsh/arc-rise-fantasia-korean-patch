@@ -2,8 +2,8 @@
   "schema": "arf-ko-public-provenance-v1",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
-  "translation_units": 30033,
-  "translation_occurrences": 85823,
+  "translation_units": 30188,
+  "translation_occurrences": 85978,
   "battle_enemy": {
     "entries": 270,
     "display_name_occurrences": 270,
@@ -18,6 +18,12 @@
     "chat_titles": 15,
     "shop_names": 1,
     "semantic_japanese_unmatched_after": 0
+  },
+  "raster_ui": {
+    "translated_texture_entries": 68,
+    "translated_text_items": 155,
+    "translator_model": "Codex internal",
+    "external_translation_models_or_services_used": []
   },
   "reviewed_batches": 149,
   "translation_engine_policy": "Codex internal models only",
@@ -38,32 +44,34 @@
       "image_reinsertion_targets": 44,
       "image_direct_physical_files": 43,
       "image_cumulative_system_members": 1,
-      "staged_physical_files": 683,
-      "riivolution_file_rules": 683,
-      "supplemental_physical_files": 27,
+      "staged_physical_files": 684,
+      "riivolution_file_rules": 684,
+      "supplemental_physical_files": 28,
       "riivolution_memory_rules": 925,
+      "ui_raster_translated_entries": 68,
+      "ui_raster_translated_text_items": 155,
       "battle_enemy_entries": 270,
       "battle_enemy_display_name_occurrences": 270,
+      "battle_enemy_alternate_display_name_occurrences": 87,
       "battle_enemy_part_name_occurrences": 3,
       "battle_enemy_skill_name_occurrences": 672,
       "battle_enemy_translation_occurrences": 1032,
       "battle_enemy_unique_skill_names": 226,
       "battle_enemy_unique_part_names": 3,
-      "battle_enemy_alternate_display_name_occurrences": 87,
       "system_text_residue_translation_occurrences": 30
     },
     "riivolution": {
       "xml": "riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
-      "file_count": 683,
+      "file_count": 684,
       "memory_count": 925,
-      "resize_true_count": 559,
-      "sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2"
+      "resize_true_count": 560,
+      "sha256": "494A2A23F9944A1442079B76723844456B2187BF138DE4F55500023412F9F8DF"
     },
     "static_validation": {
       "valid": true,
       "error_count": 0
     },
-    "manifest_sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E",
-    "tree_sha256": "66BACBD4E8290BB1E262CB1BEED4B4FDBBE553F8836AEDF0F1C4454F6BBBE25C"
+    "manifest_sha256": "5315D014A58D7559DE0ABCE5F44C50C0B86E845BDEF120141C36FA7FE9FF67C1",
+    "tree_sha256": "59D1F45DE7DC8222BB8E4573E45D20AF5B1F6B2681D9DA2864B3FB93A9662D9A"
   }
 }

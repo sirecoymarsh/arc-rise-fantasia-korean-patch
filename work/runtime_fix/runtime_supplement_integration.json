@@ -4,12 +4,12 @@
   "translation_engine_policy": "Codex internal model only",
   "external_translation_models_or_apis_used": false,
   "base_physical_count": 655,
-  "supplemental_physical_count": 27,
-  "final_physical_count": 682,
+  "supplemental_physical_count": 28,
+  "final_physical_count": 683,
   "memory_patch_count": 925,
   "main_dol_staged_physically": false,
-  "xml_sha256": "BD0A9DF9784C5DF58CF9D3227E6E9343EA152EBAFCEB628FFFB0043CEE9C6344",
-  "staging_manifest_sha256": "32F85FCA5A0F6D8F65FB4A58875AAD23B5E0DD893CE2B2D5D1D467A3665D3078",
+  "xml_sha256": "7A856258278747ECD3C7925D621A0E67ADD9EA22E1CF94A2F07CC9C74944C473",
+  "staging_manifest_sha256": "612ACCFF74B132D7FFD7E6FF4056FD43D8726D89F436A67DA39F4D6B114688AD",
   "physical_files": [
     {
       "physical_path": "Hbm/home.csv",
@@ -253,6 +253,15 @@
       "output_size": 506240,
       "resize": true,
       "supplemental_lane": "opening_bnr"
+    },
+    {
+      "physical_path": "interface/if_resident_vol.cxd",
+      "source_sha256": "09E6816C21AF70DDA1A7E474D0E25C50E0C3E9477E8313A8AFA922DE6172D359",
+      "output_sha256": "B28E29B28D1CFB640E4C45FAB447D71AB50B5021C37DC1628A13B15FBCC63854",
+      "source_size": 1325076,
+      "output_size": 1260716,
+      "resize": true,
+      "supplemental_lane": "ui_raster"
     }
   ],
   "valid": true

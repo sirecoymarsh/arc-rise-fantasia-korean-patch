@@ -1,9 +1,9 @@
 ﻿{
     "schema":  "arf-ko-one-click-installer-fixture-v1",
-    "package_root":  "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.1",
-    "package_manifest_sha256":  "E13A2CD1611F2271F53E1CCC5530AE2BD93B68BD9C1C83002A6E2668A6AF122C",
-    "package_manifest_size_bytes":  180538,
-    "overlay_file_count":  684,
+    "package_root":  "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.2",
+    "package_manifest_sha256":  "75E60D7F3FC324A32D4EB23EF42DCCD491DA64510B9393414A2107B218A77402",
+    "package_manifest_size_bytes":  180808,
+    "overlay_file_count":  685,
     "checks":  [
                    {
                        "name":  "one_click_noninteractive_install",

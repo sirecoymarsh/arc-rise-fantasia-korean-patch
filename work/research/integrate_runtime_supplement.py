@@ -3,7 +3,7 @@
 
 The base staging builder owns the 655 translated game files.  This script
 adds only the separately reviewed runtime surfaces: HOME Button resources,
-ending-card WTMs, opening.bnr, and fixed-width
+ending-card WTMs, opening.bnr, Korean resident-menu WTMD atlases, and fixed-width
 main.dol strings expressed as Riivolution memory writes.  main.dol itself is
 never copied into the overlay.
 """
@@ -24,7 +24,7 @@ import xml.etree.ElementTree as ET
 
 GAME_ID = "RPJJ99"
 BASE_PHYSICAL_COUNT = 655
-SUPPLEMENTAL_PHYSICAL_COUNT = 27
+SUPPLEMENTAL_PHYSICAL_COUNT = 28
 EXPECTED_MEMORY_PATCHES = 925
 MAIN_DOL_SHA256 = "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
 
@@ -93,7 +93,7 @@ def file_span_to_memory(offset: int, length: int, sections: list[dict[str, int |
     return matches[0]
 
 
-def supplemental_payloads(runtime_fix: Path) -> list[tuple[str, Path, bool, str]]:
+def supplemental_payloads(runtime_fix: Path, ui_residue: Path) -> list[tuple[str, Path, bool, str]]:
     rows: list[tuple[str, Path, bool, str]] = [
         ("Hbm/home.csv", runtime_fix / "hbm_ko/payloads/Hbm/home.csv", True, "hbm"),
         ("Hbm/home_nosave.csv", runtime_fix / "hbm_ko/payloads/Hbm/home_nosave.csv", True, "hbm"),
@@ -104,6 +104,7 @@ def supplemental_payloads(runtime_fix: Path) -> list[tuple[str, Path, bool, str]
         rows.append((f"Event/endroll/{name}", runtime_fix / f"endroll_ui/payloads/Event/endroll/{name}", False, "endroll"))
     rows.extend([
         ("opening.bnr", runtime_fix / "opening_bnr_ko/payloads/opening.bnr", True, "opening_bnr"),
+        ("interface/if_resident_vol.cxd", ui_residue / "payloads/interface/if_resident_vol.cxd", True, "ui_raster"),
     ])
     return rows
 
@@ -114,6 +115,7 @@ def main() -> int:
     parser.add_argument("--source-files", type=Path, default=Path("work/disc_extracted/DATA/files"))
     parser.add_argument("--source-main-dol", type=Path, default=Path("work/disc_extracted/DATA/sys/main.dol"))
     parser.add_argument("--runtime-fix", type=Path, default=Path("work/runtime_fix"))
+    parser.add_argument("--ui-residue", type=Path, default=Path("work/ui_residue_application"))
     parser.add_argument("--translations", type=Path, default=Path("work/runtime_fix/main_dol_translations.jsonl"))
     parser.add_argument("--codebook", type=Path, default=Path("work/font/final_v2/codebook.json"))
     parser.add_argument("--encoder", type=Path, default=Path("work/research/encode_custom_euc28.py"))
@@ -144,7 +146,6 @@ def main() -> int:
     endroll_verification = load_json(args.runtime_fix / "endroll_ui/verification_summary.json")
     opening = load_json(args.runtime_fix / "opening_bnr_ko/opening_bnr_korean_payload_manifest.json")
     crossreview = load_json(args.runtime_fix / "main_dol_crossreview.json")
-    visual_audit = load_json(args.runtime_fix / "visual_sweep/final_visual_surface_audit.json")
     require(hbm.get("static_validation", {}).get("valid") is True, "HBM manifest is not valid")
     require(endroll.get("file_count") == 23, "endroll manifest file count is not 23")
     require(endroll.get("payload_aggregate_sha256") == endroll_verification.get("payload_aggregate_sha256"),
@@ -153,9 +154,19 @@ def main() -> int:
     require(opening.get("static_validation", {}).get("valid") is True or opening.get("valid") is True,
             "opening.bnr manifest is not valid")
     require(crossreview.get("valid") is True, "main.dol cross-review is not valid")
-    require(visual_audit.get("valid") is True, "final visual surface audit is not valid")
 
-    payload_rows = supplemental_payloads(args.runtime_fix)
+    ui_report_path = args.ui_residue / "application_report.json"
+    ui_report = load_json(ui_report_path)
+    ui_payload = args.ui_residue / "payloads/interface/if_resident_vol.cxd"
+    require(ui_report.get("valid") is True and not ui_report.get("errors"), "resident UI application report is invalid")
+    require(ui_report.get("translator_model") == "Codex internal", "resident UI translator provenance mismatch")
+    require(not ui_report.get("external_translation_models_or_services_used"), "resident UI external translation provenance is not empty")
+    require(ui_payload.is_file(), "resident UI payload is missing")
+    require(sha256_file(ui_payload) == str(ui_report["output"]["sha256"]).upper(), "resident UI payload/report hash mismatch")
+    require(int(ui_report["counts"]["translated_wtmd_entries"]) == 68, "resident UI translated entry count mismatch")
+    require(int(ui_report["counts"]["translated_text_items"]) == 155, "resident UI translated text count mismatch")
+
+    payload_rows = supplemental_payloads(args.runtime_fix, args.ui_residue)
     require(len(payload_rows) == SUPPLEMENTAL_PHYSICAL_COUNT, "internal supplemental payload count mismatch")
     require(len({row[0] for row in payload_rows}) == len(payload_rows), "duplicate supplemental physical paths")
 
@@ -270,6 +281,18 @@ def main() -> int:
     manifest["counts"]["staged_physical_files"] = len(all_staged)
     manifest["counts"]["riivolution_file_rules"] = len(all_staged)
     manifest["counts"]["riivolution_memory_rules"] = len(memory_rows)
+    manifest["counts"]["ui_raster_translated_entries"] = int(ui_report["counts"]["translated_wtmd_entries"])
+    manifest["counts"]["ui_raster_translated_text_items"] = int(ui_report["counts"]["translated_text_items"])
+    manifest["inputs"]["ui_raster_translation_manifest"] = {
+        "path": str(args.translations.parent.parent / "translation/ui_image_residue/ui_image_translations.json"),
+        "sha256": str(ui_report["translation_manifest"]["sha256"]).upper(),
+        "translator_model": "Codex internal",
+        "external_translation_models_or_services_used": [],
+    }
+    manifest["inputs"]["ui_raster_application_report"] = {
+        "path": str(ui_report_path),
+        "sha256": sha256_file(ui_report_path),
+    }
     manifest["riivolution"]["file_count"] = len(all_staged)
     manifest["riivolution"]["memory_count"] = len(memory_rows)
     manifest["riivolution"]["resize_true_count"] = sum(bool(row.get("resize", row["source_size"] != row["output_size"])) for row in all_staged)
@@ -291,7 +314,8 @@ def main() -> int:
             "endroll_manifest_sha256": sha256_file(args.runtime_fix / "endroll_ui/manifest.json"),
             "endroll_verification_sha256": sha256_file(args.runtime_fix / "endroll_ui/verification_summary.json"),
             "opening_bnr_manifest_sha256": sha256_file(args.runtime_fix / "opening_bnr_ko/opening_bnr_korean_payload_manifest.json"),
-            "final_visual_surface_audit_sha256": sha256_file(args.runtime_fix / "visual_sweep/final_visual_surface_audit.json"),
+            "ui_raster_application_report_sha256": sha256_file(ui_report_path),
+            "ui_raster_translation_manifest_sha256": str(ui_report["translation_manifest"]["sha256"]).upper(),
         },
         "physical_files": added,
         "main_dol_staged_physically": False,
