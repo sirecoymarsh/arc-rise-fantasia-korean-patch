@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.1"
 
 
 def sha256(path: Path) -> str:
@@ -28,6 +28,12 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest().upper()
+
+
+def write_text_crlf(path: Path, text: str, encoding: str) -> None:
+    """Write deterministic Windows text, optionally with an encoding BOM."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    path.write_bytes(normalized.replace("\n", "\r\n").encode(encoding))
 
 
 def safe_relative(path: Path, root: Path) -> str:
@@ -143,45 +149,44 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.1
 
-## 대상
+## 설치
+
+1. ZIP 파일의 압축을 완전히 풉니다.
+2. Dolphin을 종료합니다.
+3. `설치하기.cmd`를 더블클릭합니다.
+4. 설치 완료 안내가 나오면 Dolphin을 실행합니다.
+5. 게임을 우클릭하고 **Riivolution 패치로 시작**을 선택한 뒤 한국어 패치를 켭니다.
+
+Dolphin 사용자 폴더를 자동으로 찾지 못하면 폴더 선택창이 열립니다. Dolphin의
+**파일 → 사용자 폴더 열기**로 확인되는 폴더를 선택하면 됩니다. PowerShell 명령이나
+원본 RVZ 경로를 입력할 필요가 없으며 원본 RVZ는 수정하지 않습니다.
+
+## 직접 복사할 경우
+
+`payload\\riivolution_sd` 안의 `arc_rise_fantasia_ko_full` 폴더와
+`riivolution` 폴더를 Dolphin 사용자 폴더의 `Load` 폴더에 복사합니다.
+`riivolution_sd` 폴더 자체를 복사하면 안 됩니다.
+
+## 삭제
+
+Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
+
+- `Load\\arc_rise_fantasia_ko_full`
+- `Load\\riivolution\\arc_rise_fantasia_ko_full.xml`
+
+다른 Riivolution 패치가 있을 수 있으므로 `Load\\riivolution` 폴더 전체를 삭제하면
+안 됩니다.
+
+## 대상 및 범위
 
 - 게임 ID: `{GAME_ID}`
 - 일본판 원본 RVZ SHA-256: `{SOURCE_RVZ_SHA256}`
 - 일본어 음성 유지
-- 원본 RVZ는 수정하지 않는 Riivolution/Dolphin 오버레이 방식
+- 원본 RVZ를 수정하지 않는 Riivolution/Dolphin 오버레이 방식
 - 전투 몬스터 기본명 270개와 보조 표시명 87회, 보스 부위명 3개, 몬스터 기술명 672회(고유 기술명 226개) 한국어화
 - 전수검사에서 추가 발견한 어빌리티명 14개, 채팅 제목 15개, 상점명 1개 한국어화
-
-## 설치
-
-1. Dolphin을 종료합니다.
-2. PowerShell에서 다음을 실행합니다.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\\Install-ARF-KO.ps1 `
-  -SourceRvz 'D:\\Games\\Arc Rise Fantasia (Japan).rvz' `
-  -TargetRoot 'D:\\DolphinUser\\Load'
-```
-
-`TargetRoot`에는 Riivolution SD 구조를 둘 폴더를 지정합니다. 설치기는 패키지와
-원본 해시를 확인한 뒤 `riivolution` 및 `arc_rise_fantasia_ko` 폴더를 복사합니다.
-
-## 복원
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\\Restore-ARF-KO.ps1
-```
-
-설치 전에 같은 경로에 있던 파일은 외부 백업에서 복구되고, 새로 추가된 파일은
-제거됩니다. 설치 상태는 `%LOCALAPPDATA%\\ArcRiseFantasiaKO`에 기록됩니다.
-
-## 무결성 확인
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
-```
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
@@ -189,11 +194,11 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
 ## 오프닝 영상 안정성
 
 `Movie/RAY_OP_02.sfd`는 일본판 원본을 그대로 사용합니다. 개발 중 전체 영상을
-재인코딩한 후보에서 프레임 타임스탬프 역행과 실제 정지가 확인되어 릴리스에서는
-해당 영상 오버레이를 제외했습니다. 따라서 오프닝 중 게임 제목 한 줄은 일본어로
-남지만, 영상과 음성은 원본과 동일하게 재생됩니다.
+재인코딩한 후보에서 실제 정지가 확인되어 릴리스에서는 해당 영상 오버레이를
+제외했습니다. 따라서 오프닝 중 게임 제목 한 줄은 일본어로 남지만 영상과 음성은
+원본과 동일하게 재생됩니다.
 """
-    (package / "README_KO.md").write_text(readme, encoding="utf-8")
+    write_text_crlf(package / "README_KO.md", readme, "utf-8")
     public_staging = {
         "schema": staging_manifest.get("schema"),
         "game_id": staging_manifest.get("game_id"),
@@ -240,25 +245,33 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",
         "external_translation_models_or_apis_used": False,
-        "delivery": "reversible Riivolution-style overlay",
+        "delivery": "one-click Riivolution overlay installer",
         "staging_summary": public_staging,
     }
-    (package / "PROVENANCE.json").write_text(
-        json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    write_text_crlf(
+        package / "PROVENANCE.json",
+        json.dumps(public, ensure_ascii=False, indent=2) + "\n",
+        "utf-8",
     )
 
 
 def copy_installer_scripts(root: Path, package: Path) -> None:
     script_dir = root / "work" / "release_scripts"
-    for name in ("Install-ARF-KO.ps1", "Restore-ARF-KO.ps1", "Verify-ARF-KO.ps1"):
+    for name in ("Install-ARF-KO.ps1", "설치하기.cmd"):
         source = script_dir / name
         if not source.is_file():
             raise RuntimeError(f"missing release script: {source}")
-        # Windows PowerShell 5.1 requires a BOM to parse non-ASCII source
-        # reliably; emit UTF-8-SIG regardless of the workspace encoding.
-        (package / name).write_text(
-            source.read_text(encoding="utf-8-sig"), encoding="utf-8-sig"
-        )
+        if source.suffix.lower() == ".ps1":
+            # Windows PowerShell 5.1 requires a BOM for non-ASCII source.
+            write_text_crlf(
+                package / name,
+                source.read_text(encoding="utf-8-sig"),
+                "utf-8-sig",
+            )
+        else:
+            # Keep the CMD launcher ASCII so cmd.exe never interprets a BOM
+            # as part of the first command.
+            shutil.copy2(source, package / name)
 
 
 def build_manifest(
@@ -311,8 +324,10 @@ def build_manifest(
         "file_count_excluding_manifest": len(fixed_entries),
         "files": fixed_entries,
     }
-    (package / "MANIFEST.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    write_text_crlf(
+        package / "MANIFEST.json",
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        "utf-8",
     )
     return manifest
 
@@ -366,7 +381,7 @@ def main() -> int:
     )
     make_zip(package, zip_path)
     checksum = outputs / f"{PACKAGE_NAME}.zip.sha256"
-    checksum.write_text(f"{sha256(zip_path)}  {zip_path.name}\n", encoding="ascii")
+    write_text_crlf(checksum, f"{sha256(zip_path)}  {zip_path.name}\n", "ascii")
     print(
         json.dumps(
             {

@@ -2,18 +2,27 @@
   "schema": "arf-ko-public-provenance-v1",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
-  "translation_units": 29986,
-  "translation_occurrences": 85597,
+  "translation_units": 30033,
+  "translation_occurrences": 85823,
   "battle_enemy": {
     "entries": 270,
     "display_name_occurrences": 270,
-    "skill_name_occurrences": 563,
-    "unique_skill_names": 209
+    "alternate_display_name_occurrences": 87,
+    "part_name_occurrences": 3,
+    "skill_name_occurrences": 672,
+    "unique_skill_names": 226
+  },
+  "system_text_residue": {
+    "translation_occurrences": 30,
+    "ability_names": 14,
+    "chat_titles": 15,
+    "shop_names": 1,
+    "semantic_japanese_unmatched_after": 0
   },
   "reviewed_batches": 149,
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
-  "delivery": "reversible Riivolution-style overlay",
+  "delivery": "one-click Riivolution overlay installer",
   "staging_summary": {
     "schema": "arf-full-runtime-staging-v2",
     "game_id": "RPJJ99",
@@ -36,10 +45,12 @@
       "battle_enemy_entries": 270,
       "battle_enemy_display_name_occurrences": 270,
       "battle_enemy_part_name_occurrences": 3,
-      "battle_enemy_skill_name_occurrences": 563,
-      "battle_enemy_translation_occurrences": 836,
-      "battle_enemy_unique_skill_names": 209,
-      "battle_enemy_unique_part_names": 3
+      "battle_enemy_skill_name_occurrences": 672,
+      "battle_enemy_translation_occurrences": 1032,
+      "battle_enemy_unique_skill_names": 226,
+      "battle_enemy_unique_part_names": 3,
+      "battle_enemy_alternate_display_name_occurrences": 87,
+      "system_text_residue_translation_occurrences": 30
     },
     "riivolution": {
       "xml": "riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
@@ -52,7 +63,7 @@
       "valid": true,
       "error_count": 0
     },
-    "manifest_sha256": "9F5B404F0670529E770D7EA7148E365438A77156A59A791079F05E99D76F62F4",
-    "tree_sha256": "6C6BB1378740E5EFE5D8E2EC60F9BA7E95E0509FBE614CD6FA7D7E5A5D78C2EF"
+    "manifest_sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E",
+    "tree_sha256": "66BACBD4E8290BB1E262CB1BEED4B4FDBBE553F8836AEDF0F1C4454F6BBBE25C"
   }
 }

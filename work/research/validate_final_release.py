@@ -14,8 +14,8 @@ from pathlib import Path, PurePosixPath
 
 EXPECTED_SOURCE = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 EXPECTED_GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0"
-TEXT_EXTENSIONS = {".md", ".json", ".ps1", ".txt", ".xml"}
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.1"
+TEXT_EXTENSIONS = {".md", ".json", ".ps1", ".cmd", ".txt", ".xml"}
 PROHIBITED_PUBLIC_PATTERNS = [
     re.compile(r"C:\\Users\\", re.I),
     re.compile(r"CadriacLord", re.I),
@@ -96,6 +96,10 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
         if path.is_file() and path.name != "MANIFEST.json"
     }
     declared = {str(item["path"]): item for item in manifest.get("files", [])}
+    required_public_files = {"Install-ARF-KO.ps1", "설치하기.cmd", "README_KO.md", "PROVENANCE.json"}
+    missing_public_files = sorted(required_public_files - set(actual))
+    if missing_public_files:
+        errors.append({"code": "one_click_public_files_missing", "paths": missing_public_files})
     if set(actual) != set(declared):
         errors.append(
             {
