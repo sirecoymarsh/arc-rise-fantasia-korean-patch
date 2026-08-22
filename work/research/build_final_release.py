@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.2"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.3"
 
 
 def sha256(path: Path) -> str:
@@ -152,6 +152,27 @@ def validate_staging(
         or sha256(ui_file) != str(ui_row.get("output_sha256", "")).upper()
     ):
         raise RuntimeError("resident raster UI staged payload is incomplete or unbound")
+    town_map = dict(staging_manifest.get("town_map_legend_patch", {}))
+    town_input = dict(inputs.get("town_map_legend_translations", {}))
+    town_input_path = Path(str(town_input.get("path", "")))
+    if (
+        town_map.get("valid") is not True
+        or int(town_map.get("translated_labels", -1)) != 15
+        or int(town_map.get("base_memory_rules", -1)) != 925
+        or int(town_map.get("final_memory_rules", -1)) != 940
+        or town_map.get("icon_identifier_prefixes_preserved") is not True
+        or town_map.get("terminating_nuls_preserved") is not True
+        or town_map.get("changes_confined_to_allowlisted_spans") is not True
+        or town_map.get("translator_model") != "Codex internal"
+        or town_map.get("external_translation_models_or_apis_used") is not False
+        or int(counts.get("town_map_legend_translations", -1)) != 15
+        or int(riivolution.get("memory_count", -1)) != 940
+        or not town_input_path.is_file()
+        or sha256(town_input_path) != str(town_input.get("sha256", "")).upper()
+        or town_input.get("translator_model") != "Codex internal"
+        or town_input.get("external_translation_models_or_apis_used") is not False
+    ):
+        raise RuntimeError("town-map legend translation patch is incomplete or unbound")
     if not staging_manifest_path.is_file():
         raise RuntimeError("staging manifest disappeared during validation")
 
@@ -186,7 +207,7 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.2
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.3
 
 ## 설치
 
@@ -225,6 +246,7 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
 - 전투 몬스터 기본명 270개와 보조 표시명 87회, 보스 부위명 3개, 몬스터 기술명 672회(고유 기술명 226개) 한국어화
 - 전수검사에서 추가 발견한 어빌리티명 14개, 채팅 제목 15개, 상점명 1개 한국어화
 - 메뉴·지도·무기 커스터마이즈·상점·퀘스트·몬스터 도감 등에 남아 있던 그림형 UI 68장, 155개 표기 한국어화
+- 마을·필드 지도 아이콘 범례 15개(세이브 포인트·보물·상점·시설·현재 위치 등) 한국어화
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
@@ -262,11 +284,13 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
         "translation_units": int(staging_manifest.get("counts", {}).get("tm_units", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0))
         + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
-        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0)),
+        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0)),
         "translation_occurrences": int(staging_manifest.get("counts", {}).get("catalog_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
-        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0)),
+        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0)),
         "battle_enemy": {
             "entries": staging_manifest.get("counts", {}).get("battle_enemy_entries"),
             "display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_display_name_occurrences"),
@@ -287,6 +311,14 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
             "translated_text_items": staging_manifest.get("counts", {}).get("ui_raster_translated_text_items"),
             "translator_model": "Codex internal",
             "external_translation_models_or_services_used": [],
+        },
+        "town_map_legend": {
+            "translated_labels": staging_manifest.get("counts", {}).get("town_map_legend_translations"),
+            "base_memory_rules": staging_manifest.get("town_map_legend_patch", {}).get("base_memory_rules"),
+            "final_memory_rules": staging_manifest.get("town_map_legend_patch", {}).get("final_memory_rules"),
+            "icon_identifier_prefixes_preserved": staging_manifest.get("town_map_legend_patch", {}).get("icon_identifier_prefixes_preserved"),
+            "translator_model": "Codex internal",
+            "external_translation_models_or_apis_used": False,
         },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",

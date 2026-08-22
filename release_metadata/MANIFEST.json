@@ -1,7 +1,7 @@
 {
   "schema": "arf-ko-riivolution-release-v1",
-  "package": "Arc_Rise_Fantasia_Korean_Patch_v1.0.2",
-  "created_utc": "2026-08-21T23:08:52.197115+00:00",
+  "package": "Arc_Rise_Fantasia_Korean_Patch_v1.0.3",
+  "created_utc": "2026-08-22T00:41:08.964289+00:00",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
   "source_media_included": false,
@@ -9,8 +9,8 @@
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
   "runtime_ready_release": true,
-  "staging_manifest_sha256": "5315D014A58D7559DE0ABCE5F44C50C0B86E845BDEF120141C36FA7FE9FF67C1",
-  "staging_tree_sha256": "59D1F45DE7DC8222BB8E4573E45D20AF5B1F6B2681D9DA2864B3FB93A9662D9A",
+  "staging_manifest_sha256": "C855E788ACA6081030D8FBBA0094771E4F50E4E15DC50615DF9FFC6362245F30",
+  "staging_tree_sha256": "617E477824AB0D41E8C0CCF869EF53BE822F6DC7503771AA5C1E5067A147CF4D",
   "overlay_file_count": 685,
   "game_replacement_file_count": 684,
   "file_count_excluding_manifest": 689,
@@ -4128,20 +4128,20 @@
     {
       "path": "payload/riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
       "role": "riivolution_overlay",
-      "size_bytes": 140091,
-      "sha256": "494A2A23F9944A1442079B76723844456B2187BF138DE4F55500023412F9F8DF"
+      "size_bytes": 141056,
+      "sha256": "7393E0361D0CE035E3C41493C9628EA850347B185DABFC65D4987B624C8A2AF0"
     },
     {
       "path": "PROVENANCE.json",
       "role": "installer_metadata",
-      "size_bytes": 2822,
-      "sha256": "FBAD6DF1F2878F3E6310A52DB9DAFD34E2EE6B790EF4895EFE4F7FAC85CC7361"
+      "size_bytes": 3135,
+      "sha256": "DB9A0F748EF1768528BF784E101361CFCB19CCBA04041E701AA59112189E7F82"
     },
     {
       "path": "README_KO.md",
       "role": "installer_metadata",
-      "size_bytes": 2475,
-      "sha256": "1314E7A6508D59E7CA92E381402AB0F2ADC873C1433F4B0C8B7D650A8905C571"
+      "size_bytes": 2600,
+      "sha256": "55982512501D6B8B1FCBD93CD8D4BD62A7366626DBD66A0D7687D787CB35E4E4"
     },
     {
       "path": "설치하기.cmd",

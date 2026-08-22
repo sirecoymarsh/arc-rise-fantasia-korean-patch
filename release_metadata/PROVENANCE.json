@@ -2,8 +2,8 @@
   "schema": "arf-ko-public-provenance-v1",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
-  "translation_units": 30188,
-  "translation_occurrences": 85978,
+  "translation_units": 30203,
+  "translation_occurrences": 85993,
   "battle_enemy": {
     "entries": 270,
     "display_name_occurrences": 270,
@@ -24,6 +24,14 @@
     "translated_text_items": 155,
     "translator_model": "Codex internal",
     "external_translation_models_or_services_used": []
+  },
+  "town_map_legend": {
+    "translated_labels": 15,
+    "base_memory_rules": 925,
+    "final_memory_rules": 940,
+    "icon_identifier_prefixes_preserved": true,
+    "translator_model": "Codex internal",
+    "external_translation_models_or_apis_used": false
   },
   "reviewed_batches": 149,
   "translation_engine_policy": "Codex internal models only",
@@ -47,7 +55,7 @@
       "staged_physical_files": 684,
       "riivolution_file_rules": 684,
       "supplemental_physical_files": 28,
-      "riivolution_memory_rules": 925,
+      "riivolution_memory_rules": 940,
       "ui_raster_translated_entries": 68,
       "ui_raster_translated_text_items": 155,
       "battle_enemy_entries": 270,
@@ -58,20 +66,21 @@
       "battle_enemy_translation_occurrences": 1032,
       "battle_enemy_unique_skill_names": 226,
       "battle_enemy_unique_part_names": 3,
-      "system_text_residue_translation_occurrences": 30
+      "system_text_residue_translation_occurrences": 30,
+      "town_map_legend_translations": 15
     },
     "riivolution": {
       "xml": "riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
       "file_count": 684,
-      "memory_count": 925,
+      "memory_count": 940,
       "resize_true_count": 560,
-      "sha256": "494A2A23F9944A1442079B76723844456B2187BF138DE4F55500023412F9F8DF"
+      "sha256": "7393E0361D0CE035E3C41493C9628EA850347B185DABFC65D4987B624C8A2AF0"
     },
     "static_validation": {
       "valid": true,
       "error_count": 0
     },
-    "manifest_sha256": "5315D014A58D7559DE0ABCE5F44C50C0B86E845BDEF120141C36FA7FE9FF67C1",
-    "tree_sha256": "59D1F45DE7DC8222BB8E4573E45D20AF5B1F6B2681D9DA2864B3FB93A9662D9A"
+    "manifest_sha256": "C855E788ACA6081030D8FBBA0094771E4F50E4E15DC50615DF9FFC6362245F30",
+    "tree_sha256": "617E477824AB0D41E8C0CCF869EF53BE822F6DC7503771AA5C1E5067A147CF4D"
   }
 }

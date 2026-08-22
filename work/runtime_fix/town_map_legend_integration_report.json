@@ -1,0 +1,225 @@
+{
+  "schema": "arf-town-map-legend-integration-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal model only",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "source_main_dol": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\sys\\main.dol",
+    "sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+  },
+  "translations": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\town_map_legend\\main_dol_town_map_legend.jsonl",
+    "sha256": "499FA484D33E5B65F548DEAADF9264DC1F06A1FB40CB23A443E95D786C04FBB6",
+    "count": 15
+  },
+  "patch_report": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\town_map_legend_patch_report.json",
+    "sha256": "147280ECCEFF73668720A07DC0A615365F18CAC28000BA696760ECD25CC355F4"
+  },
+  "staging_manifest": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
+    "sha256": "C855E788ACA6081030D8FBBA0094771E4F50E4E15DC50615DF9FFC6362245F30"
+  },
+  "xml": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
+    "sha256": "7393E0361D0CE035E3C41493C9628EA850347B185DABFC65D4987B624C8A2AF0",
+    "file_count": 684,
+    "memory_count": 940
+  },
+  "memory_patches": [
+    {
+      "file_offset": 3994980,
+      "memory_address": 2151494756,
+      "memory_address_hex": "0x803D3464",
+      "section": "data4",
+      "byte_length": 16,
+      "value": "3530BCA6B0ABBAE820C7AAC1A8C6D700",
+      "value_sha256": "8BD6C2E2BE759A57D7966D6D0B533FF4F0EE73ACA4FBEE823F108374E94B113E",
+      "stable_id": "ARF-MAP-LEGEND-50",
+      "source_text": "50セーブポイント",
+      "translation_ko": "50세이브 포인트"
+    },
+    {
+      "file_offset": 3994998,
+      "memory_address": 2151494774,
+      "memory_address_hex": "0x803D3476",
+      "section": "data4",
+      "byte_length": 6,
+      "value": "3531BAB7B9A3",
+      "value_sha256": "E5558D56AA4DED291DA1814B74E09E30F9EA980CF73442B5A8FDD1AD9A517B51",
+      "stable_id": "ARF-MAP-LEGEND-51",
+      "source_text": "51宝箱",
+      "translation_ko": "51보물"
+    },
+    {
+      "file_offset": 3995006,
+      "memory_address": 2151494782,
+      "memory_address_hex": "0x803D347E",
+      "section": "data4",
+      "byte_length": 12,
+      "value": "3532B3F2C0F320B0AFB4C200",
+      "value_sha256": "58638C69044E4AC3F468C6C8ACFBDFC7E44BD516A52948DFF200E6EC534421DD",
+      "stable_id": "ARF-MAP-LEGEND-52",
+      "source_text": "52次のマップ",
+      "translation_ko": "52다음 지도"
+    },
+    {
+      "file_offset": 3995020,
+      "memory_address": 2151494796,
+      "memory_address_hex": "0x803D348C",
+      "section": "data4",
+      "byte_length": 16,
+      "value": "3533BCA6B0F620B0AFB4C20000000000",
+      "value_sha256": "949D95F3D2863071C513AB2EE5134F11FA914CF0C51DADA006156D48597FB0E6",
+      "stable_id": "ARF-MAP-LEGEND-53",
+      "source_text": "53ワールドマップ",
+      "translation_ko": "53세계 지도"
+    },
+    {
+      "file_offset": 3995038,
+      "memory_address": 2151494814,
+      "memory_address_hex": "0x803D349E",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3534BBAAB3F2B7C4",
+      "value_sha256": "5FA1B943BA24E89807CE06BA2F1D866E4966B2634492DE9301201569DAA3767B",
+      "stable_id": "ARF-MAP-LEGEND-54",
+      "source_text": "54はしご",
+      "translation_ko": "54사다리"
+    },
+    {
+      "file_offset": 3995048,
+      "memory_address": 2151494824,
+      "memory_address_hex": "0x803D34A8",
+      "section": "data4",
+      "byte_length": 6,
+      "value": "3535BEEDB1AC",
+      "value_sha256": "5FC0BAC9DD8D7740DF10078F71E0784DFF6ADD881FA6104346404D0590EDACFF",
+      "stable_id": "ARF-MAP-LEGEND-55",
+      "source_text": "55宿屋",
+      "translation_ko": "55여관"
+    },
+    {
+      "file_offset": 3995056,
+      "memory_address": 2151494832,
+      "memory_address_hex": "0x803D34B0",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3536B4C2B1B1C2C2",
+      "value_sha256": "B17D96987BFD50A3303A3B243255E6E8DFD27A7A3EE18A23413F97BBED682B5C",
+      "stable_id": "ARF-MAP-LEGEND-56",
+      "source_text": "56道具屋",
+      "translation_ko": "56도구점"
+    },
+    {
+      "file_offset": 3995066,
+      "memory_address": 2151494842,
+      "memory_address_hex": "0x803D34BA",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3537B8F3B1B1C2C2",
+      "value_sha256": "9904B75B9CDA3074EAB804CCC0319B02326550E14962033D5E350C21E62BE50A",
+      "stable_id": "ARF-MAP-LEGEND-57",
+      "source_text": "57武具屋",
+      "translation_ko": "57무구점"
+    },
+    {
+      "file_offset": 3995076,
+      "memory_address": 2151494852,
+      "memory_address_hex": "0x803D34C4",
+      "section": "data4",
+      "byte_length": 6,
+      "value": "3538B1A7B9D1",
+      "value_sha256": "AB24C91D8940AF6D5093633AE862289D140530A5A3FF47A08B681E65FBBDBA38",
+      "stable_id": "ARF-MAP-LEGEND-58",
+      "source_text": "58工房",
+      "translation_ko": "58공방"
+    },
+    {
+      "file_offset": 3995084,
+      "memory_address": 2151494860,
+      "memory_address_hex": "0x803D34CC",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3539BEBEC1DAC2C2",
+      "value_sha256": "B99FA8717F151C749666571FFFB8F0366F9B92545D0B43F0979064A39793AA49",
+      "stable_id": "ARF-MAP-LEGEND-59",
+      "source_text": "59仕立屋",
+      "translation_ko": "59양장점"
+    },
+    {
+      "file_offset": 3995094,
+      "memory_address": 2151494870,
+      "memory_address_hex": "0x803D34D6",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3561B1D0B4FD0000",
+      "value_sha256": "470EE3F539FCB8C09DA26E3991F66BAEE64CA485A557F28F260955439E3A29A8",
+      "stable_id": "ARF-MAP-LEGEND-5A",
+      "source_text": "5aギルド",
+      "translation_ko": "5a길드"
+    },
+    {
+      "file_offset": 3995104,
+      "memory_address": 2151494880,
+      "memory_address_hex": "0x803D34E0",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3562C4FBB0AFB3A2",
+      "value_sha256": "37757986A2D7FBFCCF8319452125C6CCFDDABB87759E5FF323E70BAA39CDE438",
+      "stable_id": "ARF-MAP-LEGEND-5B",
+      "source_text": "5bカジノ",
+      "translation_ko": "5b카지노"
+    },
+    {
+      "file_offset": 3995114,
+      "memory_address": 2151494890,
+      "memory_address_hex": "0x803D34EA",
+      "section": "data4",
+      "byte_length": 8,
+      "value": "3563C6D5B1CEC1DA",
+      "value_sha256": "986D35A1C62E1C9D02A63E21BBFF1A315EB9074DFBE604A0D480896588A2CB4E",
+      "stable_id": "ARF-MAP-LEGEND-5C",
+      "source_text": "5c闘技場",
+      "translation_ko": "5c투기장"
+    },
+    {
+      "file_offset": 3995124,
+      "memory_address": 2151494900,
+      "memory_address_hex": "0x803D34F4",
+      "section": "data4",
+      "byte_length": 18,
+      "value": "3564C7D6B8DAB3E320C8AB00000000000000",
+      "value_sha256": "D1A5275F5D6EC4B236365134352C2A35E4D9D6FDAABEE569F77E940AEE0BE24B",
+      "stable_id": "ARF-MAP-LEGEND-5D",
+      "source_text": "5dハーモニーホール",
+      "translation_ko": "5d하모니 홀"
+    },
+    {
+      "file_offset": 3995144,
+      "memory_address": 2151494920,
+      "memory_address_hex": "0x803D3508",
+      "section": "data4",
+      "byte_length": 10,
+      "value": "3565C7FDC1DEC0B4C4F0",
+      "value_sha256": "274A3D720914C39FD927795C8350E53AC8EBEC8C7CBD1E2CE3EB678BA8ACF960",
+      "stable_id": "ARF-MAP-LEGEND-5E",
+      "source_text": "5e現在位置",
+      "translation_ko": "5e현재위치"
+    }
+  ],
+  "checks": {
+    "source_hash_verified": true,
+    "source_bytes_verified": true,
+    "icon_identifier_prefixes_preserved": true,
+    "terminating_nuls_preserved": true,
+    "targets_fit_fixed_slots": true,
+    "existing_memory_rules_preserved": true,
+    "new_memory_addresses_unique": true,
+    "physical_staging_unchanged": true
+  },
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}
