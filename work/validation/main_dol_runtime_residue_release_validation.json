@@ -1,0 +1,41 @@
+{
+  "schema": "arf-main-dol-runtime-residue-release-validation-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "target": {
+    "offset": 3994177,
+    "offset_hex": "0x003CF241",
+    "source_text": "ないよ〜〜ん",
+    "translation_ko": "없지롱~~",
+    "slot_bytes": 12,
+    "source_raw_sha256": "FC800B793D82F53DFA3C04979685026A33994EF4B2BCDB554CE6F03B4B625BC0"
+  },
+  "counts": {
+    "reviewed_main_dol_rows": 926,
+    "verified_main_dol_memory_writes": 926,
+    "final_xml_memory_rules": 941,
+    "town_map_delta_rules": 15
+  },
+  "inputs": {
+    "translations_sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0",
+    "patch_report_sha256": "D67AC8FCD9BB780487F24AE45DA77E4BB639652D00A7DA0C470B86BEBEABF17B",
+    "crossreview_sha256": "0AF117F3AFB4027056951BA92E2CABCAD728F2882A5D0F389099750741759ACF",
+    "runtime_integration_sha256": "C8A299D29FFCB9B6C38B9D2689263ED69A8F6944126EFE5F8DE1B49CC92556C8",
+    "staging_manifest_sha256": "B793972EF76512144CC32795EA842D5D93AFCAD1BB46FA5409B5C5E285E20DD8",
+    "staging_xml_sha256": "B259AA33F2604EA69402D3714A436708E4B185F1A36C39B8B4DA52D4668B187B",
+    "package_manifest_sha256": "C3A0E002A56473A83E83074C1D2DF604E212D6171658A0BC7796099944FE6FC6",
+    "package_xml_sha256": "B259AA33F2604EA69402D3714A436708E4B185F1A36C39B8B4DA52D4668B187B"
+  },
+  "checks": {
+    "source_bytes_and_nul_verified": true,
+    "codex_only_provenance": true,
+    "target_has_no_japanese_residue": true,
+    "all_926_memory_values_match": true,
+    "crossreview_valid": true,
+    "release_staging_binding_matches": true
+  },
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

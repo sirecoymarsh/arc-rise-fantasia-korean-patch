@@ -101,7 +101,7 @@ def main() -> int:
     font = load(PATHS["font_injection"])
     check("font_v3_valid", font.get("valid") is True and font.get("error_count") == 0)
     check("font_v3_counts", font.get("assigned_characters") == 1370
-          and font.get("approved_units_encoded") == 30932
+          and font.get("approved_units_encoded") == 30933
           and font.get("approved_unit_encoding_errors") == 0)
 
     geometry = load(PATHS["geometry_repair"])
@@ -116,7 +116,7 @@ def main() -> int:
           and integration.get("error_count") == 0)
     check("staging_counts", staging.get("counts", {}).get("staged_physical_files") == 684
           and staging.get("riivolution", {}).get("file_count") == 684
-          and staging.get("riivolution", {}).get("memory_count") == 925)
+          and staging.get("riivolution", {}).get("memory_count") == 926)
     check("staging_manifest_binding",
           integration.get("staging_manifest", {}).get("sha256") == sha(PATHS["staging_manifest"]))
     check("battle_application_binding",

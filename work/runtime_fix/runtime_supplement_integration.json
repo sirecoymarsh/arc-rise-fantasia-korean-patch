@@ -6,10 +6,10 @@
   "base_physical_count": 655,
   "supplemental_physical_count": 28,
   "final_physical_count": 683,
-  "memory_patch_count": 925,
+  "memory_patch_count": 926,
   "main_dol_staged_physically": false,
-  "xml_sha256": "7A856258278747ECD3C7925D621A0E67ADD9EA22E1CF94A2F07CC9C74944C473",
-  "staging_manifest_sha256": "612ACCFF74B132D7FFD7E6FF4056FD43D8726D89F436A67DA39F4D6B114688AD",
+  "xml_sha256": "38CEDFA1A6A1780134588F916CB086B18BD5FF6255A4D4AA942F4544D1554BD7",
+  "staging_manifest_sha256": "D10ACCDDE936291109075D74842038E1BCABFBB027A993C4DBC614802CC47DA7",
   "physical_files": [
     {
       "physical_path": "Hbm/home.csv",

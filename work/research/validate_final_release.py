@@ -182,8 +182,8 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
                 or raster.get("translator_model") != "Codex internal"
                 or raster.get("external_translation_models_or_services_used") != []
                 or int(town_map.get("translated_labels", -1)) != 15
-                or int(town_map.get("base_memory_rules", -1)) != 925
-                or int(town_map.get("final_memory_rules", -1)) != 940
+                or int(town_map.get("base_memory_rules", -1)) != 926
+                or int(town_map.get("final_memory_rules", -1)) != 941
                 or town_map.get("icon_identifier_prefixes_preserved") is not True
                 or town_map.get("translator_model") != "Codex internal"
                 or town_map.get("external_translation_models_or_apis_used") is not False

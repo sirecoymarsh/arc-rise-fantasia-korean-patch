@@ -6,8 +6,8 @@
   "audited_offset_start": "0x003C64F7",
   "audited_offset_end": "0x003F1DD9",
   "candidate_count": 1325,
-  "user_visible_translated_count": 925,
-  "excluded_debug_internal_count": 400,
+  "user_visible_translated_count": 926,
+  "excluded_debug_internal_count": 399,
   "unresolved_count": 0,
   "accounting_valid": true,
   "lane_counts": {
@@ -27,7 +27,7 @@
     "map_ui": 9,
     "common_ui": 43,
     "system_notification": 10,
-    "speaker_name": 96,
+    "speaker_name": 97,
     "strategy_ui": 3,
     "status_ui": 4,
     "inventory_prompt": 1,
@@ -59,7 +59,7 @@
     "internal_non_display_string_or_unproven_visibility": 58,
     "unavailable_test_or_debug_menu": 125,
     "internal_or_invalid_placeholder_literal": 11,
-    "unreachable_developer_placeholder": 3,
+    "unreachable_developer_placeholder": 2,
     "unavailable_tutorial_test_choice": 6,
     "internal_identifier_or_dummy_label": 22,
     "false_positive_binary_candidate": 2,
@@ -92,10 +92,10 @@
   },
   "actual_custom_euc28_patch_validation": {
     "valid": true,
-    "patch_rows": 925,
-    "translations_sha256": "A0F997FCECB0B7C6697C1E2CE3510F1F5F72A3A22EDAD0F9CFC13957B93A8A91",
-    "codebook_sha256": "C068CE21DCD05D3081A26504757206543E7928921A30630F9154D3AA96790EC4",
-    "output_main_dol_sha256": "CFA175954CCB8571701A44600DD1F9FFDEFADDC79D2A07A26DA7E3DA3BB2C910",
+    "patch_rows": 926,
+    "translations_sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0",
+    "codebook_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
+    "output_main_dol_sha256": "F15A6B3F1C25C7D19A87D480A9FFAAF4C80FAE5E759722E900398F167DCD6F7B",
     "file_size_preserved": true,
     "all_original_raw_verified": true,
     "all_original_terminating_nuls_preserved": true,
@@ -103,9 +103,9 @@
     "patch_report": "work/runtime_fix/main_dol_patch_report.json"
   },
   "output_sha256": {
-    "translations": "A0F997FCECB0B7C6697C1E2CE3510F1F5F72A3A22EDAD0F9CFC13957B93A8A91",
-    "exclusions": "C478E1A5CD71FC5CE5B03F0A099118E055EBB66BA1082C5801A2703DDE3CBEB8",
-    "patched_main_dol": "CFA175954CCB8571701A44600DD1F9FFDEFADDC79D2A07A26DA7E3DA3BB2C910",
-    "patch_report": "80FABC7692D9516D021573FD3956B2A1B084BF078F0A21273A282C9719953B8B"
+    "translations": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0",
+    "exclusions": "6B89C1DACAD5D0E4597CD40F06B0B2B78D0D9435526EE89E4F7E305FD8394776",
+    "patched_main_dol": "F15A6B3F1C25C7D19A87D480A9FFAAF4C80FAE5E759722E900398F167DCD6F7B",
+    "patch_report": "CE4C80BD7BB86B064CB312B6EF379262B4E3E161F676A7343DEDB147F158DA98"
   }
 }

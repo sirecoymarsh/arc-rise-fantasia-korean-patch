@@ -48,7 +48,8 @@ EXPECTED_TEXT_PHYSICAL = 612
 EXPECTED_IMAGE_TARGETS = 44
 EXPECTED_IMAGE_PHYSICAL = 43
 EXPECTED_SUPPLEMENTAL_PHYSICAL = 28
-EXPECTED_MAIN_DOL_MEMORY_PATCHES = 925
+EXPECTED_MAIN_DOL_MEMORY_PATCHES = 926
+EXPECTED_FINAL_MEMORY_PATCHES = 941
 EXPECTED_OVERLAY_PHYSICAL = 684
 EXPECTED_RELEASE_OVERLAY_FILES = 685  # 684 game replacements + Riivolution XML
 EXPECTED_BSCR_LEAVES = 606
@@ -60,7 +61,7 @@ EXPECTED_SYSTEM_FIELDS = 5_236
 EXPECTED_LOCAL_CONTAINERS = 608
 EXPECTED_LOCAL_PHYSICAL = 609
 EXPECTED_FONT_PAGES = 9
-EXPECTED_FONT_ENCODED_UNITS = 30_702
+EXPECTED_FONT_ENCODED_UNITS = 30_703
 EXPECTED_INSTALLER_FIXTURE_CHECKS = {
     "pristine_install",
     "installed_hash_verification",
@@ -125,7 +126,7 @@ EXPECTED_FINAL_INVARIANTS = {
 # staging manifests so a self-consistent but stale/replaced evidence chain is
 # rejected before runtime packaging.
 FINAL_ANCHOR_HASHES = {
-    "work/final_text_font_integration_report.json": "FDED16B9A57D829DA00F5EFCAA3498E6E522A9A7D041FA7D5C5921E37B6B26A8",
+    "work/final_text_font_integration_report.json": "44BDD1661CDF103CB3C0C0FA30E6A2BE2DC83D6A4F458359EE947CF869439962",
     "work/translation/final/translation_memory_draft.json": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
     "work/translation/final_validation/review_chain.json": "1CD0B00CBBC0C6F04F7B63AABDEB5B6533C27FF68A36F42AE0D847B7936634F2",
     "work/translation/final_validation/heuristic_warning_waivers.json": "0BEBDFADE1C1AF8112760881466326C522F1B19851C80317DFC521550E2AC4D1",
@@ -133,8 +134,8 @@ FINAL_ANCHOR_HASHES = {
     "work/translation/boundary_audit/canonical_system_boundary_audit.json": "F1D312C5F70CECA06AF3B070B39A21ECD364F391ED52E6D999FFAE88DDBAED77",
     "work/final_system_table_application/application_proof.json": "D8136357A8FF902462E4A16AF9F171E7DBFF01B8E1968CBB698D3C32C1A4A6D1",
     "work/font/final_v2/codebook.json": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
-    "work/font/final_v2/injection_verification.json": "BABCDC180C01FEC93C67007C90DB7BED98051197CEFA8A5472B353F372BE2764",
-    "work/font/final_v2/fit_preflight.json": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138",
+    "work/font/final_v2/injection_verification.json": "449AF99168784CCC70BE50FF43C77D5CEA3CC4AF5978C59287ECE4662EA5D435",
+    "work/font/final_v2/fit_preflight.json": "3E7B375E57FAC40B0C8300802EDFCA1109CF6DE6208EE174B211B9C968B10C3D",
     "work/image_ui_final/reinsertion_manifest.json": "C4D18E426A267D3F0D3C7EF65CB3BBEEC4DF109A7040D184685F6EE724974665",
     "work/image_ui_final/reports/structural_validation.json": "667E2AA9865CFB635A3F6F3A48FF22BFA5393278FFB904ACDEB226BAF309E8AB",
 }
@@ -1539,7 +1540,7 @@ def verify_runtime_staging(lane: Lane, context: dict[str, Any]) -> None:
         "supplemental_physical_files": EXPECTED_SUPPLEMENTAL_PHYSICAL,
         "staged_physical_files": EXPECTED_OVERLAY_PHYSICAL,
         "riivolution_file_rules": EXPECTED_OVERLAY_PHYSICAL,
-        "riivolution_memory_rules": EXPECTED_MAIN_DOL_MEMORY_PATCHES,
+        "riivolution_memory_rules": EXPECTED_FINAL_MEMORY_PATCHES,
     }
     for field_name, expected in expected_counts.items():
         lane.require(int(counts.get(field_name, -1)) == expected, "staging_manifest_count", field=field_name, expected=expected, actual=counts.get(field_name))
@@ -1627,7 +1628,7 @@ def verify_runtime_staging(lane: Lane, context: dict[str, Any]) -> None:
         supplemental = dict(manifest.get("supplemental_runtime_patch", {}))
         memory_rows = list(supplemental.get("memory_patches", []))
         expected_memory = {str(row.get("memory_address_hex", "")): str(row.get("value", "")).upper() for row in memory_rows}
-        if len(expected_memory) != len(memory_rows) or len(memory_rows) != EXPECTED_MAIN_DOL_MEMORY_PATCHES:
+        if len(expected_memory) != len(memory_rows) or len(memory_rows) != EXPECTED_FINAL_MEMORY_PATCHES:
             xml_errors.append("memory_manifest_count")
         if xml_memory != expected_memory:
             xml_errors.append("memory_exact_set_or_value")
@@ -1635,7 +1636,7 @@ def verify_runtime_staging(lane: Lane, context: dict[str, Any]) -> None:
             xml_errors.append("main_dol_physical_flag")
     lane.require(not xml_errors, "riivolution_xml", mismatch_count=len(xml_errors), mismatches=xml_errors[:30])
     lane.require(int(riivolution.get("file_count", -1)) == EXPECTED_OVERLAY_PHYSICAL, "riivolution_declared_count")
-    lane.require(int(riivolution.get("memory_count", -1)) == EXPECTED_MAIN_DOL_MEMORY_PATCHES, "riivolution_declared_memory_count")
+    lane.require(int(riivolution.get("memory_count", -1)) == EXPECTED_FINAL_MEMORY_PATCHES, "riivolution_declared_memory_count")
 
     occurrence_manifest_path = staging_path(staging_root, str(static.get("occurrence_manifest", "")))
     leaf_manifest_path = staging_path(staging_root, str(static.get("leaf_manifest", "")))

@@ -125,7 +125,7 @@ def main():
     file_count = len(file_nodes)
     memory_count = len(memory_nodes)
     resize_true = sum(n.attrib.get("resize", "false").lower() == "true" for n in file_nodes)
-    need((file_count, memory_count, resize_true) == (684, 925, 560), "unexpected XML counts")
+    need((file_count, memory_count, resize_true) == (684, 926, 560), "unexpected XML counts")
 
     doc = rebind(load(MANIFEST))
     supplemental = doc["supplemental_runtime_patch"]

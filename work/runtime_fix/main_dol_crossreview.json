@@ -5,7 +5,7 @@
   "review_policy": {
     "reviewer": "independent Codex internal model",
     "external_translation_tools_or_apis_used": false,
-    "full_rows_read_and_cross_checked": 925,
+    "full_rows_read_and_cross_checked": 926,
     "dimensions": [
       "Japanese source meaning and runtime lane context",
       "natural Korean, terminology, and compact fixed-capacity wording",
@@ -14,7 +14,7 @@
       "raw offset, source bytes, NUL terminator, and byte capacity",
       "strong Japanese residue and codebook glyph closure",
       "29,777-unit final TM and locked glossary/style guide consistency",
-      "400-row debug/internal exclusion accounting"
+      "399-row debug/internal exclusion accounting"
     ]
   },
   "authoritative_inputs": {
@@ -23,7 +23,7 @@
       "size": 4464672,
       "sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
     },
-    "pre_crossreview_translations_sha256": "A0F997FCECB0B7C6697C1E2CE3510F1F5F72A3A22EDAD0F9CFC13957B93A8A91",
+    "pre_crossreview_translations_sha256": "C65D388D2DD51D13E020AF7CE385B1519B9D37B7D901E45854DC524341B959FC",
     "final_tm": {
       "path": "work/translation/final/translation_memory_draft.json",
       "unit_count": 29777,
@@ -39,16 +39,16 @@
     },
     "exclusions": {
       "path": "work/runtime_fix/main_dol_exclusions.jsonl",
-      "count": 400,
-      "sha256": "C478E1A5CD71FC5CE5B03F0A099118E055EBB66BA1082C5801A2703DDE3CBEB8"
+      "count": 399,
+      "sha256": "6B89C1DACAD5D0E4597CD40F06B0B2B78D0D9435526EE89E4F7E305FD8394776"
     }
   },
   "result": {
     "translations_path": "work/runtime_fix/main_dol_translations.jsonl",
-    "translations_sha256": "64154B1F06422FD26C1D67C4D410DE8FF727D1ECA396CC577CABC60EFDC53DBA",
-    "reviewed_rows": 925,
-    "corrected_rows": 147,
-    "unchanged_after_review_rows": 778,
+    "translations_sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0",
+    "reviewed_rows": 926,
+    "corrected_rows": 146,
+    "unchanged_after_review_rows": 780,
     "correction_lane_counts": {
       "battle_status": 1,
       "battle_log": 11,
@@ -64,7 +64,7 @@
       "quest": 1,
       "initial_setup": 1,
       "casino": 1,
-      "map_ui": 3,
+      "map_ui": 2,
       "common_ui": 1,
       "place_name": 2,
       "minigame": 2,
@@ -73,12 +73,12 @@
     },
     "change_log": {
       "path": "work/runtime_fix/main_dol_crossreview_changes.json",
-      "sha256": "B35421369569AEEBF1F8ED6D1CDA0FDF82A249813695AF963C2C252A758855E8"
+      "sha256": "B371D78C63A22059D7DE092308BED05680C20F1D16A669FB20BE7FFF710A473E"
     }
   },
   "coverage": {
-    "translated_user_visible": 925,
-    "excluded_debug_internal": 400,
+    "translated_user_visible": 926,
+    "excluded_debug_internal": 399,
     "audited_candidates": 1325,
     "overlap_count": 0,
     "unresolved_count": 0,
@@ -247,15 +247,15 @@
   },
   "patcher_validation": {
     "report_path": "work/runtime_fix/main_dol_crossreview_patch_report.json",
-    "report_sha256": "562E34285AF1A0120D48FFB8679E5E0784A8A72B8B88A40357470B47B309A58B",
+    "report_sha256": "3A55ECA4EEEED6464756101D85C8AC68B4889CB33CC5E92EE55EDD9D7D9D0D03",
     "patched_dol_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\main.dol.crossreview.patched",
-    "patched_dol_sha256": "6BD08B12F0258BBDAF57371BA0B0D58A2D2444B658B689CEB200AE06DC9F9991",
+    "patched_dol_sha256": "F15A6B3F1C25C7D19A87D480A9FFAAF4C80FAE5E759722E900398F167DCD6F7B",
     "summary": {
-      "patch_rows": 925,
-      "source_bytes": 16734,
-      "encoded_bytes": 14238,
-      "zero_padding_bytes": 2496,
-      "changed_byte_offsets": 16268,
+      "patch_rows": 926,
+      "source_bytes": 16746,
+      "encoded_bytes": 14246,
+      "zero_padding_bytes": 2500,
+      "changed_byte_offsets": 16280,
       "file_size_preserved": true,
       "all_original_raw_verified": true,
       "all_original_terminating_nuls_preserved": true,
@@ -263,7 +263,7 @@
     }
   },
   "checks": {
-    "row_count_925": true,
+    "row_count_926": true,
     "unique_sorted_offsets": true,
     "source_dol_sha_bound": true,
     "source_raw_and_nul_contract": true,
@@ -278,7 +278,7 @@
     "glossary_all_fit_differences_resolved": true,
     "temp_codebook_append_only": true,
     "temp_codebook_font_closure": true,
-    "patcher_valid_925": true,
+    "patcher_valid_926": true,
     "patcher_source_contract": true
   },
   "error_details": {

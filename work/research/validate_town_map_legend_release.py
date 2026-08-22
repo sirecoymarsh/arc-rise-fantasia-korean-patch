@@ -83,7 +83,7 @@ def main() -> int:
     xml_root = ET.parse(STAGING_XML).getroot()
     memory_nodes = list(xml_root.findall(".//memory"))
     file_nodes = list(xml_root.findall(".//file"))
-    need(len(memory_nodes) == 940 and len(file_nodes) == 684, "staging XML count mismatch")
+    need(len(memory_nodes) == 941 and len(file_nodes) == 684, "staging XML count mismatch")
     memory = {}
     for node in memory_nodes:
         key = str(node.attrib["offset"]).upper()
@@ -121,17 +121,17 @@ def main() -> int:
     staging = json.loads(STAGING_MANIFEST.read_text(encoding="utf-8-sig"))
     town = staging.get("town_map_legend_patch", {})
     need(staging["counts"]["town_map_legend_translations"] == 15, "staging legend count mismatch")
-    need(staging["riivolution"]["memory_count"] == 940, "staging memory count mismatch")
+    need(staging["riivolution"]["memory_count"] == 941, "staging memory count mismatch")
     need(staging["riivolution"]["sha256"] == h(STAGING_XML), "staging XML hash mismatch")
     need(town.get("valid") is True and town.get("translated_labels") == 15, "staging town-map proof invalid")
-    need(town.get("base_memory_rules") == 925 and town.get("final_memory_rules") == 940, "staging memory proof mismatch")
+    need(town.get("base_memory_rules") == 926 and town.get("final_memory_rules") == 941, "staging memory proof mismatch")
     need(town.get("icon_identifier_prefixes_preserved") is True, "staging prefix proof missing")
     need(town.get("terminating_nuls_preserved") is True, "staging NUL proof missing")
     need(h(PACKAGE_XML) == h(STAGING_XML), "release/staging XML mismatch")
     provenance = json.loads(PACKAGE_PROVENANCE.read_text(encoding="utf-8-sig"))
     public_town = provenance.get("town_map_legend", {})
     need(public_town.get("translated_labels") == 15, "public legend count mismatch")
-    need(public_town.get("base_memory_rules") == 925 and public_town.get("final_memory_rules") == 940, "public memory proof mismatch")
+    need(public_town.get("base_memory_rules") == 926 and public_town.get("final_memory_rules") == 941, "public memory proof mismatch")
     need(public_town.get("translator_model") == "Codex internal", "public translator provenance mismatch")
     need(public_town.get("external_translation_models_or_apis_used") is False, "public external model flag mismatch")
     release_manifest = json.loads(PACKAGE_MANIFEST.read_text(encoding="utf-8-sig"))
@@ -175,7 +175,7 @@ def main() -> int:
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"valid": True, "translated_labels": 15, "memory_rules": 940, "report": str(OUTPUT), "report_sha256": h(OUTPUT)}, ensure_ascii=False))
+    print(json.dumps({"valid": True, "translated_labels": 15, "memory_rules": 941, "report": str(OUTPUT), "report_sha256": h(OUTPUT)}, ensure_ascii=False))
     return 0
 
 

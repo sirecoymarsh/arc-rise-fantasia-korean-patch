@@ -5,13 +5,13 @@
   "external_translation_models_or_apis_used": false,
   "staging_manifest": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
-    "sha256": "5315D014A58D7559DE0ABCE5F44C50C0B86E845BDEF120141C36FA7FE9FF67C1"
+    "sha256": "14EA18753198BFD6C5E80AD25B341454B1BC3A3C2D3181F55CA8013B951500A8"
   },
   "xml": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
-    "sha256": "494A2A23F9944A1442079B76723844456B2187BF138DE4F55500023412F9F8DF",
+    "sha256": "AD142442A4B5C904AB4AF34C508E0EB6C8E26A7764860862214414386D8DDE33",
     "file_count": 684,
-    "memory_count": 925,
+    "memory_count": 926,
     "resize_true_count": 560
   },
   "physical_file_count": 684,

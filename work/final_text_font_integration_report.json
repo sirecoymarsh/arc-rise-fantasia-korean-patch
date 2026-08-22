@@ -1,6 +1,6 @@
 {
   "schema": "arf-final-text-font-integration-report-v2",
-  "generated_at_utc": "2026-08-09T00:38:26.504763+00:00",
+  "generated_at_utc": "2026-08-22T09:17:26.414403+00:00",
   "game_id": "RPJJ99",
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
@@ -15,7 +15,7 @@
       "append-only custom glyph codebook",
       "9 injected EUC28 WTM font pages",
       "13 authoritative system-table payloads",
-      "925 independently cross-reviewed main.dol runtime strings"
+      "926 independently cross-reviewed main.dol runtime strings"
     ],
     "excluded": [
       "runtime ISO/RVZ rebuild",
@@ -179,16 +179,16 @@
     "translation_memory_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
     "final_font_approved_units": {
       "path": "work/font/final_v2/approved_units.jsonl",
-      "size_bytes": 4562911,
-      "sha256": "B048C99D6FD43D8C1F2DC2B1A80FFD2D067703B523EBDBF1D7A524E4A1700B5B"
+      "size_bytes": 4563590,
+      "sha256": "57EE681D258413CA6B89C8C4C05073E06C06C38A424817D9A49343848BCCE2EF"
     },
     "final_font_approved_units_manifest": {
       "path": "work/font/final_v2/approved_units_manifest.json",
-      "size_bytes": 1084,
-      "sha256": "37ACE4361518E758E1B9FF82CB0086A0D1F3750EE36D2432974BF3EDA80403A4"
+      "size_bytes": 973,
+      "sha256": "CE927E81D8408CD0FB9F6CFA0881C5236D93DA3C3BE367956F8E3CCF0E8CDDE5"
     },
-    "final_font_approved_units_count": 30702,
-    "main_dol_supplement_count": 925
+    "final_font_approved_units_count": 30703,
+    "main_dol_supplement_count": 926
   },
   "append_only_codebook": {
     "baseline": {
@@ -204,7 +204,7 @@
     "verification": {
       "path": "work/font/final_v2/codebook_append_only_verification.json",
       "size_bytes": 951,
-      "sha256": "11F210E8FD4B91D466057BCEE7584A4ADDCBC48EDDA41380513EF43545CBC18D"
+      "sha256": "634F0DDBB3B677FD973DC3D164F4C1694900B788794050ABC23638C94F413163"
     },
     "reserved_pairs": {
       "path": "work/font/original_reserved_pairs_v2.txt",
@@ -214,8 +214,8 @@
     "existing_assigned": 1368,
     "final_assigned": 1369,
     "appended_characters": 1,
-    "required_hangul": 504,
-    "required_custom_glyphs": 504,
+    "required_hangul": 505,
+    "required_custom_glyphs": 505,
     "custom_non_euc_jp_glyphs": {
       "U+00B7": {
         "unicode": "U+00B7",
@@ -249,23 +249,23 @@
   "main_dol_runtime_extension": {
     "translations": {
       "path": "work/runtime_fix/main_dol_translations.jsonl",
-      "size_bytes": 549652,
-      "sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3"
+      "size_bytes": 550331,
+      "sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0"
     },
     "crossreview": {
       "path": "work/runtime_fix/main_dol_crossreview.json",
-      "size_bytes": 9836,
-      "sha256": "ED2FEA1C40A25CC84C8144943764C3CD0A0CEAE077E4D174053F50717AED062E"
+      "size_bytes": 9799,
+      "sha256": "0AF117F3AFB4027056951BA92E2CABCAD728F2882A5D0F389099750741759ACF"
     },
     "patch_report": {
       "path": "work/runtime_fix/main_dol_patch_report_v2.json",
-      "size_bytes": 461796,
-      "sha256": "B68A8F8BD1EC1086B6BB109B8F11CA52AF7E9D6BEBB785A93F01A069BC59BB1E"
+      "size_bytes": 462160,
+      "sha256": "D67AC8FCD9BB780487F24AE45DA77E4BB639652D00A7DA0C470B86BEBEABF17B"
     },
-    "translated_strings": 925,
+    "translated_strings": 926,
     "new_font_glyph": "켬",
     "source_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC",
-    "patched_semantic_sha256": "2FF34AC7A78176DD2464ACA4DF925D5B70507CC98111D94091C5F1824626AC2C",
+    "patched_semantic_sha256": "F15A6B3F1C25C7D19A87D480A9FFAAF4C80FAE5E759722E900398F167DCD6F7B",
     "valid": true
   },
   "font_injection": {
@@ -283,12 +283,12 @@
     "verification": {
       "path": "work/font/final_v2/injection_verification.json",
       "size_bytes": 3695,
-      "sha256": "BABCDC180C01FEC93C67007C90DB7BED98051197CEFA8A5472B353F372BE2764"
+      "sha256": "449AF99168784CCC70BE50FF43C77D5CEA3CC4AF5978C59287ECE4662EA5D435"
     },
     "wtm_pages": 9,
     "assigned_characters": 1369,
-    "approved_units_encoded": 30702,
-    "approved_units_sha256": "b048c99d6fd43d8c1f2dc2b1a80ffd2d067703b523ebdbf1d7a524e4a1700b5b",
+    "approved_units_encoded": 30703,
+    "approved_units_sha256": "57ee681d258413ca6b89c8c4c05073e06c06c38a424817d9a49343848bcce2ef",
     "approved_unit_encoding_errors": 0,
     "assigned_cells_without_pixel_change": 0,
     "total_changed_pixels": 581993,
@@ -363,8 +363,8 @@
   "fixed_field_fit": {
     "artifact": {
       "path": "work/font/final_v2/fit_preflight.json",
-      "size_bytes": 80449,
-      "sha256": "7CE08069955021253710E0FE0DE6B4AFB9157E037FC46E3747FCA5E6B66F4138"
+      "size_bytes": 80264,
+      "sha256": "3E7B375E57FAC40B0C8300802EDFCA1109CF6DE6208EE174B211B9C968B10C3D"
     },
     "translation_memory_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
     "codebook_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
@@ -792,7 +792,7 @@
     {
       "path": "work/research/build_final_font_approved_units.py",
       "size_bytes": 4151,
-      "sha256": "546CEB31196A18576B42DE65351A10B70830E7FDDCF20CCC086AC28C86922ECE"
+      "sha256": "5552467D9FF1A4253CC13FB14FE9E20D4D74C427AA8EB69C7417BC4F2F88CCA8"
     },
     {
       "path": "work/research/verify_append_only_codebook.py",
@@ -842,12 +842,12 @@
     {
       "path": "work/research/build_final_text_font_integration_report.py",
       "size_bytes": 54212,
-      "sha256": "95BB1AC96CCBBE0C9A56053087EBBA3D57B32A59B795952CA0D21E4E446E965F"
+      "sha256": "C0F3925F16A79BB1B002AFDF9CAFF25390CFF79D80BF279DBB02EF082212C9D1"
     },
     {
       "path": "work/research/audit_final_release_refresh_dependencies.py",
-      "size_bytes": 29111,
-      "sha256": "DC583A241B28A1ADE3CACDE1BD6A96321CFFAF64A3048009E7C27D3BCAF28D01"
+      "size_bytes": 29112,
+      "sha256": "44EDA8AA713CF0922DE9CBA7AC55B668A2E213F0D72199EB7AD9027459AEDF81"
     }
   ],
   "final_invariants": {

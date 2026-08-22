@@ -111,7 +111,8 @@ const nameRows = [
   [0x003CF1C8, '라르크'], [0x003CF1CF, '리피아'], [0x003CF1D8, '사쥬'],
   [0x003CF1E1, '오이겐'], [0x003CF1EA, '세실'], [0x003CF1F1, '레슬리'],
   [0x003CF1FA, '알스'], [0x003CF201, '아델'], [0x003CF20A, '니콜'],
-  [0x003CF211, '클라이드'], [0x003CF21A, '디노스'], [0x003CF24E, '???'],
+  [0x003CF211, '클라이드'], [0x003CF21A, '디노스'], [0x003CF241, '없지롱~~'],
+  [0x003CF24E, '???'],
   [0x003CF255, '바이스'], [0x003CF25E, '이그나츠'], [0x003CF269, '호제아'],
   [0x003CF270, '폴랴'], [0x003CF279, '루냐'], [0x003CF282, '류즈'],
   [0x003CF28B, '소아라'], [0x003CF292, '프레이아'], [0x003CF29B, '엘레나'],
@@ -248,7 +249,7 @@ const exclusionReason = (r) => {
   if (/ダミー[３-９]|^[0-9a-f]{2}(?:セーブポイント|宝箱|次のマップ|ワールドマップ|はしご|宿屋|道具屋|武具屋|工房|仕立屋|ギルド|カジノ|闘技場|ハーモニーホール|現在位置)$/.test(s)) return 'internal_identifier_or_dummy_label';
   if (/テスト|デバッグ|ボス用|サンプル|（仮）|戦闘背景/.test(s) || (r.offset >= 0x003C73DF && r.offset <= 0x003C8592)) return 'unavailable_test_or_debug_menu';
   if (/^(E[0-7])/.test(s) || s === '96盗まれた' || s.startsWith('96になります')) return 'internal_or_invalid_placeholder_literal';
-  if (s === 'ないよ〜〜ん' || s === '停止中だよもん' || s === 'あれ？？\n') return 'unreachable_developer_placeholder';
+  if (s === '停止中だよもん' || s === 'あれ？？\n') return 'unreachable_developer_placeholder';
   if (/^>>|warning|ERROR|err |scr err|info :|alloc|cache|タスク|初期化|後始末|読み込み|ロード時|チェックディジット|スタック|overflow|オーバー|NAND|ワークバッファ|ユーザー定義|構造体|アイコン番号|作成に失敗|データがありません|マップがありません|ファイル名がありません|解除\n|起動\n|フラグ値|グループ指定|コマ落ち|デコードスキップ|表示スキップ|エンプティBスキップ|コール|バッチ|フレーム変更|セピア化|未接続\n|リモコン\n|ヌンチャク\n|クラコン\n|ＧＣパッド\n/.test(s)) return 'developer_log_assert_or_runtime_diagnostic';
   if (r.offset >= 0x003C931B && r.offset <= 0x003C939C) return 'unavailable_tutorial_test_choice';
   return 'internal_non_display_string_or_unproven_visibility';

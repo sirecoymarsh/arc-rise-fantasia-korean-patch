@@ -2,7 +2,7 @@
 """Compose the final font-encoding unit list from TM and main.dol inputs.
 
 The base approved-unit JSONL is produced by ``build_approved_corpus.py``.  The
-supplement is the independently reviewed 925-row main.dol translation JSONL.
+supplement is the independently reviewed 926-row main.dol translation JSONL.
 This builder normalizes only line endings (LF) and records exact input/output
 hashes so the font verification cannot silently remain bound to an older TM.
 """
@@ -31,7 +31,7 @@ def main() -> int:
     parser.add_argument("output", type=Path)
     parser.add_argument("--manifest", type=Path)
     parser.add_argument("--expected-base", type=int, default=29_777)
-    parser.add_argument("--expected-main-dol", type=int, default=925)
+    parser.add_argument("--expected-main-dol", type=int, default=926)
     args = parser.parse_args()
 
     base_lines = lines(args.base_approved_units)

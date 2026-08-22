@@ -2,10 +2,10 @@
   "schema": "arf-main-dol-crossreview-change-log-v1",
   "reviewer": "independent Codex internal model",
   "external_translation_used": false,
-  "reviewed_rows": 925,
-  "corrected_rows": 147,
-  "before_sha256": "A0F997FCECB0B7C6697C1E2CE3510F1F5F72A3A22EDAD0F9CFC13957B93A8A91",
-  "after_sha256": "64154B1F06422FD26C1D67C4D410DE8FF727D1ECA396CC577CABC60EFDC53DBA",
+  "reviewed_rows": 926,
+  "corrected_rows": 146,
+  "before_sha256": "C65D388D2DD51D13E020AF7CE385B1519B9D37B7D901E45854DC524341B959FC",
+  "after_sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0",
   "changes": [
     {
       "offset": 3967609,
@@ -413,17 +413,6 @@
       "capacity_to_nul": 24,
       "encoded_length_estimate": 23,
       "reason": "locked place term: 月影の宿 is 달그림자 여관"
-    },
-    {
-      "offset": 4004939,
-      "offset_hex": "0x003D1C4B",
-      "lane": "map_ui",
-      "source_text": "F0現在位置　<$15>F1飛光艇",
-      "old_translation_ko": "F0현재위치(첫 레코드만 번역) / F1비광정",
-      "new_translation_ko": "F0현재위치　<$15>F1비광정",
-      "capacity_to_nul": 21,
-      "encoded_length_estimate": 21,
-      "reason": "복합 월드 맵 범례의 두 번째 現在位置가 별도 원문 레코드로 누락된 문제 수정"
     },
     {
       "offset": 4004986,

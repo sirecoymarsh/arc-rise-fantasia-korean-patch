@@ -313,7 +313,7 @@ def main() -> int:
     require(int(corpus_manifest["approved_units"]) == 29_777, "approved corpus count mismatch")
     require(int(corpus_manifest["unique_hangul"]) == 1_366, "Hangul closure count mismatch")
     require(count_jsonl(paths["approved_units"]) == 29_777, "approved unit JSONL count mismatch")
-    require(count_jsonl(paths["final_approved_units"]) == 30_702, "final font unit count mismatch")
+    require(count_jsonl(paths["final_approved_units"]) == 30_703, "final font unit count mismatch")
     require(
         str(corpus_manifest.get("translation_memory_sha256", "")).upper()
         == sha256(paths["memory"]),
@@ -368,7 +368,7 @@ def main() -> int:
         == sha256(paths["final_approved_units"]),
         "font verification is not bound to the current final approved units",
     )
-    require(int(injection_verification["approved_units_encoded"]) == 30_702, "font encoding closure mismatch")
+    require(int(injection_verification["approved_units_encoded"]) == 30_703, "font encoding closure mismatch")
     require(int(injection_verification["approved_unit_encoding_errors"]) == 0, "font encoding errors remain")
     require(int(injection_verification["assigned_cells_without_pixel_change"]) == 0, "unchanged assigned glyph cell")
 
@@ -547,11 +547,11 @@ def main() -> int:
 
     # The late main.dol audit is a separate, independently cross-reviewed
     # runtime lane.  It extends the font closure by exactly one glyph (켬).
-    require(count_jsonl(paths["main_dol_translations"]) == 925, "main.dol translation count mismatch")
+    require(count_jsonl(paths["main_dol_translations"]) == 926, "main.dol translation count mismatch")
     require(main_dol_crossreview.get("valid") is True, "main.dol cross-review is invalid")
-    require(int(main_dol_crossreview["result"]["reviewed_rows"]) == 925, "main.dol reviewed count mismatch")
+    require(int(main_dol_crossreview["result"]["reviewed_rows"]) == 926, "main.dol reviewed count mismatch")
     require(main_dol_patch_report.get("valid") is True, "main.dol patch report is invalid")
-    require(int(main_dol_patch_report["summary"]["patch_rows"]) == 925, "main.dol patch row count mismatch")
+    require(int(main_dol_patch_report["summary"]["patch_rows"]) == 926, "main.dol patch row count mismatch")
     require(str(main_dol_patch_report["source"]["sha256"]).upper() == "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC", "main.dol source anchor mismatch")
 
     nested = next(item for item in canonical["units"] if item["tm_id"] == NESTED_TM_ID)
@@ -605,7 +605,7 @@ def main() -> int:
                 "append-only custom glyph codebook",
                 "9 injected EUC28 WTM font pages",
                 "13 authoritative system-table payloads",
-                "925 independently cross-reviewed main.dol runtime strings",
+                "926 independently cross-reviewed main.dol runtime strings",
             ],
             "excluded": [
                 "runtime ISO/RVZ rebuild",
@@ -767,7 +767,7 @@ def main() -> int:
             "translations": artifact(paths["main_dol_translations"]),
             "crossreview": artifact(paths["main_dol_crossreview"]),
             "patch_report": artifact(paths["main_dol_patch_report"]),
-            "translated_strings": 925,
+            "translated_strings": 926,
             "new_font_glyph": "켬",
             "source_sha256": main_dol_patch_report["source"]["sha256"],
             "patched_semantic_sha256": main_dol_patch_report["output"]["sha256"],

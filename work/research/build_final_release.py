@@ -158,15 +158,15 @@ def validate_staging(
     if (
         town_map.get("valid") is not True
         or int(town_map.get("translated_labels", -1)) != 15
-        or int(town_map.get("base_memory_rules", -1)) != 925
-        or int(town_map.get("final_memory_rules", -1)) != 940
+        or int(town_map.get("base_memory_rules", -1)) != 926
+        or int(town_map.get("final_memory_rules", -1)) != 941
         or town_map.get("icon_identifier_prefixes_preserved") is not True
         or town_map.get("terminating_nuls_preserved") is not True
         or town_map.get("changes_confined_to_allowlisted_spans") is not True
         or town_map.get("translator_model") != "Codex internal"
         or town_map.get("external_translation_models_or_apis_used") is not False
         or int(counts.get("town_map_legend_translations", -1)) != 15
-        or int(riivolution.get("memory_count", -1)) != 940
+        or int(riivolution.get("memory_count", -1)) != 941
         or not town_input_path.is_file()
         or sha256(town_input_path) != str(town_input.get("sha256", "")).upper()
         or town_input.get("translator_model") != "Codex internal"

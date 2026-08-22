@@ -184,7 +184,7 @@ const translationSha = sha(P.translations);
 const sourceSha = sha(P.sourceDol);
 const patchOutputSha = patch.output.sha256;
 const checks = {
-  row_count_925: rows.length === 925,
+  row_count_926: rows.length === 926,
   unique_sorted_offsets: seen.size === rows.length && !errors.some((e) => e.error === 'duplicate_offset' || e.error === 'not_strictly_offset_sorted'),
   source_dol_sha_bound: sourceSha === '4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC',
   source_raw_and_nul_contract: sourceRawMismatches.length === 0,
@@ -194,12 +194,12 @@ const checks = {
   ascii_control_prefixes_preserved: prefixErrors.length === 0,
   japanese_residue_zero: japaneseResidue.length === 0,
   codex_only_provenance: externalProvenanceErrors.length === 0,
-  candidate_accounting_1325: candidateAccounting === 1325 && exclusions.length === 400 && overlap.length === 0,
+  candidate_accounting_1325: candidateAccounting === 1325 && exclusions.length === 399 && overlap.length === 0,
   change_log_bound_to_final_jsonl: changes.after_sha256 === translationSha && changes.corrected_rows === changes.changes.length,
   glossary_all_fit_differences_resolved: glossaryUnjustifiedDifferences.length === 0,
   temp_codebook_append_only: modifiedExistingMappings.length === 0 && addedChars.length === 1 && addedChars[0] === '켬',
   temp_codebook_font_closure: missingHangulTemp.length === 0,
-  patcher_valid_925: patch.valid === true && patch.summary.patch_rows === 925 && patch.inputs.translations_jsonl.sha256 === translationSha,
+  patcher_valid_926: patch.valid === true && patch.summary.patch_rows === 926 && patch.inputs.translations_jsonl.sha256 === translationSha,
   patcher_source_contract: patch.source.sha256 === sourceSha && patch.summary.all_original_raw_verified && patch.summary.all_original_terminating_nuls_preserved && patch.summary.changes_confined_to_allowlisted_spans && patch.summary.file_size_preserved,
 };
 const valid = Object.values(checks).every(Boolean) && errors.length === 0;
@@ -211,7 +211,7 @@ const report = {
   review_policy: {
     reviewer: 'independent Codex internal model',
     external_translation_tools_or_apis_used: false,
-    full_rows_read_and_cross_checked: 925,
+    full_rows_read_and_cross_checked: 926,
     dimensions: [
       'Japanese source meaning and runtime lane context',
       'natural Korean, terminology, and compact fixed-capacity wording',
@@ -220,7 +220,7 @@ const report = {
       'raw offset, source bytes, NUL terminator, and byte capacity',
       'strong Japanese residue and codebook glyph closure',
       '29,777-unit final TM and locked glossary/style guide consistency',
-      '400-row debug/internal exclusion accounting',
+      '399-row debug/internal exclusion accounting',
     ],
   },
   authoritative_inputs: {
