@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0053.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0053.jsonl",
   "reviewed_units": 200,
-  "modified_units": 51,
-  "unchanged_units": 149,
+  "modified_units": 53,
+  "unchanged_units": 147,
   "review_dimensions": [
     "meaning",
     "function",
@@ -432,6 +432,22 @@
       "after": "성황의 교시로 정치를 좌우하는 건\n잘못이라 하시며, ＱＥＤ의\n해산을 요구하려 하셨어",
       "category": "meaning",
       "reason": "宣下를 형벌 선고가 아니라 성황의 정치적 교시라는 뜻으로 바로잡고 화자의 회상 어조를 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-2035166F89083A104AC2",
+      "source_text": "あなたがバネトゥ？",
+      "before": "당신이 바네투야?",
+      "after": "네가 바네투야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-394DDFA37A62994DBE8B",
+      "source_text": "あんた！\nグラ慈恵教会のこと忘れたの!?\n化け物とか言ってんじゃないよ！",
+      "before": "당신!\n그라 자혜교회를 잊었어!?\n괴물 같은 소리 하지 마!",
+      "after": "너!\n그라 자혜교회를 잊었어!?\n괴물 같은 소리 하지 마!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -444,5 +460,20 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-2035166F89083A104AC2",
+      "ARF-TM-394DDFA37A62994DBE8B"
+    ],
+    "reviewed_sha256": "A5293E6F547A9E80E7FA0C25D73A3A1BD9E80907F4CD8B975106E24802CDE1DD"
+  },
+  "hashes": {
+    "reviewed_sha256": "A5293E6F547A9E80E7FA0C25D73A3A1BD9E80907F4CD8B975106E24802CDE1DD"
   }
 }

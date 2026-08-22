@@ -245,6 +245,30 @@
       "after": "물이 빠진다는 건\n해수면 높이가\n낮아진다는 뜻이야",
       "category": "naturalness",
       "reason": "潮が引く의 통용 표현을 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-7817D119B35E599DFD4E",
+      "source_text": "あ！　あんた\n村長に頼まれた医者か？",
+      "before": "아! 당신\n촌장이 부탁한 의사인가?",
+      "after": "아! 촌장이 부탁한\n의사 맞지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-6DA009909515F48C40DB",
+      "source_text": "そうだ。俺はログレスと――\nあんたと契約しなけりゃ\nならないらしい",
+      "before": "그래. 난 로그레스와――\n당신과 계약을\n맺어야 하나 봐",
+      "after": "그래. 난 로그레스와――\n너와 계약을\n맺어야 하나 봐",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-6516E6A2986F09BB51B2",
+      "source_text": "私もあなたと戦いたいわ",
+      "before": "나도 당신과 싸우고 싶어",
+      "after": "나도 너와 싸우고 싶어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -257,5 +281,23 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 28,
+  "unchanged_units": 172,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-6516E6A2986F09BB51B2",
+      "ARF-TM-6DA009909515F48C40DB",
+      "ARF-TM-7817D119B35E599DFD4E"
+    ],
+    "reviewed_sha256": "0DE607FDC5BC96DADC7A38017BF114F3A1E16C864CE6B2CD2DB23516EEE134E5"
+  },
+  "hashes": {
+    "reviewed_sha256": "0DE607FDC5BC96DADC7A38017BF114F3A1E16C864CE6B2CD2DB23516EEE134E5"
   }
 }

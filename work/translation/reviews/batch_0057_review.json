@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0057.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0057.jsonl",
   "reviewed_units": 200,
-  "modified_units": 16,
-  "unchanged_units": 184,
+  "modified_units": 20,
+  "unchanged_units": 180,
   "review_dimensions": [
     "meaning",
     "function",
@@ -28,10 +28,10 @@
     {
       "tm_id": "ARF-TM-6120A10D84D96279FFA2",
       "source_text": "だって、あなたは……イーサの子は\n本当にいたんですもの",
-      "before": "하지만 당신은…… 이사의 아이는\n정말로 있었으니까",
-      "after": "그도 그럴 게…… 이사의 아이인 당신이\n정말로 존재했으니까",
-      "category": "grammar",
-      "reason": "당신이 실제 이사의 아이라는 주술 관계가 자연스럽게 드러나도록 바로잡았다."
+      "before": "그도 그럴 게…… 이사의 아이인 당신이\n정말로 존재했으니까",
+      "after": "그도 그럴 게…… 이사의 아이가\n정말로 존재했으니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-66A81F47392D3B876EC0",
@@ -124,10 +124,10 @@
     {
       "tm_id": "ARF-TM-8033DE03582933B68F69",
       "source_text": "あなたの言う『確証』には\nならないかも知れないけれど\nひとつだけ確かなことがあるわ",
-      "before": "당신이 말한 『확증』은\n되지 않을지도 모르지만\n한 가지 확실한 게 있어",
-      "after": "당신이 말한 『확증』이\n되지는 않을지도 모르지만\n한 가지 확실한 게 있어",
-      "category": "grammar",
-      "reason": "확증이 되지 않을 수도 있다는 서술 관계가 자연스럽게 이어지도록 바로잡았다."
+      "before": "당신이 말한 『확증』이\n되지는 않을지도 모르지만\n한 가지 확실한 게 있어",
+      "after": "네가 말한 『확증』이\n되지는 않을지도 모르지만\n한 가지 확실한 게 있어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-84CCC63B07F100EDBC32",
@@ -152,6 +152,38 @@
       "after": "아니, 나도 군에 몸담은 사람이야.\n민간인을 죽게 내버려 둘 수는 없어",
       "category": "grammar",
       "reason": "화자가 군인이라는 첫 문장을 완결된 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-9209A73F130CA7640F90",
+      "source_text": "あなた\n私の好きな人に似てるわ",
+      "before": "당신\n내가 좋아하는 사람과 닮았어",
+      "after": "그쪽은\n내가 좋아하는 사람과 닮았어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-5F2A2D248BB313A9FDBE",
+      "source_text": "あなたが無事でよかったわ",
+      "before": "당신이 무사해서 다행이야",
+      "after": "월터가 무사해서 다행이야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-7F48F205C72D8CFAB5AD",
+      "source_text": "お、おい、あんた……\nいや、あなたが\nレオンなんですか？",
+      "before": "저, 저기, 당신……\n아니, 당신이\n레온입니까?",
+      "after": "저, 저기……\n아니, 레온 님이십니까?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-7424C82ED366B7F8606E",
+      "source_text": "私の後悔があなたなの？",
+      "before": "내 후회가 당신이야?",
+      "after": "내 후회가 너야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -164,5 +196,24 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-5F2A2D248BB313A9FDBE",
+      "ARF-TM-6120A10D84D96279FFA2",
+      "ARF-TM-7424C82ED366B7F8606E",
+      "ARF-TM-7F48F205C72D8CFAB5AD",
+      "ARF-TM-8033DE03582933B68F69",
+      "ARF-TM-9209A73F130CA7640F90"
+    ],
+    "reviewed_sha256": "AA6EE9D8AC7569D53C002BC145FC81309DF42C590D62D727FD1DDD700D94053A"
+  },
+  "hashes": {
+    "reviewed_sha256": "AA6EE9D8AC7569D53C002BC145FC81309DF42C590D62D727FD1DDD700D94053A"
   }
 }

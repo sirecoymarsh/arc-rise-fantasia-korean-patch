@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0061.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0061.jsonl",
   "reviewed_units": 200,
-  "modified_units": 13,
-  "unchanged_units": 187,
+  "modified_units": 18,
+  "unchanged_units": 182,
   "review_dimensions": [
     "meaning",
     "function",
@@ -128,6 +128,46 @@
       "after": "……이 바보 녀석!\n적에게 자비를 베푸는 놈이 어디 있나!",
       "category": "word_choice",
       "reason": "적에게 연민을 베푼다는 '情けをかける'의 뜻을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-28600D01C20AF16F417D",
+      "source_text": "……でも私は、あなたたちに\n感謝してるわ",
+      "before": "……하지만 난 당신들에게\n감사하고 있어",
+      "after": "……하지만 난 여러분에게\n감사하고 있어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-285E792CAFBB2719FFDE",
+      "source_text": "……オイゲン。\n俺はやっぱりあんたを許せない。\n一生そうなのかも知れない",
+      "before": "……오이겐.\n난 역시 당신을 용서할 수 없어.\n평생 그럴지도 몰라",
+      "after": "……오이겐.\n난 역시 널 용서할 수 없어.\n평생 그럴지도 몰라",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-2BACDD1FBE0C2A898085",
+      "source_text": "あなたはいつも横にいる権利を\n無条件に手に入れたんだから！",
+      "before": "당신은 언제나 곁에 있을 권리를\n아무 조건 없이 손에 넣었으니까!",
+      "after": "넌 언제나 곁에 있을 권리를\n아무 조건 없이 얻었으니까!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-250A7DCB787380E82161",
+      "source_text": "あんたは、満月の宿にいた……",
+      "before": "당신, 만월의 여관에 있던……",
+      "after": "만월의 여관에 있던……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-291559EC9E190D9F5637",
+      "source_text": "そうよね。結局のところラルクは\nイマジナルの定理を――あなたを\n選んだイーサの子で",
+      "before": "그러네. 결국 라르크는\n이매지널의 섭리를――당신을\n선택한 이사의 아이고",
+      "after": "그러네. 결국 라르크는\n이매지널의 섭리를――너를\n선택한 이사의 아이고",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -140,5 +180,23 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-250A7DCB787380E82161",
+      "ARF-TM-285E792CAFBB2719FFDE",
+      "ARF-TM-28600D01C20AF16F417D",
+      "ARF-TM-291559EC9E190D9F5637",
+      "ARF-TM-2BACDD1FBE0C2A898085"
+    ],
+    "reviewed_sha256": "6EAC677DFAF22A4F6F99DA82C7C2C5D5FB703793E6F4E1CFA5D77F85C14B778C"
+  },
+  "hashes": {
+    "reviewed_sha256": "6EAC677DFAF22A4F6F99DA82C7C2C5D5FB703793E6F4E1CFA5D77F85C14B778C"
   }
 }

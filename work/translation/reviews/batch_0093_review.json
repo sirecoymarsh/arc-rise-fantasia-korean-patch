@@ -182,6 +182,14 @@
       "after": "귀여운 여자애라도\n입문해 주면 좋을 텐데……<$0C>『선배』라고\n불러 주기도 하고……",
       "category": "terminology",
       "reason": "무예관에 들어오는 일을 학교 입학이 아닌 입문으로 옮기고 호칭을 직접적으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-46D36CCB97F23D054204",
+      "source_text": "何も言うなよ。\n俺はあなたに俺たちの未来をみせる。\nそれだけだ",
+      "before": "아무 말도 하지 마.\n나는 당신에게 우리의 미래를 보여 주겠다.\n그뿐이다",
+      "after": "아무 말도 하지 마.\n난 네게 우리의 미래를 보여 주겠다.\n그뿐이야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -194,5 +202,21 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "modified_units": 19,
+  "unchanged_units": 181,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-46D36CCB97F23D054204"
+    ],
+    "reviewed_sha256": "60D42C62DA1E34A7F4F3962DD161C9D6C5A1D12016C5112FA96A6527FD447B1B"
+  },
+  "hashes": {
+    "reviewed_sha256": "60D42C62DA1E34A7F4F3962DD161C9D6C5A1D12016C5112FA96A6527FD447B1B"
   }
 }

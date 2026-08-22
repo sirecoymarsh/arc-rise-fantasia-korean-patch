@@ -1,174 +1,190 @@
 {
-    "schema":  "arf-translation-independent-review-v1",
-    "batch_id":  "batch_0145",
-    "reviewer":  "/root/translate_final",
-    "draft_translator":  "/root/translate_batch_0009",
-    "draft_author":  "/root/translate_batch_0009",
-    "independent_review":  true,
-    "translation_engine_policy":  "Codex internal models only",
-    "external_translation_services_used":  [
-
-                                           ],
-    "external_translation_models_or_apis_used":  [
-
-                                                 ],
-    "source":  "work/translation/tm_v2/batches/source/batch_0145.jsonl",
-    "draft":  "work/translation/drafts/batch_0145.jsonl",
-    "reviewed_output":  "work/translation/reviewed/batch_0145.jsonl",
-    "reviewed_units":  200,
-    "modified_units":  16,
-    "unchanged_units":  184,
-    "review_dimensions":  [
-                              "meaning",
-                              "function",
-                              "numeric fidelity",
-                              "proper nouns",
-                              "natural Korean",
-                              "particles",
-                              "control tokens",
-                              "line breaks"
-                          ],
-    "modifications":  [
-                          {
-                              "tm_id":  "ARF-TM-5736A026EA09305677D8",
-                              "source_text":  "俺は大丈夫っス！",
-                              "before":  "전 괜찮아요!",
-                              "after":  "전 괜찮슴다!",
-                              "category":  "voice",
-                              "reason":  "니콜의 ～ッス 말투를 「~슴다」로 살렸다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-5FCDC39CE1856CE2FA50",
-                              "source_text":  "どう、とは？",
-                              "before":  "뭘 어떻게 하냐니?",
-                              "after":  "어떻게 하냐니?",
-                              "category":  "meaning",
-                              "reason":  "전쟁이 끝난 뒤 무엇을 할지 묻는 문맥에 맞게 どう、とは를 간결하게 바로잡았다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-66D43093FE0A05B4054D",
-                              "source_text":  "ちょっといいか？\u003c$0C\u003eギルドからの依頼で\nディアマントで働いている\nメイドのサインを貰うよう頼まれた",
-                              "before":  "잠깐 괜찮아?\u003c$0C\u003e길드 의뢰로\n디아만트에서 일하는\n메이드의 사인을 받아 달라는 부탁을 받았어",
-                              "after":  "잠깐 괜찮아?\u003c$0C\u003e길드 의뢰로\n디아만트에서 일하는\n메이드의 사인을 받아 오라고 부탁받았어",
-                              "category":  "meaning",
-                              "reason":  "사인을 받아 달라는 말이 아니라 받아 오라는 의뢰임을 분명히 했다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-70BC011972566AFF1B56",
-                              "source_text":  "目覚めればいい",
-                              "before":  "깨우면 돼",
-                              "after":  "깨어나면 돼",
-                              "category":  "meaning",
-                              "reason":  "자동사 目覚める를 타동사 「깨우다」가 아니라 「깨어나다」로 바로잡았다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-828D3B2CDD68148D116C",
-                              "source_text":  "いいのですよ",
-                              "before":  "그래도 괜찮습니다",
-                              "after":  "괜찮습니다",
-                              "category":  "natural_korean",
-                              "reason":  "원문에 없는 역접 의미를 제거하고 허락의 뜻을 간결하게 옮겼다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-A10422F221A608C8E450",
-                              "source_text":  "ぎょ……御意！",
-                              "before":  "아…… 알겠습니다!",
-                              "after":  "며…… 명을 받들겠습니다!",
-                              "category":  "voice",
-                              "reason":  "御意의 군대식 복명 의미와 말더듬을 함께 살렸다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-AAF09AA38260FB1C334B",
-                              "source_text":  "白き槍だと!?",
-                              "before":  "백색의 창이라고!?",
-                              "after":  "하얀 창이라고!?",
-                              "category":  "terminology",
-                              "reason":  "白き槍의 대사 표기를 기존 용어 「하얀 창」으로 통일했다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-AC85E7876DB9FE0BCAF6",
-                              "source_text":  "宿 『孤独な双子亭』",
-                              "before":  "여관 『고독한 쌍둥이정』",
-                              "after":  "여관 『고독한 쌍둥이』",
-                              "category":  "proper_noun",
-                              "reason":  "숙박 시설 고유명에 불필요한 일본식 접미사 「정」을 덧붙이지 않도록 다듬었다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-B6199C90ACBE4DD6F5B5",
-                              "source_text":  "確かなこと？",
-                              "before":  "확실한 것?",
-                              "after":  "확실한 거야?",
-                              "category":  "natural_korean",
-                              "reason":  "確かなこと？를 자연스러운 확인 질문으로 다듬었다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-D49427669AD579C3FDEE",
-                              "source_text":  "イグナーツだな",
-                              "before":  "이그나츠군",
-                              "after":  "이그나츠로군",
-                              "category":  "meaning",
-                              "reason":  "인물을 확인하는 イグナーツだな의 뜻을 정확히 살렸다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-E3A36D1140A04E24FDEB",
-                              "source_text":  "……勇者道か……",
-                              "before":  "……용사의 길인가……",
-                              "after":  "……용사도인가……",
-                              "category":  "terminology",
-                              "reason":  "반복 설정 용어 勇者道를 승인 표기 「용사도」로 통일했다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-0583A3DC58C07CF1337C",
-                              "source_text":  "まったくっスよ",
-                              "before":  "그러게 말이에요",
-                              "after":  "그러게 말임다",
-                              "category":  "voice",
-                              "reason":  "니콜의 ～ッス 말투를 「~임다」로 살렸다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-28F77641663A38718BE3",
-                              "source_text":  "裏ギルド……？",
-                              "before":  "뒷길드……?",
-                              "after":  "암흑 길드……?",
-                              "category":  "terminology",
-                              "reason":  "裏ギルド의 기존 승인 표기 「암흑 길드」를 적용했다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-2B9BF8C78BE4F7EAFC9C",
-                              "source_text":  "お覚悟を！",
-                              "before":  "각오해라!",
-                              "after":  "각오하세요!",
-                              "category":  "voice",
-                              "reason":  "お覚悟を의 정중한 명령 어투를 유지했다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-2F8A29F5CCF74DF7FA6B",
-                              "source_text":  "ダグラス家",
-                              "before":  "더글러스가",
-                              "after":  "더글러스 가문",
-                              "category":  "meaning",
-                              "reason":  "家가 조사처럼 보이지 않도록 가문이라는 뜻을 명시했다."
-                          },
-                          {
-                              "tm_id":  "ARF-TM-3AECFBDBF0BEC3071974",
-                              "source_text":  "誰が１番弟子だ！",
-                              "before":  "누가 수제자야!",
-                              "after":  "누가 １번 제자야!",
-                              "category":  "numeric_fidelity",
-                              "reason":  "원문의 순번 １과 전각 숫자 형태를 보존했다."
-                          }
-                      ],
-    "verification_execution":  {
-                                   "status":  "deferred_by_user_instruction",
-                                   "executed_tools":  [
-
-                                                      ],
-                                   "not_executed":  [
-                                                        "validator",
-                                                        "fit",
-                                                        "encoding",
-                                                        "boundary_audit"
-                                                    ],
-                                   "note":  "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
-                               }
+  "schema": "arf-translation-independent-review-v1",
+  "batch_id": "batch_0145",
+  "reviewer": "/root/translate_final",
+  "draft_translator": "/root/translate_batch_0009",
+  "draft_author": "/root/translate_batch_0009",
+  "independent_review": true,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_services_used": [],
+  "external_translation_models_or_apis_used": [],
+  "source": "work/translation/tm_v2/batches/source/batch_0145.jsonl",
+  "draft": "work/translation/drafts/batch_0145.jsonl",
+  "reviewed_output": "work/translation/reviewed/batch_0145.jsonl",
+  "reviewed_units": 200,
+  "modified_units": 17,
+  "unchanged_units": 183,
+  "review_dimensions": [
+    "meaning",
+    "function",
+    "numeric fidelity",
+    "proper nouns",
+    "natural Korean",
+    "particles",
+    "control tokens",
+    "line breaks"
+  ],
+  "modifications": [
+    {
+      "tm_id": "ARF-TM-5736A026EA09305677D8",
+      "source_text": "俺は大丈夫っス！",
+      "before": "전 괜찮아요!",
+      "after": "전 괜찮슴다!",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 「~슴다」로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-5FCDC39CE1856CE2FA50",
+      "source_text": "どう、とは？",
+      "before": "뭘 어떻게 하냐니?",
+      "after": "어떻게 하냐니?",
+      "category": "meaning",
+      "reason": "전쟁이 끝난 뒤 무엇을 할지 묻는 문맥에 맞게 どう、とは를 간결하게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-66D43093FE0A05B4054D",
+      "source_text": "ちょっといいか？<$0C>ギルドからの依頼で\nディアマントで働いている\nメイドのサインを貰うよう頼まれた",
+      "before": "잠깐 괜찮아?<$0C>길드 의뢰로\n디아만트에서 일하는\n메이드의 사인을 받아 달라는 부탁을 받았어",
+      "after": "잠깐 괜찮아?<$0C>길드 의뢰로\n디아만트에서 일하는\n메이드의 사인을 받아 오라고 부탁받았어",
+      "category": "meaning",
+      "reason": "사인을 받아 달라는 말이 아니라 받아 오라는 의뢰임을 분명히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-70BC011972566AFF1B56",
+      "source_text": "目覚めればいい",
+      "before": "깨우면 돼",
+      "after": "깨어나면 돼",
+      "category": "meaning",
+      "reason": "자동사 目覚める를 타동사 「깨우다」가 아니라 「깨어나다」로 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-828D3B2CDD68148D116C",
+      "source_text": "いいのですよ",
+      "before": "그래도 괜찮습니다",
+      "after": "괜찮습니다",
+      "category": "natural_korean",
+      "reason": "원문에 없는 역접 의미를 제거하고 허락의 뜻을 간결하게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A10422F221A608C8E450",
+      "source_text": "ぎょ……御意！",
+      "before": "아…… 알겠습니다!",
+      "after": "며…… 명을 받들겠습니다!",
+      "category": "voice",
+      "reason": "御意의 군대식 복명 의미와 말더듬을 함께 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-AAF09AA38260FB1C334B",
+      "source_text": "白き槍だと!?",
+      "before": "백색의 창이라고!?",
+      "after": "하얀 창이라고!?",
+      "category": "terminology",
+      "reason": "白き槍의 대사 표기를 기존 용어 「하얀 창」으로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-AC85E7876DB9FE0BCAF6",
+      "source_text": "宿 『孤独な双子亭』",
+      "before": "여관 『고독한 쌍둥이정』",
+      "after": "여관 『고독한 쌍둥이』",
+      "category": "proper_noun",
+      "reason": "숙박 시설 고유명에 불필요한 일본식 접미사 「정」을 덧붙이지 않도록 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-B6199C90ACBE4DD6F5B5",
+      "source_text": "確かなこと？",
+      "before": "확실한 것?",
+      "after": "확실한 거야?",
+      "category": "natural_korean",
+      "reason": "確かなこと？를 자연스러운 확인 질문으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-D49427669AD579C3FDEE",
+      "source_text": "イグナーツだな",
+      "before": "이그나츠군",
+      "after": "이그나츠로군",
+      "category": "meaning",
+      "reason": "인물을 확인하는 イグナーツだな의 뜻을 정확히 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-E3A36D1140A04E24FDEB",
+      "source_text": "……勇者道か……",
+      "before": "……용사의 길인가……",
+      "after": "……용사도인가……",
+      "category": "terminology",
+      "reason": "반복 설정 용어 勇者道를 승인 표기 「용사도」로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-0583A3DC58C07CF1337C",
+      "source_text": "まったくっスよ",
+      "before": "그러게 말이에요",
+      "after": "그러게 말임다",
+      "category": "voice",
+      "reason": "니콜의 ～ッス 말투를 「~임다」로 살렸다."
+    },
+    {
+      "tm_id": "ARF-TM-28F77641663A38718BE3",
+      "source_text": "裏ギルド……？",
+      "before": "뒷길드……?",
+      "after": "암흑 길드……?",
+      "category": "terminology",
+      "reason": "裏ギルド의 기존 승인 표기 「암흑 길드」를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-2B9BF8C78BE4F7EAFC9C",
+      "source_text": "お覚悟を！",
+      "before": "각오해라!",
+      "after": "각오하세요!",
+      "category": "voice",
+      "reason": "お覚悟を의 정중한 명령 어투를 유지했다."
+    },
+    {
+      "tm_id": "ARF-TM-2F8A29F5CCF74DF7FA6B",
+      "source_text": "ダグラス家",
+      "before": "더글러스가",
+      "after": "더글러스 가문",
+      "category": "meaning",
+      "reason": "家가 조사처럼 보이지 않도록 가문이라는 뜻을 명시했다."
+    },
+    {
+      "tm_id": "ARF-TM-3AECFBDBF0BEC3071974",
+      "source_text": "誰が１番弟子だ！",
+      "before": "누가 수제자야!",
+      "after": "누가 １번 제자야!",
+      "category": "numeric_fidelity",
+      "reason": "원문의 순번 １과 전각 숫자 형태를 보존했다."
+    },
+    {
+      "tm_id": "ARF-TM-A23CDA3E0D737FAA7C3E",
+      "source_text": "あなた、誰？",
+      "before": "당신, 누구야?",
+      "after": "그쪽은 누구야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    }
+  ],
+  "verification_execution": {
+    "status": "deferred_by_user_instruction",
+    "executed_tools": [],
+    "not_executed": [
+      "validator",
+      "fit",
+      "encoding",
+      "boundary_audit"
+    ],
+    "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-A23CDA3E0D737FAA7C3E"
+    ],
+    "reviewed_sha256": "C43EB40E0558EB98D5AEF1FE7A4017C23D327023A0625D738F175065AAFD3008"
+  },
+  "hashes": {
+    "reviewed_sha256": "C43EB40E0558EB98D5AEF1FE7A4017C23D327023A0625D738F175065AAFD3008"
+  }
 }

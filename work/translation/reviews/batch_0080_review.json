@@ -79,10 +79,10 @@
       "row_index": 47,
       "tm_id": "ARF-TM-0FEDC84000FD47DEBAEF",
       "source_text": "ラルク、あまり無理をしないで<$0C>あなたはやっと出会えた\nイーサの子ですもの……",
-      "before": "라르크, 너무 무리하지 마<$0C>당신은 겨우 만난\n이사의 아이니까……",
-      "after": "라르크, 너무 무리하지 마<$0C>당신은 이제야 만난\n이사의 아이니까……",
-      "category": "naturalness",
-      "reason": "やっと出会えた의 화자 관점을 살려 자연스러운 한국어로 다듬었다."
+      "before": "라르크, 너무 무리하지 마<$0C>당신은 이제야 만난\n이사의 아이니까……",
+      "after": "라르크, 너무 무리하지 마<$0C>넌 이제야 만난\n이사의 아이니까……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 51,
@@ -248,5 +248,21 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 24,
+  "unchanged_units": 176,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-0FEDC84000FD47DEBAEF"
+    ],
+    "reviewed_sha256": "F2EAAAD897155792E2982412D81983FCB49143A8252FB68355F72F6B72D2C102"
+  },
+  "hashes": {
+    "reviewed_sha256": "F2EAAAD897155792E2982412D81983FCB49143A8252FB68355F72F6B72D2C102"
   }
 }

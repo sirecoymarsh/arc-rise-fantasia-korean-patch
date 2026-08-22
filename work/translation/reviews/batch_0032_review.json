@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0032.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0032.jsonl",
   "reviewed_units": 200,
-  "modified_units": 16,
-  "unchanged_units": 184,
+  "modified_units": 17,
+  "unchanged_units": 183,
   "review_dimensions": [
     "meaning",
     "function",
@@ -152,6 +152,14 @@
       "after": "그가 잃은 목숨――",
       "category": "naturalness",
       "reason": "목숨을 분실물처럼 표현하지 않도록 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-726ABB16FD33BDC3C442",
+      "source_text": "あなたの知っていることを\n話してくれませんか",
+      "before": "당신이 아는 걸\n말해 주시겠습니까",
+      "after": "알고 있는 걸\n말해 주시겠습니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -164,5 +172,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-726ABB16FD33BDC3C442"
+    ],
+    "reviewed_sha256": "9B743616A0C5CDD4A314AF7D0C0C1BCE92D0DFFD2414A50D847F164255B9661C"
+  },
+  "hashes": {
+    "reviewed_sha256": "9B743616A0C5CDD4A314AF7D0C0C1BCE92D0DFFD2414A50D847F164255B9661C"
   }
 }

@@ -1,0 +1,31 @@
+﻿{
+    "schema":  "arf-ko-one-click-installer-fixture-v1",
+    "package_root":  "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.5",
+    "package_manifest_sha256":  "8FE476D62ABF131E74B401F6A0AE1B7620F089724016D634971C1749E861C8B1",
+    "package_manifest_size_bytes":  190788,
+    "overlay_file_count":  722,
+    "checks":  [
+                   {
+                       "name":  "one_click_noninteractive_install",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "installed_payload_matches_manifest",
+                       "passed":  true,
+                       "missing_count":  0,
+                       "mismatched_count":  0
+                   },
+                   {
+                       "name":  "repeat_install_replaces_only_own_patch",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "tampered_payload_rejected_before_target_write",
+                       "passed":  true,
+                       "target_files":  0
+                   }
+               ],
+    "passed_count":  4,
+    "failed_count":  0,
+    "valid":  true
+}

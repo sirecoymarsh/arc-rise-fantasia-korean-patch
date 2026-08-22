@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.4"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.5"
 
 
 def sha256(path: Path) -> str:
@@ -244,7 +244,7 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.4
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.5
 
 ## 설치
 
@@ -287,6 +287,7 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
 - 누락돼 있던 특수·보스 기술 80회(고유 79종, 와이번의 버스트 사격 포함) 한국어화
 - 자동 이동 지도 지역 설명 36곳의 DAT/TXT 72개 표시 데이터 한국어화
 - 전투 명령·작전·상태·도주·선제공격·기습·연계·오의·약점·내성 등 그림형 전투 UI 12장, 19개 표기 한국어화
+- 3인 이상 대화 128회에서 실제 수신자와 장면별 관계를 재검수하여 고유 대사 127개를 교정하고, 다른 장면·인물로 번진 고정 말투 3개와 의미 복사 오류 1개를 추가 교정
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
@@ -387,6 +388,18 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
             "memory_patches": staging_manifest.get("counts", {}).get("battle_start_residue_translations"),
             "final_memory_rules": staging_manifest.get("riivolution", {}).get("memory_count"),
             "translator_model": "Codex internal",
+        },
+        "addressee_scene_voice_review": {
+            "candidate_occurrences_reviewed": staging_manifest.get("counts", {}).get("addressee_candidate_occurrences_reviewed"),
+            "unique_addressee_tm_ids_corrected": staging_manifest.get("counts", {}).get("addressee_unique_tm_ids_corrected"),
+            "speaker_voice_template_bleed_corrected": staging_manifest.get("counts", {}).get("speaker_voice_template_bleed_corrected"),
+            "semantic_copy_errors_corrected": staging_manifest.get("counts", {}).get("semantic_copy_errors_corrected"),
+            "total_unique_tm_ids_corrected": staging_manifest.get("counts", {}).get("addressee_scene_voice_total_unique_tm_ids_corrected"),
+            "correction_report_sha256": staging_manifest.get("addressee_scene_voice_review", {}).get("correction_report_sha256"),
+            "final_translation_memory_sha256": staging_manifest.get("addressee_scene_voice_review", {}).get("final_translation_memory_sha256"),
+            "translator_model": "Codex internal",
+            "external_translation_models_or_apis_used": False,
+            "valid": staging_manifest.get("addressee_scene_voice_review", {}).get("valid"),
         },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",

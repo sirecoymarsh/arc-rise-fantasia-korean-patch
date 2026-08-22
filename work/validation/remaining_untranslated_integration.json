@@ -197,13 +197,13 @@
   },
   "xml": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
-    "sha256": "1C8571B061F7D2A4F5BF1E15ECB97110C11FF0BA2BC71BE2F3191ED5B0183FF1",
+    "sha256": "3C659534C3886091712A6C93358CA824AF890034F8C1ECBB05CD3741E1D61851",
     "file_count": 721,
     "memory_count": 943
   },
   "staging_manifest": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
-    "sha256": "6E0F07DD3B28687F0765851FF385B6C936A74D5E208B3EC8F3A09652E61F168E"
+    "sha256": "9F6D3F019EF0D8C8ED4B7818DDCAAAA7C4B5FC25CFA019CF417BBE65CE642C7A"
   },
   "counts": {
     "battle_magic_slots": 80,

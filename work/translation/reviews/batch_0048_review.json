@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0048.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0048.jsonl",
   "reviewed_units": 200,
-  "modified_units": 36,
-  "unchanged_units": 164,
+  "modified_units": 38,
+  "unchanged_units": 162,
   "review_dimensions": [
     "meaning",
     "function",
@@ -36,10 +36,10 @@
     {
       "tm_id": "ARF-TM-4281A2CE50C41063F7BF",
       "source_text": "……あなた\n信じてるのね。彼らのこと",
-      "before": "……당신\n믿고 있구나. 그들을",
-      "after": "……당신,\n그들을 믿고 있구나",
-      "category": "grammar",
-      "reason": "믿는 대상이 뒤에 어색하게 남지 않도록 목적어와 서술어의 어순을 정리했다."
+      "before": "……당신,\n그들을 믿고 있구나",
+      "after": "……넌\n그들을 믿고 있구나",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-43A939F1415590D91E0A",
@@ -312,6 +312,22 @@
       "after": "리얼 디바의 증표인\n그 펜던트를 도적이?",
       "category": "terminology",
       "reason": "고정 직위명 リアル・ディーバ를 기존 표기인 리얼 디바로 통일하고 펜던트와 증표의 관계를 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-581484F70E0C3B20927D",
+      "source_text": "へぇ〜。ってことは、あんたも\nロードナイトの一員だった訳？",
+      "before": "오〜. 그럼 당신도\n로드 나이트의 일원이었던 거야?",
+      "after": "오〜. 그럼 너도\n로드 나이트의 일원이었던 거야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-55593BCE29AB95A44991",
+      "source_text": "私はあなたと行きたい。\nこの先にログレス・グラがいるのなら\n役に立てると思うから",
+      "before": "난 당신과 가고 싶어.\n이 앞에 로그레스 그라가 있다면\n도움이 될 것 같으니까",
+      "after": "난 너와 가고 싶어.\n이 앞에 로그레스 그라가 있다면\n도움이 될 것 같으니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -324,5 +340,21 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-4281A2CE50C41063F7BF",
+      "ARF-TM-55593BCE29AB95A44991",
+      "ARF-TM-581484F70E0C3B20927D"
+    ],
+    "reviewed_sha256": "11CF2A91B53F90F9E425E95D172A1F50D5BFB553E76EAFFF07F56DDFBC06EF56"
+  },
+  "hashes": {
+    "reviewed_sha256": "11CF2A91B53F90F9E425E95D172A1F50D5BFB553E76EAFFF07F56DDFBC06EF56"
   }
 }

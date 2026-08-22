@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0118.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0118.jsonl",
   "reviewed_units": 200,
-  "modified_units": 32,
-  "unchanged_units": 168,
+  "modified_units": 34,
+  "unchanged_units": 166,
   "review_dimensions": [
     "meaning",
     "function",
@@ -280,6 +280,22 @@
       "after": "사신 라군을 감쪽같이\n탈출시키는 바람에\n우리 평가는 바닥으로 떨어졌다<$0C>그 자식……\n다음에 발견하면\n갈기갈기 찢어 주마!",
       "category": "meaning",
       "reason": "まんまと脱走させた를 멀쩡히 달아나게 했다는 표현 대신 감쪽같이 탈출시키고 말았다는 뜻으로 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-A6B2881D049AA3A65678",
+      "source_text": "<$19>00、あなたは行きたいの？",
+      "before": "<$19>00, 당신은 가고 싶어?",
+      "after": "<$19>00, 넌 가고 싶어?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-A76A8B89DF5D0337D6D6",
+      "source_text": "ここはあなたの勘を\n信じるわ、勇者様",
+      "before": "여기서는 당신의 감을\n믿을게요, 용사님",
+      "after": "여기서는 용사님의 감을\n믿을게요",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -292,5 +308,20 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-A6B2881D049AA3A65678",
+      "ARF-TM-A76A8B89DF5D0337D6D6"
+    ],
+    "reviewed_sha256": "67C8DCA3D149E21C64B01FDBB963564F47FE45B746A75ACC035F15B7C2DCC0F0"
+  },
+  "hashes": {
+    "reviewed_sha256": "67C8DCA3D149E21C64B01FDBB963564F47FE45B746A75ACC035F15B7C2DCC0F0"
   }
 }

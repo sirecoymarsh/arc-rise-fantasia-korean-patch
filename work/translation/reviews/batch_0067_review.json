@@ -43,10 +43,10 @@
       "row_index": 16,
       "tm_id": "ARF-TM-B5A0598C8369A4930052",
       "source_text": "リューズ……\nお前は何者なんだ。\nそれにあんたもだ、ソアラ",
-      "before": "류즈……\n넌 대체 누구지.\n그리고 당신도, 소아라도",
-      "after": "류즈……\n넌 대체 누구지.\n그리고 당신도 마찬가지야, 소아라",
-      "category": "naturalness",
-      "reason": "병렬 호명의 의미와 한국어 어순을 자연스럽게 다듬었다."
+      "before": "류즈……\n넌 대체 누구지.\n그리고 당신도 마찬가지야, 소아라",
+      "after": "류즈……\n넌 대체 누구지.\n소아라도 마찬가지야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 20,
@@ -133,10 +133,10 @@
       "row_index": 77,
       "tm_id": "ARF-TM-BD4A29544937A5989723",
       "source_text": "あんたはこんなところで\n何してるんスか。確か皇子の\n見張りをしてるんじゃ……",
-      "before": "당신은 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있었잖……",
-      "after": "당신은 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있던 거 아니었……",
-      "category": "naturalness",
-      "reason": "중단된 반문을 자연스럽게 복원했다."
+      "before": "당신은 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있던 거 아니었……",
+      "after": "레슬리 씨는 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있던 거 아니었……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 78,
@@ -302,5 +302,22 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 30,
+  "unchanged_units": 170,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-B5A0598C8369A4930052",
+      "ARF-TM-BD4A29544937A5989723"
+    ],
+    "reviewed_sha256": "2DCC5FF0F786318BAB7074166CAFDAA673500870395133F351105818AF5CD350"
+  },
+  "hashes": {
+    "reviewed_sha256": "2DCC5FF0F786318BAB7074166CAFDAA673500870395133F351105818AF5CD350"
   }
 }

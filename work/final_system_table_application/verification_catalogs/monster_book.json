@@ -1,7 +1,7 @@
 {
   "format": "arf-rpjj99-non-bscr-table-v1",
   "game_id": "RPJJ99",
-  "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\final_system_table_application\\payloads\\monster_book.bin",
+  "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\monster_book.bin",
   "source_size": 176456,
   "source_sha256": "d5e74976d8503ffe89e72eeec8b61600083f827fe60cfa83951199860a59e33d",
   "schema": "monster_book",

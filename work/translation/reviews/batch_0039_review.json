@@ -224,6 +224,14 @@
       "after": "니콜, 형님은 나보다 연상이고\n나보다는 형님이\n황제에 더 어울린다고 생각해",
       "category": "grammar",
       "reason": "비교 대상과 주어의 관계를 자연스럽게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-D77208D5CCB4E0D0C998",
+      "source_text": "そこで小さくまとまってるあなた。\nあなたはどう感じる？",
+      "before": "거기서 작게 움츠린 당신.\n당신은 어떻게 느껴?",
+      "after": "거기서 잔뜩 움츠리고 있는 사람은\n어떻게 느껴?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -236,5 +244,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-D77208D5CCB4E0D0C998"
+    ],
+    "reviewed_sha256": "EAE71E0A4A9EBA70B546587C61C5283F73956000A3628538C1814470AAADC8C7"
+  },
+  "hashes": {
+    "reviewed_sha256": "EAE71E0A4A9EBA70B546587C61C5283F73956000A3628538C1814470AAADC8C7"
   }
 }

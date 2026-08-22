@@ -60,10 +60,10 @@
     {
       "tm_id": "ARF-TM-3BAF9400B1C6D63087C7",
       "source_text": "……あなたの首を私に頂戴！",
-      "before": "……당신의 목을 내게 줘!",
-      "after": "……당신의 목을 내놔!",
-      "category": "function",
-      "reason": "목숨을 요구하는 위협이 한국어 대사로 강하게 전달되도록 다듬었다."
+      "before": "……당신의 목을 내놔!",
+      "after": "……네 목을 내놔!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-3D76542C45F55EE8427C",
@@ -188,10 +188,10 @@
     {
       "tm_id": "ARF-TM-9DBADE7540B4D0EF5801",
       "source_text": "ラルク……\nあなたの首を私に頂戴！",
-      "before": "라르크……\n당신의 목을 내게 줘!",
-      "after": "라르크……\n당신의 목을 내놔!",
-      "category": "function",
-      "reason": "목숨을 요구하는 위협이 한국어 대사로 강하게 전달되도록 다듬었다."
+      "before": "라르크……\n당신의 목을 내놔!",
+      "after": "라르크……\n네 목을 내놔!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -204,5 +204,20 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-3BAF9400B1C6D63087C7",
+      "ARF-TM-9DBADE7540B4D0EF5801"
+    ],
+    "reviewed_sha256": "35B3E047F62DA777BC5BD0147C108F94D7CED003E71D0696DC86D5513A6D9BD2"
+  },
+  "hashes": {
+    "reviewed_sha256": "35B3E047F62DA777BC5BD0147C108F94D7CED003E71D0696DC86D5513A6D9BD2"
   }
 }

@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0055.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0055.jsonl",
   "reviewed_units": 200,
-  "modified_units": 23,
-  "unchanged_units": 177,
+  "modified_units": 26,
+  "unchanged_units": 174,
   "review_dimensions": [
     "meaning",
     "function",
@@ -208,6 +208,30 @@
       "after": "모두를 괴롭게 했는데……\n나, 행복하다는 생각이 들어",
       "category": "naturalness",
       "reason": "죄책감 속에서도 행복을 느끼고 만다는 고백을 자연스럽게 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-EC69B7E7C42BD9D270C6",
+      "source_text": "あなたね。\n歌学省を襲って\nお母様を殺したのは！",
+      "before": "당신이구나.\n가학성을 습격하고\n어머니를 죽인 건!",
+      "after": "네가 가학성을 습격하고\n어머니를 죽인 거구나!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-21DAADB877A870E652FE",
+      "source_text": "この綺麗な世界を\nあなたと一緒に守れたら\nいいなって……",
+      "before": "이 아름다운 세상을\n당신과 함께 지킬 수 있다면\n좋겠다고……",
+      "after": "이 아름다운 세상을\n너와 함께 지킬 수 있다면\n좋겠다고……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-E940818AA09AC590EB46",
+      "source_text": "エンジュさんの\n処刑を止めるためです。\nあなたは無実なんですから",
+      "before": "엔주 씨의\n처형을 막기 위해서예요.\n당신은 무죄니까요",
+      "after": "엔주 씨의\n처형을 막기 위해서예요.\n레슬리 씨는 무죄니까요",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -220,5 +244,21 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-21DAADB877A870E652FE",
+      "ARF-TM-E940818AA09AC590EB46",
+      "ARF-TM-EC69B7E7C42BD9D270C6"
+    ],
+    "reviewed_sha256": "E07531F3C7D7B763A54E24128E2C3EC8BE60A81B60591B5DE1DC856244E75105"
+  },
+  "hashes": {
+    "reviewed_sha256": "E07531F3C7D7B763A54E24128E2C3EC8BE60A81B60591B5DE1DC856244E75105"
   }
 }

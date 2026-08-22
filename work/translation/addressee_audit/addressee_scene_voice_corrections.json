@@ -1,0 +1,4130 @@
+{
+  "schema": "arf-addressee-scene-voice-corrections-v1",
+  "game_id": "RPJJ99",
+  "reviewer": "/root",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "decision_unit": "Japanese source + whole scene + speaker + actual addressee + relationship + story phase",
+  "inputs": {
+    "review_queue": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\addressee_audit\\review_queue.json",
+    "review_queue_sha256": "D41E2EBEE78AC2BC4131D2704B5C5D1790B58588BE9E4D056362B414BB619D9E",
+    "multiparty_scene_corpus": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\addressee_audit\\multiparty_scene_corpus.json",
+    "final_tm_sha256_before": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1"
+  },
+  "counts": {
+    "candidate_occurrences_reviewed": 128,
+    "unique_addressee_tm_ids_corrected": 127,
+    "speaker_voice_template_bleed_corrected": 3,
+    "unrelated_unit_semantic_copy_corrected": 1,
+    "total_unique_tm_ids_corrected": 131,
+    "touched_reviewed_batches": 64
+  },
+  "batch_hashes": [
+    {
+      "batch": "batch_0024",
+      "reviewed_sha256_before": "39A93C9DEEEC7F2FC0724C35B1885F17D95EF3040CA217BADA2DF24D9C1E6478",
+      "reviewed_sha256_after": "E2A8F71DE19DD02C784F8BFA58964496B947F18BD559BFA2AB29A3402FCB48D5",
+      "review_report_sha256_after": "3426E6DD7FFB5BCA50610AC3CB9056F6B4D7E5C9EC071387B8B304E15C1BA492",
+      "tm_ids": [
+        "ARF-TM-0171A43DC0F99579CCB9",
+        "ARF-TM-03F0624F5D8416497192",
+        "ARF-TM-075424E58D42273490F0",
+        "ARF-TM-07E291651793E0269629"
+      ]
+    },
+    {
+      "batch": "batch_0028",
+      "reviewed_sha256_before": "5249B2806B4DEDD6D1E062828F237B28A0D25DF51E04A6D394CAFE2A55117385",
+      "reviewed_sha256_after": "7A56DFE554A4C545499C66193AECCCC8D09A5B4D529B33F014A643BA09AF158D",
+      "review_report_sha256_after": "32F4DABEF28E1CE76618C15019FD9F9E717E7643AD6F4DD21480752BEA66F5B0",
+      "tm_ids": [
+        "ARF-TM-3F3A0D232C0336905010"
+      ]
+    },
+    {
+      "batch": "batch_0032",
+      "reviewed_sha256_before": "0BCBE2D88B16F0681C271368DFDEE07E30340CD6EBFE3C7AC94E933ADFF28B5C",
+      "reviewed_sha256_after": "9B743616A0C5CDD4A314AF7D0C0C1BCE92D0DFFD2414A50D847F164255B9661C",
+      "review_report_sha256_after": "002F501B63D5D28BBE620359D6260AFA7238E03F92F7C57933616E253CF9FBD5",
+      "tm_ids": [
+        "ARF-TM-726ABB16FD33BDC3C442"
+      ]
+    },
+    {
+      "batch": "batch_0033",
+      "reviewed_sha256_before": "652A96B7C074F44ED735AF379821FF98306555046B753517A906A173B597444D",
+      "reviewed_sha256_after": "B71132BFE1C155C504C3706DBE9A2A1E358979BFAFE06FC78F122080B8091B0F",
+      "review_report_sha256_after": "D14E9763F8F22285E234300048378F760267F54C44864897BE82442E582B750B",
+      "tm_ids": [
+        "ARF-TM-7F3FD401ED2795592FE2",
+        "ARF-TM-8337D606A8698F14FD44",
+        "ARF-TM-8656AA5B1F26EFEB9C1F"
+      ]
+    },
+    {
+      "batch": "batch_0039",
+      "reviewed_sha256_before": "5C420C4B8DC85ABF3D7DFCF3A18423A7520BAE7EDAA733797762AE0BEE9B86E3",
+      "reviewed_sha256_after": "EAE71E0A4A9EBA70B546587C61C5283F73956000A3628538C1814470AAADC8C7",
+      "review_report_sha256_after": "47CD1F98578245B92C5325BB6B6C282577A5955F8BBA1A353EEE78EDF6B6818D",
+      "tm_ids": [
+        "ARF-TM-D77208D5CCB4E0D0C998"
+      ]
+    },
+    {
+      "batch": "batch_0040",
+      "reviewed_sha256_before": "660A672DE6B8A97E5C9E7DD4A70FD1F11F0513BC5F9EC50F9DC362EE0D3497C8",
+      "reviewed_sha256_after": "45EA3FA7181039EBBD2FBA1F580E90923ACC388B856F2649895E19F48299CC18",
+      "review_report_sha256_after": "CAB29D798A02169FD3CEE24031CC172907DCD3FD6B395616273A6127E70153B0",
+      "tm_ids": [
+        "ARF-TM-E7B5C9AC50D1C3EAE5DC"
+      ]
+    },
+    {
+      "batch": "batch_0041",
+      "reviewed_sha256_before": "B5D939E3EBD69A49F5B2B44EE2332AE8104AF187FCF10CD42013F677E0FE9916",
+      "reviewed_sha256_after": "F670A11C41FD1700CB4B22090C5CAD69B5ADEA8C518175D4FD4588B072975D8C",
+      "review_report_sha256_after": "881E5A38367A360C89E4B4FC6705D957385132C37443B6A47A564008BEAC0C6C",
+      "tm_ids": [
+        "ARF-TM-FCBFFACAB4EC9B824197"
+      ]
+    },
+    {
+      "batch": "batch_0044",
+      "reviewed_sha256_before": "75F609A1A9CCB1C4BFE5A209B89E23BDFFA2AE16C4839E141EACF2C7955D685A",
+      "reviewed_sha256_after": "1C9C3E9212E465555300EAE9F83A8797E76EA794482DDD7A3810F215AB14B79E",
+      "review_report_sha256_after": "E18F15E2F972E7E9FC5D471620DD2725CE626775625CA3A71F90C1E389FFC631",
+      "tm_ids": [
+        "ARF-TM-E193789FF93524BEC0AB"
+      ]
+    },
+    {
+      "batch": "batch_0047",
+      "reviewed_sha256_before": "4586807E2BEBB9F4938C0361911F4646109503580ED44F002BDBAF1ECFFA9D69",
+      "reviewed_sha256_after": "FD914BBC7CFA6085C3EEA0D0D9848935B54D8E1B597A49F2CBF10D2BD9935EE3",
+      "review_report_sha256_after": "5637C74AAF977F308AD2D586C7619A9BB3318ECA50C85819F279533283FF46BF",
+      "tm_ids": [
+        "ARF-TM-2D3763C10DDC404D69AA"
+      ]
+    },
+    {
+      "batch": "batch_0048",
+      "reviewed_sha256_before": "7511F6382C14F23432D342BF6D2E80E3E029B158ADAC1265280BA00EE3CE1980",
+      "reviewed_sha256_after": "11CF2A91B53F90F9E425E95D172A1F50D5BFB553E76EAFFF07F56DDFBC06EF56",
+      "review_report_sha256_after": "A28A5CBD6A455200D8DBB89BEAF1A19935B01BA9F63DE973EF2D0C3E05207FDB",
+      "tm_ids": [
+        "ARF-TM-4281A2CE50C41063F7BF",
+        "ARF-TM-55593BCE29AB95A44991",
+        "ARF-TM-581484F70E0C3B20927D"
+      ]
+    },
+    {
+      "batch": "batch_0049",
+      "reviewed_sha256_before": "AEAB1ABA635229E588A7A09D7A07869C0E7B82C8A499E5592065023530CB5620",
+      "reviewed_sha256_after": "FA1AE323FDE3E836677732F007D0B96571DDC62591AA5144976E525A72EBA916",
+      "review_report_sha256_after": "20E4BF74BCEF3EBA7780C06C4BB2E41C9214C8C1893A9A7820A8E7854D1DB9EF",
+      "tm_ids": [
+        "ARF-TM-9697B7683F51BA4ACDB2",
+        "ARF-TM-9A8AD02F3DC511504522",
+        "ARF-TM-ABA0CF87A2A9A36A9A00",
+        "ARF-TM-DC9AF4A7C34678196037"
+      ]
+    },
+    {
+      "batch": "batch_0050",
+      "reviewed_sha256_before": "8A703CA3D747347AB8E84B27F82B18A86D30691BA8233934C8952D4DCC5E331A",
+      "reviewed_sha256_after": "BE50F026F484D2840999D61FBB0AAFAD67EAE54C9F6F3052651BCDC1E702A1AD",
+      "review_report_sha256_after": "B6D120DED077007CA873064CA860FF67B4C73DD756711C9A6D0744D7CA3ED348",
+      "tm_ids": [
+        "ARF-TM-3FA9C979F214C94C07AD",
+        "ARF-TM-ADD29CC9CDFBC0ED5309"
+      ]
+    },
+    {
+      "batch": "batch_0051",
+      "reviewed_sha256_before": "CDE83624A2919D947A0D81EBBCD05B8E6B807A43788495986584CA297C8365FB",
+      "reviewed_sha256_after": "35B3E047F62DA777BC5BD0147C108F94D7CED003E71D0696DC86D5513A6D9BD2",
+      "review_report_sha256_after": "62729F4735ED23346BE2656214B7BBC99D49A23EFC64C8F6FFBAE3AE082B371E",
+      "tm_ids": [
+        "ARF-TM-3BAF9400B1C6D63087C7",
+        "ARF-TM-9DBADE7540B4D0EF5801"
+      ]
+    },
+    {
+      "batch": "batch_0052",
+      "reviewed_sha256_before": "003A208723915B637058A7964787608F1EDFE6DB27E4A4A1E3A267FD71F348E4",
+      "reviewed_sha256_after": "4C6E973B7FCE50BE05A34297F1167A6D6F43F69553ABBC8E5A1B8E04B8AD8CBD",
+      "review_report_sha256_after": "095C5E91AAE78FCCC87659B0FEC29102167B12FBC09ED183DF3BD27685057B5B",
+      "tm_ids": [
+        "ARF-TM-AB26A8A303F1CB5BB75D"
+      ]
+    },
+    {
+      "batch": "batch_0053",
+      "reviewed_sha256_before": "D35E96B24E3A979CFE43EA824E2712B3440E06B646D69F89B9BD2A0AC7771BA3",
+      "reviewed_sha256_after": "A5293E6F547A9E80E7FA0C25D73A3A1BD9E80907F4CD8B975106E24802CDE1DD",
+      "review_report_sha256_after": "3F3BA2B55B0EBE12276216A3BEACF7F6FF90013C98AB6A3A2C275E415FD4357D",
+      "tm_ids": [
+        "ARF-TM-2035166F89083A104AC2",
+        "ARF-TM-394DDFA37A62994DBE8B"
+      ]
+    },
+    {
+      "batch": "batch_0054",
+      "reviewed_sha256_before": "8EC86A90BDD52AC29003D1AB1BC2744EE06939EE2B5CB34E7816161F5B31FD9A",
+      "reviewed_sha256_after": "7F361DACFAF5A1ECC605FC1FA6A63FF6E50279B10BC2FA7401719F1A7214861F",
+      "review_report_sha256_after": "7BA0CF435E5F17407AED478648B999346B0BB10AFB69A23BFFBFFD821EC75580",
+      "tm_ids": [
+        "ARF-TM-B25F6296E16E54C5D570"
+      ]
+    },
+    {
+      "batch": "batch_0055",
+      "reviewed_sha256_before": "4AB74310176DD454F8DB64E7FDC441EB43C44121257B735A3C8BFDEF3ED2F331",
+      "reviewed_sha256_after": "E07531F3C7D7B763A54E24128E2C3EC8BE60A81B60591B5DE1DC856244E75105",
+      "review_report_sha256_after": "0C9DAC2811263773D8FD6FF5FFAE51C16E2FEBCBC7F69A279D01B51C26A4C85E",
+      "tm_ids": [
+        "ARF-TM-21DAADB877A870E652FE",
+        "ARF-TM-E940818AA09AC590EB46",
+        "ARF-TM-EC69B7E7C42BD9D270C6"
+      ]
+    },
+    {
+      "batch": "batch_0056",
+      "reviewed_sha256_before": "E84B6EC3AF096C0436C4833A61905C20F2D691F4153D89FF453990560FD08C0D",
+      "reviewed_sha256_after": "01195A909D4F3E66147FD3E0AFAB6B18E57B5326950158973CABB396A73D666D",
+      "review_report_sha256_after": "99E848DF7A62383900E64C4E950B3255481ACA96C630DBB515EF06D16A3F9431",
+      "tm_ids": [
+        "ARF-TM-2CC529B67E969F06043F",
+        "ARF-TM-45005637AC1A2C09264D",
+        "ARF-TM-59934DC799AF2C20B7D2"
+      ]
+    },
+    {
+      "batch": "batch_0057",
+      "reviewed_sha256_before": "0C1D96C1820919A0445CCDB507AFF13BC0D0F96BD1C8AC494F9033F3AC452FD4",
+      "reviewed_sha256_after": "AA6EE9D8AC7569D53C002BC145FC81309DF42C590D62D727FD1DDD700D94053A",
+      "review_report_sha256_after": "F30DCA67E8982C00516E7E7E591ACB4DE18E2A209FB41F9992DB33DC675B7AF4",
+      "tm_ids": [
+        "ARF-TM-5F2A2D248BB313A9FDBE",
+        "ARF-TM-6120A10D84D96279FFA2",
+        "ARF-TM-7424C82ED366B7F8606E",
+        "ARF-TM-7F48F205C72D8CFAB5AD",
+        "ARF-TM-8033DE03582933B68F69",
+        "ARF-TM-9209A73F130CA7640F90"
+      ]
+    },
+    {
+      "batch": "batch_0058",
+      "reviewed_sha256_before": "99D5432503927686CB7B95E153C7976DCA8771F0F637686C3C06A86C7698480B",
+      "reviewed_sha256_after": "B67E77B5CF370AED77767CAF3C2A36B842684B2300225AF6C21E07C6D6779F10",
+      "review_report_sha256_after": "63A1C437AFCE2BE06FB57C814DF5B8E690A6FF69FAC71722D268F3DE43899192",
+      "tm_ids": [
+        "ARF-TM-99457F7845D76B3EE63A",
+        "ARF-TM-9F0E0062F9DE486D313E",
+        "ARF-TM-A07DEE528B7FE5D15AD3",
+        "ARF-TM-B12EC3B6E0D63B5A9EFA"
+      ]
+    },
+    {
+      "batch": "batch_0059",
+      "reviewed_sha256_before": "9B6F481FE877AF05CE06091C7095488D9C4554B510AA3B0F6ED30965C28D5906",
+      "reviewed_sha256_after": "63128151141ADAAAA44CDC43AECF2B2C5F74DA35B503AEFECEF5DA97085CAFDA",
+      "review_report_sha256_after": "58C3D6EAE708417BADEA0BF2B14A972BE07FE0D3AFE2C0387CEA0AD5FA96D25D",
+      "tm_ids": [
+        "ARF-TM-016D113A4CA9A341055B",
+        "ARF-TM-E30B94691818C8C08493",
+        "ARF-TM-EB8E9D1FD0F9D6C975C2"
+      ]
+    },
+    {
+      "batch": "batch_0060",
+      "reviewed_sha256_before": "B864F5BAE68D09ED9DDBF8F87B59936EBD250EE04551F70DBCA84D75C9A1CC6C",
+      "reviewed_sha256_after": "A89CC0142FEC1C65D6CB65D88FD520B5A2E8D57646A1BF4AD69F160F6355CA65",
+      "review_report_sha256_after": "53FF4003D124614D681828836D19DF9BDF5E1FC512CA021D409CC51204C3A116",
+      "tm_ids": [
+        "ARF-TM-0AF2B22C6C019D686F71",
+        "ARF-TM-0C4620E06D7DD6308577",
+        "ARF-TM-134CFAE0CABB837034F8"
+      ]
+    },
+    {
+      "batch": "batch_0061",
+      "reviewed_sha256_before": "14100F72370BD164DC6283F1D507378D48ACBB544FBE579DF214CBB257481A50",
+      "reviewed_sha256_after": "6EAC677DFAF22A4F6F99DA82C7C2C5D5FB703793E6F4E1CFA5D77F85C14B778C",
+      "review_report_sha256_after": "1BA2EF528DF16312AA48BE1AEE72BF18A7CAE5F14DB93A3C8A6FEFC38798E50E",
+      "tm_ids": [
+        "ARF-TM-250A7DCB787380E82161",
+        "ARF-TM-285E792CAFBB2719FFDE",
+        "ARF-TM-28600D01C20AF16F417D",
+        "ARF-TM-291559EC9E190D9F5637",
+        "ARF-TM-2BACDD1FBE0C2A898085"
+      ]
+    },
+    {
+      "batch": "batch_0062",
+      "reviewed_sha256_before": "B8A4B2F0E4C58459CA57A196301D83A54C5BAE691A07F33C7E3CC3D5C61E9248",
+      "reviewed_sha256_after": "DEF2194F32A681C4BBDA5E2FE7324FF4AD0FD34369B771E63E2F4A91F83C84F7",
+      "review_report_sha256_after": "4159B3A50802A864D2CF3B0CAFAF2CB6C443C3A9A236F53B74A4A746780AA1FD",
+      "tm_ids": [
+        "ARF-TM-33B897F62040F4E54D89",
+        "ARF-TM-3D531480CEEA2DA051DA",
+        "ARF-TM-43007CB61C10D7A293C7"
+      ]
+    },
+    {
+      "batch": "batch_0064",
+      "reviewed_sha256_before": "F48C589B9A78CFEC298890CBBAF555D522DC8E94DB69B5251919B5029DC988CB",
+      "reviewed_sha256_after": "BAA3A93E21368B30A0CDE0B2EDA2542718BC885DDA6928420363963752B691BC",
+      "review_report_sha256_after": "93C5101407DD39DB93B2D2C58B46C9A00F1670A784F6578BF9914821625E0C88",
+      "tm_ids": [
+        "ARF-TM-7480AB85DA00F02B2D7D"
+      ]
+    },
+    {
+      "batch": "batch_0065",
+      "reviewed_sha256_before": "4FF8C49B5850E84F608B1836C1B26C7A06164251AADCB6FAA47DFDF8AF20582F",
+      "reviewed_sha256_after": "647CBF4AFB466893597D0CB53206F018D2E46C456757AE6E3484CE832D6ADEF0",
+      "review_report_sha256_after": "F26DBA9E735667DE18CED90CB19A486D414396F2A56FAF90F088173BDC541659",
+      "tm_ids": [
+        "ARF-TM-8C9283263EF68351EB9D",
+        "ARF-TM-97B651A4A2CA85B731A2",
+        "ARF-TM-9DF266200BD57F914CF3"
+      ]
+    },
+    {
+      "batch": "batch_0066",
+      "reviewed_sha256_before": "2B613B6B18887972B4BD16EEBB35E4B1D62DAC37CC7CD51F347EB98AB3DF5D94",
+      "reviewed_sha256_after": "7C8EA5AFDF7A92F738572B08E89505D61D5D67DBD2EBFAD39E25B598B5C55431",
+      "review_report_sha256_after": "C03387DFAA7A61343E3CD657269E78A2AE856FCAC341D57F9A4882AB590BD7B9",
+      "tm_ids": [
+        "ARF-TM-A115678338C50A26F4E2",
+        "ARF-TM-A5F53750DBF808C3AFD1",
+        "ARF-TM-AF2A2291CCCBA057BD36"
+      ]
+    },
+    {
+      "batch": "batch_0067",
+      "reviewed_sha256_before": "902F67FF0445138E98B017073C82E6F8BEB14EE9193F8F0CE52EB90EB74FCAA0",
+      "reviewed_sha256_after": "2DCC5FF0F786318BAB7074166CAFDAA673500870395133F351105818AF5CD350",
+      "review_report_sha256_after": "D77A0B3BF2D3756BB17E5934B545544F42E2F8785934D6FDD05782D9A3C0DEB0",
+      "tm_ids": [
+        "ARF-TM-B5A0598C8369A4930052",
+        "ARF-TM-BD4A29544937A5989723"
+      ]
+    },
+    {
+      "batch": "batch_0068",
+      "reviewed_sha256_before": "0765E5B6FAFA8270E0E8DDF1D1C8B239AC67183B52336FCDB8D682337E99158F",
+      "reviewed_sha256_after": "C8E2A3943DD71C1D534286D8CE4C9678D343BCEABF2849241069B3A5B5584EB0",
+      "review_report_sha256_after": "0CFB3F85DA7A90B65F5CC5E613DC439F1EE92C0FDB24CEAF86F4C606D670E9CA",
+      "tm_ids": [
+        "ARF-TM-DC4934B5D5CF41B69221",
+        "ARF-TM-DE861B4AC182DC566CB7"
+      ]
+    },
+    {
+      "batch": "batch_0069",
+      "reviewed_sha256_before": "85A74314DFB9377DB65C36F22205FA6A8B552DD5B1801D47C2F184BF3705FD8A",
+      "reviewed_sha256_after": "115DAA15EA10B4DAB5BF16EF1EE80BB5540F12CE2604BF2D88A251B77E225520",
+      "review_report_sha256_after": "09A252FA535744A05D603A4FCEE4C39BE71C921C69A08B9B2BA98858E428EF52",
+      "tm_ids": [
+        "ARF-TM-EBDFE2DE283BED7096B7",
+        "ARF-TM-EF955A2790725EF7D636",
+        "ARF-TM-F41DA5841A34A89CA465",
+        "ARF-TM-F72D91495E534B42E0EA",
+        "ARF-TM-F8F330BA39A16635F2DF",
+        "ARF-TM-F93659B273CF37F3B9A1"
+      ]
+    },
+    {
+      "batch": "batch_0070",
+      "reviewed_sha256_before": "6C38BA03731E60910E25380B923497FA3DD036F7E1301C22758F2118B460D2EF",
+      "reviewed_sha256_after": "476E811EA604DF2586A600E1D7CF14E90307286B91996F426C424A55BC342FD1",
+      "review_report_sha256_after": "68FA5A1C35F6DF02EE68B9CC3DAF82A37A650CF54770EC31E5782B791049895D",
+      "tm_ids": [
+        "ARF-TM-1199556870904FE86FF8"
+      ]
+    },
+    {
+      "batch": "batch_0072",
+      "reviewed_sha256_before": "DDD026D7BE6ACFE7B01D068440F67A620755CC94E7CD1E9F6AF5C9F41F9FF8BF",
+      "reviewed_sha256_after": "0DE607FDC5BC96DADC7A38017BF114F3A1E16C864CE6B2CD2DB23516EEE134E5",
+      "review_report_sha256_after": "7DCBE3D50D42DC568310E5F7CFBE00C3DA2231ED7F52D603E550F9DB5DAA5F15",
+      "tm_ids": [
+        "ARF-TM-6516E6A2986F09BB51B2",
+        "ARF-TM-6DA009909515F48C40DB",
+        "ARF-TM-7817D119B35E599DFD4E"
+      ]
+    },
+    {
+      "batch": "batch_0073",
+      "reviewed_sha256_before": "7E85F0150198D0E9B4E939A6E6510DC038A22295B7033CC40FBFFF4435B3E2D0",
+      "reviewed_sha256_after": "C5DD33C5879E21056E0B470FA3355D1041B39F2982F3D75C29308F32C72EEF84",
+      "review_report_sha256_after": "AF74385A60C3817167E2D69F8189FB69ADABCEA59C351541837240599698A6B7",
+      "tm_ids": [
+        "ARF-TM-A1B4D59507779707DD8C"
+      ]
+    },
+    {
+      "batch": "batch_0074",
+      "reviewed_sha256_before": "E03BC7B43789931012E1E8E47BDB557C7EC437C6BB1D67019DDD9D4C9649D3F1",
+      "reviewed_sha256_after": "F7B527FDF21B4779C9B9C20B67374C02AB33CE9315EDBDF06185E9DDDD56FA26",
+      "review_report_sha256_after": "E611DEF4DEDD344DCA1CA564C4EF9D0DDC1F26492B2B4E292ABB1FCF2C4D8840",
+      "tm_ids": [
+        "ARF-TM-A747F61CF1524F4B87FA",
+        "ARF-TM-BF1550AC1D7B908C85EC",
+        "ARF-TM-C449C2CDEA24E36E40FD"
+      ]
+    },
+    {
+      "batch": "batch_0075",
+      "reviewed_sha256_before": "A0711E1BB827123CA17BF042B5358D1F2955AB3706AAC12BA3E560E3BE0DAC7D",
+      "reviewed_sha256_after": "F94321557B512AF38CB25A0D911334D9241A1D2A2051FEDAADBB8C1CB08D93E4",
+      "review_report_sha256_after": "DF2D07DEF1E616E6EBB90EDBCA72C4F86AC795990118441978F4E88454F95B26",
+      "tm_ids": [
+        "ARF-TM-E18F54B4B612F061E6B0"
+      ]
+    },
+    {
+      "batch": "batch_0077",
+      "reviewed_sha256_before": "51CDD786ECDA40CC322CF586890569048C1B14DDA26E357C55BD67A22144E3AC",
+      "reviewed_sha256_after": "E474C9DA2EF5B5E251E7AC9DE7FC87F5945DCD879F4D34DCA0511D6CEDB10B5A",
+      "review_report_sha256_after": "D55B25C92ADB338FAB2E15BED91D662EFBE42BFB012FBAF5F045F1BAA04C4E20",
+      "tm_ids": [
+        "ARF-TM-04F4F924C3D472AEA28E"
+      ]
+    },
+    {
+      "batch": "batch_0079",
+      "reviewed_sha256_before": "718AFE48ACFAA4D0B26D53C6CDB319EC43A3DE2056B661A03EDE2095E7C9C95C",
+      "reviewed_sha256_after": "3FC89F1CA1C9294561D4BBAE178D52C3266F8F0A51057EE72BE3EDFD1E73DF3E",
+      "review_report_sha256_after": "9601A610738F9256B372718F6A5137FDA033675BD0D12C580F4C9C1DCD4048F3",
+      "tm_ids": [
+        "ARF-TM-0BDB21F4C059EF436104"
+      ]
+    },
+    {
+      "batch": "batch_0080",
+      "reviewed_sha256_before": "0D80931D49B025CD5CCB2327D666E8D6F0E80B55B7BEBC380EAA4FC9E0824BA9",
+      "reviewed_sha256_after": "F2EAAAD897155792E2982412D81983FCB49143A8252FB68355F72F6B72D2C102",
+      "review_report_sha256_after": "301CAA4243FAC957FD0897C72928A3B45206F29602463BA10513796A1C0DE373",
+      "tm_ids": [
+        "ARF-TM-0FEDC84000FD47DEBAEF"
+      ]
+    },
+    {
+      "batch": "batch_0084",
+      "reviewed_sha256_before": "C1D42354C8276ED7D86DEC2DE50154884CEEE11AD92D33E738E8D82ED579925F",
+      "reviewed_sha256_after": "28C092ADC995308827A5409B358FEA48CE59450EAE8771F2B73245F643352125",
+      "review_report_sha256_after": "A20950C0E93EC9838E8467BA1117A15A095D328939F9864F63DC9AADBB9050FA",
+      "tm_ids": [
+        "ARF-TM-218F408C32018E3054FC",
+        "ARF-TM-21CE6501DDDD655CCA1E"
+      ]
+    },
+    {
+      "batch": "batch_0085",
+      "reviewed_sha256_before": "D32884E533B028628E11B5EFAFC523B9A30C2A43C19C3029F3AC614B843688BF",
+      "reviewed_sha256_after": "67078AA6157F530778057653E504E1B2B1C5DB86035B8E690A955E493AA06F21",
+      "review_report_sha256_after": "C1BB60547E488126B53A11EE14D5C0878C902B89B0DAC67CE7090AC3AF24EAC8",
+      "tm_ids": [
+        "ARF-TM-261D54AFBE292D687742"
+      ]
+    },
+    {
+      "batch": "batch_0088",
+      "reviewed_sha256_before": "BDE0EC1B604B01043C62022E1C31A48C00BA50AF02D70AF9A4D94EFB88C916E4",
+      "reviewed_sha256_after": "BF9063BC8A79DA8962E6E0D97AA363E37A5AFB4B3F6B88D60274CDF5B74BA687",
+      "review_report_sha256_after": "E1CA63A643A48B958B91447FAD5A67D73F66E78C437881F4ECBB7D92928D38C6",
+      "tm_ids": [
+        "ARF-TM-2F5CAC5BADD11878063A",
+        "ARF-TM-31E16CCA893C9E80AE61"
+      ]
+    },
+    {
+      "batch": "batch_0093",
+      "reviewed_sha256_before": "107D30CFBEAF204A18F06D101960D39D2876155D2DBC303B001F1B8871A63FD3",
+      "reviewed_sha256_after": "60D42C62DA1E34A7F4F3962DD161C9D6C5A1D12016C5112FA96A6527FD447B1B",
+      "review_report_sha256_after": "DE3BAD43C9B4366691C3610BE0EF09F1076B85C5CF7A956DE6FF4F8E1621354E",
+      "tm_ids": [
+        "ARF-TM-46D36CCB97F23D054204"
+      ]
+    },
+    {
+      "batch": "batch_0094",
+      "reviewed_sha256_before": "00FDDD91018B54A64AB002E2367D60A01DFF08442238F1016E60E82DB32E102B",
+      "reviewed_sha256_after": "BC3F96AFF041B089EF9023D31B034597685E0E34444ABB543F339CBE09B81574",
+      "review_report_sha256_after": "3B8367CC753C2AC5B087543D1609B560D9BD5DAA4D49B2FAA09693BF15317221",
+      "tm_ids": [
+        "ARF-TM-48A2ED2F780C1E66A22F",
+        "ARF-TM-48F8A3374742F897A258",
+        "ARF-TM-4A3B33E399D6ECF652A0",
+        "ARF-TM-4B92A89B55A40F8B0A55"
+      ]
+    },
+    {
+      "batch": "batch_0096",
+      "reviewed_sha256_before": "CC1897241BA9669730AFA890F7411C34294E3A659B9CC9B3129B9AA457AD7EB8",
+      "reviewed_sha256_after": "EC16A28912CD77E8B45F5C6BFD5A7E7118DCD0D40A16827D41D370FD782933CE",
+      "review_report_sha256_after": "4676279EE78E4059B357133EF3BF91127F3D455870FE2C31854D173937CF4B73",
+      "tm_ids": [
+        "ARF-TM-50634264E52E372F210F"
+      ]
+    },
+    {
+      "batch": "batch_0097",
+      "reviewed_sha256_before": "9FE2C3607DF89D54E646210CC7219EE6AFA846BE1CFDFE906871C3EE5B1BC991",
+      "reviewed_sha256_after": "93F30583D5DA7E6ADD6A5AD0B819D796103C6E97B2B819DE0D4C001A8532AD50",
+      "review_report_sha256_after": "3813D36E379069D2790E7C92F1003F9C6DFCE6EEED4E8201606444F70265F874",
+      "tm_ids": [
+        "ARF-TM-540A1B2BC80AF5D66159",
+        "ARF-TM-55CF78B6373927C90CEB"
+      ]
+    },
+    {
+      "batch": "batch_0099",
+      "reviewed_sha256_before": "66DF91694ED57105EB4165E4C13493A572704BAB8676DCC50D4BD4F73B71C3B2",
+      "reviewed_sha256_after": "A6B60307647C4251B1B6AF7400F1BD99ED6CED90CDDDFDF8E909BEDAFD035954",
+      "review_report_sha256_after": "0299C57D6127F6A0CFB1A67031084580F6914ACA22BB72B58F8642A9945ADBBF",
+      "tm_ids": [
+        "ARF-TM-5E0AE8FEFC7EE751ECB4",
+        "ARF-TM-5F0C0E4C2A9569FCBF41"
+      ]
+    },
+    {
+      "batch": "batch_0100",
+      "reviewed_sha256_before": "12DAE17F74133648355B36F4E2E8B8A5A9DE44BA4ABA631A5CA4BC6109294001",
+      "reviewed_sha256_after": "03D9A70C00088C33EC72CBDD560B4C012AD3BD3D7E983E4BA2294F3F8CEDA4D7",
+      "review_report_sha256_after": "4923910ACE410D30A9B6A221CFF0AAC5C613C8F00EF19D31C1A1CE76EEF836FD",
+      "tm_ids": [
+        "ARF-TM-6060638BCC1DB94DB668",
+        "ARF-TM-61615DA86CA0B61C12AA"
+      ]
+    },
+    {
+      "batch": "batch_0102",
+      "reviewed_sha256_before": "37460BFE08691BB06DF78CB8FD5102BE812EFA9D796FF5F8A0C047CDBA49D91F",
+      "reviewed_sha256_after": "98C86ED3F649BC2F788872337DA779C24D71DA77BEE098180E675DA1AC2C13B6",
+      "review_report_sha256_after": "3A0DE20C39C1445B150F162588D8CFE675C35492C1FF5BD59BE6BFD775EBF920",
+      "tm_ids": [
+        "ARF-TM-69357D828013EECBE471",
+        "ARF-TM-6951E60D70FDE41B2402"
+      ]
+    },
+    {
+      "batch": "batch_0103",
+      "reviewed_sha256_before": "A79F90980FD0499C8D7B65B3CD1C2201A97C1555B4F3136C593EB2866CACAE31",
+      "reviewed_sha256_after": "FCB3B4DFE272BA5AAFA9E380FDD550FF8421C5FA6E0AD9AB180098496D374A1C",
+      "review_report_sha256_after": "BEA24FF6BDDF7FF91137A17A02B93DE6B144B78C084D242D5CF010D0CAAB31FA",
+      "tm_ids": [
+        "ARF-TM-6D9899EBD559582859E8"
+      ]
+    },
+    {
+      "batch": "batch_0106",
+      "reviewed_sha256_before": "61711BFEA1FD4F3DF6D69E5FED96E01E208B45E03272759F520EEE4173BF4C5B",
+      "reviewed_sha256_after": "2348EFDD3705882DFA758B442CC3F30A8265CA4EC6DACE5AFC113A8CD43FA64C",
+      "review_report_sha256_after": "8ACC1B180A32716FA5D1FCB490CC6E566A99C2F17D3327D966F1753A0E007254",
+      "tm_ids": [
+        "ARF-TM-7710EE55137603039759"
+      ]
+    },
+    {
+      "batch": "batch_0109",
+      "reviewed_sha256_before": "966686B4B2DFD47D6894DCE4ECE15C49EBAB21E585D0DD7732CC321FAF6ABF97",
+      "reviewed_sha256_after": "760C5C98595E604DDB67FC0075404996D830187CA131A3D202E6BE0DE23D06AC",
+      "review_report_sha256_after": "AFAFEC3DCCB596CE50A2F134B26BDF672159508AF8C6131EEDC28ED6F3B01658",
+      "tm_ids": [
+        "ARF-TM-82FEE5A1501230635D46"
+      ]
+    },
+    {
+      "batch": "batch_0113",
+      "reviewed_sha256_before": "24D25B59418D3EBE75FFADEE60F420FD89E33FC73781DD2C603F90F9D73A867F",
+      "reviewed_sha256_after": "BB724308053E4D3DDBD8268587368B3CD358CA5486E81162C7142D8DD23F1B05",
+      "review_report_sha256_after": "85ED8EA1A5AF65CAC1D63C14DF57EA6B7BCEC3A90D8CDA2B2AA5D210513C3866",
+      "tm_ids": [
+        "ARF-TM-946B2A8EAA214003FFD6",
+        "ARF-TM-946BC49D6109A4D49512"
+      ]
+    },
+    {
+      "batch": "batch_0115",
+      "reviewed_sha256_before": "D43B7FAB3F75016A1345399AAC43B4EB714717E826C86A96D14ED379EB602C8F",
+      "reviewed_sha256_after": "2E26672DAC55FC8766723ECAB2AC31BA715889F3C756B66EAFE035771FCF44AB",
+      "review_report_sha256_after": "FE356DCC9B31D3410438D0D9F6093C061C423D68731EE8E737AB3D0AB403423C",
+      "tm_ids": [
+        "ARF-TM-99B7A285C89DB6550DAB",
+        "ARF-TM-9B477FF9BE0067F6E760"
+      ]
+    },
+    {
+      "batch": "batch_0116",
+      "reviewed_sha256_before": "BDCA559E8B15DB882A991AA8C25F69D0359DDC9E687A4AC20C252717E0272E3F",
+      "reviewed_sha256_after": "573E929FAC023239317A175D30EAB38B1D16C7EAE57821D95FE4EC3E3BDAEE9D",
+      "review_report_sha256_after": "12C181358C60EFE0A0C7C05C8FA98F04A0526CA777817D78423901CBCC4825AF",
+      "tm_ids": [
+        "ARF-TM-A00E7A1FCCC3D88AED38"
+      ]
+    },
+    {
+      "batch": "batch_0118",
+      "reviewed_sha256_before": "37A3B579B767B91ADA94DA945F2AF8B39A009365C42CAEDEF96B9B99A85B0AC8",
+      "reviewed_sha256_after": "67C8DCA3D149E21C64B01FDBB963564F47FE45B746A75ACC035F15B7C2DCC0F0",
+      "review_report_sha256_after": "BEFD1EC2A4CD0DAA753F6582A15523B29E509B3E0ECEA89267717334803D218D",
+      "tm_ids": [
+        "ARF-TM-A6B2881D049AA3A65678",
+        "ARF-TM-A76A8B89DF5D0337D6D6"
+      ]
+    },
+    {
+      "batch": "batch_0120",
+      "reviewed_sha256_before": "00D4415185EAD387BA44C6A52478EFCE2DE2C3F965CCFEEBA5D25A4C5B5451EA",
+      "reviewed_sha256_after": "958949B3A115EDFCC77595C308622F0E3E01AC02D7E9C671B36828CC02B19BD1",
+      "review_report_sha256_after": "2E4C77D9BF84EFFEE468D56AA892A6FA68B517EE222AB3104500E14FD4DC76BB",
+      "tm_ids": [
+        "ARF-TM-AEB1C0B29F1AFE7D4601",
+        "ARF-TM-AFD8158B7DD14DCE10D6"
+      ]
+    },
+    {
+      "batch": "batch_0123",
+      "reviewed_sha256_before": "8ACAD6DF5659270E75676196FCA08890FEB3F91BF1CB702C2794455BECFB2D82",
+      "reviewed_sha256_after": "AD37C5CB176E66C1E70B3A1D06E358E32738CC609F07C55079E7CA614B21F754",
+      "review_report_sha256_after": "A6C17FF9CB1C7416952074D1840E688569681CAF79E0B446328875DC24676ED5",
+      "tm_ids": [
+        "ARF-TM-B9F0081A8DB1374707BE"
+      ]
+    },
+    {
+      "batch": "batch_0125",
+      "reviewed_sha256_before": "6B16476F58B2609FC598FB6A3405B297F265687B5B55BD064807137D8D4FB266",
+      "reviewed_sha256_after": "A6E4095AF8A546926C95D7D9D2D42C826BBE6F5301238B4E0B84F119FCD3AB39",
+      "review_report_sha256_after": "72E1ED84E410939AE9D86FEA20DF53D53C00223A9098425F2361366C66D92FAC",
+      "tm_ids": [
+        "ARF-TM-C346B8282E20A60B2991"
+      ]
+    },
+    {
+      "batch": "batch_0130",
+      "reviewed_sha256_before": "E02A565FB005588D4EF2D22F31D57889531A13E6161EA3E0CC5C33C9E883E885",
+      "reviewed_sha256_after": "8339F65E4E1342037A81BE0A1D3303CE0BB53E6632DFDC0FD2555A7EB61E3C25",
+      "review_report_sha256_after": "7CAA09389313791A9DC5FC690968AE0FC6BEF14C403BD8A01C8413A52292B13C",
+      "tm_ids": [
+        "ARF-TM-D3EAEBF95D8C6934102A",
+        "ARF-TM-D5BFA9A343947404874A"
+      ]
+    },
+    {
+      "batch": "batch_0131",
+      "reviewed_sha256_before": "64A368DAEA1A6C572A996F14B024ACA8BF028F19991A4D81A95868FD5B3B94A4",
+      "reviewed_sha256_after": "9E104E6CE6C53362CE22936BEE0D519B22329B867201AFBA64770B42D5B0A684",
+      "review_report_sha256_after": "962D4A2190BCBAD2CC30508919B4F9ACE2DA658B5ADA195327B87D48D3A4EA2F",
+      "tm_ids": [
+        "ARF-TM-DAFBDE02B436B293119B"
+      ]
+    },
+    {
+      "batch": "batch_0135",
+      "reviewed_sha256_before": "679D919B1DFA39E2E5EB8352F423496766505ED6D256C77BA268B1A47DA9D7D1",
+      "reviewed_sha256_after": "54E28648527E38552E1B7C88C8E13B40CA0557D1E95F7301A37D91D8CECE5C87",
+      "review_report_sha256_after": "31BE7D3ECE4B2FD9E6E7E0D2E09000E35CBEE61684A4B1C44F159B912EF3FE41",
+      "tm_ids": [
+        "ARF-TM-EAECDE9863BC70C38F72",
+        "ARF-TM-EB612D51F609A80F555A",
+        "ARF-TM-EBA4CCDA53EE87C10068"
+      ]
+    },
+    {
+      "batch": "batch_0139",
+      "reviewed_sha256_before": "65B82A6AA70B81A1234AA2AEF17231384591AB40A55BA51E4838E437374A8ECB",
+      "reviewed_sha256_after": "55AD4A3C665E5608B92283EC682A36DD7B7270547CA81982006F23F02C712BD3",
+      "review_report_sha256_after": "2B95AF90EA65A29C9154BA2256F0907F0D256F19E69F2C7A7DA3104320713031",
+      "tm_ids": [
+        "ARF-TM-F9BB1124892D7288FE4B",
+        "ARF-TM-FC1DDE1FFBD203301C9C"
+      ]
+    },
+    {
+      "batch": "batch_0143",
+      "reviewed_sha256_before": "9651714F46D63712C86D45017D9F7E9B54FDED92A4649832FDBAB8428F5854CB",
+      "reviewed_sha256_after": "57EFE768542622879979312A7A101554C1B2B3FA655AC1A1F96B278D9A1F05BC",
+      "review_report_sha256_after": "DF5308F77441CDBDEE1F8B7B031FD25414A9B46FC3A4E4AF10762EE6D33A7529",
+      "tm_ids": [
+        "ARF-TM-C13CE29974DBB829D865"
+      ]
+    },
+    {
+      "batch": "batch_0145",
+      "reviewed_sha256_before": "503E225DA82B521160A28D9D6FD7B4D5AE47E6F6F1CE62010A968D7532C4E864",
+      "reviewed_sha256_after": "C43EB40E0558EB98D5AEF1FE7A4017C23D327023A0625D738F175065AAFD3008",
+      "review_report_sha256_after": "13AE23291BF35DD5A1CB93649BBD1957DFDD6CAC4514B7AD4C130BF71F7A3870",
+      "tm_ids": [
+        "ARF-TM-A23CDA3E0D737FAA7C3E"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "tm_id": "ARF-TM-016D113A4CA9A341055B",
+      "batch": "batch_0059",
+      "source_text": "……俺は……まだあんたを\n許すことができない",
+      "before": "……나는…… 아직 당신을\n용서할 수 없어",
+      "after": "……난…… 아직 널\n용서할 수 없어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_03.cxd::lz10::0001:map_d_koo_03.bscr",
+          "line_index": 74,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-51A3BBA6E2F291A0FE6E"
+        },
+        {
+          "locator": "Map/map_d_koo_02.cxd::lz10::0001:map_d_koo_02.bscr",
+          "line_index": 69,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-DB0DC951E3C86A2B05FF"
+        },
+        {
+          "locator": "Map/map_d_koo_00.cxd::lz10::0001:map_d_koo_00.bscr",
+          "line_index": 68,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-FC2320B95DAB240704FB"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-0171A43DC0F99579CCB9",
+      "batch": "batch_0024",
+      "source_text": "あなたは……そろそろ\nわかっておいた方がいいんだけどな",
+      "before": "당신은…… 이제 슬슬\n알아 두는 편이 좋겠는데",
+      "after": "넌…… 이제 슬슬\n알아 두는 게 좋을 텐데",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_09_022.vol::0000:fc_09_022.bscr",
+          "line_index": 11,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-1D2FC012EECC162824BA"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-03F0624F5D8416497192",
+      "batch": "batch_0024",
+      "source_text": "オイゲン\nあんたは着替えなくていいのか？",
+      "before": "오이겐\n당신은 갈아입지 않아도 돼?",
+      "after": "오이겐\n안 갈아입어도 돼?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_00_002.vol::0000:fc_00_002.bscr",
+          "line_index": 20,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-3BA0011FE4B3E02CEF62"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-04F4F924C3D472AEA28E",
+      "batch": "batch_0077",
+      "source_text": "え……？\nあ、ああ。そのつもりだが\nあんた珍しく積極的だな",
+      "before": "뭐……?\n아, 아아. 그럴 생각인데\n당신답지 않게 적극적이군",
+      "after": "뭐……?\n아, 아아. 그럴 생각인데\n오이겐답지 않게 적극적이군",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 80,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-12E82335B3A0CAD4DF35"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-075424E58D42273490F0",
+      "batch": "batch_0024",
+      "source_text": "深刻ぶっても、過去は変わらない。\n俺にとってもあんたにとってもな",
+      "before": "심각한 척해도 과거는 변하지 않아.\n나한테도 당신한테도",
+      "after": "심각한 척해도 과거는 변하지 않아.\n나한테도 너한테도 말이야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_06_006.vol::0000:fc_06_006.bscr",
+          "line_index": 2,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-DB1C98DC65D003852DDE"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-07E291651793E0269629",
+      "batch": "batch_0024",
+      "source_text": "ずっとこれからも\nこりないんだろーね\nあんたたちって……",
+      "before": "앞으로도 계속\n정신 못 차릴 거지\n당신들은……",
+      "after": "앞으로도 계속\n정신 못 차릴 것 같네,\n너희 둘은……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_06_018.vol::0000:fc_06_018.bscr",
+          "line_index": 8,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-8D181FB56F286797C000"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-0AF2B22C6C019D686F71",
+      "batch": "batch_0060",
+      "source_text": "あの人は、最期まで\nあなたを愛し続けたのね……",
+      "before": "그분은 마지막까지\n당신을 계속 사랑했구나……",
+      "after": "그분은 마지막까지\n널 계속 사랑했구나……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 303,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-02436177B167D9A2ACA4"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 99,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-A350901E06725CE1BDDD"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 39,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-1EE0BDFB4CA3643EE4FB"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-0BDB21F4C059EF436104",
+      "batch": "batch_0079",
+      "source_text": "ええ。あなたの心の命ずるままに",
+      "before": "네. 당신의 마음이 명하는 대로",
+      "after": "응. 네 마음이 이끄는 대로",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 138,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-68B29582F90B23F1393B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-0C4620E06D7DD6308577",
+      "batch": "batch_0060",
+      "source_text": "防御スクリーンが張られたら\nあなたたちも街には入れないから\n戻らなくてかまわないわ",
+      "before": "방어 스크린이 펼쳐지면\n당신들도 도시에 못 들어오니까\n돌아오지 않아도 돼",
+      "after": "방어 스크린이 펼쳐지면\n너희도 도시에 못 들어오니까\n돌아오지 않아도 돼",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_yuk_01.cxd::lz10::0001:map_t_yuk_01.bscr",
+          "line_index": 106,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-566FA80D3F5F5C9318BA"
+        },
+        {
+          "locator": "Map/map_t_yuk_00.cxd::lz10::0001:map_t_yuk_00.bscr",
+          "line_index": 101,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-C53B36ADE712FBF386CE"
+        },
+        {
+          "locator": "Map/map_i_evt_16.cxd::lz10::0001:map_i_evt_16.bscr",
+          "line_index": 98,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-2926D22BF0993AE3CB06"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-0FEDC84000FD47DEBAEF",
+      "batch": "batch_0080",
+      "source_text": "ラルク、あまり無理をしないで<$0C>あなたはやっと出会えた\nイーサの子ですもの……",
+      "before": "라르크, 너무 무리하지 마<$0C>당신은 이제야 만난\n이사의 아이니까……",
+      "after": "라르크, 너무 무리하지 마<$0C>넌 이제야 만난\n이사의 아이니까……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_18.cxd::lz10::0001:map_i_evt_18.bscr",
+          "line_index": 1,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-3FF9F5C65C9F5D084E00"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-1199556870904FE86FF8",
+      "batch": "batch_0070",
+      "source_text": "あ！　あんたたちは\n確か……ノワーレ教の伝道師の……",
+      "before": "아! 당신들은\n분명…… 노와레교 전도사의……",
+      "after": "아! 그쪽은 분명……\n노와레교 전도사 일행……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 102,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-2E621CEA33E18538B048"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 32,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-582D02F832531598F05F"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-134CFAE0CABB837034F8",
+      "batch": "batch_0060",
+      "source_text": "ヴァイス殿下が\nあなたを捕まえるように\n命令していたりとか……",
+      "before": "바이스 전하가\n당신을 붙잡으라고\n명령했다든가……",
+      "after": "바이스 전하가\n널 붙잡으라고\n명령했다든가……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bat_02.cxd::lz10::0001:map_t_bat_02.bscr",
+          "line_index": 9,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-EC55D3829EBA1E2F26B6"
+        },
+        {
+          "locator": "Map/map_t_bat_00.cxd::lz10::0001:map_t_bat_00.bscr",
+          "line_index": 7,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-F979360FA04A9EF067B6"
+        },
+        {
+          "locator": "Map/map_i_evt_26.cxd::lz10::0001:map_i_evt_26.bscr",
+          "line_index": 4,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-5F0AD638AF261C220FC7"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-2035166F89083A104AC2",
+      "batch": "batch_0053",
+      "source_text": "あなたがバネトゥ？",
+      "before": "당신이 바네투야?",
+      "after": "네가 바네투야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tka_00.cxd::lz10::0001:map_d_tka_00.bscr",
+          "line_index": 583,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-AE5ABA81CB1991EA4959"
+        },
+        {
+          "locator": "Map/map_d_tka_03.cxd::lz10::0001:map_d_tka_03.bscr",
+          "line_index": 582,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-15BB40C8973555BF2CF3"
+        },
+        {
+          "locator": "Map/map_d_tka_01.cxd::lz10::0001:map_d_tka_01.bscr",
+          "line_index": 582,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-2F3C40A3F982FEC8498C"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-218F408C32018E3054FC",
+      "batch": "batch_0084",
+      "source_text": "あんたたちのおかげで助かった。\nありがとう",
+      "before": "당신들 덕분에 살았어.\n고마워",
+      "after": "너희 덕분에 살았어.\n고마워",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_tpa_00.cxd::lz10::0001:map_t_tpa_00.bscr",
+          "line_index": 168,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-2539C036BDB0961EAF27"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-21CE6501DDDD655CCA1E",
+      "batch": "batch_0084",
+      "source_text": "ま、信じる信じないは\nお前さんたちの勝手だ。\nそれじゃあな",
+      "before": "뭐, 믿든 말든\n당신들 마음이야.\n그럼 이만",
+      "after": "뭐, 믿든 말든\n너희 마음이야.\n그럼 이만",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_ebu_00.cxd::lz10::0001:map_t_ebu_00.bscr",
+          "line_index": 80,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-3B2EEBACE906F1F44560"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-21DAADB877A870E652FE",
+      "batch": "batch_0055",
+      "source_text": "この綺麗な世界を\nあなたと一緒に守れたら\nいいなって……",
+      "before": "이 아름다운 세상을\n당신과 함께 지킬 수 있다면\n좋겠다고……",
+      "after": "이 아름다운 세상을\n너와 함께 지킬 수 있다면\n좋겠다고……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 111,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-3853F069DB3D8DC3EB84"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 92,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-0BE4601CCD353E9CDCFC"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 86,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-9A492E048D48331F925C"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 83,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-7B6A34AC7E86D69C09B5"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-250A7DCB787380E82161",
+      "batch": "batch_0061",
+      "source_text": "あんたは、満月の宿にいた……",
+      "before": "당신, 만월의 여관에 있던……",
+      "after": "만월의 여관에 있던……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_ori_00.cxd::lz10::0001:map_t_ori_00.bscr",
+          "line_index": 136,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-1C01760C66B6FD6A68B2"
+        },
+        {
+          "locator": "Map/map_t_ori_02.cxd::lz10::0001:map_t_ori_02.bscr",
+          "line_index": 89,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-9FBAE89C3E3209EE1CBC"
+        },
+        {
+          "locator": "Map/map_t_ori_03.cxd::lz10::0001:map_t_ori_03.bscr",
+          "line_index": 88,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-13293CCE9BC26D2103C5"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-261D54AFBE292D687742",
+      "batch": "batch_0085",
+      "source_text": "以前、あなたが\nラルクたちをだますために\nなりすましてた盗賊団だけど<$0C>メリディアのどこかに\nアジトを持ってたのよね？",
+      "before": "전에 당신이\n라르크 일행을 속이려고\n행세했던 도적단 말인데<$0C>메리디아 어딘가에\n아지트를 두고 있었지?",
+      "after": "전에 네가\n라르크 일행을 속이려고\n행세했던 도적단 말인데<$0C>메리디아 어딘가에\n아지트를 두고 있었지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 336,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-CA82223C38E7E25C19A7"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-285E792CAFBB2719FFDE",
+      "batch": "batch_0061",
+      "source_text": "……オイゲン。\n俺はやっぱりあんたを許せない。\n一生そうなのかも知れない",
+      "before": "……오이겐.\n난 역시 당신을 용서할 수 없어.\n평생 그럴지도 몰라",
+      "after": "……오이겐.\n난 역시 널 용서할 수 없어.\n평생 그럴지도 몰라",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_03.cxd::lz10::0001:map_d_koo_03.bscr",
+          "line_index": 97,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C611B3B5A27A6D794D46"
+        },
+        {
+          "locator": "Map/map_d_koo_02.cxd::lz10::0001:map_d_koo_02.bscr",
+          "line_index": 92,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-33F2EE6BA2DCAA4B97C4"
+        },
+        {
+          "locator": "Map/map_d_koo_00.cxd::lz10::0001:map_d_koo_00.bscr",
+          "line_index": 91,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-06D41B498483B13425FB"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-28600D01C20AF16F417D",
+      "batch": "batch_0061",
+      "source_text": "……でも私は、あなたたちに\n感謝してるわ",
+      "before": "……하지만 난 당신들에게\n감사하고 있어",
+      "after": "……하지만 난 여러분에게\n감사하고 있어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_yuk_01.cxd::lz10::0001:map_t_yuk_01.bscr",
+          "line_index": 169,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-E369C23714EEDE353A6F"
+        },
+        {
+          "locator": "Map/map_t_yuk_00.cxd::lz10::0001:map_t_yuk_00.bscr",
+          "line_index": 164,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-0522A26F514A836EAC34"
+        },
+        {
+          "locator": "Map/map_i_evt_16.cxd::lz10::0001:map_i_evt_16.bscr",
+          "line_index": 161,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-612655812EC8C457DE58"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-291559EC9E190D9F5637",
+      "batch": "batch_0061",
+      "source_text": "そうよね。結局のところラルクは\nイマジナルの定理を――あなたを\n選んだイーサの子で",
+      "before": "그러네. 결국 라르크는\n이매지널의 섭리를――당신을\n선택한 이사의 아이고",
+      "after": "그러네. 결국 라르크는\n이매지널의 섭리를――너를\n선택한 이사의 아이고",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 384,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-3A5B9C0E163930182F3A"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 180,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-1CA1FBD029FCD3AC0406"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 120,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-BA718FD3E185629F81C3"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-2BACDD1FBE0C2A898085",
+      "batch": "batch_0061",
+      "source_text": "あなたはいつも横にいる権利を\n無条件に手に入れたんだから！",
+      "before": "당신은 언제나 곁에 있을 권리를\n아무 조건 없이 손에 넣었으니까!",
+      "after": "넌 언제나 곁에 있을 권리를\n아무 조건 없이 얻었으니까!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 385,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-2B03863806E3EAA383F2"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 181,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-46B10D5FE3A80A4FDCB1"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 121,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-26C3DA0A4014CE0BEE47"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-2CC529B67E969F06043F",
+      "batch": "batch_0056",
+      "source_text": "やっぱりあなたは\nレオンなんですね!?",
+      "before": "역시 당신이\n레온이군요!?",
+      "after": "역시 레온이\n맞으셨군요!?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tou_03.cxd::lz10::0001:map_d_tou_03.bscr",
+          "line_index": 35,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-2DBD514243C7F5B73574"
+        },
+        {
+          "locator": "Map/map_d_tou_02.cxd::lz10::0001:map_d_tou_02.bscr",
+          "line_index": 35,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7D41921CB85A8DB51DA9"
+        },
+        {
+          "locator": "Map/map_d_tou_00.cxd::lz10::0001:map_d_tou_00.bscr",
+          "line_index": 36,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-ED9E8E4292E9669C087B"
+        },
+        {
+          "locator": "Map/map_d_tou_01.cxd::lz10::0001:map_d_tou_01.bscr",
+          "line_index": 35,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-58B277347157868572E7"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-2D3763C10DDC404D69AA",
+      "batch": "batch_0047",
+      "source_text": "……俺はあんたを\n許した訳じゃねぇんだ",
+      "before": "……난 당신을\n용서한 건 아니야",
+      "after": "……난 널\n용서한 건 아니야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 157,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-213367A9BAD758A1648C"
+        },
+        {
+          "locator": "Map/map_d_ise_03.cxd::lz10::0001:map_d_ise_03.bscr",
+          "line_index": 80,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-460B5AA0315276D9392B"
+        },
+        {
+          "locator": "Map/map_d_ise_01.cxd::lz10::0001:map_d_ise_01.bscr",
+          "line_index": 82,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-143BD407066651937A0A"
+        },
+        {
+          "locator": "Map/map_d_ise_00.cxd::lz10::0001:map_d_ise_00.bscr",
+          "line_index": 71,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-CCDC3393704DBC2344F0"
+        },
+        {
+          "locator": "Map/map_d_ise_02.cxd::lz10::0001:map_d_ise_02.bscr",
+          "line_index": 71,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-CB0C3A62328BB66E9FB9"
+        },
+        {
+          "locator": "Map/map_d_ise_05.cxd::lz10::0001:map_d_ise_05.bscr",
+          "line_index": 71,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-2A64C038C1F72EE12F4F"
+        },
+        {
+          "locator": "Map/map_i_evt_15.cxd::lz10::0001:map_i_evt_15.bscr",
+          "line_index": 70,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-3251902418AAD989376B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-2F5CAC5BADD11878063A",
+      "batch": "batch_0088",
+      "source_text": "あんたが依頼主だな？",
+      "before": "당신이 의뢰주지?",
+      "after": "의뢰주가 맞지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_03.cxd::lz10::0001:map_t_dia_03.bscr",
+          "line_index": 358,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-40A9B74BBFA0FFE99D7D"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-31E16CCA893C9E80AE61",
+      "batch": "batch_0088",
+      "source_text": "ああ。\nアルル……あなたの意思\n確かに受け取った",
+      "before": "그래.\n아를루…… 당신의 의지\n확실히 받았어",
+      "after": "그래.\n아를루…… 네 뜻은\n확실히 받았어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_05.cxd::lz10::0001:map_d_koo_05.bscr",
+          "line_index": 12,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-DC9472E3234DD5E99D85"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-33B897F62040F4E54D89",
+      "batch": "batch_0062",
+      "source_text": "あなたがカーライル博士\nなんですか？",
+      "before": "당신이 칼라일 박사\n인가요?",
+      "after": "칼라일 박사님\n맞으신가요?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_syo_00.cxd::lz10::0001:map_d_syo_00.bscr",
+          "line_index": 404,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D461B8818B8E4F32AAE4"
+        },
+        {
+          "locator": "Map/map_d_syo_02.cxd::lz10::0001:map_d_syo_02.bscr",
+          "line_index": 27,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-66CE805B824BE863CC32"
+        },
+        {
+          "locator": "Map/map_d_syo_04.cxd::lz10::0001:map_d_syo_04.bscr",
+          "line_index": 27,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-9C0787BEF94D09B49DF9"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-394DDFA37A62994DBE8B",
+      "batch": "batch_0053",
+      "source_text": "あんた！\nグラ慈恵教会のこと忘れたの!?\n化け物とか言ってんじゃないよ！",
+      "before": "당신!\n그라 자혜교회를 잊었어!?\n괴물 같은 소리 하지 마!",
+      "after": "너!\n그라 자혜교회를 잊었어!?\n괴물 같은 소리 하지 마!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tka_00.cxd::lz10::0001:map_d_tka_00.bscr",
+          "line_index": 220,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-E0D30AEE61D4DF0294E1"
+        },
+        {
+          "locator": "Map/map_d_tka_03.cxd::lz10::0001:map_d_tka_03.bscr",
+          "line_index": 219,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-B15758831A30FED43424"
+        },
+        {
+          "locator": "Map/map_d_tka_01.cxd::lz10::0001:map_d_tka_01.bscr",
+          "line_index": 219,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-79E837C2B3E7C05C0558"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-3BAF9400B1C6D63087C7",
+      "batch": "batch_0051",
+      "source_text": "……あなたの首を私に頂戴！",
+      "before": "……당신의 목을 내놔!",
+      "after": "……네 목을 내놔!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_hgu_00.cxd::lz10::0001:map_d_hgu_00.bscr",
+          "line_index": 409,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-06BE66CD42997B242ECF"
+        },
+        {
+          "locator": "Map/map_d_hgu_05.cxd::lz10::0001:map_d_hgu_05.bscr",
+          "line_index": 408,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-A7E0B91AE03D6A7D32C7"
+        },
+        {
+          "locator": "Map/map_d_hgu_01.cxd::lz10::0001:map_d_hgu_01.bscr",
+          "line_index": 409,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-17036FB16ACC11371D5F"
+        },
+        {
+          "locator": "Map/map_d_hgu_04.cxd::lz10::0001:map_d_hgu_04.bscr",
+          "line_index": 409,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-5FE2F2030978A9FFB5A6"
+        },
+        {
+          "locator": "Map/map_d_hgu_02.cxd::lz10::0001:map_d_hgu_02.bscr",
+          "line_index": 408,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-6DF61537F615C449489D"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-3D531480CEEA2DA051DA",
+      "batch": "batch_0062",
+      "source_text": "あらぁ、誰が誰の味方なのかって\nいうのは、あなたの台詞よね",
+      "before": "어머, 누가 누구 편이냐는 말은\n당신한테 돌려줘야겠네",
+      "after": "어머, 누가 누구 편이냐는 말은\n오히려 네가 할 소리 아닌가?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 434,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-CE7FAEFB15FFEB4A58F6"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 230,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-354528EF59711C4EAC28"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 170,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-754222E1487D9548AEF4"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-3F3A0D232C0336905010",
+      "batch": "batch_0028",
+      "source_text": "な、あんたならわかるだろ？",
+      "before": "저기, 당신이라면 알겠지?",
+      "after": "저기, 오이겐이라면 알겠지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_00_013.vol::0000:fc_00_013.bscr",
+          "line_index": 11,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-2E959067F51F60798A99"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-3FA9C979F214C94C07AD",
+      "batch": "batch_0050",
+      "source_text": "そうか？　よく分からないが\nあんたも異論がないなら\nベネトナーシュを目指そう",
+      "before": "그래? 잘 모르겠지만\n당신도 이견이 없다면\n베네트나슈로 가자",
+      "after": "그래? 잘 모르겠지만\n오이겐도 이견이 없다면\n베네트나슈로 가자",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 212,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-28E529D192E976815ED3"
+        },
+        {
+          "locator": "Map/map_d_kal_01.cxd::lz10::0001:map_d_kal_01.bscr",
+          "line_index": 88,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-1D139B2C33ECC4862589"
+        },
+        {
+          "locator": "Map/map_i_evt_09.cxd::lz10::0001:map_i_evt_09.bscr",
+          "line_index": 81,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-4AA8EF503BF696A3F523"
+        },
+        {
+          "locator": "Map/map_d_kal_00.cxd::lz10::0001:map_d_kal_00.bscr",
+          "line_index": 81,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-AD7E78EB4768DF72B3A9"
+        },
+        {
+          "locator": "Map/map_d_kal_02.cxd::lz10::0001:map_d_kal_02.bscr",
+          "line_index": 81,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-DEBC4861A56D9F82F37B"
+        },
+        {
+          "locator": "Map/map_d_kal_04.cxd::lz10::0001:map_d_kal_04.bscr",
+          "line_index": 83,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7FBF7F0A59324DD17C69"
+        },
+        {
+          "locator": "Map/map_d_kal_03.cxd::lz10::0001:map_d_kal_03.bscr",
+          "line_index": 81,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-D12D00109CD472793038"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-4281A2CE50C41063F7BF",
+      "batch": "batch_0048",
+      "source_text": "……あなた\n信じてるのね。彼らのこと",
+      "before": "……당신,\n그들을 믿고 있구나",
+      "after": "……넌\n그들을 믿고 있구나",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 177,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-F7E1FD50D7CCA46F628E"
+        },
+        {
+          "locator": "Map/map_d_ise_03.cxd::lz10::0001:map_d_ise_03.bscr",
+          "line_index": 100,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-FC96CC5689E987A012B1"
+        },
+        {
+          "locator": "Map/map_d_ise_01.cxd::lz10::0001:map_d_ise_01.bscr",
+          "line_index": 102,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-D98AEE97B8CA1EA07C66"
+        },
+        {
+          "locator": "Map/map_d_ise_00.cxd::lz10::0001:map_d_ise_00.bscr",
+          "line_index": 91,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-1ED5877D932EC0BAC010"
+        },
+        {
+          "locator": "Map/map_d_ise_02.cxd::lz10::0001:map_d_ise_02.bscr",
+          "line_index": 91,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-E68C6B4F585FE413BA89"
+        },
+        {
+          "locator": "Map/map_d_ise_05.cxd::lz10::0001:map_d_ise_05.bscr",
+          "line_index": 91,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-8CCA514E2AFA697AD02B"
+        },
+        {
+          "locator": "Map/map_i_evt_15.cxd::lz10::0001:map_i_evt_15.bscr",
+          "line_index": 90,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-96F50D27C0AED47A0D58"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-43007CB61C10D7A293C7",
+      "batch": "batch_0062",
+      "source_text": "前にあんたは、俺に\nアルスを止めてくれと言っていた",
+      "before": "전에 당신은 내게\n알스를 막아 달라고 했어",
+      "after": "전에 클라이드 장군이 내게\n알스를 막아 달라고 했어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tka_00.cxd::lz10::0001:map_d_tka_00.bscr",
+          "line_index": 599,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-5BC38668F7AFF7BCC895"
+        },
+        {
+          "locator": "Map/map_d_tka_03.cxd::lz10::0001:map_d_tka_03.bscr",
+          "line_index": 598,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-0280469956C4BBAA10E9"
+        },
+        {
+          "locator": "Map/map_d_tka_04.cxd::lz10::0001:map_d_tka_04.bscr",
+          "line_index": 11,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-DE616D916342ADE6D0B8"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-45005637AC1A2C09264D",
+      "batch": "batch_0056",
+      "source_text": "あんたは確か\nジャダで会った……",
+      "before": "당신은 분명\n자다에서 만난……",
+      "after": "그쪽은 분명\n자다에서 만난……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tou_03.cxd::lz10::0001:map_d_tou_03.bscr",
+          "line_index": 15,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-BC28955585278DAAA81E"
+        },
+        {
+          "locator": "Map/map_d_tou_02.cxd::lz10::0001:map_d_tou_02.bscr",
+          "line_index": 15,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-0A4E99E8B02D07E182D1"
+        },
+        {
+          "locator": "Map/map_d_tou_00.cxd::lz10::0001:map_d_tou_00.bscr",
+          "line_index": 16,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-108EB764C4674C88AA72"
+        },
+        {
+          "locator": "Map/map_d_tou_01.cxd::lz10::0001:map_d_tou_01.bscr",
+          "line_index": 15,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-775D48F751BD682273B7"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-46D36CCB97F23D054204",
+      "batch": "batch_0093",
+      "source_text": "何も言うなよ。\n俺はあなたに俺たちの未来をみせる。\nそれだけだ",
+      "before": "아무 말도 하지 마.\n나는 당신에게 우리의 미래를 보여 주겠다.\n그뿐이다",
+      "after": "아무 말도 하지 마.\n난 네게 우리의 미래를 보여 주겠다.\n그뿐이야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_08.cxd::lz10::0001:map_d_ext_08.bscr",
+          "line_index": 8,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C505821C085D7B4CE9AB"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-48A2ED2F780C1E66A22F",
+      "batch": "batch_0094",
+      "source_text": "ひとつ聞きたい。あなたは俺たちに\n色々なことを教えてくれた。\nどうして今更、こんなことを",
+      "before": "하나 묻고 싶다. 당신은 우리에게\n여러 가지를 가르쳐 주었다.\n그런데 왜 이제 와서 이런 짓을",
+      "after": "하나 묻고 싶어. 아를루는 우리에게\n여러 가지를 가르쳐 줬잖아.\n그런데 왜 이제 와서 이런 짓을",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_05.cxd::lz10::0001:map_d_koo_05.bscr",
+          "line_index": 4,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-F9AC2334FF563A3B1178"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-48F8A3374742F897A258",
+      "batch": "batch_0094",
+      "source_text": "……あんたは黙ってろ。\n話が先に進まないだろ",
+      "before": "……당신은 입 다물고 있어.\n얘기가 안 나가잖아",
+      "after": "……사쥬는 조용히 해.\n이야기가 안 나가잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_ebu_00.cxd::lz10::0001:map_t_ebu_00.bscr",
+          "line_index": 8,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-4652695096964F4A90A3"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-4A3B33E399D6ECF652A0",
+      "batch": "batch_0094",
+      "source_text": "――失礼、ミセス<$0C>あまり思い詰めますと\nあなたの美しいご尊顔が\n台無しになってしまいます",
+      "before": "――실례합니다, 부인<$0C>너무 깊이 고민하시면\n당신의 아름다운 용안이\n망가지고 맙니다",
+      "after": "――실례합니다, 부인<$0C>너무 깊이 고민하시면\n아름다운 용모가\n상하고 맙니다",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 8,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-D11CCEA65B9EBE5A3F5A"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-4B92A89B55A40F8B0A55",
+      "batch": "batch_0094",
+      "source_text": "誰がアニキだ！",
+      "before": "누가 형님임까!",
+      "after": "누가 형님이야!",
+      "category": "speaker_voice_template_bleed",
+      "reason": "Larc slot 00 incorrectly inherited Nicol's ~임까 ending.",
+      "multiparty_evidence": []
+    },
+    {
+      "tm_id": "ARF-TM-50634264E52E372F210F",
+      "batch": "batch_0096",
+      "source_text": "別にいいんじゃねぇの？\nあんたが直感的な奴の傍で\nそいつを支えてやればいいだろ",
+      "before": "딱히 상관없잖아?\n당신이 직감대로 움직이는 녀석 곁에서\n그 녀석을 받쳐 주면 되지",
+      "after": "딱히 상관없잖아?\n네가 직감대로 움직이는 녀석 곁에서\n그 녀석을 받쳐 주면 되지",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_jad_01.cxd::lz10::0001:map_t_jad_01.bscr",
+          "line_index": 11,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-2FC46356D884D06C46D6"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-540A1B2BC80AF5D66159",
+      "batch": "batch_0097",
+      "source_text": "あんた、元老院の議員なのか？\nどうして、わざわざこの街に？",
+      "before": "당신, 원로원 의원인가?\n왜 굳이 이 도시까지 왔지?",
+      "after": "원로원 의원이야?\n왜 굳이 이 도시까지 왔지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 26,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-4CCC38AA24B0B851FF28"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-55593BCE29AB95A44991",
+      "batch": "batch_0048",
+      "source_text": "私はあなたと行きたい。\nこの先にログレス・グラがいるのなら\n役に立てると思うから",
+      "before": "난 당신과 가고 싶어.\n이 앞에 로그레스 그라가 있다면\n도움이 될 것 같으니까",
+      "after": "난 너와 가고 싶어.\n이 앞에 로그레스 그라가 있다면\n도움이 될 것 같으니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 189,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-923B20D1936BFE6AFFB9"
+        },
+        {
+          "locator": "Map/map_d_ise_03.cxd::lz10::0001:map_d_ise_03.bscr",
+          "line_index": 112,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-82A02BDB25937779E53B"
+        },
+        {
+          "locator": "Map/map_d_ise_01.cxd::lz10::0001:map_d_ise_01.bscr",
+          "line_index": 114,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-2CA2FFA88AEFFFFE393D"
+        },
+        {
+          "locator": "Map/map_d_ise_00.cxd::lz10::0001:map_d_ise_00.bscr",
+          "line_index": 103,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-3B878BA87D17DA7A0546"
+        },
+        {
+          "locator": "Map/map_d_ise_02.cxd::lz10::0001:map_d_ise_02.bscr",
+          "line_index": 103,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-0C43766C77A2D40F4063"
+        },
+        {
+          "locator": "Map/map_d_ise_05.cxd::lz10::0001:map_d_ise_05.bscr",
+          "line_index": 103,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-022EE5E9C8AC94D40A8B"
+        },
+        {
+          "locator": "Map/map_i_evt_15.cxd::lz10::0001:map_i_evt_15.bscr",
+          "line_index": 102,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-6E4BF82AD8933C9DE807"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-55CF78B6373927C90CEB",
+      "batch": "batch_0097",
+      "source_text": "よ、アニキ！　無事で何よりだ",
+      "before": "여, 형님! 무사해서 다행임다",
+      "after": "여, 형님! 무사해서 다행이야",
+      "category": "speaker_voice_template_bleed",
+      "reason": "Sarju slot 02 incorrectly inherited Nicol's ~임다 ending.",
+      "multiparty_evidence": []
+    },
+    {
+      "tm_id": "ARF-TM-581484F70E0C3B20927D",
+      "batch": "batch_0048",
+      "source_text": "へぇ〜。ってことは、あんたも\nロードナイトの一員だった訳？",
+      "before": "오〜. 그럼 당신도\n로드 나이트의 일원이었던 거야?",
+      "after": "오〜. 그럼 너도\n로드 나이트의 일원이었던 거야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 212,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-7CC66D685AE594DDFDC7"
+        },
+        {
+          "locator": "Map/map_d_ise_03.cxd::lz10::0001:map_d_ise_03.bscr",
+          "line_index": 135,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-C52839D17BCB0E860B94"
+        },
+        {
+          "locator": "Map/map_d_ise_01.cxd::lz10::0001:map_d_ise_01.bscr",
+          "line_index": 137,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-4BAFD8C66FC6057494C0"
+        },
+        {
+          "locator": "Map/map_d_ise_00.cxd::lz10::0001:map_d_ise_00.bscr",
+          "line_index": 126,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-39F99C90EBFE6FE12C8E"
+        },
+        {
+          "locator": "Map/map_d_ise_02.cxd::lz10::0001:map_d_ise_02.bscr",
+          "line_index": 126,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-5458322F6A4915D57FFA"
+        },
+        {
+          "locator": "Map/map_d_ise_05.cxd::lz10::0001:map_d_ise_05.bscr",
+          "line_index": 126,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-E64C812A8F93CD4E3CC9"
+        },
+        {
+          "locator": "Map/map_i_evt_15.cxd::lz10::0001:map_i_evt_15.bscr",
+          "line_index": 125,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-6007DD78D8332495233B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-59934DC799AF2C20B7D2",
+      "batch": "batch_0056",
+      "source_text": "……まあ！\nあなた、ウォルターね？",
+      "before": "……어머!\n당신, 월터구나?",
+      "after": "……어머!\n월터였구나?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 145,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-FB41FCE19B92D1071BE1"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 126,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-E0D2912AFAD38DA7E44C"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 120,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-5FCE18A7CE233F1D2B2C"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 117,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-32CF7BCC797C51A7BFF9"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-5E0AE8FEFC7EE751ECB4",
+      "batch": "batch_0099",
+      "source_text": "……さ、あなたもどうぞ。\nそれとも、残るのかしら",
+      "before": "……자, 당신도 가세요.\n아니면 남을 건가요?",
+      "after": "……자, 사쥬도 들어와.\n아니면 남을 거야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_adz_01.cxd::lz10::0001:map_d_adz_01.bscr",
+          "line_index": 50,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-DBE50BF07F84C4AC3BA5"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-5F0C0E4C2A9569FCBF41",
+      "batch": "batch_0099",
+      "source_text": "アデールの言う通りよ。\nあなたはやっと巡り会えた\nイーサの子。無茶はしないで……",
+      "before": "아델 말이 맞아.\n당신은 이제야 만난\n이사의 아이야. 무리하지 마……",
+      "after": "아델 말이 맞아.\n넌 이제야 만난\n이사의 아이야. 무리하지 마……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_18.cxd::lz10::0001:map_i_evt_18.bscr",
+          "line_index": 33,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D67D6F6FEB5E2A94A403"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-5F2A2D248BB313A9FDBE",
+      "batch": "batch_0057",
+      "source_text": "あなたが無事でよかったわ",
+      "before": "당신이 무사해서 다행이야",
+      "after": "월터가 무사해서 다행이야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 146,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-71058BE7289445411938"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 127,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-B7105EB4317DD4E42FF6"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 121,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-A363C8FEE70E06005249"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 118,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-AF79460E31DE0C27046F"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-6060638BCC1DB94DB668",
+      "batch": "batch_0100",
+      "source_text": "あんたに荷物を届けるよう\n言われたんだ<$0C>だいぶあせった様子で\n荷物を渡されたんだが……",
+      "before": "당신에게 짐을 전하라는\n부탁을 받았어<$0C>상당히 초조해 보이는 모습으로\n짐을 건네주던데……",
+      "after": "짐을 전해 달라는\n부탁을 받았어<$0C>상당히 초조해 보이면서\n짐을 건네주더군……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_yuk_01.cxd::lz10::0001:map_t_yuk_01.bscr",
+          "line_index": 219,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-0C22A5EA9B99C222F4BE"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-6120A10D84D96279FFA2",
+      "batch": "batch_0057",
+      "source_text": "だって、あなたは……イーサの子は\n本当にいたんですもの",
+      "before": "그도 그럴 게…… 이사의 아이인 당신이\n정말로 존재했으니까",
+      "after": "그도 그럴 게…… 이사의 아이가\n정말로 존재했으니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 103,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D2E7811BBBF6033BA9D2"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 84,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-406497ADBA60BD8B474F"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 78,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-DF08EB76B5E94DF8C562"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 75,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-1E22C11EE76EAF41EA2A"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-61615DA86CA0B61C12AA",
+      "batch": "batch_0100",
+      "source_text": "あなたには関係のない\n世界の話よ、気にしちゃダメ",
+      "before": "당신과는 상관없는\n세계의 이야기야, 신경 쓰면 안 돼",
+      "after": "너와는 상관없는\n세계 얘기야. 신경 쓰지 마",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 24,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-A9C1AECF8BBB94D1ED8A"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-6516E6A2986F09BB51B2",
+      "batch": "batch_0072",
+      "source_text": "私もあなたと戦いたいわ",
+      "before": "나도 당신과 싸우고 싶어",
+      "after": "나도 너와 싸우고 싶어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_hnk_00.cxd::lz10::0001:map_d_hnk_00.bscr",
+          "line_index": 4,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-024C25E1C9F2E4C1C81B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-69357D828013EECBE471",
+      "batch": "batch_0102",
+      "source_text": "……あ、ああ……\nそうだな。\nところであなたの名前は……",
+      "before": "……아, 그래……\n그렇군.\n그런데 당신 이름은……",
+      "after": "……아, 그래……\n그렇군.\n그런데 성함이……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 228,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-80E9674373A7B9C8055B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-6951E60D70FDE41B2402",
+      "batch": "batch_0102",
+      "source_text": "大体アンタが\nきょろきょろしてるから\nこの人にぶつかったんでしょ",
+      "before": "애초에 당신이\n두리번거리니까\n이 사람과 부딪친 거잖아",
+      "after": "애초에 네가\n두리번거리다가\n이 사람과 부딪친 거잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_ebu_00.cxd::lz10::0001:map_t_ebu_00.bscr",
+          "line_index": 38,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-BF3C265B989025AACF78"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-6D9899EBD559582859E8",
+      "batch": "batch_0103",
+      "source_text": "あなたは……",
+      "before": "당신은……",
+      "after": "넌……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_07.cxd::lz10::0001:map_d_ext_07.bscr",
+          "line_index": 53,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-F42718970172B79E3A40"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-6DA009909515F48C40DB",
+      "batch": "batch_0072",
+      "source_text": "そうだ。俺はログレスと――\nあんたと契約しなけりゃ\nならないらしい",
+      "before": "그래. 난 로그레스와――\n당신과 계약을\n맺어야 하나 봐",
+      "after": "그래. 난 로그레스와――\n너와 계약을\n맺어야 하나 봐",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 308,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-0E7AC6309C9C624DEB51"
+        },
+        {
+          "locator": "Map/map_i_evt_08.cxd::lz10::0001:map_i_evt_08.bscr",
+          "line_index": 34,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-BF7A7580CA626E19B6F2"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-726ABB16FD33BDC3C442",
+      "batch": "batch_0032",
+      "source_text": "あなたの知っていることを\n話してくれませんか",
+      "before": "당신이 아는 걸\n말해 주시겠습니까",
+      "after": "알고 있는 걸\n말해 주시겠습니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_02_003.vol::0000:fc_02_003.bscr",
+          "line_index": 5,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-38B5DA752E58E4A20997"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7424C82ED366B7F8606E",
+      "batch": "batch_0057",
+      "source_text": "私の後悔があなたなの？",
+      "before": "내 후회가 당신이야?",
+      "after": "내 후회가 너야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_hki_00.cxd::lz10::0001:map_t_hki_00.bscr",
+          "line_index": 25,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-AE116039FFC72A80C613"
+        },
+        {
+          "locator": "Map/map_t_hki_01.cxd::lz10::0001:map_t_hki_01.bscr",
+          "line_index": 34,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-492EFDB133F21D083B30"
+        },
+        {
+          "locator": "Map/map_d_hnb_00.cxd::lz10::0001:map_d_hnb_00.bscr",
+          "line_index": 25,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D2CF51CA290B33B80C60"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7480AB85DA00F02B2D7D",
+      "batch": "batch_0064",
+      "source_text": "ソアラさん！\nあなたは何者なんですか！",
+      "before": "소아라 씨!\n당신은 대체 누구죠!",
+      "after": "소아라 씨!\n대체 누구세요!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_01.cxd::lz10::0001:map_t_dia_01.bscr",
+          "line_index": 325,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-5B142D9508DCCF51096F"
+        },
+        {
+          "locator": "Map/map_t_dia_05.cxd::lz10::0001:map_t_dia_05.bscr",
+          "line_index": 383,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-10EA1A9D7C23EB79FA47"
+        },
+        {
+          "locator": "Map/map_d_des_00.cxd::lz10::0001:map_d_des_00.bscr",
+          "line_index": 137,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-134832604B75BB76EB86"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7710EE55137603039759",
+      "batch": "batch_0106",
+      "source_text": "あなたはこの場所のことを\n知っているんですね",
+      "before": "당신은 이곳을\n알고 있군요",
+      "after": "이곳을\n알고 계시는군요",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_00.cxd::lz10::0001:map_d_ext_00.bscr",
+          "line_index": 16,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-477FA0BD79E7069E150D"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7817D119B35E599DFD4E",
+      "batch": "batch_0072",
+      "source_text": "あ！　あんた\n村長に頼まれた医者か？",
+      "before": "아! 당신\n촌장이 부탁한 의사인가?",
+      "after": "아! 촌장이 부탁한\n의사 맞지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_tpa_00.cxd::lz10::0001:map_t_tpa_00.bscr",
+          "line_index": 80,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-B904D2AC9AF55821D01A"
+        },
+        {
+          "locator": "Map/map_i_evt_01.cxd::lz10::0001:map_i_evt_01.bscr",
+          "line_index": 57,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-EB48DBBA5A1831303A1F"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7F3FD401ED2795592FE2",
+      "batch": "batch_0033",
+      "source_text": "おっと。\nあんたまで着替えるとか\n言い出さないでくれよ",
+      "before": "어이쿠.\n당신까지 갈아입겠다고\n하지는 마",
+      "after": "어이쿠.\n오이겐까지 갈아입겠다고\n하진 마",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_00_017.vol::0000:fc_00_017.bscr",
+          "line_index": 4,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-398F3EB08F4C8B6296B0"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-7F48F205C72D8CFAB5AD",
+      "batch": "batch_0057",
+      "source_text": "お、おい、あんた……\nいや、あなたが\nレオンなんですか？",
+      "before": "저, 저기, 당신……\n아니, 당신이\n레온입니까?",
+      "after": "저, 저기……\n아니, 레온 님이십니까?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tou_03.cxd::lz10::0001:map_d_tou_03.bscr",
+          "line_index": 18,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-147A170A7505BDC5F124"
+        },
+        {
+          "locator": "Map/map_d_tou_02.cxd::lz10::0001:map_d_tou_02.bscr",
+          "line_index": 18,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-375429FB8893E6BC00D9"
+        },
+        {
+          "locator": "Map/map_d_tou_00.cxd::lz10::0001:map_d_tou_00.bscr",
+          "line_index": 19,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7C78B95B68B7ACE0D2A1"
+        },
+        {
+          "locator": "Map/map_d_tou_01.cxd::lz10::0001:map_d_tou_01.bscr",
+          "line_index": 18,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-35A3FE14EB6D0BD38C51"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-8033DE03582933B68F69",
+      "batch": "batch_0057",
+      "source_text": "あなたの言う『確証』には\nならないかも知れないけれど\nひとつだけ確かなことがあるわ",
+      "before": "당신이 말한 『확증』이\n되지는 않을지도 모르지만\n한 가지 확실한 게 있어",
+      "after": "네가 말한 『확증』이\n되지는 않을지도 모르지만\n한 가지 확실한 게 있어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 84,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-A74038B0CCC9D9B5162A"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 65,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-30C5EE84DB614770536E"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 59,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-BE7E7363A544433AFE12"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 56,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-38B9971DFAF54853FF54"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-82FEE5A1501230635D46",
+      "batch": "batch_0109",
+      "source_text": "……ここであんたを殺せば\n今度は俺があんたの家族の\n仇になる",
+      "before": "……여기서 당신을 죽이면\n이번에는 내가 당신 가족의\n원수가 돼",
+      "after": "……여기서 널 죽이면\n이번에는 내가 네 가족의\n원수가 돼",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 118,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C498A15E1435DB769818"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-8337D606A8698F14FD44",
+      "batch": "batch_0033",
+      "source_text": "こりないね、あんたたちって。\nそんなだから女難の相\nありありなんじゃん？",
+      "before": "정신을 못 차리네, 당신들은.\n그러니까 여자 때문에 고생할 팔자가\n훤히 보이는 거 아니야?",
+      "after": "정신을 못 차리네, 너희들.\n그러니까 여자 때문에 고생할 팔자가\n훤히 보이는 거 아니야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_06_018.vol::0000:fc_06_018.bscr",
+          "line_index": 2,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-871EDFA9B899176ABC33"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-8656AA5B1F26EFEB9C1F",
+      "batch": "batch_0033",
+      "source_text": "あんたが若い頃っていうと\n大昔の話っスよね？",
+      "before": "당신이 젊었을 때면\n아주 먼 옛날 이야기죠?",
+      "after": "오이겐이 젊었을 때면\n아주 먼 옛날 이야기겠슴다?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_05_012.vol::0000:fc_05_012.bscr",
+          "line_index": 7,
+          "speaker_slot": "08",
+          "occurrence_id": "ARF-6CB5E1BB4698DDECFF12"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-8C9283263EF68351EB9D",
+      "batch": "batch_0065",
+      "source_text": "いえいえ、ミニマムレディ。\nあなたほどの美女を前にして\n他の女の話など……",
+      "before": "아닙니다, 꼬마 아가씨.\n당신 같은 미녀를 앞에 두고\n다른 여자 이야기를 하다니……",
+      "after": "아닙니다, 꼬마 아가씨.\n아가씨 같은 미녀를 앞에 두고\n다른 여자 이야기를 하다니……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_03.cxd::lz10::0001:map_d_koo_03.bscr",
+          "line_index": 13,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-ECB284E5AE5F24510528"
+        },
+        {
+          "locator": "Map/map_d_koo_02.cxd::lz10::0001:map_d_koo_02.bscr",
+          "line_index": 8,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-DB88F3B7829DB1FA4D00"
+        },
+        {
+          "locator": "Map/map_d_koo_00.cxd::lz10::0001:map_d_koo_00.bscr",
+          "line_index": 7,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-5D2778673474B28BA9FF"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9209A73F130CA7640F90",
+      "batch": "batch_0057",
+      "source_text": "あなた\n私の好きな人に似てるわ",
+      "before": "당신\n내가 좋아하는 사람과 닮았어",
+      "after": "그쪽은\n내가 좋아하는 사람과 닮았어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_hki_00.cxd::lz10::0001:map_t_hki_00.bscr",
+          "line_index": 15,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-BF3BEA24532CCFA7A373"
+        },
+        {
+          "locator": "Map/map_t_hki_01.cxd::lz10::0001:map_t_hki_01.bscr",
+          "line_index": 24,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D6EB296DF1529BBB5689"
+        },
+        {
+          "locator": "Map/map_d_hnb_00.cxd::lz10::0001:map_d_hnb_00.bscr",
+          "line_index": 15,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-F66BE6EC10AFE36A6B57"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-946B2A8EAA214003FFD6",
+      "batch": "batch_0113",
+      "source_text": "あんたは何者なんだ？",
+      "before": "당신은 누구지?",
+      "after": "정체가 뭐야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_adz_01.cxd::lz10::0001:map_d_adz_01.bscr",
+          "line_index": 41,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-F07CB539FA1342F9AD3C"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-946BC49D6109A4D49512",
+      "batch": "batch_0113",
+      "source_text": "クドアンヌ。何故あんたは\n自分を愚か者だなんて言うんだ<$0C>仮に歌う石を神に定めたのが\nあなただとしても\n強制した訳じゃないんだろ",
+      "before": "쿠도안느. 왜 당신은\n자신을 바보라고 하는 거지?<$0C>설령 노래하는 돌을 신으로 정한 게\n당신이라 해도\n강요한 건 아니잖아",
+      "after": "쿠도안느. 왜 스스로를\n바보라고 하는 거야?<$0C>설령 노래하는 돌을 신으로 정한 게\n너라고 해도\n강요한 건 아니잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_cb7_00.cxd::lz10::0001:map_t_cb7_00.bscr",
+          "line_index": 20,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-3874F6A3A400A6062B52"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9697B7683F51BA4ACDB2",
+      "batch": "batch_0049",
+      "source_text": "あんたたちも\n狙われたのかもしれないな",
+      "before": "당신들도\n표적이 됐을지 몰라",
+      "after": "너희도\n표적이 됐을지 몰라",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_04.cxd::lz10::0001:map_t_dia_04.bscr",
+          "line_index": 20,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-BF5D6D57B4CD87EC29CB"
+        },
+        {
+          "locator": "Map/map_t_dia_01.cxd::lz10::0001:map_t_dia_01.bscr",
+          "line_index": 55,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-D3B2EE5FEF29F93DBA78"
+        },
+        {
+          "locator": "Map/map_i_evt_05.cxd::lz10::0001:map_i_evt_05.bscr",
+          "line_index": 10,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-4318AB84AE0FF70601C3"
+        },
+        {
+          "locator": "Map/map_t_dia_05.cxd::lz10::0001:map_t_dia_05.bscr",
+          "line_index": 11,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-44D3E94F9D97D0DE5101"
+        },
+        {
+          "locator": "Map/map_t_dia_03.cxd::lz10::0001:map_t_dia_03.bscr",
+          "line_index": 13,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-430355823948F0ABEBDE"
+        },
+        {
+          "locator": "Map/map_i_evt_04.cxd::lz10::0001:map_i_evt_04.bscr",
+          "line_index": 17,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-F5A2E348145BB46EA41E"
+        },
+        {
+          "locator": "Map/map_i_evt_03.cxd::lz10::0001:map_i_evt_03.bscr",
+          "line_index": 11,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-FCF8E7E57B0587D400EE"
+        },
+        {
+          "locator": "Map/map_d_des_02.cxd::lz10::0001:map_d_des_02.bscr",
+          "line_index": 9,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-43CD26E32F1997B85181"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-97B651A4A2CA85B731A2",
+      "batch": "batch_0065",
+      "source_text": "驚いたわ、クライド。\nあなたなら今のアルスのやり方に\n反発しているかと思ったけど",
+      "before": "놀랐어, 클라이드.\n당신이라면 지금 알스의 방식에\n반발할 줄 알았는데",
+      "after": "놀랐어, 클라이드.\n클라이드라면 지금 알스의 방식에\n반발할 줄 알았는데",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tka_00.cxd::lz10::0001:map_d_tka_00.bscr",
+          "line_index": 598,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-92DE7E5CBDCB273583A7"
+        },
+        {
+          "locator": "Map/map_d_tka_03.cxd::lz10::0001:map_d_tka_03.bscr",
+          "line_index": 597,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-601697047A704F9CE9A0"
+        },
+        {
+          "locator": "Map/map_d_tka_04.cxd::lz10::0001:map_d_tka_04.bscr",
+          "line_index": 10,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-B929540F81BB0B5DAF0B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-99457F7845D76B3EE63A",
+      "batch": "batch_0058",
+      "source_text": "アイオーン隊？　あなたが？",
+      "before": "아이온대? 당신이?",
+      "after": "아이온대? 그쪽이?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 29,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-33E3F4E87F7CF3304BE3"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 10,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-77119530AA644975912F"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 4,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-141EB186B9360941AABD"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 1,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-43D42BA0ED5B3CB00CFC"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-99B7A285C89DB6550DAB",
+      "batch": "batch_0115",
+      "source_text": "あんた、さっきの……",
+      "before": "당신, 아까 그……",
+      "after": "저기, 아까 그건……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_sba_00.cxd::lz10::0001:map_t_sba_00.bscr",
+          "line_index": 34,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C53BD27A588BB8546421"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9A8AD02F3DC511504522",
+      "batch": "batch_0049",
+      "source_text": "あんたなら分かってるだろうよ",
+      "before": "당신이라면 알고 있잖아",
+      "after": "너라면 알고 있잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 162,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-0FFB03BA65DF8CF2731C"
+        },
+        {
+          "locator": "Map/map_d_ise_03.cxd::lz10::0001:map_d_ise_03.bscr",
+          "line_index": 85,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-991F0D0453158FDA9315"
+        },
+        {
+          "locator": "Map/map_d_ise_01.cxd::lz10::0001:map_d_ise_01.bscr",
+          "line_index": 87,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-1587936D2811B86DB1A2"
+        },
+        {
+          "locator": "Map/map_d_ise_00.cxd::lz10::0001:map_d_ise_00.bscr",
+          "line_index": 76,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-D35C0E9221D2D074C229"
+        },
+        {
+          "locator": "Map/map_d_ise_02.cxd::lz10::0001:map_d_ise_02.bscr",
+          "line_index": 76,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-22466B26D5C82890E01C"
+        },
+        {
+          "locator": "Map/map_d_ise_05.cxd::lz10::0001:map_d_ise_05.bscr",
+          "line_index": 76,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-ED7878C37AEC5AFD9E0D"
+        },
+        {
+          "locator": "Map/map_i_evt_15.cxd::lz10::0001:map_i_evt_15.bscr",
+          "line_index": 75,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-9428390ADF685F805675"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9B477FF9BE0067F6E760",
+      "batch": "batch_0115",
+      "source_text": "だったら……俺はあんたを\n生かし続ける",
+      "before": "그렇다면…… 난 당신을\n계속 살려 둘 거야",
+      "after": "그렇다면…… 난 널\n계속 살려 둘 거야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 119,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C19426DB85DE3EF50526"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9DBADE7540B4D0EF5801",
+      "batch": "batch_0051",
+      "source_text": "ラルク……\nあなたの首を私に頂戴！",
+      "before": "라르크……\n당신의 목을 내놔!",
+      "after": "라르크……\n네 목을 내놔!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_hgu_00.cxd::lz10::0001:map_d_hgu_00.bscr",
+          "line_index": 389,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-165373BAF8DC294E48FC"
+        },
+        {
+          "locator": "Map/map_d_hgu_05.cxd::lz10::0001:map_d_hgu_05.bscr",
+          "line_index": 388,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-A9CA24DA3AC011E48386"
+        },
+        {
+          "locator": "Map/map_d_hgu_01.cxd::lz10::0001:map_d_hgu_01.bscr",
+          "line_index": 389,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-C51C2303427600016CBB"
+        },
+        {
+          "locator": "Map/map_d_hgu_04.cxd::lz10::0001:map_d_hgu_04.bscr",
+          "line_index": 389,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-DA83EE4AB88347797F69"
+        },
+        {
+          "locator": "Map/map_d_hgu_02.cxd::lz10::0001:map_d_hgu_02.bscr",
+          "line_index": 388,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-D4E092EA0BFDA2AA2ED4"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9DF266200BD57F914CF3",
+      "batch": "batch_0065",
+      "source_text": "オイゲン。あなた\nダグラス卿暗殺事件について\n何か知っているんじゃない？",
+      "before": "오이겐. 당신\n더글러스 경 암살 사건에 관해\n뭔가 알고 있지?",
+      "after": "오이겐. 더글러스 경 암살 사건에 관해\n뭔가 알고 있지 않나요?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_yuk_01.cxd::lz10::0001:map_t_yuk_01.bscr",
+          "line_index": 213,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-E863D629845DAA7485AF"
+        },
+        {
+          "locator": "Map/map_t_yuk_00.cxd::lz10::0001:map_t_yuk_00.bscr",
+          "line_index": 208,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-0EE3AD5692C08B7AEC3B"
+        },
+        {
+          "locator": "Map/map_i_evt_16.cxd::lz10::0001:map_i_evt_16.bscr",
+          "line_index": 205,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-17438DD4404AAE749DFC"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-9F0E0062F9DE486D313E",
+      "batch": "batch_0058",
+      "source_text": "あ、ああ……あんたは？",
+      "before": "아, 아아…… 당신은?",
+      "after": "아, 아아…… 그쪽은?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 42,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-E67784C062CACCA81801"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 23,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-CA47D36DF5163F5C6CCA"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 17,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-30B8CF54F3B49A766402"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 14,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-5A6135FAA885D43570D5"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A00E7A1FCCC3D88AED38",
+      "batch": "batch_0116",
+      "source_text": "あら、あなたたちまで？\n嬉しいナ。お姉さんたら\nこのあたりがきゅんとしちゃった",
+      "before": "어머, 당신들까지?\n기쁘네. 언니는\n가슴이 두근거렸어",
+      "after": "어머, 너희까지?\n기쁘네. 언니는\n가슴이 두근거렸어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tou_03.cxd::lz10::0001:map_d_tou_03.bscr",
+          "line_index": 127,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-3FEDA74ED51CF54AC619"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A07DEE528B7FE5D15AD3",
+      "batch": "batch_0058",
+      "source_text": "俺たちがカルブンクルスに来る\n少し前だ。あんたに……\nいや、レオンに",
+      "before": "우리가 카르분클루스에 오기\n조금 전이야. 당신에게……\n아니, 레온에게",
+      "after": "우리가 카르분클루스에 오기\n조금 전이야. 네게……\n아니, 레온에게",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 156,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-D437CF5C7D0D4250FF1A"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 137,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-F21FF8F51B0863E79849"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 131,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-4B2ACC996018EB00C4C7"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 128,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-E1C3DC853E0658F9C4D0"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A115678338C50A26F4E2",
+      "batch": "batch_0066",
+      "source_text": "それに議長からもあなたたちから\n目を離すなと言われているし♪",
+      "before": "게다가 의장에게도 당신들에게서\n눈을 떼지 말라는 말을 들었고♪",
+      "after": "게다가 의장에게도 너희에게서\n눈을 떼지 말라는 말을 들었고♪",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 437,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-63548595A0901C7982FE"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 233,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-D38EB1E88AC274843C49"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 173,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-5A736CEC7841FF4FD447"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A1B4D59507779707DD8C",
+      "batch": "batch_0073",
+      "source_text": "でも今回の進軍に\nあなたはなんの関わりも……",
+      "before": "하지만 이번 진군에\n당신은 아무 관련도……",
+      "after": "하지만 이번 진군에\n넌 아무 관련도……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_orb_00.cxd::lz10::0001:map_t_orb_00.bscr",
+          "line_index": 47,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-6088C1A24E48A916F95F"
+        },
+        {
+          "locator": "Map/map_t_orb_03.cxd::lz10::0001:map_t_orb_03.bscr",
+          "line_index": 14,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-5D10975187E850448C45"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A23CDA3E0D737FAA7C3E",
+      "batch": "batch_0145",
+      "source_text": "あなた、誰？",
+      "before": "당신, 누구야?",
+      "after": "그쪽은 누구야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_hki_00.cxd::lz10::0001:map_t_hki_00.bscr",
+          "line_index": 12,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-1E1315CE6C5DB27F17D9"
+        },
+        {
+          "locator": "Map/map_t_hki_01.cxd::lz10::0001:map_t_hki_01.bscr",
+          "line_index": 21,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-1FD91E6062D9FF25C666"
+        },
+        {
+          "locator": "Map/map_d_hnb_00.cxd::lz10::0001:map_d_hnb_00.bscr",
+          "line_index": 12,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-9E8B9FE7BF39FB6B21BA"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A5F53750DBF808C3AFD1",
+      "batch": "batch_0066",
+      "source_text": "あなたは私が欲しかった物を\nずっと独り占めしてるのよ！",
+      "before": "당신은 내가 원하던 걸\n계속 독차지하고 있어!",
+      "after": "넌 내가 원하던 걸\n계속 독차지하고 있어!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 386,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-3E470954869C3B9A9FC3"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 182,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-664EDCC92E3E495636DE"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 122,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-2DA044565C660C9D7F48"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A6B2881D049AA3A65678",
+      "batch": "batch_0118",
+      "source_text": "<$19>00、あなたは行きたいの？",
+      "before": "<$19>00, 당신은 가고 싶어?",
+      "after": "<$19>00, 넌 가고 싶어?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_cb2_00.cxd::lz10::0001:map_t_cb2_00.bscr",
+          "line_index": 19,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-24276C13626D709F41E5"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A747F61CF1524F4B87FA",
+      "batch": "batch_0074",
+      "source_text": "ラルクが行くなら\n私もついていくわ。あなたは\n私を選んでくれたんですもの",
+      "before": "라르크가 간다면\n나도 따라갈게. 당신이\n날 선택해 줬으니까",
+      "after": "라르크가 간다면\n나도 따라갈게. 네가\n날 선택해 줬으니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_jad_01.cxd::lz10::0001:map_t_jad_01.bscr",
+          "line_index": 171,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-89269C53F7C5920A58CA"
+        },
+        {
+          "locator": "Map/map_i_evt_02.cxd::lz10::0001:map_i_evt_02.bscr",
+          "line_index": 153,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-0C8AC23ED88133BB9BC9"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-A76A8B89DF5D0337D6D6",
+      "batch": "batch_0118",
+      "source_text": "ここはあなたの勘を\n信じるわ、勇者様",
+      "before": "여기서는 당신의 감을\n믿을게요, 용사님",
+      "after": "여기서는 용사님의 감을\n믿을게요",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_00.cxd::lz10::0001:map_d_ext_00.bscr",
+          "line_index": 4,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-A7DC073D3A0261838D9F"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-AB26A8A303F1CB5BB75D",
+      "batch": "batch_0052",
+      "source_text": "全てを持ってたのは\nあんたでしょ！",
+      "before": "모든 걸 가졌던 건\n당신이잖아!",
+      "after": "모든 걸 가졌던 건\n너잖아!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 363,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-22F1486D8862B45C9636"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 344,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-6BD0D82C197098259E80"
+        },
+        {
+          "locator": "Map/map_t_bat_02.cxd::lz10::0001:map_t_bat_02.bscr",
+          "line_index": 57,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-E50C5024A1926E5169BC"
+        },
+        {
+          "locator": "Map/map_t_bat_00.cxd::lz10::0001:map_t_bat_00.bscr",
+          "line_index": 55,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-BEF117307C0BF0F0F309"
+        },
+        {
+          "locator": "Map/map_i_evt_26.cxd::lz10::0001:map_i_evt_26.bscr",
+          "line_index": 52,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-90C63D3A49D670EC4035"
+        },
+        {
+          "locator": "Map/map_i_evt_14.cxd::lz10::0001:map_i_evt_14.bscr",
+          "line_index": 28,
+          "speaker_slot": "04",
+          "occurrence_id": "ARF-5B7000C7337A98F2C90C"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-ABA0CF87A2A9A36A9A00",
+      "batch": "batch_0049",
+      "source_text": "そしてあなたに――\nラルクに出会ったわ",
+      "before": "그리고 당신을――\n라르크를 만났어",
+      "after": "그리고 너를――\n라르크를 만났어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_04.cxd::lz10::0001:map_t_dia_04.bscr",
+          "line_index": 169,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-427F22BEA3CF378E2B20"
+        },
+        {
+          "locator": "Map/map_t_dia_01.cxd::lz10::0001:map_t_dia_01.bscr",
+          "line_index": 204,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-9F71550B6FBCFE33EE44"
+        },
+        {
+          "locator": "Map/map_i_evt_05.cxd::lz10::0001:map_i_evt_05.bscr",
+          "line_index": 159,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-127596A16BC1BC643C3B"
+        },
+        {
+          "locator": "Map/map_t_dia_05.cxd::lz10::0001:map_t_dia_05.bscr",
+          "line_index": 160,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-55ADD005B2E2DFA06B54"
+        },
+        {
+          "locator": "Map/map_t_dia_03.cxd::lz10::0001:map_t_dia_03.bscr",
+          "line_index": 162,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-676CC845D99E8D25AC05"
+        },
+        {
+          "locator": "Map/map_i_evt_04.cxd::lz10::0001:map_i_evt_04.bscr",
+          "line_index": 166,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-7469D9EA88FBA4DF44AC"
+        },
+        {
+          "locator": "Map/map_i_evt_03.cxd::lz10::0001:map_i_evt_03.bscr",
+          "line_index": 160,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-2DC26AACE0B59CFDB4BE"
+        },
+        {
+          "locator": "Map/map_d_des_02.cxd::lz10::0001:map_d_des_02.bscr",
+          "line_index": 158,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-0F9824C76E4C3EAE2CC2"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-ADD29CC9CDFBC0ED5309",
+      "batch": "batch_0050",
+      "source_text": "あ、あんたは……！",
+      "before": "다, 당신은……!",
+      "after": "아, 레온……!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 160,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-D36A67D4A10EED2F2B8B"
+        },
+        {
+          "locator": "Map/map_d_kal_01.cxd::lz10::0001:map_d_kal_01.bscr",
+          "line_index": 36,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-9369FCEA7EB4029F6661"
+        },
+        {
+          "locator": "Map/map_i_evt_09.cxd::lz10::0001:map_i_evt_09.bscr",
+          "line_index": 29,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-A917516E92FAD5375DDC"
+        },
+        {
+          "locator": "Map/map_d_kal_00.cxd::lz10::0001:map_d_kal_00.bscr",
+          "line_index": 29,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-F0CED26B5F2254035143"
+        },
+        {
+          "locator": "Map/map_d_kal_02.cxd::lz10::0001:map_d_kal_02.bscr",
+          "line_index": 29,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-97BC904CA7F85ACCE75F"
+        },
+        {
+          "locator": "Map/map_d_kal_04.cxd::lz10::0001:map_d_kal_04.bscr",
+          "line_index": 31,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-CAE3716FD4BF52DF0F88"
+        },
+        {
+          "locator": "Map/map_d_kal_03.cxd::lz10::0001:map_d_kal_03.bscr",
+          "line_index": 29,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-FD63F85D396DCA2ACF7E"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-AEB1C0B29F1AFE7D4601",
+      "batch": "batch_0120",
+      "source_text": "この俺様が飛光艇を降りるのに\n何も施さない訳ないっしょ",
+      "before": "이 몸이 비광정을 떠나면서\n아무 조치도 안 해 둘 리 없잖슴까",
+      "after": "이 몸이 비광정을 떠나면서\n아무 조치도 안 해 뒀을 리 없잖아",
+      "category": "speaker_voice_template_bleed",
+      "reason": "Sarju slot 02 incorrectly inherited Nicol's ~잖슴까 ending.",
+      "multiparty_evidence": []
+    },
+    {
+      "tm_id": "ARF-TM-AF2A2291CCCBA057BD36",
+      "batch": "batch_0066",
+      "source_text": "あなたはお父様の……\nシムマフの記憶の中に現れた女性に\nうりふたつです。あなたは一体……",
+      "before": "당신은 아버님의……\n심마프의 기억 속에 나타난 여성과\n쏙 빼닮았습니다. 당신은 대체……",
+      "after": "소아라 씨는 아버님의……\n심마프의 기억 속에 나타난 여성과\n쏙 빼닮았습니다. 대체 누구시죠……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_01.cxd::lz10::0001:map_t_dia_01.bscr",
+          "line_index": 320,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-28E2148E736E4CD00C74"
+        },
+        {
+          "locator": "Map/map_t_dia_05.cxd::lz10::0001:map_t_dia_05.bscr",
+          "line_index": 378,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-941C041C3BBEEBE44D0E"
+        },
+        {
+          "locator": "Map/map_d_des_00.cxd::lz10::0001:map_d_des_00.bscr",
+          "line_index": 132,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-2D78DD8248117E262588"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-AFD8158B7DD14DCE10D6",
+      "batch": "batch_0120",
+      "source_text": "ああ。あんたのおかげだ。\nありがとう、グランツさん",
+      "before": "그래. 당신 덕분이야.\n고마워, 그란츠 씨",
+      "after": "그래. 그란츠 씨 덕분이야.\n고마워",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 133,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C8BC47F4F78815812CE3"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-B12EC3B6E0D63B5A9EFA",
+      "batch": "batch_0058",
+      "source_text": "じーさんを知ってるのか？\nだとしたらやっぱりあなたは……",
+      "before": "할아버지를 알아?\n그렇다면 역시 당신은……",
+      "after": "할아버지를 알아?\n그렇다면 역시 레온이……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tou_03.cxd::lz10::0001:map_d_tou_03.bscr",
+          "line_index": 26,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-A18F0B2F8A4D9073131F"
+        },
+        {
+          "locator": "Map/map_d_tou_02.cxd::lz10::0001:map_d_tou_02.bscr",
+          "line_index": 26,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7CEF512B788D792031FD"
+        },
+        {
+          "locator": "Map/map_d_tou_00.cxd::lz10::0001:map_d_tou_00.bscr",
+          "line_index": 27,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-84132E646F29DACE9DF2"
+        },
+        {
+          "locator": "Map/map_d_tou_01.cxd::lz10::0001:map_d_tou_01.bscr",
+          "line_index": 26,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-B481B21E2BDAE3345AB1"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-B25F6296E16E54C5D570",
+      "batch": "batch_0054",
+      "source_text": "あなたがどう生きようと、アルスが\nリアルの定理を奏上すれば、世界は\n結晶化するんじゃないですか？",
+      "before": "당신이 어떻게 살든 알스가\n리얼의 섭리를 아뢰면 세계는\n결정화되는 것 아닙니까?",
+      "after": "어떻게 살아가든 알스가\n리얼의 섭리를 아뢰면 세계는\n결정화되는 것 아닙니까?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_des_00.cxd::lz10::0001:map_d_des_00.bscr",
+          "line_index": 106,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-81C956382FF25375605D"
+        },
+        {
+          "locator": "Map/map_d_des_01.cxd::lz10::0001:map_d_des_01.bscr",
+          "line_index": 124,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-9FDDA2DBFBB5609E53C3"
+        },
+        {
+          "locator": "Map/map_d_des_05.cxd::lz10::0001:map_d_des_05.bscr",
+          "line_index": 102,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-F12817938E3D2291912C"
+        },
+        {
+          "locator": "Map/map_d_des_04.cxd::lz10::0001:map_d_des_04.bscr",
+          "line_index": 38,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7EE8AD4D5A5D64413B94"
+        },
+        {
+          "locator": "Map/map_d_des_03.cxd::lz10::0001:map_d_des_03.bscr",
+          "line_index": 32,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-FEB048C8DFB80AF2A008"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-B5A0598C8369A4930052",
+      "batch": "batch_0067",
+      "source_text": "リューズ……\nお前は何者なんだ。\nそれにあんたもだ、ソアラ",
+      "before": "류즈……\n넌 대체 누구지.\n그리고 당신도 마찬가지야, 소아라",
+      "after": "류즈……\n넌 대체 누구지.\n소아라도 마찬가지야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_01.cxd::lz10::0001:map_t_dia_01.bscr",
+          "line_index": 318,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-A6B36C8B2B66E038B4B3"
+        },
+        {
+          "locator": "Map/map_t_dia_05.cxd::lz10::0001:map_t_dia_05.bscr",
+          "line_index": 376,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-680ACCD73ACF972E4C3E"
+        },
+        {
+          "locator": "Map/map_d_des_00.cxd::lz10::0001:map_d_des_00.bscr",
+          "line_index": 130,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7ACCDF23CF24858AB824"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-B9F0081A8DB1374707BE",
+      "batch": "batch_0123",
+      "source_text": "将軍。\nニコルは俺たちの情報を\nあんたに流してたんだよな",
+      "before": "장군.\n니콜은 우리 정보를\n당신에게 흘렸던 거지?",
+      "after": "장군.\n니콜은 우리 정보를\n네게 흘렸던 거지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_des_01.cxd::lz10::0001:map_d_des_01.bscr",
+          "line_index": 7,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-7C0D5D2E41298256E926"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-BD4A29544937A5989723",
+      "batch": "batch_0067",
+      "source_text": "あんたはこんなところで\n何してるんスか。確か皇子の\n見張りをしてるんじゃ……",
+      "before": "당신은 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있던 거 아니었……",
+      "after": "레슬리 씨는 이런 데서\n뭐 하는 검까? 분명 황자\n감시를 하고 있던 거 아니었……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_03.cxd::lz10::0001:map_d_koo_03.bscr",
+          "line_index": 40,
+          "speaker_slot": "08",
+          "occurrence_id": "ARF-7C5806FFC945618E1ECC"
+        },
+        {
+          "locator": "Map/map_d_koo_02.cxd::lz10::0001:map_d_koo_02.bscr",
+          "line_index": 35,
+          "speaker_slot": "08",
+          "occurrence_id": "ARF-1F268BF423D69074FE22"
+        },
+        {
+          "locator": "Map/map_d_koo_00.cxd::lz10::0001:map_d_koo_00.bscr",
+          "line_index": 34,
+          "speaker_slot": "08",
+          "occurrence_id": "ARF-322A6F76D8788E78AE4A"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-BF1550AC1D7B908C85EC",
+      "batch": "batch_0074",
+      "source_text": "……なら\n俺があなたの意志を継ぎます",
+      "before": "……그렇다면\n제가 당신의 뜻을 잇겠습니다",
+      "after": "……그렇다면\n제가 바이스 님의 뜻을 잇겠습니다",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_mse_04.cxd::lz10::0001:map_d_mse_04.bscr",
+          "line_index": 28,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-DABFECD3034DDE7549D6"
+        },
+        {
+          "locator": "Map/map_d_mse_01.cxd::lz10::0001:map_d_mse_01.bscr",
+          "line_index": 23,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-3B554F4D7A5AE943BBDE"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-C13CE29974DBB829D865",
+      "batch": "batch_0143",
+      "source_text": "おい、あんた……",
+      "before": "어이, 당신……",
+      "after": "어이, 그쪽……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_hai_00.cxd::lz10::0001:map_d_hai_00.bscr",
+          "line_index": 50,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-EF6654924174CD089800"
+        },
+        {
+          "locator": "Map/map_d_hai_03.cxd::lz10::0001:map_d_hai_03.bscr",
+          "line_index": 51,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-2ABE4FA17042C3D64743"
+        },
+        {
+          "locator": "Map/map_d_hai_05.cxd::lz10::0001:map_d_hai_05.bscr",
+          "line_index": 53,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-BE2FAD9D11E429D7F5FE"
+        },
+        {
+          "locator": "Map/map_d_hai_02.cxd::lz10::0001:map_d_hai_02.bscr",
+          "line_index": 50,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-39926227F255A725F358"
+        },
+        {
+          "locator": "Map/map_d_hai_04.cxd::lz10::0001:map_d_hai_04.bscr",
+          "line_index": 50,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-311DD368759F335EFB6B"
+        },
+        {
+          "locator": "Map/map_d_hai_01.cxd::lz10::0001:map_d_hai_01.bscr",
+          "line_index": 49,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-C68C1036E8A310C396C3"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-C346B8282E20A60B2991",
+      "batch": "batch_0125",
+      "source_text": "この子が言いたいのは\nあなたの傭兵としての経験が\n何か教えてくれないのか？<$0C>そういうことでしょう？",
+      "before": "이 아이가 말하고 싶은 건\n당신의 용병 경험으로\n뭔가 가르쳐 줄 수 없냐는 거야<$0C>그런 뜻이지?",
+      "after": "이 아이가 말하고 싶은 건\n네 용병 경험으로\n뭔가 알아낼 수 없냐는 거야<$0C>그런 뜻이지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_17.cxd::lz10::0001:map_i_evt_17.bscr",
+          "line_index": 323,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-9EDE583CBADB64F40C7B"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-C449C2CDEA24E36E40FD",
+      "batch": "batch_0074",
+      "source_text": "あなたはいつもそうですね。\n進んで人に誤解されたがる",
+      "before": "당신은 늘 그렇네요.\n일부러 남에게 오해받으려 하죠",
+      "after": "바이스 님은 늘 그러시네요.\n일부러 남에게 오해받으려 하시죠",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_mse_04.cxd::lz10::0001:map_d_mse_04.bscr",
+          "line_index": 27,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-615E0BE410512AD6A10F"
+        },
+        {
+          "locator": "Map/map_d_mse_01.cxd::lz10::0001:map_d_mse_01.bscr",
+          "line_index": 22,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-8EB09A3273E4BCD81897"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-D3EAEBF95D8C6934102A",
+      "batch": "batch_0130",
+      "source_text": "<$1C>0099。\nあんたはどうしてここに",
+      "before": "<$1C>0099.\n당신은 왜 여기에",
+      "after": "<$1C>0099.\n왜 여기에 온 거야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_00.cxd::lz10::0001:map_d_ext_00.bscr",
+          "line_index": 9,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-73E657B0930391C9FA12"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-D5BFA9A343947404874A",
+      "batch": "batch_0130",
+      "source_text": "あんたに荷物を届けるよう\n言われたんだ<$0C>あんたじゃなきゃ出来ないとか\n言っていたぞ",
+      "before": "당신에게 짐을 전하라고\n부탁받았어<$0C>당신이 아니면 안 된다고\n그러더군",
+      "after": "짐을 전해 달라는\n부탁을 받았어<$0C>꼭 직접 받아야 한다고\n그러더군",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_tpa_00.cxd::lz10::0001:map_t_tpa_00.bscr",
+          "line_index": 245,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-CC826617A69355464209"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-D77208D5CCB4E0D0C998",
+      "batch": "batch_0039",
+      "source_text": "そこで小さくまとまってるあなた。\nあなたはどう感じる？",
+      "before": "거기서 작게 움츠린 당신.\n당신은 어떻게 느껴?",
+      "after": "거기서 잔뜩 움츠리고 있는 사람은\n어떻게 느껴?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_00_018.vol::0000:fc_00_018.bscr",
+          "line_index": 9,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-7110D62AF38AC3C36486"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-DAFBDE02B436B293119B",
+      "batch": "batch_0131",
+      "source_text": "前回もそうだったが\nこれはあんたの仕事なんじゃ……",
+      "before": "지난번도 그랬지만\n이건 당신 일이 아닌가……",
+      "after": "지난번도 그랬지만\n이건 원래 맡은 일 아닌가……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_sba_00.cxd::lz10::0001:map_t_sba_00.bscr",
+          "line_index": 53,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-0D905E83905186EFC768"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-DC4934B5D5CF41B69221",
+      "batch": "batch_0068",
+      "source_text": "リリア……いえ、シェリィ。\nあなたは共和国にとって\n大切な存在なの",
+      "before": "릴리아…… 아니, 셰리.\n당신은 공화국에\n소중한 존재야",
+      "after": "릴리아…… 아니, 셰리.\n넌 공화국에\n소중한 존재야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tka_00.cxd::lz10::0001:map_d_tka_00.bscr",
+          "line_index": 631,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-3628051BD8829CCFB29D"
+        },
+        {
+          "locator": "Map/map_d_tka_03.cxd::lz10::0001:map_d_tka_03.bscr",
+          "line_index": 630,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-D9DADF3E01C4C154719F"
+        },
+        {
+          "locator": "Map/map_d_tka_04.cxd::lz10::0001:map_d_tka_04.bscr",
+          "line_index": 43,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-D09C826DA8067E70D69F"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-DC9AF4A7C34678196037",
+      "batch": "batch_0049",
+      "source_text": "もう１組を率いるのは……\nオイゲン、あなたが適任だと思う",
+      "before": "나머지 １개 조를 이끌 사람은……\n오이겐, 당신이 적임자라고 생각해",
+      "after": "나머지 １개 조를 이끌 사람은……\n오이겐, 네가 적임자라고 생각해",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 102,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-15A6FD22D054AE3ED98A"
+        },
+        {
+          "locator": "Map/map_d_ise_03.cxd::lz10::0001:map_d_ise_03.bscr",
+          "line_index": 25,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-9255E7068B7E039657E8"
+        },
+        {
+          "locator": "Map/map_d_ise_01.cxd::lz10::0001:map_d_ise_01.bscr",
+          "line_index": 27,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-BE7613317949E277AE16"
+        },
+        {
+          "locator": "Map/map_d_ise_00.cxd::lz10::0001:map_d_ise_00.bscr",
+          "line_index": 16,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-A84588E0E17D7B9194B2"
+        },
+        {
+          "locator": "Map/map_d_ise_02.cxd::lz10::0001:map_d_ise_02.bscr",
+          "line_index": 16,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-3871F880283035187F27"
+        },
+        {
+          "locator": "Map/map_d_ise_05.cxd::lz10::0001:map_d_ise_05.bscr",
+          "line_index": 16,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-1142D8B7502EE459BF5A"
+        },
+        {
+          "locator": "Map/map_i_evt_15.cxd::lz10::0001:map_i_evt_15.bscr",
+          "line_index": 15,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-92ACAAE800C14B6598E3"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-DE861B4AC182DC566CB7",
+      "batch": "batch_0068",
+      "source_text": "まさか……あれ、あなたなの？\nでもあなたは神種じゃないわ。\n竜玉石をつけていない",
+      "before": "설마…… 저게 당신이야?\n하지만 당신은 신종이 아니야.\n용옥석을 달고 있지 않아",
+      "after": "설마…… 저게 소아라야?\n하지만 소아라는 신종이 아니야.\n용옥석을 달고 있지 않아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_dia_01.cxd::lz10::0001:map_t_dia_01.bscr",
+          "line_index": 321,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-7D659409D517B380064E"
+        },
+        {
+          "locator": "Map/map_t_dia_05.cxd::lz10::0001:map_t_dia_05.bscr",
+          "line_index": 379,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-923FA2515AE3B8516E37"
+        },
+        {
+          "locator": "Map/map_d_des_00.cxd::lz10::0001:map_d_des_00.bscr",
+          "line_index": 133,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-A22A5212EF09A7766F6E"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-E18F54B4B612F061E6B0",
+      "batch": "batch_0075",
+      "source_text": "……あなたは私とは違う！\n私はわからないままだと\n不安なのよ!!",
+      "before": "……당신은 나와 달라!\n난 모르는 채로 있으면\n불안하다고!!",
+      "after": "……넌 나와 달라!\n난 모르는 채로 있으면\n불안하다고!!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_07.cxd::lz10::0001:map_d_ext_07.bscr",
+          "line_index": 31,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-E7ACBBF0BBD5BFC6F655"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-E193789FF93524BEC0AB",
+      "batch": "batch_0044",
+      "source_text": "あなたの場合\nとっても気になるのよ……",
+      "before": "당신은\n정말 신경 쓰인단 말이지……",
+      "after": "니콜은\n정말 신경 쓰인단 말이지……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_00_028.vol::0000:fc_00_028.bscr",
+          "line_index": 4,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-D680B112621A135C7E41"
+        },
+        {
+          "locator": "Map/map_t_kan_05.cxd::lz10::0001:map_t_kan_05.bscr",
+          "line_index": 97,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-90AE9F8FD87057D3EEFA"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-E30B94691818C8C08493",
+      "batch": "batch_0059",
+      "source_text": "では、あなたがさっき仰っていた\nイグナーツという名は？",
+      "before": "그럼 아까 당신께서 말씀하신\n이그나츠라는 이름은요?",
+      "after": "그럼 아까 말씀하신\n이그나츠라는 이름은요?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_tou_03.cxd::lz10::0001:map_d_tou_03.bscr",
+          "line_index": 23,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-35AD08F82A8FF50EA2DB"
+        },
+        {
+          "locator": "Map/map_d_tou_02.cxd::lz10::0001:map_d_tou_02.bscr",
+          "line_index": 23,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-9AB1E1C605F82B53F24E"
+        },
+        {
+          "locator": "Map/map_d_tou_00.cxd::lz10::0001:map_d_tou_00.bscr",
+          "line_index": 24,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-16CE2C7BFA7CC07F8658"
+        },
+        {
+          "locator": "Map/map_d_tou_01.cxd::lz10::0001:map_d_tou_01.bscr",
+          "line_index": 23,
+          "speaker_slot": "06",
+          "occurrence_id": "ARF-66BFF6DAE70C23B598FC"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-E7B5C9AC50D1C3EAE5DC",
+      "batch": "batch_0040",
+      "source_text": "おいおい、あんたにまで\nそう言われちまうと",
+      "before": "이봐, 당신한테까지\n그런 말을 들으면",
+      "after": "이봐, 오이겐까지\n그런 말을 하면",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Event/fc/fc_05_020.vol::0000:fc_05_020.bscr",
+          "line_index": 3,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-FA77D4B5CB1BAE7E5BEE"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-E940818AA09AC590EB46",
+      "batch": "batch_0055",
+      "source_text": "エンジュさんの\n処刑を止めるためです。\nあなたは無実なんですから",
+      "before": "엔주 씨의\n처형을 막기 위해서예요.\n당신은 무죄니까요",
+      "after": "엔주 씨의\n처형을 막기 위해서예요.\n레슬리 씨는 무죄니까요",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_kal_01.cxd::lz10::0001:map_d_kal_01.bscr",
+          "line_index": 136,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-A71850FD97E9734927E2"
+        },
+        {
+          "locator": "Map/map_i_evt_09.cxd::lz10::0001:map_i_evt_09.bscr",
+          "line_index": 124,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-555AD9CA246F504C79B9"
+        },
+        {
+          "locator": "Map/map_d_kal_00.cxd::lz10::0001:map_d_kal_00.bscr",
+          "line_index": 109,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D800737DB4B4DD6EF804"
+        },
+        {
+          "locator": "Map/map_d_kal_02.cxd::lz10::0001:map_d_kal_02.bscr",
+          "line_index": 109,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-D6B3158E58BB07C12023"
+        },
+        {
+          "locator": "Map/map_i_evt_11.cxd::lz10::0001:map_i_evt_11.bscr",
+          "line_index": 21,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-16439B07AAF13F333AAE"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EAECDE9863BC70C38F72",
+      "batch": "batch_0135",
+      "source_text": "それに助けられたのは\n私たちだって同じだわ<$0C>あなたがグラの異常を\n私たちに教えてくれたから\n無事、契約ができたんですもの",
+      "before": "게다가 도움받은 건\n우리도 마찬가지야<$0C>당신이 그라의 이상을\n알려 준 덕분에\n무사히 계약할 수 있었으니까",
+      "after": "게다가 도움받은 건\n우리도 마찬가지야<$0C>마리아 씨가 그라의 이상을\n알려 준 덕분에\n무사히 계약할 수 있었으니까",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_ebu_00.cxd::lz10::0001:map_t_ebu_00.bscr",
+          "line_index": 5,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-B8BE20F138B77BCB406D"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EB612D51F609A80F555A",
+      "batch": "batch_0135",
+      "source_text": "あんたは……",
+      "before": "당신은……",
+      "after": "아를루는……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_05.cxd::lz10::0001:map_d_koo_05.bscr",
+          "line_index": 2,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-335110987A96DA1FD7F0"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EB8E9D1FD0F9D6C975C2",
+      "batch": "batch_0059",
+      "source_text": "あんた、サージュと\n知り合いなのか？",
+      "before": "당신, 사쥬와\n아는 사이야?",
+      "after": "레온, 사쥬와\n아는 사이야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 168,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-BFDFD8A1B5F29BC10B5D"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 149,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-68D4B56973B5CEBBE396"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 143,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-022FCBCB38E39B11B960"
+        },
+        {
+          "locator": "Map/map_i_evt_06.cxd::lz10::0001:map_i_evt_06.bscr",
+          "line_index": 140,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-5CED8987E2B231A41398"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EBA4CCDA53EE87C10068",
+      "batch": "batch_0135",
+      "source_text": "でも、私があなたを\n妙な気持ちにさせているのは\nわかっているの……",
+      "before": "하지만 내가 당신에게\n묘한 기분을 느끼게 한다는 건\n알고 있어……",
+      "after": "하지만 내가 널\n묘한 기분이 들게 한다는 건\n알고 있어……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_ext_07.cxd::lz10::0001:map_d_ext_07.bscr",
+          "line_index": 52,
+          "speaker_slot": "07",
+          "occurrence_id": "ARF-C7E6A663ADB364ADBA72"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EBDFE2DE283BED7096B7",
+      "batch": "batch_0069",
+      "source_text": "でもあなたが逃げるのを\n手伝ってあげたわ",
+      "before": "하지만 당신이 도망치도록\n도와줬잖아",
+      "after": "하지만 네가 도망치는 걸\n도와줬잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_koo_03.cxd::lz10::0001:map_d_koo_03.bscr",
+          "line_index": 125,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-BE76E2F69B7296B193EB"
+        },
+        {
+          "locator": "Map/map_d_koo_02.cxd::lz10::0001:map_d_koo_02.bscr",
+          "line_index": 120,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-413523E02A22AC65B825"
+        },
+        {
+          "locator": "Map/map_d_koo_00.cxd::lz10::0001:map_d_koo_00.bscr",
+          "line_index": 119,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-B00906FFFBECE53BCD6E"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EC69B7E7C42BD9D270C6",
+      "batch": "batch_0055",
+      "source_text": "あなたね。\n歌学省を襲って\nお母様を殺したのは！",
+      "before": "당신이구나.\n가학성을 습격하고\n어머니를 죽인 건!",
+      "after": "네가 가학성을 습격하고\n어머니를 죽인 거구나!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_i_evt_24.cxd::lz10::0001:map_i_evt_24.bscr",
+          "line_index": 0,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-B20843DDE1D4AD388770"
+        },
+        {
+          "locator": "Map/map_d_ryu_00.cxd::lz10::0001:map_d_ryu_00.bscr",
+          "line_index": 0,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-8FC7BD558CB886FB0788"
+        },
+        {
+          "locator": "Map/map_d_ryu_01.cxd::lz10::0001:map_d_ryu_01.bscr",
+          "line_index": 14,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-BB1474A50F5BE9421EF2"
+        },
+        {
+          "locator": "Map/map_d_ryu_02.cxd::lz10::0001:map_d_ryu_02.bscr",
+          "line_index": 0,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-8E7A5FA24B00896AAE29"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-EF955A2790725EF7D636",
+      "batch": "batch_0069",
+      "source_text": "早いトコ、お前さん自身を\n信頼させてくれや",
+      "before": "얼른 당신 자신을\n믿을 수 있게 해 달라고",
+      "after": "얼른 너 자신을\n믿을 수 있게 해 달라고",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_yuk_01.cxd::lz10::0001:map_t_yuk_01.bscr",
+          "line_index": 148,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-1C7AF52AE29B798A451E"
+        },
+        {
+          "locator": "Map/map_t_yuk_00.cxd::lz10::0001:map_t_yuk_00.bscr",
+          "line_index": 143,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-88D7AA3493A1DFB94615"
+        },
+        {
+          "locator": "Map/map_i_evt_16.cxd::lz10::0001:map_i_evt_16.bscr",
+          "line_index": 140,
+          "speaker_slot": "02",
+          "occurrence_id": "ARF-2A94D0B8B65A849F87C8"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-F41DA5841A34A89CA465",
+      "batch": "batch_0069",
+      "source_text": "ホゼア。お前はイマジナルの定理を\n持って世界を救いたいのでしたね",
+      "before": "호제아. 당신은 이매지널의 섭리로\n세계를 구하고 싶어 했지요",
+      "after": "호제아. 너는 이매지널의 섭리로\n세계를 구하려 했지",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_bne_00.cxd::lz10::0001:map_t_bne_00.bscr",
+          "line_index": 293,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-2DADA46E9CD7A72B2D79"
+        },
+        {
+          "locator": "Map/map_t_bne_02.cxd::lz10::0001:map_t_bne_02.bscr",
+          "line_index": 274,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-C25CFC4159DDF9A265FC"
+        },
+        {
+          "locator": "Map/map_i_evt_13.cxd::lz10::0001:map_i_evt_13.bscr",
+          "line_index": 268,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-594B6F2AFF2AEA0A3E39"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-F72D91495E534B42E0EA",
+      "batch": "batch_0069",
+      "source_text": "あなた、本気でイマジナルの定理が\n正義だと思っていたの？\nだとしたらその根拠は何？",
+      "before": "당신, 정말 이매지널의 섭리가\n정의라고 생각했어?\n그렇다면 근거는 뭐야?",
+      "after": "라르크, 정말 이매지널의 섭리가\n정의라고 생각했어?\n그렇다면 근거는 뭐야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_t_kan_00.cxd::lz10::0001:map_t_kan_00.bscr",
+          "line_index": 318,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-B2E978B4F656CF18FCF7"
+        },
+        {
+          "locator": "Map/map_t_kan_06.cxd::lz10::0001:map_t_kan_06.bscr",
+          "line_index": 114,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-D186DFE5A9B6A933F2F0"
+        },
+        {
+          "locator": "Map/map_t_kan_01.cxd::lz10::0001:map_t_kan_01.bscr",
+          "line_index": 54,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-104AF539EAA73BA2C600"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-F8F330BA39A16635F2DF",
+      "batch": "batch_0069",
+      "source_text": "お願いです。そこを通して下さい。\n私たちはあなたと戦う為に\nここに来た訳じゃありません",
+      "before": "부탁입니다. 지나가게 해 주세요.\n저희는 당신과 싸우려고\n여기에 온 게 아닙니다",
+      "after": "부탁입니다. 지나가게 해 주세요.\n저희는 장군님과 싸우려고\n여기에 온 게 아닙니다",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_aka_01.cxd::lz10::0001:map_d_aka_01.bscr",
+          "line_index": 69,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-3979972D7A0CD7A4FD38"
+        },
+        {
+          "locator": "Map/map_d_aka_02.cxd::lz10::0001:map_d_aka_02.bscr",
+          "line_index": 71,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-0935BC488ED860AE4926"
+        },
+        {
+          "locator": "Map/map_d_aka_00.cxd::lz10::0001:map_d_aka_00.bscr",
+          "line_index": 69,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-F7596900188994938C51"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-F93659B273CF37F3B9A1",
+      "batch": "batch_0069",
+      "source_text": "あ……あんたがカーライル博士？",
+      "before": "다…… 당신이 칼라일 박사야?",
+      "after": "아…… 칼라일 박사님?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_syo_00.cxd::lz10::0001:map_d_syo_00.bscr",
+          "line_index": 405,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-5B47275928BB9B95A1FE"
+        },
+        {
+          "locator": "Map/map_d_syo_02.cxd::lz10::0001:map_d_syo_02.bscr",
+          "line_index": 28,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-870F83E32556CC9D94A4"
+        },
+        {
+          "locator": "Map/map_d_syo_04.cxd::lz10::0001:map_d_syo_04.bscr",
+          "line_index": 28,
+          "speaker_slot": "00",
+          "occurrence_id": "ARF-AA1A122D403D7C975060"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-F9BB1124892D7288FE4B",
+      "batch": "batch_0139",
+      "source_text": "それが……あなたたちの\nやり方なんですね",
+      "before": "그게…… 당신들의\n방식이군요",
+      "after": "그게…… 그쪽 사람들이\n하는 방식이군요",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_des_05.cxd::lz10::0001:map_d_des_05.bscr",
+          "line_index": 120,
+          "speaker_slot": "01",
+          "occurrence_id": "ARF-7865402F420F134F6F99"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-FC1DDE1FFBD203301C9C",
+      "batch": "batch_0139",
+      "source_text": "あら、騒ぎを起こしたのって\nやっぱりあなたたちだったのね？",
+      "before": "어머, 소동을 일으킨 게\n역시 당신들이었군요?",
+      "after": "어머, 소동을 일으킨 게\n역시 너희였구나?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission.",
+      "multiparty_evidence": [
+        {
+          "locator": "Map/map_d_adz_01.cxd::lz10::0001:map_d_adz_01.bscr",
+          "line_index": 38,
+          "speaker_slot": "05",
+          "occurrence_id": "ARF-0EB41709C19C94D44654"
+        }
+      ]
+    },
+    {
+      "tm_id": "ARF-TM-FCBFFACAB4EC9B824197",
+      "batch": "batch_0041",
+      "source_text": "……うるせえっ！\n嫌なもん思い出させんじゃねーよ",
+      "before": "틀림없어……\n아군끼리 싸운 거야……",
+      "after": "……시끄러워!\n싫은 기억 떠올리게 하지 마!",
+      "category": "unrelated_unit_semantic_copy",
+      "reason": "The reviewed Korean was copied from an unrelated neighboring unit.",
+      "multiparty_evidence": []
+    }
+  ],
+  "outputs": {
+    "final_translation_memory": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\final\\translation_memory_draft.json",
+    "final_translation_memory_sha256": "8E41899068A8B11AD6D2EA573E242F5EC24D4BB68B00772768C4260C8B88DD9A",
+    "final_translation_csv": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\final\\translation_memory_draft.csv",
+    "final_translation_csv_sha256": "F0E42B5B4B057B8C5A671D535495BA4CF4EE9DE4B056C256C4E9DBC1C74157BA",
+    "coverage": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\final\\coverage.json",
+    "coverage_sha256": "930B6718B8DCB4D3A57AFDAD86A386E9F67A8273267E62D62D3A96C548C5CD48"
+  }
+}

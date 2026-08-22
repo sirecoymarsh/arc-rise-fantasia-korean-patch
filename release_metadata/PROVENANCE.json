@@ -2,8 +2,8 @@
   "schema": "arf-ko-public-provenance-v1",
   "game_id": "RPJJ99",
   "source_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
-  "translation_units": 30203,
-  "translation_occurrences": 85993,
+  "translation_units": 30339,
+  "translation_occurrences": 86166,
   "battle_enemy": {
     "entries": 270,
     "display_name_occurrences": 270,
@@ -27,11 +27,43 @@
   },
   "town_map_legend": {
     "translated_labels": 15,
-    "base_memory_rules": 925,
-    "final_memory_rules": 940,
+    "base_memory_rules": 926,
+    "final_memory_rules": 941,
     "icon_identifier_prefixes_preserved": true,
     "translator_model": "Codex internal",
     "external_translation_models_or_apis_used": false
+  },
+  "battle_magic": {
+    "skill_name_occurrences": 80,
+    "unique_skill_names": 79,
+    "translator_model": "Codex internal"
+  },
+  "map_info_descriptions": {
+    "files": 36,
+    "members": 72,
+    "translator_model": "Codex internal"
+  },
+  "battle_raster_ui": {
+    "modified_texture_entries": 12,
+    "translated_text_items": 19,
+    "translator_model": "Codex internal"
+  },
+  "remaining_runtime_text": {
+    "memory_patches": 2,
+    "final_memory_rules": 943,
+    "translator_model": "Codex internal"
+  },
+  "addressee_scene_voice_review": {
+    "candidate_occurrences_reviewed": 128,
+    "unique_addressee_tm_ids_corrected": 127,
+    "speaker_voice_template_bleed_corrected": 3,
+    "semantic_copy_errors_corrected": 1,
+    "total_unique_tm_ids_corrected": 131,
+    "correction_report_sha256": "0AC36B359ABD1A9F204ACA1EB0DD3F6350236AF793700BD7C83595A0050ED5D7",
+    "final_translation_memory_sha256": "8E41899068A8B11AD6D2EA573E242F5EC24D4BB68B00772768C4260C8B88DD9A",
+    "translator_model": "Codex internal",
+    "external_translation_models_or_apis_used": false,
+    "valid": true
   },
   "reviewed_batches": 149,
   "translation_engine_policy": "Codex internal models only",
@@ -52,10 +84,10 @@
       "image_reinsertion_targets": 44,
       "image_direct_physical_files": 43,
       "image_cumulative_system_members": 1,
-      "staged_physical_files": 684,
-      "riivolution_file_rules": 684,
+      "staged_physical_files": 721,
+      "riivolution_file_rules": 721,
       "supplemental_physical_files": 28,
-      "riivolution_memory_rules": 940,
+      "riivolution_memory_rules": 943,
       "ui_raster_translated_entries": 68,
       "ui_raster_translated_text_items": 155,
       "battle_enemy_entries": 270,
@@ -67,20 +99,32 @@
       "battle_enemy_unique_skill_names": 226,
       "battle_enemy_unique_part_names": 3,
       "system_text_residue_translation_occurrences": 30,
-      "town_map_legend_translations": 15
+      "town_map_legend_translations": 15,
+      "battle_magic_skill_name_occurrences": 80,
+      "battle_magic_unique_skill_names": 79,
+      "map_info_description_files": 36,
+      "map_info_description_members": 72,
+      "battle_ui_raster_modified_entries": 12,
+      "battle_ui_raster_translated_text_items": 19,
+      "battle_start_residue_translations": 2,
+      "addressee_candidate_occurrences_reviewed": 128,
+      "addressee_unique_tm_ids_corrected": 127,
+      "speaker_voice_template_bleed_corrected": 3,
+      "semantic_copy_errors_corrected": 1,
+      "addressee_scene_voice_total_unique_tm_ids_corrected": 131
     },
     "riivolution": {
       "xml": "riivolution_sd/riivolution/arc_rise_fantasia_ko_full.xml",
-      "file_count": 684,
-      "memory_count": 940,
-      "resize_true_count": 560,
-      "sha256": "7393E0361D0CE035E3C41493C9628EA850347B185DABFC65D4987B624C8A2AF0"
+      "file_count": 721,
+      "memory_count": 943,
+      "resize_true_count": 559,
+      "sha256": "3C659534C3886091712A6C93358CA824AF890034F8C1ECBB05CD3741E1D61851"
     },
     "static_validation": {
       "valid": true,
       "error_count": 0
     },
-    "manifest_sha256": "C855E788ACA6081030D8FBBA0094771E4F50E4E15DC50615DF9FFC6362245F30",
-    "tree_sha256": "617E477824AB0D41E8C0CCF869EF53BE822F6DC7503771AA5C1E5067A147CF4D"
+    "manifest_sha256": "8FDA96B15C1DD2036E60206B2C82A711DC55BCC05987A48C139848ABEEA48677",
+    "tree_sha256": "D164680A5222CBD163ED0B616BF04C76B0FBD4D5713161ED59A35134DAAD2A9B"
   }
 }

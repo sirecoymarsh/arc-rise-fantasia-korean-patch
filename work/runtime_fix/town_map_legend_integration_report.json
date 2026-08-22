@@ -19,11 +19,11 @@
   },
   "staging_manifest": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
-    "sha256": "B793972EF76512144CC32795EA842D5D93AFCAD1BB46FA5409B5C5E285E20DD8"
+    "sha256": "CC3DA81382C2E4B2DDF756F39E86DD575C3315595B745E9459E241ECCABC98D6"
   },
   "xml": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
-    "sha256": "B259AA33F2604EA69402D3714A436708E4B185F1A36C39B8B4DA52D4668B187B",
+    "sha256": "EA1CC22D528C5083E7EF4F1AF901B7BD4BCAF22717B80E9E53CDD9DF184FC0F4",
     "file_count": 684,
     "memory_count": 941
   },

@@ -97,6 +97,30 @@
       "before": "헤에?",
       "after": "엥?",
       "reason": "놀람을 나타내는 감탄사의 의미를 교정"
+    },
+    {
+      "tm_id": "ARF-TM-3F3A0D232C0336905010",
+      "source_text": "な、あんたならわかるだろ？",
+      "before": "저기, 당신이라면 알겠지?",
+      "after": "저기, 오이겐이라면 알겠지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
-  ]
+  ],
+  "modified_units": 14,
+  "unchanged_units": 186,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-3F3A0D232C0336905010"
+    ],
+    "reviewed_sha256": "7A56DFE554A4C545499C66193AECCCC8D09A5B4D529B33F014A643BA09AF158D"
+  },
+  "hashes": {
+    "reviewed_sha256": "7A56DFE554A4C545499C66193AECCCC8D09A5B4D529B33F014A643BA09AF158D"
+  }
 }

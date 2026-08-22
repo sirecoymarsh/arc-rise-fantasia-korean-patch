@@ -1,0 +1,17 @@
+{
+  "schema": "arf-ko-final-release-validation-v1",
+  "package_dir": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.5",
+  "zip_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.5.zip",
+  "zip_size_bytes": 748103366,
+  "zip_sha256": "34A7681AC2DDAFC3EFB5CD13D85F922B7E2C2D5A8879187D655A221A2CAC3B0E",
+  "manifest_sha256": "8FE476D62ABF131E74B401F6A0AE1B7620F089724016D634971C1749E861C8B1",
+  "staging_manifest_sha256": "8FDA96B15C1DD2036E60206B2C82A711DC55BCC05987A48C139848ABEEA48677",
+  "staging_tree_sha256": "D164680A5222CBD163ED0B616BF04C76B0FBD4D5713161ED59A35134DAAD2A9B",
+  "overlay_file_count": 722,
+  "game_replacement_file_count": 721,
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

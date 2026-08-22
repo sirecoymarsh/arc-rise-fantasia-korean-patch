@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0113.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0113.jsonl",
   "reviewed_units": 200,
-  "modified_units": 37,
-  "unchanged_units": 163,
+  "modified_units": 39,
+  "unchanged_units": 161,
   "review_dimensions": [
     "meaning",
     "function",
@@ -320,6 +320,22 @@
       "after": "모처럼 디아만트와\n통상할 수 있게 되나\n싶었던 찰나에 이 꼴이야<$0C>신제국 헌장인지 뭔지는 몰라도\n이제 와서 통제 경제를 지향하다니\n달력도 제대로 못 읽나?",
       "category": "natural_korean",
       "reason": "「と思った矢先にこれだ」의 낙담과 비꼼을 자연스러운 한국어로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-946B2A8EAA214003FFD6",
+      "source_text": "あんたは何者なんだ？",
+      "before": "당신은 누구지?",
+      "after": "정체가 뭐야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-946BC49D6109A4D49512",
+      "source_text": "クドアンヌ。何故あんたは\n自分を愚か者だなんて言うんだ<$0C>仮に歌う石を神に定めたのが\nあなただとしても\n強制した訳じゃないんだろ",
+      "before": "쿠도안느. 왜 당신은\n자신을 바보라고 하는 거지?<$0C>설령 노래하는 돌을 신으로 정한 게\n당신이라 해도\n강요한 건 아니잖아",
+      "after": "쿠도안느. 왜 스스로를\n바보라고 하는 거야?<$0C>설령 노래하는 돌을 신으로 정한 게\n너라고 해도\n강요한 건 아니잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -332,5 +348,20 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-946B2A8EAA214003FFD6",
+      "ARF-TM-946BC49D6109A4D49512"
+    ],
+    "reviewed_sha256": "BB724308053E4D3DDBD8268587368B3CD358CA5486E81162C7142D8DD23F1B05"
+  },
+  "hashes": {
+    "reviewed_sha256": "BB724308053E4D3DDBD8268587368B3CD358CA5486E81162C7142D8DD23F1B05"
   }
 }

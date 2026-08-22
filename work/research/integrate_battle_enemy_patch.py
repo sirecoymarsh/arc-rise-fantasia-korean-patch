@@ -125,7 +125,10 @@ def main():
     file_count = len(file_nodes)
     memory_count = len(memory_nodes)
     resize_true = sum(n.attrib.get("resize", "false").lower() == "true" for n in file_nodes)
-    need((file_count, memory_count, resize_true) == (684, 926, 560), "unexpected XML counts")
+    # The number of resized BSCR containers is translation-length dependent.
+    # File/memory counts are structural invariants; each staged file's size and
+    # SHA-256 are validated against the manifest below.
+    need((file_count, memory_count) == (684, 926), "unexpected XML file/memory counts")
 
     doc = rebind(load(MANIFEST))
     supplemental = doc["supplemental_runtime_patch"]

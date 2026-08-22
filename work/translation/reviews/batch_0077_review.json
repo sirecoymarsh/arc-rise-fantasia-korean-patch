@@ -173,6 +173,14 @@
       "after": "군에 들어가 오래 살아남아서\n이 도시가 사랑스럽게 느껴질 만큼\n버텨 보려고 해……",
       "category": "naturalness",
       "reason": "목적 관계와 한국어 어순을 자연스럽게 정리했다."
+    },
+    {
+      "tm_id": "ARF-TM-04F4F924C3D472AEA28E",
+      "source_text": "え……？\nあ、ああ。そのつもりだが\nあんた珍しく積極的だな",
+      "before": "뭐……?\n아, 아아. 그럴 생각인데\n당신답지 않게 적극적이군",
+      "after": "뭐……?\n아, 아아. 그럴 생각인데\n오이겐답지 않게 적극적이군",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -185,5 +193,21 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 18,
+  "unchanged_units": 182,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-04F4F924C3D472AEA28E"
+    ],
+    "reviewed_sha256": "E474C9DA2EF5B5E251E7AC9DE7FC87F5945DCD879F4D34DCA0511D6CEDB10B5A"
+  },
+  "hashes": {
+    "reviewed_sha256": "E474C9DA2EF5B5E251E7AC9DE7FC87F5945DCD879F4D34DCA0511D6CEDB10B5A"
   }
 }

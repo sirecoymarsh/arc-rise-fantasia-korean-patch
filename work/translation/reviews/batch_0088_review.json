@@ -326,6 +326,22 @@
       "after": "의사 선생님 진료 차례를\n기다리는 동안\n빈혈로 쓰러져 버려서……<$0C>왠지 납득이 안 돼……",
       "category": "naturalness",
       "reason": "사람 자체의 차례처럼 읽히던 '의사 선생님 차례'를 '진료 차례'로 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-31E16CCA893C9E80AE61",
+      "source_text": "ああ。\nアルル……あなたの意思\n確かに受け取った",
+      "before": "그래.\n아를루…… 당신의 의지\n확실히 받았어",
+      "after": "그래.\n아를루…… 네 뜻은\n확실히 받았어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-2F5CAC5BADD11878063A",
+      "source_text": "あんたが依頼主だな？",
+      "before": "당신이 의뢰주지?",
+      "after": "의뢰주가 맞지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -338,5 +354,22 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "modified_units": 36,
+  "unchanged_units": 164,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-2F5CAC5BADD11878063A",
+      "ARF-TM-31E16CCA893C9E80AE61"
+    ],
+    "reviewed_sha256": "BF9063BC8A79DA8962E6E0D97AA363E37A5AFB4B3F6B88D60274CDF5B74BA687"
+  },
+  "hashes": {
+    "reviewed_sha256": "BF9063BC8A79DA8962E6E0D97AA363E37A5AFB4B3F6B88D60274CDF5B74BA687"
   }
 }
