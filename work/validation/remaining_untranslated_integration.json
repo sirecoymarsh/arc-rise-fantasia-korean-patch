@@ -1,0 +1,228 @@
+{
+  "schema": "arf-remaining-untranslated-staging-integration-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "outputs": {
+    "Btl/btl_magic.vld": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_magic.vld",
+      "size": 296685568,
+      "sha256": "692BF89202920917B7B3498EBB3B4B5A9BB676C05AEAE1CE77BE42D750B1EFBF"
+    },
+    "Btl/btl_usual.vol": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_usual.vol",
+      "size": 4833312,
+      "sha256": "C57249A61EA292B2AE1C2DD941804252543346E398B4B8E38275715B27AFDEA3"
+    },
+    "interface/data_map_aka_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_aka_vol.cxd",
+      "size": 271508,
+      "sha256": "803F32A599D61F6963EFA2FD4ED8CF0E42575549893D5F2A075DD9F0B4581E5D"
+    },
+    "interface/data_map_aot_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_aot_vol.cxd",
+      "size": 244096,
+      "sha256": "F4B7BC088D63B93EEBABC9A5698502F02473F236A6C416FDAD388875BE618AC2"
+    },
+    "interface/data_map_bat_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_bat_vol.cxd",
+      "size": 244792,
+      "sha256": "0E6F63364AA17E85076A493FAD23A408DC3985B2EE18A7EF21B2CEF8A5559F99"
+    },
+    "interface/data_map_bne_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_bne_vol.cxd",
+      "size": 274636,
+      "sha256": "198060AB4587A9AEC20BCC34F698AE81803F1F97DA7DBA31032DFF049A63BB3E"
+    },
+    "interface/data_map_can_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_can_vol.cxd",
+      "size": 241844,
+      "sha256": "858ACAC9A8420104640636A58DE9195219ED6D4C0DF5DC3F5B6BBEB0A3990379"
+    },
+    "interface/data_map_cb1_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb1_vol.cxd",
+      "size": 242428,
+      "sha256": "16A3778A53941CC5C1E8F6A0B0F32F54661623E0438B8D489EB161CDB2ACD769"
+    },
+    "interface/data_map_cb2_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb2_vol.cxd",
+      "size": 278936,
+      "sha256": "5114D2D0245E4AC925B0A4327C08EBA38EC033EE588DCDB12892B0CB473B4DFD"
+    },
+    "interface/data_map_cb3_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb3_vol.cxd",
+      "size": 227232,
+      "sha256": "0213B99F6080CDDEC9EF0E4D4D99C10F099679D53123AAA279EFABD67EF062BD"
+    },
+    "interface/data_map_cb4_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb4_vol.cxd",
+      "size": 294504,
+      "sha256": "98960DD090CAF0D1EF0330576B1DA77577D86AAF38BC7003D5B2FE96A68F6CE3"
+    },
+    "interface/data_map_cb5_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb5_vol.cxd",
+      "size": 279568,
+      "sha256": "0A057D5604CE37A93BB809E909F8C20F8C002961563AD03D3C468135019BF57F"
+    },
+    "interface/data_map_cb6_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb6_vol.cxd",
+      "size": 238556,
+      "sha256": "99C9C39C2C667DBB8E92E90FD7404E2710E47C10AF8605381ABB7FD9D0843BE5"
+    },
+    "interface/data_map_cb7_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cb7_vol.cxd",
+      "size": 267952,
+      "sha256": "5EFD921563A9E5EB850462DBA94782C2665435F2E5B3B86540424384F9EE42CB"
+    },
+    "interface/data_map_cob_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cob_vol.cxd",
+      "size": 275136,
+      "sha256": "69542F1BEDC5D4304F0A42BE8B13F8C7CE02FE673CC77968946CD54DE20D8D35"
+    },
+    "interface/data_map_cop_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_cop_vol.cxd",
+      "size": 297880,
+      "sha256": "B36A30E9683076EB03CA4DB90B6E6BE9C34924831384773CE76A0AC501567019"
+    },
+    "interface/data_map_dia_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_dia_vol.cxd",
+      "size": 284596,
+      "sha256": "838A76444A0355422A59C93BFE4CF39B2ED8BF8E0E20CFE5C285EF055E81D1D8"
+    },
+    "interface/data_map_ebu_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_ebu_vol.cxd",
+      "size": 272032,
+      "sha256": "4A17C35EA6D15E32CF32ED3D72A4A32036CBA8D4F345B9A60A5C43F9AC6F5B53"
+    },
+    "interface/data_map_ext_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_ext_vol.cxd",
+      "size": 280708,
+      "sha256": "8582FA14F04F51D51453C932569CB4EF5A3402A1E30B6D2E5B1E00C2146CA802"
+    },
+    "interface/data_map_hai_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_hai_vol.cxd",
+      "size": 248592,
+      "sha256": "E27278EED3A3A2CB7198855B7533BB297163465D1F8A88488AFE732E55981D35"
+    },
+    "interface/data_map_hgu_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_hgu_vol.cxd",
+      "size": 271048,
+      "sha256": "6FEF7E89573E8694CF7BCA586EA5AE43C9DCA605B90ECEE954880BF3248F855B"
+    },
+    "interface/data_map_hnk_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_hnk_vol.cxd",
+      "size": 296620,
+      "sha256": "334744ED82BB75324CC37EF41D3A1525522AB6882C29CD07CB69568D2EFCE8FC"
+    },
+    "interface/data_map_ise_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_ise_vol.cxd",
+      "size": 265972,
+      "sha256": "50AB88CA5B7B74AFA70EB1621B7BBAFDA4063EF39D3CEAB70600A259F9CD860C"
+    },
+    "interface/data_map_jad_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_jad_vol.cxd",
+      "size": 274440,
+      "sha256": "01454C3B10574B26E3B607C07CC247944FCACCDCB9DD11882E50469A75CC7B30"
+    },
+    "interface/data_map_kan_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_kan_vol.cxd",
+      "size": 284224,
+      "sha256": "CCEC1F5CC632FAD94E749A004F3850E24C42821D94AB3C41EAD15AD099F7809D"
+    },
+    "interface/data_map_koo_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_koo_vol.cxd",
+      "size": 280452,
+      "sha256": "A596E3848058DA1CD15E3434F100E91E0B93FA2E9FC8191AD51466ED749C0FF3"
+    },
+    "interface/data_map_kza_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_kza_vol.cxd",
+      "size": 229268,
+      "sha256": "1BEE98C549B7B19822ADA67BE9DF58A600C0C673EC340C1CB3BBB49EC286947B"
+    },
+    "interface/data_map_mit_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_mit_vol.cxd",
+      "size": 292712,
+      "sha256": "0A2A14CDFB2FC7688B29EE0403FD4CA677061C4204285FC9292D5CA8EF33096F"
+    },
+    "interface/data_map_orb_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_orb_vol.cxd",
+      "size": 270656,
+      "sha256": "32004A6798BEA6AB0BB63B10C3BB5CDFB1FB536C91846E5C6C5267C12072970A"
+    },
+    "interface/data_map_ori_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_ori_vol.cxd",
+      "size": 265188,
+      "sha256": "B7390876854791F4A1FFF087D309D44EE299EBE96F6B35F0DF9C5A7B2BBD1A02"
+    },
+    "interface/data_map_sba_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_sba_vol.cxd",
+      "size": 237992,
+      "sha256": "FA9B29D305538160E240F26DAC52C355DA2CD9224BE73C5F75D8EF4EFAA53CC8"
+    },
+    "interface/data_map_sir_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_sir_vol.cxd",
+      "size": 250748,
+      "sha256": "1CAEB257F708010FAAD1538FCAD300C2190C1C801D98FC29BA64BF2C3B3C9CAD"
+    },
+    "interface/data_map_syo_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_syo_vol.cxd",
+      "size": 259656,
+      "sha256": "B61CE47DC0E12873EED7AAB347C8C5005D901562577C3F4887F50FB39BAF3CD4"
+    },
+    "interface/data_map_tig_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_tig_vol.cxd",
+      "size": 274612,
+      "sha256": "1720582BF9A540EA9F9FC8DDBF97C56108154AFFD005BEDDD5E79C04F55DF837"
+    },
+    "interface/data_map_tka_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_tka_vol.cxd",
+      "size": 255440,
+      "sha256": "E9808693555707D8A7ACFA4F8E5B0968F05210834CB6F826467347A74F6AECC8"
+    },
+    "interface/data_map_tou_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_tou_vol.cxd",
+      "size": 264656,
+      "sha256": "A638D4BAA385FDC87F814A7C19FF4A298DBFE8E00F6187DBF0C0937721202FD3"
+    },
+    "interface/data_map_tpa_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_tpa_vol.cxd",
+      "size": 258720,
+      "sha256": "03DA854E420FE9C9B87382E9099F47F2B781008D3456788E88F99257E318762B"
+    },
+    "interface/data_map_yuk_vol.cxd": {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\interface\\data_map_yuk_vol.cxd",
+      "size": 281212,
+      "sha256": "2A0EAFB27751F33FC3F14B28D6304BC7045AEC54091D2968DE1A96402CF34B7A"
+    }
+  },
+  "xml": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
+    "sha256": "1C8571B061F7D2A4F5BF1E15ECB97110C11FF0BA2BC71BE2F3191ED5B0183FF1",
+    "file_count": 721,
+    "memory_count": 943
+  },
+  "staging_manifest": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
+    "sha256": "6E0F07DD3B28687F0765851FF385B6C936A74D5E208B3EC8F3A09652E61F168E"
+  },
+  "counts": {
+    "battle_magic_slots": 80,
+    "battle_magic_unique_names": 79,
+    "map_description_files": 36,
+    "map_description_members": 72,
+    "battle_ui_wtm_entries": 12,
+    "battle_start_memory_patches": 2,
+    "staged_physical_files": 721
+  },
+  "checks": {
+    "all_application_reports_valid": true,
+    "all_added_physical_files_source_size_preserved": true,
+    "physical_and_xml_file_sets_equal": true,
+    "xml_file_rules_unique": true,
+    "xml_memory_rules_unique": true,
+    "staging_rows_hash_bound": true
+  },
+  "valid": true,
+  "error_count": 0,
+  "errors": []
+}

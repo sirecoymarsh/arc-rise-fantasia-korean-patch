@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.3"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.4"
 
 
 def sha256(path: Path) -> str:
@@ -166,13 +166,50 @@ def validate_staging(
         or town_map.get("translator_model") != "Codex internal"
         or town_map.get("external_translation_models_or_apis_used") is not False
         or int(counts.get("town_map_legend_translations", -1)) != 15
-        or int(riivolution.get("memory_count", -1)) != 941
+        or int(riivolution.get("memory_count", -1)) != 943
         or not town_input_path.is_file()
         or sha256(town_input_path) != str(town_input.get("sha256", "")).upper()
         or town_input.get("translator_model") != "Codex internal"
         or town_input.get("external_translation_models_or_apis_used") is not False
     ):
         raise RuntimeError("town-map legend translation patch is incomplete or unbound")
+    remaining = dict(staging_manifest.get("remaining_untranslated_patch", {}))
+    required_remaining = {
+        "battle_magic_skill_name_occurrences": 80,
+        "battle_magic_unique_skill_names": 79,
+        "map_info_description_files": 36,
+        "map_info_description_members": 72,
+        "battle_ui_raster_modified_entries": 12,
+        "battle_ui_raster_translated_text_items": 19,
+        "battle_start_residue_translations": 2,
+    }
+    if (
+        remaining.get("valid") is not True
+        or remaining.get("translator_model") != "Codex internal"
+        or remaining.get("external_translation_models_or_apis_used") is not False
+        or any(int(counts.get(key, -1)) != value for key, value in required_remaining.items())
+        or int(riivolution.get("file_count", -1)) != 721
+        or int(riivolution.get("memory_count", -1)) != 943
+    ):
+        raise RuntimeError("remaining untranslated-surface delta is incomplete")
+    for input_name in (
+        "battle_magic_application_report",
+        "map_info_application_report",
+        "battle_ui_raster_application_report",
+        "battle_start_residue_patch_report",
+    ):
+        record = dict(inputs.get(input_name, {}))
+        path = Path(str(record.get("path", "")))
+        if not path.is_file() or sha256(path) != str(record.get("sha256", "")).upper():
+            raise RuntimeError(f"remaining untranslated-surface report is stale: {input_name}")
+    for physical_name in ("Btl/btl_magic.vld", "Btl/btl_usual.vol"):
+        row = staged_rows.get(physical_name, {})
+        path = physical_root / physical_name
+        if not path.is_file() or sha256(path) != str(row.get("output_sha256", "")).upper():
+            raise RuntimeError(f"remaining battle payload is missing or stale: {physical_name}")
+    map_rows = [name for name in staged_rows if name.startswith("interface/data_map_") and name.endswith("_vol.cxd")]
+    if len(map_rows) != 36:
+        raise RuntimeError("map description overlay set is incomplete")
     if not staging_manifest_path.is_file():
         raise RuntimeError("staging manifest disappeared during validation")
 
@@ -207,7 +244,7 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.3
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.4
 
 ## 설치
 
@@ -247,6 +284,9 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
 - 전수검사에서 추가 발견한 어빌리티명 14개, 채팅 제목 15개, 상점명 1개 한국어화
 - 메뉴·지도·무기 커스터마이즈·상점·퀘스트·몬스터 도감 등에 남아 있던 그림형 UI 68장, 155개 표기 한국어화
 - 마을·필드 지도 아이콘 범례 15개(세이브 포인트·보물·상점·시설·현재 위치 등) 한국어화
+- 누락돼 있던 특수·보스 기술 80회(고유 79종, 와이번의 버스트 사격 포함) 한국어화
+- 자동 이동 지도 지역 설명 36곳의 DAT/TXT 72개 표시 데이터 한국어화
+- 전투 명령·작전·상태·도주·선제공격·기습·연계·오의·약점·내성 등 그림형 전투 UI 12장, 19개 표기 한국어화
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
@@ -285,12 +325,20 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
         + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0))
         + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0))
-        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0)),
+        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_magic_unique_skill_names", 0))
+        + int(staging_manifest.get("counts", {}).get("map_info_description_files", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_start_residue_translations", 0)),
         "translation_occurrences": int(staging_manifest.get("counts", {}).get("catalog_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0))
-        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0)),
+        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_magic_skill_name_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("map_info_description_members", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_start_residue_translations", 0)),
         "battle_enemy": {
             "entries": staging_manifest.get("counts", {}).get("battle_enemy_entries"),
             "display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_display_name_occurrences"),
@@ -319,6 +367,26 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
             "icon_identifier_prefixes_preserved": staging_manifest.get("town_map_legend_patch", {}).get("icon_identifier_prefixes_preserved"),
             "translator_model": "Codex internal",
             "external_translation_models_or_apis_used": False,
+        },
+        "battle_magic": {
+            "skill_name_occurrences": staging_manifest.get("counts", {}).get("battle_magic_skill_name_occurrences"),
+            "unique_skill_names": staging_manifest.get("counts", {}).get("battle_magic_unique_skill_names"),
+            "translator_model": "Codex internal",
+        },
+        "map_info_descriptions": {
+            "files": staging_manifest.get("counts", {}).get("map_info_description_files"),
+            "members": staging_manifest.get("counts", {}).get("map_info_description_members"),
+            "translator_model": "Codex internal",
+        },
+        "battle_raster_ui": {
+            "modified_texture_entries": staging_manifest.get("counts", {}).get("battle_ui_raster_modified_entries"),
+            "translated_text_items": staging_manifest.get("counts", {}).get("battle_ui_raster_translated_text_items"),
+            "translator_model": "Codex internal",
+        },
+        "remaining_runtime_text": {
+            "memory_patches": staging_manifest.get("counts", {}).get("battle_start_residue_translations"),
+            "final_memory_rules": staging_manifest.get("riivolution", {}).get("memory_count"),
+            "translator_model": "Codex internal",
         },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",

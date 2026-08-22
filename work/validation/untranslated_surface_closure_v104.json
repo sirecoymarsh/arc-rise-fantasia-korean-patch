@@ -1,0 +1,195 @@
+{
+  "schema": "arf-untranslated-surface-closure-v104",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "scope": {
+    "standard_enemy_skill_occurrences": 672,
+    "special_boss_skill_occurrences": 80,
+    "special_boss_unique_skill_names": 79,
+    "map_description_files": 36,
+    "map_description_members": 72,
+    "battle_raster_entries": 12,
+    "battle_raster_text_items": 19,
+    "staged_physical_files": 721,
+    "memory_rules": 943
+  },
+  "result": {
+    "confirmed_user_visible_semantic_japanese_remaining": 0,
+    "intentionally_retained_original_japanese": [
+      {
+        "surface": "opening title logo baked into Movie/RAY_OP_02.sfd",
+        "reason": "the translated re-encode froze; source movie is retained for runtime stability"
+      }
+    ],
+    "not_counted_as_missing_translation": [
+      "Japanese voice audio",
+      "intentional decorative English interface art"
+    ]
+  },
+  "checks": [
+    {
+      "name": "staging_identity",
+      "passed": true
+    },
+    {
+      "name": "staging_counts",
+      "passed": true
+    },
+    {
+      "name": "integration_report",
+      "passed": true
+    },
+    {
+      "name": "translation_provenance",
+      "passed": true
+    },
+    {
+      "name": "xml_and_physical_sets",
+      "passed": true
+    },
+    {
+      "name": "memory_rule_set",
+      "passed": true
+    },
+    {
+      "name": "xml_hash_binding",
+      "passed": true
+    },
+    {
+      "name": "all_staged_rows_hash_bound",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "name": "battle_magic_all_slots",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "wyvern_burst_shot",
+      "passed": true
+    },
+    {
+      "name": "map_descriptions",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "battle_raster_ui",
+      "passed": true
+    },
+    {
+      "name": "battle_raster_known_surfaces",
+      "passed": true
+    },
+    {
+      "name": "battle_start_residue",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "all_manifest_memory_rules_bound",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "previous_user_reported_runtime_strings",
+      "passed": true,
+      "actual": {
+        "ないよ〜〜ん": "없지롱~~",
+        "タウン一覧を表示します": "마을 목록을 표시합니다",
+        "ダンジョン一覧を表示します": "던전 목록을 표시합니다",
+        "月影の宿一覧を表示します": "달그림자 여관 목록 표시"
+      }
+    },
+    {
+      "name": "standard_enemy_and_skill_layer",
+      "passed": true
+    },
+    {
+      "name": "system_database_residue",
+      "passed": true
+    },
+    {
+      "name": "fixed_table_geometry",
+      "passed": true
+    },
+    {
+      "name": "translation_memory",
+      "passed": true
+    }
+  ],
+  "passed_count": 20,
+  "failed_count": 0,
+  "errors": [],
+  "error_count": 0,
+  "valid": true,
+  "artifacts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
+      "size_bytes": 898496,
+      "sha256": "A27A85AF12D8B4063DA676BFF678F80750A7EB0CC7BCD4B7ED1ABC4F440BEDF7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
+      "size_bytes": 145311,
+      "sha256": "1C8571B061F7D2A4F5BF1E15ECB97110C11FF0BA2BC71BE2F3191ED5B0183FF1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\remaining_untranslated_integration.json",
+      "size_bytes": 13994,
+      "sha256": "126575191842058A745F6DF40D41906C9E1659CCBB36032FE1B8483875B74439"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_magic_application\\application_report.json",
+      "size_bytes": 40222,
+      "sha256": "F38A0B28A24F6DB8D2234C1CAAB5F0C34D54CDFB03D1E786E450C791ECE23AC4"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\application_report.json",
+      "size_bytes": 68742,
+      "sha256": "4384BEDE3FB0BD5759A4E6031FBD49BB9DE77D0B247D15049911D773AB22729A"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\application_report.json",
+      "size_bytes": 11372,
+      "sha256": "A48417B0792831E92619FF4163293E78673778925A75BC3A5FB4AE5E66CB93F7"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\battle_start_residue_patch_report.json",
+      "size_bytes": 2321,
+      "sha256": "96E683AADBD88DBF9F44A9DF06AA27B0C9500CC968F29E438552D22EB795C29A"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_enemy_application\\application_report.json",
+      "size_bytes": 227501,
+      "sha256": "BFC87CAE934B45AF73FFC369DCE8497BFECB39FA9980B9BAA4CE86940323C25E"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\system_text_residue_application\\application_report.json",
+      "size_bytes": 22544,
+      "sha256": "D7CC21C61A9FEE7B5EA86D343A726AB6C7817110A6EB8811ABAB2D39A51782C2"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_validation\\fixed_table_geometry_repair_validation.json",
+      "size_bytes": 25659,
+      "sha256": "4A00B580D2288A684977BDDD81F9D504BA436355A96176A394EEFDD4C537ACDB"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\final\\translation_memory_draft.json",
+      "size_bytes": 43637320,
+      "sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\runtime_fix\\main_dol_translations.jsonl",
+      "size_bytes": 550331,
+      "sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\battle_magic\\battle_magic_skill_translations.json",
+      "size_bytes": 10509,
+      "sha256": "376648E0BDC9C68969EC8DEDE51A20E1BC802EA00AD6BD214C8942A8C84738DC"
+    }
+  ]
+}

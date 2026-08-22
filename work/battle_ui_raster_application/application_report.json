@@ -1,0 +1,258 @@
+{
+  "schema": "arf-battle-raster-ui-application-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "translation_engine_policy": "Codex internal model only",
+  "external_translation_models_or_apis_used": false,
+  "source": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\arc_rise_fantasia_ko_full\\files\\Btl\\btl_usual.vol",
+    "size": 4833312,
+    "sha256": "3FF42BC5877E56AD6CD778CA96D6683320215FDC066A92C737003706876E0945"
+  },
+  "output": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\btl_usual.vol",
+    "size": 4833312,
+    "sha256": "C57249A61EA292B2AE1C2DD941804252543346E398B4B8E38275715B27AFDEA3"
+  },
+  "counts": {
+    "outer_members": 26,
+    "changed_outer_members": 2,
+    "modified_wtm_entries": 12,
+    "translated_text_items": 19,
+    "unexpected_changed_members": 0,
+    "size_changed_members": 0
+  },
+  "outer_changes": [
+    {
+      "index": 5,
+      "name": "btl_tex_wtm.vol",
+      "size": 576480,
+      "source_sha256": "1B87F45687A609231AB013516AD5408EA9784844CDDD53E7FFEA99665F7C247E",
+      "output_sha256": "3B88E5A7AAA6284E577A69CF707A0534FF4E70261E02949FAA925692DACCDF2F"
+    },
+    {
+      "index": 7,
+      "name": "btl_tex_shared.vol",
+      "size": 386816,
+      "source_sha256": "192A08986EECEBB067629D7BFD3A4229FC0C2FBA8C1ABF89591D47D77CF09533",
+      "output_sha256": "8B73ACAE28DD24A7FB6BB54242268F802F1C32F3959F7FE416C46677ED48189C"
+    }
+  ],
+  "wtm_changes": [
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 27,
+      "member": "btl_comandlist_moji.wtm",
+      "size": 1888,
+      "source_sha256": "24C31AF2C6ADB9A4921FC065B1A5185DC8C1C82141A3724F66C29927D397E630",
+      "output_sha256": "D50694EF98934315F7160D213E3E01FCEE0CDF61B6A54A1BC2AA925BD6E67402",
+      "source_visible_text": "コマンド",
+      "translation_ko": "명령",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 32,
+      "member": "btl_renkei_moji_renkei.wtm",
+      "size": 96800,
+      "source_sha256": "A6BCEBAE8251934DCF93CFAE999E1140D0E4BF1051AFA9463F80DC282982DEC8",
+      "output_sha256": "167F45764C6854863B1C916DFF5FF253B9C27C2EEB3492064C5EA50931F32060",
+      "source_visible_text": "連携",
+      "translation_ko": "연계",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 33,
+      "member": "btl_renkei_moji_renkei_enemy.wtm",
+      "size": 96800,
+      "source_sha256": "7A027A23A5652DC55C2A82A0967DB0D6254A9EE94A7DD0DE16C834FCC981D245",
+      "output_sha256": "FD4860615CF81E70D0D521C70EAC693C654F005D45CA25D6DAA2E1ADA1D09F92",
+      "source_visible_text": "連携",
+      "translation_ko": "연계",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 34,
+      "member": "btl_renkei_moji_excelact_pc.wtm",
+      "size": 25248,
+      "source_sha256": "DAC52AC8882F246F996577B82E8C8C2259876CC8EF97437FB3DB73B39AF418F4",
+      "output_sha256": "86A83A5F3186F4A0BB5DF64D55730E0E6DA49DC7DB7C699FE5734C1E3ECC1F47",
+      "source_visible_text": "奥義",
+      "translation_ko": "오의",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 35,
+      "member": "btl_renkei_moji_excelact_enemy.w",
+      "size": 25248,
+      "source_sha256": "492B2607A5FC639F5BED45EC5583BE333C98F37686434AD76D6CC969298F2BD7",
+      "output_sha256": "89427492FAE90E9514B9A0B5980FBC6212D62A11806E746E86728A719D6CF1D1",
+      "source_visible_text": "奥義",
+      "translation_ko": "오의",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 48,
+      "member": "btl_renkei_moji_syugeki.wtm",
+      "size": 93216,
+      "source_sha256": "1B0F5D4A32BA2AC28447391FC4AAC0A1388483ED8E6D1A957CC7A5203AE44B9E",
+      "output_sha256": "ABDF3C02538234D73EB7B04C06F3A6A958257024C386BB1E2B431F07F0CBF02F",
+      "source_visible_text": "襲撃 / First attack",
+      "translation_ko": "선제공격",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 49,
+      "member": "btl_renkei_moji_tekisyu.wtm",
+      "size": 93216,
+      "source_sha256": "B72E4C21A1CC98504B5E58E35B013E224CFA343576E96F1DA90C2BEE2781CE74",
+      "output_sha256": "7CAEF55AC6E6A21DF7CB43E1453432EAE6A04C90DDEF5E59BA1A454572737E1A",
+      "source_visible_text": "敵襲 / Back attack",
+      "translation_ko": "기습",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_wtm.vol",
+      "entry_index": 75,
+      "member": "btl_tactics_moji.wtm",
+      "size": 2656,
+      "source_sha256": "ED40FF1DFCB283F7458C5D24E7386194E67B11F62E5709E639490531E6551F2C",
+      "output_sha256": "D72FD02274E0DECEEEB8FA10BE37F5336798909135D1500CBCF1551F7F49071F",
+      "source_visible_text": "作戦 1 / 作戦 2 / 作戦 3",
+      "translation_ko": "작전 1 / 작전 2 / 작전 3",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_shared.vol",
+      "entry_index": 16,
+      "member": "btl_status_dead.wtm",
+      "size": 9248,
+      "source_sha256": "4E08D0546EF734DB2A56FDC8165E803536D9042B81447C832141CCB576DBAFEC",
+      "output_sha256": "A7F3770E8D8517C38ED5B9C268916BFCAF521DE82694DE9901DC5B19C20D7B8D",
+      "source_visible_text": "戦闘不能",
+      "translation_ko": "전투불능",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_shared.vol",
+      "entry_index": 50,
+      "member": "btl_comandselect_moji.wtm",
+      "size": 3904,
+      "source_sha256": "7012646CCF5323FA3CCED9C12CFD99BFE6966AFB5DC9DBDFF550DE022006BFC1",
+      "output_sha256": "A0DA22757F0DA4EEF9310454BF47CA5BD86A4760C6FCE740C0E1AF25186097CC",
+      "source_visible_text": "行動選択 / 作戦設定 / ステータス / 逃走",
+      "translation_ko": "행동 선택 / 작전 설정 / 상태 / 도주",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_shared.vol",
+      "entry_index": 71,
+      "member": "btl_hit_moji.wtm",
+      "size": 7968,
+      "source_sha256": "039B08AC2B2584704218A93481E19B27938E76314900E0F987CB87CD139AA001",
+      "output_sha256": "0A03184849AA71D6568F38BA8A1992F94E34ECF0C32989218BF82768263A7F78",
+      "source_visible_text": "連携レート / Total damage / Hit",
+      "translation_ko": "연계율 / 총 피해량 / HIT",
+      "translator_model": "Codex internal"
+    },
+    {
+      "container": "btl_tex_shared.vol",
+      "entry_index": 99,
+      "member": "moji.wtm",
+      "size": 576,
+      "source_sha256": "9C70734744633DC8969707F15C71721C99A04526BC7459227AD7ECB100BA53B4",
+      "output_sha256": "F6F60EB6BEA4E080A6A78B81306AFECF3DD9BB8E9A5B4731E078B1A378949378",
+      "source_visible_text": "弱点 / 耐性",
+      "translation_ko": "약점 / 내성",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "preview_artifacts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\additional_contact.png",
+      "size": 25992,
+      "sha256": "D59F6EEB81EB4195D88625AF2B8CBA48E10B5ABA12C9B91AE768A6AE83FE7B95"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_comandlist_moji.wtm.png",
+      "size": 2478,
+      "sha256": "D730C03767898A92612E793E49560796C1D384AAE9B33EF75CECA670F53F3582"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_comandselect_moji.redecoded.png",
+      "size": 2500,
+      "sha256": "E23D19CEB310F2110A77FB429A3E34F7351609AA56354D1A7C7634366D37D0A9"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_comandselect_moji.wtm.png",
+      "size": 5077,
+      "sha256": "75113A0653E4A75284A3DA051DFFD249356CB7944490A8C7C8F96696BEE0EF3B"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_hit_moji.wtm.png",
+      "size": 4213,
+      "sha256": "67F3D396DEB9973A246B35E1152E384A32458949947F176C60117EEE849FCF90"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_renkei_moji_excelact_enemy.w.png",
+      "size": 4483,
+      "sha256": "DD83A1C17BBA9FAA71A75DD9D7C04821EF3F5DE66E55DFF1CA154C21E98067B5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_renkei_moji_excelact_pc.wtm.png",
+      "size": 4058,
+      "sha256": "EAEBF0D029F6BD77B7F093C1E209BCC6B4AAC6C512F8379F41A10E239BE679F5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_renkei_moji_renkei.wtm.png",
+      "size": 11119,
+      "sha256": "25F9C10238DA016045A62452D2E709F9AE104096B2534B646348AD37D03EFF61"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_renkei_moji_renkei_enemy.wtm.png",
+      "size": 10089,
+      "sha256": "95AB70D2983E276EBAAE9500246B5E38F49241485EC8BCE939D57B5F2AB88AC8"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_renkei_moji_syugeki.wtm.png",
+      "size": 16447,
+      "sha256": "DDFFC3CBDE7F790D0B9C7D094154727295E4495A4A5E9ADD3830C5C6CCA336AF"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_renkei_moji_tekisyu.wtm.png",
+      "size": 10230,
+      "sha256": "4B81E85FB6DB6CA479B86731EB404B9B880C4DA2509354859D65FB4746E35F2C"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_status_dead.wtm.png",
+      "size": 6309,
+      "sha256": "D514A0F78CC90BF1F1E1929AEA4F1B21FF8BC2CB66D8BE7B95B48F5962C1385F"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_tactics_moji.wtm.png",
+      "size": 4670,
+      "sha256": "42E7F137AB41D128D8373752C901ED80F512D5DB0421A76EFA892DBBC29C8946"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\battle_ui_raster_application\\preview_png\\btl_weak_resist_moji.wtm.png",
+      "size": 1037,
+      "sha256": "0010864EBA9919E91C57AF5F1D5CD8714A60E214D63A9D3D23239800BCB9CA3A"
+    }
+  ],
+  "checks": {
+    "outer_size_preserved": true,
+    "outer_member_layout_preserved": true,
+    "only_two_allowlisted_nested_volumes_changed": true,
+    "nested_member_layouts_preserved": true,
+    "only_twelve_allowlisted_wtm_entries_changed": true,
+    "all_wtm_entry_sizes_preserved": true
+  },
+  "valid": true,
+  "error_count": 0,
+  "errors": []
+}
