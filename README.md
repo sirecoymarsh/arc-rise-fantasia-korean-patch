@@ -1,8 +1,39 @@
 # Arc Rise Fantasia (Japan) 한국어 패치
 
-`RPJJ99` 일본판용 Riivolution 한국어 패치의 제작 소스, 번역 메모리, 빌드 도구 및 해시 결속 검증 자료입니다.
+`RPJJ99` 일본판용 한국어 패치의 제작 소스, 번역 메모리, 빌드 도구 및 해시 결속 검증 자료입니다.
 
-## 최종 배포본 v1.0.5
+## 최신 배포본 v1.1.0 — 원클릭 ROM 패처
+
+- 파일: `ArcRiseFantasia-Korean-ROM-Patcher-v1.1.0.zip`
+- SHA-256: `A85B9F110EC72B3993F8092DCE9A15E31445BA2D4AC7C7677D66F122F115DC2A`
+- 입력: 일본판 `RPJJ99` 원본 RVZ 또는 ISO
+- 출력: 한국어가 내장된 별도의 RVZ 또는 ISO
+- 델타 항목: 722개(게임 파일 721개 + `main.dol` 1개)
+- 패치 매니페스트 SHA-256: `7CAEED6D8B6B7CAC0EE4C85AB9282154F4944F2A2A4C293818B5F2B62C6B09C2`
+- 완전한 원본·패치 게임 이미지 포함: 없음
+
+### 사용법
+
+1. ZIP 파일의 압축을 완전히 풉니다.
+2. `ArcRiseFantasiaKoreanRomPatcher.exe`를 더블클릭합니다.
+3. 일본판 `RPJJ99` 원본 `.rvz` 또는 `.iso`를 선택합니다.
+4. 한국어판을 저장할 위치와 RVZ/ISO 형식을 선택합니다.
+5. **한국어판 만들기**를 누릅니다.
+
+원본은 수정하지 않으며 출력 게임 ID도 `RPJJ99`로 유지되므로 기존 세이브를 그대로 사용합니다. 만들어진 파일은 Dolphin/Riivolution 패치 없이 바로 실행할 수 있습니다. ISO 출력은 사용하는 실기용 USB 로더의 방식에 맞춰 넣을 수 있습니다.
+
+### v1.1.0 검증
+
+- 원본 RVZ → 한국어 ISO: 성공, 722/722 출력 파일 해시 일치
+- 원본 ISO → 한국어 RVZ: 성공, 722/722 출력 파일 해시 일치
+- 한국어 RVZ 독립 Dolphin 부팅: 성공, 비정상 메모리 접근 로그 0건
+- 최종 ZIP CRC·압축 해제·738개 파일 해시: 전부 일치
+- 압축 해제본 GUI 실행: 성공
+- Microsoft Defender 최종 EXE·스테이징·ZIP·압축 해제본 검사: 신규 탐지 0건
+
+검증 자료는 `release_metadata/rom_patcher_v1.1.0/`에 있습니다.
+
+## 이전 배포본 v1.0.5 — Riivolution 오버레이
 
 - 파일: `outputs/Arc_Rise_Fantasia_Korean_Patch_v1.0.5.zip`
 - SHA-256: `34A7681AC2DDAFC3EFB5CD13D85F922B7E2C2D5A8879187D655A221A2CAC3B0E`
@@ -12,7 +43,7 @@
 
 대용량 ZIP과 원본·추출 게임 데이터는 Git에 넣지 않습니다. GitHub Release에는 ZIP과 체크섬을 첨부하고, 저장소에는 체크섬과 `release_metadata/`의 manifest/provenance를 기록합니다.
 
-## 원클릭 설치
+### v1.0.5 원클릭 설치
 
 1. ZIP 파일의 압축을 완전히 풉니다.
 2. Dolphin을 종료합니다.
@@ -49,7 +80,7 @@
 
 정지 원인은 Dolphin 설정이 아니라 재인코딩된 `Movie/RAY_OP_02.sfd`였습니다. 릴리스에서는 해당 영상 오버레이를 제거하여 일본판 디스크의 원본 SFD를 그대로 읽습니다. 안정성을 위해 오프닝의 게임 제목 한 줄은 일본어로 남습니다.
 
-## 검증
+## v1.0.5 검증
 
 - 원클릭 신규 설치: 통과
 - 동일 패치 재설치 및 다른 Riivolution XML 보존: 통과
