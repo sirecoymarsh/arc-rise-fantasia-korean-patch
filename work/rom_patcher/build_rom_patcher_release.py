@@ -9,11 +9,11 @@ import subprocess
 import zipfile
 from pathlib import Path
 
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 EXPECTED_PATCH_MANIFEST_SHA256 = (
-    "7CAEED6D8B6B7CAC0EE4C85AB9282154F4944F2A2A4C293818B5F2B62C6B09C2"
+    "D04B7AE05835D083BF18ADF770F3B9154B291B4E5788CCFA8EF5001EBF6414B2"
 )
-EXPECTED_DELTA_BYTES = 465_404_088
+EXPECTED_DELTA_BYTES = 465_404_108
 PRODUCT_DIR = f"ArcRiseFantasia-Korean-ROM-Patcher-v{VERSION}"
 
 
@@ -126,7 +126,7 @@ def main() -> int:
         copy_file(wit_root / "bin" / name, stage / "tools/wit" / name)
     copy_file(wit_root / "gpl-2.0.txt", stage / "licenses/WIT-GPL-2.0.txt")
 
-    usage = """아크 라이즈 판타지아 한국어 롬 패처 v1.1.0
+    usage = """아크 라이즈 판타지아 한국어 롬 패처 v1.1.1
 
 사용법
 1. ZIP의 압축을 완전히 풉니다.

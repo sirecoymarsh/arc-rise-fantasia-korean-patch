@@ -377,7 +377,7 @@ def main() -> int:
         "disc_region": "Japan",
         "disc_revision": 0,
         "patch_title": "Arc Rise Fantasia Korean ROM Patch",
-        "patch_version": "1.1.0",
+        "patch_version": "1.1.1",
         "translator_model": "Codex internal",
         "meaning_translation_external_services_used": [],
         "copyright_policy": (

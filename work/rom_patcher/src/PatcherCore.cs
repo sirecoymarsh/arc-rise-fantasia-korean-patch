@@ -80,7 +80,7 @@ namespace ArcRiseFantasiaKoreanRomPatcher
     internal sealed class PatchWorker
     {
         private const string ExpectedManifestSha256 =
-            "7CAEED6D8B6B7CAC0EE4C85AB9282154F4944F2A2A4C293818B5F2B62C6B09C2";
+            "D04B7AE05835D083BF18ADF770F3B9154B291B4E5788CCFA8EF5001EBF6414B2";
         private const string ExpectedSchema = "arf-rom-patcher-delta-v1";
         private const string ExpectedGameId = "RPJJ99";
         private readonly string baseDirectory;

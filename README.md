@@ -2,15 +2,17 @@
 
 `RPJJ99` 일본판용 한국어 패치의 제작 소스, 번역 메모리, 빌드 도구 및 해시 결속 검증 자료입니다.
 
-## 최신 배포본 v1.1.0 — 원클릭 ROM 패처
+## 최신 배포본 v1.1.1 — 원클릭 ROM 패처
 
-- 파일: `ArcRiseFantasia-Korean-ROM-Patcher-v1.1.0.zip`
-- SHA-256: `A85B9F110EC72B3993F8092DCE9A15E31445BA2D4AC7C7677D66F122F115DC2A`
+- 파일: `ArcRiseFantasia-Korean-ROM-Patcher-v1.1.1.zip`
+- SHA-256: `D56BBC5A4E9BB47D92031A5968ABAE99F6E5BF634C7266ACF42282C7BE4B580C`
 - 입력: 일본판 `RPJJ99` 원본 RVZ 또는 ISO
 - 출력: 한국어가 내장된 별도의 RVZ 또는 ISO
 - 델타 항목: 722개(게임 파일 721개 + `main.dol` 1개)
-- 패치 매니페스트 SHA-256: `7CAEED6D8B6B7CAC0EE4C85AB9282154F4944F2A2A4C293818B5F2B62C6B09C2`
+- 패치 매니페스트 SHA-256: `D04B7AE05835D083BF18ADF770F3B9154B291B4E5788CCFA8EF5001EBF6414B2`
 - 완전한 원본·패치 게임 이미지 포함: 없음
+
+v1.1.1은 몬스터 DB와 별도로 남아 있던 전투 필드 오브젝트 이름 `レイストーン`을 `레이 스톤`으로 수정합니다. 케이지 상점의 그림형 UI와 `main.dol` 문구도 최종 패치에 포함되어 있습니다.
 
 ### 사용법
 
@@ -22,16 +24,22 @@
 
 원본은 수정하지 않으며 출력 게임 ID도 `RPJJ99`로 유지되므로 기존 세이브를 그대로 사용합니다. 만들어진 파일은 Dolphin/Riivolution 패치 없이 바로 실행할 수 있습니다. ISO 출력은 사용하는 실기용 USB 로더의 방식에 맞춰 넣을 수 있습니다.
 
-### v1.1.0 검증
+### v1.1.1 검증
 
-- 원본 RVZ → 한국어 ISO: 성공, 722/722 출력 파일 해시 일치
-- 원본 ISO → 한국어 RVZ: 성공, 722/722 출력 파일 해시 일치
-- 한국어 RVZ 독립 Dolphin 부팅: 성공, 비정상 메모리 접근 로그 0건
+- 원본 RVZ → 한국어 RVZ: 성공, 722/722 출력 파일 해시 일치
+- 한국어 RVZ 독립 Dolphin 90초 부팅: 프로세스 정상 응답
 - 최종 ZIP CRC·압축 해제·738개 파일 해시: 전부 일치
 - 압축 해제본 GUI 실행: 성공
 - Microsoft Defender 최종 EXE·스테이징·ZIP·압축 해제본 검사: 신규 탐지 0건
+- `레이 스톤` 필드와 케이지 상점 자산: 최종 이미지 포함 정적 검증 통과, 실제 화면 재확인 대기
 
-검증 자료는 `release_metadata/rom_patcher_v1.1.0/`에 있습니다.
+검증 자료는 `release_metadata/rom_patcher_v1.1.1/`에 있습니다.
+
+## 이전 배포본 v1.1.0 — 원클릭 ROM 패처
+
+- 파일: `ArcRiseFantasia-Korean-ROM-Patcher-v1.1.0.zip`
+- SHA-256: `A85B9F110EC72B3993F8092DCE9A15E31445BA2D4AC7C7677D66F122F115DC2A`
+- 패치 매니페스트 SHA-256: `7CAEED6D8B6B7CAC0EE4C85AB9282154F4944F2A2A4C293818B5F2B62C6B09C2`
 
 ## 이전 배포본 v1.0.5 — Riivolution 오버레이
 
