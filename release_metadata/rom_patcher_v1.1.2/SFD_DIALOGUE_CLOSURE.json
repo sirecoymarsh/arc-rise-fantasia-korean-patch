@@ -1,0 +1,37 @@
+{
+  "schema": "arf-sfd-dialogue-closure-v1",
+  "game_id": "RPJJ99",
+  "valid": true,
+  "movies": 21,
+  "movies_without_audio": 7,
+  "movies_with_audio": 14,
+  "story_dialogue_movies": 1,
+  "story_dialogue_movie": "Movie/RAY_OP_02.sfd",
+  "story_dialogue_seconds": [
+    152.368,
+    283.088
+  ],
+  "active_engine_subtitle_script": "Map/map_d_hnk_00.cxd::lz10::0001:map_d_hnk_00.bscr",
+  "active_engine_subtitle_lines": 29,
+  "active_engine_subtitles_korean": true,
+  "active_map_staged_sha256": "FFF0C4F7A0F4E41F9068BB96800D79F9AE5B225E7B25161349F43F76BE33FD3B",
+  "semantic_spoken_dialogue_without_korean_subtitles": 0,
+  "movie_reencode_required": false,
+  "trusted_original_sfd_retained": true,
+  "review_candidate_applied_to_game": false,
+  "translation_provenance": "Codex internal",
+  "external_translation_service_used_for_korean": false,
+  "stt_role": "speech-presence and timing evidence only; no STT text was accepted as Korean translation",
+  "approved_unchanged_visual_mark": {
+    "path": "Movie/RAY_OP_02.sfd",
+    "text": "アークライズファンタジア",
+    "function": "opening title-logo subline, not dialogue or subtitle",
+    "reason": "user directed the nonessential movie graphic to remain original; re-encoded SFD previously froze, while all spoken story dialogue is already covered by the Korean BSCR subtitle lane"
+  },
+  "source_review": {
+    "path": "work/runtime_validation/sfd_dialogue_review_v112/SFD_AUDIO_DIALOGUE_REVIEW.json",
+    "size": 20609,
+    "sha256": "67F50E88B62CBA028DE03427E554434D0D52766C6E5EE2089AFE6666A6FC2719"
+  },
+  "errors": []
+}
