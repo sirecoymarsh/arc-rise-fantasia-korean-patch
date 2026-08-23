@@ -18,12 +18,12 @@ from pathlib import Path, PurePosixPath
 from typing import Any, Iterable
 
 
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.2"
 EXPECTED_TM_UNITS = 29_777
-EXPECTED_MAIN_DOL_UNITS = 925
+EXPECTED_MAIN_DOL_UNITS = 926
 EXPECTED_SYSTEM_FIELDS = 5_236
 EXPECTED_SYSTEM_PAYLOADS = 13
-EXPECTED_STAGED_PHYSICAL = 683
+EXPECTED_STAGED_PHYSICAL = 684
 GEOMETRY_TM_ID = "ARF-TM-7983B232461623CDF50F"
 
 
@@ -584,7 +584,7 @@ def main() -> int:
         (
             "final_v2_approved_units",
             font_approved_current,
-            "Recompose final_v2 approved_units from refreshed TM units plus the unchanged 925 main.dol rows.",
+            "Recompose final_v2 approved_units from refreshed TM units plus the reviewed 926 main.dol rows.",
         ),
         (
             "fit_preflight_hash_binding",

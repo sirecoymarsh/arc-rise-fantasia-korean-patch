@@ -3,7 +3,7 @@
   "game_id": "RPJJ99",
   "translation_engine_policy": "Codex internal models only",
   "external_translation_models_or_apis_used": false,
-  "translation_memory_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
+  "translation_memory_sha256": "8E41899068A8B11AD6D2EA573E242F5EC24D4BB68B00772768C4260C8B88DD9A",
   "codebook_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
   "boundary_audit_sha256": "F1D312C5F70CECA06AF3B070B39A21ECD364F391ED52E6D999FFAE88DDBAED77",
   "approved_system_tm_units": 4343,
@@ -36,9 +36,9 @@
     {
       "catalog": "ability.json",
       "schema": "ability",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\ability.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\ability.bin",
       "source_sha256": "8C433A1879789914D100570DE3308ADE33A4B25A10FB012F2AA09396FEDF70A3",
-      "output_path": "work\\final_system_table_application\\payloads\\ability.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\ability.bin",
       "output_sha256": "4F261522C2B8FF8F54BA60DCD59C5FE62475C4C72A3AED3E9FBA9D0832B021C5",
       "source_size": 36500,
       "output_size": 36500,
@@ -48,15 +48,15 @@
       "table_specific_boundary_fields": 1,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "D25B3A4FA5296DDFECA8C6B76DF8BF25BFEBEDCA13582E571506A4872621869A",
-      "verification_catalog_sha256": "3BB121A96F5924D74DBB5ACEF3B0F814187F5B4AD26C2C03A17650E4BF4E62F9"
+      "replacement_catalog_sha256": "BCFC46601C915986402AF952E89ADCB31050AD2B01F7246593076DC76A2FD470",
+      "verification_catalog_sha256": "E306EAFCADE698A5ACBB792EAF6E85903E460B72B8BA9989A291A77A2C6D6CAA"
     },
     {
       "catalog": "chat.json",
       "schema": "chat",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\chat.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\chat.bin",
       "source_sha256": "B6265427516C3AA9CD8967F997DBA2B8172066DA7F5D93AA89A6FEAEB779AFFC",
-      "output_path": "work\\final_system_table_application\\payloads\\chat.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\chat.bin",
       "output_sha256": "7DDC30BBD711561BF142CB3DAED71D44AB9432F29D64BC4CD9859424D4157A87",
       "source_size": 100972,
       "output_size": 100972,
@@ -66,15 +66,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "B236CE0E35CBC0E366FA051B15694AD3E820257DFFAB3F348AD43BC0929A2D2B",
-      "verification_catalog_sha256": "6E9D3C8C7BE231DDD16D1F318E189036AE309967B2D26BD97793D6CE5375A59B"
+      "replacement_catalog_sha256": "2DCDAD6D115D3613CDED5F1F7DE775172DD0DC5C47663E84793614C61245428A",
+      "verification_catalog_sha256": "05D98A7532C7775857310DBD13D1FF23AAB9E121A518E3C194F0F8D5168C9B1A"
     },
     {
       "catalog": "dragon.json",
       "schema": "dragon",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\dragon.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\dragon.bin",
       "source_sha256": "36F2557290C19F4087CE5F687DF7D06CBF745ED0DB79112C944F2E659B362B18",
-      "output_path": "work\\final_system_table_application\\payloads\\dragon.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\dragon.bin",
       "output_sha256": "B8374EBE1BF8DBBA947F64CEE3317FDC8D1FD810B9E76E0DFA4E9BEAF0ED6F81",
       "source_size": 3627,
       "output_size": 3627,
@@ -84,15 +84,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "FE136A6343097794F4765F63CC891B6D1974FE9FBB9E73A7E0D6CDCBFED8B97D",
-      "verification_catalog_sha256": "F1E6BE1B31125A4A1FC8D2DE4DA3E1A4B570619B93EE71692262EDC5E8352ECE"
+      "replacement_catalog_sha256": "BA7B003AF94C802B2B77F60B4B32A5F88855037808DA5298D262D446E1433A4F",
+      "verification_catalog_sha256": "79A3400610AD65D65A75489BEA64190494E006D9A320992B6B8093F3D7B36644"
     },
     {
       "catalog": "help.json",
       "schema": "help",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Sys\\help.bin",
       "source_sha256": "1A73D89B2598247C6D2CF507FD1ECC81FCC6C84BC67CF589612ADEF25A314607",
-      "output_path": "work\\final_system_table_application\\payloads\\help.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\help.bin",
       "output_sha256": "BD2223EF7063947787313BB1604F46F77ADF866ABB820EEC2F7914A1827F7BCB",
       "source_size": 131860,
       "output_size": 131860,
@@ -102,15 +102,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "43EBCDB6437B10F9EF378FC9817D7FEF53AACF43B9E98DA0F2A977727DE1172B",
-      "verification_catalog_sha256": "C1B45BBBEBCEDF76519E3C0A19AFAF957AE60BD216A0F98E87FB45B856EEAEFD"
+      "replacement_catalog_sha256": "B403C04200B286ABFD05A8D4F7E8F3F713AD8F233DCFBD9549A3313AF98C0EBF",
+      "verification_catalog_sha256": "CE85E585F1CEA35FC7A8A74500F1943AECD39C2F08449876B812CE19327D9982"
     },
     {
       "catalog": "item.json",
       "schema": "item",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\item.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\item.bin",
       "source_sha256": "FEB064CC60DB6CA95F0BE230BD4F23C621039343F5154C09C03D3D38CF9ABC1B",
-      "output_path": "work\\final_system_table_application\\payloads\\item.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\item.bin",
       "output_sha256": "D34872BC0016AF92C2B59181427C1D7BD578E38F7ADEF0C0E4ECB99C31C5E852",
       "source_size": 196860,
       "output_size": 196860,
@@ -120,15 +120,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "530B5E090B6C4D653BD9928783C48F5F88A882056F5715AB61500464C7FC2A82",
-      "verification_catalog_sha256": "9840105082BE1E8016B8E1FB6AD07395B4DBBD672EC94AFD48BD85F1C43BBB72"
+      "replacement_catalog_sha256": "B9E2B33E11D26D9538D150A876A6055061536D3A50031C41015BD292146DCD4B",
+      "verification_catalog_sha256": "B79DF8BE9B7591C9E18E50F39D2FECF57B071E47841830006ACE9B82CBE494CF"
     },
     {
       "catalog": "magic.json",
       "schema": "magic",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\magic.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\magic.bin",
       "source_sha256": "FEFBA72D4133D30A7828C8E0BD5785BD3827348DD05B8E02D6D0BAE91242F205",
-      "output_path": "work\\final_system_table_application\\payloads\\magic.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\magic.bin",
       "output_sha256": "3C1BC17B51543E7F1AD8F1D1FF3C9F77728C309F3C8FADAA000DF7AD3D98983E",
       "source_size": 8036,
       "output_size": 8036,
@@ -138,15 +138,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "01F90C84DDD0034A9B1274046652D231891626942C501B9E47EAB92A187D3190",
-      "verification_catalog_sha256": "8BC331A11B4830F84DA1A688B33443E5FA11EC158F368910EFA329369A15EE1C"
+      "replacement_catalog_sha256": "7107C27A8A37B44328E7FF5C4B7C3E0DAEC7E4BEC2500DDCF1A78A96C743DBA9",
+      "verification_catalog_sha256": "18999BE3B91CBAEF7419222BDC3C6E2D43B8FFEBE63712B56901D79B0C264738"
     },
     {
       "catalog": "monster_book.json",
       "schema": "monster_book",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\disc_extracted\\DATA\\files\\Sys\\monster_book.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\Sys\\monster_book.bin",
       "source_sha256": "D880BBE7E262BA49B186B6BAEDC12B82DC4B2100FC61F73569270E0BF8675F79",
-      "output_path": "work\\final_system_table_application\\payloads\\monster_book.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\monster_book.bin",
       "output_sha256": "D5E74976D8503FFE89E72EEEC8B61600083F827FE60CFA83951199860A59E33D",
       "source_size": 176456,
       "output_size": 176456,
@@ -156,15 +156,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "4132D3E34357610EECFA11DDC49CDE4D9B6B9841D0AE1BABE5162EAB485E8188",
-      "verification_catalog_sha256": "F63DD61D2F5F2B638AD81A99A032E509D4522BE2FCDEE2570C55BBD9EBFDC6EA"
+      "replacement_catalog_sha256": "08490025CEC178007B5DD15902CC76FE8DE255605EEDA2CF1B86307AF53842D3",
+      "verification_catalog_sha256": "15BE3F2C88B93F64D21193B73085DB7B120DD581DE393615AE3B13F3A032A878"
     },
     {
       "catalog": "operation.json",
       "schema": "operation",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\operation.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\operation.bin",
       "source_sha256": "41B1686A43673914B7BEAF35C888150FDDFC36424C93FE57932BE74CD2DAD1CD",
-      "output_path": "work\\final_system_table_application\\payloads\\operation.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\operation.bin",
       "output_sha256": "16B49B30131856C5DA6C41F09869743CEAD969D257832544E00B03BAA260DD0A",
       "source_size": 960,
       "output_size": 960,
@@ -174,15 +174,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "D28A71F9EFAD4824DF14B148D8411BBF3C458886F0DFDC27BCE3310610B9D903",
-      "verification_catalog_sha256": "752739157A7340514DA968154E9DCBB3092F23FC8DA009F3C4624744CAC11D52"
+      "replacement_catalog_sha256": "6F1F296B927F8A2DE554725D6886C48E0BCCBDC7B231DF283D588037B4553A7A",
+      "verification_catalog_sha256": "4DD4DF57AC21D40DA1AE264B48FF6E1197FDAA9D516977164FAA300BFCA88D8A"
     },
     {
       "catalog": "quest.json",
       "schema": "quest",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\quest.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\quest.bin",
       "source_sha256": "6BE87A1FA224740B9DB9F96AD525FED4C836364747DADE1417F688FC3F338C3E",
-      "output_path": "work\\final_system_table_application\\payloads\\quest.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\quest.bin",
       "output_sha256": "BE66B83879381102A667B4DF02FA97C3343DE82E7B9C9E3508797274E78A3524",
       "source_size": 22990,
       "output_size": 22945,
@@ -192,15 +192,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "6B7C749E9A7EE1D6AD08A0FF369CAEE59741CAB8DEE7E58D47776B323BBDF779",
-      "verification_catalog_sha256": "45A7F427385564F33166913D630726E4015F8CE1CD5EF7B3D3C90AEAD6132FAF"
+      "replacement_catalog_sha256": "CFEE1DF6688AD0693378B9AAFC835FCFF04A1DAF7E0969C806A35F1EA079B561",
+      "verification_catalog_sha256": "A7888DE867D1482457B212138DD605F6FFA83EFF74B91198F14D3BD606FB1DCF"
     },
     {
       "catalog": "shop.json",
       "schema": "shop",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\shop.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\shop.bin",
       "source_sha256": "82E02A440DC300B9F81EEF6D6F685ECC16DE6EFABB097B3C30BAA87F0EDB59AE",
-      "output_path": "work\\final_system_table_application\\payloads\\shop.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\shop.bin",
       "output_sha256": "4097BF014641ED81A7B2CB68E7D34D629740C124A40E19E1257F4C47E3C62E88",
       "source_size": 4042,
       "output_size": 4042,
@@ -210,15 +210,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "B23C4C59B3D1F777101563CC21B605D3F2F1A32444C337B079FCAC51E4525552",
-      "verification_catalog_sha256": "AB93747EAE9117066713D774D0890F813C32DDA4B3C34BCDD87F2E3542CE3901"
+      "replacement_catalog_sha256": "D1DDC52CF7B5B85F2C06AA05AB2EE5974CFA30CFF0CAC99B33AB476BF3FB4FC8",
+      "verification_catalog_sha256": "07BE79C75DA884EE7E1AAC76F32AA05C58B0E8D31E005F62A32FA2575156CC4D"
     },
     {
       "catalog": "special.json",
       "schema": "special",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\special.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\special.bin",
       "source_sha256": "025AAD14A3A6FBCB3C6AF0C9A41621159AD7A4F1BF5D4C644532C836BD73917C",
-      "output_path": "work\\final_system_table_application\\payloads\\special.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\special.bin",
       "output_sha256": "DD5BDFF4BC1502CF26092F291590FCA9915584CA9F4B4C965A672E631A944516",
       "source_size": 10944,
       "output_size": 10944,
@@ -228,15 +228,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "393F804ABA9A1BA892991302214F3DC3D45CE25C95E42539C15380CD90D6ED7D",
-      "verification_catalog_sha256": "1B5F14DD3741FF7468E1C9F0787F7747D56AAD8282F5CFD09C528DC3F8E0375C"
+      "replacement_catalog_sha256": "F6622929E68F14B4F67D0C255D4FDAF567DB8908C55E3BABA79FC599DE8EEAB3",
+      "verification_catalog_sha256": "55587ABF801CF2B419D31B94DE7C8CEA51AC873BFAA8A7193FDC1305D1509B05"
     },
     {
       "catalog": "todo.json",
       "schema": "todo",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\todo.dat",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\todo.dat",
       "source_sha256": "F9E56BBC26884CC21680968830A2742D2C392ABE6F8B96ABCEDA388BFC3E52F6",
-      "output_path": "work\\final_system_table_application\\payloads\\todo.dat",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\todo.dat",
       "output_sha256": "98E1D553DF385DF41EE0C764D8DCDF9857A8EE31421AA1CAF20F7702ED871001",
       "source_size": 29952,
       "output_size": 29952,
@@ -246,15 +246,15 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "12656E4AE7A758426DDF5B2102A68F20B39B2D7D3CD220C0A37C77362D1647C8",
-      "verification_catalog_sha256": "C29D2371CA4189BE0D7A183B1FD27CD40630F2DE42621946C3771D28E7D51D2E"
+      "replacement_catalog_sha256": "8F738EB529A5DA4059CD33C0406F38D3F300093633DA51BAE6494BE580E8E869",
+      "verification_catalog_sha256": "855679A79E903B9E73D6F98C65441DBE48915E5080B7921A68ACD7EACD07932E"
     },
     {
       "catalog": "treasure.json",
       "schema": "treasure",
-      "source_path": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\pristine\\Sys\\system.vol\\treasure.bin",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\pristine\\Sys\\system.vol\\treasure.bin",
       "source_sha256": "2DB609C1E31E27D0998D02E729350EB706FD4C6582BAD467A854F700F66E3BDE",
-      "output_path": "work\\final_system_table_application\\payloads\\treasure.bin",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_system_table_application\\payloads\\treasure.bin",
       "output_sha256": "3CF3538C18C74B0220C13C807B7B123E55C4C613219E01432C636D60C8DC333B",
       "source_size": 12544,
       "output_size": 12544,
@@ -264,8 +264,8 @@
       "table_specific_boundary_fields": 0,
       "verification_errors": 0,
       "changes_outside_declared_slots": 0,
-      "replacement_catalog_sha256": "D441B786DE108CBCE910A293E59D09EF45FD77265912E6A927CDAC295E29B32D",
-      "verification_catalog_sha256": "E797D60F96FBB41D10CD59818F8ED63CE996B450E71E596270107E8AE984C140"
+      "replacement_catalog_sha256": "6932CA971008F488FF7F25863212E17377B69CE0941D9B3B990A6CD0D4237BFE",
+      "verification_catalog_sha256": "02DBAC689A0BCA2897F56A50F3B778B847AE192AE0B0166C322655BB73478063"
     }
   ],
   "valid": true

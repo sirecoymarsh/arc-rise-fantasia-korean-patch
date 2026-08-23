@@ -1,0 +1,61 @@
+{
+  "schema": "arf-ko-final-v105-comprehensive-validation-v1",
+  "game_id": "RPJJ99",
+  "release": "Arc_Rise_Fantasia_Korean_Patch_v1.0.5",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "checks": [
+    {
+      "name": "addressee_scene_voice_release",
+      "passed": true,
+      "schema": "arf-addressee-scene-voice-release-validation-v1"
+    },
+    {
+      "name": "release_validation",
+      "passed": true,
+      "schema": "arf-ko-final-release-validation-v1"
+    },
+    {
+      "name": "installer_fixture",
+      "passed": true,
+      "schema": "arf-ko-one-click-installer-fixture-v1"
+    },
+    {
+      "name": "zip_checksum",
+      "passed": true,
+      "sha256": "34A7681AC2DDAFC3EFB5CD13D85F922B7E2C2D5A8879187D655A221A2CAC3B0E"
+    }
+  ],
+  "passed_count": 4,
+  "failed_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "artifacts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\addressee_scene_voice_release_validation.json",
+      "size_bytes": 3218,
+      "sha256": "70AE16A98FDAF4BF52A5EF359F735E25F923AA4C8756169DC964E63BB702A294"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\final_release_validation_v105.json",
+      "size_bytes": 931,
+      "sha256": "7734F83A91842B5A0EB5E7487DA40831F94E30E4F85457A98162FF4E551A9A90"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\final_release_installer_fixture_v105.json",
+      "size_bytes": 1246,
+      "sha256": "08748FFAACC8026E7BBFE92442726E11ED061C9E320057EC9E40F7F75C4A063B"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.5.zip",
+      "size_bytes": 748103366,
+      "sha256": "34A7681AC2DDAFC3EFB5CD13D85F922B7E2C2D5A8879187D655A221A2CAC3B0E"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.5.zip.sha256",
+      "size_bytes": 109,
+      "sha256": "8D5D5476314D950D23F473CD8C7C5441F196DE75DF9EF4AA29834855AE3DD2F3"
+    }
+  ],
+  "valid": true
+}

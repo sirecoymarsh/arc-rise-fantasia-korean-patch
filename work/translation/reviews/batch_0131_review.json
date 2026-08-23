@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0131.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0131.jsonl",
   "reviewed_units": 200,
-  "modified_units": 19,
-  "unchanged_units": 181,
+  "modified_units": 20,
+  "unchanged_units": 180,
   "review_dimensions": [
     "meaning",
     "function",
@@ -176,6 +176,14 @@
       "after": "늘 알스 폐하 곁에 있는 여자――\n그 꺼림칙한 오르키나교의\n디바라는 소문이라고?<$0C>그런 더러운 여자를 애인으로 삼다니\n알스 폐하는 제정신이 아니야",
       "category": "proper_noun",
       "reason": "종교명 고정 표기를 적용했다."
+    },
+    {
+      "tm_id": "ARF-TM-DAFBDE02B436B293119B",
+      "source_text": "前回もそうだったが\nこれはあんたの仕事なんじゃ……",
+      "before": "지난번도 그랬지만\n이건 당신 일이 아닌가……",
+      "after": "지난번도 그랬지만\n이건 원래 맡은 일 아닌가……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -188,5 +196,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-DAFBDE02B436B293119B"
+    ],
+    "reviewed_sha256": "9E104E6CE6C53362CE22936BEE0D519B22329B867201AFBA64770B42D5B0A684"
+  },
+  "hashes": {
+    "reviewed_sha256": "9E104E6CE6C53362CE22936BEE0D519B22329B867201AFBA64770B42D5B0A684"
   }
 }

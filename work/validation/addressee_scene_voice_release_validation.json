@@ -1,0 +1,109 @@
+{
+  "schema": "arf-addressee-scene-voice-release-validation-v1",
+  "game_id": "RPJJ99",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "scope": {
+    "corrected_unique_tm_ids": 131,
+    "corrected_catalog_occurrences": 358,
+    "verified_final_physical_files": 120
+  },
+  "checks": [
+    {
+      "name": "required_inputs_present",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "correction_report_identity_and_policy",
+      "passed": true,
+      "report_sha256": "0AC36B359ABD1A9F204ACA1EB0DD3F6350236AF793700BD7C83595A0050ED5D7"
+    },
+    {
+      "name": "correction_counts_exact",
+      "passed": true,
+      "counts": {
+        "candidate_occurrences_reviewed": 128,
+        "unique_addressee_tm_ids_corrected": 127,
+        "speaker_voice_template_bleed_corrected": 3,
+        "unrelated_unit_semantic_copy_corrected": 1,
+        "total_unique_tm_ids_corrected": 131,
+        "touched_reviewed_batches": 64
+      },
+      "correction_rows": 131
+    },
+    {
+      "name": "review_queue_closed_exactly",
+      "passed": true,
+      "queue_rows": 128,
+      "queue_unique_tm_ids": 127,
+      "corrected_scene_tm_ids": 127
+    },
+    {
+      "name": "reviewed_dangsin_residue_zero",
+      "passed": true,
+      "residual_tm_ids": []
+    },
+    {
+      "name": "scene_voice_and_semantic_categories_exact",
+      "passed": true,
+      "category_counts": {
+        "scene_addressee_and_story_phase_voice": 127,
+        "speaker_voice_template_bleed": 3,
+        "unrelated_unit_semantic_copy": 1
+      }
+    },
+    {
+      "name": "corrected_control_tokens_preserved",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "final_tm_contains_all_131_corrections",
+      "passed": true,
+      "final_tm_sha256": "8E41899068A8B11AD6D2EA573E242F5EC24D4BB68B00772768C4260C8B88DD9A",
+      "mismatch_tm_ids": []
+    },
+    {
+      "name": "reviewed_batches_match_final_corrections",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "name": "staging_bound_to_correction_report_and_tm",
+      "passed": true,
+      "staging_manifest_sha256": "8FDA96B15C1DD2036E60206B2C82A711DC55BCC05987A48C139848ABEEA48677"
+    },
+    {
+      "name": "occurrence_manifest_hash_and_uniqueness",
+      "passed": true,
+      "occurrence_manifest_sha256": "433BFC31EC0C7CC814CF1B32B6B7CAC52E81976225731848052D94D471B2B28A",
+      "duplicates": []
+    },
+    {
+      "name": "all_corrected_occurrences_bound_to_encoded_targets",
+      "passed": true,
+      "corrected_occurrences": 358,
+      "errors": []
+    },
+    {
+      "name": "all_corrected_occurrences_are_scene_bscr",
+      "passed": true,
+      "non_bscr_occurrences": []
+    },
+    {
+      "name": "final_staged_containers_embed_every_corrected_occurrence",
+      "passed": true,
+      "verified_occurrences": 358,
+      "expected_occurrences": 358,
+      "verified_physical_files": 120,
+      "physical_errors": [],
+      "extraction_errors": []
+    }
+  ],
+  "passed_count": 14,
+  "failed_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

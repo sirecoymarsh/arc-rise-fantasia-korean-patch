@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Riivolution_v1.1.3"
 
 
 def sha256(path: Path) -> str:
@@ -28,6 +28,12 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest().upper()
+
+
+def write_text_crlf(path: Path, text: str, encoding: str) -> None:
+    """Write deterministic Windows text, optionally with an encoding BOM."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    path.write_bytes(normalized.replace("\n", "\r\n").encode(encoding))
 
 
 def safe_relative(path: Path, root: Path) -> str:
@@ -109,6 +115,122 @@ def validate_staging(
         or int(residue.get("changed_outside_allowed_bytes", -1)) != 0
     ):
         raise RuntimeError("system text residue closure is incomplete")
+    counts = dict(staging_manifest.get("counts", {}))
+    if (
+        int(counts.get("ui_raster_translated_entries", -1)) != 68
+        or int(counts.get("ui_raster_translated_text_items", -1)) != 155
+    ):
+        raise RuntimeError("resident raster UI translation coverage is incomplete")
+    inputs = dict(staging_manifest.get("inputs", {}))
+    ui_translation_record = dict(inputs.get("ui_raster_translation_manifest", {}))
+    ui_report_record = dict(inputs.get("ui_raster_application_report", {}))
+    ui_translation_path = Path(str(ui_translation_record.get("path", "")))
+    ui_report_path = Path(str(ui_report_record.get("path", "")))
+    if (
+        not ui_translation_path.is_file()
+        or sha256(ui_translation_path) != str(ui_translation_record.get("sha256", "")).upper()
+        or ui_translation_record.get("translator_model") != "Codex internal"
+        or ui_translation_record.get("external_translation_models_or_services_used") != []
+    ):
+        raise RuntimeError("resident raster UI translation provenance is missing or stale")
+    if not ui_report_path.is_file() or sha256(ui_report_path) != str(ui_report_record.get("sha256", "")).upper():
+        raise RuntimeError("resident raster UI application report is missing or stale")
+    ui_report = json.loads(ui_report_path.read_text(encoding="utf-8"))
+    ui_file = physical_root / "interface" / "if_resident_vol.cxd"
+    ui_row = staged_rows.get("interface/if_resident_vol.cxd", {})
+    if (
+        ui_report.get("valid") is not True
+        or ui_report.get("translator_model") != "Codex internal"
+        or ui_report.get("external_translation_models_or_services_used") != []
+        or str(ui_report.get("source", {}).get("sha256", "")).upper()
+        != "09E6816C21AF70DDA1A7E474D0E25C50E0C3E9477E8313A8AFA922DE6172D359"
+        or int(ui_report.get("counts", {}).get("translated_wtmd_entries", -1)) != 68
+        or int(ui_report.get("counts", {}).get("translated_text_items", -1)) != 155
+        or int(ui_report.get("counts", {}).get("render_overflows", -1)) != 0
+        or not ui_file.is_file()
+        or sha256(ui_file) != str(ui_report.get("output", {}).get("sha256", "")).upper()
+        or sha256(ui_file) != str(ui_row.get("output_sha256", "")).upper()
+    ):
+        raise RuntimeError("resident raster UI staged payload is incomplete or unbound")
+    town_map = dict(staging_manifest.get("town_map_legend_patch", {}))
+    town_input = dict(inputs.get("town_map_legend_translations", {}))
+    town_input_path = Path(str(town_input.get("path", "")))
+    if (
+        town_map.get("valid") is not True
+        or int(town_map.get("translated_labels", -1)) != 15
+        or int(town_map.get("base_memory_rules", -1)) != 926
+        or int(town_map.get("final_memory_rules", -1)) != 941
+        or town_map.get("icon_identifier_prefixes_preserved") is not True
+        or town_map.get("terminating_nuls_preserved") is not True
+        or town_map.get("changes_confined_to_allowlisted_spans") is not True
+        or town_map.get("translator_model") != "Codex internal"
+        or town_map.get("external_translation_models_or_apis_used") is not False
+        or int(counts.get("town_map_legend_translations", -1)) != 15
+        or int(riivolution.get("memory_count", -1)) != 945
+        or not town_input_path.is_file()
+        or sha256(town_input_path) != str(town_input.get("sha256", "")).upper()
+        or town_input.get("translator_model") != "Codex internal"
+        or town_input.get("external_translation_models_or_apis_used") is not False
+    ):
+        raise RuntimeError("town-map legend translation patch is incomplete or unbound")
+    remaining = dict(staging_manifest.get("remaining_untranslated_patch", {}))
+    required_remaining = {
+        "battle_magic_skill_name_occurrences": 80,
+        "battle_magic_unique_skill_names": 79,
+        "map_info_description_files": 36,
+        "map_info_description_members": 72,
+        "battle_ui_raster_modified_entries": 12,
+        "battle_ui_raster_translated_text_items": 19,
+        "battle_start_residue_translations": 2,
+    }
+    if (
+        remaining.get("valid") is not True
+        or remaining.get("translator_model") != "Codex internal"
+        or remaining.get("external_translation_models_or_apis_used") is not False
+        or any(int(counts.get(key, -1)) != value for key, value in required_remaining.items())
+        or int(riivolution.get("file_count", -1)) != 721
+        or int(riivolution.get("memory_count", -1)) != 945
+    ):
+        raise RuntimeError("remaining untranslated-surface delta is incomplete")
+    runtime_code = dict(staging_manifest.get("runtime_code_patch", {}))
+    runtime_input = dict(inputs.get("nul_glyph_guard_patch", {}))
+    runtime_input_path = Path(str(runtime_input.get("path", "")))
+    if (
+        runtime_code.get("schema") != "arf-runtime-code-patch-v1"
+        or runtime_code.get("valid") is not True
+        or runtime_code.get("root_cause_confirmed") is not True
+        or runtime_code.get("mmu_required") is not False
+        or runtime_code.get("warning_suppression_used") is not False
+        or int(runtime_code.get("memory_rules", -1)) != 2
+        or int(runtime_code.get("base_memory_rules", -1)) != 943
+        or int(runtime_code.get("final_memory_rules", -1)) != 945
+        or int(counts.get("runtime_code_patch_memory_rules", -1)) != 2
+        or int(counts.get("riivolution_memory_rules", -1)) != 945
+        or not runtime_input_path.is_file()
+        or sha256(runtime_input_path) != str(runtime_input.get("sha256", "")).upper()
+        or str(runtime_input.get("sha256", "")).upper()
+        != str(runtime_code.get("patch_manifest_sha256", "")).upper()
+    ):
+        raise RuntimeError("NUL-glyph runtime guard is incomplete or unbound")
+
+    for input_name in (
+        "battle_magic_application_report",
+        "map_info_application_report",
+        "battle_ui_raster_application_report",
+        "battle_start_residue_patch_report",
+    ):
+        record = dict(inputs.get(input_name, {}))
+        path = Path(str(record.get("path", "")))
+        if not path.is_file() or sha256(path) != str(record.get("sha256", "")).upper():
+            raise RuntimeError(f"remaining untranslated-surface report is stale: {input_name}")
+    for physical_name in ("Btl/btl_magic.vld", "Btl/btl_usual.vol"):
+        row = staged_rows.get(physical_name, {})
+        path = physical_root / physical_name
+        if not path.is_file() or sha256(path) != str(row.get("output_sha256", "")).upper():
+            raise RuntimeError(f"remaining battle payload is missing or stale: {physical_name}")
+    map_rows = [name for name in staged_rows if name.startswith("interface/data_map_") and name.endswith("_vol.cxd")]
+    if len(map_rows) != 36:
+        raise RuntimeError("map description overlay set is incomplete")
     if not staging_manifest_path.is_file():
         raise RuntimeError("staging manifest disappeared during validation")
 
@@ -143,45 +265,69 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.1.3
 
-## 대상
+## Dolphin 원클릭 설치
+
+1. ZIP 파일의 압축을 완전히 풉니다.
+2. Dolphin을 종료합니다.
+3. `설치하기.cmd`를 더블클릭합니다.
+4. 설치 완료 안내가 나오면 Dolphin을 실행합니다.
+5. 게임을 우클릭하고 **Riivolution 패치로 시작**을 선택한 뒤 한국어 패치를 켭니다.
+
+Dolphin 사용자 폴더를 자동으로 찾지 못하면 폴더 선택창이 열립니다. Dolphin의
+**파일 → 사용자 폴더 열기**로 확인되는 폴더를 선택하면 됩니다. PowerShell 명령이나
+원본 RVZ 경로를 입력할 필요가 없으며 원본 RVZ는 수정하지 않습니다.
+
+## Wii 실기 설치(Riivolution 파일 로딩)
+
+이 방식은 게임 이미지를 새로 만들지 않습니다. 홈브류 채널과 Riivolution이 설치된 Wii,
+FAT32 SD 카드, 일본판 정품 디스크(RPJJ99)가 필요합니다.
+
+1. ZIP의 압축을 완전히 풉니다.
+2. `payload\riivolution_sd` **안의** `arc_rise_fantasia_ko_full` 폴더와
+   `riivolution` 폴더를 SD 카드 최상위(루트)에 복사합니다.
+3. 복사 후 다음 두 경로가 존재하는지 확인합니다.
+   - `SD:/arc_rise_fantasia_ko_full/files/...`
+   - `SD:/riivolution/arc_rise_fantasia_ko_full.xml`
+4. SD 카드를 Wii에 넣고 일본판 정품 디스크를 삽입합니다.
+5. 홈브류 채널에서 Riivolution을 실행합니다.
+6. `Arc Rise Fantasia`의 `Korean Full Text Patch`를 `Enabled`로 두고 `Launch`를 누릅니다.
+
+`riivolution_sd` 폴더 자체를 SD 카드에 복사하면 인식되지 않습니다. 이 방법은
+Riivolution이 정품 디스크의 파일을 SD 카드 파일로 실시간 대체하는 방식입니다.
+USB 로더가 Riivolution XML 로딩을 별도로 지원하지 않는다면 ROM 패처의 ISO 출력을 사용하세요.
+
+## Dolphin에 직접 복사할 경우
+
+`payload\\riivolution_sd` 안의 `arc_rise_fantasia_ko_full` 폴더와
+`riivolution` 폴더를 Dolphin 사용자 폴더의 `Load` 폴더에 복사합니다.
+`riivolution_sd` 폴더 자체를 복사하면 안 됩니다.
+
+## 삭제
+
+Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
+
+- `Load\\arc_rise_fantasia_ko_full`
+- `Load\\riivolution\\arc_rise_fantasia_ko_full.xml`
+
+다른 Riivolution 패치가 있을 수 있으므로 `Load\\riivolution` 폴더 전체를 삭제하면
+안 됩니다.
+
+## 대상 및 범위
 
 - 게임 ID: `{GAME_ID}`
 - 일본판 원본 RVZ SHA-256: `{SOURCE_RVZ_SHA256}`
 - 일본어 음성 유지
-- 원본 RVZ는 수정하지 않는 Riivolution/Dolphin 오버레이 방식
+- 원본 RVZ를 수정하지 않는 Riivolution/Dolphin 오버레이 방식
 - 전투 몬스터 기본명 270개와 보조 표시명 87회, 보스 부위명 3개, 몬스터 기술명 672회(고유 기술명 226개) 한국어화
 - 전수검사에서 추가 발견한 어빌리티명 14개, 채팅 제목 15개, 상점명 1개 한국어화
-
-## 설치
-
-1. Dolphin을 종료합니다.
-2. PowerShell에서 다음을 실행합니다.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\\Install-ARF-KO.ps1 `
-  -SourceRvz 'D:\\Games\\Arc Rise Fantasia (Japan).rvz' `
-  -TargetRoot 'D:\\DolphinUser\\Load'
-```
-
-`TargetRoot`에는 Riivolution SD 구조를 둘 폴더를 지정합니다. 설치기는 패키지와
-원본 해시를 확인한 뒤 `riivolution` 및 `arc_rise_fantasia_ko` 폴더를 복사합니다.
-
-## 복원
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\\Restore-ARF-KO.ps1
-```
-
-설치 전에 같은 경로에 있던 파일은 외부 백업에서 복구되고, 새로 추가된 파일은
-제거됩니다. 설치 상태는 `%LOCALAPPDATA%\\ArcRiseFantasiaKO`에 기록됩니다.
-
-## 무결성 확인
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
-```
+- 메뉴·지도·무기 커스터마이즈·상점·퀘스트·몬스터 도감 등에 남아 있던 그림형 UI 68장, 155개 표기 한국어화
+- 마을·필드 지도 아이콘 범례 15개(세이브 포인트·보물·상점·시설·현재 위치 등) 한국어화
+- 누락돼 있던 특수·보스 기술 80회(고유 79종, 와이번의 버스트 사격 포함) 한국어화
+- 자동 이동 지도 지역 설명 36곳의 DAT/TXT 72개 표시 데이터 한국어화
+- 전투 명령·작전·상태·도주·선제공격·기습·연계·오의·약점·내성 등 그림형 전투 UI 12장, 19개 표기 한국어화
+- 3인 이상 대화 128회에서 실제 수신자와 장면별 관계를 재검수하여 고유 대사 127개를 교정하고, 다른 장면·인물로 번진 고정 말투 3개와 의미 복사 오류 1개를 추가 교정
 
 번역·교정·윤문·용어 통일에는 Codex 내부 모델만 사용했습니다. 외부 번역
 서비스나 외부 생성 모델은 사용하지 않았습니다.
@@ -189,11 +335,34 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
 ## 오프닝 영상 안정성
 
 `Movie/RAY_OP_02.sfd`는 일본판 원본을 그대로 사용합니다. 개발 중 전체 영상을
-재인코딩한 후보에서 프레임 타임스탬프 역행과 실제 정지가 확인되어 릴리스에서는
-해당 영상 오버레이를 제외했습니다. 따라서 오프닝 중 게임 제목 한 줄은 일본어로
-남지만, 영상과 음성은 원본과 동일하게 재생됩니다.
+재인코딩한 후보에서 실제 정지가 확인되어 릴리스에서는 해당 영상 오버레이를
+제외했습니다. 따라서 오프닝 중 게임 제목 한 줄은 일본어로 남지만 영상과 음성은
+원본과 동일하게 재생됩니다.
 """
-    (package / "README_KO.md").write_text(readme, encoding="utf-8")
+    write_text_crlf(package / "README_KO.md", readme, "utf-8")
+    wii_guide = """아크 라이즈 판타지아 한국어 패치 v1.1.3 - Wii 실기 설치
+
+필요한 것
+- 홈브류 채널과 Riivolution이 설치된 Wii
+- FAT32 SD 카드
+- 일본판 정품 디스크(RPJJ99)
+
+설치
+1. ZIP의 압축을 완전히 풉니다.
+2. payload\riivolution_sd 안의 arc_rise_fantasia_ko_full 폴더와
+   riivolution 폴더를 SD 카드 최상위에 복사합니다.
+3. SD:/arc_rise_fantasia_ko_full/files 와
+   SD:/riivolution/arc_rise_fantasia_ko_full.xml 이 있는지 확인합니다.
+4. SD 카드를 Wii에 넣고 일본판 정품 디스크를 삽입합니다.
+5. 홈브류 채널에서 Riivolution을 실행합니다.
+6. Arc Rise Fantasia의 Korean Full Text Patch를 Enabled로 두고 Launch를 누릅니다.
+
+주의
+- riivolution_sd 폴더 자체를 복사하면 안 됩니다. 그 안의 두 폴더를 복사합니다.
+- 게임 이미지를 새로 만들지 않고 정품 디스크의 파일을 SD 카드 파일로 대체합니다.
+- USB 로더가 Riivolution XML을 지원하지 않으면 ROM 패처의 ISO 출력을 사용하세요.
+"""
+    write_text_crlf(package / "WII_실기_설치.txt", wii_guide, "utf-8-sig")
     public_staging = {
         "schema": staging_manifest.get("schema"),
         "game_id": staging_manifest.get("game_id"),
@@ -218,10 +387,22 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
         "source_rvz_sha256": SOURCE_RVZ_SHA256,
         "translation_units": int(staging_manifest.get("counts", {}).get("tm_units", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_unique_skill_names", 0))
-        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0)),
+        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_magic_unique_skill_names", 0))
+        + int(staging_manifest.get("counts", {}).get("map_info_description_files", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_start_residue_translations", 0)),
         "translation_occurrences": int(staging_manifest.get("counts", {}).get("catalog_occurrences", 0))
         + int(staging_manifest.get("counts", {}).get("battle_enemy_translation_occurrences", 0))
-        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0)),
+        + int(staging_manifest.get("counts", {}).get("system_text_residue_translation_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("town_map_legend_translations", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_magic_skill_name_occurrences", 0))
+        + int(staging_manifest.get("counts", {}).get("map_info_description_members", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_ui_raster_translated_text_items", 0))
+        + int(staging_manifest.get("counts", {}).get("battle_start_residue_translations", 0)),
         "battle_enemy": {
             "entries": staging_manifest.get("counts", {}).get("battle_enemy_entries"),
             "display_name_occurrences": staging_manifest.get("counts", {}).get("battle_enemy_display_name_occurrences"),
@@ -237,28 +418,91 @@ powershell -ExecutionPolicy Bypass -File .\\Verify-ARF-KO.ps1
             "shop_names": staging_manifest.get("system_text_residue_application", {}).get("shop_names"),
             "semantic_japanese_unmatched_after": staging_manifest.get("system_text_residue_application", {}).get("semantic_japanese_unmatched_after"),
         },
+        "raster_ui": {
+            "translated_texture_entries": staging_manifest.get("counts", {}).get("ui_raster_translated_entries"),
+            "translated_text_items": staging_manifest.get("counts", {}).get("ui_raster_translated_text_items"),
+            "translator_model": "Codex internal",
+            "external_translation_models_or_services_used": [],
+        },
+        "town_map_legend": {
+            "translated_labels": staging_manifest.get("counts", {}).get("town_map_legend_translations"),
+            "base_memory_rules": staging_manifest.get("town_map_legend_patch", {}).get("base_memory_rules"),
+            "final_memory_rules": staging_manifest.get("town_map_legend_patch", {}).get("final_memory_rules"),
+            "icon_identifier_prefixes_preserved": staging_manifest.get("town_map_legend_patch", {}).get("icon_identifier_prefixes_preserved"),
+            "translator_model": "Codex internal",
+            "external_translation_models_or_apis_used": False,
+        },
+        "battle_magic": {
+            "skill_name_occurrences": staging_manifest.get("counts", {}).get("battle_magic_skill_name_occurrences"),
+            "unique_skill_names": staging_manifest.get("counts", {}).get("battle_magic_unique_skill_names"),
+            "translator_model": "Codex internal",
+        },
+        "map_info_descriptions": {
+            "files": staging_manifest.get("counts", {}).get("map_info_description_files"),
+            "members": staging_manifest.get("counts", {}).get("map_info_description_members"),
+            "translator_model": "Codex internal",
+        },
+        "battle_raster_ui": {
+            "modified_texture_entries": staging_manifest.get("counts", {}).get("battle_ui_raster_modified_entries"),
+            "translated_text_items": staging_manifest.get("counts", {}).get("battle_ui_raster_translated_text_items"),
+            "translator_model": "Codex internal",
+        },
+        "remaining_runtime_text": {
+            "memory_patches": staging_manifest.get("counts", {}).get("battle_start_residue_translations"),
+            "final_memory_rules": staging_manifest.get("riivolution", {}).get("memory_count"),
+            "translator_model": "Codex internal",
+        },
+        "runtime_code_patch": {
+            "memory_rules": staging_manifest.get("runtime_code_patch", {}).get("memory_rules"),
+            "base_memory_rules": staging_manifest.get("runtime_code_patch", {}).get("base_memory_rules"),
+            "final_memory_rules": staging_manifest.get("runtime_code_patch", {}).get("final_memory_rules"),
+            "mmu_required": staging_manifest.get("runtime_code_patch", {}).get("mmu_required"),
+            "warning_suppression_used": staging_manifest.get("runtime_code_patch", {}).get("warning_suppression_used"),
+            "root_cause_confirmed": staging_manifest.get("runtime_code_patch", {}).get("root_cause_confirmed"),
+            "valid": staging_manifest.get("runtime_code_patch", {}).get("valid"),
+        },
+        "addressee_scene_voice_review": {
+            "candidate_occurrences_reviewed": staging_manifest.get("counts", {}).get("addressee_candidate_occurrences_reviewed"),
+            "unique_addressee_tm_ids_corrected": staging_manifest.get("counts", {}).get("addressee_unique_tm_ids_corrected"),
+            "speaker_voice_template_bleed_corrected": staging_manifest.get("counts", {}).get("speaker_voice_template_bleed_corrected"),
+            "semantic_copy_errors_corrected": staging_manifest.get("counts", {}).get("semantic_copy_errors_corrected"),
+            "total_unique_tm_ids_corrected": staging_manifest.get("counts", {}).get("addressee_scene_voice_total_unique_tm_ids_corrected"),
+            "correction_report_sha256": staging_manifest.get("addressee_scene_voice_review", {}).get("correction_report_sha256"),
+            "final_translation_memory_sha256": staging_manifest.get("addressee_scene_voice_review", {}).get("final_translation_memory_sha256"),
+            "translator_model": "Codex internal",
+            "external_translation_models_or_apis_used": False,
+            "valid": staging_manifest.get("addressee_scene_voice_review", {}).get("valid"),
+        },
         "reviewed_batches": 149,
         "translation_engine_policy": "Codex internal models only",
         "external_translation_models_or_apis_used": False,
-        "delivery": "reversible Riivolution-style overlay",
+        "delivery": "one-click Riivolution overlay installer",
         "staging_summary": public_staging,
     }
-    (package / "PROVENANCE.json").write_text(
-        json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    write_text_crlf(
+        package / "PROVENANCE.json",
+        json.dumps(public, ensure_ascii=False, indent=2) + "\n",
+        "utf-8",
     )
 
 
 def copy_installer_scripts(root: Path, package: Path) -> None:
     script_dir = root / "work" / "release_scripts"
-    for name in ("Install-ARF-KO.ps1", "Restore-ARF-KO.ps1", "Verify-ARF-KO.ps1"):
+    for name in ("Install-ARF-KO.ps1", "설치하기.cmd"):
         source = script_dir / name
         if not source.is_file():
             raise RuntimeError(f"missing release script: {source}")
-        # Windows PowerShell 5.1 requires a BOM to parse non-ASCII source
-        # reliably; emit UTF-8-SIG regardless of the workspace encoding.
-        (package / name).write_text(
-            source.read_text(encoding="utf-8-sig"), encoding="utf-8-sig"
-        )
+        if source.suffix.lower() == ".ps1":
+            # Windows PowerShell 5.1 requires a BOM for non-ASCII source.
+            write_text_crlf(
+                package / name,
+                source.read_text(encoding="utf-8-sig"),
+                "utf-8-sig",
+            )
+        else:
+            # Keep the CMD launcher ASCII so cmd.exe never interprets a BOM
+            # as part of the first command.
+            shutil.copy2(source, package / name)
 
 
 def build_manifest(
@@ -311,8 +555,10 @@ def build_manifest(
         "file_count_excluding_manifest": len(fixed_entries),
         "files": fixed_entries,
     }
-    (package / "MANIFEST.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    write_text_crlf(
+        package / "MANIFEST.json",
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        "utf-8",
     )
     return manifest
 
@@ -366,7 +612,7 @@ def main() -> int:
     )
     make_zip(package, zip_path)
     checksum = outputs / f"{PACKAGE_NAME}.zip.sha256"
-    checksum.write_text(f"{sha256(zip_path)}  {zip_path.name}\n", encoding="ascii")
+    write_text_crlf(checksum, f"{sha256(zip_path)}  {zip_path.name}\n", "ascii")
     print(
         json.dumps(
             {

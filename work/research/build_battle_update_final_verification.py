@@ -24,9 +24,9 @@ PATHS = {
     "runtime": W / "validation" / "dolphin_runtime_validation.json",
     "release_validation": W / "validation" / "final_release_validation.json",
     "installer_fixture": W / "validation" / "installer_fixture.json",
-    "package_manifest": ROOT / "outputs" / "Arc_Rise_Fantasia_Korean_Patch_v1.0" / "MANIFEST.json",
-    "zip": ROOT / "outputs" / "Arc_Rise_Fantasia_Korean_Patch_v1.0.zip",
-    "zip_checksum": ROOT / "outputs" / "Arc_Rise_Fantasia_Korean_Patch_v1.0.zip.sha256",
+    "package_manifest": ROOT / "outputs" / "Arc_Rise_Fantasia_Korean_Patch_v1.0.2" / "MANIFEST.json",
+    "zip": ROOT / "outputs" / "Arc_Rise_Fantasia_Korean_Patch_v1.0.2.zip",
+    "zip_checksum": ROOT / "outputs" / "Arc_Rise_Fantasia_Korean_Patch_v1.0.2.zip.sha256",
 }
 
 
@@ -101,7 +101,7 @@ def main() -> int:
     font = load(PATHS["font_injection"])
     check("font_v3_valid", font.get("valid") is True and font.get("error_count") == 0)
     check("font_v3_counts", font.get("assigned_characters") == 1370
-          and font.get("approved_units_encoded") == 30932
+          and font.get("approved_units_encoded") == 30933
           and font.get("approved_unit_encoding_errors") == 0)
 
     geometry = load(PATHS["geometry_repair"])
@@ -114,9 +114,9 @@ def main() -> int:
     integration = load(PATHS["staging_integration"])
     check("staging_integration_valid", integration.get("valid") is True
           and integration.get("error_count") == 0)
-    check("staging_counts", staging.get("counts", {}).get("staged_physical_files") == 683
-          and staging.get("riivolution", {}).get("file_count") == 683
-          and staging.get("riivolution", {}).get("memory_count") == 925)
+    check("staging_counts", staging.get("counts", {}).get("staged_physical_files") == 684
+          and staging.get("riivolution", {}).get("file_count") == 684
+          and staging.get("riivolution", {}).get("memory_count") == 926)
     check("staging_manifest_binding",
           integration.get("staging_manifest", {}).get("sha256") == sha(PATHS["staging_manifest"]))
     check("battle_application_binding",
@@ -155,8 +155,8 @@ def main() -> int:
           runtime.get("staging_manifest_sha256") == sha(PATHS["staging_manifest"]))
 
     package = load(PATHS["package_manifest"])
-    check("package_counts", package.get("game_replacement_file_count") == 683
-          and package.get("overlay_file_count") == 684)
+    check("package_counts", package.get("game_replacement_file_count") == 684
+          and package.get("overlay_file_count") == 685)
     check("package_staging_binding",
           package.get("staging_manifest_sha256") == sha(PATHS["staging_manifest"]))
     check("runtime_package_binding",
@@ -165,8 +165,8 @@ def main() -> int:
     release = load(PATHS["release_validation"])
     check("release_validation_valid", release.get("valid") is True
           and release.get("error_count") == 0 and not release.get("errors"))
-    check("release_counts", release.get("game_replacement_file_count") == 683
-          and release.get("overlay_file_count") == 684)
+    check("release_counts", release.get("game_replacement_file_count") == 684
+          and release.get("overlay_file_count") == 685)
     check("release_zip_binding", release.get("zip_sha256") == sha(PATHS["zip"]))
     sidecar = PATHS["zip_checksum"].read_text(encoding="ascii").split()
     check("zip_sidecar_binding", bool(sidecar) and sidecar[0].upper() == sha(PATHS["zip"]))

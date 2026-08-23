@@ -124,10 +124,10 @@
       "row_index": 48,
       "tm_id": "ARF-TM-48A2ED2F780C1E66A22F",
       "source_text": "ひとつ聞きたい。あなたは俺たちに\n色々なことを教えてくれた。\nどうして今更、こんなことを",
-      "before": "하나 묻고 싶다. 당신은 우리에게\n여러 가지를 가르쳐 줬어.\n그런데 왜 이제 와서 이런 짓을",
-      "after": "하나 묻고 싶다. 당신은 우리에게\n여러 가지를 가르쳐 주었다.\n그런데 왜 이제 와서 이런 짓을",
-      "category": "register",
-      "reason": "앞뒤의 단정적인 말투에 맞게 종결 표현을 통일했다."
+      "before": "하나 묻고 싶다. 당신은 우리에게\n여러 가지를 가르쳐 주었다.\n그런데 왜 이제 와서 이런 짓을",
+      "after": "하나 묻고 싶어. 아를루는 우리에게\n여러 가지를 가르쳐 줬잖아.\n그런데 왜 이제 와서 이런 짓을",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 54,
@@ -151,10 +151,10 @@
       "row_index": 68,
       "tm_id": "ARF-TM-48F8A3374742F897A258",
       "source_text": "……あんたは黙ってろ。\n話が先に進まないだろ",
-      "before": "……당신은 입 다물고 있어.\n이야기가 진행되지 않잖아",
-      "after": "……당신은 입 다물고 있어.\n얘기가 안 나가잖아",
-      "category": "naturalness",
-      "reason": "거친 대화 장면에 맞는 구어체로 다듬었다."
+      "before": "……당신은 입 다물고 있어.\n얘기가 안 나가잖아",
+      "after": "……사쥬는 조용히 해.\n이야기가 안 나가잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 70,
@@ -308,6 +308,22 @@
       "after": "분을 삭이는 병사",
       "category": "npc_label",
       "reason": "분해하다는 감정 의미가 모호하지 않도록 NPC 표제를 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-4A3B33E399D6ECF652A0",
+      "source_text": "――失礼、ミセス<$0C>あまり思い詰めますと\nあなたの美しいご尊顔が\n台無しになってしまいます",
+      "before": "――실례합니다, 부인<$0C>너무 깊이 고민하시면\n당신의 아름다운 용안이\n망가지고 맙니다",
+      "after": "――실례합니다, 부인<$0C>너무 깊이 고민하시면\n아름다운 용모가\n상하고 맙니다",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-4B92A89B55A40F8B0A55",
+      "source_text": "誰がアニキだ！",
+      "before": "누가 형님임까!",
+      "after": "누가 형님이야!",
+      "category": "speaker_voice_template_bleed",
+      "reason": "Larc slot 00 incorrectly inherited Nicol's ~임까 ending."
     }
   ],
   "verification_execution": {
@@ -320,5 +336,24 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "modified_units": 34,
+  "unchanged_units": 166,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-48A2ED2F780C1E66A22F",
+      "ARF-TM-48F8A3374742F897A258",
+      "ARF-TM-4A3B33E399D6ECF652A0",
+      "ARF-TM-4B92A89B55A40F8B0A55"
+    ],
+    "reviewed_sha256": "BC3F96AFF041B089EF9023D31B034597685E0E34444ABB543F339CBE09B81574"
+  },
+  "hashes": {
+    "reviewed_sha256": "BC3F96AFF041B089EF9023D31B034597685E0E34444ABB543F339CBE09B81574"
   }
 }

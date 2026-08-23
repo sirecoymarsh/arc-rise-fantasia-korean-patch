@@ -1,0 +1,154 @@
+{
+  "schema": "arf-rom-patcher-validation-v1",
+  "version": "1.1.1",
+  "valid": true,
+  "translator_model": "Codex internal",
+  "meaning_translation_external_services_used": [],
+  "source_contract": {
+    "game_id": "RPJJ99",
+    "region": "NTSC-J",
+    "country": "Japan",
+    "revision": 0,
+    "tested_original_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "source_main_dol_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+  },
+  "delta_payload": {
+    "entry_count": 722,
+    "patch_manifest_sha256": "D04B7AE05835D083BF18ADF770F3B9154B291B4E5788CCFA8EF5001EBF6414B2",
+    "aggregate_delta_sha256": "B99C33A2433172F1C3BA4EA9D872C7E44C5AD994900F0BA329DE222A73D71819",
+    "delta_bytes": 465404108,
+    "roundtrip_verified_entries": 722,
+    "contains_complete_game_image": false
+  },
+  "e2e": [
+    {
+      "direction": "original RVZ to Korean RVZ",
+      "valid": true,
+      "output_name": "Arc_Rise_Fantasia_Korean_v1.1.1.rvz",
+      "output_size": 3466654228,
+      "output_sha256": "00BDFBCC23B7AAF2A761D32247BE4014853C6BCB231C45AB37C5EABB1DACA635",
+      "game_id": "RPJJ99",
+      "checked_entries": 722,
+      "mismatch_count": 0,
+      "main_dol_output_sha256": "F548D0563FCB4002E7B707FA568B636676AFB4470194AAEC3D0CEC16710C0CD3",
+      "unexpected_dolphin_verify_summaries": [],
+      "accepted_low_severity_summaries": [
+        "The DATA partition is not correctly signed.",
+        "The update partition is missing."
+      ]
+    }
+  ],
+  "standalone_boot": {
+    "valid": true,
+    "image_name": "Arc_Rise_Fantasia_Korean_v1.1.1.rvz",
+    "image_sha256": "00BDFBCC23B7AAF2A761D32247BE4014853C6BCB231C45AB37C5EABB1DACA635",
+    "duration_seconds": 90,
+    "responding": true,
+    "cpu_seconds": 65.671875,
+    "dolphin_profile_isolated": true,
+    "log_capture_available": false,
+    "panic_or_invalid_log_claimed": false
+  },
+  "release_package": {
+    "valid": true,
+    "file_name": "ArcRiseFantasia-Korean-ROM-Patcher-v1.1.1.zip",
+    "size": 474145469,
+    "sha256": "D56BBC5A4E9BB47D92031A5968ABAE99F6E5BF634C7266ACF42282C7BE4B580C",
+    "crc_failure": null,
+    "zip_member_count": 738,
+    "extracted_file_count": 738,
+    "manifest_file_count": 736,
+    "hash_or_size_mismatches": [],
+    "forbidden_complete_image_files": [],
+    "absolute_path_or_username_leaks": [],
+    "patcher_exe_sha256": "B3D435AFE8460A2C7F0BB5F99D78A409908ADE245A7EE8AB294964AF05D6BC70",
+    "fresh_extract_gui_valid": true,
+    "fresh_extract_gui_title": "아크 라이즈 판타지아 한국어 롬 패처 v1.1.1"
+  },
+  "defender": {
+    "valid": true,
+    "antivirus_enabled": true,
+    "real_time_protection_enabled": true,
+    "engine_version": "1.1.26070.7",
+    "signature_version": "1.457.292.0",
+    "signature_last_updated": "2026-08-22T21:05:43.0000000+09:00",
+    "scan_started_at": "2026-08-23T11:41:02.7617179+09:00",
+    "scan_finished_at": "2026-08-23T11:41:07.2237865+09:00",
+    "roles": [
+      "release_exe",
+      "release_stage",
+      "release_zip",
+      "fresh_extract"
+    ],
+    "new_detection_count": 0
+  },
+  "ray_stone_fix": {
+    "logical_path": "DATA/files/Btl/btl_usual.vol",
+    "member_index": 25,
+    "member": "fld000.bin",
+    "field_offset_hex": "0x180",
+    "target_ko": "레이 스톤",
+    "target_hex": "B6DEB0AB20BCF7C6D1",
+    "metadata_byte_hex": "0x0A",
+    "container_output_sha256": "DF2574E528543BC1D7B13CDEF26705CA655F6D24834AAE400A0A6FA22678D3D2",
+    "manifest_hash_match": true,
+    "output_image_all_722_hashes_match": true
+  },
+  "cage_shop": {
+    "runtime_manual_screen_check": "pending",
+    "static_and_package_proof": true,
+    "main_dol_texts": [
+      "레벨 1 MP가 1 상승합니다",
+      "레벨 2 MP가 1 상승합니다",
+      "레벨 3 MP가 1 상승합니다",
+      "레벨 4 MP가 1 상승합니다",
+      "슬롯 확장",
+      "케이지 가공 초기화"
+    ],
+    "raster_assets": [
+      {
+        "inner_name": "if_heading_moji_customize.wtm",
+        "outer_name": "if_heading.vol",
+        "output_sha256": "152CE3059C53FFF4A07A46F2F0FDA3783ED23B93BFE3E52D9324C0D826A98BE3",
+        "translation_count": 4,
+        "targets": [
+          "케이지 가공",
+          "젬 복구",
+          "판매",
+          "상점 나가기"
+        ],
+        "all_fit": true
+      },
+      {
+        "inner_name": "if_cage_customize_title.wtm",
+        "outer_name": "if_cage_customize.vol",
+        "output_sha256": "167180A4947157C0C9C8BE98BE3AFDDAA3F10C116E727354E3234F1CA812B0CD",
+        "translation_count": 3,
+        "targets": [
+          "이름",
+          "가격",
+          "DP"
+        ],
+        "all_fit": true
+      },
+      {
+        "inner_name": "if_weapon_custom.wtm",
+        "outer_name": "if_weapon.vol",
+        "output_sha256": "C93DE4CFDEEA35FF1E795D59041E60F78B12002600C5BC9378739764FE6E4EBE",
+        "translation_count": 1,
+        "targets": [
+          "커스터마이즈 중!"
+        ],
+        "all_fit": true
+      }
+    ],
+    "interface_container_output_sha256": "B28E29B28D1CFB640E4C45FAB447D71AB50B5021C37DC1628A13B15FBCC63854",
+    "main_dol_output_sha256": "F548D0563FCB4002E7B707FA568B636676AFB4470194AAEC3D0CEC16710C0CD3",
+    "vcdiff_roundtrip_verified": true
+  },
+  "manual_runtime_checks_remaining": [
+    "레이 스톤 전투 대상명 표시",
+    "케이지 상점 전체 화면/상태 전환"
+  ],
+  "completed_at": "2026-08-23T11:48:50.029753+09:00"
+}

@@ -35,7 +35,13 @@ for (const file of files) {
 
 function est(s) {
   let n = 0;
-  for (const c of s) n += c.codePointAt(0) <= 0x7f ? 1 : 2;
+  let cursor = 0;
+  for (const match of s.matchAll(/<\$[0-9A-Fa-f]{2}>/g)) {
+    for (const c of s.slice(cursor, match.index)) n += c.codePointAt(0) <= 0x7f ? 1 : 2;
+    n += 1;
+    cursor = match.index + match[0].length;
+  }
+  for (const c of s.slice(cursor)) n += c.codePointAt(0) <= 0x7f ? 1 : 2;
   return n;
 }
 function tokens(s) {
@@ -44,8 +50,21 @@ function tokens(s) {
 
 const validationErrors = [];
 const out = [...merged.values()].sort((a, b) => a.offset - b.offset).map((row) => {
-  const src = byOffset.get(row.offset);
-  if (!src) throw new Error(`probe record missing at 0x${row.offset.toString(16)}`);
+  // Some reviewed rows deliberately combine adjacent probe fragments into one
+  // semantic fixed-width unit (for example a control byte between two map
+  // labels).  Such rows carry their own source identity and must not be
+  // rejected merely because the older probe catalog split them.
+  const probeSrc = byOffset.get(row.offset);
+  const src = probeSrc || {
+    byte_length: row.byte_length,
+    capacity_to_nul: row.capacity_to_nul,
+    text: row.source_text,
+    raw_hex: row.source_raw_hex,
+  };
+  if (!Number.isInteger(src.byte_length) || !Number.isInteger(src.capacity_to_nul) ||
+      typeof src.text !== 'string' || typeof src.raw_hex !== 'string') {
+    throw new Error(`source identity missing at 0x${row.offset.toString(16)}`);
+  }
   const actualRaw = dol.subarray(row.offset, row.offset + src.byte_length).toString('hex').toUpperCase();
   if (actualRaw !== src.raw_hex.toUpperCase()) validationErrors.push({ offset: row.offset, error: 'source_raw_mismatch' });
   const targetBytes = est(row.translation_ko);
@@ -88,7 +107,11 @@ function upperReason(r) {
 }
 const validCandidates = probe.records.filter((r) => r.offset >= 0x3c64f7 && r.offset <= 0x3f1dd9);
 const selectedOffsets = new Set(out.map((r) => r.offset));
-const exclusions = validCandidates.filter((r) => !selectedOffsets.has(r.offset)).map((r) => ({
+const selectedSpans = out.map((r) => [r.offset, r.offset + r.byte_length]);
+const coveredBySelectedSpan = (r) => selectedSpans.some(([start, end]) =>
+  start <= r.offset && r.offset + r.byte_length <= end
+);
+const exclusions = validCandidates.filter((r) => !coveredBySelectedSpan(r)).map((r) => ({
   offset: r.offset,
   offset_hex: `0x${r.offset.toString(16).toUpperCase().padStart(8, '0')}`,
   source_text: r.text,

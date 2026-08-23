@@ -1,0 +1,1780 @@
+{
+  "format": "LZ10-RTDP-tree-rebuild-v1",
+  "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd",
+  "inputSha256": "09e6816c21af70dda1a7e474d0e25c50e0c3e9477e8313a8afa922de6172d359",
+  "outputSha256": "b28e29b28d1cfb640e4c45fab447d71ab50b5021c37dc1628a13b15fbcc63854",
+  "inputSize": 1325076,
+  "outputSize": 1260716,
+  "unpackedInputSha256": "976bbadd5dfd17c2bfc7c3b62b58e3aee8bf981438d23f4afe421426ccaaf769",
+  "unpackedOutputSha256": "1b606e5f2f0568943d202c4eef7d60efaf0ec1b6ae9e980934dc7257455bcbf0",
+  "byteExact": false,
+  "lz10": {
+    "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd",
+    "policy": "deterministic-greedy-lz10",
+    "tieBreak": "longest-match, then nearest-distance",
+    "alignment": 4,
+    "inputPackedSize": 1325076,
+    "outputPackedSize": 1260716,
+    "unpackedSize": 2812384,
+    "inputSha256": "09e6816c21af70dda1a7e474d0e25c50e0c3e9477e8313a8afa922de6172d359",
+    "outputSha256": "b28e29b28d1cfb640e4c45fab447d71ab50b5021c37dc1628a13b15fbcc63854",
+    "unpackedSha256": "1b606e5f2f0568943d202c4eef7d60efaf0ec1b6ae9e980934dc7257455bcbf0",
+    "byteExact": false
+  },
+  "rtdpTree": {
+    "format": "RTDP-tree-rebuild-v1",
+    "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked",
+    "inputSha256": "976bbadd5dfd17c2bfc7c3b62b58e3aee8bf981438d23f4afe421426ccaaf769",
+    "outputSha256": "1b606e5f2f0568943d202c4eef7d60efaf0ec1b6ae9e980934dc7257455bcbf0",
+    "inputSize": 2812384,
+    "outputSize": 2812384,
+    "byteExact": false,
+    "editAudit": [
+      {
+        "entryPath": [
+          0,
+          287
+        ],
+        "name": "tex_shared_tab_moji.wtm",
+        "oldSize": 17952,
+        "newSize": 17952,
+        "oldSha256": "23b427a8b756e99e0e6aacef786d47c622071b3331c9d140d86be1ad1a95dcb4",
+        "newSha256": "e91461b941740d4437ed297bdd5a079ac91c1d0fbe3540712045f0a445fd63ea"
+      },
+      {
+        "entryPath": [
+          0,
+          289
+        ],
+        "name": "tex_shared_title_ability.wtm",
+        "oldSize": 448,
+        "newSize": 448,
+        "oldSha256": "fd9475b7d71d532080f116ca78ad3158fecf183a836d27750771a49ae060b152",
+        "newSha256": "a5ac4b40daacf72c70f77c8ce73cc38542fc7a6430c4975ee28ef9c78e2ae746"
+      },
+      {
+        "entryPath": [
+          0,
+          294
+        ],
+        "name": "tex_shared_title_name.wtm",
+        "oldSize": 384,
+        "newSize": 384,
+        "oldSha256": "e3b7b0e78653375d5c52c6e103f95fc9a04218aec121403b463f58f60f70f83c",
+        "newSha256": "4f0acfbca32cda31358edf0ffb3f3779696ee0b6687ae7c8aee2a66fd4de8592"
+      },
+      {
+        "entryPath": [
+          6,
+          2
+        ],
+        "name": "if_heading_moji.wtm",
+        "oldSize": 8512,
+        "newSize": 8512,
+        "oldSha256": "6bb0968dbb1a19a90878aa1bffb0902b504c937a9cb425c81d784d7af6763eca",
+        "newSha256": "07b8ab46a27470782b2001b96a4e0959c6b5dfea61706e58af142e449914d464"
+      },
+      {
+        "entryPath": [
+          6,
+          3
+        ],
+        "name": "if_heading_moji2.wtm",
+        "oldSize": 19072,
+        "newSize": 19072,
+        "oldSha256": "0c8b4d08dd6be0b6dcadfa600289a163a95aa77266bbb49600c9d3642fcbd133",
+        "newSha256": "09abe226486bd7d991280cb344f1e33e8bf47a14933acbffd77293bb54140955"
+      },
+      {
+        "entryPath": [
+          6,
+          4
+        ],
+        "name": "if_heading_moji_arena.wtm",
+        "oldSize": 2176,
+        "newSize": 2176,
+        "oldSha256": "c7ced8542299e2fcc683926c9380a6f68b1566dc1c6a9a72f1dcec8d1d9410dd",
+        "newSha256": "aa944001d4305ee27a8ecaa47b84da0778b09e83c79aee154773c3e37e75dd79"
+      },
+      {
+        "entryPath": [
+          6,
+          5
+        ],
+        "name": "if_heading_moji_casino.wtm",
+        "oldSize": 5344,
+        "newSize": 5344,
+        "oldSha256": "3cb937ab99b9a3dbef949ba1a7cb52281cee6daf71868961bef359d90f0137e3",
+        "newSha256": "1f17d06bfc4e835b6fadb884f2c33fc8662e31775468d87ce8e4cf107c687335"
+      },
+      {
+        "entryPath": [
+          6,
+          6
+        ],
+        "name": "if_heading_moji_casino2.wtm",
+        "oldSize": 5344,
+        "newSize": 5344,
+        "oldSha256": "591a85f54262070475b1c47d09a6b7084b8bf516abebcbc818724972a52f4eb1",
+        "newSha256": "e240a31f49c75bcaf37dd014b293a04585d820cd84632c2841895e608d4f510b"
+      },
+      {
+        "entryPath": [
+          6,
+          7
+        ],
+        "name": "if_heading_moji_customize.wtm",
+        "oldSize": 4288,
+        "newSize": 4288,
+        "oldSha256": "033bc8a9c0bfc9b2dd7c83760e0a1f5a828120d8d43b416e4d5c88a144c2976c",
+        "newSha256": "152ce3059c53fff4a07a46f2f0fda3783ed23b93bfe3e52d9324c0d826a98be3"
+      },
+      {
+        "entryPath": [
+          6,
+          8
+        ],
+        "name": "if_heading_moji_equipment_shop.w",
+        "oldSize": 4288,
+        "newSize": 4288,
+        "oldSha256": "cf2d432fb6453c5bdf0a50ab23d9e85a70e47d38ccc37557b7d096ed338e4f89",
+        "newSha256": "21cc6354bc87df38b0d4a0ecb6af2667d7d91b12f48ae5f56c80ccf826d5c53b"
+      },
+      {
+        "entryPath": [
+          6,
+          9
+        ],
+        "name": "if_heading_moji_guild.wtm",
+        "oldSize": 3232,
+        "newSize": 3232,
+        "oldSha256": "75623fd2e9742b960886074f817458283f4175d0ef42f42948d1a79ed660b28e",
+        "newSha256": "eedb9d055bdc03ed67e1d3246cc8b87d3d65e16bf9a7db60eeef0fbddde8ef63"
+      },
+      {
+        "entryPath": [
+          6,
+          10
+        ],
+        "name": "if_heading_moji_hotel.wtm",
+        "oldSize": 2176,
+        "newSize": 2176,
+        "oldSha256": "9a801457683b46839f8ec4ea87c9ec6632d53b3bb89a963590fdadcf9a7132ea",
+        "newSha256": "10880d8e57da019815d2ebf3c93e4e84a40035f1446b67818ff2b308d61f966e"
+      },
+      {
+        "entryPath": [
+          6,
+          11
+        ],
+        "name": "if_heading_moji_item_shop.wtm",
+        "oldSize": 3232,
+        "newSize": 3232,
+        "oldSha256": "0fa7ec199c4f858878f6efcb6095b06c76f1030f13a8b6926c8893b6861bd6d9",
+        "newSha256": "9438701f087b623fbad3aba345e4e32bb5e41a8162f88e6409ccce3e620d6693"
+      },
+      {
+        "entryPath": [
+          10,
+          1
+        ],
+        "name": "if_list_title.wtm",
+        "oldSize": 704,
+        "newSize": 704,
+        "oldSha256": "014f4aa25c11d00074b05dc855abd1b86c134719aedb57814b81d222c2311420",
+        "newSha256": "8bce40e3eaf7f2c7312422af65d8454689c90fa9ebfa2c89479b8efcd5331fcb"
+      },
+      {
+        "entryPath": [
+          15,
+          2
+        ],
+        "name": "if_element_title.wtm",
+        "oldSize": 576,
+        "newSize": 576,
+        "oldSha256": "3b0580130268ad5816b9d79e2ce43d650e5639ca4959a8d124657a12001562cc",
+        "newSha256": "0c7c5d61d9126cce38d32b866af16bb6cc3c2488b97cfd88262492171a9e374b"
+      },
+      {
+        "entryPath": [
+          16,
+          2
+        ],
+        "name": "if_equipment_moji2.wtm",
+        "oldSize": 4576,
+        "newSize": 4576,
+        "oldSha256": "170f8f86698ac3f522ec8cbbf80e525a83b988fc48c39315af251cb2b7d3fcad",
+        "newSha256": "30b292073fdf7e26d90f56f16d539d6ddc911d178ed9112e145f0e07ed8df9a4"
+      },
+      {
+        "entryPath": [
+          16,
+          3
+        ],
+        "name": "if_equipment_title_current_equip",
+        "oldSize": 576,
+        "newSize": 576,
+        "oldSha256": "99140e972feeaafa183b265ecbbd10d5b86aece56b7e2fd15e79dc533425824f",
+        "newSha256": "847a16ad48277d1d7fdd91bc6aeb1c0b8a14d3386474bc3e4aaa7bfe934d2441"
+      },
+      {
+        "entryPath": [
+          16,
+          4
+        ],
+        "name": "if_equipment_title_dragons.wtm",
+        "oldSize": 640,
+        "newSize": 640,
+        "oldSha256": "69f531f2ed33620455e1f83033365b58fa4794495e94a54ef6b2707883c75390",
+        "newSha256": "0b8c4acbd7c78fe8a02ccfd944a65765456c6987236ab034d75a4c548c1303bc"
+      },
+      {
+        "entryPath": [
+          18,
+          2
+        ],
+        "name": "if_caption_title_current_equipme",
+        "oldSize": 576,
+        "newSize": 576,
+        "oldSha256": "99140e972feeaafa183b265ecbbd10d5b86aece56b7e2fd15e79dc533425824f",
+        "newSha256": "847a16ad48277d1d7fdd91bc6aeb1c0b8a14d3386474bc3e4aaa7bfe934d2441"
+      },
+      {
+        "entryPath": [
+          20,
+          1
+        ],
+        "name": "if_shop_title.wtm",
+        "oldSize": 2240,
+        "newSize": 2240,
+        "oldSha256": "7f352f9f2560e9302211afaa320ebbb5792555f12bb3a3db49b3a9085741b7a9",
+        "newSha256": "f350de26084f8dbf2fd2ed61ebcd9c3d8480d485ae4b11507e9811afb83a0abb"
+      },
+      {
+        "entryPath": [
+          23,
+          2
+        ],
+        "name": "if_dp_moji.wtm",
+        "oldSize": 3616,
+        "newSize": 3616,
+        "oldSha256": "e48c3c752a6c60d10c72bad99de3479586fa32e22511f4d6b6a9d7bcff0d6c0d",
+        "newSha256": "2fd2ea565eafa737d84c23b74a8cc29ddb95cfeee310e957638cc8d55cc55909"
+      },
+      {
+        "entryPath": [
+          25,
+          1
+        ],
+        "name": "if_cage_customize_title.wtm",
+        "oldSize": 896,
+        "newSize": 896,
+        "oldSha256": "f24c0d538460188acc4154dcf33b0f9a3fa0bda6698c8bbd608121880967022f",
+        "newSha256": "167180a4947157c0c9c8be98be3afddaa3f10c116e727354e3234f1ca812b0cd"
+      },
+      {
+        "entryPath": [
+          26,
+          1
+        ],
+        "name": "if_gem_repairance_title.wtm",
+        "oldSize": 1088,
+        "newSize": 1088,
+        "oldSha256": "d1a77f8b59f803e1ff17b3f776c2ebdbe8b93dfaab5d2af58b3ef5b81c5efa15",
+        "newSha256": "7d75b8b2276e4451b8ec4a23b8246b679b165501da193628e308d1f14329578c"
+      },
+      {
+        "entryPath": [
+          27,
+          1
+        ],
+        "name": "if_clothes_shop_title.wtm",
+        "oldSize": 704,
+        "newSize": 704,
+        "oldSha256": "07d5e55d51467219016c9a4b2cb50a4e95af037d259e7bc67c606b73bf805b1a",
+        "newSha256": "3c2d7a1fc2afc3aa211186d4af2f1581138e2e220623c85158cf81efa9bcdda4"
+      },
+      {
+        "entryPath": [
+          28,
+          5
+        ],
+        "name": "if_weapon_custom.wtm",
+        "oldSize": 8224,
+        "newSize": 8224,
+        "oldSha256": "b13c08d0120c49a7dcebcb5e4fa10c3aa55a20fc0dea5336f4d1eebd2e8f9693",
+        "newSha256": "c93de4cfdeea35ff1e795d59041e60f78b12002600c5bc9378739764fe6e4ebe"
+      },
+      {
+        "entryPath": [
+          28,
+          6
+        ],
+        "name": "if_weapon_lv.wtm",
+        "oldSize": 960,
+        "newSize": 960,
+        "oldSha256": "ff06282a4ccfd3786cf946806f00cb4a4126683f8f9b5e798c280deab0fa86c2",
+        "newSha256": "66c04a9eb99805bdbaf9abe6ca6fad21107c792a269c6b5bc91120f6d96c6f2f"
+      },
+      {
+        "entryPath": [
+          28,
+          7
+        ],
+        "name": "if_weapon_mihatudou.wtm",
+        "oldSize": 2336,
+        "newSize": 2336,
+        "oldSha256": "54c11129b8b8927df51d2ea047e17d1a705c9d1fe78f93948ea632f95a4b3b85",
+        "newSha256": "1ab39257cc62a4a8cda573189d31272bbb3fd16ebff7c681582f1af70f99d4dd"
+      },
+      {
+        "entryPath": [
+          31,
+          1
+        ],
+        "name": "if_tactics_list_title.wtm",
+        "oldSize": 1824,
+        "newSize": 1824,
+        "oldSha256": "4050e1299c5eb9cdb66f35155e98d7d11e3ef2b2d36a354c88ded2e4648199bf",
+        "newSha256": "b83ea45d69343f6d2df214b356846c823f9e98366881667f1fe353acfb3ba4cf"
+      },
+      {
+        "entryPath": [
+          32,
+          2
+        ],
+        "name": "if_dragons_line_moji.wtm",
+        "oldSize": 4000,
+        "newSize": 4000,
+        "oldSha256": "55b0823afbd494c58b1d56516c15f8e0d312020ca8bf4b985b233fa1378884cf",
+        "newSha256": "18090e2484592a17e6ba80b40e7c245807f43f2e31643d77a11aaacdf651a25d"
+      },
+      {
+        "entryPath": [
+          32,
+          3
+        ],
+        "name": "if_dragons_list_name.wtm",
+        "oldSize": 2656,
+        "newSize": 2656,
+        "oldSha256": "d69fa7c71d0487530b517911226717cdf33d14c9b03de6cc173511250fa92d93",
+        "newSha256": "3ee3c877013fb80fe1ea4d3e9376c42252c3c2e2d611f8688a0a1b5904cde8a4"
+      },
+      {
+        "entryPath": [
+          33,
+          2
+        ],
+        "name": "if_world_map_title.wtm",
+        "oldSize": 384,
+        "newSize": 384,
+        "oldSha256": "8a98435b039e631017363ca7eb63a919587776ed834c2256c560a55133c645fb",
+        "newSha256": "c534f0de9d30097c7dd58d35d15b08c1d11b86ea092b84671996ee8b5ad4a0d9"
+      },
+      {
+        "entryPath": [
+          40,
+          5
+        ],
+        "name": "if_category_base_moji_aquatic.wt",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "5d59b9b88015b3bc0ff340b94e7ca823d12993b33339975da501e0304d9a0e2b",
+        "newSha256": "f8887ffc35a3b85f84b70d7d5a47c6b6703d45fb081c2a2029d147de0e3d5163"
+      },
+      {
+        "entryPath": [
+          40,
+          6
+        ],
+        "name": "if_category_base_moji_armforce_b",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "7fd1c382dde7ee898d0286cf7ae5b5d7acccd7cff49fe3d4ec55473adca22418",
+        "newSha256": "dc2c4039a297990e52261c1fa6d5b3d944e4e5c30f7e9283dcfe348c3496480b"
+      },
+      {
+        "entryPath": [
+          40,
+          7
+        ],
+        "name": "if_category_base_moji_armforce_g",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "3434b2b11a5f222584d50600c72c0fbdf0ee594475e45e5d72277d183807e927",
+        "newSha256": "e915c275ed23e8ef1d3a0ed0b2966d36fb1a072679d22797157d7fcfbb868377"
+      },
+      {
+        "entryPath": [
+          40,
+          8
+        ],
+        "name": "if_category_base_moji_armforce_p",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "9ef490f9f589163b72b2aaac3e5d9cee44d259138203af642fdb8d098d01197e",
+        "newSha256": "863eb0790f43c87d24bb732f26df2f4e4e7592a2dbb72a3538f5d1d7be2ebe3d"
+      },
+      {
+        "entryPath": [
+          40,
+          9
+        ],
+        "name": "if_category_base_moji_armforce_r",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "206f51b49f4e16d6eb9588191a3e68e5e2a144e38d776c5e32ca24daab74476a",
+        "newSha256": "71a8228fa2053c25dbeab954f0725a5d914e2d66484ce28642534a45aa0fefcf"
+      },
+      {
+        "entryPath": [
+          40,
+          10
+        ],
+        "name": "if_category_base_moji_armforce_w",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "a02b1cac2312998ee40196d859f572f710a838c683205173ec16648fbdd1bb5b",
+        "newSha256": "ea4eb1e6e47680b67ebb43d8e1279941f01a49ca082a3c0c49207dbaefa7b29c"
+      },
+      {
+        "entryPath": [
+          40,
+          11
+        ],
+        "name": "if_category_base_moji_armforce_y",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "151696f1c8a79531737329997a843a73c07c3784317b82f5b3cd16d0c94acce2",
+        "newSha256": "306c85dcbcf8459867ba4086e5e2f43f4fa0627d282dd281f977fbd9d4b261e0"
+      },
+      {
+        "entryPath": [
+          40,
+          12
+        ],
+        "name": "if_category_base_moji_beast.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "3f89d331b2b21fd9da2ebb90e0f82a47c199ad2c6135f6f3e3b037688356c7e9",
+        "newSha256": "ec4178c85d6e74b49b1dfdae30355bab7d48cc45742bd51d8b8bfcf5c101ab85"
+      },
+      {
+        "entryPath": [
+          40,
+          13
+        ],
+        "name": "if_category_base_moji_bird.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "0c85b08a4340d43aad8c3cf27fb1481a02743bfe6e1d54bf93eff88c2a1771fa",
+        "newSha256": "bc735bcab687f14d9a13c50f3d9110cb6a623d1aab775522fb8593c61e54181b"
+      },
+      {
+        "entryPath": [
+          40,
+          14
+        ],
+        "name": "if_category_base_moji_bug.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "6ac78b7d005d03bfd205dbd12cfecb547c214d1a3349c5b78799869883f02e56",
+        "newSha256": "17fba73e4ac1014a3fc4dad4525d29f2b522d2fa5b31f503a346d0b71e9909d7"
+      },
+      {
+        "entryPath": [
+          40,
+          15
+        ],
+        "name": "if_category_base_moji_corpus.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "406f3a5b9ba6d6492e28ac54aca4a30f6fca629b55e72b142334383832fc7ace",
+        "newSha256": "ff7a5d49293097d5f25ebfa9ae9f9fc0e9385b57f578d48b767d3a8e624db0c1"
+      },
+      {
+        "entryPath": [
+          40,
+          16
+        ],
+        "name": "if_category_base_moji_dragon.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "d42124735e0de90e2bf2fa5aaec74cca4614edbb583c7955af3372488b4399cd",
+        "newSha256": "a57599286d4b119d0311bda668e18e0b7fa2298c06c97ab11b4fe39d576abcc9"
+      },
+      {
+        "entryPath": [
+          40,
+          17
+        ],
+        "name": "if_category_base_moji_etc.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "e1e6953998559a7d108b1fe5c6eac23a7db4d14daa2aa48c352f132e6f673a67",
+        "newSha256": "3fdd03e6ab184f2b0d06d7a5fd8c68398d9de06d332ee4778dcfb63882878a18"
+      },
+      {
+        "entryPath": [
+          40,
+          18
+        ],
+        "name": "if_category_base_moji_help_all.w",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "712203e935d7c76ee94f1b237b105ece9407e0bdc7392429003f4db3074f389c",
+        "newSha256": "56914cb1ce7dd192df86258bac98ed7a71edd1bef1db2e5325786c970fadd154"
+      },
+      {
+        "entryPath": [
+          40,
+          19
+        ],
+        "name": "if_category_base_moji_help_comma",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "e07865b1ab0c1e56f629709e192f73cfe19876f0f7bdcc16ed33cf398c2d2012",
+        "newSha256": "f1cba335f3987850f15d427b447d4d1bb4a13a3a164d4f3322d754344820cb12"
+      },
+      {
+        "entryPath": [
+          40,
+          20
+        ],
+        "name": "if_category_base_moji_help_items",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "7205f0e5df0d1678860f33a4e42a18264876e89079a5d8955f11009fcfebb980",
+        "newSha256": "bb693caa005d45813ad42296414181a8de1834843efb3a5ef6d6b3fce52c17e6"
+      },
+      {
+        "entryPath": [
+          40,
+          21
+        ],
+        "name": "if_category_base_moji_help_magic",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "ed25022f058a6f7b7274f8a8dfa000daa14407d091da956eb1e6c5476bf274ff",
+        "newSha256": "499c919e34b673cff49b762bbf28ec026405a71aa77b372abe99bd427549dcec"
+      },
+      {
+        "entryPath": [
+          40,
+          22
+        ],
+        "name": "if_category_base_moji_help_monst",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "7e30f53cd4729528f36f8b84e1ec14910fe039baece661fae04121f5088055f9",
+        "newSha256": "43286ce92ee41144508d534bde1e46635d90a5a4dda2d4bcadfda119387df11f"
+      },
+      {
+        "entryPath": [
+          40,
+          23
+        ],
+        "name": "if_category_base_moji_help_syste",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "6536b56088f625b31489c3b442feb9ef69aacc460a93576138709ec293d91ed9",
+        "newSha256": "93d542a82c7a3afbee7c817486b3081e7c3fd30ad390e575d7c5d23005a3dd3b"
+      },
+      {
+        "entryPath": [
+          40,
+          24
+        ],
+        "name": "if_category_base_moji_help_word.",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "1ce7954df197282d6e63acf556cf4a05aa23fe564472b8d13de541e546b8bacd",
+        "newSha256": "fa999e40bf278b7ea3fe1b0a25ca32673fe658dceee3eb3086ba1aa86497a4cd"
+      },
+      {
+        "entryPath": [
+          40,
+          25
+        ],
+        "name": "if_category_base_moji_human.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "c2db4d5be252f3b0d04fee3a4c6f8dd6ab7d413440659947a2729735c66f268f",
+        "newSha256": "41d03b85aea138bedfceb3145ab2cf2acfe908c0e2babac03422ad73f8e574e8"
+      },
+      {
+        "entryPath": [
+          40,
+          26
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "68bfb405dc4d80d6f496992ff12cdf950edcc62d48bc9b15e41cf899e7eb6d0e",
+        "newSha256": "b101872d149903433382f256beed5c2fac1859be9659c76e49b83c793c9a7a87"
+      },
+      {
+        "entryPath": [
+          40,
+          27
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "8d0fe460397d2666c13395f00cabd08c5ffab347ddfe50494940624cdb3c16bc",
+        "newSha256": "10939a3ff6afd1ec7818bc29c4d2dd67887a9b834cec57042294a58f42670687"
+      },
+      {
+        "entryPath": [
+          40,
+          28
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "2b35ed07e2412b4f4c76ce8bf28e5a41eb862c16b0164271ea00e932ace96eea",
+        "newSha256": "eb3744f44745a0f3737c41af4c0cec76d7aeac6a8ac18536439acc16146de387"
+      },
+      {
+        "entryPath": [
+          40,
+          29
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "bb0de65f2e553923ac6dcc81c092f38d4a277a93f4784523d2418f9afd17c256",
+        "newSha256": "c77a988fe42a53768f9851a5d48d88d46ed058ee5e9b9e50e59f2f69c41de430"
+      },
+      {
+        "entryPath": [
+          40,
+          30
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "bf897520a40d1d9b41a991aa0e48c0dc6e21391bd8b68512cd93ef053f656e5c",
+        "newSha256": "a3340a86345259f21dc53bb356567ad79d17d2fd6a2461e444f0bda3456d059d"
+      },
+      {
+        "entryPath": [
+          40,
+          31
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "cddd2ccb58b70cdd96ccee79c6fc85c43794b30b9a2dea8c3d9881db34841fba",
+        "newSha256": "3e5577a0209e4d00a62c962032c264f3912e571ca8d0dba2c4d5a80f682e9b55"
+      },
+      {
+        "entryPath": [
+          40,
+          32
+        ],
+        "name": "if_category_base_moji_itemcatego",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "a77a71f8b930ba45e0ca5ae27a03ee04135d2b987e6ce3b7c44bca58e3198437",
+        "newSha256": "52d063e41fd34172fa30b13514860292ee0e5295661545565448e90b140c2fa9"
+      },
+      {
+        "entryPath": [
+          40,
+          33
+        ],
+        "name": "if_category_base_moji_magic.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "77cc4925d2d25fd2422b8b5d5d6fb9881224c31e5291818f0bbcc81684a795f2",
+        "newSha256": "94ac475ba27cf4b40d1169771cbaf321ab882cfbe02e9e0bc4aecf7b7e92dd9a"
+      },
+      {
+        "entryPath": [
+          40,
+          34
+        ],
+        "name": "if_category_base_moji_plant.wtm",
+        "oldSize": 3360,
+        "newSize": 3360,
+        "oldSha256": "448a73520d5dbfda35e5c62fac481c8b400bb3adcb0398168759dd2155fc9025",
+        "newSha256": "1ea6b02d76e604af61dd71bbc821e8fe31aacf9d72d1efc3e076a3fa289dc214"
+      },
+      {
+        "entryPath": [
+          42,
+          2
+        ],
+        "name": "if_caption_below_moji.wtm",
+        "oldSize": 2464,
+        "newSize": 2464,
+        "oldSha256": "da83ad325f719137c36ea6c1ef6b3805de58c25e4085b5ebc84c7281a94e92dd",
+        "newSha256": "fcc918d5a2264b372a8fe1b9cff38ab358396ca3d1d1374d05c409b8088fafce"
+      },
+      {
+        "entryPath": [
+          43,
+          2
+        ],
+        "name": "if_monster_status_titlemoji.wtm",
+        "oldSize": 2368,
+        "newSize": 2368,
+        "oldSha256": "a41d4b78a4ea5781f4ba8b55b866695892012e7ea31edce0387e28e984620516",
+        "newSha256": "f2cc3c6281be03add78e04b431fdb6aaa787d8c489632db01f2566b409dd9071"
+      },
+      {
+        "entryPath": [
+          46,
+          1
+        ],
+        "name": "if_quest_detail_lv.wtm",
+        "oldSize": 7072,
+        "newSize": 7072,
+        "oldSha256": "8c6051f547b9fa9fdc51d6a8f29d0a8abf21547676cadaf6025e31e6ed6b3c4a",
+        "newSha256": "03a0ea8cb990d6a5e5579643f63ee7da3e0e2ea220d2f40d8c4be6a90200f9b9"
+      },
+      {
+        "entryPath": [
+          46,
+          3
+        ],
+        "name": "if_quest_detail_main_title.wtm",
+        "oldSize": 12064,
+        "newSize": 12064,
+        "oldSha256": "3a0fd4b0c33c2dc5308e73e06eb291a9615a65da4aca447bcfaa57f750e0f94d",
+        "newSha256": "f500decca95a118a8f2cc2a825acb03392c5a7e4374a8419916adb4795d82ef9"
+      },
+      {
+        "entryPath": [
+          46,
+          4
+        ],
+        "name": "if_quest_detail_quest_type.wtm",
+        "oldSize": 24736,
+        "newSize": 24736,
+        "oldSha256": "4054b04fdb097b590ecda472f9fba350c92cc077fd1c8fe3f332c8d7c33d5ad4",
+        "newSha256": "1beb51868097c2b9c0745a3ad1bcf087aa0e41b86085c0919587cc2bf8b48d16"
+      },
+      {
+        "entryPath": [
+          47,
+          2
+        ],
+        "name": "if_arena_title.wtm",
+        "oldSize": 512,
+        "newSize": 512,
+        "oldSha256": "ffaac2b40d2dac9f31171d0038c1445eebef26332566ca3b98d8caa6dc172868",
+        "newSha256": "7fb3cbe34697119b9e6ff2ebd23a3cc39407d47d33a7bceb923c4d52a0f774e3"
+      },
+      {
+        "entryPath": [
+          53,
+          3
+        ],
+        "name": "if_volatility_below_e_moji.wtm",
+        "oldSize": 576,
+        "newSize": 576,
+        "oldSha256": "badce6315f7cb6d4395a7a2013bbcb177bd15a1e662c15702ba55f3f3163e76f",
+        "newSha256": "ec82f8c0418987141900742e152f3e945cdd63215c3f9706dd017eecdd6f60cd"
+      }
+    ],
+    "containerAuditBottomUp": [
+      {
+        "prefix": [
+          0
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0000:tex_shared.vol",
+        "inputSize": 586368,
+        "inputSha256": "68377e2236c82644c0557d84f47d7d887c4ddfd4a08064add3b7866b658acb39",
+        "eoh": 11968,
+        "entryCount": 298,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 287,
+            "oldSize": 17952,
+            "newSize": 17952,
+            "oldSha256": "23b427a8b756e99e0e6aacef786d47c622071b3331c9d140d86be1ad1a95dcb4",
+            "newSha256": "e91461b941740d4437ed297bdd5a079ac91c1d0fbe3540712045f0a445fd63ea"
+          },
+          {
+            "index": 289,
+            "oldSize": 448,
+            "newSize": 448,
+            "oldSha256": "fd9475b7d71d532080f116ca78ad3158fecf183a836d27750771a49ae060b152",
+            "newSha256": "a5ac4b40daacf72c70f77c8ce73cc38542fc7a6430c4975ee28ef9c78e2ae746"
+          },
+          {
+            "index": 294,
+            "oldSize": 384,
+            "newSize": 384,
+            "oldSha256": "e3b7b0e78653375d5c52c6e103f95fc9a04218aec121403b463f58f60f70f83c",
+            "newSha256": "4f0acfbca32cda31358edf0ffb3f3779696ee0b6687ae7c8aee2a66fd4de8592"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 586368,
+        "outputSha256": "a86aa9567a7a9d3398684788f9003d6e9f32ac7ce6ad1adb60a0461d606f7ca0",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          6
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0006:if_heading.vol",
+        "inputSize": 69504,
+        "inputSha256": "e7006ad2fc75d1cd075bdbc87611ca64fc76285d665b42c5bd22d419915671f7",
+        "eoh": 576,
+        "entryCount": 13,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 8512,
+            "newSize": 8512,
+            "oldSha256": "6bb0968dbb1a19a90878aa1bffb0902b504c937a9cb425c81d784d7af6763eca",
+            "newSha256": "07b8ab46a27470782b2001b96a4e0959c6b5dfea61706e58af142e449914d464"
+          },
+          {
+            "index": 3,
+            "oldSize": 19072,
+            "newSize": 19072,
+            "oldSha256": "0c8b4d08dd6be0b6dcadfa600289a163a95aa77266bbb49600c9d3642fcbd133",
+            "newSha256": "09abe226486bd7d991280cb344f1e33e8bf47a14933acbffd77293bb54140955"
+          },
+          {
+            "index": 4,
+            "oldSize": 2176,
+            "newSize": 2176,
+            "oldSha256": "c7ced8542299e2fcc683926c9380a6f68b1566dc1c6a9a72f1dcec8d1d9410dd",
+            "newSha256": "aa944001d4305ee27a8ecaa47b84da0778b09e83c79aee154773c3e37e75dd79"
+          },
+          {
+            "index": 5,
+            "oldSize": 5344,
+            "newSize": 5344,
+            "oldSha256": "3cb937ab99b9a3dbef949ba1a7cb52281cee6daf71868961bef359d90f0137e3",
+            "newSha256": "1f17d06bfc4e835b6fadb884f2c33fc8662e31775468d87ce8e4cf107c687335"
+          },
+          {
+            "index": 6,
+            "oldSize": 5344,
+            "newSize": 5344,
+            "oldSha256": "591a85f54262070475b1c47d09a6b7084b8bf516abebcbc818724972a52f4eb1",
+            "newSha256": "e240a31f49c75bcaf37dd014b293a04585d820cd84632c2841895e608d4f510b"
+          },
+          {
+            "index": 7,
+            "oldSize": 4288,
+            "newSize": 4288,
+            "oldSha256": "033bc8a9c0bfc9b2dd7c83760e0a1f5a828120d8d43b416e4d5c88a144c2976c",
+            "newSha256": "152ce3059c53fff4a07a46f2f0fda3783ed23b93bfe3e52d9324c0d826a98be3"
+          },
+          {
+            "index": 8,
+            "oldSize": 4288,
+            "newSize": 4288,
+            "oldSha256": "cf2d432fb6453c5bdf0a50ab23d9e85a70e47d38ccc37557b7d096ed338e4f89",
+            "newSha256": "21cc6354bc87df38b0d4a0ecb6af2667d7d91b12f48ae5f56c80ccf826d5c53b"
+          },
+          {
+            "index": 9,
+            "oldSize": 3232,
+            "newSize": 3232,
+            "oldSha256": "75623fd2e9742b960886074f817458283f4175d0ef42f42948d1a79ed660b28e",
+            "newSha256": "eedb9d055bdc03ed67e1d3246cc8b87d3d65e16bf9a7db60eeef0fbddde8ef63"
+          },
+          {
+            "index": 10,
+            "oldSize": 2176,
+            "newSize": 2176,
+            "oldSha256": "9a801457683b46839f8ec4ea87c9ec6632d53b3bb89a963590fdadcf9a7132ea",
+            "newSha256": "10880d8e57da019815d2ebf3c93e4e84a40035f1446b67818ff2b308d61f966e"
+          },
+          {
+            "index": 11,
+            "oldSize": 3232,
+            "newSize": 3232,
+            "oldSha256": "0fa7ec199c4f858878f6efcb6095b06c76f1030f13a8b6926c8893b6861bd6d9",
+            "newSha256": "9438701f087b623fbad3aba345e4e32bb5e41a8162f88e6409ccce3e620d6693"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 69504,
+        "outputSha256": "fae8fdd9e7f92ee3699015fa1536b39aa741de515470e72c12bf2913a0d50c1e",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          10
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0010:if_list.vol",
+        "inputSize": 2592,
+        "inputSha256": "aca89bb1f8c4dcc92c5e08735f6096e6d69640cb4630cf84f85ed38c1f13d456",
+        "eoh": 128,
+        "entryCount": 2,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 704,
+            "newSize": 704,
+            "oldSha256": "014f4aa25c11d00074b05dc855abd1b86c134719aedb57814b81d222c2311420",
+            "newSha256": "8bce40e3eaf7f2c7312422af65d8454689c90fa9ebfa2c89479b8efcd5331fcb"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 2592,
+        "outputSha256": "61ab8898228efa7e33948daa67bc63942cc8382d4c3d9fcd12c7381b318931ca",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          15
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0015:if_element.vol",
+        "inputSize": 3136,
+        "inputSha256": "49356fb4fd54ea520b665ce35c691fc7fcdde2005ed2ff8a08fe421c231bca26",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 576,
+            "newSize": 576,
+            "oldSha256": "3b0580130268ad5816b9d79e2ce43d650e5639ca4959a8d124657a12001562cc",
+            "newSha256": "0c7c5d61d9126cce38d32b866af16bb6cc3c2488b97cfd88262492171a9e374b"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 3136,
+        "outputSha256": "98b38226e96ee663c4bc8c2a568be995ef903350cf480e53049d4a7a03771ba2",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          16
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0016:if_equipment.vol",
+        "inputSize": 11200,
+        "inputSha256": "d9808cbff8d9060d65d2d9af6189721151cf383cd21032d049953c7dff457f85",
+        "eoh": 256,
+        "entryCount": 5,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 4576,
+            "newSize": 4576,
+            "oldSha256": "170f8f86698ac3f522ec8cbbf80e525a83b988fc48c39315af251cb2b7d3fcad",
+            "newSha256": "30b292073fdf7e26d90f56f16d539d6ddc911d178ed9112e145f0e07ed8df9a4"
+          },
+          {
+            "index": 3,
+            "oldSize": 576,
+            "newSize": 576,
+            "oldSha256": "99140e972feeaafa183b265ecbbd10d5b86aece56b7e2fd15e79dc533425824f",
+            "newSha256": "847a16ad48277d1d7fdd91bc6aeb1c0b8a14d3386474bc3e4aaa7bfe934d2441"
+          },
+          {
+            "index": 4,
+            "oldSize": 640,
+            "newSize": 640,
+            "oldSha256": "69f531f2ed33620455e1f83033365b58fa4794495e94a54ef6b2707883c75390",
+            "newSha256": "0b8c4acbd7c78fe8a02ccfd944a65765456c6987236ab034d75a4c548c1303bc"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 11200,
+        "outputSha256": "08ecbdcdf3abf3b0b6302a9f88caea304f77d64dd197938ab84e73ebf8433534",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          18
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0018:if_caption.vol",
+        "inputSize": 1376,
+        "inputSha256": "08e741ba3558526e8a1c75c25efb02f98513f003af581d7902d4f4671a9a4a19",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 576,
+            "newSize": 576,
+            "oldSha256": "99140e972feeaafa183b265ecbbd10d5b86aece56b7e2fd15e79dc533425824f",
+            "newSha256": "847a16ad48277d1d7fdd91bc6aeb1c0b8a14d3386474bc3e4aaa7bfe934d2441"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 1376,
+        "outputSha256": "fd4a160b4acdad76414924f9722298532ab45d222d82ee227546df3c545ed569",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          20
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0020:if_shop.vol",
+        "inputSize": 15936,
+        "inputSha256": "db0cbedf5b8d5e9e9a200dcf09801cc16b3e2ad2b6b9cf9d5477054e10a07166",
+        "eoh": 192,
+        "entryCount": 4,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 2240,
+            "newSize": 2240,
+            "oldSha256": "7f352f9f2560e9302211afaa320ebbb5792555f12bb3a3db49b3a9085741b7a9",
+            "newSha256": "f350de26084f8dbf2fd2ed61ebcd9c3d8480d485ae4b11507e9811afb83a0abb"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 15936,
+        "outputSha256": "c2d23fd9cec063eba16de81a8e3792ed482c8ad18ab89cf260c58011b66c1d82",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          23
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0023:if_dp.vol",
+        "inputSize": 8320,
+        "inputSha256": "770ed194b8467f20dc368b34c5e24eacfee8d729f72c66d0fa182924f9ae2686",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 3616,
+            "newSize": 3616,
+            "oldSha256": "e48c3c752a6c60d10c72bad99de3479586fa32e22511f4d6b6a9d7bcff0d6c0d",
+            "newSha256": "2fd2ea565eafa737d84c23b74a8cc29ddb95cfeee310e957638cc8d55cc55909"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 8320,
+        "outputSha256": "e9baae1d2584f272af6ff72b19b286d0a196884452b5d2d17e58e29633a597e5",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          25
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0025:if_cage_customize.vol",
+        "inputSize": 3424,
+        "inputSha256": "9b575bf6aa083cf37fe9fbdc079e8182d10aaff4e7c50328e1a3a8ef75863421",
+        "eoh": 128,
+        "entryCount": 2,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 896,
+            "newSize": 896,
+            "oldSha256": "f24c0d538460188acc4154dcf33b0f9a3fa0bda6698c8bbd608121880967022f",
+            "newSha256": "167180a4947157c0c9c8be98be3afddaa3f10c116e727354e3234f1ca812b0cd"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 3424,
+        "outputSha256": "a9c7c6a7f90ddca542bc296a2d73ae895d8286ef66c92ef26aa38e14de58750b",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          26
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0026:if_gem_repairance.vol",
+        "inputSize": 3616,
+        "inputSha256": "4f4014e2abdf2ffb1afa22d8fac9aae2ade72410a4a1597547f363420e1f70e8",
+        "eoh": 128,
+        "entryCount": 2,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 1088,
+            "newSize": 1088,
+            "oldSha256": "d1a77f8b59f803e1ff17b3f776c2ebdbe8b93dfaab5d2af58b3ef5b81c5efa15",
+            "newSha256": "7d75b8b2276e4451b8ec4a23b8246b679b165501da193628e308d1f14329578c"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 3616,
+        "outputSha256": "06f50bcf93d19946ed5cb7afd5c4a373295ae613ee221e921661575f32692da5",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          27
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0027:if_clothes_shop.vol",
+        "inputSize": 2496,
+        "inputSha256": "2cb1a395ecd39f35d21dbb9c9ef19d4520937721d87473e7dd8573ab06f5103b",
+        "eoh": 128,
+        "entryCount": 2,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 704,
+            "newSize": 704,
+            "oldSha256": "07d5e55d51467219016c9a4b2cb50a4e95af037d259e7bc67c606b73bf805b1a",
+            "newSha256": "3c2d7a1fc2afc3aa211186d4af2f1581138e2e220623c85158cf81efa9bcdda4"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 2496,
+        "outputSha256": "a6fb5284ff0a283e383ab83381258c7613a6ebc7d483e2245752615e97dd915d",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          28
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0028:if_weapon.vol",
+        "inputSize": 614368,
+        "inputSha256": "d6b4937004a1d722a52b353fcb26cb765c2499e2aef51a556081d070e875f05c",
+        "eoh": 4512,
+        "entryCount": 112,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 5,
+            "oldSize": 8224,
+            "newSize": 8224,
+            "oldSha256": "b13c08d0120c49a7dcebcb5e4fa10c3aa55a20fc0dea5336f4d1eebd2e8f9693",
+            "newSha256": "c93de4cfdeea35ff1e795d59041e60f78b12002600c5bc9378739764fe6e4ebe"
+          },
+          {
+            "index": 6,
+            "oldSize": 960,
+            "newSize": 960,
+            "oldSha256": "ff06282a4ccfd3786cf946806f00cb4a4126683f8f9b5e798c280deab0fa86c2",
+            "newSha256": "66c04a9eb99805bdbaf9abe6ca6fad21107c792a269c6b5bc91120f6d96c6f2f"
+          },
+          {
+            "index": 7,
+            "oldSize": 2336,
+            "newSize": 2336,
+            "oldSha256": "54c11129b8b8927df51d2ea047e17d1a705c9d1fe78f93948ea632f95a4b3b85",
+            "newSha256": "1ab39257cc62a4a8cda573189d31272bbb3fd16ebff7c681582f1af70f99d4dd"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 614368,
+        "outputSha256": "e9a0b5fef134f64b2f378555da2695e76a702bf0cb9fa154449bd473967373bc",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          31
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0031:if_tactics.vol",
+        "inputSize": 3872,
+        "inputSha256": "089deafc0ecd0ca91cdbb274b989a012b2c116fac9e4a249998f78049f1087d3",
+        "eoh": 128,
+        "entryCount": 2,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 1824,
+            "newSize": 1824,
+            "oldSha256": "4050e1299c5eb9cdb66f35155e98d7d11e3ef2b2d36a354c88ded2e4648199bf",
+            "newSha256": "b83ea45d69343f6d2df214b356846c823f9e98366881667f1fe353acfb3ba4cf"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 3872,
+        "outputSha256": "f0cbc5d2bb779d8df1ed00d79e6b92a006dd79c15804f18f5c239baf566fcc17",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          32
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0032:if_dragons.vol",
+        "inputSize": 12256,
+        "inputSha256": "8317f3dcfd27ca88971ba54fb6512e1a8bee1d2412ef04b4ac822661d69dda83",
+        "eoh": 192,
+        "entryCount": 4,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 4000,
+            "newSize": 4000,
+            "oldSha256": "55b0823afbd494c58b1d56516c15f8e0d312020ca8bf4b985b233fa1378884cf",
+            "newSha256": "18090e2484592a17e6ba80b40e7c245807f43f2e31643d77a11aaacdf651a25d"
+          },
+          {
+            "index": 3,
+            "oldSize": 2656,
+            "newSize": 2656,
+            "oldSha256": "d69fa7c71d0487530b517911226717cdf33d14c9b03de6cc173511250fa92d93",
+            "newSha256": "3ee3c877013fb80fe1ea4d3e9376c42252c3c2e2d611f8688a0a1b5904cde8a4"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 12256,
+        "outputSha256": "f9859677ae0c5bbbded7f40e716501b376a157310345edf6f8e5596fe2b9b4a6",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          33
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0033:if_world_map.vol",
+        "inputSize": 3744,
+        "inputSha256": "147704d4b67ba4a2e792ef6658a5e47b19cb18bdcf2ae54e63bb55801c9753c7",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 384,
+            "newSize": 384,
+            "oldSha256": "8a98435b039e631017363ca7eb63a919587776ed834c2256c560a55133c645fb",
+            "newSha256": "c534f0de9d30097c7dd58d35d15b08c1d11b86ea092b84671996ee8b5ad4a0d9"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 3744,
+        "outputSha256": "7f213b15605823683172ca86a444be79cb3efc09fee04ca7840b232025937c4d",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          40
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0040:if_category_base.vol",
+        "inputSize": 104320,
+        "inputSha256": "8ec6e36b04a784d8c9f81f2d8a81dd5aa11b5ef34d5274f3d3ab08d97dde4cf6",
+        "eoh": 1440,
+        "entryCount": 35,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 5,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "5d59b9b88015b3bc0ff340b94e7ca823d12993b33339975da501e0304d9a0e2b",
+            "newSha256": "f8887ffc35a3b85f84b70d7d5a47c6b6703d45fb081c2a2029d147de0e3d5163"
+          },
+          {
+            "index": 6,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "7fd1c382dde7ee898d0286cf7ae5b5d7acccd7cff49fe3d4ec55473adca22418",
+            "newSha256": "dc2c4039a297990e52261c1fa6d5b3d944e4e5c30f7e9283dcfe348c3496480b"
+          },
+          {
+            "index": 7,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "3434b2b11a5f222584d50600c72c0fbdf0ee594475e45e5d72277d183807e927",
+            "newSha256": "e915c275ed23e8ef1d3a0ed0b2966d36fb1a072679d22797157d7fcfbb868377"
+          },
+          {
+            "index": 8,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "9ef490f9f589163b72b2aaac3e5d9cee44d259138203af642fdb8d098d01197e",
+            "newSha256": "863eb0790f43c87d24bb732f26df2f4e4e7592a2dbb72a3538f5d1d7be2ebe3d"
+          },
+          {
+            "index": 9,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "206f51b49f4e16d6eb9588191a3e68e5e2a144e38d776c5e32ca24daab74476a",
+            "newSha256": "71a8228fa2053c25dbeab954f0725a5d914e2d66484ce28642534a45aa0fefcf"
+          },
+          {
+            "index": 10,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "a02b1cac2312998ee40196d859f572f710a838c683205173ec16648fbdd1bb5b",
+            "newSha256": "ea4eb1e6e47680b67ebb43d8e1279941f01a49ca082a3c0c49207dbaefa7b29c"
+          },
+          {
+            "index": 11,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "151696f1c8a79531737329997a843a73c07c3784317b82f5b3cd16d0c94acce2",
+            "newSha256": "306c85dcbcf8459867ba4086e5e2f43f4fa0627d282dd281f977fbd9d4b261e0"
+          },
+          {
+            "index": 12,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "3f89d331b2b21fd9da2ebb90e0f82a47c199ad2c6135f6f3e3b037688356c7e9",
+            "newSha256": "ec4178c85d6e74b49b1dfdae30355bab7d48cc45742bd51d8b8bfcf5c101ab85"
+          },
+          {
+            "index": 13,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "0c85b08a4340d43aad8c3cf27fb1481a02743bfe6e1d54bf93eff88c2a1771fa",
+            "newSha256": "bc735bcab687f14d9a13c50f3d9110cb6a623d1aab775522fb8593c61e54181b"
+          },
+          {
+            "index": 14,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "6ac78b7d005d03bfd205dbd12cfecb547c214d1a3349c5b78799869883f02e56",
+            "newSha256": "17fba73e4ac1014a3fc4dad4525d29f2b522d2fa5b31f503a346d0b71e9909d7"
+          },
+          {
+            "index": 15,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "406f3a5b9ba6d6492e28ac54aca4a30f6fca629b55e72b142334383832fc7ace",
+            "newSha256": "ff7a5d49293097d5f25ebfa9ae9f9fc0e9385b57f578d48b767d3a8e624db0c1"
+          },
+          {
+            "index": 16,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "d42124735e0de90e2bf2fa5aaec74cca4614edbb583c7955af3372488b4399cd",
+            "newSha256": "a57599286d4b119d0311bda668e18e0b7fa2298c06c97ab11b4fe39d576abcc9"
+          },
+          {
+            "index": 17,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "e1e6953998559a7d108b1fe5c6eac23a7db4d14daa2aa48c352f132e6f673a67",
+            "newSha256": "3fdd03e6ab184f2b0d06d7a5fd8c68398d9de06d332ee4778dcfb63882878a18"
+          },
+          {
+            "index": 18,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "712203e935d7c76ee94f1b237b105ece9407e0bdc7392429003f4db3074f389c",
+            "newSha256": "56914cb1ce7dd192df86258bac98ed7a71edd1bef1db2e5325786c970fadd154"
+          },
+          {
+            "index": 19,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "e07865b1ab0c1e56f629709e192f73cfe19876f0f7bdcc16ed33cf398c2d2012",
+            "newSha256": "f1cba335f3987850f15d427b447d4d1bb4a13a3a164d4f3322d754344820cb12"
+          },
+          {
+            "index": 20,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "7205f0e5df0d1678860f33a4e42a18264876e89079a5d8955f11009fcfebb980",
+            "newSha256": "bb693caa005d45813ad42296414181a8de1834843efb3a5ef6d6b3fce52c17e6"
+          },
+          {
+            "index": 21,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "ed25022f058a6f7b7274f8a8dfa000daa14407d091da956eb1e6c5476bf274ff",
+            "newSha256": "499c919e34b673cff49b762bbf28ec026405a71aa77b372abe99bd427549dcec"
+          },
+          {
+            "index": 22,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "7e30f53cd4729528f36f8b84e1ec14910fe039baece661fae04121f5088055f9",
+            "newSha256": "43286ce92ee41144508d534bde1e46635d90a5a4dda2d4bcadfda119387df11f"
+          },
+          {
+            "index": 23,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "6536b56088f625b31489c3b442feb9ef69aacc460a93576138709ec293d91ed9",
+            "newSha256": "93d542a82c7a3afbee7c817486b3081e7c3fd30ad390e575d7c5d23005a3dd3b"
+          },
+          {
+            "index": 24,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "1ce7954df197282d6e63acf556cf4a05aa23fe564472b8d13de541e546b8bacd",
+            "newSha256": "fa999e40bf278b7ea3fe1b0a25ca32673fe658dceee3eb3086ba1aa86497a4cd"
+          },
+          {
+            "index": 25,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "c2db4d5be252f3b0d04fee3a4c6f8dd6ab7d413440659947a2729735c66f268f",
+            "newSha256": "41d03b85aea138bedfceb3145ab2cf2acfe908c0e2babac03422ad73f8e574e8"
+          },
+          {
+            "index": 26,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "68bfb405dc4d80d6f496992ff12cdf950edcc62d48bc9b15e41cf899e7eb6d0e",
+            "newSha256": "b101872d149903433382f256beed5c2fac1859be9659c76e49b83c793c9a7a87"
+          },
+          {
+            "index": 27,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "8d0fe460397d2666c13395f00cabd08c5ffab347ddfe50494940624cdb3c16bc",
+            "newSha256": "10939a3ff6afd1ec7818bc29c4d2dd67887a9b834cec57042294a58f42670687"
+          },
+          {
+            "index": 28,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "2b35ed07e2412b4f4c76ce8bf28e5a41eb862c16b0164271ea00e932ace96eea",
+            "newSha256": "eb3744f44745a0f3737c41af4c0cec76d7aeac6a8ac18536439acc16146de387"
+          },
+          {
+            "index": 29,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "bb0de65f2e553923ac6dcc81c092f38d4a277a93f4784523d2418f9afd17c256",
+            "newSha256": "c77a988fe42a53768f9851a5d48d88d46ed058ee5e9b9e50e59f2f69c41de430"
+          },
+          {
+            "index": 30,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "bf897520a40d1d9b41a991aa0e48c0dc6e21391bd8b68512cd93ef053f656e5c",
+            "newSha256": "a3340a86345259f21dc53bb356567ad79d17d2fd6a2461e444f0bda3456d059d"
+          },
+          {
+            "index": 31,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "cddd2ccb58b70cdd96ccee79c6fc85c43794b30b9a2dea8c3d9881db34841fba",
+            "newSha256": "3e5577a0209e4d00a62c962032c264f3912e571ca8d0dba2c4d5a80f682e9b55"
+          },
+          {
+            "index": 32,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "a77a71f8b930ba45e0ca5ae27a03ee04135d2b987e6ce3b7c44bca58e3198437",
+            "newSha256": "52d063e41fd34172fa30b13514860292ee0e5295661545565448e90b140c2fa9"
+          },
+          {
+            "index": 33,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "77cc4925d2d25fd2422b8b5d5d6fb9881224c31e5291818f0bbcc81684a795f2",
+            "newSha256": "94ac475ba27cf4b40d1169771cbaf321ab882cfbe02e9e0bc4aecf7b7e92dd9a"
+          },
+          {
+            "index": 34,
+            "oldSize": 3360,
+            "newSize": 3360,
+            "oldSha256": "448a73520d5dbfda35e5c62fac481c8b400bb3adcb0398168759dd2155fc9025",
+            "newSha256": "1ea6b02d76e604af61dd71bbc821e8fe31aacf9d72d1efc3e076a3fa289dc214"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 104320,
+        "outputSha256": "0d1bae2889439428f819479ffd18d79dd371c285a0e3181b8501b5d020c27cf6",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          42
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0042:if_caption_below.vol",
+        "inputSize": 4416,
+        "inputSha256": "2189c82a53057571d1f3accfec2ed92e3667fd974f668cb40417a617037d476f",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 2464,
+            "newSize": 2464,
+            "oldSha256": "da83ad325f719137c36ea6c1ef6b3805de58c25e4085b5ebc84c7281a94e92dd",
+            "newSha256": "fcc918d5a2264b372a8fe1b9cff38ab358396ca3d1d1374d05c409b8088fafce"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 4416,
+        "outputSha256": "d6bfa6844828253dac1ead9ebd3dedd3ef74c9fbd4de94f143c4151e84565084",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          43
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0043:if_monster_status.vol",
+        "inputSize": 7072,
+        "inputSha256": "09b98ee5ca14fd7182036b3e8974b5dbbee1f9e34b6771408ef17463b25cd2de",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 2368,
+            "newSize": 2368,
+            "oldSha256": "a41d4b78a4ea5781f4ba8b55b866695892012e7ea31edce0387e28e984620516",
+            "newSha256": "f2cc3c6281be03add78e04b431fdb6aaa787d8c489632db01f2566b409dd9071"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 7072,
+        "outputSha256": "c4c550ea498c20b6a2493b7eadde6f8442c38c90373158d45873e8035c3fa859",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          46
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0046:if_quest_detail.vol",
+        "inputSize": 54560,
+        "inputSha256": "a746f8b089e38f7571c69cf62423cf803632bc8548ccbb79c0edfbce18012582",
+        "eoh": 320,
+        "entryCount": 7,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 1,
+            "oldSize": 7072,
+            "newSize": 7072,
+            "oldSha256": "8c6051f547b9fa9fdc51d6a8f29d0a8abf21547676cadaf6025e31e6ed6b3c4a",
+            "newSha256": "03a0ea8cb990d6a5e5579643f63ee7da3e0e2ea220d2f40d8c4be6a90200f9b9"
+          },
+          {
+            "index": 3,
+            "oldSize": 12064,
+            "newSize": 12064,
+            "oldSha256": "3a0fd4b0c33c2dc5308e73e06eb291a9615a65da4aca447bcfaa57f750e0f94d",
+            "newSha256": "f500decca95a118a8f2cc2a825acb03392c5a7e4374a8419916adb4795d82ef9"
+          },
+          {
+            "index": 4,
+            "oldSize": 24736,
+            "newSize": 24736,
+            "oldSha256": "4054b04fdb097b590ecda472f9fba350c92cc077fd1c8fe3f332c8d7c33d5ad4",
+            "newSha256": "1beb51868097c2b9c0745a3ad1bcf087aa0e41b86085c0919587cc2bf8b48d16"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 54560,
+        "outputSha256": "81e85bf6f677a4292f810524d92505c3ddf52f961814c8478b69e3a4626207ff",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          47
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0047:if_arena.vol",
+        "inputSize": 5632,
+        "inputSha256": "9d91d9a8806fe1c0a452bb8ce0a209ff5b5b4132d66b7a99294c2c3bb6b613e3",
+        "eoh": 160,
+        "entryCount": 3,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 2,
+            "oldSize": 512,
+            "newSize": 512,
+            "oldSha256": "ffaac2b40d2dac9f31171d0038c1445eebef26332566ca3b98d8caa6dc172868",
+            "newSha256": "7fb3cbe34697119b9e6ff2ebd23a3cc39407d47d33a7bceb923c4d52a0f774e3"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 5632,
+        "outputSha256": "c41fd013a9145375ce91987f534ddf14b0b8ab65968235b6606094290a733b70",
+        "byteExact": false
+      },
+      {
+        "prefix": [
+          53
+        ],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked::0053:if_volatility_below.vol",
+        "inputSize": 50752,
+        "inputSha256": "489599e299e579abf694b979e1c04c6520874d6d16b20c1d9097a2595a68e309",
+        "eoh": 192,
+        "entryCount": 4,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 3,
+            "oldSize": 576,
+            "newSize": 576,
+            "oldSha256": "badce6315f7cb6d4395a7a2013bbcb177bd15a1e662c15702ba55f3f3163e76f",
+            "newSha256": "ec82f8c0418987141900742e152f3e945cdd63215c3f9706dd017eecdd6f60cd"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 50752,
+        "outputSha256": "3b5a088886567274c178ffeb948dfc44b030c7f115c157190caa1e694fa5dc97",
+        "byteExact": false
+      },
+      {
+        "prefix": [],
+        "sourceLabel": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\if_resident_vol.cxd#unpacked",
+        "inputSize": 2812384,
+        "inputSha256": "976bbadd5dfd17c2bfc7c3b62b58e3aee8bf981438d23f4afe421426ccaaf769",
+        "eoh": 2208,
+        "entryCount": 54,
+        "headerUnknownHex": "55280022000000000000000000000000",
+        "changes": [
+          {
+            "index": 0,
+            "oldSize": 586368,
+            "newSize": 586368,
+            "oldSha256": "68377e2236c82644c0557d84f47d7d887c4ddfd4a08064add3b7866b658acb39",
+            "newSha256": "a86aa9567a7a9d3398684788f9003d6e9f32ac7ce6ad1adb60a0461d606f7ca0"
+          },
+          {
+            "index": 6,
+            "oldSize": 69504,
+            "newSize": 69504,
+            "oldSha256": "e7006ad2fc75d1cd075bdbc87611ca64fc76285d665b42c5bd22d419915671f7",
+            "newSha256": "fae8fdd9e7f92ee3699015fa1536b39aa741de515470e72c12bf2913a0d50c1e"
+          },
+          {
+            "index": 10,
+            "oldSize": 2592,
+            "newSize": 2592,
+            "oldSha256": "aca89bb1f8c4dcc92c5e08735f6096e6d69640cb4630cf84f85ed38c1f13d456",
+            "newSha256": "61ab8898228efa7e33948daa67bc63942cc8382d4c3d9fcd12c7381b318931ca"
+          },
+          {
+            "index": 15,
+            "oldSize": 3136,
+            "newSize": 3136,
+            "oldSha256": "49356fb4fd54ea520b665ce35c691fc7fcdde2005ed2ff8a08fe421c231bca26",
+            "newSha256": "98b38226e96ee663c4bc8c2a568be995ef903350cf480e53049d4a7a03771ba2"
+          },
+          {
+            "index": 16,
+            "oldSize": 11200,
+            "newSize": 11200,
+            "oldSha256": "d9808cbff8d9060d65d2d9af6189721151cf383cd21032d049953c7dff457f85",
+            "newSha256": "08ecbdcdf3abf3b0b6302a9f88caea304f77d64dd197938ab84e73ebf8433534"
+          },
+          {
+            "index": 18,
+            "oldSize": 1376,
+            "newSize": 1376,
+            "oldSha256": "08e741ba3558526e8a1c75c25efb02f98513f003af581d7902d4f4671a9a4a19",
+            "newSha256": "fd4a160b4acdad76414924f9722298532ab45d222d82ee227546df3c545ed569"
+          },
+          {
+            "index": 20,
+            "oldSize": 15936,
+            "newSize": 15936,
+            "oldSha256": "db0cbedf5b8d5e9e9a200dcf09801cc16b3e2ad2b6b9cf9d5477054e10a07166",
+            "newSha256": "c2d23fd9cec063eba16de81a8e3792ed482c8ad18ab89cf260c58011b66c1d82"
+          },
+          {
+            "index": 23,
+            "oldSize": 8320,
+            "newSize": 8320,
+            "oldSha256": "770ed194b8467f20dc368b34c5e24eacfee8d729f72c66d0fa182924f9ae2686",
+            "newSha256": "e9baae1d2584f272af6ff72b19b286d0a196884452b5d2d17e58e29633a597e5"
+          },
+          {
+            "index": 25,
+            "oldSize": 3424,
+            "newSize": 3424,
+            "oldSha256": "9b575bf6aa083cf37fe9fbdc079e8182d10aaff4e7c50328e1a3a8ef75863421",
+            "newSha256": "a9c7c6a7f90ddca542bc296a2d73ae895d8286ef66c92ef26aa38e14de58750b"
+          },
+          {
+            "index": 26,
+            "oldSize": 3616,
+            "newSize": 3616,
+            "oldSha256": "4f4014e2abdf2ffb1afa22d8fac9aae2ade72410a4a1597547f363420e1f70e8",
+            "newSha256": "06f50bcf93d19946ed5cb7afd5c4a373295ae613ee221e921661575f32692da5"
+          },
+          {
+            "index": 27,
+            "oldSize": 2496,
+            "newSize": 2496,
+            "oldSha256": "2cb1a395ecd39f35d21dbb9c9ef19d4520937721d87473e7dd8573ab06f5103b",
+            "newSha256": "a6fb5284ff0a283e383ab83381258c7613a6ebc7d483e2245752615e97dd915d"
+          },
+          {
+            "index": 28,
+            "oldSize": 614368,
+            "newSize": 614368,
+            "oldSha256": "d6b4937004a1d722a52b353fcb26cb765c2499e2aef51a556081d070e875f05c",
+            "newSha256": "e9a0b5fef134f64b2f378555da2695e76a702bf0cb9fa154449bd473967373bc"
+          },
+          {
+            "index": 31,
+            "oldSize": 3872,
+            "newSize": 3872,
+            "oldSha256": "089deafc0ecd0ca91cdbb274b989a012b2c116fac9e4a249998f78049f1087d3",
+            "newSha256": "f0cbc5d2bb779d8df1ed00d79e6b92a006dd79c15804f18f5c239baf566fcc17"
+          },
+          {
+            "index": 32,
+            "oldSize": 12256,
+            "newSize": 12256,
+            "oldSha256": "8317f3dcfd27ca88971ba54fb6512e1a8bee1d2412ef04b4ac822661d69dda83",
+            "newSha256": "f9859677ae0c5bbbded7f40e716501b376a157310345edf6f8e5596fe2b9b4a6"
+          },
+          {
+            "index": 33,
+            "oldSize": 3744,
+            "newSize": 3744,
+            "oldSha256": "147704d4b67ba4a2e792ef6658a5e47b19cb18bdcf2ae54e63bb55801c9753c7",
+            "newSha256": "7f213b15605823683172ca86a444be79cb3efc09fee04ca7840b232025937c4d"
+          },
+          {
+            "index": 40,
+            "oldSize": 104320,
+            "newSize": 104320,
+            "oldSha256": "8ec6e36b04a784d8c9f81f2d8a81dd5aa11b5ef34d5274f3d3ab08d97dde4cf6",
+            "newSha256": "0d1bae2889439428f819479ffd18d79dd371c285a0e3181b8501b5d020c27cf6"
+          },
+          {
+            "index": 42,
+            "oldSize": 4416,
+            "newSize": 4416,
+            "oldSha256": "2189c82a53057571d1f3accfec2ed92e3667fd974f668cb40417a617037d476f",
+            "newSha256": "d6bfa6844828253dac1ead9ebd3dedd3ef74c9fbd4de94f143c4151e84565084"
+          },
+          {
+            "index": 43,
+            "oldSize": 7072,
+            "newSize": 7072,
+            "oldSha256": "09b98ee5ca14fd7182036b3e8974b5dbbee1f9e34b6771408ef17463b25cd2de",
+            "newSha256": "c4c550ea498c20b6a2493b7eadde6f8442c38c90373158d45873e8035c3fa859"
+          },
+          {
+            "index": 46,
+            "oldSize": 54560,
+            "newSize": 54560,
+            "oldSha256": "a746f8b089e38f7571c69cf62423cf803632bc8548ccbb79c0edfbce18012582",
+            "newSha256": "81e85bf6f677a4292f810524d92505c3ddf52f961814c8478b69e3a4626207ff"
+          },
+          {
+            "index": 47,
+            "oldSize": 5632,
+            "newSize": 5632,
+            "oldSha256": "9d91d9a8806fe1c0a452bb8ce0a209ff5b5b4132d66b7a99294c2c3bb6b613e3",
+            "newSha256": "c41fd013a9145375ce91987f534ddf14b0b8ab65968235b6606094290a733b70"
+          },
+          {
+            "index": 53,
+            "oldSize": 50752,
+            "newSize": 50752,
+            "oldSha256": "489599e299e579abf694b979e1c04c6520874d6d16b20c1d9097a2595a68e309",
+            "newSha256": "3b5a088886567274c178ffeb948dfc44b030c7f115c157190caa1e694fa5dc97"
+          }
+        ],
+        "policy": "fixed-layout",
+        "outputSize": 2812384,
+        "outputSha256": "1b606e5f2f0568943d202c4eef7d60efaf0ec1b6ae9e980934dc7257455bcbf0",
+        "byteExact": false
+      }
+    ]
+  }
+}

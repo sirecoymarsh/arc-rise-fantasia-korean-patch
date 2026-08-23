@@ -1,0 +1,95 @@
+{
+  "schema": "arf-runtime-code-patch-v1",
+  "game_id": "RPJJ99",
+  "source_main_dol": {
+    "path": "work/disc_extracted/DATA/sys/main.dol",
+    "sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+  },
+  "root_cause": {
+    "symptom": {
+      "first_invalid_read": "0x5F737973",
+      "first_pc": "0x800E68FC",
+      "subsequent_warning_addresses": [
+        "0x00000008",
+        "0x0000000A",
+        "0x0000000C",
+        "0x5F737977"
+      ],
+      "classification": "one root fault with cascading invalid reads"
+    },
+    "mechanism": {
+      "faulty_path": "animated single-character renderer 0x800F5780 -> glyph renderer 0x800E65F8",
+      "trigger": "terminating NUL and newline/control bytes passed as glyphs",
+      "observed_invalid_page_quotients": [
+        -18,
+        -17
+      ],
+      "font_manager_lookup": "font_manager + 8 + (-18 * 4) = allocation_header + 0x20",
+      "allocation_header_bytes": "_sys from font_sys.c",
+      "allocation_header_u32_hex": [
+        "0x5F737973",
+        "0x2E630000"
+      ],
+      "why_only_some_lines": "the normal text loop checks NUL; the animated per-character path did not"
+    },
+    "scope": {
+      "independent_root_causes_confirmed": 1,
+      "direct_glyph_renderer_callers": 2,
+      "already_guarded_callers": 1,
+      "unguarded_callers_fixed": 1
+    }
+  },
+  "strategy": "complete lead-byte range guard on the sole unguarded animated-glyph routine",
+  "warning_suppression_used": false,
+  "mmu_required": false,
+  "code_cave": {
+    "memory_start_hex": "0x80021A14",
+    "memory_end_hex": "0x80021A40",
+    "section": "data1",
+    "available_zero_bytes": 44,
+    "used_bytes": 44,
+    "raw_aligned_pointer_reference_count": 0
+  },
+  "patches": [
+    {
+      "stable_id": "ARF-RUNTIME-NUL-GLYPH-ENTRY",
+      "purpose": "redirect animated glyph routine through NUL guard",
+      "file_offset": 877344,
+      "file_offset_hex": "0x000D6320",
+      "memory_address": 2148489088,
+      "memory_address_hex": "0x800F5780",
+      "section": "text1",
+      "byte_length": 4,
+      "original_hex": "9421FEF0",
+      "value": "4BF2C294",
+      "value_sha256": "F7327C89FC439824FC289D53761C0A77B06BB68426CDB292319E81B7AFC9C61E"
+    },
+    {
+      "stable_id": "ARF-RUNTIME-NUL-GLYPH-CAVE",
+      "purpose": "reject control/invalid lead bytes; otherwise execute displaced prologue and resume original routine",
+      "file_offset": 3955540,
+      "file_offset_hex": "0x003C5B54",
+      "memory_address": 2147621396,
+      "memory_address_hex": "0x80021A14",
+      "section": "data1",
+      "byte_length": 44,
+      "original_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "value": "89830000398CFFE0280C005E40810018280C006E41820010398CFF7F280C005D4181000C9421FEF0480D3D48",
+      "value_sha256": "43E02C3BE8C7F3C4B3FFC6D3946EDFF8EB59592D05C59219ACEE7D97C757925B"
+    }
+  ],
+  "checks": {
+    "source_hash_verified": true,
+    "original_instruction_verified": true,
+    "code_cave_zero_fill_verified": true,
+    "code_cave_has_no_raw_aligned_pointer_references": true,
+    "branch_alignment_and_range_verified": true,
+    "supported_lead_ranges_enforced": [
+      "0x20..0x7E",
+      "0x8E",
+      "0xA1..0xFE"
+    ],
+    "patch_spans_do_not_overlap_existing_rules": true
+  },
+  "valid": true
+}

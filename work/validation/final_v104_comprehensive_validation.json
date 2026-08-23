@@ -1,0 +1,61 @@
+{
+  "schema": "arf-ko-final-v104-comprehensive-validation-v1",
+  "game_id": "RPJJ99",
+  "release": "Arc_Rise_Fantasia_Korean_Patch_v1.0.4",
+  "translation_engine_policy": "Codex internal models only",
+  "external_translation_models_or_apis_used": false,
+  "checks": [
+    {
+      "name": "untranslated_surface_closure",
+      "passed": true,
+      "schema": "arf-untranslated-surface-closure-v104"
+    },
+    {
+      "name": "release_validation",
+      "passed": true,
+      "schema": "arf-ko-final-release-validation-v1"
+    },
+    {
+      "name": "installer_fixture",
+      "passed": true,
+      "schema": "arf-ko-one-click-installer-fixture-v1"
+    },
+    {
+      "name": "zip_checksum",
+      "passed": true,
+      "sha256": "5063A4C47EB08E8159D1C0968DD2F0274A2B134A0CADD38B0EAB18BEA8319A62"
+    }
+  ],
+  "passed_count": 4,
+  "failed_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "artifacts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\untranslated_surface_closure_v104.json",
+      "size_bytes": 6445,
+      "sha256": "387588AFDA59CDAA929ACCBB1617A464CC8C6F6330AF60396B2AD047C01C3CA5"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\final_release_validation_v104.json",
+      "size_bytes": 931,
+      "sha256": "74A944D1B253A077FC5887F9DE5EB143D0DA1C262FD30535446AAF2CD8062FE6"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\validation\\final_release_installer_fixture_v104.json",
+      "size_bytes": 1246,
+      "sha256": "1EB6A88C1F3AAF7022C60E340C1D86E8883189837CEC31784A16677BC171F2A1"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.4.zip",
+      "size_bytes": 748105185,
+      "sha256": "5063A4C47EB08E8159D1C0968DD2F0274A2B134A0CADD38B0EAB18BEA8319A62"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.4.zip.sha256",
+      "size_bytes": 109,
+      "sha256": "7830CFD10C0C13876CEA9E756B2A0088A6277E5189CB66CCCD643F40A33CDC57"
+    }
+  ],
+  "valid": true
+}

@@ -263,6 +263,22 @@
       "after": "그래? 난……\n이상하게도 그리운 느낌이 들어",
       "category": "naturalness",
       "reason": "不思議と의 부사적 뉘앙스를 자연스럽게 반영했다."
+    },
+    {
+      "tm_id": "ARF-TM-DE861B4AC182DC566CB7",
+      "source_text": "まさか……あれ、あなたなの？\nでもあなたは神種じゃないわ。\n竜玉石をつけていない",
+      "before": "설마…… 저게 당신이야?\n하지만 당신은 신종이 아니야.\n용옥석을 달고 있지 않아",
+      "after": "설마…… 저게 소아라야?\n하지만 소아라는 신종이 아니야.\n용옥석을 달고 있지 않아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-DC4934B5D5CF41B69221",
+      "source_text": "リリア……いえ、シェリィ。\nあなたは共和国にとって\n大切な存在なの",
+      "before": "릴리아…… 아니, 셰리.\n당신은 공화국에\n소중한 존재야",
+      "after": "릴리아…… 아니, 셰리.\n넌 공화국에\n소중한 존재야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -275,5 +291,22 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 29,
+  "unchanged_units": 171,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-DC4934B5D5CF41B69221",
+      "ARF-TM-DE861B4AC182DC566CB7"
+    ],
+    "reviewed_sha256": "C8E2A3943DD71C1D534286D8CE4C9678D343BCEABF2849241069B3A5B5584EB0"
+  },
+  "hashes": {
+    "reviewed_sha256": "C8E2A3943DD71C1D534286D8CE4C9678D343BCEABF2849241069B3A5B5584EB0"
   }
 }

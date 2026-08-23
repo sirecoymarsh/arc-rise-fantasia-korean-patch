@@ -1,0 +1,542 @@
+{
+  "schema": "arf-sfd-audio-dialogue-review-v1",
+  "game_id": "RPJJ99",
+  "movie_count": 21,
+  "movies_without_audio": 7,
+  "movies_with_audio": 14,
+  "movies_with_story_dialogue": 1,
+  "story_dialogue_movie": "Movie/RAY_OP_02.sfd",
+  "story_dialogue_range_seconds": [
+    152.368,
+    283.088
+  ],
+  "active_subtitle_script": "Map/map_d_hnk_00.cxd::lz10::0001:map_d_hnk_00.bscr",
+  "active_subtitle_line_range": [
+    112,
+    140
+  ],
+  "active_subtitle_line_count": 29,
+  "active_map_is_in_v112_staging": true,
+  "active_map_staged_sha256": "FFF0C4F7A0F4E41F9068BB96800D79F9AE5B225E7B25161349F43F76BE33FD3B",
+  "current_runtime_subtitles_already_korean": true,
+  "burn_in_sfd_required": false,
+  "reason": "The story dialogue has a separate active BSCR subtitle lane already included in v1.1.2; modifying the SFD is unnecessary and previously broke Sofdec timestamps.",
+  "candidate_changes_applied": false,
+  "candidate_requires_user_review": true,
+  "translation_provenance": "Codex internal",
+  "external_translation_service_used_for_korean": false,
+  "stt_role": "speech presence and timing evidence only; not translation",
+  "classification": [
+    {
+      "file": "EV01_05_0800B.sfd",
+      "duration_seconds": 166.616667,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV07_09_0100A.sfd",
+      "duration_seconds": 29.95,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV07_09_0700A.sfd",
+      "duration_seconds": 29.95,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "EV09_06_0600B_04.sfd",
+      "duration_seconds": 6.65,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "EV09_06_0600B_06.sfd",
+      "duration_seconds": 1.85,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "EV09_06_0600B_08.sfd",
+      "duration_seconds": 5.483333,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "EV09_06_0600B_12-13.sfd",
+      "duration_seconds": 17.85,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "EV09_06_0600B_15.sfd",
+      "duration_seconds": 1.516667,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "EV99_I_07B.sfd",
+      "duration_seconds": 19.983333,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV99_I_11B.sfd",
+      "duration_seconds": 40.783333,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV99_I_12B.sfd",
+      "duration_seconds": 34.916667,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV99_I_13B.sfd",
+      "duration_seconds": 19.016667,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV99_I_14B.sfd",
+      "duration_seconds": 19.95,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV99_I_15B.sfd",
+      "duration_seconds": 20.983333,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "EV99_I_16B.sfd",
+      "duration_seconds": 36.216667,
+      "audio_codec": "adpcm_adx",
+      "classification": "audio_music_effects_only",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "ADX contains music/effects; speech VAD found 0.000 s."
+    },
+    {
+      "file": "ie_logo.sfd",
+      "duration_seconds": 5.016667,
+      "audio_codec": "",
+      "classification": "silent_video",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0,
+      "note": "No audio stream."
+    },
+    {
+      "file": "mmv.sfd",
+      "duration_seconds": 2.35,
+      "audio_codec": "adpcm_adx",
+      "classification": "spoken_brand_ident",
+      "stt_segment_count": 1,
+      "speech_vad_seconds": 1.501,
+      "note": "Voice says Marvelous Entertainment; not story dialogue."
+    },
+    {
+      "file": "RAY_ED.sfd",
+      "duration_seconds": 115.977,
+      "audio_codec": "adpcm_adx",
+      "classification": "music_or_song_no_story_dialogue",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "Ending music/song; no story dialogue detected."
+    },
+    {
+      "file": "RAY_ED_ROLL.sfd",
+      "duration_seconds": 447.85,
+      "audio_codec": "adpcm_adx",
+      "classification": "music_or_song_no_story_dialogue",
+      "stt_segment_count": 1,
+      "speech_vad_seconds": 0.896,
+      "note": "Ending credits music; no story dialogue detected."
+    },
+    {
+      "file": "RAY_OP_01.sfd",
+      "duration_seconds": 104.783333,
+      "audio_codec": "adpcm_adx",
+      "classification": "music_or_song_no_story_dialogue",
+      "stt_segment_count": 0,
+      "speech_vad_seconds": 0.0,
+      "note": "Opening music/song; no story dialogue detected."
+    },
+    {
+      "file": "RAY_OP_02.sfd",
+      "duration_seconds": 287.001,
+      "audio_codec": "adpcm_adx",
+      "classification": "story_dialogue_with_music",
+      "stt_segment_count": 28,
+      "speech_vad_seconds": 91.52,
+      "note": "Japanese story dialogue detected from 152.368 s through 283.088 s."
+    }
+  ],
+  "dialogue": [
+    {
+      "bscr_index": 112,
+      "start_seconds": 152.2,
+      "end_seconds": 157.9,
+      "source_ja": "……助けて……くれたんだよな？\n悪い、助かった",
+      "current_runtime_ko": "……구해…… 준 거지?\n미안, 고맙다",
+      "candidate_ko": "……네가…… 구해 준 거지?\n고마워. 덕분에 살았어.",
+      "tm_id": "ARF-TM-786FE348E74412ABA2BD",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 113,
+      "start_seconds": 157.9,
+      "end_seconds": 165.45,
+      "source_ja": "それにしても今の……\n光召術……じゃないよな。歌召術、か？",
+      "current_runtime_ko": "그나저나 방금 건……\n광소술……은 아니지. 가소술인가?",
+      "candidate_ko": "그나저나 방금 그건……\n광소술……은 아니었지. 가소술인가?",
+      "tm_id": "ARF-TM-00DA90F6B57794BC096B",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 114,
+      "start_seconds": 165.45,
+      "end_seconds": 166.75,
+      "source_ja": "まさか",
+      "current_runtime_ko": "설마",
+      "candidate_ko": "설마……",
+      "tm_id": "ARF-TM-4DC77FB2FE792CF29A6D",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 115,
+      "start_seconds": 166.75,
+      "end_seconds": 168.7,
+      "source_ja": "あんたコーダーなのか？",
+      "current_runtime_ko": "너 코더야?",
+      "candidate_ko": "너, 코더야?",
+      "tm_id": "ARF-TM-827177DEAF4CF5C4EADD",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 116,
+      "start_seconds": 174.7,
+      "end_seconds": 176.4,
+      "source_ja": "おい、あんた！",
+      "current_runtime_ko": "이봐, 당신!",
+      "candidate_ko": "이봐, 너!",
+      "tm_id": "ARF-TM-7F3B19D717FFFA461E07",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 117,
+      "start_seconds": 182.7,
+      "end_seconds": 184.0,
+      "source_ja": "……ごめんなさい",
+      "current_runtime_ko": "……미안해요",
+      "candidate_ko": "……미안해.",
+      "tm_id": "ARF-TM-EAC28D4C8286213A10E6",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 118,
+      "start_seconds": 186.2,
+      "end_seconds": 191.55,
+      "source_ja": "……傷だらけだな。\nあんた、どうしてこんなところに……",
+      "current_runtime_ko": "……상처투성이군.\n당신, 왜 이런 곳에……",
+      "candidate_ko": "……상처투성이잖아.\n너, 왜 이런 곳에……",
+      "tm_id": "ARF-TM-3CF1AAD3371C4C49560C",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 119,
+      "start_seconds": 192.85,
+      "end_seconds": 196.1,
+      "source_ja": "アンタ……というのは、私のこと？",
+      "current_runtime_ko": "당신……이라는 건, 나 말이야?",
+      "candidate_ko": "『너』……라는 게 나를 말하는 거야?",
+      "tm_id": "ARF-TM-2550492231E01178940C",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 120,
+      "start_seconds": 196.1,
+      "end_seconds": 201.65,
+      "source_ja": "ああ。名前、知らないからな\n不愉快だったなら、すまなかった",
+      "current_runtime_ko": "그래. 이름을 몰라서 말이지\n불쾌했다면 미안해",
+      "candidate_ko": "그래. 이름을 모르니까.\n기분 나빴다면 미안해.",
+      "tm_id": "ARF-TM-6FDA0A1D3CF6E351DC1B",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 121,
+      "start_seconds": 201.65,
+      "end_seconds": 203.6,
+      "source_ja": "俺はラルクだ。ええっと――",
+      "current_runtime_ko": "난 라르크야. 그러니까――",
+      "candidate_ko": "난 라르크야. 그러니까――",
+      "tm_id": "ARF-TM-23D31CEF5E5BB38FEC84",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 122,
+      "start_seconds": 203.6,
+      "end_seconds": 206.55,
+      "source_ja": "不愉快？　何が？",
+      "current_runtime_ko": "불쾌해? 뭐가?",
+      "candidate_ko": "기분 나빠? 뭐가?",
+      "tm_id": "ARF-TM-2853EBD61233CDE4B8B7",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 123,
+      "start_seconds": 208.1,
+      "end_seconds": 209.35,
+      "source_ja": "何がって……",
+      "current_runtime_ko": "뭐냐니……",
+      "candidate_ko": "뭐가라니……",
+      "tm_id": "ARF-TM-E480B7BEEDCBD3450877",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 124,
+      "start_seconds": 209.35,
+      "end_seconds": 214.75,
+      "source_ja": "外では、私を『アンタ』と\n呼ぶのかもしれないと思ったの",
+      "current_runtime_ko": "밖에서는 나를 『너』라고\n부를지도 모른다고 생각했어",
+      "candidate_ko": "밖에서는 나를 『너』라고\n부르는 줄 알았어.",
+      "tm_id": "ARF-TM-E7215A4EFAADC10527BB",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 125,
+      "start_seconds": 214.75,
+      "end_seconds": 216.55,
+      "source_ja": "違うならいいわ",
+      "current_runtime_ko": "아니라면 됐어",
+      "candidate_ko": "아니면 됐어.",
+      "tm_id": "ARF-TM-0AEFD66B645F9FEB991D",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 126,
+      "start_seconds": 217.45,
+      "end_seconds": 219.6,
+      "source_ja": "な、何を言ってるんだ？",
+      "current_runtime_ko": "무, 무슨 소리야?",
+      "candidate_ko": "무, 무슨 소리야?",
+      "tm_id": "ARF-TM-BE343B2C82772D0A2C57",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 127,
+      "start_seconds": 220.3,
+      "end_seconds": 224.55,
+      "source_ja": "私はディーバ。個体名はリフィア",
+      "current_runtime_ko": "나는 디바. 개체명은 리피아",
+      "candidate_ko": "나는 디바. 개체명은 리피아.",
+      "tm_id": "ARF-TM-2877A64771661670EDE6",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 128,
+      "start_seconds": 229.0,
+      "end_seconds": 230.75,
+      "source_ja": "何なんだお前？",
+      "current_runtime_ko": "넌 뭐야?",
+      "candidate_ko": "대체 넌 뭐야?",
+      "tm_id": "ARF-TM-E20FA3E8E69AE7599615",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 129,
+      "start_seconds": 230.75,
+      "end_seconds": 234.55,
+      "source_ja": "『お前』は知っているわ。\nしもべへの呼びかけでしょう？",
+      "current_runtime_ko": "『너』는 알아.\n시종을 부르는 말이지?",
+      "candidate_ko": "『너』는 알아.\n하인을 부르는 말이잖아?",
+      "tm_id": "ARF-TM-F53CE71E4AB83424C0B9",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 130,
+      "start_seconds": 234.55,
+      "end_seconds": 238.95,
+      "source_ja": "あー！\nもう、ほんとに何なんだ!?",
+      "current_runtime_ko": "아!\n정말, 대체 뭐야!?",
+      "candidate_ko": "아, 정말!\n대체 뭐냐고!?",
+      "tm_id": "ARF-TM-ECE35C4E807A033F2CC5",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 131,
+      "start_seconds": 238.95,
+      "end_seconds": 241.05,
+      "source_ja": "もしかしたら怒っているの？",
+      "current_runtime_ko": "혹시 화난 거야?",
+      "candidate_ko": "혹시 화났어?",
+      "tm_id": "ARF-TM-48A6B32BA83F30E21430",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 132,
+      "start_seconds": 241.05,
+      "end_seconds": 243.2,
+      "source_ja": "いらついてるんだっ！",
+      "current_runtime_ko": "짜증 난다고!",
+      "candidate_ko": "짜증 난 거야!",
+      "tm_id": "ARF-TM-7AFAB015C99BF64758B9",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 133,
+      "start_seconds": 244.45,
+      "end_seconds": 246.0,
+      "source_ja": "――まあいいや",
+      "current_runtime_ko": "――뭐, 됐어",
+      "candidate_ko": "――뭐, 됐어.",
+      "tm_id": "ARF-TM-D84AC7F7400CAFC875FD",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 134,
+      "start_seconds": 246.0,
+      "end_seconds": 251.1,
+      "source_ja": "リフィア……だったな。\nとりあえず安全なところまで逃げよう",
+      "current_runtime_ko": "리피아……라고 했지.\n일단 안전한 곳까지 도망치자",
+      "candidate_ko": "리피아……라고 했지.\n일단 안전한 곳까지 피하자.",
+      "tm_id": "ARF-TM-5E7F7EB1C94F394B1120",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 135,
+      "start_seconds": 251.1,
+      "end_seconds": 253.25,
+      "source_ja": "まだ濁竜が出るかもしれない",
+      "current_runtime_ko": "아직 탁룡이 나타날지도 몰라",
+      "candidate_ko": "아직 탁룡이 나타날지도 몰라.",
+      "tm_id": "ARF-TM-9519ED2C0441815D1989",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 136,
+      "start_seconds": 253.25,
+      "end_seconds": 255.1,
+      "source_ja": "安全なところ？",
+      "current_runtime_ko": "안전한 곳?",
+      "candidate_ko": "안전한 곳?",
+      "tm_id": "ARF-TM-72C7A7DEA4E0C3CA242A",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 137,
+      "start_seconds": 255.6,
+      "end_seconds": 260.5,
+      "source_ja": "確かここから南東の方に\nトパジオンの村がある筈だ",
+      "current_runtime_ko": "분명 여기서 남동쪽에\n토파지온 마을이 있을 거야",
+      "candidate_ko": "분명 여기서 남동쪽에\n토파지온 마을이 있을 거야.",
+      "tm_id": "ARF-TM-627CC458C529119FC001",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 138,
+      "start_seconds": 260.55,
+      "end_seconds": 265.15,
+      "source_ja": "そこまで送っていく。\n助けてもらった礼だ",
+      "current_runtime_ko": "거기까지 데려다주지.\n도움을 받은 답례다",
+      "candidate_ko": "거기까지 데려다줄게.\n날 구해 준 답례야.",
+      "tm_id": "ARF-TM-CAE7D4DF06C391A7923F",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 139,
+      "start_seconds": 268.45,
+      "end_seconds": 274.05,
+      "source_ja": "そう、わかったわ。よろしく",
+      "current_runtime_ko": "그래, 알았어. 잘 부탁해",
+      "candidate_ko": "그래, 알았어. 잘 부탁해.",
+      "tm_id": "ARF-TM-9BD58250D2FE7BAE0D91",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    },
+    {
+      "bscr_index": 140,
+      "start_seconds": 280.15,
+      "end_seconds": 283.1,
+      "source_ja": "はぁ……\n一体何なんだっつーの……",
+      "current_runtime_ko": "하아……\n대체 뭐냐고……",
+      "candidate_ko": "하아……\n대체 뭐냐고, 정말……",
+      "tm_id": "ARF-TM-AF2A8BF0ABAB188CE5AB",
+      "translator_model": "Codex internal",
+      "candidate_status": "user_review_required_not_applied"
+    }
+  ],
+  "valid": true
+}

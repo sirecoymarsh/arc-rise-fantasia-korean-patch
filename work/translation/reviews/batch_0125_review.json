@@ -1370,10 +1370,10 @@
       "index": 171,
       "tm_id": "ARF-TM-C346B8282E20A60B2991",
       "source_text": "この子が言いたいのは\nあなたの傭兵としての経験が\n何か教えてくれないのか？<$0C>そういうことでしょう？",
-      "before": "용병으로 다녔다면서?\n나한테도 뭔가 가르쳐 줄 수 있어?",
-      "after": "이 아이가 말하고 싶은 건\n당신의 용병 경험으로\n뭔가 가르쳐 줄 수 없냐는 거야<$0C>그런 뜻이지?",
-      "category": "meaning",
-      "reason": "원문 의미와 생략된 세부를 복원하고 오역을 바로잡았다."
+      "before": "이 아이가 말하고 싶은 건\n당신의 용병 경험으로\n뭔가 가르쳐 줄 수 없냐는 거야<$0C>그런 뜻이지?",
+      "after": "이 아이가 말하고 싶은 건\n네 용병 경험으로\n뭔가 알아낼 수 없냐는 거야<$0C>그런 뜻이지?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "index": 172,
@@ -1602,5 +1602,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않음."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-C346B8282E20A60B2991"
+    ],
+    "reviewed_sha256": "A6E4095AF8A546926C95D7D9D2D42C826BBE6F5301238B4E0B84F119FCD3AB39"
+  },
+  "hashes": {
+    "reviewed_sha256": "A6E4095AF8A546926C95D7D9D2D42C826BBE6F5301238B4E0B84F119FCD3AB39"
   }
 }

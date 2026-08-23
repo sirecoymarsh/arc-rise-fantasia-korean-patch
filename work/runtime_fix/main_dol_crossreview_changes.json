@@ -2,10 +2,10 @@
   "schema": "arf-main-dol-crossreview-change-log-v1",
   "reviewer": "independent Codex internal model",
   "external_translation_used": false,
-  "reviewed_rows": 925,
+  "reviewed_rows": 926,
   "corrected_rows": 146,
-  "before_sha256": "A0F997FCECB0B7C6697C1E2CE3510F1F5F72A3A22EDAD0F9CFC13957B93A8A91",
-  "after_sha256": "1E4C93512D346A68D4941E0518861BE97E6610DCD62FBD987267B53FFA039CE3",
+  "before_sha256": "C65D388D2DD51D13E020AF7CE385B1519B9D37B7D901E45854DC524341B959FC",
+  "after_sha256": "2B369D67CE4BD62F63EE3216355F93E3610B6A76884D3F51CE5EA1A9AB1FC5E0",
   "changes": [
     {
       "offset": 3967609,

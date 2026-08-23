@@ -13,8 +13,8 @@
   "assigned_offset_start": 3958007,
   "assigned_offset_end": 3997695,
   "candidate_count": 606,
-  "included_count": 283,
-  "excluded_count": 323,
+  "included_count": 284,
+  "excluded_count": 322,
   "unresolved_count": 0,
   "validation": {
     "custom_euc28_estimator": "ASCII=1 byte, non-ASCII=2 bytes",
@@ -28,7 +28,7 @@
     "internal_non_display_string_or_unproven_visibility": 58,
     "unavailable_test_or_debug_menu": 116,
     "internal_or_invalid_placeholder_literal": 11,
-    "unreachable_developer_placeholder": 3,
+    "unreachable_developer_placeholder": 2,
     "unavailable_tutorial_test_choice": 6,
     "internal_identifier_or_dummy_label": 22
   },
@@ -1522,11 +1522,6 @@
       "offset": 3993701,
       "source_text": "「説明を聞く」を選んだ %d\n",
       "reason": "internal_non_display_string_or_unproven_visibility"
-    },
-    {
-      "offset": 3994177,
-      "source_text": "ないよ〜〜ん",
-      "reason": "unreachable_developer_placeholder"
     },
     {
       "offset": 3994754,

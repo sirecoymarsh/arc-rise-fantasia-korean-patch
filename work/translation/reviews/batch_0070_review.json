@@ -272,6 +272,14 @@
       "after": "이사신과의 계약으로 보호받은\n이 몸도 이제\n쇠해 가고 있다",
       "category": "semantic_accuracy",
       "reason": "朽ちる를 육체가 쇠하는 의미로 자연스럽게 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-1199556870904FE86FF8",
+      "source_text": "あ！　あんたたちは\n確か……ノワーレ教の伝道師の……",
+      "before": "아! 당신들은\n분명…… 노와레교 전도사의……",
+      "after": "아! 그쪽은 분명……\n노와레교 전도사 일행……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -284,5 +292,21 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 29,
+  "unchanged_units": 171,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-1199556870904FE86FF8"
+    ],
+    "reviewed_sha256": "476E811EA604DF2586A600E1D7CF14E90307286B91996F426C424A55BC342FD1"
+  },
+  "hashes": {
+    "reviewed_sha256": "476E811EA604DF2586A600E1D7CF14E90307286B91996F426C424A55BC342FD1"
   }
 }

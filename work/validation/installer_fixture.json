@@ -1,26 +1,23 @@
 ﻿{
-    "schema":  "arf-ko-installer-fixture-v1",
-    "package_root":  "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0",
-    "package_manifest_sha256":  "EAE8E68668EF34E904BCD93164AB11AAFAEEA66570B6DFE2CEC1030882B0DD9E",
-    "package_manifest_size_bytes":  180737,
-    "source_rvz_sha256":  "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "schema":  "arf-ko-one-click-installer-fixture-v1",
+    "package_root":  "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\outputs\\Arc_Rise_Fantasia_Korean_Patch_v1.0.2",
+    "package_manifest_sha256":  "75E60D7F3FC324A32D4EB23EF42DCCD491DA64510B9393414A2107B218A77402",
+    "package_manifest_size_bytes":  180808,
+    "overlay_file_count":  685,
     "checks":  [
                    {
-                       "name":  "pristine_install",
+                       "name":  "one_click_noninteractive_install",
                        "passed":  true
                    },
                    {
-                       "name":  "installed_hash_verification",
-                       "passed":  true
-                   },
-                   {
-                       "name":  "byte_exact_restore",
-                       "passed":  true
-                   },
-                   {
-                       "name":  "restored_target_has_no_added_files",
+                       "name":  "installed_payload_matches_manifest",
                        "passed":  true,
-                       "count":  0
+                       "missing_count":  0,
+                       "mismatched_count":  0
+                   },
+                   {
+                       "name":  "repeat_install_replaces_only_own_patch",
+                       "passed":  true
                    },
                    {
                        "name":  "tampered_payload_rejected_before_target_write",
@@ -28,7 +25,7 @@
                        "target_files":  0
                    }
                ],
-    "passed_count":  5,
+    "passed_count":  4,
     "failed_count":  0,
     "valid":  true
 }

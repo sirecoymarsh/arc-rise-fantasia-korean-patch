@@ -1,0 +1,455 @@
+{
+  "schema": "arf-ui-raster-translation-v1",
+  "game_id": "RPJJ99",
+  "source_container": "DATA/files/interface/if_resident_vol.cxd",
+  "source_container_sha256": "09E6816C21AF70DDA1A7E474D0E25C50E0C3E9477E8313A8AFA922DE6172D359",
+  "translator_model": "Codex internal",
+  "work_model": "GPT-5.5 Codex internal model",
+  "task_provenance": "/root current Codex task",
+  "external_translation_models_or_services_used": [],
+  "entries": [
+    {
+      "entry_path": [0, 287],
+      "layout": "shared_tab_atlas",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-00-287-01", "source_ja": "作戦", "target_ko": "작전"},
+        {"stable_id": "ARF-UI-IFR-00-287-02", "source_ja": "一覧", "target_ko": "목록"},
+        {"stable_id": "ARF-UI-IFR-00-287-03", "source_ja": "未契約", "target_ko": "미계약"},
+        {"stable_id": "ARF-UI-IFR-00-287-04", "source_ja": "遂行中", "target_ko": "진행 중"},
+        {"stable_id": "ARF-UI-IFR-00-287-05", "source_ja": "クリア", "target_ko": "완료"},
+        {"stable_id": "ARF-UI-IFR-00-287-06", "source_ja": "タウン", "target_ko": "마을"},
+        {"stable_id": "ARF-UI-IFR-00-287-07", "source_ja": "タフ", "target_ko": "터프"},
+        {"stable_id": "ARF-UI-IFR-00-287-08", "source_ja": "ダンジョン", "target_ko": "던전"},
+        {"stable_id": "ARF-UI-IFR-00-287-09", "source_ja": "月影の宿", "target_ko": "달그림자", "note": "고정 폭 지도 탭용 축약; 본문 지명은 달그림자 여관"},
+        {"stable_id": "ARF-UI-IFR-00-287-10", "source_ja": "サバイバル", "target_ko": "서바이벌"},
+        {"stable_id": "ARF-UI-IFR-00-287-11", "source_ja": "グループ", "target_ko": "그룹"}
+      ]
+    },
+    {
+      "entry_path": [0, 289],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-00-289-01", "source_ja": "能力値", "target_ko": "능력치"}]
+    },
+    {
+      "entry_path": [0, 294],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-00-294-01", "source_ja": "名称", "target_ko": "이름"}]
+    },
+    {
+      "entry_path": [6, 2],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-002-01", "source_ja": "アイテム", "target_ko": "아이템"},
+        {"stable_id": "ARF-UI-IFR-06-002-02", "source_ja": "光召術", "target_ko": "광소술"},
+        {"stable_id": "ARF-UI-IFR-06-002-03", "source_ja": "武器", "target_ko": "무기"},
+        {"stable_id": "ARF-UI-IFR-06-002-04", "source_ja": "防具", "target_ko": "방어구"},
+        {"stable_id": "ARF-UI-IFR-06-002-05", "source_ja": "戦闘設定", "target_ko": "전투 설정"},
+        {"stable_id": "ARF-UI-IFR-06-002-06", "source_ja": "地図", "target_ko": "지도"},
+        {"stable_id": "ARF-UI-IFR-06-002-07", "source_ja": "ライブラリ", "target_ko": "라이브러리"},
+        {"stable_id": "ARF-UI-IFR-06-002-08", "source_ja": "システム", "target_ko": "시스템"}
+      ]
+    },
+    {
+      "entry_path": [6, 3],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-003-01", "source_ja": "ステータス", "target_ko": "상태"},
+        {"stable_id": "ARF-UI-IFR-06-003-02", "source_ja": "エクセルアクト", "target_ko": "엑셀 액트"},
+        {"stable_id": "ARF-UI-IFR-06-003-03", "source_ja": "衣装", "target_ko": "의상"},
+        {"stable_id": "ARF-UI-IFR-06-003-04", "source_ja": "使う", "target_ko": "사용"},
+        {"stable_id": "ARF-UI-IFR-06-003-05", "source_ja": "ケージ", "target_ko": "케이지"},
+        {"stable_id": "ARF-UI-IFR-06-003-06", "source_ja": "アームフォース", "target_ko": "암 포스"},
+        {"stable_id": "ARF-UI-IFR-06-003-07", "source_ja": "装備", "target_ko": "장비"},
+        {"stable_id": "ARF-UI-IFR-06-003-08", "source_ja": "作戦設定", "target_ko": "작전 설정"},
+        {"stable_id": "ARF-UI-IFR-06-003-09", "source_ja": "パーティ編成", "target_ko": "파티 편성"},
+        {"stable_id": "ARF-UI-IFR-06-003-10", "source_ja": "ログレス", "target_ko": "로그레스"},
+        {"stable_id": "ARF-UI-IFR-06-003-11", "source_ja": "周辺地図", "target_ko": "주변 지도"},
+        {"stable_id": "ARF-UI-IFR-06-003-12", "source_ja": "世界地図", "target_ko": "세계 지도"},
+        {"stable_id": "ARF-UI-IFR-06-003-13", "source_ja": "傭兵の手引", "target_ko": "용병 안내"},
+        {"stable_id": "ARF-UI-IFR-06-003-14", "source_ja": "ギルド手帳", "target_ko": "길드 수첩"},
+        {"stable_id": "ARF-UI-IFR-06-003-15", "source_ja": "モンスター図鑑", "target_ko": "몬스터 도감"},
+        {"stable_id": "ARF-UI-IFR-06-003-16", "source_ja": "セーブ", "target_ko": "저장"},
+        {"stable_id": "ARF-UI-IFR-06-003-17", "source_ja": "ロード", "target_ko": "불러오기"},
+        {"stable_id": "ARF-UI-IFR-06-003-18", "source_ja": "コンフィグ", "target_ko": "설정"}
+      ]
+    },
+    {
+      "entry_path": [6, 4],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-004-01", "source_ja": "参加する", "target_ko": "참가하기"},
+        {"stable_id": "ARF-UI-IFR-06-004-02", "source_ja": "出る", "target_ko": "나가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 5],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-005-01", "source_ja": "ゲームで遊ぶ", "target_ko": "게임하기"},
+        {"stable_id": "ARF-UI-IFR-06-005-02", "source_ja": "コイン購入", "target_ko": "코인 구매"},
+        {"stable_id": "ARF-UI-IFR-06-005-03", "source_ja": "景品交換", "target_ko": "경품 교환"},
+        {"stable_id": "ARF-UI-IFR-06-005-04", "source_ja": "説明を聞く", "target_ko": "설명 듣기"},
+        {"stable_id": "ARF-UI-IFR-06-005-05", "source_ja": "出る", "target_ko": "나가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 6],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-006-01", "source_ja": "スロット", "target_ko": "슬롯"},
+        {"stable_id": "ARF-UI-IFR-06-006-02", "source_ja": "ポーカー", "target_ko": "포커"},
+        {"stable_id": "ARF-UI-IFR-06-006-03", "source_ja": "ブラックジャック", "target_ko": "블랙잭"},
+        {"stable_id": "ARF-UI-IFR-06-006-04", "source_ja": "コピンレース", "target_ko": "코핀 레이스"},
+        {"stable_id": "ARF-UI-IFR-06-006-05", "source_ja": "戻る", "target_ko": "돌아가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 7],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-007-01", "source_ja": "ケージ加工", "target_ko": "케이지 가공"},
+        {"stable_id": "ARF-UI-IFR-06-007-02", "source_ja": "ジェム修復", "target_ko": "젬 복구"},
+        {"stable_id": "ARF-UI-IFR-06-007-03", "source_ja": "売る", "target_ko": "판매"},
+        {"stable_id": "ARF-UI-IFR-06-007-04", "source_ja": "店を出る", "target_ko": "상점 나가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 8],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-008-01", "source_ja": "買う", "target_ko": "구매"},
+        {"stable_id": "ARF-UI-IFR-06-008-02", "source_ja": "売る", "target_ko": "판매"},
+        {"stable_id": "ARF-UI-IFR-06-008-03", "source_ja": "防具装備", "target_ko": "방어구 장비"},
+        {"stable_id": "ARF-UI-IFR-06-008-04", "source_ja": "店を出る", "target_ko": "상점 나가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 9],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-009-01", "source_ja": "仕事を選ぶ", "target_ko": "퀘스트 선택"},
+        {"stable_id": "ARF-UI-IFR-06-009-02", "source_ja": "説明を聞く", "target_ko": "설명 듣기"},
+        {"stable_id": "ARF-UI-IFR-06-009-03", "source_ja": "出る", "target_ko": "나가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 10],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-010-01", "source_ja": "宿泊する", "target_ko": "숙박하기"},
+        {"stable_id": "ARF-UI-IFR-06-010-02", "source_ja": "出る", "target_ko": "나가기"}
+      ]
+    },
+    {
+      "entry_path": [6, 11],
+      "layout": "heading_rows_24_right",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-06-011-01", "source_ja": "買う", "target_ko": "구매"},
+        {"stable_id": "ARF-UI-IFR-06-011-02", "source_ja": "売る", "target_ko": "판매"},
+        {"stable_id": "ARF-UI-IFR-06-011-03", "source_ja": "店を出る", "target_ko": "상점 나가기"}
+      ]
+    },
+    {
+      "entry_path": [10, 1],
+      "layout": "list_title_2rows",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-10-001-01", "source_ja": "名称", "target_ko": "이름"},
+        {"stable_id": "ARF-UI-IFR-10-001-02", "source_ja": "数", "target_ko": "수량"}
+      ]
+    },
+    {
+      "entry_path": [15, 2],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-15-002-01", "source_ja": "属性耐性", "target_ko": "속성 내성"}]
+    },
+    {
+      "entry_path": [16, 2],
+      "layout": "equipment_logres_rows",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-16-002-01", "source_ja": "ログレスⅠ", "target_ko": "로그레스 I"},
+        {"stable_id": "ARF-UI-IFR-16-002-02", "source_ja": "ログレスⅡ", "target_ko": "로그레스 II"},
+        {"stable_id": "ARF-UI-IFR-16-002-03", "source_ja": "ログレスⅢ", "target_ko": "로그레스 III"}
+      ]
+    },
+    {
+      "entry_path": [16, 3],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-16-003-01", "source_ja": "現在装備", "target_ko": "현재 장비"}]
+    },
+    {
+      "entry_path": [16, 4],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-16-004-01", "source_ja": "同期ログレス", "target_ko": "동기 로그레스"}]
+    },
+    {
+      "entry_path": [18, 2],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-18-002-01", "source_ja": "現在装備", "target_ko": "현재 장비"}]
+    },
+    {
+      "entry_path": [20, 1],
+      "layout": "shop_title_grid",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-20-001-01", "source_ja": "名称", "target_ko": "이름"},
+        {"stable_id": "ARF-UI-IFR-20-001-02", "source_ja": "値段", "target_ko": "가격"},
+        {"stable_id": "ARF-UI-IFR-20-001-03", "source_ja": "数", "target_ko": "수량"},
+        {"stable_id": "ARF-UI-IFR-20-001-04", "source_ja": "売値", "target_ko": "판매", "note": "26px 표 머리글용 축약"},
+        {"stable_id": "ARF-UI-IFR-20-001-05", "source_ja": "支払い", "target_ko": "지불액"},
+        {"stable_id": "ARF-UI-IFR-20-001-06", "source_ja": "所持数", "target_ko": "보유 수"},
+        {"stable_id": "ARF-UI-IFR-20-001-07", "source_ja": "可能数", "target_ko": "가능 수"}
+      ]
+    },
+    {
+      "entry_path": [23, 2],
+      "layout": "single_gold_24",
+      "items": [{"stable_id": "ARF-UI-IFR-23-002-01", "source_ja": "DP スロット数 個", "target_ko": "DP 슬롯 수 개"}]
+    },
+    {
+      "entry_path": [25, 1],
+      "layout": "cage_title_grid",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-25-001-01", "source_ja": "名称", "target_ko": "이름"},
+        {"stable_id": "ARF-UI-IFR-25-001-02", "source_ja": "値段", "target_ko": "가격"},
+        {"stable_id": "ARF-UI-IFR-25-001-03", "source_ja": "DP", "target_ko": "DP"}
+      ]
+    },
+    {
+      "entry_path": [26, 1],
+      "layout": "gem_title_grid",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-26-001-01", "source_ja": "名称", "target_ko": "이름"},
+        {"stable_id": "ARF-UI-IFR-26-001-02", "source_ja": "値段", "target_ko": "가격"},
+        {"stable_id": "ARF-UI-IFR-26-001-03", "source_ja": "DP", "target_ko": "DP"},
+        {"stable_id": "ARF-UI-IFR-26-001-04", "source_ja": "数", "target_ko": "수량"}
+      ]
+    },
+    {
+      "entry_path": [27, 1],
+      "layout": "clothes_title_grid",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-27-001-01", "source_ja": "名称", "target_ko": "이름"},
+        {"stable_id": "ARF-UI-IFR-27-001-02", "source_ja": "値段", "target_ko": "가격"}
+      ]
+    },
+    {
+      "entry_path": [28, 5],
+      "layout": "single_weapon_custom",
+      "items": [{"stable_id": "ARF-UI-IFR-28-005-01", "source_ja": "カスタマイズ中！", "target_ko": "커스터마이즈 중!"}]
+    },
+    {
+      "entry_path": [28, 6],
+      "layout": "single_weapon_cyan_32",
+      "items": [{"stable_id": "ARF-UI-IFR-28-006-01", "source_ja": "武器Lv", "target_ko": "무기 Lv"}]
+    },
+    {
+      "entry_path": [28, 7],
+      "layout": "single_weapon_red_32",
+      "items": [{"stable_id": "ARF-UI-IFR-28-007-01", "source_ja": "未発動", "target_ko": "미발동"}]
+    },
+    {
+      "entry_path": [31, 1],
+      "layout": "tactics_title_grid",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-31-001-01", "source_ja": "名称", "target_ko": "이름"},
+        {"stable_id": "ARF-UI-IFR-31-001-02", "source_ja": "作戦", "target_ko": "작전"}
+      ]
+    },
+    {
+      "entry_path": [32, 2],
+      "layout": "dragons_effect_rows",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-32-002-01", "source_ja": "同期効果", "target_ko": "동기 효과"},
+        {"stable_id": "ARF-UI-IFR-32-002-02", "source_ja": "開放効果", "target_ko": "개방 효과"}
+      ]
+    },
+    {
+      "entry_path": [32, 3],
+      "layout": "single_cyan_24",
+      "items": [{"stable_id": "ARF-UI-IFR-32-003-01", "source_ja": "神竜 1 2 3", "target_ko": "신룡 1 2 3"}]
+    },
+    {
+      "entry_path": [33, 2],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-33-002-01", "source_ja": "マップ", "target_ko": "지도"}]
+    },
+    {
+      "entry_path": [40, 5], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-005-01", "source_ja": "水棲生物系", "target_ko": "수생 생물계"}]
+    },
+    {
+      "entry_path": [40, 6], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-006-01", "source_ja": "能力値系", "target_ko": "능력치 계열"}]
+    },
+    {
+      "entry_path": [40, 7], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-007-01", "source_ja": "その他", "target_ko": "기타"}]
+    },
+    {
+      "entry_path": [40, 8], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-008-01", "source_ja": "付加効果系", "target_ko": "부가 효과"}]
+    },
+    {
+      "entry_path": [40, 9], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-009-01", "source_ja": "攻撃系", "target_ko": "공격 계열"}]
+    },
+    {
+      "entry_path": [40, 10], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-010-01", "source_ja": "コマンド", "target_ko": "명령"}]
+    },
+    {
+      "entry_path": [40, 11], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-011-01", "source_ja": "防御系", "target_ko": "방어 계열"}]
+    },
+    {
+      "entry_path": [40, 12], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-012-01", "source_ja": "施設系", "target_ko": "시설 계열"}]
+    },
+    {
+      "entry_path": [40, 13], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-013-01", "source_ja": "有翼生物系", "target_ko": "날개 생물계"}]
+    },
+    {
+      "entry_path": [40, 14], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-014-01", "source_ja": "昆虫系", "target_ko": "곤충계"}]
+    },
+    {
+      "entry_path": [40, 15], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-015-01", "source_ja": "不死系", "target_ko": "불사계"}]
+    },
+    {
+      "entry_path": [40, 16], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-016-01", "source_ja": "竜系", "target_ko": "용계"}]
+    },
+    {
+      "entry_path": [40, 17], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-017-01", "source_ja": "その他", "target_ko": "기타"}]
+    },
+    {
+      "entry_path": [40, 18], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-018-01", "source_ja": "ALL", "target_ko": "전체"}]
+    },
+    {
+      "entry_path": [40, 19], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-019-01", "source_ja": "コマンド", "target_ko": "명령"}]
+    },
+    {
+      "entry_path": [40, 20], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-020-01", "source_ja": "アイテム", "target_ko": "아이템"}]
+    },
+    {
+      "entry_path": [40, 21], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-021-01", "source_ja": "光召術", "target_ko": "광소술"}]
+    },
+    {
+      "entry_path": [40, 22], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-022-01", "source_ja": "モンスター", "target_ko": "몬스터"}]
+    },
+    {
+      "entry_path": [40, 23], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-023-01", "source_ja": "システム", "target_ko": "시스템"}]
+    },
+    {
+      "entry_path": [40, 24], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-024-01", "source_ja": "用語", "target_ko": "용어"}]
+    },
+    {
+      "entry_path": [40, 25], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-025-01", "source_ja": "人間系", "target_ko": "인간계"}]
+    },
+    {
+      "entry_path": [40, 26], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-026-01", "source_ja": "装身具", "target_ko": "장신구"}]
+    },
+    {
+      "entry_path": [40, 27], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-027-01", "source_ja": "胴装備", "target_ko": "몸통 장비"}]
+    },
+    {
+      "entry_path": [40, 28], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-028-01", "source_ja": "足装備", "target_ko": "다리 장비"}]
+    },
+    {
+      "entry_path": [40, 29], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-029-01", "source_ja": "消耗品", "target_ko": "소모품"}]
+    },
+    {
+      "entry_path": [40, 30], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-030-01", "source_ja": "ジェム", "target_ko": "젬"}]
+    },
+    {
+      "entry_path": [40, 31], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-031-01", "source_ja": "貴重品", "target_ko": "귀중품"}]
+    },
+    {
+      "entry_path": [40, 32], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-032-01", "source_ja": "武器", "target_ko": "무기"}]
+    },
+    {
+      "entry_path": [40, 33], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-033-01", "source_ja": "魔法生物系", "target_ko": "마법 생물계"}]
+    },
+    {
+      "entry_path": [40, 34], "layout": "single_category_gold_32",
+      "items": [{"stable_id": "ARF-UI-IFR-40-034-01", "source_ja": "植物系", "target_ko": "식물계"}]
+    },
+    {
+      "entry_path": [42, 2],
+      "layout": "single_cyan_24",
+      "items": [{"stable_id": "ARF-UI-IFR-42-002-01", "source_ja": "出現地域", "target_ko": "출현 지역"}]
+    },
+    {
+      "entry_path": [43, 2],
+      "layout": "monster_status_titles",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-43-002-01", "source_ja": "弱点", "target_ko": "약점"},
+        {"stable_id": "ARF-UI-IFR-43-002-02", "source_ja": "耐性", "target_ko": "내성"},
+        {"stable_id": "ARF-UI-IFR-43-002-03", "source_ja": "知覚", "target_ko": "감지"},
+        {"stable_id": "ARF-UI-IFR-43-002-04", "source_ja": "落とすアイテム", "target_ko": "드롭 아이템"},
+        {"stable_id": "ARF-UI-IFR-43-002-05", "source_ja": "盗めるアイテム", "target_ko": "훔칠 아이템"}
+      ]
+    },
+    {
+      "entry_path": [46, 1],
+      "layout": "quest_level_grid",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-46-001-01", "source_ja": "クエスト難易度", "target_ko": "퀘스트 난이도"},
+        {"stable_id": "ARF-UI-IFR-46-001-02", "source_ja": "参加費 R", "target_ko": "참가비 R"},
+        {"stable_id": "ARF-UI-IFR-46-001-03", "source_ja": "推奨 Lv", "target_ko": "권장 Lv"}
+      ]
+    },
+    {
+      "entry_path": [46, 3],
+      "layout": "quest_main_rows_24",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-46-003-01", "source_ja": "依頼主", "target_ko": "의뢰인"},
+        {"stable_id": "ARF-UI-IFR-46-003-02", "source_ja": "クリア条件", "target_ko": "완료 조건"},
+        {"stable_id": "ARF-UI-IFR-46-003-03", "source_ja": "成功報酬", "target_ko": "성공 보상"},
+        {"stable_id": "ARF-UI-IFR-46-003-04", "source_ja": "詳細内容", "target_ko": "상세 내용"},
+        {"stable_id": "ARF-UI-IFR-46-003-05", "source_ja": "戦闘内容", "target_ko": "전투 내용"}
+      ]
+    },
+    {
+      "entry_path": [46, 4],
+      "layout": "quest_type_rows_24",
+      "items": [
+        {"stable_id": "ARF-UI-IFR-46-004-01", "source_ja": "＋サバイバル＋", "target_ko": "+서바이벌+"},
+        {"stable_id": "ARF-UI-IFR-46-004-02", "source_ja": "＋グループ＋", "target_ko": "+그룹+"},
+        {"stable_id": "ARF-UI-IFR-46-004-03", "source_ja": "＋タフ＋", "target_ko": "+터프+"},
+        {"stable_id": "ARF-UI-IFR-46-004-04", "source_ja": "＋討伐＋", "target_ko": "+토벌+"},
+        {"stable_id": "ARF-UI-IFR-46-004-05", "source_ja": "＋収集＋", "target_ko": "+수집+"},
+        {"stable_id": "ARF-UI-IFR-46-004-06", "source_ja": "＋運搬＋", "target_ko": "+운반+"},
+        {"stable_id": "ARF-UI-IFR-46-004-07", "source_ja": "＋特殊＋", "target_ko": "+특수+"}
+      ]
+    },
+    {
+      "entry_path": [47, 2],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-47-002-01", "source_ja": "参加費", "target_ko": "참가비"}]
+    },
+    {
+      "entry_path": [53, 3],
+      "layout": "single_cyan_16",
+      "items": [{"stable_id": "ARF-UI-IFR-53-003-01", "source_ja": "現在装備", "target_ko": "현재 장비"}]
+    }
+  ]
+}

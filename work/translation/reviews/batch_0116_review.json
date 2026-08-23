@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0116.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0116.jsonl",
   "reviewed_units": 200,
-  "modified_units": 20,
-  "unchanged_units": 180,
+  "modified_units": 21,
+  "unchanged_units": 179,
   "review_dimensions": [
     "meaning",
     "function",
@@ -193,6 +193,14 @@
       "after": "제가 희생되어도 좋습니다.\n가르침을 지킬 수만 있다면 저는――",
       "category": "grammar",
       "reason": "수동적인 직역을 자연스러운 희생 의지 표현으로 다듬었다."
+    },
+    {
+      "tm_id": "ARF-TM-A00E7A1FCCC3D88AED38",
+      "source_text": "あら、あなたたちまで？\n嬉しいナ。お姉さんたら\nこのあたりがきゅんとしちゃった",
+      "before": "어머, 당신들까지?\n기쁘네. 언니는\n가슴이 두근거렸어",
+      "after": "어머, 너희까지?\n기쁘네. 언니는\n가슴이 두근거렸어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -219,6 +227,17 @@
     "reviewed_sha256": "BDCA559E8B15DB882A991AA8C25F69D0359DDC9E687A4AC20C252717E0272E3F"
   },
   "hashes": {
-    "reviewed_sha256": "BDCA559E8B15DB882A991AA8C25F69D0359DDC9E687A4AC20C252717E0272E3F"
+    "reviewed_sha256": "573E929FAC023239317A175D30EAB38B1D16C7EAE57821D95FE4EC3E3BDAEE9D"
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-A00E7A1FCCC3D88AED38"
+    ],
+    "reviewed_sha256": "573E929FAC023239317A175D30EAB38B1D16C7EAE57821D95FE4EC3E3BDAEE9D"
   }
 }

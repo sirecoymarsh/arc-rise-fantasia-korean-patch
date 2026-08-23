@@ -296,7 +296,6 @@
 {"offset":3993622,"offset_hex":"0x003CF016","source_text":"「説明を聞く」を選んだ\n","byte_length":23,"reason":"internal_non_display_string_or_unproven_visibility"}
 {"offset":3993671,"offset_hex":"0x003CF047","source_text":"カジノウィンドウの作成に失敗\n","byte_length":29,"reason":"developer_log_assert_or_runtime_diagnostic"}
 {"offset":3993701,"offset_hex":"0x003CF065","source_text":"「説明を聞く」を選んだ %d\n","byte_length":26,"reason":"internal_non_display_string_or_unproven_visibility"}
-{"offset":3994177,"offset_hex":"0x003CF241","source_text":"ないよ〜〜ん","byte_length":12,"reason":"unreachable_developer_placeholder"}
 {"offset":3994754,"offset_hex":"0x003CF482","source_text":"ダミー３","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
 {"offset":3994763,"offset_hex":"0x003CF48B","source_text":"ダミー４","byte_length":8,"reason":"internal_identifier_or_dummy_label"}
 {"offset":3994772,"offset_hex":"0x003CF494","source_text":"ダミー５","byte_length":8,"reason":"internal_identifier_or_dummy_label"}

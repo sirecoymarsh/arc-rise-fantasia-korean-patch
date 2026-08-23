@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0050.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0050.jsonl",
   "reviewed_units": 200,
-  "modified_units": 26,
-  "unchanged_units": 174,
+  "modified_units": 28,
+  "unchanged_units": 172,
   "review_dimensions": [
     "meaning",
     "function",
@@ -232,6 +232,22 @@
       "after": "……이게 무슨 일인지\n밖에 나가면 차근차근\n설명해 줘야겠어, 오이겐 나리",
       "category": "meaning",
       "reason": "화자가 오이겐에게 설명을 요구한다는 방향을 올바르게 바로잡았다."
+    },
+    {
+      "tm_id": "ARF-TM-ADD29CC9CDFBC0ED5309",
+      "source_text": "あ、あんたは……！",
+      "before": "다, 당신은……!",
+      "after": "아, 레온……!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-3FA9C979F214C94C07AD",
+      "source_text": "そうか？　よく分からないが\nあんたも異論がないなら\nベネトナーシュを目指そう",
+      "before": "그래? 잘 모르겠지만\n당신도 이견이 없다면\n베네트나슈로 가자",
+      "after": "그래? 잘 모르겠지만\n오이겐도 이견이 없다면\n베네트나슈로 가자",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -244,5 +260,20 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-3FA9C979F214C94C07AD",
+      "ARF-TM-ADD29CC9CDFBC0ED5309"
+    ],
+    "reviewed_sha256": "BE50F026F484D2840999D61FBB0AAFAD67EAE54C9F6F3052651BCDC1E702A1AD"
+  },
+  "hashes": {
+    "reviewed_sha256": "BE50F026F484D2840999D61FBB0AAFAD67EAE54C9F6F3052651BCDC1E702A1AD"
   }
 }

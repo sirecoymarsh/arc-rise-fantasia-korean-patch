@@ -155,6 +155,14 @@
       "after": "우린 디바의 의뢰를 받아\n그 계획을 저지하고 디바의 딸을\n――아델을 구했어",
       "category": "semantic_accuracy",
       "reason": "それ가 디바의 의뢰가 아니라 앞서 언급된 계획을 가리키도록 지시 관계를 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-0BDB21F4C059EF436104",
+      "source_text": "ええ。あなたの心の命ずるままに",
+      "before": "네. 당신의 마음이 명하는 대로",
+      "after": "응. 네 마음이 이끄는 대로",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -167,5 +175,21 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 16,
+  "unchanged_units": 184,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-0BDB21F4C059EF436104"
+    ],
+    "reviewed_sha256": "3FC89F1CA1C9294561D4BBAE178D52C3266F8F0A51057EE72BE3EDFD1E73DF3E"
+  },
+  "hashes": {
+    "reviewed_sha256": "3FC89F1CA1C9294561D4BBAE178D52C3266F8F0A51057EE72BE3EDFD1E73DF3E"
   }
 }

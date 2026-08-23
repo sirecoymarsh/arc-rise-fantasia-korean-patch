@@ -133,6 +133,7 @@
 {"offset":3994122,"source_text":"ニコル","translation_ko":"니콜","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
 {"offset":3994129,"source_text":"クライド","translation_ko":"클라이드","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
 {"offset":3994138,"source_text":"ディノス","translation_ko":"디노스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
+{"offset":3994177,"source_text":"ないよ〜〜ん","translation_ko":"없지롱~~","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":12}
 {"offset":3994190,"source_text":"？？？","translation_ko":"???","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":6}
 {"offset":3994197,"source_text":"ヴァイス","translation_ko":"바이스","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":8}
 {"offset":3994206,"source_text":"イグナーツ","translation_ko":"이그나츠","context":"대화창 화자·NPC 표시명","lane":"speaker_name","capacity_to_nul":10}

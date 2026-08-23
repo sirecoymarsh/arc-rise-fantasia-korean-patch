@@ -1,0 +1,1436 @@
+{
+  "schema": "arf-map-info-description-application-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "inputs": {
+    "catalog_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\map_info_description_catalog.json",
+    "catalog_sha256": "7726EA0F9735B5E2A9F95718C903B5E54A6DE91A511B5FC758C39EAA9D301273",
+    "translations_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\map_info\\map_info_description_translations.tsv",
+    "translations_sha256": "1EB3426A46B998932EEC1C6E1A5467D376034551859E0F57AE4B1C830D94FEC7",
+    "codebook_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\codebook.json",
+    "codebook_sha256": "509863959CE12CA28686F99DA86460CB590B6EBCA4AC36B6AC51C46EC88BCB0E"
+  },
+  "counts": {
+    "map_files": 36,
+    "description_members": 72,
+    "display_descriptions": 36,
+    "size_preserved_files": 36,
+    "resized_files": 0,
+    "changed_outside_description_members": 0
+  },
+  "invariants": {
+    "all_36_descriptions_translated": true,
+    "dat_and_txt_both_translated": true,
+    "all_targets_fit_member_capacities": true,
+    "all_members_fixed_size": true,
+    "all_unpacked_bytes_outside_description_members_source_identical": true,
+    "all_outputs_decompress_to_requested_rtdp": true
+  },
+  "files": [
+    {
+      "map_code": "aka",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_aka_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_aka_vol.cxd",
+      "source_packed_size": 271508,
+      "output_packed_size": 271508,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "EA28F972D5630A718D751856F92ACAC51E22AC534318A1E86C8FA5D57EAC1D79",
+      "output_packed_sha256": "803F32A599D61F6963EFA2FD4ED8CF0E42575549893D5F2A075DD9F0B4581E5D",
+      "source_unpacked_sha256": "F24EC717D897223FD09A1CD588F5C45C0851EA2534C8D5884D2453EFEF26DECE",
+      "output_unpacked_sha256": "EBF7C239D862B98969A3EF70253D7DD5FE47B3C44F2C9D541044E8C7FF72DF93",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_aka_info.dat",
+          "entry_index": 1,
+          "capacity": 196,
+          "source_used_bytes": 195,
+          "target_used_bytes": 192,
+          "headroom_bytes": 4,
+          "line_count": 9,
+          "source_sha256": "7A994689C634044DAA474AB7BBD2BB228F03DCF084A19AB76D0AC14D5978A266",
+          "target_sha256": "1086CBE5D3245ECC0FDE51ABFF30184DE5C7AD8732CAD7D8DDE61B3DE813287C"
+        },
+        {
+          "member": "data_map_aka_info.txt",
+          "entry_index": 2,
+          "capacity": 204,
+          "source_used_bytes": 204,
+          "target_used_bytes": 201,
+          "headroom_bytes": 3,
+          "line_count": 9,
+          "source_sha256": "7028103F6DF0D54286039954D1A4AA6E3FA2F8229A917C15A656F1D256C47A02",
+          "target_sha256": "D7B5A68A96E5A231476B920C65341B6CC7288FD4522A1BAD4467D982CB1AF3DF"
+        }
+      ]
+    },
+    {
+      "map_code": "aot",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_aot_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_aot_vol.cxd",
+      "source_packed_size": 244096,
+      "output_packed_size": 244096,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "25E38D49831258C5C7ADDE75A20AA94AC3AD1830650BC5F9C210156B30301492",
+      "output_packed_sha256": "F4B7BC088D63B93EEBABC9A5698502F02473F236A6C416FDAD388875BE618AC2",
+      "source_unpacked_sha256": "39A4F49DDA7D7589207BAC1AA20FD5C2D5F6DBEEF7B7CFED0AC6F58FE923BA2F",
+      "output_unpacked_sha256": "45F2B307B70D0BCD6CF5623D7E65F8798B9682F9CAE291D17FD3DCC0CA75A22A",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_aot_info.dat",
+          "entry_index": 1,
+          "capacity": 196,
+          "source_used_bytes": 195,
+          "target_used_bytes": 179,
+          "headroom_bytes": 17,
+          "line_count": 9,
+          "source_sha256": "AF332D58404EB3208D4E4A0B60AD539EAD519A1C5D54B464A11AF08EE1F46D11",
+          "target_sha256": "ED0AC960212F6A299E519FB057F720A87430D9697DD36C551CCD7F5B46FE6184"
+        },
+        {
+          "member": "data_map_aot_info.txt",
+          "entry_index": 2,
+          "capacity": 204,
+          "source_used_bytes": 204,
+          "target_used_bytes": 188,
+          "headroom_bytes": 16,
+          "line_count": 9,
+          "source_sha256": "51EA61B2502361AD647A3FCA5D548F905322B149C23122CB2100BDEE0DFA9CC5",
+          "target_sha256": "ED6B44E34907EAE66DCE94416700D97F0C6F0CAA0F8B8FC9A349E05C1E03F3C3"
+        }
+      ]
+    },
+    {
+      "map_code": "bat",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_bat_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_bat_vol.cxd",
+      "source_packed_size": 244792,
+      "output_packed_size": 244792,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "348326ECB75650A3B7DCD3ED2A1DE8C942ED91DAD0BD9D8B430AA7D28C517518",
+      "output_packed_sha256": "0E6F63364AA17E85076A493FAD23A408DC3985B2EE18A7EF21B2CEF8A5559F99",
+      "source_unpacked_sha256": "0C52B375E72930F78FE3AAE19D33719889B74E48EF36BBB81C0365C66B7D73C6",
+      "output_unpacked_sha256": "5246E1BDC0CE3E1F96844AA2B6D22C78BC52E02550854AEABBFE18DC4FDA2FDE",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_bat_info.dat",
+          "entry_index": 1,
+          "capacity": 188,
+          "source_used_bytes": 187,
+          "target_used_bytes": 185,
+          "headroom_bytes": 3,
+          "line_count": 9,
+          "source_sha256": "0370023A996E9CBBDAEE33DE09EE707E820CB59CC34D1301BCC9BE52C4237568",
+          "target_sha256": "0F301E5A64591B36D0219DD4264AE38F367126C878D8FB880BFEE767C53F0B4C"
+        },
+        {
+          "member": "data_map_bat_info.txt",
+          "entry_index": 2,
+          "capacity": 196,
+          "source_used_bytes": 196,
+          "target_used_bytes": 194,
+          "headroom_bytes": 2,
+          "line_count": 9,
+          "source_sha256": "75E7CE2EF5CCF2F971C40CE40D6544CA9B7E2A820B9382E44A3658ADD905D964",
+          "target_sha256": "CBC6EBE9F31F508CE8B773706BB178D7FCEB24C04829DCB54AF975D46C4557E2"
+        }
+      ]
+    },
+    {
+      "map_code": "bne",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_bne_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_bne_vol.cxd",
+      "source_packed_size": 274636,
+      "output_packed_size": 274636,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "AC29A58CA8364C11F112A6022CE4D52D0C8CDE92DDAD6C2660DA71E4EB1D0440",
+      "output_packed_sha256": "198060AB4587A9AEC20BCC34F698AE81803F1F97DA7DBA31032DFF049A63BB3E",
+      "source_unpacked_sha256": "71446847B84859E8CD58D275B64586342363D5B9F23AAB385DFDCD5E46F8EBF4",
+      "output_unpacked_sha256": "AA83E6F99149947ACBFE39C4E6DD4B15D997B087B425DA35A22B6F59A1A8833B",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_bne_info.dat",
+          "entry_index": 1,
+          "capacity": 206,
+          "source_used_bytes": 205,
+          "target_used_bytes": 197,
+          "headroom_bytes": 9,
+          "line_count": 9,
+          "source_sha256": "37DC6E3714A5F0E368482ADA1934B0A6B57F6013B9D0D6FD7B8198082F4A24F2",
+          "target_sha256": "8602B71141698C2326CAFBFEA18CB5A4E2B4012047C778D2A1D5D5513D561772"
+        },
+        {
+          "member": "data_map_bne_info.txt",
+          "entry_index": 2,
+          "capacity": 214,
+          "source_used_bytes": 214,
+          "target_used_bytes": 206,
+          "headroom_bytes": 8,
+          "line_count": 9,
+          "source_sha256": "A60B0794A296188A609DD761F82E8503246DBCE34BBA7648721033BAADB70683",
+          "target_sha256": "4CFA6C7DB8AA8569E843C3154B7F483F449C2A68A9B03F53F453C24BC6387725"
+        }
+      ]
+    },
+    {
+      "map_code": "can",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_can_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_can_vol.cxd",
+      "source_packed_size": 241844,
+      "output_packed_size": 241844,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "6A09CEC56A273B61B1F8E1843D5CB37B56399BD999DCD27DE6875596E2D0EF18",
+      "output_packed_sha256": "858ACAC9A8420104640636A58DE9195219ED6D4C0DF5DC3F5B6BBEB0A3990379",
+      "source_unpacked_sha256": "B39FDD116CCA99EDBA8C08DCCEA0DFA7A64F8D26AE1865939638ABCA8DD8C6E8",
+      "output_unpacked_sha256": "1819432975698B677C278C99BD9664FE5F98F21E29E1F66EF25A6F6CBDAD8604",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_can_info.dat",
+          "entry_index": 1,
+          "capacity": 202,
+          "source_used_bytes": 201,
+          "target_used_bytes": 197,
+          "headroom_bytes": 5,
+          "line_count": 9,
+          "source_sha256": "811BD8D1501A14BFD47529D32E90A7AAB1CDE86C54C3EBD8A75AA919D23E4E1A",
+          "target_sha256": "606BD914E32F3044A228B83D292E760FAA4D56E71BA7C6C91697A058D7027477"
+        },
+        {
+          "member": "data_map_can_info.txt",
+          "entry_index": 2,
+          "capacity": 210,
+          "source_used_bytes": 210,
+          "target_used_bytes": 206,
+          "headroom_bytes": 4,
+          "line_count": 9,
+          "source_sha256": "2471BBC79BCC8581B4DDA740975B9187B08FA4D15A4FF11015365D6BF9BDD9CC",
+          "target_sha256": "82EE048D72FBA6E2F6AC1CE22CD0913B5D340315B4C91B9CC038D2E74208EE3C"
+        }
+      ]
+    },
+    {
+      "map_code": "cb1",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb1_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb1_vol.cxd",
+      "source_packed_size": 242428,
+      "output_packed_size": 242428,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "39D41ACB521A203D2C99B0FF788D360EBE1C4C73CE6844AE044FC71544FB3132",
+      "output_packed_sha256": "16A3778A53941CC5C1E8F6A0B0F32F54661623E0438B8D489EB161CDB2ACD769",
+      "source_unpacked_sha256": "C9B2B1A5AC1AAF816B736DFF9CFE1CA5703DF66B19CD5C957EA83B80E27B1E40",
+      "output_unpacked_sha256": "58D4D7D514010B291A38CDBEED3DFD14471EFB1590C7E11FF63E835B921C3BCD",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb1_info.dat",
+          "entry_index": 1,
+          "capacity": 216,
+          "source_used_bytes": 215,
+          "target_used_bytes": 200,
+          "headroom_bytes": 16,
+          "line_count": 9,
+          "source_sha256": "7E718250A0162EF385D33A77F1E22D43B0490B6521DBFABBB368B65DAB8C1C4D",
+          "target_sha256": "1AB4EDDBF9E92099F0EE14D9200ED5C1E3EC184E6DB3BE3B77B43E53D74C7E75"
+        },
+        {
+          "member": "data_map_cb1_info.txt",
+          "entry_index": 2,
+          "capacity": 224,
+          "source_used_bytes": 224,
+          "target_used_bytes": 209,
+          "headroom_bytes": 15,
+          "line_count": 9,
+          "source_sha256": "8B3C00E5F6A973EDE149E0F790A8F3D4A440413538C343C106C8B0D8C28CA29E",
+          "target_sha256": "1A4A33BF2944629B1B302E0464E413FA946831E583F7A940EC9B3F4B0AF830C3"
+        }
+      ]
+    },
+    {
+      "map_code": "cb2",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb2_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb2_vol.cxd",
+      "source_packed_size": 278936,
+      "output_packed_size": 278936,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "9D9AEE3C5946E7272B4A3B758447340E9EC86539A0BECE76E7EEA4C9468DFF18",
+      "output_packed_sha256": "5114D2D0245E4AC925B0A4327C08EBA38EC033EE588DCDB12892B0CB473B4DFD",
+      "source_unpacked_sha256": "EE4F97D54DD114AF2E04346027E069DB42C7C97492B8FB49F965D021072BC1EE",
+      "output_unpacked_sha256": "83960AD63C7D70E4012A1FADF6D7EE512A66578C0FF9343E1FCFF252D756F469",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb2_info.dat",
+          "entry_index": 1,
+          "capacity": 208,
+          "source_used_bytes": 207,
+          "target_used_bytes": 191,
+          "headroom_bytes": 17,
+          "line_count": 9,
+          "source_sha256": "7E972E3B8C4936732D1A04FF855D0AE620E17C122382F656C3764D5615CC1C54",
+          "target_sha256": "9AF3232E8EB59A163E9B67D6CF2E6FB8FF181D39FF103027906334CA33939ADD"
+        },
+        {
+          "member": "data_map_cb2_info.txt",
+          "entry_index": 2,
+          "capacity": 216,
+          "source_used_bytes": 216,
+          "target_used_bytes": 200,
+          "headroom_bytes": 16,
+          "line_count": 9,
+          "source_sha256": "CF5DFCE4678A63B1A703E05DBC94C45298FCA2E0912E418ADEE99771D736ECFA",
+          "target_sha256": "C9EB817E767DE950DE388409968A3581C3F932E04FE36F1B128639631F698080"
+        }
+      ]
+    },
+    {
+      "map_code": "cb3",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb3_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb3_vol.cxd",
+      "source_packed_size": 227232,
+      "output_packed_size": 227232,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "13A1C17E1CE9A50AABDD7A0863FEC6A749B6677FD109238766AF073EFE9E274E",
+      "output_packed_sha256": "0213B99F6080CDDEC9EF0E4D4D99C10F099679D53123AAA279EFABD67EF062BD",
+      "source_unpacked_sha256": "E6641941F03ABCA442E6A19EEA2921900FD784AD8D22303E3B874DC653FC71BD",
+      "output_unpacked_sha256": "47D02A89EA57EC42BA42F321E33FA931247229DF0C4D9763161DF05DA9964447",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb3_info.dat",
+          "entry_index": 1,
+          "capacity": 206,
+          "source_used_bytes": 205,
+          "target_used_bytes": 194,
+          "headroom_bytes": 12,
+          "line_count": 9,
+          "source_sha256": "FA7C65DD3F43243CD5BC1CB33F851AD5E02B77FD8C993C9348F787952EFA1385",
+          "target_sha256": "575981B01A421E15EC795851BEF4809AF55E01666CE54D07F03E39210CE4E94C"
+        },
+        {
+          "member": "data_map_cb3_info.txt",
+          "entry_index": 2,
+          "capacity": 214,
+          "source_used_bytes": 214,
+          "target_used_bytes": 203,
+          "headroom_bytes": 11,
+          "line_count": 9,
+          "source_sha256": "67365DBC70ECDE2E022480D4BB8FDA745FEEC6C235933F41C538B4CD6DBA6452",
+          "target_sha256": "CF07451F1092EAF701E516E3B3ACAD2843FD705D0FD797C28A88E56B6F91708D"
+        }
+      ]
+    },
+    {
+      "map_code": "cb4",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb4_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb4_vol.cxd",
+      "source_packed_size": 294504,
+      "output_packed_size": 294504,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "F23DD35D731BC21341410EC29C8C58F443BA649252DF3AA6A8BEDB085322493D",
+      "output_packed_sha256": "98960DD090CAF0D1EF0330576B1DA77577D86AAF38BC7003D5B2FE96A68F6CE3",
+      "source_unpacked_sha256": "BCC553692362461121BB794BD278FCFEA91872F11412C7E569F1EB16DD45E986",
+      "output_unpacked_sha256": "996A8FF81F0AC172D1A057C4DC80BD375DBCF481BBEBBEACF80E14488A5E9D33",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb4_info.dat",
+          "entry_index": 1,
+          "capacity": 214,
+          "source_used_bytes": 213,
+          "target_used_bytes": 210,
+          "headroom_bytes": 4,
+          "line_count": 9,
+          "source_sha256": "7157DE57CFC5C33F89116CB9004B21B7866A646F3786E03F35EB10B15E5BB6DE",
+          "target_sha256": "A0917423D900A9634A8F5A8DC70A7AB2EB260934D9CDFE957F658FB738750716"
+        },
+        {
+          "member": "data_map_cb4_info.txt",
+          "entry_index": 2,
+          "capacity": 222,
+          "source_used_bytes": 222,
+          "target_used_bytes": 219,
+          "headroom_bytes": 3,
+          "line_count": 9,
+          "source_sha256": "EE784C3EAA2E6888548B6ED067D1CE9CC37F5EF4288A699D6114EB1F749EADDE",
+          "target_sha256": "3407004588C72F1040EAF75CF876543F48FC3E72351CC50EF64D24057284C25C"
+        }
+      ]
+    },
+    {
+      "map_code": "cb5",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb5_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb5_vol.cxd",
+      "source_packed_size": 279568,
+      "output_packed_size": 279568,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "4E98F993C2EE8F3F41BE04835CD58A61F5D86708895CD2CC10BECFC4C6986713",
+      "output_packed_sha256": "0A057D5604CE37A93BB809E909F8C20F8C002961563AD03D3C468135019BF57F",
+      "source_unpacked_sha256": "C6C95EAEFEAA013D395547D58F85E24ACF66C165B0F821A658202BE6D74B21CC",
+      "output_unpacked_sha256": "E26AB545F6A0AA68C22BC6BC2E69D003CC624B2BFBFF1DE97ED5411A157E3175",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb5_info.dat",
+          "entry_index": 1,
+          "capacity": 206,
+          "source_used_bytes": 205,
+          "target_used_bytes": 191,
+          "headroom_bytes": 15,
+          "line_count": 9,
+          "source_sha256": "91F7C08D9A49381609D28FD008EE84DA86688AF5DC634A3E5F01B72572ADF5F3",
+          "target_sha256": "9512094371611D41A6AF6D702B6E8B75E031128FCB9480F00D24C2D060C21995"
+        },
+        {
+          "member": "data_map_cb5_info.txt",
+          "entry_index": 2,
+          "capacity": 214,
+          "source_used_bytes": 214,
+          "target_used_bytes": 200,
+          "headroom_bytes": 14,
+          "line_count": 9,
+          "source_sha256": "1EC29EDDB5D6BDC365D6D359D0E3A70DD5454F067A7A23428894A7DB3B09E9CF",
+          "target_sha256": "CA53B4D2931D36432276045EFE9412874FA7AA3BAA58352CCDB4560E4270DECD"
+        }
+      ]
+    },
+    {
+      "map_code": "cb6",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb6_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb6_vol.cxd",
+      "source_packed_size": 238556,
+      "output_packed_size": 238556,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "F0A582B0A52B74AF21B55A7C430F498DD48BEE6F2CEAF352E76A985A111343A8",
+      "output_packed_sha256": "99C9C39C2C667DBB8E92E90FD7404E2710E47C10AF8605381ABB7FD9D0843BE5",
+      "source_unpacked_sha256": "85FF98851A2C8A83CEB133C9AAAD5BC7770202D07E34943095568FE09D8EE9ED",
+      "output_unpacked_sha256": "46D9E411E8F7AB4AD7062DAD5BD7BD686AB54A128AB68EC1FD60CDAC09BCC974",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb6_info.dat",
+          "entry_index": 1,
+          "capacity": 210,
+          "source_used_bytes": 209,
+          "target_used_bytes": 198,
+          "headroom_bytes": 12,
+          "line_count": 9,
+          "source_sha256": "34363094472FC90806A5DC344C97133A0397E035BA3488F030312E2D7EEA61C0",
+          "target_sha256": "13912A2DF338C290BD8A13D148D9E4380F02A7057CDCF29A58BB1DDCAFF7D57B"
+        },
+        {
+          "member": "data_map_cb6_info.txt",
+          "entry_index": 2,
+          "capacity": 218,
+          "source_used_bytes": 218,
+          "target_used_bytes": 207,
+          "headroom_bytes": 11,
+          "line_count": 9,
+          "source_sha256": "EB2D57253A122C9B3639F983570EA27FA0DA7225A3FFC576B5E0375F69D14B3A",
+          "target_sha256": "3D8E595EB0B6E43A6D11D8B6BBFAAFDC7BF287F9CA1CF66055E4DAEB59EA8567"
+        }
+      ]
+    },
+    {
+      "map_code": "cb7",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cb7_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cb7_vol.cxd",
+      "source_packed_size": 267952,
+      "output_packed_size": 267952,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "8345F8F9650B2603C7306CC11E59169DCE422542BBFF35A258936EC85F54DAA7",
+      "output_packed_sha256": "5EFD921563A9E5EB850462DBA94782C2665435F2E5B3B86540424384F9EE42CB",
+      "source_unpacked_sha256": "A1AA2FA22EFF551C7BCE64BA0B61007A3BA39D6143C73F1BC2505B253D2E7129",
+      "output_unpacked_sha256": "45C6CAE8DF96FDAC232190D4F8888B17EA0F5BA70FAD2D881AABB5614CDA5F34",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cb7_info.dat",
+          "entry_index": 1,
+          "capacity": 200,
+          "source_used_bytes": 199,
+          "target_used_bytes": 198,
+          "headroom_bytes": 2,
+          "line_count": 9,
+          "source_sha256": "27BA40D349600A515C2DC60AA7AD7105F985A36F88C72B2616635B215A25B046",
+          "target_sha256": "92C82B4315E9F5FF6262E6E82C2795385784E4D4829DC2E8FF7CF33B4C79878B"
+        },
+        {
+          "member": "data_map_cb7_info.txt",
+          "entry_index": 2,
+          "capacity": 208,
+          "source_used_bytes": 208,
+          "target_used_bytes": 207,
+          "headroom_bytes": 1,
+          "line_count": 9,
+          "source_sha256": "95C74E83FC4381FE5454779CA28AF5A969B511F4A239817CD2D9A92091C0F19B",
+          "target_sha256": "D736CED299BB7E8002BEF2888957D450750F53888DD6A26E32D095BB5C1DD458"
+        }
+      ]
+    },
+    {
+      "map_code": "cob",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cob_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cob_vol.cxd",
+      "source_packed_size": 275136,
+      "output_packed_size": 275136,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "015FCB67802B4F438FD3E0173C313B87C62267E548683C1504496E16ABF74574",
+      "output_packed_sha256": "69542F1BEDC5D4304F0A42BE8B13F8C7CE02FE673CC77968946CD54DE20D8D35",
+      "source_unpacked_sha256": "9F81962140ED80B95E367D1111098189F7E6F23D3A617969812B9EC83763E11C",
+      "output_unpacked_sha256": "EB6DB1E1C36B2586AEF84B2A0D22B543858CA0910F3326EF338830F8AB91FE07",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cob_info.dat",
+          "entry_index": 1,
+          "capacity": 210,
+          "source_used_bytes": 209,
+          "target_used_bytes": 190,
+          "headroom_bytes": 20,
+          "line_count": 9,
+          "source_sha256": "B8E89F1957471A6E701C267B91A098A42DFFB13F7A48478E4854B3DA7B3B552C",
+          "target_sha256": "A923E3C522E99B204DCCFE37EDC47C7EE4F1EE7B76F05E2183408A38868D1205"
+        },
+        {
+          "member": "data_map_cob_info.txt",
+          "entry_index": 2,
+          "capacity": 218,
+          "source_used_bytes": 218,
+          "target_used_bytes": 199,
+          "headroom_bytes": 19,
+          "line_count": 9,
+          "source_sha256": "64177F32DA10FF9D3A8BCDB37D68CF723185D3061592187B1BA180D1843416D5",
+          "target_sha256": "9E9E865D3B98DEB8706E7F03829ABB6A43F6D83227AF940CAF8E5F18656F7818"
+        }
+      ]
+    },
+    {
+      "map_code": "cop",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_cop_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_cop_vol.cxd",
+      "source_packed_size": 297880,
+      "output_packed_size": 297880,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "6DD0E516BD7C8D6103F1699C4E25CA681C00BD747D456E1F4275A824544B27D5",
+      "output_packed_sha256": "B36A30E9683076EB03CA4DB90B6E6BE9C34924831384773CE76A0AC501567019",
+      "source_unpacked_sha256": "D5C7CEDDE1FC4B139BC3FBBAAB285F48CCEDBAD42F45C55ECF489C99BEA6A873",
+      "output_unpacked_sha256": "D53233CC3306BDEF2313A0C0AAD21BA05C352C4B2ED999525354841701760AC2",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_cop_info.dat",
+          "entry_index": 1,
+          "capacity": 212,
+          "source_used_bytes": 211,
+          "target_used_bytes": 190,
+          "headroom_bytes": 22,
+          "line_count": 9,
+          "source_sha256": "DE34D6DFCA01C77C8A3F19D92C64595D34647F9E74EFE8939F62EFD737F98838",
+          "target_sha256": "600BCFFD42FCB4809B21B800DDE3EAEAB37F9D98E2173439CA4B2B30BD9D1F06"
+        },
+        {
+          "member": "data_map_cop_info.txt",
+          "entry_index": 2,
+          "capacity": 220,
+          "source_used_bytes": 220,
+          "target_used_bytes": 199,
+          "headroom_bytes": 21,
+          "line_count": 9,
+          "source_sha256": "4298CFD8555D6F4E03E5C7661D1490D8155386B17D6C4AC32A9BEB99482BDD23",
+          "target_sha256": "2020380D2F5C793E7F0EB6F4E496EB2A24E552499D0A93AC4DF15DF15A176863"
+        }
+      ]
+    },
+    {
+      "map_code": "dia",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_dia_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_dia_vol.cxd",
+      "source_packed_size": 284596,
+      "output_packed_size": 284596,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "E78AC16C4E34253B186FCAB16C45F85B3213085D9025AA6E3FF956A40DB3E2DF",
+      "output_packed_sha256": "838A76444A0355422A59C93BFE4CF39B2ED8BF8E0E20CFE5C285EF055E81D1D8",
+      "source_unpacked_sha256": "0DD33AC22D557809CA36797AF9A7DE65391D9AC5F9498CB2E11E2575DBB57F13",
+      "output_unpacked_sha256": "F6C52629A76DA66D5D7D656B316B9789085E5AE837F4D8EF801A1E9F240CE3CD",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_dia_info.dat",
+          "entry_index": 1,
+          "capacity": 196,
+          "source_used_bytes": 195,
+          "target_used_bytes": 194,
+          "headroom_bytes": 2,
+          "line_count": 9,
+          "source_sha256": "8AB3AEF2EBF8D561EDB554DA258055260953CF1BBA436FB270BE1DFB96C5DB0F",
+          "target_sha256": "527C25B29B9E36037223E681787DA2F947A11B76CF05F5F9C57BCFB547DC97C9"
+        },
+        {
+          "member": "data_map_dia_info.txt",
+          "entry_index": 2,
+          "capacity": 204,
+          "source_used_bytes": 204,
+          "target_used_bytes": 203,
+          "headroom_bytes": 1,
+          "line_count": 9,
+          "source_sha256": "B4377DC292A033DBCF7265D980A15BEDDCAB0129AAD8494285F5B9848D435D53",
+          "target_sha256": "A73FCA80629BCEC88306302EF8A50800D8D02FC0D770D072D36007FBBEDAB095"
+        }
+      ]
+    },
+    {
+      "map_code": "ebu",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_ebu_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_ebu_vol.cxd",
+      "source_packed_size": 272032,
+      "output_packed_size": 272032,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "5CF2C129ED9B5C3175DC03810A816E374F1F6F8395C92426B679B9C85DD959C6",
+      "output_packed_sha256": "4A17C35EA6D15E32CF32ED3D72A4A32036CBA8D4F345B9A60A5C43F9AC6F5B53",
+      "source_unpacked_sha256": "B192A29681C64E8D58F12360ACC37B9E77B0B73B5AFFD774BF25656CDD2C6977",
+      "output_unpacked_sha256": "24995D49E3A662D7F17E8F40B9A9207F8A3CD231CC7983C1FC2E2CD7F429AEFD",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_ebu_info.dat",
+          "entry_index": 1,
+          "capacity": 182,
+          "source_used_bytes": 181,
+          "target_used_bytes": 175,
+          "headroom_bytes": 7,
+          "line_count": 9,
+          "source_sha256": "01D64430EB71183F2F304EC66EBBA8A1D9C15A55C4A407A53F56D2C72432545B",
+          "target_sha256": "7313B0E30679EFEFEAD0A717BC95D4A1E8CFFB06ECAFD0C9412290FF0485E8B4"
+        },
+        {
+          "member": "data_map_ebu_info.txt",
+          "entry_index": 2,
+          "capacity": 190,
+          "source_used_bytes": 190,
+          "target_used_bytes": 184,
+          "headroom_bytes": 6,
+          "line_count": 9,
+          "source_sha256": "3E910E5830857A7C7AA273015F2A647DC704FA9FE1928F5DF6EA4E725F354297",
+          "target_sha256": "30AF491A843BDE103F3AC03784571B5E37DEDEAD1AE5EF689543E0AA9F16FF52"
+        }
+      ]
+    },
+    {
+      "map_code": "ext",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_ext_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_ext_vol.cxd",
+      "source_packed_size": 280708,
+      "output_packed_size": 280708,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "1C71CD6B3F709D8C3413EB1DA186DCF25C8A016858D0DF2C06A3447371A7862E",
+      "output_packed_sha256": "8582FA14F04F51D51453C932569CB4EF5A3402A1E30B6D2E5B1E00C2146CA802",
+      "source_unpacked_sha256": "10A668F718A2CB98DFC1AA0432BE3A86C40004849EE42404BCF7EC1ED7799BE1",
+      "output_unpacked_sha256": "5A8E58D9DBADE307B04D5E777A3AC0226AD3FDB40EC18B2F65BB3F94A40D999A",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_ext_info.dat",
+          "entry_index": 1,
+          "capacity": 216,
+          "source_used_bytes": 215,
+          "target_used_bytes": 202,
+          "headroom_bytes": 14,
+          "line_count": 9,
+          "source_sha256": "18064BA7DB291A3A7BB8D96A789E601A2CFD9C1A986326F7C210AF9E90B50763",
+          "target_sha256": "578834E5AED31AF32A33C0659E3377A7070AEE0524655C3C50EAE1FDD8FBDB71"
+        },
+        {
+          "member": "data_map_ext_info.txt",
+          "entry_index": 2,
+          "capacity": 224,
+          "source_used_bytes": 224,
+          "target_used_bytes": 211,
+          "headroom_bytes": 13,
+          "line_count": 9,
+          "source_sha256": "7B9E05FD5ADFE7D14B66426FC695B9E008FAA36F30C5569EB5335574C57820A8",
+          "target_sha256": "7724960BE1F507D058E060B9D96225B1043FA3E656D8EEDB2C3C18136BB35C9B"
+        }
+      ]
+    },
+    {
+      "map_code": "hai",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_hai_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_hai_vol.cxd",
+      "source_packed_size": 248592,
+      "output_packed_size": 248592,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "4F74B9640A9367BBEEE4856DC4C57616B60F40DB2BF236A348F71E25EE670A8C",
+      "output_packed_sha256": "E27278EED3A3A2CB7198855B7533BB297163465D1F8A88488AFE732E55981D35",
+      "source_unpacked_sha256": "1D3A56B3D07C8D0F2D254FC60238E43A5BC9A6CB66B2C92EE058A11EFA819723",
+      "output_unpacked_sha256": "66A52914A875E4A283FAE0965F88E6E94CEE1FE7169FFDCA4BB0AD3E5758D348",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_hai_info.dat",
+          "entry_index": 1,
+          "capacity": 212,
+          "source_used_bytes": 211,
+          "target_used_bytes": 190,
+          "headroom_bytes": 22,
+          "line_count": 9,
+          "source_sha256": "95F217B5C20BC26977A2BF35A3AF92733C7473211B0FA0E4772B34383C9BF1EB",
+          "target_sha256": "9761D7E29CAF970016A7884424B5C896E6F19FC1DBE4D50E3E2F1EA6E3E479C0"
+        },
+        {
+          "member": "data_map_hai_info.txt",
+          "entry_index": 2,
+          "capacity": 220,
+          "source_used_bytes": 220,
+          "target_used_bytes": 199,
+          "headroom_bytes": 21,
+          "line_count": 9,
+          "source_sha256": "3BD73A0736AED4BBB0CD6537F5291B7B1B1FADDB205BC752D258F8AC1154FE3F",
+          "target_sha256": "ABBFA2C3A5048449688069142BF34E7B3667F5CF3E9C239F5B71D2977312043E"
+        }
+      ]
+    },
+    {
+      "map_code": "hgu",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_hgu_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_hgu_vol.cxd",
+      "source_packed_size": 271048,
+      "output_packed_size": 271048,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "D3E9E5DEC68D53200223747EC616C3C0C6FF8D95E1801FD73651B3AC01379B80",
+      "output_packed_sha256": "6FEF7E89573E8694CF7BCA586EA5AE43C9DCA605B90ECEE954880BF3248F855B",
+      "source_unpacked_sha256": "5551C7CB8C9790BD23A858563DFB00612D40186E2EFE002F9272ADD041313212",
+      "output_unpacked_sha256": "C46F53377D1D1F6B4B389302EF469BF7D5776FBD3873AC5523345E5708E9AB15",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_hgu_info.dat",
+          "entry_index": 1,
+          "capacity": 210,
+          "source_used_bytes": 209,
+          "target_used_bytes": 209,
+          "headroom_bytes": 1,
+          "line_count": 9,
+          "source_sha256": "3E260BDD62AB423FDCC03C0CC5DBCFCE4CA676FBE35BF8996454818D00A89CA3",
+          "target_sha256": "93019EEBEB991E7D56C3B24A01CD79AF635BDBAA5E7EDEAB97C6072AB90CDD3F"
+        },
+        {
+          "member": "data_map_hgu_info.txt",
+          "entry_index": 2,
+          "capacity": 218,
+          "source_used_bytes": 218,
+          "target_used_bytes": 218,
+          "headroom_bytes": 0,
+          "line_count": 9,
+          "source_sha256": "75D198025D4F7F1DE3BE41EC9FE3BAC079190996A1E30E88A8B5BB39DBDD8183",
+          "target_sha256": "4B289D0F6EE8D7836371E93EBDA9F2E0831057474F95D9954E99A85E31FF3518"
+        }
+      ]
+    },
+    {
+      "map_code": "hnk",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_hnk_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_hnk_vol.cxd",
+      "source_packed_size": 296620,
+      "output_packed_size": 296620,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "6713FF65EA72A88BE0E8CBBAE02FAEE28FAE162286C23E8A82FFDBE4D3019870",
+      "output_packed_sha256": "334744ED82BB75324CC37EF41D3A1525522AB6882C29CD07CB69568D2EFCE8FC",
+      "source_unpacked_sha256": "C2A54E8D593BF3BF41717896DAB6C3C73ED805D054303C41F01D0C5F58CB80FC",
+      "output_unpacked_sha256": "F6A7475FAF49E97ECD71B44A7A26E428FD7C684EF50D9125CE65199D081000DE",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_hnk_info.dat",
+          "entry_index": 1,
+          "capacity": 206,
+          "source_used_bytes": 205,
+          "target_used_bytes": 192,
+          "headroom_bytes": 14,
+          "line_count": 9,
+          "source_sha256": "9140E86065C6D0D7A0562EED99A70486AB4825AFE82F9333D9A7EE213E504950",
+          "target_sha256": "2487125BE89D39054F37D64FC528905D9EF81D5E61CE89BB415446979FFCC39E"
+        },
+        {
+          "member": "data_map_hnk_info.txt",
+          "entry_index": 2,
+          "capacity": 214,
+          "source_used_bytes": 214,
+          "target_used_bytes": 201,
+          "headroom_bytes": 13,
+          "line_count": 9,
+          "source_sha256": "22BD9075F1D4AC75A2C1C2DD0CD298323C25F115BB2B496A99FA71286882AD33",
+          "target_sha256": "EFBBDE63609655667A2628FCD03D0038CC4AB841613F3F60CCA8AB217C4303B3"
+        }
+      ]
+    },
+    {
+      "map_code": "ise",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_ise_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_ise_vol.cxd",
+      "source_packed_size": 265972,
+      "output_packed_size": 265972,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "AF96F998F6E3DDA5775067BDB295DD2026DAF8C57108140E43A6B39236573895",
+      "output_packed_sha256": "50AB88CA5B7B74AFA70EB1621B7BBAFDA4063EF39D3CEAB70600A259F9CD860C",
+      "source_unpacked_sha256": "360C21B21766D5762C77FB227C0FA7D1793E04C2B0AD3ADAD23FF897E3220FA8",
+      "output_unpacked_sha256": "9E6782C221F0BCF55E34E268F6A37F8CFAD376C24F83D9E1758ED5143CE699A2",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_ise_info.dat",
+          "entry_index": 1,
+          "capacity": 212,
+          "source_used_bytes": 211,
+          "target_used_bytes": 194,
+          "headroom_bytes": 18,
+          "line_count": 9,
+          "source_sha256": "F0BBAD42F4B0B0A147BA39E043F08AB207B7A529D381C31B032D23D0D20FCD7F",
+          "target_sha256": "45744270FBEC8A95A935CEB8D19EFDFC5F594806540EADE32B964E767D6BB00B"
+        },
+        {
+          "member": "data_map_ise_info.txt",
+          "entry_index": 2,
+          "capacity": 220,
+          "source_used_bytes": 220,
+          "target_used_bytes": 203,
+          "headroom_bytes": 17,
+          "line_count": 9,
+          "source_sha256": "2ED416F2E592990F9A473F0E88CDA47B19377534AD89D2A9E1AF7162E3F75306",
+          "target_sha256": "10271068EB947F76D007C1E4469C3B2EE8903F360326897CE06A24786A23BAB9"
+        }
+      ]
+    },
+    {
+      "map_code": "jad",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_jad_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_jad_vol.cxd",
+      "source_packed_size": 274440,
+      "output_packed_size": 274440,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "7F6E466622FE4515CA675B5E893083E31341A1000BF5507A8F9208830A9CD6F9",
+      "output_packed_sha256": "01454C3B10574B26E3B607C07CC247944FCACCDCB9DD11882E50469A75CC7B30",
+      "source_unpacked_sha256": "B9C7002CE3CF79E7CE93A11A02D0C5556876382D6464D9123D085F3143DE2D5B",
+      "output_unpacked_sha256": "001BE9C4DC698C3795048FF64139A8BE657C72CB80A5D282EED77246E3FBD053",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_jad_info.dat",
+          "entry_index": 1,
+          "capacity": 204,
+          "source_used_bytes": 203,
+          "target_used_bytes": 183,
+          "headroom_bytes": 21,
+          "line_count": 9,
+          "source_sha256": "3EEC05DA580B73C70CDF26E90D82DFA4581FE342E25A9EF3B7BAE947ED4A454E",
+          "target_sha256": "697EB1D513686AEEB58C1B656BB0CD46D8078FF56306CB0EDE8120D1BF21C778"
+        },
+        {
+          "member": "data_map_jad_info.txt",
+          "entry_index": 2,
+          "capacity": 212,
+          "source_used_bytes": 212,
+          "target_used_bytes": 192,
+          "headroom_bytes": 20,
+          "line_count": 9,
+          "source_sha256": "7D883C0A80514E72B6740472C808B4CBD416171309457A6FDD93BE02A09DF829",
+          "target_sha256": "F4AF6FC08E44F44B63969230AAFE0BD7228EEE17F8AF0705F100C407A0F837BE"
+        }
+      ]
+    },
+    {
+      "map_code": "kan",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_kan_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_kan_vol.cxd",
+      "source_packed_size": 284224,
+      "output_packed_size": 284224,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "E9FCB5D14D2E7C27EA4CE9A6978A3B9761465BE86E5DA33CF0BBCE43C5E49853",
+      "output_packed_sha256": "CCEC1F5CC632FAD94E749A004F3850E24C42821D94AB3C41EAD15AD099F7809D",
+      "source_unpacked_sha256": "B80C38A5952E3F7FBBAD86275457AC652F31F6341E054D33DE1EC9549B6559D2",
+      "output_unpacked_sha256": "DA2485BADB9E0925E0AB51998C640E7B3DFE0DF867FA4D567B3A485DB38BFAD8",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_kan_info.dat",
+          "entry_index": 1,
+          "capacity": 198,
+          "source_used_bytes": 197,
+          "target_used_bytes": 196,
+          "headroom_bytes": 2,
+          "line_count": 9,
+          "source_sha256": "CDD5701CD0C5E900E5E491F0D57AAD85E47798581BE13045D861F35BFCF090F3",
+          "target_sha256": "26FC37D39B508D18FDC00E095EF53CD6F8E9B42519115CD6CC6458FED1D84CDF"
+        },
+        {
+          "member": "data_map_kan_info.txt",
+          "entry_index": 2,
+          "capacity": 206,
+          "source_used_bytes": 206,
+          "target_used_bytes": 205,
+          "headroom_bytes": 1,
+          "line_count": 9,
+          "source_sha256": "F41D54D798FD1CEE00CB882BB77F71E6B53C462B049B35A7BAF5C8A8DA24633B",
+          "target_sha256": "839FA58A0811DC700650BA177ACC47609692CFF31B402B39640AC9C2205CD671"
+        }
+      ]
+    },
+    {
+      "map_code": "koo",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_koo_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_koo_vol.cxd",
+      "source_packed_size": 280452,
+      "output_packed_size": 280452,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "30A05A4A232406032201A3DACDD40301037348BD0F81CDEAA0485CD136A3735D",
+      "output_packed_sha256": "A596E3848058DA1CD15E3434F100E91E0B93FA2E9FC8191AD51466ED749C0FF3",
+      "source_unpacked_sha256": "C06F86C5832752C59A26785FA8EC04AA6EE2551D05AE9E21AEF4C997245AA197",
+      "output_unpacked_sha256": "F329AA0817B6F108DEDFDE2A06C0246F58E4C50560DFCE429108361B40C96BB7",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_koo_info.dat",
+          "entry_index": 1,
+          "capacity": 200,
+          "source_used_bytes": 199,
+          "target_used_bytes": 197,
+          "headroom_bytes": 3,
+          "line_count": 9,
+          "source_sha256": "85C671539C8718F113325B425BD4B8C61E2F39B0D09C06D8844F8AAE0303BB1E",
+          "target_sha256": "2ECA54019691A6F480FA6A621D7ED76FAD4E80CB3FE6B7C7C4D4D3D058B02270"
+        },
+        {
+          "member": "data_map_koo_info.txt",
+          "entry_index": 2,
+          "capacity": 208,
+          "source_used_bytes": 208,
+          "target_used_bytes": 206,
+          "headroom_bytes": 2,
+          "line_count": 9,
+          "source_sha256": "67CAB1185FF841890E962809BD9788334AB23577294068CF902C8EFB5DE104FF",
+          "target_sha256": "6AADF28508A0398D16A0422C519B9626422C9888753A9C2164A11210D4B12FFA"
+        }
+      ]
+    },
+    {
+      "map_code": "kza",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_kza_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_kza_vol.cxd",
+      "source_packed_size": 229268,
+      "output_packed_size": 229268,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "568FC6952575991691C38FF6CA2FCCE83BEFBB81CE302A50CE61C7EAE70D1E15",
+      "output_packed_sha256": "1BEE98C549B7B19822ADA67BE9DF58A600C0C673EC340C1CB3BBB49EC286947B",
+      "source_unpacked_sha256": "9361F35C8EA1B560151F81080AA07F40E6F7583F5BF4C81E37BA81243F55DB51",
+      "output_unpacked_sha256": "45A7E54721D1965AF2873E08C79586672DE88CC2E5E3999366163E1819755BF3",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_kza_info.dat",
+          "entry_index": 1,
+          "capacity": 214,
+          "source_used_bytes": 213,
+          "target_used_bytes": 195,
+          "headroom_bytes": 19,
+          "line_count": 9,
+          "source_sha256": "850276DDD25091852CF51B613942328B585A9350F85DF793E9F41383A4548D6C",
+          "target_sha256": "3029C195E0D6A7BEA74E4FF646D53C9FD94F49BF3CB984F64DEA9655308E8FFE"
+        },
+        {
+          "member": "data_map_kza_info.txt",
+          "entry_index": 2,
+          "capacity": 222,
+          "source_used_bytes": 222,
+          "target_used_bytes": 204,
+          "headroom_bytes": 18,
+          "line_count": 9,
+          "source_sha256": "9D535D282C529F34D956BDFE98722E5E2EC3C6657E66B93C47DB825B91768AC0",
+          "target_sha256": "241FB8982935D030D048A7F584F1D50AF703EFB8B2C4528356163B85C90BED1B"
+        }
+      ]
+    },
+    {
+      "map_code": "mit",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_mit_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_mit_vol.cxd",
+      "source_packed_size": 292712,
+      "output_packed_size": 292712,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "16BE84A4A064248553B987BFD2289C0117583A1A986FD28B55F198B332FEE9CB",
+      "output_packed_sha256": "0A2A14CDFB2FC7688B29EE0403FD4CA677061C4204285FC9292D5CA8EF33096F",
+      "source_unpacked_sha256": "0F5BA1C7505CC25D3437F79A1294E2880CF05EDBF391A48BD966F1C53531458C",
+      "output_unpacked_sha256": "AA630F2D6BCF7778D7C86B33108F4AC192D86A5FF83B22FC29F2A71CD578279D",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_mit_info.dat",
+          "entry_index": 1,
+          "capacity": 208,
+          "source_used_bytes": 207,
+          "target_used_bytes": 198,
+          "headroom_bytes": 10,
+          "line_count": 9,
+          "source_sha256": "AE2B4F8E1BCC9AAAFCA5F6E664CA8BF75AB88335D9D80C29CBDFC7F447628FA3",
+          "target_sha256": "D670CA40088CDC0DBB92A2E72EA4C1B2546CBEDD9CC263667EB1DF77F1F5F7F2"
+        },
+        {
+          "member": "data_map_mit_info.txt",
+          "entry_index": 2,
+          "capacity": 216,
+          "source_used_bytes": 216,
+          "target_used_bytes": 207,
+          "headroom_bytes": 9,
+          "line_count": 9,
+          "source_sha256": "7B92718017747DD8FF168E74B44161675E6B22490C7E9EBF4CC8B022F1B35F2F",
+          "target_sha256": "67FB68BDEC3EF58254E227783021A71B023CD8EB9746AC7D80FC442174B2DD54"
+        }
+      ]
+    },
+    {
+      "map_code": "orb",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_orb_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_orb_vol.cxd",
+      "source_packed_size": 270656,
+      "output_packed_size": 270656,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "FB82043BECAA76B2B034B62EF86659D1AE23EF4BE16EF4311B0BF5203BFB1172",
+      "output_packed_sha256": "32004A6798BEA6AB0BB63B10C3BB5CDFB1FB536C91846E5C6C5267C12072970A",
+      "source_unpacked_sha256": "2C7BC63E36DBFCFEF82602CC116066CF33A6A2270271ED88A46B2C8AB419E238",
+      "output_unpacked_sha256": "D621C0D44A5C61666B11452382BECFD3FDCBBE16FDF7FA9918C82FBE0F73F04A",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_orb_info.dat",
+          "entry_index": 1,
+          "capacity": 210,
+          "source_used_bytes": 209,
+          "target_used_bytes": 202,
+          "headroom_bytes": 8,
+          "line_count": 9,
+          "source_sha256": "7DB81E9D96595257721B97A38FC8A1A92F60B511E4B28F8AC244FD5538E3816B",
+          "target_sha256": "0A30F60F114927770C0B349BC14556BFE2188921C9613A241208F175E918AE10"
+        },
+        {
+          "member": "data_map_orb_info.txt",
+          "entry_index": 2,
+          "capacity": 218,
+          "source_used_bytes": 218,
+          "target_used_bytes": 211,
+          "headroom_bytes": 7,
+          "line_count": 9,
+          "source_sha256": "EB5DC66A8588377827445C8C5FCEE6504BD96E84AB39019723F004564664B460",
+          "target_sha256": "8F613F6DA3EB45035727AC6AA0D16233855DE798B3329E3072786CA06DC96BF5"
+        }
+      ]
+    },
+    {
+      "map_code": "ori",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_ori_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_ori_vol.cxd",
+      "source_packed_size": 265188,
+      "output_packed_size": 265188,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "1CCFB0A66CC5C0FE48500FF431D625B65FBFE4A09DFC4C0C81CAAB6ED231401C",
+      "output_packed_sha256": "B7390876854791F4A1FFF087D309D44EE299EBE96F6B35F0DF9C5A7B2BBD1A02",
+      "source_unpacked_sha256": "260429471ED8B0258CBD301285450F2CFA8F33445810FEE0243D0108F4ED3BE3",
+      "output_unpacked_sha256": "6AD3476CC6357BDF44741E095DCD4B8997553ABFDD73845F8B358D040B7B8C57",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_ori_info.dat",
+          "entry_index": 1,
+          "capacity": 214,
+          "source_used_bytes": 213,
+          "target_used_bytes": 193,
+          "headroom_bytes": 21,
+          "line_count": 9,
+          "source_sha256": "E7E91F8CDA05A10E533CF87EB774D5054F60F460580B9237B8664BE48F7359F3",
+          "target_sha256": "FFD2DEB508B40DD796D4EFBD425D88BA5151C3EA8A1A3FA1D84922C0A7F2AD80"
+        },
+        {
+          "member": "data_map_ori_info.txt",
+          "entry_index": 2,
+          "capacity": 222,
+          "source_used_bytes": 222,
+          "target_used_bytes": 202,
+          "headroom_bytes": 20,
+          "line_count": 9,
+          "source_sha256": "85847663A3753EB60F8CD446B3A800693EB1778D713AAE7D5274E426ABDBA379",
+          "target_sha256": "7CE6110658E8FAE36FDB0694C6A1A1B50155F41E510CEF0B23AFDE5EDDBC46FB"
+        }
+      ]
+    },
+    {
+      "map_code": "sba",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_sba_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_sba_vol.cxd",
+      "source_packed_size": 237992,
+      "output_packed_size": 237992,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "14B9A1BFC6408DF2C5CE60BA3EA7E84127FB07C76966D5D5229E7100ACE43B0B",
+      "output_packed_sha256": "FA9B29D305538160E240F26DAC52C355DA2CD9224BE73C5F75D8EF4EFAA53CC8",
+      "source_unpacked_sha256": "344D6465DA86724FF0D02CD771C8C1A13F8A10C50F4ABC32F76C91FD3AECF647",
+      "output_unpacked_sha256": "3DF2AA58028B73973DB2395327BC7BE33A0A2690F337F100C26C2376946F249E",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_sba_info.dat",
+          "entry_index": 1,
+          "capacity": 212,
+          "source_used_bytes": 211,
+          "target_used_bytes": 209,
+          "headroom_bytes": 3,
+          "line_count": 9,
+          "source_sha256": "C0C63AC423D0C86FA3C9180C2F925AC168C54F17D8DE10FECBD261C3D8DE9234",
+          "target_sha256": "DC4AF751C7B98A63D1EF7C08AA0FC5AC11382C4D1019E392201AFFA2AC5D9EF3"
+        },
+        {
+          "member": "data_map_sba_info.txt",
+          "entry_index": 2,
+          "capacity": 220,
+          "source_used_bytes": 220,
+          "target_used_bytes": 218,
+          "headroom_bytes": 2,
+          "line_count": 9,
+          "source_sha256": "0F795511F018E56B9DC0CC89A23135F548216BA4E65C8D95AEBD025AAAABD929",
+          "target_sha256": "96F2CBD1C4FF6C197336473CC2355B58776B49CCEF849362CD860C404FCC59CB"
+        }
+      ]
+    },
+    {
+      "map_code": "sir",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_sir_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_sir_vol.cxd",
+      "source_packed_size": 250748,
+      "output_packed_size": 250748,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "B541B9CE724467F80CB44DBDB51A82084657F12B439523B9886B41B061D59AA4",
+      "output_packed_sha256": "1CAEB257F708010FAAD1538FCAD300C2190C1C801D98FC29BA64BF2C3B3C9CAD",
+      "source_unpacked_sha256": "57CA3597B63F0543567F762D1DDB9466AC82588436C7A2D3D08159A8564CBB93",
+      "output_unpacked_sha256": "687C3C86E612A8F6EEEA381D8A87D169A8D829D210FCE8B84FCA2C01140DE132",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_sir_info.dat",
+          "entry_index": 1,
+          "capacity": 192,
+          "source_used_bytes": 191,
+          "target_used_bytes": 184,
+          "headroom_bytes": 8,
+          "line_count": 9,
+          "source_sha256": "253CE224C6C9BF40FE0A2726E4263D54A61206963BB94B247BF6A20CA238E122",
+          "target_sha256": "A4CD3E446D76AC24C028BE5EC2544AF962A560F5D73AD1D62D94BE36CFCBCA8F"
+        },
+        {
+          "member": "data_map_sir_info.txt",
+          "entry_index": 2,
+          "capacity": 200,
+          "source_used_bytes": 200,
+          "target_used_bytes": 193,
+          "headroom_bytes": 7,
+          "line_count": 9,
+          "source_sha256": "A9705AB4EBFEB19F86CFF3591F905538BDDEF8C5F4FE7DDE8ABB60C11CF99A63",
+          "target_sha256": "4D6DDBCC0FE1D56CB0C9F9981983E057342CED7FE3BD482DCB2C078EB081F1BD"
+        }
+      ]
+    },
+    {
+      "map_code": "syo",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_syo_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_syo_vol.cxd",
+      "source_packed_size": 259656,
+      "output_packed_size": 259656,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "26E91BBAEE1ABD8A03D2256984230E7AF983BC9A0012E93002E3372C6FC0E43A",
+      "output_packed_sha256": "B61CE47DC0E12873EED7AAB347C8C5005D901562577C3F4887F50FB39BAF3CD4",
+      "source_unpacked_sha256": "04ECA8EE929EBA7F59DEF7B8ED1780E9A5BA788297EAB56A84757F3E71D92754",
+      "output_unpacked_sha256": "B98DF740C2B77F3BF722562F180936EA2B3BC365A1F415A1E2242D827B440A5A",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_syo_info.dat",
+          "entry_index": 1,
+          "capacity": 218,
+          "source_used_bytes": 217,
+          "target_used_bytes": 208,
+          "headroom_bytes": 10,
+          "line_count": 9,
+          "source_sha256": "9706A00EFEC4C2206FC8BBFDEA0444E4607598D8AE78D7B74F40FD47E4653B10",
+          "target_sha256": "73A2A77F133C0AE8EA6824A366FF0B5D7A5950E61FDF94D2D3D00D0D95FB5EDD"
+        },
+        {
+          "member": "data_map_syo_info.txt",
+          "entry_index": 2,
+          "capacity": 226,
+          "source_used_bytes": 226,
+          "target_used_bytes": 217,
+          "headroom_bytes": 9,
+          "line_count": 9,
+          "source_sha256": "8952B8AF93AF4912FAC0F5B777147BA9D76A11CF6FE838B38646611580CE1603",
+          "target_sha256": "905CDCDC0011C58FDC4228A7F4495589E0CEF6E31AD43B20736637C264C532B2"
+        }
+      ]
+    },
+    {
+      "map_code": "tig",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_tig_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_tig_vol.cxd",
+      "source_packed_size": 274612,
+      "output_packed_size": 274612,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "EF590CDCD364F1A51C8C8E48D6942D45BE77C6F88CFB7583CA8120082CED2276",
+      "output_packed_sha256": "1720582BF9A540EA9F9FC8DDBF97C56108154AFFD005BEDDD5E79C04F55DF837",
+      "source_unpacked_sha256": "D5034837866E636531B4427811F536B674E0A8688809A52D145219F2ECEFA347",
+      "output_unpacked_sha256": "D44AD43337EA226B7FAF51AAC04A3AE418CD15022BFC1533F28529A0C21391EB",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_tig_info.dat",
+          "entry_index": 1,
+          "capacity": 210,
+          "source_used_bytes": 209,
+          "target_used_bytes": 209,
+          "headroom_bytes": 1,
+          "line_count": 9,
+          "source_sha256": "8693F4E4AC400B2168B22A0CC9D70376F1314CE1D30B5F5677F6D054AD1A3183",
+          "target_sha256": "FF76BAD2D12E01FD3DA415E124ED5FB47AA97E67B89F8763196AAFE9B909495A"
+        },
+        {
+          "member": "data_map_tig_info.txt",
+          "entry_index": 2,
+          "capacity": 218,
+          "source_used_bytes": 218,
+          "target_used_bytes": 218,
+          "headroom_bytes": 0,
+          "line_count": 9,
+          "source_sha256": "7D696137183F9C75D238E5BE908D7C97023D32819D62088BC38EF7FFD96CA237",
+          "target_sha256": "7E04696A7BA861918B730B68ED38A11C022D684ED3EC9FF8A1E5AA04F96E36C1"
+        }
+      ]
+    },
+    {
+      "map_code": "tka",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_tka_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_tka_vol.cxd",
+      "source_packed_size": 255440,
+      "output_packed_size": 255440,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "A24E8D1026E443073CA8429ADA63AD64F15321626EB24390492985F43C6C3F4A",
+      "output_packed_sha256": "E9808693555707D8A7ACFA4F8E5B0968F05210834CB6F826467347A74F6AECC8",
+      "source_unpacked_sha256": "C1E539BED64840B7FCC041070DB47562C04335043AC3BE64042647A08BC28E17",
+      "output_unpacked_sha256": "26662F1D46D9905771892E468392BD9DD369C749BC988FAE7C29E62596168D97",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_tka_info.dat",
+          "entry_index": 1,
+          "capacity": 206,
+          "source_used_bytes": 205,
+          "target_used_bytes": 197,
+          "headroom_bytes": 9,
+          "line_count": 9,
+          "source_sha256": "29317E7D95D61194432A1EB8C96AF96A6677CC7ACD1335269A2BB89D8E3DB0B0",
+          "target_sha256": "C592D3B1E8D1AEA3C168291E2CB7151B0604AE1FD19440AE034317DC0ECC0A72"
+        },
+        {
+          "member": "data_map_tka_info.txt",
+          "entry_index": 2,
+          "capacity": 214,
+          "source_used_bytes": 214,
+          "target_used_bytes": 206,
+          "headroom_bytes": 8,
+          "line_count": 9,
+          "source_sha256": "C1A4CA6DE749E22B9758BF5EA131FB5E390C53C8FC052BCAD26D9F8F7F5A8FDE",
+          "target_sha256": "A49563F3D934C9A0AD607BAEE50B66C0B728CF6852C7084666BBEE9C2DBC3715"
+        }
+      ]
+    },
+    {
+      "map_code": "tou",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_tou_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_tou_vol.cxd",
+      "source_packed_size": 264656,
+      "output_packed_size": 264656,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "A6A7BA1616C18E7C2FB5372079E66C3037251849458451198CC26B9A0758EFD2",
+      "output_packed_sha256": "A638D4BAA385FDC87F814A7C19FF4A298DBFE8E00F6187DBF0C0937721202FD3",
+      "source_unpacked_sha256": "13A061FBAB9218B5CE6DE7E82A8ED29FBE4FFFB75963E23CD5FD45BEEE224100",
+      "output_unpacked_sha256": "ACFB61D2F59D3EA445784C31CC8ECEFB262298C67BCDC0EF43C8CB52631E100F",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_tou_info.dat",
+          "entry_index": 1,
+          "capacity": 208,
+          "source_used_bytes": 207,
+          "target_used_bytes": 203,
+          "headroom_bytes": 5,
+          "line_count": 9,
+          "source_sha256": "1DC2646F02B1A1F8DC2A2CD314ABF30AD61DB2FB28C6E7255CBF05F9C1D1A72B",
+          "target_sha256": "3D91D01AE93363938FDCF1C9667831F8E62D04ECCCC4DDE07787BC9F5694FE17"
+        },
+        {
+          "member": "data_map_tou_info.txt",
+          "entry_index": 2,
+          "capacity": 216,
+          "source_used_bytes": 216,
+          "target_used_bytes": 212,
+          "headroom_bytes": 4,
+          "line_count": 9,
+          "source_sha256": "270EB5D3335EB7ADBC43F5246B8D5AABB9E5C18C9805DA2DD9A977B176F4F55E",
+          "target_sha256": "CC9AB51E495FE55BE7D827D71F37EBD8D54D7A8E9506968CDDA4A9C7304F37A0"
+        }
+      ]
+    },
+    {
+      "map_code": "tpa",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_tpa_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_tpa_vol.cxd",
+      "source_packed_size": 258720,
+      "output_packed_size": 258720,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "64B4FFBEEC973E47A8DAAAFFDFA3E78C818896BFC2BD3B13952938798544F98E",
+      "output_packed_sha256": "03DA854E420FE9C9B87382E9099F47F2B781008D3456788E88F99257E318762B",
+      "source_unpacked_sha256": "069ECD0BE7D4BCC1453CC54D58C30B76F8B9CF48AD86E6E32A048A73423C598A",
+      "output_unpacked_sha256": "7341FD7FFD76A200EE525800176AF246230A2416943FABA71890F79E383EA98E",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_tpa_info.dat",
+          "entry_index": 1,
+          "capacity": 204,
+          "source_used_bytes": 203,
+          "target_used_bytes": 193,
+          "headroom_bytes": 11,
+          "line_count": 9,
+          "source_sha256": "0963F3B6D9DC7987D71C7FA0651A3D4BFD0FD3A52BF1E39269392394A8D4D572",
+          "target_sha256": "6BE8D1CAF6B7E6F37A5E14300D7BBBB794A2E90FC9979023F45FABC1CBF21920"
+        },
+        {
+          "member": "data_map_tpa_info.txt",
+          "entry_index": 2,
+          "capacity": 212,
+          "source_used_bytes": 212,
+          "target_used_bytes": 202,
+          "headroom_bytes": 10,
+          "line_count": 9,
+          "source_sha256": "2940E2C8EE03C6DA2B19ADB2A2037FBBAA7E5027FD32D865D284C255696C07B7",
+          "target_sha256": "0541A0244D8D8E886D4B4DCE6DCB131562267FDAD0BEDDD746E3D440EEF6FCB1"
+        }
+      ]
+    },
+    {
+      "map_code": "yuk",
+      "source_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\files\\interface\\data_map_yuk_vol.cxd",
+      "output_path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\map_info_application\\files\\interface\\data_map_yuk_vol.cxd",
+      "source_packed_size": 281212,
+      "output_packed_size": 281212,
+      "physical_size_preserved": true,
+      "compressed_stream_padded_to_source_size": true,
+      "source_packed_sha256": "ACB8FE8DDCA4F2E2A07AE7900F89CE142B8293AE505AC41A652F6B6D99DB6525",
+      "output_packed_sha256": "2A0EAFB27751F33FC3F14B28D6304BC7045AEC54091D2968DE1A96402CF34B7A",
+      "source_unpacked_sha256": "C2E1CFFB899A5D31A27ECA9BAAC24DE56BE03AB263721809D8AC7885DCF011D6",
+      "output_unpacked_sha256": "EE6CB7F26F9A095E5521B76401E05CD60B1F5B2DF75C79F7B9359BC17CD0E29A",
+      "changed_outside_description_members": 0,
+      "rtdp_policy": "fixed-layout",
+      "members": [
+        {
+          "member": "data_map_yuk_info.dat",
+          "entry_index": 1,
+          "capacity": 206,
+          "source_used_bytes": 205,
+          "target_used_bytes": 197,
+          "headroom_bytes": 9,
+          "line_count": 9,
+          "source_sha256": "E75BACB725DE019D538DA9F680135DCF3E5164656034C6BA8FCEAC0E917FC7A2",
+          "target_sha256": "B12732B8BA746017C67730E0071253B3212A8E453AE570589E21C34E36A84056"
+        },
+        {
+          "member": "data_map_yuk_info.txt",
+          "entry_index": 2,
+          "capacity": 214,
+          "source_used_bytes": 214,
+          "target_used_bytes": 206,
+          "headroom_bytes": 8,
+          "line_count": 9,
+          "source_sha256": "078B5CF1346FE92C6F5AAB68B5F53F2B6ED6B878D95F341B3C11F90195503583",
+          "target_sha256": "50422C36BD6F5D4539B609E3A421065A5FA5BB132E73B1D7714C268E71FC6C98"
+        }
+      ]
+    }
+  ],
+  "valid": true
+}

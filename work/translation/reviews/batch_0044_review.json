@@ -332,10 +332,10 @@
     {
       "tm_id": "ARF-TM-E193789FF93524BEC0AB",
       "source_text": "あなたの場合\nとっても気になるのよ……",
-      "before": "당신이라면\n너무 신경 쓰이거든……",
-      "after": "당신은\n정말 신경 쓰인단 말이지……",
-      "category": "meaning",
-      "reason": "가정 표현이 아니라 상대의 경우가 특히 염려된다는 뜻으로 바로잡았다."
+      "before": "당신은\n정말 신경 쓰인단 말이지……",
+      "after": "니콜은\n정말 신경 쓰인단 말이지……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-E4B64FB847C46FB0D63F",
@@ -356,5 +356,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-E193789FF93524BEC0AB"
+    ],
+    "reviewed_sha256": "1C9C3E9212E465555300EAE9F83A8797E76EA794482DDD7A3810F215AB14B79E"
+  },
+  "hashes": {
+    "reviewed_sha256": "1C9C3E9212E465555300EAE9F83A8797E76EA794482DDD7A3810F215AB14B79E"
   }
 }

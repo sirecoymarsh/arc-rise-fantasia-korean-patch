@@ -1,0 +1,61 @@
+{
+  "schema": "arf-battle-start-residue-patch-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "source_main_dol": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\disc_extracted\\DATA\\sys\\main.dol",
+    "sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+  },
+  "translation_manifest": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\battle_ui\\main_dol_battle_start_residue.jsonl",
+    "sha256": "372CE302ACC32161C1B053214064195315CBB1BB1766EE86F0652402D0D0ED54"
+  },
+  "codebook": {
+    "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v3\\codebook.json",
+    "sha256": "509863959CE12CA28686F99DA86460CB590B6EBCA4AC36B6AC51C46EC88BCB0E"
+  },
+  "patches": [
+    {
+      "stable_id": "ARF-BATTLE-START-01",
+      "file_offset": 3964364,
+      "file_offset_hex": "0x003C7DCC",
+      "memory_address": 2151464140,
+      "memory_address_hex": "0x803CBCCC",
+      "section": "data4",
+      "byte_length": 13,
+      "source_text": "先制攻撃戦闘\n",
+      "translation_ko": "선제공격\n",
+      "source_hex": "C0E8C0A9B9B6B7E2C0EFC6AE0A",
+      "encoded_hex": "BBEFC2C8B1A7B0E20A",
+      "zero_padding_bytes": 4,
+      "value": "BBEFC2C8B1A7B0E20A00000000",
+      "value_sha256": "BFD3BA34210CB95C77E1F832FC42AEA00AA4E2BD97E97A8A9304D70454007567"
+    },
+    {
+      "stable_id": "ARF-BATTLE-START-02",
+      "file_offset": 3964383,
+      "file_offset_hex": "0x003C7DDF",
+      "memory_address": 2151464159,
+      "memory_address_hex": "0x803CBCDF",
+      "section": "data4",
+      "byte_length": 13,
+      "source_text": "先制攻撃戦闘\n",
+      "translation_ko": "선제공격\n",
+      "source_hex": "C0E8C0A9B9B6B7E2C0EFC6AE0A",
+      "encoded_hex": "BBEFC2C8B1A7B0E20A",
+      "zero_padding_bytes": 4,
+      "value": "BBEFC2C8B1A7B0E20A00000000",
+      "value_sha256": "BFD3BA34210CB95C77E1F832FC42AEA00AA4E2BD97E97A8A9304D70454007567"
+    }
+  ],
+  "checks": {
+    "source_bytes_verified": true,
+    "source_nuls_verified": true,
+    "targets_fit_fixed_spans": true,
+    "dol_memory_mapping_unique": true
+  },
+  "valid": true,
+  "error_count": 0,
+  "errors": []
+}

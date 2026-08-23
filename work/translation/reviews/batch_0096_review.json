@@ -133,10 +133,10 @@
       "row_index": 56,
       "tm_id": "ARF-TM-50634264E52E372F210F",
       "source_text": "別にいいんじゃねぇの？\nあんたが直感的な奴の傍で\nそいつを支えてやればいいだろ",
-      "before": "딱히 상관없잖아?\n당신이 직감적인 녀석 곁에서\n그 녀석을 받쳐 주면 되지",
-      "after": "딱히 상관없잖아?\n당신이 직감대로 움직이는 녀석 곁에서\n그 녀석을 받쳐 주면 되지",
-      "category": "naturalness",
-      "reason": "직감에 따라 행동하는 인물을 가리키는 표현으로 다듬었다."
+      "before": "딱히 상관없잖아?\n당신이 직감대로 움직이는 녀석 곁에서\n그 녀석을 받쳐 주면 되지",
+      "after": "딱히 상관없잖아?\n네가 직감대로 움직이는 녀석 곁에서\n그 녀석을 받쳐 주면 되지",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 58,
@@ -356,5 +356,21 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "modified_units": 36,
+  "unchanged_units": 164,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-50634264E52E372F210F"
+    ],
+    "reviewed_sha256": "EC16A28912CD77E8B45F5C6BFD5A7E7118DCD0D40A16827D41D370FD782933CE"
+  },
+  "hashes": {
+    "reviewed_sha256": "EC16A28912CD77E8B45F5C6BFD5A7E7118DCD0D40A16827D41D370FD782933CE"
   }
 }

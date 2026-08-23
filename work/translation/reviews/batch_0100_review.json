@@ -65,7 +65,40 @@
       "after": "다시 방문해 주시기를\n기다릴 것 같은 예감……",
       "category": "naturalness",
       "reason": "원문의 장난스러운 추측형 어감을 자연스럽게 복원함."
+    },
+    {
+      "tm_id": "ARF-TM-61615DA86CA0B61C12AA",
+      "source_text": "あなたには関係のない\n世界の話よ、気にしちゃダメ",
+      "before": "당신과는 상관없는\n세계의 이야기야, 신경 쓰면 안 돼",
+      "after": "너와는 상관없는\n세계 얘기야. 신경 쓰지 마",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-6060638BCC1DB94DB668",
+      "source_text": "あんたに荷物を届けるよう\n言われたんだ<$0C>だいぶあせった様子で\n荷物を渡されたんだが……",
+      "before": "당신에게 짐을 전하라는\n부탁을 받았어<$0C>상당히 초조해 보이는 모습으로\n짐을 건네주던데……",
+      "after": "짐을 전해 달라는\n부탁을 받았어<$0C>상당히 초조해 보이면서\n짐을 건네주더군……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
-  "technical_validation": "not run; deferred to final project stage per user instruction"
+  "technical_validation": "not run; deferred to final project stage per user instruction",
+  "modified_units": 7,
+  "unchanged_units": 193,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-6060638BCC1DB94DB668",
+      "ARF-TM-61615DA86CA0B61C12AA"
+    ],
+    "reviewed_sha256": "03D9A70C00088C33EC72CBDD560B4C012AD3BD3D7E983E4BA2294F3F8CEDA4D7"
+  },
+  "hashes": {
+    "reviewed_sha256": "03D9A70C00088C33EC72CBDD560B4C012AD3BD3D7E983E4BA2294F3F8CEDA4D7"
+  }
 }

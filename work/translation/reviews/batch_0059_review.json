@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0059.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0059.jsonl",
   "reviewed_units": 200,
-  "modified_units": 34,
-  "unchanged_units": 166,
+  "modified_units": 37,
+  "unchanged_units": 163,
   "review_dimensions": [
     "meaning",
     "function",
@@ -296,6 +296,30 @@
       "after": "형님! 어째서입니까!\n이건 기습이나 다름없습니다!",
       "category": "meaning",
       "reason": "だまし討ち를 단순 속임수가 아니라 예고 없이 공격하는 기습으로 정확히 옮겼다."
+    },
+    {
+      "tm_id": "ARF-TM-016D113A4CA9A341055B",
+      "source_text": "……俺は……まだあんたを\n許すことができない",
+      "before": "……나는…… 아직 당신을\n용서할 수 없어",
+      "after": "……난…… 아직 널\n용서할 수 없어",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-EB8E9D1FD0F9D6C975C2",
+      "source_text": "あんた、サージュと\n知り合いなのか？",
+      "before": "당신, 사쥬와\n아는 사이야?",
+      "after": "레온, 사쥬와\n아는 사이야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-E30B94691818C8C08493",
+      "source_text": "では、あなたがさっき仰っていた\nイグナーツという名は？",
+      "before": "그럼 아까 당신께서 말씀하신\n이그나츠라는 이름은요?",
+      "after": "그럼 아까 말씀하신\n이그나츠라는 이름은요?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -308,5 +332,21 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-016D113A4CA9A341055B",
+      "ARF-TM-E30B94691818C8C08493",
+      "ARF-TM-EB8E9D1FD0F9D6C975C2"
+    ],
+    "reviewed_sha256": "63128151141ADAAAA44CDC43AECF2B2C5F74DA35B503AEFECEF5DA97085CAFDA"
+  },
+  "hashes": {
+    "reviewed_sha256": "63128151141ADAAAA44CDC43AECF2B2C5F74DA35B503AEFECEF5DA97085CAFDA"
   }
 }

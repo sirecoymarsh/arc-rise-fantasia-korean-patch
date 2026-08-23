@@ -1,0 +1,200 @@
+{
+  "schema": "arf-v112-untranslated-completion-audit-v1",
+  "game_id": "RPJJ99",
+  "release_version": "1.1.2",
+  "release_commit": "22012b0c3b5bd86d427d28115c0bf7a320038a01",
+  "objective": "Translate every untranslated user-visible Japanese text surface into Korean",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "coverage": {
+    "vetted_rtdp_localization_payloads": 406,
+    "event_script_payloads": 380,
+    "translation_memory_units": 29777,
+    "translation_occurrences": 84761,
+    "battle_vld_entries_classified": 863,
+    "battle_enemy_display_skill_part_units": 1032,
+    "battle_tutorial_semantic_units": 376,
+    "system_catalog_units": 6103,
+    "battle_party_name_payloads": 13,
+    "special_boss_skill_slots": 80,
+    "map_description_files": 36,
+    "map_description_members": 72,
+    "battle_raster_entries": 12,
+    "battle_raster_text_items": 19,
+    "main_dol_verified_memory_writes": 926,
+    "town_map_legend": "fully bound and valid",
+    "addressee_story_phase_voice": "fully bound and valid",
+    "sfd_movies": 21,
+    "sfd_story_dialogue_subtitle_lines": 29,
+    "release_delta_entries": 722,
+    "release_output_hash_matches": 722
+  },
+  "current_release_fixes": {
+    "レイストーン": "레이 스톤",
+    "名称未設定": "이름 미설정",
+    "all_battle_text_duplicate_audit_valid": true
+  },
+  "result": {
+    "confirmed_untranslated_semantic_japanese_remaining": 0,
+    "semantic_spoken_dialogue_without_korean_subtitles": 0,
+    "unexplained_residue_flags": 0,
+    "approved_unchanged_original_japanese_visual_marks": 1,
+    "approved_unchanged_original_japanese": [
+      {
+        "path": "Movie/RAY_OP_02.sfd",
+        "text": "アークライズファンタジア",
+        "function": "opening title-logo subline, not dialogue or subtitle",
+        "reason": "user directed the nonessential movie graphic to remain original; re-encoded SFD previously froze, while all spoken story dialogue is already covered by the Korean BSCR subtitle lane"
+      }
+    ],
+    "not_missing_translation": [
+      "original Japanese voice performances whose meaning is covered by Korean game text/subtitles",
+      "theme-song vocals and music",
+      "intentional decorative English interface art",
+      "typography-only Japanese punctuation/long-vowel marks in fixed binary fields"
+    ],
+    "goal_scope_complete": true
+  },
+  "release": {
+    "rom_patcher_zip": "ArcRiseFantasia-Korean-ROM-Patcher-v1.1.2.zip",
+    "rom_patcher_zip_size": 474145501,
+    "rom_patcher_zip_sha256": "24F6CC58DE40C0F058629561FE9BC7A6E65F484D859DE80372E9099D2C42F3E1",
+    "output_rvz_sha256": "90FF4A89C91EAFAA5A9B7158CEB2F5AB148B7C9AF87DFD09DC0EDEE08612D98D",
+    "standalone_boot_valid": true,
+    "defender_new_detection_count": 0
+  },
+  "checks": [
+    {
+      "name": "full_text_surface",
+      "passed": true,
+      "schema": "arf-full-text-surface-closure-v1"
+    },
+    {
+      "name": "residue_closure",
+      "passed": true,
+      "schema": "arf-localization-residue-closure-v1"
+    },
+    {
+      "name": "untranslated_surface_v104",
+      "passed": true,
+      "schema": "arf-untranslated-surface-closure-v104"
+    },
+    {
+      "name": "final_v105",
+      "passed": true,
+      "schema": "arf-ko-final-v105-comprehensive-validation-v1"
+    },
+    {
+      "name": "town_map",
+      "passed": true,
+      "schema": "arf-town-map-legend-release-validation-v1"
+    },
+    {
+      "name": "addressee_voice",
+      "passed": true,
+      "schema": "arf-addressee-scene-voice-release-validation-v1"
+    },
+    {
+      "name": "main_dol",
+      "passed": true,
+      "schema": "arf-main-dol-runtime-residue-release-validation-v1"
+    },
+    {
+      "name": "battle_duplicate",
+      "passed": true,
+      "schema": "arf-all-battle-text-duplicate-audit-v1"
+    },
+    {
+      "name": "targeted_battle",
+      "passed": true,
+      "schema": "arf-v112-battle-text-proof-v1"
+    },
+    {
+      "name": "release_validation",
+      "passed": true,
+      "schema": "arf-rom-patcher-validation-v1"
+    },
+    {
+      "name": "sfd_review",
+      "passed": true,
+      "schema": "arf-sfd-audio-dialogue-review-v1"
+    },
+    {
+      "name": "whole_game_semantic_residue_zero",
+      "passed": true
+    },
+    {
+      "name": "sfd_story_dialogue_has_korean_engine_subtitles",
+      "passed": true
+    },
+    {
+      "name": "v112_722_of_722_hash_bound",
+      "passed": true
+    }
+  ],
+  "artifacts": {
+    "full_text_surface": {
+      "path": "work/validation/full_text_surface_closure.json",
+      "size": 9174,
+      "sha256": "6197EB5AEE9BE971F1CBC58648F1E3DB105455CCCE9B94ABEF98648F6A850DFD"
+    },
+    "residue_closure": {
+      "path": "work/validation/localization_residue_closure.json",
+      "size": 21203,
+      "sha256": "94473DFB1621226BD91A7293BAB28A1D319DF35875A8EA716E6E329E7C665CB0"
+    },
+    "untranslated_surface_v104": {
+      "path": "work/validation/untranslated_surface_closure_v104.json",
+      "size": 6445,
+      "sha256": "387588AFDA59CDAA929ACCBB1617A464CC8C6F6330AF60396B2AD047C01C3CA5"
+    },
+    "final_v105": {
+      "path": "work/validation/final_v105_comprehensive_validation.json",
+      "size": 2225,
+      "sha256": "11E4CBFEE4E92D68479F4198DA9043FCEFB23F60E12585584BA294ACDFED46AA"
+    },
+    "town_map": {
+      "path": "work/validation/town_map_legend_release_validation.json",
+      "size": 7433,
+      "sha256": "D249D38F8E13DE8B3725A1848D965186C6DA12C930327DAE9B6ADF2B0C24BC12"
+    },
+    "addressee_voice": {
+      "path": "work/validation/addressee_scene_voice_release_validation.json",
+      "size": 3218,
+      "sha256": "70AE16A98FDAF4BF52A5EF359F735E25F923AA4C8756169DC964E63BB702A294"
+    },
+    "main_dol": {
+      "path": "work/validation/main_dol_runtime_residue_release_validation.json",
+      "size": 1756,
+      "sha256": "80F3D5F0FE97FE5B60B3BEC1FF93FF85F915C0D1917C50FFEEB2426EF9A9A919"
+    },
+    "battle_duplicate": {
+      "path": "release_metadata/rom_patcher_v1.1.2/ALL_BATTLE_TEXT_DUPLICATE_AUDIT.json",
+      "size": 4397,
+      "sha256": "3397428D9DB9D70DA576550D821D58C3DE194C75C995C063F92ED2D0E413DA12"
+    },
+    "targeted_battle": {
+      "path": "release_metadata/rom_patcher_v1.1.2/TARGETED_BATTLE_PROOF.json",
+      "size": 1065,
+      "sha256": "7A3629B47CF35F10E02F3BC871CD27A62E46F906D990081F0ACC92F53292FC6C"
+    },
+    "release_validation": {
+      "path": "release_metadata/rom_patcher_v1.1.2/VALIDATION.json",
+      "size": 4271,
+      "sha256": "471F4BFD171DAA13A2897049E555A2F2471B7358F5DAF68293BA11B8B6139A9E"
+    },
+    "sfd_review": {
+      "path": "work/runtime_validation/sfd_dialogue_review_v112/SFD_AUDIO_DIALOGUE_REVIEW.json",
+      "size": 20609,
+      "sha256": "67F50E88B62CBA028DE03427E554434D0D52766C6E5EE2089AFE6666A6FC2719"
+    },
+    "sfd_dialogue_closure": {
+      "path": "release_metadata/rom_patcher_v1.1.2/SFD_DIALOGUE_CLOSURE.json",
+      "size": 1627,
+      "sha256": "7FAAA27240A670045AAC9281425D9855485C6F86B20FD0D1A6C6A852BA523D60"
+    }
+  },
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}

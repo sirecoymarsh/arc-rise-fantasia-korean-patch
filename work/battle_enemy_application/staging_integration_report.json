@@ -5,16 +5,16 @@
   "external_translation_models_or_apis_used": false,
   "staging_manifest": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\staging_manifest.json",
-    "sha256": "A7A7DE962B33931B6EE82B98595F0B083C795BAA455F728AD3350B284C820C3E"
+    "sha256": "166D074FC6B9646F7CAD9A4FD2198095132521A6CB7B4B39C3BF71F2D7BD4763"
   },
   "xml": {
     "path": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\final_runtime_staging\\riivolution_sd\\riivolution\\arc_rise_fantasia_ko_full.xml",
-    "sha256": "B6E7CBC43A67E591663648DCB1443BF9C0C7E074DA750F1F89CCFCCA50675EC2",
-    "file_count": 683,
-    "memory_count": 925,
+    "sha256": "C86BA4D2D212FB3A600834D714E3B64DC25101739358F5AF609BF6625DF7F77F",
+    "file_count": 684,
+    "memory_count": 926,
     "resize_true_count": 559
   },
-  "physical_file_count": 683,
+  "physical_file_count": 684,
   "removed_unsafe_sfd_overlay": {
     "physical_path": "Movie/RAY_OP_02.sfd",
     "was_present_before_repair": false,

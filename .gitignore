@@ -108,3 +108,21 @@ node_modules/
 /work/runtime_validation/residue_audit_*_capture.stdout.log
 /work/runtime_validation/residue_audit_*_capture.stderr.log
 /work/runtime_validation/btl_auto_demo_text_probe.json
+/work/research/ui_residue/
+/work/runtime_validation/imported_saves/
+/work/translation/addressee_audit/multiparty_scene_corpus.json
+/work/translation/addressee_audit/scene_register_corpus.json
+/work/translation/addressee_audit/detailed_review_dump.md
+
+# ROM patcher reproducible build products, third-party binary probes, and E2E images
+/work/rom_patcher/build/
+/work/rom_patcher/dist/
+/work/rom_patcher/e2e/
+/work/rom_patcher/tool_minimal_probe/
+/work/rom_patcher/wit_minimal_probe/
+/work/rom_patcher/test_btl_enemy.decoded
+/work/rom_patcher/test_btl_enemy.vcdiff
+/work/ray_stone_field_application/
+/work/rom_patcher/e2e_v*/
+/work/battle_field_residue_application/
+/work/validation/all_battle_text_duplicate_audit.json

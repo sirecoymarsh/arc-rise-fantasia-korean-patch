@@ -1,10 +1,10 @@
 {
   "schema": "arf-approved-translation-fit-preflight-v1",
-  "translation_memory": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\final\\translation_memory_draft.json",
+  "translation_memory": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\final\\translation_memory_draft.json",
   "translation_memory_sha256": "CF46C82FBD9A201938B5001985015FBE4D3147E718BE1101253BF9D0DC3775B1",
-  "codebook": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\font\\final_v2\\codebook.json",
+  "codebook": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\font\\final_v2\\codebook.json",
   "codebook_sha256": "620EA1A432EF411DF6D394371B415F637322B55B333ACE5562A44A7A134331EF",
-  "catalog_dir": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\table_agent\\catalogs",
+  "catalog_dir": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\table_agent\\catalogs",
   "catalog_tree_sha256": "B6CD9BAC0A43ED1248EBA7FA08DE9EDF3672FF181344588C6B4D905B9EA7D823",
   "catalog_artifacts": [
     {
@@ -73,7 +73,7 @@
       "sha256": "A6B70A7C9E6F603DD7598E2B6C72A94752DE3B77676C539BE55B124A24C4FD95"
     }
   ],
-  "encoder": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\research\\encode_custom_euc28.py",
+  "encoder": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\research\\encode_custom_euc28.py",
   "encoder_sha256": "4C6297D599FA62C0D9D48361FDFA7F82EDB15B5A6E00F8D8FC6D06F1079A97EE",
   "approved_tm_units": 29777,
   "matched_unique_tm_units": 4343,
@@ -2138,7 +2138,7 @@
   "encoding_errors": [],
   "global_encoding_errors": [],
   "translation_engine_policy": "Codex internal models only",
-  "boundary_audit": "C:\\Users\\CadriacLord\\Documents\\Codex\\2026-08-03\\f-down-arc-rise-fantasia-japan\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
+  "boundary_audit": "P:\\AI\\Codex\\projects\\ArcRiseFantasia-Korean\\work\\translation\\boundary_audit\\canonical_system_boundary_audit.json",
   "boundary_audit_sha256": "F1D312C5F70CECA06AF3B070B39A21ECD364F391ED52E6D999FFAE88DDBAED77",
   "boundary_audit_tm_units_matched": 720,
   "boundary_audit_table_fields_matched": 727,

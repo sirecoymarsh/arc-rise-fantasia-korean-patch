@@ -1,0 +1,32 @@
+{
+  "schema": "arf-v112-battle-text-proof-v1",
+  "version": "1.1.2",
+  "valid": true,
+  "btl_usual_container_sha256": "DB26FDECE1FCAB0BB7FF159D0EE919B2D4172CADA3378E58213D8922728F89F7",
+  "fld000_member_sha256": "A64E939DD06194F0E2A05ECA7D907F3C4742FA4910923E6853740295D0F8F379",
+  "fields": [
+    {
+      "offset_hex": "0x180",
+      "capacity": 35,
+      "target_ko": "레이 스톤",
+      "target_hex": "B6DEB0AB20BCF7C6D1",
+      "source_hex_absent_from_slot": true
+    },
+    {
+      "offset_hex": "0x8BC",
+      "capacity": 35,
+      "target_ko": "이름 미설정",
+      "target_hex": "B0ABB7C220B9A6BBF0B0AC",
+      "source_hex_absent_from_slot": true
+    }
+  ],
+  "all_battle_text_duplicate_audit_valid": true,
+  "enemy_catalog_units": 1032,
+  "btl_usual_btem_count": 14,
+  "battle_magic_slots": 80,
+  "battle_tutorial_semantic_slots": 376,
+  "main_dol_verified_memory_writes": 926,
+  "output_image_all_722_hashes_match": true,
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false
+}

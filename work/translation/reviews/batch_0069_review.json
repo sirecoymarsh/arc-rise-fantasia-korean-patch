@@ -79,10 +79,10 @@
       "row_index": 57,
       "tm_id": "ARF-TM-EF955A2790725EF7D636",
       "source_text": "早いトコ、お前さん自身を\n信頼させてくれや",
-      "before": "얼른 당신 자신을\n믿게 해 달라고",
-      "after": "얼른 당신 자신을\n믿을 수 있게 해 달라고",
-      "category": "naturalness",
-      "reason": "신뢰의 대상을 자연스러운 한국어로 정리했다."
+      "before": "얼른 당신 자신을\n믿을 수 있게 해 달라고",
+      "after": "얼른 너 자신을\n믿을 수 있게 해 달라고",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "row_index": 62,
@@ -227,6 +227,46 @@
       "after": "제게는 들립니다.\n성지 노와레에 잠든 이사신의\n각성을 기다리는 고동이",
       "category": "semantic_accuracy",
       "reason": "기다림의 대상이 이사신의 각성임을 명확히 했다."
+    },
+    {
+      "tm_id": "ARF-TM-F93659B273CF37F3B9A1",
+      "source_text": "あ……あんたがカーライル博士？",
+      "before": "다…… 당신이 칼라일 박사야?",
+      "after": "아…… 칼라일 박사님?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-F72D91495E534B42E0EA",
+      "source_text": "あなた、本気でイマジナルの定理が\n正義だと思っていたの？\nだとしたらその根拠は何？",
+      "before": "당신, 정말 이매지널의 섭리가\n정의라고 생각했어?\n그렇다면 근거는 뭐야?",
+      "after": "라르크, 정말 이매지널의 섭리가\n정의라고 생각했어?\n그렇다면 근거는 뭐야?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-F8F330BA39A16635F2DF",
+      "source_text": "お願いです。そこを通して下さい。\n私たちはあなたと戦う為に\nここに来た訳じゃありません",
+      "before": "부탁입니다. 지나가게 해 주세요.\n저희는 당신과 싸우려고\n여기에 온 게 아닙니다",
+      "after": "부탁입니다. 지나가게 해 주세요.\n저희는 장군님과 싸우려고\n여기에 온 게 아닙니다",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-EBDFE2DE283BED7096B7",
+      "source_text": "でもあなたが逃げるのを\n手伝ってあげたわ",
+      "before": "하지만 당신이 도망치도록\n도와줬잖아",
+      "after": "하지만 네가 도망치는 걸\n도와줬잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-F41DA5841A34A89CA465",
+      "source_text": "ホゼア。お前はイマジナルの定理を\n持って世界を救いたいのでしたね",
+      "before": "호제아. 당신은 이매지널의 섭리로\n세계를 구하고 싶어 했지요",
+      "after": "호제아. 너는 이매지널의 섭리로\n세계를 구하려 했지",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -239,5 +279,26 @@
       "boundary_audit"
     ],
     "reason": "사용자 지시에 따라 기술 검증은 전체 번역 완료 후 마지막에 한 번만 수행한다."
+  },
+  "modified_units": 28,
+  "unchanged_units": 172,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-EBDFE2DE283BED7096B7",
+      "ARF-TM-EF955A2790725EF7D636",
+      "ARF-TM-F41DA5841A34A89CA465",
+      "ARF-TM-F72D91495E534B42E0EA",
+      "ARF-TM-F8F330BA39A16635F2DF",
+      "ARF-TM-F93659B273CF37F3B9A1"
+    ],
+    "reviewed_sha256": "115DAA15EA10B4DAB5BF16EF1EE80BB5540F12CE2604BF2D88A251B77E225520"
+  },
+  "hashes": {
+    "reviewed_sha256": "115DAA15EA10B4DAB5BF16EF1EE80BB5540F12CE2604BF2D88A251B77E225520"
   }
 }

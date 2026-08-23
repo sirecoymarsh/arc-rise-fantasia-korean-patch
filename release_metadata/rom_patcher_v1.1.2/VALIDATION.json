@@ -1,0 +1,119 @@
+{
+  "schema": "arf-rom-patcher-validation-v1",
+  "version": "1.1.2",
+  "valid": true,
+  "translator_model": "Codex internal",
+  "meaning_translation_external_services_used": [],
+  "source_contract": {
+    "game_id": "RPJJ99",
+    "region": "NTSC-J",
+    "country": "Japan",
+    "revision": 0,
+    "tested_original_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "source_main_dol_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+  },
+  "delta_payload": {
+    "entry_count": 722,
+    "patch_manifest_sha256": "00D96CCBBE6CE3D8F562E9911BA9FA07885CA7AAFE4D5BDBE85B881C726C8889",
+    "aggregate_delta_sha256": "C21930F50BE942682BBE1D1FA8A9D400A8E51A5484D1D3A1DF55DC9E7756801E",
+    "delta_bytes": 465404124,
+    "roundtrip_verified_entries": 722,
+    "contains_complete_game_image": false
+  },
+  "e2e": [
+    {
+      "direction": "original RVZ to Korean RVZ",
+      "valid": true,
+      "output_name": "Arc_Rise_Fantasia_Korean_v1.1.2.rvz",
+      "output_size": 3466654224,
+      "output_sha256": "90FF4A89C91EAFAA5A9B7158CEB2F5AB148B7C9AF87DFD09DC0EDEE08612D98D",
+      "game_id": "RPJJ99",
+      "checked_entries": 722,
+      "mismatch_count": 0,
+      "main_dol_output_sha256": "F548D0563FCB4002E7B707FA568B636676AFB4470194AAEC3D0CEC16710C0CD3",
+      "unexpected_dolphin_verify_summaries": [],
+      "accepted_low_severity_summaries": [
+        "The DATA partition is not correctly signed.",
+        "The update partition is missing."
+      ]
+    }
+  ],
+  "standalone_boot": {
+    "valid": true,
+    "image_name": "Arc_Rise_Fantasia_Korean_v1.1.2.rvz",
+    "image_sha256": "90FF4A89C91EAFAA5A9B7158CEB2F5AB148B7C9AF87DFD09DC0EDEE08612D98D",
+    "duration_seconds": 60,
+    "responding": true,
+    "cpu_seconds": 43.578125,
+    "dolphin_profile_isolated": true,
+    "log_capture_available": false,
+    "panic_or_invalid_log_claimed": false
+  },
+  "release_package": {
+    "valid": true,
+    "file_name": "ArcRiseFantasia-Korean-ROM-Patcher-v1.1.2.zip",
+    "size": 474145501,
+    "sha256": "24F6CC58DE40C0F058629561FE9BC7A6E65F484D859DE80372E9099D2C42F3E1",
+    "crc_failure": null,
+    "zip_member_count": 738,
+    "extracted_file_count": 738,
+    "manifest_file_count": 736,
+    "hash_or_size_mismatches": [],
+    "forbidden_complete_image_files": [],
+    "absolute_path_or_username_leaks": [],
+    "patcher_exe_sha256": "8852FE482B125081528F421CD5D26EC619217776BA94DFC3E6068EDD77FC54D2",
+    "fresh_extract_gui_valid": true,
+    "fresh_extract_gui_title": "아크 라이즈 판타지아 한국어 롬 패처 v1.1.2"
+  },
+  "defender": {
+    "valid": true,
+    "antivirus_enabled": true,
+    "real_time_protection_enabled": true,
+    "engine_version": "1.1.26070.7",
+    "signature_version": "1.457.298.0",
+    "signature_last_updated": "2026-08-23T06:46:34.0000000+09:00",
+    "scan_started_at": "2026-08-23T12:37:38.8925926+09:00",
+    "scan_finished_at": "2026-08-23T12:37:43.6191826+09:00",
+    "roles": [
+      "release_exe",
+      "release_stage",
+      "release_zip",
+      "fresh_extract"
+    ],
+    "new_detection_count": 0
+  },
+  "battle_field_object_fixes": [
+    {
+      "offset_hex": "0x180",
+      "capacity": 35,
+      "target_ko": "레이 스톤",
+      "target_hex": "B6DEB0AB20BCF7C6D1",
+      "source_hex_absent_from_slot": true
+    },
+    {
+      "offset_hex": "0x8BC",
+      "capacity": 35,
+      "target_ko": "이름 미설정",
+      "target_hex": "B0ABB7C220B9A6BBF0B0AC",
+      "source_hex_absent_from_slot": true
+    }
+  ],
+  "all_battle_text_duplicate_audit": {
+    "valid": true,
+    "error_count": 0,
+    "enemy_catalog_units": 1032,
+    "btl_usual_btem_count": 14,
+    "btl_usual_residue_count": 0,
+    "battle_magic_declared_slots": 80,
+    "battle_magic_residue_count": 0,
+    "battle_tutorial_semantic_slots": 376,
+    "battle_tutorial_residue_count": 0,
+    "main_dol_verified_memory_writes": 926,
+    "battle_raster_text_items": 19
+  },
+  "manual_runtime_checks_remaining": [
+    "레이 스톤 및 이름 미설정 전투 대상명 실제 표시",
+    "케이지 상점 전체 화면/상태 전환"
+  ],
+  "completed_at": "2026-08-23T18:39:49+09:00"
+}

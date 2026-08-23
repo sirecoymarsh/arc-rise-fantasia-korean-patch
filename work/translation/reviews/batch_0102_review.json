@@ -83,7 +83,40 @@
       "after": "엘레나 님은 내게 맡겨.\n하지만 저 사람에게 최고의 약은\n라르크, 바로 너야",
       "category": "naturalness",
       "reason": "１番の薬을 부자연스러운 수량 표현 대신 최고의 약으로 교정함."
+    },
+    {
+      "tm_id": "ARF-TM-69357D828013EECBE471",
+      "source_text": "……あ、ああ……\nそうだな。\nところであなたの名前は……",
+      "before": "……아, 그래……\n그렇군.\n그런데 당신 이름은……",
+      "after": "……아, 그래……\n그렇군.\n그런데 성함이……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-6951E60D70FDE41B2402",
+      "source_text": "大体アンタが\nきょろきょろしてるから\nこの人にぶつかったんでしょ",
+      "before": "애초에 당신이\n두리번거리니까\n이 사람과 부딪친 거잖아",
+      "after": "애초에 네가\n두리번거리다가\n이 사람과 부딪친 거잖아",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
-  "technical_validation": "not run; deferred to final project stage per user instruction"
+  "technical_validation": "not run; deferred to final project stage per user instruction",
+  "modified_units": 9,
+  "unchanged_units": 191,
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-69357D828013EECBE471",
+      "ARF-TM-6951E60D70FDE41B2402"
+    ],
+    "reviewed_sha256": "98C86ED3F649BC2F788872337DA779C24D71DA77BEE098180E675DA1AC2C13B6"
+  },
+  "hashes": {
+    "reviewed_sha256": "98C86ED3F649BC2F788872337DA779C24D71DA77BEE098180E675DA1AC2C13B6"
+  }
 }

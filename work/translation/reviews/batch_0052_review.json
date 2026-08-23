@@ -28,10 +28,10 @@
     {
       "tm_id": "ARF-TM-AB26A8A303F1CB5BB75D",
       "source_text": "全てを持ってたのは\nあんたでしょ！",
-      "before": "모든 걸 가진 건\n당신이잖아!",
-      "after": "모든 걸 가졌던 건\n당신이잖아!",
-      "category": "meaning",
-      "reason": "持ってた의 과거 시점을 살려 두 사람의 처지를 대비했다."
+      "before": "모든 걸 가졌던 건\n당신이잖아!",
+      "after": "모든 걸 가졌던 건\n너잖아!",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-AE510BE2E23CD6E5D756",
@@ -412,5 +412,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-AB26A8A303F1CB5BB75D"
+    ],
+    "reviewed_sha256": "4C6E973B7FCE50BE05A34297F1167A6D6F43F69553ABBC8E5A1B8E04B8AD8CBD"
+  },
+  "hashes": {
+    "reviewed_sha256": "4C6E973B7FCE50BE05A34297F1167A6D6F43F69553ABBC8E5A1B8E04B8AD8CBD"
   }
 }

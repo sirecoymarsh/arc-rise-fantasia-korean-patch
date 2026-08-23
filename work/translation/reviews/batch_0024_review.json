@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0024.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0024.jsonl",
   "reviewed_units": 200,
-  "modified_units": 25,
-  "unchanged_units": 175,
+  "modified_units": 28,
+  "unchanged_units": 172,
   "review_dimensions": [
     "meaning",
     "function",
@@ -204,10 +204,10 @@
     {
       "tm_id": "ARF-TM-07E291651793E0269629",
       "source_text": "ずっとこれからも\nこりないんだろーね\nあんたたちって……",
-      "before": "앞으로도 계속\n정신 못 차리겠네\n당신들은……",
-      "after": "앞으로도 계속\n정신 못 차릴 거지\n당신들은……",
-      "category": "naturalness",
-      "reason": "앞으로도 교훈을 얻지 못할 것이라는 ‘こりない’의 의미를 자연스럽게 옮겼다."
+      "before": "앞으로도 계속\n정신 못 차릴 거지\n당신들은……",
+      "after": "앞으로도 계속\n정신 못 차릴 것 같네,\n너희 둘은……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     },
     {
       "tm_id": "ARF-TM-08B2246EE68AEE4A0308",
@@ -224,6 +224,30 @@
       "after": "노스 노와레교의 성도\n베네트나슈",
       "category": "proper_noun",
       "reason": "승인 지명 ‘베네트나슈’로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-0171A43DC0F99579CCB9",
+      "source_text": "あなたは……そろそろ\nわかっておいた方がいいんだけどな",
+      "before": "당신은…… 이제 슬슬\n알아 두는 편이 좋겠는데",
+      "after": "넌…… 이제 슬슬\n알아 두는 게 좋을 텐데",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-03F0624F5D8416497192",
+      "source_text": "オイゲン\nあんたは着替えなくていいのか？",
+      "before": "오이겐\n당신은 갈아입지 않아도 돼?",
+      "after": "오이겐\n안 갈아입어도 돼?",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
+    },
+    {
+      "tm_id": "ARF-TM-075424E58D42273490F0",
+      "source_text": "深刻ぶっても、過去は変わらない。\n俺にとってもあんたにとってもな",
+      "before": "심각한 척해도 과거는 변하지 않아.\n나한테도 당신한테도",
+      "after": "심각한 척해도 과거는 변하지 않아.\n나한테도 너한테도 말이야",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -262,6 +286,20 @@
     "external_translation_models_or_apis_used": false
   },
   "hashes": {
-    "reviewed_sha256": "39A93C9DEEEC7F2FC0724C35B1885F17D95EF3040CA217BADA2DF24D9C1E6478"
+    "reviewed_sha256": "E2A8F71DE19DD02C784F8BFA58964496B947F18BD559BFA2AB29A3402FCB48D5"
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-0171A43DC0F99579CCB9",
+      "ARF-TM-03F0624F5D8416497192",
+      "ARF-TM-075424E58D42273490F0",
+      "ARF-TM-07E291651793E0269629"
+    ],
+    "reviewed_sha256": "E2A8F71DE19DD02C784F8BFA58964496B947F18BD559BFA2AB29A3402FCB48D5"
   }
 }

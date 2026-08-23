@@ -1,0 +1,111 @@
+{
+  "schema": "arf-rom-patcher-validation-v1",
+  "version": "1.1.0",
+  "valid": true,
+  "translator_model": "Codex internal",
+  "meaning_translation_external_services_used": [],
+  "source_contract": {
+    "game_id": "RPJJ99",
+    "region": "NTSC-J",
+    "country": "Japan",
+    "revision": 0,
+    "tested_original_rvz_sha256": "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5",
+    "source_main_dol_sha256": "4563BCD1F95933D69F9D5B58F4738FE43210446391A06BC2426C696FF10900DC"
+  },
+  "delta_payload": {
+    "entry_count": 722,
+    "patch_manifest_sha256": "7CAEED6D8B6B7CAC0EE4C85AB9282154F4944F2A2A4C293818B5F2B62C6B09C2",
+    "aggregate_delta_sha256": "5F7705B740DF19159F85A6E0FA9017B3A9C6C843D1E9931BD09E01A44AC7823B",
+    "delta_bytes": 465404088,
+    "roundtrip_verified_entries": 722,
+    "contains_complete_game_image": false
+  },
+  "e2e": [
+    {
+      "direction": "RVZ to ISO",
+      "valid": true,
+      "output_name": "Arc_Rise_Fantasia_Korean_from_RVZ.iso",
+      "output_size": 4699979776,
+      "output_sha256": "6AAAE4E46419634153B8FCA5E554C58E37B67D134F4D90D55A83F82613604B62",
+      "checked_entries": 722,
+      "mismatch_count": 0,
+      "main_dol_output_sha256": "F548D0563FCB4002E7B707FA568B636676AFB4470194AAEC3D0CEC16710C0CD3",
+      "unexpected_dolphin_verify_summaries": [],
+      "accepted_low_severity_summaries": [
+        "The DATA partition is not correctly signed.",
+        "The update partition is missing."
+      ]
+    },
+    {
+      "direction": "ISO to RVZ",
+      "valid": true,
+      "output_name": "Arc_Rise_Fantasia_Korean_from_ISO.rvz",
+      "output_size": 3466654224,
+      "output_sha256": "6BAE840583837C678328A370A8DA0DA4835963A3FA1E4D14DA094D0567BDADEF",
+      "checked_entries": 722,
+      "mismatch_count": 0,
+      "main_dol_output_sha256": "F548D0563FCB4002E7B707FA568B636676AFB4470194AAEC3D0CEC16710C0CD3",
+      "unexpected_dolphin_verify_summaries": [],
+      "accepted_low_severity_summaries": [
+        "The DATA partition is not correctly signed.",
+        "The update partition is missing."
+      ]
+    }
+  ],
+  "standalone_boot": {
+    "valid": true,
+    "image_name": "Arc_Rise_Fantasia_Korean_from_ISO.rvz",
+    "image_sha256": "6BAE840583837C678328A370A8DA0DA4835963A3FA1E4D14DA094D0567BDADEF",
+    "responding": true,
+    "cpu_seconds": 229.312,
+    "log_sha256": "0876A1A7B6FFBBDBC3640F5EA4DC7F83E538F4E4E4B622E05E1BC26B6F3EE191",
+    "panic_or_invalid_hits": 0,
+    "dvd_low_read_count": 324,
+    "boot_task_done": true,
+    "rpjj_save_path_seen": true,
+    "dump_file_count": 0
+  },
+  "release_package": {
+    "valid": true,
+    "file_name": "ArcRiseFantasia-Korean-ROM-Patcher-v1.1.0.zip",
+    "size": 474145450,
+    "sha256": "A85B9F110EC72B3993F8092DCE9A15E31445BA2D4AC7C7677D66F122F115DC2A",
+    "crc_failure": null,
+    "zip_member_count": 738,
+    "extracted_file_count": 738,
+    "manifest_file_count": 736,
+    "hash_or_size_mismatches": [],
+    "forbidden_complete_image_files": [],
+    "absolute_path_or_username_leaks": [],
+    "patcher_exe_sha256": "E3989EE87126B1254B7B1CAEB7779347CD396E531E59188494CCEA7EC702196C",
+    "fresh_extract_gui_valid": true,
+    "fresh_extract_gui_title": "아크 라이즈 판타지아 한국어 롬 패처 v1.1.0"
+  },
+  "defender": {
+    "valid": true,
+    "antivirus_enabled": true,
+    "real_time_protection_enabled": true,
+    "engine_version": "1.1.26070.7",
+    "signature_version": "1.457.292.0",
+    "signature_last_updated": "2026-08-22T21:05:43+09:00",
+    "scan_started_at": "2026-08-23T10:36:00.822627+09:00",
+    "scan_finished_at": "2026-08-23T10:36:06.061919+09:00",
+    "roles": [
+      "release_exe",
+      "release_stage",
+      "release_zip",
+      "fresh_extract"
+    ],
+    "new_detection_count": 0
+  },
+  "runtime_fix": {
+    "memory_rule_count": 945,
+    "main_dol_output_sha256": "F548D0563FCB4002E7B707FA568B636676AFB4470194AAEC3D0CEC16710C0CD3",
+    "riivolution_xml_sha256": "48881D4EEAC7145C40D07264B9ED9F734D87D0D5B994021DFB8962914C2F6EB1",
+    "mmu_required": false,
+    "warning_suppression_used": false,
+    "nul_glyph_guard_generation_report_sha256": "BF19464E9556DF2E4AC4345A29CBB351B960A5A349A8D061744592F881165D9B",
+    "public_patch_metadata_sha256": "8B081C0989EF46CC59D6C011EE2C9D727C62EF01A5593FEC2341CECFF3EDA915"
+  },
+  "completed_at": "2026-08-23T10:41:41.6945572+09:00"
+}

@@ -14,8 +14,8 @@ from pathlib import Path, PurePosixPath
 
 EXPECTED_SOURCE = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 EXPECTED_GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0"
-TEXT_EXTENSIONS = {".md", ".json", ".ps1", ".txt", ".xml"}
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Riivolution_v1.1.3"
+TEXT_EXTENSIONS = {".md", ".json", ".ps1", ".cmd", ".txt", ".xml"}
 PROHIBITED_PUBLIC_PATTERNS = [
     re.compile(r"C:\\Users\\", re.I),
     re.compile(r"CadriacLord", re.I),
@@ -96,6 +96,10 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
         if path.is_file() and path.name != "MANIFEST.json"
     }
     declared = {str(item["path"]): item for item in manifest.get("files", [])}
+    required_public_files = {"Install-ARF-KO.ps1", "설치하기.cmd", "README_KO.md", "WII_실기_설치.txt", "PROVENANCE.json"}
+    missing_public_files = sorted(required_public_files - set(actual))
+    if missing_public_files:
+        errors.append({"code": "one_click_public_files_missing", "paths": missing_public_files})
     if set(actual) != set(declared):
         errors.append(
             {
@@ -161,6 +165,63 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
                 "declared": manifest.get("game_replacement_file_count"),
             }
         )
+    provenance_path = package / "PROVENANCE.json"
+    if provenance_path.is_file():
+        try:
+            provenance = json.loads(provenance_path.read_text(encoding="utf-8-sig"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            errors.append({"code": "public_provenance_invalid", "error": str(exc)})
+        else:
+            raster = dict(provenance.get("raster_ui", {}))
+            town_map = dict(provenance.get("town_map_legend", {}))
+            if (
+                provenance.get("translation_engine_policy") != "Codex internal models only"
+                or provenance.get("external_translation_models_or_apis_used") is not False
+                or int(raster.get("translated_texture_entries", -1)) != 68
+                or int(raster.get("translated_text_items", -1)) != 155
+                or raster.get("translator_model") != "Codex internal"
+                or raster.get("external_translation_models_or_services_used") != []
+                or int(town_map.get("translated_labels", -1)) != 15
+                or int(town_map.get("base_memory_rules", -1)) != 926
+                or int(town_map.get("final_memory_rules", -1)) != 941
+                or town_map.get("icon_identifier_prefixes_preserved") is not True
+                or town_map.get("translator_model") != "Codex internal"
+                or town_map.get("external_translation_models_or_apis_used") is not False
+                or int(provenance.get("battle_magic", {}).get("skill_name_occurrences", -1)) != 80
+                or int(provenance.get("battle_magic", {}).get("unique_skill_names", -1)) != 79
+                or int(provenance.get("map_info_descriptions", {}).get("files", -1)) != 36
+                or int(provenance.get("map_info_descriptions", {}).get("members", -1)) != 72
+                or int(provenance.get("battle_raster_ui", {}).get("modified_texture_entries", -1)) != 12
+                or int(provenance.get("battle_raster_ui", {}).get("translated_text_items", -1)) != 19
+                or int(provenance.get("remaining_runtime_text", {}).get("memory_patches", -1)) != 2
+                or int(provenance.get("remaining_runtime_text", {}).get("final_memory_rules", -1)) != 945
+                or int(provenance.get("runtime_code_patch", {}).get("memory_rules", -1)) != 2
+                or int(provenance.get("runtime_code_patch", {}).get("base_memory_rules", -1)) != 943
+                or int(provenance.get("runtime_code_patch", {}).get("final_memory_rules", -1)) != 945
+                or provenance.get("runtime_code_patch", {}).get("mmu_required") is not False
+                or provenance.get("runtime_code_patch", {}).get("warning_suppression_used") is not False
+                or provenance.get("runtime_code_patch", {}).get("root_cause_confirmed") is not True
+                or provenance.get("runtime_code_patch", {}).get("valid") is not True
+                or int(provenance.get("addressee_scene_voice_review", {}).get("candidate_occurrences_reviewed", -1)) != 128
+                or int(provenance.get("addressee_scene_voice_review", {}).get("unique_addressee_tm_ids_corrected", -1)) != 127
+                or int(provenance.get("addressee_scene_voice_review", {}).get("speaker_voice_template_bleed_corrected", -1)) != 3
+                or int(provenance.get("addressee_scene_voice_review", {}).get("semantic_copy_errors_corrected", -1)) != 1
+                or int(provenance.get("addressee_scene_voice_review", {}).get("total_unique_tm_ids_corrected", -1)) != 131
+                or provenance.get("addressee_scene_voice_review", {}).get("translator_model") != "Codex internal"
+                or provenance.get("addressee_scene_voice_review", {}).get("external_translation_models_or_apis_used") is not False
+                or provenance.get("addressee_scene_voice_review", {}).get("valid") is not True
+            ):
+                errors.append({"code": "public_translation_provenance_mismatch"})
+    readme_path = package / "README_KO.md"
+    if readme_path.is_file():
+        readme = readme_path.read_text(encoding="utf-8-sig")
+        if ("v1.1.3" not in readme or "그림형 UI 68장, 155개 표기 한국어화" not in readme
+                or "마을·필드 지도 아이콘 범례 15개" not in readme
+                or "특수·보스 기술 80회" not in readme
+                or "자동 이동 지도 지역 설명 36곳" not in readme
+                or "그림형 전투 UI 12장, 19개 표기" not in readme
+                or "3인 이상 대화 128회" not in readme):
+            errors.append({"code": "public_readme_version_or_ui_scope_mismatch"})
     return errors
 
 

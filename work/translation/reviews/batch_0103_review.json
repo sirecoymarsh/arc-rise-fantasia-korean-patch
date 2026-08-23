@@ -12,8 +12,8 @@
   "draft": "work/translation/drafts/batch_0103.jsonl",
   "reviewed_output": "work/translation/reviewed/batch_0103.jsonl",
   "reviewed_units": 200,
-  "modified_units": 31,
-  "unchanged_units": 169,
+  "modified_units": 32,
+  "unchanged_units": 168,
   "review_dimensions": [
     "meaning",
     "function",
@@ -272,6 +272,14 @@
       "after": "노스 노와레교는 국교라고?\n그 성황을 국가 반역죄로 몰다니\n쿠데타나 다름없는 일이야",
       "category": "proper nouns",
       "reason": "종교를 가리키는 ノースノワーレ를 승인 표기 노스 노와레교로 통일했다."
+    },
+    {
+      "tm_id": "ARF-TM-6D9899EBD559582859E8",
+      "source_text": "あなたは……",
+      "before": "당신은……",
+      "after": "넌……",
+      "category": "scene_addressee_and_story_phase_voice",
+      "reason": "Whole-scene review replaced context-free Korean 당신 with a scene-specific name, title, casual pronoun, group form, or safe omission."
     }
   ],
   "verification_execution": {
@@ -284,5 +292,19 @@
       "boundary_audit"
     ],
     "note": "사용자 지시에 따라 별도 validator, fit, encoding, boundary audit를 실행하지 않았다."
+  },
+  "addressee_scene_voice_review": {
+    "schema": "arf-addressee-scene-voice-batch-review-v1",
+    "reviewer": "/root",
+    "independent_review": true,
+    "translation_engine_policy": "Codex internal models only",
+    "external_translation_services_used": [],
+    "tm_ids": [
+      "ARF-TM-6D9899EBD559582859E8"
+    ],
+    "reviewed_sha256": "FCB3B4DFE272BA5AAFA9E380FDD550FF8421C5FA6E0AD9AB180098496D374A1C"
+  },
+  "hashes": {
+    "reviewed_sha256": "FCB3B4DFE272BA5AAFA9E380FDD550FF8421C5FA6E0AD9AB180098496D374A1C"
   }
 }

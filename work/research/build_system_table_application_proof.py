@@ -194,6 +194,18 @@ def main() -> int:
         if not replacements:
             continue
         source_path = Path(str(catalog["source_path"]))
+        if not source_path.is_file():
+            legacy_root = Path(r"C:\Users\CadriacLord\Documents\Codex\2026-08-03\f-down-arc-rise-fantasia-japan")
+            try:
+                relative = source_path.relative_to(legacy_root)
+            except ValueError:
+                relative = None
+            relocated = root / relative if relative is not None else None
+            if relocated is not None and relocated.is_file():
+                source_path = relocated
+                catalog["source_path"] = str(source_path)
+        if not source_path.is_file():
+            raise FileNotFoundError(f"table source is missing: {source_path}")
         if sha256(source_path).lower() != str(catalog["source_sha256"]).lower():
             raise ValueError(f"source hash mismatch: {source_path}")
         replacement_catalog_path = catalogs_out / catalog_path.name
