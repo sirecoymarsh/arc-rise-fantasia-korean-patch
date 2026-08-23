@@ -27,7 +27,7 @@ namespace ArcRiseFantasiaKoreanRomPatcher
 
         public MainForm()
         {
-            Text = "아크 라이즈 판타지아 한국어 롬 패처 v1.1.2";
+            Text = "아크 라이즈 판타지아 한국어 롬 패처 v1.1.3";
             StartPosition = FormStartPosition.CenterScreen;
             MinimumSize = new Size(820, 610);
             Size = new Size(860, 650);

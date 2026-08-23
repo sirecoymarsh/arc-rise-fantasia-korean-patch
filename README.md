@@ -2,7 +2,32 @@
 
 `RPJJ99` 일본판용 한국어 패치의 제작 소스, 번역 메모리, 빌드 도구 및 해시 결속 검증 자료입니다.
 
-## 최신 배포본 v1.1.2 — 원클릭 ROM 패처
+## 최신 배포본 v1.1.3
+
+두 가지 설치 방식을 제공합니다.
+
+### A. 원클릭 ROM 패처
+
+- 파일: `ArcRiseFantasia-Korean-ROM-Patcher-v1.1.3.zip`
+- SHA-256: `10946D24777F2C9FBCCA2A6CB652C41B337C7A5619472766846A23BB0F311ADA`
+- 입력: 일본판 `RPJJ99` 원본 RVZ 또는 ISO
+- 출력: 한국어가 내장된 별도의 RVZ 또는 ISO
+- v1.1.3 변경: 저장 경로에 한글이 있을 때 WIT 오류 76이 발생하던 문제 수정
+- 원본 게임 이미지는 수정하지 않음
+
+ZIP을 완전히 푼 뒤 `ArcRiseFantasiaKoreanRomPatcher.exe`를 실행합니다. 한글이 포함된 입력·출력 경로를 지원합니다.
+
+### B. Wii 실기 Riivolution 파일 로딩
+
+- 파일: `Arc_Rise_Fantasia_Korean_Riivolution_v1.1.3.zip`
+- SHA-256: `7C98366F7695A78DBCABEC5929C510A71D68806E9DF2F61803B61A8B91B79943`
+- 게임 이미지를 새로 만들지 않음
+- 일본판 정품 디스크 `RPJJ99`와 FAT32 SD 카드 사용
+- SD 카드의 교체 파일을 Riivolution이 실시간으로 로딩
+
+자세한 복사 위치와 실행 순서는 [Wii 실기 설치 안내](WII_RIIVOLUTION_INSTALL_KO.md)를 참조하세요.
+
+## 이전 배포본 v1.1.2 — 원클릭 ROM 패처
 
 - 파일: `ArcRiseFantasia-Korean-ROM-Patcher-v1.1.2.zip`
 - SHA-256: `24F6CC58DE40C0F058629561FE9BC7A6E65F484D859DE80372E9099D2C42F3E1`

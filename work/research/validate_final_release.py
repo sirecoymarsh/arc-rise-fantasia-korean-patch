@@ -14,7 +14,7 @@ from pathlib import Path, PurePosixPath
 
 EXPECTED_SOURCE = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 EXPECTED_GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.5"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Riivolution_v1.1.3"
 TEXT_EXTENSIONS = {".md", ".json", ".ps1", ".cmd", ".txt", ".xml"}
 PROHIBITED_PUBLIC_PATTERNS = [
     re.compile(r"C:\\Users\\", re.I),
@@ -96,7 +96,7 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
         if path.is_file() and path.name != "MANIFEST.json"
     }
     declared = {str(item["path"]): item for item in manifest.get("files", [])}
-    required_public_files = {"Install-ARF-KO.ps1", "설치하기.cmd", "README_KO.md", "PROVENANCE.json"}
+    required_public_files = {"Install-ARF-KO.ps1", "설치하기.cmd", "README_KO.md", "WII_실기_설치.txt", "PROVENANCE.json"}
     missing_public_files = sorted(required_public_files - set(actual))
     if missing_public_files:
         errors.append({"code": "one_click_public_files_missing", "paths": missing_public_files})
@@ -194,7 +194,14 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
                 or int(provenance.get("battle_raster_ui", {}).get("modified_texture_entries", -1)) != 12
                 or int(provenance.get("battle_raster_ui", {}).get("translated_text_items", -1)) != 19
                 or int(provenance.get("remaining_runtime_text", {}).get("memory_patches", -1)) != 2
-                or int(provenance.get("remaining_runtime_text", {}).get("final_memory_rules", -1)) != 943
+                or int(provenance.get("remaining_runtime_text", {}).get("final_memory_rules", -1)) != 945
+                or int(provenance.get("runtime_code_patch", {}).get("memory_rules", -1)) != 2
+                or int(provenance.get("runtime_code_patch", {}).get("base_memory_rules", -1)) != 943
+                or int(provenance.get("runtime_code_patch", {}).get("final_memory_rules", -1)) != 945
+                or provenance.get("runtime_code_patch", {}).get("mmu_required") is not False
+                or provenance.get("runtime_code_patch", {}).get("warning_suppression_used") is not False
+                or provenance.get("runtime_code_patch", {}).get("root_cause_confirmed") is not True
+                or provenance.get("runtime_code_patch", {}).get("valid") is not True
                 or int(provenance.get("addressee_scene_voice_review", {}).get("candidate_occurrences_reviewed", -1)) != 128
                 or int(provenance.get("addressee_scene_voice_review", {}).get("unique_addressee_tm_ids_corrected", -1)) != 127
                 or int(provenance.get("addressee_scene_voice_review", {}).get("speaker_voice_template_bleed_corrected", -1)) != 3
@@ -208,7 +215,7 @@ def validate_tree(package: Path, manifest: dict[str, object]) -> list[dict[str, 
     readme_path = package / "README_KO.md"
     if readme_path.is_file():
         readme = readme_path.read_text(encoding="utf-8-sig")
-        if ("v1.0.5" not in readme or "그림형 UI 68장, 155개 표기 한국어화" not in readme
+        if ("v1.1.3" not in readme or "그림형 UI 68장, 155개 표기 한국어화" not in readme
                 or "마을·필드 지도 아이콘 범례 15개" not in readme
                 or "특수·보스 기술 80회" not in readme
                 or "자동 이동 지도 지역 설명 36곳" not in readme

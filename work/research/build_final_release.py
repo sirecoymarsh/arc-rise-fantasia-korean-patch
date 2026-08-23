@@ -19,7 +19,7 @@ from pathlib import Path, PurePosixPath
 
 SOURCE_RVZ_SHA256 = "4671E3E74EB664E441FA927FF6BE9FC06B7D4860782BC4CECCF7DBBB4108AAC5"
 GAME_ID = "RPJJ99"
-PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Patch_v1.0.5"
+PACKAGE_NAME = "Arc_Rise_Fantasia_Korean_Riivolution_v1.1.3"
 
 
 def sha256(path: Path) -> str:
@@ -166,7 +166,7 @@ def validate_staging(
         or town_map.get("translator_model") != "Codex internal"
         or town_map.get("external_translation_models_or_apis_used") is not False
         or int(counts.get("town_map_legend_translations", -1)) != 15
-        or int(riivolution.get("memory_count", -1)) != 943
+        or int(riivolution.get("memory_count", -1)) != 945
         or not town_input_path.is_file()
         or sha256(town_input_path) != str(town_input.get("sha256", "")).upper()
         or town_input.get("translator_model") != "Codex internal"
@@ -189,9 +189,30 @@ def validate_staging(
         or remaining.get("external_translation_models_or_apis_used") is not False
         or any(int(counts.get(key, -1)) != value for key, value in required_remaining.items())
         or int(riivolution.get("file_count", -1)) != 721
-        or int(riivolution.get("memory_count", -1)) != 943
+        or int(riivolution.get("memory_count", -1)) != 945
     ):
         raise RuntimeError("remaining untranslated-surface delta is incomplete")
+    runtime_code = dict(staging_manifest.get("runtime_code_patch", {}))
+    runtime_input = dict(inputs.get("nul_glyph_guard_patch", {}))
+    runtime_input_path = Path(str(runtime_input.get("path", "")))
+    if (
+        runtime_code.get("schema") != "arf-runtime-code-patch-v1"
+        or runtime_code.get("valid") is not True
+        or runtime_code.get("root_cause_confirmed") is not True
+        or runtime_code.get("mmu_required") is not False
+        or runtime_code.get("warning_suppression_used") is not False
+        or int(runtime_code.get("memory_rules", -1)) != 2
+        or int(runtime_code.get("base_memory_rules", -1)) != 943
+        or int(runtime_code.get("final_memory_rules", -1)) != 945
+        or int(counts.get("runtime_code_patch_memory_rules", -1)) != 2
+        or int(counts.get("riivolution_memory_rules", -1)) != 945
+        or not runtime_input_path.is_file()
+        or sha256(runtime_input_path) != str(runtime_input.get("sha256", "")).upper()
+        or str(runtime_input.get("sha256", "")).upper()
+        != str(runtime_code.get("patch_manifest_sha256", "")).upper()
+    ):
+        raise RuntimeError("NUL-glyph runtime guard is incomplete or unbound")
+
     for input_name in (
         "battle_magic_application_report",
         "map_info_application_report",
@@ -244,9 +265,9 @@ def write_public_files(
     staging_manifest_sha256: str,
     staging_tree_sha256: str,
 ) -> None:
-    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.0.5
+    readme = f"""# 아크 라이즈 판타지아 한국어 패치 v1.1.3
 
-## 설치
+## Dolphin 원클릭 설치
 
 1. ZIP 파일의 압축을 완전히 풉니다.
 2. Dolphin을 종료합니다.
@@ -258,7 +279,26 @@ Dolphin 사용자 폴더를 자동으로 찾지 못하면 폴더 선택창이 �
 **파일 → 사용자 폴더 열기**로 확인되는 폴더를 선택하면 됩니다. PowerShell 명령이나
 원본 RVZ 경로를 입력할 필요가 없으며 원본 RVZ는 수정하지 않습니다.
 
-## 직접 복사할 경우
+## Wii 실기 설치(Riivolution 파일 로딩)
+
+이 방식은 게임 이미지를 새로 만들지 않습니다. 홈브류 채널과 Riivolution이 설치된 Wii,
+FAT32 SD 카드, 일본판 정품 디스크(RPJJ99)가 필요합니다.
+
+1. ZIP의 압축을 완전히 풉니다.
+2. `payload\riivolution_sd` **안의** `arc_rise_fantasia_ko_full` 폴더와
+   `riivolution` 폴더를 SD 카드 최상위(루트)에 복사합니다.
+3. 복사 후 다음 두 경로가 존재하는지 확인합니다.
+   - `SD:/arc_rise_fantasia_ko_full/files/...`
+   - `SD:/riivolution/arc_rise_fantasia_ko_full.xml`
+4. SD 카드를 Wii에 넣고 일본판 정품 디스크를 삽입합니다.
+5. 홈브류 채널에서 Riivolution을 실행합니다.
+6. `Arc Rise Fantasia`의 `Korean Full Text Patch`를 `Enabled`로 두고 `Launch`를 누릅니다.
+
+`riivolution_sd` 폴더 자체를 SD 카드에 복사하면 인식되지 않습니다. 이 방법은
+Riivolution이 정품 디스크의 파일을 SD 카드 파일로 실시간 대체하는 방식입니다.
+USB 로더가 Riivolution XML 로딩을 별도로 지원하지 않는다면 ROM 패처의 ISO 출력을 사용하세요.
+
+## Dolphin에 직접 복사할 경우
 
 `payload\\riivolution_sd` 안의 `arc_rise_fantasia_ko_full` 폴더와
 `riivolution` 폴더를 Dolphin 사용자 폴더의 `Load` 폴더에 복사합니다.
@@ -300,6 +340,29 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
 원본과 동일하게 재생됩니다.
 """
     write_text_crlf(package / "README_KO.md", readme, "utf-8")
+    wii_guide = """아크 라이즈 판타지아 한국어 패치 v1.1.3 - Wii 실기 설치
+
+필요한 것
+- 홈브류 채널과 Riivolution이 설치된 Wii
+- FAT32 SD 카드
+- 일본판 정품 디스크(RPJJ99)
+
+설치
+1. ZIP의 압축을 완전히 풉니다.
+2. payload\riivolution_sd 안의 arc_rise_fantasia_ko_full 폴더와
+   riivolution 폴더를 SD 카드 최상위에 복사합니다.
+3. SD:/arc_rise_fantasia_ko_full/files 와
+   SD:/riivolution/arc_rise_fantasia_ko_full.xml 이 있는지 확인합니다.
+4. SD 카드를 Wii에 넣고 일본판 정품 디스크를 삽입합니다.
+5. 홈브류 채널에서 Riivolution을 실행합니다.
+6. Arc Rise Fantasia의 Korean Full Text Patch를 Enabled로 두고 Launch를 누릅니다.
+
+주의
+- riivolution_sd 폴더 자체를 복사하면 안 됩니다. 그 안의 두 폴더를 복사합니다.
+- 게임 이미지를 새로 만들지 않고 정품 디스크의 파일을 SD 카드 파일로 대체합니다.
+- USB 로더가 Riivolution XML을 지원하지 않으면 ROM 패처의 ISO 출력을 사용하세요.
+"""
+    write_text_crlf(package / "WII_실기_설치.txt", wii_guide, "utf-8-sig")
     public_staging = {
         "schema": staging_manifest.get("schema"),
         "game_id": staging_manifest.get("game_id"),
@@ -388,6 +451,15 @@ Dolphin 사용자 폴더의 다음 두 항목만 삭제합니다.
             "memory_patches": staging_manifest.get("counts", {}).get("battle_start_residue_translations"),
             "final_memory_rules": staging_manifest.get("riivolution", {}).get("memory_count"),
             "translator_model": "Codex internal",
+        },
+        "runtime_code_patch": {
+            "memory_rules": staging_manifest.get("runtime_code_patch", {}).get("memory_rules"),
+            "base_memory_rules": staging_manifest.get("runtime_code_patch", {}).get("base_memory_rules"),
+            "final_memory_rules": staging_manifest.get("runtime_code_patch", {}).get("final_memory_rules"),
+            "mmu_required": staging_manifest.get("runtime_code_patch", {}).get("mmu_required"),
+            "warning_suppression_used": staging_manifest.get("runtime_code_patch", {}).get("warning_suppression_used"),
+            "root_cause_confirmed": staging_manifest.get("runtime_code_patch", {}).get("root_cause_confirmed"),
+            "valid": staging_manifest.get("runtime_code_patch", {}).get("valid"),
         },
         "addressee_scene_voice_review": {
             "candidate_occurrences_reviewed": staging_manifest.get("counts", {}).get("addressee_candidate_occurrences_reviewed"),

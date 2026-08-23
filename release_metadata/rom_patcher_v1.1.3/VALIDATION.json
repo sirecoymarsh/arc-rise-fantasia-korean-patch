@@ -1,0 +1,29 @@
+{
+  "schema": "arf-rom-patcher-v1.1.3-validation-v1",
+  "valid": true,
+  "game_id": "RPJJ99",
+  "change": "WIT error 76 fix for Hangul output directories",
+  "release": {
+    "file": "ArcRiseFantasia-Korean-ROM-Patcher-v1.1.3.zip",
+    "size": 474146181,
+    "sha256": "10946D24777F2C9FBCCA2A6CB652C41B337C7A5619472766846A23BB0F311ADA",
+    "member_count": 738,
+    "patcher_exe_sha256": "73AB3470B5C72CB5DBFDCDAC7600B05939B759CB47519B802673A57E5F7D3D9C",
+    "contains_complete_game_image": false
+  },
+  "path_regression": {
+    "output_directory_contains_hangul": true,
+    "output_filename_contains_hangul": true,
+    "completed": true,
+    "output_size": 3466654224,
+    "output_sha256": "90FF4A89C91EAFAA5A9B7158CEB2F5AB148B7C9AF87DFD09DC0EDEE08612D98D",
+    "matches_verified_v1_1_2_image": true,
+    "patched_entries": 722
+  },
+  "release_archive_validation": {
+    "zip_crc_failure": null,
+    "hash_or_size_mismatches": [],
+    "forbidden_complete_image_files": [],
+    "absolute_path_or_username_leaks": []
+  }
+}

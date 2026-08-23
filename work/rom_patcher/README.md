@@ -1,6 +1,6 @@
 # Arc Rise Fantasia Korean ROM Patcher
 
-This directory contains the source and reproducible validation tools for the v1.1.2 Windows one-click ROM patcher.
+This directory contains the source and reproducible validation tools for the v1.1.3 Windows one-click ROM patcher.
 
 ## User contract
 
@@ -18,6 +18,11 @@ This directory contains the source and reproducible validation tools for the v1.
 - `build_rom_patcher_release.py`: compiles the GUI and builds the explicit-allowlist release tree and ZIP.
 - `verify_e2e_output.py`: independently extracts a generated image and verifies all 722 output hashes.
 - `validate_rom_patcher_release.py`: independently tests ZIP CRC, safe paths, extracted hashes, forbidden image extensions, and local-path leakage.
+
+The v1.1.3 patcher keeps the extracted-disc work tree in a WIT-compatible
+ASCII temporary location and avoids unsafe 8.3 aliases containing `~`. This
+fixes WIT error 76 when the chosen output directory contains Hangul while
+keeping the original and final output paths Unicode-safe.
 
 ## Bundled runtime tools
 
@@ -41,12 +46,18 @@ Independent release validation:
 
 ```powershell
 python work/rom_patcher/validate_rom_patcher_release.py `
-  work/rom_patcher/dist/ArcRiseFantasia-Korean-ROM-Patcher-v1.1.2.zip `
+  work/rom_patcher/dist/ArcRiseFantasia-Korean-ROM-Patcher-v1.1.3.zip `
   work/rom_patcher/e2e/release_extract `
   work/rom_patcher/e2e/release_validation_report.json
 ```
 
-## Frozen v1.1.2 results
+## v1.1.3 path regression result
+
+- Original RVZ to a Hangul directory and Hangul output filename: completed.
+- Output SHA-256: `90FF4A89C91EAFAA5A9B7158CEB2F5AB148B7C9AF87DFD09DC0EDEE08612D98D`.
+- The output is byte-identical to the independently verified v1.1.2 image.
+
+## Frozen v1.1.2 content results
 
 - Delta entries: 722/722 round-trip verified.
 - Original RVZ → Korean RVZ: 722/722 decoded output hashes matched.

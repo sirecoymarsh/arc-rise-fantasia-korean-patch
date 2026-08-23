@@ -9,7 +9,7 @@ import subprocess
 import zipfile
 from pathlib import Path
 
-VERSION = "1.1.2"
+VERSION = "1.1.3"
 EXPECTED_PATCH_MANIFEST_SHA256 = (
     "00D96CCBBE6CE3D8F562E9911BA9FA07885CA7AAFE4D5BDBE85B881C726C8889"
 )
@@ -126,7 +126,7 @@ def main() -> int:
         copy_file(wit_root / "bin" / name, stage / "tools/wit" / name)
     copy_file(wit_root / "gpl-2.0.txt", stage / "licenses/WIT-GPL-2.0.txt")
 
-    usage = """아크 라이즈 판타지아 한국어 롬 패처 v1.1.2
+    usage = """아크 라이즈 판타지아 한국어 롬 패처 v1.1.3
 
 사용법
 1. ZIP의 압축을 완전히 풉니다.
@@ -142,6 +142,7 @@ def main() -> int:
 - Dolphin/Riivolution/PowerShell 설치나 명령 입력은 필요하지 않습니다.
 - 실기용으로는 ISO 출력을 선택한 뒤 사용하는 USB 로더의 방식에 맞게 넣으면 됩니다.
 - 실패하면 원본은 그대로이며 임시 파일은 자동 정리됩니다.
+- 한글이 포함된 저장 경로도 지원합니다.
 - 완료되면 출력 옆에 .patch-report.json 검증 보고서가 함께 생성됩니다.
 """
     (stage / "사용법.txt").write_text(usage, encoding="utf-8-sig")

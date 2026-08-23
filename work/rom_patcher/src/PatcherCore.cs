@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
@@ -91,6 +92,10 @@ namespace ArcRiseFantasiaKoreanRomPatcher
         private readonly IProgress<PatchProgress> progress;
         private readonly CancellationToken cancellationToken;
 
+        [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        private static extern uint GetShortPathName(
+            string longPath, StringBuilder shortPath, uint bufferLength);
+
         public PatchWorker(string baseDirectory, IProgress<PatchProgress> progress,
             CancellationToken cancellationToken)
         {
@@ -112,7 +117,7 @@ namespace ArcRiseFantasiaKoreanRomPatcher
             string outputDirectory = Path.GetDirectoryName(outputFull);
             string outputFileName = Path.GetFileNameWithoutExtension(outputFull);
             string guid = Guid.NewGuid().ToString("N");
-            string workRoot = Path.Combine(outputDirectory, ".arf_ko_patch_" + guid);
+            string workRoot = CreateWitSafeWorkRoot(guid);
             string discRoot = Path.Combine(workRoot, "disc");
             string tempIso = Path.Combine(workRoot, "patched.iso");
             string partialOutput = Path.Combine(outputDirectory,
@@ -123,7 +128,7 @@ namespace ArcRiseFantasiaKoreanRomPatcher
             {
                 Report(1, "패치 파일을 점검하고 있습니다.", "패치 매니페스트와 도구 확인 완료");
                 EnsureFreeSpace(outputDirectory, request.OutputFormat);
-                Directory.CreateDirectory(workRoot);
+                EnsureTemporaryFreeSpace(workRoot);
 
                 Report(3, "원본 게임 정보를 확인하고 있습니다.", null);
                 ProcessResult sourceHeader = RunProcess(dolphinToolPath,
@@ -152,7 +157,17 @@ namespace ArcRiseFantasiaKoreanRomPatcher
                 ApplyDeltas(manifest, discRoot, workRoot);
 
                 Report(67, "한국어판 ISO를 조립하고 있습니다.", "파일 패치 적용 및 출력 해시 검증 완료");
-                RunProcess(witPath, "copy " + Quote(discRoot) + " " + Quote(tempIso) +
+                // The bundled Cygwin build of WIT can reject otherwise valid FST
+                // directories when any component of the Windows path contains
+                // Hangul or another non-ASCII character. All preceding .NET,
+                // DolphinTool, and xdelta work supports Unicode, so translate only
+                // the work tree to a WIT-compatible ASCII temp path. A short
+                // alias is used only when it contains neither Unicode nor '~'.
+                // The long paths remain authoritative for validation and cleanup.
+                string witWorkRoot = GetWitCompatiblePath(workRoot);
+                string witDiscRoot = Path.Combine(witWorkRoot, "disc");
+                string witTempIso = Path.Combine(witWorkRoot, "patched.iso");
+                RunProcess(witPath, "copy " + Quote(witDiscRoot) + " " + Quote(witTempIso) +
                     " --iso --psel data --overwrite --quiet", workRoot);
                 if (!File.Exists(tempIso) ||
                     new FileInfo(tempIso).Length < 1024L * 1024L * 1024L)
@@ -347,6 +362,15 @@ namespace ArcRiseFantasiaKoreanRomPatcher
                     Tail(value, 1200));
         }
 
+        private static void EnsureTemporaryFreeSpace(string directory)
+        {
+            DriveInfo drive = new DriveInfo(Path.GetPathRoot(Path.GetFullPath(directory)));
+            long required = 11L * 1024L * 1024L * 1024L;
+            if (drive.AvailableFreeSpace < required)
+                throw new IOException("임시 작업 드라이브의 여유 공간이 부족합니다.\r\n필요: 약 " +
+                    FormatBytes(required) + "\r\n현재: " + FormatBytes(drive.AvailableFreeSpace));
+        }
+
         private static void EnsureFreeSpace(string directory, string format)
         {
             DriveInfo drive = new DriveInfo(Path.GetPathRoot(Path.GetFullPath(directory)));
@@ -455,6 +479,59 @@ namespace ArcRiseFantasiaKoreanRomPatcher
         private static string Quote(string value)
         {
             return "\"" + value.Replace("\"", "\\\"") + "\"";
+        }
+        private static string CreateWitSafeWorkRoot(string guid)
+        {
+            string[] parentCandidates = {
+                Path.GetTempPath(),
+                Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments)
+            };
+            Exception lastError = null;
+            foreach (string parent in parentCandidates)
+            {
+                if (string.IsNullOrWhiteSpace(parent))
+                    continue;
+                string candidate = Path.Combine(parent, "ARFKO_TEMP_" + guid);
+                try
+                {
+                    Directory.CreateDirectory(candidate);
+                    GetWitCompatiblePath(candidate);
+                    return candidate;
+                }
+                catch (Exception ex)
+                {
+                    lastError = ex;
+                    TryDeleteDirectory(candidate);
+                }
+            }
+            throw new IOException(
+                "WIT용 영문 임시 작업 폴더를 만들 수 없습니다.", lastError);
+        }
+        private static string GetWitCompatiblePath(string existingDirectory)
+        {
+            string fullPath = Path.GetFullPath(existingDirectory);
+            if (!Directory.Exists(fullPath))
+                throw new DirectoryNotFoundException(
+                    "WIT 작업 폴더를 찾을 수 없습니다: " + fullPath);
+
+            // Prefer the original path whenever it is already ASCII. WIT's
+            // formatter treats the tilde in some 8.3 aliases as a control marker,
+            // so needlessly shortening an ASCII TEMP path can corrupt the name.
+            if (!fullPath.Any(delegate(char value) { return value > 0x7f; }))
+                return fullPath;
+
+            StringBuilder buffer = new StringBuilder(32768);
+            uint length = GetShortPathName(fullPath, buffer, (uint)buffer.Capacity);
+            string candidate = length > 0 && length < buffer.Capacity
+                ? buffer.ToString()
+                : fullPath;
+            if (candidate.Any(delegate(char value) { return value > 0x7f; }) ||
+                candidate.IndexOf('~') >= 0)
+                throw new IOException(
+                    "WIT가 사용할 영문 임시 경로를 만들 수 없습니다.\r\n" +
+                    "Windows 임시 폴더 경로를 확인하세요.\r\n" +
+                    "작업 경로: " + fullPath);
+            return candidate;
         }
         private static bool EqualsHash(string left, string right)
         {
