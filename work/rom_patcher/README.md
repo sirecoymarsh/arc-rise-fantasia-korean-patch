@@ -1,6 +1,6 @@
 # Arc Rise Fantasia Korean ROM Patcher
 
-This directory contains the source and reproducible validation tools for the v1.1.1 Windows one-click ROM patcher.
+This directory contains the source and reproducible validation tools for the v1.1.2 Windows one-click ROM patcher.
 
 ## User contract
 
@@ -27,7 +27,7 @@ The release includes the minimum files required from:
 - xdelta3 3.2.0
 - Wiimms ISO Tools 3.05a r8638
 
-Their license texts and notices are included in the release. Tool binaries and generated payloads are deliberately ignored by Git; the public metadata is stored in `release_metadata/rom_patcher_v1.1.1/`.
+Their license texts and notices are included in the release. Tool binaries and generated payloads are deliberately ignored by Git; the public metadata is stored in `release_metadata/rom_patcher_v1.1.2/`.
 
 ## Build
 
@@ -41,17 +41,18 @@ Independent release validation:
 
 ```powershell
 python work/rom_patcher/validate_rom_patcher_release.py `
-  work/rom_patcher/dist/ArcRiseFantasia-Korean-ROM-Patcher-v1.1.1.zip `
+  work/rom_patcher/dist/ArcRiseFantasia-Korean-ROM-Patcher-v1.1.2.zip `
   work/rom_patcher/e2e/release_extract `
   work/rom_patcher/e2e/release_validation_report.json
 ```
 
-## Frozen v1.1.1 results
+## Frozen v1.1.2 results
 
 - Delta entries: 722/722 round-trip verified.
 - Original RVZ → Korean RVZ: 722/722 decoded output hashes matched.
-- Standalone Korean RVZ boot: remained responsive for the 90-second smoke run.
+- Standalone Korean RVZ boot: remained responsive for the 60-second smoke run.
 - ZIP extraction: 738/738 files present; no CRC, hash, size, path, or forbidden-image issue.
-- Ray Stone field-object target name: byte-level and final-image hash proof passed.
+- Ray Stone and unset-name field-object targets: byte-level and final-image hash proof passed.
+- Full battle-text duplicate audit: zero residual Japanese across the enumerated BTEM, monster, special-skill, tutorial, runtime, and raster scopes.
 - Cage shop raster labels and `main.dol` strings: static/package proof passed; manual screen recheck remains.
 - Semantic translation provenance: `translator_model: Codex internal`.

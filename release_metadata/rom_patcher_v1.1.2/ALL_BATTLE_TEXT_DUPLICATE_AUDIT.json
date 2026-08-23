@@ -1,0 +1,143 @@
+{
+  "schema": "arf-all-battle-text-duplicate-audit-v1",
+  "game_id": "RPJJ99",
+  "translator_model": "Codex internal",
+  "external_translation_models_or_apis_used": false,
+  "enemy_btem": {
+    "entries": 270,
+    "catalog_units": 1032,
+    "uncovered_before_first_rtdp": 0,
+    "unchanged_before_first_rtdp": 0
+  },
+  "btl_usual_btem": {
+    "source_sha256": "D4DC0D5C73641AC5CA57ECB3EFCF654D6FE67F2AA2BBF6F6EB7FFEF9F6F8DA2C",
+    "final_sha256": "DB26FDECE1FCAB0BB7FF159D0EE919B2D4172CADA3378E58213D8922728F89F7",
+    "btem_count": 14,
+    "source_semantic_runs": 15,
+    "residue_count": 0,
+    "residue": [],
+    "rows": [
+      {
+        "identity": "0:btl_status.vol/0:btl_stat_party00.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/1:btl_stat_party01.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/2:btl_stat_party02.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/3:btl_stat_party03.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/4:btl_stat_party04.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/5:btl_stat_party05.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/6:btl_stat_party06.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/7:btl_stat_party07.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/8:btl_stat_party08.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/9:btl_stat_party09.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/10:btl_stat_party10.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/11:btl_stat_party07B.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "0:btl_status.vol/12:btl_stat_party06B.bin",
+        "source_semantic_runs": 1,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      },
+      {
+        "identity": "25:fld000.bin",
+        "source_semantic_runs": 2,
+        "unchanged_semantic_runs": 0,
+        "unchanged": []
+      }
+    ]
+  },
+  "battle_magic": {
+    "source_sha256": "F4A4A17EBA676E911980C94D2F3DA582BEB40210506E6748BF22D82801DC12C9",
+    "final_sha256": "692BF89202920917B7B3498EBB3B4B5A9BB676C05AEAE1CE77BE42D750B1EFBF",
+    "unique_source_patterns": 79,
+    "declared_slots": 80,
+    "source_hits": 80,
+    "undeclared_source_hits": [],
+    "declared_missing_count": 0,
+    "final_residue_hits": []
+  },
+  "battle_tutorial": {
+    "source_sha256": "9914F7D7D2BB4A85DC14FB9D332BA71A0D619E2FB102071C575FF56CDFFD27D7",
+    "final_sha256": "186CDE21D7173AF5E8F5FFDA3066D0E5E51564E3D292BAA0E04F51DABFB180FC",
+    "semantic_japanese_slots": 376,
+    "source_mismatch_count": 0,
+    "source_mismatches": [],
+    "final_residue_count": 0,
+    "final_residue": []
+  },
+  "main_dol_runtime": {
+    "valid": true,
+    "verified_memory_writes": 926,
+    "target_has_no_japanese_residue": true
+  },
+  "battle_raster_ui": {
+    "valid": true,
+    "modified_wtm_entries": 12,
+    "translated_text_items": 19,
+    "unexpected_changed_members": 0
+  },
+  "system_text_residue": {
+    "valid": true,
+    "semantic_japanese_unmatched_after": 0
+  },
+  "error_count": 0,
+  "errors": [],
+  "valid": true
+}
